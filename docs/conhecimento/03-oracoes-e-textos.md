@@ -38,7 +38,7 @@ Convenções deste documento:
 ### 1.1 Edições e aprovação
 
 - Desde a determinação do Santo Sínodo de 25.12.2009 sobre a atividade editorial, todas as edições destinadas à venda na rede eclesiástica (diocesana, paroquial, monástica) devem ser revistas pelo Conselho Editorial (Издательский совет, *Izdatelsky sovet*) e receber o selo «Рекомендовано к публикации Издательским советом Русской Православной Церкви» (*Rekomendovano k publikatsii…*); o selo «По благословению Святейшего Патриарха…» é concedido apenas a título excecional a edições de importância geral [46].
-- Consequência para a app: **não existe uma única edição "canónica"** do Molitvoslov; existem muitas edições com selo do Conselho Editorial (identificador do tipo «ИС Р…»), com pequenas diferenças (orações adicionais, notas, ortografia). A estrutura abaixo segue o Molitvoslov de azbyka.ru [1][2]. ⚠ PARA CONFIRMAR: comparar com uma edição impressa concreta com selo ИС (p. ex. Издательство Московской Патриархии) antes de fixar a ordem na app. 2.ª ronda: não há edição com selo ИС acessível em linha para comparação integral. Alternativa verificável: o *Молитвословъ* sinodal de 1900, em domínio público [74] (ver §6.5); continua por fazer a comparação com uma edição atual.
+- Consequência para a app: **não existe uma única edição "canónica"** do Molitvoslov; existem muitas edições com selo do Conselho Editorial (identificador do tipo «ИС Р…»), com pequenas diferenças (orações adicionais, notas, ortografia). A estrutura abaixo segue o Molitvoslov de azbyka.ru [1][2]. ⚠ PARA CONFIRMAR: comparar com uma edição impressa concreta com selo ИС (p. ex. Издательство Московской Патриархии) antes de fixar a ordem na app. 2.ª ronda: não há edição com selo ИС acessível em linha para comparação integral. Alternativa verificável: o *Молитвословъ* sinodal de 1900, em domínio público [72] (ver §6.5); continua por fazer a comparação com uma edição atual.
 - Texto impresso em itálico (rubricas, títulos) **não se lê** durante a oração [1][10] → na app, rubricas devem ter estilo distinto e ser excluídas de qualquer modo "ler em voz alta"/TTS.
 
 ### 1.2 Orações da manhã (Молитвы утренние, *Molitvy utrennie*)
@@ -410,7 +410,7 @@ azbyka reúne [33]: Последование по исходе души от т�
 | **Biblioteca Ponomar** (ponomar.net/maktabah) | Апостол (МП 1989), Евангелие (1984), Ирмологий (1995), Минея mensal (Правило веры 1996–97), Минея общая (2002), Октоих (1981), Псалтирь следованная (1978), Служебник 1906, Требник 1906, Типикон (2002), Триодь постная/цветная (1992), **Часослов (1991)**, Добротолюбие | HTML em **Unicode eslavo real** (verificado: U+A64B, U+1C82, U+2DED…) + PDF/DJVU | Licença dos textos não declarada no site [41][38]; dados Ponomar tratados como GPL — irrelevante: decisão 7/8 (não se usam como dados; ver §6.5) | [41][42][43] |
 | Repositórios Git Ponomar/SCI | github.com/typiconman, github.com/slavonic (ferramentas) | código | Software SCI: MIT salvo indicação em contrário [38]; licença de dados — irrelevante: decisão 7/8 | [38][41] |
 | azbyka.ru Molitvoslov | Orações da manhã/noite, cânones, acatistos, Saltério por catismas (também PDF/ePub) | HTML em escrita civil com acentos (Unicode); modo eslavo em UCS legado | Apenas «©2026 Молитвослов»; sem licença aberta encontrada → **pedir autorização** | [1][29][44] |
-| Edições sinodais pré-1917 (Служебник/Требник 1906) | Textos litúrgicos | via Ponomar | Domínio público na UE: obra anónima/coletiva publicada há mais de 70 anos [77]. ✔ Confirmado (2.ª ronda) para a UE/PT; regime russo não verificado. Usar as **digitalizações** da edição, não o HTML Ponomar (ver §6.5) | [42][77] |
+| Edições sinodais pré-1917 (Служебник/Требник 1906) | Textos litúrgicos | via Ponomar | Domínio público na UE: obra anónima/coletiva publicada há mais de 70 anos [75]. ✔ Confirmado (2.ª ronda) para a UE/PT; regime russo não verificado. Usar as **digitalizações** da edição, não o HTML Ponomar (ver §6.5) | [42][75] |
 
 Notas:
 - O **Molitvoslov** como livro autónomo não aparece na lista da Biblioteca Ponomar [42]; grande parte do seu conteúdo está no Часослов (Horologion) e no Псалтирь следованная (orações da manhã/noite estão em edições do "Псалтирь следованная"/"Канонник"). Ponto «em que livro Ponomar estão as orações da manhã/noite» — irrelevante: decisão 7/8 (os dados Ponomar não se usam; fonte alternativa em §6.5).
@@ -487,18 +487,18 @@ Notas PT-BR vs PT-PT: textos brasileiros usam "você/vocês", "Amém", ortografi
 |---|---|---|---|---|---|
 | **Almeida 1911** (reimp. de 1900; trad. séc. XVII) — SWORD `PorAlmeida1911` | PT antigo (ortografia de 1911) | protestante ⚠ | massorética ⚠ | GPL (segundo CrossWire) ⚠ texto provavelmente em domínio público | [60] |
 | **Bíblia Livre** (BLIVRE, 2018; atualização da Almeida 1819, Textus Receptus) | PT-BR | protestante ⚠ | massorética | **CC BY 4.0 Brasil** (atribuição obrigatória, indicar data da versão) | [61] |
-| **Bíblia Portuguesa Mundial** (BPM) | PT-BR | ✔ Confirmado (2.ª ronda): inclui Tobite, Judite, Ester e Daniel gregos, Sabedoria, Sirácida, Baruc, 1–3 Macabeus, 1 Esdras, Oração de Manassés, Salmo 151, 2 Esdras e 4 Macabeus [82] | massorética ⚠ | **Domínio público**; declarada "rascunho em revisão" | [62] |
+| **Bíblia Portuguesa Mundial** (BPM) | PT-BR | ✔ Confirmado (2.ª ronda): inclui Tobite, Judite, Ester e Daniel gregos, Sabedoria, Sirácida, Baruc, 1–3 Macabeus, 1 Esdras, Oração de Manassés, Salmo 151, 2 Esdras e 4 Macabeus [80] | massorética ⚠ | **Domínio público**; declarada "rascunho em revisão" | [62] |
 | **Figueiredo** (Pe. António Pereira de Figueiredo, trad. da Vulgata; NT 1778–81, AT 1782–90) | **PT-PT** (antigo) | inclui deuterocanónicos (edições posteriores de 1828 retiraram-nos) | Vulgata (≈ LXX) ⚠ | domínio público (autor † 1797) | [63] |
 | Traduções modernas (Sociedade Bíblica de Portugal, ARC/ARA/ACF, católicas) | PT-PT/PT-BR | — | — | Protegidas por direitos — irrelevante: decisão 7/8 (não se usam) | — |
 
 Recomendação: para os **salmos** dentro das orações (Sl 50, 22, 23, 115, etc.) a tradução deve seguir a **LXX** (o texto eslavo traduz a LXX). Nenhuma das Bíblias PT livres segue a LXX; Figueiredo (Vulgata) aproxima-se na numeração e em parte no texto, mas precisa de digitalização/OCR. ✔ Confirmado (2.ª ronda) — fontes digitais: digitalizações com OCR no archive.org.
-- Edição de **Londres, Harrison e Filhos, 1866**, num só volume [80]. O OCR é utilizável mas com erros. Não traz os livros deuterocanónicos: no OCR não aparece o título «Livro de Tobias» (verificação por OCR).
-- Série «Bíblia Sagrada (Volume I–XVI)», sem data de edição nos metadados [81].
+- Edição de **Londres, Harrison e Filhos, 1866**, num só volume [78]. O OCR é utilizável mas com erros. Não traz os livros deuterocanónicos: no OCR não aparece o título «Livro de Tobias» (verificação por OCR).
+- Série «Bíblia Sagrada (Volume I–XVI)», sem data de edição nos metadados [79].
 Ver §6.5.4. Alternativa: tradução própria dos salmos litúrgicos a partir da LXX/eslavo, ou licenciar a tradução do Missal/Devocionário (que contém salmos e hinos) [48][50].
 
 #### 6.3.3 Livros e cânone
 
-- A Bíblia ortodoxa russa inclui os livros "não canónicos"/anaginoskómena (Tobias, Judite, Sabedoria, Sirácida, Baruc, 1–3 Macabeus, 2–3 Esdras…) e o Salmo 151 [58][31]. ✔ Confirmado (2.ª ronda), segundo a *Enciclopédia Ortodoxa* [84], são **não canónicos** na Bíblia eslava/russa:
+- A Bíblia ortodoxa russa inclui os livros "não canónicos"/anaginoskómena (Tobias, Judite, Sabedoria, Sirácida, Baruc, 1–3 Macabeus, 2–3 Esdras…) e o Salmo 151 [58][31]. ✔ Confirmado (2.ª ronda), segundo a *Enciclopédia Ortodoxa* [82], são **não canónicos** na Bíblia eslava/russa:
 - os livros de Tobias, Judite, Sabedoria de Salomão, Sabedoria de Jesus filho de Sirac, 2 Esdras (= 1 Esd grego), 3 Esdras (= 4 Esd latino), Epístola de Jeremias, Baruc e os 3 livros dos Macabeus;
 - partes de livros canónicos: Oração de Manassés (fim de 2 Paralipómenos), acrescentos a Ester (7 trechos sem numeração de versículos), Salmo 151, e Daniel 3,24–90, 13 e 14.
 
@@ -522,8 +522,8 @@ Correspondência [31]:
 
 - Exemplos práticos: Sl 50 (eslavo) = Sl 51 (hebraico); Sl 90 «Живый в помощи Вышняго» = Sl 91; Sl 118 (catisma 17) = Sl 119.
 - ✔ Confirmado (2.ª ronda): **numeração dos versículos**:
-  - eslavo, sinodal russo e Vulgata/Figueiredo **contam o título** como versículo(s). Ex.: Sl 50 — vv. 1–2 = título, v. 3 = «Помилуй мя, Боже» / «Tem piedade de mim, ó Deos» (verificado no módulo CSlElizabeth, no texto sinodal do azbyka e no OCR de Figueiredo 1866) [57][59][80];
-  - as Bíblias protestantes em português (linha Almeida) **não numeram** o título: Sl 51,1 = «Tem misericórdia de mim, ó Deus» [83].
+  - eslavo, sinodal russo e Vulgata/Figueiredo **contam o título** como versículo(s). Ex.: Sl 50 — vv. 1–2 = título, v. 3 = «Помилуй мя, Боже» / «Tem piedade de mim, ó Deos» (verificado no módulo CSlElizabeth, no texto sinodal do azbyka e no OCR de Figueiredo 1866) [57][59][78];
+  - as Bíblias protestantes em português (linha Almeida) **não numeram** o título: Sl 51,1 = «Tem misericórdia de mim, ó Deus» [81].
   O desvio é de 0 a 2 versículos, conforme o salmo tenha título curto, longo ou nenhum. → Construir a tabela de correspondência por **alinhamento de texto**, salmo a salmo, não por fórmula (ver §6.5.5).
 - → Modelo de dados: guardar ambos (`lxx`, `mt`) e mostrar a LXX por omissão na interface litúrgica, com a MT entre parênteses.
 
@@ -546,22 +546,22 @@ Objetivo: obter o texto eslavo (lado a lado com a tradução própria, decisão 
 
 #### 6.5.1 Enquadramento jurídico (resumo técnico, não é parecer jurídico)
 
-- **Prazo de proteção na UE/PT** (Diretiva 2006/116/CE): em regra, vida do autor + 70 anos. Para obras **anónimas** ou coletivas sem autor identificado, 70 anos após a obra ser «licitamente tornada acessível ao público» [77]. As edições sinodais (Синодальная типография, «по благословению Святейшего Правительствующего Синода») anteriores a 1917 têm mais de 100 anos → **domínio público na UE/PT**. Regime russo não verificado nesta ronda.
+- **Prazo de proteção na UE/PT** (Diretiva 2006/116/CE): em regra, vida do autor + 70 anos. Para obras **anónimas** ou coletivas sem autor identificado, 70 anos após a obra ser «licitamente tornada acessível ao público» [75]. As edições sinodais (Синодальная типография, «по благословению Святейшего Правительствующего Синода») anteriores a 1917 têm mais de 100 anos → **domínio público na UE/PT**. Regime russo não verificado nesta ronda.
 - **Reimpressões modernas** («репринт», edições МП 1978–2002) podem acrescentar material editorial próprio (introduções, correções, paginação). Usar a **impressão original** pré-1917 (cf. §6.1.2).
-- **Transcrições**: na UE só há direito de autor quando há «criação intelectual própria do autor» (TJUE, C-5/08 *Infopaq*) [79]. Uma transcrição fiel de texto em domínio público dificilmente o cria. Porém, um corpus pode estar protegido pelo **direito *sui generis* das bases de dados** contra a extração de uma parte substancial (Diretiva 96/9/CE, art. 7.º) [78]. As digitalizações Ponomar estão sob GPL (decisão 8).
+- **Transcrições**: na UE só há direito de autor quando há «criação intelectual própria do autor» (TJUE, C-5/08 *Infopaq*) [77]. Uma transcrição fiel de texto em domínio público dificilmente o cria. Porém, um corpus pode estar protegido pelo **direito *sui generis* das bases de dados** contra a extração de uma parte substancial (Diretiva 96/9/CE, art. 7.º) [76]. As digitalizações Ponomar estão sob GPL (decisão 8).
   → **O texto subjacente (edição pré-1917) é livre e pode ser retranscrito de forma independente a partir das digitalizações**, sem copiar ficheiros Ponomar/azbyka. ⚠ PARA CONFIRMAR com jurista: se é admissível usar Ponomar/azbyka só para **revisão** pontual da transcrição própria (zona cinzenta; por prudência, evitar).
 
 #### 6.5.2 Digitalizações identificadas (pré-1917)
 
 | Texto necessário | Edição em domínio público identificada | Onde | Escrita | Estado |
 |---|---|---|---|---|
-| **Molitvoslov** (orações da manhã e da noite, **Símbolo da Fé**, **Последование ко Святому Причащению**) | «Молитвословъ», 10.ª ed., Moscovo, Синодальная типографія, 1900, «По благословенію Святѣйшаго Правительствующаго Синода» (exemplar da UNC Chapel Hill, André Savine Collection; 594 imagens; OCR ABBYY de má qualidade para cirílico antigo) | archive.org `molitvoslov00andr` [74] | **Escrita civil pré-reforma** (ѣ, і, ъ), não tipo eslavo | ✔ verificado (página de rosto, «Вѣрую во единаго Бога», «Послѣдованіе ко Святому Причащенію» no OCR) |
-| **Часослов** (Horologion) | «Часословъ», 1888, em tipo eslavo | archive.org `chasoslov_1888` [75] | Tipo eslavo | ⚠ PARA CONFIRMAR: impressor/local (metadados vazios; OCR ilegível) — ver página de rosto antes de usar |
+| **Molitvoslov** (orações da manhã e da noite, **Símbolo da Fé**, **Последование ко Святому Причащению**) | «Молитвословъ», 10.ª ed., Moscovo, Синодальная типографія, 1900, «По благословенію Святѣйшаго Правительствующаго Синода» (exemplar da UNC Chapel Hill, André Savine Collection; 594 imagens; OCR ABBYY de má qualidade para cirílico antigo) | archive.org `molitvoslov00andr` [72] | **Escrita civil pré-reforma** (ѣ, і, ъ), não tipo eslavo | ✔ verificado (página de rosto, «Вѣрую во единаго Бога», «Послѣдованіе ко Святому Причащенію» no OCR) |
+| **Часослов** (Horologion) | «Часословъ», 1888, em tipo eslavo | archive.org `chasoslov_1888` [73] | Tipo eslavo | ⚠ PARA CONFIRMAR: impressor/local (metadados vazios; OCR ilegível) — ver página de rosto antes de usar |
 | **Saltério** | Texto bíblico: Bíblia Isabelina (1751/1756), em domínio público | Módulo SWORD CSlElizabeth [57] | Escrita civil **sem acentos**, ortografia modernizada (verificado: Sl 50 «Помилуй мя, Боже, по велицей милости Твоей…») | ✔ texto; ⚠ PARA CONFIRMAR: digitalização de um **Псалтирь** sinodal pré-1917 (com divisão em catismas e acentos) — não identificada com segurança no archive.org. A Biblioteca Estatal Russa (dlib.rsl.ru) e a НЭБ (rusneb.ru) não são pesquisáveis por ferramentas automáticas |
 | **Служебник / Требник** (ofício da confissão, se necessário) | Edições sinodais de 1906 | Digitalizações PDF/DjVu listadas na Biblioteca Ponomar [42] | Tipo eslavo | Usar só as **imagens** da impressão de 1906, não o HTML |
 | **Menaion** (tropários de S. Basílio/S. Gregório, §3.4) | — | — | — | ⚠ PARA CONFIRMAR: digitalização pré-1917 não procurada nesta ronda |
 
-Não usar como fonte: as páginas do ru.wikisource «Часослов» e «Последование ко Святому Причащению». São cópias de azbyka.ru/verapravoslavnaya.ru, sem edição de origem identificada, e estão marcadas para eliminação ({{к удалению}}) [76].
+Não usar como fonte: as páginas do ru.wikisource «Часослов» e «Последование ко Святому Причащению». São cópias de azbyka.ru/verapravoslavnaya.ru, sem edição de origem identificada, e estão marcadas para eliminação ({{к удалению}}) [74].
 
 #### 6.5.3 Existe transcrição Unicode limpa e livre?
 
@@ -579,9 +579,9 @@ Não usar como fonte: as páginas do ru.wikisource «Часослов» e «По
 
 | Tradução | Variante | Domínio público | Cânone | Numeração dos salmos | Observações |
 |---|---|---|---|---|---|
-| **Figueiredo** (P.e António Pereira de Figueiredo, † 1797; trad. da Vulgata) | **PT europeu** (ortografia antiga: «Deos», «peccado») | Sim (autor † 1797) [63] | Edições originais com deuterocanónicos; a de Londres 1866 sem eles [80] | **Igual à LXX/eslava** (Vulgata), incluindo a contagem dos títulos como versículos [80] | A mais próxima do PT-PT e da numeração litúrgica. Precisa de atualização ortográfica (AO90) e revisão do OCR [80][81] |
+| **Figueiredo** (P.e António Pereira de Figueiredo, † 1797; trad. da Vulgata) | **PT europeu** (ortografia antiga: «Deos», «peccado») | Sim (autor † 1797) [63] | Edições originais com deuterocanónicos; a de Londres 1866 sem eles [78] | **Igual à LXX/eslava** (Vulgata), incluindo a contagem dos títulos como versículos [78] | A mais próxima do PT-PT e da numeração litúrgica. Precisa de atualização ortográfica (AO90) e revisão do OCR [78][79] |
 | Almeida 1911 (SWORD) | PT antigo, linha protestante | Texto provavelmente em domínio público; o módulo é GPL [60] | Protestante | Massorética | GPL → evitar (decisão 8) |
-| BPM | PT-BR | Sim [62] | Com deuterocanónicos [82] | Massorética ⚠ (não verificada salmo a salmo) | Exige adaptação PT-BR → PT-PT; «rascunho em revisão» |
+| BPM | PT-BR | Sim [62] | Com deuterocanónicos [80] | Massorética ⚠ (não verificada salmo a salmo) | Exige adaptação PT-BR → PT-PT; «rascunho em revisão» |
 
 → **DECISÃO DO UTILIZADOR** (leituras do dia, decisão 1):
 - (a) tradução própria de todas as perícopas a partir do eslavo/grego, coerente com a decisão 7;
@@ -591,8 +591,8 @@ Para os **salmos dentro das orações** mantém-se a tradução própria a parti
 
 #### 6.5.5 Numeração LXX dos salmos — regras de implementação
 
-1. **Chave canónica = numeração LXX/eslava** (capítulo e versículo), a mesma do texto eslavo, da Bíblia sinodal russa e de Figueiredo/Vulgata [84][59][80]. Correspondência de capítulos com a numeração massorética: tabela de §6.3.4 [31][84].
-2. **Versículos**: as edições LXX/eslavas/Vulgata numeram os títulos («Въ конецъ, псаломъ Давиду…») como versículos. As edições protestantes PT/EN não o fazem: Sl 50,3 eslavo = Sl 51,1 Almeida [57][83]. Guardar `{lxx_ps, lxx_v} ↔ {mt_ps, mt_v}` numa **tabela por versículo**, gerada por alinhamento de texto e revista à mão, não por fórmula.
+1. **Chave canónica = numeração LXX/eslava** (capítulo e versículo), a mesma do texto eslavo, da Bíblia sinodal russa e de Figueiredo/Vulgata [82][59][78]. Correspondência de capítulos com a numeração massorética: tabela de §6.3.4 [31][82].
+2. **Versículos**: as edições LXX/eslavas/Vulgata numeram os títulos («Въ конецъ, псаломъ Давиду…») como versículos. As edições protestantes PT/EN não o fazem: Sl 50,3 eslavo = Sl 51,1 Almeida [57][81]. Guardar `{lxx_ps, lxx_v} ↔ {mt_ps, mt_v}` numa **tabela por versículo**, gerada por alinhamento de texto e revista à mão, não por fórmula.
 3. **Casos especiais**: Sl 9 (= MT 9–10), 113 (= MT 114–115), 114+115 (= MT 116), 146+147 (= MT 147) e Sl 151 (sem correspondência MT) — ver §6.3.4.
 4. **Interface**: mostrar sempre a numeração LXX; a MT só entre parênteses, em contexto de estudo bíblico (§6.3.4).
 
@@ -600,24 +600,29 @@ Para os **salmos dentro das orações** mantém-se a tradução própria a parti
 
 ## 7. Lista consolidada de dúvidas (⚠)
 
-1. Fronteira "até à Ascensão" vs. Apodose da Páscoa para as substituições pascais [2][16].
-2. Se de Antipascha à Ascensão o início das orações da manhã é «Христос воскресе» ×3 em substituição apenas de «Царю Небесный» (azbyka) ou de toda a série inicial [1][2].
-3. Sábado à noite da Semana Luminosa: regra normal com substituições? [4]
-4. Edição impressa de referência (com selo ИС) para fixar a ordem das orações [46].
-5. Cânone triplo combinado — estatuto e fonte.
-6. Prática do Cânone Pascal antes da Comunhão de Antipascha à Ascensão.
-7. Tropário/condácio de S. Basílio e S. Gregório nas ações de graças.
-8. Documento oficial pós-2015 sobre a confissão; autoria de «В помощь кающимся».
-9. Decisão sinodal de 2018 sobre acatistos na Quaresma (texto oficial); estatuto de aprovação de cada acatisto; ordem "condácio 13 ×3, ícos 1, condácio 1".
-10. Limites exatos da suspensão das prostrações (Semana Santa).
-11. Variante de leitura do Saltério pelos vivos.
-12. Licença dos textos da Biblioteca Ponomar e do azbyka; enquadramento de direitos de edições modernas (1978–2002).
-13. Normalização Unicode segundo a UTN #41 (ler PDF completo).
-14. Conteúdo exato do Devocionário Ortodoxo (tradição russa vs. greco-romena); obter autorização LusOrtodoxia.
-15. Fontes ROCOR/antioquinas no Brasil (não verificadas); canonicidade de outras fontes PT.
-16. Licença real do módulo PorAlmeida1911 (GPL vs. domínio público); cânone/deuterocanónicos da BPM; fonte digital fiável de Figueiredo; licenças das traduções modernas.
-17. Numeração de versículos nos salmos (LXX vs. MT).
-18. Lista exata dos livros da Bíblia sinodal/isabelina.
+Estado após a 2.ª ronda (16 out. 2026):
+
+1. ✔ Fronteira pascal: substituições até quarta-feira da 6.ª semana (apodose) inclusive; ⚠ noite de quarta-feira → **DECISÃO DO UTILIZADOR** [64] (§1.4).
+2. ✔ De Antipascha à Ascensão substitui-se só «Царю Небесный» [16][64].
+3. ✔ Sábado à noite da Semana Luminosa: regra normal com substituições pascais [64].
+4. ⚠ Edição impressa de referência com selo ИС (comparação por fazer; alternativa em domínio público: [72]).
+5. ⚠ Cânone triplo combinado: existe em coletâneas, sem norma (§3.2).
+6. ⚠ Cânone Pascal antes da Comunhão de Antipascha à Ascensão: sem norma; só a Semana Luminosa está regulada [6][64].
+7. ✔ Tropário/condácio de S. Basílio e S. Gregório [69][70].
+8. ⚠ Documento da Comissão Inter-Conciliar sobre a confissão pós-2015 (não encontrado); ✔ «В помощь кающимся» é compilação [71].
+9. ✔ Determinação sinodal de 14.05.2018 (ata n.º 28) [65][66]; ⚠ aprovação de cada acatisto → **DECISÃO DO UTILIZADOR** (critério de inclusão); ⚠ ordem «condácio 13 ×3…».
+10. ✔ Limites das prostrações na Semana Santa [67][68].
+11. ⚠ Saltério pelos vivos: só prática de grupos do azbyka [30].
+12. Licenças Ponomar/azbyka e edições modernas — irrelevante: decisão 7/8; ✔ domínio público das edições pré-1917 na UE [75] (§6.5.1); ⚠ uso de Ponomar/azbyka só para revisão → jurista.
+13. ✔ Normalização Unicode segundo a UTN #41 [40] (§6.1.1).
+14. Devocionário/LusOrtodoxia — irrelevante: decisão 7/8.
+15. Fontes ROCOR/antioquinas no Brasil; outras fontes PT — irrelevante: decisão 7/8.
+16. PorAlmeida1911 = GPL (evitar, decisão 8); ✔ BPM com deuterocanónicos [80]; ✔ Figueiredo digitalizado no archive.org [78][79]; traduções modernas — irrelevante: decisão 7/8.
+17. ✔ Numeração de versículos nos salmos [57][59][78][81] (§6.3.4, §6.5.5).
+18. ✔ Lista dos livros não canónicos da Bíblia sinodal [82].
+19. (novo) ⚠ Impressor do Часослов de 1888; ⚠ digitalização de Псалтирь e Menaion sinodais pré-1917 (§6.5.2).
+20. (novo) **DECISÃO DO UTILIZADOR**: camada eslava por omissão (civil com acentos vs. autêntica) e calendário de transcrição (§6.5.3).
+21. (novo) **DECISÃO DO UTILIZADOR**: texto bíblico das leituras do dia — tradução própria, Figueiredo atualizado ou BPM adaptada (§6.5.4).
 
 ---
 
@@ -686,3 +691,22 @@ Para os **salmos dentro das orações** mantém-se a tradução própria a parti
 61. eBible.org — «Bíblia Livre» (porbr2018). https://ebible.org/find/details.php?id=porbr2018
 62. eBible.org — «Bíblia Portuguesa Mundial» (porbrbsl). https://ebible.org/find/details.php?id=porbrbsl
 63. Wikipédia — «António Pereira de Figueiredo». https://pt.wikipedia.org/wiki/Ant%C3%B3nio_Pereira_de_Figueiredo
+64. Азбука веры — Молитвослов: «О молитвенном правиле в дни празднования Святой Пасхи» (inclui excerto das *Богослужебные указания*). https://azbyka.ru/molitvoslov/o-molitvennom-pravile-v-dni-prazdnovaniya-svyatoj-pasxi.html
+65. Патриархия.ru — «В Издательском Совете состоялось очередное заседание рабочей группы по кодификации акафистов» (cita a determinação sinodal de 14.05.2018, ata n.º 28, p. 11). https://patriarchia.ru/article/122905
+66. «Приходы» (prichod.ru) — В. Городничева, «Норма акафиста» (resumo das decisões do Santo Sínodo de 14.05.2018). https://prichod.ru/aktualniye-voprosy/norma-akafista/
+67. Азбука веры — «Великая Среда» (fim das prostrações; exceção do Epitáfio). https://azbyka.ru/days/strastnaya-velikaja-sreda
+68. Азбука веры (Вопросы) — «Когда прекращаются земные поклоны в Великий пост?» (cita o Typikon). https://azbyka.ru/vopros/kogda-prekrashhayutsya-zemnye-poklony-v-velikij-post/
+69. Азбука веры — calendário: «Святитель Василий Великий» (tropário e condácio). https://azbyka.ru/days/sv-vasilij-velikij
+70. Азбука веры — calendário: «Святитель Григорий Двоеслов» (tropário e condácio). https://azbyka.ru/days/sv-grigorij-dvoeslov
+71. Азбука веры (áudio) — «В помощь кающимся» (secções, incl. «Дополнения из разных источников»). https://azbyka.ru/audio/?p=13985
+72. Internet Archive — «Молитвословъ», 10.ª ed., Москва, Синодальная типографія, 1900 (UNC Chapel Hill, André Savine Collection). https://archive.org/details/molitvoslov00andr
+73. Internet Archive — «Часословъ», 1888. https://archive.org/details/chasoslov_1888
+74. Wikisource (ru) — «Последование ко Святому Причащению» e «Часослов» (cópias marcadas para eliminação). https://ru.wikisource.org/wiki/Последование_ко_Святому_Причащению ; https://ru.wikisource.org/wiki/Часослов
+75. EUR-Lex — síntese «Direitos de autor e direitos conexos: prazo de proteção» (Diretiva 2006/116/CE). https://eur-lex.europa.eu/PT/legal-content/summary/copyright-and-related-rights-term-of-protection.html
+76. Diretiva 96/9/CE (proteção jurídica das bases de dados), art. 7.º. https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:31996L0009
+77. TJUE, acórdão de 16.07.2009, processo C-5/08, *Infopaq International*. https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:62008CJ0005
+78. Internet Archive — A. P. de Figueiredo, *Biblia Sagrada… traduzida em portuguez segundo a Vulgata latina*, Londres, Harrison e Filhos, 1866. https://archive.org/details/biblia-sagrada-vulgata-antonio-pereira-de-figueiredo-1866
+79. Internet Archive — A. P. de Figueiredo, *Bíblia Sagrada*, volumes I–XVI (digitalizações sem data de edição nos metadados). https://archive.org/details/6-biblia-vulgata-padre-antonio-pereira-de-figueiredo-01_202007
+80. eBible.org — BPM, índice de livros. https://ebible.org/porbrbsl/index.htm
+81. Bíblia Online — Almeida Corrigida Fiel, Sl 51 (exemplo de numeração protestante). https://www.bibliaonline.com.br/acf/sl/51
+82. Православная энциклопедия — «Библия. I. Общие сведения», t. 5, pp. 89–97. https://www.pravenc.ru/text/209479.html
