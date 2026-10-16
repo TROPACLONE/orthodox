@@ -4,7 +4,7 @@ import { build, transform } from 'esbuild';
 import fs from 'fs';
 import crypto from 'crypto';
 
-if (!fs.existsSync('data/menaion/graus.json')) { fs.mkdirSync('data/menaion', { recursive: true }); fs.writeFileSync('data/menaion/graus.json', '{}\n'); }
+await import('./tools/gerar-dados.mjs');
 const pkg = JSON.parse(fs.readFileSync('package.json', 'utf8'));
 fs.rmSync('dist', { recursive: true, force: true });
 fs.mkdirSync('dist/fonts', { recursive: true });

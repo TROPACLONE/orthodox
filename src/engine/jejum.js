@@ -26,7 +26,7 @@ const r = (nivel, extra) => Object.assign({ nivel, vinho: false, notas: [] }, ex
  */
 export function jejum(d, graus = {}) {
   const { o, dow } = d, md = chaveMD(d.juliano.m, d.juliano.d), m = d.juliano.m, dia = d.juliano.d;
-  const gT = graus.typikon || null, gP = graus.atual || graus.typikon || null;
+  const gT = graus.typikon || null, gP = 'atual' in graus ? graus.atual : gT;
   const quaSex = dow === 3 || dow === 5, satSun = dow === 6 || dow === 0;
   const tudo = (tempo, nota) => ({ jejum: false, tempo, paroquial: r(N.TUDO), typikon: r(N.TUDO, nota ? { notas: [nota] } : {}) });
 

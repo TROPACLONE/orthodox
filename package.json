@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "build": "node build.mjs",
-    "test": "node tests/calendario.test.mjs && node tests/jejum.test.mjs && node tests/i18n.test.mjs && node tests/dados.test.mjs"
+    "test": "node tools/gerar-dados.mjs && node tests/calendario.test.mjs && node tests/jejum.test.mjs && node tests/i18n.test.mjs && node tests/dados.test.mjs && node tests/graus.test.mjs"
   },
   "devDependencies": {
     "esbuild": "0.28.2"

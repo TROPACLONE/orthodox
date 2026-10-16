@@ -7,7 +7,7 @@
 import { hoje as jdnHoje, jdnGregoriano, gregoriano } from './engine/datas.js';
 import { dia } from './engine/calendario.js';
 import { jejum, N } from './engine/jejum.js';
-import { grausDoDia, comemoracoesDoDia } from './dados/graus.js';
+import { grausDoDia, comemoracoesDoDia, carregarNomes } from './dados/graus.js';
 
 const LINGUAS = ['pt', 'uk', 'ru', 'en'];
 const NOMES_LINGUA = { pt: 'Português', uk: 'Українська', ru: 'Русский', en: 'English' };
@@ -114,7 +114,7 @@ function ecraHoje() {
   for (const id of d.moveis) if (!vistos.has(id)) { lista.append(h('li', { text: T.movel[id] })); vistos.add(id); }
   for (const id of d.semimoveis) lista.append(h('li', { text: T.semimovel[id] }));
   if (d.prefesta) lista.append(h('li', { class: 'fase', text: `${T.ui[d.prefesta.fase]}: ${festa(d.prefesta.id)}` }));
-  for (const c of comemoracoesDoDia(d, st.lingua)) lista.append(h('li', { text: c }));
+  for (const c of comemoracoesDoDia(d)) lista.append(h('li', { text: c }));
   if (lista.childElementCount) bloco.append(lista);
   if (bloco.childElementCount > 1) s.append(bloco);
 
@@ -223,7 +223,8 @@ function render() {
 }
 
 async function mudarLingua(l) {
-  st.t = (await import(`./i18n/${l}.js`)).default;
+  const [t] = await Promise.all([import(`./i18n/${l}.js`), carregarNomes(l)]);
+  st.t = t.default;
   st.lingua = l; fmtCache.clear();
 }
 

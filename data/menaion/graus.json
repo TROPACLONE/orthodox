@@ -1,1 +1,2182 @@
-{}
+{
+ "01-01": [
+  {
+   "id": "circuncisao-basilio-magno",
+   "pt": "Circuncisão do Senhor; S. Basílio Magno",
+   "cu": "Обрезание Господне. Свт. Василий Великий",
+   "grau_typikon": "grande",
+   "grau_atual": "grande",
+   "tipo": "senhor",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "01-02": [
+  {
+   "id": "serafim-de-sarov",
+   "pt": "S. Serafim de Sarov (repouso)",
+   "cu": "Прп. Серафим Саровский",
+   "grau_typikon": "vigilia",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26;AZ"
+  }
+ ],
+ "01-06": [
+  {
+   "id": "teofania",
+   "pt": "Teofania — Batismo do Senhor",
+   "cu": "Святое Богоявление. Крещение Господне",
+   "grau_typikon": "grande",
+   "grau_atual": "grande",
+   "tipo": "senhor",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "01-07": [
+  {
+   "id": "sinaxe-joao-batista",
+   "pt": "Sinaxe de S. João Batista",
+   "cu": "Собор Предтечи и Крестителя Господня Иоанна",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "01-09": [
+  {
+   "id": "filipe-de-moscovo",
+   "pt": "S. Filipe, metropolita de Moscovo",
+   "cu": "Свт. Филипп, митр. Московский",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "01-10": [
+  {
+   "id": "teofano-recluso",
+   "pt": "S. Teófano, o Recluso",
+   "cu": "Свт. Феофан, Затворник Вышенский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;CAN1988"
+  }
+ ],
+ "01-11": [
+  {
+   "id": "teodosio-cenobiarca",
+   "pt": "S. Teodósio, o Cenobiarca",
+   "cu": "Прп. Феодосий Великий, общих житий начальник",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "01-12": [
+  {
+   "id": "sava-da-servia",
+   "pt": "S. Sava, arcebispo da Sérvia",
+   "cu": "Свт. Савва I, архиеп. Сербский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "01-13": [
+  {
+   "id": "irinarco-de-rostov",
+   "pt": "S. Irinarco, recluso de Rostov",
+   "cu": "Прп. Иринарх, затворник Ростовский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;KB05"
+  }
+ ],
+ "01-14": [
+  {
+   "id": "nina-da-georgia",
+   "pt": "S. Nina, igual aos Apóstolos, iluminadora da Geórgia",
+   "cu": "Равноап. Нина, просветительница Грузии",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  },
+  {
+   "id": "despedida-teofania",
+   "pt": "Despedida da Teofania",
+   "cu": "Отдание праздника Богоявления",
+   "grau_typikon": null,
+   "grau_atual": "doxologia",
+   "tipo": "senhor",
+   "fonte": "BU26"
+  }
+ ],
+ "01-17": [
+  {
+   "id": "antao-o-grande",
+   "pt": "S. Antão, o Grande",
+   "cu": "Прп. Антоний Великий",
+   "grau_typikon": "vigilia",
+   "grau_atual": "vigilia",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "01-19": [
+  {
+   "id": "marcos-de-efeso",
+   "pt": "S. Marcos de Éfeso",
+   "cu": "Свт. Марк, архиеп. Ефесский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "KB05"
+  }
+ ],
+ "01-20": [
+  {
+   "id": "eutimio-o-grande",
+   "pt": "S. Eutímio, o Grande",
+   "cu": "Прп. Евфимий Великий",
+   "grau_typikon": "vigilia",
+   "grau_atual": "vigilia",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "01-21": [
+  {
+   "id": "maximo-o-grego",
+   "pt": "S. Máximo, o Grego",
+   "cu": "Прп. Максим Грек",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;CAN1988"
+  }
+ ],
+ "01-24": [
+  {
+   "id": "xenia-de-sao-petersburgo",
+   "pt": "S. Xénia de São Petersburgo",
+   "cu": "Блж. Ксения Петербургская",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;CAN1988"
+  }
+ ],
+ "01-25": [
+  {
+   "id": "gregorio-teologo",
+   "pt": "S. Gregório, o Teólogo",
+   "cu": "Свт. Григорий Богослов",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26;KB05"
+  }
+ ],
+ "01-27": [
+  {
+   "id": "joao-crisostomo-trasladacao",
+   "pt": "Trasladação das relíquias de S. João Crisóstomo",
+   "cu": "Перенесение мощей свт. Иоанна Златоуста",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "01-30": [
+  {
+   "id": "tres-hierarcas",
+   "pt": "Sinaxe dos Três Hierarcas (Basílio, Gregório e João Crisóstomo)",
+   "cu": "Собор вселенских учителей и святителей Василия Великого, Григория Богослова и Иоанна Златоустого",
+   "grau_typikon": "vigilia",
+   "grau_atual": "vigilia",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "01-31": [
+  {
+   "id": "nikita-de-novgorod",
+   "pt": "S. Nikita, bispo de Novgorod",
+   "cu": "Свт. Никита, еп. Новгородский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "02-02": [
+  {
+   "id": "apresentacao-senhor",
+   "pt": "Apresentação do Senhor no Templo (Encontro)",
+   "cu": "Сретение Господа Бога и Спаса нашего Иисуса Христа",
+   "grau_typikon": "grande",
+   "grau_atual": "grande",
+   "tipo": "senhor",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "02-05": [
+  {
+   "id": "teodosio-de-tchernigov",
+   "pt": "S. Teodósio de Tchernigov",
+   "cu": "Свт. Феодосий, архиеп. Черниговский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "KB05;CAN1896"
+  }
+ ],
+ "02-09": [
+  {
+   "id": "despedida-apresentacao-senhor",
+   "pt": "Despedida da Apresentação do Senhor",
+   "cu": "Отдание праздника Сретения Господня",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "senhor",
+   "fonte": "TYP48"
+  },
+  {
+   "id": "tikhon-de-moscovo-reliquias",
+   "pt": "Invenção das relíquias de S. Tikhon, Patriarca de Moscovo",
+   "cu": "Обретение мощей свт. Тихона, патриарха Московского",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26"
+  }
+ ],
+ "02-11": [
+  {
+   "id": "demetrio-de-prilutsk",
+   "pt": "S. Demétrio de Prilutsk (Vologda)",
+   "cu": "Прп. Димитрий Прилуцкий",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "02-12": [
+  {
+   "id": "aleixo-de-moscovo",
+   "pt": "S. Aleixo, metropolita de Moscovo",
+   "cu": "Свт. Алексий, митр. Московский",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  },
+  {
+   "id": "icone-iveron-fevereiro",
+   "pt": "Ícone da Mãe de Deus de Iveron",
+   "cu": "Иверская икона Божией Матери",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "icone",
+   "fonte": "BU26"
+  }
+ ],
+ "02-14": [
+  {
+   "id": "cirilo-filosofo",
+   "pt": "S. Cirilo, o Filósofo, igual aos Apóstolos, mestre dos Eslavos",
+   "cu": "Равноап. Кирилл, учитель Словенский",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;KB05"
+  }
+ ],
+ "02-17": [
+  {
+   "id": "hermogenes-de-moscovo",
+   "pt": "S. Hermógenes, Patriarca de Moscovo, hieromártir",
+   "cu": "Сщмч. Ермоген, патриарх Московский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "KB05;CAN1913"
+  }
+ ],
+ "02-23": [
+  {
+   "id": "matrona-de-moscovo-reliquias",
+   "pt": "Invenção das relíquias de S. Matrona de Moscovo",
+   "cu": "Обретение мощей блж. Матроны Московской",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26"
+  }
+ ],
+ "02-24": [
+  {
+   "id": "cabeca-joao-batista-1-2",
+   "pt": "Primeira e segunda invenção da cabeça de S. João Batista",
+   "cu": "Первое и второе обретение главы Иоанна Предтечи",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "03-02": [
+  {
+   "id": "arsenio-de-tver",
+   "pt": "S. Arsénio, bispo de Tver",
+   "cu": "Свт. Арсений, еп. Тверской",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  },
+  {
+   "id": "icone-soberana",
+   "pt": "Ícone da Mãe de Deus «Soberana» (Derjavnaia)",
+   "cu": "Икона Божией Матери «Державная»",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "icone",
+   "fonte": "BU26;AZ"
+  }
+ ],
+ "03-04": [
+  {
+   "id": "daniel-de-moscovo",
+   "pt": "S. Daniel de Moscovo, fiel príncipe",
+   "cu": "Блгв. кн. Даниил Московский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "KB05"
+  }
+ ],
+ "03-09": [
+  {
+   "id": "quarenta-martires-de-sebaste",
+   "pt": "Ss. Quarenta Mártires de Sebaste",
+   "cu": "Сорок мучеников Севастийских",
+   "grau_typikon": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ;KB05;AJUSTE-DOMINGO"
+  }
+ ],
+ "03-11": [
+  {
+   "id": "eutimio-de-novgorod",
+   "pt": "S. Eutímio, arcebispo de Novgorod",
+   "cu": "Свт. Евфимий, архиеп. Новгородский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "03-17": [
+  {
+   "id": "macario-de-kaliazin",
+   "pt": "S. Macário de Kaliazin",
+   "cu": "Прп. Макарий Калязинский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "03-25": [
+  {
+   "id": "anunciacao",
+   "pt": "Anunciação da Santíssima Mãe de Deus",
+   "cu": "Благовещение Пресвятой Богородицы",
+   "grau_typikon": "grande",
+   "grau_atual": "grande",
+   "tipo": "mae_de_deus",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "04-01": [
+  {
+   "id": "eutimio-de-suzdal",
+   "pt": "S. Eutímio de Suzdal",
+   "cu": "Прп. Евфимий Суздальский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "04-06": [
+  {
+   "id": "metodio-da-moravia",
+   "pt": "S. Metódio, arcebispo da Morávia, igual aos Apóstolos",
+   "cu": "Равноап. Мефодий, архиеп. Моравский",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "04-17": [
+  {
+   "id": "zosimo-de-solovki",
+   "pt": "S. Zósimo de Solovki",
+   "cu": "Прп. Зосима Соловецкий",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "04-19": [
+  {
+   "id": "matrona-de-moscovo",
+   "pt": "S. Matrona de Moscovo",
+   "cu": "Блж. Матрона Московская",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;CAN2004"
+  }
+ ],
+ "04-23": [
+  {
+   "id": "jorge-grande-martir",
+   "pt": "S. Jorge, grande-mártir",
+   "cu": "Вмч. Георгий Победоносец",
+   "grau_typikon": "vigilia",
+   "grau_atual": "vigilia",
+   "tipo": "santo",
+   "fonte": "TYP48;KB05;BU26"
+  }
+ ],
+ "04-25": [
+  {
+   "id": "marcos-evangelista",
+   "pt": "S. Marcos, apóstolo e evangelista",
+   "cu": "Ап. и ев. Марк",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "04-26": [
+  {
+   "id": "estevao-de-perm",
+   "pt": "S. Estêvão de Perm",
+   "cu": "Свт. Стефан, еп. Великопермский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "04-30": [
+  {
+   "id": "tiago-de-zebedeu",
+   "pt": "S. Tiago, filho de Zebedeu, apóstolo",
+   "cu": "Ап. Иаков Зеведеев",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  },
+  {
+   "id": "inacio-briantchaninov",
+   "pt": "S. Inácio Briantchaninov",
+   "cu": "Свт. Игнатий (Брянчанинов), еп. Кавказский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;CAN1988"
+  }
+ ],
+ "05-01": [
+  {
+   "id": "pafnucio-de-borovsk",
+   "pt": "S. Pafnúcio de Borovsk",
+   "cu": "Прп. Пафнутий Боровский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "05-03": [
+  {
+   "id": "teodosio-das-grutas",
+   "pt": "S. Teodósio das Grutas de Kiev",
+   "cu": "Прп. Феодосий Печерский",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "05-07": [
+  {
+   "id": "nilo-de-sora",
+   "pt": "S. Nilo de Sora",
+   "cu": "Прп. Нил Сорский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "KB05"
+  }
+ ],
+ "05-08": [
+  {
+   "id": "joao-teologo-maio",
+   "pt": "S. João, o Teólogo, apóstolo e evangelista",
+   "cu": "Ап. и ев. Иоанн Богослов",
+   "grau_typikon": "vigilia",
+   "grau_atual": "vigilia",
+   "tipo": "santo",
+   "fonte": "TYP48"
+  }
+ ],
+ "05-09": [
+  {
+   "id": "nicolau-trasladacao",
+   "pt": "Trasladação das relíquias de S. Nicolau de Mira para Bari",
+   "cu": "Перенесение мощей свт. Николая из Мир Ликийских в Бар",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "05-10": [
+  {
+   "id": "simao-zelota",
+   "pt": "S. Simão, o Zelota, apóstolo",
+   "cu": "Ап. Симон Зилот",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "05-11": [
+  {
+   "id": "cirilo-e-metodio",
+   "pt": "Ss. Cirilo e Metódio, iguais aos Apóstolos, mestres dos Eslavos",
+   "cu": "Равноапп. Мефодий и Кирилл, учители Словенские",
+   "grau_typikon": "vigilia",
+   "grau_atual": "vigilia",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "05-12": [
+  {
+   "id": "hermogenes-glorificacao",
+   "pt": "S. Hermógenes, Patriarca de Moscovo (glorificação)",
+   "cu": "Прославление сщмч. Ермогена, патриарха Московского",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;CAN1913"
+  }
+ ],
+ "05-15": [
+  {
+   "id": "isaias-de-rostov",
+   "pt": "S. Isaías, bispo de Rostov",
+   "cu": "Свт. Исаия, еп. Ростовский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  },
+  {
+   "id": "demetrio-de-uglitch",
+   "pt": "S. Demétrio, tsarévitch, de Úglitch e Moscovo",
+   "cu": "Блгв. царевич Димитрий Угличский и Московский",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "05-16": [
+  {
+   "id": "efrem-de-perekom",
+   "pt": "S. Efrém de Perekom (Novgorod)",
+   "cu": "Прп. Ефрем Перекомский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "05-19": [
+  {
+   "id": "cornelio-de-komel",
+   "pt": "S. Cornélio de Komel",
+   "cu": "Прп. Корнилий Комельский",
+   "grau_typikon": "polieleo",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;KB05"
+  },
+  {
+   "id": "demetrio-donskoi",
+   "pt": "S. Demétrio Donskoi, fiel príncipe, e S. Eufrosina (Eudóxia)",
+   "cu": "Блгвв. вел. кн. Димитрий Донской и вел. кн. Евдокия (Евфросиния)",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;CAN1988"
+  }
+ ],
+ "05-20": [
+  {
+   "id": "aleixo-de-moscovo-reliquias",
+   "pt": "Invenção das relíquias de S. Aleixo, metropolita de Moscovo",
+   "cu": "Обретение мощей свт. Алексия, митр. Московского",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "05-21": [
+  {
+   "id": "constantino-e-helena",
+   "pt": "Ss. Constantino e Helena, iguais aos Apóstolos",
+   "cu": "Равноапп. царь Константин и мать его царица Елена",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  },
+  {
+   "id": "icone-vladimir-maio",
+   "pt": "Ícone da Mãe de Deus de Vladimir (libertação de Moscovo, 1521)",
+   "cu": "Владимирская икона Божией Матери",
+   "grau_typikon": "vigilia",
+   "grau_atual": "vigilia",
+   "tipo": "icone",
+   "fonte": "TYP48;AZ;BU26"
+  },
+  {
+   "id": "constantino-de-murom",
+   "pt": "Ss. Constantino de Murom e seus filhos Miguel e Teodoro",
+   "cu": "Блгв. кн. Константин и чада его Михаил и Феодор, Муромские",
+   "grau_typikon": "doxologia",
+   "grau_atual": null,
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "05-23": [
+  {
+   "id": "leoncio-de-rostov-reliquias",
+   "pt": "Invenção das relíquias de S. Leôncio, bispo de Rostov",
+   "cu": "Обретение мощей свт. Леонтия, еп. Ростовского",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "05-24": [
+  {
+   "id": "nikita-de-pereslavl",
+   "pt": "S. Nikita, o Estilita, de Pereslavl",
+   "cu": "Прп. Никита Столпник Переяславский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  },
+  {
+   "id": "xenia-glorificacao",
+   "pt": "S. Xénia de São Petersburgo (glorificação)",
+   "cu": "Блж. Ксения Петербургская (прославление)",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "AZ;BU26;CAN1988"
+  }
+ ],
+ "05-25": [
+  {
+   "id": "cabeca-joao-batista-3",
+   "pt": "Terceira invenção da cabeça de S. João Batista",
+   "cu": "Третье обретение главы Иоанна Предтечи",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "05-27": [
+  {
+   "id": "nilo-de-stolobny-reliquias",
+   "pt": "Invenção das relíquias de S. Nilo de Stolobny",
+   "cu": "Обретение мощей прп. Нила Столобенского",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  },
+  {
+   "id": "joao-russo",
+   "pt": "S. João, o Russo, justo e confessor",
+   "cu": "Прав. Иоанн Русский, исп.",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;AZ"
+  }
+ ],
+ "05-29": [
+  {
+   "id": "lucas-da-crimeia",
+   "pt": "S. Lucas, arcebispo da Crimeia, confessor",
+   "cu": "Свт. Лука (Войно-Ясенецкий), исп., архиеп. Симферопольский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;CAN2000"
+  }
+ ],
+ "06-01": [
+  {
+   "id": "joao-de-kronstadt-glorificacao",
+   "pt": "S. João de Kronstadt (glorificação)",
+   "cu": "Прав. Иоанн Кронштадтский (прославление)",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "KB05;CAN1990"
+  }
+ ],
+ "06-04": [
+  {
+   "id": "metodio-de-pechnocha-repouso",
+   "pt": "S. Metódio de Pechnocha (repouso)",
+   "cu": "Прп. Мефодий Пешношский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;KB05"
+  }
+ ],
+ "06-09": [
+  {
+   "id": "cirilo-de-belozersk",
+   "pt": "S. Cirilo de Belozersk",
+   "cu": "Прп. Кирилл Белозерский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  },
+  {
+   "id": "icone-trindade-lavra",
+   "pt": "Trasladação do ícone da Santíssima Trindade de S. André Rublev para a Lavra da Trindade e S. Sérgio",
+   "cu": "Принесение в Свято-Троицкую Сергиеву Лавру образа Святой Троицы, написанного прп. Андреем Рублевым",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "icone",
+   "fonte": "BU26"
+  }
+ ],
+ "06-10": [
+  {
+   "id": "joao-de-tobolsk",
+   "pt": "S. João, metropolita de Tobolsk",
+   "cu": "Свт. Иоанн, митр. Тобольский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;CAN1916"
+  }
+ ],
+ "06-11": [
+  {
+   "id": "bartolomeu-e-barnabe",
+   "pt": "Ss. Bartolomeu e Barnabé, apóstolos",
+   "cu": "Апп. Варфоломей и Варнава",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  },
+  {
+   "id": "icone-digno-e",
+   "pt": "Ícone da Mãe de Deus «Digno é» (Axion Estin)",
+   "cu": "Икона Божией Матери «Достойно есть»",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "icone",
+   "fonte": "BU26"
+  }
+ ],
+ "06-14": [
+  {
+   "id": "metodio-de-pechnocha",
+   "pt": "S. Metódio de Pechnocha",
+   "cu": "Прп. Мефодий, игумен Пешношский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;KB05"
+  }
+ ],
+ "06-15": [
+  {
+   "id": "jonas-de-moscovo",
+   "pt": "S. Jonas, metropolita de Moscovo",
+   "cu": "Свт. Иона, митр. Московский",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "06-16": [
+  {
+   "id": "tikhon-de-medyn",
+   "pt": "S. Tikhon de Medyn (Kaluga)",
+   "cu": "Прп. Тихон Медынский, Калужский",
+   "grau_typikon": null,
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "BU26;KB05"
+  },
+  {
+   "id": "teofano-recluso-trasladacao",
+   "pt": "Trasladação das relíquias de S. Teófano, o Recluso",
+   "cu": "Перенесение мощей свт. Феофана, Затворника Вышенского",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26"
+  }
+ ],
+ "06-19": [
+  {
+   "id": "judas-tadeu",
+   "pt": "S. Judas, irmão do Senhor, apóstolo",
+   "cu": "Ап. Иуда, брат Господень",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  },
+  {
+   "id": "jo-patriarca-de-moscovo",
+   "pt": "S. Jó, primeiro Patriarca de Moscovo",
+   "cu": "Свт. Иов, патриарх Московский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;CAN1989"
+  },
+  {
+   "id": "joao-de-xangai",
+   "pt": "S. João (Maximovitch), arcebispo de Xangai e São Francisco",
+   "cu": "Свт. Иоанн (Максимович), архиеп. Шанхайский и Сан-Францисский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26"
+  }
+ ],
+ "06-23": [
+  {
+   "id": "icone-vladimir-junho",
+   "pt": "Ícone da Mãe de Deus de Vladimir (libertação de Moscovo, 1480)",
+   "cu": "Владимирская икона Божией Матери",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "icone",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "06-24": [
+  {
+   "id": "natividade-joao-batista",
+   "pt": "Natividade de S. João Batista",
+   "cu": "Рождество Иоанна Предтечи",
+   "grau_typikon": "grande",
+   "grau_atual": "grande",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "06-25": [
+  {
+   "id": "pedro-e-fevronia",
+   "pt": "Ss. Pedro e Fevrónia de Murom",
+   "cu": "Блгвв. кн. Петр и кн. Феврония Муромские",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "06-26": [
+  {
+   "id": "icone-tikhvin",
+   "pt": "Ícone da Mãe de Deus de Tikhvin",
+   "cu": "Тихвинская икона Божией Матери",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "icone",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "06-29": [
+  {
+   "id": "pedro-e-paulo",
+   "pt": "Ss. Pedro e Paulo, apóstolos",
+   "cu": "Первоверховные апп. Петр и Павел",
+   "grau_typikon": "grande",
+   "grau_atual": "grande",
+   "tipo": "santo",
+   "fonte": "TYP48"
+  }
+ ],
+ "06-30": [
+  {
+   "id": "sinaxe-doze-apostolos",
+   "pt": "Sinaxe dos Doze Apóstolos",
+   "cu": "Собор славных и всехвальных 12-ти апостолов",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "07-02": [
+  {
+   "id": "manto-mae-de-deus",
+   "pt": "Deposição do Manto da Santíssima Mãe de Deus em Blaquerna",
+   "cu": "Положение честной ризы Пресвятой Богородицы во Влахерне",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "mae_de_deus",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "07-03": [
+  {
+   "id": "filipe-de-moscovo-trasladacao",
+   "pt": "Trasladação das relíquias de S. Filipe, metropolita de Moscovo",
+   "cu": "Перенесение мощей свт. Филиппа, митр. Московского",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "07-04": [
+  {
+   "id": "portadores-paixao-imperiais",
+   "pt": "Ss. Portadores da Paixão Imperiais (Nicolau II e família)",
+   "cu": "Страстотерпцы царь Николай, царица Александра и чада их",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;CAN2000"
+  },
+  {
+   "id": "andre-rublev",
+   "pt": "S. André Rublev, iconógrafo",
+   "cu": "Прп. Андрей Рублев",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;CAN1988"
+  },
+  {
+   "id": "andre-bogoliubski",
+   "pt": "S. André Bogoliubski, fiel príncipe",
+   "cu": "Блгв. вел. кн. Андрей Боголюбский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26"
+  }
+ ],
+ "07-05": [
+  {
+   "id": "atanasio-do-athos",
+   "pt": "S. Atanásio do Athos",
+   "cu": "Прп. Афанасий Афонский",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;KB05"
+  },
+  {
+   "id": "sergio-de-radonej-reliquias",
+   "pt": "Invenção das relíquias de S. Sérgio de Radonej",
+   "cu": "Обретение мощей прп. Сергия Радонежского",
+   "grau_typikon": "doxologia",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  },
+  {
+   "id": "isabel-feodorovna",
+   "pt": "S. Isabel Feodorovna e S. Bárbara, mártires-monjas",
+   "cu": "Прмцц. вел. кн. Елисавета и инокиня Варвара",
+   "grau_typikon": null,
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "BU26;CAN1992"
+  }
+ ],
+ "07-08": [
+  {
+   "id": "icone-kazan-julho",
+   "pt": "Aparição do ícone da Mãe de Deus de Kazan",
+   "cu": "Явление иконы Пресвятой Богородицы во граде Казани",
+   "grau_typikon": "vigilia",
+   "grau_atual": "vigilia",
+   "tipo": "icone",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "07-10": [
+  {
+   "id": "tunica-do-senhor",
+   "pt": "Deposição da Túnica do Senhor em Moscovo",
+   "cu": "Положение честной ризы Господа нашего Иисуса Христа в Москве",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "senhor",
+   "fonte": "TYP48;BU26"
+  },
+  {
+   "id": "antao-das-grutas",
+   "pt": "S. Antão das Grutas de Kiev",
+   "cu": "Прп. Антоний Печерский",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "07-11": [
+  {
+   "id": "hilariao-troitski-reliquias",
+   "pt": "Invenção das relíquias de S. Hilarião (Troitski), hieromártir",
+   "cu": "Обретение мощей сщмч. Илариона (Троицкого), архиеп. Верейского",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;KB05"
+  }
+ ],
+ "07-14": [
+  {
+   "id": "nicodemos-hagiorita",
+   "pt": "S. Nicodemos, o Hagiorita",
+   "cu": "Прп. Никодим Святогорец",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26"
+  }
+ ],
+ "07-15": [
+  {
+   "id": "vladimir-igual-apostolos",
+   "pt": "S. Vladimir, igual aos Apóstolos, grão-príncipe de Kiev",
+   "cu": "Равноап. вел. кн. Владимир",
+   "grau_typikon": "vigilia",
+   "grau_atual": "vigilia",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "07-19": [
+  {
+   "id": "serafim-de-sarov-reliquias",
+   "pt": "Invenção das relíquias de S. Serafim de Sarov",
+   "cu": "Обретение мощей прп. Серафима Саровского",
+   "grau_typikon": null,
+   "grau_atual": "vigilia",
+   "tipo": "santo",
+   "fonte": "BU26;CAN1903"
+  }
+ ],
+ "07-20": [
+  {
+   "id": "elias-profeta",
+   "pt": "S. Elias, profeta",
+   "cu": "Прор. Илия",
+   "grau_typikon": "vigilia",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26;AJUSTE-DOMINGO"
+  }
+ ],
+ "07-23": [
+  {
+   "id": "icone-potchaiv",
+   "pt": "Ícone da Mãe de Deus de Potchaiv",
+   "cu": "Почаевская икона Божией Матери",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "icone",
+   "fonte": "BU26"
+  }
+ ],
+ "07-24": [
+  {
+   "id": "boris-e-gleb",
+   "pt": "Ss. Bóris e Gleb, portadores da paixão",
+   "cu": "Мчч. блгвв. кнн. Борис и Глеб",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "07-25": [
+  {
+   "id": "dormicao-ana",
+   "pt": "Dormição de S. Ana, mãe da Santíssima Mãe de Deus",
+   "cu": "Успение прав. Анны, матери Пресвятой Богородицы",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  },
+  {
+   "id": "macario-de-jeltovodsk",
+   "pt": "S. Macário de Jeltovodsk e Unja",
+   "cu": "Прп. Макарий Желтоводский, Унженский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "07-27": [
+  {
+   "id": "pantaleao",
+   "pt": "S. Pantaleão, grande-mártir e curador",
+   "cu": "Вмч. и целитель Пантелеимон",
+   "grau_typikon": "vigilia",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26;AJUSTE-DOMINGO"
+  }
+ ],
+ "07-28": [
+  {
+   "id": "icone-smolensk",
+   "pt": "Ícone da Mãe de Deus de Smolensk «Hodegétria»",
+   "cu": "Смоленская икона Божией Матери «Одигитрия»",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "icone",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "07-30": [
+  {
+   "id": "joao-o-guerreiro",
+   "pt": "S. João, o Guerreiro, mártir",
+   "cu": "Мч. Иоанн Воин",
+   "grau_typikon": null,
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "BU26;KB05"
+  }
+ ],
+ "08-01": [
+  {
+   "id": "procissao-cruz",
+   "pt": "Procissão dos Preciosos Lenhos da Cruz; Ss. Sete Mártires Macabeus",
+   "cu": "Происхождение Честных Древ Животворящего Креста Господня. Мчч. Маккавеи",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "senhor",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "08-02": [
+  {
+   "id": "basilio-bem-aventurado",
+   "pt": "S. Basílio, o Bem-aventurado, louco por Cristo",
+   "cu": "Блж. Василий Московский, Христа ради юродивый",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "08-03": [
+  {
+   "id": "antao-romano",
+   "pt": "S. Antão, o Romano, de Novgorod",
+   "cu": "Прп. Антоний Римлянин, Новгородский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "08-06": [
+  {
+   "id": "transfiguracao",
+   "pt": "Transfiguração do Senhor",
+   "cu": "Преображение Господне",
+   "grau_typikon": "grande",
+   "grau_atual": "grande",
+   "tipo": "senhor",
+   "fonte": "TYP48"
+  }
+ ],
+ "08-07": [
+  {
+   "id": "mitrofano-de-voronej-reliquias",
+   "pt": "Invenção das relíquias de S. Mitrofano de Voronej",
+   "cu": "Обретение мощей свт. Митрофана, еп. Воронежского",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;KB05;CAN1832"
+  }
+ ],
+ "08-09": [
+  {
+   "id": "matias-apostolo",
+   "pt": "S. Matias, apóstolo",
+   "cu": "Ап. Матфий",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "08-13": [
+  {
+   "id": "despedida-transfiguracao",
+   "pt": "Despedida da Transfiguração",
+   "cu": "Отдание праздника Преображения Господня",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "senhor",
+   "fonte": "TYP48;BU26"
+  },
+  {
+   "id": "tikhon-de-zadonsk",
+   "pt": "S. Tikhon de Zadonsk",
+   "cu": "Свт. Тихон Задонский",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "08-15": [
+  {
+   "id": "dormicao-mae-de-deus",
+   "pt": "Dormição da Santíssima Mãe de Deus",
+   "cu": "Успение Пресвятой Богородицы",
+   "grau_typikon": "grande",
+   "grau_atual": "grande",
+   "tipo": "mae_de_deus",
+   "fonte": "TYP48"
+  }
+ ],
+ "08-16": [
+  {
+   "id": "imagem-nao-feita-por-maos",
+   "pt": "Trasladação da Imagem não feita por mãos humanas (Santo Mandílio) de Edessa para Constantinopla",
+   "cu": "Перенесение из Едессы в Константинополь Нерукотворенного Образа Господа Иисуса Христа",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "senhor",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "08-21": [
+  {
+   "id": "abraao-de-smolensk",
+   "pt": "S. Abraão de Smolensk",
+   "cu": "Прп. Авраамий Смоленский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "08-23": [
+  {
+   "id": "despedida-dormicao",
+   "pt": "Despedida da Dormição da Mãe de Deus",
+   "cu": "Отдание праздника Успения Пресвятой Богородицы",
+   "grau_typikon": null,
+   "grau_atual": "doxologia",
+   "tipo": "mae_de_deus",
+   "fonte": "BU26"
+  }
+ ],
+ "08-24": [
+  {
+   "id": "pedro-de-moscovo-trasladacao",
+   "pt": "Trasladação das relíquias de S. Pedro, metropolita de Moscovo",
+   "cu": "Перенесение мощей свт. Петра, митр. Московского",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "08-26": [
+  {
+   "id": "icone-vladimir-agosto",
+   "pt": "Encontro do ícone da Mãe de Deus de Vladimir (libertação de Moscovo, 1395)",
+   "cu": "Сретение Владимирской иконы Пресвятой Богородицы",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "icone",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "08-29": [
+  {
+   "id": "degolacao-joao-batista",
+   "pt": "Degolação de S. João Batista",
+   "cu": "Усекновение главы Иоанна Предтечи",
+   "grau_typikon": "grande",
+   "grau_atual": "grande",
+   "tipo": "santo",
+   "fonte": "TYP48"
+  }
+ ],
+ "08-30": [
+  {
+   "id": "alexandre-nevski-trasladacao",
+   "pt": "Trasladação das relíquias de S. Alexandre Nevski",
+   "cu": "Перенесение мощей блгв. вел. кн. Александра Невского",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "09-01": [
+  {
+   "id": "indiccao-simeao-estilita",
+   "pt": "Início da Indicção (Ano Novo eclesiástico); S. Simeão Estilita e sua mãe S. Marta",
+   "cu": "Начало индикта – церковное новолетие. Прп. Симеон Столпник и мать его Марфа",
+   "grau_typikon": "polieleo",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "09-04": [
+  {
+   "id": "joasafe-de-belgorod-reliquias",
+   "pt": "Invenção das relíquias de S. Joasafe de Belgorod",
+   "cu": "Обретение мощей свт. Иоасафа, еп. Белгородского",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;CAN1911"
+  }
+ ],
+ "09-07": [
+  {
+   "id": "joao-de-novgorod",
+   "pt": "S. João, arcebispo de Novgorod",
+   "cu": "Свт. Иоанн, архиеп. Новгородский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "09-08": [
+  {
+   "id": "natividade-mae-de-deus",
+   "pt": "Natividade da Santíssima Mãe de Deus",
+   "cu": "Рождество Пресвятой Богородицы",
+   "grau_typikon": "grande",
+   "grau_atual": "grande",
+   "tipo": "mae_de_deus",
+   "fonte": "TYP48"
+  }
+ ],
+ "09-09": [
+  {
+   "id": "jose-de-volokolamsk",
+   "pt": "S. José de Volokolamsk",
+   "cu": "Прп. Иосиф Волоцкий",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26;AZ"
+  }
+ ],
+ "09-11": [
+  {
+   "id": "silvano-do-athos",
+   "pt": "S. Silvano do Athos",
+   "cu": "Прп. Силуан Афонский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;KB05"
+  }
+ ],
+ "09-12": [
+  {
+   "id": "despedida-natividade-mae-de-deus",
+   "pt": "Despedida da Natividade da Mãe de Deus",
+   "cu": "Отдание праздника Рождества Пресвятой Богородицы",
+   "grau_typikon": null,
+   "grau_atual": "doxologia",
+   "tipo": "mae_de_deus",
+   "fonte": "BU26"
+  }
+ ],
+ "09-13": [
+  {
+   "id": "dedicacao-igreja-ressurreicao",
+   "pt": "Dedicação da Igreja da Ressurreição em Jerusalém; pré-festa da Exaltação; S. Cornélio, o Centurião",
+   "cu": "Память обновления храма Воскресения Христова в Иерусалиме. Сщмч. Корнилий сотник",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "senhor",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "09-14": [
+  {
+   "id": "exaltacao-cruz",
+   "pt": "Exaltação da Preciosa e Vivificante Cruz",
+   "cu": "Воздвижение Честного и Животворящего Креста Господня",
+   "grau_typikon": "grande",
+   "grau_atual": "grande",
+   "tipo": "senhor",
+   "fonte": "TYP48"
+  }
+ ],
+ "09-19": [
+  {
+   "id": "teodoro-de-smolensk",
+   "pt": "Ss. Teodoro de Smolensk e seus filhos David e Constantino, de Iaroslavl",
+   "cu": "Блгвв. кнн. Феодор Смоленский и чада его Давид и Константин, Ярославские",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "09-20": [
+  {
+   "id": "miguel-de-tchernigov",
+   "pt": "Ss. Miguel, príncipe de Tchernigov, e o seu boiardo Teodoro",
+   "cu": "Мчч. Михаил, кн. Черниговский, и боярин его Феодор",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "09-21": [
+  {
+   "id": "demetrio-de-rostov-reliquias",
+   "pt": "Invenção das relíquias de S. Demétrio, metropolita de Rostov",
+   "cu": "Обретение мощей свт. Димитрия, митр. Ростовского",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  },
+  {
+   "id": "despedida-exaltacao",
+   "pt": "Despedida da Exaltação da Cruz",
+   "cu": "Отдание праздника Воздвижения Креста Господня",
+   "grau_typikon": null,
+   "grau_atual": "doxologia",
+   "tipo": "senhor",
+   "fonte": "BU26"
+  }
+ ],
+ "09-23": [
+  {
+   "id": "conceicao-joao-batista",
+   "pt": "Conceição de S. João Batista",
+   "cu": "Зачатие Иоанна Предтечи",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "09-25": [
+  {
+   "id": "sergio-de-radonej",
+   "pt": "S. Sérgio de Radonej",
+   "cu": "Прп. Сергий Радонежский",
+   "grau_typikon": "polieleo",
+   "grau_atual": "vigilia",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "09-26": [
+  {
+   "id": "joao-teologo-repouso",
+   "pt": "S. João, o Teólogo, apóstolo e evangelista (repouso)",
+   "cu": "Преставление ап. и ев. Иоанна Богослова",
+   "grau_typikon": "vigilia",
+   "grau_atual": "vigilia",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  },
+  {
+   "id": "tikhon-de-moscovo-glorificacao",
+   "pt": "S. Tikhon, Patriarca de Moscovo (glorificação)",
+   "cu": "Свт. Тихон, патриарх Московский и всея Руси",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;KB05;CAN1989"
+  }
+ ],
+ "09-27": [
+  {
+   "id": "savacio-de-solovki",
+   "pt": "S. Savácio de Solovki",
+   "cu": "Прп. Савватий Соловецкий",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  },
+  {
+   "id": "pedro-de-krutitsy",
+   "pt": "S. Pedro (Polianski), metropolita de Krutitsy, hieromártir",
+   "cu": "Сщмч. Петр (Полянский), митр. Крутицкий",
+   "grau_typikon": null,
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "BU26;AZ;CAN1997"
+  }
+ ],
+ "09-28": [
+  {
+   "id": "caritao-confessor",
+   "pt": "S. Caritão, o Confessor",
+   "cu": "Прп. Харитон Исповедник",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  },
+  {
+   "id": "cirilo-e-maria-de-radonej",
+   "pt": "Ss. Cirilo e Maria de Radonej, pais de S. Sérgio",
+   "cu": "Прпп. схимонах Кирилл и схимонахиня Мария Радонежские",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26"
+  },
+  {
+   "id": "isabel-feodorovna-reliquias",
+   "pt": "Invenção das relíquias de S. Isabel Feodorovna",
+   "cu": "Обретение мощей прмц. вел. кн. Елисаветы",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26"
+  }
+ ],
+ "09-30": [
+  {
+   "id": "gregorio-de-pelchma",
+   "pt": "S. Gregório de Pelchma (Vologda)",
+   "cu": "Прп. Григорий Пельшемский, Вологодский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  },
+  {
+   "id": "miguel-de-kiev",
+   "pt": "S. Miguel, primeiro metropolita de Kiev",
+   "cu": "Свт. Михаил, первый митр. Киевский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;AZ"
+  }
+ ],
+ "10-01": [
+  {
+   "id": "protecao-mae-de-deus",
+   "pt": "Proteção (Pokrov) da Santíssima Mãe de Deus",
+   "cu": "Покров Пресвятой Богородицы",
+   "grau_typikon": "grande",
+   "grau_atual": "grande",
+   "tipo": "mae_de_deus",
+   "fonte": "TYP48;BU26"
+  },
+  {
+   "id": "sabas-de-vichera",
+   "pt": "S. Sabas de Vichera (Novgorod)",
+   "cu": "Прп. Савва Вишерский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "10-04": [
+  {
+   "id": "gurio-e-barsanufio-reliquias",
+   "pt": "Invenção das relíquias de Ss. Gúrio, arcebispo de Kazan, e Barsanúfio, bispo de Tver",
+   "cu": "Обретение мощей свтт. Гурия, архиеп. Казанского, и Варсонофия, еп. Тверского",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "10-05": [
+  {
+   "id": "sinaxe-hierarcas-de-moscovo",
+   "pt": "Sinaxe dos Santos Hierarcas de Moscovo",
+   "cu": "Собор Московских святителей",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "10-06": [
+  {
+   "id": "tome-apostolo",
+   "pt": "S. Tomé, apóstolo",
+   "cu": "Ап. Фома",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "10-09": [
+  {
+   "id": "tiago-de-alfeu",
+   "pt": "S. Tiago, filho de Alfeu, apóstolo",
+   "cu": "Ап. Иаков Алфеев",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "10-10": [
+  {
+   "id": "ambrosio-de-optina",
+   "pt": "S. Ambrósio de Optina",
+   "cu": "Прп. Амвросий Оптинский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;CAN1988"
+  }
+ ],
+ "10-11": [
+  {
+   "id": "sinaxe-optina",
+   "pt": "Sinaxe dos Santos de Optina",
+   "cu": "Собор всех святых, в Оптиной пустыни просиявших",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26"
+  }
+ ],
+ "10-13": [
+  {
+   "id": "icone-iveron-outubro",
+   "pt": "Ícone da Mãe de Deus de Iveron",
+   "cu": "Иверская икона Божией Матери",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "icone",
+   "fonte": "BU26"
+  }
+ ],
+ "10-14": [
+  {
+   "id": "parasceva-da-servia",
+   "pt": "S. Parasceva da Sérvia",
+   "cu": "Прп. Параскева Сербская",
+   "grau_typikon": "doxologia",
+   "grau_atual": null,
+   "tipo": "santo",
+   "fonte": "TYP48;BU26;KB05"
+  }
+ ],
+ "10-15": [
+  {
+   "id": "atanasio-de-kovrov",
+   "pt": "S. Atanásio (Sakharov), confessor, bispo de Kovrov",
+   "cu": "Свт. Афанасий (Сахаров), исп., еп. Ковровский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26"
+  }
+ ],
+ "10-18": [
+  {
+   "id": "lucas-evangelista",
+   "pt": "S. Lucas, apóstolo e evangelista",
+   "cu": "Ап. и ев. Лука",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "10-22": [
+  {
+   "id": "icone-kazan-outubro",
+   "pt": "Ícone da Mãe de Deus de Kazan (libertação de Moscovo, 1612)",
+   "cu": "Казанская икона Божией Матери",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "icone",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "10-23": [
+  {
+   "id": "tiago-irmao-do-senhor",
+   "pt": "S. Tiago, irmão do Senhor, apóstolo",
+   "cu": "Ап. Иаков, брат Господень по плоти",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "10-24": [
+  {
+   "id": "icone-alegria-dos-aflitos",
+   "pt": "Ícone da Mãe de Deus «Alegria de todos os aflitos»",
+   "cu": "Икона Божией Матери «Всех скорбящих Радость»",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "icone",
+   "fonte": "AZ"
+  }
+ ],
+ "10-26": [
+  {
+   "id": "demetrio-de-tessalonica",
+   "pt": "S. Demétrio de Tessalónica, grande-mártir",
+   "cu": "Вмч. Димитрий Солунский",
+   "grau_typikon": "vigilia",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "10-28": [
+  {
+   "id": "arsenio-da-servia",
+   "pt": "S. Arsénio, arcebispo da Sérvia",
+   "cu": "Свт. Арсений I, архиеп. Сербский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  },
+  {
+   "id": "parasceva-sexta-feira",
+   "pt": "S. Parasceva, chamada «Sexta-feira», mártir",
+   "cu": "Вмц. Параскева, нареченная Пятница",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  },
+  {
+   "id": "demetrio-de-rostov-repouso",
+   "pt": "S. Demétrio, metropolita de Rostov (repouso)",
+   "cu": "Свт. Димитрий, митр. Ростовский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "AZ;KB05"
+  },
+  {
+   "id": "jo-de-potchaiv",
+   "pt": "S. Jó de Potchaiv",
+   "cu": "Прп. Иов Почаевский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "AZ;KB05"
+  }
+ ],
+ "10-29": [
+  {
+   "id": "abraao-de-rostov",
+   "pt": "S. Abraão de Rostov",
+   "cu": "Прп. Авраамий Ростовский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "11-05": [
+  {
+   "id": "jonas-de-novgorod",
+   "pt": "S. Jonas, arcebispo de Novgorod",
+   "cu": "Свт. Иона, архиеп. Новгородский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  },
+  {
+   "id": "tikhon-de-moscovo-eleicao",
+   "pt": "S. Tikhon, Patriarca de Moscovo (eleição para o trono patriarcal)",
+   "cu": "Свт. Тихон, патриарх Московский (избрание на Патриарший престол)",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "AZ;KB05"
+  }
+ ],
+ "11-06": [
+  {
+   "id": "barlaao-de-khutyn",
+   "pt": "S. Barlaão de Khutyn",
+   "cu": "Прп. Варлаам Хутынский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "11-08": [
+  {
+   "id": "sinaxe-arcanjo-miguel",
+   "pt": "Sinaxe do Arcanjo Miguel e das demais Potências incorpóreas",
+   "cu": "Собор Архистратига Михаила и прочих Небесных Сил бесплотных",
+   "grau_typikon": "vigilia",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "11-13": [
+  {
+   "id": "joao-crisostomo",
+   "pt": "S. João Crisóstomo",
+   "cu": "Свт. Иоанн Златоуст",
+   "grau_typikon": "vigilia",
+   "grau_atual": "vigilia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "11-14": [
+  {
+   "id": "filipe-apostolo",
+   "pt": "S. Filipe, apóstolo",
+   "cu": "Ап. Филипп",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "11-16": [
+  {
+   "id": "mateus-evangelista",
+   "pt": "S. Mateus, apóstolo e evangelista",
+   "cu": "Ап. и ев. Матфей",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "11-17": [
+  {
+   "id": "nikon-de-radonej",
+   "pt": "S. Nikon de Radonej",
+   "cu": "Прп. Никон Радонежский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "11-19": [
+  {
+   "id": "barlaao-e-joasafe-da-india",
+   "pt": "Ss. Barlaão e Joasafe, príncipe da Índia",
+   "cu": "Прпп. Варлаам и Иоасаф, царевич Индийский",
+   "grau_typikon": "doxologia",
+   "grau_atual": null,
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  },
+  {
+   "id": "filareto-de-moscovo",
+   "pt": "S. Filareto, metropolita de Moscovo",
+   "cu": "Свт. Филарет (Дроздов), митр. Московский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "AZ;KB05;CAN1994"
+  }
+ ],
+ "11-21": [
+  {
+   "id": "apresentacao-mae-de-deus",
+   "pt": "Apresentação da Santíssima Mãe de Deus no Templo",
+   "cu": "Введение во храм Пресвятой Богородицы",
+   "grau_typikon": "grande",
+   "grau_atual": "grande",
+   "tipo": "mae_de_deus",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "11-23": [
+  {
+   "id": "alexandre-nevski",
+   "pt": "S. Alexandre Nevski",
+   "cu": "Блгв. вел. кн. Александр Невский",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  },
+  {
+   "id": "mitrofano-de-voronej",
+   "pt": "S. Mitrofano de Voronej",
+   "cu": "Свт. Митрофан Воронежский",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "11-25": [
+  {
+   "id": "despedida-apresentacao-mae-de-deus",
+   "pt": "Despedida da Apresentação da Mãe de Deus no Templo",
+   "cu": "Отдание праздника Введения во храм Пресвятой Богородицы",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "mae_de_deus",
+   "fonte": "TYP48"
+  }
+ ],
+ "11-26": [
+  {
+   "id": "inocencio-de-irkutsk",
+   "pt": "S. Inocêncio, primeiro bispo de Irkutsk",
+   "cu": "Свт. Иннокентий (Кульчицкий), еп. Иркутский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "KB05"
+  }
+ ],
+ "11-27": [
+  {
+   "id": "icone-sinal-novgorod",
+   "pt": "Ícone da Mãe de Deus «do Sinal» (Novgorod)",
+   "cu": "Икона Божией Матери «Знамение»",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "icone",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "11-30": [
+  {
+   "id": "andre-primeiro-chamado",
+   "pt": "S. André, o Primeiro-Chamado, apóstolo",
+   "cu": "Ап. Андрей Первозванный",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "12-03": [
+  {
+   "id": "sabas-de-storojevsk",
+   "pt": "S. Sabas de Storojevsk (Zvenigorod)",
+   "cu": "Прп. Савва Сторожевский, Звенигородский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "12-05": [
+  {
+   "id": "sabas-santificado",
+   "pt": "S. Sabas, o Santificado",
+   "cu": "Прп. Савва Освященный",
+   "grau_typikon": "vigilia",
+   "grau_atual": "vigilia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "12-06": [
+  {
+   "id": "nicolau-taumaturgo",
+   "pt": "S. Nicolau, o Taumaturgo, arcebispo de Mira",
+   "cu": "Свт. Николай Чудотворец, архиеп. Мир Ликийских",
+   "grau_typikon": "vigilia",
+   "grau_atual": "vigilia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "12-07": [
+  {
+   "id": "nilo-de-stolobny",
+   "pt": "S. Nilo de Stolobny",
+   "cu": "Прп. Нил Столобенский",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "santo",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "12-09": [
+  {
+   "id": "conceicao-mae-de-deus",
+   "pt": "Conceição da Santíssima Mãe de Deus por S. Ana",
+   "cu": "Зачатие праведною Анною Пресвятой Богородицы",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "mae_de_deus",
+   "fonte": "TYP48;AZ"
+  }
+ ],
+ "12-10": [
+  {
+   "id": "joasafe-de-belgorod",
+   "pt": "S. Joasafe de Belgorod",
+   "cu": "Свт. Иоасаф Белгородский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "AZ;KB05;CAN1911"
+  }
+ ],
+ "12-13": [
+  {
+   "id": "eustracio-e-companheiros",
+   "pt": "Ss. Eustrácio, Auxêncio, Eugénio, Mardário e Orestes, mártires; S. Lúcia",
+   "cu": "Мчч. Евстратий, Авксентий, Евгений, Мардарий и Орест; мц. Лукия",
+   "grau_typikon": "polieleo",
+   "grau_atual": null,
+   "tipo": "santo",
+   "fonte": "TYP48;AZ;KB05"
+  }
+ ],
+ "12-20": [
+  {
+   "id": "joao-de-kronstadt",
+   "pt": "S. João de Kronstadt",
+   "cu": "Прав. Иоанн Кронштадтский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "BU26;CAN1990"
+  }
+ ],
+ "12-21": [
+  {
+   "id": "pedro-de-moscovo",
+   "pt": "S. Pedro, metropolita de Moscovo",
+   "cu": "Свт. Петр, митр. Московский",
+   "grau_typikon": "polieleo",
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "TYP48;KB05"
+  }
+ ],
+ "12-25": [
+  {
+   "id": "natividade-cristo",
+   "pt": "Natividade de Nosso Senhor Jesus Cristo",
+   "cu": "Рождество Господа Бога и Спаса нашего Иисуса Христа",
+   "grau_typikon": "grande",
+   "grau_atual": "grande",
+   "tipo": "senhor",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "12-26": [
+  {
+   "id": "sinaxe-mae-de-deus",
+   "pt": "Sinaxe da Santíssima Mãe de Deus",
+   "cu": "Собор Пресвятой Богородицы",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "mae_de_deus",
+   "fonte": "TYP48;BU26"
+  }
+ ],
+ "12-30": [
+  {
+   "id": "macario-de-moscovo",
+   "pt": "S. Macário, metropolita de Moscovo",
+   "cu": "Свт. Макарий, митр. Московский",
+   "grau_typikon": null,
+   "grau_atual": "polieleo",
+   "tipo": "santo",
+   "fonte": "KB05;CAN1988"
+  }
+ ],
+ "12-31": [
+  {
+   "id": "despedida-natividade-cristo",
+   "pt": "Despedida da Natividade de Cristo",
+   "cu": "Отдание праздника Рождества Христова",
+   "grau_typikon": "doxologia",
+   "grau_atual": "doxologia",
+   "tipo": "senhor",
+   "fonte": "TYP48;BU26"
+  }
+ ]
+}
