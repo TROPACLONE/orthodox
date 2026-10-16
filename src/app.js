@@ -4,8 +4,8 @@
  no armazenamento local; nenhum dado pessoal sai do aparelho.
  Eventos: um único ouvinte por região (delegação), para não acumular ouvintes a cada nova renderização.
 */
-import { hoje as jdnHoje, jdnGregoriano, gregoriano } from './engine/datas.js';
-import { dia } from './engine/calendario.js';
+import { hoje as jdnHoje, jdnGregoriano, gregoriano, chaveMD } from './engine/datas.js';
+import { dia, FIXAS } from './engine/calendario.js';
 import { jejum, N } from './engine/jejum.js';
 import { grausDoDia, comemoracoesDoDia, carregarNomes } from './dados/graus.js';
 import { leituras, eothinon } from './engine/leituras.js';
@@ -111,8 +111,10 @@ function ecraHoje() {
   const lista = h('ul', { class: 'lista' });
   const vistos = new Set();
   const festa = id => T.festa[id] || T.movel[id];
+  // Festa fixa que coincide com uma festa móvel das Doze (p. ex. Anunciação na Páscoa ou nos Ramos): mostram-se as duas.
+  const fixa = FIXAS[chaveMD(d.juliano.m, d.juliano.d)];
   if (d.festa) { bloco.append(h('div', { class: 'festa-principal', text: festa(d.festa.id) })); vistos.add(d.festa.id); }
-  if (d.fixa && !vistos.has(d.fixa.id)) { lista.append(h('li', { class: 'festa-principal', text: T.festa[d.fixa.id] })); vistos.add(d.fixa.id); }
+  if (fixa && !vistos.has(fixa.id)) { lista.append(h('li', { class: 'festa-principal', text: T.festa[fixa.id] })); vistos.add(fixa.id); }
   for (const id of d.moveis) if (!vistos.has(id)) { lista.append(h('li', { text: T.movel[id] })); vistos.add(id); }
   for (const id of d.semimoveis) lista.append(h('li', { text: T.semimovel[id] }));
   if (d.prefesta) lista.append(h('li', { class: 'fase', text: `${T.ui[d.prefesta.fase]}: ${festa(d.prefesta.id)}` }));
@@ -175,7 +177,7 @@ function ecraCalendario() {
     h('button', { class: 'icon-btn', type: 'button', 'data-acao': 'mes-1', 'aria-label': T.ui.mes }, icone('i-voltar')),
     h('h1', { text: nomeMes(y, m) }),
     h('button', { class: 'icon-btn', type: 'button', 'data-acao': 'mes+1', 'aria-label': T.ui.mesSeg }, icone('i-seguinte'))));
-  const g = h('div', { class: 'grelha', role: 'grid' });
+  const g = h('div', { class: 'grelha', role: 'group', 'aria-label': nomeMes(y, m) });
   T.diasCurtos.forEach((x, i) => g.append(h('span', { class: 'dow' + (i === 0 ? ' dom' : ''), text: x })));
   const primeiro = jdnGregoriano(y, m, 1), fim = m === 12 ? jdnGregoriano(y + 1, 1, 1) : jdnGregoriano(y, m + 1, 1);
   const vazios = (primeiro + 1) % 7;
@@ -186,7 +188,7 @@ function ecraCalendario() {
     const festa = !!d.festa;
     const cls = ['dia', d.dow === 0 && 'dom', festa && 'festa', j.jejum && 'jejum', jdn === hj && 'hoje', jdn === st.jdn && 'sel'].filter(Boolean).join(' ');
     const nome = [dataCivilLonga(d.civil), festa ? (T.festa[d.festa.id] || T.movel[d.festa.id]) : null, j.jejum ? T.ui.diaJejum : null].filter(Boolean).join('. ');
-    g.append(h('button', { class: cls, type: 'button', 'data-acao': 'abrir', 'data-jdn': jdn, 'aria-label': nome },
+    g.append(h('button', { class: cls, type: 'button', 'data-acao': 'abrir', 'data-jdn': jdn, 'aria-label': nome, 'aria-current': jdn === hj && 'date' },
       h('b', { text: d.civil.d }), h('small', { text: d.juliano.d })));
   }
   s.append(g, h('div', { class: 'legenda' },
@@ -241,11 +243,25 @@ function render() {
   for (const b of tabs.children) b.setAttribute('aria-current', !st.definicoes && b.dataset.vista === st.vista ? 'page' : 'false');
 }
 
-async function mudarLingua(l) {
-  const [t] = await Promise.all([import(`./i18n/${l}.js`), carregarNomes(l)]);
-  st.t = t.default;
-  st.lingua = l; fmtCache.clear();
+// Pedidos em fila: dois toques seguidos não podem terminar fora de ordem (carregarNomes também guarda estado), e um pedido
+// ultrapassado por outro mais recente já não se aplica. Devolve true se a língua ficou ativa.
+let filaLingua = Promise.resolve(), ultimoPedido = 0;
+function mudarLingua(l) {
+  const pedido = ++ultimoPedido;
+  const p = filaLingua.then(async () => {
+    if (pedido !== ultimoPedido) return false;
+    const [t] = await Promise.all([import(`./i18n/${l}.js`), carregarNomes(l)]);
+    st.t = t.default;
+    st.lingua = l; fmtCache.clear();
+    return true;
+  });
+  filaLingua = p.catch(() => {});
+  return p;
 }
+
+// Arranque: sem o bloco da língua guardada (p. ex. sem rede antes de o service worker ter guardado tudo), usa-se o português.
+try { await mudarLingua(st.lingua); } catch (e) { if (st.lingua === 'pt') throw e; await mudarLingua('pt'); }
+render();
 
 // ── Eventos (um ouvinte por região)
 $('main').addEventListener('click', async e => {
@@ -259,12 +275,23 @@ $('main').addEventListener('click', async e => {
     const k = st.mes.y * 12 + st.mes.m - 1 + (a === 'mes+1' ? 1 : -1);
     st.mes = { y: Math.floor(k / 12), m: (k % 12) + 1 };
   } else if (a === 'abrir') { st.jdn = Number(b.dataset.jdn); st.vista = 'hoje'; st.outraCamada = false; }
-  else if (a === 'lingua') { await mudarLingua(b.dataset.valor); gravar('lingua', st.lingua); }
+  else if (a === 'lingua') {
+    // Bloco da língua indisponível (sem rede e ainda não guardado): fica a língua atual.
+    try { if (!(await mudarLingua(b.dataset.valor))) return; } catch { return; }
+    gravar('lingua', st.lingua);
+  }
   else if (a === 'camada-defeito') { st.camada = b.dataset.valor; gravar('camada', st.camada); }
   else if (a === 'escala') { st.escala = b.dataset.valor; gravar('escala', st.escala); }
   else return;
+  // O ecrã é reconstruído: o foco do teclado volta ao botão equivalente (ou ao conteúdo, se o botão desapareceu).
+  const comFoco = document.activeElement === b;
   render();
   if (a === 'abrir' || a === 'dia-1' || a === 'dia+1' || a === 'hoje') $('main').scrollTop = 0;
+  if (comFoco) {
+    const sel = `[data-acao="${a}"]` + (b.dataset.valor ? `[data-valor="${b.dataset.valor}"]` : '');
+    const alvo = a === 'abrir' || a === 'hoje' ? null : $('main').querySelector(sel);
+    (alvo || $('main')).focus({ preventScroll: true });
+  }
 });
 $('tabs').addEventListener('click', e => {
   const b = e.target.closest('[data-vista]');
@@ -283,6 +310,4 @@ document.addEventListener('visibilitychange', () => {
   if (agora !== ultimoHoje) { if (st.jdn === ultimoHoje) st.jdn = agora; ultimoHoje = agora; render(); }
 });
 
-await mudarLingua(st.lingua);
-render();
 if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(() => {});

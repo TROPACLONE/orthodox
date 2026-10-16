@@ -11,6 +11,7 @@ fs.mkdirSync('dist/fonts', { recursive: true });
 const { metafile } = await build({
   entryPoints: ['src/app.js'], bundle: true, splitting: true, minify: true, format: 'esm', target: ['safari16', 'chrome110', 'firefox115'],
   outdir: 'dist', entryNames: '[name]', chunkNames: 'c-[hash]', legalComments: 'inline', logLevel: 'warning', metafile: true,
+  charset: 'utf8',   // cirílico em UTF-8 (2 bytes) e não em \uXXXX (6 bytes): blocos uk/ru e nomes eslavos ~3× menores
   define: { __VERSAO__: JSON.stringify(pkg.version) },
 });
 // Caminho de arranque: app.js e os blocos que importa estaticamente → modulepreload (pedidos em paralelo)

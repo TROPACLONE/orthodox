@@ -179,7 +179,7 @@ export function dia(jdn) {
 
   return {
     jdn, civil: gregoriano(jdn), juliano: jul, dow, p, o, periodo, semana, tom, eothinon,
-    festa, moveis, semimoveis: semi, prefesta: estadoFesta(jdn, jul, p),
+    festa, fixa, moveis, semimoveis: semi, prefesta: estadoFesta(jdn, jul, p),
   };
 }
 
