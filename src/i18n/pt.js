@@ -25,7 +25,7 @@ export default {
     lingua: 'Língua', camadaDefeito: 'Jejum: camada mostrada por defeito', tamanhoTexto: 'Tamanho do texto',
     pequeno: 'Pequeno', normal: 'Normal', grande: 'Grande', muitoGrande: 'Muito grande',
     acerca: 'Acerca da aplicação', acercaTxt: 'Orthodox Helper segue o calendário juliano e a prática da Igreja Ortodoxa Russa. Calcula tudo no aparelho e funciona sem internet.',
-    licencas: 'Fontes e licenças', licencasTxt: 'Tipos de letra: PT Serif e PT Sans (ParaType), Old Standard TT (Old Standard Project), Ponomar (Ponomar Project) — todos com a SIL Open Font License 1.1.',
+    licencas: 'Fontes e licenças', licencasTxt: 'Tipos de letra: PT Serif e PT Sans (ParaType), Old Standard TT (Old Standard Project) — todos com a SIL Open Font License 1.1.',
     versao: 'Versão', prefesta: 'Pré-festa', posfesta: 'Pós-festa', despedida: 'Despedida',
     diaAnterior: 'Dia anterior', diaSeguinte: 'Dia seguinte',
     mes: 'Mês anterior', mesSeg: 'Mês seguinte', pascoaAno: 'Páscoa',

@@ -25,7 +25,7 @@ export default {
     lingua: 'Язык', camadaDefeito: 'Пост: что показывать по умолчанию', tamanhoTexto: 'Размер текста',
     pequeno: 'Мелкий', normal: 'Обычный', grande: 'Крупный', muitoGrande: 'Очень крупный',
     acerca: 'О приложении', acercaTxt: 'Orthodox Helper следует юлианскому календарю и практике Русской Православной Церкви. Все вычисления выполняются на устройстве, интернет не нужен.',
-    licencas: 'Источники и лицензии', licencasTxt: 'Шрифты: PT Serif и PT Sans (ParaType), Old Standard TT (Old Standard Project), Ponomar (Ponomar Project) — все по лицензии SIL Open Font License 1.1.',
+    licencas: 'Источники и лицензии', licencasTxt: 'Шрифты: PT Serif и PT Sans (ParaType), Old Standard TT (Old Standard Project) — все по лицензии SIL Open Font License 1.1.',
     versao: 'Версия', prefesta: 'Предпразднство', posfesta: 'Попразднство', despedida: 'Отдание',
     diaAnterior: 'Предыдущий день', diaSeguinte: 'Следующий день',
     mes: 'Предыдущий месяц', mesSeg: 'Следующий месяц', pascoaAno: 'Пасха',

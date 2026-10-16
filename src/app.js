@@ -310,10 +310,23 @@ function mudarLingua(l) {
     const [t] = await Promise.all([import(`./i18n/${l}.js`), carregarNomes(l)]);
     st.t = t.default;
     st.lingua = l; fmtCache.clear();
+    guardarLingua(l);
     return true;
   });
   filaLingua = p.catch(() => {});
   return p;
+}
+
+// Língua garantida offline (decisão 45): depois de a língua ficar ativa, pedem-se em segundo plano todos os seus blocos
+// (orações, nomes); o service worker guarda-os. Sem rede, falha em silêncio e tenta-se no próximo arranque.
+const guardadas = new Set();
+function guardarLingua(l) {
+  if (guardadas.has(l) || !('serviceWorker' in navigator) || !navigator.serviceWorker.controller) return;
+  guardadas.add(l);
+  const pedir = () => fetch('idiomas.json').then(r => r.json())
+    .then(m => Promise.all((m[l] || []).map(f => fetch(f).then(r => r.blob()))))
+    .catch(() => guardadas.delete(l));
+  'requestIdleCallback' in window ? requestIdleCallback(pedir, { timeout: 5000 }) : setTimeout(pedir, 2000);
 }
 
 // Arranque: sem o bloco da língua guardada (p. ex. sem rede antes de o service worker ter guardado tudo), usa-se o português.
@@ -372,4 +385,7 @@ document.addEventListener('visibilitychange', () => {
   if (agora !== ultimoHoje) { if (st.jdn === ultimoHoje) st.jdn = agora; ultimoHoje = agora; render(); }
 });
 
-if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(() => {});
+if ('serviceWorker' in navigator && location.protocol === 'https:') {
+  navigator.serviceWorker.register('sw.js').catch(() => {});
+  navigator.serviceWorker.ready.then(() => { if (!navigator.serviceWorker.controller) navigator.serviceWorker.addEventListener('controllerchange', () => guardarLingua(st.lingua), { once: true }); else guardarLingua(st.lingua); });
+}

@@ -30,7 +30,7 @@ export default {
     lingua: 'Мова', camadaDefeito: 'Піст: що показувати за замовчуванням', tamanhoTexto: 'Розмір тексту',
     pequeno: 'Малий', normal: 'Звичайний', grande: 'Великий', muitoGrande: 'Дуже великий',
     acerca: 'Про застосунок', acercaTxt: 'Orthodox Helper дотримується юліанського календаря і практики Руської Православної Церкви. Усі обчислення виконуються на пристрої, інтернет не потрібен.',
-    licencas: 'Джерела та ліцензії', licencasTxt: 'Шрифти: PT Serif і PT Sans (ParaType), Old Standard TT (Old Standard Project), Ponomar (Ponomar Project) — усі за ліцензією SIL Open Font License 1.1.',
+    licencas: 'Джерела та ліцензії', licencasTxt: 'Шрифти: PT Serif і PT Sans (ParaType), Old Standard TT (Old Standard Project) — усі за ліцензією SIL Open Font License 1.1.',
     versao: 'Версія', prefesta: 'Передсвято', posfesta: 'Післясвято', despedida: 'Віддання',
     diaAnterior: 'Попередній день', diaSeguinte: 'Наступний день',
     mes: 'Попередній місяць', mesSeg: 'Наступний місяць', pascoaAno: 'Пасха',

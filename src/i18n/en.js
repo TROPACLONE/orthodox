@@ -26,7 +26,7 @@ export default {
     lingua: 'Language', camadaDefeito: 'Fast: layer shown by default', tamanhoTexto: 'Text size',
     pequeno: 'Small', normal: 'Normal', grande: 'Large', muitoGrande: 'Extra large',
     acerca: 'About', acercaTxt: 'Orthodox Helper follows the Julian calendar and the practice of the Russian Orthodox Church. Everything is calculated on the device and works offline.',
-    licencas: 'Sources and licences', licencasTxt: 'Fonts: PT Serif and PT Sans (ParaType), Old Standard TT (Old Standard Project), Ponomar (Ponomar Project) — all under the SIL Open Font License 1.1.',
+    licencas: 'Sources and licences', licencasTxt: 'Fonts: PT Serif and PT Sans (ParaType), Old Standard TT (Old Standard Project) — all under the SIL Open Font License 1.1.',
     versao: 'Version', prefesta: 'Forefeast', posfesta: 'Afterfeast', despedida: 'Leave-taking',
     diaAnterior: 'Previous day', diaSeguinte: 'Next day',
     mes: 'Previous month', mesSeg: 'Next month', pascoaAno: 'Pascha',
