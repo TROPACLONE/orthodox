@@ -16,3 +16,4 @@ Registo das decisões tomadas pelo utilizador. Em caso de dúvida, pergunta-se s
 | 10 | 2026-10-16 | Santos | Só os principais (~100), com critério de seleção documentado; os restantes apenas pelo nome no calendário. |
 | 11 | 2026-10-16 | Biblioteca | Livros gratuitos e legais em português, inglês, russo e outras línguas (grego, eslavo), com estado de direitos de autor verificado. |
 | 12 | 2026-10-16 | Temas adicionais | Ícones e templo; história da Igreja; Padres e espiritualidade; música e peregrinações. |
+| 13 | 2026-10-16 | Paróquia do utilizador | Paróquia dos Novos Mártires e Confessores da Igreja Russa no Porto (Capela de São José, porto.cerkov.ru). **Só referência** na base de conhecimento (Ortodoxia em Portugal); sem destaque na app; a referência litúrgica continua a ser a prática na Rússia. |
