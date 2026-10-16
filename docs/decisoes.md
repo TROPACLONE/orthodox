@@ -58,3 +58,5 @@ Registo das decisões tomadas pelo utilizador. Em caso de dúvida, pergunta-se s
 | 52 | 2026-10-16 | Tratamento de Deus (PT) | **«Tu»** («Glória a Ti, ó nosso Deus», «Pai nosso, que estás nos céus»), como no eslavo/grego. |
 | 53 | 2026-10-16 | Registo em inglês | **Thee/Thou** (inglês litúrgico tradicional da ROCOR e do Hapgood 1906). |
 | 54 | 2026-10-16 | Fase 2 — subfases | 2a manhã, noite, refeições, Oração de Jesus, regra de S. Serafim → 2b preparação e ação de graças da Comunhão → 2c Saltério (20 catismas) → 2d acatistos aprovados e orações pelos defuntos. Verificação (dec. 49) no fim de cada subfase. |
+| 55 | 2026-10-16 | Comemoração do Patriarca | **Nome atual** nos textos: «Patriarca de Moscovo e de toda a Rússia, Cirilo» (atualizar se mudar). |
+| 56 | 2026-10-16 | Petição na versão UK | **Igual ao texto russo** (tradução fiel da prática da IOR, dec. 2). |

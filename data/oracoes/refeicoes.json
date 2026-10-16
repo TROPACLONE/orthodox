@@ -1,0 +1,397 @@
+{
+  "id": "refeicoes",
+  "titulo": {
+    "cu": "Моли́твы предъ вкуше́ніемъ пи́щи и по вкуше́ніи",
+    "pt": "Orações antes e depois das refeições",
+    "ru": "Молитвы перед вкушением пищи и после",
+    "uk": "Молитви перед споживанням їжі та після",
+    "en": "Prayers before and after Meals"
+  },
+  "fontes": [
+    {
+      "chave": "MS1900",
+      "descricao": "Молитвословъ. Изданіе десятое. Москва: Синодальная типографія, 1900. По благословенію Святѣйшаго Правительствующаго Синода.",
+      "url": "https://archive.org/details/molitvoslov00andr",
+      "notas": "Domínio público. Escrita civil pré-reforma (ѣ, і, ъ) com acentos só esporádicos; modelo da grafia civil. Usado para textos ausentes de Z1912 (refeições, «Молитвами святыхъ отецъ»). Página = número impresso (folha do archive.org = página + 6 nas pp. 3–40)."
+    },
+    {
+      "chave": "Z1912",
+      "descricao": "Молитвы и песнопения православного молитвослова (для мирян) съ переводомъ на русскій языкъ, объясненіями и примѣчаніями Николая Нахимова [Н. Ч. Зайончковскій, 1859–1920]. С.-Петербургъ: Синодальная типографія, 1912.",
+      "url": "https://archive.org/details/molitvyipesnopenijapravoslavnogomolitvos65",
+      "notas": "Domínio público (autor † 1920; impressão sinodal de 1912). Eslavo em tipo eslavo com todos os acentos, lado a lado com tradução russa. Página = número impresso (folha do archive.org = página + 6). Fonte do eslavo (texto e acentuação) e da coluna RU (ortografia modernizada)."
+    },
+    {
+      "chave": "H1906",
+      "descricao": "I. F. Hapgood, Service Book of the Holy Orthodox-Catholic Apostolic (Greco-Russian) Church. Boston/New York: Houghton, Mifflin & Co., 1906.",
+      "url": "https://archive.org/details/cu31924029363128",
+      "notas": "Domínio público (Hapgood † 1928). Adaptado (dec. 41, 53): Thee/Thou com maiúscula para Deus, en-GB, «Birth-giver of God» → «Theotokos», «Hail» → «Rejoice» (χαῖρε/радуйся), e correções de fidelidade ao eslavo assinaladas em nota."
+    },
+    {
+      "chave": "BR1851",
+      "descricao": "L. C. L. Brenton, The Septuagint Version of the Old Testament, with an English translation. London: S. Bagster & Sons (ed. c. 1879; tradução de 1844/1851).",
+      "url": "https://archive.org/details/septuagintversio1879bren",
+      "notas": "Domínio público (Brenton † 1862). Salmos na coluna EN (dec. 41), adaptados a Thee/Thou e ao eslavo."
+    }
+  ],
+  "estado": {
+    "pt": "nao_revista",
+    "ru": "nao_revista",
+    "uk": "nao_revista",
+    "en": "nao_revista"
+  },
+  "blocos": [
+    {
+      "id": "refeicoes-01",
+      "tipo": "titulo",
+      "cu": "Моли́твы предъ вкуше́ніемъ пи́щи и по вкуше́ніи",
+      "pt": "Orações antes e depois das refeições",
+      "ru": "Молитвы перед вкушением пищи и после",
+      "uk": "Молитви перед споживанням їжі та після",
+      "en": "Prayers before and after Meals",
+      "fonte": {
+        "cu": "propria",
+        "ru": "propria",
+        "en": "propria",
+        "pt": "propria",
+        "uk": "propria"
+      },
+      "nota": "Título próprio; MS1900 pp. 32–34 agrupa estas orações em «Молитвы въ продолженіе дня»."
+    },
+    {
+      "id": "refeicoes-02",
+      "tipo": "rubrica",
+      "cu": "Предъ за́втракомъ, обѣ́домъ и у́жиномъ чита́ются одни́ и тѣ же моли́твы; моля́щіеся стоя́тъ предъ ико́нами и осѣня́ютъ себя́ кре́стнымъ зна́меніемъ.",
+      "pt": "Antes do pequeno-almoço, do almoço e do jantar dizem-se as mesmas orações; os que rezam estão de pé diante dos ícones e benzem-se com o sinal da cruz.",
+      "ru": "Перед завтраком, обедом и ужином читаются одни и те же молитвы; молящиеся стоят перед иконами и осеняют себя крестным знамением.",
+      "uk": "Перед сніданком, обідом і вечерею читаються ті самі молитви; ті, що моляться, стоять перед іконами і осіняють себе хресним знаменням.",
+      "en": "Before breakfast, the midday meal and supper the same prayers are said; those praying stand before the icons and sign themselves with the sign of the Cross.",
+      "fonte": {
+        "cu": "propria",
+        "ru": "propria",
+        "en": "propria",
+        "pt": "propria",
+        "uk": "propria"
+      },
+      "nota": "Rubrica própria. MS1900 p. 32 dá um só conjunto «Предъ обѣдомъ и ужиномъ» / «Послѣ обѣда и ужина»; não distingue o pequeno-almoço (o mesmo uso nas edições correntes, doc. 03 §5.8 [32]). As formas monásticas do Horológio («Ядятъ убозіи…», «Возвеселилъ мя еси…») não se incluem: não foi lida digitalização sinodal PD ⚠."
+    },
+    {
+      "id": "refeicoes-03",
+      "tipo": "titulo",
+      "cu": "Предъ обѣ́домъ и у́жиномъ",
+      "pt": "Antes da refeição",
+      "ru": "Перед обедом и ужином",
+      "uk": "Перед обідом і вечерею",
+      "en": "Before the Meal",
+      "fonte": {
+        "cu": "MS1900 p. 32",
+        "ru": "MS1900 p. 32",
+        "en": "propria",
+        "pt": "propria",
+        "uk": "propria"
+      },
+      "quando": {
+        "excepto": [
+          "semana_luminosa",
+          "pascoa_ascensao"
+        ]
+      }
+    },
+    {
+      "id": "refeicoes-04",
+      "tipo": "oracao",
+      "cu": "О́тче нашъ, И́же еси́ на небесѣ́хъ! Да святи́тся и́мя Твое́, да пріи́детъ Ца́рствіе Твое́, да бу́детъ во́ля Твоя́, я́ко на небеси́ и на земли́. Хлѣбъ нашъ насу́щный даждь намъ днесь; и оста́ви намъ до́лги на́ша, я́коже и мы оставля́емъ должнико́мъ на́шимъ; и не введи́ насъ во искуше́ніе, но изба́ви насъ отъ лука́ваго.",
+      "pt": "Pai nosso, que estás nos céus, santificado seja o Teu nome; venha o Teu Reino; seja feita a Tua vontade, como no céu, assim na terra. O pão nosso de cada dia dá-nos hoje; e perdoa-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores; e não nos conduzas à tentação, mas livra-nos do maligno.",
+      "ru": "Отец наш Небесный! Да прославляется святость имени Твоего; да настанет Царство Твое; да исполняется воля Твоя так же и на земле, как на небе. Хлеб, необходимый для нашего существования, дай нам сегодня; прости нам вины наши так же, как и мы прощаем виноватым перед нами; и не допусти нас впасть в соблазн, но избавь нас от зла.",
+      "uk": "Отче наш, що єси на небесах! Нехай святиться ім'я Твоє, нехай прийде Царство Твоє, нехай буде воля Твоя, як на небі, так і на землі. Хліб наш насущний дай нам сьогодні; і прости нам борги наші, як і ми прощаємо боржникам нашим; і не введи нас у спокусу, але визволи нас від лукавого.",
+      "en": "Our Father, who art in heaven, hallowed be Thy Name. Thy kingdom come. Thy will be done, as in heaven, so on earth. Give us this day our daily bread. And forgive us our debts, as we forgive our debtors. And lead us not into temptation, but deliver us from the evil one.",
+      "fonte": {
+        "cu": "Z1912 p. 2",
+        "ru": "Z1912 p. 2",
+        "en": "H1906 p. 13",
+        "pt": "propria",
+        "uk": "propria"
+      },
+      "quando": {
+        "excepto": [
+          "semana_luminosa",
+          "pascoa_ascensao"
+        ]
+      },
+      "nota": "MS1900 p. 32: «Отче нашъ, Иже еси на небесѣхъ, и проч.»; dá-se por extenso. Eslavo e acentos de Z1912 p. 2. Sem a doxologia sacerdotal «Яко Твое есть Царство…», que só o sacerdote diz (Z1912 e MS1900 também a omitem). EN: Hapgood segue o BCP («trespasses», «on earth, as it is in heaven»); adaptado ao eslavo/grego (до́лги = ὀφειλήματα «debts»; «как no céu, assim na terra»). PT: «насущный» (ἐπιούσιος) traduzido «de cada dia», leitura tradicional; «лукаваго» = «do maligno» (τοῦ πονηροῦ)."
+    },
+    {
+      "id": "refeicoes-05",
+      "tipo": "rubrica",
+      "cu": "Или́:",
+      "pt": "Ou:",
+      "ru": "Или:",
+      "uk": "Або:",
+      "en": "Or:",
+      "fonte": {
+        "cu": "MS1900 p. 32",
+        "ru": "propria",
+        "en": "propria",
+        "pt": "propria",
+        "uk": "propria"
+      },
+      "quando": {
+        "excepto": [
+          "semana_luminosa",
+          "pascoa_ascensao"
+        ]
+      }
+    },
+    {
+      "id": "refeicoes-06",
+      "tipo": "oracao",
+      "cu": "О́чи всѣхъ на Тя, Го́споди, упова́ютъ, и Ты дае́ши имъ пи́щу во благовре́меніи, отверза́еши Ты щедру́ю ру́ку Твою́ и исполня́еши вся́кое живо́тно благоволе́нія.",
+      "pt": "Os olhos de todos esperam em Ti, Senhor, e Tu dás-lhes o alimento no tempo oportuno; abres a Tua mão generosa e sacias de benevolência todo o ser vivo.",
+      "ru": "Глаза всех уповают на Тебя, Господи, и Ты даешь им пищу в свое время; Ты открываешь щедрую руку Твою и исполняешь всякое живое существо благоволения.",
+      "uk": "Очі всіх на Тебе, Господи, уповають, і Ти даєш їм їжу в свій час, відкриваєш Ти щедру руку Твою і наповнюєш усе живе благоволінням.",
+      "en": "The eyes of all hope in Thee, O Lord, and Thou givest them their food in due season; Thou openest Thy bountiful hand and fillest every living thing with good pleasure.",
+      "fonte": {
+        "cu": "MS1900 pp. 32–33",
+        "ru": "propria",
+        "en": "BR1851 Sl 144,15–16 (adaptado)",
+        "pt": "propria",
+        "uk": "propria"
+      },
+      "quando": {
+        "excepto": [
+          "semana_luminosa",
+          "pascoa_ascensao"
+        ]
+      },
+      "nota": "Sl 144 (145),15–16 (LXX). Acentuação própria segundo a prática sinodal (MS1900 quase não acentua) ⚠. EN: Brenton «wait upon thee… Thou openest thine hands, and fillest every living thing with pleasure» adaptado ao eslavo («упова́ютъ», «щедру́ю ру́ку», «благоволе́нія»)."
+    },
+    {
+      "id": "refeicoes-07",
+      "tipo": "oracao",
+      "cu": "Го́споди Іису́се Христе́ Бо́же нашъ, благослови́ намъ пи́щу и пи́тіе моли́твами Пречи́стыя Твоея́ Ма́тере и всѣхъ святы́хъ Твои́хъ, я́ко благослове́нъ еси́ во вѣ́ки вѣко́въ. Ами́нь.",
+      "pt": "Senhor Jesus Cristo, nosso Deus, abençoa o nosso alimento e a nossa bebida, pelas orações da Tua Mãe puríssima e de todos os Teus santos, porque és bendito pelos séculos dos séculos. Ámen.",
+      "ru": "Господи Иисусе Христе, Боже наш, благослови нам пищу и питие по молитвам Пречистой Твоей Матери и всех святых Твоих, ибо Ты благословен во веки веков. Аминь.",
+      "uk": "Господи Іісусе Христе, Боже наш, благослови нам їжу і питво молитвами Пречистої Твоєї Матері і всіх святих Твоїх, бо Ти благословенний на віки віків. Амінь.",
+      "en": "O Lord Jesus Christ our God, bless our food and drink through the prayers of Thy most pure Mother and of all Thy saints, for Thou art blessed unto ages of ages. Amen.",
+      "fonte": {
+        "cu": "⚠ sem edição PD localizada (forma das edições correntes)",
+        "ru": "propria",
+        "en": "propria",
+        "pt": "propria",
+        "uk": "propria"
+      },
+      "quando": {
+        "excepto": [
+          "semana_luminosa",
+          "pascoa_ascensao"
+        ]
+      },
+      "nota": "⚠ Não está em MS1900; forma das edições correntes (doc. 03 §5.8 [32]), dita fazendo o sinal da cruz sobre a mesa. Acentuação segundo a prática sinodal."
+    },
+    {
+      "id": "refeicoes-08",
+      "tipo": "rubrica",
+      "cu": "Отъ Па́схи до Вознесе́нія Госпо́дня, вмѣ́сто сихъ моли́твъ, предъ вкуше́ніемъ пи́щи и по вкуше́ніи пое́тся три́жды тропа́рь Па́схи:",
+      "pt": "Da Páscoa até à Ascensão do Senhor, em lugar destas orações, antes e depois da refeição canta-se três vezes o tropário da Páscoa:",
+      "ru": "От Пасхи до Вознесения Господня вместо этих молитв перед вкушением пищи и после поется трижды тропарь Пасхи:",
+      "uk": "Від Пасхи до Вознесіння Господнього замість цих молитов перед споживанням їжі та після співається тричі тропар Пасхи:",
+      "en": "From Pascha until the Ascension of the Lord, instead of these prayers, the troparion of Pascha is sung three times before and after the meal:",
+      "fonte": {
+        "cu": "propria",
+        "ru": "propria",
+        "en": "propria",
+        "pt": "propria",
+        "uk": "propria"
+      },
+      "quando": {
+        "so": [
+          "semana_luminosa",
+          "pascoa_ascensao"
+        ]
+      },
+      "nota": "Rubrica própria (doc. 03 §5.8: nas grandes festas e na Páscoa diz-se o tropário da festa). ⚠ Nas outras Doze Grandes Festas usa-se igualmente o tropário da festa; a app não o encaixa aqui (dados das festas noutro módulo)."
+    },
+    {
+      "id": "refeicoes-09",
+      "tipo": "oracao",
+      "cu": "Христо́съ воскре́се изъ ме́ртвыхъ, сме́ртію смерть попра́въ и су́щимъ во гробѣ́хъ живо́тъ дарова́въ.",
+      "pt": "Cristo ressuscitou dos mortos, pela morte calcou a morte e aos que estavam nos sepulcros deu a vida.",
+      "ru": "Христос воскрес из мертвых, смертью смерть поправ и сущим во гробах жизнь даровав.",
+      "uk": "Христос воскрес із мертвих, смертю смерть подолав і тим, що в гробах, життя дарував.",
+      "en": "Christ is risen from the dead, trampling down death by death, and upon those in the tombs bestowing life.",
+      "fonte": {
+        "cu": "Z1912 p. 106",
+        "ru": "propria",
+        "en": "H1906 p. 226",
+        "pt": "propria",
+        "uk": "propria"
+      },
+      "repetir": 3,
+      "quando": {
+        "so": [
+          "semana_luminosa",
+          "pascoa_ascensao"
+        ]
+      },
+      "nota": "RU: Z1912 não traduz o tropário (p. 106); tradução própria, conservando «смертью смерть поправ», fórmula corrente."
+    },
+    {
+      "id": "refeicoes-10",
+      "tipo": "titulo",
+      "cu": "По́слѣ обѣ́да и у́жина",
+      "pt": "Depois da refeição",
+      "ru": "После обеда и ужина",
+      "uk": "Після обіду і вечері",
+      "en": "After the Meal",
+      "fonte": {
+        "cu": "MS1900 p. 33",
+        "ru": "MS1900 p. 33",
+        "en": "propria",
+        "pt": "propria",
+        "uk": "propria"
+      },
+      "quando": {
+        "excepto": [
+          "semana_luminosa",
+          "pascoa_ascensao"
+        ]
+      }
+    },
+    {
+      "id": "refeicoes-11",
+      "tipo": "oracao",
+      "cu": "Благодари́мъ Тя, Христе́ Бо́же нашъ, я́ко насы́тилъ еси́ насъ земны́хъ Твои́хъ благъ; не лиши́ насъ и Небе́снаго Твоего́ Ца́рствія.",
+      "pt": "Damos-Te graças, ó Cristo, nosso Deus, porque nos saciaste dos Teus bens terrenos; não nos prives também do Teu Reino celeste.",
+      "ru": "Благодарим Тебя, Христе Боже наш, что Ты насытил нас Твоими земными благами; не лиши нас и Небесного Твоего Царства.",
+      "uk": "Дякуємо Тобі, Христе Боже наш, що Ти наситив нас земними Твоїми благами; не позбав нас і Небесного Твого Царства.",
+      "en": "We thank Thee, O Christ our God, that Thou hast satisfied us with Thine earthly good things; deprive us not also of Thy heavenly Kingdom.",
+      "fonte": {
+        "cu": "MS1900 p. 33",
+        "ru": "propria",
+        "en": "propria",
+        "pt": "propria",
+        "uk": "propria"
+      },
+      "quando": {
+        "excepto": [
+          "semana_luminosa",
+          "pascoa_ascensao"
+        ]
+      },
+      "nota": "Texto de MS1900 p. 33 (sem a continuação «но яко посредѣ ученикъ Твоихъ…» de algumas edições correntes). Acentuação própria ⚠."
+    },
+    {
+      "id": "refeicoes-12",
+      "tipo": "rubrica",
+      "cu": "Или́:",
+      "pt": "Ou:",
+      "ru": "Или:",
+      "uk": "Або:",
+      "en": "Or:",
+      "fonte": {
+        "cu": "MS1900 p. 33",
+        "ru": "propria",
+        "en": "propria",
+        "pt": "propria",
+        "uk": "propria"
+      },
+      "quando": {
+        "excepto": [
+          "semana_luminosa",
+          "pascoa_ascensao"
+        ]
+      }
+    },
+    {
+      "id": "refeicoes-13",
+      "tipo": "oracao",
+      "cu": "Благослове́нъ Богъ, ми́луяй и пита́яй насъ отъ ю́ности на́шея, дая́й пи́щу вся́кой пло́ти; испо́лни ра́дости и весе́лія сердца́ на́ша, да всегда́ вся́кое дово́льство иму́ще, преизбы́луемъ во вся́кое дѣ́ло бла́гое, во Христѣ́ Іису́сѣ Го́сподѣ на́шемъ, съ Ни́мже Тебѣ́ сла́ва подоба́етъ, держа́ва, честь и поклоне́ніе, со Святы́мъ Ду́хомъ во вѣ́ки. Ами́нь.",
+      "pt": "Bendito seja Deus, que tem piedade de nós e nos alimenta desde a nossa juventude, que dá o alimento a toda a carne; enche de alegria e de júbilo os nossos corações, para que, tendo sempre o suficiente em tudo, abundemos em toda a boa obra, em Cristo Jesus, nosso Senhor, com Quem a Ti são devidos a glória, o poder, a honra e a adoração, com o Espírito Santo, pelos séculos. Ámen.",
+      "ru": "Благословен Бог, милующий и питающий нас от юности нашей, дающий пищу всякой плоти; исполни радости и веселия сердца наши, чтобы мы, всегда имея во всем довольство, преизобиловали во всяком добром деле, во Христе Иисусе, Господе нашем, с Которым Тебе подобает слава, держава, честь и поклонение, со Святым Духом, во веки. Аминь.",
+      "uk": "Благословенний Бог, що милує і годує нас від юності нашої, що дає їжу всякій плоті; наповни радістю і веселістю серця наші, щоб ми, завжди маючи всього вдосталь, щедро чинили всяке добре діло у Христі Іісусі, Господі нашому, з Яким Тобі належить слава, держава, честь і поклоніння, зі Святим Духом, навіки. Амінь.",
+      "en": "Blessed is God, who hath mercy on us and nourisheth us from our youth, who giveth food to all flesh: fill our hearts with joy and gladness, that, having always all sufficiency in all things, we may abound unto every good work, in Christ Jesus our Lord, with whom to Thee are due glory, dominion, honour and worship, together with the Holy Spirit, unto the ages. Amen.",
+      "fonte": {
+        "cu": "MS1900 p. 33",
+        "ru": "propria",
+        "en": "propria",
+        "pt": "propria",
+        "uk": "propria"
+      },
+      "quando": {
+        "excepto": [
+          "semana_luminosa",
+          "pascoa_ascensao"
+        ]
+      },
+      "nota": "MS1900 pp. 33–34 (oração da Liturgia do Horológio, cf. 2 Cor 9,8; Sl 135,25). Acentuação própria segundo a prática sinodal ⚠ (MS1900 só acentua «сердца̀»)."
+    },
+    {
+      "id": "refeicoes-14",
+      "tipo": "rubrica",
+      "cu": "Или́:",
+      "pt": "Ou:",
+      "ru": "Или:",
+      "uk": "Або:",
+      "en": "Or:",
+      "fonte": {
+        "cu": "MS1900 p. 34",
+        "ru": "propria",
+        "en": "propria",
+        "pt": "propria",
+        "uk": "propria"
+      },
+      "quando": {
+        "excepto": [
+          "semana_luminosa",
+          "pascoa_ascensao"
+        ]
+      }
+    },
+    {
+      "id": "refeicoes-15",
+      "tipo": "oracao",
+      "cu": "Сла́ва Тебѣ́, Го́споди, сла́ва Тебѣ́, Святы́й, сла́ва Тебѣ́, Царю́, я́ко далъ еси́ намъ бра́шна въ весе́ліи; испо́лни насъ и Ду́ха Свята́го, да обря́щемся предъ Тобо́ю благоуго́дни и непосты́дни, егда́ возда́си кому́ждо по дѣ́ломъ его́.",
+      "pt": "Glória a Ti, Senhor; glória a Ti, ó Santo; glória a Ti, ó Rei, porque nos deste alimentos para nossa alegria; enche-nos também do Espírito Santo, para que sejamos achados agradáveis diante de Ti e sem vergonha, quando retribuíres a cada um segundo as suas obras.",
+      "ru": "Слава Тебе, Господи, слава Тебе, Святой, слава Тебе, Царь, что Ты дал нам пищу в веселие; исполни нас и Духа Святого, чтобы мы оказались пред Тобою благоугодными и непостыдными, когда Ты воздашь каждому по делам его.",
+      "uk": "Слава Тобі, Господи, слава Тобі, Святий, слава Тобі, Царю, що дав Ти нам їжу на радість; наповни нас і Духом Святим, щоб ми знайшлися перед Тобою благоугодними і непостидними, коли воздаси кожному за ділами його.",
+      "en": "Glory to Thee, O Lord; glory to Thee, O Holy One; glory to Thee, O King, for Thou hast given us food for gladness; fill us also with the Holy Spirit, that we may be found well-pleasing before Thee and not put to shame, when Thou shalt render unto every man according to his works.",
+      "fonte": {
+        "cu": "MS1900 p. 34",
+        "ru": "propria",
+        "en": "propria",
+        "pt": "propria",
+        "uk": "propria"
+      },
+      "quando": {
+        "excepto": [
+          "semana_luminosa",
+          "pascoa_ascensao"
+        ]
+      },
+      "nota": "MS1900 p. 34 «въ веселіи» (mantido; muitas edições correntes leem «въ веселіе») ⚠. Acentuação própria ⚠."
+    },
+    {
+      "id": "refeicoes-16",
+      "tipo": "oracao",
+      "cu": "Христо́съ воскре́се изъ ме́ртвыхъ, сме́ртію смерть попра́въ и су́щимъ во гробѣ́хъ живо́тъ дарова́въ.",
+      "pt": "Cristo ressuscitou dos mortos, pela morte calcou a morte e aos que estavam nos sepulcros deu a vida.",
+      "ru": "Христос воскрес из мертвых, смертью смерть поправ и сущим во гробах жизнь даровав.",
+      "uk": "Христос воскрес із мертвих, смертю смерть подолав і тим, що в гробах, життя дарував.",
+      "en": "Christ is risen from the dead, trampling down death by death, and upon those in the tombs bestowing life.",
+      "fonte": {
+        "cu": "Z1912 p. 106",
+        "ru": "propria",
+        "en": "H1906 p. 226",
+        "pt": "propria",
+        "uk": "propria"
+      },
+      "repetir": 3,
+      "quando": {
+        "so": [
+          "semana_luminosa",
+          "pascoa_ascensao"
+        ]
+      },
+      "nota": "Depois da refeição (de Páscoa à Ascensão)."
+    }
+  ]
+}

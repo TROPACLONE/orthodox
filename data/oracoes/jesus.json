@@ -1,0 +1,143 @@
+{
+  "id": "jesus",
+  "titulo": {
+    "cu": "Іису́сова моли́тва",
+    "pt": "Oração de Jesus",
+    "ru": "Иисусова молитва",
+    "uk": "Молитва Іісусова",
+    "en": "The Jesus Prayer"
+  },
+  "fontes": [
+    {
+      "chave": "MS1900",
+      "descricao": "Молитвословъ. Изданіе десятое. Москва: Синодальная типографія, 1900. По благословенію Святѣйшаго Правительствующаго Синода.",
+      "url": "https://archive.org/details/molitvoslov00andr",
+      "notas": "Domínio público. Escrita civil pré-reforma (ѣ, і, ъ) com acentos só esporádicos; modelo da grafia civil. Usado para textos ausentes de Z1912 (refeições, «Молитвами святыхъ отецъ»). Página = número impresso (folha do archive.org = página + 6 nas pp. 3–40)."
+    }
+  ],
+  "estado": {
+    "pt": "nao_revista",
+    "ru": "nao_revista",
+    "uk": "nao_revista",
+    "en": "nao_revista"
+  },
+  "blocos": [
+    {
+      "id": "jesus-01",
+      "tipo": "titulo",
+      "cu": "Іису́сова моли́тва",
+      "pt": "Oração de Jesus",
+      "ru": "Иисусова молитва",
+      "uk": "Молитва Іісусова",
+      "en": "The Jesus Prayer",
+      "fonte": {
+        "cu": "propria",
+        "ru": "propria",
+        "en": "propria",
+        "pt": "propria",
+        "uk": "propria"
+      },
+      "nota": "Glossário doc. 09 §3.3, n.º 99."
+    },
+    {
+      "id": "jesus-02",
+      "tipo": "rubrica",
+      "cu": "Моли́тва сія́ произно́сится ти́хо и неспѣ́шно, со внима́ніемъ и благогове́ніемъ, мно́гократно, мо́жно и по чётка́мъ, во вся́кое вре́мя и на вся́комъ мѣ́стѣ. Постоя́нное у́мное дѣ́ланіе подоба́етъ проходи́ти подъ руково́дствомъ о́пытнаго духо́внаго отца́.",
+      "pt": "Esta oração diz-se em voz baixa e sem pressa, com atenção e reverência, muitas vezes, também com o terço de oração (tchotki), em qualquer tempo e lugar. A prática contínua da oração interior deve fazer-se sob a orientação de um pai espiritual experiente.",
+      "ru": "Эта молитва произносится тихо и неспешно, со вниманием и благоговением, многократно, можно и по четкам, во всякое время и на всяком месте. Постоянное умное делание подобает проходить под руководством опытного духовного отца.",
+      "uk": "Ця молитва промовляється тихо і неспішно, з увагою і благоговінням, багаторазово, можна і на чотках, у всякий час і в усякому місці. Постійне умне делання годиться проходити під проводом досвідченого духовного отця.",
+      "en": "This prayer is said quietly and without haste, with attention and reverence, many times over, also with the prayer rope, at any time and in any place. The constant practice of inner prayer should be undertaken under the guidance of an experienced spiritual father.",
+      "fonte": {
+        "cu": "propria",
+        "ru": "propria",
+        "en": "propria",
+        "pt": "propria",
+        "uk": "propria"
+      },
+      "nota": "Rubrica própria, resumo de doc. 03 §5.1 [19] (S. Barsanúfio de Optina: «без руководства… эту молитву проходить опасно»). Por decisão do projeto, sem instruções de técnicas psicofísicas (respiração, postura). Coluna «cu»: rubrica em russo com grafia pré-reforma."
+    },
+    {
+      "id": "jesus-03",
+      "tipo": "titulo",
+      "cu": "По́лная фо́рма",
+      "pt": "Forma completa",
+      "ru": "Полная форма",
+      "uk": "Повна форма",
+      "en": "The Full Form",
+      "fonte": {
+        "cu": "propria",
+        "ru": "propria",
+        "en": "propria",
+        "pt": "propria",
+        "uk": "propria"
+      }
+    },
+    {
+      "id": "jesus-04",
+      "tipo": "oracao",
+      "cu": "Го́споди Іису́се Христе́, Сы́не Бо́жій, поми́луй мя грѣ́шнаго.",
+      "pt": "Senhor Jesus Cristo, Filho de Deus, tem piedade de mim, pecador.",
+      "ru": "Господи Иисусе Христе, Сыне Божий, помилуй меня, грешного.",
+      "uk": "Господи Іісусе Христе, Сину Божий, помилуй мене, грішного.",
+      "en": "Lord Jesus Christ, Son of God, have mercy on me, a sinner.",
+      "fonte": {
+        "cu": "propria (fórmula tradicional; cf. MS1900 p. 4 e p. 370)",
+        "ru": "propria",
+        "en": "propria",
+        "pt": "propria",
+        "uk": "propria"
+      },
+      "nota": "Feminino: «грѣ́шную» / «pecadora» / «грешную» / «грішну». A palavra «грѣ́шнаго» é acréscimo posterior à forma antiga (doc. 03 §5.1 [19]). Fundamento: Mc 10,47; Mt 15,22; Lc 18,13. ⚠ A fórmula completa não foi encontrada impressa, como tal, em MS1900/Z1912; os elementos estão em MS1900 p. 4 («Господи Іисусе Христе, Сыне Божій…») e p. 370 («…помилуй мя»)."
+    },
+    {
+      "id": "jesus-05",
+      "tipo": "titulo",
+      "cu": "Кра́ткія фо́рмы",
+      "pt": "Formas breves",
+      "ru": "Краткие формы",
+      "uk": "Короткі форми",
+      "en": "Short Forms",
+      "fonte": {
+        "cu": "propria",
+        "ru": "propria",
+        "en": "propria",
+        "pt": "propria",
+        "uk": "propria"
+      }
+    },
+    {
+      "id": "jesus-06",
+      "tipo": "oracao",
+      "cu": "Го́споди Іису́се Христе́, поми́луй мя.",
+      "pt": "Senhor Jesus Cristo, tem piedade de mim.",
+      "ru": "Господи Иисусе Христе, помилуй меня.",
+      "uk": "Господи Іісусе Христе, помилуй мене.",
+      "en": "Lord Jesus Christ, have mercy on me.",
+      "fonte": {
+        "cu": "propria (fórmula tradicional)",
+        "ru": "propria",
+        "en": "propria",
+        "pt": "propria",
+        "uk": "propria"
+      },
+      "nota": "Forma breve de uso grego (doc. 03 §5.1 [19])."
+    },
+    {
+      "id": "jesus-07",
+      "tipo": "oracao",
+      "cu": "Іису́се, Сы́не Бо́жій, поми́луй мя.",
+      "pt": "Jesus, Filho de Deus, tem piedade de mim.",
+      "ru": "Иисусе, Сыне Божий, помилуй меня.",
+      "uk": "Іісусе, Сину Божий, помилуй мене.",
+      "en": "Jesus, Son of God, have mercy on me.",
+      "fonte": {
+        "cu": "MS1900 p. 370",
+        "ru": "propria",
+        "en": "propria",
+        "pt": "propria",
+        "uk": "propria"
+      },
+      "nota": "Refrão do Acatisto ao Dulcíssimo Jesus (MS1900 pp. 370, 373, 377…); forma breve citada em doc. 03 §5.1 [19]."
+    }
+  ]
+}
