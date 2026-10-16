@@ -17,3 +17,14 @@ Fase 1 do projeto: recolha de factos documentados que servirão de fundamento à
 | 02 | [Jejuns e disciplina](02-jejuns-e-disciplina.md) | Níveis de jejum, jejuns plurianuais e de um dia, semanas livres, jejum eucarístico, prostrações |
 | 03 | [Orações e textos](03-oracoes-e-textos.md) | Molitvoslov, preparação para a Comunhão, Oração de Jesus, Saltério, fontes de textos e licenças |
 | 04 | [Doutrina e terminologia](04-doutrina-e-terminologia.md) | Credo, dogmas, Mistérios, ofícios, estrutura da IOR, glossário PT-PT |
+
+## Estado (fase 1 concluída)
+
+| Documento | Linhas | Fontes | ⚠ por confirmar |
+|---|---|---|---|
+| 01 Calendário e leituras | 519 | 40 | 13 |
+| 02 Jejuns e disciplina | 525 | 32 | 22 |
+| 03 Orações e textos | 596 | 63 | 32 |
+| 04 Doutrina e terminologia | 754 | 56 | 24 |
+
+Para listar todos os pontos em aberto: `grep -n "PARA CONFIRMAR" docs/conhecimento/*.md`
