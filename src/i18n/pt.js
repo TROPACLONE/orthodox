@@ -20,6 +20,7 @@ export default {
     naoVerificado: '* Referência ainda não conferida numa edição impressa de domínio público.',
     semLiturgia: 'Sem Liturgia neste dia.',
     ordinario: 'Do dia («под зачало»)', leiturasDeslocadas: 'As leituras ordinárias deste dia leem-se juntamente com as de outro dia da semana («под зачало»).',
+    mostrarEslavo: 'Mostrar o eslavo', sim: 'Sim', nao: 'Não', vezes: n => (n === 1 ? 'uma vez' : `${n} vezes`),
     emPreparacao: 'Em preparação', emPreparacaoTxt: 'Esta secção chega numa próxima versão.',
     lingua: 'Língua', camadaDefeito: 'Jejum: camada mostrada por defeito', tamanhoTexto: 'Tamanho do texto',
     pequeno: 'Pequeno', normal: 'Normal', grande: 'Grande', muitoGrande: 'Muito grande',
@@ -29,6 +30,10 @@ export default {
     diaAnterior: 'Dia anterior', diaSeguinte: 'Dia seguinte',
     mes: 'Mês anterior', mesSeg: 'Mês seguinte', pascoaAno: 'Páscoa',
   },
+  oracoes: { manha: 'Orações da manhã', noite: 'Orações da noite', comunhao_preparacao: 'Preparação para a Comunhão', comunhao_acao_gracas: 'Ação de graças depois da Comunhão',
+    jesus: 'Oração de Jesus', serafim: 'Regra de S. Serafim de Sarov', acatistos: 'Acatistos', salterio: 'Saltério', defuntos: 'Pelos defuntos', refeicoes: 'Antes e depois das refeições' },
+  estado: { nao_revista: 'Tradução não oficial · não revista', dp_adaptada: 'Tradução de domínio público adaptada', revista_nativo: 'Tradução revista por falante nativo', revista_clero: 'Tradução revista por um clérigo' },
+  periodo: { semana_luminosa: 'Semana Luminosa: em vez das orações habituais leem-se as Horas Pascais.', pascoa_ascensao: 'Tempo Pascal: «Cristo ressuscitou» em vez de «Rei celeste».', ascensao_pentecostes: 'Da Ascensão ao Pentecostes: as orações começam em «Santo Deus».' },
   dias: ['domingo', 'segunda-feira', 'terça-feira', 'quarta-feira', 'quinta-feira', 'sexta-feira', 'sábado'],
   diasCurtos: ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'],
   semana: {

@@ -10,6 +10,8 @@ import { jejum, N } from './engine/jejum.js';
 import { grausDoDia, comemoracoesDoDia, carregarNomes } from './dados/graus.js';
 import { leituras, eothinon } from './engine/leituras.js';
 import { formatarRef } from './engine/referencias.js';
+import { periodoOracao, blocosDoPeriodo } from './engine/oracoes.js';
+import indiceOracoes from './dados/gerado/oracoes/indice.json' with { type: 'json' };
 
 const LINGUAS = ['pt', 'uk', 'ru', 'en'];
 const NOMES_LINGUA = { pt: 'Português', uk: 'Українська', ru: 'Русский', en: 'English' };
@@ -36,6 +38,7 @@ const st = {
   outraCamada: false,
   escala: ESCALAS.some(e => e[0] === ler('escala')) ? ler('escala') : 'normal',
   vista: 'hoje', definicoes: false,
+  eslavo: ler('eslavo') !== 'nao', oracao: null,   // oracao: { id, dados } quando há uma oração aberta (3.º nível)
   jdn: jdnHoje(), mes: null,
 };
 
@@ -211,6 +214,44 @@ function ecraCalendario() {
   return s;
 }
 
+// ── Orações: lista (2.º nível) e texto (3.º nível). Ordem do mapa de navegação aprovado (decisão 47).
+const ORACOES = ['manha', 'noite', 'comunhao_preparacao', 'comunhao_acao_gracas', 'jesus', 'serafim', 'acatistos', 'salterio', 'defuntos', 'refeicoes'];
+function ecraOracoes() {
+  const T = st.t, s = h('section', { class: 'screen' }), ul = h('ul', { class: 'menu' });
+  for (const id of ORACOES) {
+    const ok = !!indiceOracoes[id];
+    ul.append(h('li', {}, h('button', { class: 'item', type: 'button', 'data-acao': 'oracao', 'data-id': id, disabled: !ok },
+      h('span', { text: T.oracoes[id] }), ok ? icone('i-seguinte', 18, 18) : h('small', { text: T.ui.emPreparacao }))));
+  }
+  s.append(ul);
+  return s;
+}
+let pedidoOracao = 0;
+async function abrirOracao(id) {
+  const pedido = ++pedidoOracao, lingua = st.lingua;
+  const [dados, conv] = await Promise.all([import(`./dados/gerado/oracoes/${id}-${lingua}.json`, { with: { type: 'json' } }), import('./engine/eslavo.js')]);
+  if (pedido !== pedidoOracao || lingua !== st.lingua) return;   // entretanto abriu-se outra oração ou mudou a língua
+  st.oracao = { id, dados: dados.default, conv };
+  render(); $('main').scrollTop = 0;
+}
+function ecraOracao() {
+  const T = st.t, { id, dados, conv } = st.oracao, s = h('section', { class: 'screen oracao' });
+  const d = dia(jdnHoje()), periodo = periodoOracao(d, id === 'noite' || new Date().getHours() >= 18);
+  s.append(h('h1', { class: 'data-civil', text: dados.titulo }), h('span', { class: 'estado', text: T.estado[dados.estado] || dados.estado }));
+  if (periodo !== 'comum') s.append(h('div', { class: 'nota', text: T.periodo[periodo] }));
+  const eslavo = st.eslavo ? (st.lingua === 'uk' ? conv.izvod : conv.civil) : null;
+  for (const b of blocosDoPeriodo(dados.blocos, periodo)) {
+    const rep = b.repetir ? ` (${T.ui.vezes(b.repetir)})` : '';
+    if (b.tipo === 'rubrica') { s.append(h('p', { class: 'rubrica', text: b.t + rep })); continue; }
+    if (b.tipo === 'titulo') { s.append(h('h2', { class: 'titulo-oracao', text: b.t })); continue; }
+    const par = h('div', { class: 'par' });
+    if (eslavo && b.cu) par.append(h('p', { class: 'slav', lang: st.lingua === 'uk' ? 'uk' : 'cu', text: eslavo(b.cu) + rep }));
+    par.append(h('p', { class: 'trad', text: b.t + (eslavo && b.cu ? '' : rep) }));
+    s.append(par);
+  }
+  return s;
+}
+
 function ecraEmPreparacao() {
   const T = st.t;
   return h('section', { class: 'screen' }, h('div', { class: 'vazio' }, icone('cruz', 40, 56),
@@ -228,6 +269,7 @@ function ecraDefinicoes() {
     h('div', { class: 'campo' }, h('label', { text: T.ui.camadaDefeito }),
       seg('camada-defeito', [['paroquial', T.ui.camadaParoquial], ['typikon', T.ui.camadaTypikon]], st.camada)),
     h('div', { class: 'campo' }, h('label', { text: T.ui.tamanhoTexto }), seg('escala', ESCALAS.map(([k]) => [k, T.ui[k]]), st.escala)),
+    h('div', { class: 'campo' }, h('label', { text: T.ui.mostrarEslavo }), seg('eslavo', [['sim', T.ui.sim], ['nao', T.ui.nao]], st.eslavo ? 'sim' : 'nao')),
     h('div', { class: 'bloco' }, h('h2', { text: T.ui.acerca }), h('p', { class: 'txt', text: T.ui.acercaTxt }),
       h('p', { class: 'txt', text: `${T.ui.versao} ${__VERSAO__}` })),
     h('div', { class: 'bloco' }, h('h2', { text: T.ui.licencas }), h('p', { class: 'txt', text: T.ui.licencasTxt })));
@@ -239,13 +281,15 @@ function render() {
   document.documentElement.lang = T.lang;
   document.documentElement.style.setProperty('--scale', ESCALAS.find(e => e[0] === st.escala)[1]);
   const esq = $('btn-esq'), dir = $('btn-dir');
-  esq.replaceChildren(icone(st.definicoes ? 'i-voltar' : 'i-pesquisa'));
-  esq.setAttribute('aria-label', st.definicoes ? T.ui.voltar : T.ui.pesquisar);
-  esq.disabled = !st.definicoes;                 // a pesquisa chega com o conteúdo pesquisável (fases 2–4)
+  const voltar = st.definicoes || !!st.oracao;
+  esq.replaceChildren(icone(voltar ? 'i-voltar' : 'i-pesquisa'));
+  esq.setAttribute('aria-label', voltar ? T.ui.voltar : T.ui.pesquisar);
+  esq.disabled = !voltar;                        // a pesquisa chega com o conteúdo pesquisável (fases 2–4)
   dir.replaceChildren(icone('i-definicoes')); dir.setAttribute('aria-label', T.ui.definicoes); dir.hidden = st.definicoes;
   $('titulo').textContent = st.definicoes ? T.ui.definicoes : (st.vista === 'hoje' ? 'Orthodox Helper' : T.nav[st.vista]);
 
-  const ecra = st.definicoes ? ecraDefinicoes() : st.vista === 'hoje' ? ecraHoje() : st.vista === 'calendario' ? ecraCalendario() : ecraEmPreparacao();
+  const ecra = st.definicoes ? ecraDefinicoes() : st.vista === 'hoje' ? ecraHoje() : st.vista === 'calendario' ? ecraCalendario()
+    : st.vista === 'oracoes' ? (st.oracao ? ecraOracao() : ecraOracoes()) : ecraEmPreparacao();
   main.replaceChildren(ecra);
 
   const tabs = $('tabs');
@@ -291,10 +335,12 @@ $('main').addEventListener('click', async e => {
   else if (a === 'lingua') {
     // Bloco da língua indisponível (sem rede e ainda não guardado): fica a língua atual.
     try { if (!(await mudarLingua(b.dataset.valor))) return; } catch { return; }
-    gravar('lingua', st.lingua);
+    gravar('lingua', st.lingua); st.oracao = null;   // o texto aberto estava noutra língua
   }
   else if (a === 'camada-defeito') { st.camada = b.dataset.valor; gravar('camada', st.camada); }
   else if (a === 'escala') { st.escala = b.dataset.valor; gravar('escala', st.escala); }
+  else if (a === 'eslavo') { st.eslavo = b.dataset.valor === 'sim'; gravar('eslavo', b.dataset.valor); }
+  else if (a === 'oracao') { abrirOracao(b.dataset.id).catch(() => {}); return; }
   else return;
   // O ecrã é reconstruído: o foco do teclado volta ao botão equivalente (ou ao conteúdo, se o botão desapareceu).
   const comFoco = document.activeElement === b;
@@ -310,11 +356,14 @@ $('tabs').addEventListener('click', e => {
   const b = e.target.closest('[data-vista]');
   if (!b) return;
   if (b.dataset.vista === 'hoje' && st.vista === 'hoje' && !st.definicoes) st.jdn = jdnHoje();
-  st.vista = b.dataset.vista; st.definicoes = false; st.outraCamada = false;
+  st.vista = b.dataset.vista; st.definicoes = false; st.outraCamada = false; st.oracao = null; pedidoOracao++;
   render(); $('main').scrollTop = 0;
 });
 $('btn-dir').addEventListener('click', () => { st.definicoes = true; render(); $('main').scrollTop = 0; });
-$('btn-esq').addEventListener('click', () => { if (st.definicoes) { st.definicoes = false; render(); } });
+$('btn-esq').addEventListener('click', () => {
+  if (st.definicoes) st.definicoes = false; else if (st.oracao) { st.oracao = null; pedidoOracao++; } else return;
+  render();
+});
 // Mudança de dia com a app aberta: se o ecrã mostrava «hoje», passa para o novo dia.
 let ultimoHoje = jdnHoje();
 document.addEventListener('visibilitychange', () => {

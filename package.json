@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "build": "node build.mjs",
-    "test": "node tools/gerar-dados.mjs && node tests/calendario.test.mjs && node tests/jejum.test.mjs && node tests/i18n.test.mjs && node tests/dados.test.mjs && node tests/graus.test.mjs && node tests/leituras.test.mjs && node tests/referencias.test.mjs && ESTRITO=1 node tests/referencia.test.mjs"
+    "test": "node tools/gerar-dados.mjs && node tests/calendario.test.mjs && node tests/jejum.test.mjs && node tests/i18n.test.mjs && node tests/dados.test.mjs && node tests/graus.test.mjs && node tests/leituras.test.mjs && node tests/referencias.test.mjs && ESTRITO=1 node tests/referencia.test.mjs && node tests/oracoes.test.mjs"
   },
   "devDependencies": {
     "esbuild": "0.28.2"

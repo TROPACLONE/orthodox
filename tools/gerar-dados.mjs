@@ -12,3 +12,24 @@ for (const [md, l] of Object.entries(fonte)) {
 }
 fs.writeFileSync(`${dir}/graus.json`, JSON.stringify(graus));
 for (const [l, n] of Object.entries(nomes)) fs.writeFileSync(`${dir}/nomes-${l}.json`, JSON.stringify(n));
+
+// Orações: um ficheiro por oração e por língua (eslavo + a língua escolhida), mais um índice com os títulos.
+const dirO = `${dir}/oracoes`;
+fs.rmSync(dirO, { recursive: true, force: true });
+fs.mkdirSync(dirO, { recursive: true });
+const indice = {};
+if (fs.existsSync('data/oracoes')) for (const f of fs.readdirSync('data/oracoes').sort()) {
+  if (!f.endsWith('.json')) continue;
+  const o = JSON.parse(fs.readFileSync(`data/oracoes/${f}`, 'utf8'));
+  indice[o.id] = { titulo: o.titulo, estado: o.estado };
+  for (const l of ['pt', 'ru', 'uk', 'en']) {
+    const blocos = o.blocos.map(b => {
+      const x = { id: b.id, tipo: b.tipo, cu: b.cu || '', t: b[l] || '' };
+      if (b.repetir) x.repetir = b.repetir;
+      if (b.quando) x.quando = b.quando;
+      return x;
+    });
+    fs.writeFileSync(`${dirO}/${o.id}-${l}.json`, JSON.stringify({ titulo: o.titulo[l], tituloCu: o.titulo.cu, estado: o.estado[l], blocos }));
+  }
+}
+fs.writeFileSync(`${dirO}/indice.json`, JSON.stringify(indice));

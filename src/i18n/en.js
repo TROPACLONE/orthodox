@@ -21,6 +21,7 @@ export default {
     naoVerificado: '* Reference not yet checked against a public-domain printed edition.',
     semLiturgia: 'No Liturgy on this day.',
     ordinario: 'Of the day (“pod zachalo”)', leiturasDeslocadas: 'The ordinary readings of this day are read together with those of another day of the week (“pod zachalo”).',
+    mostrarEslavo: 'Show Church Slavonic', sim: 'Yes', nao: 'No', vezes: n => (n === 2 ? 'twice' : n === 3 ? 'three times' : `${n} times`),
     emPreparacao: 'In preparation', emPreparacaoTxt: 'This section arrives in a later version.',
     lingua: 'Language', camadaDefeito: 'Fast: layer shown by default', tamanhoTexto: 'Text size',
     pequeno: 'Small', normal: 'Normal', grande: 'Large', muitoGrande: 'Extra large',
@@ -30,6 +31,10 @@ export default {
     diaAnterior: 'Previous day', diaSeguinte: 'Next day',
     mes: 'Previous month', mesSeg: 'Next month', pascoaAno: 'Pascha',
   },
+  oracoes: { manha: 'Morning Prayers', noite: 'Evening Prayers', comunhao_preparacao: 'Preparation for Holy Communion', comunhao_acao_gracas: 'Thanksgiving after Holy Communion',
+    jesus: 'The Jesus Prayer', serafim: 'Rule of St Seraphim of Sarov', acatistos: 'Akathists', salterio: 'Psalter', defuntos: 'For the Departed', refeicoes: 'Prayers before and after Meals' },
+  estado: { nao_revista: 'Unofficial translation · not reviewed', dp_adaptada: 'Public-domain translation, adapted', revista_nativo: 'Translation reviewed by a native speaker', revista_clero: 'Translation reviewed by a clergyman' },
+  periodo: { semana_luminosa: 'Bright Week: the Paschal Hours are read instead of the usual prayers.', pascoa_ascensao: 'Paschal season: “Christ is risen” instead of “O Heavenly King”.', ascensao_pentecostes: 'From the Ascension to Pentecost the prayers begin at “Holy God”.' },
   dias: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
   diasCurtos: ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
   semana: {
