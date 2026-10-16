@@ -22,4 +22,7 @@ Registo das decisões tomadas pelo utilizador. Em caso de dúvida, pergunta-se s
 | 16 | 2026-10-16 | Navegação | Menu extremamente intuitivo; conteúdo rigorosamente organizado; hierarquia de navegação simples e de fácil compreensão. |
 | 17 | 2026-10-16 | Texto bíblico | Critério do utilizador: **máxima precisão e fidelidade**. Decisão técnica: **tradução própria para PT-PT a partir do grego** — AT da Septuaginta (edição de domínio público, p. ex. Swete 1909 — licença a verificar), NT do texto patriarcal de Constantinopla (1904) — **cotejada com a Bíblia eslava isabelina** (o texto efetivamente lido na prática russa, mostrado lado a lado pela decisão 5). Divergências eslavo↔grego assinaladas em nota. Assinalada como «tradução não oficial». Prioridade: os textos usados na app (leituras do dia, Saltério). A Bíblia de Figueiredo (Vulgata) serve apenas de referência auxiliar, nunca de texto-base. |
 | 18 | 2026-10-16 | Livros bíblicos | Cânone, nomes e numeração **da LXX / Bíblia eslava**: 1–4 Reinos, Paralipómenos, 2–3 Esdras, 3 Macabeus, etc.; Salmos com numeração LXX (hebraica entre parênteses). |
-| 19 | 2026-10-16 | Nomes próprios | **Forma portuguesa tradicional** (Elias, Isaías, João Baptista, Pantaleão, Antão…). |
+| 19 | 2026-10-16 | Nomes próprios | **Forma portuguesa tradicional** (Elias, Isaías, João Batista, Pantaleão, Antão…). |
+| 20 | 2026-10-16 | Pendentes A–E | **Aceites todas as recomendações** de [pendentes.md](pendentes.md) (A0–A6, B1–B10, C1–C6, D1–D11). |
+| 21 | 2026-10-16 | Ortografia | **Acordo Ortográfico de 1990** (norma oficial em Portugal): «Batista», «ação», etc. |
+| 22 | 2026-10-16 | Pesquisa | 2.ª ronda também nos documentos 05–08. |

@@ -1,4 +1,6 @@
-# Decisões pendentes (consolidadas)
+# Decisões consolidadas (aceites — decisão 20)
+
+> Estado: **todas as recomendações (R) foram aceites pelo utilizador em 2026-10-16** (decisão 20). E1 → AO 1990 (decisão 21).
 
 Todas as escolhas marcadas «→ DECISÃO DO UTILIZADOR» na base de conhecimento, agrupadas por tema, com a **recomendação** (R) proposta segundo o critério do projeto: máxima precisão, fidelidade à prática russa, neutralidade factual.
 Já resolvidas por decisões anteriores: texto bíblico das leituras (dec. 17), versão do Credo (dec. 7 — tradução própria, cotejada com o texto do Vicariato), grafia dos nomes próprios (dec. 19).
