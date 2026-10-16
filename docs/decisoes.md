@@ -60,3 +60,5 @@ Registo das decisões tomadas pelo utilizador. Em caso de dúvida, pergunta-se s
 | 54 | 2026-10-16 | Fase 2 — subfases | 2a manhã, noite, refeições, Oração de Jesus, regra de S. Serafim → 2b preparação e ação de graças da Comunhão → 2c Saltério (20 catismas) → 2d acatistos aprovados e orações pelos defuntos. Verificação (dec. 49) no fim de cada subfase. |
 | 55 | 2026-10-16 | Comemoração do Patriarca | **Nome atual** nos textos: «Patriarca de Moscovo e de toda a Rússia, Cirilo» (atualizar se mudar). |
 | 56 | 2026-10-16 | Petição na versão UK | **Igual ao texto russo** (tradução fiel da prática da IOR, dec. 2). |
+| 57 | 2026-10-16 | Russo — Zaionchkovsky 1912 | **Fidelidade prevalece:** mantém-se Z1912 onde é fiel ao eslavo; onde parafraseia ou acrescenta, tradução própria fiel (assinalada). Afina a dec. 36. |
+| 58 | 2026-10-16 | Oração depois da refeição | **Texto atual** («…vem a nós e salva-nos»), com nota de que a edição de 1900 não o tem (dec. 2). |

@@ -15,7 +15,8 @@ const PH = (d, id, hora) => periodoOracao(dia(G(...d)), eNoite(id, hora));
 assert.equal(PH([2026, 5, 20], 'noite', 1), 'pascoa_ascensao'); assert.equal(PH([2026, 5, 20], 'noite', 21), 'ascensao_pentecostes');
 assert.equal(PH([2026, 5, 20], 'noite', 14), 'ascensao_pentecostes'); assert.equal(PH([2026, 5, 20], 'manha', 7), 'pascoa_ascensao');
 assert.equal(PH([2026, 5, 20], 'refeicoes', 19), 'ascensao_pentecostes'); assert.equal(PH([2026, 5, 30], 'noite', 22), 'comum');
-assert.equal(PH([2026, 4, 18], 'noite', 22), 'semana_luminosa');   // ⚠ Sábado Luminoso (B1)
+assert.equal(PH([2026, 4, 18], 'noite', 22), 'pascoa_ascensao');   // Sábado Luminoso à noite: Horas Pascais só «até sábado de manhã» (rubrica; QA 2a)
+assert.equal(PH([2026, 4, 18], 'manha', 8), 'semana_luminosa');
 assert.equal(P([2026, 5, 21]), 'ascensao_pentecostes'); assert.equal(P([2026, 5, 31]), 'comum');
 assert.deepEqual(blocosDoPeriodo([{ id: 'a' }, { id: 'b', quando: { so: ['semana_luminosa'] } }, { id: 'c', quando: { excepto: ['semana_luminosa'] } }], 'comum').map(b => b.id), ['a', 'c']);
 let n = 0;
