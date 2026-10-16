@@ -1,0 +1,429 @@
+<title>Desenho da App Ortodoxa</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=PT+Sans:wght@400;700&display=swap">
+<style>
+/* Layout: uma coluna de leitura; maquetas de ecrã lado a lado que empilham em telemóvel. Tema único escuro (decisão 25). */
+:root{
+  color-scheme: dark;
+  --bg:#0b0a08;        /* preto quente */
+  --surface:#15130f;   /* cartões, ecrã */
+  --line:#2a261e;      /* filetes */
+  --text:#ece4d3;      /* pergaminho */
+  --muted:#a1977f;     /* texto secundário */
+  --gold:#c9a55c;      /* ouro (acento único) */
+  --gold-dim:#7d6a42;
+  --cinnabar:#c4553f;  /* vermelho de rubrica (киноварь): festas e indicações */
+  --f-display:"Old Standard TT", "PT Serif", Georgia, serif;
+  --f-text:"PT Serif", Georgia, "Times New Roman", serif;
+  --f-ui:"PT Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-slav:"Old Standard TT", "PT Serif", serif; /* na app: Ponomar Unicode (OFL), auto-alojada */
+}
+body{background:var(--bg);color:var(--text);font:16px/1.6 var(--f-text);
+  padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));padding-block:32px 64px}
+.wrap{max-width:1080px;margin:0 auto;display:grid;gap:56px}
+h1,h2,h3{font-family:var(--f-display);font-weight:400;text-wrap:balance;margin:0;line-height:1.2}
+h1{font-size:clamp(2rem,5vw,3rem)}
+h2{font-size:1.6rem;color:var(--gold)}
+h3{font-size:1.15rem}
+p{margin:0;max-width:65ch}
+.lead{color:var(--muted);font-size:1.05rem}
+.eyebrow{font:700 .72rem/1 var(--f-ui);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+section{display:grid;gap:20px}
+.rule{height:1px;background:linear-gradient(90deg,transparent,var(--gold-dim),transparent);border:0;margin:0}
+header.top{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+header.top svg{width:52px;height:72px;flex:none}
+.hint{font:400 .85rem/1.5 var(--f-ui);color:var(--muted)}
+
+/* Símbolo */
+.symbols{display:flex;gap:28px;flex-wrap:wrap;align-items:flex-end}
+.sym{display:grid;gap:8px;justify-items:center}
+.appicon{width:120px;height:120px;border-radius:27px;background:radial-gradient(circle at 50% 40%,#1c1912,#070605 75%);display:grid;place-items:center;box-shadow:inset 0 0 0 1px var(--line)}
+.appicon svg{width:58px;height:82px}
+
+/* Paleta e tipos */
+.swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.sw{display:grid;gap:6px;font:400 .82rem/1.4 var(--f-ui);color:var(--muted)}
+.sw i{display:block;height:56px;border-radius:8px;box-shadow:inset 0 0 0 1px var(--line)}
+.sw b{color:var(--text);font-weight:700}
+.types{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.type{border-top:1px solid var(--line);padding-top:12px;display:grid;gap:6px;min-width:0}
+
+/* Maquetas */
+.screens{display:flex;gap:28px;flex-wrap:wrap;justify-content:center}
+.phone{width:340px;max-width:100%;background:var(--surface);border-radius:34px;box-shadow:0 0 0 1px var(--line),0 0 0 7px #050504,0 0 0 8px var(--line);overflow:hidden;display:grid;grid-template-rows:auto 1fr auto;min-height:640px}
+.cap{font:700 .78rem/1 var(--f-ui);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);text-align:center;margin-top:12px}
+.bar{display:flex;justify-content:space-between;align-items:center;padding:14px 18px 10px;border-bottom:1px solid var(--line)}
+.bar .t{font:400 1.05rem/1.2 var(--f-display)}
+.icon-btn{width:28px;height:28px;display:grid;place-items:center;color:var(--muted)}
+.icon-btn svg{width:20px;height:20px}
+.body{padding:16px 18px;display:grid;gap:14px;align-content:start;font-family:var(--f-ui);font-size:.92rem;line-height:1.45}
+.date-civ{font:400 1.45rem/1.15 var(--f-display)}
+.date-jul{color:var(--muted);font-size:.85rem}
+.meta{display:flex;gap:6px;flex-wrap:wrap}
+.chip{font:700 .72rem/1 var(--f-ui);letter-spacing:.04em;padding:6px 9px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+.chip.fast{color:var(--text);border-color:var(--gold-dim)}
+.block{display:grid;gap:6px;padding-top:12px;border-top:1px solid var(--line)}
+.block h4{margin:0;font:700 .7rem/1 var(--f-ui);letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.saint-main{font:400 1.02rem/1.35 var(--f-text)}
+.list{margin:0;padding:0;list-style:none;display:grid;gap:4px;color:var(--muted)}
+.read{display:flex;justify-content:space-between;gap:10px}
+.read span:last-child{color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.note{font-size:.78rem;color:var(--muted)}
+.tabs{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--line);padding:8px 4px 12px;background:#100e0b}
+.tab{display:grid;justify-items:center;gap:4px;font:400 .66rem/1 var(--f-ui);color:var(--muted)}
+.tab svg{width:22px;height:22px}
+.tab.on{color:var(--gold)}
+
+/* Calendário */
+.month{display:grid;grid-template-columns:repeat(7,1fr);gap:2px;text-align:center;font-variant-numeric:tabular-nums}
+.month .dow{font:700 .66rem/1 var(--f-ui);color:var(--muted);padding:6px 0;letter-spacing:.06em}
+.month .dow.sun{color:var(--cinnabar)}
+.d{position:relative;padding:6px 0 10px;border-radius:8px;display:grid;gap:1px}
+.d b{font:400 .95rem/1.1 var(--f-ui)}
+.d small{font-size:.6rem;color:var(--muted)}
+.d.sun b{color:var(--cinnabar)}
+.d.feast b{color:var(--cinnabar);font-weight:700}
+.d.today{box-shadow:inset 0 0 0 1px var(--gold)}
+.d.fast::after{content:"";position:absolute;left:50%;bottom:4px;width:4px;height:4px;margin-left:-2px;border-radius:50%;background:var(--gold)}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:.75rem;color:var(--muted)}
+.legend i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;vertical-align:middle}
+
+/* Oração */
+.rubric{color:var(--cinnabar);font:italic 400 .85rem/1.4 var(--f-text)}
+.pair{display:grid;gap:4px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.slav{font:400 1.05rem/1.45 var(--f-slav)}
+.pt{font:400 .98rem/1.5 var(--f-text);color:#d6ccb8}
+.status{justify-self:start;font:700 .66rem/1 var(--f-ui);letter-spacing:.06em;padding:5px 8px;border-radius:6px;background:#211c12;color:var(--gold)}
+
+/* Mapa */
+.map{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px}
+.col{border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;gap:10px;align-content:start;min-width:0}
+.col h3{display:flex;gap:8px;align-items:center;color:var(--gold);font-size:1.05rem}
+.col h3 svg{width:18px;height:18px;flex:none}
+.col ul{margin:0;padding-left:18px;display:grid;gap:4px;font:400 .88rem/1.4 var(--f-ui)}
+.col ul ul{margin-top:4px;color:var(--muted)}
+.col .lvl{font:400 .72rem/1.3 var(--f-ui);color:var(--muted)}
+.principles{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px 28px;margin:0;padding:0;list-style:none}
+.principles li{display:grid;gap:4px;font-family:var(--f-ui);font-size:.92rem}
+.principles b{font-family:var(--f-display);font-weight:400;font-size:1.05rem;color:var(--text)}
+.principles span{color:var(--muted)}
+@media (prefers-reduced-motion:no-preference){.phone{transition:transform .3s}.phone:hover{transform:translateY(-3px)}}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="cross" viewBox="0 0 100 140">
+      <rect x="45" y="4" width="10" height="132" />
+      <rect x="32" y="20" width="36" height="8" />
+      <rect x="14" y="40" width="72" height="10" />
+      <rect x="27" y="92" width="46" height="9" transform="rotate(22 50 96.5)" />
+    </symbol>
+    <symbol id="i-today" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M5.3 18.7l2.1-2.1M16.6 7.4l2.1-2.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3.5 9.5h17M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-pray" viewBox="0 0 24 24"><path d="M12 3c-1.2 1.4-1.8 2.5-1.8 3.6 0 1 .8 1.8 1.8 1.8s1.8-.8 1.8-1.8C13.8 5.5 13.2 4.4 12 3z" fill="currentColor"/><path d="M8 21h8M9.5 21V12.5h5V21M12 9v3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5.5C6.5 4.5 9.5 4.5 12 6c2.5-1.5 5.5-1.5 8-.5V19c-2.5-1-5.5-1-8 .5-2.5-1.5-5.5-1.5-8-.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 6v13.5" stroke="currentColor" stroke-width="1.6"/></symbol>
+    <symbol id="i-learn" viewBox="0 0 24 24"><path d="M12 3.5l8.5 4.5L12 12.5 3.5 8z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M7 10.5V15c1.5 1.6 3.2 2.3 5 2.3s3.5-.7 5-2.3v-4.5" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15 15l5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+    <symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 3v2.5M12 18.5V21M3 12h2.5M18.5 12H21M5.6 5.6l1.8 1.8M16.6 16.6l1.8 1.8M5.6 18.4l1.8-1.8M16.6 7.4l1.8-1.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+
+<div class="wrap">
+
+<header class="top">
+  <svg fill="var(--gold)" aria-hidden="true"><use href="#cross"/></svg>
+  <div style="display:grid;gap:8px;min-width:0">
+    <span class="eyebrow">Proposta para aprovação · 16 de outubro de 2026</span>
+    <h1>Desenho da app ortodoxa</h1>
+    <p class="lead">Símbolo, cores, tipos de letra, três ecrãs de exemplo e o mapa de navegação completo. Nada disto é código final: é o que se aprova antes de o escrever.</p>
+  </div>
+</header>
+
+<hr class="rule">
+
+<section>
+  <span class="eyebrow">1 · Símbolo</span>
+  <h2>Cruz russa de oito pontas</h2>
+  <p>Só a silhueta (decisão 14): travessa do título, travessa principal e supedâneo inclinado, com a extremidade da esquerda (do lado direito de Cristo) mais alta, como na tradição russa. Lê-se bem do ícone da app até 16 píxeis.</p>
+  <div class="symbols">
+    <div class="sym"><div class="appicon"><svg fill="var(--gold)" aria-label="Cruz de oito pontas"><use href="#cross"/></svg></div><span class="hint">Ícone da app</span></div>
+    <div class="sym"><svg width="34" height="48" fill="var(--gold)" aria-hidden="true"><use href="#cross"/></svg><span class="hint">48 px</span></div>
+    <div class="sym"><svg width="17" height="24" fill="var(--gold)" aria-hidden="true"><use href="#cross"/></svg><span class="hint">24 px</span></div>
+    <div class="sym"><svg width="11" height="16" fill="var(--text)" aria-hidden="true"><use href="#cross"/></svg><span class="hint">16 px</span></div>
+  </div>
+</section>
+
+<section>
+  <span class="eyebrow">2 · Cores e tipos de letra</span>
+  <h2>Preto, pergaminho, ouro e cinábrio</h2>
+  <p>Só tema escuro (decisão 25). O ouro é o único acento e serve para orientar. O vermelho de cinábrio vem dos livros litúrgicos eslavos, onde as rubricas e as festas se imprimem a vermelho: na app marca festas, domingos e indicações de leitura. Contraste do texto principal sobre o fundo: cerca de 15:1.</p>
+  <div class="swatches">
+    <div class="sw"><i style="background:var(--bg)"></i><b>Fundo</b>preto quente</div>
+    <div class="sw"><i style="background:var(--surface)"></i><b>Superfície</b>ecrãs e painéis</div>
+    <div class="sw"><i style="background:var(--text)"></i><b>Texto</b>pergaminho</div>
+    <div class="sw"><i style="background:var(--muted)"></i><b>Secundário</b>datas, notas</div>
+    <div class="sw"><i style="background:var(--gold)"></i><b>Ouro</b>acento e navegação</div>
+    <div class="sw"><i style="background:var(--cinnabar)"></i><b>Cinábrio</b>festas, rubricas</div>
+  </div>
+  <div class="types">
+    <div class="type"><span class="hint">Títulos — Old Standard TT (tipo de livro russo do séc. XIX)</span><span style="font:400 1.6rem/1.2 var(--f-display)">Natividade da Mãe de Deus</span></div>
+    <div class="type"><span class="hint">Texto de leitura — PT Serif (cirílico completo, incl. ucraniano)</span><span style="font:400 1.05rem/1.5 var(--f-text)">Santo Deus, Santo Forte, Santo Imortal, tende piedade de nós.</span></div>
+    <div class="type"><span class="hint">Eslavo — na app: Ponomar Unicode (OFL); aqui aproximado</span><span class="slav">Свя́тый Бо́же, Свя́тый Кре́пкий, Свя́тый Безсме́ртный, поми́луй нас.</span></div>
+    <div class="type"><span class="hint">Interface — PT Sans (menus, datas, botões)</span><span style="font:400 1rem/1.4 var(--f-ui)">Calendário · Orações · Definições</span></div>
+  </div>
+  <p class="hint">Na app, os tipos de letra são auto-alojados e reduzidos aos caracteres necessários (cerca de 45–72 KB para o eslavo, segundo o doc. 09), para cumprir a decisão 23.</p>
+</section>
+
+<hr class="rule">
+
+<section>
+  <span class="eyebrow">3 · Ecrãs de exemplo</span>
+  <h2>Hoje, Calendário e uma oração</h2>
+  <p>Dados reais de hoje, sexta-feira, 16 de outubro de 2026 (3 de outubro no calendário juliano), verificados no azbyka.ru. Na app, serão calculados localmente.</p>
+
+  <div class="screens">
+    <!-- HOJE -->
+    <div>
+      <div class="phone" aria-label="Maqueta do ecrã Hoje">
+        <div class="bar">
+          <span class="icon-btn"><svg><use href="#i-search"/></svg></span>
+          <svg width="16" height="22" fill="var(--gold)" aria-hidden="true"><use href="#cross"/></svg>
+          <span class="icon-btn"><svg><use href="#i-gear"/></svg></span>
+        </div>
+        <div class="body">
+          <div style="display:grid;gap:4px">
+            <span class="date-civ">Sexta-feira, 16 de outubro</span>
+            <span class="date-jul">3 de outubro de 2026 · calendário juliano</span>
+          </div>
+          <div class="meta">
+            <span class="chip">20.ª semana depois do Pentecostes</span>
+            <span class="chip">Tom 2</span>
+            <span class="chip fast">Dia de jejum</span>
+          </div>
+          <div class="block">
+            <h4>Jejum</h4>
+            <span>Sem carne, lacticínios, ovos nem peixe.</span>
+            <span class="note">Calendário paroquial (segundo Azbuka Very) · tocar para ver o Typikon</span>
+          </div>
+          <div class="block">
+            <h4>Santos</h4>
+            <span class="saint-main">Hieromártir Dionísio Areopagita, bispo de Atenas, e os mártires Rústico, presbítero, e Eleutério, diácono (96)</span>
+            <ul class="list">
+              <li>S. Dionísio Chtchepa, recluso das Grutas de Kiev (séc. XV)</li>
+              <li>S. João Chozebita, bispo de Cesareia (séc. VI)</li>
+              <li>S. Agatângelo (Preobrajenski), confessor, metropolita de Iaroslavl (1928)</li>
+              <li>Ícone da Mãe de Deus de Trubtchevsk (1765)</li>
+            </ul>
+          </div>
+          <div class="block">
+            <h4>Leituras</h4>
+            <div class="read"><span>Apóstolo</span><span>Fl 3, 8–19</span></div>
+            <div class="read"><span>Evangelho</span><span>Lc 6, 17–23</span></div>
+            <div class="read" style="color:var(--muted)"><span>Do hieromártir</span><span>At 17, 16–34 · Mt 13, 44–54</span></div>
+          </div>
+        </div>
+        <nav class="tabs">
+          <span class="tab on"><svg><use href="#i-today"/></svg>Hoje</span>
+          <span class="tab"><svg><use href="#i-cal"/></svg>Calendário</span>
+          <span class="tab"><svg><use href="#i-pray"/></svg>Orações</span>
+          <span class="tab"><svg><use href="#i-book"/></svg>Bíblia</span>
+          <span class="tab"><svg><use href="#i-learn"/></svg>Conhecer</span>
+        </nav>
+      </div>
+      <p class="cap">Hoje</p>
+    </div>
+
+    <!-- CALENDÁRIO -->
+    <div>
+      <div class="phone" aria-label="Maqueta do ecrã Calendário">
+        <div class="bar">
+          <span class="icon-btn"><svg><use href="#i-back"/></svg></span>
+          <span class="t">Outubro de 2026</span>
+          <span class="icon-btn" style="transform:scaleX(-1)"><svg><use href="#i-back"/></svg></span>
+        </div>
+        <div class="body">
+          <div class="month" id="month"></div>
+          <div class="legend">
+            <span><i style="background:var(--gold)"></i>dia de jejum</span>
+            <span><i style="background:var(--cinnabar)"></i>domingo ou festa</span>
+            <span>número pequeno: data juliana</span>
+          </div>
+          <div class="block">
+            <h4>14 de outubro · 1 de outubro (juliano)</h4>
+            <span class="saint-main" style="color:var(--cinnabar)">Proteção da Santíssima Mãe de Deus</span>
+            <span class="note">Tocar num dia abre o ecrã «Hoje» desse dia.</span>
+          </div>
+        </div>
+        <nav class="tabs">
+          <span class="tab"><svg><use href="#i-today"/></svg>Hoje</span>
+          <span class="tab on"><svg><use href="#i-cal"/></svg>Calendário</span>
+          <span class="tab"><svg><use href="#i-pray"/></svg>Orações</span>
+          <span class="tab"><svg><use href="#i-book"/></svg>Bíblia</span>
+          <span class="tab"><svg><use href="#i-learn"/></svg>Conhecer</span>
+        </nav>
+      </div>
+      <p class="cap">Calendário</p>
+    </div>
+
+    <!-- ORAÇÃO -->
+    <div>
+      <div class="phone" aria-label="Maqueta de uma oração">
+        <div class="bar">
+          <span class="icon-btn"><svg><use href="#i-back"/></svg></span>
+          <span class="t">Orações da manhã</span>
+          <span class="icon-btn" style="font:700 .8rem/1 var(--f-ui)">Aa</span>
+        </div>
+        <div class="body">
+          <span class="status">Tradução não oficial · não revista</span>
+          <span class="rubric">Ao levantar-se, antes de qualquer outra coisa, de pé diante dos ícones, diz:</span>
+          <div class="pair">
+            <span class="slav">Во и́мя Отца́ и Сы́на и Свята́го Ду́ха. Ами́нь.</span>
+            <span class="pt">Em nome do Pai e do Filho e do Espírito Santo. Ámen.</span>
+          </div>
+          <span class="rubric">Oração do publicano</span>
+          <div class="pair">
+            <span class="slav">Бо́же, ми́лостив бу́ди мне, гре́шному.</span>
+            <span class="pt">Ó Deus, sê misericordioso para comigo, pecador.</span>
+          </div>
+          <div class="pair">
+            <span class="slav">Сла́ва Тебе́, Бо́же наш, сла́ва Тебе́.</span>
+            <span class="pt">Glória a Ti, ó nosso Deus, glória a Ti.</span>
+          </div>
+          <span class="note">Eslavo em escrita civil com acentos (decisão B3). As rubricas aparecem a cinábrio, como nos livros litúrgicos.</span>
+        </div>
+        <nav class="tabs">
+          <span class="tab"><svg><use href="#i-today"/></svg>Hoje</span>
+          <span class="tab"><svg><use href="#i-cal"/></svg>Calendário</span>
+          <span class="tab on"><svg><use href="#i-pray"/></svg>Orações</span>
+          <span class="tab"><svg><use href="#i-book"/></svg>Bíblia</span>
+          <span class="tab"><svg><use href="#i-learn"/></svg>Conhecer</span>
+        </nav>
+      </div>
+      <p class="cap">Oração</p>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section>
+  <span class="eyebrow">4 · Mapa de navegação</span>
+  <h2>Cinco separadores, nunca mais de três níveis</h2>
+  <p>A barra inferior está sempre visível. Cada separador abre uma lista, cada item da lista abre o conteúdo: separador → lista → conteúdo. A pesquisa e as definições estão no topo de todos os ecrãs.</p>
+  <div class="map">
+    <div class="col">
+      <h3><svg><use href="#i-today"/></svg>Hoje</h3>
+      <span class="lvl">Um único ecrã, o dia de hoje</span>
+      <ul>
+        <li>Data civil e juliana, semana e tom</li>
+        <li>Festa do dia e o seu grau</li>
+        <li>Jejum: paroquial e Typikon</li>
+        <li>Santos do dia → ficha do santo</li>
+        <li>Leituras do dia → texto</li>
+        <li>Atalho: orações da manhã ou da noite, conforme a hora</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h3><svg><use href="#i-cal"/></svg>Calendário</h3>
+      <span class="lvl">Mês → dia</span>
+      <ul>
+        <li>Mês (domingo a sábado) → dia</li>
+        <li>Festas do ano</li>
+        <li>Jejuns do ano</li>
+        <li>Data da Páscoa noutros anos</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h3><svg><use href="#i-pray"/></svg>Orações</h3>
+      <span class="lvl">Lista → oração</span>
+      <ul>
+        <li>Orações da manhã</li>
+        <li>Orações da noite</li>
+        <li>Preparação para a Comunhão</li>
+        <li>Ação de graças depois da Comunhão</li>
+        <li>Oração de Jesus</li>
+        <li>Acatistos</li>
+        <li>Saltério (catismas)</li>
+        <li>Pelos defuntos</li>
+        <li>Antes e depois das refeições</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h3><svg><use href="#i-book"/></svg>Bíblia</h3>
+      <span class="lvl">Livro → capítulo</span>
+      <ul>
+        <li>Leituras do dia</li>
+        <li>Antigo Testamento (cânone da LXX)</li>
+        <li>Novo Testamento</li>
+        <li>Ir para referência (p. ex. «Lc 6, 17»)</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h3><svg><use href="#i-learn"/></svg>Conhecer</h3>
+      <span class="lvl">Tema → artigo</span>
+      <ul>
+        <li>A fé: Credo, catequese, Mistérios</li>
+        <li>Santos</li>
+        <li>Ofícios divinos</li>
+        <li>Ícones e templo</li>
+        <li>História da Igreja</li>
+        <li>Padres e espiritualidade</li>
+        <li>Biblioteca</li>
+        <li>Glossário</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h3><svg><use href="#i-gear"/></svg>Topo: pesquisa e definições</h3>
+      <span class="lvl">Em todos os ecrãs</span>
+      <ul>
+        <li>Pesquisa global (santos, orações, Bíblia, glossário)</li>
+        <li>Definições
+          <ul>
+            <li>Língua (PT · UK · RU · EN)</li>
+            <li>Camada de jejum por defeito</li>
+            <li>Mostrar eslavo</li>
+            <li>Tamanho do texto</li>
+            <li>Fontes e licenças</li>
+            <li>Acerca</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <span class="eyebrow">5 · Regras de interface</span>
+  <ul class="principles">
+    <li><b>Abre no dia de hoje</b><span>A primeira coisa que se vê é o que importa hoje: festa, jejum, santos e leituras.</span></li>
+    <li><b>Toque mínimo 44 px</b><span>Todos os botões e linhas tocáveis cumprem a medida das diretrizes da Apple e do Android.</span></li>
+    <li><b>Voltar sempre igual</b><span>A seta no canto superior esquerdo e o gesto de deslizar levam sempre ao nível anterior.</span></li>
+    <li><b>A cor nunca é a única pista</b><span>O jejum tem ponto e texto; as festas têm cor e nome. Funciona para quem não distingue cores.</span></li>
+    <li><b>Texto ajustável</b><span>As orações e as leituras seguem o tamanho escolhido, sem desmanchar a página.</span></li>
+    <li><b>Sem animações supérfluas</b><span>Só transições curtas, desligadas se o aparelho pedir movimento reduzido.</span></li>
+  </ul>
+</section>
+
+</div>
+
+<script>
+// Grelha de outubro de 2026 (1 de outubro é quinta-feira). Data juliana = civil − 13 dias.
+(function () {
+  const el = document.getElementById('month');
+  const dows = ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'];
+  dows.forEach((d, i) => { const s = document.createElement('span'); s.className = 'dow' + (i === 0 ? ' sun' : ''); s.textContent = d; el.append(s); });
+  const first = new Date(Date.UTC(2026, 9, 1)).getUTCDay();
+  for (let i = 0; i < first; i++) el.append(document.createElement('span'));
+  for (let d = 1; d <= 31; d++) {
+    const dow = (first + d - 1) % 7;
+    const jul = new Date(Date.UTC(2026, 9, d - 13));
+    const c = document.createElement('span');
+    c.className = 'd' + (dow === 0 ? ' sun' : '') + (dow === 3 || dow === 5 ? ' fast' : '') + (d === 14 ? ' feast' : '') + (d === 16 ? ' today' : '');
+    c.innerHTML = '<b>' + d + '</b><small>' + jul.getUTCDate() + '</small>';
+    el.append(c);
+  }
+})();
+</script>
