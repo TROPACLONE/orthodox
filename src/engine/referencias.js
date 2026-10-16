@@ -59,10 +59,10 @@ const TRACO = '–';
 /** "Mark.8.34-9.1", "Luke.21.5-7,10-11,20-24", "1Pet.1.1-2,10-12,2.6-10", "Titus.2.11-14;Titus.3.4-7" → texto. */
 export function formatarRef(r, lingua) {
   const { cv, grupo } = ESTILO[lingua] || ESTILO.pt, col = COL[lingua] ?? 0;
-  let livroAnt = null;
-  return r.split(';').map(seg => {
+  let livroAnt = null, capAnt = null, res = '';
+  for (const seg of r.split(';')) {
     const m = seg.trim().match(/^([1-4]?[A-Za-z]+)\.(\d+)\.(.+)$/);
-    if (!m) return seg;
+    if (!m) { res += (res ? '; ' : '') + seg; continue; }
     const [, livro, cap, resto] = m;
     let capAtual = cap, out = '', primeiro = true;
     for (const tok of resto.split(',')) {
@@ -78,9 +78,11 @@ export function formatarRef(r, lingua) {
       primeiro = false;
     }
     const nome = (LIVROS[livro] || [livro])[col] || livro;
-    const txt = (livro === livroAnt ? '' : nome + ' ') + out;
-    livroAnt = livro;
-    return txt;
-  }).join('; ');
+    // Mesmo livro e capítulo do segmento anterior: só os versículos («12, 1–5.9–11»)
+    if (livro === livroAnt && cap === capAnt && !out.includes('; ')) res += grupo + out.slice(cap.length + cv.length);
+    else res += (res ? '; ' : '') + (livro === livroAnt ? '' : nome + ' ') + out;
+    livroAnt = livro; capAnt = capAtual;
+  }
+  return res;
 }
 export const livrosConhecidos = () => Object.keys(LIVROS);

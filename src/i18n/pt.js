@@ -15,7 +15,7 @@ export default {
     legendaJejum: 'dia de jejum', legendaFesta: 'domingo ou festa', legendaJuliano: 'número pequeno: data juliana',
     apostolo: 'Apóstolo', evangelho: 'Evangelho', antigoTestamento: 'Antigo Testamento', festaLeituras: 'Da festa',
     horasReais: 'Horas Reais', bencaoAguas: 'Grande Bênção da Água', matinas: 'Matinas',
-    servico: { hora1: '1.ª Hora', hora3: '3.ª Hora', hora6: '6.ª Hora', hora9: '9.ª Hora', vesperas: 'Vésperas', bencao_aguas: 'Bênção da água', liturgia: 'Liturgia', matinas: 'Matinas' },
+    servico: { vesperas_vespera: 'Vésperas (na véspera)', liturgia_presantificados: 'Liturgia dos Pré-santificados', lava_pes: 'Lava-pés', matinas_12_evangelhos: 'Matinas dos 12 Evangelhos da Paixão', hora1: '1.ª Hora', hora3: '3.ª Hora', hora6: '6.ª Hora', hora9: '9.ª Hora', vesperas: 'Vésperas', bencao_aguas: 'Bênção da água', liturgia: 'Liturgia', matinas: 'Matinas' },
     leiturasIncertas: 'As leituras deste dia dependem de regras de distribuição de inverno que ainda estão a ser verificadas. Confirme no calendário da sua paróquia.',
     naoVerificado: '* Referência ainda não conferida numa edição impressa de domínio público.',
     semLiturgia: 'Sem Liturgia neste dia.',

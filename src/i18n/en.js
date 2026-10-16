@@ -16,7 +16,7 @@ export default {
     legendaJejum: 'fast day', legendaFesta: 'Sunday or feast', legendaJuliano: 'small number: Old Style date',
     apostolo: 'Epistle', evangelho: 'Gospel', antigoTestamento: 'Old Testament', festaLeituras: 'Of the feast',
     horasReais: 'Royal Hours', bencaoAguas: 'Great Blessing of Water', matinas: 'Matins',
-    servico: { hora1: '1st Hour', hora3: '3rd Hour', hora6: '6th Hour', hora9: '9th Hour', vesperas: 'Vespers', bencao_aguas: 'Blessing of water', liturgia: 'Liturgy', matinas: 'Matins' },
+    servico: { vesperas_vespera: 'Vespers on the eve', liturgia_presantificados: 'Liturgy of the Presanctified Gifts', lava_pes: 'Washing of the Feet', matinas_12_evangelhos: 'Matins of the Twelve Passion Gospels', hora1: '1st Hour', hora3: '3rd Hour', hora6: '6th Hour', hora9: '9th Hour', vesperas: 'Vespers', bencao_aguas: 'Blessing of water', liturgia: 'Liturgy', matinas: 'Matins' },
     leiturasIncertas: 'The readings for this day depend on the winter distribution rules, which are still being verified. Please check your parish calendar.',
     naoVerificado: '* Reference not yet checked against a public-domain printed edition.',
     semLiturgia: 'No Liturgy on this day.',

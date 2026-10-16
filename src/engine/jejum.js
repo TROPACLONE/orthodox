@@ -156,7 +156,7 @@ function jejumLongo(tempo, d, md, gT, gP) {
     if (satSun) par = r(N.QUENTE_COM_AZEITE);
     else if (terQui) par = r(grauMin(gP, 'polieleo') ? N.QUENTE_COM_AZEITE : N.QUENTE_SEM_AZEITE);
     else par = r(grauMin(gP, 'polieleo') ? N.QUENTE_COM_AZEITE : N.XEROFAGIA);
-    if (dow !== 0 && dow !== 6) par.notas.push('n_natal_2_5_jan');
+    if (dow !== 0 && dow !== 6 && md !== '12-24') par.notas.push('n_natal_2_5_jan');
   }
   if (md === '12-24') { par.notas.push('n_vespera_natal'); typ = r(N.QUENTE_COM_AZEITE, { vinho: true, notas: satSun ? ['n_vespera_sab_dom'] : [] }); }
   return res(par, typ);

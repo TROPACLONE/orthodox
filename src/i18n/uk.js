@@ -20,7 +20,7 @@ export default {
     legendaJejum: 'пісний день', legendaFesta: 'неділя або свято', legendaJuliano: 'мале число: дата за старим стилем',
     apostolo: 'Апостол', evangelho: 'Євангеліє', antigoTestamento: 'Старий Завіт', festaLeituras: 'Свята',
     horasReais: 'Царські часи', bencaoAguas: 'Велике освячення води', matinas: 'Утреня',
-    servico: { hora1: 'Час 1-й', hora3: 'Час 3-й', hora6: 'Час 6-й', hora9: 'Час 9-й', vesperas: 'Вечірня', bencao_aguas: 'Освячення води', liturgia: 'Літургія', matinas: 'Утреня' },
+    servico: { vesperas_vespera: 'Вечірня напередодні', liturgia_presantificados: 'Літургія Передосвячених Дарів', lava_pes: 'Чин умивання ніг', matinas_12_evangelhos: 'Утреня з читанням 12 Страсних Євангелій', hora1: 'Час 1-й', hora3: 'Час 3-й', hora6: 'Час 6-й', hora9: 'Час 9-й', vesperas: 'Вечірня', bencao_aguas: 'Освячення води', liturgia: 'Літургія', matinas: 'Утреня' },
     leiturasIncertas: 'Читання цього дня залежать від правил зимової відступки, які ще перевіряються. Уточніть за календарем вашої парафії.',
     naoVerificado: '* Посилання ще не звірене з друкованим виданням, що є суспільним надбанням.',
     semLiturgia: 'Цього дня Літургія не звершується.',

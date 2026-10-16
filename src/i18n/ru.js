@@ -15,7 +15,7 @@ export default {
     legendaJejum: 'постный день', legendaFesta: 'воскресенье или праздник', legendaJuliano: 'малое число: дата по старому стилю',
     apostolo: 'Апостол', evangelho: 'Евангелие', antigoTestamento: 'Ветхий Завет', festaLeituras: 'Праздника',
     horasReais: 'Царские часы', bencaoAguas: 'Великое освящение воды', matinas: 'Утреня',
-    servico: { hora1: 'Час 1-й', hora3: 'Час 3-й', hora6: 'Час 6-й', hora9: 'Час 9-й', vesperas: 'Вечерня', bencao_aguas: 'Освящение воды', liturgia: 'Литургия', matinas: 'Утреня' },
+    servico: { vesperas_vespera: 'Вечерня накануне', liturgia_presantificados: 'Литургия Преждеосвященных Даров', lava_pes: 'Чин умовения ног', matinas_12_evangelhos: 'Утреня с чтением 12 Страстных Евангелий', hora1: 'Час 1-й', hora3: 'Час 3-й', hora6: 'Час 6-й', hora9: 'Час 9-й', vesperas: 'Вечерня', bencao_aguas: 'Освящение воды', liturgia: 'Литургия', matinas: 'Утреня' },
     leiturasIncertas: 'Чтения этого дня зависят от правил зимней отступки, которые ещё проверяются. Уточните по календарю вашего прихода.',
     naoVerificado: '* Ссылка ещё не сверена с печатным изданием, находящимся в общественном достоянии.',
     semLiturgia: 'В этот день Литургия не совершается.',

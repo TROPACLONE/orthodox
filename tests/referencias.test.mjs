@@ -10,6 +10,8 @@ assert.equal(formatarRef('Luke.21.5-7,10-11,20-24', 'ru'), 'Лк. 21:5–7, 10�
 assert.equal(formatarRef('1Pet.1.1-2,10-12,2.6-10', 'pt'), '1 Pd 1, 1–2.10–12; 2, 6–10');
 assert.equal(formatarRef('Titus.2.11-14;Titus.3.4-7', 'uk'), 'Тит. 2:11–14; 3:4–7');
 assert.equal(formatarRef('1Kgs.17.8-23', 'pt'), '3 Rn 17, 8–23');
+assert.equal(formatarRef('Jer.11.18-23;Jer.12.1-5;Jer.12.9-11;Jer.12.14-15', 'pt'), 'Jr 11, 18–23; 12, 1–5.9–11.14–15');
+assert.equal(formatarRef('Jer.11.18-23;Jer.12.1-5;Jer.12.9-11', 'ru'), 'Иер. 11:18–23; 12:1–5, 9–11');
 // Todos os livros dos dados têm abreviatura
 const usados = new Set();
 const andar = o => { if (Array.isArray(o)) o.forEach(andar); else if (o && typeof o === 'object') { if (typeof o.r === 'string') o.r.split(';').forEach(s => usados.add(s.split('.')[0])); else for (const [k, v] of Object.entries(o)) if (!k.startsWith('_')) andar(v); } };

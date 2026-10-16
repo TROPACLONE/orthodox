@@ -152,15 +152,26 @@ function blocoLeituras(d) {
   const refs = lista => lista.map(x => { if (x.verificado === false) porVerificar = true; return formatarRef(x.r, st.lingua) + (x.verificado === false ? ' *' : ''); }).join('; ');
   const linha = (rotulo, lista) => { if (lista && lista.length) b.append(h('div', { class: 'read' }, h('span', { text: rotulo }), h('span', { text: refs(lista) }))); };
   const sub = txt => b.append(h('span', { class: 'camada', text: txt }));
-  linha(T.ui.apostolo, L.ap); linha(T.ui.evangelho, L.ev);
+  // Agrupa por ofício (sv); sem sv = Liturgia. Na Sexta-feira Santa, por exemplo, há leituras de 5 ofícios.
+  const ORDEM = ['matinas_12_evangelhos', 'matinas', 'hora1', 'hora3', 'hora6', 'hora9', 'vesperas_vespera', 'vesperas', 'lava_pes', 'liturgia_presantificados', 'liturgia'];
+  const grupos = new Map();
+  const pôr = (tipo, x) => { const sv = x.sv || 'liturgia'; if (!grupos.has(sv)) grupos.set(sv, { vt: [], ap: [], ev: [] }); grupos.get(sv)[tipo].push(x); };
+  L.vt.forEach(x => pôr('vt', x)); L.ap.forEach(x => pôr('ap', x)); L.ev.forEach(x => pôr('ev', x));
+  const svs = [...grupos.keys()].sort((a, c) => (ORDEM.indexOf(a) + 1 || 99) - (ORDEM.indexOf(c) + 1 || 99));
+  const variosOficios = svs.length > 1 || (svs[0] && svs[0] !== 'liturgia');
+  for (const sv of svs) {
+    const g = grupos.get(sv);
+    if (variosOficios) sub(T.ui.servico[sv] || sv);
+    linha(T.ui.antigoTestamento, g.vt); linha(T.ui.apostolo, g.ap);
+    if (sv === 'matinas_12_evangelhos') g.ev.forEach((x, i) => linha(`${T.ui.evangelho} ${i + 1}`, [x])); else linha(T.ui.evangelho, g.ev);
+  }
   if (!L.ap.length && !L.ev.length && !L.incerto) b.append(h('div', { class: 'desc', text: T.ui.semLiturgia }));
-  for (const x of L.vt) linha(T.ui.servico[x.sv] || T.ui.antigoTestamento, [x]);
   for (const e of L.extra) {
     if (e.rotulo === 'horas_reais') { sub(T.ui.horasReais);
-      for (const [hora, x] of Object.entries(e.horas)) { const r = [...(x.vt || []), ...(x.ap || []), ...(x.ev || [])]; linha(T.ui.servico[hora] || hora, r); } }
+      for (const [hora, x] of Object.entries(e.horas)) linha(T.ui.servico[hora] || hora, [...(x.vt || []), ...(x.ap || []), ...(x.ev || [])]); }
     else { sub(e.rotulo === 'bencao_aguas' ? T.ui.bencaoAguas : T.ui.festaLeituras); linha(T.ui.antigoTestamento, e.vt); linha(T.ui.apostolo, e.ap); linha(T.ui.evangelho, e.ev); }
   }
-  if (typeof d.eothinon === 'number') { const e = eothinon(d.eothinon); sub(T.ui.matinas); linha(T.ui.evangelhoMatinal(d.eothinon), e ? [e] : []); if (!e) b.append(h('div', { class: 'desc', text: T.ui.evangelhoMatinal(d.eothinon) })); }
+  if (typeof d.eothinon === 'number') { const e = eothinon(d.eothinon); sub(T.ui.matinas); linha(T.ui.evangelhoMatinal(d.eothinon), e ? [e] : []); }
   else if (d.eothinon && d.eothinon.omitido) b.append(h('div', { class: 'desc', text: T.ui.evangelhoMatinalOmitido }));
   if (L.incerto) b.append(h('div', { class: 'nota', text: T.ui.leiturasIncertas }));
   if (porVerificar) b.append(h('div', { class: 'nota', text: T.ui.naoVerificado }));
