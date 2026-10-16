@@ -79,6 +79,11 @@ const eConsoante = c => c !== undefined && c !== '' && !VOGAIS.has(c) && c !== '
 const LABIAIS = new Set('бпвмф');
 const SIBILANTES_VELARES = new Set('кгхжшчщ');   // «твердий/мішаний» radical dos adjetivos (Віра.Укр, «Літера ї» 6–8)
 const ANTES_DE_SK = new Set('ьнмрлйвсдт');        // fim de radical antes do sufixo adjetival -ск- (→ -ськ-)
+// Prefixos acabados em consoante: labial + я/ю logo a seguir leva apóstrofo, como no ucraniano «розм’якшити»
+// (Віра.Укр, «Апостроф»: «після префіксів… згідно із сучасним правописом»; texto: «безм’яте́жен»).
+const PREFIXOS_CONSOANTE = new Set(['без', 'безъ', 'раз', 'роз', 'из', 'воз', 'вз', 'низ', 'чрез']);
+/** b[k] está na última sílaba da palavra (não há vogal depois)? */
+const ultimaSilaba = (b, k) => { for (let j = k + 1; j < b.length; j++) if (VOGAIS.has(b[j])) return false; return true; };
 
 // Palavras inteiras (forma-fonte em minúsculas, sem acentos) com leitura fixa. Valor: uma saída por letra-fonte
 // (string do mesmo comprimento, «_» = letra que desaparece; ou lista). Fontes: Віра.Укр, «Літера и» в)–ж), «ъ, ь».
@@ -89,8 +94,15 @@ const PALAVRAS = new Map(Object.entries({
   'земли': 'землі', 'жизни': 'жизні', 'очи': 'очі', 'небеси': 'небесі', 'немощи': 'немощі', 'помощи': 'помощі',
   'заповѣди': 'заповіді', 'души': 'душі', 'дни': 'дні', 'стези': 'стезі', 'вещи': 'вещі', 'двери': 'двері',
   'благодати': 'благодаті', 'друзи': 'друзі', 'врази': 'вразі', 'предтечи': 'предтечі',
+  // idem, conferidas no texto de Віра.Укр (orações da manhã e da noite) e do Blagovist (2.ª verificação, fase 2a):
+  // nomes fora da exceção K10 (-ть depois de 2 consoantes), plurais e adjetivos curtos no plural
+  'плоти': 'плоті', 'нощи': 'нощі', 'полунощи': 'полунощі', 'имени': 'імені', 'матери': 'матері', 'воли': 'волі',
+  'мори': 'морі', 'пѣсни': 'пісні', 'ложи': 'ложі', 'сѣти': 'сіті', 'тли': 'тлі', 'кости': 'кості', 'страсти': 'страсті',
+  'безпрестани': 'безпрестані', 'готови': 'готові', 'воздвижени': 'воздвижені', 'достойни': 'достойні',
+  'вышнихъ': 'вишніх_',
   // -цы → -ці quando o nominativo singular termina em ц brando; Богородицы/Троицы (Віра.Укр, «Літера ы»)
   'отцы': 'отці', 'тельцы': 'тельці', 'старцы': 'старці', 'богородицы': 'богородиці', 'троицы': 'тройці', 'тысящы': 'тисящі',
+  'владычицы': 'владичиці',
   'аминь': 'амінь',
   'есмь': ['є', 'с', 'ьм', ''], 'вонми': ['в', 'о', 'нь', 'м', 'и'], 'чинми': ['ч', 'и', 'нь', 'м', 'и'],
   'вонмемъ': ['в', 'о', 'нь', 'м', 'е', 'м', ''], 'возмемъ': ['в', 'о', 'зь', 'м', 'е', 'м', ''],
@@ -101,13 +113,14 @@ const PALAVRAS = new Map(Object.entries({
 // Inícios de palavra com leitura fixa (o resto da palavra segue as regras gerais). Ordem: o primeiro que casa.
 const RAIZES = [
   ['іисус', 'іісус'], ['иисус', 'іісус'],          // Іисусъ → «Іісус» (IOU, dec. 30; Blagovist) — ⚠ Віра.Укр: «Ісус»
-  ['христіан', 'християн'], ['діакон', 'диякон'], ['троиц', 'тройц'],
+  ['христіан', 'християн'], ['діакон', 'диякон'], ['діавол', 'диявол'], ['троиц', 'тройц'],
+  ['уничиж', 'унічиж'],                               // у + «ни» negativo (Віра.Укр, «Літера и» ж); texto: «унічи́жить»
   ['распя', ['р', 'а', 'с', 'п', APOSTROFO + 'я']], ['вящш', 'вящш'],
   // и depois de prefixo terminado em vogal → і, não ї (Віра.Укр, «Літера и» е)
   ['воистин', 'воістин'], ['поистин', 'поістин'], ['преиспод', 'преіспод'], ['преиз', 'преіз'], ['преис', 'преіс'],
   ['мимоид', 'мимоід'], ['многоимен', 'многоімен'], ['неиз', 'неіз'], ['неис', 'неіс'],
   ['наи', 'най'],                                       // наипа́че → найпа́че
-  ['николи', 'ніколи'], ['ничто', 'нічто'], ['ничесо', 'нічесо'], ['нигдѣ', 'нігді'], ['никто', 'нікто'],
+  ['николи', 'ніколи'], ['никогда', 'нікогда'], ['ничто', 'нічто'], ['ничесо', 'нічесо'], ['нигдѣ', 'нігді'], ['никто', 'нікто'],
   // е inicial que se lê [е] em palavras gregas/hebraicas (Віра.Укр, «є, е», exceção)
   ['емману', 'емману'], ['еммау', 'еммау'], ['еллад', 'еллад'], ['елемент', 'елемент'],
 ].map(([k, v]) => [k, Array.isArray(v) ? v : [...v]]);
@@ -121,6 +134,7 @@ function verbo3(b) {
   const n = b.length;
   if (n < 4) return false;
   const v = b[n - 3];
+  if (v === 'с' && b[n - 4] === 'а' && b[n - 5] === 'д') return true;   // да́стъ, пода́стъ, возда́стъ → -дасть (Віра.Укр: «пода́сть»)
   if (!'еиуюяа'.includes(v)) return false;          // -отъ (живо́тъ), -ѣтъ (свѣ́тъ, завѣ́тъ), -стъ… não são verbos
   return !NAO_VERBOS.has(b.slice(0, n - 1).join('').replace(/і/g, 'и'));   // «прія́тъ» = «прият»
 }
@@ -128,21 +142,25 @@ function verbo3(b) {
 /** і de b[k] é a vogal de uma desinência adjetival de radical duro/misto (Віра.Укр, «Літера ї» 6–8: вели́кій → вели́кий,
  *  вся́кія → вся́кия, Бо́жій/Бо́жія/Бо́жіе → Бо́жий/Бо́жия/Бо́жиє; mas Бо́жіей → Бо́жієй)? Heurística ⚠: protege nomes
  *  (Се́ргій, ору́жіе, великоду́шіе, Литургі́я, благополу́чія) e não distingue o plural (Бо́жія повелѣ́нія → «Бо́жия»). */
-function desinenciaAdjetival(b, k, acento) {
+function desinenciaAdjetival(b, k, acento, nome) {
   const ant = b[k - 1], prox = b[k + 1], n = b.length;
-  const fim = prox === 'й' && k + 2 === n;                               // -ій (nom. masc.)
-  if (!fim && prox !== 'я' && !(prox === 'е' && b[k + 2] !== 'й')) return false;   // -ія, -іе (não -іей)
+  const fim = prox === 'й' && (k + 2 === n                               // -ій (nom. masc.)
+    || (k + 4 === n && b[k + 2] === 'с' && b[k + 3] === 'я'));           // -ійся (particípio reflexo: оболкі́йся → оболки́йся)
+  const acusativo = prox === 'ю' && k + 2 === n && ant === 'ж';         // Бо́жію (ac. fem.) → Бо́жию (texto de Віра.Укр)
+  if (!fim && !acusativo && prox !== 'я' && !(prox === 'е' && b[k + 2] !== 'й')) return false;   // -ія, -іе (não -іей)
   switch (ant) {
-    case 'к': case 'х': return fim || !acento[k];
-    case 'г': return fim ? !!acento[k] : !acento[k];                     // благі́й; mas Се́ргій, Литургі́я
+    case 'к': return fim || !acento[k] || b[k - 2] === 'с';              // мірскі́я → мирськи́я (sufixo -ск-)
+    case 'х': return fim || !acento[k];
+    case 'г': return fim ? (!!acento[k] || !nome) : !acento[k];          // благі́й, мно́гій; mas Се́ргій (maiúscula), Литургі́я
     case 'ж': return fim || /(?:^|[^а-я])(?:бож|враж)$/.test(b.slice(0, k).join(''));
     case 'щ': return fim || !acento[k];                                  // бу́дущія, гряду́щіе
-    default: return fim;                                                 // ш, ч: só -ій
+    case 'ш': return fim || ('йдв'.includes(b[k - 2]) && !acento[k]);    // честнѣ́йшія, преше́дшія → -шия; mas малоду́шія
+    default: return fim;                                                 // ч: só -ій
   }
 }
 
 /** Leitura ucraniana da letra b[k] (minúscula), dadas as vizinhas. `sobre` recebe saídas impostas a letras seguintes. */
-function regra(b, k, acento, sobre) {
+function regra(b, k, acento, sobre, nome) {
   const n = b.length, c = b[k], ant = k > 0 ? b[k - 1] : '', prox = k + 1 < n ? b[k + 1] : '';
   switch (c) {
     case 'ѣ': return k === 0 || VOGAIS.has(ant) ? 'ї' : 'і';                       // ѣ = і (ї em início/após vogal)
@@ -158,7 +176,7 @@ function regra(b, k, acento, sobre) {
     case 'і':
       if (VOGAIS.has(ant) && prox === 'а') { sobre[k + 1] = ''; return 'я'; }     // Иса́іа → Іса́я, аллилу́іа → аллилу́я
       if (k >= 2 && ant === 'р' && 'пвх'.includes(b[k - 2]) && VOGAIS.has(prox)) return 'и';   // прі-, врі-, хрі- → при-…
-      if (SIBILANTES_VELARES.has(ant) && desinenciaAdjetival(b, k, acento)) return 'и';
+      if (SIBILANTES_VELARES.has(ant) && desinenciaAdjetival(b, k, acento, nome)) return 'и';
       if (k > 0 && eConsoante(ant) && eConsoante(prox)) return 'и';               // між приголосними: міръ → мир
       return 'і';
     case 'ы': return 'и';
@@ -171,17 +189,19 @@ function regra(b, k, acento, sobre) {
       if (LABIAIS.has(ant) || ant === 'р') return prox === 'е' || prox === 'я' || prox === 'ю' || prox === 'і' ? APOSTROFO : '';
       return 'жчшщ'.includes(ant) ? '' : 'ь';
     case 'а':
-      if (ant === 'ц' && k >= 2) return 'я';                                       // Отца́ → Отця́
+      if (ant === 'ц' && k >= 2 && ultimaSilaba(b, k)) return 'я';                 // Отца́ → Отця́; mas немерца́ющимъ
       if (k === n - 1 && k >= 2 && (ant === 'і' || ant === 'е')) return 'я';        // Марі́а → Марі́я, Іуде́а → Іуде́я ⚠
       return 'а';
-    case 'у': return ant === 'ц' && k >= 2 ? 'ю' : 'у';                            // Отцу́ → Отцю́ ⚠
+    case 'у': return ant === 'ц' && k >= 2 && ultimaSilaba(b, k) ? 'ю' : 'у';      // Отцу́ → Отцю́ ⚠
     case 'т': return k === n - 3 && prox === 'с' && b[k + 2] === 'я' ? 'ть' : 'т';  // -тся → -ться
     case 'с':
-      if (prox === 'к' && VOGAIS.has(b[k + 2]) && k >= 3 && ANTES_DE_SK.has(ant)) return ant === 'с' ? 'ь' : 'сь';
+      if (prox === 'к' && VOGAIS.has(b[k + 2]) && k >= 3
+        && (ANTES_DE_SK.has(ant) || (ant === 'е' && b[k - 2] === 'ч'))) return ant === 'с' ? 'ь' : 'сь';   // -ческ- → -чеськ-
       return 'с';
     case 'ц': return prox === 'к' && VOGAIS.has(b[k + 2]) && k >= 1 ? 'ць' : 'ц';
     default:
-      if (LABIAIS.has(c) && (prox === 'я' || prox === 'ю') && (k === 0 || VOGAIS.has(ant) || ant === 'р')) return c + APOSTROFO;
+      if (LABIAIS.has(c) && (prox === 'я' || prox === 'ю')
+        && (k === 0 || VOGAIS.has(ant) || ant === 'р' || PREFIXOS_CONSOANTE.has(b.slice(0, k).join('')))) return c + APOSTROFO;
       return c;
   }
 }
@@ -223,7 +243,7 @@ function palavraIzvod(s, a, z) {
 
   let out = '';
   for (let k = 0; k < n; k++) {
-    let t = sobre[k] !== undefined ? sobre[k] : regra(b, k, acento, sobre);
+    let t = sobre[k] !== undefined ? sobre[k] : regra(b, k, acento, sobre, mai[0]);
     if (tudoMaiusculas) t = t.toUpperCase(); else if (mai[k]) t = maiuscula(t);
     if (acento[k] && (t === '' || t === 'й' || t === 'Й')) {
       // a letra acentuada desapareceu ou passou a «й» (прии́детъ → при́йдеть): o acento passa à vogal anterior

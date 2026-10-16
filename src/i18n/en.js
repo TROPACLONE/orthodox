@@ -32,7 +32,7 @@ export default {
     mes: 'Previous month', mesSeg: 'Next month', pascoaAno: 'Pascha',
   },
   oracoes: { manha: 'Morning Prayers', noite: 'Evening Prayers', comunhao_preparacao: 'Preparation for Holy Communion', comunhao_acao_gracas: 'Thanksgiving after Holy Communion',
-    jesus: 'The Jesus Prayer', serafim: 'Rule of St Seraphim of Sarov', acatistos: 'Akathists', salterio: 'Psalter', defuntos: 'For the Departed', refeicoes: 'Prayers before and after Meals' },
+    jesus: 'The Jesus Prayer', serafim: 'The Rule of St Seraphim of Sarov', acatistos: 'Akathists', salterio: 'Psalter', defuntos: 'For the Departed', refeicoes: 'Prayers before and after Meals' },
   estado: { nao_revista: 'Unofficial translation · not reviewed', dp_adaptada: 'Public-domain translation, adapted', revista_nativo: 'Translation reviewed by a native speaker', revista_clero: 'Translation reviewed by a clergyman' },
   periodo: { semana_luminosa: 'Bright Week: the Paschal Hours are read instead of the usual prayers.', pascoa_ascensao: 'Paschal season: “Christ is risen” instead of “O Heavenly King”.', ascensao_pentecostes: 'From the Ascension to Pentecost the prayers begin at “Holy God”.' },
   dias: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
