@@ -1,5 +1,7 @@
 # Análise de coerência das decisões 1–39
 
+> **Estado:** todas as propostas P1–P7 foram **aceites** pelo utilizador em 2026-10-16 (decisões 40–46).
+
 Revisão crítica de [decisoes.md](decisoes.md) com um único critério: **coerência e fidelidade do produto final**. A maioria das decisões é coerente entre si. Abaixo estão apenas os pontos onde há **conflito, lacuna ou risco**, com a alteração proposta (P).
 
 ---
