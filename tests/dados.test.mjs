@@ -21,7 +21,7 @@ for (const f of ['pentecostario', 'semanas', 'triodio', 'especiais', 'festas']) 
   const d = ler(`data/lecionario/${f}.json`);
   if (!d) continue;
   const andar = o => { if (Array.isArray(o)) { if (o.length && o[0] && typeof o[0] === 'object' && 'r' in o[0]) refs(o); else o.forEach(andar); }
-    else if (o && typeof o === 'object') { if ('r' in o) refs(o); else Object.values(o).forEach(andar); } };
+    else if (o && typeof o === 'object') { if ('r' in o) refs(o); else for (const [k, v] of Object.entries(o)) if (!k.startsWith('_')) andar(v); } };
   andar(d);
 }
 console.log(`dados: ${n} registos validados`);

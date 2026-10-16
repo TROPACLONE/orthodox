@@ -1,0 +1,1710 @@
+{
+ "_meta": {
+  "descricao": "Leituras do Triódio Quaresmal (P-70 a P-1), prática russa. Chaves = dias relativos à Páscoa.",
+  "convencoes": {
+   "r": "referência OSIS simplificada: Livro.Cap.Vers-Vers; travessia de capítulo Livro.C.V-C.V; segmentos separados por ';'. Numeração de versículos eslava/LXX (dec. 18). 1Kgs/2Kgs = 3/4 Reinos.",
+   "z": "número do zachalo (perícope litúrgica) do primeiro segmento; null = não aplicável (AT)",
+   "meio": "true = «от полу» (começa a meio do zachalo)",
+   "sv": "serviço: liturgia (omissão), matinas, hora1/3/6/9, vesperas, vesperas_vespera, liturgia_presantificados, lava_pes, matinas_12_evangelhos",
+   "tipo": "omissão = leitura do dia; santo/santos/mae_de_deus/defuntos = leitura adicional («под зачало»)",
+   "verificado": "false = AT não conferido em fonte impressa de domínio público nesta compilação (ver FONTES-triodio-festas.md)"
+  },
+  "fontes": "ver FONTES-triodio-festas.md"
+ },
+ "-70": {
+  "ap": [
+   {
+    "r": "2Tim.3.10-15",
+    "z": 296
+   }
+  ],
+  "ev": [
+   {
+    "r": "Luke.18.10-14",
+    "z": 89
+   }
+  ],
+  "vt": [],
+  "nome": "Domingo do Publicano e do Fariseu"
+ },
+ "-69": {
+  "ap": [
+   {
+    "r": "2Pet.1.20-2.9",
+    "z": 66
+   }
+  ],
+  "ev": [
+   {
+    "r": "Mark.13.9-13",
+    "z": 59
+   }
+  ],
+  "vt": [],
+  "nota": "Semana sem jejum (todo o tipo de alimento)"
+ },
+ "-68": {
+  "ap": [
+   {
+    "r": "2Pet.2.9-22",
+    "z": 67
+   }
+  ],
+  "ev": [
+   {
+    "r": "Mark.13.14-23",
+    "z": 60
+   }
+  ],
+  "vt": [],
+  "nota": "Semana sem jejum (todo o tipo de alimento)"
+ },
+ "-67": {
+  "ap": [
+   {
+    "r": "2Pet.3.1-18",
+    "z": 68
+   }
+  ],
+  "ev": [
+   {
+    "r": "Mark.13.24-31",
+    "z": 61
+   }
+  ],
+  "vt": [],
+  "nota": "Semana sem jejum (todo o tipo de alimento)"
+ },
+ "-66": {
+  "ap": [
+   {
+    "r": "1John.1.8-2.6",
+    "z": 69
+   }
+  ],
+  "ev": [
+   {
+    "r": "Mark.13.31-14.2",
+    "z": 62
+   }
+  ],
+  "vt": [],
+  "nota": "Semana sem jejum (todo o tipo de alimento)"
+ },
+ "-65": {
+  "ap": [
+   {
+    "r": "1John.2.7-17",
+    "z": 70
+   }
+  ],
+  "ev": [
+   {
+    "r": "Mark.14.3-9",
+    "z": 63
+   }
+  ],
+  "vt": [],
+  "nota": "Semana sem jejum (todo o tipo de alimento)"
+ },
+ "-64": {
+  "ap": [
+   {
+    "r": "2Tim.3.1-9",
+    "z": 295
+   }
+  ],
+  "ev": [
+   {
+    "r": "Luke.20.45-21.4",
+    "z": 103
+   }
+  ],
+  "vt": []
+ },
+ "-63": {
+  "ap": [
+   {
+    "r": "1Cor.6.12-20",
+    "z": 135
+   }
+  ],
+  "ev": [
+   {
+    "r": "Luke.15.11-32",
+    "z": 79
+   }
+  ],
+  "vt": [],
+  "nome": "Domingo do Filho Pródigo"
+ },
+ "-62": {
+  "ap": [
+   {
+    "r": "1John.2.18-3.10",
+    "z": 71
+   }
+  ],
+  "ev": [
+   {
+    "r": "Mark.11.1-11",
+    "z": 49
+   }
+  ],
+  "vt": []
+ },
+ "-61": {
+  "ap": [
+   {
+    "r": "1John.3.11-20",
+    "z": 72
+   }
+  ],
+  "ev": [
+   {
+    "r": "Mark.14.10-42",
+    "z": 64
+   }
+  ],
+  "vt": []
+ },
+ "-60": {
+  "ap": [
+   {
+    "r": "1John.3.21-4.6",
+    "z": 73
+   }
+  ],
+  "ev": [
+   {
+    "r": "Mark.14.43-15.1",
+    "z": 65
+   }
+  ],
+  "vt": []
+ },
+ "-59": {
+  "ap": [
+   {
+    "r": "1John.4.20-5.21",
+    "z": 74
+   }
+  ],
+  "ev": [
+   {
+    "r": "Mark.15.1-15",
+    "z": 66
+   }
+  ],
+  "vt": []
+ },
+ "-58": {
+  "ap": [
+   {
+    "r": "2John.1.1-13",
+    "z": 75
+   }
+  ],
+  "ev": [
+   {
+    "r": "Mark.15.22;Mark.15.25;Mark.15.33-41",
+    "z": 68
+   }
+  ],
+  "vt": []
+ },
+ "-57": {
+  "ap": [
+   {
+    "r": "1Cor.10.23-28",
+    "z": 146
+   },
+   {
+    "r": "1Thess.4.13-17",
+    "z": 270,
+    "tipo": "defuntos"
+   }
+  ],
+  "ev": [
+   {
+    "r": "Luke.21.8-9;Luke.21.25-27;Luke.21.33-36",
+    "z": 105
+   },
+   {
+    "r": "John.5.24-30",
+    "z": 16,
+    "tipo": "defuntos"
+   }
+  ],
+  "vt": [],
+  "nome": "Sábado ecuménico dos defuntos («de carne»)"
+ },
+ "-56": {
+  "ap": [
+   {
+    "r": "1Cor.8.8-9.2",
+    "z": 140
+   }
+  ],
+  "ev": [
+   {
+    "r": "Matt.25.31-46",
+    "z": 106
+   }
+  ],
+  "vt": [],
+  "nome": "Domingo do Juízo Final («de carne»)"
+ },
+ "-55": {
+  "ap": [
+   {
+    "r": "3John.1.1-15",
+    "z": 76
+   }
+  ],
+  "ev": [
+   {
+    "r": "Luke.19.29-40;Luke.22.7-39",
+    "z": 96
+   }
+  ],
+  "vt": []
+ },
+ "-54": {
+  "ap": [
+   {
+    "r": "Jude.1.1-10",
+    "z": 77
+   }
+  ],
+  "ev": [
+   {
+    "r": "Luke.22.39-42;Luke.22.45-23.1",
+    "z": 109
+   }
+  ],
+  "vt": []
+ },
+ "-53": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Joel.2.12-26",
+    "sv": "hora6"
+   },
+   {
+    "r": "Joel.3.12-21",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Sem Liturgia"
+ },
+ "-52": {
+  "ap": [
+   {
+    "r": "Jude.1.11-25",
+    "z": 78
+   }
+  ],
+  "ev": [
+   {
+    "r": "Luke.23.1-34;Luke.23.44-56",
+    "z": 110
+   }
+  ],
+  "vt": []
+ },
+ "-51": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Zech.8.7-17",
+    "sv": "hora6"
+   },
+   {
+    "r": "Zech.8.19-23",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Sem Liturgia"
+ },
+ "-50": {
+  "ap": [
+   {
+    "r": "Rom.14.19-26",
+    "z": 115,
+    "nota": "numeração eslava (14,24-26 = Rm 16,25-27 noutras edições)"
+   },
+   {
+    "r": "Gal.5.22-6.2",
+    "z": 213,
+    "tipo": "santos",
+    "nota": "santos ascetas"
+   }
+  ],
+  "ev": [
+   {
+    "r": "Matt.6.1-13",
+    "z": 16
+   },
+   {
+    "r": "Matt.11.27-30",
+    "z": 43,
+    "tipo": "santos"
+   }
+  ],
+  "vt": [],
+  "nome": "Sábado dos santos ascetas"
+ },
+ "-49": {
+  "ap": [
+   {
+    "r": "Rom.13.11-14.4",
+    "z": 112
+   }
+  ],
+  "ev": [
+   {
+    "r": "Matt.6.14-21",
+    "z": 17
+   }
+  ],
+  "vt": [],
+  "nome": "Domingo do Perdão («do queijo»)"
+ },
+ "-48": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.1.1-20",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.1.1-13",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.1.1-20",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Sem Liturgia",
+  "nome": "Segunda-feira Limpa"
+ },
+ "-47": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.1.19-2.3",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.1.14-23",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.1.20-33",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Sem Liturgia"
+ },
+ "-46": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.2.3-11",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.1.24-2.3",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.2.1-22",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Liturgia dos Pré-santificados (sem Apóstolo/Evangelho)"
+ },
+ "-45": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.2.11-21",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.2.4-19",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.3.1-18",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Sem Liturgia"
+ },
+ "-44": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.3.1-14",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.2.20-3.20",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.3.19-34",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Liturgia dos Pré-santificados (sem Apóstolo/Evangelho)"
+ },
+ "-43": {
+  "ap": [
+   {
+    "r": "Heb.1.1-12",
+    "z": 303
+   },
+   {
+    "r": "2Tim.2.1-10",
+    "z": 292,
+    "tipo": "santo",
+    "nota": "S. Teodoro Tiro"
+   }
+  ],
+  "ev": [
+   {
+    "r": "Mark.2.23-3.5",
+    "z": 10
+   },
+   {
+    "r": "John.15.17-16.2",
+    "z": 52,
+    "tipo": "santo"
+   }
+  ],
+  "vt": [],
+  "nome": "1.º sábado: S. Teodoro Tiro"
+ },
+ "-42": {
+  "ap": [
+   {
+    "r": "Heb.11.24-26;Heb.11.32-12.2",
+    "z": 329,
+    "meio": true
+   }
+  ],
+  "ev": [
+   {
+    "r": "John.1.43-51",
+    "z": 5
+   }
+  ],
+  "vt": [],
+  "nome": "1.º domingo: Triunfo da Ortodoxia"
+ },
+ "-41": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.4.2-5.7",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.3.21-4.7",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.3.34-4.22",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Sem Liturgia"
+ },
+ "-40": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.5.7-16",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.4.8-15",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.5.1-15",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Sem Liturgia"
+ },
+ "-39": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.5.16-25",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.4.16-26",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.5.15-6.3",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Liturgia dos Pré-santificados (sem Apóstolo/Evangelho)"
+ },
+ "-38": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.6.1-12",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.5.1-24",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.6.3-20",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Sem Liturgia"
+ },
+ "-37": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.7.1-14",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.5.32-6.8",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.6.20-7.1",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Liturgia dos Pré-santificados (sem Apóstolo/Evangelho)"
+ },
+ "-36": {
+  "ap": [
+   {
+    "r": "Heb.3.12-16",
+    "z": 309
+   },
+   {
+    "r": "1Thess.4.13-17",
+    "z": 270,
+    "tipo": "defuntos"
+   }
+  ],
+  "ev": [
+   {
+    "r": "Mark.1.35-44",
+    "z": 6
+   },
+   {
+    "r": "John.5.24-30",
+    "z": 16,
+    "tipo": "defuntos"
+   }
+  ],
+  "vt": [],
+  "nome": "2.º sábado (defuntos)"
+ },
+ "-35": {
+  "ap": [
+   {
+    "r": "Heb.1.10-2.3",
+    "z": 304
+   },
+   {
+    "r": "Heb.7.26-8.2",
+    "z": 318,
+    "tipo": "santo",
+    "nota": "S. Gregório Palamas"
+   }
+  ],
+  "ev": [
+   {
+    "r": "Mark.2.1-12",
+    "z": 7
+   },
+   {
+    "r": "John.10.9-16",
+    "z": 36,
+    "tipo": "santo"
+   }
+  ],
+  "vt": [],
+  "nome": "2.º domingo: S. Gregório Palamas"
+ },
+ "-34": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.8.13-9.7",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.6.9-22",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.8.1-21",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Sem Liturgia"
+ },
+ "-33": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.9.9-10.4",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.7.1-5",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.8.32-9.11",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Sem Liturgia"
+ },
+ "-32": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.10.12-20",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.7.6-9",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.9.12-18",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Liturgia dos Pré-santificados (sem Apóstolo/Evangelho)"
+ },
+ "-31": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.11.10-12.2",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.7.11-8.3",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.10.1-22",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Sem Liturgia"
+ },
+ "-30": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.13.2-13",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.8.4-21",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.10.31-11.12",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Liturgia dos Pré-santificados (sem Apóstolo/Evangelho)"
+ },
+ "-29": {
+  "ap": [
+   {
+    "r": "Heb.10.32-38",
+    "z": 325
+   },
+   {
+    "r": "1Thess.4.13-17",
+    "z": 270,
+    "tipo": "defuntos"
+   }
+  ],
+  "ev": [
+   {
+    "r": "Mark.2.14-17",
+    "z": 8
+   },
+   {
+    "r": "John.5.24-30",
+    "z": 16,
+    "tipo": "defuntos"
+   }
+  ],
+  "vt": [],
+  "nome": "3.º sábado (defuntos)"
+ },
+ "-28": {
+  "ap": [
+   {
+    "r": "Heb.4.14-5.6",
+    "z": 311
+   }
+  ],
+  "ev": [
+   {
+    "r": "Mark.8.34-9.1",
+    "z": 37
+   }
+  ],
+  "vt": [],
+  "nome": "3.º domingo: Veneração da Cruz"
+ },
+ "-27": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.14.24-32",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.8.21-9.7",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.11.19-12.6",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Sem Liturgia"
+ },
+ "-26": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.25.1-9",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.9.8-17",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.12.8-22",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Sem Liturgia"
+ },
+ "-25": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.26.21-27.9",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.9.18-10.1",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.12.23-13.9",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Liturgia dos Pré-santificados (sem Apóstolo/Evangelho)"
+ },
+ "-24": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.28.14-22",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.10.32-11.9",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.13.20-14.6",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Sem Liturgia"
+ },
+ "-23": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.29.13-23",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.12.1-7",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.14.15-26",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Liturgia dos Pré-santificados (sem Apóstolo/Evangelho)"
+ },
+ "-22": {
+  "ap": [
+   {
+    "r": "Heb.6.9-12",
+    "z": 313
+   },
+   {
+    "r": "1Cor.15.47-57",
+    "z": 163,
+    "tipo": "defuntos"
+   }
+  ],
+  "ev": [
+   {
+    "r": "Mark.7.31-37",
+    "z": 31
+   },
+   {
+    "r": "John.5.24-30",
+    "z": 16,
+    "tipo": "defuntos"
+   }
+  ],
+  "vt": [],
+  "nome": "4.º sábado (defuntos)"
+ },
+ "-21": {
+  "ap": [
+   {
+    "r": "Heb.6.13-20",
+    "z": 314
+   },
+   {
+    "r": "Eph.5.9-19",
+    "z": 224,
+    "tipo": "santo",
+    "nota": "S. João Clímaco"
+   }
+  ],
+  "ev": [
+   {
+    "r": "Mark.9.17-31",
+    "z": 40
+   },
+   {
+    "r": "Matt.4.25-5.12",
+    "z": 10,
+    "tipo": "santo"
+   }
+  ],
+  "vt": [],
+  "nome": "4.º domingo: S. João Clímaco"
+ },
+ "-20": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.37.33-38.6",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.13.12-18",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.14.27-15.4",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Sem Liturgia"
+ },
+ "-19": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.40.18-31",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.15.1-15",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.15.7-19",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Sem Liturgia"
+ },
+ "-18": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.41.4-14",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.17.1-9",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.15.20-16.9",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Sem Liturgia (Pré-santificados transferidos para quinta-feira)"
+ },
+ "-17": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.42.5-16",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.18.20-33",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.16.17-17.17",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Grande Cânone de S. André (Matinas); Liturgia dos Pré-santificados"
+ },
+ "-16": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.45.11-17",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.22.1-18",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.17.17-18.5",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Liturgia dos Pré-santificados (sem Apóstolo/Evangelho)"
+ },
+ "-15": {
+  "ap": [
+   {
+    "r": "Heb.9.24-28",
+    "z": 322
+   },
+   {
+    "r": "Heb.9.1-7",
+    "z": 320,
+    "tipo": "mae_de_deus"
+   }
+  ],
+  "ev": [
+   {
+    "r": "Mark.8.27-31",
+    "z": 35
+   },
+   {
+    "r": "Luke.10.38-42;Luke.11.27-28",
+    "z": 54,
+    "tipo": "mae_de_deus"
+   }
+  ],
+  "vt": [],
+  "nome": "Sábado do Acatisto"
+ },
+ "-14": {
+  "ap": [
+   {
+    "r": "Heb.9.11-14",
+    "z": 321,
+    "meio": true
+   },
+   {
+    "r": "Gal.3.23-29",
+    "z": 208,
+    "tipo": "santo",
+    "nota": "S. Maria Egipcíaca"
+   }
+  ],
+  "ev": [
+   {
+    "r": "Mark.10.32-45",
+    "z": 47
+   },
+   {
+    "r": "Luke.7.36-50",
+    "z": 33,
+    "tipo": "santo"
+   }
+  ],
+  "vt": [],
+  "nome": "5.º domingo: S. Maria Egipcíaca"
+ },
+ "-13": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.48.17-49.4",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.27.1-41",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.19.16-25",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Sem Liturgia"
+ },
+ "-12": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.49.6-10",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.31.3-16",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.21.3-21",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Sem Liturgia"
+ },
+ "-11": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.58.1-11",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.43.26-31;Gen.45.1-16",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.21.23-22.4",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Liturgia dos Pré-santificados (sem Apóstolo/Evangelho)"
+ },
+ "-10": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.65.8-16",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.46.1-7",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.23.15-24.5",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Sem Liturgia"
+ },
+ "-9": {
+  "ap": [],
+  "ev": [],
+  "vt": [
+   {
+    "r": "Isa.66.10-24",
+    "sv": "hora6"
+   },
+   {
+    "r": "Gen.49.33-50.26",
+    "sv": "vesperas"
+   },
+   {
+    "r": "Prov.31.8-31",
+    "sv": "vesperas"
+   }
+  ],
+  "nota": "Liturgia dos Pré-santificados (sem Apóstolo/Evangelho)"
+ },
+ "-8": {
+  "ap": [
+   {
+    "r": "Heb.12.28-13.8",
+    "z": 333,
+    "meio": true
+   }
+  ],
+  "ev": [
+   {
+    "r": "John.11.1-45",
+    "z": 39
+   }
+  ],
+  "vt": [],
+  "nome": "Sábado de Lázaro"
+ },
+ "-7": {
+  "ap": [
+   {
+    "r": "Phil.4.4-9",
+    "z": 247
+   }
+  ],
+  "ev": [
+   {
+    "r": "Matt.21.1-11;Matt.21.15-17",
+    "z": 83,
+    "sv": "matinas"
+   },
+   {
+    "r": "John.12.1-18",
+    "z": 41
+   }
+  ],
+  "vt": [
+   {
+    "r": "Gen.49.1-2;Gen.49.8-12",
+    "sv": "vesperas_vespera",
+    "n": 1,
+    "verificado": false
+   },
+   {
+    "r": "Zeph.3.14-19",
+    "sv": "vesperas_vespera",
+    "n": 2,
+    "verificado": false
+   },
+   {
+    "r": "Zech.9.9-15",
+    "sv": "vesperas_vespera",
+    "n": 3,
+    "verificado": false
+   }
+  ],
+  "nome": "Entrada do Senhor em Jerusalém (Ramos)",
+  "nota": "vt = parémias das Vésperas da véspera (sábado à tarde)"
+ },
+ "-6": {
+  "ap": [],
+  "ev": [
+   {
+    "r": "Matt.21.18-43",
+    "z": 84,
+    "sv": "matinas"
+   },
+   {
+    "r": "Matt.24.3-35",
+    "z": 98,
+    "sv": "liturgia_presantificados"
+   }
+  ],
+  "vt": [
+   {
+    "r": "Ezek.1.1-20",
+    "sv": "hora6",
+    "verificado": false
+   },
+   {
+    "r": "Exod.1.1-20",
+    "sv": "vesperas",
+    "verificado": false
+   },
+   {
+    "r": "Job.1.1-12",
+    "sv": "vesperas",
+    "verificado": false
+   }
+  ],
+  "nome": "Grande e Santa Segunda-feira"
+ },
+ "-5": {
+  "ap": [],
+  "ev": [
+   {
+    "r": "Matt.22.15-23.39",
+    "z": 90,
+    "sv": "matinas"
+   },
+   {
+    "r": "Matt.24.36-26.2",
+    "z": 102,
+    "sv": "liturgia_presantificados"
+   }
+  ],
+  "vt": [
+   {
+    "r": "Ezek.1.21-2.1",
+    "sv": "hora6",
+    "verificado": false
+   },
+   {
+    "r": "Exod.2.5-10",
+    "sv": "vesperas",
+    "verificado": false
+   },
+   {
+    "r": "Job.1.13-22",
+    "sv": "vesperas",
+    "verificado": false
+   }
+  ],
+  "nome": "Grande e Santa Terça-feira"
+ },
+ "-4": {
+  "ap": [],
+  "ev": [
+   {
+    "r": "John.12.17-50",
+    "z": 41,
+    "sv": "matinas"
+   },
+   {
+    "r": "Matt.26.6-16",
+    "z": 108,
+    "sv": "liturgia_presantificados"
+   }
+  ],
+  "vt": [
+   {
+    "r": "Ezek.2.3-3.3",
+    "sv": "hora6",
+    "verificado": false
+   },
+   {
+    "r": "Exod.2.11-22",
+    "sv": "vesperas",
+    "verificado": false
+   },
+   {
+    "r": "Job.2.1-10",
+    "sv": "vesperas",
+    "verificado": false
+   }
+  ],
+  "nome": "Grande e Santa Quarta-feira"
+ },
+ "-3": {
+  "ap": [
+   {
+    "r": "1Cor.11.23-32",
+    "z": 149
+   }
+  ],
+  "ev": [
+   {
+    "r": "Luke.22.1-39",
+    "z": 108,
+    "sv": "matinas"
+   },
+   {
+    "r": "Matt.26.1-20;John.13.3-17;Matt.26.21-39;Luke.22.43-45;Matt.26.40-27.2",
+    "z": 107,
+    "sv": "liturgia",
+    "nota": "Evangelho composto"
+   },
+   {
+    "r": "John.13.3-11",
+    "z": 44,
+    "sv": "lava_pes",
+    "nota": "antes do lava-pés (onde se faz)"
+   },
+   {
+    "r": "John.13.12-17",
+    "z": 45,
+    "sv": "lava_pes",
+    "nota": "depois do lava-pés"
+   }
+  ],
+  "vt": [
+   {
+    "r": "Jer.11.18-23;Jer.12.1-5;Jer.12.9-11;Jer.12.14-15",
+    "sv": "hora6",
+    "verificado": false
+   },
+   {
+    "r": "Exod.19.10-19",
+    "sv": "vesperas",
+    "n": 1,
+    "verificado": false
+   },
+   {
+    "r": "Job.38.1-23;Job.42.1-5",
+    "sv": "vesperas",
+    "n": 2,
+    "verificado": false
+   },
+   {
+    "r": "Isa.50.4-11",
+    "sv": "vesperas",
+    "n": 3,
+    "verificado": false
+   }
+  ],
+  "nome": "Grande e Santa Quinta-feira",
+  "nota": "Vésperas com Liturgia de S. Basílio"
+ },
+ "-2": {
+  "ap": [
+   {
+    "r": "Gal.6.14-18",
+    "z": 215,
+    "sv": "hora1",
+    "meio": true
+   },
+   {
+    "r": "Rom.5.6-10",
+    "z": 88,
+    "sv": "hora3",
+    "meio": true
+   },
+   {
+    "r": "Heb.2.11-18",
+    "z": 306,
+    "sv": "hora6"
+   },
+   {
+    "r": "Heb.10.19-31",
+    "z": 324,
+    "sv": "hora9"
+   },
+   {
+    "r": "1Cor.1.18-2.2",
+    "z": 125,
+    "sv": "vesperas"
+   }
+  ],
+  "ev": [
+   {
+    "r": "John.13.31-18.1",
+    "z": 46,
+    "sv": "matinas_12_evangelhos",
+    "n": 1
+   },
+   {
+    "r": "John.18.1-28",
+    "z": 58,
+    "sv": "matinas_12_evangelhos",
+    "n": 2
+   },
+   {
+    "r": "Matt.26.57-75",
+    "z": 109,
+    "sv": "matinas_12_evangelhos",
+    "n": 3
+   },
+   {
+    "r": "John.18.28-19.16",
+    "z": 59,
+    "sv": "matinas_12_evangelhos",
+    "n": 4
+   },
+   {
+    "r": "Matt.27.3-32",
+    "z": 111,
+    "sv": "matinas_12_evangelhos",
+    "n": 5
+   },
+   {
+    "r": "Mark.15.16-32",
+    "z": 67,
+    "sv": "matinas_12_evangelhos",
+    "n": 6
+   },
+   {
+    "r": "Matt.27.33-54",
+    "z": 113,
+    "sv": "matinas_12_evangelhos",
+    "n": 7
+   },
+   {
+    "r": "Luke.23.32-49",
+    "z": 111,
+    "sv": "matinas_12_evangelhos",
+    "n": 8
+   },
+   {
+    "r": "John.19.25-37",
+    "z": 61,
+    "sv": "matinas_12_evangelhos",
+    "n": 9
+   },
+   {
+    "r": "Mark.15.43-47",
+    "z": 69,
+    "sv": "matinas_12_evangelhos",
+    "n": 10
+   },
+   {
+    "r": "John.19.38-42",
+    "z": 62,
+    "sv": "matinas_12_evangelhos",
+    "n": 11
+   },
+   {
+    "r": "Matt.27.62-66",
+    "z": 114,
+    "sv": "matinas_12_evangelhos",
+    "n": 12
+   },
+   {
+    "r": "Matt.27.1-56",
+    "z": 110,
+    "sv": "hora1"
+   },
+   {
+    "r": "Mark.15.16-41",
+    "z": 67,
+    "sv": "hora3"
+   },
+   {
+    "r": "Luke.23.32-49",
+    "z": 111,
+    "sv": "hora6"
+   },
+   {
+    "r": "John.18.28-19.37",
+    "z": 59,
+    "sv": "hora9"
+   },
+   {
+    "r": "Matt.27.1-38;Luke.23.39-43;Matt.27.39-54;John.19.31-37;Matt.27.55-61",
+    "z": 110,
+    "sv": "vesperas",
+    "nota": "Evangelho composto"
+   }
+  ],
+  "vt": [
+   {
+    "r": "Zech.11.10-13",
+    "sv": "hora1",
+    "verificado": false
+   },
+   {
+    "r": "Isa.50.4-11",
+    "sv": "hora3",
+    "verificado": false
+   },
+   {
+    "r": "Isa.52.13-54.1",
+    "sv": "hora6",
+    "verificado": false
+   },
+   {
+    "r": "Jer.11.18-23;Jer.12.1-5;Jer.12.9-11;Jer.12.14-15",
+    "sv": "hora9",
+    "verificado": false
+   },
+   {
+    "r": "Exod.33.11-23",
+    "sv": "vesperas",
+    "n": 1,
+    "verificado": false
+   },
+   {
+    "r": "Job.42.12-17",
+    "sv": "vesperas",
+    "n": 2,
+    "verificado": false
+   },
+   {
+    "r": "Isa.52.13-54.1",
+    "sv": "vesperas",
+    "n": 3,
+    "verificado": false
+   }
+  ],
+  "nome": "Grande e Santa Sexta-feira",
+  "nota": "Sem Liturgia (Horas Reais; Vésperas da deposição)"
+ },
+ "-1": {
+  "ap": [
+   {
+    "r": "1Cor.5.6-8;Gal.3.13-14",
+    "z": 133,
+    "sv": "matinas",
+    "nota": "Apóstolo composto: 1 Cor zach. 133 + Gl zach. 206"
+   },
+   {
+    "r": "Rom.6.3-11",
+    "z": 91,
+    "sv": "liturgia"
+   }
+  ],
+  "ev": [
+   {
+    "r": "Matt.27.62-66",
+    "z": 114,
+    "sv": "matinas"
+   },
+   {
+    "r": "Matt.28.1-20",
+    "z": 115,
+    "sv": "liturgia"
+   }
+  ],
+  "vt": [
+   {
+    "r": "Ezek.37.1-14",
+    "sv": "matinas",
+    "verificado": false
+   },
+   {
+    "r": "Gen.1.1-13",
+    "sv": "vesperas",
+    "n": 1,
+    "verificado": false
+   },
+   {
+    "r": "Isa.60.1-16",
+    "sv": "vesperas",
+    "n": 2,
+    "verificado": false
+   },
+   {
+    "r": "Exod.12.1-11",
+    "sv": "vesperas",
+    "n": 3,
+    "verificado": false
+   },
+   {
+    "r": "Jonah.1.1-4.11",
+    "sv": "vesperas",
+    "n": 4,
+    "verificado": false
+   },
+   {
+    "r": "Josh.5.10-15",
+    "sv": "vesperas",
+    "n": 5,
+    "verificado": false
+   },
+   {
+    "r": "Exod.13.20-15.19",
+    "sv": "vesperas",
+    "n": 6,
+    "verificado": false
+   },
+   {
+    "r": "Zeph.3.8-15",
+    "sv": "vesperas",
+    "n": 7,
+    "verificado": false
+   },
+   {
+    "r": "1Kgs.17.8-24",
+    "sv": "vesperas",
+    "n": 8,
+    "verificado": false
+   },
+   {
+    "r": "Isa.61.10-62.5",
+    "sv": "vesperas",
+    "n": 9,
+    "verificado": false
+   },
+   {
+    "r": "Gen.22.1-18",
+    "sv": "vesperas",
+    "n": 10,
+    "verificado": false
+   },
+   {
+    "r": "Isa.61.1-10",
+    "sv": "vesperas",
+    "n": 11,
+    "verificado": false
+   },
+   {
+    "r": "2Kgs.4.8-37",
+    "sv": "vesperas",
+    "n": 12,
+    "verificado": false
+   },
+   {
+    "r": "Isa.63.11-64.5",
+    "sv": "vesperas",
+    "n": 13,
+    "verificado": false
+   },
+   {
+    "r": "Jer.38.31-34",
+    "sv": "vesperas",
+    "n": 14,
+    "verificado": false
+   },
+   {
+    "r": "Dan.3.1-88",
+    "sv": "vesperas",
+    "n": 15,
+    "verificado": false
+   }
+  ],
+  "nome": "Grande e Santo Sábado",
+  "nota": "Vésperas com Liturgia de S. Basílio; 1Kgs/2Kgs = 3/4 Reinos; Jer 38 e Dan 3 em numeração LXX/eslava"
+ }
+}

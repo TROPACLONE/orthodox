@@ -1,0 +1,1137 @@
+{
+ "_meta": {
+  "descricao": "Leituras da Liturgia (e Evangelho das Matinas) das festas fixas; datas julianas MM-DD.",
+  "moveis": {
+   "P-7": "Ramos: triodio.json",
+   "P+39": "Ascensão: ficheiro do Pentecostário (outro compilador)",
+   "P+49": "Pentecostes: ficheiro do Pentecostário (outro compilador)"
+  },
+  "fontes": "ver FONTES-triodio-festas.md"
+ },
+ "09-08": {
+  "nome_pt": "Natividade da Santíssima Mãe de Deus",
+  "classe": "doze",
+  "ap": [
+   {
+    "r": "Phil.2.5-11",
+    "z": 240
+   }
+  ],
+  "ev": [
+   {
+    "r": "Luke.10.38-42;Luke.11.27-28",
+    "z": 54
+   }
+  ],
+  "matinas_ev": [
+   {
+    "r": "Luke.1.39-49;Luke.1.56",
+    "z": 4
+   }
+  ]
+ },
+ "09-14": {
+  "nome_pt": "Exaltação Universal da Preciosa e Vivificante Cruz",
+  "classe": "doze",
+  "ap": [
+   {
+    "r": "1Cor.1.18-24",
+    "z": 125
+   }
+  ],
+  "ev": [
+   {
+    "r": "John.19.6-11;John.19.13-20;John.19.25-28;John.19.30-35",
+    "z": 60
+   }
+  ],
+  "matinas_ev": [
+   {
+    "r": "John.12.28-36",
+    "z": 42,
+    "meio": true
+   }
+  ]
+ },
+ "10-01": {
+  "nome_pt": "Proteção da Santíssima Mãe de Deus",
+  "classe": "grande",
+  "ap": [
+   {
+    "r": "Heb.9.1-7",
+    "z": 320
+   }
+  ],
+  "ev": [
+   {
+    "r": "Luke.10.38-42;Luke.11.27-28",
+    "z": 54
+   }
+  ],
+  "matinas_ev": [
+   {
+    "r": "Luke.1.39-49;Luke.1.56",
+    "z": 4
+   }
+  ]
+ },
+ "11-21": {
+  "nome_pt": "Entrada da Santíssima Mãe de Deus no Templo",
+  "classe": "doze",
+  "ap": [
+   {
+    "r": "Heb.9.1-7",
+    "z": 320
+   }
+  ],
+  "ev": [
+   {
+    "r": "Luke.10.38-42;Luke.11.27-28",
+    "z": 54
+   }
+  ],
+  "matinas_ev": [
+   {
+    "r": "Luke.1.39-49;Luke.1.56",
+    "z": 4
+   }
+  ]
+ },
+ "12-24": {
+  "nome_pt": "Véspera da Natividade de Cristo",
+  "classe": "vespera",
+  "horas_reais": {
+   "hora1": {
+    "vt": [
+     {
+      "r": "Mic.5.2-4",
+      "sv": "hora1",
+      "verificado": false
+     }
+    ],
+    "ap": [
+     {
+      "r": "Heb.1.1-12",
+      "z": 303
+     }
+    ],
+    "ev": [
+     {
+      "r": "Matt.1.18-25",
+      "z": 2
+     }
+    ]
+   },
+   "hora3": {
+    "vt": [
+     {
+      "r": "Bar.3.36-4.4",
+      "sv": "hora3",
+      "verificado": false
+     }
+    ],
+    "ap": [
+     {
+      "r": "Gal.3.23-29",
+      "z": 208
+     }
+    ],
+    "ev": [
+     {
+      "r": "Luke.2.1-20",
+      "z": 5
+     }
+    ]
+   },
+   "hora6": {
+    "vt": [
+     {
+      "r": "Isa.7.10-16;Isa.8.1-4;Isa.8.9-10",
+      "sv": "hora6",
+      "verificado": false
+     }
+    ],
+    "ap": [
+     {
+      "r": "Heb.1.10-2.3",
+      "z": 304
+     }
+    ],
+    "ev": [
+     {
+      "r": "Matt.2.1-12",
+      "z": 3
+     }
+    ]
+   },
+   "hora9": {
+    "vt": [
+     {
+      "r": "Isa.9.6-7",
+      "sv": "hora9",
+      "verificado": false
+     }
+    ],
+    "ap": [
+     {
+      "r": "Heb.2.11-18",
+      "z": 306
+     }
+    ],
+    "ev": [
+     {
+      "r": "Matt.2.13-23",
+      "z": 4
+     }
+    ]
+   }
+  },
+  "vt": [
+   {
+    "r": "Gen.1.1-13",
+    "sv": "vesperas",
+    "n": 1,
+    "verificado": false
+   },
+   {
+    "r": "Num.24.2-3;Num.24.5-9;Num.24.17-18",
+    "sv": "vesperas",
+    "n": 2,
+    "verificado": false
+   },
+   {
+    "r": "Mic.4.6-7;Mic.5.2-4",
+    "sv": "vesperas",
+    "n": 3,
+    "verificado": false
+   },
+   {
+    "r": "Isa.11.1-10",
+    "sv": "vesperas",
+    "n": 4,
+    "verificado": false
+   },
+   {
+    "r": "Bar.3.36-4.4",
+    "sv": "vesperas",
+    "n": 5,
+    "verificado": false
+   },
+   {
+    "r": "Dan.2.31-36;Dan.2.44-45",
+    "sv": "vesperas",
+    "n": 6,
+    "verificado": false
+   },
+   {
+    "r": "Isa.9.6-7",
+    "sv": "vesperas",
+    "n": 7,
+    "verificado": false
+   },
+   {
+    "r": "Isa.7.10-16;Isa.8.1-4;Isa.8.9-10",
+    "sv": "vesperas",
+    "n": 8,
+    "verificado": false
+   }
+  ],
+  "ap": [
+   {
+    "r": "Heb.1.1-12",
+    "z": 303
+   }
+  ],
+  "ev": [
+   {
+    "r": "Luke.2.1-20",
+    "z": 5
+   }
+  ],
+  "nota": "Vésperas com Liturgia de S. Basílio.",
+  "variante_sab_dom": {
+   "ap": [
+    {
+     "r": "Gal.3.15-22",
+     "z": 207
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.13.31-36",
+     "z": 53
+    }
+   ],
+   "nota": "Se 24.12 cair em sábado ou domingo: Horas Reais na sexta-feira anterior; na véspera, Liturgia de S. João Crisóstomo com estas leituras (Apóstolo, «аще приключится суббота или неделя»; Evangelho Mt zach. 53); a Liturgia de S. Basílio passa para o dia 25."
+  }
+ },
+ "12-25": {
+  "nome_pt": "Natividade segundo a carne de Nosso Senhor Jesus Cristo",
+  "classe": "doze",
+  "ap": [
+   {
+    "r": "Gal.4.4-7",
+    "z": 209
+   }
+  ],
+  "ev": [
+   {
+    "r": "Matt.2.1-12",
+    "z": 3
+   }
+  ],
+  "matinas_ev": [
+   {
+    "r": "Matt.1.18-25",
+    "z": 2
+   }
+  ]
+ },
+ "12-26": {
+  "nome_pt": "Sinaxe da Santíssima Mãe de Deus",
+  "classe": "pos_festa",
+  "ap": [
+   {
+    "r": "Heb.2.11-18",
+    "z": 306
+   }
+  ],
+  "ev": [
+   {
+    "r": "Matt.2.13-23",
+    "z": 4
+   }
+  ]
+ },
+ "01-01": {
+  "nome_pt": "Circuncisão do Senhor; S. Basílio Magno",
+  "classe": "grande",
+  "ap": [
+   {
+    "r": "Col.2.8-12",
+    "z": 254
+   },
+   {
+    "r": "Heb.7.26-8.2",
+    "z": 318,
+    "tipo": "santo"
+   }
+  ],
+  "ev": [
+   {
+    "r": "Luke.2.20-21;Luke.2.40-52",
+    "z": 6
+   },
+   {
+    "r": "Luke.6.17-23",
+    "z": 24,
+    "tipo": "santo"
+   }
+  ],
+  "matinas_ev": [
+   {
+    "r": "John.10.9-16",
+    "z": 36,
+    "nota": "de S. Basílio"
+   }
+  ]
+ },
+ "01-05": {
+  "nome_pt": "Véspera da Teofania",
+  "classe": "vespera",
+  "horas_reais": {
+   "hora1": {
+    "vt": [
+     {
+      "r": "Isa.35.1-10",
+      "sv": "hora1",
+      "verificado": false
+     }
+    ],
+    "ap": [
+     {
+      "r": "Acts.13.25-32",
+      "z": 33
+     }
+    ],
+    "ev": [
+     {
+      "r": "Matt.3.1-11",
+      "z": 5
+     }
+    ]
+   },
+   "hora3": {
+    "vt": [
+     {
+      "r": "Isa.1.16-20",
+      "sv": "hora3",
+      "verificado": false
+     }
+    ],
+    "ap": [
+     {
+      "r": "Acts.19.1-8",
+      "z": 42
+     }
+    ],
+    "ev": [
+     {
+      "r": "Mark.1.1-8",
+      "z": 1
+     }
+    ]
+   },
+   "hora6": {
+    "vt": [
+     {
+      "r": "Isa.12.3-6",
+      "sv": "hora6",
+      "verificado": false
+     }
+    ],
+    "ap": [
+     {
+      "r": "Rom.6.3-11",
+      "z": 91
+     }
+    ],
+    "ev": [
+     {
+      "r": "Mark.1.9-11",
+      "z": 2
+     }
+    ]
+   },
+   "hora9": {
+    "vt": [
+     {
+      "r": "Isa.49.8-15",
+      "sv": "hora9",
+      "verificado": false
+     }
+    ],
+    "ap": [
+     {
+      "r": "Titus.2.11-14;Titus.3.4-7",
+      "z": 302
+     }
+    ],
+    "ev": [
+     {
+      "r": "Matt.3.13-17",
+      "z": 6
+     }
+    ]
+   }
+  },
+  "vt": [
+   {
+    "r": "Gen.1.1-13",
+    "sv": "vesperas",
+    "n": 1,
+    "verificado": false
+   },
+   {
+    "r": "Exod.14.15-18;Exod.14.21-23;Exod.14.27-29",
+    "sv": "vesperas",
+    "n": 2,
+    "verificado": false
+   },
+   {
+    "r": "Exod.15.22-16.1",
+    "sv": "vesperas",
+    "n": 3,
+    "verificado": false
+   },
+   {
+    "r": "Josh.3.7-8;Josh.3.15-17",
+    "sv": "vesperas",
+    "n": 4,
+    "verificado": false
+   },
+   {
+    "r": "2Kgs.2.6-14",
+    "sv": "vesperas",
+    "n": 5,
+    "verificado": false
+   },
+   {
+    "r": "2Kgs.5.9-14",
+    "sv": "vesperas",
+    "n": 6,
+    "verificado": false
+   },
+   {
+    "r": "Isa.1.16-20",
+    "sv": "vesperas",
+    "n": 7,
+    "verificado": false
+   },
+   {
+    "r": "Gen.32.1-10",
+    "sv": "vesperas",
+    "n": 8,
+    "verificado": false
+   },
+   {
+    "r": "Exod.2.5-10",
+    "sv": "vesperas",
+    "n": 9,
+    "verificado": false
+   },
+   {
+    "r": "Judg.6.36-40",
+    "sv": "vesperas",
+    "n": 10,
+    "verificado": false
+   },
+   {
+    "r": "1Kgs.18.30-39",
+    "sv": "vesperas",
+    "n": 11,
+    "verificado": false
+   },
+   {
+    "r": "2Kgs.2.19-22",
+    "sv": "vesperas",
+    "n": 12,
+    "verificado": false
+   },
+   {
+    "r": "Isa.49.8-15",
+    "sv": "vesperas",
+    "n": 13,
+    "verificado": false
+   }
+  ],
+  "ap": [
+   {
+    "r": "1Cor.9.19-27",
+    "z": 143
+   }
+  ],
+  "ev": [
+   {
+    "r": "Luke.3.1-18",
+    "z": 9
+   }
+  ],
+  "bencao_aguas": {
+   "vt": [
+    {
+     "r": "Isa.35.1-10",
+     "sv": "bencao_aguas",
+     "verificado": false
+    },
+    {
+     "r": "Isa.55.1-13",
+     "sv": "bencao_aguas",
+     "verificado": false
+    },
+    {
+     "r": "Isa.12.3-6",
+     "sv": "bencao_aguas",
+     "verificado": false
+    }
+   ],
+   "ap": [
+    {
+     "r": "1Cor.10.1-4",
+     "z": 143,
+     "meio": true
+    }
+   ],
+   "ev": [
+    {
+     "r": "Mark.1.9-11",
+     "z": 2
+    }
+   ]
+  },
+  "nota": "Vésperas com Liturgia de S. Basílio; depois, Grande Bênção da Água.",
+  "variante_sab_dom": {
+   "ap": [
+    {
+     "r": "1Cor.9.19-27",
+     "z": 143,
+     "meio": true
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.3.1-18",
+     "z": 9
+    }
+   ],
+   "nota": "Se 05.01 cair em sábado ou domingo: Horas Reais na sexta-feira anterior; Liturgia de S. João Crisóstomo de manhã (leituras do dia/do sábado ou domingo antes da Teofania) e Vésperas à parte com as parémias e estas leituras; o Apóstolo (rubrica do Apóstolo sinodal: «аще ли несть пост, начинаем его от полу») começa a meio do zachalo 143; a Liturgia de S. Basílio passa para o dia 06."
+  }
+ },
+ "01-06": {
+  "nome_pt": "Santa Teofania: Batismo de Nosso Senhor Jesus Cristo",
+  "classe": "doze",
+  "ap": [
+   {
+    "r": "Titus.2.11-14;Titus.3.4-7",
+    "z": 302
+   }
+  ],
+  "ev": [
+   {
+    "r": "Matt.3.13-17",
+    "z": 6
+   }
+  ],
+  "matinas_ev": [
+   {
+    "r": "Mark.1.9-11",
+    "z": 2
+   }
+  ]
+ },
+ "01-07": {
+  "nome_pt": "Sinaxe de S. João Precursor e Batista",
+  "classe": "pos_festa",
+  "ap": [
+   {
+    "r": "Acts.19.1-8",
+    "z": 42
+   }
+  ],
+  "ev": [
+   {
+    "r": "John.1.29-34",
+    "z": 3
+   }
+  ]
+ },
+ "02-02": {
+  "nome_pt": "Encontro do Senhor (Apresentação no Templo)",
+  "classe": "doze",
+  "ap": [
+   {
+    "r": "Heb.7.7-17",
+    "z": 316
+   }
+  ],
+  "ev": [
+   {
+    "r": "Luke.2.22-40",
+    "z": 7
+   }
+  ],
+  "matinas_ev": [
+   {
+    "r": "Luke.2.25-32",
+    "z": 8
+   }
+  ]
+ },
+ "03-25": {
+  "nome_pt": "Anunciação da Santíssima Mãe de Deus",
+  "classe": "doze",
+  "ap": [
+   {
+    "r": "Heb.2.11-18",
+    "z": 306
+   }
+  ],
+  "ev": [
+   {
+    "r": "Luke.1.24-38",
+    "z": 3
+   }
+  ],
+  "matinas_ev": [
+   {
+    "r": "Luke.1.39-49;Luke.1.56",
+    "z": 4
+   }
+  ],
+  "nota": "Coincidências com a Quaresma/Semana Santa: ver Typikon (capítulos de Marcos), 25.03"
+ },
+ "06-24": {
+  "nome_pt": "Natividade de S. João Precursor e Batista",
+  "classe": "grande",
+  "ap": [
+   {
+    "r": "Rom.13.11-14.4",
+    "z": 112
+   }
+  ],
+  "ev": [
+   {
+    "r": "Luke.1.1-25;Luke.1.57-68;Luke.1.76;Luke.1.80",
+    "z": 1
+   }
+  ],
+  "matinas_ev": [
+   {
+    "r": "Luke.1.24-25;Luke.1.57-68;Luke.1.76;Luke.1.80",
+    "z": 3
+   }
+  ]
+ },
+ "06-29": {
+  "nome_pt": "Santos gloriosos e primeiros entre os Apóstolos Pedro e Paulo",
+  "classe": "grande",
+  "ap": [
+   {
+    "r": "2Cor.11.21-12.9",
+    "z": 193
+   }
+  ],
+  "ev": [
+   {
+    "r": "Matt.16.13-19",
+    "z": 67
+   }
+  ],
+  "matinas_ev": [
+   {
+    "r": "John.21.15-25",
+    "z": 67
+   }
+  ]
+ },
+ "08-06": {
+  "nome_pt": "Transfiguração de Nosso Senhor Jesus Cristo",
+  "classe": "doze",
+  "ap": [
+   {
+    "r": "2Pet.1.10-19",
+    "z": 65
+   }
+  ],
+  "ev": [
+   {
+    "r": "Matt.17.1-9",
+    "z": 70
+   }
+  ],
+  "matinas_ev": [
+   {
+    "r": "Luke.9.28-36",
+    "z": 45
+   }
+  ]
+ },
+ "08-15": {
+  "nome_pt": "Dormição da Santíssima Mãe de Deus",
+  "classe": "doze",
+  "ap": [
+   {
+    "r": "Phil.2.5-11",
+    "z": 240
+   }
+  ],
+  "ev": [
+   {
+    "r": "Luke.10.38-42;Luke.11.27-28",
+    "z": 54
+   }
+  ],
+  "matinas_ev": [
+   {
+    "r": "Luke.1.39-49;Luke.1.56",
+    "z": 4
+   }
+  ]
+ },
+ "08-29": {
+  "nome_pt": "Degolação de S. João Precursor e Batista",
+  "classe": "grande",
+  "ap": [
+   {
+    "r": "Acts.13.25-32",
+    "z": 33
+   }
+  ],
+  "ev": [
+   {
+    "r": "Mark.6.14-30",
+    "z": 24
+   }
+  ],
+  "matinas_ev": [
+   {
+    "r": "Matt.14.1-13",
+    "z": 57
+   }
+  ]
+ },
+ "comuns": {
+  "_nota": "Leituras gerais («общие») por categoria, do Apóstolo e do Evangeliário sinodais; 'alt' = alternativas indicadas pela fonte.",
+  "mae_de_deus": {
+   "ap": [
+    {
+     "r": "Phil.2.5-11",
+     "z": 240
+    }
+   ],
+   "ap_alt": [
+    {
+     "r": "Heb.9.1-7",
+     "z": 320
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.38-42;Luke.11.27-28",
+     "z": 54
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Luke.1.39-49;Luke.1.56",
+     "z": 4
+    }
+   ]
+  },
+  "incorporeos": {
+   "ap": [
+    {
+     "r": "Heb.2.2-10",
+     "z": 305
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.16-21",
+     "z": 51
+    }
+   ],
+   "ev_alt": [
+    {
+     "r": "Matt.13.24-30;Matt.13.36-43",
+     "z": 52
+    }
+   ]
+  },
+  "profetas": {
+   "ap": [
+    {
+     "r": "1Cor.14.20-25",
+     "z": 156
+    }
+   ],
+   "ap_alt": [
+    {
+     "r": "Heb.6.13-20",
+     "z": 314
+    },
+    {
+     "r": "Jas.5.10-20",
+     "z": 57
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.23.29-39",
+     "z": 96
+    }
+   ],
+   "ev_alt": [
+    {
+     "r": "Luke.11.47-54",
+     "z": 62
+    }
+   ]
+  },
+  "apostolo": {
+   "ap": [
+    {
+     "r": "1Cor.4.9-16",
+     "z": 131
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.10.1;Matt.10.5-8",
+     "z": 34
+    }
+   ],
+   "nota": "um Apóstolo; o Apóstolo sinodal só dá a leitura geral dos Apóstolos (1 Cor zach. 131)"
+  },
+  "apostolos": {
+   "ap": [
+    {
+     "r": "1Cor.4.9-16",
+     "z": 131
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.1-15",
+     "z": 50
+    }
+   ],
+   "ev_alt": [
+    {
+     "r": "Luke.10.16-21",
+     "z": 51
+    }
+   ]
+  },
+  "hierarca": {
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ]
+  },
+  "hierarcas": {
+   "ap": [
+    {
+     "r": "Heb.13.17-21",
+     "z": 335
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.5.14-19",
+     "z": 11
+    }
+   ],
+   "ev_alt": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35
+    }
+   ]
+  },
+  "veneravel": {
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "ev_alt": [
+    {
+     "r": "Luke.6.17-23",
+     "z": 24
+    }
+   ],
+   "nota": "veneráveis e loucos por Cristo"
+  },
+  "martir": {
+   "ap": [
+    {
+     "r": "2Tim.2.1-10",
+     "z": 292
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.12.2-12",
+     "z": 63
+    }
+   ],
+   "ev_alt": [
+    {
+     "r": "John.15.17-16.2",
+     "z": 52
+    }
+   ]
+  },
+  "martires": {
+   "ap": [
+    {
+     "r": "Rom.8.28-39",
+     "z": 99
+    }
+   ],
+   "ap_alt": [
+    {
+     "r": "Heb.11.33-12.2",
+     "z": 330
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.10.16-22",
+     "z": 36
+    }
+   ],
+   "ev_alt": [
+    {
+     "r": "Luke.21.12-19",
+     "z": 106
+    }
+   ]
+  },
+  "hieromartir": {
+   "ap": [
+    {
+     "r": "Heb.13.7-16",
+     "z": 334
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.12.32-40",
+     "z": 67
+    }
+   ]
+  },
+  "hieromartires": {
+   "ap": [
+    {
+     "r": "Heb.5.4-10",
+     "z": 311,
+     "meio": true
+    }
+   ],
+   "ap_alt": [
+    {
+     "r": "Phil.3.20-4.3",
+     "z": 249
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23",
+     "z": 24
+    }
+   ],
+   "ev_alt": [
+    {
+     "r": "Luke.10.22-24",
+     "z": 52
+    },
+    {
+     "r": "Luke.14.25-35",
+     "z": 77
+    }
+   ]
+  },
+  "veneravel_martir": {
+   "ap": [
+    {
+     "r": "2Tim.1.8-18",
+     "z": 291
+    }
+   ],
+   "ev": [
+    {
+     "r": "Mark.8.34-9.1",
+     "z": 37
+    }
+   ]
+  },
+  "veneraveis_martires": {
+   "ap": [
+    {
+     "r": "Rom.8.28-39",
+     "z": 99
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.10.32-33;Matt.10.37-38;Matt.19.27-30",
+     "z": 38
+    }
+   ],
+   "ev_alt": [
+    {
+     "r": "Luke.12.8-12",
+     "z": 64
+    }
+   ]
+  },
+  "martires_mulheres": {
+   "ap": [
+    {
+     "r": "2Cor.6.1-10",
+     "z": 181
+    }
+   ],
+   "ap_alt": [
+    {
+     "r": "Gal.3.23-29",
+     "z": 208
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.15.21-28",
+     "z": 62
+    }
+   ],
+   "ev_alt": [
+    {
+     "r": "Mark.5.24-34",
+     "z": 21
+    }
+   ]
+  },
+  "veneraveis_mulheres": {
+   "ap": [
+    {
+     "r": "Gal.3.23-29",
+     "z": 208
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.25.1-13",
+     "z": 104
+    }
+   ],
+   "ev_alt": [
+    {
+     "r": "Luke.7.36-50",
+     "z": 33
+    }
+   ]
+  },
+  "confessores": {
+   "ap": [
+    {
+     "r": "Eph.6.10-17",
+     "z": 233
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.12.8-12",
+     "z": 64
+    }
+   ]
+  },
+  "anargiros": {
+   "ap": [
+    {
+     "r": "1Cor.12.27-13.8",
+     "z": 153
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.10.1;Matt.10.5-8",
+     "z": 34
+    }
+   ]
+  }
+ }
+}

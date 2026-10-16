@@ -1,0 +1,261 @@
+{
+ "_meta": {
+  "descricao": "Sábados/domingos com leituras próprias do ciclo fixo, Zaqueu e os 11 Evangelhos matinais dominicais.",
+  "regras": "Ver docs/conhecimento/01-calendario-e-leituras.md §3.2, §7.4, §7.5; a leitura ordinária lê-se «под зачало» quando aplicável, exceto no Domingo dos Santos Padres.",
+  "fontes": "ver FONTES-triodio-festas.md"
+ },
+ "sab_antes_exaltacao": {
+  "ap": [
+   {
+    "r": "1Cor.2.6-9",
+    "z": 126
+   }
+  ],
+  "ev": [
+   {
+    "r": "Matt.10.37-11.1",
+    "z": 39
+   }
+  ]
+ },
+ "dom_antes_exaltacao": {
+  "ap": [
+   {
+    "r": "Gal.6.11-18",
+    "z": 215
+   }
+  ],
+  "ev": [
+   {
+    "r": "John.3.13-17",
+    "z": 9
+   }
+  ]
+ },
+ "sab_depois_exaltacao": {
+  "ap": [
+   {
+    "r": "1Cor.1.26-29",
+    "z": 125,
+    "meio": true
+   }
+  ],
+  "ev": [
+   {
+    "r": "John.8.21-30",
+    "z": 30
+   }
+  ]
+ },
+ "dom_depois_exaltacao": {
+  "ap": [
+   {
+    "r": "Gal.2.16-20",
+    "z": 203
+   }
+  ],
+  "ev": [
+   {
+    "r": "Mark.8.34-9.1",
+    "z": 37
+   }
+  ]
+ },
+ "sab_antes_natal": {
+  "ap": [
+   {
+    "r": "Gal.3.8-12",
+    "z": 205
+   }
+  ],
+  "ev": [
+   {
+    "r": "Luke.13.18-29",
+    "z": 72
+   }
+  ]
+ },
+ "dom_antes_natal_pais": {
+  "ap": [
+   {
+    "r": "Heb.11.9-10;Heb.11.17-23;Heb.11.32-40",
+    "z": 328
+   }
+  ],
+  "ev": [
+   {
+    "r": "Matt.1.1-25",
+    "z": 1
+   }
+  ],
+  "nota": "Domingo dos Santos Padres: nunca se juntam leituras ordinárias"
+ },
+ "sab_depois_natal": {
+  "ap": [
+   {
+    "r": "1Tim.6.11-16",
+    "z": 288
+   }
+  ],
+  "ev": [
+   {
+    "r": "Matt.12.15-21",
+    "z": 46
+   }
+  ]
+ },
+ "dom_depois_natal": {
+  "ap": [
+   {
+    "r": "Gal.1.11-19",
+    "z": 200
+   }
+  ],
+  "ev": [
+   {
+    "r": "Matt.2.13-23",
+    "z": 4
+   }
+  ],
+  "nota": "Sts. José, David e Tiago; se o Natal cair em domingo, passa para segunda 26.12"
+ },
+ "sab_antes_teofania": {
+  "ap": [
+   {
+    "r": "1Tim.3.14-4.5",
+    "z": 284
+   }
+  ],
+  "ev": [
+   {
+    "r": "Matt.3.1-11",
+    "z": 5
+   }
+  ]
+ },
+ "dom_antes_teofania": {
+  "ap": [
+   {
+    "r": "2Tim.4.5-8",
+    "z": 298
+   }
+  ],
+  "ev": [
+   {
+    "r": "Mark.1.1-8",
+    "z": 1
+   }
+  ]
+ },
+ "sab_depois_teofania": {
+  "ap": [
+   {
+    "r": "Eph.6.10-17",
+    "z": 233
+   }
+  ],
+  "ev": [
+   {
+    "r": "Matt.4.1-11",
+    "z": 7
+   }
+  ]
+ },
+ "dom_depois_teofania": {
+  "ap": [
+   {
+    "r": "Eph.4.7-13",
+    "z": 224,
+    "meio": true
+   }
+  ],
+  "ev": [
+   {
+    "r": "Matt.4.12-17",
+    "z": 8
+   }
+  ]
+ },
+ "dom_antepassados": {
+  "ap": [
+   {
+    "r": "Col.3.4-11",
+    "z": 257
+   }
+  ],
+  "ev": [
+   {
+    "r": "Luke.14.16-24",
+    "z": 76
+   }
+  ],
+  "nota": "= Apóstolo do 29.º domingo e Evangelho do 28.º; troca-se com o domingo em que estas cairiam (Typikon, 11.12)"
+ },
+ "zaqueu": {
+  "ap": [],
+  "ev": [
+   {
+    "r": "Luke.19.1-10",
+    "z": 94
+   }
+  ],
+  "nota": "Domingo imediatamente anterior ao do Publicano; o Apóstolo é o do domingo ordinário corrente (sem leitura própria)"
+ },
+ "eothina": [
+  {
+   "r": "Matt.28.16-20",
+   "z": 116,
+   "n": 1
+  },
+  {
+   "r": "Mark.16.1-8",
+   "z": 70,
+   "n": 2
+  },
+  {
+   "r": "Mark.16.9-20",
+   "z": 71,
+   "n": 3
+  },
+  {
+   "r": "Luke.24.1-12",
+   "z": 112,
+   "n": 4
+  },
+  {
+   "r": "Luke.24.12-35",
+   "z": 113,
+   "n": 5
+  },
+  {
+   "r": "Luke.24.36-53",
+   "z": 114,
+   "n": 6
+  },
+  {
+   "r": "John.20.1-10",
+   "z": 63,
+   "n": 7
+  },
+  {
+   "r": "John.20.11-18",
+   "z": 64,
+   "n": 8
+  },
+  {
+   "r": "John.20.19-31",
+   "z": 65,
+   "n": 9
+  },
+  {
+   "r": "John.21.1-14",
+   "z": 66,
+   "n": 10
+  },
+  {
+   "r": "John.21.15-25",
+   "z": 67,
+   "n": 11
+  }
+ ]
+}
