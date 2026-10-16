@@ -147,7 +147,7 @@ select { font: inherit; }
 .tab { display: grid; justify-items: center; gap: 3px; min-height: 48px; align-content: center; font-size: .68rem; color: var(--muted); border-radius: 10px; }
 .tab svg { width: 24px; height: 24px; }
 .tab[aria-current="page"] { color: var(--gold); }
-/* ── Animações (decisão 59): só opacity/transform (compositor da GPU), curtas; nenhuma com menos movimento pedido. */
+/* ── Animações (decisões 59–60): só opacity/transform (compositor da GPU), curtas; sempre ativas. */
 /* Ecrã de arranque: no HTML, visível antes do JavaScript; a barra segue o carregamento real (app.js define --p). */
 #arranque { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; align-content: center; gap: 28px; background: var(--bg);
   transition: opacity .28s ease, visibility .28s; animation: arranque-recurso .3s 8s forwards; }
@@ -174,9 +174,6 @@ select { font: inherit; }
 .tab:active svg, .icon-btn:active svg { transform: scale(.9); }
 .item, .seg button, .link, .dia, .icon-btn { transition: background-color .15s ease, color .15s ease, border-color .15s ease; }
 @media (prefers-reduced-motion: no-preference) { #main { scroll-behavior: smooth; } }
-@media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after, ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) { animation: none !important; transition: none !important; }
-}
 </style>
 </head>
 <body>

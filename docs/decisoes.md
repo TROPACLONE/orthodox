@@ -63,3 +63,4 @@ Registo das decisões tomadas pelo utilizador. Em caso de dúvida, pergunta-se s
 | 57 | 2026-10-16 | Russo — Zaionchkovsky 1912 | **Fidelidade prevalece:** mantém-se Z1912 onde é fiel ao eslavo; onde parafraseia ou acrescenta, tradução própria fiel (assinalada). Afina a dec. 36. |
 | 58 | 2026-10-16 | Oração depois da refeição | **Texto atual** («…vem a nós e salva-nos»), com nota de que a edição de 1900 não o tem (dec. 2). |
 | 59 | 2026-10-16 | Animações | Pequenas animações de interface, **extremamente otimizadas e simples** (só opacity/transform, CSS + View Transitions nativas, sem bibliotecas): fade-out/fade-in entre ecrãs, ecrã de arranque com a cruz e barra de progresso **só enquanto carrega** (sem atraso artificial), resposta ao toque; tudo desligado com «menos movimento». |
+| 60 | 2026-10-16 | Animações e «menos movimento» | As animações estão **sempre ativas**: a preferência do sistema «reduzir movimento» não as desliga (substitui essa parte da dec. 59). |

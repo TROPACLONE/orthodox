@@ -19,18 +19,17 @@ const ESCALAS = [['pequeno', 0.9], ['normal', 1], ['grande', 1.15], ['muitoGrand
 const VISTAS = ['hoje', 'calendario', 'oracoes', 'biblia', 'conhecer'];
 const $ = id => document.getElementById(id);
 
-// ── Animações (decisão 59): ecrã de arranque com progresso real e transições entre ecrãs.
-const menosMovimento = matchMedia('(prefers-reduced-motion: reduce)');
+// ── Animações (decisões 59–60): ecrã de arranque com progresso real e transições entre ecrãs, sempre ativas.
 function progresso(p) {
   const a = $('arranque');
   if (!a) return;
   a.classList.add('js'); a.style.setProperty('--p', p);
-  if (p >= 1) { a.classList.add('fim'); setTimeout(() => a.remove(), menosMovimento.matches ? 0 : 320); }
+  if (p >= 1) { a.classList.add('fim'); setTimeout(() => a.remove(), 320); }
 }
 progresso(.45);
 /** Troca de ecrã com fade (View Transitions nativas; sem suporte: só fade-in). Resolve quando o novo ecrã está no DOM. */
 function transicao(fn) {
-  if (menosMovimento.matches || document.visibilityState !== 'visible') { fn(); return Promise.resolve(); }
+  if (document.visibilityState !== 'visible') { fn(); return Promise.resolve(); }
   if (!document.startViewTransition) { fn(); $('main').firstElementChild?.classList.add('entra'); return Promise.resolve(); }
   return document.startViewTransition(fn).updateCallbackDone.catch(() => {});
 }
