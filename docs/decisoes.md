@@ -26,3 +26,8 @@ Registo das decisões tomadas pelo utilizador. Em caso de dúvida, pergunta-se s
 | 20 | 2026-10-16 | Pendentes A–E | **Aceites todas as recomendações** de [pendentes.md](pendentes.md) (A0–A6, B1–B10, C1–C6, D1–D11). |
 | 21 | 2026-10-16 | Ortografia | **Acordo Ortográfico de 1990** (norma oficial em Portugal): «Batista», «ação», etc. |
 | 22 | 2026-10-16 | Pesquisa | 2.ª ronda também nos documentos 05–08. |
+| 23 | 2026-10-16 | Desempenho | Extremamente otimizada: mínimo de recursos (tamanho, memória, bateria), resposta imediata, eficiente. |
+| 24 | 2026-10-16 | Qualidade do código | Execução de excelência; verificações periódicas de bugs, race conditions, erros e fugas de memória (testes automáticos em CI a cada push + revisões de código em cada etapa). |
+| 25 | 2026-10-16 | Interface | **Só tema escuro (preto)**, sem modo claro. Bonita, trabalhada, com estética cristã ortodoxa; legível e clara — a intuitividade nunca é sacrificada pela estética. |
+| 26 | 2026-10-16 | Base técnica | **Igual ao EE Calc:** web app instalável (PWA), JavaScript sem framework, esbuild, GitHub Pages, testes em GitHub Actions, funcionamento totalmente offline (cálculo local). |
+| 27 | 2026-10-16 | Aparelhos | iPhone, iPad, Android e computador (layout responsivo; testes nos quatro). |
