@@ -224,7 +224,7 @@ Datas NS válidas para 01.03.1900–28.02.2100 (OS + 13). Durações de pré-fes
 Notas:
 1. **Apresentação do Senhor (Сретение)** — não há despedida no sábado e domingo "de carne", nem na quarta e sexta da semana do queijo. Se a festa cair: no domingo do Pródigo, ou segunda/terça da semana "de carne" → despedida na sexta dessa semana; quarta–sábado da semana "de carne" → terça da semana do queijo; domingo "de carne" ou segunda da semana do queijo → quinta do queijo; terça ou quarta do queijo → sábado do queijo; quinta–sábado do queijo → domingo do Perdão; no próprio domingo do Perdão → um só dia, sem pós-festa [14]. ⚠ A tabela da azbyka indica a despedida NS "de 16 a 23 de fevereiro", o que não bate com 02–09.02 OS (= 15–22.02 NS); **PARA CONFIRMAR** (provável gralha da fonte; o cálculo OS+13 dá 15–22.02).
 2. **Anunciação** — se cair no Sábado de Lázaro, não há pós-festa; se cair no Domingo de Ramos, Semana Santa ou Semana Luminosa, não há pré- nem pós-festa, só o dia da festa [14]. Na prática, a despedida de 26.03 só se celebra efetivamente quando coincide com sábados/domingos da 3.ª–5.ª semana da Quaresma [17].
-3. A Ascensão tem "pré-festa" de 1 dia [14] — esse dia (P+38) é simultaneamente a despedida da Páscoa [27].
+3. A Ascensão tem "pré-festa" de 1 dia [14]; o dia anterior à Ascensão (P+38) é também a despedida da Páscoa [27] (a identificação da pré-festa com P+38 é inferência a partir de [14] e [27]).
 4. Total de dias de despedida no Typikon: 13 por ano (11 festas das Doze, exceto Ramos, + Meio-Pentecostes) [17].
 
 ### 4.2 Grandes festas não pertencentes às Doze
@@ -502,7 +502,7 @@ Observações:
 23. Azbuka Very, "Апостольский пост". https://azbyka.ru/apostolskij-post
 24. Azbuka Very, calendário 04.02.2024 — Собор новомучеников (decisões de 1992 e 2013). https://azbyka.ru/days/2024-02-04
 25. Azbuka Very, calendário 18.10.2026 (Неделя 20-я по Пятидесятнице; leituras e tom). https://azbyka.ru/days/2026-10-18
-26. Azbuka Very, calendário diário (páginas 2025-04-20, 2026-04-12, 2027-05-02, 2026-03-01, 2026-06-07, 2026-09-29) e widget JSON. https://azbyka.ru/days/ ; https://azbyka.ru/days/2025-09-29
+26. Azbuka Very, calendário diário (páginas 2025-04-20, 2026-04-12, 2027-05-02, 2026-03-01, 2026-06-07 e 2025-09-29 — esta última com a nota "Счет Недель и седмиц остается прежним") e widget JSON. https://azbyka.ru/days/ ; https://azbyka.ru/days/2025-09-29
 27. Ponomar Project — repositório (README, LICENSE GPLv3, dados XML, scripts Perl `paschalion.pl`, `kahuna.pl`, `test_lj.pl`). https://github.com/typiconman/ponomar
 28. Ponomar — documentação Texinfo (secção *Liturgical ranks*). https://github.com/typiconman/ponomar/blob/master/Ponomar/doc/ponomar.texi
 29. Ponomar Project — página inicial. https://www.ponomar.net/
