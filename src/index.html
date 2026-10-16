@@ -147,7 +147,36 @@ select { font: inherit; }
 .tab { display: grid; justify-items: center; gap: 3px; min-height: 48px; align-content: center; font-size: .68rem; color: var(--muted); border-radius: 10px; }
 .tab svg { width: 24px; height: 24px; }
 .tab[aria-current="page"] { color: var(--gold); }
+/* ── Animações (decisão 59): só opacity/transform (compositor da GPU), curtas; nenhuma com menos movimento pedido. */
+/* Ecrã de arranque: no HTML, visível antes do JavaScript; a barra segue o carregamento real (app.js define --p). */
+#arranque { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; align-content: center; gap: 28px; background: var(--bg);
+  transition: opacity .28s ease, visibility .28s; animation: arranque-recurso .3s 8s forwards; }
+#arranque svg { width: 46px; height: 64px; color: var(--gold); animation: arranque-cruz .5s ease-out both; }
+#arranque .barra { width: 132px; height: 2px; border-radius: 2px; background: var(--line); overflow: hidden; }
+#arranque .barra i { display: block; height: 100%; background: var(--gold); transform-origin: left; transform: scaleX(var(--p, .08));
+  transition: transform .22s ease-out; animation: arranque-barra .7s ease-out both; }
+#arranque.js .barra i { animation: none; }
+#arranque.fim { opacity: 0; visibility: hidden; }
+@keyframes arranque-cruz { from { opacity: 0; transform: scale(.96); } }
+@keyframes arranque-barra { from { transform: scaleX(.02); } to { transform: scaleX(.35); } }
+@keyframes arranque-recurso { to { opacity: 0; visibility: hidden; } }   /* se o JavaScript falhar, o ecrã não fica preso */
+/* Mudança de ecrã: fade-out do antigo e fade-in do novo (View Transitions nativas); barra de cima e separadores fixos. */
+#main { view-transition-name: conteudo; }
+::view-transition-old(root), ::view-transition-new(root) { animation: none; }
+::view-transition-old(conteudo) { animation: .14s ease-in both vt-sai; }
+::view-transition-new(conteudo) { animation: .2s ease-out both vt-entra; }
+@keyframes vt-sai { to { opacity: 0; } }
+@keyframes vt-entra { from { opacity: 0; transform: translateY(6px); } }
+.screen.entra { animation: vt-entra .2s ease-out both; }   /* browsers sem View Transitions: só o fade-in */
+.nota[role="status"] { animation: vt-entra .2s ease-out both; }
+/* Resposta ao toque */
+.tab svg, .icon-btn svg { transition: transform .12s ease-out; }
+.tab:active svg, .icon-btn:active svg { transform: scale(.9); }
+.item, .seg button, .link, .dia, .icon-btn { transition: background-color .15s ease, color .15s ease, border-color .15s ease; }
 @media (prefers-reduced-motion: no-preference) { #main { scroll-behavior: smooth; } }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after, ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) { animation: none !important; transition: none !important; }
+}
 </style>
 </head>
 <body>
@@ -165,6 +194,7 @@ select { font: inherit; }
     <symbol id="i-seguinte" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
   </defs>
 </svg>
+<div id="arranque" aria-hidden="true"><svg><use href="#cruz"/></svg><div class="barra"><i></i></div></div>
 <div id="app">
   <header id="top">
     <button class="icon-btn" id="btn-esq" type="button"></button>

@@ -19,6 +19,22 @@ const ESCALAS = [['pequeno', 0.9], ['normal', 1], ['grande', 1.15], ['muitoGrand
 const VISTAS = ['hoje', 'calendario', 'oracoes', 'biblia', 'conhecer'];
 const $ = id => document.getElementById(id);
 
+// ── Animações (decisão 59): ecrã de arranque com progresso real e transições entre ecrãs.
+const menosMovimento = matchMedia('(prefers-reduced-motion: reduce)');
+function progresso(p) {
+  const a = $('arranque');
+  if (!a) return;
+  a.classList.add('js'); a.style.setProperty('--p', p);
+  if (p >= 1) { a.classList.add('fim'); setTimeout(() => a.remove(), menosMovimento.matches ? 0 : 320); }
+}
+progresso(.45);
+/** Troca de ecrã com fade (View Transitions nativas; sem suporte: só fade-in). Resolve quando o novo ecrã está no DOM. */
+function transicao(fn) {
+  if (menosMovimento.matches || document.visibilityState !== 'visible') { fn(); return Promise.resolve(); }
+  if (!document.startViewTransition) { fn(); $('main').firstElementChild?.classList.add('entra'); return Promise.resolve(); }
+  return document.startViewTransition(fn).updateCallbackDone.catch(() => {});
+}
+
 // ── Preferências (só conveniência local; a app funciona sem elas)
 function ler(k) { try { return localStorage.getItem('oh.' + k); } catch { return null; } }
 function gravar(k, v) { try { localStorage.setItem('oh.' + k, v); } catch { /* armazenamento indisponível: ignora-se */ } }
@@ -232,7 +248,7 @@ async function abrirOracao(id) {
   const [dados, conv] = await Promise.all([import(`./dados/gerado/oracoes/${id}-${lingua}.json`, { with: { type: 'json' } }), import('./engine/eslavo.js')]);
   if (pedido !== pedidoOracao || lingua !== st.lingua) return;   // entretanto abriu-se outra oração ou mudou a língua
   st.oracao = { id, dados: dados.default, conv };
-  render(); $('main').scrollTop = 0;
+  await transicao(() => { render(); $('main').scrollTop = 0; });
   // O botão tocado desapareceu: o foco passa ao título da oração (leitores de ecrã anunciam o novo ecrã).
   if (!st.definicoes) $('main').querySelector('h1').focus({ preventScroll: true });
 }
@@ -338,7 +354,9 @@ function guardarLingua(l) {
 for (const [i, l] of [...new Set([st.lingua, 'pt', ...LINGUAS])].entries()) {
   try { await mudarLingua(l); break; } catch (e) { if (i === LINGUAS.length - 1) throw e; }
 }
+progresso(.85);
 render();
+requestAnimationFrame(() => progresso(1));
 
 // ── Eventos (um ouvinte por região)
 $('main').addEventListener('click', async e => {
@@ -370,8 +388,8 @@ $('main').addEventListener('click', async e => {
   else return;
   // O ecrã é reconstruído: o foco do teclado volta ao botão equivalente (ou ao conteúdo, se o botão desapareceu).
   const comFoco = document.activeElement === b;
-  render();
-  if (a === 'abrir' || a === 'dia-1' || a === 'dia+1' || a === 'hoje') $('main').scrollTop = 0;
+  const fazer = () => { render(); if (a === 'abrir' || a === 'dia-1' || a === 'dia+1' || a === 'hoje') $('main').scrollTop = 0; };
+  if (['abrir', 'dia-1', 'dia+1', 'hoje', 'mes-1', 'mes+1'].includes(a)) await transicao(fazer); else fazer();
   if (comFoco) {
     const sel = `[data-acao="${a}"]` + (b.dataset.valor ? `[data-valor="${b.dataset.valor}"]` : '');
     const alvo = a === 'abrir' || a === 'hoje' ? null : $('main').querySelector(sel);
@@ -383,15 +401,15 @@ $('tabs').addEventListener('click', e => {
   if (!b) return;
   if (b.dataset.vista === 'hoje' && st.vista === 'hoje' && !st.definicoes) st.jdn = jdnHoje();
   st.vista = b.dataset.vista; st.definicoes = false; st.outraCamada = false; st.oracao = null; pedidoOracao++;
-  render(); $('main').scrollTop = 0;
+  transicao(() => { render(); $('main').scrollTop = 0; });
 });
 // Definições abertas a meio de uma oração longa: ao voltar ao mesmo ecrã, retoma-se a posição de leitura.
 let antesDefinicoes = null;
 $('btn-dir').addEventListener('click', () => {
   antesDefinicoes = { vista: st.vista, oracao: st.oracao, y: $('main').scrollTop };
-  st.definicoes = true; render(); $('main').scrollTop = 0;
+  st.definicoes = true; transicao(() => { render(); $('main').scrollTop = 0; });
 });
-$('btn-esq').addEventListener('click', () => {
+$('btn-esq').addEventListener('click', async () => {
   // O «Voltar» fica desativado no ecrã de destino: o foco do teclado passa ao elemento equivalente (e não ao <body>).
   let alvo, y = 0;
   if (st.definicoes) {
@@ -400,7 +418,7 @@ $('btn-esq').addEventListener('click', () => {
     if (a && a.vista === st.vista && a.oracao === st.oracao) y = a.y;
   } else if (st.oracao) { alvo = st.oracao.id; st.oracao = null; pedidoOracao++; }
   else return;
-  render(); $('main').scrollTo({ top: y, behavior: 'instant' });   // sem a animação de scroll-behavior: smooth
+  await transicao(() => { render(); $('main').scrollTo({ top: y, behavior: 'instant' }); });   // sem scroll-behavior: smooth
   const el = alvo === 'btn-dir' ? $('btn-dir') : $('main').querySelector(`[data-acao="oracao"][data-id="${alvo}"]`);
   (el || $('main')).focus({ preventScroll: true });
 });
