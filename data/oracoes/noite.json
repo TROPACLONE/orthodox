@@ -1,0 +1,2481 @@
+{
+ "id": "noite",
+ "titulo": {
+  "cu": "Моли́твы на сонъ гряду́щимъ",
+  "pt": "Orações da noite (antes de dormir)",
+  "ru": "Молитвы на сон грядущим",
+  "uk": "Молитви на сон грядущий",
+  "en": "Prayers before Sleep"
+ },
+ "fontes": [
+  {
+   "chave": "MS1900",
+   "descricao": "Молитвословъ, 10-е изд., Москва, Синодальная типографія, 1900 (escrita civil pré-reforma, sem acentos)",
+   "url": "https://archive.org/details/molitvoslov00andr",
+   "notas": "Páginas impressas. Orações da noite p. 35–50; confissão quotidiana p. 28–29. Edição abreviada (sem as orações 4, 6, 8, 9 nem a de S. João Damasceno)."
+  },
+  {
+   "chave": "Z1912",
+   "descricao": "Н. Нахимовъ [Н. Ч. Зайончковскій], Молитвы и пѣснопѣнія православнаго молитвослова (для мірянъ) съ переводомъ на русскій языкъ, С.-Петербургъ, Синодальная типографія, 1912",
+   "url": "https://archive.org/details/molitvyipesnopenijapravoslavnogomolitvos65",
+   "notas": "Eslavo em tipo eslavo com acentos (fonte dos acentos) + tradução russa (autor † 1920, domínio público). Orações da noite p. 13–21; Cânone Pascal p. 107–115."
+  },
+  {
+   "chave": "K1817",
+   "descricao": "Канонникъ, Москва, Синодальная типографія, декабрь 1817 (тип. eslavo, com acentos)",
+   "url": "https://viewer.rsl.ru/rsl01015049339",
+   "notas": "Biblioteca Estatal Russa. Citado por n.º de imagem do visualizador (img.). «Молитвы на сонъ грядущымъ» img. 164–191 (10 orações numeradas, sem a de S. Pedro Estudita)."
+  },
+  {
+   "chave": "H1906",
+   "descricao": "I. F. Hapgood, Service Book of the Holy Orthodox-Catholic Apostolic (Greco-Russian) Church, Boston, 1906",
+   "url": "https://archive.org/details/cu31924029363128",
+   "notas": "Domínio público. Grand Compline p. 147–163; Hours at Easter p. 237–238; Canon de Páscoa p. 232. Adaptado: «Theotokos» por «Birth-giver of God», pronomes divinos com maiúscula."
+  }
+ ],
+ "estado": {
+  "pt": "nao_revista",
+  "ru": "dp_adaptada",
+  "uk": "nao_revista",
+  "en": "dp_adaptada"
+ },
+ "blocos": [
+  {
+   "id": "noite-001",
+   "tipo": "titulo",
+   "cu": "Часы́ святы́я Па́схи",
+   "pt": "Horas Pascais",
+   "ru": "Часы Святой Пасхи",
+   "uk": "Пасхальні години",
+   "en": "The Paschal Hours",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "H1906 p. 237",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Glossário: «Hora Pascal» (doc. 04 §7.4). [Texto idêntico a manha-p01.]"
+  },
+  {
+   "id": "noite-002",
+   "tipo": "rubrica",
+   "cu": "Во всю Свѣ́тлую седми́цу, отъ Па́схи до суббо́ты у́тра включи́тельно, вмѣ́сто моли́твъ утре́ннихъ и вече́рнихъ чита́ются Часы́ Па́схи:",
+   "pt": "Durante toda a Semana Luminosa, do domingo de Páscoa até à manhã de sábado inclusive, em lugar das orações da manhã e da noite, rezam-se as Horas Pascais:",
+   "ru": "Всю Светлую седмицу, от Пасхи до утра субботы включительно, вместо утренних и вечерних молитв читаются Часы Пасхи:",
+   "uk": "Усю Світлу седмицю, від Пасхи до ранку суботи включно, замість ранішніх і вечірніх молитов читаються Пасхальні години:",
+   "en": "Throughout Bright Week, from Pascha until Saturday morning inclusive, the Paschal Hours are read instead of the morning and evening prayers:",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "H1906 p. 237 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Rubrica própria (doc. 03 §1.4 [3][4][64]). Hapgood p. 237: «During Easter week, until Saturday, the Hours are read in the following order». Ordem segundo Hapgood pp. 237–238 (= Pentecostário): tropário «Во гробѣ плотски», depois «Слава: Яко живоносецъ», «И нынѣ: Освященное» — ⚠ doc. 03 §1.4 resume de modo diferente («Слава: Во гробе плотски…»); seguiu-se o livro. [Texto idêntico a manha-p02.]"
+  },
+  {
+   "id": "noite-003",
+   "tipo": "oracao",
+   "cu": "Моли́твами святы́хъ оте́цъ на́шихъ, Го́споди Іису́се Христе́ Бо́же нашъ, поми́луй насъ. Ами́нь.",
+   "pt": "Pelas orações dos nossos santos Padres, Senhor Jesus Cristo, nosso Deus, tem piedade de nós. Ámen.",
+   "ru": "По молитвам святых отцов наших, Господи Иисусе Христе, Боже наш, помилуй нас. Аминь.",
+   "uk": "Молитвами святих отців наших, Господи Іісусе Христе, Боже наш, помилуй нас. Амінь.",
+   "en": "Through the prayers of our holy fathers, O Lord Jesus Christ our God, have mercy upon us. Amen.",
+   "fonte": {
+    "cu": "MS1900 p. 461",
+    "ru": "propria",
+    "en": "H1906 p. 238",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "MS1900 p. 461 (início do Ofício para a Comunhão). Acentuação segundo a prática sinodal (MS1900 não acentua; Z1912 não traz esta fórmula) ⚠. Na igreja o sacerdote começa «Благословенъ Богъ нашъ…»; sem sacerdote diz-se esta fórmula. [Texto idêntico a manha-p03.]"
+  },
+  {
+   "id": "noite-004",
+   "tipo": "oracao",
+   "cu": "Христо́съ воскре́се изъ ме́ртвыхъ, сме́ртію смерть попра́въ и су́щимъ во гробѣ́хъ живо́тъ дарова́въ.",
+   "pt": "Cristo ressuscitou dos mortos, pela morte calcou a morte e aos que estavam nos sepulcros deu a vida.",
+   "ru": "Христос воскрес из мертвых, смертью смерть поправ и сущим во гробах жизнь даровав.",
+   "uk": "Христос воскрес із мертвих, смертю смерть подолав і тим, що в гробах, життя дарував.",
+   "en": "Christ is risen from the dead, trampling down death by death, and upon those in the tombs bestowing life.",
+   "fonte": {
+    "cu": "Z1912 p. 106",
+    "ru": "propria",
+    "en": "H1906 p. 226",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "RU: Z1912 não traduz o tropário (p. 106); tradução própria, conservando «смертью смерть поправ», fórmula corrente. [Texto idêntico a manha-p04.]"
+  },
+  {
+   "id": "noite-005",
+   "tipo": "oracao",
+   "cu": "Воскресе́ніе Христо́во ви́дѣвше, поклони́мся Свято́му Го́споду Іису́су, еди́ному безгрѣ́шному. Кре́сту Твоему́ покланя́емся, Христе́, и свято́е воскресе́ніе Твое́ пое́мъ и сла́вимъ; Ты бо еси́ Богъ нашъ, ра́звѣ Тебе́ ино́го не зна́емъ, и́мя Твое́ имену́емъ. Пріиди́те, вси вѣ́рніи, поклони́мся свято́му Христо́ву воскресе́нію: се бо пріи́де Кресто́мъ ра́дость всему́ мі́ру. Всегда́ благословя́ще Го́спода, пое́мъ воскресе́ніе Его́; распя́тіе бо претерпѣ́въ, сме́ртію смерть разруши́.",
+   "pt": "Tendo contemplado a ressurreição de Cristo, adoremos o santo Senhor Jesus, o único sem pecado. Adoramos a Tua Cruz, ó Cristo, e cantamos e glorificamos a Tua santa ressurreição; porque Tu és o nosso Deus, fora de Ti não conhecemos outro, invocamos o Teu nome. Vinde, fiéis todos, adoremos a santa ressurreição de Cristo: porque eis que, pela Cruz, veio a alegria ao mundo inteiro. Bendizendo sempre o Senhor, cantamos a Sua ressurreição; porque, tendo suportado a crucifixão, pela morte destruiu a morte.",
+   "ru": "Духовно созерцав Христово воскресение, поклонимся Святому Господу Иисусу, единому безгрешному. Кресту Твоему мы поклоняемся, Христе, и святое воскресение Твое воспеваем и славим, ибо Ты — Бог наш, кроме Тебя иного не знаем, имя Твое прославляем. Приходите, все верные, поклонимся святому Христову воскресению, ибо вот, через крест пришла радость всему миру. Всегда благословляя Господа, мы воспеваем Его воскресение, ибо, претерпев распятие, Он Своею смертью уничтожил смерть.",
+   "uk": "Воскресіння Христове побачивши, поклонімося Святому Господу Іісусу, єдиному безгрішному. Хресту Твоєму поклоняємося, Христе, і святе воскресіння Твоє оспівуємо і славимо; бо Ти Бог наш, окрім Тебе іншого не знаємо, ім'я Твоє називаємо. Прийдіть, усі вірні, поклонімося святому Христовому воскресінню, бо ось через Хрест прийшла радість усьому світові. Завжди благословляючи Господа, оспівуємо воскресіння Його, бо, розп'яття перетерпівши, смертю смерть зруйнував.",
+   "en": "Having beheld the Resurrection of Christ, let us worship the holy Lord Jesus, the only Sinless One. We venerate Thy Cross, O Christ, and Thy holy Resurrection we praise and glorify; for Thou art our God, and we know none other beside Thee; we call upon Thy Name. O come, all ye faithful, let us worship Christ's holy Resurrection: for behold, through the Cross joy hath come into all the world. Ever blessing the Lord, we praise His Resurrection; for, having endured the Cross, He hath destroyed death by death.",
+   "fonte": {
+    "cu": "Z1912 pp. 47–48",
+    "ru": "Z1912 pp. 47–48",
+    "en": "H1906 p. 237",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Também MS1900 pp. 71–72. «Три'жды» nas Horas Pascais (Hapgood p. 237 «Thrice»). EN: Hapgood ligeiramente adaptado («In that we have beheld» → «Having beheld»; «adore» → «venerate/worship»). [Texto idêntico a manha-p05.]"
+  },
+  {
+   "id": "noite-006",
+   "tipo": "oracao",
+   "cu": "Ипакои́, гласъ 4: Предвари́вшія у́тро, я́же о Марі́и, и обрѣ́тшія ка́мень отвале́нъ отъ гро́ба, слы́шаху отъ А́нгела: во свѣ́тѣ присносу́щнѣмъ Су́щаго съ ме́ртвыми что и́щете я́ко человѣ́ка? Ви́дите гро́бныя пелены́, тецы́те и мі́ру проповѣ́дите, я́ко воста́ Госпо́дь, умертви́вый смерть, я́ко есть Сынъ Бо́га, спаса́ющаго родъ человѣ́ческій.",
+   "pt": "Hipacoé, tom 4: As que estavam com Maria, tendo chegado antes da aurora e encontrado a pedra removida do sepulcro, ouviram do Anjo: Porque buscais entre os mortos, como a um homem, Aquele que habita na luz eterna? Vede as faixas do sepulcro; correi e anunciai ao mundo que o Senhor ressuscitou, tendo dado morte à morte, porque é o Filho de Deus que salva o género humano.",
+   "ru": "Ипакои, глас 4: Жены, пришедшие с Марией до рассвета и нашедшие камень отваленным от гроба, услыхали от Ангела: «Что вы ищете, как человека, среди мертвых Того, Кто живет в свете вечном? Посмотрите на погребальные пелены и спешите возвестить миру, что восстал Господь, умертвив смерть, ибо Он — Сын Бога, спасающего род человеческий».",
+   "uk": "Іпакой, глас 4: Ті, що з Марією, випередивши ранок і знайшовши камінь відваленим від гробу, почули від Ангела: Того, Хто в світлі вічному перебуває, чого шукаєте з мертвими, як людину? Подивіться на гробні пелени, біжіть і світові проповідуйте, що воскрес Господь, умертвивши смерть, бо Він є Син Бога, що спасає рід людський.",
+   "en": "Hypakoe, Tone 4: When the women with Mary came before the dawn and found the stone rolled away from the tomb, they heard from the Angel: Why seek ye among the dead, as though He were mortal, Him who abideth in everlasting light? Behold the grave-clothes; go quickly and proclaim to the world that the Lord is risen and hath slain death; for He is the Son of God who saveth the race of men.",
+   "fonte": {
+    "cu": "Z1912 pp. 107–108",
+    "ru": "Z1912 pp. 107–108",
+    "en": "H1906 p. 237",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Também MS1900 pp. 171–172. PT: «Hipacoé» (ὑπακοή) ⚠ forma PT sem atestação (B4). EN: Hapgood adaptado («When they who came with the Marys came, forestalling the dawn» → «When the women with Mary came before the dawn»). [Texto idêntico a manha-p06.]"
+  },
+  {
+   "id": "noite-007",
+   "tipo": "oracao",
+   "cu": "Конда́къ, гласъ 8: А́ще и во гробъ снизше́лъ еси́, Безсме́ртне, но а́дову разруши́лъ еси́ си́лу, и воскре́слъ еси́ я́ко побѣди́тель, Христе́ Бо́же, жена́мъ мѵроно́сицамъ вѣща́вый: ра́дуйтеся! и Твои́мъ апо́столомъ миръ да́руяй, па́дшимъ пода́яй воскресе́ніе.",
+   "pt": "Condácio, tom 8: Embora tenhas descido ao sepulcro, ó Imortal, destruíste o poder do inferno e ressuscitaste como vencedor, ó Cristo Deus, dizendo às mulheres miróforas: Alegrai-vos! e dando a paz aos Teus apóstolos, Tu que concedes a ressurreição aos caídos.",
+   "ru": "Кондак, глас 8: Хотя Ты, Бессмертный, и сошел во гроб, но уничтожил силу ада и воскрес победителем, Христе Боже, сказав женам-мироносицам: «Радуйтесь!» — и Апостолам Твоим даровал мир, падшим даешь воскресение.",
+   "uk": "Кондак, глас 8: Хоч і в гріб зійшов Ти, Безсмертний, але адову зруйнував силу і воскрес як переможець, Христе Боже, жінкам-мироносицям звістивши: радуйтеся! і Твоїм апостолам мир даруючи, Ти, що падшим подаєш воскресіння.",
+   "en": "Kontakion, Tone 8: Though Thou didst descend into the tomb, O Immortal One, yet didst Thou destroy the power of hell, and didst arise as victor, O Christ God, saying to the myrrh-bearing women: Rejoice! and giving peace unto Thine Apostles, O Thou who grantest resurrection to the fallen.",
+   "fonte": {
+    "cu": "Z1912 pp. 109–110",
+    "ru": "Z1912 pp. 109–110",
+    "en": "H1906 p. 230",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "EN: Hapgood p. 230 («giving peace»; p. 237 tem «giving grace», que não corresponde a «миръ»); «annihilate» → «destroy», «conqueror» → «victor». [Texto idêntico a manha-p07.]"
+  },
+  {
+   "id": "noite-008",
+   "tipo": "oracao",
+   "cu": "Во гро́бѣ пло́тски, во а́дѣ же съ душе́ю, я́ко Богъ, въ раи́ же съ разбо́йникомъ, и на престо́лѣ былъ еси́, Христе́, со Отце́мъ и Ду́хомъ, вся исполня́яй, неопи́санный.",
+   "pt": "No sepulcro com o corpo, no inferno com a alma, como Deus, no paraíso com o ladrão, e no trono estavas Tu, ó Cristo, com o Pai e o Espírito, enchendo todas as coisas, Tu, o ilimitado.",
+   "ru": "Во гробе плотью, во аде же с душою, как Бог, в раю же с разбойником, и на престоле был Ты, Христе, со Отцом и Духом, все наполняя, неописуемый.",
+   "uk": "У гробі тілесно, в аді ж із душею, як Бог, у раю ж із розбійником, і на престолі був Ти, Христе, з Отцем і Духом, все наповнюючи, неописаний.",
+   "en": "In the tomb with the body, in hell with the soul as God, in paradise with the thief, and on the throne with the Father and the Spirit wast Thou, O Christ, filling all things, Thyself uncircumscribed.",
+   "fonte": {
+    "cu": "⚠ sem edição PD localizada (redação sinodal corrente)",
+    "ru": "propria",
+    "en": "H1906 p. 237",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "⚠ Tropário das Horas Pascais ausente de Z1912/MS1900; eslavo segundo a redação sinodal do Pentecostário, acentuação segundo a prática corrente — conferir com um Часословъ/Цвѣтная Тріодь sinodal pré-1917. EN: Hapgood «in that Thou art infinite» → «Thyself uncircumscribed» (неопи́санный, ἀπερίγραπτος). [Texto idêntico a manha-p08.]"
+  },
+  {
+   "id": "noite-009",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху. Я́ко живоно́сецъ, я́ко ра́я краснѣ́йшій, вои́стинну и вся́каго черто́га ца́рскаго показа́ся свѣтлѣ́йшій, Христе́, гробъ Твой, исто́чникъ на́шего воскресе́нія.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo. Como portador de vida, como mais belo que o paraíso, verdadeiramente mais resplandecente que qualquer câmara real se mostrou, ó Cristo, o Teu sepulcro, fonte da nossa ressurreição.",
+   "ru": "Слава Отцу и Сыну и Святому Духу. Как живоносный, как прекраснейший рая, поистине и всякого царского чертога светлейшим явился, Христе, гроб Твой, источник нашего воскресения.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові. Як життєносний, як прекрасніший від раю, воістину і від усякого чертогу царського світлішим явився, Христе, гріб Твій, джерело нашого воскресіння.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit. As the bearer of life, as fairer than paradise, and truly more radiant than any royal chamber, was Thy tomb shown forth, O Christ, the fountain of our resurrection.",
+   "fonte": {
+    "cu": "⚠ sem edição PD localizada (redação sinodal corrente)",
+    "ru": "propria",
+    "en": "H1906 p. 237",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "⚠ Idem. «краснѣ́йшій» = ὡραιότερος. [Texto idêntico a manha-p09.]"
+  },
+  {
+   "id": "noite-010",
+   "tipo": "oracao",
+   "cu": "И ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь. Вы́шняго освяще́нное Боже́ственное селе́ніе, ра́дуйся: Тобо́ю бо даде́ся ра́дость, Богоро́дице, зову́щимъ: благослове́нна Ты въ жена́хъ еси́, Всенепоро́чная Влады́чице.",
+   "pt": "Agora e sempre e pelos séculos dos séculos. Ámen. Alegra-Te, santificada e divina morada do Altíssimo: porque por Ti foi dada a alegria, ó Mãe de Deus, aos que clamam: Bendita és Tu entre as mulheres, Soberana toda imaculada.",
+   "ru": "И ныне, и всегда, и во веки веков. Аминь. Освященное Божественное жилище Всевышнего, радуйся: ибо через Тебя дана радость, Богородица, взывающим: благословенна Ты между женами, Всенепорочная Владычица.",
+   "uk": "І нині, і повсякчас, і на віки віків. Амінь. Всевишнього освячена Божественна оселе, радуйся: бо Тобою дана радість, Богородице, тим, що взивають: благословенна Ти між жінками, Всенепорочна Владичице.",
+   "en": "Now and ever, and unto ages of ages. Amen. Rejoice, O sanctified and divine tabernacle of the Most High: for through thee, O Theotokos, joy is given to them that cry: Blessed art thou among women, O all-immaculate Lady.",
+   "fonte": {
+    "cu": "⚠ sem edição PD localizada (redação sinodal corrente)",
+    "ru": "propria",
+    "en": "H1906 p. 237 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "⚠ Idem. EN: Hapgood «Hail, O thou hallowed, divine abode… O Birth-giver of God, was joy given» adaptado. [Texto idêntico a manha-p10.]"
+  },
+  {
+   "id": "noite-011",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 40,
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Quando as Horas Pascais se usam como regra da manhã, podem acrescentar-se aqui as orações pelos vivos e pelos defuntos (doc. 03 §1.4). [Texto idêntico a manha-p11.]"
+  },
+  {
+   "id": "noite-012",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "[Texto idêntico a manha-p12.]"
+  },
+  {
+   "id": "noite-013",
+   "tipo": "oracao",
+   "cu": "Честнѣ́йшую Херуви́мъ и сла́внѣйшую безъ сравне́нія Серафи́мъ, безъ истлѣ́нія Бо́га Сло́ва ро́ждшую, су́щую Богоро́дицу Тя велича́емъ.",
+   "pt": "Mais venerável que os Querubins e incomparavelmente mais gloriosa que os Serafins, que sem corrupção deste à luz Deus Verbo, verdadeira Mãe de Deus, nós Te engrandecemos.",
+   "ru": "Мы величаем Тебя, как истинную Богородицу, родившую без болезни Бога-Слово, достойную большей почести, чем Херувимы, и несравненно славнейшую, нежели Серафимы.",
+   "uk": "Чеснішу від Херувимів і незрівнянно славнішу від Серафимів, що без зотління Бога Слово породила, сущу Богородицю, Тебе величаємо.",
+   "en": "More honourable than the Cherubim, and beyond compare more glorious than the Seraphim, thou who without corruption gavest birth to God the Word, true Theotokos, we magnify thee.",
+   "fonte": {
+    "cu": "Z1912 p. 13",
+    "ru": "Z1912 p. 13",
+    "en": "H1906 p. 63",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "RU: Z1912 traduz «без истления» por «без болезни» (sem dor), interpretação patrística corrente; mantido. ⚠ O grego ἀδιαφθόρως é literalmente «sem corrupção» (PT/EN/UK). EN: Hapgood p. 238 «without defilement» → «without corruption» (como H1906 p. 63). [Texto idêntico a manha-p13.]"
+  },
+  {
+   "id": "noite-014",
+   "tipo": "oracao",
+   "cu": "Моли́твами святы́хъ оте́цъ на́шихъ, Го́споди Іису́се Христе́ Бо́же нашъ, поми́луй насъ. Ами́нь.",
+   "pt": "Pelas orações dos nossos santos Padres, Senhor Jesus Cristo, nosso Deus, tem piedade de nós. Ámen.",
+   "ru": "По молитвам святых отцов наших, Господи Иисусе Христе, Боже наш, помилуй нас. Аминь.",
+   "uk": "Молитвами святих отців наших, Господи Іісусе Христе, Боже наш, помилуй нас. Амінь.",
+   "en": "Through the prayers of our holy fathers, O Lord Jesus Christ our God, have mercy upon us. Amen.",
+   "fonte": {
+    "cu": "MS1900 p. 461",
+    "ru": "propria",
+    "en": "H1906 p. 238",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Na igreja precede «Именемъ Господнимъ благослови, отче» (leitor) e o sacerdote diz esta fórmula (Hapgood p. 238). [Texto idêntico a manha-p14.]"
+  },
+  {
+   "id": "noite-015",
+   "tipo": "oracao",
+   "cu": "Христо́съ воскре́се изъ ме́ртвыхъ, сме́ртію смерть попра́въ и су́щимъ во гробѣ́хъ живо́тъ дарова́въ.",
+   "pt": "Cristo ressuscitou dos mortos, pela morte calcou a morte e aos que estavam nos sepulcros deu a vida.",
+   "ru": "Христос воскрес из мертвых, смертью смерть поправ и сущим во гробах жизнь даровав.",
+   "uk": "Христос воскрес із мертвих, смертю смерть подолав і тим, що в гробах, життя дарував.",
+   "en": "Christ is risen from the dead, trampling down death by death, and upon those in the tombs bestowing life.",
+   "fonte": {
+    "cu": "Z1912 p. 106",
+    "ru": "propria",
+    "en": "H1906 p. 226",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "[Texto idêntico a manha-p15.]"
+  },
+  {
+   "id": "noite-016",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "[Texto idêntico a manha-p16.]"
+  },
+  {
+   "id": "noite-017",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Segue-se, na igreja, a despedida pascal do sacerdote («Воскресый изъ мертвыхъ…», Hapgood p. 238), que o leigo não diz. [Texto idêntico a manha-p17.]"
+  },
+  {
+   "id": "noite-018",
+   "tipo": "oracao",
+   "cu": "Во и́мя Отца́ и Сы́на и Свята́го Ду́ха. Ами́нь.",
+   "pt": "Em nome do Pai e do Filho e do Espírito Santo. Ámen.",
+   "ru": "Во имя Отца и Сына и Святого Духа. Аминь.",
+   "uk": "В ім'я Отця, і Сина, і Святого Духа. Амінь.",
+   "en": "In the Name of the Father, and of the Son, and of the Holy Spirit. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa",
+     "ascensao_pentecostes"
+    ]
+   },
+   "nota": "De Ascensão ao Pentecostes omite-se este bloco e os seguintes até «Царю Небесный» inclusive; começa-se pelo Triságio (doc. 03 §1.4). [Texto idêntico a manha-03.]"
+  },
+  {
+   "id": "noite-019",
+   "tipo": "oracao",
+   "cu": "Моли́твами святы́хъ оте́цъ на́шихъ, Го́споди Іису́се Христе́ Бо́же нашъ, поми́луй насъ. Ами́нь.",
+   "pt": "Pelas orações dos nossos santos Padres, Senhor Jesus Cristo, nosso Deus, tem piedade de nós. Ámen.",
+   "ru": "По молитвам святых отцов наших, Господи Иисусе Христе, Боже наш, помилуй нас. Аминь.",
+   "uk": "Молитвами святих отців наших, Господи Іісусе Христе, Боже наш, помилуй нас. Амінь.",
+   "en": "Through the prayers of our holy fathers, O Lord Jesus Christ our God, have mercy upon us. Amen.",
+   "fonte": {
+    "cu": "Канонникъ 1817 (RSL rsl01015049339, img. 164); MS1900 p. 461",
+    "ru": "propria",
+    "en": "H1906 p. 238",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa",
+     "ascensao_pentecostes"
+    ]
+   },
+   "nota": "Forma breve, a das edições atuais da IOR e do Канонникъ de 1817 (domínio público), segundo a decisão 2. As edições de 1900/1912 trazem aqui «Господи Іисусе Христе, Сыне Божій, молитвъ ради Пречистыя Твоея Матере…». Texto idêntico a noite-003."
+  },
+  {
+   "id": "noite-020",
+   "tipo": "oracao",
+   "cu": "Сла́ва Тебѣ́, Бо́же нашъ, сла́ва Тебѣ́.",
+   "pt": "Glória a Ti, ó nosso Deus, glória a Ti.",
+   "ru": "Слава Тебе, Боже наш, слава Тебе.",
+   "uk": "Слава Тобі, Боже наш, слава Тобі.",
+   "en": "Glory to Thee, our God, glory to Thee.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa",
+     "ascensao_pentecostes"
+    ]
+   },
+   "nota": "[Texto idêntico a manha-10.]"
+  },
+  {
+   "id": "noite-021",
+   "tipo": "oracao",
+   "cu": "Царю́ Небе́сный, Утѣ́шителю, Ду́ше и́стины, И́же вездѣ́ сый и вся исполня́яй, Сокро́вище благи́хъ и жи́зни Пода́телю, пріиди́ и всели́ся въ ны, и очи́сти ны отъ вся́кія скве́рны, и спаси́, Бла́же, ду́ши на́ша.",
+   "pt": "Rei Celeste, Consolador, Espírito da Verdade, que estás em toda a parte e tudo enches, Tesouro dos bens e Dador da vida, vem e habita em nós, purifica-nos de toda a mancha e salva, ó Bom, as nossas almas.",
+   "ru": "Царь Небесный, Утешитель, Дух истины, вездесущий и весь мир наполняющий, Источник благ и Податель жизни, приди и поселись в нас; очисти нас от всякой нечистоты и спаси, Благий, души наши.",
+   "uk": "Царю Небесний, Утішителю, Душе істини, що всюди єси і все наповнюєш, Скарбе благ і Подателю життя, прийди і вселися в нас, і очисти нас від усякої скверни, і спаси, Благий, душі наші.",
+   "en": "O Heavenly King, the Comforter, the Spirit of Truth, who art in all places and fillest all things, Treasury of good things and Giver of life: come and abide in us, and cleanse us from every stain, and save our souls, O Good One.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "Z1912 p. 1",
+    "en": "H1906 p. 67",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa",
+     "pascoa_ascensao",
+     "ascensao_pentecostes"
+    ]
+   },
+   "nota": "Não se diz de Páscoa a Pentecostes (doc. 03 §1.4). RU: Z1912 traduz «Сокровище благихъ» por «Источник благ»; mantido. — Diz-se só no período «comum»: de Antipascha à Ascensão é substituído por «Христосъ воскресе» (×3); de Ascensão ao Pentecostes omite-se; na Semana Luminosa dizem-se as Horas Pascais. [Texto idêntico a manha-12.]"
+  },
+  {
+   "id": "noite-022",
+   "tipo": "rubrica",
+   "cu": "Отъ Ѳоми́ной недѣ́ли до Вознесе́нія Госпо́дня, вмѣ́сто «Царю́ Небе́сный», чита́ется три́жды тропа́рь Па́схи:",
+   "pt": "Do Domingo de Tomé até à Ascensão do Senhor, em lugar de «Rei Celeste», diz-se três vezes o tropário da Páscoa:",
+   "ru": "От Фомина воскресенья до Вознесения Господня вместо «Царю Небесный» читается трижды тропарь Пасхи:",
+   "uk": "Від Томиної неділі до Вознесіння Господнього замість «Царю Небесний» читається тричі тропар Пасхи:",
+   "en": "From Thomas Sunday until the Ascension of the Lord, instead of «O Heavenly King», the troparion of Pascha is said three times:",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "Rubrica própria segundo doc. 03 §1.4 (confirmado na 2.ª ronda: só se substitui «Царю Небесный»). [Texto idêntico a manha-13.]"
+  },
+  {
+   "id": "noite-023",
+   "tipo": "oracao",
+   "cu": "Христо́съ воскре́се изъ ме́ртвыхъ, сме́ртію смерть попра́въ и су́щимъ во гробѣ́хъ живо́тъ дарова́въ.",
+   "pt": "Cristo ressuscitou dos mortos, pela morte calcou a morte e aos que estavam nos sepulcros deu a vida.",
+   "ru": "Христос воскрес из мертвых, смертью смерть поправ и сущим во гробах жизнь даровав.",
+   "uk": "Христос воскрес із мертвих, смертю смерть подолав і тим, що в гробах, життя дарував.",
+   "en": "Christ is risen from the dead, trampling down death by death, and upon those in the tombs bestowing life.",
+   "fonte": {
+    "cu": "Z1912 p. 106",
+    "ru": "propria",
+    "en": "H1906 p. 226",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "so": [
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "RU: Z1912 não traduz o tropário (p. 106); tradução própria, conservando «смертью смерть поправ», fórmula corrente. — De Antipascha à véspera da Ascensão, em vez de «Царю Небесный» (doc. 03 §1.4). A noite da quarta-feira da 6.ª semana já pertence à Ascensão (decisão B1). [Texto idêntico a manha-14.]"
+  },
+  {
+   "id": "noite-024",
+   "tipo": "rubrica",
+   "cu": "Отъ Вознесе́нія Госпо́дня до Пятидеся́тницы моли́твы начина́ются со «Святы́й Бо́же»; «Царю́ Небе́сный» и всё, что предше́ствуетъ ему́, опуска́ется.",
+   "pt": "Da Ascensão do Senhor até ao Pentecostes, as orações começam em «Santo Deus»; omite-se «Rei Celeste» e tudo o que o precede.",
+   "ru": "От Вознесения Господня до Пятидесятницы молитвы начинаются со «Святый Боже»; «Царю Небесный» и все, что предшествует ему, опускается.",
+   "uk": "Від Вознесіння Господнього до П'ятидесятниці молитви починаються зі «Святий Боже»; «Царю Небесний» і все, що йому передує, опускається.",
+   "en": "From the Ascension of the Lord until Pentecost, the prayers begin with «Holy God»; «O Heavenly King» and all that precedes it are omitted.",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "ascensao_pentecostes"
+    ]
+   },
+   "nota": "Rubrica própria (sem texto em edição PD consultada), segundo doc. 03 §1.4 [2][16][64]. [Texto idêntico a manha-05.]"
+  },
+  {
+   "id": "noite-025",
+   "tipo": "oracao",
+   "cu": "Святы́й Бо́же, Святы́й Крѣ́пкій, Святы́й Безсме́ртный, поми́луй насъ.",
+   "pt": "Santo Deus, Santo Forte, Santo Imortal, tem piedade de nós.",
+   "ru": "Святый Боже, Святый Крепкий, Святый Бессмертный, помилуй нас.",
+   "uk": "Святий Боже, Святий Кріпкий, Святий Безсмертний, помилуй нас.",
+   "en": "Holy God, Holy Mighty, Holy Immortal One, have mercy upon us.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "«Трижды» (Z1912 p. 1). EN: Hapgood «O Holy God…» sem o vocativo inicial «O». RU: Z1912 não traduz; tradução própria conservando as formas litúrgicas «Святый». — Diz-se três vezes, com o sinal da cruz e inclinação. Hapgood: «Holy Immortal One». [Texto idêntico a manha-15.]"
+  },
+  {
+   "id": "noite-026",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "[Texto idêntico a manha-16.]"
+  },
+  {
+   "id": "noite-027",
+   "tipo": "oracao",
+   "cu": "Пресвята́я Тро́ице, поми́луй насъ; Го́споди, очи́сти грѣхи́ на́ша; Влады́ко, прости́ беззако́нія на́ша; Святы́й, посѣти́ и исцѣли́ не́мощи на́ша, и́мене Твоего́ ра́ди.",
+   "pt": "Santíssima Trindade, tem piedade de nós; Senhor, purifica os nossos pecados; Soberano, perdoa as nossas iniquidades; Santo, visita e cura as nossas enfermidades, por causa do Teu nome.",
+   "ru": "Пресвятая Троица, помилуй нас; Господи, очисти грехи наши; Владыка, прости беззакония наши; Святый, посети и исцели немощи наши ради имени Твоего.",
+   "uk": "Пресвята Трійце, помилуй нас; Господи, очисти гріхи наші; Владико, прости беззаконня наші; Святий, відвідай і зціли немочі наші імені Твого ради.",
+   "en": "O all-holy Trinity, have mercy upon us. O Lord, cleanse our sins. O Master, pardon our transgressions. O Holy One, visit and heal our infirmities, for Thy Name's sake.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "EN: Hapgood «wash away our sins» → «cleanse our sins» (очисти, καθάρισον). RU: Z1912 não traduz; própria. [Texto idêntico a manha-17.]"
+  },
+  {
+   "id": "noite-028",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "[Texto idêntico a manha-18.]"
+  },
+  {
+   "id": "noite-029",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Z1912 p. 2 abrevia «Сла́ва, и ны́нѣ:»; dá-se por extenso. [Texto idêntico a manha-19.]"
+  },
+  {
+   "id": "noite-030",
+   "tipo": "oracao",
+   "cu": "О́тче нашъ, И́же еси́ на небесѣ́хъ! Да святи́тся и́мя Твое́, да пріи́детъ Ца́рствіе Твое́, да бу́детъ во́ля Твоя́, я́ко на небеси́ и на земли́. Хлѣбъ нашъ насу́щный даждь намъ днесь; и оста́ви намъ до́лги на́ша, я́коже и мы оставля́емъ должнико́мъ на́шимъ; и не введи́ насъ во искуше́ніе, но изба́ви насъ отъ лука́ваго.",
+   "pt": "Pai nosso, que estás nos céus, santificado seja o Teu nome; venha o Teu Reino; seja feita a Tua vontade, como no céu, assim na terra. O pão nosso de cada dia dá-nos hoje; e perdoa-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores; e não nos conduzas à tentação, mas livra-nos do maligno.",
+   "ru": "Отец наш Небесный! Да прославляется святость имени Твоего; да настанет Царство Твое; да исполняется воля Твоя так же и на земле, как на небе. Хлеб, необходимый для нашего существования, дай нам сегодня; прости нам вины наши так же, как и мы прощаем виноватым перед нами; и не допусти нас впасть в соблазн, но избавь нас от зла.",
+   "uk": "Отче наш, що єси на небесах! Нехай святиться ім'я Твоє, нехай прийде Царство Твоє, нехай буде воля Твоя, як на небі, так і на землі. Хліб наш насущний дай нам сьогодні; і прости нам борги наші, як і ми прощаємо боржникам нашим; і не введи нас у спокусу, але визволи нас від лукавого.",
+   "en": "Our Father, who art in heaven, hallowed be Thy Name. Thy kingdom come. Thy will be done, as in heaven, so on earth. Give us this day our daily bread. And forgive us our debts, as we forgive our debtors. And lead us not into temptation, but deliver us from the evil one.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "Z1912 p. 2",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Sem a doxologia sacerdotal «Яко Твое есть Царство…», que só o sacerdote diz (Z1912 e MS1900 também a omitem). EN: Hapgood segue o BCP («trespasses», «on earth, as it is in heaven»); adaptado ao eslavo/grego (до́лги = ὀφειλήματα «debts»; «как no céu, assim na terra»). PT: «насущный» (ἐπιούσιος) traduzido «de cada dia», leitura tradicional; «лукаваго» = «do maligno» (τοῦ πονηροῦ). — «насущный» (gr. ἐπιούσιος): «de cada dia» na tradição portuguesa. RU segundo a tradução sinodal (Mt 6,9-13). EN: Hapgood usa «trespasses»; adaptado a «debts» (eslavo «долги»). [Texto idêntico a manha-20.]"
+  },
+  {
+   "id": "noite-031",
+   "tipo": "titulo",
+   "cu": "Тропари́, гласъ 6:",
+   "pt": "Tropários, tom 6:",
+   "ru": "Тропари, глас 6:",
+   "uk": "Тропарі, глас 6:",
+   "en": "Troparia, Tone 6:",
+   "fonte": {
+    "cu": "Z1912 p. 13",
+    "ru": "Z1912 p. 13",
+    "en": "H1906 p. 157",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-032",
+   "tipo": "oracao",
+   "cu": "Поми́луй насъ, Го́споди, поми́луй насъ; вся́каго бо отвѣ́та недоумѣ́юще, сію́ Ти моли́тву я́ко Влады́цѣ грѣ́шніи прино́симъ: поми́луй насъ.",
+   "pt": "Tem piedade de nós, Senhor, tem piedade de nós; pois, sem saber dar qualquer resposta, nós, pecadores, oferecemos-Te esta súplica como a Soberano: tem piedade de nós.",
+   "ru": "Помилуй нас, Господи, помилуй нас! Не находя себе никакого оправдания, мы, грешные, приносим Тебе, как Владыке, эту молитву: помилуй нас!",
+   "uk": "Помилуй нас, Господи, помилуй нас; бо, жодної відповіді не знаходячи, цю молитву Тобі, як Владиці, ми, грішні, приносимо: помилуй нас.",
+   "en": "Have mercy upon us, O Lord, have mercy upon us; for we sinners, void of all defence, offer unto Thee this supplication as unto our Master: have mercy upon us.",
+   "fonte": {
+    "cu": "Z1912 p. 13; MS1900 p. 36; K1817 img. 164",
+    "ru": "Z1912 p. 13",
+    "en": "H1906 p. 157–158 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-033",
+   "tipo": "oracao",
+   "cu": "Сла́ва: Го́споди, поми́луй насъ, на Тя бо упова́хомъ; не прогнѣ́вайся на ны зѣло́, ниже́ помяни́ беззако́ній на́шихъ, но при́зри и ны́нѣ я́ко благоутро́бенъ, и изба́ви ны отъ врагъ на́шихъ; Ты бо еси́ Богъ нашъ, и мы лю́діе Твои́, вси дѣла́ руку́ Твое́ю, и и́мя Твое́ призыва́емъ.",
+   "pt": "Glória…: Senhor, tem piedade de nós, pois em Ti pusemos a nossa esperança; não Te irrites em extremo contra nós, nem Te lembres das nossas iniquidades, mas olha também agora para nós, como compassivo, e livra-nos dos nossos inimigos; pois Tu és o nosso Deus e nós somos o Teu povo, todos obra das Tuas mãos, e invocamos o Teu nome.",
+   "ru": "Слава: Господи, помилуй нас, ибо мы на Тебя уповаем. Не прогневайся на нас сильно и не вспомни беззаконий наших, но призри на нас и ныне, как милосердный, и избавь нас от врагов наших: ведь Ты — Бог наш, и мы — люди Твои, все — дело рук Твоих, и имя Твое призываем.",
+   "uk": "Слава: Господи, помилуй нас, бо на Тебе ми уповаємо; не прогнівайся на нас вельми, не згадуй беззаконь наших, але зглянься й нині, як милосердний, і визволи нас від ворогів наших; бо Ти єси Бог наш, і ми — люди Твої, усі — діло рук Твоїх, і ім'я Твоє призиваємо.",
+   "en": "Glory…: Have mercy upon us, O Lord, for in Thee have we put our trust. Be not exceeding wroth with us, neither call to mind our iniquities; but look down upon us now also, in Thy loving-kindness, and deliver us from our enemies. For Thou art our God, and we are Thy people; we are all the work of Thy hands, and we call upon Thy Name.",
+   "fonte": {
+    "cu": "Z1912 p. 13–14; MS1900 p. 36",
+    "ru": "Z1912 p. 13–14 (adaptado)",
+    "en": "H1906 p. 158 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "«Слава:» abrevia a doxologia «Glória ao Pai…» (sem «e agora»). Hapgood: «Have mercy upon us, O God»; o eslavo diz «Господи»."
+  },
+  {
+   "id": "noite-034",
+   "tipo": "oracao",
+   "cu": "И ны́нѣ: Милосе́рдія две́ри отве́рзи намъ, благослове́нная Богоро́дице, надѣ́ющіися на Тя да не поги́бнемъ, но да изба́вимся Тобо́ю отъ бѣдъ: Ты бо еси́ спасе́ніе ро́да христіа́нскаго.",
+   "pt": "E agora…: Abre-nos as portas da misericórdia, ó bendita Mãe de Deus, para que nós, que em Ti esperamos, não pereçamos, mas por Ti sejamos livres das desgraças: pois Tu és a salvação da raça cristã.",
+   "ru": "И ныне: Открой нам, благословенная Богородица, двери к милосердию Божию, чтобы мы, на Тебя надеющиеся, не погибли, но избавились бы через Тебя от бед: ведь Ты — спасение рода христианского.",
+   "uk": "І нині: Двері милосердя відкрий нам, благословенна Богородице, щоб ми, що надіємося на Тебе, не загинули, але щоб визволилися Тобою від бід: бо Ти — спасіння роду християнського.",
+   "en": "Now and ever…: Open unto us the gate of loving-kindness, O blessed Theotokos; in that we have set our hope on thee, may we not perish, but through thee may we be delivered from adversities: for thou art the salvation of the Christian race.",
+   "fonte": {
+    "cu": "Z1912 p. 14; MS1900 p. 36–37; K1817 img. 164–165",
+    "ru": "Z1912 p. 14 (adaptado)",
+    "en": "H1906 p. 158 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "«И нынѣ:» abrevia «E agora e sempre e pelos séculos dos séculos. Ámen.». RU de Zaionchkovsky acrescenta «Божию» (glosa)."
+  },
+  {
+   "id": "noite-035",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 14; MS1900 p. 37",
+    "ru": "propria",
+    "en": "H1906 p. 157",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 12,
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-036",
+   "tipo": "titulo",
+   "cu": "Моли́тва 1-я, свята́го Мака́рія Вели́каго, къ Бо́гу Отцу́",
+   "pt": "Oração 1.ª, de São Macário, o Grande, a Deus Pai",
+   "ru": "Молитва 1-я, святого Макария Великого, к Богу Отцу",
+   "uk": "Молитва 1-а, святого Макарія Великого, до Бога Отця",
+   "en": "Prayer 1, of St Macarius the Great, to God the Father",
+   "fonte": {
+    "cu": "K1817 img. 165; Z1912 p. 14",
+    "ru": "Z1912 p. 14",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-037",
+   "tipo": "oracao",
+   "cu": "Бо́же вѣ́чный и Царю́ вся́каго созда́нія, сподо́бивый мя да́же въ часъ сей доспѣ́ти, прости́ ми грѣхи́, я́же сотвори́хъ въ сей день дѣ́ломъ, сло́вомъ и помышле́ніемъ, и очи́сти, Го́споди, смире́нную мою́ ду́шу отъ вся́кія скве́рны пло́ти и ду́ха. И даждь ми, Го́споди, въ но́щи сей сонъ пре́йти въ ми́рѣ, да воста́въ отъ смире́ннаго ми ло́жа, благоугожду́ пресвято́му и́мени Твоему́ во вся дни живота́ моего́, и попру́ бо́рющія мя враги́ пло́тскія и безпло́тныя. И изба́ви мя, Го́споди, отъ помышле́ній су́етныхъ, оскверня́ющихъ мя, и по́хотей лука́выхъ. Я́ко Твое́ есть Ца́рство и си́ла и сла́ва, Отца́ и Сы́на и Свята́го Ду́ха, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Deus eterno e Rei de toda a criação, que me concedeste chegar até esta hora, perdoa-me os pecados que cometi neste dia por obra, palavra e pensamento, e purifica, Senhor, a minha humilde alma de toda a impureza da carne e do espírito. E concede-me, Senhor, passar em paz o sono desta noite, para que, levantando-me do meu humilde leito, eu agrade ao Teu santíssimo nome todos os dias da minha vida e esmague os inimigos carnais e incorpóreos que me combatem. E livra-me, Senhor, dos pensamentos vãos que me mancham e dos maus desejos. Pois Teu é o Reino, o poder e a glória, do Pai e do Filho e do Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Боже вечный и Царь всего созданного, сподобивший меня дожить до этого часа, прости мне грехи, которые я совершил в этот день делом, словом и помыслом, и очисти, Господи, смиренную мою душу от всякой нечистоты плотской и духовной. И дай мне, Господи, эту ночь проспать в мире, чтобы, встав с моего смиренного ложа, я во все дни жизни моей делал угодное пресвятому имени Твоему и побеждал нападающих на меня врагов — плотских и бесплотных. И избавь меня, Господи, от оскверняющих меня суетных мыслей и злых желаний. Ибо Твое есть Царство, и сила, и слава, Отца и Сына и Святого Духа, ныне и присно и во веки веков. Аминь.",
+   "uk": "Боже вічний і Царю всякого створіння, що сподобив мене дожити до цієї години, прости мені гріхи, які я вчинив цього дня ділом, словом і помислом, і очисти, Господи, смиренну мою душу від усякої скверни плоті й духа. І дай мені, Господи, цієї ночі сон перейти в мирі, щоб, вставши з убогого мого ложа, я догоджав пресвятому імені Твоєму по всі дні життя мого і подолав ворогів тілесних і безтілесних, що борються зі мною. І визволи мене, Господи, від помислів суєтних, що оскверняють мене, і від хтивості лукавої. Бо Твоє є Царство, і сила, і слава, Отця, і Сина, і Святого Духа, нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "O eternal God and King of all creation, who hast vouchsafed me to attain even unto this hour, forgive me the sins which I have committed this day in deed, word and thought; and cleanse, O Lord, my humble soul from every defilement of flesh and spirit. And grant me, O Lord, to pass through the sleep of this night in peace, that, rising from my lowly bed, I may please Thy most holy Name all the days of my life, and trample down the enemies, bodily and bodiless, that war against me. And deliver me, O Lord, from vain thoughts that defile me, and from evil desires. For Thine is the kingdom, and the power, and the glory, of the Father, and of the Son, and of the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "K1817 img. 165–166; MS1900 p. 37–38; Z1912 p. 14 (acentos)",
+    "ru": "Z1912 p. 14 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "«отъ смиреннаго ми ложа»: assim no Канонникъ 1817 e no Молитвословъ 1900 (e no uso atual); Zaionchkovsky 1912 imprime «моего». RU de Zaionchkovsky («в мире» em vez de «спокойно», para seguir o eslavo)."
+  },
+  {
+   "id": "noite-038",
+   "tipo": "titulo",
+   "cu": "Моли́тва 2-я, свята́го Анті́оха, ко Го́споду на́шему Іису́су Христу́",
+   "pt": "Oração 2.ª, de Santo Antíoco, a Nosso Senhor Jesus Cristo",
+   "ru": "Молитва 2-я, святого Антиоха, ко Господу нашему Иисусу Христу",
+   "uk": "Молитва 2-а, святого Антіоха, до Господа нашого Іісуса Христа",
+   "en": "Prayer 2, of St Antiochus, to our Lord Jesus Christ",
+   "fonte": {
+    "cu": "K1817 img. 166; Z1912 p. 15",
+    "ru": "Z1912 p. 15",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-039",
+   "tipo": "oracao",
+   "cu": "Вседержи́телю, Сло́во О́тчее, Самъ соверше́нъ сый, Іису́се Христе́, мно́гаго ра́ди милосе́рдія Твоего́ никогда́же отлуча́йся мене́, раба́ Твоего́, но всегда́ во мнѣ почива́й. Іису́се, до́брый Па́стырю Твои́хъ ове́цъ, не преда́ждь мене́ крамолѣ́ змі́йнѣ, и жела́нію сатани́ну не оста́ви мене́, я́ко сѣ́мя тли во мнѣ есть. Ты у́бо, Го́споди Бо́же, покланя́емый Царю́ Святы́й, Іису́се Христе́, спя́ща мя сохрани́ немерца́ющимъ свѣ́томъ, Ду́хомъ Твои́мъ Святы́мъ, И́мже освяти́лъ еси́ Твоя́ ученики́. Даждь, Го́споди, и мнѣ, недосто́йному рабу́ Твоему́, спасе́нія Твоего́ на ло́жи мое́мъ: просвѣти́ умъ мой свѣ́томъ ра́зума свята́го Ева́нгелія Твоего́, ду́шу любо́вію Креста́ Твоего́, се́рдце чистото́ю словесе́ Твоего́, тѣ́ло мое́ Твое́ю стра́стію безстра́стною, мысль мою́ Твои́мъ смире́ніемъ сохрани́, и воздви́гни мя во вре́мя подо́бно на Твое́ славосло́віе. Я́ко препросла́вленъ еси́ со Безнача́льнымъ Твои́мъ Отце́мъ и съ Пресвяты́мъ Ду́хомъ во вѣ́ки. Ами́нь.",
+   "pt": "Todo-Poderoso, Verbo do Pai, Jesus Cristo, que és Tu mesmo perfeito, pela Tua grande misericórdia nunca Te afastes de mim, Teu servo, mas repousa sempre em mim. Jesus, Bom Pastor das Tuas ovelhas, não me entregues às ciladas da serpente, e não me abandones à vontade de Satanás, pois em mim está a semente da corrupção. Tu, pois, Senhor Deus adorado, Rei Santo, Jesus Cristo, guarda-me no sono com a luz que não se apaga, com o Teu Espírito Santo, com o qual santificaste os Teus discípulos. Dá, Senhor, também a mim, Teu servo indigno, a Tua salvação no meu leito: ilumina a minha mente com a luz do conhecimento do Teu santo Evangelho, a minha alma com o amor da Tua Cruz, o meu coração com a pureza da Tua palavra, o meu corpo com a Tua Paixão impassível; guarda o meu pensamento com a Tua humildade, e levanta-me no tempo devido para Te glorificar. Pois Tu és sumamente glorificado com o Teu Pai sem princípio e com o Espírito Santíssimo pelos séculos. Ámen.",
+   "ru": "Вседержитель, Слово Отчее, Иисусе Христе! Будучи Сам совершен, по великому милосердию Твоему никогда не покидай меня, раба Твоего, но всегда пребывай во мне. Иисусе, добрый Пастырь овец Твоих, не предай меня крамоле змия и не оставь меня на волю сатаны, ибо во мне есть семя тления. Ты, Господи Боже, Которому все поклоняются, Царь Святой, Иисусе Христе, сохрани меня во время сна немеркнущим светом, Святым Твоим Духом, Которым Ты освятил учеников Твоих. Дай, Господи, и мне, недостойному рабу Твоему, спасение Твое на ложе моем: просвети ум мой светом разумения святого Евангелия Твоего, душу — любовью к Кресту Твоему, сердце — чистотою слова Твоего, тело мое — Твоим бесстрастным страданием, мысль мою сохрани Твоим смирением, и подними меня в надлежащее время на прославление Тебя. Ибо Ты препрославлен со безначальным Твоим Отцом и Пресвятым Духом во веки. Аминь.",
+   "uk": "Вседержителю, Слово Отче, Сам досконалий бувши, Іісусе Христе, задля великого милосердя Твого ніколи не відлучайся від мене, раба Твого, але завжди в мені перебувай. Іісусе, добрий Пастирю Твоїх овець, не віддай мене підступові змія і бажанню сатани не залиш мене, бо сім'я тління є в мені. Ти ж, Господи Боже, Якому поклоняються, Царю Святий, Іісусе Христе, сплячого мене збережи немеркнучим світлом, Духом Твоїм Святим, Яким освятив Ти учнів Твоїх. Дай, Господи, і мені, недостойному рабові Твоєму, спасіння Твоє на ложі моєму: просвіти розум мій світлом розуміння святого Євангелія Твого, душу — любов'ю Хреста Твого, серце — чистотою слова Твого, тіло моє — Твоїми безпристрасними стражданнями, думку мою Твоїм смиренням збережи, і підведи мене в належний час на славослів'я Твоє. Бо Ти препрославлений з безначальним Твоїм Отцем і з Пресвятим Духом навіки. Амінь.",
+   "en": "O Almighty One, Word of the Father, Jesus Christ, who Thyself art perfect: for the sake of Thy great mercy never depart from me, Thy servant, but ever abide in me. O Jesus, Good Shepherd of Thy sheep, deliver me not over to the sedition of the serpent, and leave me not to the will of Satan, for the seed of corruption is in me. Do Thou, therefore, O Lord God, worshipped King, Holy Jesus Christ, guard me as I sleep with the unwaning light, with Thy Holy Spirit, wherewith Thou didst sanctify Thy disciples. Grant, O Lord, unto me also, Thine unworthy servant, Thy salvation upon my bed: enlighten my mind with the light of understanding of Thy holy Gospel, my soul with the love of Thy Cross, my heart with the purity of Thy word, my body with Thy passionless Passion; keep my thought in Thy humility, and raise me up at the fitting time for Thy glorification. For Thou art most glorified, together with Thine unoriginate Father and the Most Holy Spirit, unto the ages. Amen.",
+   "fonte": {
+    "cu": "K1817 img. 166–168; MS1900 p. 38–39; Z1912 p. 15 (acentos)",
+    "ru": "Z1912 p. 15 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "As fontes pré-1917 (1817, 1900, 1912) leem «Слово Отчее»; edições atuais têm «Слове Отчий» (vocativo). «спасенія Твоего»: genitivo partitivo («dá-me da Tua salvação»), como em K1817 e MS1900."
+  },
+  {
+   "id": "noite-040",
+   "tipo": "titulo",
+   "cu": "Моли́тва 3-я, ко Пресвято́му Ду́ху",
+   "pt": "Oração 3.ª, ao Espírito Santíssimo",
+   "ru": "Молитва 3-я, ко Пресвятому Духу",
+   "uk": "Молитва 3-я, до Пресвятого Духа",
+   "en": "Prayer 3, to the Most Holy Spirit",
+   "fonte": {
+    "cu": "K1817 img. 168; Z1912 p. 15",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Zaionchkovsky (1912) atribui-a a S. Efrém, o Sírio."
+  },
+  {
+   "id": "noite-041",
+   "tipo": "oracao",
+   "cu": "Го́споди, Царю́ Небе́сный, Утѣ́шителю, Ду́ше и́стины, умилосе́рдися и поми́луй мя, грѣ́шнаго раба́ Твоего́, и отпусти́ ми недосто́йному, и прости́ вся, ели́ка Ти согрѣши́хъ днесь, я́ко человѣ́къ, па́че же и не я́ко человѣ́къ, но и горѣ́е скота́: во́льныя моя́ грѣхи́ и нево́льныя, вѣ́домыя и невѣ́домыя, я́же отъ ю́ности и отъ нау́ки злы, и я́же суть отъ на́гльства и уны́нія. А́ще и́менемъ Твои́мъ кля́хся, или́ поху́лихъ е въ помышле́ніи мое́мъ; или́ кого́ укори́хъ, или́ оклевета́хъ кого́ гнѣ́вомъ мои́мъ, или́ опеча́лихъ, или́ о чемъ прогнѣ́вахся; или́ солга́хъ, или́ безго́дно спахъ, или́ нищь пріи́де ко мнѣ, и презрѣ́хъ его́; или́ бра́та моего́ опеча́лихъ, или́ сва́дихъ, или́ кого́ осуди́хъ; или́ развели́чахся, или́ разгордѣ́хся, или́ разгнѣ́вахся; или́, стоя́щу ми на моли́твѣ, умъ мой о лука́вствіи мі́ра сего́ подви́жеся, или́ развраще́ніе помы́слихъ; или́ объядо́хся, или́ опи́хся, или́ безъ ума́ смѣ́яхся; или́ лука́вое помы́слихъ, или́ добро́ту чу́ждую ви́дѣвъ, и то́ю уя́звенъ быхъ се́рдцемъ; или́ неподо́бная глаго́лахъ, или́ грѣ́ху бра́та моего́ посмѣ́яхся, моя́ же суть безчи́сленная согрѣше́нія; или́ о моли́твѣ не ради́хъ, или́ ино́ что содѣ́явъ лука́вое, не по́мню: та бо вся и бо́льша сихъ содѣ́яхъ. Поми́луй мя, Тво́рче мой Влады́ко, уны́лаго и недосто́йнаго раба́ Твоего́, и оста́ви ми, и отпусти́, и прости́ мя, я́ко Благъ и Человѣколю́бецъ, да съ ми́ромъ ля́гу, усну́ и почі́ю, блу́дный, грѣ́шный и окая́нный азъ, и поклоню́ся, и воспою́, и просла́влю пречестно́е и́мя Твое́, со Отце́мъ и Единоро́днымъ Его́ Сы́номъ, ны́нѣ и при́сно и во вѣ́ки. Ами́нь.",
+   "pt": "Senhor, Rei Celeste, Consolador, Espírito da Verdade, compadece-Te e tem piedade de mim, Teu servo pecador, e absolve-me a mim, indigno, e perdoa tudo aquilo em que hoje pequei contra Ti como homem, e mais ainda não como homem, mas pior do que um animal: os meus pecados voluntários e involuntários, conscientes e inconscientes, os que vêm da juventude e de más influências, e os que vêm da arrogância e da negligência. Se jurei pelo Teu nome ou o blasfemei no meu pensamento; ou se insultei alguém ou o caluniei na minha ira, ou o entristeci, ou me irritei por alguma coisa; ou se menti, ou dormi fora de horas, ou um pobre veio a mim e o desprezei; ou se entristeci o meu irmão, ou semeei discórdia, ou julguei alguém; ou se me exaltei, ou me ensoberbeci, ou me encolerizei; ou se, estando na oração, a minha mente se deixou arrastar pela malícia deste mundo, ou se tive pensamentos perversos; ou se comi em excesso, ou bebi em excesso, ou ri como um insensato; ou se pensei mal, ou vi a beleza alheia e por ela fui ferido no coração; ou se disse coisas inconvenientes, ou me ri do pecado do meu irmão, sendo os meus pecados inumeráveis; ou se descurei a oração, ou fiz outro mal de que não me lembro: pois tudo isto e mais ainda eu fiz. Tem piedade de mim, meu Criador e Soberano, deste Teu servo desalentado e indigno; absolve-me, perdoa-me e remite-me, porque és bom e amigo dos homens, para que em paz me deite, adormeça e repouse, eu, pródigo, pecador e miserável; e me prostre, e cante, e glorifique o Teu nome venerabilíssimo, com o Pai e o Seu Filho unigénito, agora e sempre e pelos séculos. Ámen.",
+   "ru": "Господи, Царь Небесный, Утешитель, Дух истины, умилосердись и помилуй меня, грешного раба Твоего, и отпусти мне, недостойному, и прости всё, в чем я согрешил пред Тобою сегодня как человек, и даже не как человек, но и хуже скота: вольные мои грехи и невольные, ведомые и неведомые, от юности и от дурного научения, и происходящие от дерзости и уныния. Если я клялся именем Твоим или похулил его в помышлении моем; или кого укорил, или оклеветал кого в гневе моем, или опечалил, или из-за чего прогневался; или солгал, или спал не вовремя, или нищий пришел ко мне, и я пренебрег им; или брата моего опечалил, или поссорил, или кого осудил; или превозносился, или возгордился, или разгневался; или, когда я стоял на молитве, ум мой увлекался лукавством мира сего, или помышлял развращенное; или объелся, или опился, или смеялся безрассудно; или помыслил лукавое, или, увидев чужую красоту, уязвился ею в сердце; или говорил непристойное, или посмеялся над грехом брата моего, тогда как мои согрешения бесчисленны; или о молитве не радел, или иное что лукавое сделал, чего не помню: ибо всё это и больше этого я совершил. Помилуй меня, Творец мой, Владыка, унылого и недостойного раба Твоего, и оставь мне, и отпусти, и прости меня, как Благий и Человеколюбец, чтобы мне с миром лечь, уснуть и почить, блудному, грешному и окаянному, и поклониться, и воспеть, и прославить пречестное имя Твое со Отцом и Единородным Его Сыном, ныне и присно и во веки. Аминь.",
+   "uk": "Господи, Царю Небесний, Утішителю, Душе істини, змилуйся і помилуй мене, грішного раба Твого, і відпусти мені, недостойному, і прости все, чим согрішив я перед Тобою сьогодні як людина, ба навіть і не як людина, а гірше від скотини: вільні мої гріхи й невільні, відомі й невідомі, що від юності й від злої науки, і ті, що від зухвальства й зневіри. Якщо іменем Твоїм клявся або хулив його в думці моїй; або кого докорив, або обмовив кого в гніві моєму, або засмутив, або через щось прогнівався; або збрехав, або не вчасно спав, або вбогий прийшов до мене, а я знехтував ним; або брата мого засмутив, або посварив, або кого осудив; або звеличувався, або загордився, або розгнівався; або, коли стояв я на молитві, розум мій захопився лукавством світу цього, або розпусне помислив; або об'ївся, або упився, або безглуздо сміявся; або лукаве помислив, або, побачивши чужу вроду, був нею поранений у серці; або непристойне говорив, або з гріха брата мого посміявся, тоді як мої гріхи незліченні; або про молитву не дбав, або щось інше лукаве вчинив, чого не пам'ятаю: бо все це й більше від цього вчинив я. Помилуй мене, Творче мій, Владико, зневіреного й недостойного раба Твого, і залиш мені, і відпусти, і прости мене, як благий і Чоловіколюбець, щоб у мирі ліг я, заснув і спочив, блудний, грішний і окаянний, і поклонився, і оспівав, і прославив пречесне ім'я Твоє з Отцем і Єдинородним Його Сином, нині, і повсякчас, і навіки. Амінь.",
+   "en": "O Lord, Heavenly King, Comforter, Spirit of Truth, show compassion and have mercy upon me, Thy sinful servant, and absolve me, the unworthy one, and forgive me all wherein I have sinned against Thee this day as a man, nay, rather not as a man but worse than a beast: my sins voluntary and involuntary, known and unknown, those from my youth and from evil teaching, and those from insolence and despondency. If I have sworn by Thy Name, or blasphemed it in my thought; or reproached anyone, or slandered anyone in my anger, or grieved anyone, or been angered at anything; or lied, or slept out of season, or a beggar came to me and I despised him; or grieved my brother, or stirred up strife, or judged anyone; or exalted myself, or grown proud, or become angry; or if, as I stood at prayer, my mind was moved by the wickedness of this world, or I thought perverse thoughts; or overate, or drank to excess, or laughed foolishly; or thought evil, or saw another's beauty and was wounded thereby in my heart; or spoke unseemly things, or laughed at my brother's sin, whereas my own sins are numberless; or was negligent of prayer, or did some other evil that I remember not — for all these and more than these have I done: have mercy upon me, my Creator and Master, Thy despondent and unworthy servant, and absolve me, and loose me, and forgive me, for Thou art good and the Lover of mankind; that I, prodigal, sinful and wretched, may lie down in peace, and sleep and rest; and may worship, and hymn, and glorify Thy most honourable Name, together with the Father and His Only-begotten Son, now and ever, and unto the ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 15–16; K1817 img. 168–171",
+    "ru": "propria (Z1912 só dá glosas)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "«отъ науки злы» = por más influências/ensino mau; «нагльство» = arrogância, impetuosidade (Z1912: «вспыльчивость»); «безгодно» = fora de horas; «свадихъ» = semeei discórdia. Não consta do Молитвословъ 1900."
+  },
+  {
+   "id": "noite-042",
+   "tipo": "titulo",
+   "cu": "Моли́тва 4-я, свята́го Мака́рія Вели́каго",
+   "pt": "Oração 4.ª, de São Macário, o Grande",
+   "ru": "Молитва 4-я, святого Макария Великого",
+   "uk": "Молитва 4-а, святого Макарія Великого",
+   "en": "Prayer 4, of St Macarius the Great",
+   "fonte": {
+    "cu": "K1817 img. 171",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-043",
+   "tipo": "oracao",
+   "cu": "Что Ти принесу́, или́ что Ти возда́мъ, великодарови́тый Безсме́ртный Царю́, ще́дре и человѣколю́бче Го́споди, я́ко лѣня́щася мене́ на Твое́ угожде́ніе и ничто́же бла́го сотво́рша, приве́лъ еси́ на коне́цъ мимоше́дшаго дне сего́, обраще́ніе и спасе́ніе души́ мое́й строя́? Ми́лостивъ ми бу́ди, грѣ́шному и обнаже́нному вся́каго дѣ́ла бла́га, возста́ви па́дшую мою́ ду́шу, оскверни́вшуюся въ безмѣ́рныхъ согрѣше́ніихъ, и отъими́ отъ мене́ весь по́мыслъ лука́вый ви́димаго сего́ жи́тія. Прости́ моя́ согрѣше́нія, Еди́не Безгрѣ́шне, я́же Ти согрѣши́хъ въ сей день, вѣ́дѣніемъ и невѣ́дѣніемъ, сло́вомъ и дѣ́ломъ, и помышле́ніемъ, и всѣ́ми мои́ми чу́вствы. Ты самъ покрыва́я, сохрани́ мя отъ вся́каго сопроти́внаго обстоя́нія Боже́ственною Твое́ю вла́стію и неизрече́ннымъ человѣколю́біемъ и си́лою. Очи́сти, Бо́же, очи́сти мно́жество грѣхо́въ мои́хъ. Благоволи́, Го́споди, изба́вити мя отъ сѣ́ти лука́ваго, и спаси́ стра́стную мою́ ду́шу, и осѣни́ мя свѣ́томъ лица́ Твоего́, егда́ пріи́деши во сла́вѣ; и неосужде́нна ны́нѣ сномъ усну́ти сотвори́, и безъ мечта́нія, и несмуще́нъ по́мыслъ раба́ Твоего́ соблюди́, и всю сатани́ну дѣ́тель отжени́ отъ мене́, и просвѣти́ ми разу́мныя о́чи серде́чныя, да не усну́ въ смерть. И посли́ ми А́нгела ми́рна, храни́теля и наста́вника души́ и тѣ́лу моему́, да изба́витъ мя отъ врагъ мои́хъ; да воста́въ со одра́ моего́, принесу́ Ти благода́рственныя мольбы́. Ей, Го́споди, услы́ши мя, грѣ́шнаго и убо́гаго раба́ Твоего́, изволе́ніемъ и со́вѣстію; да́руй ми воста́вшу словесе́мъ Твои́мъ поучи́тися, и уны́ніе бѣ́совское дале́че отъ мене́ отгна́но бы́ти сотвори́ Твои́ми А́нгелы; да благословлю́ и́мя Твое́ свято́е, и просла́влю, и сла́влю Пречи́стую Богоро́дицу Марі́ю, ю́же далъ еси́ намъ грѣ́шнымъ заступле́ніе, и пріими́ Сію́ моля́щуюся за ны; вѣмъ бо, я́ко подража́етъ Твое́ человѣколю́біе и моля́щися не преста́етъ. Тоя́ заступле́ніемъ, и Честна́го Креста́ зна́меніемъ, и всѣхъ святы́хъ Твои́хъ ра́ди, убо́гую мою́ ду́шу соблюди́, Іису́се Христе́ Бо́же нашъ, я́ко Святъ еси́ и препросла́вленъ во вѣ́ки. Ами́нь.",
+   "pt": "Que Te oferecerei, ou que Te darei em troca, ó Rei imortal de grandes dons, Senhor generoso e amigo dos homens? Pois, embora eu tenha sido preguiçoso em agradar-Te e nada de bom tenha feito, Tu trouxeste-me até ao fim deste dia que passou, preparando a conversão e a salvação da minha alma. Sê misericordioso para comigo, pecador e despido de toda a boa obra; levanta a minha alma caída, manchada por pecados sem medida, e afasta de mim todo o pensamento mau desta vida visível. Perdoa os meus pecados, ó único Sem Pecado, que cometi contra Ti neste dia, consciente e inconscientemente, por palavra e obra, e por pensamento, e por todos os meus sentidos. Tu mesmo, protegendo-me, guarda-me de toda a adversidade pelo Teu divino poder, pelo Teu inefável amor aos homens e pela Tua força. Purifica, ó Deus, purifica a multidão dos meus pecados. Digna-Te, Senhor, livrar-me da rede do maligno, salvar a minha alma apaixonada e cobrir-me com a luz do Teu rosto quando vieres na glória; e faz agora que eu adormeça sem condenação, sem fantasias, e guarda sereno o pensamento do Teu servo; afasta de mim toda a obra de Satanás e ilumina-me os olhos inteligentes do coração, para que eu não adormeça na morte. E envia-me um Anjo de paz, guardião e guia da minha alma e do meu corpo, para que me livre dos meus inimigos; para que, levantando-me do meu leito, Te ofereça súplicas de ação de graças. Sim, Senhor, ouve-me a mim, Teu servo pecador e pobre, na vontade e na consciência; concede-me, ao levantar-me, instruir-me nas Tuas palavras, e faz que o desalento demoníaco seja afastado para longe de mim pelos Teus Anjos; para que eu bendiga o Teu santo nome e glorifique e louve a puríssima Mãe de Deus, Maria, que nos deste a nós, pecadores, como protetora; e aceita-A quando intercede por nós; pois sei que Ela imita o Teu amor aos homens e não cessa de interceder. Pela Sua intercessão, pelo sinal da venerável Cruz e por amor de todos os Teus santos, guarda a minha pobre alma, ó Jesus Cristo nosso Deus, porque és santo e glorificadíssimo pelos séculos. Ámen.",
+   "ru": "Что принесу Тебе или чем воздам Тебе, щедро одаряющий Бессмертный Царь, милостивый и человеколюбивый Господи, за то, что меня, ленившегося угождать Тебе и ничего доброго не сделавшего, Ты привел к концу прошедшего дня, устрояя обращение и спасение души моей? Будь милостив ко мне, грешному и лишенному всякого доброго дела, восставь падшую мою душу, осквернившуюся безмерными согрешениями, и отними от меня всякий лукавый помысел этой видимой жизни. Прости мои согрешения, Единый Безгрешный, которыми я согрешил пред Тобою в этот день, сознательно и несознательно, словом и делом, и помышлением, и всеми моими чувствами. Сам покрывая меня, сохрани от всякого противного обстояния Божественною Твоею властью, неизреченным человеколюбием и силою. Очисти, Боже, очисти множество грехов моих. Благоволи, Господи, избавить меня от сети лукавого, и спаси страстную мою душу, и осени меня светом лица Твоего, когда придешь во славе; и ныне дай мне уснуть неосужденным, без мечтаний, и сохрани в покое мысль раба Твоего, и отгони от меня всякое действие сатаны, и просвети мне разумные очи сердечные, чтобы мне не уснуть смертным сном. И пошли мне Ангела мирного, хранителя и наставника души и тела моего, чтобы он избавил меня от врагов моих, дабы, встав с постели моей, я принес Тебе благодарственные молитвы. Да, Господи, услышь меня, грешного и убогого раба Твоего, по воле и совести моей; дай мне, встав, поучаться словам Твоим, и сделай так, чтобы бесовское уныние было отогнано от меня далеко Твоими Ангелами; чтобы мне благословлять святое имя Твое, и прославлять, и славить Пречистую Богородицу Марию, Которую Ты дал нам, грешным, в заступницу, и прими Ее, молящуюся за нас; ибо знаю, что Она подражает Твоему человеколюбию и молиться не перестает. Ее заступлением, и знамением Честного Креста, и ради всех святых Твоих сохрани убогую мою душу, Иисусе Христе, Боже наш, ибо Ты свят и препрославлен во веки. Аминь.",
+   "uk": "Що принесу Тобі, або чим віддячу Тобі, щедродаровитий Безсмертний Царю, щедрий і чоловіколюбний Господи, що мене, лінивого догоджати Тобі й нічого доброго не вчинившого, привів Ти до кінця минулого дня, влаштовуючи навернення і спасіння душі моєї? Будь милостивий до мене, грішного й позбавленого всякого доброго діла, підведи занепалу мою душу, що осквернилася в безмірних гріхах, і відійми від мене всякий лукавий помисел цього видимого життя. Прости мої гріхи, Єдиний Безгрішний, якими согрішив я перед Тобою цього дня, свідомо й несвідомо, словом і ділом, і помислом, і всіма моїми чуттями. Ти Сам, покриваючи, збережи мене від усякої ворожої напасті Божественною Твоєю владою, і невимовним чоловіколюбством, і силою. Очисти, Боже, очисти безліч гріхів моїх. Благоволи, Господи, визволити мене від сітей лукавого, і спаси пристрасну мою душу, і осяй мене світлом лиця Твого, коли прийдеш у славі; і нині дай мені заснути неосудженим, без мрій, і невзбентеженою збережи думку раба Твого, і всяку сатанинську дію віджени від мене, і просвіти мені духовні очі серця, щоб не заснув я смертним сном. І пошли мені Ангела мирного, охоронця й наставника душі й тіла мого, щоб визволив мене від ворогів моїх; щоб, вставши з ложа мого, приніс я Тобі подячні молитви. Так, Господи, вислухай мене, грішного й убогого раба Твого, з волі й сумління мого; дай мені, вставши, повчатися словам Твоїм, і бісівську зневіру далеко від мене відігнати Твоїми Ангелами накажи; щоб я благословив ім'я Твоє святе, і прославив, і славив Пречисту Богородицю Марію, яку дав Ти нам, грішним, на заступництво, і прийми Її, що молиться за нас; бо знаю, що Вона наслідує Твоє чоловіколюбство і молитися не перестає. Її заступництвом, і знаменням Чесного Хреста, і всіх святих Твоїх ради, убогу мою душу збережи, Іісусе Христе, Боже наш, бо Ти святий і препрославлений навіки. Амінь.",
+   "en": "What shall I offer Thee, or what shall I render unto Thee, O most gifted Immortal King, compassionate Lord and Lover of mankind? For though I have been slothful in pleasing Thee and have done nothing good, Thou hast brought me to the close of this departing day, establishing the conversion and salvation of my soul. Be merciful unto me, a sinner bare of every good deed; raise up my fallen soul, defiled by measureless sins, and take away from me every evil thought of this visible life. Forgive my sins, O only Sinless One, wherein I have sinned against Thee this day, knowingly and unknowingly, in word and deed, and in thought, and by all my senses. Do Thou Thyself, sheltering me, guard me from every adverse circumstance, by Thy divine authority, and ineffable love for mankind, and power. Cleanse, O God, cleanse the multitude of my sins. Be pleased, O Lord, to deliver me from the snare of the evil one, and save my passionate soul, and overshadow me with the light of Thy countenance when Thou comest in glory; and now cause me to sleep uncondemned and without fantasies, and keep the thought of Thy servant untroubled, and drive away from me every work of Satan, and enlighten the spiritual eyes of my heart, lest I sleep unto death. And send me an Angel of peace, a guardian and guide of my soul and body, that he may deliver me from mine enemies; that, rising from my bed, I may offer Thee prayers of thanksgiving. Yea, O Lord, hearken unto me, Thy sinful and wretched servant, in will and conscience; grant me, when I arise, to be instructed in Thy words, and cause the despondency of the demons to be driven far from me by Thine Angels; that I may bless Thy holy Name, and glorify and praise the most pure Theotokos Mary, whom Thou hast given to us sinners as a protection; and accept her as she prayeth for us; for I know that she imitateth Thy love for mankind and ceaseth not to pray. Through her intercession, and the sign of the precious Cross, and for the sake of all Thy saints, preserve my wretched soul, O Jesus Christ our God, for Thou art holy and most glorified unto the ages. Amen.",
+   "fonte": {
+    "cu": "K1817 img. 171–174",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Não consta do Молитвословъ 1900 nem de Zaionchkovsky 1912 (texto transcrito do Канонникъ 1817, tipo eslavo com acentos). «изволеніемъ и совѣстію»: segundo a minha vontade e consciência."
+  },
+  {
+   "id": "noite-044",
+   "tipo": "titulo",
+   "cu": "Моли́тва 5-я",
+   "pt": "Oração 5.ª",
+   "ru": "Молитва 5-я",
+   "uk": "Молитва 5-а",
+   "en": "Prayer 5",
+   "fonte": {
+    "cu": "K1817 img. 175; Z1912 p. 16",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Na numeração de Z1912 é a 4.ª e no MS1900 a 3.ª (edições abreviadas)."
+  },
+  {
+   "id": "noite-045",
+   "tipo": "oracao",
+   "cu": "Го́споди Бо́же нашъ, е́же согрѣши́хъ во дни семъ сло́вомъ, дѣ́ломъ и помышле́ніемъ, я́ко Благъ и Человѣколю́бецъ, прости́ ми. Ми́ренъ сонъ и безмяте́женъ да́руй ми. А́нгела Твоего́ храни́теля посли́, покрыва́юща и соблюда́юща мя отъ вся́каго зла; я́ко Ты еси́ храни́тель душа́мъ и тѣлесе́мъ на́шимъ, и Тебѣ́ сла́ву возсыла́емъ, Отцу́ и Сы́ну и Свято́му Ду́ху, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Senhor nosso Deus, aquilo em que pequei neste dia por palavra, obra e pensamento, perdoa-mo, porque és bom e amigo dos homens. Concede-me um sono pacífico e tranquilo. Envia o Teu Anjo da guarda, que me proteja e guarde de todo o mal; porque Tu és o guardião das nossas almas e dos nossos corpos, e a Ti damos glória, ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Господи Боже наш, в чем согрешил я в этот день словом, делом и помышлением, прости мне, как Благий и Человеколюбец. Мирный сон и безмятежный даруй мне. Ангела Твоего хранителя пошли, покрывающего и охраняющего меня от всякого зла; ибо Ты — хранитель душ и тел наших, и Тебе славу воссылаем, Отцу и Сыну и Святому Духу, ныне и присно и во веки веков. Аминь.",
+   "uk": "Господи Боже наш, у чому согрішив я цього дня словом, ділом і помислом, прости мені, як благий і Чоловіколюбець. Мирний сон і безтурботний даруй мені. Ангела Твого охоронця пошли, щоб покривав і беріг мене від усякого зла; бо Ти — охоронець душ і тіл наших, і Тобі славу возсилаємо, Отцю, і Сину, і Святому Духові, нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "O Lord our God, wherein I have sinned this day in word, deed and thought, forgive me, for Thou art good and the Lover of mankind. Grant me peaceful and undisturbed sleep. Send Thy guardian Angel to shelter and keep me from all evil; for Thou art the guardian of our souls and bodies, and unto Thee we send up glory, to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 16; MS1900 p. 40; K1817 img. 175",
+    "ru": "propria (Z1912 sem tradução russa)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-046",
+   "tipo": "titulo",
+   "cu": "Моли́тва 6-я",
+   "pt": "Oração 6.ª",
+   "ru": "Молитва 6-я",
+   "uk": "Молитва 6-а",
+   "en": "Prayer 6",
+   "fonte": {
+    "cu": "K1817 img. 175",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-047",
+   "tipo": "oracao",
+   "cu": "Го́споди Бо́же нашъ, въ Него́же вѣ́ровахомъ, и Его́же и́мя па́че вся́каго и́мене призыва́емъ, даждь намъ, ко сну отходя́щымъ, осла́бу души́ и тѣ́лу, и соблюди́ насъ отъ вся́каго мечта́нія и те́мныя сла́сти кромѣ́; уста́ви стремле́ніе страсте́й, угаси́ разжже́нія воста́нія тѣле́снаго. Даждь намъ цѣлому́дренно пожи́ти дѣ́лы и словесы́; да добродѣ́тельное жи́тельство воспріе́млюще, обѣтова́нныхъ не отпаде́мъ благи́хъ Твои́хъ, я́ко благослове́нъ еси́ во вѣ́ки. Ами́нь.",
+   "pt": "Senhor nosso Deus, em quem cremos e cujo nome invocamos acima de todo o nome, concede-nos, a nós que vamos dormir, alívio da alma e do corpo, e guarda-nos de toda a fantasia e de todo o prazer tenebroso; detém o ímpeto das paixões, apaga os ardores da rebelião da carne. Concede-nos viver castamente em obras e palavras; para que, abraçando uma vida virtuosa, não percamos os bens que prometeste, porque és bendito pelos séculos. Ámen.",
+   "ru": "Господи Боже наш, в Которого мы уверовали и Чье имя призываем выше всякого имени, даруй нам, отходящим ко сну, облегчение души и тела, и сохрани нас от всякого мечтания и от темного сладострастия; останови стремление страстей, угаси разжжения восстания плотского. Дай нам целомудренно жить делами и словами, чтобы, восприяв добродетельную жизнь, мы не лишились обетованных благ Твоих, ибо Ты благословен во веки. Аминь.",
+   "uk": "Господи Боже наш, у Якого ми увірували і Чиє ім'я понад усяке ім'я призиваємо, дай нам, що до сну відходимо, полегшення душі й тілу, і збережи нас від усякої мрії і темної насолоди; спини пориви пристрастей, погаси розпалювання тілесного бунту. Дай нам цнотливо жити ділами і словами, щоб, сприйнявши доброчесне життя, не відпали ми від обіцяних благ Твоїх, бо Ти благословенний навіки. Амінь.",
+   "en": "O Lord our God, in whom we have believed and whose Name we invoke above every name, grant us, as we go to sleep, relaxation of soul and body, and keep us from every fantasy and from dark pleasure; stay the onrush of the passions, quench the burnings that rise up in the flesh. Grant us to live chastely in deeds and words; that, taking up a virtuous life, we may not fall away from Thy promised blessings, for blessed art Thou unto the ages. Amen.",
+   "fonte": {
+    "cu": "K1817 img. 175–176",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Não consta das edições de 1900 e 1912. «темныя сласти кромѣ» = afastados do prazer tenebroso (gr. σκοτεινῆς ἡδονῆς); «ослабу» = descanso, alívio."
+  },
+  {
+   "id": "noite-048",
+   "tipo": "titulo",
+   "cu": "Моли́тва 7-я, свята́го Іоа́нна Златоу́стаго, двадесяти́ четы́рехъ моли́твъ, по числу́ часо́въ дне и но́щи",
+   "pt": "Oração 7.ª, de São João Crisóstomo: vinte e quatro orações, segundo o número das horas do dia e da noite",
+   "ru": "Молитва 7-я, святого Иоанна Златоуста, из двадцати четырех молитв, по числу часов дня и ночи",
+   "uk": "Молитва 7-а, святого Іоанна Золотоустого, з двадцяти чотирьох молитов, за числом годин дня і ночі",
+   "en": "Prayer 7, of St John Chrysostom: twenty-four prayers, according to the number of the hours of the day and night",
+   "fonte": {
+    "cu": "K1817 img. 176; Z1912 p. 16",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "K1817: «Молитвы молебныя, числомъ двадесять четыре, часомъ дневнымъ и нощнымъ»; Z1912: «по числу часовъ дня и ночи»."
+  },
+  {
+   "id": "noite-049",
+   "tipo": "rubrica",
+   "cu": "Дневны́я:",
+   "pt": "Do dia:",
+   "ru": "Дневные:",
+   "uk": "Денні:",
+   "en": "For the day:",
+   "fonte": {
+    "cu": "K1817 img. 176 («Дневи»)",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-050",
+   "tipo": "oracao",
+   "cu": "Го́споди, не лиши́ мене́ небе́сныхъ Твои́хъ благъ.",
+   "pt": "Senhor, não me prives dos Teus bens celestes.",
+   "ru": "Господи, не лиши меня Твоих небесных благ.",
+   "uk": "Господи, не позбав мене небесних Твоїх благ.",
+   "en": "O Lord, deprive me not of Thy heavenly good things.",
+   "fonte": {
+    "cu": "K1817 img. 176–178; MS1900 p. 40–43; Z1912 p. 16–17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Z1912 só dá glosas; tradução RU própria."
+  },
+  {
+   "id": "noite-051",
+   "tipo": "oracao",
+   "cu": "Го́споди, изба́ви мя вѣ́чныхъ мукъ.",
+   "pt": "Senhor, livra-me dos tormentos eternos.",
+   "ru": "Господи, избавь меня от вечных мук.",
+   "uk": "Господи, визволи мене від вічних мук.",
+   "en": "O Lord, deliver me from eternal torments.",
+   "fonte": {
+    "cu": "K1817 img. 176–178; MS1900 p. 40–43; Z1912 p. 16–17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-052",
+   "tipo": "oracao",
+   "cu": "Го́споди, умо́мъ ли или́ помышле́ніемъ, сло́вомъ или́ дѣ́ломъ согрѣши́хъ, прости́ мя.",
+   "pt": "Senhor, se pequei com a mente ou com o pensamento, por palavra ou por obra, perdoa-me.",
+   "ru": "Господи, если я согрешил умом или помышлением, словом или делом, прости меня.",
+   "uk": "Господи, чи розумом, чи помислом, словом чи ділом согрішив я, прости мене.",
+   "en": "O Lord, if I have sinned in mind or thought, in word or deed, forgive me.",
+   "fonte": {
+    "cu": "K1817 img. 176–178; MS1900 p. 40–43; Z1912 p. 16–17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-053",
+   "tipo": "oracao",
+   "cu": "Го́споди, изба́ви мя вся́каго невѣ́дѣнія и забве́нія, и малоду́шія, и окамене́ннаго нечу́вствія.",
+   "pt": "Senhor, livra-me de toda a ignorância e esquecimento, da pusilanimidade e da insensibilidade petrificada.",
+   "ru": "Господи, избавь меня от всякого неведения и забвения, и малодушия, и окаменелого бесчувствия.",
+   "uk": "Господи, визволи мене від усякого незнання і забуття, і малодушності, і скам'янілої нечутливості.",
+   "en": "O Lord, deliver me from all ignorance and forgetfulness, from faint-heartedness and stony insensibility.",
+   "fonte": {
+    "cu": "K1817 img. 176–178; MS1900 p. 40–43; Z1912 p. 16–17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-054",
+   "tipo": "oracao",
+   "cu": "Го́споди, изба́ви мя отъ вся́каго искуше́нія.",
+   "pt": "Senhor, livra-me de toda a tentação.",
+   "ru": "Господи, избавь меня от всякого искушения.",
+   "uk": "Господи, визволи мене від усякої спокуси.",
+   "en": "O Lord, deliver me from every temptation.",
+   "fonte": {
+    "cu": "K1817 img. 176–178; MS1900 p. 40–43; Z1912 p. 16–17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-055",
+   "tipo": "oracao",
+   "cu": "Го́споди, просвѣти́ мое́ се́рдце, е́же помрачи́ лука́вое похотѣ́ніе.",
+   "pt": "Senhor, ilumina o meu coração, que o mau desejo obscureceu.",
+   "ru": "Господи, просвети мое сердце, которое омрачило злое похотение.",
+   "uk": "Господи, просвіти моє серце, яке затьмарила лукава хіть.",
+   "en": "O Lord, enlighten my heart, which evil desire hath darkened.",
+   "fonte": {
+    "cu": "K1817 img. 176–178; MS1900 p. 40–43; Z1912 p. 16–17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-056",
+   "tipo": "oracao",
+   "cu": "Го́споди, азъ я́ко человѣ́къ согрѣши́хъ, Ты же я́ко Богъ щедръ, поми́луй мя, ви́дя не́мощь души́ моея́.",
+   "pt": "Senhor, eu, como homem, pequei; Tu, porém, como Deus generoso, tem piedade de mim, vendo a fraqueza da minha alma.",
+   "ru": "Господи, я как человек согрешил, Ты же, как Бог милосердный, помилуй меня, видя немощь души моей.",
+   "uk": "Господи, я як людина согрішив, Ти ж, як Бог щедрий, помилуй мене, бачачи неміч душі моєї.",
+   "en": "O Lord, I have sinned as a man, but Thou, as a bountiful God, have mercy upon me, seeing the weakness of my soul.",
+   "fonte": {
+    "cu": "K1817 img. 176–178; MS1900 p. 40–43; Z1912 p. 16–17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-057",
+   "tipo": "oracao",
+   "cu": "Го́споди, посли́ благода́ть Твою́ въ по́мощь мнѣ, да просла́влю и́мя Твое́ свято́е.",
+   "pt": "Senhor, envia a Tua graça em meu auxílio, para que eu glorifique o Teu santo nome.",
+   "ru": "Господи, пошли благодать Твою на помощь мне, чтобы мне прославлять святое имя Твое.",
+   "uk": "Господи, пошли благодать Твою на поміч мені, щоб я прославив ім'я Твоє святе.",
+   "en": "O Lord, send Thy grace to my help, that I may glorify Thy holy Name.",
+   "fonte": {
+    "cu": "K1817 img. 176–178; MS1900 p. 40–43; Z1912 p. 16–17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-058",
+   "tipo": "oracao",
+   "cu": "Го́споди Іису́се Христе́, напиши́ мя, раба́ Твоего́, въ кни́зѣ живо́тнѣй и да́руй ми коне́цъ благі́й.",
+   "pt": "Senhor Jesus Cristo, inscreve-me a mim, Teu servo, no livro da vida, e concede-me um bom fim.",
+   "ru": "Господи Иисусе Христе, впиши меня, раба Твоего, в книгу жизни и даруй мне благую кончину.",
+   "uk": "Господи Іісусе Христе, впиши мене, раба Твого, у книгу життя і даруй мені кінець благий.",
+   "en": "O Lord Jesus Christ, write me, Thy servant, in the Book of Life, and grant me a good end.",
+   "fonte": {
+    "cu": "K1817 img. 176–178; MS1900 p. 40–43; Z1912 p. 16–17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-059",
+   "tipo": "oracao",
+   "cu": "Го́споди Бо́же мой, а́ще и ничто́же бла́го сотвори́хъ предъ Тобо́ю, но даждь ми по благода́ти Твое́й положи́ти нача́ло бла́гое.",
+   "pt": "Senhor meu Deus, ainda que nada de bom tenha feito diante de Ti, concede-me, pela Tua graça, dar um bom começo.",
+   "ru": "Господи Боже мой, хотя я и ничего доброго не сделал пред Тобою, но дай мне по благодати Твоей положить доброе начало.",
+   "uk": "Господи Боже мій, хоч і нічого доброго не вчинив я перед Тобою, але дай мені з благодаті Твоєї покласти початок добрий.",
+   "en": "O Lord my God, even though I have done nothing good before Thee, yet grant me, by Thy grace, to make a good beginning.",
+   "fonte": {
+    "cu": "K1817 img. 176–178; MS1900 p. 40–43; Z1912 p. 16–17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-060",
+   "tipo": "oracao",
+   "cu": "Го́споди, окропи́ въ се́рдцѣ мое́мъ росу́ благода́ти Твоея́.",
+   "pt": "Senhor, asperge o meu coração com o orvalho da Tua graça.",
+   "ru": "Господи, окропи сердце мое росою благодати Твоей.",
+   "uk": "Господи, окропи в серці моєму росою благодаті Твоєї.",
+   "en": "O Lord, sprinkle into my heart the dew of Thy grace.",
+   "fonte": {
+    "cu": "K1817 img. 176–178; MS1900 p. 40–43; Z1912 p. 16–17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-061",
+   "tipo": "oracao",
+   "cu": "Го́споди небесе́ и земли́, помяни́ мя, грѣ́шнаго раба́ Твоего́, сту́днаго и нечи́стаго, во Ца́рствіи Твое́мъ. Ами́нь.",
+   "pt": "Senhor do céu e da terra, lembra-Te de mim, Teu servo pecador, vergonhoso e impuro, no Teu Reino. Ámen.",
+   "ru": "Господи неба и земли, помяни меня, грешного раба Твоего, постыдного и нечистого, во Царствии Твоем. Аминь.",
+   "uk": "Господи неба і землі, пом'яни мене, грішного раба Твого, мерзенного і нечистого, у Царстві Твоїм. Амінь.",
+   "en": "O Lord of heaven and earth, remember me, Thy sinful servant, shameful and impure, in Thy Kingdom. Amen.",
+   "fonte": {
+    "cu": "K1817 img. 176–178; MS1900 p. 40–43; Z1912 p. 16–17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "«студнаго» = vergonhoso, torpe (Z1912: «гнуснаго»)."
+  },
+  {
+   "id": "noite-062",
+   "tipo": "rubrica",
+   "cu": "Нощны́я:",
+   "pt": "Da noite:",
+   "ru": "Ночные:",
+   "uk": "Нічні:",
+   "en": "For the night:",
+   "fonte": {
+    "cu": "K1817 img. 178 («Нощи»)",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-063",
+   "tipo": "oracao",
+   "cu": "Го́споди, въ покая́ніи пріими́ мя.",
+   "pt": "Senhor, recebe-me no arrependimento.",
+   "ru": "Господи, прими меня в покаянии.",
+   "uk": "Господи, у покаянні прийми мене.",
+   "en": "O Lord, receive me in repentance.",
+   "fonte": {
+    "cu": "K1817 img. 178–179; MS1900 p. 42–43; Z1912 p. 17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-064",
+   "tipo": "oracao",
+   "cu": "Го́споди, не оста́ви мене́.",
+   "pt": "Senhor, não me abandones.",
+   "ru": "Господи, не оставь меня.",
+   "uk": "Господи, не залиш мене.",
+   "en": "O Lord, forsake me not.",
+   "fonte": {
+    "cu": "K1817 img. 178–179; MS1900 p. 42–43; Z1912 p. 17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-065",
+   "tipo": "oracao",
+   "cu": "Го́споди, не введи́ мене́ въ напа́сть.",
+   "pt": "Senhor, não me conduzas à provação.",
+   "ru": "Господи, не введи меня в напасть.",
+   "uk": "Господи, не введи мене в напасть.",
+   "en": "O Lord, lead me not into calamity.",
+   "fonte": {
+    "cu": "K1817 img. 178–179; MS1900 p. 42–43; Z1912 p. 17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-066",
+   "tipo": "oracao",
+   "cu": "Го́споди, даждь ми мысль благу́.",
+   "pt": "Senhor, dá-me um bom pensamento.",
+   "ru": "Господи, дай мне добрую мысль.",
+   "uk": "Господи, дай мені думку добру.",
+   "en": "O Lord, grant me a good thought.",
+   "fonte": {
+    "cu": "K1817 img. 178–179; MS1900 p. 42–43; Z1912 p. 17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-067",
+   "tipo": "oracao",
+   "cu": "Го́споди, даждь ми сле́зы и па́мять сме́ртную и умиле́ніе.",
+   "pt": "Senhor, dá-me lágrimas, a memória da morte e a compunção.",
+   "ru": "Господи, дай мне слезы, и память смертную, и умиление.",
+   "uk": "Господи, дай мені сльози, і пам'ять смертну, і розчулення.",
+   "en": "O Lord, grant me tears, and remembrance of death, and compunction.",
+   "fonte": {
+    "cu": "K1817 img. 178–179; MS1900 p. 42–43; Z1912 p. 17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-068",
+   "tipo": "oracao",
+   "cu": "Го́споди, даждь ми по́мыслъ исповѣ́данія грѣхо́въ мои́хъ.",
+   "pt": "Senhor, dá-me o pensamento de confessar os meus pecados.",
+   "ru": "Господи, дай мне помысл исповедания грехов моих.",
+   "uk": "Господи, дай мені думку про сповідь гріхів моїх.",
+   "en": "O Lord, grant me the thought of confessing my sins.",
+   "fonte": {
+    "cu": "K1817 img. 178–179; MS1900 p. 42–43; Z1912 p. 17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-069",
+   "tipo": "oracao",
+   "cu": "Го́споди, даждь ми смире́ніе, цѣлому́дріе и послуша́ніе.",
+   "pt": "Senhor, dá-me humildade, castidade e obediência.",
+   "ru": "Господи, дай мне смирение, целомудрие и послушание.",
+   "uk": "Господи, дай мені смирення, цнотливість і послух.",
+   "en": "O Lord, grant me humility, chastity and obedience.",
+   "fonte": {
+    "cu": "K1817 img. 178–179; MS1900 p. 42–43; Z1912 p. 17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-070",
+   "tipo": "oracao",
+   "cu": "Го́споди, даждь ми терпѣ́ніе, великоду́шіе и кро́тость.",
+   "pt": "Senhor, dá-me paciência, magnanimidade e mansidão.",
+   "ru": "Господи, дай мне терпение, великодушие и кротость.",
+   "uk": "Господи, дай мені терпіння, великодушність і лагідність.",
+   "en": "O Lord, grant me patience, magnanimity and meekness.",
+   "fonte": {
+    "cu": "K1817 img. 178–179; MS1900 p. 42–43; Z1912 p. 17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-071",
+   "tipo": "oracao",
+   "cu": "Го́споди, всели́ въ мя ко́рень благи́хъ, страхъ Твой въ се́рдце мое́.",
+   "pt": "Senhor, planta em mim a raiz dos bens, o Teu temor, no meu coração.",
+   "ru": "Господи, всели в меня корень благ — страх Твой в сердце мое.",
+   "uk": "Господи, всели в мене корінь благ — страх Твій у серце моє.",
+   "en": "O Lord, implant in me the root of good things, Thy fear, in my heart.",
+   "fonte": {
+    "cu": "K1817 img. 178–179; MS1900 p. 42–43; Z1912 p. 17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-072",
+   "tipo": "oracao",
+   "cu": "Го́споди, сподо́би мя люби́ти Тя отъ всея́ души́ моея́ и помышле́нія и твори́ти во всемъ во́лю Твою́.",
+   "pt": "Senhor, concede-me amar-Te com toda a minha alma e todo o meu pensamento, e fazer em tudo a Tua vontade.",
+   "ru": "Господи, сподоби меня любить Тебя от всей души моей и помышления и творить во всем волю Твою.",
+   "uk": "Господи, сподоби мене любити Тебе всією душею моєю і помислом і творити в усьому волю Твою.",
+   "en": "O Lord, vouchsafe me to love Thee with all my soul and mind, and in all things to do Thy will.",
+   "fonte": {
+    "cu": "K1817 img. 178–179; MS1900 p. 42–43; Z1912 p. 17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-073",
+   "tipo": "oracao",
+   "cu": "Го́споди, покры́й мя отъ человѣ́къ нѣ́которыхъ, и бѣ́совъ, и страсте́й, и отъ вся́кія ины́я неподо́бныя ве́щи.",
+   "pt": "Senhor, protege-me de certos homens, e dos demónios, e das paixões, e de toda a outra coisa indecorosa.",
+   "ru": "Господи, защити меня от некоторых людей, и бесов, и страстей, и от всякого иного непотребного дела.",
+   "uk": "Господи, покрий мене від людей деяких, і бісів, і пристрастей, і від усякої іншої непристойної речі.",
+   "en": "O Lord, shelter me from certain men, and from demons, and passions, and from every other unseemly thing.",
+   "fonte": {
+    "cu": "K1817 img. 178–179; MS1900 p. 42–43; Z1912 p. 17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-074",
+   "tipo": "oracao",
+   "cu": "Го́споди, вѣ́си, я́ко твори́ши, я́коже Ты во́лиши, да бу́детъ во́ля Твоя́ и во мнѣ грѣ́шнѣмъ, я́ко благослове́нъ еси́ во вѣ́ки. Ами́нь.",
+   "pt": "Senhor, Tu sabes que fazes como queres: seja feita a Tua vontade também em mim, pecador, porque és bendito pelos séculos. Ámen.",
+   "ru": "Господи, Ты знаешь, что творишь, как Ты хочешь: да будет воля Твоя и во мне грешном, ибо Ты благословен во веки. Аминь.",
+   "uk": "Господи, знаєш, що твориш, як Ти хочеш, нехай буде воля Твоя і в мені грішному, бо благословенний Ти навіки. Амінь.",
+   "en": "O Lord, Thou knowest that Thou doest as Thou willest: let Thy will be done also in me, a sinner, for blessed art Thou unto the ages. Amen.",
+   "fonte": {
+    "cu": "K1817 img. 178–179; MS1900 p. 42–43; Z1912 p. 17",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-075",
+   "tipo": "titulo",
+   "cu": "Моли́тва 8-я, ко Го́споду на́шему Іису́су Христу́",
+   "pt": "Oração 8.ª, a Nosso Senhor Jesus Cristo",
+   "ru": "Молитва 8-я, ко Господу нашему Иисусу Христу",
+   "uk": "Молитва 8-а, до Господа нашого Іісуса Христа",
+   "en": "Prayer 8, to our Lord Jesus Christ",
+   "fonte": {
+    "cu": "K1817 img. 179",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-076",
+   "tipo": "oracao",
+   "cu": "Го́споди Іису́се Христе́, Сы́не Бо́жій, ра́ди честнѣ́йшія Ма́тере Твоея́, и безпло́тныхъ Твои́хъ А́нгелъ, проро́ка же и Предте́чи и Крести́теля Твоего́, богоглаго́ливыхъ же апо́столъ, свѣ́тлыхъ и добропобѣ́дныхъ му́ченикъ, преподо́бныхъ и богоно́сныхъ оте́цъ, и всѣхъ святы́хъ моли́твами, изба́ви мя настоя́щаго обстоя́нія бѣ́совскаго. Ей, Го́споди мой и Тво́рче, не хотя́й сме́рти грѣ́шнаго, но я́коже обрати́тися и живу́ бы́ти ему́, даждь и мнѣ обраще́ніе, окая́нному и недосто́йному; изми́ мя отъ устъ па́губнаго змі́я, зія́ющаго пожре́ти мя и свести́ во адъ жи́ва. Ей, Го́споди мой, утѣше́ніе мое́, И́же мене́ ра́ди окая́ннаго въ тлѣ́нную плоть оболкі́йся, исто́ргни мя отъ окая́нства, и утѣше́ніе пода́ждь души́ мое́й окая́ннѣй. Всади́ въ се́рдце мое́ твори́ти Твоя́ повелѣ́нія, и оста́вити лука́вая дѣя́нія, и получи́ти блаже́нства Твоя́: на Тя бо, Го́споди, упова́хъ, спаси́ мя.",
+   "pt": "Senhor Jesus Cristo, Filho de Deus, pela intercessão da Tua venerabilíssima Mãe, dos Teus Anjos incorpóreos, do Teu Profeta, Precursor e Batista, dos Apóstolos que falaram de Deus, dos Mártires luminosos e vitoriosos, dos Padres veneráveis e teóforos e de todos os santos, livra-me da presente opressão dos demónios. Sim, meu Senhor e Criador, que não queres a morte do pecador, mas que ele se converta e viva, concede também a mim, miserável e indigno, a conversão; arranca-me da boca da serpente destruidora, que se abre para me devorar e me fazer descer vivo ao Hades. Sim, meu Senhor, minha consolação, que por mim, miserável, Te revestiste de carne corruptível, arranca-me da miséria e dá consolação à minha alma miserável. Planta no meu coração o cumprimento dos Teus mandamentos, o abandono das obras más e a obtenção das Tuas bem-aventuranças: pois em Ti, Senhor, esperei; salva-me.",
+   "ru": "Господи Иисусе Христе, Сыне Божий, по молитвам честнейшей Матери Твоей, и бесплотных Твоих Ангелов, Пророка же, Предтечи и Крестителя Твоего, богоглаголивых апостолов, светлых и добропобедных мучеников, преподобных и богоносных отцов и всех святых, избавь меня от настоящего бесовского обстояния. Да, Господи мой и Творец, не хотящий смерти грешника, но чтобы он обратился и был жив, даруй и мне, окаянному и недостойному, обращение; исторгни меня из уст пагубного змия, разинувшего пасть, чтобы пожрать меня и низвести живым в ад. Да, Господи мой, утешение мое, ради меня, окаянного, облекшийся в тленную плоть, исторгни меня из окаянства и подай утешение окаянной душе моей. Всади в сердце мое желание исполнять Твои повеления, оставить лукавые дела и получить Твои блаженства: ибо на Тебя, Господи, я уповаю, спаси меня.",
+   "uk": "Господи Іісусе Христе, Сину Божий, молитвами пречесної Матері Твоєї, і безтілесних Твоїх Ангелів, Пророка ж і Предтечі, і Хрестителя Твого, боговіщих апостолів, світлих і добропереможних мучеників, преподобних і богоносних отців і всіх святих, визволи мене від теперішньої бісівської напасті. Так, Господи мій і Творче, що не хочеш смерті грішника, але щоб навернувся і живий був, дай і мені, окаянному й недостойному, навернення; вирви мене з уст згубного змія, що роззявляється пожерти мене і звести живим до аду. Так, Господи мій, утіхо моя, що задля мене, окаянного, в тлінну плоть одягнувся, вирви мене з окаянства і подай утіху душі моїй окаянній. Насади в серці моєму виконувати Твої повеління, і залишити лукаві діла, і здобути Твої блаженства: бо на Тебе, Господи, уповаю, спаси мене.",
+   "en": "O Lord Jesus Christ, Son of God, for the sake of Thy most honourable Mother, and Thy bodiless Angels, Thy Prophet, Forerunner and Baptist, the God-inspired Apostles, the radiant and victorious Martyrs, the venerable and God-bearing Fathers, and through the prayers of all the saints, deliver me from the present assault of the demons. Yea, my Lord and Creator, who desirest not the death of a sinner, but rather that he should turn and live, grant conversion unto me also, wretched and unworthy; rescue me from the mouth of the destroying serpent, which gapeth to devour me and bring me down alive into hades. Yea, my Lord, my consolation, who for the sake of me, the wretched one, didst clothe Thyself in corruptible flesh, draw me out of wretchedness and grant consolation to my wretched soul. Implant in my heart the doing of Thy commandments, the forsaking of evil deeds, and the attaining of Thy blessings: for in Thee, O Lord, have I hoped; save me.",
+   "fonte": {
+    "cu": "K1817 img. 179–181",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Não consta das edições de 1900 e 1912. «добропобѣдныхъ» = gloriosamente vitoriosos; «оболкійся» = Te revestiste."
+  },
+  {
+   "id": "noite-077",
+   "tipo": "titulo",
+   "cu": "Моли́тва 9-я, ко Пресвятѣ́й Богоро́дицѣ, Петра́ Студи́та",
+   "pt": "Oração 9.ª, à Santíssima Mãe de Deus, de Pedro Estudita",
+   "ru": "Молитва 9-я, ко Пресвятой Богородице, Петра Студита",
+   "uk": "Молитва 9-а, до Пресвятої Богородиці, Петра Студита",
+   "en": "Prayer 9, to the Most Holy Theotokos, of Peter the Studite",
+   "fonte": {
+    "cu": "⚠ não localizado em edição pré-1917 (uso corrente)",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "⚠ Esta oração falta no Канонникъ 1817 e na Псалтирь съ возслѣдованіемъ 1820 (RSL rsl01015050580), que têm 10 orações; também falta em MS1900 e Z1912. Numeração 9.ª–11.ª segundo o Molitvoslov atual (doc. 03 §1.3)."
+  },
+  {
+   "id": "noite-078",
+   "tipo": "oracao",
+   "cu": "Къ Тебѣ́, Пречи́стѣй Бо́жіей Ма́тери, азъ окая́нный, припа́дая молю́ся: вѣ́си, Цари́це, я́ко безпреста́ни согрѣша́ю и прогнѣ́вляю Сы́на Твоего́ и Бо́га моего́, и мно́гажды а́ще ка́юся, ложь предъ Бо́гомъ обрѣта́юся, и ка́юся трепе́ща: еда́ Госпо́дь порази́тъ мя, и по ча́сѣ па́ки та́яжде творю́; вѣ́дущи сія́, Влады́чице моя́, Госпоже́ Богоро́дице, молю́, да поми́луеши, да укрѣпи́ши, и блага́я твори́ти да пода́си ми. Вѣ́си бо, Влады́чице моя́ Богоро́дице, я́ко отню́дъ и́мамъ въ ненави́сти зла́я дѣла́ моя́, и всѣмъ помышле́ніемъ люблю́ зако́нъ Бо́га моего́; но не вѣмъ, Госпоже́ Пречи́стая, отку́ду я́же ненави́жу, та и люблю́, а блага́я преступа́ю. Не попуща́й, Пречи́стая, во́ли мое́й соверша́тися, неуго́дна бо есть, но да бу́детъ во́ля Сы́на Твоего́ и Бо́га моего́: да мя спасе́тъ, и вразуми́тъ, и пода́стъ благода́ть Свята́го Ду́ха, да быхъ азъ отсе́лѣ преста́лъ отъ скве́рныхъ дѣлъ, и про́чее пожи́лъ быхъ въ повелѣ́ніи Сы́на Твоего́, Ему́же подоба́етъ вся́кая сла́ва, честь и держа́ва, со Безнача́льнымъ Его́ Отце́мъ, и Пресвяты́мъ, и Благи́мъ, и Животворя́щимъ Его́ Ду́хомъ, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "A Ti, puríssima Mãe de Deus, eu, miserável, prostrado suplico: Tu sabes, ó Rainha, que peco sem cessar e irrito o Teu Filho e meu Deus, e que, muitas vezes, ainda que me arrependa, me encontro mentiroso diante de Deus; e arrependo-me tremendo: não me fira o Senhor! E, passada uma hora, faço outra vez o mesmo. Sabendo isto, minha Soberana, Senhora Mãe de Deus, suplico-Te que tenhas piedade de mim, que me fortaleças e me concedas fazer o bem. Pois Tu sabes, minha Soberana Mãe de Deus, que detesto absolutamente as minhas más obras e com todo o pensamento amo a lei do meu Deus; mas não sei, Senhora Puríssima, porque é que aquilo que detesto, isso amo, e o bem transgrido. Não permitas, ó Puríssima, que se cumpra a minha vontade, pois não é agradável a Deus, mas faça-se a vontade do Teu Filho e meu Deus: que Ele me salve, me ilumine e me dê a graça do Espírito Santo, para que, daqui em diante, eu deixe as obras impuras e viva o resto da vida segundo os mandamentos do Teu Filho, a quem convém toda a glória, honra e poder, com o Seu Pai sem princípio e o Seu Espírito santíssimo, bom e vivificante, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "К Тебе, Пречистой Божией Матери, я, окаянный, припадая, молюсь: знаешь Ты, Царица, что я непрестанно согрешаю и прогневляю Сына Твоего и Бога моего, и, хотя многократно каюсь, оказываюсь лжецом пред Богом, и каюсь с трепетом: неужели Господь поразит меня? — и спустя час снова делаю то же. Зная это, Владычица моя, Госпожа Богородица, молю: помилуй, укрепи и подай мне творить доброе. Ибо знаешь Ты, Владычица моя Богородица, что я вполне ненавижу злые дела мои и всею мыслью люблю закон Бога моего; но не знаю, Госпожа Пречистая, отчего то, что ненавижу, то и люблю, а добро преступаю. Не допускай, Пречистая, исполняться воле моей, ибо она неугодна Богу, но да будет воля Сына Твоего и Бога моего: да спасет Он меня, и вразумит, и подаст благодать Святого Духа, чтобы я отныне перестал творить скверные дела и остальную жизнь прожил по повелениям Сына Твоего, Которому подобает всякая слава, честь и держава, со безначальным Его Отцом и Пресвятым, и Благим, и Животворящим Его Духом, ныне и присно и во веки веков. Аминь.",
+   "uk": "До Тебе, Пречистої Божої Матері, я, окаянний, припадаючи, молюся: знаєш, Царице, що безперестанно грішу і прогнівлюю Сина Твого і Бога мого, і хоч багато разів каюся, неправдивим перед Богом виявляюся, і каюся, тремтячи: чи не вразить мене Господь? — а за годину знову те саме чиню. Знаючи це, Владичице моя, Пані Богородице, молю: помилуй, зміцни і дай мені творити добре. Бо знаєш, Владичице моя Богородице, що я цілком ненавиджу злі діла мої і всією думкою люблю закон Бога мого; але не знаю, Пані Пречиста, чому те, що ненавиджу, те й люблю, а добро переступаю. Не допусти, Пречиста, щоб здійснювалася воля моя, бо вона неугодна, але нехай буде воля Сина Твого і Бога мого: нехай спасе мене, і напоумить, і дасть благодать Святого Духа, щоб я відтепер перестав чинити скверні діла і решту життя прожив у повелінні Сина Твого, Якому належить усяка слава, честь і держава, з безначальним Його Отцем, і Пресвятим, і Благим, і Животворчим Його Духом, нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Unto thee, most pure Mother of God, do I, the wretched one, fall down and pray: thou knowest, O Queen, that I sin without ceasing and anger thy Son and my God; and though I often repent, I am found a liar before God, and I repent with trembling: lest the Lord strike me! — and within the hour I do the same things again. Knowing this, O my Lady, Sovereign Theotokos, I pray that thou have mercy, strengthen me, and grant me to do good. For thou knowest, O my Lady Theotokos, that I utterly hate my evil deeds, and with all my mind I love the law of my God; but I know not, O most pure Sovereign, whence it is that what I hate, that I love, and the good I transgress. Suffer not, O most pure one, my will to be fulfilled, for it is not pleasing to God; but may the will of thy Son and my God be done: may He save me, and enlighten me, and grant the grace of the Holy Spirit, that henceforth I may cease from foul deeds, and live the rest of my life according to the commandments of thy Son, to whom is due all glory, honour and dominion, together with His unoriginate Father and His most holy, good and life-giving Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "⚠ não localizado em edição pré-1917 (uso corrente)",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "⚠ Texto eslavo segundo o uso corrente, em ortografia pré-reforma, sem confirmação numa edição sinodal pré-1917 — procurar (p. ex. Канонникъ ou Псалтирь sinodais de 1880–1916) antes de rever. «ложь… обрѣтаюся»: algumas edições trazem «лжа» ⚠."
+  },
+  {
+   "id": "noite-079",
+   "tipo": "titulo",
+   "cu": "Моли́тва 10-я, ко Пресвятѣ́й Богоро́дицѣ",
+   "pt": "Oração 10.ª, à Santíssima Mãe de Deus",
+   "ru": "Молитва 10-я, ко Пресвятой Богородице",
+   "uk": "Молитва 10-а, до Пресвятої Богородиці",
+   "en": "Prayer 10, to the Most Holy Theotokos",
+   "fonte": {
+    "cu": "K1817 img. 181; Z1912 p. 17",
+    "ru": "Z1912 p. 17",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "No Канонникъ 1817 é a 9.ª."
+  },
+  {
+   "id": "noite-080",
+   "tipo": "oracao",
+   "cu": "Бла́гаго Царя́ блага́я Ма́ти, Пречи́стая и Благослове́нная Богоро́дице Марі́е, ми́лость Сы́на Твоего́ и Бо́га на́шего изле́й на стра́стную мою́ ду́шу, и Твои́ми моли́твами наста́ви мя на дѣя́нія блага́я, да про́чее вре́мя живота́ моего́ безъ поро́ка прейду́, и Тобо́ю рай да обрящу́, Богоро́дице Дѣ́во, еди́на Чи́стая и Благослове́нная.",
+   "pt": "Ó boa Mãe do bom Rei, puríssima e bendita Mãe de Deus Maria, derrama a misericórdia do Teu Filho e nosso Deus sobre a minha alma apaixonada, e com as Tuas orações guia-me para as boas obras, para que eu passe sem mácula o resto da minha vida e por Ti encontre o paraíso, ó Virgem Mãe de Deus, única pura e bendita.",
+   "ru": "Благого Царя благая Мать, Пречистая и Благословенная Богородица Мария! Излей на мою страстную душу милость Сына Твоего и Бога нашего и Твоими молитвами наставь меня на добрые дела, чтобы остальное время моей жизни мне прожить без порока и с Твоею помощью найти рай, Богородица Дева, единая Чистая и Благословенная.",
+   "uk": "Благого Царя блага Мати, Пречиста і Благословенна Богородице Маріє, милість Сина Твого і Бога нашого вилий на пристрасну мою душу і Твоїми молитвами настав мене на діла добрі, щоб решту часу життя мого без пороку прожив я і через Тебе рай знайшов, Богородице Діво, єдина Чиста і Благословенна.",
+   "en": "O good Mother of the good King, most pure and blessed Theotokos Mary, pour out the mercy of thy Son and our God upon my passionate soul, and by thy prayers guide me unto good deeds, that I may pass the remaining time of my life without blemish, and through thee attain Paradise, O Virgin Theotokos, who alone art pure and blessed.",
+   "fonte": {
+    "cu": "Z1912 p. 17; MS1900 p. 43–44; K1817 img. 181",
+    "ru": "Z1912 p. 17 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "RU: Zaionchkovsky («милосердого… милосердая» corrigido para «Благого… благая», como no eslavo)."
+  },
+  {
+   "id": "noite-081",
+   "tipo": "titulo",
+   "cu": "Моли́тва 11-я, ко свято́му А́нгелу храни́телю",
+   "pt": "Oração 11.ª, ao santo Anjo da Guarda",
+   "ru": "Молитва 11-я, к святому Ангелу Хранителю",
+   "uk": "Молитва 11-а, до святого Ангела Хранителя",
+   "en": "Prayer 11, to the holy Guardian Angel",
+   "fonte": {
+    "cu": "K1817 img. 182; Z1912 p. 18",
+    "ru": "Z1912 p. 18",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "No Канонникъ 1817 é a 10.ª."
+  },
+  {
+   "id": "noite-082",
+   "tipo": "oracao",
+   "cu": "А́нгеле Христо́въ, храни́телю мой святы́й и покрови́телю души́ и тѣ́ла моего́, вся ми прости́, ели́ка согрѣши́хъ во дне́шній день, и отъ вся́каго лука́вствія проти́внаго ми врага́ изба́ви мя, да ни въ ко́емже грѣсѣ́ прогнѣ́ваю Бо́га моего́; но моли́ за мя, грѣ́шнаго и недосто́йнаго раба́, я́ко да досто́йна мя пока́жеши бла́гости и ми́лости Всесвяты́я Тро́ицы и Ма́тере Го́спода моего́ Іису́са Христа́ и всѣхъ святы́хъ. Ами́нь.",
+   "pt": "Anjo de Cristo, meu santo guardião e protetor da minha alma e do meu corpo, perdoa-me tudo aquilo em que pequei no dia de hoje, e livra-me de toda a astúcia do inimigo que se me opõe, para que em nenhum pecado eu irrite o meu Deus; mas intercede por mim, servo pecador e indigno, para que me tornes digno da bondade e da misericórdia da Santíssima Trindade, da Mãe do meu Senhor Jesus Cristo e de todos os santos. Ámen.",
+   "ru": "Ангел Христов, святой мой хранитель и покровитель души и тела моего! Прости мне всё, чем я согрешил в сегодняшний день, и избавь меня от всякого коварства противящегося мне врага, чтобы мне никаким грехом не прогневать Бога моего. Но молись за меня, грешного и недостойного раба, чтобы ты представил меня достойным благости и милости Всесвятой Троицы и Матери Господа моего Иисуса Христа и всех святых. Аминь.",
+   "uk": "Ангеле Христовий, охоронцю мій святий і покровителю душі й тіла мого, все мені прости, чим согрішив я сьогоднішнього дня, і від усякого підступу ворога, що противиться мені, визволи мене, щоб ні в якому гріху не прогнівив я Бога мого; але молися за мене, грішного й недостойного раба, щоб ти показав мене достойним благості й милості Всесвятої Трійці і Матері Господа мого Іісуса Христа і всіх святих. Амінь.",
+   "en": "O Angel of Christ, my holy guardian and protector of my soul and body, forgive me all wherein I have sinned this day, and deliver me from every wile of the enemy that opposeth me, that I may not anger my God by any sin; but pray for me, a sinful and unworthy servant, that thou mayest show me worthy of the goodness and mercy of the All-holy Trinity, and of the Mother of my Lord Jesus Christ, and of all the saints. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 18; MS1900 p. 44–45; K1817 img. 182",
+    "ru": "Z1912 p. 18 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-083",
+   "tipo": "titulo",
+   "cu": "Конда́къ Пресвятѣ́й Богоро́дицѣ",
+   "pt": "Condácio à Santíssima Mãe de Deus",
+   "ru": "Кондак Пресвятой Богородице",
+   "uk": "Кондак Пресвятій Богородиці",
+   "en": "Kontakion to the Most Holy Theotokos",
+   "fonte": {
+    "cu": "K1817 img. 182 («Таже кондакъ Богородицѣ»)",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-084",
+   "tipo": "oracao",
+   "cu": "Взбра́нной Воево́дѣ побѣди́тельная, я́ко изба́вльшеся отъ злыхъ, благода́рственная воспису́емъ Ти раби́ Твои́, Богоро́дице; но я́ко иму́щая держа́ву непобѣди́мую, отъ вся́кихъ насъ бѣдъ свободи́, да зове́мъ Ти: ра́дуйся, Невѣ́сто Неневѣ́стная.",
+   "pt": "A Ti, Chefe invencível, nós, Teus servos, libertos dos males, escrevemos cânticos de vitória e de ação de graças, ó Mãe de Deus; mas Tu, que tens um poder invencível, livra-nos de todas as desgraças, para que Te clamemos: Alegra-Te, Esposa sem esposo.",
+   "ru": "Тебе, высшей Военачальнице, избавившись от бед, мы, рабы Твои, Богородица, воспеваем победную и благодарственную песнь. Ты же, как имеющая силу непобедимую, освобождай нас от всяких бед, чтобы мы взывали к Тебе: радуйся, Невеста, в брак не вступившая!",
+   "uk": "Взбранній Воєводі переможнії, як ізбавлені від злих, подячнії пісні приносимо Тобі, раби Твої, Богородице; Ти ж, маючи державу непереможну, від усяких нас бід визволи, щоб ми звали до Тебе: радуйся, Невісто Неневісная.",
+   "en": "To thee, the Champion Leader, we thy servants, delivered from evils, ascribe songs of victory and thanksgiving, O Theotokos; but as thou hast invincible might, set us free from all calamities, that we may cry unto thee: Rejoice, O unwedded Bride.",
+   "fonte": {
+    "cu": "Z1912 p. 18; MS1900 p. 45; K1817 img. 182–183",
+    "ru": "Z1912 p. 18 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "UK: forma litúrgica tradicional («Взбранній Воєводі…»), mais próxima do texto cantado na IOU ⚠ confirmar com uso da IOU."
+  },
+  {
+   "id": "noite-085",
+   "tipo": "oracao",
+   "cu": "Пресла́вная Приснодѣ́во, Ма́ти Христа́ Бо́га, принеси́ на́шу моли́тву Сы́ну Твоему́ и Бо́гу на́шему, да спасе́тъ Тобо́ю ду́ши на́ша.",
+   "pt": "Gloriosíssima sempre-Virgem, Mãe de Cristo Deus, leva a nossa oração ao Teu Filho e nosso Deus, para que por Ti salve as nossas almas.",
+   "ru": "Преславная Приснодева, Матерь Христа Бога, принеси нашу молитву Сыну Твоему и Богу нашему, чтобы Он спас Тобою души наши.",
+   "uk": "Преславна Приснодіво, Мати Христа Бога, принеси нашу молитву Синові Твоєму і Богові нашому, щоб спас Тобою душі наші.",
+   "en": "O most glorious Ever-Virgin, Mother of Christ our God, bear our prayer unto thy Son and our God, that through thee He may save our souls.",
+   "fonte": {
+    "cu": "Z1912 p. 18; MS1900 p. 45; K1817 img. 183",
+    "ru": "propria",
+    "en": "H1906 p. 162 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-086",
+   "tipo": "oracao",
+   "cu": "Все упова́ніе мое́ на Тя возлага́ю, Ма́ти Бо́жія, сохрани́ мя подъ кро́вомъ Твои́мъ.",
+   "pt": "Toda a minha esperança ponho em Ti, ó Mãe de Deus: guarda-me sob a Tua proteção.",
+   "ru": "Всё упование мое на Тебя возлагаю, Матерь Божия, сохрани меня под покровом Твоим.",
+   "uk": "Усе уповання моє на Тебе покладаю, Мати Божа, збережи мене під покровом Твоїм.",
+   "en": "All my hope I place in thee, O Mother of God: keep me under thy shelter.",
+   "fonte": {
+    "cu": "Z1912 p. 18; MS1900 p. 45; K1817 img. 183",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-087",
+   "tipo": "oracao",
+   "cu": "Богоро́дице Дѣ́во, не пре́зри мене́ грѣ́шнаго, тре́бующа Твоея́ по́мощи и Твоего́ заступле́нія; на Тя бо упова́ душа́ моя́, и поми́луй мя.",
+   "pt": "Virgem Mãe de Deus, não desprezes a mim, pecador, que preciso do Teu auxílio e da Tua intercessão; pois em Ti esperou a minha alma: tem piedade de mim.",
+   "ru": "Богородица Дева, не презри меня, грешного, требующего Твоей помощи и Твоего заступничества, ибо на Тебя уповает душа моя, и помилуй меня.",
+   "uk": "Богородице Діво, не зневаж мене, грішного, що потребую Твоєї допомоги і Твого заступництва; бо на Тебе уповає душа моя, і помилуй мене.",
+   "en": "O Virgin Theotokos, despise not me, a sinner, who have need of thy help and thine intercession; for in thee hath my soul hoped: have mercy on me.",
+   "fonte": {
+    "cu": "K1817 img. 183",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Não consta de MS1900 nem de Z1912."
+  },
+  {
+   "id": "noite-088",
+   "tipo": "titulo",
+   "cu": "Моли́тва свята́го Іоанні́кія",
+   "pt": "Oração de São Joanício",
+   "ru": "Молитва святого Иоанникия",
+   "uk": "Молитва святого Іоаннікія",
+   "en": "Prayer of St Ioannikios",
+   "fonte": {
+    "cu": "K1817 img. 184",
+    "ru": "propria",
+    "en": "H1906 p. 162",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-089",
+   "tipo": "oracao",
+   "cu": "Упова́ніе мое́ Оте́цъ, прибѣ́жище мое́ Сынъ, покро́въ мой Духъ Святы́й: Тро́ице Свята́я, сла́ва Тебѣ́.",
+   "pt": "A minha esperança é o Pai, o meu refúgio é o Filho, a minha proteção é o Espírito Santo: Santíssima Trindade, glória a Ti.",
+   "ru": "Упование мое — Отец, прибежище мое — Сын, покров мой — Дух Святой: Троица Святая, слава Тебе.",
+   "uk": "Уповання моє — Отець, пристановище моє — Син, покров мій — Дух Святий: Тройце Свята, слава Тобі.",
+   "en": "My hope is the Father, my refuge is the Son, my protection is the Holy Spirit: O Holy Trinity, glory to Thee.",
+   "fonte": {
+    "cu": "Z1912 p. 18; MS1900 p. 46; K1817 img. 184",
+    "ru": "propria",
+    "en": "H1906 p. 162 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-090",
+   "tipo": "oracao",
+   "cu": "Досто́йно есть я́ко вои́стинну блажи́ти Тя Богоро́дицу, Присноблаже́нную и Пренепоро́чную и Ма́терь Бо́га на́шего. Честнѣ́йшую Херуви́мъ и сла́внѣйшую безъ сравне́нія Серафи́мъ, безъ истлѣ́нія Бо́га Сло́ва ро́ждшую, су́щую Богоро́дицу Тя велича́емъ.",
+   "pt": "É verdadeiramente digno bendizer-Te, ó Mãe de Deus, sempre bem-aventurada e toda imaculada, Mãe do nosso Deus. Mais venerável que os Querubins e incomparavelmente mais gloriosa que os Serafins, que sem corrupção deste à luz Deus Verbo, verdadeira Mãe de Deus, nós Te engrandecemos.",
+   "ru": "Поистине правильно прославлять Тебя, как Богородицу, всегда блаженную и совершенно непорочную, и Матерь нашего Бога. Мы величаем Тебя, как истинную Богородицу, родившую без болезни Бога-Слово, достойную большей почести, чем Херувимы, и несравненно славнейшую, нежели Серафимы.",
+   "uk": "Достойно є воістину величати Тебе, Богородицю, Присноблаженну і Пренепорочну, і Матір Бога нашого. Чеснішу від Херувимів і незрівнянно славнішу від Серафимів, що без зотління Бога Слово породила, сущу Богородицю, Тебе величаємо.",
+   "en": "It is truly meet to bless thee, O Theotokos, ever-blessed and all-immaculate, and the Mother of our God. More honourable than the Cherubim, and beyond compare more glorious than the Seraphim, thou who without corruption gavest birth to God the Word, true Theotokos, we magnify thee.",
+   "fonte": {
+    "cu": "Z1912 pp. 12–13",
+    "ru": "Z1912 pp. 12–13",
+    "en": "H1906 p. 107",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "De Páscoa à Ascensão substitui-se por «Ангелъ вопія́ше» + «Свѣти́ся» (doc. 03 §1.4). RU: Z1912 traduz «без истления» por «без болезни» (sem dor), interpretação patrística corrente; mantido. ⚠ O grego ἀδιαφθόρως é literalmente «sem corrupção» (PT/EN/UK). EN: Hapgood «Meet is it, in truth» reordenado; «Birth-giver of God» → «Theotokos». — De Antipascha à Ascensão substitui-se por «Ангелъ вопіяше» + «Свѣтися» (doc. 03 §1.4). Quem vai dormir logo pode passar os blocos de «Достойно есть» até à despedida para o fim (doc. 03 §1.3). Partilhado com as orações da manhã — manter idêntico a manha.json. [Texto idêntico a manha-81.]"
+  },
+  {
+   "id": "noite-091",
+   "tipo": "rubrica",
+   "cu": "Отъ Па́схи до Вознесе́нія Госпо́дня, вмѣ́сто «Досто́йно есть», поётся:",
+   "pt": "Da Páscoa até à Ascensão do Senhor, em lugar de «É verdadeiramente digno», canta-se:",
+   "ru": "От Пасхи до Вознесения Господня вместо «Достойно есть» поется:",
+   "uk": "Від Пасхи до Вознесіння Господнього замість «Достойно є» співається:",
+   "en": "From Pascha until the Ascension of the Lord, instead of «It is truly meet», the following is sung:",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "Rubrica própria segundo doc. 03 §1.4. Textos de Z1912 (Cânone Pascal, ode 9: refrão e irmo). [Texto idêntico a manha-82.]"
+  },
+  {
+   "id": "noite-092",
+   "tipo": "oracao",
+   "cu": "А́нгелъ вопія́ше Благода́тнѣй: Чи́стая Дѣ́во, ра́дуйся! И па́ки реку́: ра́дуйся! Твой Сынъ воскре́се тридне́венъ отъ гро́ба, и ме́ртвыя воздви́гнувый; лю́діе, весели́теся!",
+   "pt": "O Anjo clamou à Cheia de Graça: Virgem pura, alegra-Te! E de novo digo: alegra-Te! O Teu Filho ressuscitou ao terceiro dia do sepulcro e levantou os mortos. Povos, regozijai-vos!",
+   "ru": "Ангел возгласил Благодатной: «Чистая Дева, радуйся!» И я повторю: радуйся! Твой Сын воскрес на третий день из гроба, воскресивший мертвых. Люди, торжествуйте!",
+   "uk": "Ангел взивав Благодатній: Чиста Діво, радуйся! І знову кажу: радуйся! Твій Син воскрес на третій день із гробу і мертвих підняв. Люди, веселіться!",
+   "en": "The Angel cried unto her who is full of grace: Rejoice, O pure Virgin! And again I say: Rejoice! Thy Son is risen from the tomb on the third day, and hath raised up the dead. Rejoice, O ye people!",
+   "fonte": {
+    "cu": "Z1912 p. 112",
+    "ru": "Z1912 p. 112",
+    "en": "H1906 p. 232",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "EN: Hapgood «Hail» → «Rejoice» (ра́дуйся); «from his three days' sojourn in the grave» → «from the tomb on the third day». PT: «весели́теся» = «regozijai-vos». — Refrão da 9.ª ode do Cânone Pascal; diz-se em vez de «Достойно есть» de Antipascha à Ascensão. [Texto idêntico a manha-83.]"
+  },
+  {
+   "id": "noite-093",
+   "tipo": "oracao",
+   "cu": "Свѣти́ся, свѣти́ся, но́вый Іерусали́ме, сла́ва бо Госпо́дня на тебѣ́ возсія́; лику́й ны́нѣ и весели́ся, Сіо́не! Ты же, Чи́стая, красу́йся, Богоро́дице, о воста́ніи Рождества́ Твоего́.",
+   "pt": "Resplandece, resplandece, ó nova Jerusalém, porque a glória do Senhor brilhou sobre ti; exulta agora e alegra-te, ó Sião! E Tu, ó Pura, rejubila, Mãe de Deus, com a ressurreição d'Aquele que deste à luz.",
+   "ru": "Сияй, сияй, новый Иерусалим, ибо слава Господня озарила тебя! Торжествуй теперь и веселись, Сион! А Ты, Чистая Богородица, радуйся воскресению Рожденного Тобою.",
+   "uk": "Світися, світися, новий Єрусалиме, бо слава Господня над тобою засяяла; радій нині і веселися, Сіоне! А Ти, Чиста Богородице, красуйся воскресінням Народженого Тобою.",
+   "en": "Shine, shine, O new Jerusalem, for the glory of the Lord hath arisen upon thee! Dance now and be glad, O Zion! And do thou, O pure Theotokos, rejoice in the rising of Him whom thou didst bear.",
+   "fonte": {
+    "cu": "Z1912 p. 113",
+    "ru": "Z1912 p. 113",
+    "en": "H1906 p. 232",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "Irmo da 9.ª ode do Cânone Pascal. EN: Hapgood «Keep high holiday» → «Dance» (лику́й, χόρευε); «Birth-giver of God» → «Theotokos». — Hirmo da 9.ª ode do Cânone Pascal. [Texto idêntico a manha-84.]"
+  },
+  {
+   "id": "noite-094",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Z1912 p. 13: «Сла́ва, и ны́нѣ:». [Texto idêntico a manha-85.]"
+  },
+  {
+   "id": "noite-095",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "[Texto idêntico a manha-86.]"
+  },
+  {
+   "id": "noite-096",
+   "tipo": "oracao",
+   "cu": "Го́споди Іису́се Христе́, Сы́не Бо́жій, моли́твъ ра́ди Пречи́стыя Твоея́ Ма́тере, преподо́бныхъ и богоно́сныхъ оте́цъ на́шихъ и всѣхъ святы́хъ, поми́луй насъ. Ами́нь.",
+   "pt": "Senhor Jesus Cristo, Filho de Deus, pelas orações da Tua Mãe puríssima, dos nossos veneráveis Padres teóforos e de todos os santos, tem piedade de nós. Ámen.",
+   "ru": "Господи Иисусе Христе, Сыне Божий, по молитвам Пречистой Твоей Матери, преподобных и богоносных отцов наших и всех святых помилуй нас. Аминь.",
+   "uk": "Господи Іісусе Христе, Сину Божий, молитов ради Пречистої Твоєї Матері, преподобних і богоносних отців наших і всіх святих, помилуй нас. Амінь.",
+   "en": "O Lord Jesus Christ, Son of God, through the prayers of Thy most pure Mother, of our venerable and God-bearing Fathers, and of all the saints, have mercy upon us. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 13",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Despedida (отпустъ) leiga. Z1912 não traduz (RU própria). MS1900 p. 28 idêntica. — Despedida (отпустъ). K1817 termina «спаси мя грѣшнаго»; MS1900/Z1912 «помилуй насъ». [Texto idêntico a manha-87.]"
+  },
+  {
+   "id": "noite-097",
+   "tipo": "titulo",
+   "cu": "Моли́тва свята́го Іоа́нна Дамаски́на, ю́же, указу́я на одръ свой, глаго́ли",
+   "pt": "Oração de São João Damasceno, que se diz apontando para o leito",
+   "ru": "Молитва святого Иоанна Дамаскина, которую произноси, указывая на свою постель",
+   "uk": "Молитва святого Іоанна Дамаскина, яку промовляй, вказуючи на своє ложе",
+   "en": "Prayer of St John of Damascus, to be said pointing to one's bed",
+   "fonte": {
+    "cu": "K1817 img. 184",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-098",
+   "tipo": "oracao",
+   "cu": "Влады́ко Человѣколю́бче, неу́жели мнѣ одръ сей гробъ бу́детъ, или́ еще́ окая́нную мою́ ду́шу просвѣти́ши днемъ? Се ми гробъ предлежи́тъ, се ми смерть предстои́тъ. Суда́ Твоего́, Го́споди, бою́ся и му́ки безконе́чныя, зло́е же творя́ не преста́ю: Тебе́ Го́спода Бо́га моего́ всегда́ прогнѣ́вляю, и Пречи́стую Твою́ Ма́терь, и вся Небе́сныя си́лы, и свята́го А́нгела храни́теля моего́. Вѣмъ у́бо, Го́споди, я́ко недосто́инъ есмь человѣколю́бія Твоего́, но досто́инъ есмь вся́каго осужде́нія и му́ки. Но, Го́споди, или́ хощу́, или́ не хощу́, спаси́ мя. А́ще бо пра́ведника спасе́ши, ничто́же ве́ліе; и а́ще чи́стаго поми́луеши, ничто́же ди́вно: досто́йни бо суть ми́лости Твоея́. Но на мнѣ, грѣ́шнѣмъ, удиви́ ми́лость Твою́: о семъ яви́ человѣколю́біе Твое́, да не одолѣ́етъ моя́ зло́ба Твое́й неизглаго́ланнѣй бла́гости и милосе́рдію; и я́коже хо́щеши, устро́й о мнѣ вещь.",
+   "pt": "Soberano amigo dos homens, será este leito o meu túmulo, ou iluminarás ainda com o dia a minha alma miserável? Eis que o túmulo está diante de mim, eis que a morte me espera. Temo, Senhor, o Teu juízo e o tormento sem fim, e contudo não deixo de fazer o mal: irrito sempre a Ti, Senhor meu Deus, e a Tua Mãe puríssima, e todas as Potências celestes, e o santo Anjo meu guardião. Sei, Senhor, que sou indigno do Teu amor aos homens, mas digno de toda a condenação e tormento. Mas, Senhor, queira eu ou não queira, salva-me. Pois, se salvas o justo, nada há de grande; e se tens piedade do puro, nada há de admirável, pois são dignos da Tua misericórdia. Mas em mim, pecador, mostra admirável a Tua misericórdia: nisto manifesta o Teu amor aos homens, para que a minha maldade não vença a Tua inefável bondade e misericórdia; e dispõe de mim como quiseres.",
+   "ru": "Владыка Человеколюбец, неужели этот одр будет мне гробом, или еще просветишь окаянную мою душу днем? Вот гроб предлежит мне, вот смерть предстоит мне. Суда Твоего, Господи, боюсь и мук бесконечных, но не перестаю творить злое: Тебя, Господа Бога моего, постоянно прогневляю, и Пречистую Твою Матерь, и все Небесные силы, и святого Ангела хранителя моего. Знаю, Господи, что я недостоин человеколюбия Твоего, но достоин всякого осуждения и муки. Но, Господи, хочу ли я или не хочу, спаси меня. Ибо если праведника спасешь, ничего в том великого; и если чистого помилуешь, ничего в том дивного: они ведь достойны милости Твоей. Но на мне, грешном, яви дивную милость Твою: в этом покажи Твое человеколюбие, чтобы моя злоба не одолела Твоей неизреченной благости и милосердия; и как хочешь, так устрой мою участь.",
+   "uk": "Владико Чоловіколюбче, невже мені це ложе гробом буде, чи ще окаянну мою душу просвітиш днем? Ось гріб переді мною, ось смерть переді мною стоїть. Суду Твого, Господи, боюся і мук безконечних, а зла творити не перестаю: Тебе, Господа Бога мого, завжди прогнівлюю, і Пречисту Твою Матір, і всі Небесні сили, і святого Ангела охоронця мого. Знаю, Господи, що недостойний я чоловіколюбства Твого, але достойний усякого осуду і муки. Але, Господи, чи хочу я, чи не хочу, спаси мене. Бо коли праведника спасеш — нічого великого; і коли чистого помилуєш — нічого дивного: бо достойні вони милості Твоєї. Але на мені, грішному, яви дивну милість Твою: у цьому яви чоловіколюбство Твоє, щоб не здолала моя злоба Твоєї невимовної благості й милосердя; і як хочеш, так влаштуй мою долю.",
+   "en": "O Master, Lover of mankind, shall this bed be my tomb, or wilt Thou yet enlighten my wretched soul with the day? Behold, the tomb lieth before me, behold, death confronteth me. I fear Thy judgment, O Lord, and the endless torment, yet I cease not from doing evil: I ever anger Thee, my Lord and God, and Thy most pure Mother, and all the heavenly Powers, and my holy guardian Angel. I know, O Lord, that I am unworthy of Thy love for mankind, but worthy of all condemnation and torment. But, O Lord, whether I will or not, save me. For if Thou savest a righteous man, it is no great thing; and if Thou hast mercy on the pure, it is nothing wonderful, for they are worthy of Thy mercy. But on me, a sinner, show the wonder of Thy mercy: in this reveal Thy love for mankind, lest my wickedness prevail over Thine unspeakable goodness and compassion; and order my lot as Thou willest.",
+   "fonte": {
+    "cu": "K1817 img. 184–186",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Não consta de MS1900 nem de Z1912."
+  },
+  {
+   "id": "noite-099",
+   "tipo": "oracao",
+   "cu": "Просвѣти́ о́чи мои́, Христе́ Бо́же, да не когда́ усну́ въ смерть, да не когда́ рече́тъ врагъ мой: укрѣпи́хся на него́.",
+   "pt": "Ilumina os meus olhos, ó Cristo Deus, para que eu não adormeça na morte, para que o meu inimigo não diga: prevaleci contra ele.",
+   "ru": "Просвети очи мои, Христе Боже, чтобы я не уснул смертным сном, чтобы не сказал враг мой: я одолел его.",
+   "uk": "Просвіти очі мої, Христе Боже, щоб не заснув я смертним сном, щоб не сказав ворог мій: я переміг його.",
+   "en": "Lighten mine eyes, O Christ God, lest at any time I sleep unto death, lest at any time mine enemy say: I have prevailed against him.",
+   "fonte": {
+    "cu": "Z1912 p. 18; MS1900 p. 45–46; K1817 img. 186",
+    "ru": "propria",
+    "en": "H1906 p. 153 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Cf. Sl 12(13),4-5. K1817 precede-a da rubrica «И инако, хотяй возлещи на постелю, глаголи сіе»."
+  },
+  {
+   "id": "noite-100",
+   "tipo": "oracao",
+   "cu": "Сла́ва: Засту́пникъ души́ моея́ бу́ди, Бо́же, я́ко посредѣ́ хожду́ сѣте́й мно́гихъ; изба́ви мя отъ нихъ и спаси́ мя, Бла́же, я́ко Человѣколю́бецъ.",
+   "pt": "Glória…: Sê, ó Deus, o defensor da minha alma, pois caminho no meio de muitas ciladas; livra-me delas e salva-me, ó Bom, porque és amigo dos homens.",
+   "ru": "Слава: Будь заступником души моей, Боже, ибо я хожу посреди многих сетей; избавь меня от них и спаси меня, Благий, как Человеколюбец.",
+   "uk": "Слава: Заступником душі моєї будь, Боже, бо посеред тенет численних ходжу; визволи мене від них і спаси мене, Благий, як Чоловіколюбець.",
+   "en": "Glory…: Be Thou the defender of my soul, O God, for I walk amid a multitude of snares. Deliver me from them and save me, O Good One, for Thou art the Lover of mankind.",
+   "fonte": {
+    "cu": "Z1912 p. 18; MS1900 p. 46; K1817 img. 186",
+    "ru": "propria",
+    "en": "H1906 p. 153",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-101",
+   "tipo": "oracao",
+   "cu": "И ны́нѣ: Пресла́вную Бо́жію Ма́терь и святы́хъ А́нгелъ Святѣ́йшую немо́лчно воспои́мъ се́рдцемъ и усты́, Богоро́дицу Сію́ исповѣ́дающе, я́ко вои́стинну ро́ждшую намъ Бо́га воплоще́нна, и моля́щуюся непреста́нно о душа́хъ на́шихъ.",
+   "pt": "E agora…: A gloriosíssima Mãe de Deus, mais santa do que os santos Anjos, cantemo-La sem cessar com o coração e os lábios, confessando-A Mãe de Deus, porque verdadeiramente deu à luz para nós Deus encarnado e intercede sem cessar pelas nossas almas.",
+   "ru": "И ныне: Преславную Божию Матерь, святейшую святых Ангелов, будем непрестанно воспевать сердцем и устами, исповедуя Ее Богородицею, ибо Она воистину родила нам воплотившегося Бога и непрестанно молится о душах наших.",
+   "uk": "І нині: Преславну Божу Матір і від святих Ангелів Святішу безмовчно оспіваймо серцем і устами, сповідуючи Її Богородицею, бо воістину народила нам Бога воплоченого і молиться безперестанно за душі наші.",
+   "en": "Now and ever…: The most glorious Mother of God, more holy than the holy Angels, let us hymn unceasingly with heart and lips, confessing her to be the Theotokos, for truly she gave birth for us to God incarnate, and prayeth without ceasing for our souls.",
+   "fonte": {
+    "cu": "K1817 img. 186–187",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Богородиченъ, tom 6 (K1817). Edições atuais: «Преславную Богородицу…» ⚠ (doc. 03 §1.3 cita «Преславную Божию Матерь»)."
+  },
+  {
+   "id": "noite-102",
+   "tipo": "rubrica",
+   "cu": "Та́же цѣлу́й крестъ твой, и прекрести́ кресто́мъ мѣ́сто твое́ отъ главы́ и до ногъ, тако́жде и отъ всѣхъ странъ, глаго́ля моли́тву Честно́му Кресту́:",
+   "pt": "Depois beija a tua cruz e benze com a cruz o teu leito, da cabeceira aos pés e de todos os lados, dizendo a oração à venerável Cruz:",
+   "ru": "Затем поцелуй свой крест и перекрести крестом свою постель от изголовья до ног и со всех сторон, произнося молитву Честному Кресту:",
+   "uk": "Потім поцілуй свій хрест і перехрести хрестом своє місце від голови до ніг і з усіх боків, промовляючи молитву Чесному Хресту:",
+   "en": "Then kiss thy cross, and sign thy bed with the cross from head to foot and on all sides, saying the prayer to the precious Cross:",
+   "fonte": {
+    "cu": "K1817 img. 187",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "MS1900 p. 49 e Z1912 p. 20: «Ложась на постель, знаменуй себя крестомъ и говори»."
+  },
+  {
+   "id": "noite-103",
+   "tipo": "oracao",
+   "cu": "Да воскре́снетъ Богъ, и расточа́тся вра́зи Его́, и да бѣжа́тъ отъ лица́ Его́ ненави́дящіи Его́. Я́ко исчеза́етъ дымъ, да исче́знутъ; я́ко та́етъ воскъ отъ лица́ огня́, та́ко да поги́бнутъ бѣ́си отъ лица́ лю́бящихъ Бо́га и знамену́ющихся кре́стнымъ зна́меніемъ, и въ весе́ліи глаго́лющихъ: ра́дуйся, Пречестны́й и Животворя́щій Кре́сте Госпо́день, прогоня́яй бѣ́сы си́лою на тебѣ́ пропя́таго Го́спода на́шего Іису́са Христа́, во адъ сше́дшаго и попра́вшаго си́лу діа́волю, и дарова́вшаго намъ тебе́, Крестъ Свой Честны́й, на прогна́ніе вся́каго супоста́та. О Пречестны́й и Животворя́щій Кре́сте Госпо́день! Помога́й ми со Свято́ю Госпоже́ю Дѣ́вою Богоро́дицею и со всѣ́ми святы́ми во вѣ́ки. Ами́нь.",
+   "pt": "Levante-se Deus e dispersem-se os Seus inimigos, e fujam diante da Sua face os que O odeiam. Como se desvanece o fumo, assim se desvaneçam; como se derrete a cera diante do fogo, assim pereçam os demónios diante da face dos que amam a Deus e se assinalam com o sinal da cruz e dizem com alegria: Alegra-te, venerabilíssima e vivificante Cruz do Senhor, que expulsas os demónios pelo poder de Nosso Senhor Jesus Cristo, em ti crucificado, que desceu ao Hades, calcou o poder do diabo e te deu a nós, a ti, Sua venerável Cruz, para expulsar todo o adversário. Ó venerabilíssima e vivificante Cruz do Senhor! Ajuda-me, com a santa Senhora Virgem Mãe de Deus e com todos os santos, pelos séculos. Ámen.",
+   "ru": "Да воскреснет Бог, и рассеются враги Его, и да бегут от лица Его ненавидящие Его. Как исчезает дым, да исчезнут они; как тает воск от огня, так да погибнут бесы от лица любящих Бога и осеняющих себя крестным знамением и с радостью говорящих: «Радуйся, пречестный и животворящий Крест Господень, прогоняющий бесов силою распятого на тебе Господа нашего Иисуса Христа, сошедшего во ад и поправшего силу диавола и даровавшего нам тебя, Свой Честной Крест, для прогнания всякого врага». О пречестный и животворящий Крест Господень! Помогай мне со Святою Госпожою Девою Богородицею и со всеми святыми во веки. Аминь.",
+   "uk": "Нехай воскресне Бог, і розвіються вороги Його, і нехай тікають від лиця Його ті, що ненавидять Його. Як щезає дим, нехай щезнуть; як тане віск від вогню, так нехай загинуть біси від лиця тих, що люблять Бога і знаменуються хресним знаменням, і в радості промовляють: радуйся, Пречесний і Животворчий Хресте Господній, що проганяєш бісів силою розп'ятого на тобі Господа нашого Іісуса Христа, що зійшов до аду і подолав силу диявола, і дав нам тебе, Хрест Свій Чесний, на прогнання всякого супостата. О Пречесний і Животворчий Хресте Господній! Допомагай мені зі Святою Владичицею Дівою Богородицею і з усіма святими навіки. Амінь.",
+   "en": "Let God arise, and let His enemies be scattered, and let them that hate Him flee from before His face. As smoke vanisheth, so let them vanish; as wax melteth before the fire, so let the demons perish from the presence of them that love God and sign themselves with the sign of the Cross, and say in gladness: Rejoice, most precious and life-giving Cross of the Lord, for thou drivest away the demons by the power of our Lord Jesus Christ crucified upon thee, who went down to hades and trampled on the power of the devil, and gave us thee, His precious Cross, for the driving away of every adversary. O most precious and life-giving Cross of the Lord! Help me, together with the holy Lady Virgin Theotokos and with all the saints, unto the ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 20; MS1900 p. 49–50; K1817 img. 187–188",
+    "ru": "Z1912 p. 20 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "RU: Zaionchkovsky aproximado ao eslavo («поправшего», «Честной Крест»); acrescentado «мне», presente no eslavo e omitido em Z1912. Início segundo Sl 67(68),2-3."
+  },
+  {
+   "id": "noite-104",
+   "tipo": "rubrica",
+   "cu": "Или́ кра́тко:",
+   "pt": "Ou, brevemente:",
+   "ru": "Или кратко:",
+   "uk": "Або коротко:",
+   "en": "Or briefly:",
+   "fonte": {
+    "cu": "MS1900 p. 50 («Или:»); Z1912 p. 21",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-105",
+   "tipo": "oracao",
+   "cu": "Огради́ мя, Го́споди, си́лою Честна́го и Животворя́щаго Твоего́ Креста́, и сохрани́ мя отъ вся́каго зла.",
+   "pt": "Protege-me, Senhor, com o poder da Tua venerável e vivificante Cruz, e guarda-me de todo o mal.",
+   "ru": "Огради меня, Господи, силою Честного и Животворящего Твоего Креста и сохрани меня от всякого зла.",
+   "uk": "Огороди мене, Господи, силою Чесного і Животворчого Твого Хреста, і збережи мене від усякого зла.",
+   "en": "Guard me, O Lord, by the power of Thy precious and life-giving Cross, and preserve me from every evil.",
+   "fonte": {
+    "cu": "Z1912 p. 21; MS1900 p. 50",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   }
+  },
+  {
+   "id": "noite-106",
+   "tipo": "oracao",
+   "cu": "Осла́би, оста́ви, прости́, Бо́же, прегрѣше́нія на́ша, во́льная и нево́льная, я́же въ сло́вѣ и въ дѣ́лѣ, я́же въ вѣ́дѣніи и не въ вѣ́дѣніи, я́же во дни и въ нощи́, я́же во умѣ́ и въ помышле́ніи: вся намъ прости́, я́ко Благъ и Человѣколю́бецъ.",
+   "pt": "Alivia, perdoa, remite, ó Deus, as nossas faltas, voluntárias e involuntárias, por palavra e por obra, conscientes e inconscientes, de dia e de noite, na mente e no pensamento: perdoa-nos tudo, porque és bom e amigo dos homens.",
+   "ru": "Ослабь, оставь, прости, Боже, прегрешения наши, вольные и невольные, совершенные словом и делом, сознательно и несознательно, днем и ночью, умом и помышлением: всё нам прости, как Благий и Человеколюбец.",
+   "uk": "Ослаб, залиш, прости, Боже, гріхи наші, вільні й невільні, що в слові й ділі, що свідомо й несвідомо, що вдень і вночі, що в розумі й помислі: все нам прости, як благий і Чоловіколюбець.",
+   "en": "Remit, pardon, forgive, O God, our transgressions, voluntary and involuntary, whether in word or in deed, whether in knowledge or in ignorance, whether by day or by night, whether in mind or in thought: forgive us all, for Thou art good and the Lover of mankind.",
+   "fonte": {
+    "cu": "Z1912 p. 19; MS1900 p. 46–47",
+    "ru": "Z1912 p. 19 (adaptado)",
+    "en": "H1906 p. 60 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "MS1900 e Z1912: «Молитва, глаголемая (произносимая) наединѣ»."
+  },
+  {
+   "id": "noite-107",
+   "tipo": "oracao",
+   "cu": "Ненави́дящихъ и оби́дящихъ насъ прости́, Го́споди Человѣколю́бче. Благотворя́щимъ благосотвори́. Бра́тіямъ и сро́дникомъ на́шимъ да́руй я́же ко спасе́нію проше́нія и жизнь вѣ́чную. Въ не́мощехъ су́щія посѣти́ и исцѣле́ніе да́руй. И́же въ мо́ри упра́ви. Путеше́ствующимъ спутеше́ствуй. Служа́щимъ и ми́лующимъ насъ грѣхо́въ оставле́ніе да́руй. Заповѣ́давшихъ намъ, недосто́йнымъ, моли́тися о нихъ поми́луй по вели́цѣй Твое́й ми́лости. Помяни́, Го́споди, пре́жде усо́пшихъ оте́цъ и бра́тій на́шихъ, и упоко́й ихъ, идѣ́же присѣща́етъ свѣтъ лица́ Твоего́. Помяни́, Го́споди, бра́тій на́шихъ плѣне́нныхъ, и изба́ви я отъ вся́каго обстоя́нія. Помяни́, Го́споди, плодонося́щихъ и добродѣ́лающихъ во святы́хъ Твои́хъ це́рквахъ, и даждь имъ я́же ко спасе́нію проше́нія и жизнь вѣ́чную. Помяни́, Го́споди, и насъ, смире́нныхъ и грѣ́шныхъ и недосто́йныхъ рабъ Твои́хъ, и просвѣти́ нашъ умъ свѣ́томъ ра́зума Твоего́, и наста́ви насъ на стезю́ за́повѣдей Твои́хъ, моли́твами Пречи́стыя Влады́чицы на́шея Богоро́дицы и Приснодѣ́вы Марі́и и всѣхъ Твои́хъ святы́хъ, я́ко благослове́нъ еси́ во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Perdoa, Senhor amigo dos homens, aos que nos odeiam e nos ofendem. Faz bem aos que nos fazem bem. Concede aos nossos irmãos e parentes os pedidos que conduzem à salvação e a vida eterna. Visita os que estão doentes e concede-lhes a cura. Guia os que estão no mar. Acompanha os que viajam. Concede o perdão dos pecados aos que nos servem e têm compaixão de nós. Tem piedade, segundo a Tua grande misericórdia, dos que nos pediram, a nós indignos, que rezássemos por eles. Lembra-Te, Senhor, dos nossos pais e irmãos que adormeceram antes de nós, e dá-lhes repouso onde brilha a luz do Teu rosto. Lembra-Te, Senhor, dos nossos irmãos cativos e livra-os de toda a aflição. Lembra-Te, Senhor, dos que dão fruto e fazem o bem nas Tuas santas igrejas, e concede-lhes os pedidos que conduzem à salvação e a vida eterna. Lembra-Te, Senhor, também de nós, Teus servos humildes, pecadores e indignos, e ilumina a nossa mente com a luz do Teu conhecimento, e guia-nos pelo caminho dos Teus mandamentos, pelas orações da nossa Senhora puríssima, a Mãe de Deus e sempre-Virgem Maria, e de todos os Teus santos, porque és bendito pelos séculos dos séculos. Ámen.",
+   "ru": "Ненавидящих и обижающих нас прости, Господи Человеколюбец. Делающим добро сотвори добро. Братьям и родным нашим даруй их прошения, ведущие ко спасению, и жизнь вечную. Немощных посети и даруй им исцеление. Находящихся на море управь. Путешествующим сопутствуй. Служащим нам и милующим нас даруй оставление грехов. Поручивших нам, недостойным, молиться о них помилуй по великой Твоей милости. Помяни, Господи, прежде усопших отцов и братьев наших и упокой их там, где сияет свет лица Твоего. Помяни, Господи, братьев наших, находящихся в плену, и избавь их от всякой беды. Помяни, Господи, приносящих плоды и делающих добро во святых Твоих церквах и даруй им прошения, ведущие ко спасению, и жизнь вечную. Помяни, Господи, и нас, смиренных, грешных и недостойных рабов Твоих, и просвети наш ум светом познания Тебя, и направь нас на путь заповедей Твоих, молитвами Пречистой Владычицы нашей Богородицы и Приснодевы Марии и всех Твоих святых, ибо Ты благословен во веки веков. Аминь.",
+   "uk": "Тих, що ненавидять і кривдять нас, прости, Господи Чоловіколюбче. Тим, що добро чинять, добро вчини. Братам і родичам нашим даруй прохання, що ведуть до спасіння, і життя вічне. Тих, що в недугах, відвідай і зцілення даруй. Тих, що на морі, спрямуй. З подорожніми подорожуй. Тим, що служать і милують нас, гріхів відпущення даруй. Тих, що заповіли нам, недостойним, молитися за них, помилуй з великої Твоєї милості. Пом'яни, Господи, раніше спочилих отців і братів наших і упокой їх, де сяє світло лиця Твого. Пом'яни, Господи, братів наших полонених і визволи їх від усякої біди. Пом'яни, Господи, тих, що приносять дари й добро чинять у святих Твоїх храмах, і дай їм прохання, що ведуть до спасіння, і життя вічне. Пом'яни, Господи, і нас, смиренних, і грішних, і недостойних рабів Твоїх, і просвіти наш розум світлом розуміння Твого, і настав нас на стежку заповідей Твоїх, молитвами Пречистої Владичиці нашої Богородиці і Приснодіви Марії і всіх Твоїх святих, бо благословенний Ти на віки віків. Амінь.",
+   "en": "Forgive them that hate and wrong us, O Lord, Lover of mankind. Do good to them that do good. Grant to our brethren and kinsfolk their petitions which are unto salvation, and life eternal. Visit the infirm and grant them healing. Guide them that are at sea. Journey with them that travel. Grant remission of sins to them that serve us and show us mercy. Have mercy, according to Thy great mercy, on those who have charged us, the unworthy, to pray for them. Remember, O Lord, our fathers and brethren departed before us, and grant them rest where the light of Thy countenance shineth. Remember, O Lord, our brethren in captivity, and deliver them from every misfortune. Remember, O Lord, them that bear fruit and do good works in Thy holy churches, and grant them their petitions which are unto salvation, and life eternal. Remember also, O Lord, us Thy humble, sinful and unworthy servants, and enlighten our mind with the light of Thy knowledge, and guide us in the path of Thy commandments; through the prayers of our most pure Lady Theotokos and Ever-Virgin Mary, and of all Thy saints: for blessed art Thou unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 19–20; MS1900 p. 47–49",
+    "ru": "Z1912 p. 19–20 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "⚠ MS1900 e Z1912 têm, depois de «спутешествуй», a petição «Императору споборствуй» (Z1912: «Императору помоги на войнѣ»), omitida aqui como nas edições atuais — decidir se se mostra em nota. «разума Твоего» = do Teu conhecimento (Z1912: «познаванія Тебя»)."
+  },
+  {
+   "id": "noite-108",
+   "tipo": "titulo",
+   "cu": "Исповѣ́даніе грѣхо́въ повседне́вное",
+   "pt": "Confissão quotidiana dos pecados",
+   "ru": "Исповедание грехов повседневное",
+   "uk": "Повсякденна сповідь гріхів",
+   "en": "Daily confession of sins",
+   "fonte": {
+    "cu": "Z1912 p. 20; MS1900 p. 28",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Z1912: «произносимое наединѣ вмѣстѣ съ вечерними молитвами или особо»; MS1900 coloca-a no fim das orações da manhã («купно съ утренними молитвами, или особо»)."
+  },
+  {
+   "id": "noite-109",
+   "tipo": "oracao",
+   "cu": "Исповѣ́даю Тебѣ́ Го́споду Бо́гу моему́ и Творцу́, во Святѣ́й Тро́ицѣ Еди́ному, сла́вимому и покланя́емому, Отцу́ и Сы́ну и Свято́му Ду́ху, вся моя́ грѣхи́, я́же содѣ́яхъ во вся дни живота́ моего́, и на вся́кій часъ, и въ настоя́щее вре́мя, дѣ́ломъ, сло́вомъ, помышле́ніемъ, зрѣ́ніемъ, слу́хомъ, обоня́ніемъ, вку́сомъ, осяза́ніемъ, и всѣ́ми мои́ми чу́вствы, душе́вными вкупѣ́ и тѣле́сными, и́миже Тебе́ Бо́га моего́ и Творца́ прогнѣ́вахъ, и бли́жняго моего́ онепра́вдовахъ; о сихъ жалѣ́я, вина́ себе́ Тебѣ́ Бо́гу моему́ представля́ю, и и́мѣю во́лю ка́ятися: то́чію, Го́споди Бо́же мой, помози́ ми, со слеза́ми смире́нно молю́ Тя: прише́дшая же согрѣше́нія моя́ милосе́рдіемъ Твои́мъ прости́ ми, и разрѣши́ отъ всѣхъ сихъ, я́ко Благъ и Человѣколю́бецъ.",
+   "pt": "Confesso-Te a Ti, Senhor meu Deus e Criador, único na Santa Trindade, glorificado e adorado, Pai e Filho e Espírito Santo, todos os meus pecados que cometi em todos os dias da minha vida, e a toda a hora, e no tempo presente, por obra, palavra, pensamento, vista, ouvido, olfato, gosto, tato e por todos os meus sentidos, tanto da alma como do corpo, com os quais Te irritei a Ti, meu Deus e Criador, e ofendi o meu próximo; lamentando-os, apresento-me culpado diante de Ti, meu Deus, e tenho a vontade de me arrepender: somente Tu, Senhor meu Deus, ajuda-me, com lágrimas humildemente Te suplico: perdoa-me, pela Tua misericórdia, os pecados passados e absolve-me de todos eles, porque és bom e amigo dos homens.",
+   "ru": "Исповедую Тебе, Господу Богу моему и Творцу, во Святой Троице Единому, славимому и поклоняемому, Отцу и Сыну и Святому Духу, все мои грехи, которые я совершил во все дни жизни моей, и во всякий час, и в настоящее время, делом, словом, помышлением, зрением, слухом, обонянием, вкусом, осязанием и всеми моими чувствами, душевными и телесными вместе, которыми я прогневал Тебя, Бога моего и Творца, и обидел ближнего моего. Сожалея о них, представляю себя виновным пред Тобою, Богом моим, и имею желание каяться: только Ты, Господи Боже мой, помоги мне, со слезами смиренно молю Тебя: прошедшие мои согрешения милосердием Твоим прости мне и разреши от всех их, как Благий и Человеколюбец.",
+   "uk": "Сповідаю Тобі, Господу Богу моєму і Творцеві, у Святій Трійці Єдиному, славленому і поклонінню належному, Отцю, і Сину, і Святому Духові, всі мої гріхи, які вчинив я у всі дні життя мого, і щогодини, і в теперішній час, ділом, словом, помислом, зором, слухом, нюхом, смаком, дотиком і всіма моїми чуттями, душевними разом і тілесними, якими Тебе, Бога мого і Творця, прогнівив і ближнього мого скривдив; шкодуючи про це, винним себе перед Тобою, Богом моїм, визнаю і маю волю каятися: тільки, Господи Боже мій, допоможи мені, зі сльозами смиренно молю Тебе: минулі ж гріхи мої милосердям Твоїм прости мені і розріши від усіх цих, як благий і Чоловіколюбець.",
+   "en": "I confess unto Thee, the Lord my God and Creator, one in the Holy Trinity, glorified and worshipped, Father, Son and Holy Spirit, all my sins which I have committed all the days of my life, and at every hour, and at the present time, in deed, word, thought, sight, hearing, smell, taste, touch, and by all my senses of soul and body together, whereby I have angered Thee, my God and Creator, and wronged my neighbour. Grieving for these, I present myself guilty before Thee, my God, and I have the will to repent: only do Thou, O Lord my God, help me, with tears I humbly beseech Thee: forgive me my past sins through Thy compassion, and absolve me from all these, for Thou art good and the Lover of mankind.",
+   "fonte": {
+    "cu": "Z1912 p. 20; MS1900 p. 28–29",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "As fontes pré-1917 terminam em «…разрѣши отъ всѣхъ сихъ, яко Благъ и Человѣколюбецъ»; edições atuais acrescentam «яже изглаголахъ предъ Тобою» ⚠. «онеправдовахъ» = ofendi, fui injusto."
+  },
+  {
+   "id": "noite-110",
+   "tipo": "rubrica",
+   "cu": "Когда́ предае́шься сну, говори́:",
+   "pt": "Ao adormeceres, diz:",
+   "ru": "Отходя ко сну, говори:",
+   "uk": "Коли віддаєшся сну, кажи:",
+   "en": "When thou fallest asleep, say:",
+   "fonte": {
+    "cu": "MS1900 p. 50",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Z1912 p. 21: «Когда засыпаешь, говори»; edições atuais: «Ложася же въ сонъ, глаголи»."
+  },
+  {
+   "id": "noite-111",
+   "tipo": "oracao",
+   "cu": "Въ ру́цѣ Твои́, Го́споди Іису́се Христе́, Бо́же мой, предаю́ духъ мой; Ты же мя благослови́, Ты мя поми́луй и живо́тъ вѣ́чный да́руй ми. Ами́нь.",
+   "pt": "Nas Tuas mãos, Senhor Jesus Cristo, meu Deus, entrego o meu espírito; Tu, abençoa-me, Tu, tem piedade de mim e concede-me a vida eterna. Ámen.",
+   "ru": "В руки Твои, Господи Иисусе Христе, Боже мой, предаю дух мой; Ты же благослови меня, Ты помилуй меня и даруй мне жизнь вечную. Аминь.",
+   "uk": "В руки Твої, Господи Іісусе Христе, Боже мій, віддаю дух мій; Ти ж мене благослови, Ти мене помилуй і життя вічне даруй мені. Амінь.",
+   "en": "Into Thy hands, O Lord Jesus Christ my God, I commend my spirit; do Thou bless me, do Thou have mercy on me, and grant me life eternal. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 21; MS1900 p. 50",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Cf. Sl 30(31),6; Lc 23,46."
+  },
+  {
+   "id": "noite-112",
+   "tipo": "rubrica",
+   "cu": "Пре́жде да́же не возля́жеши на одрѣ́ твое́мъ, сія́ вся помы́сли и въ па́мять твою́ пріиди́. Пе́рвое у́бо: благодаре́ніе возда́ждь Вседержи́телю Бо́гу, я́ко дарова́ тебѣ́ день мимоше́дшій благода́тію Свое́ю въ живы́хъ и во здра́віи пребы́ти. Второ́е: положи́ сло́во съ сами́мъ собо́ю, и испыта́ніе сотвори́ со́вѣсти твоея́, преходя́ и подро́бну исчита́я вся часы́ дневны́я, начи́нъ отъ вре́мене, когда́ воста́лъ еси́ отъ одра́ твоего́, и приводя́ себѣ́ на па́мять, ка́мо ходи́лъ еси́, что твори́лъ еси́, кому́ и что собесѣ́довалъ еси́, и вся твоя́ дѣя́нія, словеса́ и помышле́нія, отъ у́тра да́же до ве́чера тобо́ю произнесе́нная, со вся́кимъ опасе́ніемъ испыта́й и воспомина́й. Тре́тіе: а́ще что бла́гое въ сей день сотвори́лъ еси́, не отъ себе́ сіе́ бы́ти, но отъ сама́го Бо́га, вся блага́я намъ дару́ющаго, непщу́я, Тому́ сіе́ воспиши́ и благодари́; и да тя въ семъ бла́зѣ утверди́тъ и про́чая соверши́ти посо́битъ и дару́етъ, моли́ся. Четве́ртое: а́ще же что лука́вое содѣ́ялъ еси́, отъ себе́ сама́го и отъ своея́ не́мощи, или́ лука́ваго обы́чая и произволе́нія сіе́ происходи́ти глаго́ля, ка́йся, и моли́ Человѣколю́бца, да тебѣ́ въ томъ проще́ніе дарова́ти изво́литъ, со обѣща́ніемъ тве́рдымъ, я́ко сего́ про́чее ктому́ уже́ твори́ти не и́маши. Пя́тое: со слеза́ми Творца́ твоего́ моли́тву твори́, да настоя́щую нощь ти́хую, безмяте́жную, неблазне́нную и безгрѣ́шную дару́етъ; день же у́трешній на славосло́віе и́мене Его́ свята́го цѣ́лу предвари́ти дару́етъ. Пристяже́ніе: а́ще обраще́ши возгла́вницу мя́гку, оста́ви ю, а ка́мень подложи́ Христа́ ра́ди; а́ще ти зима́ бу́детъ спя́щу, потерпи́, глаго́ля: я́ко ині́и отню́дъ не спятъ (Патери́къ, сло́во 3). Та́же прекрести́ся, и съ моли́твою засни́, помышля́я день су́дный, ка́ко и́маши предста́ти Бо́гу.",
+   "pt": "Antes de te deitares no teu leito, considera tudo isto e traz à memória: Primeiro: dá graças a Deus Todo-Poderoso, porque te concedeu, pela Sua graça, passar o dia que findou com vida e saúde. Segundo: faz contas contigo mesmo e examina a tua consciência, percorrendo e enumerando em pormenor todas as horas do dia, começando pelo momento em que te levantaste do leito, e trazendo à memória aonde foste, o que fizeste, com quem e de que conversaste; e todas as tuas ações, palavras e pensamentos, da manhã até à noite, examina-os e recorda-os com todo o cuidado. Terceiro: se neste dia fizeste algum bem, considera que não vem de ti, mas do próprio Deus, que nos dá todos os bens; atribui-Lho e dá graças; e pede-Lhe que te confirme neste bem e te ajude e conceda realizar o resto. Quarto: se fizeste algum mal, reconhecendo que vem de ti mesmo e da tua fraqueza, ou de um mau hábito e de má vontade, arrepende-te e suplica ao Amigo dos homens que Se digne conceder-te o perdão, com o firme propósito de não voltares a fazê-lo. Quinto: com lágrimas, reza ao teu Criador para que te conceda uma noite tranquila, serena, sem tentações e sem pecado, e que te conceda levantar-te inteiro no dia seguinte para glorificar o Seu santo nome. Acréscimo: se fores virar a almofada macia, deixa-a e põe por baixo uma pedra, por amor de Cristo; se tiveres frio ao dormir, suporta-o, dizendo: há quem nem sequer durma (Paterikon, palavra 3). Depois benze-te e adormece com oração, pensando no dia do juízo, em como terás de comparecer diante de Deus.",
+   "ru": "Прежде чем возляжешь на постель твою, всё это обдумай и приведи себе на память. Первое: воздай благодарение Вседержителю Богу за то, что Он даровал тебе благодатью Своею провести минувший день в живых и в здравии. Второе: побеседуй сам с собою и испытай совесть твою, проходя и подробно перебирая все часы дня, начиная с того времени, когда ты встал с постели, и припоминая, куда ты ходил, что делал, с кем и о чем беседовал; и все твои дела, слова и помышления от утра до вечера со всяким тщанием испытай и припомни. Третье: если ты сделал в этот день что-либо доброе, считай, что это не от тебя, но от Самого Бога, дарующего нам всякое благо; Ему это и припиши и благодари; и молись, чтобы Он утвердил тебя в этом благе и помог и даровал совершить и прочее. Четвертое: если же ты сделал что-либо злое, признавая, что это происходит от тебя самого и от твоей немощи или от дурной привычки и произволения, покайся и моли Человеколюбца, чтобы Он благоволил даровать тебе в том прощение, с твердым обещанием впредь этого уже не делать. Пятое: со слезами молись Творцу твоему, чтобы Он даровал тебе настоящую ночь тихую, безмятежную, без искушений и без греха, а наступающий день даровал встретить в целости для славословия святого имени Его. Прибавление: если перевернешь мягкую подушку, оставь ее и подложи камень Христа ради; если будет тебе холодно спать, потерпи, говоря: иные и вовсе не спят (Патерик, слово 3). Затем перекрестись и с молитвою засни, помышляя о дне судном, как тебе предстоит предстать пред Богом.",
+   "uk": "Перш ніж ляжеш на ложе твоє, все це обміркуй і пригадай. Перше: віддай подяку Вседержителю Богові, що дарував тобі благодаттю Своєю минулий день прожити живим і здоровим. Друге: порозмовляй сам із собою і зроби випробування сумління твого, проходячи й докладно перелічуючи всі години дня, почавши від часу, коли ти встав із ложа твого, і пригадуючи, куди ходив, що робив, з ким і про що розмовляв; і всі твої діла, слова і помисли, від ранку аж до вечора тобою виявлені, з усякою обережністю випробуй і пригадай. Третє: якщо щось добре цього дня ти вчинив, вважай, що це не від тебе, але від Самого Бога, Який дарує нам усі блага; Йому це припиши і подякуй; і молися, щоб утвердив тебе в цьому добрі, і решту звершити допоміг і дарував. Четверте: якщо ж щось лукаве ти вчинив, визнаючи, що це походить від тебе самого і від твоєї немочі, або від лукавої звички і свавілля, покайся і моли Чоловіколюбця, щоб зволив дарувати тобі в цьому прощення, з твердою обіцянкою, що цього надалі вже чинити не будеш. П'яте: зі сльозами молитву до Творця твого твори, щоб теперішню ніч тиху, безтурботну, без спокус і безгрішну дарував; а день завтрашній на славослів'я імені Його святого цілим зустріти дарував. Додаток: якщо перевертатимеш м'яку подушку, залиш її, а камінь підклади Христа ради; якщо буде тобі холодно спати, потерпи, кажучи: інші й зовсім не сплять (Патерик, слово 3). Потім перехрестися і з молитвою засни, думаючи про день судний, як маєш стати перед Богом.",
+   "en": "Before thou liest down upon thy bed, consider all these things and call them to mind. First: render thanks to God Almighty, that He hath granted thee by His grace to pass the departing day alive and in health. Second: reckon with thyself and examine thy conscience, going over and counting in detail all the hours of the day, beginning from the time when thou didst rise from thy bed, and calling to mind whither thou didst go, what thou didst, with whom and of what thou didst converse; and all thy deeds, words and thoughts, from morning even until evening, examine and recall with all care. Third: if thou hast done any good this day, consider that it is not of thyself but of God Himself, who granteth us all good things; ascribe it to Him and give thanks; and pray that He may confirm thee in this good, and help and grant thee to accomplish the rest. Fourth: but if thou hast done any evil, acknowledging that it cometh of thyself and of thine own weakness, or of evil habit and will, repent, and entreat the Lover of mankind that He may be pleased to grant thee forgiveness therein, with a firm promise that thou wilt henceforth do it no more. Fifth: with tears pray to thy Creator that He may grant thee this present night quiet, untroubled, free of temptation and sinless, and grant thee to greet the morrow whole, for the glorification of His holy Name. Addition: if thou wouldst turn over a soft pillow, leave it, and lay a stone beneath thee for Christ's sake; if thou art cold as thou sleepest, endure it, saying: there are those who sleep not at all (Paterikon, discourse 3). Then sign thyself with the Cross, and fall asleep with prayer, pondering the day of judgement, how thou must stand before God.",
+   "fonte": {
+    "cu": "K1817 img. 188–191",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Regra mental antes de dormir (doc. 03 §1.3, n.º 32), do Канонникъ 1817; não consta de MS1900 nem de Z1912. «Пристяженіе» = acréscimo. ⚠ Edições atuais podem diferir em pormenores; leitura da imagem de 1817 a confirmar em revisão."
+  }
+ ]
+}
