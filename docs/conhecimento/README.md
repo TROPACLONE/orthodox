@@ -5,7 +5,7 @@ Fase 1 do projeto: recolha de factos documentados que servirão de fundamento à
 ## Critérios
 
 - **Referência:** calendário juliano (estilo antigo), segundo a prática da Igreja Ortodoxa Russa na Rússia; as datas civis (gregorianas) são indicadas como equivalência.
-- **Língua:** português europeu (PT-PT), com os termos originais (eslavo eclesiástico / russo / grego) entre parênteses.
+- **Língua:** principalmente português europeu (PT-PT), com os termos originais (eslavo eclesiástico / russo / grego) entre parênteses. Admite-se inglês (citações, passagens técnicas, algoritmos) quando a tradução perderia precisão. A aplicação em si é integralmente em PT-PT.
 - **Rigor:** cada afirmação tem fonte numerada. Pontos contraditórios ou não verificados ficam marcados com `⚠ PARA CONFIRMAR`.
 - **Norma vs. prática:** distingue-se sempre o Typikon (norma) da prática paroquial russa corrente.
 
