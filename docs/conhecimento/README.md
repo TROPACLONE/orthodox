@@ -17,6 +17,10 @@ Fase 1 do projeto: recolha de factos documentados que servirão de fundamento à
 | 02 | [Jejuns e disciplina](02-jejuns-e-disciplina.md) | Níveis de jejum, jejuns plurianuais e de um dia, semanas livres, jejum eucarístico, prostrações |
 | 03 | [Orações e textos](03-oracoes-e-textos.md) | Molitvoslov, preparação para a Comunhão, Oração de Jesus, Saltério, fontes de textos e licenças |
 | 04 | [Doutrina e terminologia](04-doutrina-e-terminologia.md) | Credo, dogmas, Mistérios, ofícios, estrutura da IOR, glossário PT-PT |
+| 05 | [Santos](05-santos.md) | ~100 santos principais: datas, posição no Typikon, biografia factual |
+| 06 | [Padres, espiritualidade e biblioteca](06-padres-espiritualidade-e-biblioteca.md) | Padres da Igreja, Filocalia, monaquismo, catálogo de livros gratuitos |
+| 07 | [História da Igreja](07-historia-da-igreja.md) | Da Igreja primitiva à atualidade; Rus'; Ortodoxia em Portugal |
+| 08 | [Ícones, templo, música, peregrinações](08-icones-templo-musica-peregrinacoes.md) | Iconografia, arquitetura, vestes, cores litúrgicas, canto, mosteiros |
 
 ## Estado (fase 1 concluída)
 

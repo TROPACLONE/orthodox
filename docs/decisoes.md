@@ -13,3 +13,6 @@ Registo das decisões tomadas pelo utilizador. Em caso de dúvida, pergunta-se s
 | 7 | 2026-10-16 | Traduções PT | **Traduções próprias** a partir do eslavo/grego, assinaladas como «tradução não oficial». Não se usam os textos com direitos reservados da paróquia de Cascais. |
 | 8 | 2026-10-16 | Dados diários | **Cálculo próprio** (calendário, Páscoa, tons, leituras por algoritmo) + base de santos curada pelo projeto. Sem dependência de API externa nem de dados GPL. |
 | 9 | 2026-10-16 | Pesquisa | Fazer 2.ª ronda dirigida para resolver os pontos `⚠ PARA CONFIRMAR` factuais. |
+| 10 | 2026-10-16 | Santos | Só os principais (~100), com critério de seleção documentado; os restantes apenas pelo nome no calendário. |
+| 11 | 2026-10-16 | Biblioteca | Livros gratuitos e legais em português, inglês, russo e outras línguas (grego, eslavo), com estado de direitos de autor verificado. |
+| 12 | 2026-10-16 | Temas adicionais | Ícones e templo; história da Igreja; Padres e espiritualidade; música e peregrinações. |
