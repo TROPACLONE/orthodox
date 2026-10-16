@@ -39,3 +39,7 @@ Registo das decisões tomadas pelo utilizador. Em caso de dúvida, pergunta-se s
 | 33 | 2026-10-16 | Santos (número) | **128 santos** (critérios A + B + lista editorial C completa). |
 | 34 | 2026-10-16 | Paróquia do Porto — morada | **Rua Alexandre Herculano, 97, 4000-054 Porto** (confirmado pelo utilizador; coincide com o Vicariato). |
 | 35 | 2026-10-16 | Paróquia do Porto — capela | A Capela de São José é a **capela das antigas «Oficinas de São José»** (confirmado pelo utilizador). |
+| 36 | 2026-10-16 | Orações — coluna RU | **Zaionchkovsky (1912) adaptado** (domínio público; ortografia modernizada). Onde não cobrir um texto: tradução própria assinalada. |
+| 37 | 2026-10-16 | Orações — coluna UK | **Tradução própria** para ucraniano, com terminologia da IOU, assinalada «неофіційний переклад». |
+| 38 | 2026-10-16 | Eslavo na interface UK | **«Київський ізвод»** (eslavo em letras ucranianas, segundo a pronúncia ucraniana). Nas outras línguas: escrita civil com acentos (B3). |
+| 39 | 2026-10-16 | Formatos | Inglês **en-GB**; «Kyiv» na interface, formas litúrgicas tradicionais nos títulos dos santos; grelha do calendário com **semana a começar ao domingo** em todas as línguas. |
