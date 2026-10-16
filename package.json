@@ -1,0 +1,14 @@
+{
+  "name": "orthodox-helper",
+  "version": "0.1.0",
+  "description": "Orthodox Helper — calendário, jejum, orações e leituras segundo a prática da Igreja Ortodoxa Russa",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node tests/calendario.test.mjs && node tests/jejum.test.mjs && node tests/i18n.test.mjs && node tests/dados.test.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}

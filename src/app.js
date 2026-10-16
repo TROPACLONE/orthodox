@@ -1,0 +1,268 @@
+/*
+ Orthodox Helper — interface (Fase 1: Hoje, Calendário, Definições).
+ Tudo é calculado no aparelho (decisões 8 e 26). Só se guardam preferências (língua, camada do jejum, tamanho do texto)
+ no armazenamento local; nenhum dado pessoal sai do aparelho.
+ Eventos: um único ouvinte por região (delegação), para não acumular ouvintes a cada nova renderização.
+*/
+import { hoje as jdnHoje, jdnGregoriano, gregoriano } from './engine/datas.js';
+import { dia } from './engine/calendario.js';
+import { jejum, N } from './engine/jejum.js';
+import { grausDoDia, comemoracoesDoDia } from './dados/graus.js';
+
+const LINGUAS = ['pt', 'uk', 'ru', 'en'];
+const NOMES_LINGUA = { pt: 'Português', uk: 'Українська', ru: 'Русский', en: 'English' };
+const ESCALAS = [['pequeno', 0.9], ['normal', 1], ['grande', 1.15], ['muitoGrande', 1.3]];
+const VISTAS = ['hoje', 'calendario', 'oracoes', 'biblia', 'conhecer'];
+const $ = id => document.getElementById(id);
+
+// ── Preferências (só conveniência local; a app funciona sem elas)
+function ler(k) { try { return localStorage.getItem('oh.' + k); } catch { return null; } }
+function gravar(k, v) { try { localStorage.setItem('oh.' + k, v); } catch { /* armazenamento indisponível: ignora-se */ } }
+function linguaInicial() {
+  const guardada = ler('lingua');
+  if (LINGUAS.includes(guardada)) return guardada;
+  for (const l of navigator.languages || [navigator.language || '']) {
+    const base = String(l).toLowerCase().split('-')[0];
+    if (LINGUAS.includes(base)) return base;
+  }
+  return 'pt';   // decisão 31
+}
+
+const st = {
+  lingua: linguaInicial(), t: null,
+  camada: ler('camada') === 'typikon' ? 'typikon' : 'paroquial',
+  outraCamada: false,
+  escala: ESCALAS.some(e => e[0] === ler('escala')) ? ler('escala') : 'normal',
+  vista: 'hoje', definicoes: false,
+  jdn: jdnHoje(), mes: null,
+};
+
+// ── Construção de DOM sem innerHTML (o texto entra sempre como textContent)
+function h(tag, attrs, ...filhos) {
+  const el = document.createElement(tag);
+  if (attrs) for (const [k, v] of Object.entries(attrs)) {
+    if (v == null || v === false) continue;
+    if (k === 'class') el.className = v; else if (k === 'text') el.textContent = v; else el.setAttribute(k, v === true ? '' : v);
+  }
+  for (const f of filhos.flat()) if (f != null && f !== false) el.append(f.nodeType ? f : document.createTextNode(String(f)));
+  return el;
+}
+function icone(id, w = 22, hgt = 22) {
+  const ns = 'http://www.w3.org/2000/svg', s = document.createElementNS(ns, 'svg'), u = document.createElementNS(ns, 'use');
+  s.setAttribute('width', w); s.setAttribute('height', hgt); s.setAttribute('aria-hidden', 'true');
+  u.setAttribute('href', '#' + id); s.append(u); return s;
+}
+
+// ── Formatação de datas (Intl só para nomes; o cálculo é próprio)
+const fmtCache = new Map();
+function fmt(opts) {
+  const k = st.t.intl + JSON.stringify(opts);
+  let f = fmtCache.get(k);
+  if (!f) { f = new Intl.DateTimeFormat(st.t.intl, { timeZone: 'UTC', ...opts }); fmtCache.set(k, f); }
+  return f;
+}
+const utc = (y, m, d) => new Date(Date.UTC(y, m - 1, d));
+// Dia da semana pelos nomes próprios da app (o CLDR ucraniano usa o acusativo, «п’ятницю», no formato completo).
+const dataCivilLonga = c => `${st.t.dias[(jdnGregoriano(c.y, c.m, c.d) + 1) % 7]}, ${st.t.ui.dataJuliana(fmt({ day: 'numeric', month: 'long' }).format(utc(c.y, c.m, c.d)), c.y)}`;
+// Data juliana: dia e mês formatados sobre um ano bissexto qualquer (o 29 de fevereiro juliano tem de existir).
+const diaMesJuliano = j => fmt({ day: 'numeric', month: 'long' }).format(utc(2024, j.m, j.d));
+const nomeMes = (y, m) => { const t = fmt({ month: 'long', year: 'numeric' }).format(utc(y, m, 1)); return t[0].toLocaleUpperCase(st.t.intl) + t.slice(1); };
+
+// ── Dados do dia
+function info(jdn) {
+  const d = dia(jdn), g = grausDoDia(d);
+  return { d, g, j: jejum(d, g) };
+}
+function rotuloSemana(s) {
+  if (!s) return null;
+  const S = st.t.semana;
+  if (s.tipo === 'pentecostes') return s.domingo ? S.pentecostesDom(s.n) : S.pentecostes(s.n);
+  if (s.tipo === 'quaresma') return s.domingo ? S.quaresmaDom(s.n) : S.quaresma(s.n);
+  if (s.tipo === 'pascoa') return s.domingo ? S.pascoaDom(s.n) : S.pascoa(s.n);
+  if (s.tipo === 'triodio') return S.triodio[s.n - 1];
+  return null;
+}
+
+// ── Ecrã «Hoje» (ou o dia escolhido no calendário)
+function ecraHoje() {
+  const T = st.t, { d, j } = info(st.jdn);
+  const eHoje = st.jdn === jdnHoje();
+  const s = h('section', { class: 'screen' });
+
+  s.append(h('div', { class: 'navdia' },
+    h('button', { class: 'icon-btn', type: 'button', 'data-acao': 'dia-1', 'aria-label': T.ui.diaAnterior }, icone('i-voltar')),
+    h('div', { class: 'grow' },
+      h('h1', { class: 'data-civil', text: dataCivilLonga(d.civil) }),
+      h('span', { class: 'data-juliana', text: `${T.ui.dataJuliana(diaMesJuliano(d.juliano), d.juliano.y)} · ${T.ui.calJuliano}` })),
+    h('button', { class: 'icon-btn', type: 'button', 'data-acao': 'dia+1', 'aria-label': T.ui.diaSeguinte }, icone('i-seguinte'))));
+  if (!eHoje) s.append(h('button', { class: 'link', type: 'button', 'data-acao': 'hoje', text: T.ui.hojeBtn }));
+
+  const chips = h('div', { class: 'chips' });
+  const sem = rotuloSemana(d.semana);
+  if (sem) chips.append(h('span', { class: 'chip', text: sem }));
+  if (d.tom) chips.append(h('span', { class: 'chip', text: T.ui.tom(d.tom) }));
+  chips.append(h('span', { class: 'chip' + (j.jejum ? ' jejum' : ''), text: j.jejum ? T.ui.diaJejum : T.ui.semJejum }));
+  s.append(chips);
+
+  // Santos e festas
+  const bloco = h('div', { class: 'bloco' }, h('h2', { text: T.ui.santos }));
+  const lista = h('ul', { class: 'lista' });
+  const vistos = new Set();
+  const festa = id => T.festa[id] || T.movel[id];
+  if (d.festa) { bloco.append(h('div', { class: 'festa-principal', text: festa(d.festa.id) })); vistos.add(d.festa.id); }
+  if (d.fixa && !vistos.has(d.fixa.id)) { lista.append(h('li', { class: 'festa-principal', text: T.festa[d.fixa.id] })); vistos.add(d.fixa.id); }
+  for (const id of d.moveis) if (!vistos.has(id)) { lista.append(h('li', { text: T.movel[id] })); vistos.add(id); }
+  for (const id of d.semimoveis) lista.append(h('li', { text: T.semimovel[id] }));
+  if (d.prefesta) lista.append(h('li', { class: 'fase', text: `${T.ui[d.prefesta.fase]}: ${festa(d.prefesta.id)}` }));
+  for (const c of comemoracoesDoDia(d, st.lingua)) lista.append(h('li', { text: c }));
+  if (lista.childElementCount) bloco.append(lista);
+  if (bloco.childElementCount > 1) s.append(bloco);
+
+  // Jejum
+  const cam = st.outraCamada ? (st.camada === 'paroquial' ? 'typikon' : 'paroquial') : st.camada;
+  const r = j[cam];
+  const bj = h('div', { class: 'bloco' }, h('h2', { text: T.ui.jejum }));
+  if (j.tempo && T.tempo[j.tempo]) bj.append(h('span', { class: 'camada', text: T.tempo[j.tempo] }));
+  const extras = [];
+  if (r.vinho && r.nivel < N.TUDO) extras.push(T.ui.comVinho);
+  if (r.refeicoes && cam === 'typikon') extras.push(T.ui.refeicoes(r.refeicoes));
+  bj.append(h('div', { class: 'nivel', text: T.nivel[r.nivel] + (extras.length ? ' · ' + extras.join(' · ') : '') }),
+    h('div', { class: 'desc', text: T.nivelDesc[r.nivel] }),
+    h('span', { class: 'camada', text: cam === 'paroquial' ? T.ui.camadaParoquial : T.ui.camadaTypikon }));
+  for (const n of r.notas) if (T.notas[n]) bj.append(h('div', { class: 'nota' + (cam === 'typikon' ? ' typikon' : ''), text: T.notas[n] }));
+  const outra = cam === 'paroquial' ? j.typikon : j.paroquial;
+  if (j.jejum || outra.nivel !== r.nivel) {
+    bj.append(h('button', { class: 'link', type: 'button', 'data-acao': 'camada', text: cam === 'paroquial' ? T.ui.verTypikon : T.ui.verParoquial }));
+  }
+  if (j.jejum) bj.append(h('div', { class: 'nota', text: T.ui.notaJejum }));
+  s.append(bj);
+
+  // Leituras (Fase 1: Evangelho matinal; o lecionário completo chega quando os dados estiverem compilados)
+  const bl = h('div', { class: 'bloco' }, h('h2', { text: T.ui.leituras }));
+  if (typeof d.eothinon === 'number') bl.append(h('div', { class: 'read' }, h('span', { text: T.ui.evangelhoMatinal(d.eothinon) })));
+  else if (d.eothinon && d.eothinon.omitido) bl.append(h('div', { class: 'desc', text: T.ui.evangelhoMatinalOmitido }));
+  bl.append(h('div', { class: 'desc', text: T.ui.leiturasEmBreve }));
+  s.append(bl);
+  return s;
+}
+
+// ── Calendário mensal (semana a começar ao domingo, decisão 39)
+function ecraCalendario() {
+  const T = st.t;
+  if (!st.mes) { const c = gregoriano(st.jdn); st.mes = { y: c.y, m: c.m }; }
+  const { y, m } = st.mes;
+  const s = h('section', { class: 'screen' });
+  s.append(h('div', { class: 'mes-cab' },
+    h('button', { class: 'icon-btn', type: 'button', 'data-acao': 'mes-1', 'aria-label': T.ui.mes }, icone('i-voltar')),
+    h('h1', { text: nomeMes(y, m) }),
+    h('button', { class: 'icon-btn', type: 'button', 'data-acao': 'mes+1', 'aria-label': T.ui.mesSeg }, icone('i-seguinte'))));
+  const g = h('div', { class: 'grelha', role: 'grid' });
+  T.diasCurtos.forEach((x, i) => g.append(h('span', { class: 'dow' + (i === 0 ? ' dom' : ''), text: x })));
+  const primeiro = jdnGregoriano(y, m, 1), fim = m === 12 ? jdnGregoriano(y + 1, 1, 1) : jdnGregoriano(y, m + 1, 1);
+  const vazios = (primeiro + 1) % 7;
+  for (let i = 0; i < vazios; i++) g.append(h('span'));
+  const hj = jdnHoje();
+  for (let jdn = primeiro; jdn < fim; jdn++) {
+    const { d, j } = info(jdn);
+    const festa = !!d.festa;
+    const cls = ['dia', d.dow === 0 && 'dom', festa && 'festa', j.jejum && 'jejum', jdn === hj && 'hoje', jdn === st.jdn && 'sel'].filter(Boolean).join(' ');
+    const nome = [dataCivilLonga(d.civil), festa ? (T.festa[d.festa.id] || T.movel[d.festa.id]) : null, j.jejum ? T.ui.diaJejum : null].filter(Boolean).join('. ');
+    g.append(h('button', { class: cls, type: 'button', 'data-acao': 'abrir', 'data-jdn': jdn, 'aria-label': nome },
+      h('b', { text: d.civil.d }), h('small', { text: d.juliano.d })));
+  }
+  s.append(g, h('div', { class: 'legenda' },
+    h('span', {}, h('i', { style: 'background:var(--gold)' }), T.ui.legendaJejum),
+    h('span', {}, h('i', { style: 'background:var(--cinnabar)' }), T.ui.legendaFesta),
+    h('span', { text: T.ui.legendaJuliano })));
+  return s;
+}
+
+function ecraEmPreparacao() {
+  const T = st.t;
+  return h('section', { class: 'screen' }, h('div', { class: 'vazio' }, icone('cruz', 40, 56),
+    h('h1', { text: T.ui.emPreparacao }), h('p', { class: 'txt', text: T.ui.emPreparacaoTxt })));
+}
+
+function seg(nome, opcoes, atual) {
+  return h('div', { class: 'seg', role: 'group' }, opcoes.map(([v, rotulo]) =>
+    h('button', { type: 'button', 'data-acao': nome, 'data-valor': v, 'aria-pressed': String(v === atual), text: rotulo })));
+}
+function ecraDefinicoes() {
+  const T = st.t;
+  return h('section', { class: 'screen' },
+    h('div', { class: 'campo' }, h('label', { text: T.ui.lingua }), seg('lingua', LINGUAS.map(l => [l, NOMES_LINGUA[l]]), st.lingua)),
+    h('div', { class: 'campo' }, h('label', { text: T.ui.camadaDefeito }),
+      seg('camada-defeito', [['paroquial', T.ui.camadaParoquial], ['typikon', T.ui.camadaTypikon]], st.camada)),
+    h('div', { class: 'campo' }, h('label', { text: T.ui.tamanhoTexto }), seg('escala', ESCALAS.map(([k]) => [k, T.ui[k]]), st.escala)),
+    h('div', { class: 'bloco' }, h('h2', { text: T.ui.acerca }), h('p', { class: 'txt', text: T.ui.acercaTxt }),
+      h('p', { class: 'txt', text: `${T.ui.versao} ${__VERSAO__}` })),
+    h('div', { class: 'bloco' }, h('h2', { text: T.ui.licencas }), h('p', { class: 'txt', text: T.ui.licencasTxt })));
+}
+
+// ── Renderização
+function render() {
+  const T = st.t, main = $('main');
+  document.documentElement.lang = T.lang;
+  document.documentElement.style.setProperty('--scale', ESCALAS.find(e => e[0] === st.escala)[1]);
+  const esq = $('btn-esq'), dir = $('btn-dir');
+  esq.replaceChildren(icone(st.definicoes ? 'i-voltar' : 'i-pesquisa'));
+  esq.setAttribute('aria-label', st.definicoes ? T.ui.voltar : T.ui.pesquisar);
+  esq.disabled = !st.definicoes;                 // a pesquisa chega com o conteúdo pesquisável (fases 2–4)
+  dir.replaceChildren(icone('i-definicoes')); dir.setAttribute('aria-label', T.ui.definicoes); dir.hidden = st.definicoes;
+  $('titulo').textContent = st.definicoes ? T.ui.definicoes : (st.vista === 'hoje' ? 'Orthodox Helper' : T.nav[st.vista]);
+
+  const ecra = st.definicoes ? ecraDefinicoes() : st.vista === 'hoje' ? ecraHoje() : st.vista === 'calendario' ? ecraCalendario() : ecraEmPreparacao();
+  main.replaceChildren(ecra);
+
+  const tabs = $('tabs');
+  if (tabs.dataset.lingua !== st.lingua) {        // a barra só se reconstrói quando muda a língua
+    tabs.replaceChildren(...VISTAS.map(v => h('button', { class: 'tab', type: 'button', 'data-vista': v }, icone('i-' + v, 24, 24), h('span', { text: T.nav[v] }))));
+    tabs.dataset.lingua = st.lingua;
+  }
+  for (const b of tabs.children) b.setAttribute('aria-current', !st.definicoes && b.dataset.vista === st.vista ? 'page' : 'false');
+}
+
+async function mudarLingua(l) {
+  st.t = (await import(`./i18n/${l}.js`)).default;
+  st.lingua = l; fmtCache.clear();
+}
+
+// ── Eventos (um ouvinte por região)
+$('main').addEventListener('click', async e => {
+  const b = e.target.closest('[data-acao]');
+  if (!b) return;
+  const a = b.dataset.acao;
+  if (a === 'dia-1' || a === 'dia+1') { st.jdn += a === 'dia+1' ? 1 : -1; st.outraCamada = false; st.mes = null; }
+  else if (a === 'hoje') { st.jdn = jdnHoje(); st.mes = null; }
+  else if (a === 'camada') st.outraCamada = !st.outraCamada;
+  else if (a === 'mes-1' || a === 'mes+1') {
+    const k = st.mes.y * 12 + st.mes.m - 1 + (a === 'mes+1' ? 1 : -1);
+    st.mes = { y: Math.floor(k / 12), m: (k % 12) + 1 };
+  } else if (a === 'abrir') { st.jdn = Number(b.dataset.jdn); st.vista = 'hoje'; st.outraCamada = false; }
+  else if (a === 'lingua') { await mudarLingua(b.dataset.valor); gravar('lingua', st.lingua); }
+  else if (a === 'camada-defeito') { st.camada = b.dataset.valor; gravar('camada', st.camada); }
+  else if (a === 'escala') { st.escala = b.dataset.valor; gravar('escala', st.escala); }
+  else return;
+  render();
+  if (a === 'abrir' || a === 'dia-1' || a === 'dia+1' || a === 'hoje') $('main').scrollTop = 0;
+});
+$('tabs').addEventListener('click', e => {
+  const b = e.target.closest('[data-vista]');
+  if (!b) return;
+  if (b.dataset.vista === 'hoje' && st.vista === 'hoje' && !st.definicoes) st.jdn = jdnHoje();
+  st.vista = b.dataset.vista; st.definicoes = false; st.outraCamada = false;
+  render(); $('main').scrollTop = 0;
+});
+$('btn-dir').addEventListener('click', () => { st.definicoes = true; render(); $('main').scrollTop = 0; });
+$('btn-esq').addEventListener('click', () => { if (st.definicoes) { st.definicoes = false; render(); } });
+// Mudança de dia com a app aberta: se o ecrã mostrava «hoje», passa para o novo dia.
+let ultimoHoje = jdnHoje();
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState !== 'visible') return;
+  const agora = jdnHoje();
+  if (agora !== ultimoHoje) { if (st.jdn === ultimoHoje) st.jdn = agora; ultimoHoje = agora; render(); }
+});
+
+await mudarLingua(st.lingua);
+render();
+if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(() => {});
