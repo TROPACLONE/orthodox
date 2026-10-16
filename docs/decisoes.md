@@ -6,9 +6,9 @@ Registo das decisões tomadas pelo utilizador. Em caso de dúvida, pergunta-se s
 |---|------|------|---------|
 | 1 | 2026-10-16 | Funcionalidades | Calendário e jejuns; orações; leituras do dia; catequese/doutrina. |
 | 2 | 2026-10-16 | Calendário | Juliano (estilo antigo), segundo a prática da Igreja Ortodoxa Russa **na Rússia**; datas civis (gregorianas) como equivalência. |
-| 3 | 2026-10-16 | Língua da app | Integralmente em português europeu (PT-PT). |
+| 3 | 2026-10-16 | Língua da app | ~~Integralmente em português europeu (PT-PT).~~ **Substituída pela decisão 28.** |
 | 4 | 2026-10-16 | Língua da base de conhecimento | PT-PT principal; inglês admitido em citações e passagens técnicas. |
-| 5 | 2026-10-16 | Textos litúrgicos | Português + eslavo eclesiástico lado a lado. |
+| 5 | 2026-10-16 | Textos litúrgicos | Português + eslavo eclesiástico lado a lado. **Alargada pela decisão 29.** |
 | 6 | 2026-10-16 | Jejum | Mostrar **ambos, lado a lado**: por defeito a regra do calendário paroquial russo, com a norma do Typikon assinalada quando difere. Indulgências pessoais nunca são calculadas (cabem ao pai espiritual). |
 | 7 | 2026-10-16 | Traduções PT | **Traduções próprias** a partir do eslavo/grego, assinaladas como «tradução não oficial». Não se usam os textos com direitos reservados da paróquia de Cascais. |
 | 8 | 2026-10-16 | Dados diários | **Cálculo próprio** (calendário, Páscoa, tons, leituras por algoritmo) + base de santos curada pelo projeto. Sem dependência de API externa nem de dados GPL. |
@@ -31,3 +31,7 @@ Registo das decisões tomadas pelo utilizador. Em caso de dúvida, pergunta-se s
 | 25 | 2026-10-16 | Interface | **Só tema escuro (preto)**, sem modo claro. Bonita, trabalhada, com estética cristã ortodoxa; legível e clara — a intuitividade nunca é sacrificada pela estética. |
 | 26 | 2026-10-16 | Base técnica | **Igual ao EE Calc:** web app instalável (PWA), JavaScript sem framework, esbuild, GitHub Pages, testes em GitHub Actions, funcionamento totalmente offline (cálculo local). |
 | 27 | 2026-10-16 | Aparelhos | iPhone, iPad, Android e computador (layout responsivo; testes nos quatro). |
+| 28 | 2026-10-16 | Línguas da app | **4 línguas: português europeu (PT-PT), ucraniano, russo e inglês.** Âmbito: **tudo** é traduzido (interface, calendário, jejuns, orações, leituras, santos, catequese, história, ícones). PT-PT é a língua-fonte do conteúdo editorial. |
+| 29 | 2026-10-16 | Textos litúrgicos (multilíngue) | **Eslavo eclesiástico + língua escolhida**, lado a lado, nas 4 línguas (em RU: eslavo + tradução russa livre de direitos ou própria). Fontes e licenças verificadas por língua. |
+| 30 | 2026-10-16 | Terminologia ucraniana | Uso da **Igreja Ortodoxa Ucraniana (IOU)** — tradição ligada historicamente ao Patriarcado de Moscovo, calendário juliano. |
+| 31 | 2026-10-16 | Língua por defeito | **Detetar a língua do aparelho** (se for uma das 4); caso contrário **PT-PT**. Alterável nas definições. |
