@@ -1,8 +1,9 @@
 // Períodos das orações (doc. 03 §1.4; esquema em docs/esquema-oracoes.md; decisão B1).
 // O dia litúrgico começa nas Vésperas: as orações da noite da véspera da Ascensão (P+38) e da véspera do Pentecostes
-// (P+48) já pertencem ao período seguinte (B1). ⚠ A noite do Sábado Luminoso (P+6) mantém-se na Semana Luminosa.
+// (P+48) já pertencem ao período seguinte (B1). As Horas Pascais leem-se «отъ Пасхи до субботы утра включительно»
+// (rubrica dos dados; doc. 03 §1.4; QA 2a §4.1): na noite do Sábado Luminoso (P+6) já se dizem as orações habituais.
 export function periodoOracao(d, noite = false) {
-  const o = d.o + (noite && (d.o === 38 || d.o === 48) ? 1 : 0);
+  const o = d.o + (noite && (d.o === 6 || d.o === 38 || d.o === 48) ? 1 : 0);
   if (o >= 0 && o <= 6) return 'semana_luminosa';
   if (o >= 7 && o <= 38) return 'pascoa_ascensao';
   if (o >= 39 && o <= 48) return 'ascensao_pentecostes';

@@ -1,340 +1,340 @@
 {
-  "id": "serafim",
-  "titulo": {
-    "cu": "Пра́вило преподо́бнаго Серафи́ма Саро́вскаго",
-    "pt": "Regra de São Serafim de Sarov",
-    "ru": "Правило преподобного Серафима Саровского",
-    "uk": "Правило преподобного Серафима Саровського",
-    "en": "The Rule of St Seraphim of Sarov"
+ "id": "serafim",
+ "titulo": {
+  "cu": "Пра́вило преподо́бнаго Серафи́ма Саро́вскаго",
+  "pt": "Regra de São Serafim de Sarov",
+  "ru": "Правило преподобного Серафима Саровского",
+  "uk": "Правило преподобного Серафима Саровського",
+  "en": "The Rule of St Seraphim of Sarov"
+ },
+ "fontes": [
+  {
+   "chave": "Z1912",
+   "descricao": "Молитвы и песнопения православного молитвослова (для мирян) съ переводомъ на русскій языкъ, объясненіями и примѣчаніями Николая Нахимова [Н. Ч. Зайончковскій, 1859–1920]. С.-Петербургъ: Синодальная типографія, 1912.",
+   "url": "https://archive.org/details/molitvyipesnopenijapravoslavnogomolitvos65",
+   "notas": "Domínio público (autor † 1920; impressão sinodal de 1912). Eslavo em tipo eslavo com todos os acentos, lado a lado com tradução russa. Página = número impresso (folha do archive.org = página + 6). Fonte do eslavo (texto e acentuação) e da coluna RU (ortografia modernizada)."
   },
-  "fontes": [
-    {
-      "chave": "Z1912",
-      "descricao": "Молитвы и песнопения православного молитвослова (для мирян) съ переводомъ на русскій языкъ, объясненіями и примѣчаніями Николая Нахимова [Н. Ч. Зайончковскій, 1859–1920]. С.-Петербургъ: Синодальная типографія, 1912.",
-      "url": "https://archive.org/details/molitvyipesnopenijapravoslavnogomolitvos65",
-      "notas": "Domínio público (autor † 1920; impressão sinodal de 1912). Eslavo em tipo eslavo com todos os acentos, lado a lado com tradução russa. Página = número impresso (folha do archive.org = página + 6). Fonte do eslavo (texto e acentuação) e da coluna RU (ortografia modernizada)."
-    },
-    {
-      "chave": "MS1900",
-      "descricao": "Молитвословъ. Изданіе десятое. Москва: Синодальная типографія, 1900. По благословенію Святѣйшаго Правительствующаго Синода.",
-      "url": "https://archive.org/details/molitvoslov00andr",
-      "notas": "Domínio público. Escrita civil pré-reforma (ѣ, і, ъ) com acentos só esporádicos; modelo da grafia civil. Usado para textos ausentes de Z1912 (refeições, «Молитвами святыхъ отецъ»). Página = número impresso (folha do archive.org = página + 6 nas pp. 3–40)."
-    },
-    {
-      "chave": "H1906",
-      "descricao": "I. F. Hapgood, Service Book of the Holy Orthodox-Catholic Apostolic (Greco-Russian) Church. Boston/New York: Houghton, Mifflin & Co., 1906.",
-      "url": "https://archive.org/details/cu31924029363128",
-      "notas": "Domínio público (Hapgood † 1928). Adaptado (dec. 41, 53): Thee/Thou com maiúscula para Deus, en-GB, «Birth-giver of God» → «Theotokos», «Hail» → «Rejoice» (χαῖρε/радуйся), e correções de fidelidade ao eslavo assinaladas em nota."
-    }
-  ],
-  "estado": {
-    "pt": "nao_revista",
-    "ru": "dp_adaptada",
-    "uk": "nao_revista",
-    "en": "dp_adaptada"
+  {
+   "chave": "MS1900",
+   "descricao": "Молитвословъ. Изданіе десятое. Москва: Синодальная типографія, 1900. По благословенію Святѣйшаго Правительствующаго Синода.",
+   "url": "https://archive.org/details/molitvoslov00andr",
+   "notas": "Domínio público. Escrita civil pré-reforma (ѣ, і, ъ) com acentos só esporádicos; modelo da grafia civil. Usado para textos ausentes de Z1912 (refeições, «Молитвами святыхъ отецъ»). Página = número impresso (folha do archive.org = página + 6 nas pp. 3–40)."
   },
-  "blocos": [
-    {
-      "id": "serafim-01",
-      "tipo": "titulo",
-      "cu": "Пра́вило преподо́бнаго Серафи́ма Саро́вскаго",
-      "pt": "Regra de São Serafim de Sarov",
-      "ru": "Правило преподобного Серафима Саровского",
-      "uk": "Правило преподобного Серафима Саровського",
-      "en": "The Rule of St Seraphim of Sarov",
-      "fonte": {
-        "cu": "propria",
-        "ru": "propria",
-        "en": "propria",
-        "pt": "propria",
-        "uk": "propria"
-      }
-    },
-    {
-      "id": "serafim-02",
-      "tipo": "rubrica",
-      "cu": "Сіе́ пра́вило преподо́бный Серафи́мъ дава́лъ міря́намъ, кото́рымъ не́когда, или́ кото́рые не у́мѣютъ чита́ть, что́бы никто́ не оставля́лъ ежедне́вной моли́твы. Держа́ться его́ подоба́етъ съ благослове́нія духо́внаго отца́.",
-      "pt": "São Serafim dava esta regra aos leigos que não têm tempo ou não sabem ler, para que ninguém deixe a oração diária. Convém segui-la com a bênção do pai espiritual.",
-      "ru": "Это правило преподобный Серафим давал мирянам, которым некогда или которые не умеют читать, чтобы никто не оставлял ежедневной молитвы. Держаться его подобает с благословения духовного отца.",
-      "uk": "Це правило преподобний Серафим давав мирянам, яким ніколи або які не вміють читати, щоб ніхто не залишав щоденної молитви. Дотримуватися його годиться з благословення духовного отця.",
-      "en": "St Seraphim gave this rule to lay people who have no time or who cannot read, so that none should abandon daily prayer. It is fitting to keep it with the blessing of one's spiritual father.",
-      "fonte": {
-        "cu": "propria",
-        "ru": "propria",
-        "en": "propria",
-        "pt": "propria",
-        "uk": "propria"
-      },
-      "nota": "Rubrica própria, resumo de doc. 03 §2.1 [7] (versão para leigos da Летопись Серафимо-Дивеевского монастыря, de S. Serafim Tchitchagov). ⚠ A Letopis (1896, domínio público) não foi lida em digitalização nesta sessão. A versão monástica, mais longa, não se apresenta aqui (doc. 03 §2.1). Regras reduzidas são opção pastoral, não norma (doc. 03 §2.2). Frase final sobre a bênção: acréscimo editorial do projeto (doc. 03 §2.2) ⚠."
-    },
-    {
-      "id": "serafim-03",
-      "tipo": "titulo",
-      "cu": "У́тромъ, воста́въ отъ сна",
-      "pt": "De manhã, ao levantar",
-      "ru": "Утром, встав от сна",
-      "uk": "Вранці, вставши від сну",
-      "en": "In the Morning, on Rising",
-      "fonte": {
-        "cu": "propria",
-        "ru": "propria",
-        "en": "propria",
-        "pt": "propria",
-        "uk": "propria"
-      }
-    },
-    {
-      "id": "serafim-04",
-      "tipo": "rubrica",
-      "cu": "Воста́въ отъ сна и ставъ на избра́нномъ мѣ́стѣ, осѣни́ себя́ кре́стнымъ зна́меніемъ и прочти́ три́жды «О́тче нашъ» въ честь Пресвяты́я Тро́ицы, пото́мъ три́жды «Богоро́дице Дѣ́во, ра́дуйся» и единова́жды «Сѵ́мволъ вѣ́ры».",
-      "pt": "Ao levantar-te do sono, de pé no lugar escolhido, faz o sinal da cruz e lê três vezes o «Pai Nosso», em honra da Santíssima Trindade, depois três vezes «Virgem Mãe de Deus, alegra-Te» e uma vez o «Símbolo da Fé».",
-      "ru": "Встав от сна и став на избранном месте, осени себя крестным знамением и прочти трижды «Отче наш» в честь Пресвятой Троицы, потом трижды «Богородице Дево, радуйся» и единожды «Символ веры».",
-      "uk": "Вставши від сну і ставши на обраному місці, осіни себе хресним знаменням і прочитай тричі «Отче наш» на честь Пресвятої Трійці, потім тричі «Богородице Діво, радуйся» і один раз «Символ віри».",
-      "en": "On rising from sleep, standing in the chosen place, sign thyself with the sign of the Cross and read «Our Father» three times, in honour of the Most Holy Trinity, then «Rejoice, O Virgin Theotokos» three times, and the «Symbol of Faith» once.",
-      "fonte": {
-        "cu": "propria",
-        "ru": "propria",
-        "en": "propria",
-        "pt": "propria",
-        "uk": "propria"
-      },
-      "nota": "Estrutura segundo doc. 03 §2.1 [7]."
-    },
-    {
-      "id": "serafim-05",
-      "tipo": "oracao",
-      "cu": "О́тче нашъ, И́же еси́ на небесѣ́хъ! Да святи́тся и́мя Твое́, да пріи́детъ Ца́рствіе Твое́, да бу́детъ во́ля Твоя́, я́ко на небеси́ и на земли́. Хлѣбъ нашъ насу́щный даждь намъ днесь; и оста́ви намъ до́лги на́ша, я́коже и мы оставля́емъ должнико́мъ на́шимъ; и не введи́ насъ во искуше́ніе, но изба́ви насъ отъ лука́ваго.",
-      "pt": "Pai nosso, que estás nos céus, santificado seja o Teu nome; venha o Teu Reino; seja feita a Tua vontade, como no céu, assim na terra. O pão nosso de cada dia dá-nos hoje; e perdoa-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores; e não nos conduzas à tentação, mas livra-nos do maligno.",
-      "ru": "Отец наш Небесный! Да прославляется святость имени Твоего; да настанет Царство Твое; да исполняется воля Твоя так же и на земле, как на небе. Хлеб, необходимый для нашего существования, дай нам сегодня; прости нам вины наши так же, как и мы прощаем виноватым перед нами; и не допусти нас впасть в соблазн, но избавь нас от зла.",
-      "uk": "Отче наш, що єси на небесах! Нехай святиться ім’я Твоє, нехай прийде Царство Твоє, нехай буде воля Твоя, як на небі, так і на землі. Хліб наш насущний дай нам сьогодні; і прости нам борги наші, як і ми прощаємо боржникам нашим; і не введи нас у спокусу, але визволи нас від лукавого.",
-      "en": "Our Father, who art in heaven, hallowed be Thy Name. Thy kingdom come. Thy will be done, as in heaven, so on earth. Give us this day our daily bread. And forgive us our debts, as we forgive our debtors. And lead us not into temptation, but deliver us from the evil one.",
-      "fonte": {
-        "cu": "Z1912 p. 2",
-        "ru": "Z1912 p. 2",
-        "en": "H1906 p. 13",
-        "pt": "propria",
-        "uk": "propria"
-      },
-      "repetir": 3,
-      "nota": "Três vezes, em honra da Santíssima Trindade. Sem a doxologia sacerdotal «Яко Твое есть Царство…», que só o sacerdote diz (Z1912 e MS1900 também a omitem). EN: Hapgood segue o BCP («trespasses», «on earth, as it is in heaven»); adaptado ao eslavo/grego (до́лги = ὀφειλήματα «debts»; «как no céu, assim na terra»). PT: «насущный» (ἐπιούσιος) traduzido «de cada dia», leitura tradicional; «лукаваго» = «do maligno» (τοῦ πονηροῦ)."
-    },
-    {
-      "id": "serafim-06",
-      "tipo": "oracao",
-      "cu": "Богоро́дице Дѣ́во, ра́дуйся, Благода́тная Марі́е, Госпо́дь съ Тобо́ю; благослове́нна Ты въ жена́хъ, и благослове́нъ плодъ чре́ва Твоего́, я́ко Спа́са родила́ еси́ душъ на́шихъ.",
-      "pt": "Virgem Mãe de Deus, alegra-Te, Maria cheia de graça, o Senhor é Contigo; bendita és Tu entre as mulheres, e bendito é o fruto do Teu ventre, porque deste à luz o Salvador das nossas almas.",
-      "ru": "Богородица Дева, радуйся, благодатная Мария: Господь с Тобою; благословенна Ты между женщинами, и благословен Плод Твой, ибо Ты родила Спасителя душ наших.",
-      "uk": "Богородице Діво, радуйся, благодатна Маріє, Господь з Тобою; благословенна Ти між жінками, і благословенний плід лона Твого, бо Ти породила Спаса душ наших.",
-      "en": "Rejoice, O Virgin Theotokos, Mary full of grace, the Lord is with thee; blessed art thou among women, and blessed is the fruit of thy womb, for thou hast borne the Saviour of our souls.",
-      "fonte": {
-        "cu": "Z1912 p. 9",
-        "ru": "Z1912 p. 9",
-        "en": "H1906 p. 13",
-        "pt": "propria",
-        "uk": "propria"
-      },
-      "repetir": 3,
-      "nota": "EN: Hapgood «Hail, O Virgin Birth-giver of the Lord!» → «Rejoice, O Virgin Theotokos» (Богородице = Θεοτόκε). PT: «Богородица» = «Mãe de Deus» (glossário, doc. 04 §7)."
-    },
-    {
-      "id": "serafim-07",
-      "tipo": "oracao",
-      "cu": "Вѣ́рую во еди́наго Бо́га Отца́, Вседержи́теля, Творца́ не́бу и земли́, ви́димымъ же всѣмъ и неви́димымъ. И во еди́наго Го́спода Іису́са Христа́, Сы́на Бо́жія, Единоро́днаго, И́же отъ Отца́ рожде́ннаго пре́жде всѣхъ вѣкъ; Свѣ́та отъ Свѣ́та, Бо́га и́стинна отъ Бо́га и́стинна, рожде́нна, несотворе́нна, единосу́щна Отцу́, И́мже вся бы́ша. Насъ ра́ди человѣ́къ и на́шего ра́ди спасе́нія сше́дшаго съ небе́съ и воплоти́вшагося отъ Ду́ха Свя́та и Марі́и Дѣ́вы, и вочеловѣ́чшася. Распя́таго же за ны при Понті́йстѣмъ Пила́тѣ, и страда́вша, и погребе́нна. И воскре́сшаго въ тре́тій день по Писа́ніемъ. И возше́дшаго на небеса́, и сѣдя́ща одесну́ю Отца́. И па́ки гряду́щаго со сла́вою суди́ти живы́мъ и ме́ртвымъ, Его́же Ца́рствію не бу́детъ конца́. И въ Ду́ха Свята́го, Го́спода, Животворя́щаго, И́же отъ Отца́ исходя́щаго, И́же со Отце́мъ и Сы́номъ спокланя́ема и сла́вима, глаго́лавшаго проро́ки. Во еди́ну Святу́ю, Собо́рную и Апо́стольскую Це́рковь. Исповѣ́дую еди́но креще́ніе во оставле́ніе грѣхо́въ. Ча́ю воскресе́нія ме́ртвыхъ, и жи́зни бу́дущаго вѣ́ка. Ами́нь.",
-      "pt": "Creio num só Deus, Pai, Todo-Poderoso, Criador do céu e da terra, de todas as coisas visíveis e invisíveis. E num só Senhor, Jesus Cristo, Filho de Deus, Unigénito, nascido do Pai antes de todos os séculos; Luz da Luz, Deus verdadeiro de Deus verdadeiro, gerado, não criado, consubstancial ao Pai, por Quem todas as coisas foram feitas. Que, por nós, homens, e para nossa salvação, desceu dos céus e Se encarnou do Espírito Santo e da Virgem Maria, e Se fez homem. E foi crucificado por nós sob Pôncio Pilatos, e padeceu, e foi sepultado. E ressuscitou ao terceiro dia, segundo as Escrituras. E subiu aos céus, e está sentado à direita do Pai. E de novo há de vir com glória julgar os vivos e os mortos, e o Seu Reino não terá fim. E no Espírito Santo, Senhor, Vivificador, que procede do Pai, que com o Pai e o Filho é juntamente adorado e glorificado, que falou pelos profetas. Numa só Igreja, Santa, Católica e Apostólica. Confesso um só batismo para a remissão dos pecados. Espero a ressurreição dos mortos e a vida do século que há de vir. Ámen.",
-      "ru": "Верую во единого Бога Отца, Вседержителя, Творца неба и земли, всего видимого и невидимого. И во единого Господа Иисуса Христа, Единородного Сына Божия, рожденного от Отца прежде всякого времени, истинного Бога, рожденного от истинного Бога, как свет рождается от света, — рожденного, а не сотворенного, Который одного существа с Богом Отцом и через Которого произошел весь мир; сошедшего с небес для нас, людей, и нашего спасения, — воплотившегося от Духа Святого и Девы Марии и сделавшегося истинным человеком; и распятого за нас при Понтии Пилате, и страдавшего, и погребенного; и воскресшего в третий день, как было предсказано в Писании; и вознесшегося на небеса, и сидящего по правую руку Отца; и Который опять придет во славе, чтобы судить живых и мертвых, и Его Царству не будет конца. И в Духа Святого, Господа, дающего жизнь, исходящего от Отца, Которому надлежит поклоняться и Которого славить одинаково с Отцом и Сыном, — говорившего через пророков. В единую Святую, Соборную и Апостольскую Церковь. Я признаю одно в жизни крещение для очищения от грехов. Я ожидаю воскресения мертвых и другой, вечной жизни. Аминь.",
-      "uk": "Вірую в єдиного Бога Отця, Вседержителя, Творця неба і землі, всього видимого і невидимого. І в єдиного Господа Іісуса Христа, Сина Божого, Єдинородного, від Отця народженого перед усіма віками; Світло від Світла, Бога істинного від Бога істинного, народженого, не створеного, єдиносущного Отцеві, через Якого все сталося. Нас ради людей і нашого ради спасіння зійшов з небес, і воплотився від Духа Святого і Марії Діви, і вочоловічився. І розп’ятий був за нас при Понтії Пилаті, і страждав, і був похований. І воскрес у третій день, згідно з Писаннями. І вознісся на небеса, і сидить праворуч Отця. І знову прийде зі славою судити живих і мертвих, і Царству Його не буде кінця. І в Духа Святого, Господа Животворчого, що від Отця походить, що з Отцем і Сином рівнопоклоняємий і рівнославимий, що говорив через пророків. В єдину Святу, Соборну і Апостольську Церкву. Визнаю єдине хрещення на відпущення гріхів. Чекаю воскресіння мертвих і життя майбутнього віку. Амінь.",
-      "en": "I believe in one God, the Father Almighty, Maker of heaven and earth, and of all things visible and invisible. And in one Lord Jesus Christ, the Son of God, the Only-begotten, begotten of the Father before all ages; Light of Light, true God of true God, begotten, not made, of one essence with the Father, by whom all things were made; who for us men and for our salvation came down from heaven, and was incarnate of the Holy Spirit and the Virgin Mary, and was made man; and was crucified for us under Pontius Pilate, and suffered, and was buried; and the third day He rose again, according to the Scriptures; and ascended into heaven, and sitteth at the right hand of the Father; and He shall come again with glory to judge the living and the dead, whose kingdom shall have no end. And in the Holy Spirit, the Lord, the Giver of Life, who proceedeth from the Father, who with the Father and the Son together is worshipped and glorified, who spake by the Prophets. In one Holy, Catholic and Apostolic Church. I acknowledge one Baptism for the remission of sins. I look for the Resurrection of the dead, and the Life of the age to come. Amen.",
-      "fonte": {
-        "cu": "Z1912 pp. 60–61",
-        "ru": "Z1912 pp. 60–61",
-        "en": "H1906 p. 100",
-        "pt": "propria",
-        "uk": "propria"
-      },
-      "nota": "Eslavo segundo Z1912 pp. 60–61. ⚠ Z1912 lê «спокланя́ема и сла́вима»; as edições correntes têm «и сслави́ма» (συνδοξαζόμενον) — conferir com outra impressão sinodal pré-1917. RU: Z1912 é paráfrase explicativa (acrescenta «как свет рождается от света», «одно в жизни крещение», «другой, вечной жизни»); mantida por ser a fonte PD da dec. 36, mas ⚠ menos literal que o eslavo. EN: Hapgood adaptado («Holy Ghost» → «Holy Spirit», «before all worlds» → «before all ages», «Being of one Essence» → «of one essence», «the quick» → «the living», «world to come» → «age to come», ordem do eslavo «the Son of God, the Only-begotten»). PT/EN/UK: «Соборную» = καθολικήν → «Católica»/«Catholic»/«Соборну»."
-    },
-    {
-      "id": "serafim-08",
-      "tipo": "titulo",
-      "cu": "Днёмъ, до обѣ́да",
-      "pt": "Durante o dia, até ao almoço",
-      "ru": "Днем, до обеда",
-      "uk": "Удень, до обіду",
-      "en": "During the Day, until the Midday Meal",
-      "fonte": {
-        "cu": "propria",
-        "ru": "propria",
-        "en": "propria",
-        "pt": "propria",
-        "uk": "propria"
-      }
-    },
-    {
-      "id": "serafim-09",
-      "tipo": "rubrica",
-      "cu": "Занима́ясь свои́мъ дѣ́ломъ до́ма или́ въ пути́, твори́ ти́хо Іису́сову моли́тву; а е́сли окружа́ютъ лю́ди, то, занима́ясь дѣ́ломъ, говори́ умо́мъ то́лько «Го́споди, поми́луй».",
-      "pt": "Ocupando-te do teu trabalho em casa ou a caminho, diz em voz baixa a Oração de Jesus; e, se estiveres rodeado de pessoas, enquanto trabalhas, diz apenas no pensamento «Senhor, tem piedade».",
-      "ru": "Занимаясь своим делом дома или в пути, твори тихо Иисусову молитву; а если окружают люди, то, занимаясь делом, говори умом только «Господи, помилуй».",
-      "uk": "Займаючись своєю справою вдома або в дорозі, тихо твори Іісусову молитву; а якщо довкола люди, то, займаючись справою, говори тільки розумом «Господи, помилуй».",
-      "en": "While occupied with thy work at home or on the way, say the Jesus Prayer quietly; and if people are around thee, while working say in thy mind only «Lord, have mercy».",
-      "fonte": {
-        "cu": "propria",
-        "ru": "propria",
-        "en": "propria",
-        "pt": "propria",
-        "uk": "propria"
-      },
-      "nota": "Doc. 03 §2.1 [7]."
-    },
-    {
-      "id": "serafim-10",
-      "tipo": "oracao",
-      "cu": "Го́споди Іису́се Христе́, Сы́не Бо́жій, поми́луй мя грѣ́шнаго.",
-      "pt": "Senhor Jesus Cristo, Filho de Deus, tem piedade de mim, pecador.",
-      "ru": "Господи Иисусе Христе, Сыне Божий, помилуй меня, грешного.",
-      "uk": "Господи Іісусе Христе, Сину Божий, помилуй мене, грішного.",
-      "en": "Lord Jesus Christ, Son of God, have mercy on me, a sinner.",
-      "fonte": {
-        "cu": "Лѣтопись Серафимо-Дивѣевскаго монастыря (1896), via doc. 03 §2.1 [7] ⚠",
-        "ru": "propria",
-        "en": "propria",
-        "pt": "propria",
-        "uk": "propria"
-      },
-      "nota": "Feminino: «грѣ́шную» / «pecadora» / «грешную» / «грішну». Cf. jesus.json."
-    },
-    {
-      "id": "serafim-11",
-      "tipo": "oracao",
-      "cu": "Го́споди, поми́луй.",
-      "pt": "Senhor, tem piedade.",
-      "ru": "Господи, помилуй.",
-      "uk": "Господи, помилуй.",
-      "en": "Lord, have mercy.",
-      "fonte": {
-        "cu": "Z1912 p. 2",
-        "ru": "propria",
-        "en": "H1906 p. 13",
-        "pt": "propria",
-        "uk": "propria"
-      },
-      "nota": "Dito só no pensamento, quando há gente à volta."
-    },
-    {
-      "id": "serafim-12",
-      "tipo": "titulo",
-      "cu": "По́слѣ обѣ́да до ве́чера",
-      "pt": "Depois do almoço até à noite",
-      "ru": "После обеда до вечера",
-      "uk": "Після обіду до вечора",
-      "en": "From the Midday Meal until Evening",
-      "fonte": {
-        "cu": "propria",
-        "ru": "propria",
-        "en": "propria",
-        "pt": "propria",
-        "uk": "propria"
-      }
-    },
-    {
-      "id": "serafim-13",
-      "tipo": "rubrica",
-      "cu": "Предъ обѣ́домъ повтори́ у́треннее пра́вило: «О́тче нашъ» (три́жды), «Богоро́дице Дѣ́во» (три́жды) и «Сѵ́мволъ вѣ́ры» (единова́жды), какъ вы́ше. По́слѣ обѣ́да, занима́ясь дѣ́ломъ, твори́ ти́хо:",
-      "pt": "Antes do almoço, repete a regra da manhã: «Pai Nosso» (três vezes), «Virgem Mãe de Deus» (três vezes) e o «Símbolo da Fé» (uma vez), como acima. Depois do almoço, ocupando-te do teu trabalho, diz em voz baixa:",
-      "ru": "Перед обедом повтори утреннее правило: «Отче наш» (трижды), «Богородице Дево» (трижды) и «Символ веры» (единожды), как выше. После обеда, занимаясь делом, твори тихо:",
-      "uk": "Перед обідом повтори ранкове правило: «Отче наш» (тричі), «Богородице Діво» (тричі) і «Символ віри» (один раз), як вище. Після обіду, займаючись справою, тихо твори:",
-      "en": "Before the midday meal, repeat the morning rule: «Our Father» (three times), «Rejoice, O Virgin Theotokos» (three times) and the «Symbol of Faith» (once), as above. After the meal, while about thy work, say quietly:",
-      "fonte": {
-        "cu": "propria",
-        "ru": "propria",
-        "en": "propria",
-        "pt": "propria",
-        "uk": "propria"
-      },
-      "nota": "Doc. 03 §2.1 [7]. Os textos estão acima, neste mesmo ecrã."
-    },
-    {
-      "id": "serafim-14",
-      "tipo": "oracao",
-      "cu": "Пресвята́я Богоро́дице, спаси́ мя грѣ́шнаго.",
-      "pt": "Santíssima Mãe de Deus, salva-me a mim, pecador.",
-      "ru": "Пресвятая Богородица, спаси меня, грешного.",
-      "uk": "Пресвята Богородице, спаси мене, грішного.",
-      "en": "Most holy Theotokos, save me, a sinner.",
-      "fonte": {
-        "cu": "Лѣтопись Серафимо-Дивѣевскаго монастыря (1896), via doc. 03 §2.1 [7] ⚠",
-        "ru": "propria",
-        "en": "propria",
-        "pt": "propria",
-        "uk": "propria"
-      },
-      "nota": "Feminino: «грѣ́шную» / «pecadora» / «грешную» / «грішну»."
-    },
-    {
-      "id": "serafim-15",
-      "tipo": "rubrica",
-      "cu": "Или́:",
-      "pt": "Ou:",
-      "ru": "Или:",
-      "uk": "Або:",
-      "en": "Or:",
-      "fonte": {
-        "cu": "propria",
-        "ru": "propria",
-        "en": "propria",
-        "pt": "propria",
-        "uk": "propria"
-      }
-    },
-    {
-      "id": "serafim-16",
-      "tipo": "oracao",
-      "cu": "Го́споди Іису́се Христе́, Богоро́дицею поми́луй мя грѣ́шнаго.",
-      "pt": "Senhor Jesus Cristo, pela intercessão da Mãe de Deus, tem piedade de mim, pecador.",
-      "ru": "Господи Иисусе Христе, по молитвам Богородицы помилуй меня, грешного.",
-      "uk": "Господи Іісусе Христе, Богородицею помилуй мене, грішного.",
-      "en": "Lord Jesus Christ, through the Theotokos have mercy on me, a sinner.",
-      "fonte": {
-        "cu": "Лѣтопись Серафимо-Дивѣевскаго монастыря (1896), via doc. 03 §2.1 [7] ⚠",
-        "ru": "propria",
-        "en": "propria",
-        "pt": "propria",
-        "uk": "propria"
-      },
-      "nota": "«Богоро́дицею» (instrumental) = «pela intercessão da Mãe de Deus», como nos tropários da manhã."
-    },
-    {
-      "id": "serafim-17",
-      "tipo": "titulo",
-      "cu": "Предъ сномъ",
-      "pt": "Ao deitar",
-      "ru": "Перед сном",
-      "uk": "Перед сном",
-      "en": "On Going to Sleep",
-      "fonte": {
-        "cu": "propria",
-        "ru": "propria",
-        "en": "propria",
-        "pt": "propria",
-        "uk": "propria"
-      }
-    },
-    {
-      "id": "serafim-18",
-      "tipo": "rubrica",
-      "cu": "Отходя́ ко сну, вся́кій христіа́нинъ пусть повтори́тъ у́треннее пра́вило, то есть три́жды «О́тче нашъ», три́жды «Богоро́дице Дѣ́во» и единова́жды «Сѵ́мволъ вѣ́ры», и по́слѣ того́, огради́вшись кре́стнымъ зна́меніемъ, засыпа́етъ.",
-      "pt": "Ao recolher-se para dormir, todo o cristão repita a regra da manhã — três vezes o «Pai Nosso», três vezes «Virgem Mãe de Deus» e uma vez o «Símbolo da Fé» — e depois, protegido pelo sinal da cruz, adormeça.",
-      "ru": "Отходя ко сну, всякий христианин пусть повторит утреннее правило, то есть трижды «Отче наш», трижды «Богородице Дево» и единожды «Символ веры», и после того, оградившись крестным знамением, засыпает.",
-      "uk": "Відходячи до сну, кожен християнин хай повторить ранкове правило, тобто тричі «Отче наш», тричі «Богородице Діво» і один раз «Символ віри», а після того, огородившись хресним знаменням, хай засне.",
-      "en": "On going to sleep, let every Christian repeat the morning rule, that is, «Our Father» three times, «Rejoice, O Virgin Theotokos» three times and the «Symbol of Faith» once, and then, guarding himself with the sign of the Cross, fall asleep.",
-      "fonte": {
-        "cu": "propria",
-        "ru": "propria",
-        "en": "propria",
-        "pt": "propria",
-        "uk": "propria"
-      },
-      "nota": "Doc. 03 §2.1 [7]."
-    }
-  ]
+  {
+   "chave": "H1906",
+   "descricao": "I. F. Hapgood, Service Book of the Holy Orthodox-Catholic Apostolic (Greco-Russian) Church. Boston/New York: Houghton, Mifflin & Co., 1906.",
+   "url": "https://archive.org/details/cu31924029363128",
+   "notas": "Domínio público (Hapgood † 1928). Adaptado (dec. 41, 53): Thee/Thou com maiúscula para Deus, en-GB, «Birth-giver of God» → «Theotokos», «Hail» → «Rejoice» (χαῖρε/радуйся), e correções de fidelidade ao eslavo assinaladas em nota."
+  }
+ ],
+ "estado": {
+  "pt": "nao_revista",
+  "ru": "dp_adaptada",
+  "uk": "nao_revista",
+  "en": "dp_adaptada"
+ },
+ "blocos": [
+  {
+   "id": "serafim-01",
+   "tipo": "titulo",
+   "cu": "Пра́вило преподо́бнаго Серафи́ма Саро́вскаго",
+   "pt": "Regra de São Serafim de Sarov",
+   "ru": "Правило преподобного Серафима Саровского",
+   "uk": "Правило преподобного Серафима Саровського",
+   "en": "The Rule of St Seraphim of Sarov",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "serafim-02",
+   "tipo": "rubrica",
+   "cu": "Сіе́ пра́вило преподо́бный Серафи́мъ дава́лъ міря́намъ, кото́рымъ не́когда, или́ кото́рые не у́мѣютъ чита́ть, что́бы никто́ не оставля́лъ ежедне́вной моли́твы. Держа́ться его́ подоба́етъ съ благослове́нія духо́внаго отца́.",
+   "pt": "São Serafim dava esta regra aos leigos que não têm tempo ou não sabem ler, para que ninguém deixe a oração diária. Convém segui-la com a bênção do pai espiritual.",
+   "ru": "Это правило преподобный Серафим давал мирянам, которым некогда или которые не умеют читать, чтобы никто не оставлял ежедневной молитвы. Держаться его подобает с благословения духовного отца.",
+   "uk": "Це правило преподобний Серафим давав мирянам, яким ніколи або які не вміють читати, щоб ніхто не залишав щоденної молитви. Дотримуватися його годиться з благословення духовного отця.",
+   "en": "St Seraphim gave this rule to lay people who have no time or who cannot read, so that none should abandon daily prayer. It is fitting to keep it with the blessing of one's spiritual father.",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Rubrica própria, resumo de doc. 03 §2.1 [7] (versão para leigos da Летопись Серафимо-Дивеевского монастыря, de S. Serafim Tchitchagov). ⚠ A Letopis (1896, domínio público) não foi lida em digitalização nesta sessão. A versão monástica, mais longa, não se apresenta aqui (doc. 03 §2.1). Regras reduzidas são opção pastoral, não norma (doc. 03 §2.2). Frase final sobre a bênção: acréscimo editorial do projeto (doc. 03 §2.2) ⚠."
+  },
+  {
+   "id": "serafim-03",
+   "tipo": "titulo",
+   "cu": "У́тромъ, воста́въ отъ сна",
+   "pt": "De manhã, ao levantar",
+   "ru": "Утром, встав от сна",
+   "uk": "Вранці, вставши від сну",
+   "en": "In the Morning, on Rising",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "serafim-04",
+   "tipo": "rubrica",
+   "cu": "Воста́въ отъ сна и ставъ на избра́нномъ мѣ́стѣ, осѣни́ себя́ кре́стнымъ зна́меніемъ и прочти́ три́жды «О́тче нашъ» въ честь Пресвяты́я Тро́ицы, пото́мъ три́жды «Богоро́дице Дѣ́во, ра́дуйся» и единова́жды «Сѵ́мволъ вѣ́ры».",
+   "pt": "Ao levantar-te do sono, de pé no lugar escolhido, faz o sinal da cruz e lê três vezes o «Pai Nosso», em honra da Santíssima Trindade, depois três vezes «Virgem Mãe de Deus, alegra-Te» e uma vez o «Símbolo da Fé».",
+   "ru": "Встав от сна и став на избранном месте, осени себя крестным знамением и прочти трижды «Отче наш» в честь Пресвятой Троицы, потом трижды «Богородице Дево, радуйся» и единожды «Символ веры».",
+   "uk": "Вставши від сну і ставши на обраному місці, осіни себе хресним знаменням і прочитай тричі «Отче наш» на честь Пресвятої Трійці, потім тричі «Богородице Діво, радуйся» і один раз «Символ віри».",
+   "en": "On rising from sleep, standing in the chosen place, sign thyself with the sign of the Cross and read «Our Father» three times, in honour of the Most Holy Trinity, then «Rejoice, O Virgin Theotokos» three times, and the «Symbol of Faith» once.",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Estrutura segundo doc. 03 §2.1 [7]."
+  },
+  {
+   "id": "serafim-05",
+   "tipo": "oracao",
+   "cu": "О́тче нашъ, И́же еси́ на небесѣ́хъ! Да святи́тся и́мя Твое́, да пріи́детъ Ца́рствіе Твое́, да бу́детъ во́ля Твоя́, я́ко на небеси́ и на земли́. Хлѣбъ нашъ насу́щный даждь намъ днесь; и оста́ви намъ до́лги на́ша, я́коже и мы оставля́емъ должнико́мъ на́шимъ; и не введи́ насъ во искуше́ніе, но изба́ви насъ отъ лука́ваго.",
+   "pt": "Pai nosso, que estás nos céus, santificado seja o Teu nome; venha o Teu Reino; seja feita a Tua vontade, como no céu, assim na terra. O pão nosso de cada dia dá-nos hoje; e perdoa-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores; e não nos conduzas à tentação, mas livra-nos do maligno.",
+   "ru": "Отец наш Небесный! Да прославляется святость имени Твоего; да настанет Царство Твое; да исполняется воля Твоя так же и на земле, как на небе. Хлеб, необходимый для нашего существования, дай нам сегодня; прости нам вины наши так же, как и мы прощаем виноватым перед нами; и не допусти нас впасть в соблазн, но избавь нас от зла.",
+   "uk": "Отче наш, що єси на небесах! Нехай святиться ім’я Твоє, нехай прийде Царство Твоє, нехай буде воля Твоя, як на небі, так і на землі. Хліб наш насущний дай нам сьогодні; і прости нам борги наші, як і ми прощаємо боржникам нашим; і не введи нас у спокусу, але визволи нас від лукавого.",
+   "en": "Our Father, who art in heaven, hallowed be Thy Name. Thy kingdom come. Thy will be done, as in heaven, so on earth. Give us this day our daily bread. And forgive us our debts, as we forgive our debtors. And lead us not into temptation, but deliver us from the evil one.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "Z1912 p. 2",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "Três vezes, em honra da Santíssima Trindade. Sem a doxologia sacerdotal «Яко Твое есть Царство…», que só o sacerdote diz (Z1912 e MS1900 também a omitem). EN: Hapgood segue o BCP («trespasses», «on earth, as it is in heaven»); adaptado ao eslavo/grego (до́лги = ὀφειλήματα «debts»; «как no céu, assim na terra»). PT: «насущный» (ἐπιούσιος) traduzido «de cada dia», leitura tradicional; «лукаваго» = «do maligno» (τοῦ πονηροῦ)."
+  },
+  {
+   "id": "serafim-06",
+   "tipo": "oracao",
+   "cu": "Богоро́дице Дѣ́во, ра́дуйся, Благода́тная Марі́е, Госпо́дь съ Тобо́ю: благослове́на Ты въ жена́хъ, и благослове́нъ плодъ чре́ва Твоего́, я́ко Спа́са родила́ еси́ душъ на́шихъ.",
+   "pt": "Virgem Mãe de Deus, alegra-Te, Maria cheia de graça, o Senhor é Contigo; bendita és Tu entre as mulheres, e bendito é o fruto do Teu ventre, porque deste à luz o Salvador das nossas almas.",
+   "ru": "Богородица Дева, радуйся, благодатная Мария: Господь с Тобою; благословенна Ты между женщинами, и благословен Плод Твой, ибо Ты родила Спасителя душ наших.",
+   "uk": "Богородице Діво, радуйся, благодатна Маріє, Господь з Тобою; благословенна Ти між жінками, і благословенний плід лона Твого, бо Ти породила Спаса душ наших.",
+   "en": "Rejoice, O Virgin Theotokos, Mary full of grace, the Lord is with thee; blessed art thou among women, and blessed is the fruit of thy womb, for thou hast borne the Saviour of our souls.",
+   "fonte": {
+    "cu": "Z1912 p. 9",
+    "ru": "Z1912 p. 9",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "EN: Hapgood «Hail, O Virgin Birth-giver of the Lord!» → «Rejoice, O Virgin Theotokos» (Богородице = Θεοτόκε). PT: «Богородица» = «Mãe de Deus» (glossário, doc. 04 §7)."
+  },
+  {
+   "id": "serafim-07",
+   "tipo": "oracao",
+   "cu": "Вѣ́рую во еди́наго Бо́га Отца́, Вседержи́теля, Творца́ не́бу и земли́, ви́димымъ же всѣмъ и неви́димымъ. И во еди́наго Го́спода Іису́са Христа́, Сы́на Бо́жія, Единоро́днаго, И́же отъ Отца́ рожде́ннаго пре́жде всѣхъ вѣкъ; Свѣ́та отъ Свѣ́та, Бо́га и́стинна отъ Бо́га и́стинна, рожде́нна, несотворе́нна, единосу́щна Отцу́, И́мже вся бы́ша. Насъ ра́ди человѣ́къ и на́шего ра́ди спасе́нія сше́дшаго съ небе́съ и воплоти́вшагося отъ Ду́ха Свя́та и Марі́и Дѣ́вы, и вочеловѣ́чшася. Распя́таго же за ны при Понті́йстѣмъ Пила́тѣ, и страда́вша, и погребе́нна. И воскре́сшаго въ тре́тій день по Писа́ніемъ. И возше́дшаго на небеса́, и сѣдя́ща одесну́ю Отца́. И па́ки гряду́щаго со сла́вою суди́ти живы́мъ и ме́ртвымъ, Его́же Ца́рствію не бу́детъ конца́. И въ Ду́ха Свята́го, Го́спода, Животворя́щаго, И́же отъ Отца́ исходя́щаго, И́же со Отце́мъ и Сы́номъ спокланя́ема и ссла́вима, глаго́лавшаго проро́ки. Во еди́ну Святу́ю, Собо́рную и Апо́стольскую Це́рковь. Исповѣ́дую еди́но креще́ніе во оставле́ніе грѣхо́въ. Ча́ю воскресе́нія ме́ртвыхъ, и жи́зни бу́дущаго вѣ́ка. Ами́нь.",
+   "pt": "Creio num só Deus, Pai, Todo-Poderoso, Criador do céu e da terra, de todas as coisas visíveis e invisíveis. E num só Senhor, Jesus Cristo, Filho de Deus, Unigénito, nascido do Pai antes de todos os séculos; Luz da Luz, Deus verdadeiro de Deus verdadeiro, gerado, não criado, consubstancial ao Pai, por Quem todas as coisas foram feitas. Que, por nós, homens, e para nossa salvação, desceu dos céus e Se encarnou do Espírito Santo e da Virgem Maria, e Se fez homem. E foi crucificado por nós sob Pôncio Pilatos, e padeceu, e foi sepultado. E ressuscitou ao terceiro dia, segundo as Escrituras. E subiu aos céus, e está sentado à direita do Pai. E de novo há de vir com glória julgar os vivos e os mortos, e o Seu Reino não terá fim. E no Espírito Santo, Senhor, Vivificador, que procede do Pai, que com o Pai e o Filho é juntamente adorado e glorificado, que falou pelos profetas. Numa só Igreja, Santa, Católica e Apostólica. Confesso um só batismo para a remissão dos pecados. Espero a ressurreição dos mortos e a vida do século que há de vir. Ámen.",
+   "ru": "Верую во единого Бога Отца, Вседержителя, Творца неба и земли, всего видимого и невидимого. И во единого Господа Иисуса Христа, Единородного Сына Божия, рожденного от Отца прежде всякого времени, истинного Бога, рожденного от истинного Бога, как свет рождается от света, — рожденного, а не сотворенного, Который одного существа с Богом Отцом и через Которого произошел весь мир; сошедшего с небес для нас, людей, и нашего спасения, — воплотившегося от Духа Святого и Девы Марии и сделавшегося истинным человеком; и распятого за нас при Понтии Пилате, и страдавшего, и погребенного; и воскресшего в третий день, как было предсказано в Писании; и вознесшегося на небеса, и сидящего по правую руку Отца; и Который опять придет во славе, чтобы судить живых и мертвых, и Его Царству не будет конца. И в Духа Святого, Господа, дающего жизнь, исходящего от Отца, Которому надлежит поклоняться и Которого славить одинаково с Отцом и Сыном, — говорившего через пророков. В единую Святую, Соборную и Апостольскую Церковь. Я признаю одно в жизни крещение для очищения от грехов. Я ожидаю воскресения мертвых и другой, вечной жизни. Аминь.",
+   "uk": "Вірую в єдиного Бога Отця, Вседержителя, Творця неба і землі, всього видимого і невидимого. І в єдиного Господа Іісуса Христа, Сина Божого, Єдинородного, від Отця народженого перед усіма віками; Світло від Світла, Бога істинного від Бога істинного, народженого, не створеного, єдиносущного Отцеві, через Якого все сталося. Нас ради людей і нашого ради спасіння зійшов з небес, і воплотився від Духа Святого і Марії Діви, і вочоловічився. І розп’ятий був за нас при Понтії Пилаті, і страждав, і був похований. І воскрес у третій день, згідно з Писаннями. І вознісся на небеса, і сидить праворуч Отця. І знову прийде зі славою судити живих і мертвих, і Царству Його не буде кінця. І в Духа Святого, Господа Животворчого, що від Отця походить, що з Отцем і Сином рівнопоклоняємий і рівнославимий, що говорив через пророків. В єдину Святу, Соборну і Апостольську Церкву. Визнаю єдине хрещення на відпущення гріхів. Чекаю воскресіння мертвих і життя майбутнього віку. Амінь.",
+   "en": "I believe in one God, the Father Almighty, Maker of heaven and earth, and of all things visible and invisible. And in one Lord Jesus Christ, the Son of God, the Only-begotten, begotten of the Father before all ages; Light of Light, true God of true God, begotten, not made, of one essence with the Father, by whom all things were made; who for us men and for our salvation came down from heaven, and was incarnate of the Holy Spirit and the Virgin Mary, and was made man; and was crucified for us under Pontius Pilate, and suffered, and was buried; and the third day He rose again, according to the Scriptures; and ascended into heaven, and sitteth at the right hand of the Father; and He shall come again with glory to judge the living and the dead, whose kingdom shall have no end. And in the Holy Spirit, the Lord, the Giver of Life, who proceedeth from the Father, who with the Father and the Son together is worshipped and glorified, who spake by the Prophets. In one Holy, Catholic and Apostolic Church. I acknowledge one Baptism for the remission of sins. I look for the Resurrection of the dead, and the Life of the age to come. Amen.",
+   "fonte": {
+    "cu": "Z1912 pp. 60–61",
+    "ru": "Z1912 pp. 60–61",
+    "en": "H1906 p. 100",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Eslavo segundo Z1912 pp. 60–61. ⚠ Z1912 lê «спокланя́ема и сла́вима»; as edições correntes têm «и сслави́ма» (συνδοξαζόμενον) — conferir com outra impressão sinodal pré-1917. RU: Z1912 é paráfrase explicativa (acrescenta «как свет рождается от света», «одно в жизни крещение», «другой, вечной жизни»); mantida por ser a fonte PD da dec. 36, mas ⚠ menos literal que o eslavo. EN: Hapgood adaptado («Holy Ghost» → «Holy Spirit», «before all worlds» → «before all ages», «Being of one Essence» → «of one essence», «the quick» → «the living», «world to come» → «age to come», ordem do eslavo «the Son of God, the Only-begotten»). PT/EN/UK: «Соборную» = καθολικήν → «Católica»/«Catholic»/«Соборну»."
+  },
+  {
+   "id": "serafim-08",
+   "tipo": "titulo",
+   "cu": "Днёмъ, до обѣ́да",
+   "pt": "Durante o dia, até ao almoço",
+   "ru": "Днем, до обеда",
+   "uk": "Удень, до обіду",
+   "en": "During the Day, until the Midday Meal",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "serafim-09",
+   "tipo": "rubrica",
+   "cu": "Занима́ясь свои́мъ дѣ́ломъ до́ма или́ въ пути́, твори́ ти́хо Іису́сову моли́тву; а е́сли окружа́ютъ лю́ди, то, занима́ясь дѣ́ломъ, говори́ умо́мъ то́лько «Го́споди, поми́луй».",
+   "pt": "Ocupando-te do teu trabalho em casa ou a caminho, diz em voz baixa a Oração de Jesus; e, se estiveres rodeado de pessoas, enquanto trabalhas, diz apenas no pensamento «Senhor, tem piedade».",
+   "ru": "Занимаясь своим делом дома или в пути, твори тихо Иисусову молитву; а если окружают люди, то, занимаясь делом, говори умом только «Господи, помилуй».",
+   "uk": "Займаючись своєю справою вдома або в дорозі, тихо твори Іісусову молитву; а якщо довкола люди, то, займаючись справою, говори тільки розумом «Господи, помилуй».",
+   "en": "While occupied with thy work at home or on the way, say the Jesus Prayer quietly; and if people are around thee, while working say in thy mind only «Lord, have mercy».",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Doc. 03 §2.1 [7]."
+  },
+  {
+   "id": "serafim-10",
+   "tipo": "oracao",
+   "cu": "Го́споди Іису́се Христе́, Сы́не Бо́жій, поми́луй мя грѣ́шнаго.",
+   "pt": "Senhor Jesus Cristo, Filho de Deus, tem piedade de mim, pecador.",
+   "ru": "Господи Иисусе Христе, Сыне Божий, помилуй меня, грешного.",
+   "uk": "Господи Іісусе Христе, Сину Божий, помилуй мене, грішного.",
+   "en": "Lord Jesus Christ, Son of God, have mercy on me, a sinner.",
+   "fonte": {
+    "cu": "Лѣтопись Серафимо-Дивѣевскаго монастыря (1896), via doc. 03 §2.1 [7] ⚠",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Feminino: «грѣ́шную» / «pecadora» / «грешную» / «грішну». Cf. jesus.json."
+  },
+  {
+   "id": "serafim-11",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Dito só no pensamento, quando há gente à volta."
+  },
+  {
+   "id": "serafim-12",
+   "tipo": "titulo",
+   "cu": "По́слѣ обѣ́да до ве́чера",
+   "pt": "Depois do almoço até à noite",
+   "ru": "После обеда до вечера",
+   "uk": "Після обіду до вечора",
+   "en": "From the Midday Meal until Evening",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "serafim-13",
+   "tipo": "rubrica",
+   "cu": "Предъ обѣ́домъ повтори́ у́треннее пра́вило: «О́тче нашъ» (три́жды), «Богоро́дице Дѣ́во» (три́жды) и «Сѵ́мволъ вѣ́ры» (единова́жды), какъ вы́ше. По́слѣ обѣ́да, занима́ясь дѣ́ломъ, твори́ ти́хо:",
+   "pt": "Antes do almoço, repete a regra da manhã: «Pai Nosso» (três vezes), «Virgem Mãe de Deus» (três vezes) e o «Símbolo da Fé» (uma vez), como acima. Depois do almoço, ocupando-te do teu trabalho, diz em voz baixa:",
+   "ru": "Перед обедом повтори утреннее правило: «Отче наш» (трижды), «Богородице Дево» (трижды) и «Символ веры» (единожды), как выше. После обеда, занимаясь делом, твори тихо:",
+   "uk": "Перед обідом повтори ранкове правило: «Отче наш» (тричі), «Богородице Діво» (тричі) і «Символ віри» (один раз), як вище. Після обіду, займаючись справою, тихо твори:",
+   "en": "Before the midday meal, repeat the morning rule: «Our Father» (three times), «Rejoice, O Virgin Theotokos» (three times) and the «Symbol of Faith» (once), as above. After the meal, while about thy work, say quietly:",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Doc. 03 §2.1 [7]. Os textos estão acima, neste mesmo ecrã."
+  },
+  {
+   "id": "serafim-14",
+   "tipo": "oracao",
+   "cu": "Пресвята́я Богоро́дице, спаси́ мя грѣ́шнаго.",
+   "pt": "Santíssima Mãe de Deus, salva-me a mim, pecador.",
+   "ru": "Пресвятая Богородица, спаси меня, грешного.",
+   "uk": "Пресвята Богородице, спаси мене, грішного.",
+   "en": "Most holy Theotokos, save me, a sinner.",
+   "fonte": {
+    "cu": "Лѣтопись Серафимо-Дивѣевскаго монастыря (1896), via doc. 03 §2.1 [7] ⚠",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Feminino: «грѣ́шную» / «pecadora» / «грешную» / «грішну»."
+  },
+  {
+   "id": "serafim-15",
+   "tipo": "rubrica",
+   "cu": "Или́:",
+   "pt": "Ou:",
+   "ru": "Или:",
+   "uk": "Або:",
+   "en": "Or:",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "serafim-16",
+   "tipo": "oracao",
+   "cu": "Го́споди Іису́се Христе́, Богоро́дицею поми́луй мя грѣ́шнаго.",
+   "pt": "Senhor Jesus Cristo, pela intercessão da Mãe de Deus, tem piedade de mim, pecador.",
+   "ru": "Господи Иисусе Христе, по молитвам Богородицы помилуй меня, грешного.",
+   "uk": "Господи Іісусе Христе, Богородицею помилуй мене, грішного.",
+   "en": "Lord Jesus Christ, through the Theotokos have mercy on me, a sinner.",
+   "fonte": {
+    "cu": "Лѣтопись Серафимо-Дивѣевскаго монастыря (1896), via doc. 03 §2.1 [7] ⚠",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«Богоро́дицею» (instrumental) = «pela intercessão da Mãe de Deus», como nos tropários da manhã."
+  },
+  {
+   "id": "serafim-17",
+   "tipo": "titulo",
+   "cu": "Предъ сномъ",
+   "pt": "Ao deitar",
+   "ru": "Перед сном",
+   "uk": "Перед сном",
+   "en": "On Going to Sleep",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "serafim-18",
+   "tipo": "rubrica",
+   "cu": "Отходя́ ко сну, вся́кій христіа́нинъ пусть повтори́тъ у́треннее пра́вило, то есть три́жды «О́тче нашъ», три́жды «Богоро́дице Дѣ́во» и единова́жды «Сѵ́мволъ вѣ́ры», и по́слѣ того́, огради́вшись кре́стнымъ зна́меніемъ, засыпа́етъ.",
+   "pt": "Ao recolher-se para dormir, todo o cristão repita a regra da manhã — três vezes o «Pai Nosso», três vezes «Virgem Mãe de Deus» e uma vez o «Símbolo da Fé» — e depois, protegido pelo sinal da cruz, adormeça.",
+   "ru": "Отходя ко сну, всякий христианин пусть повторит утреннее правило, то есть трижды «Отче наш», трижды «Богородице Дево» и единожды «Символ веры», и после того, оградившись крестным знамением, засыпает.",
+   "uk": "Відходячи до сну, кожен християнин хай повторить ранкове правило, тобто тричі «Отче наш», тричі «Богородице Діво» і один раз «Символ віри», а після того, огородившись хресним знаменням, хай засне.",
+   "en": "On going to sleep, let every Christian repeat the morning rule, that is, «Our Father» three times, «Rejoice, O Virgin Theotokos» three times and the «Symbol of Faith» once, and then, guarding himself with the sign of the Cross, fall asleep.",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Doc. 03 §2.1 [7]."
+  }
+ ]
 }

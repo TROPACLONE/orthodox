@@ -6,6 +6,7 @@ import { dia } from '../src/engine/calendario.js';
 import { periodoOracao, blocosDoPeriodo, eNoite } from '../src/engine/oracoes.js';
 const P = d => periodoOracao(dia(G(...d)));
 assert.equal(P([2026, 4, 12]), 'semana_luminosa'); assert.equal(P([2026, 4, 18]), 'semana_luminosa');
+assert.equal(periodoOracao(dia(G(2026, 4, 18)), true), 'pascoa_ascensao');   // noite do Sábado Luminoso (rubrica: até sábado de manhã)
 assert.equal(P([2026, 4, 19]), 'pascoa_ascensao'); assert.equal(P([2026, 5, 20]), 'pascoa_ascensao');
 assert.equal(periodoOracao(dia(G(2026, 5, 20)), true), 'ascensao_pentecostes');   // noite da véspera da Ascensão (B1)
 // Hora (app: periodoOracao(d, eNoite(id, hora))): a partir das 18 h qualquer oração; as da noite desde o meio-dia, mas
