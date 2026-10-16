@@ -38,7 +38,7 @@ Convenções deste documento:
 ### 1.1 Edições e aprovação
 
 - Desde a determinação do Santo Sínodo de 25.12.2009 sobre a atividade editorial, todas as edições destinadas à venda na rede eclesiástica (diocesana, paroquial, monástica) devem ser revistas pelo Conselho Editorial (Издательский совет, *Izdatelsky sovet*) e receber o selo «Рекомендовано к публикации Издательским советом Русской Православной Церкви» (*Rekomendovano k publikatsii…*); o selo «По благословению Святейшего Патриарха…» é concedido apenas a título excecional a edições de importância geral [46].
-- Consequência para a app: **não existe uma única edição "canónica"** do Molitvoslov; existem muitas edições com selo do Conselho Editorial (identificador do tipo «ИС Р…»), com pequenas diferenças (orações adicionais, notas, ortografia). A estrutura abaixo segue o Molitvoslov de azbyka.ru [1][2]. ⚠ PARA CONFIRMAR: comparar com uma edição impressa concreta com selo ИС (p. ex. Издательство Московской Патриархии) antes de fixar a ordem na app.
+- Consequência para a app: **não existe uma única edição "canónica"** do Molitvoslov; existem muitas edições com selo do Conselho Editorial (identificador do tipo «ИС Р…»), com pequenas diferenças (orações adicionais, notas, ortografia). A estrutura abaixo segue o Molitvoslov de azbyka.ru [1][2]. ⚠ PARA CONFIRMAR: comparar com uma edição impressa concreta com selo ИС (p. ex. Издательство Московской Патриархии) antes de fixar a ordem na app. 2.ª ronda: não há edição com selo ИС acessível em linha para comparação integral. Alternativa verificável: o *Молитвословъ* sinodal de 1900, em domínio público [74] (ver §6.5); continua por fazer a comparação com uma edição atual.
 - Texto impresso em itálico (rubricas, títulos) **não se lê** durante a oração [1][10] → na app, rubricas devem ter estilo distinto e ser excluídas de qualquer modo "ler em voz alta"/TTS.
 
 ### 1.2 Orações da manhã (Молитвы утренние, *Molitvy utrennie*)
@@ -134,10 +134,13 @@ Rubrica relevante: se após as orações da noite se pretende ir logo dormir, os
 
 Horas Pascais (ordem) [4]: «Молитвами святых отец наших…» → «Христос воскресе из мертвых…» ×3 → «Воскресение Христово видевше…» ×3 → Ипакои «Предварившия утро…» → Кондак «Аще и во гроб снизшел еси…» → «Слава»: «Во гробе плотски…» → «И ныне»: Богородичен → «Господи, помилуй» ×40 → (помянник, quando usadas como regra da manhã) → «Честнейшую Херувим…» → «Христос воскресе» ×3 → oração final/despedida.
 
-⚠ PARA CONFIRMAR:
-- Limite exato "até à Ascensão": na prática litúrgica o período pascal termina na **Apodose da Páscoa** (Отдание Пасхи, quarta-feira véspera da Ascensão). As fontes consultadas dizem apenas «до Вознесения» [2][16]. Decidir se a app muda na quarta-feira (apodose) ou na quinta-feira (Ascensão).
-- Se, na semana do Domingo de S. Tomé (Антипасха) até à Ascensão, as orações da manhã também começam com «Христос воскресе» ×3 em vez da série inicial completa (azbyka só anota a substituição de «Царю Небесный») [1][2].
-- Sábado à noite da Semana Luminosa: a fonte diz "até sábado de manhã inclusive" para as Horas Pascais [4]; confirmar que no sábado à noite já se usa a regra normal com as substituições pascais.
+Pontos verificados na 2.ª ronda:
+- **Limite "até à Ascensão" — ✔ Confirmado (2.ª ronda) quanto aos dias; ⚠ só a noite de quarta-feira → DECISÃO DO UTILIZADOR.** O Molitvoslov do azbyka divide o tempo assim [64]:
+  - «От Пасхи до праздника Вознесения Господня (40 дней)»: «Христос воскресе» ×3 e «Ангел вопияше»;
+  - «От праздника Вознесения Господня до Дня Святой Троицы (10 дней)»: começa-se no «Трисвятое».
+  Os 10 dias (quinta da Ascensão → sábado antes do Pentecostes) mostram que a quinta-feira da Ascensão já pertence ao 2.º período. As *Богослужебные указания* citadas na mesma página dizem «от Недели Фоминой до отдания Пасхи» [64]. A apodose cai na quarta-feira da 6.ª semana (dia 39), pelo que as duas fórmulas coincidem em todos os dias civis. Só a **oração da noite de quarta-feira** fica ambígua, porque liturgicamente já é a véspera da Ascensão. Regra da app: substituições pascais de domingo de Páscoa a **quarta-feira da 6.ª semana inclusive**; a partir de quinta-feira, início em «Святый Боже». Falta decidir a noite de quarta-feira (sugestão: manter as substituições pascais, seguindo o dia civil).
+- **Início das orações de Antipascha à Ascensão — ✔ Confirmado (2.ª ronda):** substitui-se **apenas** «Царю Небесный» por «Христос воскресе» ×3. O que precede («Молитвами святых отец…», «Слава Тебе, Боже наш…») mantém-se, e segue-se o Triságio [16][64].
+- **Sábado da Semana Luminosa — ✔ Confirmado (2.ª ronda):** as Horas Pascais substituem as orações «7 дней от Пасхи до утра субботы включительно» [64]. No sábado à noite usa-se a regra normal com as substituições pascais.
 
 Pseudo-lógica sugerida:
 ```
@@ -171,7 +174,7 @@ A *Летопись* de Diveevo transmite uma versão **monástica** mais longa 
 ### 2.2 Redução/adaptação da regra
 
 - O documento de 2015 admite que, com a bênção do pai espiritual, a regra antes da Comunhão seja substituída por outras orações (referido a principiantes, crianças, doentes) [5][6]. Por analogia, a app deve apresentar regras reduzidas como **opção pastoral** ("com a bênção do seu confessor"), não como norma.
-- ⚠ PARA CONFIRMAR: não se encontrou uma "regra breve para leigos" oficial além da de S. Serafim; muitas edições do Molitvoslov trazem notas próprias sobre regras abreviadas (variam por edição).
+- ⚠ PARA CONFIRMAR: não se encontrou uma "regra breve para leigos" oficial além da de S. Serafim; muitas edições do Molitvoslov trazem notas próprias sobre regras abreviadas (variam por edição). 2.ª ronda: sem documento sinodal novo; o único texto normativo continua a ser a cláusula de substituição «с благословения духовника» do documento sobre a Eucaristia [6].
 
 ---
 
@@ -210,7 +213,7 @@ Atenção: azbyka tem também um «Канон покаянный ко Пресв
 
 Ordem de leitura quando os cânones são lidos à parte (чин келейного чтения): início habitual (até Símbolo da Fé, com Salmo 50) → cânone(s) → «Достойно есть» → «Слава… И ныне…», «Господи, помилуй» ×3 → despedida. Se combinados com as orações da noite, a parte inicial não se repete e o cânone vai antes de «Достойно есть» [16].
 
-⚠ PARA CONFIRMAR: prática de combinar os três cânones num "cânone triplo" (com os irmos do primeiro cânone e os tropários dos três) — existe em muitas edições, mas não se encontrou fonte oficial.
+⚠ PARA CONFIRMAR: prática de combinar os três cânones num "cânone triplo" (com os irmos do primeiro cânone e os tropários dos três) — existe em muitas edições, mas não se encontrou fonte oficial. 2.ª ronda: confirma-se apenas que coletâneas correntes (Канонник, «Молитвослов для готовящихся к Исповеди и Причастию») publicam «Три канона совмещённые»; não se encontrou norma sinodal nem rubrica do Typikon. Na app: oferecer como opção, não como norma.
 
 ### 3.3 Ofício para a Sagrada Comunhão (Последование ко Святому Причащению, *Posledovanie ko Sviatomu Prichascheniiu*)
 
@@ -236,9 +239,11 @@ Fonte e texto completo: [9]. Estrutura:
    - Oração de S. João Crisóstomo (lida também no templo antes de comungar): «Верую, Господи, и исповедую…»
 8. Versos de S. Simeão Metafrasta «Се приступаю к Божественному Причащению…», tropários «Вечери Твоея тайныя…» etc., «Услади мя еси любовию…», «Во светлостех святых Твоих…», oração «Владыко Человеколюбче, Господи Иисусе Христе Боже мой…» [9].
 
-Rubrica sobre tropários do início: em domingo que não seja grande festa, tropário dominical do tom; em festa grande/polieléica, o da festa; nos outros dias «Помилуй нас, Господи» [9]. ⚠ PARA CONFIRMAR: a página de azbyka não traz rubrica pascal; durante o período pascal o início deve seguir as substituições de §1.4.
+Rubrica sobre tropários do início: em domingo que não seja grande festa, tropário dominical do tom; em festa grande/polieléica, o da festa; nos outros dias «Помилуй нас, Господи» [9]. ✔ Confirmado (2.ª ronda): a página do azbyka sobre a regra pascal diz [64]:
+- de Páscoa à Ascensão, «все молитвословия предваряются троекратным чтением тропаря Пасхи»; aplicam-se também ao Последование as substituições de §1.4 (incluindo «Ангел вопияше» em vez de «Достойно есть»);
+- na Semana Luminosa, a regra para a Comunhão «начинается с Часов Пасхи, после которых следует Пасхальный канон».
 
-Na Semana Luminosa: em vez dos três cânones lê-se o **Cânone Pascal** de S. João Damasceno + cânone e orações para a Comunhão [3][5][6]. Texto do Cânone Pascal: azbyka (Пасхальный канон, творение прп. Иоанна Дамаскина) [ver índice 9]. ⚠ PARA CONFIRMAR: prática de Antipascha até à Ascensão (muitas paróquias abençoam o Cânone Pascal no lugar do penitencial) — sem norma escrita encontrada.
+Na Semana Luminosa: em vez dos três cânones lê-se o **Cânone Pascal** de S. João Damasceno + cânone e orações para a Comunhão [3][5][6]. Texto do Cânone Pascal: azbyka (Пасхальный канон, творение прп. Иоанна Дамаскина) [ver índice 9]. ⚠ PARA CONFIRMAR: prática de Antipascha até à Ascensão (muitas paróquias abençoam o Cânone Pascal no lugar do penitencial) — sem norma escrita encontrada. 2.ª ronda: o documento de 2015/2016 [5][6] e a página pascal do azbyka [64] só preveem a substituição na **Semana Luminosa**; não se encontrou nada para o resto do período pascal. Na app: fora da Semana Luminosa, regra normal; o Cânone Pascal só como opção «com a bênção do confessor».
 
 ### 3.4 Orações de ação de graças após a Comunhão (Благодарственные молитвы по Святом Причащении)
 
@@ -255,7 +260,10 @@ Fonte: [10]. Ordem:
 10. «Господи, помилуй» ×12; «Честнейшую Херувим…»; despedida.
 11. Rubrica final: guardar sobriedade, recolhimento e silêncio no dia da Comunhão.
 
-→ A app deve ter **variante por Liturgia**: S. João Crisóstomo (padrão), S. Basílio o Grande (10 vezes por ano), Pré-santificados (S. Gregório Dialogo). ⚠ PARA CONFIRMAR: azbyka só traz a variante de Crisóstomo; textos de tropário/condácio de S. Basílio e S. Gregório devem ser tirados do Molitvoslov impresso ou do Минея (1 jan. e 12 mar.).
+→ A app deve ter **variante por Liturgia**: S. João Crisóstomo (padrão), S. Basílio o Grande (10 vezes por ano), Pré-santificados (S. Gregório Dialogo). ✔ Confirmado (2.ª ronda): os tropários e condácios são os do santo no Menaion (calendário do azbyka):
+- **S. Basílio** (1/14 jan.): tropário, tom 1, «Во всю землю изыде вещание твое…»; condácio, tom 4, «Явился еси основание непоколебимое Церкве…» [69];
+- **S. Gregório Dialogo** (12/25 mar.): tropário, tom 4, «Иже от Бога свыше Божественную благодать восприем…»; condácio, tom 3, «Подобоначальник показался еси Начальника пастырем Христа…» [70].
+Os textos integrais devem ser retranscritos de fonte em domínio público (Menaion/Molitvoslov pré-1917, ver §6.5).
 
 Existe ainda tradução russa (não litúrgica) das orações para a Comunhão em azbyka (Молитвы ко Св. Причащению на русском языке) [índice 9] — útil como apoio para a tradução portuguesa.
 
@@ -272,8 +280,8 @@ Textos com estatuto oficial (litúrgico):
 Listas de pecados ("перечни грехов", questionários): existem dezenas de publicações; nenhuma das encontradas tem estatuto sinodal. Exemplos de obras **privadas** (de autor):
 - arquim. João (Krestiankin), *Опыт построения исповеди* (Сретенский монастырь, 2016) — conferências de Quaresma em Pskovo-Petchory [17].
 - Coletâneas como «Полная исповедь…» e muitas brochuras paroquiais [18] (estudo histórico das listas de pecados russas sécs. XIV–XIX: Korogodina, *Исповедь в России* [18]).
-- ⚠ PARA CONFIRMAR: «В помощь кающимся» é frequentemente atribuído a S. Inácio (Briantchaninov) mas é uma compilação; verificar autoria antes de usar.
-- ⚠ PARA CONFIRMAR: se a Comissão Inter-Conciliar (Межсоборное присутствие) publicou algum documento/projeto sobre a prática da confissão posterior a 2015 — a pesquisa não encontrou texto.
+- ✔ Confirmado (2.ª ronda): «В помощь кающимся» é uma **compilação** feita «по творениям святителя Игнатия Брянчанинова» e não uma obra escrita por ele como tal. As edições correntes incluem uma secção «Дополнения из разных источников» [71]. O compilador não é identificado nas fontes consultadas. Na app: atribuir como «compilação a partir de S. Inácio (Briantchaninov)».
+- ⚠ PARA CONFIRMAR: se a Comissão Inter-Conciliar (Межсоборное присутствие) publicou algum documento/projeto sobre a prática da confissão posterior a 2015 — a pesquisa não encontrou texto. 2.ª ronda: nova pesquisa (azbyka, patriarchia, pesquisa geral) sem resultado.
 
 Recomendação para a app: oferecer (a) a confissão diária do Molitvoslov e (b) um exame de consciência **assinalado como obra de autor X, com licença/permissão**, nunca como "lista oficial da Igreja". Notas pessoais para confissão: guardar apenas localmente/cifradas (dados sensíveis).
 
@@ -308,17 +316,25 @@ Recomendação para a app: oferecer (a) a confissão diária do Molitvoslov e (b
 
 - **Поясной поклон** (*poiasnoi*, inclinação até à cintura) e **земной поклон** (*zemnoi*, prostração até ao chão, de joelhos, tocando o chão com a cabeça) [22][24].
 - Prostrações **não** se fazem: aos domingos, nas festas do Senhor, de Natal a Teofania, de Páscoa a Pentecostes, e pelos comungantes no dia da Comunhão (cân. 20 do I Concílio Ecuménico e 90 do VI) [24][23]. Typikon: nesses dias, em vez de prostração, inclinação até a mão tocar o chão [24].
-- ⚠ PARA CONFIRMAR: limites exatos (algumas fontes começam a suspensão na Quarta/Sexta-feira Santa; exceções diante do Epitáfio/Cruz) [23].
+- ✔ Confirmado (2.ª ronda): limites na Semana Santa [67][68]:
+  - no templo, as últimas prostrações (3, normalmente com a oração de S. Efrém) fazem-se no fim da Liturgia dos Pré-santificados de **Quarta-feira Santa**. O Typikon diz: «и абие упраздняются совершенно в церкви бываемые земные поклоны; в келлиях же даже и до Великого Пятка совершаются»;
+  - em casa (cela) podem fazer-se até **Sexta-feira Santa**;
+  - exceção: prostrações diante do **Epitáfio** (Плащаница) na Sexta e no Sábado Santos;
+  - recomeçam nas Vésperas de Pentecostes (orações de joelhos).
 - → Regras de prostrações (p. ex. oração de S. Efrém na Quaresma) devem ser condicionadas por esta tabela.
 
 ### 5.5 Acatistos (Акафисты; gr. Ἀκάθιστος Ὕμνος)
 
 - Hino de louvor cantado de pé: **13 condácios e 12 ícos** alternados; os ícos terminam com refrão («Радуйся…»), os condácios com «Аллилуиа» [25].
 - Único acatisto com lugar no Typikon: **Acatisto à Mãe de Deus**, nas Matinas do sábado da 5.ª semana da Grande Quaresma («Похвала Богородицы») [25]. Os restantes são hinos não litúrgicos (oração privada; molebens após a 6.ª ode) [25].
-- Ordem de leitura em casa: início habitual → acatisto → conclusão (ver §3.2, чин келейного чтения) [16]. ⚠ PARA CONFIRMAR: a prática corrente "condácio 13 três vezes, depois ícos 1 e condácio 1, e oração" não foi confirmada numa fonte oficial (consta das edições impressas de acatistos).
+- Ordem de leitura em casa: início habitual → acatisto → conclusão (ver §3.2, чин келейного чтения) [16]. ⚠ PARA CONFIRMAR: a prática corrente "condácio 13 três vezes, depois ícos 1 e condácio 1, e oração" não foi confirmada numa fonte oficial (consta das edições impressas de acatistos). 2.ª ronda: nem o «Чин келейного чтения» [16] nem o artigo «Акафист» [25] do azbyka descrevem esta repetição; o ponto mantém-se. Fonte a consultar: uma edição pré-1917 de acatistos em domínio público (§6.5).
 - **Aprovação**: desde 29.04.2011 existe no Conselho Editorial um Grupo de Trabalho para a codificação dos acatistos; os acatistos sem aprovação eclesiástica oficial devem passar por esse grupo e os projetos são submetidos ao Santo Sínodo; por determinação de 14.05.2018 (jornal n.º 28, p. 11), o Sínodo só aceita acatistos a santos recém-glorificados depois de aprovado o ofício litúrgico completo [26].
-- Quaresma: há referência a uma decisão sinodal de 2018 que «не рекомендовать совершение акафистов после Божественной литургии, а также в период Святой Четыредесятницы» (exceto o Acatisto do sábado da 5.ª semana e a Пассия) [27]. ⚠ PARA CONFIRMAR: localizar o texto oficial (jornal do Sínodo) em patriarchia.ru.
-- Acatistos de uso muito comum (lista indicativa, **não normativa**): à Mãe de Deus; a Jesus Dulcíssimo (Иисусу Сладчайшему); a S. Nicolau; ao Anjo da Guarda; «Слава Богу за всё»; a ícones da Mãe de Deus. Coleção: azbyka (Акафисты) [25]. ⚠ PARA CONFIRMAR: estatuto de aprovação sinodal de cada acatisto incluído na app.
+- Quaresma: há referência a uma decisão sinodal de 2018 que «не рекомендовать совершение акафистов после Божественной литургии, а также в период Святой Четыредесятницы» (exceto o Acatisto do sábado da 5.ª semana e a Пассия) [27]. ✔ Confirmado (2.ª ronda): é a determinação do Santo Sínodo de **14.05.2018, ata n.º 28**, sobre o documento da Comissão Inter-Conciliar «Акафист в молитвенной жизни Церкви». Texto: «не рекомендовать совершение акафистов после Божественной литургии, а также в период Святой Четыредесятницы, за исключением утрени субботы пятой седмицы и чинопоследования пассии в тех храмах, где имеется обычай» [27][65][66]. Refere-se ao **culto público**; não regula a oração privada [27]. (patriarchia.ru continua ilegível por ferramentas automáticas; a ata é citada por notícia oficial do Conselho Editorial [65].)
+- Acatistos de uso muito comum (lista indicativa, **não normativa**): à Mãe de Deus; a Jesus Dulcíssimo (Иисусу Сладчайшему); a S. Nicolau; ao Anjo da Guarda; «Слава Богу за всё»; a ícones da Mãe de Deus. Coleção: azbyka (Акафисты) [25]. ⚠ PARA CONFIRMAR: estatuto de aprovação sinodal de cada acatisto incluído na app. 2.ª ronda — o que o Sínodo fixou em 14.05.2018 [66]:
+- recordou a inadmissibilidade de usar acatistos **não aprovados pelo Santo Sínodo nem incluídos em edições oficiais**;
+- os bispos só podem abençoar novos acatistos a santos locais, dentro da sua diocese;
+- encarregou o Conselho Editorial de publicar e atualizar uma **lista dos acatistos aprovados**.
+Não se encontrou essa lista consolidada em linha (há aprovações avulsas, p. ex. no Sínodo de 28.12.2018). → **DECISÃO DO UTILIZADOR**: critério de inclusão na app. Sugestão: só acatistos com aprovação sinodal documentada ou de edições pré-1917 com aprovação do Santo Sínodo, assinalando a fonte de cada um.
 
 ### 5.6 Saltério (Псалтирь, *Psaltir'*; gr. Ψαλτήριον) e catismas (кафизмы)
 
@@ -340,7 +356,7 @@ Recomendação para a app: oferecer (a) a confissão diária do Molitvoslov e (b
 | 10 | 70–76 | 20 | 143–151 |
 
 - Estrutura de cada catisma (leitura privada): orações antes do Saltério (uma vez, no início); em cada "Glória": «Слава… И ныне… Аллилуиа» ×3 «Слава Тебе, Боже» ×3, «Господи, помилуй» ×3 [28][29]; no fim: Triságio… «Отче наш», tropários do tom indicado, «Господи, помилуй» ×40, oração da catisma [29].
-- **Leitura pelos defuntos**: em cada "Glória" lê-se a oração «Помяни, Господи Боже наш…» (pelo defunto); prática moderna: começar com as orações iniciais e o tropário «Глубиною мудрости…», terminar o Saltério com o cânone pelo defunto; prática antiga: precedido do cânone por um/vários defuntos; pode ser feita por qualquer leigo piedoso, continuamente até ao funeral e depois em memória [30]. ⚠ PARA CONFIRMAR: variante para os **vivos** (inserções "о здравии") — não descrita em [30].
+- **Leitura pelos defuntos**: em cada "Glória" lê-se a oração «Помяни, Господи Боже наш…» (pelo defunto); prática moderna: começar com as orações iniciais e o tropário «Глубиною мудрости…», terminar o Saltério com o cânone pelo defunto; prática antiga: precedido do cânone por um/vários defuntos; pode ser feita por qualquer leigo piedoso, continuamente até ao funeral e depois em memória [30]. ⚠ PARA CONFIRMAR: variante para os **vivos** (inserções "о здравии") — não descrita em [30]. 2.ª ronda: só se encontrou a prática de **grupos** organizados pelo azbyka: nomes «о здравии» comemorados na 1.ª e 2.ª «Glória» de cada catisma e nomes «об упокоении» na 3.ª [30]. É regra de uma plataforma, não norma eclesial. O texto da oração a inserir pelos vivos continua por confirmar numa fonte litúrgica.
 - → Modelo de dados: `Psalm{lxx, mt, verses}` + `Kathisma{n, stasis[3]}`; planos de leitura (1 catisma/dia; leitura em grupo — azbyka tem regras para grupos [30]).
 
 ### 5.7 Pomiánnik (Помянник, lista de comemoração) e notas (записки)
@@ -379,20 +395,26 @@ azbyka reúne [33]: Последование по исходе души от т�
 
 - **Unicode Technical Note #41 — Church Slavonic Typography in Unicode** (A. Andreev, Y. Shardt, N. Simmons, v1, 04.11.2015): modelo de codificação, tipografia, ordenação, métodos de entrada, romanização e numerais cirílicos [40]. Referência obrigatória para o pipeline de texto (normalização NFC, marcas combinatórias, títulos).
 - azbyka.ru no modo «Церковнославянский шрифт» usa **codificação legada UCS** (`class="slavic"`, texto do tipo «ЦRю2 нбcный, ўтёшителю…») — verificado no HTML de [44]. Para usar, converter com os conversores SCI (UCS/HIP → Unicode; extensão LibreOffice «Church Slavonic Converter Extension») [39][45].
-- ⚠ PARA CONFIRMAR: regras de normalização Unicode (NFC vs. NFD) e pares de caracteres problemáticos — ler o PDF completo da UTN #41 (`tn41-1.pdf`) [40].
+- ✔ Confirmado (2.ª ronda), lido o PDF da UTN #41 [40]:
+  - a nota não impõe NFC nem NFD. No eslavo sinodal moderno **todas** as marcas combinatórias têm classe combinatória 230, pelo que a reordenação canónica «is not an issue»; NFC é seguro para armazenamento;
+  - só há problema em textos não normalizados, p. ex. U+0358 (classe 232) com o título U+0483. Nesse caso insere-se **U+034F COMBINING GRAPHEME JOINER** para impedir a reordenação;
+  - **ambiguidades** a tratar na pesquisa/colação:
+    - U+047D/U+047C «ѽ» não tem decomposição canónica, mas equivale linguística e tipograficamente a U+A64D/U+A64C + U+0486 + U+0311 (duas codificações possíveis, a tratar na colação);
+    - o duplo agudo U+030B (okovavy) e o duplo grave U+030F (kendema) podem aparecer como dois acentos separados.
+  → Pipeline: guardar em NFC e aplicar uma função de *folding* própria para pesquisa.
 
 #### 6.1.2 Fontes de texto legíveis por máquina
 
 | Fonte | Conteúdo | Formato | Licença | Ref. |
 |---|---|---|---|---|
-| **Biblioteca Ponomar** (ponomar.net/maktabah) | Апостол (МП 1989), Евангелие (1984), Ирмологий (1995), Минея mensal (Правило веры 1996–97), Минея общая (2002), Октоих (1981), Псалтирь следованная (1978), Служебник 1906, Требник 1906, Типикон (2002), Триодь постная/цветная (1992), **Часослов (1991)**, Добротолюбие | HTML em **Unicode eslavo real** (verificado: U+A64B, U+1C82, U+2DED…) + PDF/DJVU | ⚠ PARA CONFIRMAR: o site não declara licença dos textos; só "no warranty" [41]; página legal SCI não cobre os textos [38] | [41][42][43] |
-| Repositórios Git Ponomar/SCI | github.com/typiconman, github.com/slavonic (ferramentas) | código | Software SCI: MIT salvo indicação em contrário [38]; ⚠ PARA CONFIRMAR licença de dados | [38][41] |
+| **Biblioteca Ponomar** (ponomar.net/maktabah) | Апостол (МП 1989), Евангелие (1984), Ирмологий (1995), Минея mensal (Правило веры 1996–97), Минея общая (2002), Октоих (1981), Псалтирь следованная (1978), Служебник 1906, Требник 1906, Типикон (2002), Триодь постная/цветная (1992), **Часослов (1991)**, Добротолюбие | HTML em **Unicode eslavo real** (verificado: U+A64B, U+1C82, U+2DED…) + PDF/DJVU | Licença dos textos não declarada no site [41][38]; dados Ponomar tratados como GPL — irrelevante: decisão 7/8 (não se usam como dados; ver §6.5) | [41][42][43] |
+| Repositórios Git Ponomar/SCI | github.com/typiconman, github.com/slavonic (ferramentas) | código | Software SCI: MIT salvo indicação em contrário [38]; licença de dados — irrelevante: decisão 7/8 | [38][41] |
 | azbyka.ru Molitvoslov | Orações da manhã/noite, cânones, acatistos, Saltério por catismas (também PDF/ePub) | HTML em escrita civil com acentos (Unicode); modo eslavo em UCS legado | Apenas «©2026 Молитвослов»; sem licença aberta encontrada → **pedir autorização** | [1][29][44] |
-| Edições sinodais pré-1917 (Служебник/Требник 1906) | Textos litúrgicos | via Ponomar | Domínio público provável (impressão de 1906) ⚠ PARA CONFIRMAR enquadramento jurídico (RU/PT/UE) | [42] |
+| Edições sinodais pré-1917 (Служебник/Требник 1906) | Textos litúrgicos | via Ponomar | Domínio público na UE: obra anónima/coletiva publicada há mais de 70 anos [77]. ✔ Confirmado (2.ª ronda) para a UE/PT; regime russo não verificado. Usar as **digitalizações** da edição, não o HTML Ponomar (ver §6.5) | [42][77] |
 
 Notas:
-- O **Molitvoslov** como livro autónomo não aparece na lista da Biblioteca Ponomar [42]; grande parte do seu conteúdo está no Часослов (Horologion) e no Псалтирь следованная (orações da manhã/noite estão em edições do "Псалтирь следованная"/"Канонник"). ⚠ PARA CONFIRMAR em que livro Ponomar estão as orações da manhã/noite e o Последование ко Причащению em Unicode.
-- Os textos litúrgicos tradicionais são anónimos/antigos; mas as **edições modernas** (1978–2002) podem ter direitos editoriais (composição, correções). ⚠ PARA CONFIRMAR com jurista: estatuto de direitos de autor de edições do Издательство МП/Издательский совет em Portugal/UE.
+- O **Molitvoslov** como livro autónomo não aparece na lista da Biblioteca Ponomar [42]; grande parte do seu conteúdo está no Часослов (Horologion) e no Псалтирь следованная (orações da manhã/noite estão em edições do "Псалтирь следованная"/"Канонник"). Ponto «em que livro Ponomar estão as orações da manhã/noite» — irrelevante: decisão 7/8 (os dados Ponomar não se usam; fonte alternativa em §6.5).
+- Os textos litúrgicos tradicionais são anónimos/antigos; mas as **edições modernas** (1978–2002) podem ter direitos editoriais (composição, correções). Estatuto das edições modernas do Издательство МП — irrelevante: decisão 7/8 (usam-se edições pré-1917; ver §6.5).
 
 #### 6.1.3 Tipos de letra (todos SIL OFL 1.1)
 
@@ -430,20 +452,20 @@ Contexto: a Diocese de Espanha e Portugal (Испанско-Португальс
 
 **Conclusão de licenciamento**: não foi encontrada **nenhuma** tradução portuguesa (PT-PT) de orações ortodoxas com licença aberta. A fonte terminologicamente mais adequada (mesma jurisdição, PT-PT) é a da equipa de Cascais/LusOrtodoxia, mas é **todos os direitos reservados**. → Ação recomendada: pedir autorização escrita à Associação LusOrtodoxia / Diocese (arcebispo Nestor) para uso dos textos do Devocionário/Missal na app; alternativa: tradução própria revista por clero da diocese, alinhada com o léxico [52].
 
-⚠ PARA CONFIRMAR: o Devocionário traduz as orações da manhã/noite **russas** (Molitvoslov) ou um conjunto de tradição greco-romena (o conteúdo descrito inclui o cânone penitencial de S. Teodoro Estudita e Cânone paraclético, típicos da tradição grega/romena) [49]. Verificar no livro se a ordem coincide com §1.2–1.3; caso contrário a app terá de traduzir os blocos em falta.
+— irrelevante: decisão 7/8 — (dúvida original: o Devocionário traduz as orações da manhã/noite **russas** (Molitvoslov) ou um conjunto de tradição greco-romena (o conteúdo descrito inclui o cânone penitencial de S. Teodoro Estudita e Cânone paraclético, típicos da tradição grega/romena) [49]. Verificar no livro se a ordem coincide com §1.2–1.3; caso contrário a app terá de traduzir os blocos em falta.) Com a decisão 7 (tradução própria) a questão deixa de condicionar a app.
 
-⚠ PARA CONFIRMAR: o PDF da Liturgia [51] contém notas de tradução que referem a tradução romena — as escolhas podem diferir do uso eslavo (ex.: "Deípara"); validar com o clero da paróquia russa local.
+— irrelevante: decisão 7/8 — o PDF da Liturgia [51] contém notas de tradução que referem a tradução romena — as escolhas podem diferir do uso eslavo (ex.: "Deípara"); validar com o clero da paróquia russa local.
 
 #### 6.2.2 Outras jurisdições / Brasil (PT-BR)
 
 | Fonte | Jurisdição | PT | Licença | Ref. |
 |---|---|---|---|---|
 | ECCLESIA (ecclesia.com.br) — biblioteca com secções Liturgia/Espiritualidade | Portal brasileiro com ligação ao Patriarcado Ecuménico (lista também jurisdições antioquina, sérvia, ucraniana) | PT-BR | «©2003-2025 – ECCLESIA (Brasil). Todos os direitos reservados» | [55] |
-| Divina Liturgia (Canadian Journal of Orthodox Christianity, 2019) | Adaptação de texto de "Ortodoxia Portugal" | PT | ⚠ PARA CONFIRMAR | [56] |
+| Divina Liturgia (Canadian Journal of Orthodox Christianity, 2019) | Adaptação de texto de "Ortodoxia Portugal" | PT | — irrelevante: decisão 7/8 | [56] |
 | Metrópole Ortodoxa de Espanha e Portugal (Patriarcado Ecuménico) | — | — | Não foram encontrados textos em PT | — |
-| Igreja Russa no Estrangeiro (ROCOR) no Brasil; Arquidiocese Antioquina de S. Paulo | — | PT-BR | ⚠ PARA CONFIRMAR: sites não acessíveis durante a pesquisa (erros 502); não verificado | — |
+| Igreja Russa no Estrangeiro (ROCOR) no Brasil; Arquidiocese Antioquina de S. Paulo | — | PT-BR | — irrelevante: decisão 7/8 (sites não acessíveis na 1.ª ronda; não verificado) | — |
 
-Notas PT-BR vs PT-PT: textos brasileiros usam "você/vocês", "Amém", ortografia e vocabulário distintos (ex.: "Mãe de Deus" vs "Deípara"; "Pai Nosso" igual); **não** misturar fontes num mesmo texto sem revisão. ⚠ PARA CONFIRMAR: existência de organismos não canónicos que publicam em português (p. ex. "Igreja Católica Ortodoxa de Portugal") — evitar como fonte; validar canonicidade de qualquer fonte com a diocese.
+Notas PT-BR vs PT-PT: textos brasileiros usam "você/vocês", "Amém", ortografia e vocabulário distintos (ex.: "Mãe de Deus" vs "Deípara"; "Pai Nosso" igual); **não** misturar fontes num mesmo texto sem revisão. — irrelevante: decisão 7/8 — existência de organismos não canónicos que publicam em português (p. ex. "Igreja Católica Ortodoxa de Portugal", descrita como não canónica no doc. 04, refs. [52][53] desse documento) — evitar como fonte.
 
 ### 6.3 Bíblia
 
