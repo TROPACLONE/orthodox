@@ -13,7 +13,7 @@
 - **Russo é a língua mais rica**: praticamente todo o cânone ascético russo (Inácio Briantchaninov, Teófano o Recluso, João de Kronstadt, Serafim de Sarov, Tikhon de Zadonsk, Filocalia eslava e russa, Vidas de S. Demétrio de Rostov) está em azbyka.ru — mas o site **só autoriza uso pessoal, sem redistribuição** [1]: a app deve **ligar**, não copiar (✔ Decidido, dec. 20, item B5 — §B.0.4).
 - **Inglês**: CCEL (Schaff, *Ante-Nicene / Nicene and Post-Nicene Fathers*), Project Gutenberg e archive.org cobrem os Padres, o Livro de Serviços de Hapgood (1906), Neale, o catecismo de Filareto (trad. Blackmore) e *My Life in Christ* (1897). **Não há tradução inglesa livre** da *Escada* de S. João Clímaco, do *Peregrino Russo* nem da Filocalia.
 - **Domínio público nos EUA ≠ domínio público em Portugal.** Vários livros do Gutenberg (Schmemann 1970, *Orthodox Daily Prayers* 1982, Velimirović) estão protegidos (ou com estatuto incerto) em Portugal [3][4].
-- Catálogo: **140 entradas** (RU 54 · EN 62 · grego 10 · eslavo eclesiástico 7 · PT 7), das quais 16 são só para ligação ("leitura gratuita com direitos reservados" ou domínio público apenas nos EUA) e estão marcadas como tal; outras têm o estatuto em ⚠.
+- Catálogo: **144 entradas** (RU 54 · EN 62 · grego 10 · eslavo eclesiástico 7 · PT 7 · ucraniano 4 — §B.9b, dec. 28/30), das quais 17 são só para ligação ("leitura gratuita com direitos reservados" ou domínio público apenas nos EUA) e estão marcadas como tal; outras têm o estatuto em ⚠.
 
 ---
 
@@ -419,6 +419,19 @@ Estatuto comum: texto em **DP-PT** quando a tradução é do séc. XIX/início d
 
 ---
 
+## B.9b Ucraniano (decisões 28 e 30) — 2.ª ronda
+
+A app passa a ter também interface e conteúdo em ucraniano (dec. 28), com terminologia da Igreja Ortodoxa Ucraniana (IOU, dec. 30). Pesquisa de 16.10.2026: **não se encontrou nenhuma biblioteca em linha da IOU com livros ortodoxos em ucraniano livres de direitos**; a língua litúrgica da IOU é, em regra, o eslavo eclesiástico, e as traduções ucranianas modernas têm direitos (só ligação, dec. B6). O que há de livre e legal é sobretudo bíblico e histórico:
+
+| ID | Título — *PT-PT* | Autor · tradutor · edição | Lg | URL | Estatuto | Fmt | Descrição | Adequação |
+|---|---|---|---|---|---|---|---|---|
+| U01 | Біблія в пер. П. Куліша та І. Пулюя, 1905 — *Bíblia na tradução de Kulich e Puliui* | P. Kulich († 1897), com I. Puliui e I. Nechui-Levitski | UK | https://ebible.org/find/details.php?id=ukr1871 | DP («public domain», eBible) [81]; DP-PT (⚠ confirmar as datas de morte de Puliui e Nechui-Levitski, ambos tidos por † 1918) | EPUB, PDF, USFM, USFX, TXT, HTML | Primeira Bíblia completa em ucraniano moderno; ficheiros estruturados, bons para importar | ⚠ não é edição eclesiástica; Salmos com numeração hebraica (o Sl 22 LXX aparece como 23: «Господь пастирь мій») — divergente da LXX (dec. 18); ortografia antiga |
+| U02 | Пересопницьке Євангеліє (1556–1561) — *Evangelho de Peresopnitsia* | copista Mikhailo Vassilievitch; manuscrito ortodoxo da Volínia | UK antigo / CS | https://archive.org/details/peresopnytsia | DP-PT (manuscrito do séc. XVI; digitalização em fac-símile, um PDF por Evangelho) | PDF | Tradução dos Evangelhos para a língua literária rutena do séc. XVI | Histórico/ortodoxo; não serve para texto corrido sem transcrição |
+| U03 | Євангеліє учительне (Київ, 1637) — *Evangelho Didático (homiliário)* | tipografia da Lavra das Grutas de Kiev, 1637 | CS / UK antigo | https://archive.org/details/sucho-id-00000263-print-hist-kyiv-pl-1637 | DP-PT (impresso de 1637; fac-símile) | PDF | Homilias para os domingos e festas («казаня на кождую неділю и свята») | **Ortodoxo** (Lavra de Kiev); histórico |
+| U04 | Псалтир: переклад П. С. Морачевського (1865) — *Saltério na tradução de Moratchevski* | P. Moratchevski († 1879); ed. crítica de L. A. Hnatenko, NBUV, Kiev, 2015 | UK | https://archive.org/details/psaltyr4 | **LEIT**: a tradução é DP, mas esta edição crítica de 2015 está protegida em PT por 25 anos (CDADC, art. 39.º, n.º 2) [74] | PDF | Saltério em ucraniano do séc. XIX; Moratchevski traduziu também os Evangelhos, editados com aprovação do Santo Sínodo a partir de 1906 (não se encontrou cópia digital livre) | Ortodoxo (tradutor); só ligação |
+
+Não incluída: a Bíblia de Ivan Ohienko (metropolita Ilarião, 1882–1972), publicada em 1962 [82] — protegida em PT até 31.12.2042. ⚠ PARA CONFIRMAR: procurar numa ronda futura (i) uma cópia digital livre dos Evangelhos de Moratchevski (1906–1911), (ii) traduções ucranianas de orações e ofícios aprovadas pela IOU e o seu regime de direitos.
+
 ## B.10 Contagens
 
 | Língua principal | Entradas | Só ligação (LEIT ou DP-EUA protegido em PT) | IDs só ligação |
@@ -428,7 +441,8 @@ Estatuto comum: texto em **DP-PT** quando a tradução é do séc. XIX/início d
 | Grego (GR, incl. GR/LA, GR/EN) | 10 | 0 | — |
 | Eslavo eclesiástico (CS) | 7 | 1 | F03 |
 | Português (PT) | 7 | 0 (S16 com estatuto ⚠) | — |
-| **Total** | **140** | **16** | |
+| Ucraniano (UK, incl. UK antigo/CS) | 4 | 1 | U04 |
+| **Total** | **144** | **17** | |
 
 Estatuto ainda incerto após a 2.ª ronda (⚠): S16, P33, P34r, P42, P43, F05, F13, L02, L04 (este só como ligação, dec. B7). Resolvidos na 2.ª ronda: P30, P36, P38 e C02/C04/H06 (DP-PT); P30r (passa a LEIT).
 
@@ -480,6 +494,7 @@ S. Inácio Briantchaninov, na *Oferenda ao monaquismo contemporâneo* [30], esta
 5. Se a CC BY-SA da Wikisource se aplica a transcrições de textos em DP (a política da Wikisource não o diz) [75].
 6. Catálogos não verificáveis automaticamente: Domínio Público (BR), Gallica, sacred-texts; pesquisa manual na BND (purl.pt).
 7. Grau de veneração de S. Ambrósio no calendário oficial (memória de dezembro ainda não publicada em linha).
+8. Ucraniano (dec. 28/30): cópia digital livre dos Evangelhos de Moratchevski; traduções litúrgicas ucranianas da IOU e respetivos direitos; datas de morte de Puliui e Nechui-Levitski (U01) — §B.9b.
 
 ---
 
@@ -565,3 +580,5 @@ S. Inácio Briantchaninov, na *Oferenda ao monaquismo contemporâneo* [30], esta
 78. Azbuka Very — «Александр Александрович Бронзов (1858-1937)» (página de autor, biografia). https://www.azbyka.ru/otechnik/Aleksandr_Bronzov/
 79. Bodleian Archives & Manuscripts — registo de autoridade «Blackmore, Richard White, 1791-1882, clergyman» (página protegida contra acesso automático; dados lidos no índice de pesquisa). https://archives.bodleian.ox.ac.uk/agents/people/11959
 80. A. Midgley, «A Lifetime in Pilgrimage – Archimandrite Lazarus (Moore), 1902-1992», ROCOR Studies (2014; cronologia: n. 18.10.1902, Swindon). https://www.rocorstudies.org/?p=2875
+81. eBible.org — «Біблія в пер. П.Куліша та І.Пулюя, 1905» (ukr1871; «public domain»; tradução de Panteleimon Kulish, com Ivan Nechui-Levytsky e Ivan Puluj). https://ebible.org/find/details.php?id=ukr1871
+82. Ostroh Academy (eprints.oa.edu.ua) — artigo sobre a tradução bíblica de Ivan Ohienko (1882–1972; 1.ª edição completa em 1962). https://eprints.oa.edu.ua/6067/1/101.pdf
