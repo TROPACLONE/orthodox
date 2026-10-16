@@ -475,7 +475,11 @@ Notas PT-BR vs PT-PT: textos brasileiros usam "você/vocês", "Amém", ortografi
 - **CrossWire SWORD módulo `CSlElizabeth`** — "1757 Church Slavonic Elizabeth Bible", v1.5.2 (2011), fonte eletrónica rusbible.ru, **ortografia modernizada**, licença **Public Domain** [57].
 - Biblioteca Ponomar: Евангелие (1984) e Апостол (1989) em Unicode eslavo (leituras litúrgicas) [42].
 - azbyka.ru/biblia: eslavo (ortografia eslava, pré-reforma e civil), Sinodal russa e LXX Rahlfs em paralelo; mesma questão de licença que o resto do azbyka [59].
-- ⚠ PARA CONFIRMAR: fonte em Unicode eslavo completo (com acentos e títulos) e licença explícita para a Bíblia inteira (para o Saltério em especial).
+- ⚠ PARA CONFIRMAR: fonte em Unicode eslavo completo (com acentos e títulos) e licença explícita para a Bíblia inteira (para o Saltério em especial). 2.ª ronda: não se encontrou transcrição livre em **ortografia eslava autêntica**:
+  - CSlElizabeth é domínio público mas com «modernized spelling» [57];
+  - Ponomar é GPL (decisão 8);
+  - azbyka tem © sem licença [59].
+  Solução: transcrição própria a partir de digitalizações pré-1917 (§6.5).
 
 #### 6.3.2 Bíblia em português
 
@@ -483,15 +487,20 @@ Notas PT-BR vs PT-PT: textos brasileiros usam "você/vocês", "Amém", ortografi
 |---|---|---|---|---|---|
 | **Almeida 1911** (reimp. de 1900; trad. séc. XVII) — SWORD `PorAlmeida1911` | PT antigo (ortografia de 1911) | protestante ⚠ | massorética ⚠ | GPL (segundo CrossWire) ⚠ texto provavelmente em domínio público | [60] |
 | **Bíblia Livre** (BLIVRE, 2018; atualização da Almeida 1819, Textus Receptus) | PT-BR | protestante ⚠ | massorética | **CC BY 4.0 Brasil** (atribuição obrigatória, indicar data da versão) | [61] |
-| **Bíblia Portuguesa Mundial** (BPM) | PT-BR | ⚠ PARA CONFIRMAR deuterocanónicos | massorética ⚠ | **Domínio público**; declarada "rascunho em revisão" | [62] |
+| **Bíblia Portuguesa Mundial** (BPM) | PT-BR | ✔ Confirmado (2.ª ronda): inclui Tobite, Judite, Ester e Daniel gregos, Sabedoria, Sirácida, Baruc, 1–3 Macabeus, 1 Esdras, Oração de Manassés, Salmo 151, 2 Esdras e 4 Macabeus [82] | massorética ⚠ | **Domínio público**; declarada "rascunho em revisão" | [62] |
 | **Figueiredo** (Pe. António Pereira de Figueiredo, trad. da Vulgata; NT 1778–81, AT 1782–90) | **PT-PT** (antigo) | inclui deuterocanónicos (edições posteriores de 1828 retiraram-nos) | Vulgata (≈ LXX) ⚠ | domínio público (autor † 1797) | [63] |
-| Traduções modernas (Sociedade Bíblica de Portugal, ARC/ARA/ACF, católicas) | PT-PT/PT-BR | — | — | ⚠ PARA CONFIRMAR: protegidas por direitos; exigem licença | — |
+| Traduções modernas (Sociedade Bíblica de Portugal, ARC/ARA/ACF, católicas) | PT-PT/PT-BR | — | — | Protegidas por direitos — irrelevante: decisão 7/8 (não se usam) | — |
 
-Recomendação: para os **salmos** dentro das orações (Sl 50, 22, 23, 115, etc.) a tradução deve seguir a **LXX** (o texto eslavo traduz a LXX). Nenhuma das Bíblias PT livres segue a LXX; Figueiredo (Vulgata) aproxima-se na numeração e em parte no texto, mas precisa de digitalização/OCR ⚠ PARA CONFIRMAR fonte digital fiável. Alternativa: tradução própria dos salmos litúrgicos a partir da LXX/eslavo, ou licenciar a tradução do Missal/Devocionário (que contém salmos e hinos) [48][50].
+Recomendação: para os **salmos** dentro das orações (Sl 50, 22, 23, 115, etc.) a tradução deve seguir a **LXX** (o texto eslavo traduz a LXX). Nenhuma das Bíblias PT livres segue a LXX; Figueiredo (Vulgata) aproxima-se na numeração e em parte no texto, mas precisa de digitalização/OCR. ✔ Confirmado (2.ª ronda) — fontes digitais: digitalizações com OCR no archive.org.
+- Edição de **Londres, Harrison e Filhos, 1866**, num só volume [80]. O OCR é utilizável mas com erros. Não traz os livros deuterocanónicos: no OCR não aparece o título «Livro de Tobias» (verificação por OCR).
+- Série «Bíblia Sagrada (Volume I–XVI)», sem data de edição nos metadados [81].
+Ver §6.5.4. Alternativa: tradução própria dos salmos litúrgicos a partir da LXX/eslavo, ou licenciar a tradução do Missal/Devocionário (que contém salmos e hinos) [48][50].
 
 #### 6.3.3 Livros e cânone
 
-- A Bíblia ortodoxa russa inclui os livros "não canónicos"/anaginoskómena (Tobias, Judite, Sabedoria, Sirácida, Baruc, 1–3 Macabeus, 2–3 Esdras…) e o Salmo 151 [58][31]. ⚠ PARA CONFIRMAR lista exata da Bíblia sinodal.
+- A Bíblia ortodoxa russa inclui os livros "não canónicos"/anaginoskómena (Tobias, Judite, Sabedoria, Sirácida, Baruc, 1–3 Macabeus, 2–3 Esdras…) e o Salmo 151 [58][31]. ✔ Confirmado (2.ª ronda), segundo a *Enciclopédia Ortodoxa* [84], são **não canónicos** na Bíblia eslava/russa:
+- os livros de Tobias, Judite, Sabedoria de Salomão, Sabedoria de Jesus filho de Sirac, 2 Esdras (= 1 Esd grego), 3 Esdras (= 4 Esd latino), Epístola de Jeremias, Baruc e os 3 livros dos Macabeus;
+- partes de livros canónicos: Oração de Manassés (fim de 2 Paralipómenos), acrescentos a Ester (7 trechos sem numeração de versículos), Salmo 151, e Daniel 3,24–90, 13 e 14.
 
 #### 6.3.4 Numeração dos salmos (LXX vs. massorética)
 
@@ -512,7 +521,10 @@ Correspondência [31]:
 | 151 | (não existe; fora do cânone hebraico) |
 
 - Exemplos práticos: Sl 50 (eslavo) = Sl 51 (hebraico); Sl 90 «Живый в помощи Вышняго» = Sl 91; Sl 118 (catisma 17) = Sl 119.
-- ⚠ PARA CONFIRMAR: diferenças na **numeração dos versículos** (títulos/sobrescritos contados como v. 1 em algumas edições) — testar por salmo antes de ligar referências cruzadas.
+- ✔ Confirmado (2.ª ronda): **numeração dos versículos**:
+  - eslavo, sinodal russo e Vulgata/Figueiredo **contam o título** como versículo(s). Ex.: Sl 50 — vv. 1–2 = título, v. 3 = «Помилуй мя, Боже» / «Tem piedade de mim, ó Deos» (verificado no módulo CSlElizabeth, no texto sinodal do azbyka e no OCR de Figueiredo 1866) [57][59][80];
+  - as Bíblias protestantes em português (linha Almeida) **não numeram** o título: Sl 51,1 = «Tem misericórdia de mim, ó Deus» [83].
+  O desvio é de 0 a 2 versículos, conforme o salmo tenha título curto, longo ou nenhum. → Construir a tabela de correspondência por **alinhamento de texto**, salmo a salmo, não por fórmula (ver §6.5.5).
 - → Modelo de dados: guardar ambos (`lxx`, `mt`) e mostrar a LXX por omissão na interface litúrgica, com a MT entre parênteses.
 
 ### 6.4 Matriz de decisão de licenciamento (resumo)
@@ -525,6 +537,64 @@ Correspondência [31]:
 | PT-PT orações | Devocionário / Missal (LusOrtodoxia) | Todos os direitos reservados | Pedir autorização escrita à LusOrtodoxia/Diocese |
 | PT Bíblia | Bíblia Livre (CC BY), BPM (PD), Almeida 1911 | Livres mas PT-BR/antigo, numeração MT | Adaptar; salmos litúrgicos a partir da LXX |
 | Eslavo Bíblia | CSlElizabeth (PD) | ✔ (ortografia modernizada) | Verificar codificação/acentos |
+
+> Nota (2.ª ronda): com as decisões 7 e 8, as linhas «Ponomar», «azbyka» e «Devocionário/Missal» desta matriz deixam de ser opções; a via adotada está em §6.5.
+
+### 6.5 Fontes em domínio público para o eslavo e para o português (2.ª ronda; decisões 5, 7 e 8)
+
+Objetivo: obter o texto eslavo (lado a lado com a tradução própria, decisão 5) **sem** dados GPL nem textos com direitos reservados (decisões 7 e 8).
+
+#### 6.5.1 Enquadramento jurídico (resumo técnico, não é parecer jurídico)
+
+- **Prazo de proteção na UE/PT** (Diretiva 2006/116/CE): em regra, vida do autor + 70 anos. Para obras **anónimas** ou coletivas sem autor identificado, 70 anos após a obra ser «licitamente tornada acessível ao público» [77]. As edições sinodais (Синодальная типография, «по благословению Святейшего Правительствующего Синода») anteriores a 1917 têm mais de 100 anos → **domínio público na UE/PT**. Regime russo não verificado nesta ronda.
+- **Reimpressões modernas** («репринт», edições МП 1978–2002) podem acrescentar material editorial próprio (introduções, correções, paginação). Usar a **impressão original** pré-1917 (cf. §6.1.2).
+- **Transcrições**: na UE só há direito de autor quando há «criação intelectual própria do autor» (TJUE, C-5/08 *Infopaq*) [79]. Uma transcrição fiel de texto em domínio público dificilmente o cria. Porém, um corpus pode estar protegido pelo **direito *sui generis* das bases de dados** contra a extração de uma parte substancial (Diretiva 96/9/CE, art. 7.º) [78]. As digitalizações Ponomar estão sob GPL (decisão 8).
+  → **O texto subjacente (edição pré-1917) é livre e pode ser retranscrito de forma independente a partir das digitalizações**, sem copiar ficheiros Ponomar/azbyka. ⚠ PARA CONFIRMAR com jurista: se é admissível usar Ponomar/azbyka só para **revisão** pontual da transcrição própria (zona cinzenta; por prudência, evitar).
+
+#### 6.5.2 Digitalizações identificadas (pré-1917)
+
+| Texto necessário | Edição em domínio público identificada | Onde | Escrita | Estado |
+|---|---|---|---|---|
+| **Molitvoslov** (orações da manhã e da noite, **Símbolo da Fé**, **Последование ко Святому Причащению**) | «Молитвословъ», 10.ª ed., Moscovo, Синодальная типографія, 1900, «По благословенію Святѣйшаго Правительствующаго Синода» (exemplar da UNC Chapel Hill, André Savine Collection; 594 imagens; OCR ABBYY de má qualidade para cirílico antigo) | archive.org `molitvoslov00andr` [74] | **Escrita civil pré-reforma** (ѣ, і, ъ), não tipo eslavo | ✔ verificado (página de rosto, «Вѣрую во единаго Бога», «Послѣдованіе ко Святому Причащенію» no OCR) |
+| **Часослов** (Horologion) | «Часословъ», 1888, em tipo eslavo | archive.org `chasoslov_1888` [75] | Tipo eslavo | ⚠ PARA CONFIRMAR: impressor/local (metadados vazios; OCR ilegível) — ver página de rosto antes de usar |
+| **Saltério** | Texto bíblico: Bíblia Isabelina (1751/1756), em domínio público | Módulo SWORD CSlElizabeth [57] | Escrita civil **sem acentos**, ortografia modernizada (verificado: Sl 50 «Помилуй мя, Боже, по велицей милости Твоей…») | ✔ texto; ⚠ PARA CONFIRMAR: digitalização de um **Псалтирь** sinodal pré-1917 (com divisão em catismas e acentos) — não identificada com segurança no archive.org. A Biblioteca Estatal Russa (dlib.rsl.ru) e a НЭБ (rusneb.ru) não são pesquisáveis por ferramentas automáticas |
+| **Служебник / Требник** (ofício da confissão, se necessário) | Edições sinodais de 1906 | Digitalizações PDF/DjVu listadas na Biblioteca Ponomar [42] | Tipo eslavo | Usar só as **imagens** da impressão de 1906, não o HTML |
+| **Menaion** (tropários de S. Basílio/S. Gregório, §3.4) | — | — | — | ⚠ PARA CONFIRMAR: digitalização pré-1917 não procurada nesta ronda |
+
+Não usar como fonte: as páginas do ru.wikisource «Часослов» e «Последование ко Святому Причащению». São cópias de azbyka.ru/verapravoslavnaya.ru, sem edição de origem identificada, e estão marcadas para eliminação ({{к удалению}}) [76].
+
+#### 6.5.3 Existe transcrição Unicode limpa e livre?
+
+| Candidato | Ortografia | Licença | Conclusão |
+|---|---|---|---|
+| CSlElizabeth (CrossWire) | Civil modernizada, sem acentos | **Domínio público** [57] | Utilizável para o Saltério/Bíblia na camada «escrita civil»; acentos a acrescentar |
+| Biblioteca Ponomar | Eslava autêntica (Unicode real) | GPL (decisão 8) | Não usar como dados |
+| azbyka.ru | Civil com acentos; eslava em UCS legado | © sem licença | Não usar |
+| ru.wikisource | Civil com acentos (copiada do azbyka) | Proveniência incerta | Não usar |
+
+→ **Não existe** (que se tenha encontrado) uma transcrição Unicode livre, em ortografia eslava autêntica, do Molitvoslov, do Часослов ou do Последование. **Plano**: transcrição própria, por OCR e revisão manual das digitalizações de §6.5.2, codificada segundo a UTN #41 (§6.1.1), em duas camadas: «eslavo autêntico» e «escrita civil com acentos». A camada civil do Molitvoslov pode derivar diretamente da edição de 1900, que já está em escrita civil.
+→ **DECISÃO DO UTILIZADOR**: qual camada é mostrada por omissão no modo lado a lado (§6.1.1 recomenda a escrita civil com acentos), e se a camada «eslavo autêntico» entra já na 1.ª versão ou mais tarde (implica transcrição a partir de digitalizações em tipo eslavo).
+
+#### 6.5.4 Bíblia portuguesa em domínio público mais próxima do PT-PT
+
+| Tradução | Variante | Domínio público | Cânone | Numeração dos salmos | Observações |
+|---|---|---|---|---|---|
+| **Figueiredo** (P.e António Pereira de Figueiredo, † 1797; trad. da Vulgata) | **PT europeu** (ortografia antiga: «Deos», «peccado») | Sim (autor † 1797) [63] | Edições originais com deuterocanónicos; a de Londres 1866 sem eles [80] | **Igual à LXX/eslava** (Vulgata), incluindo a contagem dos títulos como versículos [80] | A mais próxima do PT-PT e da numeração litúrgica. Precisa de atualização ortográfica (AO90) e revisão do OCR [80][81] |
+| Almeida 1911 (SWORD) | PT antigo, linha protestante | Texto provavelmente em domínio público; o módulo é GPL [60] | Protestante | Massorética | GPL → evitar (decisão 8) |
+| BPM | PT-BR | Sim [62] | Com deuterocanónicos [82] | Massorética ⚠ (não verificada salmo a salmo) | Exige adaptação PT-BR → PT-PT; «rascunho em revisão» |
+
+→ **DECISÃO DO UTILIZADOR** (leituras do dia, decisão 1):
+- (a) tradução própria de todas as perícopas a partir do eslavo/grego, coerente com a decisão 7;
+- (b) Figueiredo com ortografia atualizada, também PT-PT, com o Saltério e a numeração alinhados com a LXX, mas traduzido da Vulgata latina;
+- (c) BPM adaptada.
+Para os **salmos dentro das orações** mantém-se a tradução própria a partir do eslavo/LXX (§6.3.2), com Figueiredo como referência lexical.
+
+#### 6.5.5 Numeração LXX dos salmos — regras de implementação
+
+1. **Chave canónica = numeração LXX/eslava** (capítulo e versículo), a mesma do texto eslavo, da Bíblia sinodal russa e de Figueiredo/Vulgata [84][59][80]. Correspondência de capítulos com a numeração massorética: tabela de §6.3.4 [31][84].
+2. **Versículos**: as edições LXX/eslavas/Vulgata numeram os títulos («Въ конецъ, псаломъ Давиду…») como versículos. As edições protestantes PT/EN não o fazem: Sl 50,3 eslavo = Sl 51,1 Almeida [57][83]. Guardar `{lxx_ps, lxx_v} ↔ {mt_ps, mt_v}` numa **tabela por versículo**, gerada por alinhamento de texto e revista à mão, não por fórmula.
+3. **Casos especiais**: Sl 9 (= MT 9–10), 113 (= MT 114–115), 114+115 (= MT 116), 146+147 (= MT 147) e Sl 151 (sem correspondência MT) — ver §6.3.4.
+4. **Interface**: mostrar sempre a numeração LXX; a MT só entre parênteses, em contexto de estudo bíblico (§6.3.4).
 
 ---
 
