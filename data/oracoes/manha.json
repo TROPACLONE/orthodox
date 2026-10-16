@@ -31,11 +31,17 @@
    "descricao": "L. C. L. Brenton, The Septuagint Version of the Old Testament, with an English translation. London: S. Bagster & Sons (ed. c. 1879; tradução de 1844/1851).",
    "url": "https://archive.org/details/septuagintversio1879bren",
    "notas": "Domínio público (Brenton † 1862). Salmos na coluna EN (dec. 41), adaptados a Thee/Thou e ao eslavo."
+  },
+  {
+   "chave": "T1907",
+   "descricao": "Православный толковый молитвословъ. С.-Петербургъ: Изданіе Виленскаго Свято-Духовскаго братства, 1907.",
+   "url": "https://archive.org/details/pravoslavnytolko00russ",
+   "notas": "Domínio público (edição de 1907). Escrita civil pré-reforma. Fonte PD dos três tropários das Horas Pascais (pp. 165–166) e conferência do Credo (p. 57, «и сславима»). Localizada na QA 2a."
   }
  ],
  "estado": {
   "pt": "nao_revista",
-  "ru": "dp_adaptada",
+  "ru": "nao_revista",
   "uk": "nao_revista",
   "en": "dp_adaptada"
  },
@@ -134,12 +140,12 @@
    "tipo": "oracao",
    "cu": "Воскресе́ніе Христо́во ви́дѣвше, поклони́мся Свято́му Го́споду Іису́су, еди́ному безгрѣ́шному. Кре́сту Твоему́ покланя́емся, Христе́, и свято́е воскресе́ніе Твое́ пое́мъ и сла́вимъ; Ты бо еси́ Богъ нашъ, ра́звѣ Тебе́ ино́го не зна́емъ, и́мя Твое́ имену́емъ. Пріиди́те, вси вѣ́рніи, поклони́мся свято́му Христо́ву воскресе́нію: се бо пріи́де Кресто́мъ ра́дость всему́ мі́ру. Всегда́ благословя́ще Го́спода, пое́мъ воскресе́ніе Его́; распя́тіе бо претерпѣ́въ, сме́ртію смерть разруши́.",
    "pt": "Tendo contemplado a ressurreição de Cristo, adoremos o santo Senhor Jesus, o único sem pecado. Adoramos a Tua Cruz, ó Cristo, e cantamos e glorificamos a Tua santa ressurreição; porque Tu és o nosso Deus, fora de Ti não conhecemos outro, invocamos o Teu nome. Vinde, fiéis todos, adoremos a santa ressurreição de Cristo: porque eis que, pela Cruz, veio a alegria ao mundo inteiro. Bendizendo sempre o Senhor, cantamos a Sua ressurreição; porque, tendo suportado a crucifixão, pela morte destruiu a morte.",
-   "ru": "Духовно созерцав Христово воскресение, поклонимся Святому Господу Иисусу, единому безгрешному. Кресту Твоему мы поклоняемся, Христе, и святое воскресение Твое воспеваем и славим, ибо Ты — Бог наш, кроме Тебя иного не знаем, имя Твое прославляем. Приходите, все верные, поклонимся святому Христову воскресению, ибо вот, через крест пришла радость всему миру. Всегда благословляя Господа, мы воспеваем Его воскресение, ибо, претерпев распятие, Он Своею смертью уничтожил смерть.",
+   "ru": "Воскресение Христово увидев, поклонимся Святому Господу Иисусу, единому безгрешному. Кресту Твоему поклоняемся, Христе, и святое воскресение Твое воспеваем и славим: ибо Ты — Бог наш, кроме Тебя иного не знаем, имя Твое именуем. Придите, все верные, поклонимся святому Христову воскресению: ибо вот, пришла через Крест радость всему миру. Всегда благословляя Господа, воспеваем воскресение Его: ибо, претерпев распятие, смертью смерть разрушил.",
    "uk": "Воскресіння Христове побачивши, поклонімося Святому Господу Іісусу, єдиному безгрішному. Хресту Твоєму поклоняємося, Христе, і святе воскресіння Твоє оспівуємо і славимо; бо Ти Бог наш, окрім Тебе іншого не знаємо, ім’я Твоє називаємо. Прийдіть, усі вірні, поклонімося святому Христовому воскресінню, бо ось через Хрест прийшла радість усьому світові. Завжди благословляючи Господа, оспівуємо воскресіння Його, бо, розп’яття перетерпівши, смертю смерть зруйнував.",
    "en": "Having beheld the Resurrection of Christ, let us worship the holy Lord Jesus, the only Sinless One. We venerate Thy Cross, O Christ, and Thy holy Resurrection we praise and glorify; for Thou art our God, and we know none other beside Thee; we call upon Thy Name. O come, all ye faithful, let us worship Christ's holy Resurrection: for behold, through the Cross joy hath come into all the world. Ever blessing the Lord, we praise His Resurrection; for, having endured the Cross, He hath destroyed death by death.",
    "fonte": {
     "cu": "Z1912 pp. 47–48",
-    "ru": "Z1912 pp. 47–48",
+    "ru": "propria (Z1912 parafraseava)",
     "en": "H1906 p. 237",
     "pt": "propria",
     "uk": "propria"
@@ -150,19 +156,19 @@
      "semana_luminosa"
     ]
    },
-   "nota": "Também MS1900 pp. 71–72. «Три'жды» nas Horas Pascais (Hapgood p. 237 «Thrice»). EN: Hapgood ligeiramente adaptado («In that we have beheld» → «Having beheld»; «adore» → «venerate/worship»)."
+   "nota": "Também MS1900 pp. 71–72. RU: tradução própria (dec. 57); Z1912 acrescentava «Духовно» («Духовно созерцав») e «Своею», e traduzia «и́мя Твое́ имену́емъ» por «прославляем». «Три'жды» nas Horas Pascais (Hapgood p. 237 «Thrice»). EN: Hapgood ligeiramente adaptado («In that we have beheld» → «Having beheld»; «adore» → «venerate/worship»)."
   },
   {
    "id": "manha-p06",
    "tipo": "oracao",
    "cu": "Ипакои́, гласъ 4: Предвари́вшія у́тро, я́же о Марі́и, и обрѣ́тшія ка́мень отвале́нъ отъ гро́ба, слы́шаху отъ А́нгела: во свѣ́тѣ присносу́щнѣмъ Су́щаго съ ме́ртвыми что и́щете я́ко человѣ́ка? Ви́дите гро́бныя пелены́, тецы́те и мі́ру проповѣ́дите, я́ко воста́ Госпо́дь, умертви́вый смерть, я́ко есть Сынъ Бо́га, спаса́ющаго родъ человѣ́ческій.",
    "pt": "Hipacoé, tom 4: As que estavam com Maria, tendo chegado antes da aurora e encontrado a pedra removida do sepulcro, ouviram do Anjo: Porque buscais entre os mortos, como a um homem, Aquele que habita na luz eterna? Vede as faixas do sepulcro; correi e anunciai ao mundo que o Senhor ressuscitou, tendo dado morte à morte, porque é o Filho de Deus que salva o género humano.",
-   "ru": "Ипакои, глас 4: Жены, пришедшие с Марией до рассвета и нашедшие камень отваленным от гроба, услыхали от Ангела: «Что вы ищете, как человека, среди мертвых Того, Кто живет в свете вечном? Посмотрите на погребальные пелены и спешите возвестить миру, что восстал Господь, умертвив смерть, ибо Он — Сын Бога, спасающего род человеческий».",
+   "ru": "Ипакои, глас 4: Жены, пришедшие с Марией до рассвета и нашедшие камень отваленным от гроба, услыхали от Ангела: «Что вы ищете, как человека, среди мертвых Того, Кто живет в свете вечном? Посмотрите на погребальные пелены и спешите возвестить миру, что восстал Господь, умертвив смерть, что Он — Сын Бога, спасающего род человеческий».",
    "uk": "Іпакой, глас 4: Ті, що з Марією, випередивши ранок і знайшовши камінь відваленим від гробу, почули від Ангела: Того, Хто в світлі вічному перебуває, чого шукаєте з мертвими, як людину? Подивіться на гробні пелени, біжіть і світові проповідуйте, що воскрес Господь, умертвивши смерть, бо Він є Син Бога, що спасає рід людський.",
    "en": "Hypakoe, Tone 4: When the women with Mary came before the dawn and found the stone rolled away from the tomb, they heard from the Angel: Why seek ye among the dead, as though He were mortal, Him who abideth in everlasting light? Behold the grave-clothes; go quickly and proclaim to the world that the Lord is risen and hath slain death; for He is the Son of God who saveth the race of men.",
    "fonte": {
     "cu": "Z1912 pp. 107–108",
-    "ru": "Z1912 pp. 107–108",
+    "ru": "Z1912 pp. 107–108 (adaptado)",
     "en": "H1906 p. 237",
     "pt": "propria",
     "uk": "propria"
@@ -172,7 +178,7 @@
      "semana_luminosa"
     ]
    },
-   "nota": "Também MS1900 pp. 171–172. PT: «Hipacoé» (ὑπακοή) ⚠ forma PT sem atestação (B4). EN: Hapgood adaptado («When they who came with the Marys came, forestalling the dawn» → «When the women with Mary came before the dawn»)."
+   "nota": "Também MS1900 pp. 171–172. RU: Z1912 adaptado (dec. 57): o 2.º «я́ко» é declarativo («что Он — Сын Бога», Z1912 «ибо»). PT: «Hipacoé» (ὑπακοή) ⚠ forma PT sem atestação (B4). EN: Hapgood adaptado («When they who came with the Marys came, forestalling the dawn» → «When the women with Mary came before the dawn»)."
   },
   {
    "id": "manha-p07",
@@ -205,7 +211,7 @@
    "uk": "У гробі тілесно, в аді ж із душею, як Бог, у раю ж із розбійником, і на престолі був Ти, Христе, з Отцем і Духом, все наповнюючи, неописаний.",
    "en": "In the tomb with the body, in hell with the soul as God, in paradise with the thief, and on the throne with the Father and the Spirit wast Thou, O Christ, filling all things, Thyself uncircumscribed.",
    "fonte": {
-    "cu": "Т1907 p. 165",
+    "cu": "T1907 p. 165",
     "ru": "propria",
     "en": "H1906 p. 237",
     "pt": "propria",
@@ -216,7 +222,7 @@
      "semana_luminosa"
     ]
    },
-   "nota": "⚠ Tropário das Horas Pascais ausente de Z1912/MS1900; eslavo segundo a redação sinodal do Pentecostário, acentuação segundo a prática corrente — conferir com um Часословъ/Цвѣтная Тріодь sinodal pré-1917. EN: Hapgood «in that Thou art infinite» → «Thyself uncircumscribed» (неопи́санный, ἀπερίγραπτος)."
+   "nota": "Eslavo segundo T1907 pp. 165–166 (fonte PD localizada na QA 2a; o tropário falta em Z1912 e MS1900). A ordem dos três tropários (Во гробѣ → Слава: Я́ко живоно́сецъ → И ны́нѣ: Вы́шняго) é a de T1907, H1906 p. 237 e do uso atual. Acentuação segundo a prática corrente ⚠ (T1907 em escrita civil). EN: Hapgood «in that Thou art infinite» → «Thyself uncircumscribed» (неопи́санный, ἀπερίγραπτος)."
   },
   {
    "id": "manha-p09",
@@ -227,7 +233,7 @@
    "uk": "Слава Отцю, і Сину, і Святому Духові. Як життєносний, як прекрасніший від раю, воістину і від усякого чертогу царського світлішим явився, Христе, гріб Твій, джерело нашого воскресіння.",
    "en": "Glory to the Father, and to the Son, and to the Holy Spirit. As the bearer of life, as fairer than paradise, and truly more radiant than any royal chamber, was Thy tomb shown forth, O Christ, the fountain of our resurrection.",
    "fonte": {
-    "cu": "Т1907 p. 165",
+    "cu": "T1907 p. 165",
     "ru": "propria",
     "en": "H1906 p. 237",
     "pt": "propria",
@@ -238,7 +244,7 @@
      "semana_luminosa"
     ]
    },
-   "nota": "⚠ Idem. «краснѣ́йшій» = ὡραιότερος."
+   "nota": "Eslavo segundo T1907 p. 165, com a ordem «и черто́га вся́каго ца́рскаго» (T1907 e uso atual; corrigida na QA 2a). «краснѣ́йшій» = ὡραιότερος."
   },
   {
    "id": "manha-p10",
@@ -249,7 +255,7 @@
    "uk": "І нині, і повсякчас, і на віки віків. Амінь. Всевишнього освячена Божественна оселе, радуйся: бо Тобою дана радість, Богородице, тим, що взивають: благословенна Ти між жінками, Всенепорочна Владичице.",
    "en": "Now and ever, and unto ages of ages. Amen. Rejoice, O sanctified and divine tabernacle of the Most High: for through thee, O Theotokos, joy is given to them that cry: Blessed art thou among women, O all-immaculate Lady.",
    "fonte": {
-    "cu": "Т1907 p. 166",
+    "cu": "T1907 p. 166",
     "ru": "propria",
     "en": "H1906 p. 237 (adaptado)",
     "pt": "propria",
@@ -260,7 +266,7 @@
      "semana_luminosa"
     ]
    },
-   "nota": "⚠ Idem. EN: Hapgood «Hail, O thou hallowed, divine abode… O Birth-giver of God, was joy given» adaptado."
+   "nota": "Eslavo segundo T1907 p. 166: «благослове́на Ты въ жена́хъ» com um só «н» (particípio breve, ortografia sinodal; corrigido na QA 2a). EN: Hapgood «Hail, O thou hallowed, divine abode… O Birth-giver of God, was joy given» adaptado."
   },
   {
    "id": "manha-p11",
@@ -311,12 +317,12 @@
    "tipo": "oracao",
    "cu": "Честнѣ́йшую Херуви́мъ и сла́внѣйшую безъ сравне́нія Серафи́мъ, безъ истлѣ́нія Бо́га Сло́ва ро́ждшую, су́щую Богоро́дицу Тя велича́емъ.",
    "pt": "Mais venerável que os Querubins e incomparavelmente mais gloriosa que os Serafins, que sem corrupção deste à luz Deus Verbo, verdadeira Mãe de Deus, nós Te engrandecemos.",
-   "ru": "Мы величаем Тебя, как истинную Богородицу, родившую без болезни Бога-Слово, достойную большей почести, чем Херувимы, и несравненно славнейшую, нежели Серафимы.",
+   "ru": "Честнейшую Херувимов и несравненно славнейшую Серафимов, нетленно родившую Бога Слово, истинную Богородицу — Тебя величаем.",
    "uk": "Чеснішу від Херувимів і незрівнянно славнішу від Серафимів, що без зотління Бога Слово породила, сущу Богородицю, Тебе величаємо.",
    "en": "More honourable than the Cherubim, and beyond compare more glorious than the Seraphim, thou who without corruption gavest birth to God the Word, true Theotokos, we magnify thee.",
    "fonte": {
     "cu": "Z1912 p. 13",
-    "ru": "Z1912 p. 13",
+    "ru": "propria (Z1912 parafraseava)",
     "en": "H1906 p. 63",
     "pt": "propria",
     "uk": "propria"
@@ -326,7 +332,7 @@
      "semana_luminosa"
     ]
    },
-   "nota": "RU: Z1912 traduz «без истления» por «без болезни» (sem dor), interpretação patrística corrente; mantido. ⚠ O grego ἀδιαφθόρως é literalmente «sem corrupção» (PT/EN/UK). EN: Hapgood p. 238 «without defilement» → «without corruption» (como H1906 p. 63)."
+   "nota": "RU: tradução própria (dec. 57); Z1912 parafraseava (ordem invertida, «как истинную Богородицу», «достойную большей почести») e traduzia «безъ истлѣ́нія» por «без болезни»; agora «нетленно» (ἀδιαφθόρως), como PT/EN/UK. EN: Hapgood p. 238 «without defilement» → «without corruption» (como H1906 p. 63)."
   },
   {
    "id": "manha-p14",
@@ -669,12 +675,12 @@
    "tipo": "oracao",
    "cu": "Царю́ Небе́сный, Утѣ́шителю, Ду́ше и́стины, И́же вездѣ́ сый и вся исполня́яй, Сокро́вище благи́хъ и жи́зни Пода́телю, пріиди́ и всели́ся въ ны, и очи́сти ны отъ вся́кія скве́рны, и спаси́, Бла́же, ду́ши на́ша.",
    "pt": "Rei Celeste, Consolador, Espírito da Verdade, que estás em toda a parte e tudo enches, Tesouro dos bens e Dador da vida, vem e habita em nós, purifica-nos de toda a mancha e salva, ó Bom, as nossas almas.",
-   "ru": "Царь Небесный, Утешитель, Дух истины, вездесущий и весь мир наполняющий, Источник благ и Податель жизни, приди и поселись в нас; очисти нас от всякой нечистоты и спаси, Благий, души наши.",
+   "ru": "Царь Небесный, Утешитель, Дух истины, вездесущий и всё наполняющий, Сокровищница благ и Податель жизни, приди и вселись в нас; очисти нас от всякой нечистоты и спаси, Благий, души наши.",
    "uk": "Царю Небесний, Утішителю, Душе істини, що всюди єси і все наповнюєш, Скарбе благ і Подателю життя, прийди і вселися в нас, і очисти нас від усякої скверни, і спаси, Благий, душі наші.",
    "en": "O Heavenly King, the Comforter, the Spirit of Truth, who art in all places and fillest all things, Treasury of good things and Giver of life: come and abide in us, and cleanse us from every stain, and save our souls, O Good One.",
    "fonte": {
     "cu": "Z1912 p. 1",
-    "ru": "Z1912 p. 1",
+    "ru": "Z1912 p. 1 (adaptado)",
     "en": "H1906 p. 67",
     "pt": "propria",
     "uk": "propria"
@@ -686,7 +692,7 @@
      "ascensao_pentecostes"
     ]
    },
-   "nota": "Não se diz de Páscoa a Pentecostes (doc. 03 §1.4). RU: Z1912 traduz «Сокровище благихъ» por «Источник благ»; mantido."
+   "nota": "Não se diz de Páscoa a Pentecostes (doc. 03 §1.4). RU: Z1912 adaptado (dec. 57): «Источник благ» → «Сокровищница благ» (Сокро́вище), «весь мир наполняющий» → «всё наполняющий» (вся исполня́яй), «поселись» → «вселись»."
   },
   {
    "id": "manha-13",
@@ -848,12 +854,12 @@
    "tipo": "oracao",
    "cu": "О́тче нашъ, И́же еси́ на небесѣ́хъ! Да святи́тся и́мя Твое́, да пріи́детъ Ца́рствіе Твое́, да бу́детъ во́ля Твоя́, я́ко на небеси́ и на земли́. Хлѣбъ нашъ насу́щный даждь намъ днесь; и оста́ви намъ до́лги на́ша, я́коже и мы оставля́емъ должнико́мъ на́шимъ; и не введи́ насъ во искуше́ніе, но изба́ви насъ отъ лука́ваго.",
    "pt": "Pai nosso, que estás nos céus, santificado seja o Teu nome; venha o Teu Reino; seja feita a Tua vontade, como no céu, assim na terra. O pão nosso de cada dia dá-nos hoje; e perdoa-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores; e não nos conduzas à tentação, mas livra-nos do maligno.",
-   "ru": "Отец наш Небесный! Да прославляется святость имени Твоего; да настанет Царство Твое; да исполняется воля Твоя так же и на земле, как на небе. Хлеб, необходимый для нашего существования, дай нам сегодня; прости нам вины наши так же, как и мы прощаем виноватым перед нами; и не допусти нас впасть в соблазн, но избавь нас от зла.",
+   "ru": "Отче наш, сущий на небесах! Да святится имя Твое, да придет Царствие Твое, да будет воля Твоя, как на небе, так и на земле. Хлеб наш насущный дай нам сегодня; и прости нам долги наши, как и мы прощаем должникам нашим; и не введи нас в искушение, но избавь нас от лукавого.",
    "uk": "Отче наш, що єси на небесах! Нехай святиться ім’я Твоє, нехай прийде Царство Твоє, нехай буде воля Твоя, як на небі, так і на землі. Хліб наш насущний дай нам сьогодні; і прости нам борги наші, як і ми прощаємо боржникам нашим; і не введи нас у спокусу, але визволи нас від лукавого.",
    "en": "Our Father, who art in heaven, hallowed be Thy Name. Thy kingdom come. Thy will be done, as in heaven, so on earth. Give us this day our daily bread. And forgive us our debts, as we forgive our debtors. And lead us not into temptation, but deliver us from the evil one.",
    "fonte": {
     "cu": "Z1912 p. 2",
-    "ru": "Z1912 p. 2",
+    "ru": "propria (Z1912 parafraseava)",
     "en": "H1906 p. 13",
     "pt": "propria",
     "uk": "propria"
@@ -863,7 +869,7 @@
      "semana_luminosa"
     ]
    },
-   "nota": "Sem a doxologia sacerdotal «Яко Твое есть Царство…», que só o sacerdote diz (Z1912 e MS1900 também a omitem). EN: Hapgood segue o BCP («trespasses», «on earth, as it is in heaven»); adaptado ao eslavo/grego (до́лги = ὀφειλήματα «debts»; «как no céu, assim na terra»). PT: «насущный» (ἐπιούσιος) traduzido «de cada dia», leitura tradicional; «лукаваго» = «do maligno» (τοῦ πονηροῦ)."
+   "nota": "Sem a doxologia sacerdotal «Яко Твое есть Царство…», que só o sacerdote diz (Z1912 e MS1900 também a omitem). EN: Hapgood segue o BCP («trespasses», «on earth, as it is in heaven»); adaptado ao eslavo/grego (до́лги = ὀφειλήματα «debts»; «как no céu, assim na terra»). PT: «насущный» (ἐπιούσιος) traduzido «de cada dia», leitura tradicional; «лукаваго» = «do maligno» (τοῦ πονηροῦ). RU: tradução própria (dec. 57), próxima da tradução sinodal de Mt 6,9-13; Z1912 parafraseava («Отец наш Небесный», «Да прославляется святость имени Твоего», «Хлеб, необходимый для нашего существования», «от зла»)."
   },
   {
    "id": "manha-21",
@@ -891,12 +897,12 @@
    "tipo": "oracao",
    "cu": "Воста́вше отъ сна, припа́даемъ Ти, Бла́же, и А́нгельскую пѣснь вопіе́мъ Ти, Си́льне: Свя́тъ, Свя́тъ, Свя́тъ еси́, Бо́же, Богоро́дицею поми́луй насъ.",
    "pt": "Levantados do sono, prostramo-nos diante de Ti, ó Bom, e clamamos-Te o hino dos Anjos, ó Poderoso: Santo, Santo, Santo és Tu, ó Deus; pela intercessão da Mãe de Deus, tem piedade de nós.",
-   "ru": "Встав после сна, мы припадаем к стопам Твоим, Благий, и ангельскую песнь возглашаем Тебе, Сильный: Свят, Свят, Свят Ты, Боже! По молитвам Богородицы помилуй нас.",
+   "ru": "Встав после сна, мы припадаем к Тебе, Благий, и ангельскую песнь возглашаем Тебе, Сильный: Свят, Свят, Свят Ты, Боже! По молитвам Богородицы помилуй нас.",
    "uk": "Вставши від сну, припадаємо до Тебе, Благий, і ангельську пісню виголошуємо Тобі, Сильний: Свят, Свят, Свят єси, Боже, Богородицею помилуй нас.",
    "en": "Having risen from sleep, we fall down before Thee, O Good One, and cry aloud to Thee, O Mighty One, the hymn of the Angels: Holy, Holy, Holy art Thou, O God; through the Theotokos have mercy upon us.",
    "fonte": {
     "cu": "Z1912 p. 2",
-    "ru": "Z1912 p. 2",
+    "ru": "Z1912 p. 2 (adaptado)",
     "en": "propria",
     "pt": "propria",
     "uk": "propria"
@@ -906,19 +912,19 @@
      "semana_luminosa"
     ]
    },
-   "nota": "«Свя́тъ» com acento apesar de monossílabo, como em Z1912 (ênfase do Sanctus)."
+   "nota": "«Свя́тъ» com acento apesar de monossílabo, como em Z1912 (ênfase do Sanctus). RU: Z1912 adaptado (dec. 57): suprimido o acrescento «к стопам Твоим». «Богоро́дицею» = «по молитвам Богородицы» (interpretação corrente)."
   },
   {
    "id": "manha-23",
    "tipo": "oracao",
    "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху. Отъ одра́ и сна воздви́глъ мя еси́, Го́споди, умъ мой просвѣти́ и се́рдце, и устнѣ́ мои́ отве́рзи, во е́же пѣ́ти Тя, Свята́я Тро́ице: Свя́тъ, Свя́тъ, Свя́тъ еси́, Бо́же, Богоро́дицею поми́луй насъ.",
    "pt": "Glória ao Pai e ao Filho e ao Espírito Santo. Do leito e do sono me levantaste, Senhor; ilumina a minha mente e o meu coração e abre os meus lábios, para que Te cante, ó Santíssima Trindade: Santo, Santo, Santo és Tu, ó Deus; pela intercessão da Mãe de Deus, tem piedade de nós.",
-   "ru": "Слава Отцу и Сыну и Святому Духу. С постели от сна Ты поднял меня, Господи! Ум мой просвети и сердце, и открой уста мои, чтобы воспевать Тебя, Святая Троица: Свят, Свят, Свят Ты, Боже! По молитвам Богородицы помилуй нас.",
+   "ru": "Слава Отцу и Сыну и Святому Духу. С постели и от сна Ты поднял меня, Господи! Ум мой просвети и сердце, и открой уста мои, чтобы воспевать Тебя, Святая Троица: Свят, Свят, Свят Ты, Боже! По молитвам Богородицы помилуй нас.",
    "uk": "Слава Отцю, і Сину, і Святому Духові. Від ложа і сну підняв Ти мене, Господи; ум мій просвіти і серце, і уста мої відкрий, щоб оспівувати Тебе, Свята Трійце: Свят, Свят, Свят єси, Боже, Богородицею помилуй нас.",
    "en": "Glory to the Father, and to the Son, and to the Holy Spirit. From bed and sleep hast Thou raised me, O Lord: enlighten my mind and my heart, and open my lips, that I may sing of Thee, O Holy Trinity: Holy, Holy, Holy art Thou, O God; through the Theotokos have mercy upon us.",
    "fonte": {
     "cu": "Z1912 p. 2",
-    "ru": "Z1912 p. 2",
+    "ru": "Z1912 p. 2 (adaptado)",
     "en": "propria",
     "pt": "propria",
     "uk": "propria"
@@ -927,19 +933,20 @@
     "excepto": [
      "semana_luminosa"
     ]
-   }
+   },
+   "nota": "RU: Z1912 adaptado (dec. 57): «С постели от сна» → «С постели и от сна» (отъ одра́ и сна)."
   },
   {
    "id": "manha-24",
    "tipo": "oracao",
    "cu": "И ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь. Внеза́пу Судія́ пріи́детъ, и коего́ждо дѣя́нія обнажа́тся, но стра́хомъ зове́мъ въ полу́нощи: Свя́тъ, Свя́тъ, Свя́тъ еси́, Бо́же, Богоро́дицею поми́луй насъ.",
    "pt": "Agora e sempre e pelos séculos dos séculos. Ámen. De repente virá o Juiz, e as obras de cada um ficarão a descoberto; mas, com temor, clamamos a meio da noite: Santo, Santo, Santo és Tu, ó Deus; pela intercessão da Mãe de Deus, tem piedade de nós.",
-   "ru": "И ныне, и всегда, и во веки веков. Аминь. Внезапно придет Судия, и деяния каждого обнаружатся. Так в страхе воскликнем в полночь: Свят, Свят, Свят Ты, Боже! По молитвам Богородицы помилуй нас.",
+   "ru": "И ныне, и всегда, и во веки веков. Аминь. Внезапно придет Судия, и деяния каждого обнаружатся. Но со страхом взываем в полночь: Свят, Свят, Свят Ты, Боже! По молитвам Богородицы помилуй нас.",
    "uk": "І нині, і повсякчас, і на віки віків. Амінь. Раптово прийде Суддя, і діла кожного відкриються; але зі страхом взиваємо опівночі: Свят, Свят, Свят єси, Боже, Богородицею помилуй нас.",
    "en": "Now and ever, and unto ages of ages. Amen. Suddenly the Judge shall come, and the deeds of each shall be laid bare; but with fear we cry at midnight: Holy, Holy, Holy art Thou, O God; through the Theotokos have mercy upon us.",
    "fonte": {
     "cu": "Z1912 pp. 2–3",
-    "ru": "Z1912 pp. 2–3",
+    "ru": "Z1912 pp. 2–3 (adaptado)",
     "en": "propria",
     "pt": "propria",
     "uk": "propria"
@@ -949,7 +956,7 @@
      "semana_luminosa"
     ]
    },
-   "nota": "RU: Z1912 «воскликнемте»; modernizado para «воскликнем»."
+   "nota": "RU: Z1912 adaptado (dec. 57): «Так в страхе воскликнемте» → «Но со страхом взываем» (adversativa «но» e presente «зове́мъ», como no eslavo)."
   },
   {
    "id": "manha-25",
@@ -1001,12 +1008,12 @@
    "tipo": "oracao",
    "cu": "Отъ сна воста́въ, благодарю́ Тя, Свята́я Тро́ице, я́ко мно́гія ра́ди Твоея́ бла́гости и долготерпѣ́нія не прогнѣ́вался еси́ на мя, лѣни́ваго и грѣ́шнаго, ниже́ погуби́лъ мя еси́ со беззако́ньми мои́ми; но человѣколю́бствовалъ еси́ обы́чно и въ нечая́ніи лежа́щаго воздви́глъ мя еси́, во е́же у́треневати и славосло́вити держа́ву Твою́. И ны́нѣ просвѣти́ мои́ о́чи мы́сленныя, отве́рзи моя́ уста́ поуча́тися словесе́мъ Твои́мъ, и разумѣ́ти за́повѣди Твоя́, и твори́ти во́лю Твою́, и пѣ́ти Тя во исповѣ́даніи серде́чнѣмъ, и воспѣва́ти всесвято́е и́мя Твое́, Отца́ и Сы́на и Свята́го Ду́ха, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
    "pt": "Levantando-me do sono, dou-Te graças, ó Santíssima Trindade, porque, pela Tua grande bondade e longanimidade, não Te iraste contra mim, preguiçoso e pecador, nem me fizeste perecer com as minhas iniquidades, mas, segundo o Teu costume, mostraste o Teu amor pelos homens e, jazendo eu sem esperança, me levantaste para madrugar e glorificar o Teu poder. E agora ilumina os olhos do meu entendimento, abre a minha boca para meditar nas Tuas palavras, compreender os Teus mandamentos, fazer a Tua vontade, cantar-Te na confissão do coração e celebrar o Teu santíssimo nome, do Pai e do Filho e do Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
-   "ru": "Встав после сна, благодарю Тебя, Святая Троица, что, по великой Твоей милости и долготерпению, Ты, Боже, не прогневался на меня, ленивого и грешного, и не прекратил жизни моей среди беззаконий моих, но оказал мне обычное Твое человеколюбие и поднял меня, лежавшего без сознания, чтобы принести Тебе утреннюю молитву и прославить власть Твою. И теперь просвети мои мысли, открой уста мои, чтобы мне поучаться слову Твоему и уразумевать заповеди Твои, исполнять волю Твою, прославлять Тебя в благодарном сердце и воспевать святейшее имя Твое, Отца и Сына и Святого Духа, теперь, и всегда, и во веки веков. Аминь.",
-   "uk": "Вставши від сну, дякую Тобі, Свята Трійце, що з великої Твоєї благості й довготерпіння Ти не прогнівався на мене, лінивого і грішного, і не погубив мене з беззаконнями моїми, але, як завжди, виявив чоловіколюбство і мене, що лежав у безнадії, підняв, щоб я ранком славословив державу Твою. І нині просвіти мислені очі мої, відкрий уста мої, щоб повчатися словам Твоїм, і розуміти заповіді Твої, і творити волю Твою, і оспівувати Тебе в сердечному сповіданні, і прославляти всесвяте ім’я Твоє, Отця, і Сина, і Святого Духа, нині, і повсякчас, і на віки віків. Амінь.",
+   "ru": "Встав от сна, благодарю Тебя, Святая Троица, что по великой Твоей благости и долготерпению Ты не прогневался на меня, ленивого и грешного, и не погубил меня с беззакониями моими, но по обычному Твоему человеколюбию воздвиг меня, лежавшего в отчаянии, чтобы мне рано встать и славословить державу Твою. И ныне просвети мои мысленные очи, открой мои уста, чтобы поучаться словам Твоим, и уразумевать заповеди Твои, и творить волю Твою, и петь Тебе в сердечном исповедании, и воспевать всесвятое имя Твое, Отца и Сына и Святого Духа, ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Вставши від сну, дякую Тобі, Свята Трійце, що з великої Твоєї благості й довготерпіння Ти не прогнівався на мене, лінивого і грішного, і не погубив мене з беззаконнями моїми, але, як завжди, виявив чоловіколюбство і мене, що лежав у безнадії, підняв, щоб я рано вставав і славословив державу Твою. І нині просвіти мислені очі мої, відкрий уста мої, щоб повчатися словам Твоїм, і розуміти заповіді Твої, і творити волю Твою, і оспівувати Тебе в сердечному сповіданні, і прославляти всесвяте ім’я Твоє, Отця, і Сина, і Святого Духа, нині, і повсякчас, і на віки віків. Амінь.",
    "en": "Having risen from sleep, I thank Thee, O Holy Trinity, that for the sake of Thy great goodness and long-suffering Thou hast not been angry with me, slothful and sinful as I am, nor hast Thou destroyed me with my iniquities, but hast shown Thy wonted love for mankind, and hast raised me up as I lay in despair, that I might rise early and glorify Thy dominion. And now enlighten the eyes of my understanding, open my mouth to meditate on Thy words, to understand Thy commandments, to do Thy will, to sing of Thee in heartfelt confession, and to praise Thine all-holy Name, of the Father, and of the Son, and of the Holy Spirit, now and ever, and unto ages of ages. Amen.",
    "fonte": {
     "cu": "Z1912 p. 3",
-    "ru": "Z1912 p. 3",
+    "ru": "propria (Z1912 parafraseava)",
     "en": "propria",
     "pt": "propria",
     "uk": "propria"
@@ -1016,19 +1023,19 @@
      "semana_luminosa"
     ]
    },
-   "nota": "«въ нечая́ніи» = ἐν ἀπογνώσει «em desespero/sem esperança»; Z1912 traduz «без сознания» (inconsciente, i.e. adormecido) — mantido em RU, ⚠ interpretação."
+   "nota": "«въ нечая́ніи» = ἐν ἀπογνώσει «em desespero/sem esperança»; RU: tradução própria (dec. 57); Z1912 parafraseava («лежавшего без сознания», «не прекратил жизни моей», «принести Тебе утреннюю молитву», «просвети мои мысли»). «у́треневати» = ὀρθρίζειν, madrugar."
   },
   {
    "id": "manha-28",
    "tipo": "oracao",
    "cu": "Пріиди́те, поклони́мся Царе́ви на́шему Бо́гу. Пріиди́те, поклони́мся и припаде́мъ Христу́, Царе́ви на́шему Бо́гу. Пріиди́те, поклони́мся и припаде́мъ Самому́ Христу́, Царе́ви и Бо́гу на́шему.",
    "pt": "Vinde, adoremos o nosso Rei e Deus. Vinde, adoremos e prostremo-nos diante de Cristo, nosso Rei e Deus. Vinde, adoremos e prostremo-nos diante do próprio Cristo, Rei e nosso Deus.",
-   "ru": "Придите, поклонимся Царю, нашему Богу. Придите, поклонимся Христу-Царю, нашему Богу, и припадем к стопам Его. Придите, поклонимся Самому Христу, Царю и Богу нашему, и припадем к стопам Его.",
+   "ru": "Придите, поклонимся Царю, нашему Богу. Придите, поклонимся и припадем ко Христу, Царю, нашему Богу. Придите, поклонимся и припадем к Самому Христу, Царю и Богу нашему.",
    "uk": "Прийдіть, поклонімося Цареві нашому Богові. Прийдіть, поклонімося і припадімо до Христа, Царя нашого Бога. Прийдіть, поклонімося і припадімо до Самого Христа, Царя і Бога нашого.",
    "en": "O come, let us worship God our King. O come, let us worship and fall down before Christ, our King and God. O come, let us worship and fall down before Christ Himself, our King and God.",
    "fonte": {
     "cu": "Z1912 p. 3",
-    "ru": "Z1912 p. 3",
+    "ru": "Z1912 p. 3 (adaptado)",
     "en": "H1906 p. 15",
     "pt": "propria",
     "uk": "propria"
@@ -1038,7 +1045,7 @@
      "semana_luminosa"
     ]
    },
-   "nota": "Cada invocação com uma inclinação (prática corrente). EN: Hapgood «the Very Christ» → «Christ Himself»; omite-se o 4.º verso de Hapgood («and fall down before him»), que não está no eslavo."
+   "nota": "Cada invocação com uma inclinação (prática corrente). EN: Hapgood «the Very Christ» → «Christ Himself»; omite-se o 4.º verso de Hapgood («and fall down before him»), que não está no eslavo. RU: Z1912 adaptado (dec. 57): suprimido o acrescento «к стопам Его», ordem do eslavo («поклонимся и припадем»)."
   },
   {
    "id": "manha-29",
@@ -1067,12 +1074,12 @@
    "tipo": "oracao",
    "cu": "Поми́луй мя, Бо́же, по вели́цѣй ми́лости Твое́й, и по мно́жеству щедро́тъ Твои́хъ очи́сти беззако́ніе мое́. Наипа́че омы́й мя отъ беззако́нія моего́, и отъ грѣха́ моего́ очи́сти мя; я́ко беззако́ніе мое́ азъ зна́ю, и грѣхъ мой пре́до мно́ю есть вы́ну. Тебѣ́ еди́ному согрѣши́хъ и лука́вое предъ Тобо́ю сотвори́хъ, я́ко да оправди́шися во словесѣ́хъ Твои́хъ, и побѣди́ши внегда́ суди́ти Ти. Се бо, въ беззако́ніихъ зача́тъ есмь, и во грѣсѣ́хъ роди́ мя ма́ти моя́. Се бо, и́стину возлюби́лъ еси́, безвѣ́стная и та́йная прему́дрости Твоея́ яви́лъ ми еси́. Окропи́ши мя ѵссо́помъ, и очи́щуся; омы́еши мя, и па́че снѣ́га убѣлю́ся. Слу́ху моему́ да́си ра́дость и весе́ліе; возра́дуются ко́сти смире́нныя. Отврати́ лице́ Твое́ отъ грѣхъ мои́хъ и вся беззако́нія моя́ очи́сти. Се́рдце чи́сто сози́жди во мнѣ, Бо́же, и духъ правъ обнови́ во утро́бѣ мое́й. Не отве́ржи мене́ отъ лица́ Твоего́ и Ду́ха Твоего́ Свята́го не отъими́ отъ мене́. Возда́ждь ми ра́дость спасе́нія Твоего́ и Ду́хомъ Влады́чнимъ утверди́ мя. Научу́ беззако́нныя путе́мъ Твои́мъ, и нечести́віи къ Тебѣ́ обратя́тся. Изба́ви мя отъ крове́й, Бо́же, Бо́же спасе́нія моего́; возра́дуется язы́къ мой пра́вдѣ Твое́й. Го́споди, устнѣ́ мои́ отве́рзеши, и уста́ моя́ возвѣстя́тъ хвалу́ Твою́. Я́ко а́ще бы восхотѣ́лъ еси́ же́ртвы, далъ быхъ у́бо; всесожже́нія не благоволи́ши. Же́ртва Бо́гу духъ сокруше́нъ; се́рдце сокруше́нно и смире́нно Богъ не уничижи́тъ. Ублажи́, Го́споди, благоволе́ніемъ Твои́мъ Сіо́на, и да сози́ждутся стѣ́ны Іерусали́мскія. Тогда́ благоволи́ши же́ртву пра́вды, возноше́ніе и всесожега́емая; тогда́ возложа́тъ на олта́рь Твой тельцы́.",
    "pt": "Tem piedade de mim, ó Deus, segundo a Tua grande misericórdia, e segundo a multidão das Tuas compaixões apaga a minha iniquidade. Lava-me ainda mais da minha iniquidade e purifica-me do meu pecado, porque eu conheço a minha iniquidade e o meu pecado está sempre diante de mim. Contra Ti só pequei e fiz o mal diante de Ti, para que sejas justificado nas Tuas palavras e venças quando fores julgado. Eis que fui concebido em iniquidades, e em pecados me deu à luz minha mãe. Eis que amaste a verdade; manifestaste-me os segredos e os mistérios da Tua sabedoria. Aspergir-me-ás com hissopo, e ficarei puro; lavar-me-ás, e ficarei mais branco que a neve. Dar-me-ás a ouvir alegria e júbilo; exultarão os ossos humilhados. Desvia o Teu rosto dos meus pecados e apaga todas as minhas iniquidades. Cria em mim um coração puro, ó Deus, e renova nas minhas entranhas um espírito reto. Não me rejeites da Tua presença e não retires de mim o Teu Espírito Santo. Restitui-me a alegria da Tua salvação e firma-me com o Espírito soberano. Ensinarei aos iníquos os Teus caminhos, e os ímpios voltar-se-ão para Ti. Livra-me do sangue, ó Deus, Deus da minha salvação; a minha língua exultará na Tua justiça. Senhor, abrirás os meus lábios, e a minha boca anunciará o Teu louvor. Porque, se quisesses um sacrifício, eu to daria; não Te comprazes em holocaustos. Sacrifício a Deus é um espírito contrito; um coração contrito e humilhado Deus não desprezará. Faz bem, Senhor, a Sião na Tua benevolência, e sejam edificadas as muralhas de Jerusalém. Então Te comprazerás no sacrifício de justiça, na oblação e nos holocaustos; então oferecerão novilhos sobre o Teu altar.",
-   "ru": "Помилуй меня, Боже, по великой милости Твоей и, по изобилию жалости Твоей, изгладь беззаконие мое. В особенности омой меня от беззакония моего и от греха моего очисти меня. Ибо беззаконие мое я знаю, и грех мой всегда предо мною. Тебе единому согрешил я и злое пред Тобою содеял, так что Ты праведен в приговоре Твоем и чист в суде Твоем. Вот, я зачат в беззакониях, и моя мать родила меня во грехах. Но вот, Ты возлюбил правду и открыл мне сокровенную тайну премудрости Твоей. Ты окропишь меня иссопом — и я очищусь; омоешь меня — и я сделаюсь белее снега. Ты дашь мне услышать радость и веселие — и возрадуются разбитые кости. Отврати лице Твое от грехов моих и уничтожь все беззакония мои. Сердце чистым сделай во мне, Боже, и дух правды укрепи в груди моей. Не отвергни меня от лица Твоего и Духа Твоего Святого не отними от меня. Возврати мне радость надежды на спасение Тобою и владычественным Духом утверди меня. Я научу беззаконных путям Твоим, и нечестивые к Тебе обратятся. Спаси меня из пролитой крови, Боже, Боже — Спаситель мой, — и язык мой прославит правду Твою. Господи! Ты откроешь уста мои — и уста мои возвестят хвалу Тебе. Ведь если бы Ты пожелал жертвы, я дал бы ее: всесожжение Тебе не будет угодно. Жертва Богу — дух сокрушенный: сердца сокрушенного и смиренного Бог не презрит. Облагодетельствуй, Господи, благоволением Твоим Сион, и да воздвигнутся стены Иерусалима: тогда благоугодна Тебе будет жертва правды, возношение и всесожжение; тогда возложат на алтарь Твой тельцов.",
+   "ru": "Помилуй меня, Боже, по великой милости Твоей, и по множеству щедрот Твоих очисти беззаконие мое. Многократно омой меня от беззакония моего, и от греха моего очисти меня; ибо беззаконие мое я знаю, и грех мой всегда предо мною. Тебе единому согрешил я и лукавое пред Тобою сотворил, так что Ты оправдаешься в словах Твоих и победишь, когда будешь судить. Ибо вот, я в беззакониях зачат, и во грехах родила меня мать моя. Ибо вот, Ты возлюбил истину, неведомое и тайное премудрости Твоей Ты явил мне. Окропишь меня иссопом, и очищусь; омоешь меня, и стану белее снега. Слуху моему дашь радость и веселие; возрадуются кости смиренные. Отврати лицо Твое от грехов моих и все беззакония мои очисти. Сердце чистое созижди во мне, Боже, и дух правый обнови внутри меня. Не отвергни меня от лица Твоего и Духа Твоего Святого не отними от меня. Возврати мне радость спасения Твоего и Духом Владычественным утверди меня. Научу беззаконных путям Твоим, и нечестивые к Тебе обратятся. Избавь меня от кровей, Боже, Боже спасения моего; возрадуется язык мой правде Твоей. Господи, Ты откроешь уста мои, и уста мои возвестят хвалу Твою. Ибо если бы Ты восхотел жертвы, я дал бы ее; всесожжения Ты не благоволишь. Жертва Богу — дух сокрушенный; сердца сокрушенного и смиренного Бог не уничижит. Облагодетельствуй, Господи, благоволением Твоим Сион, и да созиждутся стены Иерусалимские. Тогда благоволишь жертву правды, возношение и всесожжения; тогда возложат на алтарь Твой тельцов.",
    "uk": "Помилуй мене, Боже, з великої милості Твоєї, і з безлічі щедрот Твоїх очисти беззаконня моє. Найбільше омий мене від беззаконня мого, і від гріха мого очисти мене, бо беззаконня моє я знаю, і гріх мій завжди переді мною. Тобі єдиному згрішив я і лукаве перед Тобою вчинив, щоб Ти виправдався у словах Твоїх і переміг, коли судитимуть Тебе. Ось бо в беззаконнях я зачатий, і в гріхах породила мене мати моя. Ось бо Ти полюбив істину; невідоме й таємне премудрості Твоєї Ти відкрив мені. Окропиш мене іссопом — і очищуся; омиєш мене — і стану біліший від снігу. Даси мені почути радість і веселість; зрадіють кості упокорені. Відверни лице Твоє від гріхів моїх і всі беззаконня мої очисти. Серце чисте створи в мені, Боже, і дух правий онови в нутрі моєму. Не відкинь мене від лиця Твого і Духа Твого Святого не відійми від мене. Поверни мені радість спасіння Твого і Духом владичним утверди мене. Навчу беззаконних путей Твоїх, і нечестиві до Тебе навернуться. Визволи мене від крові, Боже, Боже спасіння мого; зрадіє язик мій правді Твоїй. Господи, губи мої відкриєш, і уста мої сповістять хвалу Твою. Бо якби Ти захотів жертви, я дав би її; всепалень Ти не вподобаєш. Жертва Богові — дух скрушений; серця скрушеного і смиренного Бог не зневажить. Ощаслив, Господи, благоволінням Твоїм Сіон, і нехай відбудуються стіни єрусалимські. Тоді вподобаєш жертву правди, приношення і всепалення; тоді покладуть на жертовник Твій тельців.",
    "en": "Have mercy upon me, O God, according to Thy great mercy; and according to the multitude of Thy compassions blot out my transgression. Wash me thoroughly from mine iniquity, and cleanse me from my sin. For I know mine iniquity, and my sin is continually before me. Against Thee only have I sinned, and done evil before Thee, that Thou mightest be justified in Thy sayings, and mightest overcome when Thou art judged. For behold, I was conceived in iniquities, and in sins did my mother bear me. For behold, Thou hast loved truth; the hidden and secret things of Thy wisdom hast Thou made manifest unto me. Thou shalt sprinkle me with hyssop, and I shall be purified; Thou shalt wash me, and I shall be made whiter than snow. Thou shalt cause me to hear gladness and joy; the humbled bones shall rejoice. Turn away Thy face from my sins, and blot out all mine iniquities. Create in me a clean heart, O God, and renew a right spirit in my inward parts. Cast me not away from Thy presence, and take not Thy Holy Spirit from me. Restore unto me the joy of Thy salvation, and establish me with Thy sovereign Spirit. Then will I teach transgressors Thy ways, and the ungodly shall turn unto Thee. Deliver me from blood-guiltiness, O God, the God of my salvation; my tongue shall joyfully declare Thy righteousness. O Lord, Thou shalt open my lips, and my mouth shall declare Thy praise. For if Thou hadst desired sacrifice, I would have given it; Thou wilt not take pleasure in whole-burnt offerings. A sacrifice unto God is a broken spirit; a broken and humbled heart God will not despise. Do good, O Lord, unto Sion in Thy good pleasure, and let the walls of Jerusalem be built. Then shalt Thou be pleased with a sacrifice of righteousness, with oblation and whole-burnt offerings; then shall they offer calves upon Thine altar.",
    "fonte": {
     "cu": "Z1912 pp. 4–5",
-    "ru": "Z1912 pp. 4–5",
+    "ru": "propria (Z1912 parafraseava)",
     "en": "BR1851 Sl 50",
     "pt": "propria",
     "uk": "propria"
@@ -1082,7 +1089,7 @@
      "semana_luminosa"
     ]
    },
-   "nota": "Eslavo segundo Z1912 pp. 4–5 (= Bíblia isabelina). «ѵссо́помъ» com ѵ como em Z1912 («ѵ҆ссѡ́помъ»). EN: Brenton adaptado — «I am conscious of» → «I know» (зна́ю), «afflicted bones» → «humbled bones» (смире́нныя), «directing Spirit» → «sovereign Spirit» (Влады́чнимъ, ἡγεμονικῷ), «offering» → «oblation» (возноше́ніе). RU: Z1912 é paráfrase (p. ex. «дух правды укрепи в груди моей»); mantida (dec. 36), ⚠ menos literal. «уссопомъ» de Z1912 modernizado para «иссопом»."
+   "nota": "Eslavo segundo Z1912 pp. 4–5 (= Bíblia isabelina). «ѵссо́помъ» com ѵ como em Z1912 («ѵ҆ссѡ́помъ»). EN: Brenton adaptado — «I am conscious of» → «I know» (зна́ю), «afflicted bones» → «humbled bones» (смире́нныя), «directing Spirit» → «sovereign Spirit» (Влады́чнимъ, ἡγεμονικῷ), «offering» → «oblation» (возноше́ніе). RU: tradução própria do eslavo (dec. 57); Z1912 parafraseava (p. ex. «так что Ты праведен в приговоре Твоем», «дух правды укрепи в груди моей», «радость надежды на спасение», «Спаси меня из пролитой крови»)."
   },
   {
    "id": "manha-31",
@@ -1111,12 +1118,12 @@
    "tipo": "oracao",
    "cu": "Вѣ́рую во еди́наго Бо́га Отца́, Вседержи́теля, Творца́ не́бу и земли́, ви́димымъ же всѣмъ и неви́димымъ. И во еди́наго Го́спода Іису́са Христа́, Сы́на Бо́жія, Единоро́днаго, И́же отъ Отца́ рожде́ннаго пре́жде всѣхъ вѣкъ; Свѣ́та отъ Свѣ́та, Бо́га и́стинна отъ Бо́га и́стинна, рожде́нна, несотворе́нна, единосу́щна Отцу́, И́мже вся бы́ша. Насъ ра́ди человѣ́къ и на́шего ра́ди спасе́нія сше́дшаго съ небе́съ и воплоти́вшагося отъ Ду́ха Свя́та и Марі́и Дѣ́вы, и вочеловѣ́чшася. Распя́таго же за ны при Понті́йстѣмъ Пила́тѣ, и страда́вша, и погребе́нна. И воскре́сшаго въ тре́тій день по Писа́ніемъ. И возше́дшаго на небеса́, и сѣдя́ща одесну́ю Отца́. И па́ки гряду́щаго со сла́вою суди́ти живы́мъ и ме́ртвымъ, Его́же Ца́рствію не бу́детъ конца́. И въ Ду́ха Свята́го, Го́спода, Животворя́щаго, И́же отъ Отца́ исходя́щаго, И́же со Отце́мъ и Сы́номъ спокланя́ема и ссла́вима, глаго́лавшаго проро́ки. Во еди́ну Святу́ю, Собо́рную и Апо́стольскую Це́рковь. Исповѣ́дую еди́но креще́ніе во оставле́ніе грѣхо́въ. Ча́ю воскресе́нія ме́ртвыхъ, и жи́зни бу́дущаго вѣ́ка. Ами́нь.",
    "pt": "Creio num só Deus, Pai, Todo-Poderoso, Criador do céu e da terra, de todas as coisas visíveis e invisíveis. E num só Senhor, Jesus Cristo, Filho de Deus, Unigénito, nascido do Pai antes de todos os séculos; Luz da Luz, Deus verdadeiro de Deus verdadeiro, gerado, não criado, consubstancial ao Pai, por Quem todas as coisas foram feitas. Que, por nós, homens, e para nossa salvação, desceu dos céus e Se encarnou do Espírito Santo e da Virgem Maria, e Se fez homem. E foi crucificado por nós sob Pôncio Pilatos, e padeceu, e foi sepultado. E ressuscitou ao terceiro dia, segundo as Escrituras. E subiu aos céus, e está sentado à direita do Pai. E de novo há de vir com glória julgar os vivos e os mortos, e o Seu Reino não terá fim. E no Espírito Santo, Senhor, Vivificador, que procede do Pai, que com o Pai e o Filho é juntamente adorado e glorificado, que falou pelos profetas. Numa só Igreja, Santa, Católica e Apostólica. Confesso um só batismo para a remissão dos pecados. Espero a ressurreição dos mortos e a vida do século que há de vir. Ámen.",
-   "ru": "Верую во единого Бога Отца, Вседержителя, Творца неба и земли, всего видимого и невидимого. И во единого Господа Иисуса Христа, Единородного Сына Божия, рожденного от Отца прежде всякого времени, истинного Бога, рожденного от истинного Бога, как свет рождается от света, — рожденного, а не сотворенного, Который одного существа с Богом Отцом и через Которого произошел весь мир; сошедшего с небес для нас, людей, и нашего спасения, — воплотившегося от Духа Святого и Девы Марии и сделавшегося истинным человеком; и распятого за нас при Понтии Пилате, и страдавшего, и погребенного; и воскресшего в третий день, как было предсказано в Писании; и вознесшегося на небеса, и сидящего по правую руку Отца; и Который опять придет во славе, чтобы судить живых и мертвых, и Его Царству не будет конца. И в Духа Святого, Господа, дающего жизнь, исходящего от Отца, Которому надлежит поклоняться и Которого славить одинаково с Отцом и Сыном, — говорившего через пророков. В единую Святую, Соборную и Апостольскую Церковь. Я признаю одно в жизни крещение для очищения от грехов. Я ожидаю воскресения мертвых и другой, вечной жизни. Аминь.",
+   "ru": "Верую во единого Бога Отца, Вседержителя, Творца неба и земли, всего видимого и невидимого. И во единого Господа Иисуса Христа, Сына Божия, Единородного, от Отца рожденного прежде всех веков; Света от Света, Бога истинного от Бога истинного, рожденного, не сотворенного, единосущного Отцу, через Которого всё сотворено. Ради нас, людей, и ради нашего спасения сошедшего с небес и воплотившегося от Духа Святого и Марии Девы, и вочеловечившегося. Распятого же за нас при Понтии Пилате, и страдавшего, и погребенного. И воскресшего в третий день по Писаниям. И восшедшего на небеса, и сидящего одесную Отца. И вновь грядущего со славою судить живых и мертвых, Царству Которого не будет конца. И в Духа Святого, Господа, Животворящего, от Отца исходящего, Которому со Отцом и Сыном подобает равное поклонение и слава, говорившего через пророков. В единую Святую, Соборную и Апостольскую Церковь. Исповедую одно крещение во оставление грехов. Ожидаю воскресения мертвых и жизни будущего века. Аминь.",
    "uk": "Вірую в єдиного Бога Отця, Вседержителя, Творця неба і землі, всього видимого і невидимого. І в єдиного Господа Іісуса Христа, Сина Божого, Єдинородного, від Отця народженого перед усіма віками; Світло від Світла, Бога істинного від Бога істинного, народженого, не створеного, єдиносущного Отцеві, через Якого все сталося. Нас ради людей і нашого ради спасіння зійшов з небес, і воплотився від Духа Святого і Марії Діви, і вочоловічився. І розп’ятий був за нас при Понтії Пилаті, і страждав, і був похований. І воскрес у третій день, згідно з Писаннями. І вознісся на небеса, і сидить праворуч Отця. І знову прийде зі славою судити живих і мертвих, і Царству Його не буде кінця. І в Духа Святого, Господа Животворчого, що від Отця походить, що з Отцем і Сином рівнопоклоняємий і рівнославимий, що говорив через пророків. В єдину Святу, Соборну і Апостольську Церкву. Визнаю єдине хрещення на відпущення гріхів. Чекаю воскресіння мертвих і життя майбутнього віку. Амінь.",
    "en": "I believe in one God, the Father Almighty, Maker of heaven and earth, and of all things visible and invisible. And in one Lord Jesus Christ, the Son of God, the Only-begotten, begotten of the Father before all ages; Light of Light, true God of true God, begotten, not made, of one essence with the Father, by whom all things were made; who for us men and for our salvation came down from heaven, and was incarnate of the Holy Spirit and the Virgin Mary, and was made man; and was crucified for us under Pontius Pilate, and suffered, and was buried; and the third day He rose again, according to the Scriptures; and ascended into heaven, and sitteth at the right hand of the Father; and He shall come again with glory to judge the living and the dead, whose kingdom shall have no end. And in the Holy Spirit, the Lord, the Giver of Life, who proceedeth from the Father, who with the Father and the Son together is worshipped and glorified, who spake by the Prophets. In one Holy, Catholic and Apostolic Church. I acknowledge one Baptism for the remission of sins. I look for the Resurrection of the dead, and the Life of the age to come. Amen.",
    "fonte": {
     "cu": "Z1912 pp. 60–61",
-    "ru": "Z1912 pp. 60–61",
+    "ru": "propria (Z1912 parafraseava)",
     "en": "H1906 p. 100",
     "pt": "propria",
     "uk": "propria"
@@ -1126,7 +1133,7 @@
      "semana_luminosa"
     ]
    },
-   "nota": "Eslavo segundo Z1912 pp. 60–61. ⚠ Z1912 lê «спокланя́ема и сла́вима»; as edições correntes têm «и сслави́ма» (συνδοξαζόμενον) — conferir com outra impressão sinodal pré-1917. RU: Z1912 é paráfrase explicativa (acrescenta «как свет рождается от света», «одно в жизни крещение», «другой, вечной жизни»); mantida por ser a fonte PD da dec. 36, mas ⚠ menos literal que o eslavo. EN: Hapgood adaptado («Holy Ghost» → «Holy Spirit», «before all worlds» → «before all ages», «Being of one Essence» → «of one essence», «the quick» → «the living», «world to come» → «age to come», ordem do eslavo «the Son of God, the Only-begotten»). PT/EN/UK: «Соборную» = καθολικήν → «Católica»/«Catholic»/«Соборну»."
+   "nota": "Eslavo segundo Z1912 pp. 60–61. «спокланя́ема и ссла́вима» (συμπροσκυνούμενον καὶ συνδοξαζόμενον): assim em Z1912 p. 61 (conferido na imagem a 400 ppp), MS1900 pp. 110–111, T1907 p. 57 e no Molitvoslov atual; a leitura anterior «и сла́вима» era erro de leitura (corrigido na QA 2a). PT «juntamente adorado e glorificado», UK «рівнопоклоняємий і рівнославимий», EN «together is worshipped and glorified», RU «подобает равное поклонение и слава» traduzem o prefixo «с-». RU: tradução própria fiel (dec. 57); Z1912 é paráfrase explicativa («как свет рождается от света», «одно в жизни крещение», «другой, вечной жизни»). EN: Hapgood adaptado («Holy Ghost» → «Holy Spirit», «before all worlds» → «before all ages», «Being of one Essence» → «of one essence», «the quick» → «the living», «world to come» → «age to come», ordem do eslavo «the Son of God, the Only-begotten»). PT/EN/UK: «Собо́рную» = καθολικήν → «Católica»/«Catholic»/«Соборну»."
   },
   {
    "id": "manha-33",
@@ -1154,12 +1161,12 @@
    "tipo": "oracao",
    "cu": "Бо́же, очи́сти мя грѣ́шнаго, я́ко николи́же сотвори́хъ благо́е предъ Тобо́ю; но изба́ви мя отъ лука́ваго, и да бу́детъ во мнѣ во́ля Твоя́, да неосужде́нно отве́рзу уста́ моя́ недосто́йная и восхвалю́ и́мя Твое́ свято́е, Отца́ и Сы́на и Свята́го Ду́ха, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
    "pt": "Ó Deus, purifica-me a mim, pecador, porque nunca fiz o bem diante de Ti; mas livra-me do maligno, e faça-se em mim a Tua vontade, para que sem condenação abra a minha boca indigna e louve o Teu santo nome, do Pai e do Filho e do Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
-   "ru": "Боже, очисти меня, грешного, так как я никогда не делал доброго пред Тобою; избавь меня от лукавого, и пусть будет во мне Твоя воля; дай мне безнаказанно открыть мои недостойные уста и восхвалить святое имя Твое, Отца и Сына и Святого Духа, ныне, и всегда, и во веки веков. Аминь.",
+   "ru": "Боже, очисти меня, грешного, так как я никогда не делал доброго пред Тобою; избавь меня от лукавого, и пусть будет во мне Твоя воля; дай мне неосужденно открыть мои недостойные уста и восхвалить святое имя Твое, Отца и Сына и Святого Духа, ныне, и всегда, и во веки веков. Аминь.",
    "uk": "Боже, очисти мене, грішного, бо ніколи не вчинив я доброго перед Тобою; але визволи мене від лукавого, і нехай буде в мені воля Твоя, щоб без осуду відкрив я недостойні уста мої і прославив святе ім’я Твоє, Отця, і Сина, і Святого Духа, нині, і повсякчас, і на віки віків. Амінь.",
    "en": "O God, cleanse me, a sinner, for I have never done any good before Thee; but deliver me from the evil one, and let Thy will be in me, that I may open my unworthy mouth without condemnation and praise Thy holy Name, of the Father, and of the Son, and of the Holy Spirit, now and ever, and unto ages of ages. Amen.",
    "fonte": {
     "cu": "Z1912 p. 5",
-    "ru": "Z1912 p. 5",
+    "ru": "Z1912 p. 5 (adaptado)",
     "en": "propria",
     "pt": "propria",
     "uk": "propria"
@@ -1169,7 +1176,7 @@
      "semana_luminosa"
     ]
    },
-   "nota": "RU: Z1912 «избавь меня от зла» → «от лукавого» (= «отъ лукаваго», τοῦ πονηροῦ), por coerência com o Pai-Nosso. Feminino: «грѣ́шную», «pecadora», «грешную», «грішну»."
+   "nota": "RU: Z1912 adaptado (dec. 57): «от зла» → «от лукавого» (= «отъ лука́ваго», τοῦ πονηροῦ), como no Pai-Nosso RU (tradução própria, manha-20); «безнаказанно» → «неосужденно» (неосужде́нно). Feminino: «грѣ́шную», «pecadora», «грешную», «грішну»."
   },
   {
    "id": "manha-35",
@@ -1197,12 +1204,12 @@
    "tipo": "oracao",
    "cu": "Отъ сна воста́въ, полу́нощную пѣснь приношу́ Ти, Спа́се, и припа́дая вопію́ Ти: не даждь ми усну́ти во грѣхо́внѣй сме́рти, но уще́дри мя, распны́йся во́лею, и лежа́щаго мя въ лѣ́ности уско́ривъ возста́ви, и спаси́ мя въ предстоя́ніи и моли́твѣ; и по снѣ нощнѣ́мъ возсія́й ми день безгрѣ́шенъ, Христе́ Бо́же, и спаси́ мя.",
    "pt": "Levantando-me do sono, ofereço-Te, ó Salvador, o hino da meia-noite e, prostrado, clamo-Te: não me deixes adormecer na morte do pecado, mas compadece-Te de mim, Tu que voluntariamente foste crucificado; a mim, que jazo na preguiça, levanta-me depressa, e salva-me enquanto estou diante de Ti em oração; e, depois do sono da noite, faz brilhar para mim um dia sem pecado, ó Cristo Deus, e salva-me.",
-   "ru": "Встав после сна, я приношу Тебе, Спасе, полуночную песнь и, припадая к стопам Твоим, восклицаю Тебе: не дай мне уснуть в греховной смерти, но сжалься надо мною, добровольно Распявшийся! Скоро подними меня, беспечно лежащего, и спаси меня, стоящего пред Тобою на молитве. И после сна ночного пошли мне ясный день безгрешный, Христе Боже, и спаси меня.",
+   "ru": "Встав от сна, полуночную песнь приношу Тебе, Спасе, и, припадая, взываю к Тебе: не дай мне уснуть в греховной смерти, но смилуйся надо мною, добровольно распятый, и меня, лежащего в лености, поспешив, подними и спаси меня в предстоянии и молитве; и после сна ночного воссияй мне день безгрешный, Христе Боже, и спаси меня.",
    "uk": "Вставши від сну, опівнічну пісню приношу Тобі, Спасе, і, припадаючи, взиваю до Тебе: не дай мені заснути гріховною смертю, але змилуйся наді мною, Ти, що з волі Своєї був розп’ятий, і мене, що лежу в лінощах, швидко підійми, і спаси мене, коли стою перед Тобою в молитві; і після нічного сну осяй мені день безгрішний, Христе Боже, і спаси мене.",
    "en": "Having risen from sleep, I offer Thee, O Saviour, the midnight hymn, and falling down I cry to Thee: suffer me not to fall asleep in the death of sin, but have compassion on me, O Thou who wast willingly crucified; and as I lie in sloth, hasten to raise me up, and save me as I stand before Thee in prayer; and after the sleep of the night, make a sinless day to dawn upon me, O Christ God, and save me.",
    "fonte": {
     "cu": "Z1912 pp. 5–6",
-    "ru": "Z1912 pp. 5–6",
+    "ru": "propria (Z1912 parafraseava)",
     "en": "propria",
     "pt": "propria",
     "uk": "propria"
@@ -1212,7 +1219,7 @@
      "semana_luminosa"
     ]
    },
-   "nota": "RU: Z1912 omite «полуночную» (só «песнь»); restituído conforme o eslavo."
+   "nota": "RU: tradução própria (dec. 57); Z1912 parafraseava («беспечно лежащего», «стоящего пред Тобою на молитве», «пошли мне ясный день», «к стопам Твоим») e omitia «полуночную»."
   },
   {
    "id": "manha-37",
@@ -1240,12 +1247,12 @@
    "tipo": "oracao",
    "cu": "Къ Тебѣ́, Влады́ко Человѣколю́бче, отъ сна воста́въ прибѣга́ю, и на дѣла́ Твоя́ подвиза́юся милосе́рдіемъ Твои́мъ, и молю́ся Тебѣ́: помози́ ми на вся́кое вре́мя, во вся́кой ве́щи, и изба́ви мя отъ вся́кія мірскі́я злы́я ве́щи и діа́вольскаго поспѣше́нія, и спаси́ мя, и введи́ въ Ца́рство Твое́ вѣ́чное. Ты бо еси́ мой Сотвори́тель и вся́кому бла́гу Промы́сленникъ и Пода́тель, о Тебѣ́ же все упова́ніе мое́, и Тебѣ́ сла́ву возсыла́ю, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
    "pt": "A Ti, Soberano que amas os homens, recorro ao levantar-me do sono e, pela Tua misericórdia, empenho-me nas Tuas obras, e rogo-Te: ajuda-me em todo o tempo e em toda a coisa, livra-me de toda a coisa má do mundo e da instigação do diabo, salva-me e conduz-me ao Teu Reino eterno. Porque Tu és o meu Criador, Provedor e Dador de todo o bem; em Ti está toda a minha esperança, e a Ti elevo a glória, agora e sempre e pelos séculos dos séculos. Ámen.",
-   "ru": "К Тебе, Владыка-Человеколюбец, встав после сна, я спешу и, по милосердию Твоему, принимаюсь за угодные Тебе дела. Я молюсь Тебе: помоги мне всегда и во всем, и избавь меня от всякого зла в мире и от диавольского наущения, и спаси меня, и введи в Царство Твое вечное. Ибо Ты — мой Творец и всякого блага Промыслитель и Податель; на Тебя вся моя надежда, и я воссылаю Тебе славу ныне, и всегда, и во веки веков. Аминь.",
+   "ru": "К Тебе, Владыка-Человеколюбец, встав после сна, я прибегаю и, по милосердию Твоему, принимаюсь за угодные Тебе дела. Я молюсь Тебе: помоги мне всегда и во всем, и избавь меня от всякого зла в мире и от диавольского наущения, и спаси меня, и введи в Царство Твое вечное. Ибо Ты — мой Творец и всякого блага Промыслитель и Податель; на Тебя вся моя надежда, и я воссылаю Тебе славу ныне, и всегда, и во веки веков. Аминь.",
    "uk": "До Тебе, Владико Чоловіколюбче, вставши від сну, прибігаю і на діла Твої подвизаюся милосердям Твоїм, і молюся Тобі: допоможи мені завжди, в усякій справі, і визволи мене від усякої світської злої речі та диявольського підбурювання, і спаси мене, і введи в Царство Твоє вічне. Бо Ти мій Творець і всякого добра Промислитель і Податель, на Тебе вся надія моя, і Тобі славу возсилаю, нині, і повсякчас, і на віки віків. Амінь.",
    "en": "To Thee, O Master who lovest mankind, I hasten on rising from sleep, and by Thy mercy I strive to do Thy works; and I pray Thee: help me at all times and in every matter, and deliver me from every evil thing of the world and from the instigation of the devil, and save me, and bring me into Thine eternal Kingdom. For Thou art my Creator, the Provider and Giver of every good thing; in Thee is all my hope, and unto Thee I ascribe glory, now and ever, and unto ages of ages. Amen.",
    "fonte": {
     "cu": "Z1912 p. 6",
-    "ru": "Z1912 p. 6",
+    "ru": "Z1912 p. 6 (adaptado)",
     "en": "propria",
     "pt": "propria",
     "uk": "propria"
@@ -1255,7 +1262,7 @@
      "semana_luminosa"
     ]
    },
-   "nota": "«поспѣше́нія» = συνεργίας (concurso, instigação). RU: Z1912 «от диавольской помощи» → «наущения» e «Источник» → «Промыслитель» (Промысленникъ), para maior fidelidade ⚠ (adaptação)."
+   "nota": "«поспѣше́нія» = συνεργίας (concurso, instigação). RU: Z1912 «от диавольской помощи» → «наущения», «Источник» → «Промыслитель» (Промысленникъ) e «спешу» → «прибегаю» (прибѣга́ю), para maior fidelidade ⚠ (adaptação)."
   },
   {
    "id": "manha-39",
@@ -1326,12 +1333,12 @@
    "tipo": "oracao",
    "cu": "Го́споди Вседержи́телю, Бо́же силъ и вся́кія пло́ти, въ вы́шнихъ живы́й и на смире́нныя призира́яй, сердца́ же и утро́бы испыту́яй и сокрове́нная человѣ́ковъ я́вѣ предвѣ́дый, Безнача́льный и Присносу́щный Свѣ́те, у Него́же нѣсть премѣне́ніе, или́ преложе́нія осѣне́ніе; Самъ, Безсме́ртный Царю́, пріими́ моле́нія на́ша, я́же въ настоя́щее вре́мя, на мно́жество Твои́хъ щедро́тъ дерза́юще, отъ скве́рныхъ къ Тебѣ́ усте́нъ твори́мъ, и оста́ви намъ прегрѣше́нія на́ша, я́же дѣ́ломъ и сло́вомъ и мы́слію, вѣ́дѣніемъ или́ невѣ́дѣніемъ согрѣше́нная на́ми; и очи́сти ны отъ вся́кія скве́рны пло́ти и ду́ха. И да́руй намъ бо́дреннымъ се́рдцемъ и тре́звенною мы́слію всю настоя́щаго житія́ нощь прейти́, ожида́ющимъ прише́ствія свѣ́тлаго и явле́ннаго дне Единоро́днаго Твоего́ Сы́на, Го́спода и Бо́га и Спа́са на́шего Іису́са Христа́, во́ньже со сла́вою Судія́ всѣхъ пріи́детъ, кому́ждо отда́ти по дѣло́мъ его́; да не па́дше и облѣни́вшеся, но бо́дрствующе и воздви́жени въ дѣла́ніи обря́щемся, гото́ви въ ра́дость и Боже́ственный черто́гъ сла́вы Его́ совни́демъ, идѣ́же пра́зднующихъ гласъ непреста́нный и неизрече́нная сла́дость зря́щихъ Твоего́ лица́ добро́ту неизрече́нную. Ты бо еси́ и́стинный Свѣтъ, просвѣща́яй и освяща́яй вся́ческая, и Тя пое́тъ вся тварь во вѣ́ки вѣко́въ. Ами́нь.",
    "pt": "Senhor Todo-Poderoso, Deus das potências e de toda a carne, que habitas nas alturas e olhas para os humildes, que perscrutas os corações e as entranhas e conheces de antemão, claramente, os segredos dos homens, Luz sem princípio e eterna, em Quem não há mudança nem sombra de variação: Tu mesmo, Rei imortal, recebe as súplicas que, neste momento, confiados na multidão das Tuas compaixões, Te dirigimos de lábios impuros, e perdoa-nos os pecados que cometemos por obras, por palavras e por pensamentos, por conhecimento ou por ignorância, e purifica-nos de toda a mancha da carne e do espírito. E concede-nos atravessar toda a noite da vida presente com o coração vigilante e a mente sóbria, esperando a vinda do dia luminoso e manifesto do Teu Filho Unigénito, nosso Senhor, Deus e Salvador Jesus Cristo, em que o Juiz de todos virá com glória para dar a cada um segundo as suas obras; para que não sejamos encontrados caídos e preguiçosos, mas vigilantes e erguidos para a obra, prontos a entrar com Ele na alegria e na câmara nupcial divina da Sua glória, onde ressoa sem cessar a voz dos que celebram a festa e é indizível a doçura dos que contemplam a beleza inefável do Teu rosto. Porque Tu és a verdadeira Luz, que ilumina e santifica todas as coisas, e toda a criação Te canta pelos séculos dos séculos. Ámen.",
-   "ru": "Господи Вседержитель, Боже Сил бесплотных и всякой плоти, на высотах небесных живущий и озирающий долы земные, наблюдающий сердца и помыслы и ясно ведающий тайны человеческие, безначальный и вечный Свет, Который не имеет изменений в силе и не оставляет затененного места на Своем пути! Ты Сам, бессмертный Царь, прими моления наши, которые мы в настоящее время, надеясь на обилие сострадания Твоего, творим Тебе из нечистых уст, и прости нам прегрешения наши, совершенные нами делом, словом и мыслью, сознательно или бессознательно, и очисти нас от всякой нечистоты и плоти и духа. И дай нам с бодрствующим сердцем и трезвенною мыслью прожить всю ночь здешней земной жизни в ожидании наступления светлого и славного дня второго пришествия Единородного Твоего Сына, Господа Бога и Спасителя нашего Иисуса Христа, когда общий Судия придет со славою воздать каждому по делам его. Да найдет Он нас не лежащими и сонными, но бодрствующими и поднявшимися среди исполнения заповедей Его и готовыми войти с Ним в радость и божественный чертог славы Его, где непрестанные голоса торжествующих и невыразимая радость видящих несказанную красоту лица Твоего. Ибо Ты — истинный Свет, просвещающий и освящающий весь мир, и Тебя воспевает все творение во веки веков. Аминь.",
+   "ru": "Господи Вседержитель, Боже сил и всякой плоти, в вышних живущий и на смиренных призирающий, испытующий сердца и утробы и сокровенное человеческое ясно предвидящий, безначальный и присносущный Свет, у Которого нет изменения или тени перемены! Сам, бессмертный Царь, прими моления наши, которые в настоящее время, дерзая на множество щедрот Твоих, приносим Тебе из скверных уст, и прости нам прегрешения наши, совершенные нами делом, и словом, и мыслью, ведением или неведением, и очисти нас от всякой скверны плоти и духа. И даруй нам с бодрым сердцем и трезвенной мыслью пройти всю ночь настоящей жизни, ожидая пришествия светлого и явленного дня Единородного Твоего Сына, Господа и Бога и Спасителя нашего Иисуса Христа, в который со славою придет Судия всех, чтобы отдать каждому по делам его; да окажемся не падшими и обленившимися, но бодрствующими и воздвигнутыми к деланию, готовыми, и войдем вместе в радость и божественный чертог славы Его, где непрестанный глас празднующих и неизреченная сладость созерцающих неизреченную красоту лица Твоего. Ибо Ты — истинный Свет, просвещающий и освящающий всё, и Тебя воспевает всё творение во веки веков. Аминь.",
    "uk": "Господи Вседержителю, Боже сил і всякої плоті, що живеш на висотах і на смиренних зглядаєшся, що серця й утроби випробовуєш і потаємне людське наперед ясно знаєш, Безначальне і Присносуще Світло, в Якому немає зміни чи тіні переміни: Сам, Безсмертний Царю, прийми моління наші, які в цей час, сміливо покладаючись на безліч щедрот Твоїх, від скверних уст до Тебе підносимо, і прости нам прогрішення наші, вчинені нами ділом, і словом, і думкою, свідомо чи несвідомо; і очисти нас від усякої скверни плоті й духа. І дай нам з бадьорим серцем і тверезою думкою всю ніч теперішнього життя перейти, очікуючи пришестя світлого і явленого дня Єдинородного Твого Сина, Господа і Бога і Спаса нашого Іісуса Христа, коли зі славою прийде Суддя всіх, щоб віддати кожному за ділами його; щоб не впалими і лінивими, але бадьорими і піднятими до діла нас знайшов, готовими увійти в радість і божественний чертог слави Його, де невпинний голос тих, що святкують, і невимовна насолода тих, що споглядають невимовну красу лиця Твого. Бо Ти є істинне Світло, що просвічує і освячує все, і Тебе оспівує все створіння на віки віків. Амінь.",
    "en": "O Lord Almighty, God of the hosts and of all flesh, who dwellest on high and lookest down upon the humble, who searchest hearts and reins and clearly knowest beforehand the secrets of men; O Light without beginning and everlasting, with whom there is no variableness, neither shadow of turning: do Thou Thyself, O immortal King, receive our supplications which at this present time, trusting in the multitude of Thy compassions, we offer unto Thee from defiled lips; and forgive us our sins committed in deed, word and thought, knowingly or in ignorance, and cleanse us from all defilement of flesh and spirit. And grant us to pass through the whole night of this present life with watchful heart and sober mind, awaiting the coming of the bright and manifest day of Thine Only-begotten Son, our Lord and God and Saviour Jesus Christ, when the Judge of all shall come with glory to render to every man according to his deeds; that we may be found not fallen and slothful, but watchful and roused to work, and ready to enter with Him into the joy and the divine bridal chamber of His glory, where is the unceasing voice of them that keep festival, and the unspeakable delight of them that behold the ineffable beauty of Thy countenance. For Thou art the true Light, that enlightenest and sanctifiest all things, and all creation singeth of Thee unto ages of ages. Amen.",
    "fonte": {
     "cu": "Z1912 pp. 6–8",
-    "ru": "Z1912 pp. 6–8",
+    "ru": "propria (Z1912 parafraseava)",
     "en": "propria",
     "pt": "propria",
     "uk": "propria"
@@ -1341,7 +1348,7 @@
      "semana_luminosa"
     ]
    },
-   "nota": "Eslavo: Z1912 «кому́ждо ѿда́ти» = MS1900 p. 15 «комуждо отдати» (edições atuais: «воздати»). Cf. Tg 1,17; 2 Cor 7,1. RU: paráfrase de Z1912 mantida (dec. 36) ⚠: acrescenta palavras em itálico no original («бесплотных», «небесных», «второго пришествия»)."
+   "nota": "Eslavo: Z1912 «кому́ждо ѿда́ти» = MS1900 p. 15 «комуждо отдати» (edições atuais: «воздати»). Cf. Tg 1,17; 2 Cor 7,1. RU: tradução própria (dec. 57); Z1912 parafraseava e acrescentava palavras (em itálico no original: «бесплотных», «небесных», «второго пришествия»; também «не оставляет затененного места на Своем пути», «Да найдет Он нас»). «добро́ту» = beleza (acento conferido em Z1912 p. 7)."
   },
   {
    "id": "manha-43",
@@ -1363,16 +1370,16 @@
      "semana_luminosa"
     ]
    },
-   "nota": "⚠ Orações 6.ª, 7.ª e 8.ª: ausentes de MS1900 e Z1912 (edições leigas abreviadas); não foi localizada digitalização PD pré-1917 com elas (rsl.ru, Google Books e HathiTrust inacessíveis nesta sessão). Texto eslavo segundo a redação sinodal corrente, sem cópia de azbyka; acentuação segundo a prática sinodal. Conferir com uma Псалтирь следованная / Молитвословъ sinodal pré-1917."
+   "nota": "⚠ Orações 6.ª, 7.ª e 8.ª: ausentes de MS1900, Z1912 e T1907 (edições leigas abreviadas); não foi localizada digitalização PD pré-1917 com elas (K1817 não as tem no intervalo consultado; rsl.ru, Google Books e HathiTrust inacessíveis). Na QA 2a o eslavo foi alinhado com a redação do Molitvoslov atual da IOR (dec. 2), em grafia pré-reforma com acentos: a 7.ª substituída integralmente, a 6.ª e a 8.ª corrigidas em pormenor; traduções revistas sobre esse texto. Conferir com uma Псалтирь слѣдованная / Молитвословъ sinodal de 1880–1916."
   },
   {
    "id": "manha-44",
    "tipo": "oracao",
    "cu": "Тя благослови́мъ, вы́шній Бо́же и Го́споди ми́лости, творя́щаго при́сно съ на́ми вели́кая же и неизслѣ́дованная, сла́вная же и ужа́сная, и́хже нѣсть числа́, пода́вшаго намъ сонъ во упокое́ніе не́мощи на́шея и ослабле́ніе трудо́въ многотру́дныя пло́ти. Благодари́мъ Тя, я́ко не погуби́лъ еси́ насъ со беззако́ньми на́шими, но человѣколю́бствовалъ еси́ обы́чно, и въ нечая́ніи лежа́щія ны воздви́глъ еси́, во е́же славосло́вити держа́ву Твою́. Тѣ́мже мо́лимъ безмѣ́рную Твою́ бла́гость, просвѣти́ на́ша мы́сли, очеса́, и умъ нашъ отъ тя́жкаго сна лѣ́ности возста́ви; отве́рзи на́ша уста́ и испо́лни я Твоего́ хвале́нія, я́ко да возмо́жемъ непоколе́блемо пѣ́ти же и исповѣ́датися Тебѣ́, во всѣхъ и отъ всѣхъ сла́вимому Бо́гу, Безнача́льному Отцу́, со Единоро́днымъ Твои́мъ Сы́номъ и Всесвяты́мъ и Благи́мъ и Животворя́щимъ Твои́мъ Ду́хомъ, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
-   "pt": "Bendizemos-Te, ó Deus altíssimo e Senhor da misericórdia, que sempre fazes connosco coisas grandes e insondáveis, gloriosas e temíveis, sem número; que nos deste o sono para repouso da nossa fraqueza e alívio das fadigas da carne tão sobrecarregada. Damos-Te graças porque não nos fizeste perecer com as nossas iniquidades, mas, segundo o Teu costume, mostraste o Teu amor pelos homens e, jazendo nós sem esperança, nos levantaste para glorificarmos o Teu poder. Por isso imploramos a Tua bondade sem medida: ilumina os olhos do nosso entendimento e levanta as nossas mentes do pesado sono da preguiça; abre a nossa boca e enche-a do Teu louvor, para que possamos, inabalavelmente, cantar-Te e confessar-Te, a Ti, Deus glorificado em todos e por todos, Pai sem princípio, com o Teu Filho Unigénito e o Teu Espírito santíssimo, bom e vivificante, agora e sempre e pelos séculos dos séculos. Ámen.",
-   "ru": "Благословляем Тебя, Всевышний Боже и Господи милости, всегда творящий с нами великое и неисследимое, славное и страшное, чему нет числа, давший нам сон для успокоения нашей немощи и отдыха от трудов многотрудной плоти. Благодарим Тебя, что Ты не погубил нас с беззакониями нашими, но по обычному Своему человеколюбию воздвиг нас, лежавших в отчаянии, чтобы славословить державу Твою. Поэтому молим безмерную Твою благость: просвети очи нашего разума и пробуди наш ум от тяжкого сна лености; отверзи уста наши и исполни их Твоего хваления, чтобы мы могли непоколебимо воспевать и исповедовать Тебя, во всем и всеми прославляемого Бога, Безначального Отца, с Единородным Твоим Сыном и Всесвятым, Благим и Животворящим Твоим Духом, ныне, и всегда, и во веки веков. Аминь.",
-   "uk": "Благословляємо Тебе, всевишній Боже і Господи милості, що завжди твориш з нами велике і недослідиме, славне і страшне, чому немає числа, що дав нам сон на спочинок немочі нашої і на полегшення трудів багатотрудної плоті. Дякуємо Тобі, що не погубив нас з беззаконнями нашими, але, як завжди, виявив чоловіколюбство і нас, що лежали в безнадії, підняв, щоб ми славословили державу Твою. Тому молимо безмірну Твою благість: просвіти мислені очі наші і підніми наш ум від тяжкого сну лінощів; відкрий уста наші і наповни їх хвалою Твоєю, щоб ми могли непохитно співати і сповідувати Тебе, у всьому і від усіх прославлюваного Бога, Безначального Отця, з Єдинородним Твоїм Сином і Всесвятим, і Благим, і Животворчим Твоїм Духом, нині, і повсякчас, і на віки віків. Амінь.",
-   "en": "We bless Thee, O God most high and Lord of mercy, who ever workest with us things great and unsearchable, glorious and awesome, without number; who hast given us sleep for the rest of our infirmity and the relief of the labours of our much-toiling flesh. We thank Thee that Thou hast not destroyed us with our iniquities, but hast shown Thy wonted love for mankind, and hast raised us up as we lay in despair, that we might glorify Thy dominion. Wherefore we entreat Thy boundless goodness: enlighten the eyes of our understanding, and raise up our minds from the heavy sleep of sloth; open our mouths and fill them with Thy praise, that we may unwaveringly sing and confess Thee, the God glorified in all and by all, the Father without beginning, with Thine Only-begotten Son and Thine all-holy and good and life-giving Spirit, now and ever, and unto ages of ages. Amen.",
+   "pt": "Bendizemos-Te, ó Deus altíssimo e Senhor da misericórdia, que sempre fazes connosco coisas grandes e insondáveis, gloriosas e temíveis, sem número; que nos deste o sono para repouso da nossa fraqueza e alívio das fadigas da carne tão sobrecarregada. Damos-Te graças porque não nos fizeste perecer com as nossas iniquidades, mas, segundo o Teu costume, mostraste o Teu amor pelos homens e, jazendo nós sem esperança, nos levantaste para glorificarmos o Teu poder. Por isso imploramos a Tua bondade sem medida: ilumina os olhos do nosso entendimento e levanta a nossa mente do pesado sono da preguiça; abre a nossa boca e enche-a do Teu louvor, para que possamos, inabalavelmente, cantar-Te e confessar-Te, a Ti, Deus glorificado em todos e por todos, Pai sem princípio, com o Teu Filho Unigénito e o Teu Espírito santíssimo, bom e vivificante, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Благословляем Тебя, Всевышний Боже и Господи милости, всегда творящий с нами великое и неисследимое, славное и страшное, чему нет числа, давший нам сон для успокоения нашей немощи и отдыха от трудов многотрудной плоти. Благодарим Тебя, что Ты не погубил нас с беззакониями нашими, но по обычному Своему человеколюбию воздвиг нас, лежавших в отчаянии, чтобы славословить державу Твою. Поэтому молим безмерную Твою благость: просвети мысленные очи наши и ум наш от тяжкого сна лености воздвигни; отверзи уста наши и исполни их Твоего хваления, чтобы мы могли непоколебимо воспевать и исповедовать Тебя, во всем и всеми прославляемого Бога, Безначального Отца, с Единородным Твоим Сыном и Всесвятым, Благим и Животворящим Твоим Духом, ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Благословляємо Тебе, всевишній Боже і Господи милості, що завжди твориш з нами велике і недослідиме, славне і страшне, чому немає числа, що дав нам сон на спочинок немочі нашої і на полегшення трудів багатотрудної плоті. Дякуємо Тобі, що не погубив нас з беззаконнями нашими, але, як завжди, виявив чоловіколюбство і нас, що лежали в безнадії, підняв, щоб ми славословили державу Твою. Тому молимо безмірну Твою благість: просвіти мислені очі наші і ум наш від тяжкого сну лінощів підніми; відкрий уста наші і наповни їх хвалою Твоєю, щоб ми могли непохитно співати і сповідувати Тебе, у всьому і від усіх прославлюваного Бога, Безначального Отця, з Єдинородним Твоїм Сином і Всесвятим, і Благим, і Животворчим Твоїм Духом, нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "We bless Thee, O God most high and Lord of mercy, who ever workest with us things great and unsearchable, glorious and awesome, without number; who hast given us sleep for the rest of our infirmity and the relief of the labours of our much-toiling flesh. We thank Thee that Thou hast not destroyed us with our iniquities, but hast shown Thy wonted love for mankind, and hast raised us up as we lay in despair, that we might glorify Thy dominion. Wherefore we entreat Thy boundless goodness: enlighten the eyes of our understanding, and raise up our mind from the heavy sleep of sloth; open our mouths and fill them with Thy praise, that we may unwaveringly sing and confess Thee, the God glorified in all and by all, the Father without beginning, with Thine Only-begotten Son and Thine all-holy and good and life-giving Spirit, now and ever, and unto ages of ages. Amen.",
    "fonte": {
     "cu": "⚠ sem edição PD localizada (redação sinodal corrente)",
     "ru": "propria",
@@ -1385,7 +1392,7 @@
      "semana_luminosa"
     ]
    },
-   "nota": "⚠ Ver nota do título. Gramática do eslavo: «Тя… творя́щаго… дарова́вшаго» (acusativo concordando com «Тя»)."
+   "nota": "⚠ Sem edição PD (ver nota do título, manha-43). Eslavo alinhado na QA 2a com a redação sinodal corrente (dec. 2): «и́хже», «пода́вшаго», «ужа́сная», «мы́сли, очеса́, и умъ нашъ… возста́ви», «непоколе́блемо». Gramática: «Тя… творя́щаго… пода́вшаго» (acusativo concordando com «Тя»). «просвѣти́ на́ша мы́сли, очеса́» lê-se «os olhos do nosso pensamento» (cf. a forma antiga «мы́сленная о́чеса»); as quatro traduções seguem esta leitura ⚠."
   },
   {
    "id": "manha-45",
@@ -1412,10 +1419,10 @@
    "id": "manha-46",
    "tipo": "oracao",
    "cu": "Воспѣва́ю благода́ть Твою́, Влады́чице, молю́ Тя, умъ мой облагодати́. Ступа́ти пра́во мя наста́ви, путе́мъ Христо́выхъ за́повѣдей. Бдѣ́ти къ пѣ́сни укрѣпи́, уны́нія сонъ отгоня́ющи. Свя́зана плѣни́цами грѣхопаде́ній мольба́ми Твои́ми разрѣши́, Богоневѣ́сто. Въ нощи́ мя и во дни сохраня́й, борю́щихъ врагъ избавля́ющи мя. Жизнода́теля Бо́га ро́ждшая, умерщвле́на мя страстьми́ оживи́. Я́же Свѣтъ невече́рній ро́ждшая, ду́шу мою́ ослѣ́пшую просвѣти́. О, ди́вная Влады́чня пала́то, домъ Ду́ха Боже́ственна мене́ сотвори́. Врача́ ро́ждшая, уврачу́й души́ моея́ многолѣ́тныя стра́сти. Волну́ющася жите́йскою бу́рею, ко стези́ мя покая́нія напра́ви. Изба́ви мя огня́ вѣ́чнующаго, и че́рвія же зла́го, и та́ртара. Да мя не яви́ши бѣсо́мъ ра́дованіе, и́же мно́гимъ грѣхо́мъ пови́нника. Но́ва сотвори́ мя, обетша́вшаго нечу́вственными, Пренепоро́чная, согрѣше́ніи. Стра́нна му́ки вся́кія покажи́ мя, и всѣхъ Влады́ку умоли́. Небе́сная ми улучи́ти весе́лія, со всѣ́ми святы́ми, сподо́би. Пресвята́я Дѣ́во, услы́ши гласъ непотре́бнаго раба́ Твоего́. Струю́ дава́й мнѣ слеза́мъ, Пречи́стая, души́ моея́ скве́рну очища́ющи. Стена́нія отъ се́рдца приношу́ Ти непреста́нно, усе́рдствуй, Влады́чице. Моле́бную слу́жбу мою́ пріими́ и Бо́гу благоутро́бному принеси́. Превы́шшая А́нгелъ, мірска́го мя превы́шша слі́тія сотвори́. Свѣтоно́сная Сѣ́не Небе́сная, духо́вную благода́ть во мнѣ напра́ви. Ру́цѣ воздѣ́ю и устнѣ́ къ похвале́нію, оскверне́ны скве́рною, Всенепоро́чная. Душетлѣ́нныхъ мя па́костей изба́ви, Христа́ приле́жно умоля́ющи; Ему́же честь и поклоне́ніе подоба́етъ, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
-   "pt": "Canto a Tua graça, Soberana; rogo-Te: enche de graça a minha mente. Ensina-me a caminhar retamente pela via dos mandamentos de Cristo. Fortalece-me para vigiar no canto, afastando o desânimo do sono. A mim, cativo das quedas no pecado, liberta-me pelas Tuas orações, ó Esposa de Deus. De noite e de dia guarda-me, livrando-me dos que me combatem. Tu que deste à luz Deus, Dador da vida, vivifica-me, a mim que estou morto pelas paixões. Tu que deste à luz a Luz sem ocaso, ilumina a minha alma cega. Ó admirável palácio do Soberano, faz de mim morada do Espírito divino. Tu que deste à luz o Médico, cura as paixões de muitos anos da minha alma. A mim, agitado pelas ondas da vida, encaminha-me para as sendas do arrependimento. Livra-me do fogo eterno, do verme maligno e do tártaro. Não me tornes alegria para os demónios, a mim, culpado de muitos pecados. Renova-me, Imaculada, a mim que envelheci em pecados insensatos. Torna-me alheio a todos os tormentos e intercede junto do Soberano de todos. Faz-me digno de alcançar, com todos os santos, a alegria celeste. Santíssima Virgem, ouve a voz do Teu servo inútil. Dá-me, Puríssima, uma torrente de lágrimas que purifique a imundície da minha alma. Gemidos do coração Te ofereço sem cessar: sê solícita, Soberana. Recebe o meu serviço de oração e leva-o a Deus misericordioso. Tu que és mais excelsa que os Anjos, eleva-me acima da confusão do mundo. Ó tenda celeste portadora da luz, endireita em mim a graça espiritual. Levanto as mãos e os lábios, manchados de impureza, para Te louvar, ó Toda-Imaculada. Livra-me das ciladas que corrompem a alma, intercedendo assiduamente junto de Cristo, a Quem são devidas a honra e a adoração, agora e sempre e pelos séculos dos séculos. Ámen.",
-   "ru": "Воспеваю благодать Твою, Владычица, молю Тебя: исполни благодати ум мой. Научи меня ходить прямо путем заповедей Христовых. Укрепи меня бодрствовать в песнопении, отгоняя сонное уныние. Меня, плененного грехопадениями, освободи Твоими молитвами, Богоневеста. Ночью и днем сохрани меня, избавляя от борющих меня. Родившая Бога Жизнодавца, оживи меня, умерщвленного страстями. Родившая невечерний Свет, просвети мою ослепленную душу. О чудная Палата Владыки, сделай меня домом Божественного Духа. Родившая Врача, исцели многолетние страсти души моей. Меня, волнуемого житейским морем, направь на стези покаяния. Избавь меня от огня вечного, и червя злого, и тартара. Не сделай меня радостью для бесов, повинного во многих грехах. Обнови меня, обветшавшего от бесчувственных грехов, Пренепорочная. Сделай меня чуждым всяких мучений и умоли Владыку всех. Сподоби меня получить небесное веселие со всеми святыми. Пресвятая Дева, услышь голос непотребного раба Твоего. Подай мне поток слез, Пречистая, очищающий скверну души моей. Стенания от сердца приношу Тебе непрестанно: будь усердна ко мне, Владычица. Прими мое молитвенное служение и принеси его Богу милосердному. Превысшая Ангелов, вознеси меня превыше мирской суеты. Светоносная Скиния Небесная, исправь во мне духовную благодать. Руки воздеваю и уста, оскверненные скверною, к хвале Тебе, Всенепорочная. Избавь меня от душетленных пакостей, усердно умоляя Христа, Которому подобает честь и поклонение ныне, и всегда, и во веки веков. Аминь.",
-   "uk": "Оспівую благодать Твою, Владичице, молю Тебе: ум мій благодаттю наповни. Ступати правильно навчи мене шляхом Христових заповідей. Підкріпи мене чувати в пісні, відганяючи сонну зневіру. Мене, полоненого гріхопадіннями, визволи Твоїми молитвами, Богоневісто. Вночі і вдень бережи мене, визволяючи від тих, що борють мене. Ти, що породила Бога Життєдавця, оживи мене, умертвленого пристрастями. Ти, що породила невечірнє Світло, просвіти засліплену душу мою. О дивна Палато Владики, домом Божественного Духа мене створи. Ти, що породила Лікаря, зціли багатолітні пристрасті душі моєї. Мене, збурюваного хвилями життя, на стежки покаяння направ. Визволи мене від вогню вічного, і черв’яка злого, і тартару. Не покажи мене радістю для бісів, мене, винного в багатьох гріхах. Нового мене створи, що постарів від безчуттєвих гріхів, Пренепорочна. Чужим усяких мук покажи мене і Владику всіх умоли. Небесну радість зі всіма святими осягнути сподоби мене. Пресвята Діво, почуй голос непотрібного раба Твого. Потік сліз подай мені, Пречиста, що очищає скверну душі моєї. Стогони від серця приношу Тобі невпинно: подбай, Владичице. Молитовне служіння моє прийми і Богові милосердному принеси. Вища від Ангелів, понад світську метушню мене підніми. Світлоносна Скиніє Небесна, духовну благодать у мені виправ. Руки підношу і уста, осквернені скверною, на похвалу Тобі, Всенепорочна. Від душогубних підступів визволи мене, Христа старанно благаючи, Якому належить честь і поклоніння, нині, і повсякчас, і на віки віків. Амінь.",
-   "en": "I sing of thy grace, O Lady; I pray thee, fill my mind with grace. Teach me to walk aright in the way of Christ's commandments. Strengthen me to keep vigil in song, driving away the despondency of sleep. Set me free by thy prayers, O Bride of God, for I am held captive by the falls of sin. Keep me by night and by day, delivering me from them that war against me. Thou who didst give birth to God the Giver of life, give life to me who am slain by the passions. Thou who didst give birth to the unwaning Light, enlighten my blinded soul. O wondrous Palace of the Master, make me a house of the divine Spirit. Thou who didst give birth to the Physician, heal the passions of my soul of many years. Guide me, tossed by the storms of life, to the paths of repentance. Deliver me from the eternal fire, and the evil worm, and Tartarus. Let me not be a joy to the demons, guilty as I am of many sins. Make me new, O most immaculate one, for I have grown old through senseless sins. Show me a stranger to all torments, and entreat the Master of all. Vouchsafe me to obtain the joy of heaven with all the saints. O most holy Virgin, hear the voice of thine unprofitable servant. Grant me a stream of tears, O most pure one, to cleanse the defilement of my soul. I bring thee groanings from my heart without ceasing: be zealous for me, O Lady. Accept my service of prayer and bring it to God the compassionate. O thou who art higher than the Angels, raise me above the confusion of the world. O light-bearing heavenly Tabernacle, direct aright the spiritual grace within me. I lift up my hands and my lips, defiled with impurity, to praise thee, O all-immaculate one. Deliver me from the snares that corrupt the soul, entreating Christ earnestly; to Him belong honour and worship, now and ever, and unto ages of ages. Amen.",
+   "pt": "Canto a Tua graça, Soberana; rogo-Te: enche de graça a minha mente. Ensina-me a caminhar retamente pela via dos mandamentos de Cristo. Fortalece-me para vigiar no canto, afastando o sono do desânimo. A mim, preso pelas cadeias das quedas no pecado, desata-me pelas Tuas súplicas, ó Esposa de Deus. De noite e de dia guarda-me, livrando-me dos inimigos que me combatem. Tu que deste à luz Deus, Dador da vida, vivifica-me, a mim que estou morto pelas paixões. Tu que deste à luz a Luz sem ocaso, ilumina a minha alma que cegou. Ó admirável palácio do Soberano, faz de mim morada do Espírito divino. Tu que deste à luz o Médico, cura as paixões de muitos anos da minha alma. A mim, agitado pela tempestade da vida, encaminha-me para a senda do arrependimento. Livra-me do fogo eterno, do verme maligno e do tártaro. Não me mostres como alegria para os demónios, a mim, culpado de muitos pecados. Renova-me, Imaculada, a mim que envelheci em pecados insensatos. Mostra-me alheio a todo o tormento e intercede junto do Soberano de todos. Faz-me digno de alcançar, com todos os santos, as alegrias celestes. Santíssima Virgem, ouve a voz do Teu servo inútil. Dá-me, Puríssima, uma torrente de lágrimas que purifique a imundície da minha alma. Gemidos do coração Te ofereço sem cessar: sê solícita, Soberana. Recebe o meu serviço de súplica e leva-o a Deus misericordioso. Tu que és mais excelsa que os Anjos, torna-me superior à confusão do mundo. Ó tenda celeste portadora da luz, dirige em mim a graça espiritual. Levanto as mãos e os lábios, manchados de impureza, para Te louvar, ó Toda-Imaculada. Livra-me das ciladas que corrompem a alma, intercedendo assiduamente junto de Cristo, a Quem são devidas a honra e a adoração, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Воспеваю благодать Твою, Владычица, молю Тебя: исполни благодати ум мой. Научи меня ходить прямо путем заповедей Христовых. Укрепи меня бодрствовать для песнопения, отгоняя сон уныния. Меня, связанного узами грехопадений, разреши Твоими мольбами, Богоневеста. Ночью и днем храни меня, избавляя меня от борющих меня врагов. Родившая Бога Жизнодателя, оживи меня, умерщвленного страстями. Родившая невечерний Свет, просвети ослепшую душу мою. О дивная Палата Владыки, сделай меня домом Божественного Духа. Родившая Врача, уврачуй многолетние страсти души моей. Меня, волнуемого житейской бурей, направь на стезю покаяния. Избавь меня от огня вечного, и червя злого, и тартара. Не яви меня радостью для бесов, повинного во многих грехах. Обнови меня, обветшавшего от бесчувственных грехов, Пренепорочная. Яви меня чуждым всякой муки и умоли Владыку всех. Сподоби меня достигнуть небесных радостей со всеми святыми. Пресвятая Дева, услышь голос непотребного раба Твоего. Подай мне поток слез, Пречистая, очищающий скверну души моей. Стенания от сердца приношу Тебе непрестанно: прояви усердие, Владычица. Прими мое молебное служение и принеси его Богу милосердному. Превысшая Ангелов, сделай меня выше мирского смешения. Светоносная Скиния Небесная, направь во мне духовную благодать. Руки воздеваю и уста, оскверненные скверною, к хвале Тебе, Всенепорочная. Избавь меня от душетленных пакостей, усердно умоляя Христа, Которому подобает честь и поклонение ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Оспівую благодать Твою, Владичице, молю Тебе: ум мій благодаттю наповни. Ступати правильно навчи мене шляхом Христових заповідей. Підкріпи мене чувати для пісні, відганяючи сон зневіри. Мене, зв’язаного путами гріхопадінь, розріши Твоїми благаннями, Богоневісто. Вночі і вдень бережи мене, визволяючи мене від ворогів, що борють мене. Ти, що породила Бога Життєдавця, оживи мене, умертвленого пристрастями. Ти, що породила невечірнє Світло, просвіти осліплу душу мою. О дивна Палато Владики, домом Божественного Духа мене створи. Ти, що породила Лікаря, зціли багатолітні пристрасті душі моєї. Мене, збурюваного життєвою бурею, на стежку покаяння направ. Визволи мене від вогню вічного, і черв’яка злого, і тартару. Не покажи мене радістю для бісів, мене, винного в багатьох гріхах. Нового мене створи, що постарів від безчуттєвих гріхів, Пренепорочна. Чужим усякої муки покажи мене і Владику всіх умоли. Небесні радощі зі всіма святими осягнути сподоби мене. Пресвята Діво, почуй голос непотрібного раба Твого. Потік сліз подай мені, Пречиста, що очищає скверну душі моєї. Стогони від серця приношу Тобі невпинно: подбай, Владичице. Молебне служіння моє прийми і Богові милосердному принеси. Вища від Ангелів, вищим від світської метушні мене створи. Світлоносна Скиніє Небесна, духовну благодать у мені направ. Руки підношу і уста, осквернені скверною, на похвалу Тобі, Всенепорочна. Від душогубних підступів визволи мене, Христа старанно благаючи, Якому належить честь і поклоніння, нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "I sing of thy grace, O Lady; I pray thee, fill my mind with grace. Teach me to walk aright in the way of Christ's commandments. Strengthen me to keep vigil for song, driving away the sleep of despondency. Loose me by thy supplications, O Bride of God, for I am bound with the fetters of my falls into sin. Keep me by night and by day, delivering me from the enemies that war against me. Thou who didst give birth to God the Giver of life, give life to me who am slain by the passions. Thou who didst give birth to the unwaning Light, enlighten my soul that hath grown blind. O wondrous Palace of the Master, make me a house of the divine Spirit. Thou who didst give birth to the Physician, heal the passions of my soul of many years. Guide me, tossed by the storm of life, to the path of repentance. Deliver me from the everlasting fire, and the evil worm, and Tartarus. Show me not a joy to the demons, guilty as I am of many sins. Make me new, O most immaculate one, for I have grown old through senseless sins. Show me a stranger to every torment, and entreat the Master of all. Vouchsafe me to obtain the joys of heaven with all the saints. O most holy Virgin, hear the voice of thine unprofitable servant. Grant me a stream of tears, O most pure one, to cleanse the defilement of my soul. I bring thee groanings from my heart without ceasing: be zealous, O Lady. Accept my service of supplication and bring it to God the compassionate. O thou who art higher than the Angels, make me higher than the confusion of the world. O light-bearing heavenly Tabernacle, direct the spiritual grace within me. I lift up my hands and my lips, defiled with impurity, to praise thee, O all-immaculate one. Deliver me from the snares that corrupt the soul, entreating Christ earnestly; to Him belong honour and worship, now and ever, and unto ages of ages. Amen.",
    "fonte": {
     "cu": "⚠ sem edição PD localizada (redação sinodal corrente)",
     "ru": "propria",
@@ -1428,7 +1435,7 @@
      "semana_luminosa"
     ]
    },
-   "nota": "⚠ Ver nota da oração 6.ª. «Сѣ́не» = σκηνή (tenda/tabernáculo). Feminino: «грѣшныя рабы́ Твоея́», «Tua serva inútil» etc."
+   "nota": "⚠ Sem edição PD (ver nota do título, manha-43). A redação eslava anterior era reconstruída e não correspondia à sinodal (≈25 divergências); substituída na QA 2a pela redação do Molitvoslov atual da IOR (dec. 2) em grafia pré-reforma, e as quatro traduções refeitas sobre ela («Бдѣ́ти къ пѣ́сни… уны́нія сонъ», «Свя́зана плѣни́цами… разрѣши́», «борю́щихъ врагъ» = gen. pl. «dos inimigos que combatem», «жите́йскою бу́рею», «Небе́сная… весе́лія», «Моле́бную слу́жбу», «напра́ви», «превы́шша слі́тія сотвори́»). «Сѣ́не» = σκηνή (tenda/tabernáculo). Feminino: «непотре́бныя рабы́ Твоея́», «Tua serva inútil» etc."
   },
   {
    "id": "manha-47",
@@ -1471,7 +1478,7 @@
      "semana_luminosa"
     ]
    },
-   "nota": "⚠ Ver nota da oração 6.ª. Jo 11,26; Sl 21,11 (LXX). Atribuída a S. Antíoco em várias edições ⚠ não verificado."
+   "nota": "⚠ Sem edição PD (ver nota do título, manha-43). Eslavo alinhado na QA 2a com a redação sinodal corrente: «безъ лѣ́ности то́щно» (то́щно = com diligência, zelosamente; antes «безлѣ́ностно тща́тельно») e grafia «отню́дъ»; as traduções já diziam «sem preguiça e com diligência». Jo 11,26; Sl 21,11 (LXX). Atribuída a S. Antíoco em várias edições ⚠ não verificado."
   },
   {
    "id": "manha-49",
@@ -1500,12 +1507,12 @@
    "tipo": "oracao",
    "cu": "Святы́й А́нгеле, предстоя́й окая́ннѣй мое́й души́ и стра́стнѣй мое́й жи́зни, не оста́ви мене́ грѣ́шнаго, ниже́ отступи́ отъ мене́ за невоздержа́ніе мое́; не даждь мѣ́ста лука́вому де́мону облада́ти мно́ю наси́льствомъ сме́ртнаго сего́ тѣлесе́; укрѣпи́ бѣ́дствующую и ху́дую мою́ ру́ку и наста́ви мя на путь спасе́нія. Ей, святы́й А́нгеле Бо́жій, храни́телю и покрови́телю окая́нныя моея́ души́ и тѣ́ла, вся мнѣ прости́, ели́кими тя оскорби́хъ во вся дни живота́ моего́, и а́ще что согрѣши́хъ въ преше́дшую нощь сію́, покры́й мя въ настоя́щій день, и сохрани́ мя отъ вся́каго искуше́нія проти́внаго, да ни въ ко́емъ грѣсѣ́ прогнѣ́ваю Бо́га; и моли́ся за мя ко Го́споду, да утверди́тъ мя въ стра́сѣ Свое́мъ и досто́йна пока́жетъ мя раба́ Своея́ бла́гости. Ами́нь.",
    "pt": "Santo Anjo, que assistes à minha alma miserável e à minha vida apaixonada, não me abandones a mim, pecador, nem te afastes de mim por causa da minha intemperança; não dês lugar ao demónio maligno para me dominar pela violência deste corpo mortal; fortalece a minha mão desventurada e fraca e guia-me no caminho da salvação. Sim, santo Anjo de Deus, guardião e protetor da minha alma miserável e do meu corpo, perdoa-me tudo aquilo com que te ofendi em todos os dias da minha vida; e, se pequei em alguma coisa nesta noite que passou, protege-me no dia presente e guarda-me de toda a tentação do adversário, para que em nenhum pecado irrite a Deus; e roga por mim ao Senhor, para que me firme no Seu temor e me mostre servo digno da Sua bondade. Ámen.",
-   "ru": "Святой Ангел, поставленный блюсти мою бедную душу и несчастную жизнь, не оставь меня, грешного, и не отступи от меня за невоздержность мою; не дай возможности злому демону подчинить меня себе преобладанием этого смертного тела; возьми крепко несчастную и опустившуюся руку мою и выведи меня на путь спасения. О святой Ангел Божий, хранитель и покровитель бедной моей души и тела! Прости мне все, чем я оскорбил тебя во все дни моей жизни, и, если я чем согрешил в прошедшую ночь, защити меня в настоящий день; и сохрани меня от всякого искушения вражеского, чтобы мне не прогневать Бога никаким грехом; и молись за меня Господу, чтобы Он утвердил меня в страхе Своем и соделал меня рабом, достойным Своей милости. Аминь.",
+   "ru": "Святой Ангел, предстоящий окаянной моей душе и страстной моей жизни, не оставь меня, грешного, и не отступи от меня за невоздержание мое; не дай места лукавому демону овладеть мною через насилие этого смертного тела; укрепи бедствующую и немощную мою руку и наставь меня на путь спасения. Да, святой Ангел Божий, хранитель и покровитель окаянной моей души и тела, прости мне всё, чем я оскорбил тебя во все дни жизни моей, и если чем согрешил в прошедшую эту ночь, покрой меня в настоящий день и сохрани меня от всякого искушения вражеского, чтобы ни в каком грехе мне не прогневать Бога; и молись за меня Господу, чтобы Он утвердил меня в страхе Своем и показал меня достойным рабом Своей благости. Аминь.",
    "uk": "Святий Ангеле, що предстоїш перед окаянною моєю душею і пристрасним моїм життям, не залиш мене, грішного, і не відступи від мене за нестриманість мою; не дай місця лукавому демонові заволодіти мною насильством цього смертного тіла; укріпи бідну і немічну мою руку і настав мене на путь спасіння. Так, святий Ангеле Божий, хранителю і покровителю окаянної моєї душі і тіла, прости мені все, чим я тебе образив у всі дні життя мого, і якщо в чому згрішив я цієї минулої ночі, покрий мене в теперішній день і збережи мене від усякої спокуси ворожої, щоб ні в якому гріху я не прогнівив Бога; і молися за мене до Господа, щоб утвердив мене в страху Своєму і показав мене гідним рабом Своєї благості. Амінь.",
    "en": "O holy Angel, who standest by my wretched soul and my passionate life, forsake me not, a sinner, neither depart from me because of my intemperance; give no place to the evil demon to master me through the violence of this mortal body; strengthen my poor and feeble hand, and guide me into the way of salvation. Yea, O holy Angel of God, guardian and protector of my wretched soul and body, forgive me all wherein I have offended thee all the days of my life, and if I have sinned in anything this past night, protect me in this present day, and keep me from every temptation of the adversary, that I may not anger God by any sin; and pray to the Lord for me, that He may establish me in His fear and show me a servant worthy of His goodness. Amen.",
    "fonte": {
     "cu": "Z1912 p. 8",
-    "ru": "Z1912 p. 8",
+    "ru": "propria (Z1912 parafraseava)",
     "en": "propria",
     "pt": "propria",
     "uk": "propria"
@@ -1515,7 +1522,7 @@
      "semana_luminosa"
     ]
    },
-   "nota": "RU: paráfrase de Z1912 (p. ex. «поставленный блюсти» por «предстоя́й») mantida (dec. 36) ⚠. Feminino: «грѣ́шную», «досто́йну… рабу́»."
+   "nota": "RU: tradução própria (dec. 57); Z1912 parafraseava («поставленный блюсти» por «предстоя́й», «возьми крепко несчастную и опустившуюся руку мою»). Feminino: «грѣ́шную», «досто́йну… рабу́»."
   },
   {
    "id": "manha-51",
@@ -1630,12 +1637,12 @@
    "tipo": "oracao",
    "cu": "Богоро́дице Дѣ́во, ра́дуйся, Благода́тная Марі́е, Госпо́дь съ Тобо́ю: благослове́на Ты въ жена́хъ, и благослове́нъ плодъ чре́ва Твоего́, я́ко Спа́са родила́ еси́ душъ на́шихъ.",
    "pt": "Virgem Mãe de Deus, alegra-Te, Maria cheia de graça, o Senhor é Contigo; bendita és Tu entre as mulheres, e bendito é o fruto do Teu ventre, porque deste à luz o Salvador das nossas almas.",
-   "ru": "Богородица Дева, радуйся, благодатная Мария: Господь с Тобою; благословенна Ты между женщинами, и благословен Плод Твой, ибо Ты родила Спасителя душ наших.",
+   "ru": "Богородица Дева, радуйся, благодатная Мария: Господь с Тобою; благословенна Ты между женщинами, и благословен плод чрева Твоего, ибо Ты родила Спасителя душ наших.",
    "uk": "Богородице Діво, радуйся, благодатна Маріє, Господь з Тобою; благословенна Ти між жінками, і благословенний плід лона Твого, бо Ти породила Спаса душ наших.",
    "en": "Rejoice, O Virgin Theotokos, Mary full of grace, the Lord is with thee; blessed art thou among women, and blessed is the fruit of thy womb, for thou hast borne the Saviour of our souls.",
    "fonte": {
     "cu": "Z1912 p. 9",
-    "ru": "Z1912 p. 9",
+    "ru": "Z1912 p. 9 (adaptado)",
     "en": "H1906 p. 13",
     "pt": "propria",
     "uk": "propria"
@@ -1645,7 +1652,7 @@
      "semana_luminosa"
     ]
    },
-   "nota": "EN: Hapgood «Hail, O Virgin Birth-giver of the Lord!» → «Rejoice, O Virgin Theotokos» (Богородице = Θεοτόκε). PT: «Богородица» = «Mãe de Deus» (glossário, doc. 04 §7). Muitas edições indicam «трижды»; Z1912 e MS1900 não."
+   "nota": "EN: Hapgood «Hail, O Virgin Birth-giver of the Lord!» → «Rejoice, O Virgin Theotokos» (Богородице = Θεοτόκε). PT: «Богородица» = «Mãe de Deus» (glossário, doc. 04 §7). Muitas edições indicam «трижды»; Z1912 e MS1900 não. RU: Z1912 adaptado (dec. 57): «Плод Твой» → «плод чрева Твоего» (omissão restituída)."
   },
   {
    "id": "manha-57",
@@ -1847,12 +1854,12 @@
    "tipo": "oracao",
    "cu": "Помяни́, Го́споди Іису́се Христе́ Бо́же нашъ, ми́лости и щедро́ты Твоя́ отъ вѣ́ка су́щія, и́хже ра́ди и вочеловѣ́чился еси́, и распя́тіе и смерть, спасе́нія ра́ди пра́во въ Тя вѣ́рующихъ, претерпѣ́ти изво́лилъ еси́; и воскре́съ изъ ме́ртвыхъ, возне́слся еси́ на небеса́ и сѣди́ши одесну́ю Бо́га Отца́, и призира́еши на смире́нныя мольбы́ всѣмъ се́рдцемъ призыва́ющихъ Тя: приклони́ у́хо Твое́ и услы́ши смире́нное моле́ніе мене́ непотре́бнаго раба́ Твоего́, въ воню́ благоуха́нія духо́внаго, Тебѣ́ за вся лю́ди Твоя́ принося́щаго. И въ пе́рвыхъ помяни́ Це́рковь Твою́ Святу́ю, Собо́рную и Апо́стольскую, ю́же снабдѣ́лъ еси́ честно́ю Твое́ю Кро́вію, и утверди́, и укрѣпи́, и разшири́, умно́жи, умири́ и непребори́му а́довыми враты́ во вѣ́ки сохрани́; раздира́нія церкве́й утиши́, шата́нія язы́ческая угаси́, и ересе́й воста́нія ско́ро разори́ и искорени́, и въ ничто́же си́лою Свята́го Твоего́ Ду́ха обрати́.",
    "pt": "Lembra-Te, Senhor Jesus Cristo, nosso Deus, das Tuas misericórdias e compaixões que existem desde sempre, pelas quais Te fizeste homem e Te dignaste sofrer a crucifixão e a morte pela salvação dos que creem retamente em Ti; e, ressuscitado dos mortos, subiste aos céus e estás sentado à direita de Deus Pai, e olhas para as súplicas humildes dos que Te invocam de todo o coração: inclina o Teu ouvido e escuta a humilde súplica de mim, Teu servo inútil, que Ta ofereço como perfume de fragrância espiritual por todo o Teu povo. E, em primeiro lugar, lembra-Te da Tua Igreja Santa, Católica e Apostólica, que adquiriste com o Teu precioso Sangue; firma-a, fortalece-a, dilata-a, multiplica-a, pacifica-a e guarda-a para sempre inexpugnável às portas do inferno; aplaca as divisões das Igrejas, extingue os tumultos dos pagãos, destrói depressa e extirpa o levantamento das heresias e, pelo poder do Teu Espírito Santo, reduz-as a nada.",
-   "ru": "Вспомни, Господи Иисусе Христе, Боже наш, извечные милости и проявления жалости Твои, по которым Ты и вочеловечился и изволил претерпеть распятие и смерть для спасения право в Тебя верующих. И воскрес Ты из мертвых, вознесся на небеса и седишь по правую руку Бога Отца, с любовью склоняясь к смиренным молитвам всем сердцем Тебя призывающих. Склони ухо Твое и услышь смиренную молитву мою, недостойного раба Твоего, приносящего ее Тебе, как благоуханную духовную жертву, за всех людей Твоих. И прежде всего вспомни Церковь Твою Святую, Соборную и Апостольскую, которую Ты искупил драгоценною Кровью Твоею, и утверди ее, и укрепи, и расширь, и увеличь, умиротвори и сохрани навеки непобедимою силами ада; несогласия церквей утиши, языческие гонения угаси, и возникновение ересей быстро расстрой и искорени, и силою Святого Твоего Духа в ничто обрати.",
+   "ru": "Помяни, Господи Иисусе Христе Боже наш, милости и щедроты Твои, извечно сущие, ради которых Ты и вочеловечился, и распятие и смерть ради спасения право в Тебя верующих претерпеть изволил; и, воскреснув из мертвых, вознесся на небеса и сидишь одесную Бога Отца, и призираешь на смиренные мольбы всем сердцем призывающих Тебя: приклони ухо Твое и услышь смиренное моление меня, непотребного раба Твоего, в воню благоухания духовного приносящего его Тебе за всех людей Твоих. И прежде всего помяни Церковь Твою Святую, Соборную и Апостольскую, которую Ты приобрел честною Твоею Кровью, и утверди, и укрепи, и расширь, умножь, умиротвори и непреоборимой вратами адовыми вовеки сохрани; раздоры церквей утиши, языческие мятежи угаси, и восстания ересей скоро разрушь и искорени, и в ничто силою Святого Твоего Духа обрати.",
    "uk": "Пом’яни, Господи Іісусе Христе, Боже наш, милості і щедроти Твої, що споконвіку є, заради яких Ти і вочоловічився, і розп’яття та смерть заради спасіння тих, що правильно в Тебе вірують, зволив перетерпіти; і, воскреснувши з мертвих, вознісся на небеса і сидиш праворуч Бога Отця, і зглядаєшся на смиренні моління тих, що всім серцем Тебе призивають: прихили вухо Твоє і почуй смиренне моління мене, непотрібного раба Твого, що приношу його Тобі як пахощі духовного благоухання за всіх людей Твоїх. І насамперед пом’яни Церкву Твою Святу, Соборну і Апостольську, яку Ти придбав чесною Твоєю Кров’ю, і утверди, і укріпи, і розшир, і помнож, і умир, і непоборною для воріт адових навіки збережи; розколи церков утихомир, заколоти поганські погаси, і повстання єресей швидко зруйнуй і викорени, і силою Святого Твого Духа в ніщо оберни.",
    "en": "Remember, O Lord Jesus Christ our God, Thy mercies and compassions which are from everlasting, for the sake of which Thou didst become man and didst deign to endure crucifixion and death for the salvation of those who rightly believe in Thee; and having risen from the dead, Thou didst ascend into heaven and sittest at the right hand of God the Father, and lookest upon the humble entreaties of those who call upon Thee with all their heart: incline Thine ear and hear the humble supplication of me, Thine unprofitable servant, which I offer unto Thee as an odour of spiritual fragrance for all Thy people. And first of all remember Thy Holy, Catholic and Apostolic Church, which Thou hast purchased with Thy precious Blood; establish, strengthen, enlarge and increase her, keep her in peace and preserve her for ever unconquerable by the gates of hell; still the dissensions of the Churches, quench the raging of the heathen, and speedily destroy and uproot the uprisings of heresies, and bring them to nought by the power of Thy Holy Spirit.",
    "fonte": {
     "cu": "Z1912 pp. 9–10",
-    "ru": "Z1912 pp. 9–10",
+    "ru": "propria (Z1912 parafraseava)",
     "en": "propria",
     "pt": "propria",
     "uk": "propria"
@@ -1862,7 +1869,7 @@
      "semana_luminosa"
     ]
    },
-   "nota": "«[Покло́нъ]» no fim. «снабдѣ́лъ еси́» = περιεποιήσω (adquiriste, At 20,28); Z1912 RU «искупил». Lc 1,51; Mt 16,18."
+   "nota": "«[Покло́нъ]» no fim. «снабдѣ́лъ еси́» = περιεποιήσω (adquiriste, At 20,28); RU: tradução própria (dec. 57); Z1912 parafraseava («с любовью склоняясь», «как благоуханную духовную жертву», «языческие гонения», «искупил»). Lc 1,51; Mt 16,18."
   },
   {
    "id": "manha-67",
@@ -2177,12 +2184,12 @@
    "tipo": "oracao",
    "cu": "Досто́йно есть я́ко вои́стинну блажи́ти Тя Богоро́дицу, Присноблаже́нную и Пренепоро́чную и Ма́терь Бо́га на́шего. Честнѣ́йшую Херуви́мъ и сла́внѣйшую безъ сравне́нія Серафи́мъ, безъ истлѣ́нія Бо́га Сло́ва ро́ждшую, су́щую Богоро́дицу Тя велича́емъ.",
    "pt": "É verdadeiramente digno bendizer-Te, ó Mãe de Deus, sempre bem-aventurada e toda imaculada, Mãe do nosso Deus. Mais venerável que os Querubins e incomparavelmente mais gloriosa que os Serafins, que sem corrupção deste à luz Deus Verbo, verdadeira Mãe de Deus, nós Te engrandecemos.",
-   "ru": "Поистине правильно прославлять Тебя, как Богородицу, всегда блаженную и совершенно непорочную, и Матерь нашего Бога. Мы величаем Тебя, как истинную Богородицу, родившую без болезни Бога-Слово, достойную большей почести, чем Херувимы, и несравненно славнейшую, нежели Серафимы.",
+   "ru": "Достойно поистине ублажать Тебя, Богородицу, присноблаженную и пренепорочную и Матерь Бога нашего. Честнейшую Херувимов и несравненно славнейшую Серафимов, нетленно родившую Бога Слово, истинную Богородицу — Тебя величаем.",
    "uk": "Достойно є воістину блажити Тебе, Богородицю, Присноблаженну і Пренепорочну, і Матір Бога нашого. Чеснішу від Херувимів і незрівнянно славнішу від Серафимів, що без зотління Бога Слово породила, сущу Богородицю, Тебе величаємо.",
    "en": "It is truly meet to bless thee, O Theotokos, ever-blessed and all-immaculate, and the Mother of our God. More honourable than the Cherubim, and beyond compare more glorious than the Seraphim, thou who without corruption gavest birth to God the Word, true Theotokos, we magnify thee.",
    "fonte": {
     "cu": "Z1912 pp. 12–13",
-    "ru": "Z1912 pp. 12–13",
+    "ru": "propria (Z1912 parafraseava)",
     "en": "H1906 p. 107",
     "pt": "propria",
     "uk": "propria"
@@ -2193,7 +2200,7 @@
      "pascoa_ascensao"
     ]
    },
-   "nota": "De Páscoa à Ascensão substitui-se por «Ангелъ вопія́ше» + «Свѣти́ся» (doc. 03 §1.4). RU: Z1912 traduz «без истления» por «без болезни» (sem dor), interpretação patrística corrente; mantido. ⚠ O grego ἀδιαφθόρως é literalmente «sem corrupção» (PT/EN/UK). EN: Hapgood «Meet is it, in truth» reordenado; «Birth-giver of God» → «Theotokos»."
+   "nota": "De Páscoa à Ascensão substitui-se por «Ангелъ вопія́ше» + «Свѣти́ся» (doc. 03 §1.4). RU: tradução própria (dec. 57); Z1912 parafraseava (ordem invertida, «как истинную Богородицу», «достойную большей почести») e traduzia «безъ истлѣ́нія» por «без болезни»; agora «нетленно» (ἀδιαφθόρως), como PT/EN/UK. EN: Hapgood «Meet is it, in truth» reordenado; «Birth-giver of God» → «Theotokos»."
   },
   {
    "id": "manha-82",

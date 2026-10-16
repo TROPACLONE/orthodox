@@ -101,12 +101,12 @@
    "tipo": "oracao",
    "cu": "О́тче нашъ, И́же еси́ на небесѣ́хъ! Да святи́тся и́мя Твое́, да пріи́детъ Ца́рствіе Твое́, да бу́детъ во́ля Твоя́, я́ко на небеси́ и на земли́. Хлѣбъ нашъ насу́щный даждь намъ днесь; и оста́ви намъ до́лги на́ша, я́коже и мы оставля́емъ должнико́мъ на́шимъ; и не введи́ насъ во искуше́ніе, но изба́ви насъ отъ лука́ваго.",
    "pt": "Pai nosso, que estás nos céus, santificado seja o Teu nome; venha o Teu Reino; seja feita a Tua vontade, como no céu, assim na terra. O pão nosso de cada dia dá-nos hoje; e perdoa-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores; e não nos conduzas à tentação, mas livra-nos do maligno.",
-   "ru": "Отец наш Небесный! Да прославляется святость имени Твоего; да настанет Царство Твое; да исполняется воля Твоя так же и на земле, как на небе. Хлеб, необходимый для нашего существования, дай нам сегодня; прости нам вины наши так же, как и мы прощаем виноватым перед нами; и не допусти нас впасть в соблазн, но избавь нас от зла.",
+   "ru": "Отче наш, сущий на небесах! Да святится имя Твое, да придет Царствие Твое, да будет воля Твоя, как на небе, так и на земле. Хлеб наш насущный дай нам сегодня; и прости нам долги наши, как и мы прощаем должникам нашим; и не введи нас в искушение, но избавь нас от лукавого.",
    "uk": "Отче наш, що єси на небесах! Нехай святиться ім’я Твоє, нехай прийде Царство Твоє, нехай буде воля Твоя, як на небі, так і на землі. Хліб наш насущний дай нам сьогодні; і прости нам борги наші, як і ми прощаємо боржникам нашим; і не введи нас у спокусу, але визволи нас від лукавого.",
    "en": "Our Father, who art in heaven, hallowed be Thy Name. Thy kingdom come. Thy will be done, as in heaven, so on earth. Give us this day our daily bread. And forgive us our debts, as we forgive our debtors. And lead us not into temptation, but deliver us from the evil one.",
    "fonte": {
     "cu": "Z1912 p. 2",
-    "ru": "Z1912 p. 2",
+    "ru": "propria (Z1912 parafraseava)",
     "en": "H1906 p. 13",
     "pt": "propria",
     "uk": "propria"
@@ -117,7 +117,7 @@
      "pascoa_ascensao"
     ]
    },
-   "nota": "MS1900 p. 32: «Отче нашъ, Иже еси на небесѣхъ, и проч.»; dá-se por extenso. Eslavo e acentos de Z1912 p. 2. Sem a doxologia sacerdotal «Яко Твое есть Царство…», que só o sacerdote diz (Z1912 e MS1900 também a omitem). EN: Hapgood segue o BCP («trespasses», «on earth, as it is in heaven»); adaptado ao eslavo/grego (до́лги = ὀφειλήματα «debts»; «как no céu, assim na terra»). PT: «насущный» (ἐπιούσιος) traduzido «de cada dia», leitura tradicional; «лукаваго» = «do maligno» (τοῦ πονηροῦ)."
+   "nota": "MS1900 p. 32: «Отче нашъ, Иже еси на небесѣхъ, и проч.»; dá-se por extenso. Eslavo e acentos de Z1912 p. 2. Sem a doxologia sacerdotal «Яко Твое есть Царство…», que só o sacerdote diz (Z1912 e MS1900 também a omitem). EN: Hapgood segue o BCP («trespasses», «on earth, as it is in heaven»); adaptado ao eslavo/grego (до́лги = ὀφειλήματα «debts»; «как no céu, assim na terra»). PT: «насущный» (ἐπιούσιος) traduzido «de cada dia», leitura tradicional; «лукаваго» = «do maligno» (τοῦ πονηροῦ). RU: tradução própria (dec. 57), próxima da tradução sinodal de Mt 6,9-13; Z1912 parafraseava («Отец наш Небесный», «Да прославляется святость имени Твоего», «Хлеб, необходимый для нашего существования», «от зла»)."
   },
   {
    "id": "refeicoes-05",
@@ -259,13 +259,13 @@
   {
    "id": "refeicoes-11",
    "tipo": "oracao",
-   "cu": "Благодари́мъ Тя, Христе́ Бо́же нашъ, я́ко насы́тилъ еси́ насъ земны́хъ Твои́хъ благъ; не лиши́ насъ и Небе́снаго Твоего́ Ца́рствія.",
-   "pt": "Damos-Te graças, ó Cristo, nosso Deus, porque nos saciaste dos Teus bens terrenos; não nos prives também do Teu Reino celeste.",
-   "ru": "Благодарим Тебя, Христе Боже наш, что Ты насытил нас Твоими земными благами; не лиши нас и Небесного Твоего Царства.",
-   "uk": "Дякуємо Тобі, Христе Боже наш, що Ти наситив нас земними Твоїми благами; не позбав нас і Небесного Твого Царства.",
-   "en": "We thank Thee, O Christ our God, that Thou hast satisfied us with Thine earthly good things; deprive us not also of Thy heavenly Kingdom.",
+   "cu": "Благодари́мъ Тя, Христе́ Бо́же нашъ, я́ко насы́тилъ еси́ насъ земны́хъ Твои́хъ благъ; не лиши́ насъ и Небе́снаго Твоего́ Ца́рствія, но я́ко посредѣ́ учени́къ Твои́хъ прише́лъ еси́, Спа́се, миръ дая́й имъ, пріиди́ къ намъ и спаси́ насъ.",
+   "pt": "Damos-Te graças, ó Cristo, nosso Deus, porque nos saciaste dos Teus bens terrenos; não nos prives também do Teu Reino celeste; mas, assim como vieste ao meio dos Teus discípulos, ó Salvador, dando-lhes a paz, vem a nós e salva-nos.",
+   "ru": "Благодарим Тебя, Христе Боже наш, что Ты насытил нас Твоими земными благами; не лиши нас и Небесного Твоего Царства, но, как пришел Ты посреди учеников Твоих, Спасе, даруя им мир, приди к нам и спаси нас.",
+   "uk": "Дякуємо Тобі, Христе Боже наш, що Ти наситив нас земними Твоїми благами; не позбав нас і Небесного Твого Царства, але, як посеред учнів Твоїх прийшов Ти, Спасе, даючи їм мир, прийди до нас і спаси нас.",
+   "en": "We thank Thee, O Christ our God, that Thou hast satisfied us with Thine earthly good things; deprive us not also of Thy heavenly Kingdom; but as Thou camest into the midst of Thy disciples, O Saviour, giving them peace, come unto us and save us.",
    "fonte": {
-    "cu": "MS1900 p. 33",
+    "cu": "MS1900 p. 33; continuação: ⚠ sem edição PD localizada (redação corrente)",
     "ru": "propria",
     "en": "propria",
     "pt": "propria",
@@ -277,7 +277,7 @@
      "pascoa_ascensao"
     ]
    },
-   "nota": "Texto de MS1900 p. 33 (sem a continuação «но яко посредѣ ученикъ Твоихъ…» de algumas edições correntes). Acentuação própria ⚠."
+   "nota": "Texto atual (dec. 58, dec. 2). MS1900 p. 33 termina em «…не лиши насъ и Небеснаго Твоего Царствія»; a continuação «но я́ко посредѣ́ учени́къ Твои́хъ прише́лъ еси́, Спа́се, миръ дая́й имъ, пріиди́ къ намъ и спаси́ насъ» (cf. Jo 20,19.26) segue o Molitvoslov atual da IOR (conferido em azbyka.ru, que moderniza «учениковъ»), aqui em grafia pré-reforma com o genitivo plural eslavo «учени́къ» ⚠ sem edição PD com a continuação. Acentuação própria ⚠."
   },
   {
    "id": "refeicoes-12",
