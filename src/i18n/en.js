@@ -20,6 +20,7 @@ export default {
     leiturasIncertas: 'The readings for this day depend on the winter distribution rules, which are still being verified. Please check your parish calendar.',
     naoVerificado: '* Reference not yet checked against a public-domain printed edition.',
     semLiturgia: 'No Liturgy on this day.',
+    ordinario: 'Of the day (“pod zachalo”)', leiturasDeslocadas: 'The ordinary readings of this day are read together with those of another day of the week (“pod zachalo”).',
     emPreparacao: 'In preparation', emPreparacaoTxt: 'This section arrives in a later version.',
     lingua: 'Language', camadaDefeito: 'Fast: layer shown by default', tamanhoTexto: 'Text size',
     pequeno: 'Small', normal: 'Normal', grande: 'Large', muitoGrande: 'Extra large',

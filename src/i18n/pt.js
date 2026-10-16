@@ -19,6 +19,7 @@ export default {
     leiturasIncertas: 'As leituras deste dia dependem de regras de distribuição de inverno que ainda estão a ser verificadas. Confirme no calendário da sua paróquia.',
     naoVerificado: '* Referência ainda não conferida numa edição impressa de domínio público.',
     semLiturgia: 'Sem Liturgia neste dia.',
+    ordinario: 'Do dia («под зачало»)', leiturasDeslocadas: 'As leituras ordinárias deste dia leem-se juntamente com as de outro dia da semana («под зачало»).',
     emPreparacao: 'Em preparação', emPreparacaoTxt: 'Esta secção chega numa próxima versão.',
     lingua: 'Língua', camadaDefeito: 'Jejum: camada mostrada por defeito', tamanhoTexto: 'Tamanho do texto',
     pequeno: 'Pequeno', normal: 'Normal', grande: 'Grande', muitoGrande: 'Muito grande',

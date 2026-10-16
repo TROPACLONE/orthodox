@@ -43,7 +43,7 @@ caso(2026, 6, 13, N.PEIXE, N.PEIXE, 'sábado, Apóstolos §3.2.2');
 caso(2026, 7, 7, N.PEIXE, N.PEIXE, 'Natividade do Precursor §3.2.2');
 // Dormição
 caso(2026, 8, 19, N.PEIXE, N.PEIXE, 'Transfiguração §3.3');
-caso(2026, 8, 17, N.XEROFAGIA, N.XEROFAGIA, 'segunda, Dormição §3.3');
+caso(2026, 8, 17, N.QUENTE_SEM_AZEITE, N.XEROFAGIA, 'segunda, Dormição §3.3 (paroquial: dec. 51)');
 caso(2026, 8, 22, N.QUENTE_COM_AZEITE, N.QUENTE_COM_AZEITE, 'sábado, Dormição §3.3');
 // Jejuns de um dia e quartas/sextas
 caso(2026, 9, 11, N.QUENTE_COM_AZEITE, N.QUENTE_COM_AZEITE, 'Degolação §5');
@@ -57,7 +57,9 @@ caso(2026, 10, 15, N.TUDO, N.TUDO, 'quinta comum');
 assert.equal(jejum(dia(G(2026, 11, 27))).tempo, 'quarta_sexta');   // 14.11 OS, sexta: véspera do jejum, mas dia de jejum comum
 assert.equal(jejum(dia(G(2026, 11, 28))).tempo, 'natal');
 caso(2026, 12, 4, N.PEIXE, N.PEIXE, 'Apresentação no Templo (sexta) §3.4.1');
-caso(2026, 12, 1, N.PEIXE, N.QUENTE_COM_AZEITE, 'terça, 1.ª fase §3.4.2');
+caso(2026, 12, 1, N.QUENTE_COM_AZEITE, N.QUENTE_COM_AZEITE, 'terça, 1.ª fase (artigo do Azbuka Very, dec. 50)');
+caso(2026, 11, 30, N.QUENTE_SEM_AZEITE, N.XEROFAGIA, 'segunda, 1.ª fase (dec. 50–51)');
+caso(2027, 3, 29, N.QUENTE_SEM_AZEITE, N.XEROFAGIA, 'segunda da 3.ª semana da Quaresma (dec. 51; QA fase 1)');
 caso(2026, 12, 29, N.QUENTE_COM_AZEITE, N.QUENTE_COM_AZEITE, 'terça 16.12 OS, 2.ª fase §3.4.2');
 caso(2026, 12, 22, N.QUENTE_COM_AZEITE, N.PEIXE, 'terça 09.12 OS (Conceição de Sant\'Ana): peixe no Typikon §3.4.1');
 const s20 = caso(2027, 1, 2, N.QUENTE_COM_AZEITE, N.PEIXE, 'sábado 20.12 OS: paroquial sem peixe; Typikon ainda com peixe (proibição desde 21.12) §3.4.1–2');

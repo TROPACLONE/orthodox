@@ -10,7 +10,8 @@ import { leituras } from '../src/engine/leituras.js';
 const ref = JSON.parse(fs.readFileSync('tests/referencia-leituras.json', 'utf8'));
 const estrito = process.env.ESTRITO === '1';
 const doMotor = s => { const [y, m, d] = s.split('-').map(Number); const dd = dia(G(y, m, d)), l = leituras(dd);
-  return { dd, l, lit: [...l.ap, ...l.ev].filter(x => !x.sv || x.sv === 'liturgia').map(x => x.r.split('.')[0] + '#' + x.z) }; };
+  const ordinario = l.extra.filter(e => e.rotulo === 'ordinario').flatMap(e => [...e.ap, ...e.ev]);   // leituras «под зачало»
+  return { dd, l, lit: [...l.ap, ...l.ev, ...ordinario].filter(x => !x.sv || x.sv === 'liturgia').map(x => x.r.split('.')[0] + '#' + x.z) }; };
 let n = 0;
 for (const [s, o] of Object.entries(ref.oficial_2026)) {
   const { dd, lit } = doMotor(s);

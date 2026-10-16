@@ -40,7 +40,7 @@ export const MOVEIS = {
 // Despedida da Páscoa e da Ascensão estão em MOVEIS; Bright Week: tons próprios por dia (doc. 01 §6.1).
 const TOM_LUMINOSA = [null, 2, 3, 4, 5, 6, 8];   // seg … sáb (o sábado tem o tom 8 desde as Vésperas de sexta)
 // Evangelhos matinais fixos nos domingos do Pentecostário (doc. 01 §6.2).
-const EOTHINA_PENTECOSTARIO = { 7: 1, 14: 3, 21: 4, 28: 7, 35: 8, 42: 11 };
+const EOTHINA_PENTECOSTARIO = { 7: 1, 14: 3, 21: 4, 28: 7, 35: 8, 42: 10 };   // P+42: 10 (calendário oficial 2026; QA D7)
 
 /** Domingo (JDN) dentro do intervalo de datas julianas [m1-d1, m2-d2] do ano juliano y. */
 function domingoEntre(y, m1, d1, m2, d2) {
@@ -153,7 +153,7 @@ export function dia(jdn) {
   else if (o >= 8 && o <= 48 && dow !== 0) semana = { tipo: 'pascoa', n: Math.floor(o / 7) + 1 };
   if (semana && dow === 0) semana.domingo = true;
   if (dow === 0 && o >= -42 && o <= -14) semana = { tipo: 'quaresma', n: (o + 49) / 7, domingo: true };
-  if (dow === 0 && o >= 7 && o <= 42) semana = { tipo: 'pascoa', n: o / 7 + 1, domingo: true };
+  if (dow === 0 && o >= 7 && o <= 49) semana = { tipo: 'pascoa', n: o / 7 + 1, domingo: true };   // P+49: «Неделя 8-я по Пасхе» (QA D8)
 
   // Tom do Octoeco (doc. 01 §6.1)
   let tom = null;

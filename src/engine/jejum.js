@@ -109,7 +109,7 @@ function quaresma(d, md, gT, gP) {
   // Dias úteis das semanas 2–6
   const santoT = grauMin(gT, 'polieleo') || QUARESMA_AZEITE.has(md) || vesperaAnunc;
   const santoP = grauMin(gP, 'polieleo');
-  const base = dow === 2 || dow === 4 ? N.QUENTE_SEM_AZEITE : N.XEROFAGIA;
+  const base = dow === 1 || dow === 2 || dow === 4 ? N.QUENTE_SEM_AZEITE : N.XEROFAGIA;   // segunda: dec. 51
   const par = r(santoP ? N.QUENTE_COM_AZEITE : base);
   let typ = santoT ? r(N.QUENTE_COM_AZEITE, { vinho: true }) : r(N.XEROFAGIA, { refeicoes: 1 });
   if (o === -25) typ = r(N.XEROFAGIA, { refeicoes: 1, notas: ['n_mesoquaresma'] });
@@ -140,22 +140,19 @@ function jejumLongo(tempo, d, md, gT, gP) {
   if (seg) typ.notas.push('n_segunda_conflito');
   if (tempo === 'natal' && m === 12 && (dia === 20 || dia === 21)) typ.notas.push('n_natal_20_21');
 
-  // ── Camada paroquial (doc. 02 §3.2.2 e §3.4.2; referência: azbyka)
+  // ── Camada paroquial: artigo do Azbuka Very (decisão 50) — Apóstolos e Natividade até 19.12 OS iguais;
+  //    20–24.12 OS sem peixe (doc. 02 §3.4.2); segunda-feira quente sem azeite (decisão 51).
   let par;
-  if (tempo === 'apostolos') {
+  if (tempo === 'apostolos' || fase === 1 || fase === 2) {
     if (satSun) par = r(N.PEIXE);
-    else if (terQui) par = r(grauMin(gP, 'polieleo') ? N.PEIXE : N.QUENTE_COM_AZEITE, { notas: ['n_apostolos_ter_qui'] });
+    else if (terQui) par = r(grauMin(gP, 'polieleo') ? N.PEIXE : N.QUENTE_COM_AZEITE);
     else if (quaSex) par = r(grauMin(gP, 'vigilia') ? N.PEIXE : grauMin(gP, 'polieleo') ? N.QUENTE_COM_AZEITE : N.XEROFAGIA);
     else par = r(grauMin(gP, 'vigilia') ? N.PEIXE : grauMin(gP, 'polieleo') ? N.QUENTE_COM_AZEITE : N.QUENTE_SEM_AZEITE);
-  } else if (fase === 1 || fase === 2) {
-    if (satSun) par = r(N.PEIXE);
-    else if (terQui) par = r(fase === 1 || grauMin(gP, 'polieleo') ? N.PEIXE : N.QUENTE_COM_AZEITE);
-    else if (quaSex) par = r(grauMin(gP, 'vigilia') ? N.PEIXE : grauMin(gP, 'polieleo') ? N.QUENTE_COM_AZEITE : N.XEROFAGIA);
-    else par = r(grauMin(gP, 'vigilia') ? N.PEIXE : grauMin(gP, 'polieleo') ? N.QUENTE_COM_AZEITE : N.QUENTE_SEM_AZEITE);
+    if (tempo === 'apostolos' && terQui) par.notas.push('n_apostolos_ter_qui');
   } else {                                                    // 20–24.12: sem peixe
     if (satSun) par = r(N.QUENTE_COM_AZEITE);
-    else if (terQui) par = r(grauMin(gP, 'polieleo') ? N.QUENTE_COM_AZEITE : N.QUENTE_SEM_AZEITE);
-    else par = r(grauMin(gP, 'polieleo') ? N.QUENTE_COM_AZEITE : N.XEROFAGIA);
+    else if (quaSex) par = r(grauMin(gP, 'polieleo') ? N.QUENTE_COM_AZEITE : N.XEROFAGIA);
+    else par = r(grauMin(gP, 'polieleo') ? N.QUENTE_COM_AZEITE : N.QUENTE_SEM_AZEITE);
     if (dow !== 0 && dow !== 6 && md !== '12-24') par.notas.push('n_natal_2_5_jan');
   }
   if (md === '12-24') { par.notas.push('n_vespera_natal'); typ = r(N.QUENTE_COM_AZEITE, { vinho: true, notas: satSun ? ['n_vespera_sab_dom'] : [] }); }
@@ -167,9 +164,10 @@ function dormicao(d, md, gT, gP) {
   const res = (par, typ) => ({ jejum: true, tempo: 'dormicao', paroquial: par, typikon: typ });
   if (md === '08-06') return res(r(N.PEIXE), r(N.PEIXE, { vinho: true, refeicoes: 2 }));
   const base = satSun ? N.QUENTE_COM_AZEITE : terQui ? N.QUENTE_SEM_AZEITE : N.XEROFAGIA;
+  const baseP = dow === 1 ? N.QUENTE_SEM_AZEITE : base;                       // segunda: dec. 51 (só camada paroquial)
   // Santos de polieleo/vigília: sem fonte no cap. 33 — aplica-se o modificador do jejum dos Apóstolos com teto «sem peixe».
   const santo = (g) => grauMin(g, 'polieleo') && base < N.QUENTE_COM_AZEITE;
-  const par = r(santo(gP) ? N.QUENTE_COM_AZEITE : base, { notas: santo(gP) ? ['n_dormicao_santos'] : [] });
+  const par = r(santo(gP) ? N.QUENTE_COM_AZEITE : baseP, { notas: santo(gP) ? ['n_dormicao_santos'] : [] });
   const typ = r(santo(gT) ? N.QUENTE_COM_AZEITE : base, { vinho: satSun || santo(gT), refeicoes: satSun ? 2 : 1, notas: santo(gT) ? ['n_dormicao_santos'] : [] });
   return res(par, typ);
 }

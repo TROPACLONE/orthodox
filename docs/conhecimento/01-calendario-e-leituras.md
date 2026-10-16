@@ -329,7 +329,7 @@ eothinon = (d/7 - 7) mod 11;  if eothinon == 0: eothinon = 11
 
 - Fórmula retirada dos atributos `Cmd="(ndayP / 7 - 7) % 11 == n"` dos dados do Ponomar (onde `ndayP` = dias desde a Páscoa do ano anterior, usada para datas antes da Páscoa corrente) [27][40].
 - Verificações com a azbyka.ru **(cálculo próprio)**: 01.03.2026 NS (1.º Dom. Quaresma) → 5 (Lc 24,12-35, zach. 113); 07.06.2026 (Todos os Santos) → 1 (Mt 28,16-20); 18.10.2026 → 9 (Jo 20,19-31) — todos coincidem com a indicação "Утр." da azbyka.ru [25][26].
-- **Domingos do Pentecostário (fixos, Typikon):** Tomé — Mt zach. 116 (= n.º 1); Miróforas — Mc zach. 71 (= 3); Paralítico — Lc zach. 112 (= 4); Samaritana — Jo zach. 63 (= 7); Cego — Jo zach. 64 (= 8); Padres do I Concílio — Jo zach. 67 (= 11); Pentecostes — Jo zach. 65 (Jo 20,19-23, parte do n.º 9) [12].
+- **Domingos do Pentecostário (fixos, Typikon):** Tomé — Mt zach. 116 (= n.º 1); Miróforas — Mc zach. 71 (= 3); Paralítico — Lc zach. 112 (= 4); Samaritana — Jo zach. 63 (= 7); Cego — Jo zach. 64 (= 8); Padres do I Concílio — Jo zach. 66 (= 10; corrigido na QA da fase 1: calendário oficial 2026, 24.05.2026 «Утр. – Ев. 10-е, Ин., 66 зач.»); Pentecostes — Jo zach. 65 (Jo 20,19-23, parte do n.º 9) [12].
 - **Domingo de Ramos:** Evangelho matinal próprio, Mt 21,1-11.15-17 (zach. 83) [27].
 - **Festa do Senhor em domingo:** não se lê o Evangelho matinal dominical (ex.: Transfiguração) [10]; o ciclo **não** é "empurrado" (o número seguinte continua a ser dado pela fórmula).
 
