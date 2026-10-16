@@ -64,7 +64,7 @@ Atributos ortogonais a guardar por dia (o Typikon fixa-os à parte do nível):
 - `meals: 1|2` e `after: "9th_hour" | "vespers" | "liturgy"` [1][2][3].
 - `monastic_note` — o Typikon diferencia: nas semanas contínuas «монаси на сыр и яица, мирстии же на мясо» [2].
 
-⚠ PARA CONFIRMAR: o cap. 35 equipara sukhoyadenie a «pão e água e semelhantes» [3], enquanto o cap. 32 e a Triódio dão, em dias de sukhoyadenie, mel, legumes e frutos [1][8]. Os níveis 1 e 2 podem ter de ser fundidos ou tratados como variantes do mesmo grau.
+✔ Confirmado (2.ª ronda): não há contradição textual. O cap. 35 diz «сухоядение ясти подобает, хлеб и воду, **и сим подобная**» [3] — pão e água são o núcleo, e «coisas semelhantes» (alimentos vegetais não cozinhados, mel, frutos) cabem no mesmo grau, como no cap. 32 e no Triódio («ядим сухоядение: пием и сок с медом») [1][8]. «Хлеб и вода» aparece no Typikon apenas como **concessão nomeada** (Sexta-feira Santa para doentes/idosos; pão e kvass na 1.ª terça) [1][8]. Modelo: manter o nível 1 (`BREAD_WATER`) só para essas concessões e o nível 2 para o sukhoyadenie comum.
 
 ### 1.2 Categorias de alimentos
 
@@ -79,7 +79,7 @@ Atributos ortogonais a guardar por dia (o Typikon fixa-os à parte do nível):
 | Vinho / álcool | O Typikon concede «вино» medido (1–3 taças) com o azeite ou à parte. Nenhuma fonte consultada concede bebidas destiladas; Foma: na Quaresma não se bebem bebidas espirituosas fortes nem vinho em grande quantidade. | (a) [2][3]; (b) [19] |
 | Mel, cogumelos, cereais, legumes, fruta | Permitidos em todos os dias de jejum com refeição. | (b) [16] |
 
-⚠ PARA CONFIRMAR: cerveja, produtos industriais «постные» (maionese vegetal, margarina), açúcar e chocolate não aparecem nas fontes primárias consultadas. Não os classificar automaticamente.
+⚠ PARA CONFIRMAR: cerveja, produtos industriais «постные» (maionese vegetal, margarina), açúcar e chocolate não aparecem nas fontes primárias consultadas (2.ª ronda: Typikon caps. 32, 33, 35, 49; documento oficial de 2015/2016 [10][33]; o calendário oficial nem sequer publica graus de comida [34]). Não há fonte normativa a encontrar; é uma escolha de produto. → DECISÃO DO UTILIZADOR (proposta: não classificar automaticamente).
 
 ---
 
@@ -96,9 +96,9 @@ Atributos ortogonais a guardar por dia (o Typikon fixa-os à parte do nível):
 | Fora dos jejuns, em geral | «Como na Quaresma» (cap. 33). Entre o fim do Jejum dos Apóstolos e o da Dormição: qua/sex uma refeição à hora nona (cap. 35). | azbyka: o peixe só se permite em festas dos Doze e festas do templo; o óleo, só com santo de polieleo. pravmir: proibidos carne e lacticínios; peixe/óleo não indicados como regra geral. | [2][3]; [16][17] |
 | Pentecostário (de São Tomé ao Pentecostes) | **Azeite e vinho** às qua/sex; peixe e vinho apenas na quarta da Mesopentecostes e na quarta da Apodose da Páscoa; «Нецыи же разрешают и в прочия» (alguns permitem também nas outras). | azbyka: «по уставу в эти дни можно есть рыбу» — peixe em todas as qua/sex. | [2]; [16] |
 
-⚠ PARA CONFIRMAR: o nível por omissão de uma qua/sex comum (fora dos jejuns e do Pentecostário) varia entre fontes paroquiais: sem óleo [16] ou indefinido [17]. Proposta: `TYPIKON` → nível 2 (1 refeição); `PARISH` → nível 3, com `HOT_OIL` se houver santo de polieleo, conforme [16].
+✔ Confirmado (2.ª ronda): as duas fontes paroquiais concordam. Pravmir: «в эти дни недели Святая Церковь запрещает употребление мясной и молочной пищи, а в период недели Всех Святых до Рождества Христова следует воздержание также от рыбы и растительного масла. Лишь когда на среду и пятницу приходятся дни празднуемых святых, разрешается растительное масло, а в самые большие праздники, такие как Покров, – рыба» [17]; azbyka: no período de verão, óleo só com santo de polieleo e peixe na festa do templo [16]. Implementação: `TYPIKON` → nível 2 (1 refeição); `PARISH` → nível 3 (sem óleo), `HOT_OIL` com santo celebrado (polieleo), `FISH` nas grandes festas. Nota: o calendário oficial da Editora do Patriarcado **não** publica graus de comida (só «пост»/«строгий пост»/«поста нет») [34].
 
-⚠ PARA CONFIRMAR: azbyka diz que o Typikon permite peixe em todas as qua/sex do Pentecostário [16], mas o cap. 33 só o concede em dois dias e menciona os restantes como prática de «alguns» [2]. Implementar `TYPIKON` = azeite/vinho (peixe só nesses 2 dias) e `PARISH` = peixe.
+✔ Confirmado (2.ª ronda): o texto do cap. 33 é «В средах же и пятцех, всея Пятьдесятницы, елей и вино, кроме среды преполовения, и среды отдания Пасхи: В та бо два дни разрешаем на рыбу и вино. Нецыи же разрешают и в прочия» [2]; a frase da azbyka «по уставу… можно есть рыбу» [16] é imprecisa. As duas fontes paroquiais dão peixe em todas as qua/sex do Pentecostário [16][17]. Implementar `TYPIKON` = azeite/vinho (peixe só nesses 2 dias) e `PARISH` = peixe.
 
 ### 2.3 Exceções: qua/sex sem jejum (semanas contínuas)
 Ver §4. Nas semanas contínuas não há jejum à quarta e à sexta [2][16][31].
@@ -116,7 +116,7 @@ Ver §4. Nas semanas contínuas não há jejum à quarta e à sexta [2][16][31].
 | Festa do templo (храмовый праздник) em qua/sex | Nos jejuns da Natividade/Apóstolos: peixe (cap. 33) | Peixe | [2]; [16] |
 | Proteção (Покров) 1 out. / 14 out. | Não consta do cap. 33 | pravmir: «на большие праздники, например Покров, разрешена рыба» | [17] |
 
-⚠ PARA CONFIRMAR: João Teólogo tem duas memórias (26 set. e 8 mai. OS); o cap. 33 não diz qual delas [2]. A 8 mai. cai sempre no Pentecostário (§2.2). Proposta: aplicar a ambas.
+✔ Confirmado (2.ª ronda), com inferência assinalada: o cap. 33 diz só «возлюбленнаго Иоанна Богослова» [2]; as duas memórias (26.09 e 08.05 OS) têm ambas o grau de **vigília** (🕁) no Typikon [35]. Aplicar a regra a ambas (inferência a partir do grau; a 08.05 cai sempre no Pentecostário, onde o resultado — peixe — coincide com a camada `PARISH`).
 
 ---
 
@@ -167,7 +167,7 @@ Os deslocamentos abaixo são cálculos sobre a estrutura do Triódio [8][12] (Qu
 | Sex (P−44) | Come-se depois dos Pré-santificados (sukhoyadenie); azeite «não se pratica» por respeito ao dia | Sukhoyadenie; bênção do colivo | [1][8]; [16] |
 | Sáb (P−43, S. Teodoro) | Fava cozida, azeitonas, comida cozinhada com azeite, vinho | Com óleo | [8]; [17] |
 
-⚠ PARA CONFIRMAR: para a quarta da 1.ª semana, o cap. 32 dá comida quente [1] e a Triódio dá sukhoyadenie [8]. Para a quinta, a pravmir indica comida quente sem óleo [17], mas o Typikon manda não comer [8].
+⚠ PARA CONFIRMAR (conflito confirmado na 2.ª ronda): (a) dentro do Typikon — cap. 32: «В среду же по совершении преждесвященных… ядим хлеб тепл, и от снедей овощных теплых» [1]; cap. 49: «ядим сухоядение: пием и сок с медом. В четверток же тоя седмицы трапезы не поставляем, но пребываем постящеся даже до пятка» [8]. (b) Entre fontes paroquiais — azbyka: segunda e terça sem comida, primeira refeição na quarta [16]; pravmir: tabela com «горячая без масла» [17]. O calendário oficial não arbitra (não publica graus de comida) [34]. → DECISÃO DO UTILIZADOR (que leitura mostrar por omissão em cada camada; proposta: `TYPIKON` = cap. 49 com nota do cap. 32; `PARISH` = azbyka).
 
 #### 3.1.4 Dias especiais da Quaresma
 
@@ -182,7 +182,7 @@ Os deslocamentos abaixo são cálculos sobre a estrutura do Triódio [8][12] (Qu
 | Domingo de Ramos (P−7) | Peixe e vinho | [1][8] |
 | 40 Mártires (9 mar.), 1.ª/2.ª Invenção da Cabeça do Precursor (24 fev.) | O Triódio cita o *typikon* da Santa Montanha: dois pratos com azeite e duas taças de vinho. Para o Typikon russo, ver [12] (azeite e vinho em festa) | [8][12] |
 
-⚠ PARA CONFIRMAR: conflito interno do Typikon sobre a Quinta do Grande Cânone (azeite e vinho [8] vs. sem azeite [1]). Proposta: `TYPIKON` = vinho sem azeite (`wine=true`, nível 2), marcado como controverso. O Triódio cita a quarta da Semana da Cruz entre os dias de azeite do typikon atonita, mas o Typikon russo proíbe azeite e vinho na quarta da Mesoquaresma [8]: seguir a regra russa.
+⚠ PARA CONFIRMAR (conflito confirmado na 2.ª ronda): cap. 49 — «На трапезе разрешаем на елей, и вина причащаемся труда ради бденнаго… Внимающии же спастися, воздержанию прилежат» e «ядим елей, и вино пием, труда ради бывшаго. Нецыи же…» [8]; cap. 32 — «в среду великаго канона… аще нецыи уставы и повелевают на елей разрешати, но не творится за честность дней» [1]. Proposta: `TYPIKON` = vinho sem azeite (`wine=true`, nível 2), marcado como controverso. → DECISÃO DO UTILIZADOR. A quarta da Mesoquaresma fica sem azeite nem vinho (cap. 49: «день плача есть, а не радости» [8]): seguir a regra russa.
 
 #### 3.1.5 Semana Santa, dia a dia
 
@@ -194,7 +194,7 @@ Os deslocamentos abaixo são cálculos sobre a estrutura do Triódio [8][12] (Qu
 | Sábado Santo | Depois da Liturgia (de Basílio, com as vésperas): um pedaço de pão, 6 figos ou tâmaras, uma taça de vinho | Bênção de kulitch/pascha depois da Liturgia | [8]; [16] |
 | Anunciação na Semana Santa | Seg–Qua: azeite e vinho; Sexta Santa: «на вино точию» (só vinho); sem peixe | — | [2][12] |
 
-⚠ PARA CONFIRMAR: (1) Quinta Santa com ou sem azeite (conflito [1] vs. [8]). (2) A hora de quebrar o jejum da Sexta-feira Santa diverge entre fontes paroquiais: «вынос» à tarde [17] vs. fim do «погребение» [16]. (3) O cap. 33 diz azeite e vinho para a Anunciação «до великаго четвертка» [2]; não ficou claro se inclui a Quinta Santa, nem qual é a regra para Anunciação no Sábado Santo.
+⚠ PARA CONFIRMAR: (1) Quinta Santa com ou sem azeite — conflito confirmado: o cap. 49 dá «варение с елеем. Пием же и вино», cita o Studita (um prato, sem menção de azeite) e o atonita (dois pratos com azeite) e termina «И сия вся како разсудит настоятель» [8]; o cap. 32 diz que o azeite «не творится» [1]. → DECISÃO DO UTILIZADOR (camada `TYPIKON`). (2) Hora de quebrar o jejum da Sexta-feira Santa: pravmir «до выноса Плащаницы» [17] vs. azbyka «только после окончании чина погребения Плащаницы» [16]; o calendário oficial só diz «Строгий пост.» [34]; o Typikon manda não comer de todo (doentes/idosos: pão e água depois do pôr do sol) [8]. → DECISÃO DO UTILIZADOR (camada `PARISH`). (3) ✔ Confirmado (2.ª ronda) pelos capítulos de Marcos do Typikon a 25.03 [35]: Anunciação na **Quinta Santa** → «На трапезе же не разрешаем на рыбы: но точию на елей и вино»; Anunciação na **Sexta Santa** → na Quinta Santa «разрешаем на елей и вино» e na Sexta, depois da Liturgia de Crisóstomo, «ядим сухоядение, и пием вино» (= «на вино точию» do cap. 33 [2]); Anunciação no **Sábado Santo** → refeição depois da Liturgia de Basílio «якоже указася в великую субботу» (sem atenuação própria). Anunciação na Grande Quarta: «варение без елеа: вино же пием» [35].
 
 ### 3.2 Jejum dos Apóstolos / de Pedro e Paulo (Петров пост, Апостольский пост; gr. νηστεία τῶν ἁγίων ἀποστόλων)
 
@@ -202,7 +202,7 @@ Os deslocamentos abaixo são cálculos sobre a estrutura do Triódio [8][12] (Qu
 - Começa na segunda-feira a seguir ao Domingo de Todos os Santos (1.º domingo depois do Pentecostes) e termina a 28 jun. OS. A festa de 29 jun. OS / 12 jul. NS não é dia de jejum, salvo se for quarta ou sexta (ver §2.4) [9][13].
 - Início = P+57. Fim = 28 jun. OS (inclusive).
 - Com a Páscoa juliana entre 22 mar. e 25 abr. OS: Páscoa a 22 mar. → início a 18 mai. OS → **42 dias**. Páscoa a 25 abr. → início a 21 jun. OS → **8 dias**. (Cálculo; amplitude 8–42 dias.)
-- ⚠ PARA CONFIRMAR: a página azbyka [16] diz primeiro «от 1 до 5 недель» e depois «шесть недель… восемь дней». O cálculo confirma 8–42 dias (até 6 semanas).
+- ✔ Confirmado (2.ª ronda): a pravenc define os limites («начинающийся в понедельник после 1-й недели по Пятидесятнице… и продолжающийся до дня памяти св. апостолов Петра и Павла 29 июня ст. ст.») [13], o que dá 8–42 dias por cálculo; a pravmir: «Продолжительнейший Петров пост заключает в себе шесть недель, а кратчайший неделю с днем» [17]. O «от 1 до 5 недель» da azbyka [16] é incoerente com a própria página («шесть недель… восемь дней»).
 
 #### 3.2.2 Regra por dia (igual ao Jejum da Natividade no cap. 33)
 
@@ -221,7 +221,7 @@ Modificadores de santos (cap. 33):
 | Com vigília (бдение) ou do templo | Peixe | Peixe | Azeite, vinho **e peixe** | [2][13] |
 | Natividade do Precursor (24 jun. OS) ou Pedro e Paulo em qua/sex | — | — | Peixe e vinho, 2 refeições | [2] |
 
-⚠ PARA CONFIRMAR: a pravenc [13] põe a segunda-feira com a quarta e a sexta (só azeite e vinho para santo de doxologia/polieleo), mas o texto do cap. 33 junta a segunda à terça e à quinta (peixe) [2]. O Pe. Mikhail Zheltov [15] e a pravenc sobre o Jejum da Natividade [14] registam este conflito interno entre o cap. 33 e o cap. 48 do Typikon. O motor deve guardar a regra como parâmetro (`monday_like: "tue_thu" | "wed_fri"`).
+⚠ PARA CONFIRMAR (conflito interno do Typikon confirmado na 2.ª ronda): cap. 33 — «Аще случится святый во вторник, или в четверток имеяй славословие, ядим рыбу: Аще в понедельник, подобне» [2]; cap. 48 (14.11) — «Въ понедельникъ же, въ срeду и въ пятокъ, разрешaемъ точию на елeй и вино, рыбы же не ядимъ, кроме хрaма» (citado por Zheltov, que nota que o cap. 33 «не считает понедельник подчеркнуто постным днем») [15]; a pravenc segue o cap. 48 [13][14]. O motor deve guardar a regra como parâmetro (`monday_like: "tue_thu" | "wed_fri"`). → DECISÃO DO UTILIZADOR (valor por omissão na camada `TYPIKON`).
 
 ### 3.3 Jejum da Dormição (Успенский пост)
 - 1–14 ago. OS = 14–27 ago. NS [16]. O Typikon (1 ago.) diz que neste dia se deixa a carne e se começa o jejum, e que não se dá peixe salvo na Transfiguração [7].
@@ -234,7 +234,7 @@ Modificadores de santos (cap. 33):
 | Transfiguração (6 ago. / 19 ago.) | Peixe, 2 refeições | Peixe | [2]; [16][17] |
 | Dormição (15 ago.) em qua/sex | Peixe e vinho | «Рыбный день», quebra do jejum passa para o dia seguinte | [2]; [16][17] |
 
-⚠ PARA CONFIRMAR: santos de polieleo/vigília dentro do Jejum da Dormição (p. ex. festa do templo) não estão no texto do cap. 33. Proposta: aplicar o modificador do §3.2 com teto «sem peixe» (só a Transfiguração dá peixe [7]).
+⚠ PARA CONFIRMAR: santos de polieleo/vigília dentro do Jejum da Dormição (p. ex. festa do templo) não estão no texto do cap. 33, que diz apenas «рыбы же не ядим, до Успения Пресвятыя Богородицы: но токмо на Преображение Христово» [2]. Tentado na 2.ª ronda: Typikon caps. 33 e 48 (01.08), azbyka [16], pravmir [17]; não se encontrou a pravenc «Успенский пост». Proposta mantida: modificador do §3.2 com teto «sem peixe».
 
 ### 3.4 Jejum da Natividade / de S. Filipe (Рождественский пост, Филиппов пост; «Малая Четыредесятница»)
 - 15 nov.–24 dez. OS = 28 nov.–6 jan. NS; a véspera do jejum (заговенье) é a memória do Apóstolo Filipe, 14 nov. OS [14].
@@ -267,7 +267,7 @@ Zheltov [15] diz que a divisão em dois períodos vem do «Око церковн
 | 20 dez.–1 jan. | Quente sem óleo | Com óleo (sem peixe) | Sukhoyadenie | Peixe | [16][18] |
 | 2–6 jan. (preparação da festa) | Sukhoyadenie | Sem peixe; óleo ⚠ (ver nota) | Sukhoyadenie | Com óleo, **sem peixe** | [16][18] |
 
-⚠ PARA CONFIRMAR: (1) Segunda a quinta de 2–5 jan. NS (azbyka: óleo só sáb/dom [16]; Foma: sukhoyadenie seg/qua [18]). (2) A variante que a Foma chama «Typikon» dá «горячая пища без масла» às seg/qua/sex [18], o que não coincide com o texto do Typikon (sukhoyadenie) [2]: não usar a Foma como fonte da camada (a).
+⚠ PARA CONFIRMAR: (1) Segunda a quinta de 2–5 jan. NS — divergência paroquial mantida após a 2.ª ronda: azbyka (óleo só sáb/dom) [16]; Foma (sukhoyadenie seg/qua) [18]; pravmir: «В предпразднство нельзя есть рыбу во все дни, в субботу и воскресенье – пища с маслом» (sem detalhe dos dias úteis) [17]; o calendário oficial não publica graus de comida [34]. → DECISÃO DO UTILIZADOR (fonte paroquial de referência). (2) ✔ Confirmado (2.ª ronda): o cap. 33 dá sukhoyadenie às seg/qua/sex («ни елеа вкушаем, ни вина… и ядим в тыя дни сухоядение») [2], logo a variante «Typikon» da Foma [18] não é o Typikon: não a usar na camada (a).
 
 ---
 
@@ -283,9 +283,9 @@ Definição: semanas sem jejum à quarta e à sexta [31][16].
 | Semana Luminosa (Светлая) | P+1 … P+6 | «Монаси на сыр и яица и рыбы, мирстии же на вся» | Sem jejum | [1]; [16] |
 | Semana da Trindade | P+50 … P+55 | «Разрешена ясти рыбы, сыр, и яица, и млеко: а миряном мясо, до недели всех святых» | Sem jejum | [1][2]; [16] |
 
-⚠ PARA CONFIRMAR: o cap. 33 chama à semana contínua pré-quaresmal «седмица пред Мясопустом» [2], mas a nota da Triódio está sob o Domingo do Publicano [8]. A prática da ROC (azbyka) é a semana a seguir ao Domingo do Publicano [16][31]. Usar P−69…P−64.
+✔ Confirmado (2.ª ronda): o cap. 49 coloca a nota contra o jejum «арцивуриев» dentro do ofício do Domingo do Publicano («в сей седмице…») [8], e o calendário oficial de 2026 marca a segunda seguinte ao Domingo do Publicano: «Седмица сплошная… В течение всей седмицы, включая среду и пятницу, поста нет» (02.02.2026 NS) [34]. Usar P−69…P−64.
 
-⚠ PARA CONFIRMAR: azbyka diz «СВЯТКИ – с 7 до 18 января» [16]; o dia 18 NS é véspera de jejum (§5), logo deve ler-se «até 17 inclusive».
+✔ Confirmado (2.ª ronda): o calendário oficial diz a 25.12 «От 25 декабря до 5 января – Святки (святые дни). Нет поста в среду и пятницу» e marca 05.01 OS (18.01 NS) como «День постный» [34]; o Typikon: «Ядим от Рождества Христова по вся дни, до навечерия святаго Богоявления» [5]. Sem jejum de qua/sex: 25.12–04.01 OS = **7–17 jan. NS**; a 18 jan. NS é jejum.
 
 Disciplina conjugal (camada b): azbyka afirma que, nas semanas Luminosa e dos Santos dias, e a partir da Semana do Queijo, se recomenda abstinência conjugal «согласно церковным правилам» [16]. O documento de 2016 refere esta abstinência apenas para a preparação da Comunhão (§7) [10].
 
@@ -300,7 +300,7 @@ Disciplina conjugal (camada b): azbyka afirma que, nas semanas Luminosa e dos Sa
 | Degolação do Precursor (Усекновение) | 29 ago. / 11 set. | Azeite, frutos, uma taça de vinho; nada de carne nem peixe | (sem atenuação própria) | Sem peixe, com óleo | [7][2]; [16][17] |
 | Exaltação da Cruz (Воздвижение) | 14 set. / 27 set. | Sem peixe; azeite e vinho; à noite, frutos | (sem atenuação própria) | Sem peixe, com óleo | [2]; [16][17] |
 
-⚠ PARA CONFIRMAR: (1) O texto do Typikon consultado para 5 jan. em dia útil não indica o tipo de comida. A regra «com óleo, sem peixe» vem da camada (b) [16][17]. (2) A expressão «primeira estrela» é costume popular citado por fontes paroquiais [16][18], não regra do Typikon. (3) Se a Degolação ou a Exaltação caírem ao sábado/domingo, nenhuma fonte consultada indica atenuação; manter azeite e vinho, sem peixe.
+✔ Confirmado (2.ª ronda): (1) Typikon, 05.01, em dia útil: «входим в трапезу, и ядим с древяномаслием, испиваем же и вина. Сыра же и подобных ему, рыб никакоже дерзнем ясти» [6] — **azeite e vinho, sem peixe** também na camada (a). (2) O texto do Typikon para 24.12 e 05.01 não menciona estrela; a «первая звезда» é costume citado só por fontes paroquiais [16][17][18]. (3) Typikon, 14.09: «бывает утешение братии, о елеа и вина… Сыра же и яиц и рыбы, никакоже дерзнем коснутися» e 29.08: sem queijo, ovos nem peixe [7][35] — nenhum dos textos prevê atenuação ao sábado/domingo; manter azeite e vinho, sem peixe.
 
 ---
 
@@ -319,7 +319,7 @@ Disciplina conjugal (camada b): azbyka afirma que, nas semanas Luminosa e dos Sa
 | Santo com polieleo | HOT_OIL (b) | HOT_OIL + vinho | HOT_OIL + vinho | FISH | ⚠ | [12][13][16] |
 | Santo com grande doxologia | — (b não especifica) | ⚠ | Qua/Sex: HOT_OIL + vinho; Seg: ⚠ (§3.2.2) | FISH | ⚠ | [2][13] |
 
-⚠ PARA CONFIRMAR: a regra exata do Typikon para a Quaresma com festa de grande doxologia (sem polieleo) não foi encontrada. A pravenc diz genericamente «если случится праздник» → azeite e vinho [12].
+⚠ PARA CONFIRMAR: a regra exata do Typikon para a Quaresma com festa de grande doxologia (sem polieleo) não foi encontrada. A pravenc diz genericamente que nas semanas da Quaresma há uma refeição com sukhoyadenie «и когда, если случится праздник, дозволяется, как в субботы и воскресенья, вкушение пищи с елеем и вина» [12]. Tentado na 2.ª ronda: caps. 32 e 49 do Typikon (só regras gerais e dias nomeados).
 
 ---
 
@@ -327,7 +327,7 @@ Disciplina conjugal (camada b): azbyka afirma que, nas semanas Luminosa e dos Sa
 
 ### 7.1 Documento oficial
 - «Об участии верных в Евхаристии» (Sobre a participação dos fiéis na Eucaristia). Foi aprovado pela Reunião Episcopal (Архиерейское совещание) de 2–3 fev. 2015 [11] e **adotado pelo Concílio Episcopal (Архиерейский Собор) de 2–3 fev. 2016** [10].
-- ⚠ PARA CONFIRMAR: a página oficial patriarchia.ru [11] é renderizada por JavaScript e não foi lida. O texto usado foi a cópia da azbyka, que remete para o site oficial [10].
+- ✔ Confirmado (2.ª ronda): o texto oficial foi lido no ficheiro publicado pelo patriarchia.ru (doc_AS_eu.doc, anexo do artigo [11]) e coincide com a cópia da azbyka nas passagens usadas (§7.2) [33]. Os decretos do Concílio de 2016, ponto 18: «Собор утверждает одобренный Архиерейским Совещанием 2 февраля 2015 года и принятый Священным Синодом 5 мая 2015 года (журнал №1) документ «Об участии верных в Евхаристии»» [33].
 
 ### 7.2 Conteúdo normativo (resumo fiel; citações em russo)
 
@@ -349,7 +349,7 @@ Disciplina conjugal (camada b): azbyka afirma que, nas semanas Luminosa e dos Sa
 | Dias em que não se pode recusar a Comunhão aos fiéis | Páscoa, Natividade, Teofania, sábados de defuntos e Radonitsa. | [10] |
 | Norma monástica (Typikon) | Quem quer comungar guarda toda a semana anterior, desde segunda-feira, em jejum, oração e sobriedade. | [1] |
 
-⚠ PARA CONFIRMAR: não se encontrou norma oficial que exija jejum próprio **antes da confissão** (separado da Comunhão). O documento de 2016 só trata a confissão como parte da preparação para a Comunhão [10]. A app não deve inventar um «jejum de confissão».
+✔ Confirmado (2.ª ronda): o texto oficial só fala de «приуготовительный пост» antes da **Comunhão** e da confissão como parte dessa preparação («открытие их перед священником в Таинстве Покаяния») [33]; pesquisa no patriarchia.ru não revelou outro documento normativo sobre jejum antes da confissão. A app não deve inventar um «jejum de confissão».
 
 ### 7.3 Implicações para o motor
 - O jejum eucarístico é um **evento pessoal** (o utilizador marca «vou comungar em D»), não um nível do calendário.
@@ -373,7 +373,7 @@ Disciplina conjugal (camada b): azbyka afirma que, nas semanas Luminosa e dos Sa
 | Nos dias úteis dos jejuns com serviço de «Аллилуия» (Natividade, Apóstolos, Dormição) há prostrações «как во святую 40-цу» | [4][13][2] |
 | Quarta e sexta da Semana do Queijo: «Аллилуия с поклоны» | [8] |
 
-⚠ PARA CONFIRMAR: a fronteira de Grande Quarta (templo) vs. Grande Sexta (casa) vem de um autor (Pe. Aleksei Shlyapin, azbyka) [24], não do Typikon. A lista das «festas do Senhor» em que não há prostrações não foi verificada caso a caso (p. ex. Transfiguração e Exaltação em dia útil; na Exaltação há prostrações diante da Cruz segundo [24]).
+✔ Confirmado (2.ª ronda) quanto à fronteira: é regra do próprio Typikon (cap. 49, Grande Quarta, Liturgia dos Pré-santificados): «И абие упраждняются совершенно в церкви бываемыя поклоны: В келлиах же даже и до великаго пятка совершаются» [8]. ⚠ PARA CONFIRMAR: a lista das «festas do Senhor» em que não há prostrações não foi verificada caso a caso (p. ex. Transfiguração e Exaltação em dia útil; na Exaltação há prostrações diante da Cruz segundo [24]).
 
 ### 8.2 Dias em que a ROC não celebra casamentos (венчание, *venchanie*)
 Fonte: azbyka (calendário de casamentos), que segue a prática da ROC [26].
@@ -391,7 +391,7 @@ Fonte: azbyka (calendário de casamentos), que segue a prática da ROC [26].
 
 Notas:
 - A mesma fonte diz que só a ROC e a OCA proíbem terças, quintas e sábados [26].
-- ⚠ PARA CONFIRMAR: o documento conciliar de 2017 «О канонических аспектах церковного брака» não contém esta lista. Não foi encontrado documento normativo oficial da ROC com a lista de dias; a lista vem da tradição sinodal e de manuais. Há também variação diocesana. Pela pravenc, a «Semana dos Pais» antes do Sábado de S. Demétrio (sem casamentos) é prática de velhos-crentes, não da ROC [27].
+- ⚠ PARA CONFIRMAR: o documento conciliar de 2017 «О канонических аспектах церковного брака» não contém esta lista (confirmado na 2.ª ronda no texto oficial [36]; pesquisa no patriarchia.ru sem outro documento; a «Настольная книга священнослужителя» da Editora do Patriarcado não foi acessível em linha). Não foi encontrado documento normativo oficial da ROC com a lista de dias; a lista vem da tradição sinodal e de manuais. Há também variação diocesana. Pela pravenc, a «Semana dos Pais» antes do Sábado de S. Demétrio (sem casamentos) é prática de velhos-crentes, não da ROC [27].
 
 ### 8.3 Radonitsa e sábados de defuntos (родительские субботы, *roditelskie subboty*)
 
@@ -409,7 +409,7 @@ Notas de implementação:
 - A Radonitsa cai sempre num período sem jejum à terça [2].
 - Pelo documento de 2016, é inadmissível recusar a Comunhão nos sábados de defuntos e na Radonitsa [10].
 
-⚠ PARA CONFIRMAR: a data do Sábado de S. Demétrio diverge. A pravenc diz «суббота перед днем памяти» [27]; a azbyka diz «за неделю перед праздником» [28]. Falta a regra para 26 out. OS a cair num sábado.
+✔ Confirmado (2.ª ronda): é o sábado **estritamente anterior** a 26.10 OS (sábado 19–25.10 OS). Nos anos em que 26.10 OS caiu num sábado (2014, 2025) o calendário da azbyka marcou o sábado anterior (01.11.2014 e 01.11.2025 NS) [37]; a lista oficial de 2026 dá «25 октября (ст.ст.) — Димитриевская родительская суббота» [34]. A expressão «за неделю» da azbyka [28] é aproximada.
 
 ---
 
@@ -468,24 +468,30 @@ Precedências críticas (todas suportadas pelas secções acima):
 
 ## 11. Lista consolidada de dúvidas (⚠)
 
-1. Níveis 1 vs. 2 (pão e água vs. sukhoyadenie): o Typikon é ambíguo [1][3][8].
-2. Qua/sex comuns fora dos jejuns: com ou sem óleo na prática paroquial [16][17].
-3. Qua/sex do Pentecostário: Typikon = azeite/vinho; paróquia = peixe [2][16].
-4. Segunda-feira nos jejuns dos Apóstolos e da Natividade: conflito entre o cap. 33 e o cap. 48 e a pravenc [2][4][13][14][15].
-5. Quarta e quinta da 1.ª semana da Quaresma: comida quente vs. sukhoyadenie; quinta sem comida [1][8][17].
-6. Quinta do Grande Cânone e Quinta Santa: azeite sim/não [1][8].
-7. Sexta Santa: quebra do jejum depois do «вынос» ou do «погребение» [16][17].
-8. Anunciação na Quinta e no Sábado Santos: regra não verificada [2].
-9. Natividade: início do período sem peixe a 20 ou 21 dez. OS; regras de 2–5 jan. NS nas fontes paroquiais [4][14][15][16][18].
-10. Véspera da Teofania em dia útil: tipo de comida não lido no Typikon [6][16].
-11. Mariscos: três posições diferentes [12][19][20].
-12. Bebidas destiladas, cerveja e produtos industriais: nenhuma fonte primária.
-13. Calendário oficial impresso «Православный церковный календарь» (Editora do Patriarcado) e calendário de patriarchia.ru: não lidos (o site exige JavaScript). A camada (b) apoia-se em azbyka/pravmir/foma.
-14. Documento sobre a Eucaristia: aprovado em 2015 (reunião) e adotado em 2016 (concílio); texto oficial lido apenas através de cópia [10][11].
-15. Casamentos: não há documento normativo oficial com a lista; a lista vem da azbyka e há variação diocesana [26].
-16. Sábado de S. Demétrio: «sábado antes» vs. «uma semana antes» [27][28].
-17. Fronteiras das prostrações (Grande Quarta/Sexta; festas do Senhor) [24][25].
-18. Duração do Jejum dos Apóstolos: incoerência interna na azbyka; o cálculo dá 8–42 dias [16].
+Estado após a 2.ª ronda (2026-10-16). **Achado transversal:** o calendário oficial da Editora do Patriarcado (calendar.rop.ru) só indica «пост», «строгий пост», «день постный» ou «поста нет» — **não publica graus de comida** [34]. A camada `PARISH` assenta, portanto, em fontes paroquiais não oficiais (azbyka, pravmir, foma).
+
+1. ✔ Níveis 1 vs. 2: sem contradição (cap. 35 «хлеб и воду, и сим подобная») [1][3][8].
+2. ✔ Qua/sex comuns fora dos jejuns: `PARISH` sem óleo; óleo com santo celebrado; peixe em grandes festas [16][17].
+3. ✔ Qua/sex do Pentecostário: Typikon = azeite/vinho (peixe em 2 dias); paróquia = peixe [2][16][17].
+4. ⚠ Segunda-feira nos jejuns dos Apóstolos e da Natividade: conflito interno cap. 33 vs. cap. 48 → DECISÃO DO UTILIZADOR [2][13][14][15].
+5. ⚠ Quarta e quinta da 1.ª semana da Quaresma: conflito interno (cap. 32 vs. cap. 49) e paroquial → DECISÃO DO UTILIZADOR [1][8][16][17].
+6. ⚠ Quinta do Grande Cânone e Quinta Santa: azeite sim/não (cap. 32 vs. cap. 49; o cap. 49 deixa a Quinta Santa ao superior) → DECISÃO DO UTILIZADOR [1][8].
+7. ⚠ Sexta Santa: quebra do jejum depois do «вынос» (pravmir) ou do «погребение» (azbyka) → DECISÃO DO UTILIZADOR [16][17][34].
+8. ✔ Anunciação na Quinta, Sexta e Sábado Santos: regras lidas nos capítulos de Marcos (25.03) [35].
+9. ⚠ Natividade: 20 vs. 21 dez. OS mantém-se como nota de leitura [4][14][15]; regras paroquiais de 2–5 jan. NS divergentes → DECISÃO DO UTILIZADOR [16][17][18].
+10. ✔ Véspera da Teofania em dia útil: azeite e vinho, sem peixe (Typikon, 05.01) [6].
+11. Mariscos: três posições diferentes [12][19][20] (não revisto na 2.ª ronda).
+12. ⚠ Bebidas destiladas, cerveja e produtos industriais: nenhuma fonte normativa → DECISÃO DO UTILIZADOR.
+13. ✔ Calendário oficial: lido em linha (calendar.rop.ru) [34]; não contém graus de comida (ver acima).
+14. ✔ Documento sobre a Eucaristia: texto oficial lido; aprovado em 2015, adotado pelo Sínodo (05.05.2015) e confirmado pelo Concílio de 2016 [33].
+15. ⚠ Casamentos: não há documento normativo oficial com a lista; a lista vem da azbyka e há variação diocesana [26][36].
+16. ✔ Sábado de S. Demétrio: sábado 19–25.10 OS [34][37].
+17. ✔/⚠ Prostrações: fronteira Grande Quarta/Sexta confirmada no Typikon [8]; lista das festas do Senhor por verificar [24][25].
+18. ✔ Duração do Jejum dos Apóstolos: 8–42 dias [13][17].
+19. ⚠ Santos de polieleo/vigília no Jejum da Dormição: sem regra no Typikon (§3.3).
+20. ⚠ Quaresma com festa de grande doxologia: sem regra específica encontrada (§6).
+21. ✔ João Teólogo: ambas as memórias são de vigília (Typikon) [35].
+22. ✔ Semana contínua do Publicano e Santos dias (7–17 jan. NS): confirmados no calendário oficial [34].
 
 ---
 
@@ -523,3 +529,8 @@ Precedências críticas (todas suportadas pelas secções acima):
 30. Собрание документов РПЦ, т. 2, ч. 1 — «Об установлении особого ежегодного поминовения усопших в день Победы, 9 мая (26 апреля)» (Архиерейский Собор 1994). https://www.azbyka.ru/otechnik/pravila/sobranie-dokumentov-russkoj-pravoslavnoj-tserkvi-tom-2-chast-1/1_8
 31. «Сплошная седмица», Азбука веры. https://azbyka.ru/sploshnaya-sedmica
 32. Прот. Александр Ильяшенко, «Нужно ли послабление поста современным паломникам?», Правмир. https://www.pravmir.ru/vopros-otvet/nuzhno-li-poslablenie-posta-sovremennym-palomnikam/
+33. «Об участии верных в Евхаристии», texto oficial (ficheiro doc_AS_eu.doc anexo ao artigo do Патриархия.ru, 03.02.2015) https://patriarchia.ru/data/2015/02/03/1235926388/doc_AS_eu.doc ; «Постановления Освященного Архиерейского Собора РПЦ (2–3 февраля 2016 года)», п. 18. https://patriarchia.ru/article/97654
+34. Издательство Московской Патриархии — «Православный церковный календарь» oficial em linha: «Пояснения…» (http://calendar.rop.ru/?inc=02), «О церковных праздниках… постах в 2026 году» (http://calendar.rop.ru/?inc=2026) e páginas diárias de 2026 (http://calendar.rop.ru/?idd=N; N = 7, 18, 33, 47, 54, 100, 152). Consultado em 2026-10-16.
+35. Типикон, гл. 48, Месяцеслов (texto integral): 25 марта (Марковы главы sobre a Anunciação na Semana Santa), 14 сентября, 26 сентября, 8 мая. https://azbyka.ru/otechnik/Pravoslavnoe_Bogosluzhenie/tipikon/48
+36. «О канонических аспектах церковного брака» (Архиерейский Собор 2017), Патриархия.ru. https://patriarchia.ru/article/98910
+37. Azbuka Very, calendário diário 2014-11-01, 2025-11-01, 2026-11-07 (Димитриевская родительская суббота). https://azbyka.ru/days/2025-11-01

@@ -270,7 +270,7 @@ Notas de implementação:
   - **Ponomar** (`SERVICE Type`): 8 = festa do Senhor; 7 = festa da Mãe de Deus; 6 = "grande santo" (Pedro e Paulo, João Teólogo…); 5 = vigília; 4 = polieleo; 3 = doxologia; 2 = de seis estiqueras; 1 = simples; 0 = sem serviço; −1 = "Aleluia ou tropário possível"; −2 = memória dupla separável. O autor admite que a distinção 6/5 não é clara [28].
   - **orthocal.info**: campo `feast_level` com descrição (ex.: `2` = "Black squigg (6-stich typikon symbol)") [31].
   - **holytrinityorthodox.com**: 6 = vigília de grande festa; 5 = vigília; 4 = polieleo; 3 = doxologia; 2 = seis estiqueras; 0/1 = sem sinal [37].
-  - **azbyka.ru**: o HTML do widget usa classes `ideograph-N`; a tabela de correspondência N → sinal não foi encontrada publicada [33]. — irrelevante: decisão 8 (sem dependência de dados da azbyka; o rank é curado pelo projeto, ver §11).
+  - **azbyka.ru**: o HTML do widget usa classes `ideograph-N`; a tabela de correspondência N → sinal não foi encontrada publicada [33]. — irrelevante: decisão 8 (sem dependência de dados da azbyka; o rank é curado pelo projeto, ver §8A).
 
 ### 5.2 Como se combinam as memórias (regras gerais documentadas)
 
@@ -451,10 +451,36 @@ Resultado para todo o ciclo de 532 anos **(cálculo próprio, script em JDN)**, 
 | **Andreev (2018)** | tabelas completas de leituras (Apóstolo/Evangelho) para todo o ciclo de 532 anos | PDF académico (Вестник ЕДС, DOI 10.24411/2224-5391-2018-10403) [19] | artigo protegido por direitos de autor; usar como especificação/testes | ru (resumo en) | ROC/MP |
 
 Observações:
-- **Богослужебные указания** (Instruções litúrgicas anuais da Editora do Patriarcado de Moscovo) são a referência normativa anual (inclui a отступка desde 1963) [19], mas não foram encontradas como dados abertos. (2.ª ronda) A mesma Editora publica em linha o **Православный церковный календарь** oficial (calendar.rop.ru): месяцеслов diário com semana, tom, Evangelho matinal, leituras e notas de ordo, publicado só com um mês de antecedência; os dados completos estão no «Патриарший календарь» impresso [41][47]. É a melhor referência de verificação (ver §11).
+- **Богослужебные указания** (Instruções litúrgicas anuais da Editora do Patriarcado de Moscovo) são a referência normativa anual (inclui a отступка desde 1963) [19], mas não foram encontradas como dados abertos. (2.ª ronda) A mesma Editora publica em linha o **Православный церковный календарь** oficial (calendar.rop.ru): месяцеслов diário com semana, tom, Evangelho matinal, leituras e notas de ordo, publicado só com um mês de antecedência; os dados completos estão no «Патриарший календарь» impresso [41][47]. É a melhor referência de verificação (ver §8A).
 - ⚠ Colunas "Licença / termos" desta tabela (azbyka, holytrinity, pravoslavie, textos de terceiros no Ponomar) — irrelevante: decisão 8 (cálculo próprio + base de santos curada; nenhuma destas fontes é dependência).
 - O Ponomar publica no sítio uma declaração editorial que condena a agressão contra a Ucrânia e critica a liderança do Patriarcado de Moscovo [29]. Facto relevante para decisões de produto (atribuição/branding), não para a qualidade técnica dos dados.
 - Para a prática MP, a fonte aberta mais completa e com licença clara é o **Ponomar** (GPLv3, com cautela nos textos de terceiros); para validação cruzada diária, **azbyka.ru** (MP, russo) e **holytrinityorthodox.com** (MP, inglês). O **orthocal.info** é útil para inglês e testes, mas segue a OCA/ROCOR (pode divergir em santos locais russos e em detalhes de prática).
+
+---
+
+## 8A. Base própria de santos e festas (decisão 8)
+
+### 8A.1 Lista de referência para as comemorações diárias
+
+- **Fonte autoritativa:** o **«официальный календарь Русской Православной Церкви»** — o «Православный церковный календарь» / «Патриарший календарь» anual da Editora do Patriarcado de Moscovo (Издательство Московской Патриархии), cujo месяцеслов é a referência citada pelos próprios atos oficiais (p. ex. Concílio dos Bispos 2013: «как и указано в официальном календаре Издательства Московской Патриархии») [43][47]. Consulta em linha: calendar.rop.ru (um mês à frente; completo só na edição impressa) [41].
+- **Estrutura de cada dia no calendário oficial** («Пояснения») [41]: (1) festa ou domingo/semana depois do Pentecostes e tom; 1.º parágrafo — santos universais e russos **com ofício** na Minea/Triódio (e alguns russos recém-glorificados); 2.º — todos os outros santos do dia, exceto novos mártires; 3.º — novos mártires e confessores **sem ofício próprio** (apelido em itálico, por decisão do Concílio de 2011); 4.º — ícones locais da Mãe de Deus; depois, notas de liturgia/jejum («особо строгий пост или поста нет»), leituras e notas de ordo. Títulos e nomes segundo a resolução patriarcal n.º ПК–01/1832 de 02.11.2015 [41]. Sugestão de modelo: campo `paragraph ∈ {1,2,3,4}` por memória.
+- **Indícios tipográficos de rank** (calendário oficial) [41]: Doze festas — negrito vermelho grande; domingos — vermelho; santos com **vigília** (e ainda Sto. André e S. Vladimir) — negrito vermelho menor; outros santos grandes/especialmente venerados — negrito preto. O sinal exato do Typikon (§5.1) vem do Месяцеслов do Typikon (cap. 48) para os santos que lá constam [10]; para santos posteriores, da Minea da MP e das Богослужебные указания (não abertas).
+- **Atualizações:** (a) decisões do Santo Sínodo publicadas nos «Журналы» em patriarchia.ru com a fórmula «Включить в месяцеслов Русской Православной Церкви…» e a data OS/NS (ex.: 12.03.2026 — S. Nicodemo (Milaš), 21.09/04.10; Sta. Ana, mãe de S. Basílio de Ostrog, 30.04/13.05) [47]; (b) **lista oficial do Concílio dos Novos Mártires e Confessores**, mantida pela Comissão sinodal de canonização e pelo departamento de calendário da Editora, com «все даты памяти святого, входящие в официальный календарь… (по старому и по новому стилям)» — versão de outubro de 2026 em .doc [47]; (c) lista oficial dos **Concílios (Соборы) de santos** com a regra de data de cada um [42].
+- **Dados de domínio público a guardar:** nome canónico (eslavo/russo) + nome PT, título de santidade (лик), data OS, tipo de colocação (§8A.2), rank, parágrafo, ano/século. Não copiar tropários, vidas nem notas (decisão 7: traduções próprias).
+
+### 8A.2 Regras de colocação (fixa vs. móvel)
+
+| Tipo | Regra | Exemplos (datas OS) | Fonte |
+|---|---|---|---|
+| **Fixa** | data OS do Месяцеслов (NS = OS + 13 em 1900–2099) | a maioria das memórias; 26.04 (= 9 maio NS, militares mortos, Concílio 1994); 17.10 (= 30 out. NS, vítimas das perseguições, Sínodo 2021) | [41] |
+| **Pascal** (offset de P) | ver §3.1 | Todos os santos da terra russa = 2.º domingo depois do Pentecostes (P+63); Padres do Monte Atos = 2.º domingo depois do Pentecostes; vários Concílios regionais (Bielorrússia, Volgogrado, Vologda, Novgorod, Pskov, S. Petersburgo, Udmúrtia) = 3.º domingo depois do Pentecostes (P+70); Pskov-Pechory = 4.º domingo (P+77); Novos Mártires de Butovo = «4-я суббота по Пасхе» (P+27; 2026 → 26.04 OS / 09.05 NS); Padres do Sinai = quarta da Semana Luminosa (P+3); Todos os veneráveis padres = Sábado do Queijo (P−50); Todos os padres das Grutas de Kiev = 2.º domingo da Quaresma (P−35) | [41][42] |
+| **Domingo/sábado num intervalo** (ciclo fixo) | fórmula «dia da semana d no intervalo [a, b] OS» | Sáb./dom. antes da Exaltação 07–13.09; depois 15–21.09; Padres do VII Concílio dom. 11–17.10; Sábado de S. Demétrio 19–25.10; Antepassados dom. 11–17.12; Santos Padres dom. 18–24.12; dom. depois do Natal 26–31.12 (Natal em domingo → segunda 26.12); Novos Mártires dom. 22–28.01; Padres dos seis Concílios dom. 13–19.07 | §3.2 [10][41][43] |
+| **«Ближайшее воскресенье к X»** | domingo em [X−3, X+3] | Alanos (10.11), Alemanha (20.09), Saratov (31.08); Novos Mártires (25.01) | [42] |
+| **«Воскресенье после X»** | domingo em [X+1, X+7] ⚠ | Altai (07.09), Valaam (06.08), Kuban (28.09), Cazaquistão — novos mártires (03.09), Carélia — novos mártires (18.10), Níjni Novgorod (26.08), Perm (29.01), Tver (29.06), Kholm e Podláquia (19.05); Cheliabinsk (27.09: «27 сентября, если это воскресный день; в воскресенье перед 27 сентября, если на воскресенье после 27 сентября приходится праздник Покрова») | [42] |
+| **«Воскресенье перед X»** | domingo em [X−7, X−1] ⚠ | Espanha e Portugal (29.09), Kuzbass (18.08), Moscovo (26.08), Smolensk (28.07) | [42] |
+| Ligada a outra celebração | no mesmo dia | Comemoração dos que sofreram nas perseguições (Sínodo 30.01.1991): no calendário oficial de 2026 está no domingo do Concílio dos Novos Mártires (26.01 OS) | [41] |
+
+⚠ PARA CONFIRMAR: a lista oficial [42] não diz se «после X»/«перед X» inclui X quando X é domingo (a nota de Cheliabinsk sugere que, nesse caso particular, sim). Validar ano a ano contra o calendário oficial [41] antes de fixar a regra.
 
 ---
 
@@ -522,3 +548,11 @@ Estado após a 2.ª ronda (2026-10-16):
 38. Православие.Ru — Православный церковный календарь. https://days.pravoslavie.ru/
 39. Полный православный богословский энциклопедический словарь — "Рождество Иоанна Предтечи" (Azbuka Very). https://www.azbyka.ru/otechnik/Spravochniki/polnyj-pravoslavnyj-bogoslovsko-entsiklopedicheskij-slovar/2529
 40. Ponomar — `GospelSelector.java` (opções "LucanJump" e "Jordanville/TheophanyJump") e `DivineLiturgy1.java` (definição de `ndayP`/`ndayF`). https://github.com/typiconman/ponomar/tree/master/Ponomar
+41. Издательство Московской Патриархии — «Православный церковный календарь» oficial em linha: «Пояснения к Православному церковному календарю» (http://calendar.rop.ru/?inc=02), «О церковных праздниках… постах в 2026 году» (http://calendar.rop.ru/?inc=2026) e páginas diárias de 2026 (http://calendar.rop.ru/?idd=N, N = dia do ano; consultadas N = 33, 39, 47, 54, 129, 165, 172, 187–194, 207, 255, 271, 278, 303). Consultado em 2026-10-16.
+42. «Перечень Соборов святых с указанием дат празднования по старому стилю», Патриарший календарь 2024, pp. 417–418 (Издательство Московской Патриархии). http://calendar.rop.ru/pdf2024/07_ss.pdf
+43. «Постановления Освященного Архиерейского Собора Русской Православной Церкви» (2013), п. 30 (Собор новомучеников). Патриархия.ru. https://patriarchia.ru/article/88595
+44. Azbuka Very, calendário diário: 2014-11-01, 2019-11-02, 2025-11-01, 2026-11-07 (Димитриевская родительская суббота); 2022-07-31, 2023-07-30, 2024-07-28, 2025-07-27 (отцов шести Вселенских Соборов); 2026-09-28. https://azbyka.ru/days/AAAA-MM-DD
+45. Кашкин А. С. «Устав православного богослужения: учебное пособие по Литургике». Саратов: Изд-во Саратовской митрополии, 2010 (Ч. I, гл. 2, §2.1; texto em Azbuka Very). https://azbyka.ru/otechnik/Aleksej_Kashkin/ustav-pravoslavnogo-bogosluzhenija/3_22
+46. Патриархия.ru: прот. Николай Балашов (23.12.2005) https://patriarchia.ru/article/55673 ; митр. Иларион (09.09.2011) https://patriarchia.ru/article/51746 ; митр. Ювеналий, «Еще не пришло время обсуждать вопрос о григорианском календаре» (31.12.2017) https://patriarchia.ru/article/98990 ; determinações/decretos dos Concílios dos Bispos 2008 (88781), 2011 (96524), 2016 (97654), 2017 (98916) em https://patriarchia.ru/article/<id>.
+47. Патриархия.ru: «В месяцеслов Русской Православной Церкви включены имена двух святых Сербской Православной Церкви» (12.03.2026) https://patriarchia.ru/article/120118 ; «Опубликован актуальный список Собора новомучеников и исповедников Церкви Русской» (02.10.2026, com ficheiro .doc) https://patriarchia.ru/article/123170 ; «Вышел в свет Патриарший календарь на 2027 год» https://patriarchia.ru/article/123332 ; «…Богослужебный месяцеслов на 2027 год» https://patriarchia.ru/article/121906
+48. Православная энциклопедия, «Димитриевская родительская суббота». https://www.pravenc.ru/text/172067.html
