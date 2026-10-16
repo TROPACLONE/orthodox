@@ -443,7 +443,7 @@
     - desde 2013: sacerdote Aleksandr Piskunov (nomeado por decisão do Santo Sínodo de 26 dez. 2012) [116];
   - **2026:** liturgia missionária em português (24 jan. 2026); liturgia episcopal presidida pelo bispo Pedro de Kafa, vigário do Exarcado da Europa Ocidental (24 jun. 2026) [119][118];
   - horário publicado: sábado 18h00 vigília e confissões; domingo 9h30 Horas e Divina Liturgia [114];
-  - **⚠ PARA CONFIRMAR (2.ª ronda: parcialmente esclarecido):**
+  - **✔ Confirmado pelo utilizador (decisões 34–35):** morada n.º 97; capela = antiga capela das Oficinas de São José. Notas da 2.ª ronda:
     - a página «Contactos» continua (out. 2026) a dizer «Diocese de Korsun, decanato português» — desatualizada face à criação da Diocese Hispano-Portuguesa em 2018; morada: «123, Rua Alexandre Herculano» [117];
     - **divergência de morada:** o Vicariato (ortodoxia.pt) indica para a mesma paróquia «Rua Alexandre Herculano 97, 4000-054 Porto» [122];
     - identidade da igreja: a página de história diz apenas que em 2012 a diocese católica cedeu «a capela desocupada do antigo asilo infantil eclesiástico "Oficinas de São José"» [115]; as Oficinas de São José do Porto foram uma obra fundada em 1880 por D. Sebastião Leite de Vasconcelos (depois bispo de Beja), mais tarde ligada aos Salesianos [142]. **Nenhuma fonte encontrada liga expressamente essa capela à morada da Rua Alexandre Herculano** (pesquisado: sítio da paróquia, ortodoxia.pt, pesquisas em português e russo). A identidade continua muito provável, mas não confirmada; próximo passo: perguntar à paróquia ou à Diocese do Porto.
@@ -456,7 +456,7 @@
 
 **⚠ PARA CONFIRMAR — ainda em aberto após a 2.ª ronda**
 1. Ano de fundação da paróquia de Todos os Santos (Lisboa); só se sabe que existia em 2003 (§5.4).
-2. Identidade da Capela de São José (Porto) com a capela das Oficinas de São José; divergência de morada (n.º 123 vs. n.º 97); página de contactos desatualizada (§5.4).
+2. ✔ Confirmado pelo utilizador (decisões 34–35): a Capela de São José é a capela das antigas Oficinas de São José; morada correta: Rua Alexandre Herculano, 97, 4000-054 Porto. (Página de contactos da paróquia desatualizada.)
 3. Comunidades em Portugal das antigas estruturas ucranianas não canónicas (§5.3).
 4. Reverificar à data de publicação: comunhão IOR–Constantinopla e processos da IOU (§4.2–4.3).
 

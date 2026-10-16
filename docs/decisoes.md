@@ -13,7 +13,7 @@ Registo das decisões tomadas pelo utilizador. Em caso de dúvida, pergunta-se s
 | 7 | 2026-10-16 | Traduções PT | **Traduções próprias** a partir do eslavo/grego, assinaladas como «tradução não oficial». Não se usam os textos com direitos reservados da paróquia de Cascais. |
 | 8 | 2026-10-16 | Dados diários | **Cálculo próprio** (calendário, Páscoa, tons, leituras por algoritmo) + base de santos curada pelo projeto. Sem dependência de API externa nem de dados GPL. |
 | 9 | 2026-10-16 | Pesquisa | Fazer 2.ª ronda dirigida para resolver os pontos `⚠ PARA CONFIRMAR` factuais. |
-| 10 | 2026-10-16 | Santos | Só os principais (~100), com critério de seleção documentado; os restantes apenas pelo nome no calendário. |
+| 10 | 2026-10-16 | Santos | Só os principais (~100; **alargado a 128 pela decisão 33**), com critério de seleção documentado; os restantes apenas pelo nome no calendário. |
 | 11 | 2026-10-16 | Biblioteca | Livros gratuitos e legais em português, inglês, russo e outras línguas (grego, eslavo), com estado de direitos de autor verificado. |
 | 12 | 2026-10-16 | Temas adicionais | Ícones e templo; história da Igreja; Padres e espiritualidade; música e peregrinações. |
 | 13 | 2026-10-16 | Paróquia do utilizador | Paróquia dos Novos Mártires e Confessores da Igreja Russa no Porto (Capela de São José, porto.cerkov.ru). **Só referência** na base de conhecimento (Ortodoxia em Portugal); sem destaque na app; a referência litúrgica continua a ser a prática na Rússia. |
@@ -35,3 +35,7 @@ Registo das decisões tomadas pelo utilizador. Em caso de dúvida, pergunta-se s
 | 29 | 2026-10-16 | Textos litúrgicos (multilíngue) | **Eslavo eclesiástico + língua escolhida**, lado a lado, nas 4 línguas (em RU: eslavo + tradução russa livre de direitos ou própria). Fontes e licenças verificadas por língua. |
 | 30 | 2026-10-16 | Terminologia ucraniana | Uso da **Igreja Ortodoxa Ucraniana (IOU)** — tradição ligada historicamente ao Patriarcado de Moscovo, calendário juliano. |
 | 31 | 2026-10-16 | Língua por defeito | **Detetar a língua do aparelho** (se for uma das 4); caso contrário **PT-PT**. Alterável nas definições. |
+| 32 | 2026-10-16 | Vestes e objetos litúrgicos | **Forma grega aportuguesada** (esticário, epitraquélio, felónio, orário, epimaniquia…), com o termo eslavo entre parênteses e explicação no glossário. |
+| 33 | 2026-10-16 | Santos (número) | **128 santos** (critérios A + B + lista editorial C completa). |
+| 34 | 2026-10-16 | Paróquia do Porto — morada | **Rua Alexandre Herculano, 97, 4000-054 Porto** (confirmado pelo utilizador; coincide com o Vicariato). |
+| 35 | 2026-10-16 | Paróquia do Porto — capela | A Capela de São José é a **capela das antigas «Oficinas de São José»** (confirmado pelo utilizador). |
