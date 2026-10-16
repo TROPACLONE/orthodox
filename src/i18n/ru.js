@@ -21,6 +21,7 @@ export default {
     semLiturgia: 'В этот день Литургия не совершается.',
     ordinario: 'Рядовые (под зачало)', leiturasDeslocadas: 'Рядовые чтения этого дня читаются в другой день седмицы (под зачало).',
     mostrarEslavo: 'Показывать церковнославянский', sim: 'Да', nao: 'Нет', vezes: n => `${n} ${{ one: 'раз', few: 'раза' }[new Intl.PluralRules('ru').select(n)] || 'раз'}`,
+    erroCarregar: 'Не удалось открыть этот текст. Подключитесь к интернету один раз, чтобы сохранить его на устройстве.',
     emPreparacao: 'В подготовке', emPreparacaoTxt: 'Этот раздел появится в следующей версии.',
     lingua: 'Язык', camadaDefeito: 'Пост: что показывать по умолчанию', tamanhoTexto: 'Размер текста',
     pequeno: 'Мелкий', normal: 'Обычный', grande: 'Крупный', muitoGrande: 'Очень крупный',

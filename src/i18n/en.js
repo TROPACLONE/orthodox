@@ -22,6 +22,7 @@ export default {
     semLiturgia: 'No Liturgy on this day.',
     ordinario: 'Of the day (“pod zachalo”)', leiturasDeslocadas: 'The ordinary readings of this day are read together with those of another day of the week (“pod zachalo”).',
     mostrarEslavo: 'Show Church Slavonic', sim: 'Yes', nao: 'No', vezes: n => (n === 2 ? 'twice' : n === 3 ? 'three times' : `${n} times`),
+    erroCarregar: 'This text could not be opened. Connect to the internet once to save it on the device.',
     emPreparacao: 'In preparation', emPreparacaoTxt: 'This section arrives in a later version.',
     lingua: 'Language', camadaDefeito: 'Fast: layer shown by default', tamanhoTexto: 'Text size',
     pequeno: 'Small', normal: 'Normal', grande: 'Large', muitoGrande: 'Extra large',

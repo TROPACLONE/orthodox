@@ -26,6 +26,7 @@ export default {
     semLiturgia: 'Цього дня Літургія не звершується.',
     ordinario: 'Рядові (під зачало)', leiturasDeslocadas: 'Рядові читання цього дня читаються в інший день седмиці (під зачало).',
     mostrarEslavo: 'Показувати церковнослов’янський', sim: 'Так', nao: 'Ні', vezes: n => `${n} ${{ one: 'раз', few: 'рази' }[new Intl.PluralRules('uk').select(n)] || 'разів'}`,
+    erroCarregar: 'Не вдалося відкрити цей текст. Під’єднайтеся до інтернету один раз, щоб зберегти його на пристрої.',
     emPreparacao: 'Готується', emPreparacaoTxt: 'Цей розділ з’явиться в наступній версії.',
     lingua: 'Мова', camadaDefeito: 'Піст: що показувати за замовчуванням', tamanhoTexto: 'Розмір тексту',
     pequeno: 'Малий', normal: 'Звичайний', grande: 'Великий', muitoGrande: 'Дуже великий',

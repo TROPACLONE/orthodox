@@ -21,6 +21,7 @@ export default {
     semLiturgia: 'Sem Liturgia neste dia.',
     ordinario: 'Do dia («под зачало»)', leiturasDeslocadas: 'As leituras ordinárias deste dia leem-se juntamente com as de outro dia da semana («под зачало»).',
     mostrarEslavo: 'Mostrar o eslavo', sim: 'Sim', nao: 'Não', vezes: n => (n === 1 ? 'uma vez' : `${n} vezes`),
+    erroCarregar: 'Não foi possível abrir este texto. Ligue-se à internet uma vez para o guardar no aparelho.',
     emPreparacao: 'Em preparação', emPreparacaoTxt: 'Esta secção chega numa próxima versão.',
     lingua: 'Língua', camadaDefeito: 'Jejum: camada mostrada por defeito', tamanhoTexto: 'Tamanho do texto',
     pequeno: 'Pequeno', normal: 'Normal', grande: 'Grande', muitoGrande: 'Muito grande',

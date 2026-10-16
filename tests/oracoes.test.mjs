@@ -3,11 +3,18 @@ import assert from 'node:assert/strict';
 import fs from 'fs';
 import { jdnGregoriano as G } from '../src/engine/datas.js';
 import { dia } from '../src/engine/calendario.js';
-import { periodoOracao, blocosDoPeriodo } from '../src/engine/oracoes.js';
+import { periodoOracao, blocosDoPeriodo, eNoite } from '../src/engine/oracoes.js';
 const P = d => periodoOracao(dia(G(...d)));
 assert.equal(P([2026, 4, 12]), 'semana_luminosa'); assert.equal(P([2026, 4, 18]), 'semana_luminosa');
 assert.equal(P([2026, 4, 19]), 'pascoa_ascensao'); assert.equal(P([2026, 5, 20]), 'pascoa_ascensao');
 assert.equal(periodoOracao(dia(G(2026, 5, 20)), true), 'ascensao_pentecostes');   // noite da véspera da Ascensão (B1)
+// Hora (app: periodoOracao(d, eNoite(id, hora))): a partir das 18 h qualquer oração; as da noite desde o meio-dia, mas
+// à 01 h do dia P+38 ainda é o dia litúrgico P+38 (Tempo Pascal), não a Ascensão.
+const PH = (d, id, hora) => periodoOracao(dia(G(...d)), eNoite(id, hora));
+assert.equal(PH([2026, 5, 20], 'noite', 1), 'pascoa_ascensao'); assert.equal(PH([2026, 5, 20], 'noite', 21), 'ascensao_pentecostes');
+assert.equal(PH([2026, 5, 20], 'noite', 14), 'ascensao_pentecostes'); assert.equal(PH([2026, 5, 20], 'manha', 7), 'pascoa_ascensao');
+assert.equal(PH([2026, 5, 20], 'refeicoes', 19), 'ascensao_pentecostes'); assert.equal(PH([2026, 5, 30], 'noite', 22), 'comum');
+assert.equal(PH([2026, 4, 18], 'noite', 22), 'semana_luminosa');   // ⚠ Sábado Luminoso (B1)
 assert.equal(P([2026, 5, 21]), 'ascensao_pentecostes'); assert.equal(P([2026, 5, 31]), 'comum');
 assert.deepEqual(blocosDoPeriodo([{ id: 'a' }, { id: 'b', quando: { so: ['semana_luminosa'] } }, { id: 'c', quando: { excepto: ['semana_luminosa'] } }], 'comum').map(b => b.id), ['a', 'c']);
 let n = 0;

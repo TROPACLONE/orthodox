@@ -245,10 +245,10 @@ function ecraOracao() {
   for (const b of blocosDoPeriodo(dados.blocos, periodo)) {
     const rep = b.repetir ? ` (${T.ui.vezes(b.repetir)})` : '';
     if (b.tipo === 'rubrica') { s.append(h('p', { class: 'rubrica', text: b.t + rep })); continue; }
-    if (b.tipo === 'titulo') { s.append(h('h2', { class: 'titulo-oracao', text: b.t })); continue; }
+    if (b.tipo === 'titulo') { if (b.t !== dados.titulo) s.append(h('h2', { class: 'titulo-oracao', text: b.t })); continue; }   // o 1.º título repete o h1
     const par = h('div', { class: 'par' });
     // «(3 vezes)» está na língua da interface, não em eslavo
-    if (eslavo && b.cu) par.append(h('p', { class: 'slav', lang: st.lingua === 'uk' ? 'uk' : 'cu' }, eslavo(b.cu), rep && h('span', { lang: T.lang, text: rep })));
+    if (eslavo && b.cu) par.append(h('p', { class: 'slav', lang: 'cu' }, eslavo(b.cu), rep && h('span', { lang: T.lang, text: rep })));
     par.append(h('p', { class: 'trad', text: b.t + (eslavo && b.cu ? '' : rep) }));
     s.append(par);
   }
@@ -360,7 +360,13 @@ $('main').addEventListener('click', async e => {
   else if (a === 'camada-defeito') { st.camada = b.dataset.valor; gravar('camada', st.camada); }
   else if (a === 'escala') { st.escala = b.dataset.valor; gravar('escala', st.escala); }
   else if (a === 'eslavo') { st.eslavo = b.dataset.valor === 'sim'; gravar('eslavo', b.dataset.valor); }
-  else if (a === 'oracao') { abrirOracao(b.dataset.id).catch(() => {}); return; }
+  else if (a === 'oracao') {
+    abrirOracao(b.dataset.id).catch(() => {           // sem rede e ainda não guardada: avisa em vez de não fazer nada
+      const aviso = h('p', { class: 'nota', role: 'status', text: st.t.ui.erroCarregar });
+      $('main').querySelector('.screen')?.prepend(aviso);
+    });
+    return;
+  }
   else return;
   // O ecrã é reconstruído: o foco do teclado volta ao botão equivalente (ou ao conteúdo, se o botão desapareceu).
   const comFoco = document.activeElement === b;
