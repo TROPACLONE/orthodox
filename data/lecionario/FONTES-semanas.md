@@ -55,3 +55,13 @@ Ficheiros: `pentecostario.json` (P+0 … P+56, 57 dias) e `semanas.json` (semana
 - ⚠ **Limites de versículos do Apóstolo**: zachala confirmados em B e C para todos os dias; versículos inicial/final conferidos com rubricas de B só numa amostra (~60) e nos 16 dias da §3. Recomenda-se uma 2.ª passagem completa pelas rubricas «Конец …» de B.
 - ⚠ D (PDF digital do texto isabelino, 2010) é usado apenas como índice zachalo→versículo; o texto subjacente é de domínio público, mas a origem da digitalização não está documentada. Para eliminar esta dependência, cada zachalo pode ser conferido nas margens de B/A.
 - As semanas 33–35 (Publicano, Pródigo, Carnaval) sobrepõem-se ao Triódio; o motor deve dar prioridade a `triodio.json` quando aplicável.
+
+## 5. Verificação de conteúdo (decisão 49, fase 1 — 2026-10-16)
+
+Conferido contra o calendário oficial do Patriarcado de Moscovo de 2026 (calendar.rop.ru, 01.01–31.10.2026) e azbyka.ru/days (431 dias); relatório completo em `docs/qa/fase1-conteudo.md`.
+
+- ✔ **Mt 7,15-21 (sem. 2 ter)**: zachalo corrigido **21 → 22** (calendário oficial 09.06.2026 «Мф., 22 зач., VII, 15–21»; coincide com D). Resolve o ⚠ da §4.
+- ✔ **Mt 13,3-9 (sem. 5 sex)**: início corrigido 13,4 → **13,3** (oficial 03.07.2026; azbyka 11.07.2025 e 23.07.2027).
+- ✔ **1 Jo 3,10-20 (Apóstolo, sem. 35 ter)**: início corrigido 3,11 → **3,10** (oficial 10.02.2026; azbyka 02.03.2027).
+- ⚠ Lc 7,2-10 (Sáb. 21/22): a azbyka dá 7,1-10; mantido 7,2 (fonte C) até haver o calendário oficial de novembro.
+- Restantes zachala/versículos dos dias comparados: coincidem com o calendário oficial.

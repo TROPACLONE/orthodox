@@ -156,8 +156,9 @@
  "-61": {
   "ap": [
    {
-    "r": "1John.3.11-20",
-    "z": 72
+    "r": "1John.3.10-20",
+    "z": 72,
+    "conf": "calendário oficial MP 10.02.2026; azbyka 02.03.2027"
    }
   ],
   "ev": [
@@ -927,10 +928,11 @@
     "z": 314
    },
    {
-    "r": "Eph.5.9-19",
-    "z": 224,
+    "r": "Eph.5.8-19",
+    "z": 229,
     "tipo": "santo",
-    "nota": "S. João Clímaco"
+    "nota": "S. João Clímaco",
+    "conf": "zachalo 224 = Ef 4,7-13 (calendário oficial MP 25.01.2026); Ef 5,8-19 = zach. 229 (FONTES-semanas, fontes B/C; azbyka 11.04.2027)"
    }
   ],
   "ev": [
@@ -1231,19 +1233,22 @@
     "r": "Gen.49.1-2;Gen.49.8-12",
     "sv": "vesperas_vespera",
     "n": 1,
-    "verificado": false
+    "verificado": false,
+    "nota_verif": "Hapgood 1906 (p. 204) dá Gn 49,1-12 (perícope envolvente); a seleção eslava 1-2.8-12 fica por confirmar no Triódio sinodal"
    },
    {
     "r": "Zeph.3.14-19",
     "sv": "vesperas_vespera",
     "n": 2,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 204"
    },
    {
     "r": "Zech.9.9-15",
     "sv": "vesperas_vespera",
     "n": 3,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 204"
    }
   ],
   "nome": "Entrada do Senhor em Jerusalém (Ramos)",
@@ -1267,17 +1272,20 @@
    {
     "r": "Ezek.1.1-20",
     "sv": "hora6",
-    "verificado": false
+    "verificado": false,
+    "nota_verif": "Hapgood 1906 não traz as parémias de seg.–qua. Santas; por conferir no Triódio sinodal"
    },
    {
     "r": "Exod.1.1-20",
     "sv": "vesperas",
-    "verificado": false
+    "verificado": false,
+    "nota_verif": "Hapgood 1906 não traz as parémias de seg.–qua. Santas; por conferir no Triódio sinodal"
    },
    {
     "r": "Job.1.1-12",
     "sv": "vesperas",
-    "verificado": false
+    "verificado": true,
+    "conf": "Τριῴδιον κατανυκτικόν, Veneza 1876 (archive.org, Grande Segunda, Vésperas: início Κεφ. Α΄ 1, fim «ἐξῆλθεν ὁ Διάβολος ἀπὸ προσώπου Κυρίου» = 1,12)"
    }
   ],
   "nome": "Grande e Santa Segunda-feira"
@@ -1300,17 +1308,20 @@
    {
     "r": "Ezek.1.21-2.1",
     "sv": "hora6",
-    "verificado": false
+    "verificado": false,
+    "nota_verif": "Hapgood 1906 não traz as parémias de seg.–qua. Santas; por conferir no Triódio sinodal"
    },
    {
     "r": "Exod.2.5-10",
     "sv": "vesperas",
-    "verificado": false
+    "verificado": false,
+    "nota_verif": "Hapgood 1906 não traz as parémias de seg.–qua. Santas; por conferir no Triódio sinodal"
    },
    {
     "r": "Job.1.13-22",
     "sv": "vesperas",
-    "verificado": false
+    "verificado": false,
+    "nota_verif": "Hapgood 1906 não traz as parémias de seg.–qua. Santas; por conferir no Triódio sinodal"
    }
   ],
   "nome": "Grande e Santa Terça-feira"
@@ -1333,17 +1344,20 @@
    {
     "r": "Ezek.2.3-3.3",
     "sv": "hora6",
-    "verificado": false
+    "verificado": false,
+    "nota_verif": "Hapgood 1906 não traz as parémias de seg.–qua. Santas; por conferir no Triódio sinodal"
    },
    {
     "r": "Exod.2.11-22",
     "sv": "vesperas",
-    "verificado": false
+    "verificado": false,
+    "nota_verif": "Hapgood 1906 não traz as parémias de seg.–qua. Santas; por conferir no Triódio sinodal"
    },
    {
     "r": "Job.2.1-10",
     "sv": "vesperas",
-    "verificado": false
+    "verificado": false,
+    "nota_verif": "Hapgood 1906 não traz as parémias de seg.–qua. Santas; por conferir no Triódio sinodal"
    }
   ],
   "nome": "Grande e Santa Quarta-feira"
@@ -1384,25 +1398,29 @@
    {
     "r": "Jer.11.18-23;Jer.12.1-5;Jer.12.9-11;Jer.12.14-15",
     "sv": "hora6",
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 210–211"
    },
    {
     "r": "Exod.19.10-19",
     "sv": "vesperas",
     "n": 1,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 212"
    },
    {
     "r": "Job.38.1-23;Job.42.1-5",
     "sv": "vesperas",
     "n": 2,
-    "verificado": false
+    "verificado": false,
+    "nota_verif": "Hapgood 1906 (p. 212) dá Jb 38,1-22; 42,1-5; os dados seguem 38,1-23 — por confirmar no Triódio sinodal"
    },
    {
     "r": "Isa.50.4-11",
     "sv": "vesperas",
     "n": 3,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 213"
    }
   ],
   "nome": "Grande e Santa Quinta-feira",
@@ -1417,10 +1435,11 @@
     "meio": true
    },
    {
-    "r": "Rom.5.6-10",
+    "r": "Rom.5.6-11",
     "z": 88,
     "sv": "hora3",
-    "meio": true
+    "meio": true,
+    "conf": "calendário oficial MP 10.04.2026 («Рим., 88 зач. (от полу́), V, 6–11»); azbyka 30.04.2027"
    },
    {
     "r": "Heb.2.11-18",
@@ -1532,50 +1551,58 @@
     "sv": "hora9"
    },
    {
-    "r": "Matt.27.1-38;Luke.23.39-43;Matt.27.39-54;John.19.31-37;Matt.27.55-61",
+    "r": "Matt.27.1-44;Luke.23.39-43;Matt.27.45-54;John.19.31-37;Matt.27.55-61",
     "z": 110,
     "sv": "vesperas",
-    "nota": "Evangelho composto"
+    "nota": "Evangelho composto",
+    "conf": "calendário oficial MP 10.04.2026 (Ev. составное); azbyka 30.04.2027 — Hapgood 1906 divide em 1-38/39-54"
    }
   ],
   "vt": [
    {
     "r": "Zech.11.10-13",
     "sv": "hora1",
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 217 (impresso «Zech. xix.» por gralha; vv. 10-13)"
    },
    {
     "r": "Isa.50.4-11",
     "sv": "hora3",
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 217"
    },
    {
     "r": "Isa.52.13-54.1",
     "sv": "hora6",
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 217"
    },
    {
     "r": "Jer.11.18-23;Jer.12.1-5;Jer.12.9-11;Jer.12.14-15",
     "sv": "hora9",
-    "verificado": false
+    "verificado": false,
+    "nota_verif": "Hapgood 1906 (p. 217) tem gralhas nesta referência («Jer. xii. 18-23, xii. 1-15»); conferida a da Quinta Santa (p. 210)"
    },
    {
     "r": "Exod.33.11-23",
     "sv": "vesperas",
     "n": 1,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 218"
    },
    {
     "r": "Job.42.12-17",
     "sv": "vesperas",
     "n": 2,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 218"
    },
    {
     "r": "Isa.52.13-54.1",
     "sv": "vesperas",
     "n": 3,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 218"
    }
   ],
   "nome": "Grande e Santa Sexta-feira",
@@ -1611,97 +1638,113 @@
    {
     "r": "Ezek.37.1-14",
     "sv": "matinas",
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 223"
    },
    {
     "r": "Gen.1.1-13",
     "sv": "vesperas",
     "n": 1,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 224"
    },
    {
     "r": "Isa.60.1-16",
     "sv": "vesperas",
     "n": 2,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 224"
    },
    {
     "r": "Exod.12.1-11",
     "sv": "vesperas",
     "n": 3,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 224"
    },
    {
     "r": "Jonah.1.1-4.11",
     "sv": "vesperas",
     "n": 4,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 224"
    },
    {
     "r": "Josh.5.10-15",
     "sv": "vesperas",
     "n": 5,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 224"
    },
    {
     "r": "Exod.13.20-15.19",
     "sv": "vesperas",
     "n": 6,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 224"
    },
    {
     "r": "Zeph.3.8-15",
     "sv": "vesperas",
     "n": 7,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 224"
    },
    {
     "r": "1Kgs.17.8-24",
     "sv": "vesperas",
     "n": 8,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 224"
    },
    {
     "r": "Isa.61.10-62.5",
     "sv": "vesperas",
     "n": 9,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 224"
    },
    {
     "r": "Gen.22.1-18",
     "sv": "vesperas",
     "n": 10,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 224"
    },
    {
-    "r": "Isa.61.1-10",
+    "r": "Isa.61.1-9",
     "sv": "vesperas",
     "n": 11,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 224 (Is 61,10 abre a 9.ª parémia)"
    },
    {
     "r": "2Kgs.4.8-37",
     "sv": "vesperas",
     "n": 12,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 224"
    },
    {
     "r": "Isa.63.11-64.5",
     "sv": "vesperas",
     "n": 13,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 224"
    },
    {
     "r": "Jer.38.31-34",
     "sv": "vesperas",
     "n": 14,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 224 (= Jr 31,31-34 KJV)"
    },
    {
     "r": "Dan.3.1-88",
     "sv": "vesperas",
     "n": 15,
-    "verificado": false
+    "verificado": false,
+    "nota_verif": "Hapgood 1906 (p. 224) dá «Dan. iii. 1-23 e o Cântico dos Três Jovens» (numeração KJV/apócrifos); o fim no v. 88 (eslavo) fica por confirmar"
    }
   ],
   "nome": "Grande e Santo Sábado",

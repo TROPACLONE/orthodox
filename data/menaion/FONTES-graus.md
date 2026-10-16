@@ -146,3 +146,13 @@ Por tipo: santo 164 · senhor 15 · ícone 15 · Mãe de Deus 11.
 ## Ajuste da revisão (2026-10-16)
 
 `AJUSTE-DOMINGO` — Em 03.09, 20.07 e 27.07 OS o `grau_atual` tinha sido deduzido das Богослужебные указания de 2026, ano em que estes dias calham ao **domingo** (o ofício do santo junta-se ao dominical e o sinal próprio não aparece). Não é prova de descida de grau: repôs-se o grau do Typikon. ⚠ PARA CONFIRMAR com um ano em que caiam em dia útil.
+
+## Verificação de conteúdo (decisão 49, fase 1 — 2026-10-16)
+
+Os três dias com `AJUSTE-DOMINGO` tinham perdido a chave `grau_atual` (o gerador usa então o grau do Typikon). Conferidos na azbyka em **dias úteis** (chave `AZ-DIA-UTIL(...)` no campo `fonte`):
+- **Elias 20.07** → `grau_atual: "polieleo"` (02.08.2024, 02.08.2027, 02.08.2028: «Полиелейные»; BU26: vigília só como variante permitida).
+- **Pantaleão 27.07** → `grau_atual: null` (09.08.2024/2027/2028: «Шестиричные»; BU26: «По Уставу … шестеричная»).
+- **Quarenta Mártires 09.03** → `grau_atual: null` (22.03.2027 e 22.03.2028: sem sinal). (A nota anterior «03.09» refere-se a 09.03.)
+- Proteção 01.10: AZ 14.10.2025 e 14.10.2027 = grande festa — sem alteração (o 🕀 do Typikon pré-1917 continua por conferir).
+- Hierarcas de Moscovo 05.10: AZ 18.10.2027 (segunda) = «Славословные» vs BU26 polieleo (18.10.2026, domingo) — mantido polieleo pela regra §1.1; ⚠ reconferir com BU de um ano em que caia em dia útil.
+Relatório: `docs/qa/fase1-conteudo.md` §7.

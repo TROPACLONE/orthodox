@@ -66,3 +66,16 @@ Resumo: 16/18 coincidentes à primeira; 2 divergências do rascunho, corrigidas 
 ## 5. Convenções de dados
 
 Ver `_meta.convencoes` em `triodio.json`. Resumo: `{"r": "Livro.C.V-V;…", "z": n}`; `meio: true` = «от полу»; `sv` = serviço; `tipo` = leitura adicional (santo, Mãe de Deus, defuntos); OT em `vt` com `sv` (hora6, vesperas, …) e `n` (ordem das parémias). Códigos de livro OSIS; 1Kgs/2Kgs = 3/4 Reinos (LXX).
+
+## 6. Verificação de conteúdo (decisão 49, fase 1 — 2026-10-16)
+
+Relatório completo: `docs/qa/fase1-conteudo.md` §6. Das 71 leituras do AT com `verificado: false`, **55** foram confirmadas numa fonte impressa de domínio público e passaram a `verificado: true` com o campo `conf` (página): Hapgood 1906 (imagens conferidas, págs. 174–175, 182–183, 189–191, 204, 210–213, 217–218, 223–224) e, para Jb 1,1-12, o Τριῴδιον κατανυκτικόν de Veneza, 1876. As **16** restantes ficam `false` com `nota_verif` (Hapgood omisso ou com delimitação diferente — KJV).
+
+Correções (fontes: Hapgood 1906 = H; calendário oficial MP 2026 = OF26; azbyka = AZ, só verificação):
+- P−1, 11.ª parémia: Is 61,1-10 → **Is 61,1-9** (H p. 224; o v. 10 abre a 9.ª parémia).
+- P−21 (S. João Clímaco): Ef 5,9-19 **z 224** → **Ef 5,8-19 z 229** (z 224 = Ef 4,7-13, OF26 25.01.2026; coerência com semanas.json).
+- P−2, 3.ª hora: Rm 5,6-10 → **Rm 5,6-11** (OF26 10.04.2026; AZ 30.04.2027).
+- P−2, Vésperas, Evangelho composto: → **Mt 27,1-44; Lc 23,39-43; Mt 27,45-54; Jo 19,31-37; Mt 27,55-61** (OF26; AZ; H divide em 38/39).
+- P−61: 1 Jo 3,11-20 → **3,10-20** (OF26 10.02.2026).
+- 05.01, Horas Reais, 6.ª hora: Mc 1,9-11 → **Mc 1,9-15** (H p. 182; OF26 16.01.2026).
+- 05.01, `variante_sab_dom` (Vésperas quando a véspera cai ao sáb./dom.): 1 Cor 9,19-27 → **1 Cor 10,1-4** (z 143, от полу; OF26 18.01.2026). Resolve o ⚠ 6.

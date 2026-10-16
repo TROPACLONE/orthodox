@@ -106,7 +106,8 @@
      {
       "r": "Mic.5.2-4",
       "sv": "hora1",
-      "verificado": false
+      "verificado": true,
+      "conf": "Hapgood 1906, p. 174"
      }
     ],
     "ap": [
@@ -127,7 +128,8 @@
      {
       "r": "Bar.3.36-4.4",
       "sv": "hora3",
-      "verificado": false
+      "verificado": true,
+      "conf": "Hapgood 1906, p. 174 (Bar 3,36-38; 4,1-4)"
      }
     ],
     "ap": [
@@ -148,7 +150,8 @@
      {
       "r": "Isa.7.10-16;Isa.8.1-4;Isa.8.9-10",
       "sv": "hora6",
-      "verificado": false
+      "verificado": true,
+      "conf": "Hapgood 1906, p. 174"
      }
     ],
     "ap": [
@@ -169,7 +172,8 @@
      {
       "r": "Isa.9.6-7",
       "sv": "hora9",
-      "verificado": false
+      "verificado": false,
+      "nota_verif": "Hapgood 1906 (p. 174) não indica a parémia da 9.ª hora"
      }
     ],
     "ap": [
@@ -191,49 +195,57 @@
     "r": "Gen.1.1-13",
     "sv": "vesperas",
     "n": 1,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 175"
    },
    {
     "r": "Num.24.2-3;Num.24.5-9;Num.24.17-18",
     "sv": "vesperas",
     "n": 2,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 175"
    },
    {
     "r": "Mic.4.6-7;Mic.5.2-4",
     "sv": "vesperas",
     "n": 3,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 175"
    },
    {
     "r": "Isa.11.1-10",
     "sv": "vesperas",
     "n": 4,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 175"
    },
    {
     "r": "Bar.3.36-4.4",
     "sv": "vesperas",
     "n": 5,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 175"
    },
    {
     "r": "Dan.2.31-36;Dan.2.44-45",
     "sv": "vesperas",
     "n": 6,
-    "verificado": false
+    "verificado": false,
+    "nota_verif": "Hapgood 1906 (p. 175) dá Dan 2,31-36.44-46; os dados seguem a delimitação eslava 44-45 — por confirmar no Menaion sinodal"
    },
    {
     "r": "Isa.9.6-7",
     "sv": "vesperas",
     "n": 7,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 175"
    },
    {
     "r": "Isa.7.10-16;Isa.8.1-4;Isa.8.9-10",
     "sv": "vesperas",
     "n": 8,
-    "verificado": false
+    "verificado": false,
+    "nota_verif": "Hapgood 1906 dá 7,10-15; 8,1-4.9-11 nas Vésperas (p. 175) e 7,10-16; 8,1-4.9-10 na 6.ª hora (p. 174) — por confirmar no Menaion sinodal"
    }
   ],
   "ap": [
@@ -345,7 +357,8 @@
      {
       "r": "Isa.35.1-10",
       "sv": "hora1",
-      "verificado": false
+      "verificado": true,
+      "conf": "Hapgood 1906, p. 182"
      }
     ],
     "ap": [
@@ -366,7 +379,8 @@
      {
       "r": "Isa.1.16-20",
       "sv": "hora3",
-      "verificado": false
+      "verificado": true,
+      "conf": "Hapgood 1906, p. 182"
      }
     ],
     "ap": [
@@ -387,7 +401,8 @@
      {
       "r": "Isa.12.3-6",
       "sv": "hora6",
-      "verificado": false
+      "verificado": true,
+      "conf": "Hapgood 1906, p. 182"
      }
     ],
     "ap": [
@@ -398,8 +413,9 @@
     ],
     "ev": [
      {
-      "r": "Mark.1.9-11",
-      "z": 2
+      "r": "Mark.1.9-15",
+      "z": 2,
+      "conf": "Hapgood 1906, p. 182; calendário oficial MP 16.01.2026"
      }
     ]
    },
@@ -408,7 +424,8 @@
      {
       "r": "Isa.49.8-15",
       "sv": "hora9",
-      "verificado": false
+      "verificado": true,
+      "conf": "Hapgood 1906, p. 182"
      }
     ],
     "ap": [
@@ -430,79 +447,92 @@
     "r": "Gen.1.1-13",
     "sv": "vesperas",
     "n": 1,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 183"
    },
    {
     "r": "Exod.14.15-18;Exod.14.21-23;Exod.14.27-29",
     "sv": "vesperas",
     "n": 2,
-    "verificado": false
+    "verificado": false,
+    "nota_verif": "Hapgood 1906 (p. 183) dá Êx 14,15-18.21-25.27-29; os dados seguem 21-23 — por confirmar no Menaion sinodal"
    },
    {
     "r": "Exod.15.22-16.1",
     "sv": "vesperas",
     "n": 3,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 183"
    },
    {
     "r": "Josh.3.7-8;Josh.3.15-17",
     "sv": "vesperas",
     "n": 4,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 183"
    },
    {
     "r": "2Kgs.2.6-14",
     "sv": "vesperas",
     "n": 5,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 183"
    },
    {
     "r": "2Kgs.5.9-14",
     "sv": "vesperas",
     "n": 6,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 183"
    },
    {
     "r": "Isa.1.16-20",
     "sv": "vesperas",
     "n": 7,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 183"
    },
    {
     "r": "Gen.32.1-10",
     "sv": "vesperas",
     "n": 8,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 183"
    },
    {
     "r": "Exod.2.5-10",
     "sv": "vesperas",
     "n": 9,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 183"
    },
    {
     "r": "Judg.6.36-40",
     "sv": "vesperas",
     "n": 10,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 183"
    },
    {
     "r": "1Kgs.18.30-39",
     "sv": "vesperas",
     "n": 11,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 183"
    },
    {
     "r": "2Kgs.2.19-22",
     "sv": "vesperas",
     "n": 12,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 183"
    },
    {
     "r": "Isa.49.8-15",
     "sv": "vesperas",
     "n": 13,
-    "verificado": false
+    "verificado": true,
+    "conf": "Hapgood 1906, p. 183"
    }
   ],
   "ap": [
@@ -522,17 +552,20 @@
     {
      "r": "Isa.35.1-10",
      "sv": "bencao_aguas",
-     "verificado": false
+     "verificado": true,
+     "conf": "Hapgood 1906, p. 189–191 (texto integral)"
     },
     {
      "r": "Isa.55.1-13",
      "sv": "bencao_aguas",
-     "verificado": false
+     "verificado": true,
+     "conf": "Hapgood 1906, p. 189–191 (texto integral)"
     },
     {
      "r": "Isa.12.3-6",
      "sv": "bencao_aguas",
-     "verificado": false
+     "verificado": true,
+     "conf": "Hapgood 1906, p. 189–191 (texto integral)"
     }
    ],
    "ap": [
@@ -553,9 +586,10 @@
   "variante_sab_dom": {
    "ap": [
     {
-     "r": "1Cor.9.19-27",
+     "r": "1Cor.10.1-4",
      "z": 143,
-     "meio": true
+     "meio": true,
+     "conf": "calendário oficial MP 18.01.2026 («1 Кор., 143 зач. (от полу́), X, 1–4»)"
     }
    ],
    "ev": [
