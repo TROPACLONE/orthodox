@@ -3,7 +3,7 @@
 > Documento de conhecimento interno para a secção de **história** da aplicação.
 > Língua: português europeu (PT-PT); termos originais entre parênteses; inglês admitido em citações.
 > Âmbito: **história**, não dogma. O conteúdo doutrinal dos Concílios, a estrutura canónica atual da IOR, 1448/1589, os Velhos Crentes e o Ato de 2007 estão em [04 — Doutrina e terminologia](04-doutrina-e-terminologia.md) (§1.3, §6.1–6.5); aqui só se dá o contexto histórico e remete-se para lá.
-> Cada afirmação remete para as referências numeradas no fim ([n]). Pontos não verificados: **⚠ PARA CONFIRMAR**. Escolhas editoriais que cabem ao utilizador: **→ DECISÃO DO UTILIZADOR**.
+> Cada afirmação remete para as referências numeradas no fim ([n]). Pontos não verificados: **⚠ PARA CONFIRMAR**; pontos verificados na 2.ª ronda de pesquisa: **✔ Confirmado (2.ª ronda)**. Escolhas editoriais já tomadas pelo utilizador: **✔ Decidido (dec. 20, item Xn)** (ver `docs/pendentes.md`).
 > Fonte principal: *Enciclopédia Ortodoxa* (Православная энциклопедия, pravenc.ru), obra editada sob a direção do Patriarca de Moscovo — portanto **fonte académica mas confessional (perspetiva da IOR)**. Para os temas contestados dos sécs. XX–XXI citam-se também fontes de outras partes (Patriarcado Ecuménico, Estado ucraniano, ONU, académicos independentes).
 > Estado da informação: 16 de outubro de 2026.
 
@@ -15,7 +15,7 @@
 - **Tradição vs. história:** onde a narrativa tradicional (hagiografia, crónica) diverge do que a investigação consegue documentar, indica-se com «**Tradição:**» / «**Historiografia:**».
 - **Números:** estatísticas de perseguições e canonizações variam muito consoante o método; dão-se sempre com a fonte e a data.
 
-**→ DECISÃO DO UTILIZADOR (geral):** a secção de história da app deve (a) apresentar apenas a narrativa da IOR, (b) a narrativa da IOR com caixas «outras perspetivas» nos temas contestados (recomendação deste documento, por coerência com o critério de rigor do projeto), ou (c) omitir os temas contestados posteriores a 1990?
+**✔ Decidido (dec. 20, item D1) (geral):** a secção de história da app apresenta a narrativa da IOR com caixas «Outras perspetivas», com fontes, nos temas contestados (opção (b)).
 
 ---
 
@@ -88,7 +88,7 @@
 - S. Marcos de Éfeso manteve uma posição «intransigente» contra a união [20]. A união, assinada pela parte grega graças sobretudo a Bessarião, não foi aceite pela grande maioria do clero e do povo bizantino [19].
 - O bispo Abraão de Súzdal, da delegação russa, assinou — segundo Simeão de Súzdal — «à força», após uma semana preso por ordem do metropolita Isidoro [23].
 - **Moscovo:** em março de 1441 Isidoro leu na Catedral da Dormição a bula de Eugénio IV; o grão-príncipe Basílio II entregou-a a um concílio de bispos russos, que a rejeitou; Isidoro foi detido no mosteiro Tchúdov e fugiu nesse ano [21][22].
-- As decisões unionistas de Florença foram depois rejeitadas por todas as Igrejas ortodoxas locais [20]. **⚠ PARA CONFIRMAR:** data e forma do repúdio formal conciliar em Constantinopla (frequentemente citado o concílio de 1484 — não verificado nesta pesquisa).
+- As decisões unionistas de Florença foram depois rejeitadas por todas as Igrejas ortodoxas locais [20]. **✔ Confirmado (2.ª ronda):** o repúdio conciliar formal em Constantinopla é o **tomos do concílio de 1484**, reunido na igreja da Pammakaristos (iniciado sob o patriarca Máximo III e assinado pelo patriarca Simeão I, com os representantes de Alexandria, Antioquia e Jerusalém e mais 15 assinaturas): declara o concílio de Florença «como se nunca tivesse existido» e rejeita o *Filioque* e o uso de pão ázimo [129].
 - Consequência para a Rus': a eleição de Jonas em 1448 sem Constantinopla (ver §2 e 04 §6.2).
 
 ---
@@ -142,13 +142,13 @@
   - nome de batismo de Vladimir: **Basílio**, em honra do imperador.
 - Segundo a *Enc. Ortodoxa*, o Batismo da Rus' não resultou de uma política missionária deliberada do imperador [25].
 
-**→ DECISÃO DO UTILIZADOR:** na app, narrar o Batismo seguindo a PVL (como faz a tradição litúrgica) com uma nota «o que dizem os historiadores», ou apresentar primeiro a reconstrução histórica?
+**✔ Decidido (dec. 20, item D2):** na app, o Batismo narra-se seguindo a PVL (como faz a tradição litúrgica), com uma nota «o que dizem os historiadores».
 
 ### 2.4 A metrópole de Kiev
 
 - Não há data documentada da sua fundação; os indícios apontam para os primeiros anos após o Batismo [27].
 - **Tradição:** S. Miguel é venerado como primeiro metropolita de Kiev; **historiografia:** a sua biografia é lendária e o nome não aparece na crónica dos sécs. XI–XII; fontes antigas apontam Leão (Leôncio) como primeiro [28]. Uma hipótese (Chakhmatov, Priselkov) liga a fundação a 1037 — continua discutida [27].
-- A metrópole dependia do Patriarcado de Constantinopla, que nomeava (em regra) metropolitas gregos [27]. **⚠ PARA CONFIRMAR** a proporção de metropolitas gregos/russos no período pré-mongol.
+- A metrópole dependia do Patriarcado de Constantinopla, que nomeava (em regra) metropolitas gregos [27]. **✔ Confirmado (2.ª ronda):** segundo a *Enc. Ortodoxa*, «todos os metropolitas de Kiev do período pré-mongol foram gregos, exceto S. Hilarião, instalado em 1051» por um concílio de bispos locais; em 1147 Clemente (Klim) Smoliatitch foi igualmente instalado por bispos da Rus', sob pressão do príncipe Iziaslav e sem a bênção do patriarca — o que a *Enc. Ortodoxa* trata como rutura canónica com Constantinopla, não como precedente regular [27]. Não há contagem global na fonte.
 
 ### 2.5 Período mongol e transferência da sé
 
@@ -191,7 +191,7 @@
 - **S. Paísio Velitchkovski** (†1794): as suas traduções eslavas dos Padres ascéticos foram a base da *Filocalia* eslava, editada em Moscovo em 1793 [52][53].
 - **Optina:** o mosteiro de Optina assegurou a continuidade do *starchestvo* (direção espiritual dos «startsy») durante um século, até aos anos 1920 [54].
 - **S. Serafim de Sarov:** a *Filocalia* estava entre os seus livros de cela; glorificado em julho de 1903, com a presença de Nicolau II [53][55].
-- **⚠ PARA CONFIRMAR** (não pesquisado nesta ronda): S. Teófanes, o Recluso (*Filocalia* russa, 1877–1890), S. Inácio Briantchaninov, S. João de Kronstadt — acrescentar com fontes se a app quiser uma galeria de santos do séc. XIX.
+- **✔ Confirmado (2.ª ronda) — santos do séc. XIX:** S. Inácio (Briantchaninov) e S. Teófanes, o Recluso (Govorov), foram glorificados pelo Concílio Local de 1988, juntamente com S. Paísio Velitchkovski, S. Ambrósio de Optina e outros [76]; S. João de Kronstadt († 1908), já canonizado pela ROCOR em 1964, foi glorificado pelo Concílio Local da IOR de junho de 1990 [131]. (Pormenores biográficos — p. ex. a *Filocalia* russa de Teófanes — ficam para as fichas de santos, doc. 05.)
 
 ---
 
@@ -238,7 +238,12 @@
   - «foram presos praticamente todos os bispos e padres cujo paradeiro era conhecido»;
   - em 1939 restavam cerca de 100 paróquias na Rússia (o metr. Sérgio admitia 80 igrejas sob a sua jurisdição), nenhum mosteiro ou escola teológica legal;
   - apenas 4 bispos da IOR estavam em funções na URSS.
-- **Números globais de vítimas:** variam muito consoante as fontes e os critérios (clero vs. leigos; renovacionistas incluídos ou não). **⚠ PARA CONFIRMAR** antes de publicar qualquer total; a base de dados da Univ. Ortodoxa S. Tikhon (PSTGU) é a referência habitual [67].
+- **Números globais de vítimas:** variam muito consoante as fontes e os critérios (clero vs. leigos; renovacionistas incluídos ou não). **✔ Confirmado (2.ª ronda) — intervalo com fontes** (todas da equipa da base de dados «За Христа пострадавшие» da Univ. Ortodoxa S. Tikhon, PSTGU, resumidas pelo arcipreste A. Iliachenko, 27.10.2025) [67]:
+  - **condenados por motivos de fé (ortodoxos), 1917–1956:** c. **84 000–86 000** — 84 402 (N. V. Somin, 2020), 85 938 (Iliachenko), média 85 170; estimativa anterior de Somin (2015): 104 985;
+  - estimativa máxima antiga (prof. N. E. Emelianov): **564 000** reprimidos ou condenados — estimativa anterior, que a revisão da PSTGU substitui pelos valores acima;
+  - na base de dados (fev. 2024): 36 395 pessoas identificadas pelo nome, das quais 10 272 fuziladas (12 978 fuziladas ou mortas na prisão); cobertura estimada da base: c. 43 %;
+  - só em Butovo (Moscovo), 1937–1938: 940 clérigos e leigos da IOR entre os 20 765 fuzilados.
+  - **Para a app:** dar sempre o intervalo e a fonte («c. 85 000 condenados por motivos de fé, segundo estimativas da PSTGU»), nunca um número isolado.
 
 ### 3.4 A Declaração de 1927
 
@@ -249,7 +254,7 @@
   - **Opositores da época:** vários bispos (Basílio de Priluki, Damasceno de Glukhov), professores da Academia de Moscovo e o movimento «josefita» (do metr. José de Petrogrado) e dos «não comemorantes» romperam com Sérgio [63][65];
   - **ROCOR:** em set. 1927 o seu Concílio qualificou a mensagem de «não arquipastoral, mas puramente política» e cortou relações administrativas com Sérgio, mantendo-as com o Locum Tenens Pedro (Poliánski) [68].
 
-**→ DECISÃO DO UTILIZADOR:** como apresentar a Declaração de 1927 — só a avaliação oficial atual da IOR, ou também as críticas (incluindo as de santos canonizados que se opuseram a ela)?
+**✔ Decidido (dec. 20, item D3):** apresentar a avaliação oficial atual da IOR **e** as críticas (incluindo as de santos canonizados que se opuseram à Declaração).
 
 ### 3.5 Origens da Igreja Russa no Estrangeiro (ROCOR)
 
@@ -265,7 +270,7 @@
 
 - Noite de 4 set. 1943: Estaline, com Molotov e G. Karpov, recebeu no Kremlin os metropolitas Sérgio, Aleixo e Nicolau; Sérgio pediu um concílio para eleger o patriarca; Estaline concordou e anunciou um órgão estatal para os assuntos da Igreja [71][73].
 - 8 set. 1943: concílio de 19 bispos elegeu Sérgio Patriarca [71]. 14 set. 1943: criação do Conselho para os Assuntos da IOR junto do governo, presidido por Karpov [72].
-- Sérgio morreu em 1944; o Concílio Local de 1945 elegeu Aleixo I [71]. **⚠ PARA CONFIRMAR** datas exatas (não verificadas nesta ronda).
+- Sérgio morreu em 1944; o Concílio Local de 1945 elegeu Aleixo I [71]. **✔ Confirmado (2.ª ronda):** o Patriarca Sérgio morreu a **15 maio 1944** (hemorragia cerebral); o metropolita Aleixo (Simanski) assumiu como locum tenens, segundo o testamento de Sérgio de 12 out. 1941 [73]. O **Concílio Local de 31 jan. – 2 fev. 1945** (igreja da Ressurreição em Sokólniki, Moscovo) elegeu Aleixo I por unanimidade a 2 fev. e aprovou o Regulamento da administração da IOR; entronização a **4 fev. 1945** na catedral da Epifania (Elokhovo) [130].
 - **Historiografia independente:** M. Chkarovski (historiador de S. Petersburgo) analisa a viragem de 1943 como política estatal de controlo, com motivações internas e externas [74].
 
 ### 3.7 Khruchtchov (1958–1964)
@@ -279,7 +284,7 @@
 
 ### 3.8 Milénio (1988) e renascimento pós-soviético
 
-- Em 1988, Gorbatchov recebeu o Patriarca Pímen e os membros permanentes do Sínodo, abrindo caminho à celebração nacional do Milénio [77]. **⚠ PARA CONFIRMAR:** data (29 abr. 1988 é a habitualmente citada, mas não foi confirmada nas fontes consultadas).
+- Em 1988, Gorbatchov recebeu o Patriarca Pímen e os membros permanentes do Sínodo, abrindo caminho à celebração nacional do Milénio [77]. **✔ Confirmado (2.ª ronda):** a *Enc. Ortodoxa* data o encontro de **29 abr. 1988**, por iniciativa de K. Khartchev, com o Patriarca Pímen e os membros do Sínodo [77].
 - **Concílio Local de 6–9 jun. 1988** (Lavra da Trindade-S. Sérgio): primeiro desde 1918 sem controlo estrito do Estado; aprovou novo Estatuto e glorificou novos santos (ex.: Andrei Rublev, Máximo, o Grego) [76].
 - **Crescimento** (dados da *Enc. Ortodoxa*) [78]:
 
@@ -296,7 +301,7 @@
 
 - O Concílio dos Bispos do Jubileu (13–16 ago. 2000) glorificou o **Sínodo dos Novos Mártires e Confessores da Rússia**; a canonização solene foi a 20 ago. 2000 na Catedral de Cristo Salvador [79].
 - Incluiu, como **«portadores da Paixão»** (страстотерпцы), Nicolau II, a imperatriz Alexandra, o czarévitche Aleixo e as grão-duquesas Olga, Tatiana, Maria e Anastásia, mortos em Ecaterimburgo a 17 jul. 1918 [79]. (A ROCOR canonizara-os em 1981 como «mártires imperiais» [79].)
-- **Número:** as fontes divergem — 814 nomes glorificados (com 46 sem nome conhecido) segundo um artigo, 1097 nomes segundo outro, mais de 1200 contando os já venerados localmente [78][79][80]. **⚠ PARA CONFIRMAR** a contagem a usar na app.
+- **Número — ✔ Confirmado (2.ª ronda):** em 2000 foram glorificados **pelo nome 814** novos mártires e confessores (mais 46 cujos nomes não se apuraram), e foram inscritos para veneração geral **112** santos antes venerados localmente [80]; contando estes e outros santos, o total ultrapassou **1200** [79]. A lista continuou a crescer por decisões sinodais: +670 entre fins de 2000 e fins de 2010; **1779 nomes** após a decisão sinodal de março de 2018 (36 nomes foram retirados após a revisão de 2011) [80]. (O número «1097» antes citado não foi encontrado em fonte verificável e deve ser abandonado.) **Para a app:** «814 pelo nome em 2000; mais de 1700 nomes hoje» com a data da contagem.
 - A paróquia da IOR no Porto é dedicada a estes santos (§5.4).
 
 ---
@@ -327,6 +332,7 @@
 | 27 ago. 2025 | Serviço estatal DESS declara a Metrópole de Kiev da IOU «afiliada» à IOR | [97][98] |
 | out. 2025 | Peritos da ONU criticam a Lei 3894-IX | [101] |
 | abr.–jun. 2026 | Processos judiciais em curso; sem decisão de mérito conhecida | [98][99][100] |
+| 23 jul. – 7 out. 2026 | Despacho do tribunal de recurso (23 jul.) recorrido pela IOU para o Supremo Tribunal (recurso admitido a 22 set.); processo de extinção adiado sem data (out.) | [134][135] |
 
 ### 4.2 Constantinopla, Ucrânia e a rutura de 2018
 
@@ -341,9 +347,9 @@
 - A ROCOR apoiou a posição de Moscovo (18 out. 2018) [87].
 - **Análise independente:** o Carnegie Moscow Center descreveu a rutura como resposta política e eclesial de Moscovo à perda de influência na Ucrânia [86].
 - **Reconhecimentos da OCU:** Constantinopla, Grécia, Alexandria e Chipre; a IOR deixou de comemorar os respetivos primazes que o fizeram e rompeu a comunhão com Teodoro II de Alexandria [88][89][90].
-- **Estado em 2026:** em abril de 2026 o Patriarca Cirilo voltou a acusar publicamente o Fanar de ingerência na Ucrânia [106]. Não se encontrou notícia de restabelecimento da comunhão. **⚠ PARA CONFIRMAR** à data de publicação.
+- **Estado em 2026:** em abril de 2026 o Patriarca Cirilo voltou a acusar publicamente o Fanar de ingerência na Ucrânia [106]. **✔ Confirmado (2.ª ronda), estado a 16 out. 2026:** não se encontrou notícia de restabelecimento da comunhão nem de negociações anunciadas; uma análise do início de 2026 descreve a comunhão como rompida [136]. Reverificar à data de publicação.
 
-**→ DECISÃO DO UTILIZADOR (importante na prática):** a app deve informar o utilizador de que, segundo a disciplina atual da IOR, não deve comungar em paróquias do Patriarcado Ecuménico (em Portugal: a Metrópole de Espanha e Portugal, §5.3)? E como designar a OCU — «Igreja Ortodoxa da Ucrânia» (nome próprio), com nota de que a IOR não a reconhece?
+**✔ Decidido (dec. 20, item D4) (importante na prática):** a app informa factualmente a disciplina da IOR (decisão sinodal de 15.10.2018): os fiéis da IOR não participam nos Mistérios em paróquias do Patriarcado Ecuménico (em Portugal: a Metrópole de Espanha e Portugal, §5.3). A OCU designa-se «Igreja Ortodoxa da Ucrânia», com nota de que a IOR não a reconhece.
 
 ### 4.3 A Igreja Ortodoxa Ucraniana (IOU, «do Patriarcado de Moscovo»)
 
@@ -351,20 +357,25 @@
 - **Concílio de 27 maio 2022 (Feofania)** — leituras diferentes:
   - **IOU:** aprovou alterações ao estatuto que «testemunham a plena independência e autonomia» [91]; o metr. Onúfrio fala de «independência canónica completa» e separação clara do Patriarcado de Moscovo [94];
   - **Académicos:** o novo estatuto retirou quase todas as referências à IOR, exceto uma menção à carta de 1990 de Aleixo II (Dudchenko) [92]; o arquim. Cirilo Hovorun considera-a «autocefalia técnica, não plena» — não proclama autocefalia, mas retira a confirmação do primaz por Moscovo [93];
-  - **IOR:** o Sínodo de 7 jun. 2022 colocou as dioceses de Djankoi, Simferopol e Feodósia (Crimeia) sob a jurisdição direta do Patriarca; segundo a imprensa, o Sínodo falou de risco de «novo cisma» [95]. **⚠ PARA CONFIRMAR** no texto oficial (patriarchia.ru inacessível a ferramentas automáticas).
+  - **IOR:** o Sínodo de 7 jun. 2022 colocou as dioceses de Djankoi, Simferopol e Feodósia (Crimeia) sob a jurisdição direta do Patriarca; segundo a imprensa, o Sínodo falou de risco de «novo cisma» [95]. **✔ Confirmado (2.ª ronda)** pela citação do diário (журнал) do Sínodo publicada pela *Parlamentskaia Gazeta* com base no sítio do Patriarcado [132]: os bispos das três dioceses **pediram** a passagem para a jurisdição direta do Patriarca e do Sínodo, «tendo em conta a impossibilidade prática de comunicação regular destas dioceses com a Metrópole de Kiev»; o diário afirma que a mudança de estatuto da IOU só pode ser decidida por procedimento canónico, incluindo um Concílio Local da IOR, e que ações unilaterais («самочинные действия») «podem levar ao aparecimento de um novo cisma» dentro dela. (O texto integral em patriarchia.ru continuou inacessível a ferramentas automáticas.)
 - **Estado ucraniano:**
   - Lei n.º 3894-IX (20 ago. 2024; em vigor 23 set. 2024): proíbe organizações religiosas afiliadas à IOR; a IOU não é nomeada no texto [96];
   - 17 jul. 2025: o DESS (Serviço Estatal de Etnopolítica e Liberdade de Consciência) emitiu uma injunção; a 27 ago. 2025 declarou a Metrópole de Kiev da IOU «afiliada» à IOR e pediu em tribunal a sua extinção [97][98];
   - a IOU contesta a injunção, a lei e a própria legalidade do DESS (ação contra o Governo, jun. 2026) [98][100]; em abr. 2026 um tribunal de recurso anulou a ordem de 2023 que aprovava a perícia ao estatuto da IOU (o DESS recorreu) [99];
+  - 19 maio 2026: o Tribunal Administrativo de Cassação (Supremo Tribunal) deu provimento a um recurso da Metrópole de Kiev contra a separação dos pedidos da sua reconvenção (que inclui pedir a declaração de ilegalidade dos atos do presidente do DESS) — segundo o advogado da IOU [133];
   - jun. 2026: segundo o presidente do DESS, a ação de extinção ainda não fora julgada quanto ao mérito [98].
+  - **✔ Confirmado (2.ª ronda) — decisões posteriores a junho de 2026 (até 16 out. 2026):**
+    - 23 jul. 2026: despacho do 6.º Tribunal Administrativo de Recurso no processo n.º 855/11/25 (segundo a imprensa, remeteu ao Tribunal Administrativo Distrital de Kiev uma ação da Lavra das Grutas de Kiev); a Metrópole de Kiev recorreu, e a 22 set. 2026 o Supremo Tribunal (Tribunal Administrativo de Cassação) abriu o processo de recurso (A/990/22/26), segundo o próprio DESS [134][135];
+    - 7 out. 2026: o 6.º Tribunal Administrativo de Recurso adiou **sem data** a ação de extinção da Metrópole de Kiev, por o processo ter de subir ao Supremo Tribunal [134];
+    - **não há, a 16 out. 2026, decisão de mérito** sobre a extinção da Metrópole de Kiev.
 - **ONU:** peritos independentes (out. 2025) consideraram que a lei, ao equiparar afiliação religiosa a ameaça à segurança nacional, é incompatível com normas internacionais; a Ucrânia respondeu que a lei não prevê liquidação automática nem nomeia a IOU [101].
-- **⚠ PARA CONFIRMAR:** decisões judiciais posteriores a junho de 2026.
+- Decisões judiciais posteriores a junho de 2026: ver acima (✔ Confirmado (2.ª ronda), estado a 16 out. 2026). Reverificar à data de publicação.
 
 ### 4.4 Exarcado de África (2021)
 
 - **IOR:** a 29 dez. 2021 o Santo Sínodo criou o Exarcado Patriarcal de África (dioceses do Norte e do Sul de África), acolhendo 102 clérigos do Patriarcado de Alexandria, como consequência do reconhecimento da OCU por Alexandria [102].
 - **Alexandria:** chamou ao ato «totalmente não canónico»; a 22 nov. 2022 depôs o exarca Leonid (Gorbatchov) e cessou a comemoração do Patriarca Cirilo; a IOR não reconhece estas decisões [103][104].
-- Em 2023 a IOR nomeou um novo exarca, igualmente deposto por Alexandria em 2024 [105]. **⚠ PARA CONFIRMAR** o exarca em funções em out. 2026.
+- Em 2023 a IOR nomeou um novo exarca, igualmente deposto por Alexandria em 2024 [105]. **✔ Confirmado (2.ª ronda):** o exarca em funções em 2026 é o **metropolita Constantino**, «do Cairo e da África do Norte»: nomeado exarca interino em out. 2023 (bispo de Zaraisk), confirmado pelo Santo Sínodo a 12 mar. 2024 e elevado a metropolita a 24 mar. 2024; em jul.–ago. 2026 visitou a Tanzânia e o Quénia nessa qualidade [137]. (Alexandria não reconhece o Exarcado — ver acima.)
 
 ### 4.5 Europa Ocidental e Portugal (breve)
 
@@ -397,8 +408,8 @@
 ### 5.2 Antecedentes
 
 - **Antes de 1054:** o Santo Sínodo da IOR instituiu em 2018 a Sinaxe dos santos de Espanha e Portugal (domingo antes de 12 out.); o Vicariato publica um artigo sobre os santos da Lusitânia até 1054 [123][124]. Isto é **memória litúrgica**, não indício de comunidades ortodoxas organizadas contínuas.
-- **Igreja de embaixada russa em Lisboa (sécs. XVIII–XIX):** as embaixadas russas tinham capelas em várias capitais europeias desde o séc. XVIII, mas **não se encontrou fonte sobre uma capela russa em Lisboa**. **⚠ PARA CONFIRMAR** (procurar em arquivos diplomáticos russos/portugueses).
-- **Pinto da Rocha (1938–1997):** ex-monge católico, entrou em 1966 na ROCOR (a *Enc. Ortodoxa* indica o arcebispo João Maximovitch; a Wikipédia PT indica o arcebispo António Bartochevitch de Genebra — **⚠ PARA CONFIRMAR**); missão ativa a partir de 1968; c. 500 portugueses ortodoxos no início dos anos 1970; exarcado em 1974; mosteiro em Sintra em 1976 [109][110].
+- **Igreja de embaixada russa em Lisboa (sécs. XVIII–XIX):** as embaixadas russas tinham capelas em várias capitais europeias desde o séc. XVIII, mas **não se encontrou fonte sobre uma capela russa em Lisboa**. **✔ Confirmado (2.ª ronda), com reserva:** (1) a lista histórica das igrejas russas junto de embaixadas, missões e estâncias no estrangeiro até 1917 do arquim. Cipriano (Kern) — Estocolmo, Berlim, Londres, Paris, Madrid (1760), Viena (1762) e dezenas de outras — **não inclui Lisboa** [138]; (2) um artigo de imprensa diocesana russa (prot. D. Sazonov, 2018) afirma expressamente que o Império Russo, nos sécs. XVIII–XIX, **não abriu nenhuma paróquia em Portugal**, ao contrário da maioria dos países europeus [139]; (3) a *Enc. Ortodoxa* (art. «Portugal», 2024) não menciona presença ortodoxa russa antes do séc. XX [109]. Não se exclui uma capela privada de um diplomata, sem clero próprio — nada encontrado; os arquivos diplomáticos (AVPRI; Torre do Tombo) não foram consultados. **Para a app:** «não há registo de igreja russa em Portugal antes do séc. XX».
+- **Pinto da Rocha (1938–1997):** ex-monge católico, entrou em 1966 na ROCOR — **✔ Confirmado (2.ª ronda)**, as fontes são compatíveis: segundo a *Enc. Ortodoxa*, passou à ROCOR em 1966 «sob a influência» do arcebispo **João (Maximovitch)** († 2 jul. 1966), recebendo o nome monástico de João [109]; segundo a OrthodoxWiki, foi ordenado diácono, presbítero e elevado a arquimandrita em 1968 por **António (Bartochevitch) de Genebra**, o seu bispo diocesano, que mais tarde não aprovou a sua atuação [140]; missão ativa a partir de 1968; c. 500 portugueses ortodoxos no início dos anos 1970; exarcado em 1974; mosteiro em Sintra em 1976 [109][110].
   - 1978: passou ao sínodo vetero-calendarista grego («florinita»/de Auxêncio), sagrado bispo como Gabriel [109][110];
   - 1985/1988: rutura com esse sínodo (as fontes divergem na data) [109][110]; 1990: recebido pela Igreja Ortodoxa Polaca, com autonomia [109][110];
   - 2001: saída da jurisdição polaca; desde então a **Igreja Católica Ortodoxa de Portugal**, sem comunhão com as Igrejas canónicas. A *Enc. Ortodoxa* (2024) chama-lhe a maior organização ortodoxa do país em fiéis e paróquias e qualifica-a de não canónica [109][110].
@@ -412,15 +423,15 @@
 | Patriarcado Romeno | Diocese de Espanha e Portugal (22 out. 2007; bispo Timóteo eleito 5 mar. 2008) | 12 paróquias e comunidades; mosteiro em Aldeia de Santa Margarida (Idanha-a-Nova), consagrado nov. 2019 | [109][112][113] |
 | Igrejas Búlgara, Sérvia, Georgiana | Paróquias/comunidades | sem números na fonte | [109] |
 
-- A *Enc. Ortodoxa* refere ainda paróquias das antigas estruturas ucranianas não canónicas (Patriarcado de Kiev, Igreja Autocéfala Ucraniana) surgidas com a imigração [109]. **⚠ PARA CONFIRMAR:** presença atual da OCU em Portugal.
+- A *Enc. Ortodoxa* refere ainda paróquias das antigas estruturas ucranianas não canónicas (Patriarcado de Kiev, Igreja Autocéfala Ucraniana) surgidas com a imigração [109]. **Presença atual da OCU em Portugal — ✔ Confirmado (2.ª ronda), parcialmente:** o tomos de 2019 limita a OCU ao território do Estado ucraniano — não pode instalar bispos nem fundar paróquias fora dele, e as paróquias da diáspora ficam sob o Patriarcado Ecuménico [141]; por isso não existe estrutura diocesana da OCU em Portugal, e as comunidades ucranianas ligadas a Constantinopla integram a Metrópole de Espanha e Portugal [109][111]. Não se apurou se subsistem em Portugal comunidades das antigas estruturas não canónicas (⚠).
 - Censo de 2011: 56 550 pessoas (0,65 % da população com 15+ anos) declararam-se ortodoxas [109].
-- **⚠ PARA CONFIRMAR:** existência atual de uma paróquia da ROCOR em Lisboa (referida numa fonte secundária não legível nesta pesquisa).
+- **ROCOR em Portugal — ✔ Confirmado (2.ª ronda):** a *Enc. Ortodoxa* (2024) indica uma comunidade da Proteção da Mãe de Deus (Pokrov) em **Oeiras** («Уэйраш»), da diocese de Genebra e da Europa Ocidental da ROCOR [109]; um artigo de 2018 fala de «uma paróquia em Lisboa» dessa diocese — provavelmente a mesma (área de Lisboa) [139]. A diretoria de paróquias da diocese (hoje «da Grã-Bretanha e Europa Ocidental») não pôde ser lida (carregamento dinâmico). A ROCOR está em comunhão com a IOR desde 2007 (§3.5).
 - **Lembrete (§4.2):** desde 2018 a IOR não está em comunhão com Constantinopla; as relações com a Igreja Romena e as outras mantêm-se.
 
 ### 5.4 A IOR em Portugal: comunidades
 
 - **Origem:** a *Enc. Ortodoxa* situa as novas comunidades da IOR em Portugal a partir de finais dos anos 1990, com a imigração de língua russa; a maioria dos fiéis são imigrantes, com poucos portugueses convertidos [107][109].
-- **Lisboa — Todos os Santos:** paróquia central da IOR em Portugal (hoje catedral do Vicariato) [107][122]. Já existia no início dos anos 2000: o hieromonge Arsénio (Sokolov), primeiro a servir no Porto, foi depois reitor da «paróquia de Todos os Santos da IOR em Lisboa» [115]. **⚠ PARA CONFIRMAR:** ano de fundação da paróquia de Lisboa (a «primeira paróquia russa em Lisboa») — não encontrado.
+- **Lisboa — Todos os Santos:** paróquia central da IOR em Portugal (hoje catedral do Vicariato) [107][122]. Já existia no início dos anos 2000: o hieromonge Arsénio (Sokolov), primeiro a servir no Porto, foi depois reitor da «paróquia de Todos os Santos da IOR em Lisboa» [115]. **⚠ PARA CONFIRMAR (2.ª ronda sem resultado):** ano de fundação da paróquia de Lisboa. Apurado apenas um *terminus ante quem*: segundo a imprensa diocesana russa, o hegúmeno Arsénio (Sokolov) foi reitor da paróquia de Natividade de Madrid (2001–2003) e **reitor da paróquia de Todos os Santos em Lisboa a partir de 2003** — a paróquia existia, portanto, em 2003 [139]. Pesquisado sem êxito: *Enc. Ortodoxa* (arts. «Portugal» e «Diocese de Korsun»), sítio do Vicariato (ortodoxia.pt), OrthoChristian, pesquisas em russo e português. Próximo passo: perguntar ao Vicariato ou consultar os diários do Santo Sínodo de 1999–2003.
 - **Porto — paróquia dos Novos Mártires e Confessores da Igreja Russa** (Приход Новомучеников и исповедников Церкви Русской):
   - **fundação:** 2002, «por iniciativa dos cristãos ortodoxos do Porto»; jurisdição: IOR, Diocese Hispano-Portuguesa [114];
   - **local:** igreja de S. José Esposo (храм святого Иосифа Обручника — Capela de São José), **arrendada à Diocese católica do Porto**; morada indicada: Rua Alexandre Herculano, 123, Porto [114][117];
@@ -432,37 +443,31 @@
     - desde 2013: sacerdote Aleksandr Piskunov (nomeado por decisão do Santo Sínodo de 26 dez. 2012) [116];
   - **2026:** liturgia missionária em português (24 jan. 2026); liturgia episcopal presidida pelo bispo Pedro de Kafa, vigário do Exarcado da Europa Ocidental (24 jun. 2026) [119][118];
   - horário publicado: sábado 18h00 vigília e confissões; domingo 9h30 Horas e Divina Liturgia [114];
-  - **⚠ PARA CONFIRMAR:** a página «Contactos» ainda diz «Diocese de Korsun, decanato português» (desatualizada face a 2018) [117]; confirmar se a igreja de S. José é a mesma das «Oficinas de São José» cedida em 2012 (muito provável pela morada, mas não dito expressamente).
+  - **⚠ PARA CONFIRMAR (2.ª ronda: parcialmente esclarecido):**
+    - a página «Contactos» continua (out. 2026) a dizer «Diocese de Korsun, decanato português» — desatualizada face à criação da Diocese Hispano-Portuguesa em 2018; morada: «123, Rua Alexandre Herculano» [117];
+    - **divergência de morada:** o Vicariato (ortodoxia.pt) indica para a mesma paróquia «Rua Alexandre Herculano 97, 4000-054 Porto» [122];
+    - identidade da igreja: a página de história diz apenas que em 2012 a diocese católica cedeu «a capela desocupada do antigo asilo infantil eclesiástico "Oficinas de São José"» [115]; as Oficinas de São José do Porto foram uma obra fundada em 1880 por D. Sebastião Leite de Vasconcelos (depois bispo de Beja), mais tarde ligada aos Salesianos [142]. **Nenhuma fonte encontrada liga expressamente essa capela à morada da Rua Alexandre Herculano** (pesquisado: sítio da paróquia, ortodoxia.pt, pesquisas em português e russo). A identidade continua muito provável, mas não confirmada; próximo passo: perguntar à paróquia ou à Diocese do Porto.
 - **Construções próprias:** terreno em Cascais cedido em fev. 2018 por 50 anos; em 2020 iniciou-se aí a construção da «primeira igreja ortodoxa russa» edificada em Portugal [126][120]; em out. 2024 foi consagrada a igreja de S. Daniel de Girona em Portimão [121].
-- **Perspetiva crítica (comunidade ucraniana):** o presidente da União dos Ucranianos em Portugal, P. Sadokha, descreve a IOR em Portugal como instrumento político do Estado russo e apela aos ucranianos para não a frequentarem (artigo de opinião, jan. 2025) [125]. A IOR e o Vicariato apresentam-se como estrutura missionária e pastoral [122]. **→ DECISÃO DO UTILIZADOR:** se e como mencionar estas tensões na app.
+- **Perspetiva crítica (comunidade ucraniana):** o presidente da União dos Ucranianos em Portugal, P. Sadokha, descreve a IOR em Portugal como instrumento político do Estado russo e apela aos ucranianos para não a frequentarem (artigo de opinião, jan. 2025) [125]. A IOR e o Vicariato apresentam-se como estrutura missionária e pastoral [122]. **✔ Decidido (dec. 20, item D5):** estas tensões **não se incluem na app** (artigo de opinião; fora do âmbito da prática); a informação fica apenas nesta base de conhecimento.
 
 ---
 
 ## 6. Lista de pontos em aberto
 
-**⚠ PARA CONFIRMAR**
-1. Repúdio conciliar formal de Florença em Constantinopla (1484?) (§1.8).
-2. Proporção de metropolitas gregos em Kiev antes de 1240 (§2.4).
-3. Santos russos do séc. XIX a incluir (Teófanes, Inácio, João de Kronstadt) (§2.10).
-4. Números globais das vítimas soviéticas (§3.3).
-5. Datas exatas de 1944–1945 (morte de Sérgio, Concílio de 1945) (§3.6).
-6. Data do encontro Gorbatchov–Pímen (1988) (§3.8).
-7. Contagem dos Novos Mártires glorificados em 2000 (§3.9).
-8. Texto oficial do Sínodo da IOR de 7 jun. 2022 (§4.3).
-9. Estado da comunhão IOR–Constantinopla e dos processos da IOU em out. 2026 (§4.2–4.3).
-10. Exarca de África em funções (§4.4).
-11. Capela da embaixada russa em Lisboa — existiu? (§5.2).
-12. Bispo da ROCOR que recebeu Pinto da Rocha em 1966 (§5.2).
-13. Ano de fundação da paróquia de Todos os Santos (Lisboa) (§5.4).
-14. Presença atual em Portugal da OCU e da ROCOR (§5.3).
-15. Identidade da Capela de São José (Porto) com a capela das Oficinas de São José; atualização da página de contactos da paróquia (§5.4).
+**⚠ PARA CONFIRMAR — ainda em aberto após a 2.ª ronda**
+1. Ano de fundação da paróquia de Todos os Santos (Lisboa); só se sabe que existia em 2003 (§5.4).
+2. Identidade da Capela de São José (Porto) com a capela das Oficinas de São José; divergência de morada (n.º 123 vs. n.º 97); página de contactos desatualizada (§5.4).
+3. Comunidades em Portugal das antigas estruturas ucranianas não canónicas (§5.3).
+4. Reverificar à data de publicação: comunhão IOR–Constantinopla e processos da IOU (§4.2–4.3).
 
-**→ DECISÃO DO UTILIZADOR**
-1. Modelo editorial para temas contestados (§0).
-2. Batismo da Rus': narrativa da Crónica vs. reconstrução histórica (§2.3).
-3. Declaração de 1927: só avaliação oficial ou também críticas (§3.4).
-4. Aviso sobre a comunhão em paróquias de Constantinopla; designação da OCU (§4.2).
-5. Menção das tensões com a comunidade ucraniana em Portugal (§5.4).
+**✔ Confirmado (2.ª ronda)** — Florença/1484 (§1.8); metropolitas gregos pré-mongóis (§2.4); santos do séc. XIX (§2.10); números das vítimas soviéticas, como intervalo (§3.3); datas de 1944–1945 (§3.6); encontro Gorbatchov–Pímen (§3.8); contagem dos Novos Mártires (§3.9); diário do Sínodo de 7 jun. 2022, por citação (§4.3); estado da comunhão e processos da IOU a 16 out. 2026 (§4.2–4.3); exarca de África (§4.4); inexistência documentada de capela de embaixada em Lisboa, com reserva (§5.2); receção de Pinto da Rocha em 1966 (§5.2); OCU (parcial) e ROCOR em Portugal (§5.3).
+
+**✔ Decidido (dec. 20)**
+1. D1 — Modelo editorial para temas contestados: narrativa da IOR + caixa «Outras perspetivas» (§0).
+2. D2 — Batismo da Rus': narrativa da Crónica + nota «o que dizem os historiadores» (§2.3).
+3. D3 — Declaração de 1927: avaliação oficial atual + críticas (§3.4).
+4. D4 — Disciplina da IOR sobre a comunhão em paróquias de Constantinopla, informada factualmente; designação «Igreja Ortodoxa da Ucrânia» com nota de não reconhecimento (§4.2).
+5. D5 — Tensões com a comunidade ucraniana em Portugal: não incluir na app (§5.4).
 
 ---
 
@@ -605,3 +610,19 @@
 126. OrthoChristian — «Russian Church given territory in Portugal for second time in less than a month» (2018). https://orthochristian.com/110729.html
 127. Manuil (Lemechevski) — *Русские православные иерархи 992–1892*, t. 2 (Jó, 1.º Patriarca). https://azbyka.ru/otechnik/Manuil_Lemeshevskij/russkie-pravoslavnye-ierarhi-992-1892-gg-tom-2/79
 128. Enc. Ortodoxa — «Равноапостольные». https://www.pravenc.ru/text/2661304.html
+
+**2.ª ronda de pesquisa (out. 2026)**
+129. Tomos do Concílio de Constantinopla de 1484, com a condenação solene do concílio unionista de Ferrara-Florença — trad. russa de P. Pashkov, a partir de M. Paizi-Apostolopoulou e D. G. Apostolopoulos, *Ἐπίσημα Κείμενα τοῦ Πατριαρχείου Κωνσταντινουπόλεως* (Atenas, 2011), pp. 184–189. https://azbyka.ru/otechnik/bogoslovie/tomos-konstantinopolskogo-sobora-1484-g-s-torzhestvennym-osuzhdeniem-uniatskogo-ferraro-florentijskogo-sobora/
+130. Enc. Ortodoxa — «Поместный Собор Русской Православной Церкви 1945 г.». https://www.pravenc.ru/text/2581086.html
+131. Enc. Ortodoxa — «Иоанн Кронштадтский» (canonização pela ROCOR, 1964, e pelo Concílio Local da IOR de 7–10 jun. 1990). https://www.pravenc.ru/text/471321.html
+132. Parlamentskaia Gazeta (pnp.ru) — «Крымские епархии УПЦ перешли под прямое подчинение патриарха Кирилла» (07.06.2022; cita o diário do Santo Sínodo publicado no sítio do Patriarcado). https://www.pnp.ru/social/krymskie-eparkhii-upc-pereshli-pod-pryamoe-podchinenie-patriarkha-kirilla.html
+133. União dos Jornalistas Ortodoxos (SPZh, meio próximo da IOU) — «Court upholds UOC Kyiv Metropolia's appeal in liquidation case» (19.05.2026). https://spzh.eu/en/news/93224-court-upholds-uoc-kyiv-metropolias-appeal-in-liquidation-case
+134. LB.ua — «Суд знову відклав розгляд справи про припинення діяльності УПЦ МП» (07.10.2026, com base na Interfax-Ucrânia). https://lb.ua/society/2026/10/07/771706_sud_znovu_vidklav_rozglyad.html
+135. DESS (Serviço Estatal de Etnopolítica e Liberdade de Consciência, Ucrânia) — «Оголошення про відкриття апеляційного провадження за апеляційною скаргою Київської Митрополії УПЦ» (24.09.2026). https://dess.gov.ua/oholoshennia-pro-vidkryttia-apeliatsiynoho-provadzhennia-za-apeliatsiynoiu-skarhoiu-kyivskoi-mytropolii-ukrainskoi-pravoslavnoi-tserkvy/
+136. Orthodox Times — «Orthodoxy at the start of 2026: key challenges ahead» (03.01.2026; texto de opinião, publicado originalmente em *Orthodoxi Alitheia*). https://orthodoxtimes.com/orthodoxy-at-the-start-of-2026-key-challenges-ahead/
+137. Exarcado Patriarcal de África (IOR) — «Bishop Konstantin of Zaraisk was elevated to the rank of Metropolitan» (25.03.2024); «Acting Patriarchal Exarch of Africa appointed»; «Patriarchal Exarch of Africa Metropolitan Konstantin concludes his visit to Tanzania» (29.07.2026). https://exarchate-africa.ru/en/news/bishop-konstantin-of-zaraisk-was-elevated-to-the-rank-of-metropolitan/ ; https://exarchate-africa.ru/en/news/acting-patriarchal-exarch-of-africa-appointed/ ; https://exarchate-africa.ru/en/news/patriarchal-exarch-of-africa-metropolitan-konstantin-concludes-his-visit-to-tanzania/
+138. Arquim. Cipriano (Kern) — *Дореволюционное русское духовенство заграницей* (lista das igrejas russas junto de embaixadas e missões até 1917). https://azbyka.ru/otechnik/Kiprian_Kern/dorevolyutsionnoe-russkoe-duhovenstvo-zagranitsej/
+139. Prot. Dmitri Sazonov — «Православная Португалия», *Северная правда* (Kostroma), rubrica «Наши Палестины», n.º 22, 30.05.2018 (imprensa diocesana; fonte secundária). https://sazonow.ru/files/palestina/2018-05-30.pdf
+140. OrthodoxWiki — «Gabriel (da Rocha) of Portugal» (fonte secundária, com incoerências internas). https://orthodoxwiki.org/Gabriel_(da_Rocha)_of_Portugal
+141. Kyiv Post — «Orthodox Church of Ukraine not authorized to establish parishes outside Ukraine» (05.01.2019; resume o tomos). https://www.kyivpost.com/ukraine-politics/orthodox-church-of-ukraine-not-authorized-to-establish-parishes-outside-ukraine.html
+142. Universidade Católica Portuguesa (repositório) — publicação comemorativa do centenário da morte de D. Sebastião Leite de Vasconcelos (1852–1923), fundador da Oficina de São José do Porto (1880; estatutos aprovados em 1887). https://repositorio.ucp.pt/bitstreams/2baf9d86-e5ce-4e65-af87-583e87e81f74/download ; ver também ANS (Salesianos) — «Portugal – Opening of the headquarters of the "Oficina de São José" Past Pupils» (Porto, 1940). https://infoans.org/en/sections/photo-archives/item/22457-portugal-opening-of-the-headquarters-of-the-oficina-de-sao-jose-past-pupils

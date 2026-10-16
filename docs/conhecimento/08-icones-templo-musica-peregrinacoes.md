@@ -7,7 +7,7 @@
 > - **[TRADIÇÃO]** — tradição piedosa / relato hagiográfico, transmitido pela Igreja mas não verificável historicamente;
 > - **[INTERPRETAÇÃO]** — leitura simbólica posterior (de autor identificado, quando possível).
 >
-> Pontos não verificados: **⚠ PARA CONFIRMAR**. Escolhas que cabem ao utilizador: **→ DECISÃO DO UTILIZADOR**.
+> Pontos não verificados: **⚠ PARA CONFIRMAR**; pontos verificados na 2.ª ronda de pesquisa: **✔ Confirmado (2.ª ronda)**. Escolhas já tomadas pelo utilizador: **✔ Decidido (dec. 20, item Xn)** (ver `docs/pendentes.md`).
 > Datas: estilo antigo (juliano, «EA») / estilo novo (civil, «EN»), conforme a decisão n.º 2 de `docs/decisoes.md`; para 1900–2099, EN = EA + 13 dias.
 > Estado da informação: 16 de outubro de 2026.
 
@@ -18,7 +18,7 @@
 | Tema | O que a app pode mostrar com segurança | Pontos sensíveis |
 |---|---|---|
 | Ícones milagrosos | Datas de festa EA/EN, tipo iconográfico, local atual (§1.7) | Vários originais perdidos ou em local discutido (Kazan, Smolensk) |
-| Cores litúrgicas | Tabela por festa/período (§3.3), com variantes | As fontes **divergem** (Páscoa, Natal, profetas, apóstolos) → decisão |
+| Cores litúrgicas | Tabela por festa/período (§3.3), com variantes | As fontes **divergem** (Páscoa, Natal, profetas, apóstolos) → ✔ decidido (D10) |
 | Etiqueta no templo | Separar **norma** (cânones) de **costume** (§2.6) | Lenço/saia, menstruação: costume, não cânone |
 | Sinos | Quatro tipos canónicos segundo o *Estatuto do toque* de 2002 (§2.7) | — |
 | Peregrinações | Fundação, relíquias, festa, sítio oficial (§5) | Lavras de Kiev e de Pochaiv: situação jurídica na Ucrânia em evolução |
@@ -32,7 +32,7 @@
 - [FACTO] O VII Concílio Ecuménico (787) definiu que «a honra prestada à imagem passa ao protótipo» («честь, воздаваемая образу, переходит к первообразному») e distinguiu a veneração (beijo, incenso, velas) da adoração «que convém só à natureza divina» [15]; cf. 04 §3.9.
 - [FACTO] Na prática ortodoxa o ícone considera-se concluído quando recebe o **nome (inscrição)**: «Икона считается законченной лишь тогда, когда была поименована» [15].
 - [FACTO] A *Enciclopédia Ortodoxa* define a iconografia como «sistema canónico de representação» de personagens ou cenas, com traços repetidos do arquétipo e conservação do mesmo sentido [2].
-- [FACTO] Imagem de Deus Pai («Senhor Sabaot», «Paternidade»/«Trindade do Novo Testamento»): o Grande Concílio de Moscovo de 1666–1667 proibiu-a como tentativa de representar a Hipóstase não-representável do Pai [16]. ⚠ PARA CONFIRMAR o capítulo exato das atas (cita-se habitualmente o cap. 43) e o grau de aplicação real nas igrejas russas posteriores (a imagem continuou a aparecer).
+- [FACTO] Imagem de Deus Pai («Senhor Sabaot», «Paternidade»/«Trindade do Novo Testamento»): o Grande Concílio de Moscovo de 1666–1667 proibiu-a como tentativa de representar a Hipóstase não-representável do Pai [16]. **✔ Confirmado (2.ª ronda)** pela *Enc. Ortodoxa*: «o Concílio proibiu representar o Senhor Sabaot, porque Deus Pai é invisível e não tem forma corporal definida»; o Espírito Santo em forma de pomba só na cena do Batismo; Deus só «nas aparições» descritas na Escritura e na Tradição [96]. ⚠ PARA CONFIRMAR (sem resultado na 2.ª ronda): o número do capítulo das atas (cita-se habitualmente o cap. 43; [96] não o dá) e o grau de aplicação real posterior (a imagem continuou a aparecer).
 
 ### 1.2 Cânones da iconografia: Stoglav (1551) e «podlinniki»
 
@@ -40,7 +40,7 @@
   - **Cap. 41, pergunta 1 (Trindade):** o czar notou divergências quanto à colocação do nimbo crucífero nos ícones da Trindade (só no anjo central ou nos três). Resposta do concílio: pintar «a partir dos modelos antigos, como pintavam os iconógrafos gregos **e como pintou Andrei Rublev**», inscrever apenas «Святая Троица» («Santa Trindade») e «nada mudar por invenção própria» («от своего замышления ничтоже претворяти») [1][5].
   - **Cap. 43 (iconógrafos):** exige iconógrafos «piedosos, mansos, temperantes, não gananciosos», castos ou casados, e pintura «a partir dos modelos antigos» («с древних образцов»), sem descrever a Divindade «por conjetura» [1].
   - Significado: o Stoglav tornou a *Trindade* de Rublev **modelo normativo** para este tema [5]. Não «canonizou» o artista (Rublev só foi glorificado em 1988, §1.4).
-- [FACTO] **Podlinniki (иконописные подлинники):** livros de modelos com descrições breves dos traços típicos dos santos e esquemas das cenas, para preservar o cânone sem arbitrariedades [2]. Distinguem-se os **ilustrados** (лицевые, com desenhos) e os **explicativos** (толковые, só texto) — ⚠ PARA CONFIRMAR a definição em fonte (o artigo [2] não a dá). A *Enciclopédia Ortodoxa* cita, na bibliografia, a redação de Novgorod (cópia de Santa Sofia, finais do séc. XVI, publ. 1873), o podlinnik de Siisk (1660) e a redação compilada de Filimonov (publ. 1874), além do *Лицевой иконописный подлинник* de N. Kondakov (1906) [2].
+- [FACTO] **Podlinniki (иконописные подлинники):** livros de modelos com descrições breves dos traços típicos dos santos e esquemas das cenas, para preservar o cânone sem arbitrariedades [2]. Distinguem-se os **ilustrados** (лицевые, com desenhos) e os **explicativos** (толковые, só texto) — ⚠ PARA CONFIRMAR a definição em fonte (o artigo [2] não a dá; 2.ª ronda: localizada a entrada «Подлинники лицевые» do *Словарь изографа* de V. V. Filatov (1997), não lida). A *Enciclopédia Ortodoxa* cita, na bibliografia, a redação de Novgorod (cópia de Santa Sofia, finais do séc. XVI, publ. 1873), o podlinnik de Siisk (1660) e a redação compilada de Filimonov (publ. 1874), além do *Лицевой иконописный подлинник* de N. Kondakov (1906) [2].
 - [FACTO] Equivalente grego: a *Hermenêutica da Pintura* (Ἑρμηνεία) de Dionísio de Furná, c. 1730–1733 [3]; publicada no Ocidente por Didron em 1845 [2].
 - [FACTO] As **cores** das vestes de cada santo são indicadas pelos podlinniki, mas sem explicação simbólica; «a literatura litúrgica guarda silêncio total sobre a simbólica das cores» [52] — logo, toda a simbólica cromática dos ícones é **[INTERPRETAÇÃO]** moderna.
 
@@ -63,7 +63,7 @@
 - **Pskov** (séc. XIII–XVI; apogeu XIV–XV): escola local com iconografias originais e «expressividade particular» que deriva da corrente expressiva da arte bizantina tardia (Galeria Tretiakov) [9][11]; após a anexação de Pskov (1510) influência moscovita, mas traços próprios até ao séc. XVII [9].
 - **Moscovo** (séc. XIV–XVI): centro do círculo de Rublev e de Dionísio [5][6].
 - [FACTO] **Teófanes, o Grego (Феофан Грек):** frescos da igreja da Transfiguração na rua Ilyina, em Novgorod (1378) [8]; em 1405 pintou com Prócoro de Gorodets e Andrei Rublev a igreja da Anunciação do Kremlin de Moscovo — sendo nomeado em primeiro lugar, presume-se que dirigiu os trabalhos [7]. Atribuições de ícones a Teófanes (p. ex. a Déesis da Anunciação) estão marcadas como incertas («Феофан Грек (?)») [7].
-- [FACTO] **Santo Andrei Rublev (Андрей Рублёв, c. 1360 – c. 1430, datas aproximadas):** monge (crónica de 1405: «чернец»), provavelmente ligado ao mosteiro Andronikov [5]. Obras: Anunciação do Kremlin (1405, com Teófanes e Prócoro); catedral da Dormição de Vladimir (iniciada a 25 de maio de 1408, com Daniel; subsiste parte, incl. o Juízo Final) [5]. Glorificado pelo Concílio Local da IOR de **1988**; memória a **4 de julho (EA)** [5] (= 17 jul. EN ⚠ conversão própria).
+- [FACTO] **Santo Andrei Rublev (Андрей Рублёв, c. 1360 – c. 1430, datas aproximadas):** monge (crónica de 1405: «чернец»), provavelmente ligado ao mosteiro Andronikov [5]. Obras: Anunciação do Kremlin (1405, com Teófanes e Prócoro); catedral da Dormição de Vladimir (iniciada a 25 de maio de 1408, com Daniel; subsiste parte, incl. o Juízo Final) [5]. Glorificado pelo Concílio Local da IOR de **1988**; memória a **4 de julho (EA)** [5] (= 17 jul. EN; ✔ conversão EA + 13 dias, válida para 1900–2099).
 - [FACTO] **A Trindade de Rublev** (Galeria Tretiakov desde 1929 até 2024):
   - Datação **discutida**: c. 1411–1412 (igreja de madeira) ou anos 1420 (catedral de pedra iniciada em 1422) [5].
   - Conteúdo: a hospitalidade de Abraão (Gén. 18), lida como prefiguração da Trindade; **omite Abraão, Sara, o servo e o vitelo**; três anjos em círculo à volta de uma mesa com cálice [5].
@@ -92,14 +92,14 @@ Classificação de O. V. Gubareva, *A Mãe de Deus nos seus ícones* (capítulos
 
 | Tipo | Significado | Exemplos russos | Fonte |
 |---|---|---|---|
-| **Hodigítria** (Одигитрия) | «A que guia/indica o caminho»; Menino ao colo, Mãe aponta para Ele | Ibéria (Iverskaia), Smolensk, Tikhvin, Kazan, «Mitiga as minhas tristezas», Tchernigov | [17][21][22] |
-| **Eleoussa / Ternura** (Умиление, *Umilénie*; gr. Ἐλεοῦσα) | «Que acaricia»: face do Menino encostada à da Mãe | Vladimir, Teodoro (Feodorovskaia), Don | [17][19] |
+| **Guia (Hodigítria)** (Одигитрия) | «A que guia/indica o caminho»; Menino ao colo, Mãe aponta para Ele | Ibéria (Iverskaia), Smolensk, Tikhvin, Kazan, «Mitiga as minhas tristezas», Tchernigov | [17][21][22] |
+| **Ternura (Eleoussa)** (Умиление, *Umilénie*; gr. Ἐλεοῦσα) | «Que acaricia»: face do Menino encostada à da Mãe | Vladimir, Teodoro (Feodorovskaia), Don | [17][19] |
 | **Kykkotissa** | «Misericordiosa» | Ícone de Kykkos | [17] |
 | **Sinal / Orante** (Знамение; Оранта) | Mãe de Deus com mãos erguidas e Cristo-Emanuel num medalhão ao peito | Sinal de Novgorod, «Grande Panagia» (Orante de Mirozh), Kursk-Raiz | [17][28] |
 | **No trono** | Mãe de Deus entronizada | Svensk-Petchersk; «Soberana» (Derjavnaia) | [17][32] |
 | **Hinográficos** | Ilustram textos litúrgicos | «Louvor da Mãe de Deus», «Sarça ardente» | [17] |
 
-- PT-PT: «Hodigítria» e «Eleoussa» não estão atestados nas fontes ortodoxas portuguesas consultadas → **⚠ forma PT proposta**; → DECISÃO DO UTILIZADOR: usar «Hodigítria/Guia» e «Ternura (Eleoussa)».
+- PT-PT: «Hodigítria» e «Eleoussa» não estão atestados nas fontes ortodoxas portuguesas consultadas nem no Dicionário Priberam (verificado a 16 out. 2026). **✔ Decidido (dec. 20, item B4):** na app usam-se **«Guia (Hodigítria)»** e **«Ternura (Eleoussa)»**, com explicação no glossário.
 - ⚠ PARA CONFIRMAR: tipos *Panachrantos* e *Agiosoritissa* (não cobertos por [17]).
 
 ### 1.7 Grandes ícones milagrosos russos
@@ -109,23 +109,23 @@ Legenda: EA = juliano; EN = civil. Datas móveis indicadas como tal.
 | Ícone | Tipo | Festas (EA / EN) e o que comemoram | Origem: facto vs tradição | Local atual | Fonte |
 |---|---|---|---|---|---|
 | **Vladimir** (Владимирская) | Ternura | **21 mai./3 jun.** (restauro 1514, depois ligado à libertação de 1521); **23 jun./6 jul.** (1480, Ugra); **26 ago./8 set.** (Encontro de 1395, Tamerlão) | [FACTO] obra de Constantinopla, 1.º terço do séc. XII; 1.ª menção 1155 (André Bogoliubski leva-a de Vychgorod para Vladimir). [TRADIÇÃO] pintado por S. Lucas | **Igreja-museu de S. Nicolau em Tolmachi** (Galeria Tretiakov), desde 1999 | [19][20] |
-| **Kazan** (Казанская) | Hodigítria | **8 jul./21 jul.** (aparecimento, 1579); **22 out./4 nov.** (libertação de Moscovo, 1612) | [FACTO] encontrado em Kazan a 8 jul. 1579 pela menina Matrona após incêndio; acompanhou a milícia de Minin e Pojarski | Original **roubado em 1904** (destino desconhecido; testemunhos em tribunal sugerem que foi queimado). Cópias veneradas: catedral de Kazan (S. Petersburgo), catedral de Kazan da Praça Vermelha (para onde uma imagem antiga, «encontrada na residência patriarcal de Peredelkino», voltou a 4 nov. 2023 — ⚠ PARA CONFIRMAR qual cópia) | [21] |
-| **Smolensk** (Смоленская Одигитрия) | Hodigítria | **28 jul./10 ago.** (instituída 1525, regresso de Smolensk à Rússia); 5 nov. EN (cópia devolvida em 1812) | [TRADIÇÃO] pintado por S. Lucas; trazido em 1046 com a princesa Ana, filha de Constantino IX Monómaco | Original **desaparecido durante a ocupação alemã de 1941** ⚠ PARA CONFIRMAR (fonte jornalística [23]; «perda» vs «destruição» não esclarecido) | [22][23] |
-| **Tikhvin** (Тихвинская) | Hodigítria | **26 jun./9 jul.** (aparecimento) | [TRADIÇÃO] pintado por S. Lucas; aparição «no ar» junto ao rio Tikhvinka no tempo de Dmitri Donskoi e do arcebispo Alexis de Novgorod (1360–1388). [FACTO] cópia como garantia do tratado de Stolbovo (1617) | **Mosteiro da Dormição de Tikhvin**; levado na guerra para Pskov, Riga e EUA (bispo João Garklavs, depois Sérgio Garklavs, Chicago); **devolvido em 2004** | [24][25] |
-| **Ibéria / Iverskaia** (Иверская; Portaítissa, «Porteira») | Hodigítria | **12 fev./25 fev.**; **13 out./26 out.** (chegada da cópia a Moscovo, 1648); **terça-feira da Semana Luminosa** (móvel) | [TRADIÇÃO] lançado ao mar por uma viúva de Niceia no tempo do iconoclasta Teófilo (829–842); chegou ao Athos «num pilar de fogo»; escolheu ficar sobre a porta do mosteiro. [FACTO] cópia do monge Iâmblico para Moscovo, recebida a 13 out. 1648 | Original: **mosteiro de Iviron (Athos)**. Cópia de 1648: ⚠ PARA CONFIRMAR local atual | [26][27] |
-| **Kursk-Raiz** (Курская Коренная, tipo «Sinal») | Sinal | **27 nov./10 dez.**; **8 set./21 set.** (achamento, 1295); **8 mar./21 mar.** ⚠ (motivo não confirmado); **9.ª sexta-feira depois da Páscoa** (procissão a Korennaia Pustyn, tradição desde 1618) | [TRADIÇÃO/FACTO] achado por um caçador junto a raízes de árvore perto de Kursk a 8 set. 1295 | Saiu da Rússia em 1920; hoje na **catedral do Sinal, Nova Iorque** (Sínodo da IORE/ROCOR); cópia na catedral do Sinal de Kursk | [28][29] |
-| **Pochaiv** (Почаевская) | Ternura ⚠ | **23 jul./5 ago.** (cerco turco-tártaro de 1675) | [TRADIÇÃO] oferecido em 1559 pelo metropolita Neófito de Constantinopla a Ana Goiska; doado aos monges em 1597. Durante o cerco de 1675 a Mãe de Deus terá aparecido sobre o mosteiro | **Lavra da Dormição de Pochaiv** (Ucrânia; ver §5) | [30] |
+| **Kazan** (Казанская) | Guia (Hodigítria) | **8 jul./21 jul.** (aparecimento, 1579); **22 out./4 nov.** (libertação de Moscovo, 1612) | [FACTO] encontrado em Kazan a 8 jul. 1579 pela menina Matrona após incêndio; acompanhou a milícia de Minin e Pojarski | Original **roubado em 1904** (destino desconhecido; testemunhos em tribunal sugerem que foi queimado). Cópias veneradas: catedral de Kazan (S. Petersburgo), catedral de Kazan da Praça Vermelha (para onde uma imagem antiga, «encontrada na residência patriarcal de Peredelkino», voltou a 4 nov. 2023). 2.ª ronda: segundo a imprensa, trata-se da **«lista moscovita»** do ícone, roubada em 1918 e apresentada pelo Patriarca em nov. 2023, levada depois para a catedral de Kazan; em maio de 2024 o Patriarca anunciou a sua transferência para a catedral de Cristo Salvador [101] — ⚠ PARA CONFIRMAR o local atual em fonte oficial | [21] |
+| **Smolensk** (Смоленская Одигитрия) | Guia (Hodigítria) | **28 jul./10 ago.** (instituída 1525, regresso de Smolensk à Rússia); 5 nov. EN (cópia devolvida em 1812) | [TRADIÇÃO] pintado por S. Lucas; trazido em 1046 com a princesa Ana, filha de Constantino IX Monómaco | Original **desaparecido; destino desconhecido** — ✔ Confirmado (2.ª ronda): não há prova de destruição. Segundo a Diocese de Smolensk, «até hoje não se sabe ao certo quando desapareceu nem onde se encontra»: as versões apontam para os anos 1930 ou para antes da tomada de Smolensk pelos alemães (fim de jul. – início de ago. 1941); a 1–2 ago. 1941 encontrou-se na catedral uma cópia exata, o ícone «da Porta» (Надвратная), hoje venerado na catedral da Dormição de Smolensk [97]. (A versão «queimado em 1941» circula em fontes secundárias [23], sem prova.) | [22][23] |
+| **Tikhvin** (Тихвинская) | Guia (Hodigítria) | **26 jun./9 jul.** (aparecimento) | [TRADIÇÃO] pintado por S. Lucas; aparição «no ar» junto ao rio Tikhvinka no tempo de Dmitri Donskoi e do arcebispo Alexis de Novgorod (1360–1388). [FACTO] cópia como garantia do tratado de Stolbovo (1617) | **Mosteiro da Dormição de Tikhvin**; levado na guerra para Pskov, Riga e EUA (bispo João Garklavs, depois Sérgio Garklavs, Chicago); **devolvido em 2004** | [24][25] |
+| **Ibéria / Iverskaia** (Иверская; Portaítissa, «Porteira») | Guia (Hodigítria) | **12 fev./25 fev.**; **13 out./26 out.** (chegada da cópia a Moscovo, 1648); **terça-feira da Semana Luminosa** (móvel) | [TRADIÇÃO] lançado ao mar por uma viúva de Niceia no tempo do iconoclasta Teófilo (829–842); chegou ao Athos «num pilar de fogo»; escolheu ficar sobre a porta do mosteiro. [FACTO] cópia do monge Iâmblico para Moscovo, recebida a 13 out. 1648 | Original: **mosteiro de Iviron (Athos)**. Cópia de 1648 — ✔ Confirmado (2.ª ronda): **igreja da Dormição do Mosteiro Novodevitchi (Moscovo)**; no período soviético integrou o acervo do Museu Histórico do Estado e foi devolvida à IOR (6 maio 2012, segundo Pravoslavie.ru; memória litúrgica da «segunda aquisição» a 6 maio) [98][99]. (Uma fonte de imprensa dá o regresso ao culto em Novodevitchi a 24 jan. 2009 [100] — data divergente.) | [26][27] |
+| **Kursk-Raiz** (Курская Коренная, tipo «Sinal») | Sinal | **27 nov./10 dez.**; **8 set./21 set.** (achamento, 1295); **8 mar./21 mar.** (✔ Confirmado (2.ª ronda): preservação do ícone no atentado bombista de 1898 na catedral do Sinal de Kursk — a bomba destruiu o baldaquino e o pedestal, o ícone ficou intacto [102]); **9.ª sexta-feira depois da Páscoa** (procissão a Korennaia Pustyn, tradição desde 1618) | [TRADIÇÃO/FACTO] achado por um caçador junto a raízes de árvore perto de Kursk a 8 set. 1295 | Saiu da Rússia em 1920; hoje na **catedral do Sinal, Nova Iorque** (Sínodo da IORE/ROCOR); cópia na catedral do Sinal de Kursk | [28][29] |
+| **Pochaiv** (Почаевская) | Ternura (✔ Confirmado (2.ª ronda): tipo «Умиление», cabeças coroadas [103]) | **23 jul./5 ago.** (cerco turco-tártaro de 1675) | [TRADIÇÃO] oferecido em 1559 pelo metropolita Neófito de Constantinopla a Ana Goiska; doado aos monges em 1597. Durante o cerco de 1675 a Mãe de Deus terá aparecido sobre o mosteiro | **Lavra da Dormição de Pochaiv** (Ucrânia; ver §5) | [30] |
 | **Proteção (Pokrov)** | Festa e ícone | **1 out./14 out.** | [TRADIÇÃO] visão de S. André, louco por Cristo, nas Blaquernas: a Mãe de Deus estende o véu sobre os fiéis. [FACTO] festa celebrada na Rus' desde o séc. XII–XIII, atribuída a André Bogoliubski; nos gregos só a partir do séc. XIX (hoje 28 out.) | Tipo de ícone, não exemplar único | [31] |
 | **«Soberana»** (Державная) | No trono, com cetro e orbe | **2 mar./15 mar.** | [FACTO] encontrado na cave da igreja de Kolomenskoie a 2/15 mar. 1917 (dia da abdicação de Nicolau II) por Evdokia Adrianova, após sonhos | **Igreja do ícone de Kazan em Kolomenskoie (Moscovo)**, para onde voltou a 27 jul. 1990 | [32] |
 | **Teodoro / Feodorovskaia** (Феодоровская) | Ternura [17] | **14 mar./27 mar.** (eleição de Miguel Romanov, 1613); **16 ago./29 ago.** (achamento, 1239) | [TRADIÇÃO] encontrado pelo príncipe Vassíli num pinheiro em 1239 | **Nova catedral da Epifania do Kremlin de Kostroma** (desde 2023; antes, desde 1991, na catedral da Epifania-Anastássia) | [33] |
 
-- → DECISÃO DO UTILIZADOR: incluir na app apenas as festas de ícones que constam do calendário paroquial russo do ano (há centenas de ícones com memória própria) ou um subconjunto curado (esta tabela).
+- ✔ Decidido (dec. 20, item D11): a app inclui um **subconjunto curado** (esta tabela), com ficha; os restantes ícones com memória própria (centenas) aparecem só pelo nome no calendário diário.
 
 ### 1.8 O canto dos ícones em casa (красный угол) e a lamparina
 
 - [FACTO/COSTUME] Nomes: «canto da frente», «canto belo/vermelho» (красный угол), «canto santo», божница, киот [34]. *Красный* significa aqui «belo» ⚠ PARA CONFIRMAR em dicionário etimológico.
 - **Orientação:** idealmente na parede **oriental**; se não for possível, outra parede — o essencial é haver espaço para a família rezar junta [34].
-- **Mínimo:** ícone do Salvador (recomenda-se o Pantocrátor) e da Mãe de Deus (Ternura ou Hodigítria); **Salvador à direita** de quem reza, Mãe de Deus à esquerda, como na iconóstase [34].
+- **Mínimo:** ícone do Salvador (recomenda-se o Pantocrátor) e da Mãe de Deus (Ternura ou Guia); **Salvador à direita** de quem reza, Mãe de Deus à esquerda, como na iconóstase [34].
 - **Lamparina (лампада, *lampáda*):** acesa durante a oração; aos domingos e festas pode arder todo o dia [34].
 - Não misturar ícones com imagens seculares, televisão, cartazes; fotografias de sacerdotes ou anciãos podem estar em casa, mas separadas dos ícones [34].
 - Estatuto destas indicações: **costume piedoso** publicado com bênção episcopal (Tikhvin, 2000), não norma canónica [34].
@@ -134,7 +134,7 @@ Legenda: EA = juliano; EN = civil. Datas móveis indicadas como tal.
 
 - [FACTO] Na prática russa atual, os ícones novos são benzidos pelo sacerdote (oração e aspersão de água benta); o rito aparece pela primeira vez no **Grande Trebnik de Pedro Mohyla (séc. XVII)**, existindo também no Grande Eucológio grego, onde «caiu em desuso» [35].
 - [FACTO/DEBATE] Vários autores (arquim. Zenão, prot. N. Ozolin, metrop. Mercúrio) sustentam que **o ícone é santo pela semelhança e pelo nome**, não pelo rito; a bênção seria reconhecimento eclesial da canonicidade do ícone [35][36]. Um ícone não benzido pode ser venerado [35].
-- → DECISÃO DO UTILIZADOR: a app deve (a) apenas descrever o costume russo de benzer ícones, ou (b) apresentar também o debate.
+- ✔ Decidido (dec. 20, item D8): a app descreve o costume russo de benzer ícones, com nota factual sobre a sua origem histórica (o rito aparece no Trebnik de Pedro Mohyla, séc. XVII [35]).
 
 ---
 
@@ -185,7 +185,7 @@ Legenda: EA = juliano; EN = civil. Datas móveis indicadas como tal.
 | 5. Antepassados | праотеческий | Patriarcas do AT; acrescentada na 2.ª metade do séc. XVI (exemplo datado mais antigo: 1598) |
 
   - [FACTO] No séc. XVII a fila das Festas passou para **baixo** da Déesis em muitas iconóstases — a ordem varia por época [40].
-- **Portas Reais** (Царские врата): ao centro da fila local; no alto a **Anunciação**; nas folhas S. Basílio e S. João Crisóstomo, mais tarde os quatro Evangelistas; por cima, a **Comunhão dos Apóstolos** [40]. (A «Última Ceia» por cima das portas é variante comum — ⚠ PARA CONFIRMAR.)
+- **Portas Reais** (Царские врата): ao centro da fila local; no alto a **Anunciação**; nas folhas S. Basílio e S. João Crisóstomo, mais tarde os quatro Evangelistas; por cima, a **Comunhão dos Apóstolos** [40]. (A «Última Ceia» por cima das portas é variante comum — ⚠ PARA CONFIRMAR; não pesquisado na 2.ª ronda.)
 - **Portas laterais / diaconais** (северные и южные двери): a do norte generalizou-se na Rússia em meados do séc. XVI; a do sul em geral só nas igrejas grandes; imagens de anjos, santos diáconos (Estêvão, Lourenço), o Bom Ladrão, etc. [40].
 
 ### 2.4 Santa Mesa, prótese e antimínsio
@@ -196,21 +196,21 @@ Legenda: EA = juliano; EN = civil. Datas móveis indicadas como tal.
 
 ### 2.5 Vasos e objetos sagrados
 
-| PT-PT (⚠ proposta onde indicado) | Russo | Função | [INTERPRETAÇÃO] simbólica | Fonte |
+| PT-PT (regra B4: forma descritiva PT; termo original ao lado) | Russo | Função | [INTERPRETAÇÃO] simbólica | Fonte |
 |---|---|---|---|---|
 | Cálice | потир / чаша | Vinho → Sangue de Cristo | A Mãe de Deus | [41] |
 | Patena | дискос | Prato do Cordeiro | Prato da Ceia; Igreja e eternidade (círculo) | [41] |
-| Asterisco / estrela ⚠ | звездица | Arco cruzado sobre a patena; atribuída a S. João Crisóstomo | Estrela de Belém (Mt 2,9) | [41] |
+| Asterisco / estrela | звездица | Arco cruzado sobre a patena; atribuída a S. João Crisóstomo | Estrela de Belém (Mt 2,9) | [41] |
 | Lança | копие | Faca para cortar as prósforas | A lança do soldado | [41] |
-| Colher ⚠ | лжица | Comunhão dos fiéis | Tenaz do Serafim (Is 6,6) | [41] |
-| Véus / «ar» ⚠ | покровцы / воздух | Cobrem cálice e patena | Faixas do Menino; vestes de glória | [41] |
+| Colher | лжица | Comunhão dos fiéis | Tenaz do Serafim (Is 6,6) | [41] |
+| Véus / «ar» | покровцы / воздух | Cobrem cálice e patena | Faixas do Menino; vestes de glória | [41] |
 | Pratos | тарелочки | Para a proscomídia | — | [41] |
-| Concha ⚠ | ковшик | Ablução do cálice | — | [41] |
+| Concha | ковшик | Ablução do cálice | — | [41] |
 | Píxide/sacrário | дарохранительница / дароносица | Guardar e levar Dons aos doentes | — | [41] |
 | Turíbulo | кадило (кацея = turíbulo de mão) | Incensação | Graça que envolve os fiéis | [41][53] |
 | Ripídio | рипида | Leques com serafins (liturgia episcopal) | Potências angélicas | [41] |
 | Dikírio / trikírio | дикирий / трикирий | Candelabros de 2/3 velas para a bênção episcopal | Duas naturezas / Trindade | [41] |
-| Águia (tapete) ⚠ | орлец | Tapete redondo sob os pés do bispo | — | [41] |
+| Águia (tapete) | орлец | Tapete redondo sob os pés do bispo | — | [41] |
 | Báculo | жезл | Bastão episcopal | — | [41] |
 
 ### 2.6 Etiqueta no templo (prática russa): norma vs costume
@@ -229,7 +229,7 @@ Legenda: EA = juliano; EN = civil. Datas móveis indicadas como tal.
 | Ordem na Comunhão | — | Crianças, depois homens, depois mulheres | [42] |
 | Não batizados | «Segundo os cânones» não assistem à Liturgia dos fiéis | Podem venerar ícones e relíquias | [43] |
 
-- → DECISÃO DO UTILIZADOR: na app, a secção de etiqueta deve **(a)** mostrar só o costume russo, ou **(b)** mostrar o costume com a etiqueta «costume / norma». Recomenda-se (b), coerente com a decisão n.º 6 (norma vs prática).
+- ✔ Decidido (dec. 20, item D9): na app, cada item da etiqueta é rotulado **«norma»** (cânone/rubrica) ou **«costume»**, coerente com a decisão n.º 6 (norma vs prática).
 
 ### 2.7 Sinos e tipos de toque
 
@@ -255,9 +255,9 @@ Legenda: EA = juliano; EN = civil. Datas móveis indicadas como tal.
 
 ### 3.1 Vestes por grau
 
-Nomes gregos: forma lexical corrente (⚠ verificação filológica não feita). Formas PT-PT: **⚠ propostas** (nenhuma atestada nas fontes PT do Vicariato) → DECISÃO DO UTILIZADOR (aportuguesar ou transliterar).
+Nomes gregos: forma lexical corrente (⚠ verificação filológica não feita). Formas PT-PT — **✔ Decidido (dec. 20, item B4):** aportuguesar só quando houver forma atestada em dicionário português; caso contrário, transliterar e explicar no glossário. Verificação no Dicionário Priberam (16 out. 2026): atestados com o sentido próprio ou geral — *estola*, *mitra*, *cálice*, *patena*, *turíbulo*, *cibório*, *iconóstase*, *nártex*, *ambão*; **não atestados** (ou só com outro sentido) — *esticário*, *orário* (só «lenço romano»), *epitraquélio*, *felónio*, *epigonátio*, *omofório*, *sakkos*, *panágia*, *antimínsio*, *dikírio/trikírio*, *ripídio* (resultado inconclusivo). Os não atestados mantêm-se como transliterações (base grega, ortografia portuguesa), com explicação no glossário; a forma PT descritiva entre parênteses quando útil (p. ex. «epitraquélio (estola sacerdotal)»).
 
-| Grau | Veste (PT-PT ⚠ proposta) | Eslavo/russo | Grego | [INTERPRETAÇÃO] segundo as fontes | Fonte |
+| Grau | Veste (PT-PT; regra B4) | Eslavo/russo | Grego | [INTERPRETAÇÃO] segundo as fontes | Fonte |
 |---|---|---|---|---|---|
 | **Leitor** | Felónio curto (só na tonsura) | фелонь краткая (*felón' krátkaia*) | φαιλόνιον | Entrada no serviço sagrado; usado **uma única vez**, na tonsura | [49] |
 | Leitor | Esticário (sticharion) | стихарь (*stikhár'*) | στιχάριον | Pureza da alma | [48][49] |
@@ -290,7 +290,7 @@ Nomes gregos: forma lexical corrente (⚠ verificação filológica não feita).
 
 ### 3.3 Cores litúrgicas na prática russa — tabela
 
-Colunas: **[NK]** = *Livro de mesa do clérigo*, t. I, cap. «Cores das vestes litúrgicas» [52] (obra de referência do Patriarcado de Moscovo, anos 1970–80 ⚠ PARA CONFIRMAR dados editoriais). **[VO]** = esquema pré-revolucionário (*Вопросы и ответы*, citado nas «Notas litúrgicas» do protopresb. V. Lukianov) [53]. **[UC]** = Typikon próprio da catedral da Dormição de Moscovo (citado em [53]).
+Colunas: **[NK]** = *Livro de mesa do clérigo*, t. I, cap. «Cores das vestes litúrgicas» [52] (✔ Confirmado (2.ª ronda): Moscovo, Editora do Patriarcado de Moscovo, 8 vols., 1977–1994; t. I, 1977 [105]). **[VO]** = esquema pré-revolucionário (*Вопросы и ответы*, citado nas «Notas litúrgicas» do protopresb. V. Lukianov) [53]. **[UC]** = Typikon próprio da catedral da Dormição de Moscovo (citado em [53]).
 
 | Festa / período | [NK] | [VO] | [UC] | Nota |
 |---|---|---|---|---|
@@ -300,7 +300,7 @@ Colunas: **[NK]** = *Livro de mesa do clérigo*, t. I, cap. «Cores das vestes l
 | Anunciação | Branco | Azul (festas da Mãe de Deus) | Azul ou branco | ⚠ diverge |
 | **Transfiguração** | Branco | Branco | Branco | |
 | **Ascensão** | Branco | Branco | Branco | |
-| **Páscoa** | Começa em **branco**; a Liturgia pascal e toda a Semana Luminosa em **vermelho** | **Branco** da Páscoa à apodose da Ascensão | Branco até à apodose da Ascensão | ⚠ **diverge**; prática russa atual mais comum: vermelho no período pascal — ⚠ PARA CONFIRMAR em fonte normativa atual |
+| **Páscoa** | Começa em **branco**; a Liturgia pascal e toda a Semana Luminosa em **vermelho** | **Branco** da Páscoa à apodose da Ascensão | Branco até à apodose da Ascensão | ⚠ **diverge** entre as fontes; **✔ Confirmado (2.ª ronda) — prática russa atual:** a Matina pascal começa em branco; depois o vermelho (com dourado) é a «cor pascal fundamental» e mantém-se **até à Ascensão**; a ROCOR usa branco [104]. (Não existe norma do Typikon sobre a cor; fonte: calendário da Azbuka Very, referência da camada paroquial pela regra A0.) |
 | Entrada em Jerusalém (Ramos) | **Verde** | (domingo: dourado ou branco no Sábado de Lázaro) | Verde | |
 | **Pentecostes (Trindade) / Dia do Espírito Santo** | **Verde** | Verde ou branco | Verde | |
 | Festas da **Mãe de Deus** | **Azul** e branco | Azul | Azul ou branco | |
@@ -321,7 +321,7 @@ Colunas: **[NK]** = *Livro de mesa do clérigo*, t. I, cap. «Cores das vestes l
 | Laranja | Sem lugar próprio; lido como amarelo ou vermelho | — | — | [52] |
 
 - [FACTO] Os panos da Santa Mesa, da prótese e dos atris devem ter a mesma cor das vestes do clero [53].
-- → **DECISÃO DO UTILIZADOR:** que esquema mostrar por defeito na app. Proposta: [NK] (fonte mais recente e sistemática), assinalando divergências (Páscoa, Anunciação, profetas, apóstolos, Quinta-feira Santa, jejuns menores, funerais) com nota «varia segundo o costume local».
+- ✔ **Decidido (dec. 20, item D10):** a app mostra por defeito o esquema **[NK]**, assinalando as divergências (Páscoa, Anunciação, profetas, apóstolos, Quinta-feira Santa, jejuns menores, funerais) com a nota «varia segundo o costume local». Para a Páscoa, a variante a mostrar é a prática atual (branco no início da Matina, depois vermelho até à Ascensão) [104].
 
 ---
 
@@ -356,7 +356,7 @@ Colunas: **[NK]** = *Livro de mesa do clérigo*, t. I, cap. «Cores das vestes l
 ### 4.5 Canto *partes* (polifonia)
 
 - [FACTO] **Canto partes** (партесное пение): música coral polifónica, de 3 a 48 vozes; nasce em finais do séc. XVI na Rus' do sudoeste, ligado às **confrarias ortodoxas** (Lviv, Vilnius, Kiev, Lutsk), com notação quadrada de Kiev [56].
-- [FACTO] Chega à Rússia moscovita em meados do séc. XVII «sob o patriarca Nikon»; domina dos anos 1680 até ao último terço do séc. XVIII [56]. ⚠ PARA CONFIRMAR: o resumo do artigo [56] indica «anos 40 do séc. XVII», incompatível com o patriarcado de Nikon (1652–1666).
+- [FACTO] Chega à Rússia moscovita em meados do séc. XVII; domina dos anos 1680 até ao último terço do séc. XVIII [56]. **✔ Confirmado (2.ª ronda), com precisão:** a *Enc. Ortodoxa* escreve literalmente «nos anos 40 do séc. XVII, sob o patriarca Nikon» [56] — fórmula aproximada, pois Nikon só foi patriarca em 1652–1666. Segundo V. Melnitchenko (*Svitohliad*, 2017), o mosteiro de Santo André em Moscovo, fundado em **1648**, tornou-se a base dos cantores ucranianos; Nikon, como metropolita de Novgorod (desde 1649), foi o primeiro a chamar ucranianos para cantar na Santa Sofia de Novgorod, com o apoio do czar Aleixo; e as **chegadas em massa de cantores de Kiev a Moscovo começam nos anos 1650** (grupo de Oleksandr Vasyliv na primavera de 1651; em 1652 dois coros, de 12 e de 8 vozes) [106]. **Para a app:** «chega a Moscovo no fim dos anos 1640 – anos 1650, com cantores vindos de Kiev, promovido por Nikon e pelo czar Aleixo».
 - [FACTO] Géneros: **concerto partes** e polifonia de *obikhod* (harmonizações a 4 vozes com a melodia no tenor) [56]. Mestres: Nikolai Diletski, Vassíli Titov [56].
 
 ### 4.6 Compositores
@@ -366,7 +366,7 @@ Colunas: **[NK]** = *Livro de mesa do clérigo*, t. I, cap. «Cores das vestes l
 - [FACTO] **S. V. Rachmaninov:**
   - *Liturgia de S. João Crisóstomo*, op. 31 (1910): 20 números; **não entrou na prática eclesial nem obteve aprovação das autoridades**; a censura excluiu partes dos concertos; o próprio compositor considerou ter resolvido o problema «de forma insatisfatória» [62].
   - *Vigília de toda a noite*, op. 37 (1915): estreia a 10 mar. 1915 pelo **Coro Sinodal** (dir. N. Danilin); usa cantos **znamenny**, **grego** e **de Kiev** autênticos em 9 dos 15 números; cantada em ofícios anualmente desde 1957 na igreja da Transfiguração em Ordynka (Moscovo) [62].
-- [FACTO] **Escola Sinodal de Canto Eclesiástico** (Синодальное училище церковного пения, Moscovo): aberta em **1830** para formar cantores do Coro Sinodal, regentes e professores [63]; A. D. Kastalski foi diretor em 1910–1918; nacionalizada em 1918 e transformada em Academia Coral Popular (encerrada em 1923) [64]. ⚠ PARA CONFIRMAR a reorganização de 1886 (data frequentemente citada como «fundação» do período áureo).
+- [FACTO] **Escola Sinodal de Canto Eclesiástico** (Синодальное училище церковного пения, Moscovo): aberta em **1830** para formar cantores do Coro Sinodal, regentes e professores [63]; A. D. Kastalski foi diretor em 1910–1918; nacionalizada em 1918 e transformada em Academia Coral Popular (encerrada em 1923) [64]. **✔ Confirmado (2.ª ronda), com divergência de designação:** em **1886**, junto do Coro Sinodal e com base nas suas classes de regentes, foi criada a **Escola Sinodal** com curso de **oito anos** (L. M. Nikolskaia, 2012) [107]; a data de 1830 [63] refere-se à escola anterior de formação dos cantores do Coro. As fontes chamam «fundação» ora a uma, ora a outra — na app: «escola desde 1830; reorganizada como Escola Sinodal (curso de 8 anos) em 1886».
 
 ### 4.7 Instrumentos
 
@@ -384,31 +384,31 @@ Colunas: **[NK]** = *Livro de mesa do clérigo*, t. I, cap. «Cores das vestes l
 
 | Lugar | Fundação (facto vs tradição) | Relíquias / ícones | Festas (EA/EN) | Sítio oficial | Fonte |
 |---|---|---|---|---|---|
-| **Lavra da Trindade-São Sérgio** (Sérguiev Possad) | [FACTO] 1337: Sérgio (Bartolomeu) e o irmão Estêvão instalam-se no monte Makovets; 1.ª igreja de madeira consagrada em 1340; catedral da Trindade iniciada em 1422 (achamento das relíquias de S. Sérgio); título de **Lavra em 1744**; encerrada 1919–1920; reaberta na Páscoa (21 abr.) de 1946; Academia Teológica de Moscovo na Lavra desde 1814 (de novo desde 1949) | Relíquias de S. Sérgio; a **Trindade** de Rublev (desde 2024, §1.4) | S. Sérgio: **25 set./8 out.** (repouso) e **5 jul./18 jul.** (achamento das relíquias) ⚠ PARA CONFIRMAR em [66] (datas não constam da página) | stsl.ru | [66][12] |
-| **Mosteiro das Grutas de Pskov** (Pskovo-Petcherski, Petchory) | [TRADIÇÃO] grutas «criadas por Deus» descobertas (data tradicional 1392); [FACTO] 1473: o monge Jonas consagra a igreja-gruta da Dormição — data oficial de fundação. **Nunca foi encerrado** (incl. período soviético) | Relíquias de Marcos, Jonas, Lázaro; restos de S. Cornélio; >10 000 sepultados nas grutas | Dormição **15/28 ago.** (orago) ⚠ | ⚠ PARA CONFIRMAR (pskovo-pechersky-monastery.ru não acessível) | [74][75] |
+| **Lavra da Trindade-São Sérgio** (Sérguiev Possad) | [FACTO] 1337: Sérgio (Bartolomeu) e o irmão Estêvão instalam-se no monte Makovets; 1.ª igreja de madeira consagrada em 1340; catedral da Trindade iniciada em 1422 (achamento das relíquias de S. Sérgio); título de **Lavra em 1744**; encerrada 1919–1920; reaberta na Páscoa (21 abr.) de 1946; Academia Teológica de Moscovo na Lavra desde 1814 (de novo desde 1949) | Relíquias de S. Sérgio; a **Trindade** de Rublev (desde 2024, §1.4) | S. Sérgio: **25 set./8 out.** (repouso) e **5 jul./18 jul.** (achamento das relíquias) — ✔ Confirmado (2.ª ronda) [109] | stsl.ru (✔ título «Официальный сайт», out. 2026) | [66][12] |
+| **Mosteiro das Grutas de Pskov** (Pskovo-Petcherski, Petchory) | [TRADIÇÃO] grutas «criadas por Deus» descobertas (data tradicional 1392); [FACTO] 1473: o monge Jonas consagra a igreja-gruta da Dormição — data oficial de fundação. **Nunca foi encerrado** (incl. período soviético) | Relíquias de Marcos, Jonas, Lázaro; restos de S. Cornélio; >10 000 sepultados nas grutas | Dormição **15/28 ago.** (orago; ✔ o mosteiro é «Свято-Успенский» — da Dormição [74]) | pskovo-pechersky-monastery.ru — indicado como sítio oficial pela Wikipédia (EN) [111]; ⚠ não acessível a partir desta pesquisa (2.ª ronda) | [74][75] |
 | **Optina Pustyn** (Kozelsk) | [TRADIÇÃO] fundada no fim do séc. XIV pelo ladrão arrependido Opta (monge Macário); [FACTO] existia no séc. XV (sinódico de 1670 copiado de outro antigo); encerrada 1918/1923; **devolvida à Igreja a 17 nov. 1987** | Relíquias dos anciãos (Ambrósio, Nectário, Moisés, Antão e outros) | **Sinaxe dos anciãos de Optina: 11/24 out.**; S. Ambrósio glorificado em 1988 | optina.ru | [76] |
-| **Diveevo** (mosteiro da Trindade-Serafim) | [FACTO] comunidade de Kazan fundada pela madre Alexandra (Agáfia Melgunova); igreja de Kazan iniciada 1773–74, consagrada no início de 1780; S. Serafim de Sarov cuida da comunidade desde 1789; mosteiro desde 1861; encerrado 21 set. 1927; restaurado por decisão sinodal de 21 jul. 1991 | **Relíquias de S. Serafim de Sarov** (chegaram a 31 jul. 1991); relíquias das veneráveis Alexandra, Marta e Helena (achadas 26 set. 2000). [TRADIÇÃO] **«Santa Vala» (Канавка)**: em 25 nov. 1825 a Mãe de Deus terá indicado o seu traçado; restaurada desde 1997 | S. Serafim: 2/15 jan. e 19 jul./1 ago. ⚠ PARA CONFIRMAR | diveevo-monastyr.ru (segundo [77]) | [77] |
-| **Valaam** (Lago Ladoga) | [TRADIÇÃO/DEBATE] SS. Sérgio e Germano — datações do séc. X ao XIV (muitos investigadores: 1329); [FACTO] devastações suecas (1578), restauração por Pedro I (após 1715); período finlandês após 1917; monges evacuados em 1939–1940 (Novo Valamo, Finlândia); **renascimento 1989**, estauropegial desde 1990 | Relíquias de SS. Sérgio e Germano | SS. Sérgio e Germano: **28 jun./11 jul.**; 11/24 set. ⚠ PARA CONFIRMAR | valaam.ru | [78] |
+| **Diveevo** (mosteiro da Trindade-Serafim) | [FACTO] comunidade de Kazan fundada pela madre Alexandra (Agáfia Melgunova); igreja de Kazan iniciada 1773–74, consagrada no início de 1780; S. Serafim de Sarov cuida da comunidade desde 1789; mosteiro desde 1861; encerrado 21 set. 1927; restaurado por decisão sinodal de 21 jul. 1991 | **Relíquias de S. Serafim de Sarov** (chegaram a 31 jul. 1991); relíquias das veneráveis Alexandra, Marta e Helena (achadas 26 set. 2000). [TRADIÇÃO] **«Santa Vala» (Канавка)**: em 25 nov. 1825 a Mãe de Deus terá indicado o seu traçado; restaurada desde 1997 | S. Serafim: **2/15 jan.** (repouso; 2.º achamento das relíquias) e **19 jul./1 ago.** (achamento das relíquias) — ✔ Confirmado (2.ª ronda) [110] | diveevo-monastyr.ru (✔ título «Официальный сайт», out. 2026) | [77] |
+| **Valaam** (Lago Ladoga) | [TRADIÇÃO/DEBATE] SS. Sérgio e Germano — datações do séc. X ao XIV (muitos investigadores: 1329); [FACTO] devastações suecas (1578), restauração por Pedro I (após 1715); período finlandês após 1917; monges evacuados em 1939–1940 (Novo Valamo, Finlândia); **renascimento 1989**, estauropegial desde 1990 | Relíquias de SS. Sérgio e Germano | SS. Sérgio e Germano: **28 jun./11 jul.**; **11/24 set.** (trasladação das relíquias) — ✔ Confirmado (2.ª ronda); veneração em toda a Rússia prescrita pelo Santo Sínodo a 20 out. 1819 [112] | valaam.ru | [78] |
 | **Solovki** (Mar Branco) | [FACTO] 1429: 1.º povoamento monástico (Savácio e Germano); 1436: Zósimo e Germano fundam o mosteiro; campo de concentração SLON (1923–1937) e prisão STON (até 1939); **reabertura monástica: 25 out. 1990** | Relíquias de Zósimo, Savácio e Germano trasladadas de S. Petersburgo **19–21 ago. 1992** | Sinaxe dos santos de Solovki: **9/22 ago.**; 2.ª trasladação das relíquias: **8/21 ago.** | solovki-monastyr.ru | [79] |
-| **Kronstadt** | [FACTO] Catedral Naval de S. Nicolau: pedra fundamental 1903 (por S. João de Kronstadt), consagrada 1913; nos anos 1930 fiéis expulsos e espaço usado pelo teatro da Frota do Báltico; **reconsagrada a 28 mai. 2013** pelo Patriarca Kirill e pelo Patriarca Teófilo III de Jerusalém | S. João de Kronstadt († 1908) sepultado no **mosteiro de S. João em Karpovka** (S. Petersburgo), que ele fundou; relíquias «sob o alqueire» (não expostas) ⚠ | S. João: **20 dez./2 jan.** (repouso); glorificado pela IOR a 8 jun. 1990 (IORE: 1964) | ⚠ PARA CONFIRMAR | [80][81][82] |
+| **Kronstadt** | [FACTO] Catedral Naval de S. Nicolau: pedra fundamental 1903 (por S. João de Kronstadt), consagrada 1913; nos anos 1930 fiéis expulsos e espaço usado pelo teatro da Frota do Báltico; **reconsagrada a 28 mai. 2013** pelo Patriarca Kirill e pelo Patriarca Teófilo III de Jerusalém | S. João de Kronstadt († 1908) sepultado no **mosteiro de S. João em Karpovka** (S. Petersburgo), que ele fundou; relíquias «sob o alqueire» (não expostas) ⚠ | S. João: **20 dez./2 jan.** (repouso); glorificado pelo Concílio Local da IOR de 7–10 jun. 1990 (IORE: 1964) — ✔ Confirmado (2.ª ronda) [108] | ⚠ PARA CONFIRMAR (sítio oficial da Catedral Naval não encontrado na 2.ª ronda) | [80][81][82] |
 
 ### 5.2 Ucrânia — Lavras sob a Igreja Ortodoxa Ucraniana (IOU)
 
-> Nota factual sobre jurisdição (estado a out. 2026). A **Igreja Ortodoxa Ucraniana** (IOU, Metropolita Onúfrio) foi até 2022 Igreja autogovernada do Patriarcado de Moscovo. O seu Concílio de **27 mai. 2022** declarou a «plena autonomia e independência» da IOU, sem proclamar autocefalia nem romper a comunhão eucarística [69]. ⚠ PARA CONFIRMAR: como o Estatuto atual da IOR descreve hoje a IOU (o próprio 04 §6.1 não o trata). Na Ucrânia, a **Lei n.º 3894-IX** (em vigor desde set. 2024) proíbe organizações religiosas afiliadas à IOR; em 27 ago. 2025 o serviço estatal DESS considerou a Metrópole de Kiev da IOU afiliada à IOR e pediu a sua proibição em tribunal; o processo foi adiado sem data em dez. 2025 [70][71]. ⚠ PARA CONFIRMAR evolução em 2026.
+> Nota factual sobre jurisdição (estado a out. 2026). A **Igreja Ortodoxa Ucraniana** (IOU, Metropolita Onúfrio) foi até 2022 Igreja autogovernada do Patriarcado de Moscovo. O seu Concílio de **27 mai. 2022** declarou a «plena autonomia e independência» da IOU, sem proclamar autocefalia nem romper a comunhão eucarística [69]. ⚠ PARA CONFIRMAR: como o Estatuto atual da IOR descreve hoje a IOU (o próprio 04 §6.1 não o trata). 2.ª ronda sem resultado: encontraram-se só fontes secundárias de 2017 (formulação «autogovernada com direitos de ampla autonomia»; capítulo próprio do Estatuto); o texto atual em patriarchia.ru não pôde ser lido. Nota: o diário do Sínodo da IOR de 7 jun. 2022 afirma que a mudança de estatuto da IOU só pode ser decidida por um Concílio Local da IOR (07 §4.3). Na Ucrânia, a **Lei n.º 3894-IX** (em vigor desde set. 2024) proíbe organizações religiosas afiliadas à IOR; em 27 ago. 2025 o serviço estatal DESS considerou a Metrópole de Kiev da IOU afiliada à IOR e pediu a sua proibição em tribunal; o processo foi adiado sem data em dez. 2025 [70][71]. **✔ Confirmado (2.ª ronda) — evolução em 2026 (até 16 out.):** o processo retomou; um despacho do tribunal de recurso de 23 jul. 2026 foi objeto de recurso da IOU para o Supremo Tribunal (admitido a 22 set. 2026) e, a 7 out. 2026, a ação de extinção voltou a ser adiada sem data; **não há decisão de mérito** (pormenores e fontes: 07 §4.3).
 
 | Lugar | Fundação | Relíquias / ícones | Festas | Situação atual | Sítio | Fonte |
 |---|---|---|---|---|---|---|
-| **Lavra das Grutas de Kiev** (Kievo-Petcherskaia) | [FACTO convencional] 1051 (*Crónica dos Tempos Passados*), datação «convencional»; S. Antão (tonsurado no Athos) e S. Teodósio, que introduziu a regra cenobítica estudita (c. 1062–1074); catedral da Dormição 1073–1089 | Relíquias nas Grutas Próximas e Distantes | Dormição 15/28 ago. ⚠ | A Lavra é **Reserva Nacional** do Estado ucraniano. O arrendamento à IOU foi rescindido a 29 mar. 2023 (Lavra Inferior); o tribunal comercial de Kiev considerou a rescisão legal (9 ago. 2023); recurso pendente — audiência adiada para 29 set. 2026; em abr. 2026, ≥140 monges, noviços e representantes da IOU ainda no local, só desalojáveis por decisão judicial. A catedral da Dormição e a igreja do Refeitório já tinham voltado à gestão estatal | lavra.ua (IOU) | [67][68] |
-| **Lavra da Dormição de Pochaiv** (Ternopil) | [TRADIÇÃO] c. 1240: aparição da Mãe de Deus e **pegada** («стопа») na rocha, com fonte; [FACTO] período uniata 1713–1831; título de Lavra em **1833** | Relíquias de **S. Jó de Pochaiv** e S. Anfilóquio (igreja-gruta da Trindade); **ícone de Pochaiv** e a pegada (catedral da Dormição) | Dormição **15/28 ago.** (orago); ícone **23 jul./5 ago.** | Sob a IOU; em jul. 2026 o DESS concluiu que a Lavra é «subdivisão estrutural» da IOU, afiliada à IOR; buscas policiais em 2023 e 2025; sem medida judicial conhecida ⚠ | pochaev.org.ua | [72][73][30] |
+| **Lavra das Grutas de Kiev** (Kievo-Petcherskaia) | [FACTO convencional] 1051 (*Crónica dos Tempos Passados*), datação «convencional»; S. Antão (tonsurado no Athos) e S. Teodósio, que introduziu a regra cenobítica estudita (c. 1062–1074); catedral da Dormição 1073–1089 | Relíquias nas Grutas Próximas e Distantes | Dormição 15/28 ago. (orago: catedral da Dormição) | A Lavra é **Reserva Nacional** do Estado ucraniano. O arrendamento à IOU foi rescindido a 29 mar. 2023 (Lavra Inferior); o tribunal comercial de Kiev considerou a rescisão legal (9 ago. 2023); recurso pendente no Tribunal Comercial de Recurso do Norte — a 26 ago. 2026 o tribunal recusou os pedidos de escusa dos juízes apresentados pela IOU e marcou a continuação para 29 set. 2026 [113]; ⚠ resultado dessa sessão não encontrado na 2.ª ronda (nenhuma decisão de mérito noticiada até 16 out. 2026); em abr. 2026, ≥140 monges, noviços e representantes da IOU ainda no local, só desalojáveis por decisão judicial. A catedral da Dormição e a igreja do Refeitório já tinham voltado à gestão estatal | lavra.ua (IOU) | [67][68] |
+| **Lavra da Dormição de Pochaiv** (Ternopil) | [TRADIÇÃO] c. 1240: aparição da Mãe de Deus e **pegada** («стопа») na rocha, com fonte; [FACTO] período uniata 1713–1831; título de Lavra em **1833** | Relíquias de **S. Jó de Pochaiv** e S. Anfilóquio (igreja-gruta da Trindade); **ícone de Pochaiv** e a pegada (catedral da Dormição) | Dormição **15/28 ago.** (orago); ícone **23 jul./5 ago.** | Sob a IOU; em jul. 2026 o DESS concluiu que a Lavra é «subdivisão estrutural» da IOU, afiliada à IOR; a 27 jul. 2026 emitiu uma injunção para a Lavra sair da estrutura da Metrópole de Kiev da IOU; a 3 set. 2026, a pedido dos juristas da Lavra, prorrogou o prazo por 60 dias [114]; buscas policiais em 2023 e 2025; sem medida judicial conhecida até 16 out. 2026 (✔ 2.ª ronda) | pochaev.org.ua | [72][73][30] |
 
-- → DECISÃO DO UTILIZADOR: como apresentar estas Lavras na app (p. ex. «Lavra das Grutas de Kiev — Igreja Ortodoxa Ucraniana; situação jurídica em litígio») sem tomar posição política; recomenda-se texto estritamente factual com data de atualização.
+- ✔ Decidido (dec. 20, item D6): texto estritamente factual, sem tomar posição política, sempre com **data de atualização** (p. ex. «Lavra das Grutas de Kiev — Igreja Ortodoxa Ucraniana; situação jurídica em litígio — atualizado em …»).
 
 ### 5.3 Lugares ortodoxos no estrangeiro
 
 | Lugar | Factos | Relíquias / festa | Sítio | Fonte |
 |---|---|---|---|---|
-| **Monte Athos — Mosteiro de S. Pantaleão** («Russikon») | [FACTO] mosteiro de S. Pantaleão fundado no séc. X, mais tarde «russo»; declínio no séc. XVIII; regresso de monges russos em 1839; principal centro da presença russa no Athos; um dos 20 mosteiros soberanos com representante no Protaton. ⚠ PARA CONFIRMAR a data de 1169 (transferência aos russos), frequentemente citada | **Cabeça e partículas das relíquias de S. Pantaleão** [84]; S. Pantaleão 27 jul./9 ago. | ⚠ PARA CONFIRMAR (afonit.info) | [83][84] |
-| **Terra Santa — Missão Eclesiástica Russa** (Patriarcado de Moscovo) | [FACTO] criada por resolução de Nicolau I de **11/23 fev. 1847**; 1.º chefe: arquimandrita Porfírio (Uspenski), 1847–1855; edifício da Missão concluído em 1864; expansão sob o arquim. Antonino (Kapustin) | **Mosteiro de Gorni** (Ein Kerem; igreja de Kazan consagrada 14 fev. 1883). Atenção: o **convento da Ascensão no Monte das Oliveiras** pertence à Missão da **IORE (ROCOR)** — duas missões russas distintas, em comunhão desde 2007 (ver 04 §6.4) | ⚠ PARA CONFIRMAR | [85][86][87] |
+| **Monte Athos — Mosteiro de S. Pantaleão** («Russikon») | [FACTO] mosteiro de S. Pantaleão fundado no séc. X, mais tarde «russo»; declínio no séc. XVIII; regresso de monges russos em 1839; principal centro da presença russa no Athos; um dos 20 mosteiros soberanos com representante no Protaton. **1169 — ✔ Confirmado (2.ª ronda):** por ato do protos João de **agosto (15 ago.) de 1169**, o mosteiro abandonado de S. Pantaleão «do Tessalonicense» foi entregue, para o restaurar, a Lourenço, hegúmeno do mosteiro russo de Xilurgu, que ficou como dependência [115] | **Cabeça e partículas das relíquias de S. Pantaleão** [84]; S. Pantaleão 27 jul./9 ago. | ⚠ PARA CONFIRMAR (afonit.info responde, mas recusa acesso automático — 2.ª ronda) | [83][84] |
+| **Terra Santa — Missão Eclesiástica Russa** (Patriarcado de Moscovo) | [FACTO] criada por resolução de Nicolau I de **11/23 fev. 1847**; 1.º chefe: arquimandrita Porfírio (Uspenski), 1847–1855; edifício da Missão concluído em 1864; expansão sob o arquim. Antonino (Kapustin) | **Mosteiro de Gorni** (Ein Kerem; igreja de Kazan consagrada 14 fev. 1883). Atenção: o **convento da Ascensão no Monte das Oliveiras** pertence à Missão da **IORE (ROCOR)** — duas missões russas distintas, em comunhão desde 2007 (ver 04 §6.4) | rusdm.ru (✔ Confirmado (2.ª ronda): título «Официальный сайт Русской духовной миссии в Иерусалиме», out. 2026) | [85][86][87] |
 | **Bari — relíquias de S. Nicolau** | [FACTO] relíquias trasladadas de Mira (Lícia) por marinheiros de Bari, chegada a **9 mai. 1087**; festa da trasladação instituída na Rus' entre 1087 e 1090 (não celebrada pelos gregos ⚠); 21 mai.–28 jul. 2017 uma partícula foi levada a Moscovo e S. Petersburgo | Relíquias na **cripta da Basílica de S. Nicolau** (Igreja Católica); festa da trasladação **9/22 mai.**; S. Nicolau 6/19 dez. Igreja russa de S. Nicolau (*podvorie*) com pedra fundamental a **22 mai. 1913**, entregue à Rússia a **1 mar. 2009** | basilicasannicola.it | [88][89][90][91] |
 
 ### 5.4 Portugal
@@ -416,77 +416,77 @@ Colunas: **[NK]** = *Livro de mesa do clérigo*, t. I, cap. «Cores das vestes l
 | Lugar | Factos | Fonte |
 |---|---|---|
 | **Lisboa — Catedral de Todos os Santos** (capela da Boa Nova, R. do Museu de Artilharia) | Catedral do Vicariato de Portugal (Diocese Hispano-Portuguesa / Exarcado da Europa Ocidental, Patriarcado de Moscovo); lista completa de paróquias em 04 §6.5 | [94] |
-| **Porto — Paróquia dos Novos Mártires e Confessores da Igreja Russa** (Приход Новомучеников и исповедников Церкви Русской в г. Порту) | Fundada em **2002**; Diocese Hispano-Portuguesa do Patriarcado de Moscovo; ofícios na **Capela de São José** (храм святого Иосифа Обручника), arrendada à Diocese Católica do Porto, **Rua Alexandre Herculano, 123, Porto**; horário: sábado 18:00 Vigília e confissões; domingo 9:30 Horas e Divina Liturgia; festa padroeira: **Sinaxe dos Novos Mártires e Confessores da Igreja Russa** (celebrada a 8 fev. 2026 — festa móvel: domingo mais próximo de 25 jan./7 fev. ⚠ PARA CONFIRMAR a regra) | [92][93] |
+| **Porto — Paróquia dos Novos Mártires e Confessores da Igreja Russa** (Приход Новомучеников и исповедников Церкви Русской в г. Порту) | Fundada em **2002**; Diocese Hispano-Portuguesa do Patriarcado de Moscovo; ofícios na **Capela de São José** (храм святого Иосифа Обручника), arrendada à Diocese Católica do Porto, **Rua Alexandre Herculano, 123, Porto** (a lista do Vicariato dá o n.º 97 — divergência ⚠, ver 07 §5.4); horário: sábado 18:00 Vigília e confissões; domingo 9:30 Horas e Divina Liturgia; festa padroeira: **Sinaxe dos Novos Mártires e Confessores da Igreja Russa** (celebrada a 8 fev. 2026). **Regra — ✔ Confirmado (2.ª ronda):** pela decisão de 2013, celebra-se a 25 jan. EA (7 fev. EN) se calhar a um domingo; se 25 jan. EA cair de segunda a quarta, no domingo **anterior**; de quinta a sábado, no domingo **seguinte** [116] — ou seja, no domingo mais próximo de 7 fev. EN (em 2026, 7 fev. foi sábado → 8 fev.) | [92][93] |
 | **Portimão — S. Daniel de Girona** | Igreja consagrada em out. 2024 pelo bispo Pedro de Kafa | [95] |
 | Sinaxe dos santos da Península Ibérica | Instituída pelo Santo Sínodo em 2018 (domingo antes de 12 out.) — ver 04 §6.5 | [94] |
 
-- ⚠ PARA CONFIRMAR: relíquias ou ícones milagrosos venerados em paróquias ortodoxas portuguesas (nenhum encontrado nesta pesquisa).
-- → DECISÃO DO UTILIZADOR: incluir na app outras jurisdições ortodoxas canónicas presentes em Portugal (Patriarcado Ecuménico, Romeno, Sérvio…)? 04 §6.5 só menciona o Patriarcado Ecuménico.
+- ⚠ PARA CONFIRMAR: relíquias ou ícones milagrosos venerados em paróquias ortodoxas portuguesas (nenhum encontrado nesta pesquisa; não pesquisado na 2.ª ronda).
+- ✔ Decidido (dec. 20, item D7): a app inclui uma **lista factual das Igrejas ortodoxas canónicas presentes em Portugal** (Patriarcado Ecuménico, Patriarcado Romeno, Igrejas Búlgara, Sérvia e Georgiana; ver 07 §5.3), com nota sobre o estado de comunhão com a IOR (sem comunhão com o Patriarcado Ecuménico desde 15.10.2018; em comunhão com as restantes).
 
 ---
 
-## 6. Glossário complementar (PT-PT ⚠ = proposta; completa 04 §7.5)
+## 6. Glossário complementar (completa 04 §7.5; (B4) = sem forma atestada em dicionário português → transliteração explicada, conforme ✔ Decidido (dec. 20, item B4))
 
 | PT-PT | Russo | Grego | Nota |
 |---|---|---|---|
 | Ícone | икона | εἰκών | 04 |
-| Podlinnik (manual iconográfico) ⚠ | иконописный подлинник | ἑρμηνεία | sem forma PT |
+| Podlinnik (manual iconográfico) (B4) | иконописный подлинник | ἑρμηνεία | sem forma PT |
 | Têmpera de ovo | яичная темпера | — | |
-| Levkas (preparação) ⚠ | левкас | λευκός (origem) ⚠ | |
-| Olifa (verniz) ⚠ | олифа | — | |
-| Canto dos ícones / canto belo ⚠ | красный угол | — | |
+| Levkas (preparação) (B4) | левкас | λευκός (origem) ⚠ | |
+| Olifa (verniz) (B4) | олифа | — | |
+| Canto dos ícones / canto belo (B4) | красный угол | — | |
 | Lamparina | лампада | κανδήλα | PT corrente |
 | Cúpula / «cabeça» | глава / купол | τρούλος | |
 | Campanário | колокольня / звонница | καμπαναριό | |
 | Portas diaconais (laterais) | северные/южные врата | — | |
 | Lugar Alto | горнее место | σύνθρονον | |
 | Cibório | киворий / сень | κιβώριον | |
-| Ilitón ⚠ | илитон | εἱλητόν | |
-| Esticário ⚠ | стихарь | στιχάριον | |
-| Orário ⚠ | орарь | ὀράριον | |
-| Epitraquélio ⚠ | епитрахиль | ἐπιτραχήλιον | |
-| Felónio ⚠ | фелонь | φαιλόνιον | |
-| Epigonátio ⚠ | палица | ἐπιγονάτιον | |
-| Omofório ⚠ | омофор | ὠμοφόριον | |
+| Ilitón (B4) | илитон | εἱλητόν | |
+| Esticário (B4) | стихарь | στιχάριον | |
+| Orário (B4) | орарь | ὀράριον | |
+| Epitraquélio (B4) | епитрахиль | ἐπιτραχήλιον | |
+| Felónio (B4) | фелонь | φαιλόνιον | |
+| Epigonátio (B4) | палица | ἐπιγονάτιον | |
+| Omofório (B4) | омофор | ὠμοφόριον | |
 | Canto znamenny | знаменный распев | — | |
 | Notação de ganchos | крюковая нотация | — | |
-| Canto partes ⚠ | партесное пение | — | |
-| Obikhod ⚠ | Обиход | — | |
-| Toque de chamada (blagovest) ⚠ | благовест | — | |
-| Repique (trezvon) ⚠ | трезвон | — | |
-| Toque fúnebre (perebor) ⚠ | перебор | — | |
-| Toque descendente (perezvon) ⚠ | перезвон | — | |
+| Canto partes (B4) | партесное пение | — | |
+| Obikhod (B4) | Обиход | — | |
+| Toque de chamada (blagovest) (B4) | благовест | — | |
+| Repique (trezvon) (B4) | трезвон | — | |
+| Toque fúnebre (perebor) (B4) | перебор | — | |
+| Toque descendente (perezvon) (B4) | перезвон | — | |
 | Lavra | лавра | λαύρα | grande mosteiro |
 
 ---
 
-## 7. Lista consolidada de dúvidas (⚠) e decisões (→)
+## 7. Lista consolidada de dúvidas (⚠) e decisões (✔)
 
-**⚠ PARA CONFIRMAR**
-1. Capítulo das atas do Concílio de Moscovo de 1666–67 sobre a imagem de Sabaot; prática posterior.
-2. Definição em fonte de podlinniki «ilustrados» vs «explicativos».
-3. Obra de I. L. Buseva-Davydova sobre a (in)existência de simbólica do número de cúpulas; data de aparecimento da cúpula em bolbo; planta em cruz inscrita (fonte).
-4. Local atual da cópia moscovita de 1648 do ícone de Ibéria; qual imagem de Kazan voltou à Praça Vermelha em 2023.
-5. Destino do original de Smolensk (perdido vs destruído, 1941).
-6. Motivo da festa de 8/21 mar. do ícone de Kursk.
-7. Tipo iconográfico do ícone de Pochaiv.
-8. Cor da Páscoa e de outras festas na prática russa **atual** (fonte normativa vigente); dados editoriais do *Livro de mesa do clérigo*.
-9. Nomes gregos das vestes (verificação filológica) e formas PT-PT.
-10. Data de chegada do canto partes a Moscovo; reorganização de 1886 da Escola Sinodal.
-11. Datas das festas de S. Sérgio, S. Serafim, SS. Sérgio e Germano de Valaam, orago do mosteiro de Pskov (confirmação em calendário oficial).
-12. Sítios oficiais não acessíveis: Grutas de Pskov, Kronstadt, Missão Russa em Jerusalém, S. Pantaleão do Athos; data de 1169 (Athos).
-13. Situação jurídica das Lavras de Kiev e Pochaiv depois de set. 2026; descrição da IOU no Estatuto da IOR.
-14. Base canónica (além de 1 Cor 11) para a cabeça coberta das mulheres e para homens descobertos.
-15. Regra de data da Sinaxe dos Novos Mártires (festa padroeira do Porto).
+**⚠ PARA CONFIRMAR — ainda em aberto após a 2.ª ronda**
+1. Número do capítulo das atas do Concílio de Moscovo de 1666–67 sobre Sabaot; prática posterior (a proibição em si está confirmada) (§1.1).
+2. Definição em fonte de podlinniki «ilustrados» vs «explicativos» (§1.2).
+3. Tipos *Panachrantos* e *Agiosoritissa* (§1.6) — não pesquisado na 2.ª ronda.
+4. Local atual da «lista moscovita» do ícone de Kazan (catedral de Kazan ou de Cristo Salvador) (§1.7).
+5. Etimologia de *красный* («belo») em dicionário etimológico (§1.8).
+6. Obra de I. L. Buseva-Davydova; data de aparecimento da cúpula em bolbo; fonte específica para a planta em cruz inscrita (§2.1).
+7. «Última Ceia» por cima das Portas Reais (§2.3).
+8. Base canónica (além de 1 Cor 11) para a cabeça coberta das mulheres e para homens descobertos (§2.6).
+9. Verificação filológica dos nomes gregos das vestes (§3.1).
+10. Sítios oficiais: Grutas de Pskov (indicado, inacessível), Catedral Naval de Kronstadt, S. Pantaleão do Athos (§5.1, §5.3); relíquias de S. João de Kronstadt «sob o alqueire» (§5.1).
+11. Resultado da sessão de 29 set. 2026 no recurso da Lavra de Kiev; descrição atual da IOU no Estatuto da IOR (§5.2).
+12. Festa da trasladação de S. Nicolau «não celebrada pelos gregos» (§5.3).
+13. Relíquias ou ícones milagrosos em paróquias ortodoxas portuguesas; morada da paróquia do Porto (n.º 123 vs. 97) (§5.4).
 
-**→ DECISÃO DO UTILIZADOR**
-1. Formas PT-PT de tipos iconográficos (Hodigítria, Eleoussa/Ternura) e de vestes (esticário, orário, epitraquélio, felónio…): aportuguesar ou transliterar.
-2. Festas de ícones na app: todas as do calendário ou subconjunto curado (§1.7).
-3. Bênção de ícones: só descrever o costume ou incluir o debate (§1.9).
-4. Etiqueta: rotular «norma» vs «costume» (recomendado) (§2.6).
-5. Esquema de cores litúrgicas por defeito ([NK] proposto) e como assinalar variantes (§3.3).
-6. Forma de apresentar as Lavras ucranianas (§5.2).
-7. Incluir ou não outras jurisdições ortodoxas em Portugal (§5.4).
+**✔ Confirmado (2.ª ronda)** — proibição de Sabaot (1666–67) (§1.1); conversão da memória de Rublev (§1.4); destino do original de Smolensk (desaparecido, destino desconhecido) (§1.7); local da cópia de Ibéria de 1648 (Novodevitchi) (§1.7); motivo da festa de 8/21 mar. do ícone de Kursk (§1.7); tipo do ícone de Pochaiv (§1.7); cor pascal na prática russa atual e dados editoriais do *Livro de mesa do clérigo* (§3.3); chegada do canto partes a Moscovo (§4.5); Escola Sinodal em 1886 (§4.6); datas das festas de S. Sérgio, S. Serafim, SS. Sérgio e Germano de Valaam e orago de Pskov (§5.1); sítios oficiais da Lavra da Trindade, Diveevo e Missão Russa em Jerusalém (§5.1, §5.3); ato de 1169 (Athos) (§5.3); evolução jurídica da IOU e de Pochaiv até 16 out. 2026 (§5.2); regra de data da Sinaxe dos Novos Mártires (§5.4).
+
+**✔ Decidido (dec. 20)**
+1. B4 — Formas PT-PT: «Guia (Hodigítria)», «Ternura (Eleoussa)»; vestes e objetos sem forma atestada em dicionário → transliteração explicada no glossário (§1.6, §2.5, §3.1, §6).
+2. D11 — Festas de ícones na app: subconjunto curado (tabela §1.7); as restantes só pelo nome no calendário.
+3. D8 — Bênção de ícones: descrever o costume russo com nota factual sobre a origem histórica (§1.9).
+4. D9 — Etiqueta: rotular «norma» vs «costume» (§2.6).
+5. D10 — Cores litúrgicas: esquema [NK] por defeito, variantes «varia segundo o costume local» (§3.3).
+6. D6 — Lavras ucranianas: texto estritamente factual com data de atualização (§5.2).
+7. D7 — Outras jurisdições ortodoxas em Portugal: lista factual das Igrejas canónicas presentes, com nota sobre a comunhão com a IOR (§5.4).
 
 ---
 
@@ -587,3 +587,26 @@ Colunas: **[NK]** = *Livro de mesa do clérigo*, t. I, cap. «Cores das vestes l
 93. Idem — contactos/endereço e horário. https://porto.cerkov.ru/kontakty/
 94. Ortodoxia em Portugal — «Paróquias» (cf. 04 [29]). https://www.ortodoxia.pt/about/paroquias/
 95. OrthoChristian — «Orthodox Church consecrated in Portugal» (Portimão, 2024; cf. 04 [32]). https://orthochristian.com/163814.html
+
+**2.ª ronda de pesquisa (out. 2026)**
+96. *Православная энциклопедия* — «Большой Московский Собор 1666–1667 гг.» (proibição da imagem de Sabaot). https://www.pravenc.ru/text/149721.html
+97. Diocese de Smolensk (smoleparh.ru) — «Надвратная Смоленская икона Божией Матери "Одигитрия" и время ее написания» (08.2021). https://smoleparh.ru/sviatyni/2021/08/nadvratnaya-smolenskaya-ikona-bozhiey-materi-odigitrii-i-vremya-ee-napisaniya/
+98. Pravoslavie.ru — artigo sobre o ícone de Ibéria de 1648 no Mosteiro Novodevitchi (26.10.2015). https://pravoslavie.ru/87266.html
+99. Azbuka Very — «Праздник Иверской иконы Божией Матери (второе обретение списка иконы, 2012)» (memória a 6 maio). https://azbyka.ru/days/prazdnik-iverskoj-ikony-bozhiej-materi-vtoroe-obretenie-spiska-ikony-2012
+100. Vetchernaia Moskva (vm.ru) — «Вратарница. Начало всех российских дорог» (dá 24.01.2009 para o regresso ao culto em Novodevitchi; lido só em excerto). https://vm.ru/entertainment/480729-vratarnica-nachalo-vseh-rossijskih-dorog
+101. 360.ru — «Казанская летняя: где найти чудотворный образ в Москве…» e «Чудотворную Казанскую икону Божией Матери передадут в храм Христа Спасителя» (05.05.2024). https://360.ru/tekst/kultura/kazanskaja-letnjaja-gde-najti-chudotvornyj-obraz-v-moskve-i-kak-pravilno-otprazdnovat/ ; https://360.ru/news/obschestvo/chudotvornuju-kazanskuju-ikonu-bozhiej-materi-peredadut-v-hram-hrista-spasitelja/
+102. Orthodox Church in America — «Kursk Root Icon of the Mother of God "of the Sign"» (memória de 8 de março: atentado de 1898). https://www.oca.org/saints/lives/2024/03/08/100705-kursk-root-icon-of-the-mother-of-god-of-the-sign
+103. V. V. Filatov — *Словарь изографа* (1997), «Почаевская икона Божией Матери». https://azbyka.ru/otechnik/ikona/slovar-izografa/569
+104. Azbuka Very — «Пояснения к Церковному календарю» (cores das vestes: Páscoa, Ascensão; prática da ROCOR). https://azbyka.ru/days/p-pojasnenija-k-kalendarju
+105. *Настольная книга священнослужителя*, 8 vols. (Moscovo: Издательство Московской Патриархии, 1977–1994) — página bibliográfica da Azbuka Very. https://azbyka.ru/otechnik/Pravoslavnoe_Bogosluzhenie/nastolnaja-kniga-svjashennosluzhitelja/
+106. V. Melnitchenko — «"Пішли в Московію від мене письмена…"» (canto *partes* ucraniano em Moscovo), *Світогляд*, 2017, n.º 6 (68). https://www.mao.kiev.ua/biblio/jscans/svitogliad/svit-2017-12-6/svitoglyad-2017-6-02-melnychenko.pdf
+107. L. M. Nikolskaia — «Специфика преподавания предмета "Дирижирование" в системе профессиональной подготовки регентов», *Вестник Екатеринбургской духовной семинарии*, 1(3), 2012, pp. 207–220. https://epds.ru/wp-content/uploads/2024/03/9.-Vestnik-EDS_2012_3_Nikolskaya.pdf
+108. *Православная энциклопедия* — «Иоанн Кронштадтский». https://www.pravenc.ru/text/471321.html
+109. Azbuka Very — S. Sérgio de Radonej (dias de memória). https://azbyka.ru/days/sv-sergij-radonezhskij
+110. Azbuka Very — S. Serafim de Sarov (dias de memória). https://azbyka.ru/days/sv-serafim-sarovskij
+111. Wikipedia (EN) — «Pskov-Caves Monastery» (ligação ao sítio oficial; fonte secundária). https://en.wikipedia.org/wiki/Pskov-Caves_Monastery
+112. Azbuka Very — S. Sérgio de Valaam (dias de memória; decisão sinodal de 20.10.1819). https://azbyka.ru/days/sv-sergij-valaamskij-1
+113. Interfax-Ucrânia — «Суд вкотре переніс розгляд справи про розірвання договору оренди УПЦ (МП) з Києво-Печерською лаврою» (26.08.2026). https://interfax.com.ua/news/general/1196218-amp.html
+114. LB.ua — prorrogação por 60 dias da injunção do DESS à Lavra de Pochaiv (03.09.2026). https://lb.ua/society/2026/09/03/763404_pochayivskiy_lavri_nadali.html
+115. D. V. Zubov, V. I. Pirogov, P. V. Kuzenkov — «Афонские акты XI–XII вв. по истории русского монашества на Святой Горе», *Метафраст*, 2020, n.º 1 (3), pp. 13–59 (ato de 1169). https://publishing.mpda.ru/index.php/metaphrast/article/download/184/490
+116. *Православная энциклопедия* — «Новомученики» (regra de 2013 para a data da Sinaxe). https://www.pravenc.ru/text/2577845.html
