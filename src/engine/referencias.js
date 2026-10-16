@@ -1,18 +1,20 @@
 // Formatação das referências bíblicas por língua. Os dados usam códigos OSIS e a numeração eslava/LXX (decisão 18);
-// 1Kgs/2Kgs dos dados = 3.º/4.º Reinos. Abreviaturas: PT (uso português), RU (Синодальная Библия), UK (уживання УПЦ ⚠ a
-// verificar na revisão de traduções), EN (uso ROC/ROCOR).
+// 1Kgs/2Kgs dos dados = 3.º/4.º Reinos. Abreviaturas: PT (uso português, Difusora Bíblica; «Rn» = Reinos), RU (Синодальная
+// Библия), UK (уживання УПЦ: календар Волинської єпархії УПЦ, 2025–26 — Мф., Ін., Діян., Як., 1 Сол., Притч., Вих., Іуд.…;
+// o calendário escreve «Йоїл.», mas o nome do profeta é «Іоїль» → «Іоїл.»; Іов./Єр./Єз./Іон./Мих./Соф./Зах./Чис./Нав./Суд./
+// Вар./Дан. ⚠ ainda não vistas numa fonte da IOU), EN (SBL; LXX «Kgdms»).
 const T = (s) => Object.fromEntries(s.trim().split(/\n/).map(l => l.trim().split('|')).map(([k, ...v]) => [k, v]));
 // código | pt | ru | uk | en
 const LIVROS = T(`
 Gen|Gn|Быт.|Бут.|Gen
-Exod|Êx|Исх.|Вих.|Exod
+Exod|Ex|Исх.|Вих.|Exod
 Num|Nm|Чис.|Чис.|Num
 Josh|Js|Нав.|Нав.|Josh
 Judg|Jz|Суд.|Суд.|Judg
-1Kgs|3 Rn|3 Цар.|3 Цар.|3 Kgs
-2Kgs|4 Rn|4 Цар.|4 Цар.|4 Kgs
+1Kgs|3 Rn|3 Цар.|3 Цар.|3 Kgdms
+2Kgs|4 Rn|4 Цар.|4 Цар.|4 Kgdms
 Job|Jb|Иов.|Іов.|Job
-Prov|Pr|Притч.|Прит.|Prov
+Prov|Pr|Притч.|Притч.|Prov
 Isa|Is|Ис.|Іс.|Isa
 Jer|Jr|Иер.|Єр.|Jer
 Bar|Br|Вар.|Вар.|Bar
