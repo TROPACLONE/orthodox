@@ -19,7 +19,7 @@
 | 4 | Textos litúrgicos em PT-PT do Vicariato de Portugal (Patriarcado de Moscovo) em ortodoxia.pt [33]–[37] | Uso real em Portugal |
 | 5 | Obras de referência: azbyka.ru («Азбука веры»), manuais académicos russos [9][11][13]–[16][21][47] | Secundárias |
 
-**⚠ PARA CONFIRMAR:** os artigos da *Enciclopédia Ortodoxa* (Православная энциклопедия, pravenc.ru) não puderam ser localizados por pesquisa durante esta investigação (o site é acessível, mas a pesquisa interna não devolveu resultados); recomenda-se validar com pravenc.ru os pontos marcados.
+**✔ Confirmado (2.ª ronda):** os artigos da *Enciclopédia Ortodoxa* (Православная энциклопедия, publicada «под редакцией Патриарха Московского и всея Руси Кирилла») são acessíveis diretamente por URL `pravenc.ru/text/<id>.html` (a pesquisa interna do site continua sem funcionar; os IDs obtêm-se por pesquisa externa). Foram usados na 2.ª ronda os artigos [60]–[71], [73], [74], [79]–[81].
 
 ---
 
@@ -47,7 +47,7 @@
 - Igreja Católica: estes livros são «deuterocanónicos», com a mesma autoridade dos restantes [38].
 - Igrejas protestantes: chamam-lhes «apócrifos» e normalmente não os editam [38].
 - Ortodoxia: segundo o *Vocabulário* de ortodoxia.pt, não há posição oficial que lhes dê o mesmo grau de inspiração, mas são conservados como «não canónicos» [38].
-- **⚠ PARA CONFIRMAR:** a numeração de «Esdras» (2.ª/3.ª Esdras eslava vs. 1 Esdras/4 Esdras noutras tradições) varia entre edições; as próprias fontes russas divergem sobre a inclusão da 3.ª de Esdras [9].
+- **✔ Confirmado (2.ª ronda):** numeração de «Esdras» segundo a *Enciclopédia Ortodoxa* [80][81]: 1 Esdras eslava (1 Ездры) = Esdras canónico (LXX «Ἔσδρας Β´»; Vulgata 1 Esd); Neemias à parte; **2 Esdras eslava** (2 Ездры, não canónica) = LXX «Ἔσδρας Α´» = Vulgata **3 Esd** = «1 Esdras» inglês; **3 Esdras eslava** (3 Ездры, não canónica, traduzida do latim) = Vulgata **4 Esd** = «2 Esdras» inglês. A 3.ª de Esdras está na Bíblia eslava e sinodal russa, mas não na Bíblia da Igreja grega [80]. A divergência apontada em [9] é de nomenclatura entre tradições, não sobre a inclusão na Bíblia sinodal.
 
 ### 1.3 Os sete Concílios Ecuménicos
 
@@ -80,7 +80,7 @@ A IOR reconhece sete Concílios Ecuménicos (Вселенские Соборы, 
   2. *Fundamentos da Ordem Canónica e da Vida Litúrgica da Igreja Ortodoxa* [7];
   3. *Fundamentos do Ensino Moral Ortodoxo* [8].
   Os três foram publicados em 2020 (Moscovo, ed. «Познание», sob a direção do Metropolita Hilarião de Volokolamsk) [5][7][8]. O prefácio descreve-os como manuais de referência para a catequese, não como exposição exaustiva do dogma [5].
-- **⚠ PARA CONFIRMAR:** não foi encontrado documento que atribua aos *Fundamentos* o título formal de «Catecismo da Igreja Ortodoxa Russa» aprovado pelo Santo Sínodo; o azbyka.ru agrupa-os sob esse título [6].
+- **✔ Confirmado (2.ª ronda):** os *Fundamentos* **não** têm o título formal de «Catecismo». O Concílio dos Bispos de 2017, depois de ouvir o relatório sobre o «Современный катехизис» (iniciado por decisão do Concílio de 2008), aprovou publicá-lo, pelo grande volume, como **três documentos autónomos**, «от имени Синодальной библейско-богословской комиссии» [6]. O título «Катехизис Русской Православной Церкви» é apenas a rubrica com que o azbyka.ru agrupa o texto da decisão [6]. Na app: chamar-lhes «*Fundamentos*… (Comissão Sinodal, 2020)», não «Catecismo oficial».
 - Existe em português um *Catecismo Ortodoxo* (PDF alojado em ortodoxia.pt), adaptado do catecismo do Metropolita Sotírios (Metrópole Ortodoxa Grega de Toronto), redigido em **português do Brasil** («Ecumênicos», «Matrimônio») [39]. Não é texto da IOR.
 
 ---
@@ -125,7 +125,7 @@ Notas de variante linguística:
 - O *Catecismo Ortodoxo* em PT-BR traduz «Eu creio em um Deus, Pai Todo-Poderoso…» [39]. O texto de [33] usa «Omnipotente».
 - A versão católica portuguesa diz «Pai todo-poderoso» e, na tradição latina, «procede do Pai **e do Filho**» [43].
 - **Recomendação para a app:** usar o texto de [33] (fonte PT-PT, jurisdição IOR).
-- **⚠ PARA CONFIRMAR:** pedir ao Vicariato se existe uma versão «oficial» do Símbolo aprovada para todas as paróquias.
+- **⚠ PARA CONFIRMAR:** pedir ao Vicariato se existe uma versão «oficial» do Símbolo aprovada para todas as paróquias. 2.ª ronda: nada encontrado em linha (o léxico do Pe. Jerónimo Thomaz e os PDF do Vicariato não referem aprovação formal); só se resolve por contacto direto. Nota: pela decisão 7 a app usa tradução própria; este ponto passa a ser só de **alinhamento** com o texto usado nas paróquias → **DECISÃO DO UTILIZADOR**: seguir de perto [33] (por coerência com o que os fiéis ouvem) ou traduzir de novo a partir do eslavo.
 
 ### 2.3 Ausência do Filioque e porquê
 
@@ -168,10 +168,10 @@ Notas de variante linguística:
 - **Imaculada Conceição:** os *Fundamentos* afirmam que «segundo a doutrina ortodoxa, a Virgem Maria necessitava do Redentor, como todos os descendentes de Adão», e citam S. Efrém: Cristo «purificou a Virgem e depois nasceu» [5].
   - A teologia académica russa rejeitou explicitamente o dogma católico de 1854 (*Ineffabilis Deus*) como sem fundamento na Escritura, na Tradição e nos Padres. O arquimandrita Inocêncio (Novgorodov), *Teologia Polémica* (1859), ensina que Maria foi concebida, como todos, «no pecado original» e «purificada pelo Espírito Santo» [47]; ver também Tarásio Seredinski [46].
   - **Doutrina católica:** a Virgem «foi preservada intacta de toda a mancha do pecado original» desde a conceição — dogma proclamado em 1854 por Pio IX (CIC §491) [41].
-  - **⚠ PARA CONFIRMAR:** os *Fundamentos* (2020) não nomeiam o dogma de 1854. A rejeição é explícita na teologia académica [46][47] e implícita no texto oficial [5].
+  - **✔ Confirmado (2.ª ronda):** os *Fundamentos* (2020) não nomeiam o dogma de 1854 (verificado no texto integral [5]), mas a *Enciclopédia Ortodoxa* (editada sob a direção do Patriarca) é explícita: «Правосл. Церковь не может принять догмат о непорочном зачатии, потому что он противоречит учению о всеобщей греховности человеческого рода» (a Igreja Ortodoxa não pode aceitar o dogma, porque contradiz a doutrina da pecaminosidade universal do género humano). Acrescenta que não reconhece este dogma nem o da Assunção também por rejeitar a «teoria do desenvolvimento dogmático» [60]. O artigo «Непорочное зачатие» define-o como «католич. догмат» [61]. A festa ortodoxa de 9/22 dez. celebra a conceção **natural** por Joaquim e Ana (Зачатие праведною Анною) [60][61].
 - **Dormição (Успение, *Uspénie*; Κοίμησις):** «a morte, na tradição eclesial, chama-se *uspénie*, isto é, sono» [5]. Segundo a tradição, a Mãe de Deus foi levada em corpo ao céu; o apóstolo Tomé, chegado ao terceiro dia, encontrou o túmulo vazio [49]. A festa celebra-se a 15 de agosto do calendário juliano (28 de agosto civil).
   - **Comparação:** a Igreja Católica definiu a **Assunção** como dogma (CIC §966) [42].
-  - **⚠ PARA CONFIRMAR:** os *Fundamentos* (2020) não tratam a Dormição; falta uma fonte oficial da IOR sobre o estatuto (tradição litúrgica, não dogma definido). Fonte atual [49] é jornalística.
+  - **✔ Confirmado (2.ª ronda):** a *Enciclopédia Ortodoxa* (art. «Богородица») afirma: «Правосл. Церковь хранит Предание, что Богородица была воскрешена силой Божией на 3-й день после Своего Успения и взошла на Небо» (a Igreja guarda a **Tradição** de que a Mãe de Deus foi ressuscitada ao 3.º dia e subiu ao Céu). No mesmo artigo, o dogma católico de 1950 (*Munificentissimus Deus*) **não é reconhecido** [60]. Estatuto para a app: Tradição da Igreja expressa na liturgia da festa, não dogma definido por concílio.
 
 ### 3.4 Pecado ancestral vs. pecado original
 
@@ -188,7 +188,7 @@ Notas de variante linguística:
 - O batismo das crianças «para remissão dos pecados» é fundamentado com o cânone de Cartago (419): purifica-se nelas o que receberam pelo primeiro nascimento [11].
 - **Comparação com a doutrina católica (CIC §§404–405):** o pecado original é «contraído e não cometido», «um estado, não um ato». Não tem, nos descendentes, «carácter de falta pessoal». É «privação da santidade e justiça originais», com a natureza «ferida» mas não totalmente corrompida [43].
   - A diferença com a Ortodoxia é de ênfase e formulação: as fontes ortodoxas acentuam a corrupção e a mortalidade herdadas e evitam a noção de culpa herdada [11][5]. Não há uma oposição simples «culpa vs. sem culpa».
-- **⚠ PARA CONFIRMAR:** autores ortodoxos contemporâneos (sobretudo gregos) opõem fortemente «pecado ancestral» a «pecado original» agostiniano. Esta polarização **não** aparece nos textos oficiais da IOR consultados [5][2], que usam a linguagem patrística sem a contrapor.
+- **✔ Confirmado (2.ª ronda):** nas fontes da IOR os dois termos são **sinónimos**. A *Enciclopédia Ortodoxa* intitula o artigo «Грех первородный [или „прародительский“; лат. peccatum originale]». Nota que a expressão *peccatum originale* foi introduzida por S. Agostinho e não era usada pelos Padres orientais. A crítica dirige-se à **imputação de culpa pessoal** aos descendentes, não ao termo [64]. A oposição terminológica forte «ancestral vs. original» é própria de autores contemporâneos (sobretudo gregos); não aparece em [2], [5] nem [64]. Na app: usar «pecado original (ou ancestral)» como sinónimos e explicar a diferença na noção de culpa.
 
 ### 3.5 Graça, sinergia, salvação
 
@@ -204,7 +204,7 @@ Notas de variante linguística:
 - **Morte:** separação da alma e do corpo [5].
 - **Estado das almas até ao Juízo:** as almas dos justos estão na luz, no repouso e no antegozo da bem-aventurança; as dos pecadores, no estado oposto. A plenitude da retribuição só virá após a ressurreição e o Juízo [2].
   - O sinaxário do Sábado de Carne: as almas dos santos estão «em certos lugares» na alegria da esperança; as dos pecadores, na tristeza da espera do castigo [5].
-  - **⚠ PARA CONFIRMAR:** a expressão «juízo particular» (частный суд) não aparece nos excertos consultados de [2] e [5]. A doutrina de um estado intermédio diferenciado está atestada; os «portagens/mytarstva» (мытарства) não aparecem nos textos oficiais consultados.
+  - **✔ Confirmado (2.ª ronda):** «juízo particular» (частный суд) **não** aparece no texto integral dos *Fundamentos* [5] (pesquisa no texto completo). A *Enciclopédia Ortodoxa* usa o termo: as **mytarstva** (мытарства, «portagens») são «элемент частного суда Божия, т. е. суда над отдельным человеком в отличие от общего суда» [62]. O mesmo dicionário precisa que o ensino ortodoxo atual sobre o juízo particular **une duas tradições**: a ocidental, que usava o conceito «частный суд», e a oriental, que não o tinha e cujo análogo eram as mytarstva [63]. Na app: apresentar o juízo particular e as mytarstva como **ensino tradicional** (hagiografia, liturgia, teologia escolar), não como dogma conciliar. Os *Fundamentos* só afirmam o estado intermédio diferenciado [5].
 - **Oração pelos defuntos:** até ao Juízo Final o destino póstumo «não está definitivamente determinado», por isso a Igreja reza por todos os defuntos [5].
   - Filareto: às almas que morreram com fé mas sem frutos dignos de arrependimento, ajudam as orações, sobretudo unidas à oferta do sacrifício incruento, e as boas obras feitas em sua memória [2].
   - Fundamentos citados: 2 Mac 12,43; a oração pelos defuntos em todas as liturgias desde a de S. Tiago; S. Cirilo de Jerusalém; as orações de S. Basílio no Pentecostes pelos «retidos no inferno» [2].
@@ -240,7 +240,9 @@ Notas de variante linguística:
   - **católica (соборная):** «não limitada por lugar, tempo ou povo» [2].
 - **Igrejas Locais:** há Igrejas particulares autónomas (Jerusalém, Antioquia, Alexandria, Constantinopla, Rússia…), partes da única Igreja, unidas pela confissão de fé e pela comunhão na oração e nos Mistérios [2].
 - **Diferença face ao catolicismo:** a Cabeça da Igreja é Cristo; a unidade exprime-se pela comunhão das Igrejas Locais [2]. As fontes conciliares ortodoxas citadas pelos *Fundamentos* condenam as «inovações dogmáticas da Igreja Romana» [5].
-  - **⚠ PARA CONFIRMAR:** a posição detalhada da IOR sobre o primado papal deve vir do documento sinodal de 2013 sobre o primado, não consultado aqui.
+  - **✔ Confirmado (2.ª ronda):** documento «Позиция Московского Патриархата по вопросу о первенстве во Вселенской Церкви», aprovado pelo Santo Sínodo a 25–26 dez. 2013 (ata n.º 157) [72]:
+    - no 1.º milénio o primado de honra pertencia à sé de Roma; após a rutura do séc. XI passou à sé de Constantinopla. Desde então, o primado de honra a nível universal pertence ao Patriarca de Constantinopla como «первому среди равных» (primeiro entre iguais) [72];
+    - o conteúdo desse primado de honra «не определяется канонами»; atribuir ao primeiro hierarca universal funções de governo é a distorção que a polémica chamou «papismo»; na Igreja Ortodoxa «нет и никогда не было единого административного центра на вселенском уровне» [72].
 
 ---
 
@@ -250,7 +252,7 @@ Filareto define o **Mistério** como «ação sagrada pela qual a graça, ou for
 
 | Mistério | Eslavo/russo | Matéria / ação visível | Forma (palavras essenciais) | Ministro | Fonte |
 |---|---|---|---|---|---|
-| Batismo | Крещение (*Kreschénie*) | Tríplice imersão em água | «Batiza-se o servo de Deus N., em nome do Pai, ámen; e do Filho, ámen; e do Espírito Santo, ámen» (Крещается раб Божий…) | Bispo ou presbítero (em perigo de morte, qualquer cristão — **⚠ PARA CONFIRMAR** em fonte IOR) | [2] |
+| Batismo | Крещение (*Kreschénie*) | Tríplice imersão em água | «Batiza-se o servo de Deus N., em nome do Pai, ámen; e do Filho, ámen; e do Espírito Santo, ámen» (Крещается раб Божий…) | Bispo ou presbítero (em caso de necessidade/perigo de morte, um leigo ortodoxo — **✔ Confirmado (2.ª ronda)**: válido se feito por imersão em nome da Santíssima Trindade; se o batizado sobreviver, o bispo ou presbítero completa-o com a Crismação e os demais ritos; feito sem verdadeira necessidade «не признается вовсе» [73][74]) | [2][73] |
 | Crismação | Миропомазание (*Miropomazánie*) | Unção com o santo Myron na fronte, peito, olhos, ouvidos, lábios, mãos e pés | «Selo do dom do Espírito Santo» (Печать дара Духа Святаго) | Presbítero ou bispo; **o Myron só pode ser consagrado pelos bispos** | [2] |
 | Eucaristia (Comunhão) | Причащение / Евхаристия (*Pritchaschénie*) | Pão fermentado, puro, de trigo; vinho misturado com água | Epiclese e bênção dos Dons: pão e vinho «transformam-se» (прелагаются / пресуществляются) no verdadeiro Corpo e Sangue de Cristo | Bispo ou presbítero, na Divina Liturgia | [2] |
 | Arrependimento (Confissão) | Покаяние (*Pokaiánie*) | Confissão dos pecados ao sacerdote | Perdão visível pelo sacerdote; libertação invisível pelo próprio Cristo | Bispo ou presbítero | [2] |
@@ -267,7 +269,7 @@ Notas:
 ### 4.1 Práticas específicas
 
 - **Crismação logo a seguir ao Batismo**, mesmo nas crianças. É prática comum ortodoxa; na celebração do Myron intervém só o bispo [2].
-  - **⚠ PARA CONFIRMAR:** fonte IOR explícita sobre a Crismação imediata das crianças (é prática universal na ordem do Trebnik, mas não está citada aqui).
+  - **✔ Confirmado (2.ª ronda):** *Enciclopédia Ortodoxa*, art. «Миропомазание»: «М. совершается сразу после крещения… и, кроме случаев спорного крещения, неотделимо от него» (a Crismação faz-se logo após o Batismo e, salvo batismo duvidoso, é inseparável dele). Distingue-se assim da Confirmação latina, que é um rito separado [74].
   - **Diferença católica:** a Confirmação é normalmente separada e conferida mais tarde [40].
 - **Batismo de crianças:** «pela fé dos pais e padrinhos», que devem ensiná-las; justificação pela substituição da circuncisão (Cl 2,11–12) [2].
   - **Diferença face aos protestantes anabatistas/batistas:** a IOR batiza crianças [2].
@@ -276,7 +278,7 @@ Notas:
   - o jejum eucarístico não é obrigatório até aos 3 anos e vai sendo introduzido progressivamente;
   - aos 7 anos a criança deve estar habituada a comungar em jejum.
   - **Primeira confissão:** o cânone 18 de Timóteo de Alexandria indica os 10 anos, mas «na tradição da IOR a primeira confissão faz-se, em regra, aos sete anos»; a frequência entre os 7 e os 10 anos é decidida pelo confessor com os pais.
-  - **Diferença católica (rito latino):** a Primeira Comunhão é adiada para a idade da razão. **⚠ PARA CONFIRMAR** com fonte católica oficial.
+  - **Diferença católica (rito latino):** a Primeira Comunhão é adiada para a idade da razão. **✔ Confirmado (2.ª ronda):** o *Código de Direito Canónico* manda que as crianças, «ao atingirem o uso da razão», se preparem e recebam a comunhão «feita previamente a confissão sacramental» (cân. 914). Presume-se o uso da razão a partir dos sete anos completos (cân. 97 §2). A Confirmação administra-se «cerca da idade da discrição», salvo outra determinação da Conferência Episcopal (cân. 891) [75].
 - **Confissão antes da Comunhão** [12]:
   - a preparação inclui exame de consciência e confissão dos pecados ao sacerdote;
   - o confessor pode abençoar comunhões repetidas na mesma semana (Semana Santa, Semana Luminosa) sem confissão antes de cada uma;
@@ -285,7 +287,7 @@ Notas:
   - o fiel prepara-se com um cânone de oração (cânones ao Salvador, à Mãe de Deus, ao Anjo da Guarda, *Ofício para a Sagrada Comunhão*) e com a presença nas Vésperas e Matinas (ou na Vigília) da véspera.
   - Texto PT-PT do *Ofício preparatório para a Sagrada Comunhão* em [36].
 - **Fórmula de absolvição:** o fiel ajoelha-se e o padre põe a estola (epitrachélion) sobre a sua cabeça [38].
-  - A fórmula «…e eu, indigno sacerdote… perdoo-te e absolvo-te…» é apresentada por [38] como entrada na Rússia por influência ocidental. **⚠ PARA CONFIRMAR:** [38] diz «século XVI»; a atribuição habitual é ao *Trebnik* de S. Pedro Mohyla (Kiev, séc. XVII) — fonte não verificada aqui.
+  - A fórmula «…e eu, indigno sacerdote… perdoo-te e absolvo-te…» é apresentada por [38] como entrada na Rússia por influência ocidental. **✔ Confirmado (2.ª ronda):** a datação correta é o **séc. XVII**, não o XVI. Segundo N. D. Uspenski (Academia Teológica de Leninegrado), a fórmula «и аз, недостойный иерей, властию Его, мне данною, прощаю и разрешаю тя…» **não existe** no Eucológio grego. Entrou nos livros eslavos no séc. XVII, a partir do Eucológio (Требник) de S. Pedro Mohyla (Kiev, 1646), e depois nas edições de Moscovo. O seu paralelo é o *Rituale* latino («ego te absolvo») [76].
 - **Santa Unção (соборование)** [13]:
   - o nome vem de ser celebrada «conciliarmente» por sete presbíteros, com muitos fiéis;
   - a matéria é azeite consagrado; na tradição de Constantinopla junta-se vinho tinto;
@@ -293,9 +295,13 @@ Notas:
   - perdoa também os pecados esquecidos ou inconscientes;
   - destina-se aos doentes, após confissão; não se dá a crianças nem a mortos;
   - a fonte descreve ainda uma unção geral de todos os fiéis, mesmo sãos, na Quinta-Feira ou Sábado Santo, celebrada por bispos — costume não escrito, segundo S. Demétrio de Rostov.
-  - **⚠ PARA CONFIRMAR:** a prática paroquial russa atual de unção geral na Grande Quaresma é amplamente difundida, mas falta uma fonte normativa.
+  - **⚠ PARA CONFIRMAR:** a prática paroquial russa atual de unção geral na Grande Quaresma é amplamente difundida, mas falta uma fonte normativa. 2.ª ronda: pesquisados patriarchia.ru, azbyka.ru e pravenc.ru (incl. «О чинопоследовании Елеосвящения», da Comissão Inter-Conciliar, citado apenas em fóruns). Não se encontrou determinação sinodal; as fontes encontradas são apenas pastorais (perguntas e respostas, artigos), sem valor normativo. Na app: descrever como costume, sem caráter normativo.
 - **Receção de católicos no Vicariato de Portugal:** o Vicariato publica um rito de receção «pelo Sacramento do Crisma» de cristãos vindos da «Igreja Romana», com renúncia, Símbolo sem Filioque e unção [37].
-  - **⚠ PARA CONFIRMAR:** a norma geral da IOR sobre a receção de católicos (por Crismação ou por arrependimento/confissão de fé) não foi verificada em documento sinodal; o rito de [37] reflete a prática local publicada.
+  - **✔ Confirmado (2.ª ronda), com nota:** segundo a *Enciclopédia Ortodoxa* (art. «Присоединение к Православию»), a prática kievana do séc. XVII (Trebnik de Pedro Mohyla) generalizou-se no séc. XVIII a toda a Igreja Russa [71]:
+    - **3.º rito** (arrependimento, renúncia aos erros e confissão de fé, seguida de Comunhão) para católicos **adultos já crismados** (confirmados);
+    - **2.º rito** (Crismação) para crianças/adolescentes católicos **não confirmados** e para protestantes;
+    - «подобная практика остается неизменной и по сей день» [71].
+    O rito publicado pelo Vicariato [37] é por **Crismação**. É compatível com [71] para não confirmados, mas pode refletir também prática local. Não se encontrou documento sinodal recente que altere a norma. Na app: descrever os dois ritos e remeter para o clero.
 
 ---
 
@@ -336,15 +342,20 @@ Notas:
 
 - A Liturgia dos Pré-santificados está ligada às Vésperas; a sua celebração ao fim da tarde é a norma do Typikon, embora na prática se celebre de manhã [12].
 - Não há Liturgia completa nos dias úteis da Grande Quaresma, só a dos Pré-santificados [16].
-  - **⚠ PARA CONFIRMAR:** [16] não detalha esta regra geral; ela deduz-se das regras acima.
-- **Liturgia de S. Tiago:** celebrada ocasionalmente em algumas igrejas russas — **⚠ PARA CONFIRMAR** (sem fonte encontrada).
+  - **✔ Confirmado (2.ª ronda):** a regra tem base canónica:
+    - cânone 49 de Laodiceia: «не должно в Четыредесятницу приносить Хлеб, за исключением субботы и воскресенья»;
+    - cânone 52 do Concílio Trulano: em todos os dias da Quaresma, exceto sábado, domingo e Anunciação, celebra-se a Liturgia dos Pré-santificados [77].
+- **Liturgia de S. Tiago:** **✔ Confirmado (2.ª ronda):** celebra-se ocasionalmente na IOR, sobretudo na festa do Apóstolo (23 out./5 nov.). Exemplos: igrejas das academias teológicas, como S. Petersburgo e a Universidade S. Tikhon [78]. Não faz parte do ciclo paroquial ordinário. O texto eslavo usado deriva da tradução de I. A. Gardner (edição aprovada pelo Sínodo da ROCOR, 1938) [79].
 
 ### 5.4 Especificidades russas (resumo)
 
 - Língua litúrgica: **eslavo eclesiástico**; o Símbolo e o Credo usam a forma eslava [5].
 - Calendário: a IOR segue o **calendário juliano** («estilo antigo»). Em Portugal, o Vicariato indica as datas duplas, ex.: Natal a 7 de janeiro (25 de dezembro juliano) [38].
 - Pão eucarístico fermentado (prósforas) [2].
-- **Escolha do Typikon:** **⚠ PARA CONFIRMAR** — a IOR usa o Typikon de S. Sabas (Jerusalém), enquanto as Igrejas gregas usam o Typikon da Grande Igreja/Constantinopla. Facto amplamente conhecido, não verificado em fonte nesta investigação.
+- **Escolha do Typikon:** **✔ Confirmado (2.ª ronda):**
+  - o Typikon atual da IOR é uma redação russa do **Typikon de Jerusalém** (Иерусалимский устав, também chamado «(neo)sabaíta»), que nos sécs. XI–XIV foi adotado por todas as Igrejas Locais;
+  - a redação russa chegou no séc. XV como «Око церковное»; a 1.ª edição impressa eslava é de Moscovo, 1610; desde 1682 chama-se «Типикон» [65][66];
+  - na tradição **grega**, o Typikon de Jerusalém só se usa integralmente no Monte Atos e em mosteiros de regra estrita; nas paróquias e catedrais segue-se uma ordem muito modificada, o **Typikon de Violakis** (Typikon da Grande Igreja de Cristo, Constantinopla) [65].
 
 ---
 
@@ -352,7 +363,7 @@ Notas:
 
 ### 6.1 Estrutura canónica (Estatuto da IOR)
 
-- O Estatuto foi adotado pelo Concílio dos Bispos de 2000, com emendas em 2008 e 2011; o Concílio de 2013 adotou uma redação revista, alterada de novo em 2016 e 2017 [17]. **⚠ PARA CONFIRMAR:** emendas posteriores a 2017.
+- O Estatuto foi adotado pelo Concílio dos Bispos de 2000, com emendas em 2008 e 2011; o Concílio de 2013 adotou uma redação revista, alterada de novo em 2016 e 2017 [17]. **⚠ PARA CONFIRMAR:** emendas posteriores a 2017. 2.ª ronda: a lista de emendas conhecida termina em 2017 (2008, 2011, 2013, 2016, 2017 [82]). Pesquisa por Concílios dos Bispos de 2018–2026 sem resultado (patriarchia.ru não é legível por ferramentas automáticas). Verificar manualmente a página do Estatuto em patriarchia.ru antes de citar artigos concretos.
 - **Órgãos supremos:** «Concílio Local (Поместный Собор), Concílio dos Bispos (Архиерейский Собор) e Santo Sínodo (Священный Синод), presidido pelo Patriarca de Moscovo e de toda a Rússia» [17].
   - **Órgão executivo:** Conselho Supremo da Igreja (Высший Церковный Совет), junto do Patriarca e do Sínodo [17].
 - **Concílio Local:**
@@ -369,15 +380,15 @@ Notas:
   - é bispo diocesano de Moscovo [17].
 - **Santo Sínodo:** o Patriarca preside; tem 9 membros permanentes e 5 temporários [17].
 - **Subdivisões:** Igrejas autónomas e autogovernadas, **Exarcados**, distritos metropolitanos, metropolias, dioceses, vicariatos, decanatos, paróquias, mosteiros [17].
-- Patriarca: Cirilo (Kirill) de Moscovo e de toda a Rússia, em funções em nov. 2025 [26]. **⚠ PARA CONFIRMAR:** situação em out. 2026 e data de entronização (2009, não verificada aqui).
+- Patriarca: Cirilo (Kirill; Gundiaev) de Moscovo e de toda a Rússia. **✔ Confirmado (2.ª ronda):** eleito pelo Concílio Local a 27 jan. 2009 e entronizado a **1 fev. 2009** [57]. Continua em funções em out. 2026: a 14 out. 2026 (Proteção da Mãe de Deus) celebrou a Divina Liturgia no Mosteiro da Proteção, em Moscovo [56].
 
 ### 6.2 Autocefalia: 1448 e 1589
 
 - **15 de dezembro de 1448:** um concílio de bispos russos em Moscovo elegeu S. Jonas metropolita sem a sanção de Constantinopla. Assim «cessou a dependência da Igreja Russa de Constantinopla e começou a autocefalia» [18].
-  - A historiografia nota que esta autocefalia foi de facto, não reconhecida canonicamente durante cerca de um século. **⚠ PARA CONFIRMAR:** fonte secundária não oficial.
+  - A historiografia nota que esta autocefalia foi de facto, não reconhecida canonicamente durante cerca de um século. **✔ Confirmado (2.ª ronda):** a *Enciclopédia Ortodoxa* diz que a Igreja Russa obteve a autocefalia «правомерно» em 1448, mas que «эта А. долго не признавалась в К-поле», e só a reconheceu em 1589 [70]. O Concílio de Constantinopla de maio de 1590 confirmou o Patriarcado e o direito de os bispos russos elegerem o Patriarca, «тем самым был окончательно решен вопрос об автокефалии» [68].
 - **26 de janeiro de 1589 (estilo antigo):** o Metropolita Jó foi entronizado **primeiro Patriarca de Moscovo e de toda a Rússia** na Catedral da Dormição do Kremlin, com a participação do Patriarca Jeremias II de Constantinopla e de um concílio de hierarcas russos [19].
   - O patriarcado foi depois confirmado canonicamente por um concílio em 1590 [20].
-  - **⚠ PARA CONFIRMAR:** o concílio de Constantinopla de 1593, que fixou o 5.º lugar do Patriarcado de Moscovo nos dípticos, não foi verificado em fonte nesta pesquisa.
+  - **✔ Confirmado (2.ª ronda):** o Concílio de Constantinopla de 1590 já atribuía ao Patriarca de Moscovo o 5.º lugar, depois dos patriarcas orientais [68]. A **12 fev. 1593** reuniu-se em Constantinopla, por iniciativa e sob a presidência de Melécio Pigas de Alexandria, novo concílio dos patriarcas orientais. Este confirmou o Patriarcado na Igreja Russa e o **5.º lugar** nos dípticos (Moscovo pretendia o 3.º) [67][68][69].
 
 ### 6.3 Cisma dos Velhos Crentes (1666–1667) e Edinoverie
 
@@ -436,10 +447,11 @@ Notas:
 - O clero inclui padres de origem moldava, ucraniana e russa e também portugueses (ex.: pe. António Teixeira, pe. Filipe José Malaquias; o arquidiácono jubilado Jerónimo — Luís Filipe Thomaz — é tradutor dos textos litúrgicos) [28][34].
 - O Santo Sínodo instituiu em 28 dez. 2018 a «Sinaxe de Todos os Santos que resplandeceram nas terras de Espanha e Portugal» (80 santos), celebrada no domingo anterior a 12 de outubro [55].
 - **Não confundir com outras jurisdições em Portugal:** a Metrópole de Espanha e Portugal do Patriarcado Ecuménico (sede em Madrid) e uma «Igreja Ortodoxa Católica de Portugal» descrita como não canónica [52][53].
-- **⚠ PARA CONFIRMAR:**
-  - nomeação de um bispo diocesano titular para a Diocese Hispano-Portuguesa depois de mar. 2026 (não encontrada);
-  - atualidade dos endereços paroquiais (a lista [29] é de 2026, mas convém confirmar antes de publicar na app);
-  - o título exato de D. Pedro no registo oficial da IOR (patriarchia.ru não acessível a ferramentas automáticas).
+- **Bispo responsável por Portugal (estado em 16 out. 2026)** — 2.ª ronda:
+  - **✔ Confirmado:** a 12 mar. 2026 (ata n.º 8) o Metropolita Nestor foi libertado da administração temporária da Diocese Hispano-Portuguesa e nomeado vigário da Diocese de Korsun, com o título «Ступинский». O Metropolita **Marcos (Golovkov)**, de Korsun e da Europa Ocidental, Exarca Patriarcal, ficou com a **administração temporária** (временное управление) da Diocese Hispano-Portuguesa [27][58];
+  - **⚠ PARA CONFIRMAR:** nomeação de bispo diocesano titular depois de mar. 2026. Pesquisados patriarchia.ru, sourozh.org e notícias de 2026 sobre as sessões do Santo Sínodo: nada encontrado; orthodoxspain.com devolveu erro 500. Até prova em contrário, o responsável é o Metropolita Marcos, como administrador temporário;
+  - **título de D. Pedro (Pruteanu):** **✔ Confirmado (parcialmente):** num documento jurídico de 25 jun. 2026 ele próprio se identifica como «Episcop de Caffa, Episcop vicar pentru Europa Occidentală» [59]. Coincide com [28] e [32]. Falta a confirmação no registo oficial da IOR (patriarchia.ru não é legível por ferramentas automáticas);
+  - **⚠ PARA CONFIRMAR:** atualidade dos endereços paroquiais (a lista [29] é de 2026, mas convém confirmar antes de publicar na app).
 
 ---
 
@@ -606,7 +618,7 @@ Notas:
 | PT-PT | Eslavo/Russo | Grego | Definição breve | Fonte | Notas |
 |---|---|---|---|---|---|
 | Templo / igreja | храм (*khram*) | ναός | Edifício de culto | [2][38] | |
-| Iconóstase | иконостас (*ikonostás*) | εἰκονοστάσιον | Parede de ícones entre o santuário e a nave | [38] | [38] grafa «Iconostase»; PT-PT «iconóstase» ⚠ |
+| Iconóstase | иконостас (*ikonostás*) | εἰκονοστάσιον | Parede de ícones entre o santuário e a nave | [38][83] | [38] grafa «Iconostase» (PT-BR/galicismo); PT-PT **«iconóstase»** ✔ atestado no dicionário Priberam (2.ª ronda) [83] |
 | Portas Reais (Santas) | Царские врата (*Tsárskie vratá*) | Ὡραία Πύλη | Portas centrais da iconóstase | [34][38] | |
 | Santuário / Altar | алтарь (*altár'*) | ἱερόν, βῆμα | Espaço atrás da iconóstase | [38][2] | [CAT] «altar» = a mesa; em russo *altar'* = santuário |
 | Santa Mesa / Trono | престол (*prestól*) / трапеза | Ἁγία Τράπεζα | Mesa onde se celebra a Eucaristia | [2][38] | [CAT] «altar» |
@@ -678,19 +690,24 @@ Notas:
 
 ## 9. Lista consolidada de dúvidas (⚠)
 
-1. Estatuto formal dos *Fundamentos* (2020) como «Catecismo da IOR» (aprovação sinodal?) [5][6].
-2. Rejeição explícita da Imaculada Conceição num documento oficial atual da IOR (só teologia académica do séc. XIX citada) [46][47].
-3. Fonte oficial IOR sobre a Dormição/trasladação corporal da Mãe de Deus [49].
-4. Termo «juízo particular» e «mytarstva» em textos oficiais (não encontrados nos excertos).
-5. Norma atual da IOR sobre a receção de católicos (Crismação vs. confissão de fé) face ao rito publicado em Portugal [37].
-6. Origem da fórmula de absolvição «eu… absolvo-te» (séc. XVI segundo [38] vs. Pedro Mohyla, séc. XVII).
-7. Prática russa da unção geral na Grande Quaresma (fonte normativa).
-8. Typikon de S. Sabas na IOR vs. Typikon constantinopolitano grego (não verificado).
-9. Concílio de 1593 e ordem nos dípticos; reconhecimento canónico da autocefalia de 1448.
-10. Patriarca em funções e titular da Diocese Hispano-Portuguesa após mar. 2026; título oficial de D. Pedro (Pruteanu).
-11. Formas PT-PT de: Ofício da Meia-Noite, Octoeco, Menaia, Condácio, Semana Luminosa, Panikhida, Moleben, iconóstase/iconostase, antimínsio.
-12. Versão «oficial» única do Símbolo da Fé em PT-PT para as paróquias do Vicariato.
-13. Artigos da *Enciclopédia Ortodoxa* (pravenc.ru) não consultados.
+Estado após a 2.ª ronda (16 out. 2026):
+
+1. ✔ Estatuto dos *Fundamentos* (2020): três documentos da Comissão Sinodal, não «Catecismo» formal [6] (§1.5).
+2. ✔ Imaculada Conceição: rejeitada explicitamente pela *Enciclopédia Ortodoxa* [60][61] (§3.3).
+3. ✔ Dormição: Tradição da ressurreição e subida ao céu ao 3.º dia; dogma de 1950 não reconhecido [60] (§3.3).
+4. ✔ «Juízo particular»/mytarstva: não constam dos *Fundamentos*; ensino tradicional descrito em [62][63] (§3.6).
+5. ✔ Receção de católicos: 3.º rito para confirmados, Crismação para não confirmados [71] (§4.1).
+6. ✔ Fórmula de absolvição: séc. XVII, via Pedro Mohyla [76] (§4.1).
+7. ⚠ Unção geral na Grande Quaresma: sem fonte normativa encontrada (§4.1).
+8. ✔ Typikon de Jerusalém (sabaíta) na IOR vs. Violakis nas paróquias gregas [65][66] (§5.4).
+9. ✔ Concílios de 1590 e 1593 (5.º lugar); autocefalia de 1448 reconhecida só em 1589–1590 [67]–[70] (§6.2).
+10. ✔ Patriarca Cirilo em funções (out. 2026) [56][57]; ✔ administração temporária da Diocese pelo Metropolita Marcos [58]; ⚠ bispo diocesano titular não nomeado/encontrado; título de D. Pedro confirmado só por documento próprio [59] (§6.5).
+11. Formas PT-PT: ✔ «iconóstase» (Priberam [83]). ⚠ Sem atestação PT-PT em dicionário nem nos textos do Vicariato consultados: Ofício da Meia-Noite, Octoeco/Októikhos, Menaia/Mineia, Condácio/Kondákion, Semana Luminosa, Panikhida, Moleben, antimínsio. O *Vocabulário* [38] usa formas PT-BR/galicismos («Octoechos», «Kondakion», «antimênsio»). → **DECISÃO DO UTILIZADOR**: fixar a forma de cada termo na app (sugestão: aportuguesar segundo o padrão já usado pelo Vicariato — «Tropário», «Triságio», «Catisma», «Theotókion» [84] — p. ex. «Octoeco», «Condácio», «Semana Luminosa», «Panikhida» (transliteração, com glosa «ofício pelos defuntos»), «Moleben» (com glosa «ofício de súplica»), «Antimínsio»).
+12. ⚠ Versão «oficial» do Símbolo em PT-PT: só por contacto com o Vicariato; → **DECISÃO DO UTILIZADOR** (§2.2).
+13. ✔ *Enciclopédia Ortodoxa* (pravenc.ru) consultada por URL direto (§0).
+14. ⚠ Emendas ao Estatuto posteriores a 2017 (§6.1).
+15. ⚠ Endereços paroquiais (§6.5).
+16. ✔ Liturgia de S. Tiago na IOR [78][79]; ✔ base canónica dos Pré-santificados [77] (§5.3).
 
 ---
 
@@ -752,3 +769,32 @@ Notas:
 53. RuWiki — «Кафолическая православная церковь Португалии» (descrita como não canónica; fonte secundária). https://ru.ruwiki.ru/wiki/Кафолическая_православная_церковь_Португалии
 54. Ortodoxia em Portugal — artigo «Sinaxe dos santos ligados às terras de Portugal e à antiga Lusitânia até ao ano de 1054». https://www.ortodoxia.pt/sinaxe-dos-santos-ligados-as-terras-de-portugal-e-a-antiga-lusitania-ate-ao-ano-de-1054/
 55. OrthoChristian — «Russian Church officially adds saints of Spain, Portugal to liturgical calendar» (Santo Sínodo, 28.12.2018). https://orthochristian.com/118409.html
+56. Patriarchia.ru — «В праздник Покрова Пресвятой Богородицы Святейший Патриарх Кирилл совершил Литургию в Покровском ставропигиальном монастыре» (14.10.2026). https://patriarchia.ru/article/123351
+57. Wikipedia (ru) — «Кирилл (патриарх Московский)» (eleição 27.01.2009; entronização 01.02.2009). https://ru.wikipedia.org/wiki/Кирилл_(патриарх_Московский)
+58. Diocese de Sourozh (RU) — «Митрополит Марк утвержден в должности Патриаршего экзарха Западной Европы» (14.03.2026; Santo Sínodo de 12.03.2026, ata n.º 8). https://www.sourozh.org/main-rus/2026/3/14/934764748764.html
+59. Pedido de retificação dirigido a *Vocea Basarabiei* (Chișinău, 25.06.2026) em nome de «Petru Pruteanu, Episcop de Caffa, Episcop vicar pentru Europa Occidentală» (documento de parte). https://voceabasarabiei.md/wp-content/uploads/2026/06/vocea-basarabiei-cerere-de-dezmintire.pdf
+60. Православная энциклопедия (ПЭ), «Богородица», t. 5, pp. 486–504. https://www.pravenc.ru/text/149527.html
+61. ПЭ, «Непорочное зачатие», t. 49, pp. 20–24. https://www.pravenc.ru/text/2565048.html
+62. ПЭ, «Мытарства», t. 48, pp. 135–143. https://www.pravenc.ru/text/2564534.html
+63. ПЭ, «Зизаний (Куколь)», t. 20, pp. 117–123. https://www.pravenc.ru/text/199773.html
+64. ПЭ, «Грех первородный», t. 12, pp. 345–355. https://www.pravenc.ru/text/166457.html
+65. ПЭ, «Иерусалимский устав», t. 21, pp. 504–506. https://www.pravenc.ru/text/293798.html
+66. ПЭ, «Дисциплинарные главы Типикона», t. 15, p. 414 (e «Око церковное», t. 52, p. 522: https://www.pravenc.ru/text/2578245.html). https://www.pravenc.ru/text/178559.html
+67. ПЭ, «Мелетий I (Пигас)», t. 44, pp. 570–573. https://www.pravenc.ru/text/2562856.html
+68. ПЭ, «Иеремия II», t. 21, pp. 296–301. https://www.pravenc.ru/text/293660.html
+69. ПЭ, «Иов», t. 25, pp. 253–264. https://www.pravenc.ru/text/578144.html
+70. ПЭ, «Автокефалия», t. 1, pp. 199–202. https://www.pravenc.ru/text/63032.html
+71. ПЭ, «Присоединение к Православию», t. 58, pp. 237–243. https://www.pravenc.ru/text/2660882.html
+72. Santo Sínodo da IOR — «Позиция Московского Патриархата по вопросу о первенстве во Вселенской Церкви» (25–26.12.2013, ata n.º 157), em mospat.ru. https://mospat.ru/ru/2013/12/25/news96344/
+73. ПЭ, «Крещение», t. 38, pp. 612–707. https://www.pravenc.ru/text/2459045.html
+74. ПЭ, «Миропомазание», t. 45, pp. 379–386. https://www.pravenc.ru/text/2563348.html
+75. *Código de Direito Canónico* (1983), versão portuguesa (cân. 97 §2, 891, 914). https://www.vatican.va/archive/cod-iuris-canonici/portuguese/codex-iuris-canonici_po.pdf
+76. N. D. Uspenski — «Коллизия двух богословий в исправлении русских богослужебных книг в XVII веке» (azbyka). https://azbyka.ru/otechnik/Nikolaj_Uspenskij/kollizija-dvuh-bogoslovij-v-ispravlenii-russkih-bogosluzhebnyh-knig-v-17-veke/
+77. Azbuka Very, Direito Canónico — Concílio Trulano, cân. 52 (https://azbyka.ru/pravo/shestoj-vselenskij-sobor-52/) e Concílio de Laodiceia, cân. 49 (https://azbyka.ru/pravo/laodikijskij-sobor-49/).
+78. Patriarchia.ru — «В день памяти св. ап. Иакова, брата Господня, в ряде храмов Русской Православной Церкви совершалась Литургия апостола Иакова». http://www.patriarchia.ru/db/text/2572174.html
+79. ПЭ, «Литургия апостола Иакова», t. 41, pp. 244–253. https://www.pravenc.ru/text/2110596.html
+80. ПЭ, «Библия. I. Общие сведения», t. 5, pp. 89–97. https://www.pravenc.ru/text/209479.html
+81. ПЭ, «Ездры первая книга», t. 18, pp. 66–77. https://www.pravenc.ru/text/189575.html
+82. Wikipedia (ru) — «Устав Русской православной церкви» (emendas de 2008, 2011, 2013, 2016 e 2017, com ligação para a redação em vigor em patriarchia.ru). https://ru.wikipedia.org/wiki/Устав_Русской_православной_церкви
+83. Dicionário Priberam da Língua Portuguesa — «iconóstase». https://dicionario.priberam.org/iconóstase
+84. Pe. Jerónimo Thomaz — «Pequeno léxico de termos litúrgicos e teológicos» (2023), ortodoxia.pt. https://www.ortodoxia.pt/padre-jeronimo-thomaz-lexikon/

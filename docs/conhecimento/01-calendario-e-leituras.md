@@ -63,7 +63,8 @@ Tabela de desfasamento (verificada por **cálculo próprio** com as fórmulas ac
 - **1923:** uma reunião de bispos presidida pelo Patriarca Tikhon decidiu (24 de setembro de 1923) adotar o novo estilo a partir de 2 de outubro OS; a 8 de novembro de 1923 o Patriarca adiou "temporariamente" a introdução, porque as outras Igrejas Ortodoxas — "com as quais a Igreja russa deve estar sempre em unidade" — também a tinham adiado [8].
 - **Declaração do Patriarca Tikhon de 17(30).09.1924** ao Comité Executivo Central: o calendário juliano "não foi elevado pela Igreja a dogma de fé intocável", e a reforma é "em princípio admissível", mas exige (1) o acordo de todas as Igrejas autocéfalas, (2) o consentimento do povo crente; acrescenta que a reforma ficou comprometida por ter sido proclamada primeiro pelos "renovacionistas" (обновленцы, *obnovlentsy*) e pela convicção de que era imposta pelo poder civil [7].
 - **Conferência de Moscovo de 1948** (Совещание глав и представителей автокефальных Православных Церквей): segundo o prof. arcipreste Vladimir Khulap (Academia Teológica de São Petersburgo), decidiu-se que todas as Igrejas Ortodoxas celebram a Páscoa em conjunto pelo Pascálio alexandrino e pelo calendário juliano, e que para as festas fixas cada Igreja local pode escolher o calendário juliano ou o neojuliano; a ROC vive pelo calendário juliano e pelo Pascálio alexandrino [4].
-- ⚠ **PARA CONFIRMAR:** não foi localizado nesta pesquisa um documento oficial recente (patriarchia.ru, Concílio dos Bispos) que fundamente de novo a manutenção do calendário juliano; as fontes acima são históricas (1923–1924, 1948) e académicas.
+- **Posição atual (fontes oficiais):** as «Пояснения к Православному церковному календарю» do calendário oficial da Editora do Patriarcado afirmam: «В богослужебной практике Русская Православная Церковь пользуется юлианским календарем… Разница между старым и новым стилем в XXI столетии – 13 дней» [41]. No sítio oficial patriarchia.ru, hierarcas responsáveis justificam a manutenção pela vontade do povo crente e pela memória das perseguições: arcipreste Nikolai Balashov (DECR, 2005: «Вопрос о перемене календарного стиля перед Русской Православной Церковью не стоит»); metropolita Hilarion (2011: o calendário «не является чем-то священным и незыблемым», mas «поскольку такой потребности у Церкви нет… не нужно поднимать этот вопрос»); metropolita Iuvenali (2017: «еще не пришло время обсуждать вопрос о календаре») [46].
+- ✔ Confirmado (2.ª ronda): a prática e a sua fundamentação atual estão confirmadas por fonte oficial [41][46]. Nota: não foi encontrada **decisão conciliar** recente específica sobre o calendário — pesquisados os textos das determinações/decretos dos Concílios dos Bispos de 2008, 2011, 2013, 2016 e 2017 no patriarchia.ru (sem ocorrências de «юлиан»/«календарн»).
 
 ---
 
@@ -120,7 +121,7 @@ Teste de regressão recomendado: o projeto Ponomar inclui `paschalion.pl`, que g
   - Balsamon: os apóstolos determinam "que a Páscoa do Senhor seja celebrada por nós **depois** de os judeus terem celebrado a páscoa legal" [6].
 - **Leitura académica atual (difundida em fontes da ROC):** o arcipreste V. Khulap afirma que estes cânones visam a **dependência** da data cristã em relação ao cálculo judaico (14 de Nisan), e não a coincidência num mesmo dia, "como hoje frequentemente se interpreta erradamente"; lembra que, pelo Pascálio alexandrino, a Páscoa cristã coincidiu com a judaica em 289, 296, 316, 319, 323, 343, 347, 367, 370, 374, 394, nove vezes no séc. V e, pela última vez, em 783 [5]. A enciclopédia Azbuka Very cita ainda uma análise segundo a qual o "erro de Zonaras" resultou de no seu tempo a Páscoa cristã cair sempre, de facto, depois da judaica [5]; Khulap resume que o cânone 7 proíbe orientar-se pelo 14 de Nisan judaico [4].
 - **Consequência para implementação:** o calendário da ROC calcula a Páscoa **exclusivamente** pelo Pascálio alexandrino/juliano [4]; os algoritmos de referência (Meeus [1], Ponomar [27]) **não** contêm qualquer verificação contra o calendário hebraico. **Não implementar** uma regra "depois da Páscoa judaica" — isso alteraria datas em relação ao calendário oficial.
-- ⚠ **PARA CONFIRMAR:** a afirmação popular "a Páscoa ortodoxa nunca coincide nem precede a Páscoa judaica" aparece em catequese paroquial; as fontes canónicas dividem-se (Zonaras/Balsamon vs. Khulap/Voronov/[5]). Não foi encontrado documento normativo da ROC que adote formalmente a leitura de Zonaras como regra de cálculo.
+- ✔ Confirmado (2.ª ronda) **quanto ao cálculo:** o calendário oficial da Editora do Patriarcado define a regra pascal assim: «Древнее правило так называемой александрийской православной пасхалии назначает праздновать Пасху в первое воскресенье по первом весеннем полнолунии, после дня весеннего равноденствия – 21 марта ст. ст.… с 22 марта по 25 апреля ст. ст.» — **sem** qualquer condição relativa à Páscoa judaica [41]. A afirmação popular "a Páscoa ortodoxa nunca coincide nem precede a Páscoa judaica" continua a ser apenas uma leitura canónica (Zonaras/Balsamon vs. Khulap/Voronov/[5]), sem efeito normativo no cálculo.
 
 ---
 
@@ -180,22 +181,23 @@ Verificação da duração do Jejum dos Apóstolos **(cálculo próprio)**: come
 |---|---|---|
 | Sábado e domingo **antes** da Exaltação | último sáb./dom. antes de 14.09 (7–13.09) | [10][16] |
 | Sábado e domingo **depois** da Exaltação | primeiro sáb./dom. depois de 14.09 (15–21.09) | [10][19] |
-| Padres do VII Concílio Ecuménico | "depois do dia 11 [de outubro], no domingo seguinte" (по 11 дни … в приидущую неделю) | [10]; ⚠ ver nota 1 |
-| Sábado de S. Demétrio (defuntos) | sábado antes da memória de S. Demétrio de Tessalónica (26.10 OS = 08.11 NS) | [22]; ⚠ nota 2 |
+| Padres do VII Concílio Ecuménico | domingo **11–17.10** (se 11.10 for domingo, nesse dia) | [10]; ✔ nota 1 |
+| Sábado de S. Demétrio (defuntos) | sábado **estritamente** antes de 26.10 OS, i.e. sábado **19–25.10 OS** (= 01–07.11 NS em 1900–2099) | [22][44]; ✔ nota 2 |
 | Domingo dos Antepassados (Праотец) | domingo 11–17.12 | [10] |
 | Domingo dos Santos Padres (antes do Natal) | domingo 18–24.12 | [10] |
 | Sábado/domingo antes do Natal | sábado/domingo 18–24.12 | [10][19] |
 | Sábado/domingo depois do Natal (domingo: Sts. José, David, Tiago) | 26–31.12; se o Natal cair em domingo, o "domingo depois do Natal" passa para segunda 26.12 | [10] |
 | Sábado/domingo antes e depois da Teofania | antes: entre o Natal e 05.01; depois: 07–13.01 | [10][16][19] |
-| Concílio dos Novos Mártires e Confessores da Igreja Russa | 25.01 OS se for domingo; se 25.01 cair seg–qua → domingo anterior; qui–sáb → domingo seguinte (Concílio dos Bispos 2013) | [24]; ⚠ nota 3 |
-| Padres dos seis Concílios Ecuménicos | 16.07; se for domingo, nesse dia; se quarta → domingo anterior; se quinta → domingo seguinte | [10]; ⚠ nota 4 |
-| Comemoração dos defuntos da Grande Guerra Patriótica | **9 de maio NS** (data civil fixa — único "dia parental" de data não móvel) | [22] |
+| Concílio dos Novos Mártires e Confessores da Igreja Russa | 25.01 OS se for domingo; se 25.01 cair seg–qua → domingo anterior; qui–sáb → domingo seguinte (Concílio dos Bispos 2013) ⇒ domingo **22–28.01 OS** | [24][43]; ✔ nota 3 |
+| Padres dos seis Concílios Ecuménicos | domingo mais próximo de 16.07 ⇒ domingo **13–19.07 OS** (seg/ter → domingo anterior; sex/sáb → seguinte) | [10][44]; ✔ nota 4 |
+| Comemoração dos defuntos da Grande Guerra Patriótica | **9 de maio NS** (= 26.04 OS; data fixa) | [22][41] |
+| Comemoração de todos os cristãos ortodoxos mortos ou presos inocentemente pelos perseguidores (Поминовение всех православных христиан, безвинно богоборцами убиенных…) | **17.10 OS = 30.10 NS** (data fixa; Santo Sínodo, 23–24.09.2021) | [41] |
 
 Notas:
-1. ⚠ O texto do Typikon não esclarece se 11.10 conta (domingo 11–17 vs. 12–18.10). Andreev descreve a prática grega como "domingo que cai em ou depois de 11 de outubro" [19]. **PARA CONFIRMAR** na edição de 2002 do Typikon / Богослужебные указания.
-2. ⚠ Caso 26.10 OS seja sábado: as fontes consultadas não dizem se o sábado parental é esse dia ou o anterior. **PARA CONFIRMAR.**
-3. ⚠ Conflito: a página "Родительские субботы" da azbyka.ru indica "1.º domingo depois de 25 de janeiro" [22], que corresponde à regra de 1992; a decisão de 2013 (regra do domingo mais próximo) está citada na mesma azbyka.ru [24]. Usar a regra de 2013.
-4. ⚠ O Typikon só menciona explicitamente quarta e quinta; a extensão "seg–qua → anterior, qui–sáb → seguinte" (domingo 13–19.07) é inferência. **PARA CONFIRMAR.**
+1. ✔ Confirmado (2.ª ronda): o mesmo «зри» do Typikon (11.10) acrescenta: «И аще случится 11 день настоящий в неделю, поется в тойже день служба святых отец седьмаго собора» [10] — logo, o domingo vai de **11 a 17.10 OS**.
+2. ✔ Confirmado (2.ª ronda): quando 26.10 OS cai em sábado, o sábado parental é o **anterior** (19.10 OS). Verificado nos anos em que 08.11 NS foi sábado: 2014 → 01.11.2014 NS e 2025 → 01.11.2025 NS, no calendário da azbyka.ru [44]; outros anos: 02.11.2019, 07.11.2026 [44]; a lista oficial de 2026 dá «25 октября (ст.ст.) — Димитриевская родительская суббота» [41]. A pravenc define-a como «суббота перед днем памяти» [48]. Regra: `max{sábado} < 26.10 OS`.
+3. ✔ Confirmado (2.ª ronda): o texto oficial das Постановления do Concílio dos Bispos de 2013, ponto 30, diz: «25 января (по старому стилю), в случае совпадения этого числа с воскресным днем; в предшествующий этой дате воскресный день, если 25 января… приходится на дни от понедельника до среды; в последующий этой дате воскресный день, если… от четверга до субботы» [43]; o calendário oficial repete-o em nota e a lista oficial dos Concílios de santos dá «воскресенье, 25 января или ближайшее к 25 января» [41][42]. A página da azbyka com "1.º domingo depois de 25.01" [22] está desatualizada (regra de 1992).
+4. ✔ Confirmado (2.ª ronda): o Typikon só explicita quarta (→ domingo anterior) e quinta (→ seguinte) [10]; a regra completa do «domingo mais próximo» (13–19.07 OS) confirma-se empiricamente na azbyka.ru: 16.07 OS em sexta (2022) → 31.07.2022 NS; em sábado (2023) → 30.07.2023; em segunda (2024) → 28.07.2024; em terça (2025) → 27.07.2025 [44]; e no calendário oficial de 2026 (16.07 OS em quarta → «13 июля по старому стилю… Память святых отцов шести Вселенских Соборов») [41].
 
 ---
 
@@ -213,7 +215,7 @@ Datas NS válidas para 01.03.1900–28.02.2100 (OS + 13). Durações de pré-fes
 | Apresentação da Mãe de Deus no Templo | Введение во храм Пресвятой Богородицы | 21.11 | 04.12 | 6 | 1 | 4 | 25.11 / 08.12 |
 | Natividade de Cristo | Рождество Христово | 25.12 | 07.01 | 12 | 5 (20–24.12) | 6 | 31.12 / 13.01 |
 | Teofania / Batismo do Senhor | Крещение Господне. Богоявление | 06.01 | 19.01 | 13 | 4 (02–05.01) | 8 | 14.01 / 27.01 |
-| Apresentação do Senhor (Encontro) | Сретение Господне | 02.02 | 15.02 | 2–9 | 1 | 0–7 (depende do Triódio) | 03–09.02 / 16–22.02 ⚠ nota 1 |
+| Apresentação do Senhor (Encontro) | Сретение Господне | 02.02 | 15.02 | 2–9 | 1 | 0–7 (depende do Triódio) | 03–09.02 / 16–22.02 ✔ nota 1 |
 | Anunciação | Благовещение Пресвятой Богородицы | 25.03 | 07.04 | 3 | 1 | 1 | 26.03 / 08.04 (regras especiais, nota 2) |
 | Entrada em Jerusalém (Ramos) | Вход Господень в Иерусалим | P−7 | — | 1 | — | — | sem despedida [14][17] |
 | Ascensão | Вознесение Господне | P+39 | — | 10 | 1 | 8 | P+47 (sexta da 7.ª semana) |
@@ -222,7 +224,7 @@ Datas NS válidas para 01.03.1900–28.02.2100 (OS + 13). Durações de pré-fes
 | Dormição da Mãe de Deus | Успение Пресвятой Богородицы | 15.08 | 28.08 | 10 | 1 | 8 | 23.08 / 05.09 |
 
 Notas:
-1. **Apresentação do Senhor (Сретение)** — não há despedida no sábado e domingo "de carne", nem na quarta e sexta da semana do queijo. Se a festa cair: no domingo do Pródigo, ou segunda/terça da semana "de carne" → despedida na sexta dessa semana; quarta–sábado da semana "de carne" → terça da semana do queijo; domingo "de carne" ou segunda da semana do queijo → quinta do queijo; terça ou quarta do queijo → sábado do queijo; quinta–sábado do queijo → domingo do Perdão; no próprio domingo do Perdão → um só dia, sem pós-festa [14]. ⚠ A tabela da azbyka indica a despedida NS "de 16 a 23 de fevereiro", o que não bate com 02–09.02 OS (= 15–22.02 NS); **PARA CONFIRMAR** (provável gralha da fonte; o cálculo OS+13 dá 15–22.02).
+1. **Apresentação do Senhor (Сретение)** — não há despedida no sábado e domingo "de carne", nem na quarta e sexta da semana do queijo. Se a festa cair: no domingo do Pródigo, ou segunda/terça da semana "de carne" → despedida na sexta dessa semana; quarta–sábado da semana "de carne" → terça da semana do queijo; domingo "de carne" ou segunda da semana do queijo → quinta do queijo; terça ou quarta do queijo → sábado do queijo; quinta–sábado do queijo → domingo do Perdão; no próprio domingo do Perdão → um só dia, sem pós-festa [14]. ✔ Confirmado (2.ª ronda): a despedida ordinária é a **09.02 OS** — Typikon, 09.02: «В сий день отдается праздник Сретения Господня. Аще же не случится в сий день отдание праздника…» [10]; com pós-festa de 1–7 dias a despedida cai em 03–09.02 OS = **16–22.02 NS** (1900–2099). O "16 a 23" da azbyka [14] contradiz a própria coluna "0–7 dias" da tabela: é gralha.
 2. **Anunciação** — se cair no Sábado de Lázaro, não há pós-festa; se cair no Domingo de Ramos, Semana Santa ou Semana Luminosa, não há pré- nem pós-festa, só o dia da festa [14]. Na prática, a despedida de 26.03 só se celebra efetivamente quando coincide com sábados/domingos da 3.ª–5.ª semana da Quaresma [17].
 3. A Ascensão tem "pré-festa" de 1 dia [14]; o dia anterior à Ascensão (P+38) é também a despedida da Páscoa [27] (a identificação da pré-festa com P+38 é inferência a partir de [14] e [27]).
 4. Total de dias de despedida no Typikon: 13 por ano (11 festas das Doze, exceto Ramos, + Meio-Pentecostes) [17].
@@ -239,7 +241,7 @@ O Typikon (cap. 47) define como grandes, com o sinal de cruz em círculo, as fes
 | Degolação de S. João Batista (dia de jejum) | Усекновение главы Иоанна Предтечи | 29.08 | 11.09 | 30.08 ainda tem estiqueras do Precursor | [10] |
 | Proteção (Pokrov) da Mãe de Deus | Покров Пресвятой Богородицы | 01.10 | 14.10 | sem pré/pós-festa | [10] |
 
-⚠ **PARA CONFIRMAR:** (a) a azbyka.ru diz que, além das Doze, há seis grandes festas, "cinco designadas como grandes no Typikon e uma que se tornou grande em tempos recentes", mas lista apenas cinco e não identifica a sexta [13]; (b) o calendário da azbyka.ru não apresenta 23.06, 25.06, 28.06 nem 30.08 com o título "pré-festa/pós-festa" [26] — tratar estes dias como dias comuns com elementos da festa, não como pré/pós-festa formais.
+✔ Confirmado (2.ª ronda): (a) o manual de liturgia de A. S. Kashkin (Seminário de Saratov, 2010) dá «Великих праздников всего 17»: as Doze + cinco «великих недвунадесятых (Покров…, Обрезание Господне, Рождество Иоанна Предтечи, …Петра и Павла, Усекновение главы Иоанна Предтечи)», todas com 🕀 [45]. A "sexta" grande festa referida pela azbyka [13] não é identificada por nenhuma fonte encontrada; o modelo usa as **cinco**. (b) O calendário **oficial** de 2026 também não dá título de pré-festa/pós-festa a 23.06, 25.06, 28.06, 30.06 nem 30.08 OS (dá-o, por exemplo, a 03.02: «Попразднство Сретения Господня») [41] — tratar estes dias como dias comuns com elementos da festa.
 
 ### 4.3 Outros pontos fixos úteis
 
@@ -268,13 +270,13 @@ Notas de implementação:
   - **Ponomar** (`SERVICE Type`): 8 = festa do Senhor; 7 = festa da Mãe de Deus; 6 = "grande santo" (Pedro e Paulo, João Teólogo…); 5 = vigília; 4 = polieleo; 3 = doxologia; 2 = de seis estiqueras; 1 = simples; 0 = sem serviço; −1 = "Aleluia ou tropário possível"; −2 = memória dupla separável. O autor admite que a distinção 6/5 não é clara [28].
   - **orthocal.info**: campo `feast_level` com descrição (ex.: `2` = "Black squigg (6-stich typikon symbol)") [31].
   - **holytrinityorthodox.com**: 6 = vigília de grande festa; 5 = vigília; 4 = polieleo; 3 = doxologia; 2 = seis estiqueras; 0/1 = sem sinal [37].
-  - **azbyka.ru**: o HTML do widget usa classes `ideograph-N`. ⚠ A tabela de correspondência N → sinal não foi encontrada publicada. **PARA CONFIRMAR** (provavelmente na documentação da API v2, que exige registo [33]).
+  - **azbyka.ru**: o HTML do widget usa classes `ideograph-N`; a tabela de correspondência N → sinal não foi encontrada publicada [33]. — irrelevante: decisão 8 (sem dependência de dados da azbyka; o rank é curado pelo projeto, ver §11).
 
 ### 5.2 Como se combinam as memórias (regras gerais documentadas)
 
 - **Festa do Senhor em domingo** → o ofício dominical (ressurreição) **não** se canta: "ничтоже поется воскресно" (Exaltação, 14.09), "воскресно ничтоже поем" (Natal e Teofania), "ничтоже воскресно поется, ниже Евангелие утреннее чтется" (Transfiguração) [10].
 - **Natividade do Precursor, Degolação, Pedro e Paulo em domingo** → o ofício dominical é cantado e **precede** o da festa ("предваряют вся воскресная" / "предваряет вся служба воскресна") [10].
-- ⚠ **Festas da Mãe de Deus (das Doze) em domingo:** as passagens localizadas no Typikon (cap. 48) tratam apenas casos de pré/pós-festa ou despedida em domingo (combinados com o ofício dominical) [10]; a regra para o próprio dia não foi extraída nesta pesquisa. **PARA CONFIRMAR.**
+- **Festas da Mãe de Deus (das Doze) em domingo:** o ofício dominical (Octoeco) **combina-se** com o da festa — Typikon, capítulo de Marcos a 08.09: «[МРК] Аще ли случится Рождество Богородицы в неделю…» (estiqueras dominicais + da festa, tropário dominical + da festa) [10]; Kashkin: «песнопения Октоиха соединяются с песнопениями праздника. Устав такой службы находится в Марковых главах всех Богородичных праздников»; nas Matinas lê-se o **Evangelho da festa** (não o matinal dominical, mas canta-se o exapostilário "evangélico" do domingo); na Liturgia, «Апостол и Евангелие – рядовые и праздника» [45]. ✔ Confirmado (2.ª ronda). Implementação: festa da Mãe de Deus em domingo **não** suprime as leituras dominicais ordinárias da Liturgia (ao contrário das festas do Senhor).
 - **Capítulos de Marcos** (Марковы главы, marcados [МРК] no Typikon): regras casuísticas para coincidências entre o ciclo fixo e o móvel ou o dominical (ex.: pré-festa do Encontro nos domingos do Triódio; pré-festa da Anunciação em diferentes dias da Quaresma) [10]. Devem ser modelados como **tabela de exceções**, não como regra geral.
 - **Octoeco + Menaion em dias de semana:** a quantidade de estiqueras/cânones do Octoeco vs. Menaion depende do rank do santo (ver a tabela de referência para regentes em [13]).
 - **Sábados de defuntos:** qualquer sábado é dedicado à oração pelos defuntos, exceto quando nele cai festa de polieleo, vigília ou grande festa [22].
@@ -298,7 +300,7 @@ tone = w mod 8;  if tone == 0: tone = 8
 
   Verificações: P+7 → tom 1; P+14 (Miróforas) → 2; P+56 (Todos os Santos) → 8 [12]; 18.10.2026 NS (domingo 20 depois do Pentecostes) → tom 3, coincide com os tropários "глас 3" da azbyka.ru [25] e com orthocal.info [31].
 - **Semana Luminosa:** não segue o ciclo; nas Matinas cantam-se estiqueras dominicais de um tom diferente por dia: segunda — tom 2, terça — 3, quarta — 4, quinta — 5, sexta — 6; nas Vésperas de sexta, tom 8 (o tom 7 é saltado) [12].
-- **Fim do ciclo:** a azbyka.ru diz que o ciclo se repete "até à Grande Quaresma seguinte" [20]; o Ponomar atribui tom aos domingos da Quaresma até ao 5.º domingo (P−14) com a mesma fórmula, e o Domingo de Ramos sem tom (`Tone="-1"`) [27]. ⚠ **PARA CONFIRMAR** a formulação (nos dias de semana da Quaresma o Octoeco não é usado da mesma forma; nos domingos sim, segundo os dados do Ponomar).
+- **Fim do ciclo:** a azbyka.ru diz que o ciclo se repete "até à Grande Quaresma seguinte" [20]; o Ponomar atribui tom aos domingos da Quaresma até ao 5.º domingo (P−14) com a mesma fórmula, e o Domingo de Ramos sem tom (`Tone="-1"`) [27]. ✔ Confirmado (2.ª ronda): o calendário oficial indica para a Quaresma «В седмичные дни Великого поста служба совершается по Минее и Триоди, без Октоиха, кроме Троичнов, седальнов и светильнов рядового гласа» [41]; o Typikon (cap. 49) usa nos dias de semana da Quaresma o «Аллилуиа… во глас прилучившийся октоиха», as estiqueras martíricas do tom e o ofício dominical do Octoeco aos domingos [11]. Logo, o **tom da semana continua a contar-se em toda a Quaresma** (a fórmula aplica-se até P−14 e à semana seguinte); só a quantidade de textos do Octoeco usados em dias de semana é reduzida. Domingo de Ramos: sem tom [27].
 
 ### 6.2 Os 11 Evangelhos matinais dominicais (евангелия утренние воскресные, *evangeliia utrennie voskresnye*; gr. ἑωθινά)
 
@@ -392,7 +394,7 @@ Resultado para todo o ciclo de 532 anos **(cálculo próprio, script em JDN)**, 
 **Exemplo verificado (2026, s = +1):** domingo 18.10.2026 NS = Неделя 20: Apóstolo **do domingo 20** (Gl 1,11-19, zach. 200) e Evangelho **do domingo 19** (Lc 6,31-36, zach. 26); Evangelho matinal n.º 9 — em azbyka.ru [25] e orthocal.info [31]. Sexta 16.10.2026 (semana 20): Fl 3,8-19 (Apóstolo da 20.ª semana) + Lc 6,17-23 (Evangelho da 19.ª semana) — em holytrinityorthodox.com e orthocal.info [36][31].
 
 **Detalhes (Andreev [19]):**
-- *Dias de semana com s > 0:* o Сказание I só diz "volta atrás e lê cinco dias de onde quiseres". Os calendários e as Богослужебные указания da MP indicam normalmente repetir a **11.ª semana** (última de Mateus), mais raramente a **17.ª**; Andreev propõe, em alternativa, ler antes as leituras da 31.ª (e 30.ª) semana [19]. ⚠ **Escolha de prática a parametrizar** (default sugerido: 11.ª e, se s = 2, também a 10.ª, conforme admitido por Andreev como compatível com o Сказание I [19]).
+- *Dias de semana com s > 0:* o Сказание I só diz "volta atrás e lê cinco dias de onde quiseres". Os calendários e as Богослужебные указания da MP indicam normalmente repetir a **11.ª semana** (última de Mateus), mais raramente a **17.ª**; Andreev propõe, em alternativa, ler antes as leituras da 31.ª (e 30.ª) semana [19]. ✔ Confirmado (2.ª ronda) para s = +1: o calendário **oficial** de 2026 indica na segunda 15/28.09: «Седмица 18-я по Пятидесятнице (ев. чтения 11-й, Матфеевой, седмицы по причине Воздвиженской отступки)» (Mt zach. 94, 95…), e na segunda 22.09/05.10: «С этого дня, согласно Церковному Уставу (Типикон, глава 10), начинается чтение евангельских зачал 18-й, Лукиной, седмицы. Счет Недель и седмиц остается прежним» [41]. Default = **11.ª semana**. ⚠ Para s = +2 (Páscoa a 22–23.03 OS) não foi encontrado exemplo oficial; manter parâmetro (sugestão: 10.ª + 11.ª, admitida por Andreev [19]).
 - *Sábados/domingos com s > 0:* os 1–2 sábados/domingos que ficam sem Mateus coincidem sempre com o sábado/domingo antes/depois da Exaltação, que têm leituras próprias; as leituras do 18.º sábado/domingo começam depois do Domingo depois da Exaltação [19].
 - *Sábados/domingos com s < 0:* as últimas leituras de Mateus (15.º, 16.º, 17.º sábado/domingo) são omitidas "на ряду" e podem ser usadas em janeiro (§7.4) [19].
 - *Leituras de Marcos omitidas em setembro (s < 0):* prática alternativa (não prevista no Typikon) proposta por Andreev — reinserir as leituras de Marcos das semanas 15–16 antes da 30.ª semana; as da 17.ª não precisam, porque serão lidas como 32.ª semana [19].
@@ -400,7 +402,7 @@ Resultado para todo o ciclo de 532 anos **(cálculo próprio, script em JDN)**, 
 **História e variantes de prática (norma vs. prática):**
 - O Concílio Local de 1917–1918 recomendou a отступка da Exaltação; foi indicada nas Богослужебные указания de 1957, suspensa pelo Patriarca Aleixo I após mal-entendidos em 1958, e reintroduzida nos calendários da MP em 1963 pelo metropolita Nikodim (Rotov); desde então está nos calendários e Богослужебные указания da MP, mas nunca foram publicadas tabelas oficiais completas [19].
 - O manual clássico do arcipreste K. Nikolsky afirmava que Mateus podia continuar depois da Exaltação, contra o Typikon [19].
-- O Ponomar oferece duas opções de seleção do Evangelho: "Lucan Jump" e "Jordanville" (`TheophanyJump`, só com отступка de inverno) [40]. ⚠ **PARA CONFIRMAR** que comunidades usam a opção "Jordanville" hoje; para a ROC/MP usar "Lucan Jump".
+- O Ponomar oferece duas opções de seleção do Evangelho: "Lucan Jump" e "Jordanville" (`TheophanyJump`, só com отступка de inverno) [40]. ⚠ **PARA CONFIRMAR** (não verificado na 2.ª ronda: pesquisa em inglês sobre a prática ROCOR/Jordanville sem resultado conclusivo) que comunidades usam a opção "Jordanville" hoje. Sem impacto para o projeto (decisão 2): a ROC/MP usa a отступка da Exaltação, confirmada no calendário oficial de 2026 [41].
 - As tabelas gregas de Glyzonius (séc. XVI) têm transposições não adotadas na Rússia (ex.: Evangelho do 21.º domingo no Domingo dos Padres do VII Concílio; 22.º domingo entre 30.10 e 05.11), exceto a leitura de Lc zach. 76 no Domingo dos Antepassados [19].
 
 ### 7.4 Regras de sábados/domingos especiais (ciclo fixo)
@@ -449,7 +451,8 @@ Resultado para todo o ciclo de 532 anos **(cálculo próprio, script em JDN)**, 
 | **Andreev (2018)** | tabelas completas de leituras (Apóstolo/Evangelho) para todo o ciclo de 532 anos | PDF académico (Вестник ЕДС, DOI 10.24411/2224-5391-2018-10403) [19] | artigo protegido por direitos de autor; usar como especificação/testes | ru (resumo en) | ROC/MP |
 
 Observações:
-- **Богослужебные указания** (Instruções litúrgicas anuais da Editora do Patriarcado de Moscovo) são a referência normativa anual (inclui a отступка desde 1963) [19], mas não foram encontradas como dados abertos. ⚠
+- **Богослужебные указания** (Instruções litúrgicas anuais da Editora do Patriarcado de Moscovo) são a referência normativa anual (inclui a отступка desde 1963) [19], mas não foram encontradas como dados abertos. (2.ª ronda) A mesma Editora publica em linha o **Православный церковный календарь** oficial (calendar.rop.ru): месяцеслов diário com semana, tom, Evangelho matinal, leituras e notas de ordo, publicado só com um mês de antecedência; os dados completos estão no «Патриарший календарь» impresso [41][47]. É a melhor referência de verificação (ver §11).
+- ⚠ Colunas "Licença / termos" desta tabela (azbyka, holytrinity, pravoslavie, textos de terceiros no Ponomar) — irrelevante: decisão 8 (cálculo próprio + base de santos curada; nenhuma destas fontes é dependência).
 - O Ponomar publica no sítio uma declaração editorial que condena a agressão contra a Ucrânia e critica a liderança do Patriarcado de Moscovo [29]. Facto relevante para decisões de produto (atribuição/branding), não para a qualidade técnica dos dados.
 - Para a prática MP, a fonte aberta mais completa e com licença clara é o **Ponomar** (GPLv3, com cautela nos textos de terceiros); para validação cruzada diária, **azbyka.ru** (MP, russo) e **holytrinityorthodox.com** (MP, inglês). O **orthocal.info** é útil para inglês e testes, mas segue a OCA/ROCOR (pode divergir em santos locais russos e em detalhes de prática).
 
@@ -457,21 +460,23 @@ Observações:
 
 ## 9. Lista consolidada de dúvidas (⚠ PARA CONFIRMAR)
 
-1. Documento oficial recente da ROC que fundamente a manutenção do calendário juliano (só fontes de 1923–24, 1948 e académicas) — §1.2.
-2. Leitura canónica da "regra da Páscoa judaica" (Zonaras/Balsamon vs. Khulap) — sem impacto no cálculo, que é puramente alexandrino — §2.4.
-3. Domingo dos Padres do VII Concílio: 11–17 ou 12–18.10 OS — §3.2.
-4. Sábado de S. Demétrio quando 26.10 OS cai em sábado — §3.2.
-5. Novos Mártires: regra de 2013 (domingo mais próximo) vs. "1.º domingo depois de 25.01" ainda indicado numa página da azbyka — §3.2.
-6. Padres dos seis Concílios: regra para seg/ter e sex/sáb não explícita — §3.2.
-7. Despedida do Encontro: intervalo NS "16–23.02" da azbyka vs. 15–22.02 calculado — §4.1.
-8. Sexta "grande festa" não identificada pela azbyka; estatuto de 25.06/30.06/30.08 como pós-festa — §4.2.
-9. Festas da Mãe de Deus (Doze) em domingo: combinação com o ofício dominical — §5.2.
-10. Mapeamento das classes `ideograph-N` da azbyka para sinais do Typikon — §5.1.
-11. Uso do Octoeco na Quaresma (formulação da azbyka vs. dados do Ponomar) — §6.1.
-12. Semana a repetir na отступка de setembro (11.ª vs. 17.ª vs. 30./31.ª) — escolha de prática — §7.3.
-13. Comunidades que usam a opção "Jordanville" (sem отступка da Exaltação) — §7.3.
-14. Seleção de Apóstolos no inverno: princípio de Andreev, não texto do Typikon — §7.5.
-15. Termos de utilização (licença) de azbyka.ru, holytrinityorthodox.com e pravoslavie.ru; direitos de textos de terceiros incluídos no Ponomar — §8.
+Estado após a 2.ª ronda (2026-10-16):
+
+1. ✔ Calendário juliano — posição oficial atual confirmada (calendário oficial + declarações no patriarchia.ru); sem decisão conciliar recente específica — §1.2.
+2. ✔ "Regra da Páscoa judaica" — o calendário oficial define a regra sem essa condição; debate canónico sem efeito no cálculo — §2.4.
+3. ✔ Domingo dos Padres do VII Concílio: 11–17.10 OS — §3.2.
+4. ✔ Sábado de S. Demétrio: sábado 19–25.10 OS — §3.2.
+5. ✔ Novos Mártires: regra de 2013 (texto oficial), domingo 22–28.01 OS — §3.2.
+6. ✔ Padres dos seis Concílios: domingo mais próximo de 16.07 (13–19.07 OS) — §3.2.
+7. ✔ Despedida do Encontro: 03–09.02 OS = 16–22.02 NS; "16–23" da azbyka é gralha — §4.1.
+8. ✔ Grandes festas não pertencentes às Doze = 5; 23/25/28/30.06 e 30.08 sem estatuto formal de pré/pós-festa — §4.2.
+9. ✔ Festas da Mãe de Deus (Doze) em domingo: combinação com o ofício dominical (capítulos de Marcos) — §5.2.
+10. — irrelevante: decisão 8 — classes `ideograph-N` da azbyka — §5.1.
+11. ✔ Octoeco na Quaresma: o tom continua a contar-se; dias de semana usam só tríadicos, sedais e exapostilários do tom — §6.1.
+12. ✔ (s = +1) Semana a repetir na отступка de setembro = 11.ª (calendário oficial 2026); ⚠ s = +2 sem exemplo oficial — §7.3.
+13. ⚠ Comunidades que usam a opção "Jordanville" — não verificado; sem impacto (decisão 2) — §7.3.
+14. ⚠ Seleção de Apóstolos no inverno: princípio de Andreev, não texto do Typikon (não verificado na 2.ª ronda) — §7.5.
+15. — irrelevante: decisão 8 — licenças/termos de azbyka.ru, holytrinityorthodox.com, pravoslavie.ru e textos de terceiros no Ponomar — §8.
 
 ---
 
