@@ -6,10 +6,24 @@ const CACHE = 'orthodox-helper-__HASH__';
 const FICHEIROS = ['./', './index.html', './app.js'];
 self.addEventListener('install', e => e.waitUntil(caches.open(CACHE)
   .then(c => c.addAll(FICHEIROS.map(f => new Request(f, { cache: 'reload' })))).then(() => self.skipWaiting())));
-self.addEventListener('activate', e => e.waitUntil(caches.keys().then(chaves => {
-  const antigas = chaves.filter(k => k.startsWith('orthodox-helper-') && k !== CACHE);
-  return Promise.all(antigas.slice(0, -1).map(k => caches.delete(k)));
-}).then(() => self.clients.claim())));
+// Os blocos de língua já guardados que a versão nova continua a usar (mesmo nome = mesmo conteúdo, idiomas.json) passam
+// para a cache nova antes de se apagarem as antigas: sem isto, a língua escolhida deixava de estar offline à 2.ª atualização.
+self.addEventListener('activate', e => e.waitUntil((async () => {
+  const atual = await caches.open(CACHE);
+  const antigas = (await caches.keys()).filter(k => k.startsWith('orthodox-helper-') && k !== CACHE);
+  const idiomas = await atual.match('idiomas.json');
+  const usados = new Set(idiomas ? Object.values(await idiomas.json()).flat() : []);
+  for (const k of antigas.reverse()) {                 // da mais recente para a mais antiga
+    const c = await caches.open(k);
+    for (const pedido of await c.keys()) {
+      if (!usados.has(new URL(pedido.url).pathname.split('/').pop()) || await atual.match(pedido)) continue;
+      const r = await c.match(pedido);
+      if (r) await atual.put(pedido, r);
+    }
+  }
+  await Promise.all(antigas.slice(1).map(k => caches.delete(k)));   // fica só a anterior (páginas ainda abertas)
+  await self.clients.claim();
+})()));
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
   if (e.request.method !== 'GET' || url.origin !== location.origin) return;

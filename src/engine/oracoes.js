@@ -9,6 +9,13 @@ export function periodoOracao(d, noite = false) {
   return 'comum';
 }
 
+/** As orações estão a ser lidas «à noite», já no dia litúrgico seguinte (B1)? A partir das 18 h (as Vésperas) para
+ *  qualquer oração; as orações da noite contam como noite desde o meio-dia — mas não depois da meia-noite, quando o dia
+ *  civil já é o seguinte (às 01 h do dia P+38 ainda se está no dia litúrgico P+38, que começou nas Vésperas de P+37). */
+export function eNoite(id, hora) {
+  return hora >= 18 || (id === 'noite' && hora >= 12);
+}
+
 /** Blocos que se leem no período dado (campo «quando»: so / excepto). */
 export function blocosDoPeriodo(blocos, periodo) {
   return blocos.filter(b => !b.quando || (b.quando.so ? b.quando.so.includes(periodo) : !(b.quando.excepto || []).includes(periodo)));

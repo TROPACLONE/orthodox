@@ -25,4 +25,18 @@ for (const f of fs.readdirSync('dist')) if (f.endsWith('.js') && f !== 'sw.js') 
   for (const m of fs.readFileSync(`dist/${f}`, 'utf8').matchAll(/["'](\.\/c-[A-Z0-9]+\.js)["']/g)) refs.push(m[1]);
 }
 for (const r of refs) { const f = './' + r.replace(/^\.\//, ''); assert.ok(lista.includes(f) || porLingua.has(f), `referência fora da cache: ${r}`); }
+// Nenhum texto próprio de uma língua no núcleo (p. ex. um import estático de src/i18n/xx.js ou de uma oração colava a
+// língua ao app.js e o teste acima não o veria): procura-se, nos .js do núcleo, a frase mais longa de cada fonte.
+const nucleoJs = lista.filter(f => f.endsWith('.js') && f !== './sw.js').map(f => fs.readFileSync('dist/' + f.slice(2), 'utf8')).join('\n');
+const frases = o => { const r = []; JSON.stringify(o, (k, v) => { if (typeof v === 'string' && !/["\\\n]/.test(v)) r.push(v); return v; }); return r; };
+const maisLonga = l => l.reduce((a, b) => (b.length > a.length ? b : a), '');
+for (const l of ['pt', 'uk', 'ru', 'en']) {
+  const fontes = { [`i18n/${l}`]: (await import(`../src/i18n/${l}.js`)).default };
+  const dirO = 'src/dados/gerado/oracoes';
+  for (const f of fs.readdirSync(dirO)) if (f.endsWith(`-${l}.json`)) fontes[f] = JSON.parse(fs.readFileSync(`${dirO}/${f}`, 'utf8')).blocos.map(b => b.t);
+  for (const [nome, o] of Object.entries(fontes)) {
+    const x = maisLonga(frases(o));
+    assert.ok(x.length > 20 && !nucleoJs.includes(x), `texto de ${nome} no núcleo: «${x.slice(0, 40)}…»`);
+  }
+}
 console.log(`build: ${lista.length} ficheiros na cache do service worker; ${refs.length} referências verificadas`);

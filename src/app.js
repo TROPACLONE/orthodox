@@ -10,7 +10,7 @@ import { jejum, N } from './engine/jejum.js';
 import { grausDoDia, comemoracoesDoDia, carregarNomes } from './dados/graus.js';
 import { leituras, eothinon } from './engine/leituras.js';
 import { formatarRef } from './engine/referencias.js';
-import { periodoOracao, blocosDoPeriodo } from './engine/oracoes.js';
+import { periodoOracao, blocosDoPeriodo, eNoite } from './engine/oracoes.js';
 import indiceOracoes from './dados/gerado/oracoes/indice.json' with { type: 'json' };
 
 const LINGUAS = ['pt', 'uk', 'ru', 'en'];
@@ -219,7 +219,7 @@ const ORACOES = ['manha', 'noite', 'comunhao_preparacao', 'comunhao_acao_gracas'
 function ecraOracoes() {
   const T = st.t, s = h('section', { class: 'screen' }), ul = h('ul', { class: 'menu' });
   for (const id of ORACOES) {
-    const ok = !!indiceOracoes[id];
+    const ok = indiceOracoes.includes(id);
     ul.append(h('li', {}, h('button', { class: 'item', type: 'button', 'data-acao': 'oracao', 'data-id': id, disabled: !ok },
       h('span', { text: T.oracoes[id] }), ok ? icone('i-seguinte', 18, 18) : h('small', { text: T.ui.emPreparacao }))));
   }
@@ -233,11 +233,13 @@ async function abrirOracao(id) {
   if (pedido !== pedidoOracao || lingua !== st.lingua) return;   // entretanto abriu-se outra oração ou mudou a língua
   st.oracao = { id, dados: dados.default, conv };
   render(); $('main').scrollTop = 0;
+  // O botão tocado desapareceu: o foco passa ao título da oração (leitores de ecrã anunciam o novo ecrã).
+  if (!st.definicoes) $('main').querySelector('h1').focus({ preventScroll: true });
 }
 function ecraOracao() {
   const T = st.t, { id, dados, conv } = st.oracao, s = h('section', { class: 'screen oracao' });
-  const d = dia(jdnHoje()), periodo = periodoOracao(d, id === 'noite' || new Date().getHours() >= 18);
-  s.append(h('h1', { class: 'data-civil', text: dados.titulo }), h('span', { class: 'estado', text: T.estado[dados.estado] || dados.estado }));
+  const d = dia(jdnHoje()), periodo = periodoOracao(d, eNoite(id, new Date().getHours()));
+  s.append(h('h1', { class: 'data-civil', tabindex: '-1', text: dados.titulo }), h('span', { class: 'estado', text: T.estado[dados.estado] || dados.estado }));
   if (periodo !== 'comum') s.append(h('div', { class: 'nota', text: T.periodo[periodo] }));
   const eslavo = st.eslavo ? (st.lingua === 'uk' ? conv.izvod : conv.civil) : null;
   for (const b of blocosDoPeriodo(dados.blocos, periodo)) {
@@ -245,7 +247,8 @@ function ecraOracao() {
     if (b.tipo === 'rubrica') { s.append(h('p', { class: 'rubrica', text: b.t + rep })); continue; }
     if (b.tipo === 'titulo') { s.append(h('h2', { class: 'titulo-oracao', text: b.t })); continue; }
     const par = h('div', { class: 'par' });
-    if (eslavo && b.cu) par.append(h('p', { class: 'slav', lang: st.lingua === 'uk' ? 'uk' : 'cu', text: eslavo(b.cu) + rep }));
+    // «(3 vezes)» está na língua da interface, não em eslavo
+    if (eslavo && b.cu) par.append(h('p', { class: 'slav', lang: st.lingua === 'uk' ? 'uk' : 'cu' }, eslavo(b.cu), rep && h('span', { lang: T.lang, text: rep })));
     par.append(h('p', { class: 'trad', text: b.t + (eslavo && b.cu ? '' : rep) }));
     s.append(par);
   }
@@ -323,14 +326,18 @@ const guardadas = new Set();
 function guardarLingua(l) {
   if (guardadas.has(l) || !('serviceWorker' in navigator) || !navigator.serviceWorker.controller) return;
   guardadas.add(l);
-  const pedir = () => fetch('idiomas.json').then(r => r.json())
-    .then(m => Promise.all((m[l] || []).map(f => fetch(f).then(r => r.blob()))))
+  const ok = r => { if (!r.ok) throw new Error(r.status); return r; };
+  const pedir = () => fetch('idiomas.json').then(r => ok(r).json())
+    .then(m => Promise.all((m[l] || []).map(f => fetch(f).then(r => ok(r).blob()))))
     .catch(() => guardadas.delete(l));
   'requestIdleCallback' in window ? requestIdleCallback(pedir, { timeout: 5000 }) : setTimeout(pedir, 2000);
 }
 
-// Arranque: sem o bloco da língua guardada (p. ex. sem rede antes de o service worker ter guardado tudo), usa-se o português.
-try { await mudarLingua(st.lingua); } catch (e) { if (st.lingua === 'pt') throw e; await mudarLingua('pt'); }
+// Arranque: sem o bloco da língua guardada (p. ex. sem rede antes de o service worker ter guardado tudo), usa-se o português
+// e, se também faltar (só a língua escolhida fica garantida offline), a primeira língua que estiver guardada.
+for (const [i, l] of [...new Set([st.lingua, 'pt', ...LINGUAS])].entries()) {
+  try { await mudarLingua(l); break; } catch (e) { if (i === LINGUAS.length - 1) throw e; }
+}
 render();
 
 // ── Eventos (um ouvinte por região)
@@ -372,10 +379,24 @@ $('tabs').addEventListener('click', e => {
   st.vista = b.dataset.vista; st.definicoes = false; st.outraCamada = false; st.oracao = null; pedidoOracao++;
   render(); $('main').scrollTop = 0;
 });
-$('btn-dir').addEventListener('click', () => { st.definicoes = true; render(); $('main').scrollTop = 0; });
+// Definições abertas a meio de uma oração longa: ao voltar ao mesmo ecrã, retoma-se a posição de leitura.
+let antesDefinicoes = null;
+$('btn-dir').addEventListener('click', () => {
+  antesDefinicoes = { vista: st.vista, oracao: st.oracao, y: $('main').scrollTop };
+  st.definicoes = true; render(); $('main').scrollTop = 0;
+});
 $('btn-esq').addEventListener('click', () => {
-  if (st.definicoes) st.definicoes = false; else if (st.oracao) { st.oracao = null; pedidoOracao++; } else return;
-  render();
+  // O «Voltar» fica desativado no ecrã de destino: o foco do teclado passa ao elemento equivalente (e não ao <body>).
+  let alvo, y = 0;
+  if (st.definicoes) {
+    st.definicoes = false; alvo = 'btn-dir';
+    const a = antesDefinicoes;
+    if (a && a.vista === st.vista && a.oracao === st.oracao) y = a.y;
+  } else if (st.oracao) { alvo = st.oracao.id; st.oracao = null; pedidoOracao++; }
+  else return;
+  render(); $('main').scrollTo({ top: y, behavior: 'instant' });   // sem a animação de scroll-behavior: smooth
+  const el = alvo === 'btn-dir' ? $('btn-dir') : $('main').querySelector(`[data-acao="oracao"][data-id="${alvo}"]`);
+  (el || $('main')).focus({ preventScroll: true });
 });
 // Mudança de dia com a app aberta: se o ecrã mostrava «hoje», passa para o novo dia.
 let ultimoHoje = jdnHoje();
@@ -385,7 +406,8 @@ document.addEventListener('visibilitychange', () => {
   if (agora !== ultimoHoje) { if (st.jdn === ultimoHoje) st.jdn = agora; ultimoHoje = agora; render(); }
 });
 
-if ('serviceWorker' in navigator && location.protocol === 'https:') {
+// Contexto seguro: https ou http://localhost (permite testar o funcionamento offline localmente).
+if ('serviceWorker' in navigator && window.isSecureContext) {
   navigator.serviceWorker.register('sw.js').catch(() => {});
   navigator.serviceWorker.ready.then(() => { if (!navigator.serviceWorker.controller) navigator.serviceWorker.addEventListener('controllerchange', () => guardarLingua(st.lingua), { once: true }); else guardarLingua(st.lingua); });
 }
