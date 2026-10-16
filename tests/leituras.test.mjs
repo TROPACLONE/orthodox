@@ -1,0 +1,20 @@
+// Leituras: casos verificados no doc. 01 §7.3 (calendário oficial 2026, azbyka.ru, orthocal.info) e FONTES-semanas.md.
+import assert from 'node:assert/strict';
+import { jdnGregoriano as G } from '../src/engine/datas.js';
+import { dia } from '../src/engine/calendario.js';
+import { leituras } from '../src/engine/leituras.js';
+let n = 0;
+const L = (y, m, d) => leituras(dia(G(y, m, d)));
+const caso = (y, m, d, ap, ev, nome) => { const r = L(y, m, d);
+  assert.equal(r.ap[0]?.r, ap, `${nome} — Apóstolo`); assert.equal(r.ev[0]?.r, ev, `${nome} — Evangelho`); assert.equal(r.incerto, false, nome); n++; return r; };
+caso(2026, 10, 16, 'Phil.3.8-19', 'Luke.6.17-23', '16.10.2026: Apóstolo da semana 20, Evangelho da 19 (s = +1)');
+caso(2026, 10, 18, 'Gal.1.11-19', 'Luke.6.31-36', '18.10.2026: domingo 20, Evangelho do domingo 19');
+const r28 = caso(2026, 9, 28, 'Eph.4.25-32', 'Matt.23.13-22', '28.09.2026: semana 18 com Evangelho da 11.ª (отступка; calendário oficial: Mt zach. 94)');
+assert.equal(r28.ev[0].z, 94);
+assert.equal(L(2026, 10, 5).ev[0].r, 'Luke.3.19-22', '05.10.2026: início de Lucas (18.ª semana), calendário oficial'); n++;
+caso(2026, 4, 12, 'Acts.1.1-8', 'John.1.1-17', 'Páscoa');
+caso(2026, 4, 29, 'Acts.8.18-25', 'John.6.35-39', 'P+17 (FONTES-semanas §3)');
+caso(2026, 6, 16, 'Rom.7.14-8.2', 'Matt.10.9-15', 'semana 3, terça (FONTES-semanas §3)');
+const teof = L(2027, 1, 19); assert.equal(teof.ev[0].r, 'Matt.3.13-17'); n++;
+const zaq = L(2027, 2, 14); assert.equal(zaq.ev[0].r, 'Luke.19.1-10', 'Zaqueu 2027 (Páscoa 02.05.2027 → P−77 = 14.02.2027)');
+console.log(`leituras: ${n + 1} casos OK`);

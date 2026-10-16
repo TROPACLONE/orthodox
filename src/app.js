@@ -8,6 +8,8 @@ import { hoje as jdnHoje, jdnGregoriano, gregoriano } from './engine/datas.js';
 import { dia } from './engine/calendario.js';
 import { jejum, N } from './engine/jejum.js';
 import { grausDoDia, comemoracoesDoDia, carregarNomes } from './dados/graus.js';
+import { leituras, eothinon } from './engine/leituras.js';
+import { formatarRef } from './engine/referencias.js';
 
 const LINGUAS = ['pt', 'uk', 'ru', 'en'];
 const NOMES_LINGUA = { pt: 'Português', uk: 'Українська', ru: 'Русский', en: 'English' };
@@ -137,13 +139,30 @@ function ecraHoje() {
   if (j.jejum) bj.append(h('div', { class: 'nota', text: T.ui.notaJejum }));
   s.append(bj);
 
-  // Leituras (Fase 1: Evangelho matinal; o lecionário completo chega quando os dados estiverem compilados)
-  const bl = h('div', { class: 'bloco' }, h('h2', { text: T.ui.leituras }));
-  if (typeof d.eothinon === 'number') bl.append(h('div', { class: 'read' }, h('span', { text: T.ui.evangelhoMatinal(d.eothinon) })));
-  else if (d.eothinon && d.eothinon.omitido) bl.append(h('div', { class: 'desc', text: T.ui.evangelhoMatinalOmitido }));
-  bl.append(h('div', { class: 'desc', text: T.ui.leiturasEmBreve }));
-  s.append(bl);
+  s.append(blocoLeituras(d));
   return s;
+}
+
+// ── Leituras do dia
+function blocoLeituras(d) {
+  const T = st.t, L = leituras(d), b = h('div', { class: 'bloco' }, h('h2', { text: T.ui.leituras }));
+  let porVerificar = false;
+  const refs = lista => lista.map(x => { if (x.verificado === false) porVerificar = true; return formatarRef(x.r, st.lingua) + (x.verificado === false ? ' *' : ''); }).join('; ');
+  const linha = (rotulo, lista) => { if (lista && lista.length) b.append(h('div', { class: 'read' }, h('span', { text: rotulo }), h('span', { text: refs(lista) }))); };
+  const sub = txt => b.append(h('span', { class: 'camada', text: txt }));
+  linha(T.ui.apostolo, L.ap); linha(T.ui.evangelho, L.ev);
+  if (!L.ap.length && !L.ev.length && !L.incerto) b.append(h('div', { class: 'desc', text: T.ui.semLiturgia }));
+  for (const x of L.vt) linha(T.ui.servico[x.sv] || T.ui.antigoTestamento, [x]);
+  for (const e of L.extra) {
+    if (e.rotulo === 'horas_reais') { sub(T.ui.horasReais);
+      for (const [hora, x] of Object.entries(e.horas)) { const r = [...(x.vt || []), ...(x.ap || []), ...(x.ev || [])]; linha(T.ui.servico[hora] || hora, r); } }
+    else { sub(e.rotulo === 'bencao_aguas' ? T.ui.bencaoAguas : T.ui.festaLeituras); linha(T.ui.antigoTestamento, e.vt); linha(T.ui.apostolo, e.ap); linha(T.ui.evangelho, e.ev); }
+  }
+  if (typeof d.eothinon === 'number') { const e = eothinon(d.eothinon); sub(T.ui.matinas); linha(T.ui.evangelhoMatinal(d.eothinon), e ? [e] : []); if (!e) b.append(h('div', { class: 'desc', text: T.ui.evangelhoMatinal(d.eothinon) })); }
+  else if (d.eothinon && d.eothinon.omitido) b.append(h('div', { class: 'desc', text: T.ui.evangelhoMatinalOmitido }));
+  if (L.incerto) b.append(h('div', { class: 'nota', text: T.ui.leiturasIncertas }));
+  if (porVerificar) b.append(h('div', { class: 'nota', text: T.ui.naoVerificado }));
+  return b;
 }
 
 // ── Calendário mensal (semana a começar ao domingo, decisão 39)

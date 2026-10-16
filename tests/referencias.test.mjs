@@ -1,0 +1,19 @@
+import assert from 'node:assert/strict';
+import fs from 'fs';
+import { formatarRef, livrosConhecidos } from '../src/engine/referencias.js';
+assert.equal(formatarRef('Phil.3.8-19', 'pt'), 'Fl 3, 8–19');
+assert.equal(formatarRef('Phil.3.8-19', 'ru'), 'Флп. 3:8–19');
+assert.equal(formatarRef('Mark.8.34-9.1', 'pt'), 'Mc 8, 34–9, 1');
+assert.equal(formatarRef('Mark.8.34-9.1', 'en'), 'Mark 8:34–9:1');
+assert.equal(formatarRef('Luke.21.5-7,10-11,20-24', 'pt'), 'Lc 21, 5–7.10–11.20–24');
+assert.equal(formatarRef('Luke.21.5-7,10-11,20-24', 'ru'), 'Лк. 21:5–7, 10–11, 20–24');
+assert.equal(formatarRef('1Pet.1.1-2,10-12,2.6-10', 'pt'), '1 Pd 1, 1–2.10–12; 2, 6–10');
+assert.equal(formatarRef('Titus.2.11-14;Titus.3.4-7', 'uk'), 'Тит. 2:11–14; 3:4–7');
+assert.equal(formatarRef('1Kgs.17.8-23', 'pt'), '3 Rn 17, 8–23');
+// Todos os livros dos dados têm abreviatura
+const usados = new Set();
+const andar = o => { if (Array.isArray(o)) o.forEach(andar); else if (o && typeof o === 'object') { if (typeof o.r === 'string') o.r.split(';').forEach(s => usados.add(s.split('.')[0])); else for (const [k, v] of Object.entries(o)) if (!k.startsWith('_')) andar(v); } };
+for (const f of fs.readdirSync('data/lecionario')) if (f.endsWith('.json')) andar(JSON.parse(fs.readFileSync('data/lecionario/' + f, 'utf8')));
+const falta = [...usados].filter(b => !livrosConhecidos().includes(b));
+assert.deepEqual(falta, [], 'livros sem abreviatura');
+console.log(`referências: OK (${usados.size} livros)`);
