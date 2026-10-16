@@ -1,5 +1,7 @@
 # 03 — Orações, regras de oração e textos (fontes e licenças)
 
+> **Decisões aplicadas (2026-10-16):** as marcas «→ DECISÃO DO UTILIZADOR» estão resolvidas: texto bíblico → decisão 17 (tradução própria do grego, cotejada com o eslavo); noite de quarta antes da Ascensão → B1; acatistos → B2; camada eslava → B3 (civil com acentos por defeito); termos → B4 ([pendentes.md](../pendentes.md)).
+
 > Base de conhecimento interna — especificação para programadores.
 > Tradição: Igreja Ortodoxa Russa (Patriarcado de Moscovo, ROC/РПЦ).
 > Língua principal: português europeu (PT-PT). Termos originais entre parênteses (eslavo eclesiástico/russo em cirílico + transliteração; grego quando relevante). Passagens técnicas podem ficar em inglês quando a tradução perderia precisão.

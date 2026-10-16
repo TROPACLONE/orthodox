@@ -1,5 +1,7 @@
 # 04 — Doutrina, culto e terminologia (Igreja Ortodoxa Russa — Patriarcado de Moscovo)
 
+> **Decisões aplicadas (2026-10-16):** Credo → decisão 7 (tradução própria, cotejada com o texto do Vicariato); formas PT-PT de termos técnicos → B4; ortografia → AO 1990 (decisão 21) ([pendentes.md](../pendentes.md)).
+
 > Documento de conhecimento interno para a secção de catequese/doutrina da aplicação.
 > Língua principal: português europeu (PT-PT, grafia do Acordo Ortográfico de 1990, tal como usada nos textos atuais do Vicariato de Portugal).
 > Termos originais entre parênteses: eslavo eclesiástico/russo em cirílico + transliteração; grego quando relevante.

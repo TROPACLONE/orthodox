@@ -1,5 +1,7 @@
 # 02 — Jejuns e disciplina do calendário (Igreja Ortodoxa Russa, Patriarcado de Moscovo)
 
+> **Decisões aplicadas (2026-10-16):** todas as marcas «→ DECISÃO DO UTILIZADOR» deste documento estão resolvidas pelas decisões 6 e 20 (itens A0–A6 de [pendentes.md](../pendentes.md)): camada paroquial com referência azbyka.ru e nota de divergência; camada Typikon com as passagens em conflito citadas; bebidas/produtos industriais sem norma → «consultar o pai espiritual».
+
 > Especificação de conhecimento para o motor diário de «nível de jejum». Referência: calendário juliano tal como praticado na Igreja Ortodoxa Russa (ROC/РПЦ).
 > Língua: português europeu. Os termos originais estão em russo/eslavo eclesiástico (cirílico + transliteração) e, quando relevante, em grego. Podem manter-se citações em inglês quando a tradução perderia precisão.
 > Todas as afirmações factuais remetem para a lista numerada de referências no fim do documento. Os pontos não verificados ou em conflito estão marcados com **⚠ PARA CONFIRMAR:**.
