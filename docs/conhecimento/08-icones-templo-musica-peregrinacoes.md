@@ -100,7 +100,9 @@ Classificação de O. V. Gubareva, *A Mãe de Deus nos seus ícones* (capítulos
 | **Hinográficos** | Ilustram textos litúrgicos | «Louvor da Mãe de Deus», «Sarça ardente» | [17] |
 
 - PT-PT: «Hodigítria» e «Eleoussa» não estão atestados nas fontes ortodoxas portuguesas consultadas nem no Dicionário Priberam (verificado a 16 out. 2026). **✔ Decidido (dec. 20, item B4):** na app usam-se **«Guia (Hodigítria)»** e **«Ternura (Eleoussa)»**, com explicação no glossário.
-- ⚠ PARA CONFIRMAR: tipos *Panachrantos* e *Agiosoritissa* (não cobertos por [17]).
+- **✔ Confirmado (2.ª ronda) — tipos *Panachrantos* e *Agiosoritissa*:**
+  - **Panachrantos** (Πανάχραντος, «Toda-Imaculada», «Puríssima»; russo Панахранта): Mãe de Deus **sentada no trono** com o Menino que abençoa sobre os joelhos; deriva da composição paleocristã da Adoração dos Magos e exprime o mistério da Encarnação (Kondakov chamou-lhe «cipriota»); exemplo russo: ícone das Grutas (Petcherskaia) / Svensk [117] — corresponde ao grupo «No trono» acima;
+  - **Agiosoritissa** (Ἁγιοσορίτισσα): Mãe de Deus **quase de perfil**, voltada em regra para a direita, **sem o Menino**, com as mãos erguidas em súplica — composição próxima da Déesis; o nome vem da capela da Santa Urna (Ἁγία Σορός) da igreja das Calcopratias, em Constantinopla, onde se guardava o cinto da Mãe de Deus (ou, segundo outra hipótese, da capela homónima das Blaquernas) [118].
 
 ### 1.7 Grandes ícones milagrosos russos
 
@@ -465,19 +467,18 @@ Colunas: **[NK]** = *Livro de mesa do clérigo*, t. I, cap. «Cores das vestes l
 **⚠ PARA CONFIRMAR — ainda em aberto após a 2.ª ronda**
 1. Número do capítulo das atas do Concílio de Moscovo de 1666–67 sobre Sabaot; prática posterior (a proibição em si está confirmada) (§1.1).
 2. Definição em fonte de podlinniki «ilustrados» vs «explicativos» (§1.2).
-3. Tipos *Panachrantos* e *Agiosoritissa* (§1.6) — não pesquisado na 2.ª ronda.
-4. Local atual da «lista moscovita» do ícone de Kazan (catedral de Kazan ou de Cristo Salvador) (§1.7).
-5. Etimologia de *красный* («belo») em dicionário etimológico (§1.8).
-6. Obra de I. L. Buseva-Davydova; data de aparecimento da cúpula em bolbo; fonte específica para a planta em cruz inscrita (§2.1).
-7. «Última Ceia» por cima das Portas Reais (§2.3).
-8. Base canónica (além de 1 Cor 11) para a cabeça coberta das mulheres e para homens descobertos (§2.6).
-9. Verificação filológica dos nomes gregos das vestes (§3.1).
-10. Sítios oficiais: Grutas de Pskov (indicado, inacessível), Catedral Naval de Kronstadt, S. Pantaleão do Athos (§5.1, §5.3); relíquias de S. João de Kronstadt «sob o alqueire» (§5.1).
-11. Resultado da sessão de 29 set. 2026 no recurso da Lavra de Kiev; descrição atual da IOU no Estatuto da IOR (§5.2).
-12. Festa da trasladação de S. Nicolau «não celebrada pelos gregos» (§5.3).
-13. Relíquias ou ícones milagrosos em paróquias ortodoxas portuguesas; morada da paróquia do Porto (n.º 123 vs. 97) (§5.4).
+3. Local atual da «lista moscovita» do ícone de Kazan (catedral de Kazan ou de Cristo Salvador) (§1.7).
+4. Etimologia de *красный* («belo») em dicionário etimológico (§1.8).
+5. Obra de I. L. Buseva-Davydova; data de aparecimento da cúpula em bolbo; fonte específica para a planta em cruz inscrita (§2.1).
+6. «Última Ceia» por cima das Portas Reais (§2.3).
+7. Base canónica (além de 1 Cor 11) para a cabeça coberta das mulheres e para homens descobertos (§2.6).
+8. Verificação filológica dos nomes gregos das vestes (§3.1).
+9. Sítios oficiais: Grutas de Pskov (indicado, inacessível), Catedral Naval de Kronstadt, S. Pantaleão do Athos (§5.1, §5.3); relíquias de S. João de Kronstadt «sob o alqueire» (§5.1).
+10. Resultado da sessão de 29 set. 2026 no recurso da Lavra de Kiev; descrição atual da IOU no Estatuto da IOR (§5.2).
+11. Festa da trasladação de S. Nicolau «não celebrada pelos gregos» (§5.3).
+12. Relíquias ou ícones milagrosos em paróquias ortodoxas portuguesas; morada da paróquia do Porto (n.º 123 vs. 97) (§5.4).
 
-**✔ Confirmado (2.ª ronda)** — proibição de Sabaot (1666–67) (§1.1); conversão da memória de Rublev (§1.4); destino do original de Smolensk (desaparecido, destino desconhecido) (§1.7); local da cópia de Ibéria de 1648 (Novodevitchi) (§1.7); motivo da festa de 8/21 mar. do ícone de Kursk (§1.7); tipo do ícone de Pochaiv (§1.7); cor pascal na prática russa atual e dados editoriais do *Livro de mesa do clérigo* (§3.3); chegada do canto partes a Moscovo (§4.5); Escola Sinodal em 1886 (§4.6); datas das festas de S. Sérgio, S. Serafim, SS. Sérgio e Germano de Valaam e orago de Pskov (§5.1); sítios oficiais da Lavra da Trindade, Diveevo e Missão Russa em Jerusalém (§5.1, §5.3); ato de 1169 (Athos) (§5.3); evolução jurídica da IOU e de Pochaiv até 16 out. 2026 (§5.2); regra de data da Sinaxe dos Novos Mártires (§5.4).
+**✔ Confirmado (2.ª ronda)** — tipos *Panachrantos* e *Agiosoritissa* (§1.6); proibição de Sabaot (1666–67) (§1.1); conversão da memória de Rublev (§1.4); destino do original de Smolensk (desaparecido, destino desconhecido) (§1.7); local da cópia de Ibéria de 1648 (Novodevitchi) (§1.7); motivo da festa de 8/21 mar. do ícone de Kursk (§1.7); tipo do ícone de Pochaiv (§1.7); cor pascal na prática russa atual e dados editoriais do *Livro de mesa do clérigo* (§3.3); chegada do canto partes a Moscovo (§4.5); Escola Sinodal em 1886 (§4.6); datas das festas de S. Sérgio, S. Serafim, SS. Sérgio e Germano de Valaam e orago de Pskov (§5.1); sítios oficiais da Lavra da Trindade, Diveevo e Missão Russa em Jerusalém (§5.1, §5.3); ato de 1169 (Athos) (§5.3); evolução jurídica da IOU e de Pochaiv até 16 out. 2026 (§5.2); regra de data da Sinaxe dos Novos Mártires (§5.4).
 
 **✔ Decidido (dec. 20)**
 1. B4 — Formas PT-PT: «Guia (Hodigítria)», «Ternura (Eleoussa)»; vestes e objetos sem forma atestada em dicionário → transliteração explicada no glossário (§1.6, §2.5, §3.1, §6).
@@ -610,3 +611,5 @@ Colunas: **[NK]** = *Livro de mesa do clérigo*, t. I, cap. «Cores das vestes l
 114. LB.ua — prorrogação por 60 dias da injunção do DESS à Lavra de Pochaiv (03.09.2026). https://lb.ua/society/2026/09/03/763404_pochayivskiy_lavri_nadali.html
 115. D. V. Zubov, V. I. Pirogov, P. V. Kuzenkov — «Афонские акты XI–XII вв. по истории русского монашества на Святой Горе», *Метафраст*, 2020, n.º 1 (3), pp. 13–59 (ato de 1169). https://publishing.mpda.ru/index.php/metaphrast/article/download/184/490
 116. *Православная энциклопедия* — «Новомученики» (regra de 2013 para a data da Sinaxe). https://www.pravenc.ru/text/2577845.html
+117. *Православная энциклопедия* — «Печерская икона Божией Матери» (tipo «Панахранта»). https://www.pravenc.ru/text/2580524.html
+118. *Православная энциклопедия* — «Агиосоритисса». https://www.pravenc.ru/text/63308.html
