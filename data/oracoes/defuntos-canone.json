@@ -86,7 +86,7 @@
    "id": "defuntos-canone-02",
    "tipo": "rubrica",
    "cu": "",
-   "pt": "Cânone pelo defunto, do ofício «depois da saída da alma do corpo» do Saltério com Seguimento («Следованная Псалтирь»). Pode ler-se só, como aqui (com o início habitual, o salmo 90 e o fecho do ofício), ou dentro da panikhida. Lê-se sobretudo nos primeiros dias depois da morte e nas comemorações.",
+   "pt": "Cânone pelo defunto, do ofício «depois da saída da alma do corpo» do Saltério com Seguimento («Следованная Псалтирь»). Pode ler-se só, como aqui (com o início habitual, o salmo 90 e o fecho do ofício), ou dentro da Panikhida. Lê-se sobretudo nos primeiros dias depois da morte e nas comemorações.",
    "ru": "Канон за усопшего из «Последования по исходе души от тела» Следованной Псалтири. Его можно читать отдельно, как здесь (с обычным началом, псалмом 90 и окончанием последования), или в составе панихиды. Читается особенно в первые дни после кончины и в дни поминовения.",
    "uk": "Канон за спочилого з «Послідування по виході душі від тіла» Слідованої Псалтирі. Його можна читати окремо, як тут (зі звичайним початком, псалмом 90 і закінченням послідування), або в складі панахиди. Читається особливо в перші дні після смерті і в дні поминання.",
    "en": "The Canon for one departed, from the «Office after the departure of the soul from the body» in the Sequential Psalter. It may be read on its own, as here (with the usual beginning, Psalm 90 and the ending of the office), or within the Panikhida. It is read especially in the first days after death and on days of commemoration.",
@@ -120,7 +120,7 @@
    "id": "defuntos-canone-04",
    "tipo": "rubrica",
    "cu": "",
-   "pt": "Por vários defuntos, este cânone lê-se no plural («Dá repouso, Senhor, às almas dos Teus servos falecidos»). Existe também um cânone próprio pelos defuntos (tom 8, com o refrão «Admirável é Deus nos Seus santos»), cantado na grande panikhida (parastás); não foi incluído, por não se ter encontrado ainda o texto eslavo numa edição de domínio público.",
+   "pt": "Por vários defuntos, este cânone lê-se no plural («Dá repouso, Senhor, às almas dos Teus servos falecidos»). Existe também um cânone próprio pelos defuntos (tom 8, com o refrão «Admirável é Deus nos Seus santos»), cantado na grande Panikhida (parastás); não foi incluído, por não se ter encontrado ainda o texto eslavo numa edição de domínio público.",
    "ru": "О нескольких усопших этот канон читается во множественном числе («Покой, Господи, души усопших раб Твоих»). Есть и особый канон за усопших (глас 8, с припевом «Дивен Бог во святых Своих»), поемый на парастасе; он не включен, так как его славянский текст в общественном достоянии пока не найден.",
    "uk": "За кількох спочилих цей канон читається в множині («Упокой, Господи, душі спочилих рабів Твоїх»). Є також окремий канон за спочилих (глас 8, з приспівом «Дивен Бог у святих Своїх»), що співається на парастасі; його не включено, бо слов’янський текст у суспільному надбанні ще не знайдено.",
    "en": "For several departed, this canon is read in the plural («Give rest, O Lord, to the souls of Thy servants who have fallen asleep»). There is also a proper canon for the departed (Tone 8, with the refrain «Wondrous is God in His Saints»), sung at the Great Panikhida (Parastas); it is not included, since its Slavonic text has not yet been found in a public-domain edition.",
@@ -154,7 +154,7 @@
    "id": "defuntos-canone-06",
    "tipo": "rubrica",
    "cu": "",
-   "pt": "Na Semana Luminosa (da Páscoa ao sábado seguinte) não se celebram panikhidas nem a comemoração pública dos defuntos: a Igreja só canta a Ressurreição. A comemoração retoma-se na Radonitsa (terça-feira da 2.ª semana depois da Páscoa). Ver «Comemoração dos defuntos no Tempo Pascal».",
+   "pt": "Na Semana Luminosa (da Páscoa ao sábado seguinte) não se celebram Panikhidas nem a comemoração pública dos defuntos: a Igreja só canta a Ressurreição. A comemoração retoma-se na Radonitsa (terça-feira da 2.ª semana depois da Páscoa). Ver «Comemoração dos defuntos no Tempo Pascal».",
    "ru": "На Светлой седмице (от Пасхи до следующей субботы) панихиды и гласное поминовение усопших не совершаются: Церковь воспевает только Воскресение. Поминовение возобновляется на Радоницу (вторник 2-й седмицы по Пасхе). См. «Поминовение усопших в пасхальные дни».",
    "uk": "На Світлій седмиці (від Пасхи до наступної суботи) панахиди і гласне поминання спочилих не звершуються: Церква оспівує тільки Воскресіння. Поминання відновлюється на Радоницю (вівторок 2-ї седмиці після Пасхи). Див. «Поминання спочилих у пасхальні дні».",
    "en": "In Bright Week (from Pascha to the following Saturday) no Panikhidas and no public commemoration of the departed are celebrated: the Church sings only of the Resurrection. Commemoration resumes on Radonitsa (Tuesday of the second week after Pascha). See «Commemoration of the Departed in Paschaltide».",
@@ -196,15 +196,14 @@
    "nota": "⚠ Para confirmação pelo clero (dec. 44): aplicam-se as regras das orações privadas no Tempo Pascal (doc. 03 §1.4: «Христос воскресе» ×3 em lugar de «Царю Небесный»; «Ангел вопияше» em lugar de «Достойно есть»). Azbyka Very («Радоница») indica que não há rito pascal da panikhida no Typikon e que há duas práticas paroquiais («moscovita» e «petersburguesa»)."
   },
   {
-   "id": "defuntos-canone-08",
    "tipo": "rubrica",
-   "cu": "",
-   "pt": "Da Ascensão ao Pentecostes omitem-se «Glória a Ti, ó nosso Deus» e «Rei Celeste»: depois de «Pelas orações…» diz-se logo «Santo Deus».",
-   "ru": "От Вознесения до Пятидесятницы «Слава Тебе, Боже наш» и «Царю Небесный» опускаются: после «Молитвами…» сразу читается «Святый Боже».",
-   "uk": "Від Вознесіння до П’ятидесятниці «Слава Тобі, Боже наш» і «Царю Небесний» опускаються: після «Молитвами…» відразу читається «Святий Боже».",
-   "en": "From the Ascension until Pentecost «Glory to Thee, our God» and «O Heavenly King» are omitted: after «Through the prayers…» one says at once «Holy God».",
+   "cu": "Отъ Вознесе́нія Госпо́дня до Пятидеся́тницы моли́твы начина́ются со «Святы́й Бо́же»; «Царю́ Небе́сный» и всё, что предше́ствуетъ ему́, опуска́ется.",
+   "pt": "Da Ascensão do Senhor até ao Pentecostes, as orações começam em «Santo Deus»; omite-se «Rei Celeste» e tudo o que o precede.",
+   "ru": "От Вознесения Господня до Пятидесятницы молитвы начинаются со «Святый Боже»; «Царю Небесный» и все, что предшествует ему, опускается.",
+   "uk": "Від Вознесіння Господнього до П’ятидесятниці молитви починаються зі «Святий Боже»; «Царю Небесний» і все, що йому передує, опускається.",
+   "en": "From the Ascension of the Lord until Pentecost, the prayers begin with «Holy God»; «O Heavenly King» and all that precedes it are omitted.",
    "fonte": {
-    "cu": "—",
+    "cu": "propria",
     "ru": "propria",
     "en": "propria",
     "pt": "propria",
@@ -215,7 +214,8 @@
      "ascensao_pentecostes"
     ]
    },
-   "nota": "Como nas orações da manhã (manha-05, manha-10, manha-12; doc. 03 §1.4)."
+   "nota": "Texto idêntico a noite-024 (regra da 2a: da Ascensão ao Pentecostes começa-se em «Святый Боже», sem «Моли́твами…»).",
+   "id": "defuntos-canone-08"
   },
   {
    "id": "defuntos-canone-09",
@@ -232,7 +232,12 @@
     "pt": "propria",
     "uk": "propria"
    },
-   "nota": "Início e despedida dos leigos (em lugar de «Благословенъ Богъ нашъ» e da despedida do sacerdote). [Texto idêntico a manha-p03 (manha.json).]"
+   "nota": "Início e despedida dos leigos (em lugar de «Благословенъ Богъ нашъ» e da despedida do sacerdote). [Texto idêntico a manha-p03 (manha.json).]",
+   "quando": {
+    "excepto": [
+     "ascensao_pentecostes"
+    ]
+   }
   },
   {
    "id": "defuntos-canone-10",
@@ -582,7 +587,7 @@
   {
    "id": "defuntos-canone-29",
    "tipo": "oracao",
-   "cu": "Живы́й въ по́мощи Вы́шняго, въ кро́вѣ Бо́га Небе́снаго водвори́тся. Рече́тъ Го́сподеви: Засту́пникъ мой еси́ и Прибѣ́жище мое́, Богъ мой, и упова́ю на Него́. Я́ко Той изба́витъ тя отъ сѣ́ти ло́вчи и отъ словесе́ мяте́жна: плещма́ Свои́ма осѣни́тъ тя, и подъ крилѣ́ Его́ надѣ́ешися: ору́жіемъ обы́детъ тя и́стина Его́. Не убои́шися отъ стра́ха нощна́го, отъ стрѣлы́ летя́щія во дни, отъ ве́щи во тмѣ преходя́щія, отъ сря́ща и бѣ́са полу́деннаго. Паде́тъ отъ страны́ твоея́ ты́сяща, и тма одесну́ю тебе́, къ тебѣ́ же не прибли́жится: оба́че очи́ма твои́ма смо́триши, и воздая́ніе грѣ́шниковъ у́зриши. Я́ко Ты, Го́споди, упова́ніе мое́: Вы́шняго положи́лъ еси́ прибѣ́жище твое́. Не пріи́детъ къ тебѣ́ зло, и ра́на не прибли́жится тѣлеси́ твоему́: я́ко А́нгеломъ Свои́мъ заповѣ́сть о тебѣ́, сохрани́ти тя во всѣ́хъ путе́хъ твои́хъ. На рука́хъ во́змутъ тя, да не когда́ преткне́ши о ка́мень но́гу твою́: на а́спида и васили́ска насту́пиши, и попере́ши льва и змі́я. Я́ко на Мя упова́, и изба́влю и: покры́ю и, я́ко позна́ и́мя Мое́. Воззове́тъ ко Мнѣ, и услы́шу его́: съ нимъ есмь въ ско́рби, изму́ его́ и просла́влю его́: долгото́ю дні́й испо́лню его́, и явлю́ ему́ спасе́ніе Мое́.",
+   "cu": "Живы́й въ по́мощи Вы́шняго, въ кро́вѣ Бо́га Небе́снаго водвори́тся. Рече́тъ Го́сподеви: Засту́пникъ мой еси́ и Прибѣ́жище мое́, Богъ мой, и упова́ю на Него́. Я́ко Той изба́витъ тя отъ сѣ́ти ло́вчи и отъ словесе́ мяте́жна: плещма́ Свои́ма осѣни́тъ тя, и подъ крилѣ́ Его́ надѣ́ешися: ору́жіемъ обы́детъ тя и́стина Его́. Не убои́шися отъ стра́ха нощна́го, отъ стрѣлы́ летя́щія во дни, отъ ве́щи во тьмѣ преходя́щія, отъ сря́ща и бѣ́са полу́деннаго. Паде́тъ отъ страны́ твоея́ ты́сяща, и тьма одесну́ю тебе́, къ тебѣ́ же не прибли́жится: оба́че очи́ма твои́ма смо́триши, и воздая́ніе грѣ́шниковъ у́зриши. Я́ко Ты, Го́споди, упова́ніе мое́: Вы́шняго положи́лъ еси́ прибѣ́жище твое́. Не пріи́детъ къ тебѣ́ зло, и ра́на не прибли́жится тѣлеси́ твоему́: я́ко А́нгеломъ Свои́мъ заповѣ́сть о тебѣ́, сохрани́ти тя во всѣ́хъ путе́хъ твои́хъ. На рука́хъ во́змутъ тя, да не когда́ преткне́ши о ка́мень но́гу твою́: на а́спида и васили́ска насту́пиши, и попере́ши льва и змі́я. Я́ко на Мя упова́, и изба́влю и: покры́ю и, я́ко позна́ и́мя Мое́. Воззове́тъ ко Мнѣ, и услы́шу его́: съ нимъ есмь въ ско́рби, изму́ его́ и просла́влю его́: долгото́ю дні́й испо́лню его́, и явлю́ ему́ спасе́ніе Мое́.",
    "pt": "Aquele que vive no auxílio do Altíssimo habitará sob o abrigo do Deus do céu, dirá ao Senhor: Tu és o meu protetor e o meu refúgio, o meu Deus, e espero n'Ele. Porque Ele te livrará do laço do caçador e da palavra perturbadora: com os Seus ombros te cobrirá, e debaixo das Suas asas confiarás; a Sua verdade te cercará como um escudo. Não temerás o terror da noite, a seta que voa de dia, a coisa que anda nas trevas, o assalto e o demónio do meio-dia. Cairão ao teu lado mil, e dez mil à tua direita, mas a ti não se aproximará: contudo, com os teus olhos contemplarás e verás a recompensa dos pecadores. Porque Tu, Senhor, és a minha esperança; puseste o Altíssimo como teu refúgio. Não virá a ti o mal, e a chaga não se aproximará do teu corpo: porque aos Seus anjos dará ordens a teu respeito, para te guardarem em todos os teus caminhos. Levar-te-ão nas mãos, para que não tropeces com o teu pé nalguma pedra: pisarás a áspide e o basilisco, e calcarás o leão e o dragão. Porque esperou em Mim, livrá-lo-ei; protegê-lo-ei, porque conheceu o Meu nome. Invocar-Me-á, e ouvi-lo-ei; com ele estou na aflição, arrancá-lo-ei e glorificá-lo-ei: com longura de dias o saciarei, e mostrar-lhe-ei a Minha salvação.",
    "ru": "Живущий помощью Вышнего под кровом Бога небесного водворится, Скажет Господу: «Ты — заступник мой и прибежище мое, Бог мой и уповаю на Него». Ибо Он избавит тебя от сети ловцов и от мятежного слова, Плечами Своими защитит тебя, и под крыльями Его будешь безопасен, щитом оградит тебя истина Его. Не убоишься от ужаса ночи, стрелы, летящей днем, Бедствия, постигающего ночью, болезни и полуденного беса. Падет подле тебя тысяча, и десять тысяч направо от тебя, к тебе же не приблизится. Только очами своими смотреть будешь и воздаяние грешникам увидишь. Ибо (ты сказал:) «Ты, Господи, упование мое», Вышнего избрал ты прибежищем своим. Не приступит к тебе зло, и язва не приблизится к жилищу твоему. Ибо ангелам Своим Он заповедает о тебе — хранить тебя на всех путях твоих. На руки возьмут тебя, чтобы не преткнулся ты ногою своею о камень. На аспида и василиска наступишь и попирать будешь льва и змея «Так как он на Меня уповал, то Я избавлю его, покрою его, ибо он познал имя Мое. Воззовет ко Мне, и услышу его, с ним Я в скорби, избавлю его и прославлю его, Долготою дней насыщу его и явлю ему спасение Мое».",
    "uk": "Хто живе з допомогою Всевишнього, під покровом Бога небесного оселиться, скаже Господеві: Ти заступник мій і прибіжище моє, Бог мій, і уповаю на Нього. Бо Він визволить тебе від сітки ловця і від слова бентежного: плечима Своїми осінить тебе, і під крилами Його матимеш надію: зброєю оточить тебе істина Його. Не убоїшся страху нічного, стріли, що летить удень, речі, що ходить у темряві, напасті і біса полуденного. Впаде біля тебе тисяча, і десять тисяч праворуч від тебе, а до тебе не наблизиться: тільки очима твоїми дивитимешся і відплату грішникам побачиш. Бо Ти, Господи, — уповання моє: Всевишнього зробив ти прибіжищем твоїм. Не прийде до тебе зло, і рана не наблизиться до тіла твого, бо Ангелам Своїм заповість про тебе — зберігати тебе на всіх путях твоїх. На руках понесуть тебе, щоб не спіткнувся ти ногою твоєю об камінь: на аспида і василиска наступиш, і зопчеш лева і змія. Бо на Мене він уповав, і Я визволю його; покрию його, бо він пізнав ім’я Моє. Покличе Мене, і Я вислухаю його; з ним Я в скорботі, вирву його і прославлю його; довготою днів наситю його і явлю йому спасіння Моє.",

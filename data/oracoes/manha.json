@@ -700,7 +700,7 @@
    "cu": "Отъ Ѳоми́ной недѣ́ли до Вознесе́нія Госпо́дня, вмѣ́сто «Царю́ Небе́сный», чита́ется три́жды тропа́рь Па́схи:",
    "pt": "Do Domingo de Tomé até à Ascensão do Senhor, em lugar de «Rei Celeste», diz-se três vezes o tropário da Páscoa:",
    "ru": "От Фомина воскресенья до Вознесения Господня вместо «Царю Небесный» читается трижды тропарь Пасхи:",
-   "uk": "Від Томиної неділі до Вознесіння Господнього замість «Царю Небесний» читається тричі тропар Пасхи:",
+   "uk": "Від Фоминої неділі до Вознесіння Господнього замість «Царю Небесний» читається тричі тропар Пасхи:",
    "en": "From Thomas Sunday until the Ascension of the Lord, instead of «O Heavenly King», the troparion of Pascha is said three times:",
    "fonte": {
     "cu": "propria",
@@ -1592,11 +1592,11 @@
   {
    "id": "manha-54",
    "tipo": "oracao",
-   "cu": "Моли́ Бо́га о мнѣ, святы́й уго́дниче Бо́жій [и́мя], я́ко азъ усе́рдно къ тебѣ́ прибѣга́ю, ско́рому помо́щнику и моли́твеннику о души́ мое́й.",
-   "pt": "Roga a Deus por mim, santo servo de Deus [nome], pois a ti recorro com fervor, pronto auxílio e intercessor pela minha alma.",
-   "ru": "Моли Бога о мне, святой угодник Божий [имя], ибо я усердно прибегаю к тебе, скорому помощнику и молитвеннику о душе моей.",
-   "uk": "Моли Бога за мене, святий угоднику Божий [ім’я], бо я ревно до тебе прибігаю, швидкого помічника і молитвеника за душу мою.",
-   "en": "Pray to God for me, O holy servant of God [name], for I fervently flee unto thee, the speedy helper and intercessor for my soul.",
+   "cu": "Моли́ Бо́га о мнѣ, святы́й уго́дниче Бо́жій (и́мя), я́ко азъ усе́рдно къ тебѣ́ прибѣга́ю, ско́рому помо́щнику и моли́твеннику о души́ мое́й.",
+   "pt": "Roga a Deus por mim, santo servo de Deus (nome), pois a ti recorro com fervor, pronto auxílio e intercessor pela minha alma.",
+   "ru": "Моли Бога о мне, святой угодник Божий (имя), ибо я усердно прибегаю к тебе, скорому помощнику и молитвеннику о душе моей.",
+   "uk": "Моли Бога за мене, святий угоднику Божий (ім’я), бо я ревно до тебе прибігаю, швидкого помічника і молитвеника за душу мою.",
+   "en": "Pray to God for me, O holy servant of God (name), for I fervently flee unto thee, the speedy helper and intercessor for my soul.",
    "fonte": {
     "cu": "Z1912 p. 9",
     "ru": "propria",
@@ -1744,11 +1744,11 @@
   {
    "id": "manha-61",
    "tipo": "oracao",
-   "cu": "Спаси́, Го́споди, и поми́луй отца́ моего́ духо́внаго [и́мя], роди́тели моя́ [имена́], сро́дники, нача́льники, наста́вники, благодѣ́тели [имена́ ихъ] и вся правосла́вныя христіа́ны.",
-   "pt": "Salva, Senhor, e tem piedade do meu pai espiritual [nome], dos meus pais [nomes], parentes, superiores, mestres, benfeitores [os seus nomes] e de todos os cristãos ortodoxos.",
-   "ru": "Спаси, Господи, и помилуй отца моего духовного [имя], родителей моих [имена], родных, начальников, наставников, благодетелей [имена их] и всех православных христиан.",
-   "uk": "Спаси, Господи, і помилуй отця мого духовного [ім’я], батьків моїх [імена], родичів, начальників, наставників, благодійників [імена їх] і всіх православних християн.",
-   "en": "Save, O Lord, and have mercy upon my spiritual father [name], my parents [names], my relatives, superiors, teachers and benefactors [their names], and all Orthodox Christians.",
+   "cu": "Спаси́, Го́споди, и поми́луй отца́ моего́ духо́внаго (и́мя), роди́тели моя́ (имена́), сро́дники, нача́льники, наста́вники, благодѣ́тели [имена́ ихъ] и вся правосла́вныя христіа́ны.",
+   "pt": "Salva, Senhor, e tem piedade do meu pai espiritual (nome), dos meus pais (nomes), parentes, superiores, mestres, benfeitores [os seus nomes] e de todos os cristãos ortodoxos.",
+   "ru": "Спаси, Господи, и помилуй отца моего духовного (имя), родителей моих (имена), родных, начальников, наставников, благодетелей [имена их] и всех православных христиан.",
+   "uk": "Спаси, Господи, і помилуй отця мого духовного (ім’я), батьків моїх (імена), родичів, начальників, наставників, благодійників [імена їх] і всіх православних християн.",
+   "en": "Save, O Lord, and have mercy upon my spiritual father (name), my parents (names), my relatives, superiors, teachers and benefactors (their names), and all Orthodox Christians.",
    "fonte": {
     "cu": "⚠ sem edição PD localizada (forma breve das edições correntes)",
     "ru": "propria",
@@ -1791,7 +1791,7 @@
    "pt": "Dá repouso, Senhor, às almas dos Teus servos falecidos: dos meus pais, parentes, benfeitores [os seus nomes] e de todos os cristãos ortodoxos; perdoa-lhes todos os pecados, voluntários e involuntários, e concede-lhes o Reino dos Céus.",
    "ru": "Упокой, Господи, души усопших рабов Твоих: родителей моих, родных, благодетелей [имена их] и всех православных христиан, и прости им все согрешения вольные и невольные, и даруй им Царство Небесное.",
    "uk": "Упокой, Господи, душі покійних рабів Твоїх: батьків моїх, родичів, благодійників [імена їх] і всіх православних християн, і прости їм усі прогрішення вільні й невільні, і даруй їм Царство Небесне.",
-   "en": "Give rest, O Lord, to the souls of Thy departed servants: my parents, relatives and benefactors [their names], and all Orthodox Christians; and forgive them all their sins, voluntary and involuntary, and grant them the Kingdom of Heaven.",
+   "en": "Give rest, O Lord, to the souls of Thy departed servants: my parents, relatives and benefactors (their names), and all Orthodox Christians; and forgive them all their sins, voluntary and involuntary, and grant them the Kingdom of Heaven.",
    "fonte": {
     "cu": "⚠ sem edição PD localizada (forma breve das edições correntes)",
     "ru": "propria",
@@ -1919,10 +1919,10 @@
    "id": "manha-69",
    "tipo": "oracao",
    "cu": "Спаси́, Го́споди, и поми́луй отца́ моего́ духо́внаго [и́мя его́], и святы́ми его́ моли́твами прости́ моя́ согрѣше́нія.",
-   "pt": "Salva, Senhor, e tem piedade do meu pai espiritual [nome], e, pelas suas santas orações, perdoa os meus pecados.",
+   "pt": "Salva, Senhor, e tem piedade do meu pai espiritual (nome), e, pelas suas santas orações, perdoa os meus pecados.",
    "ru": "Спаси, Господи, и помилуй отца моего духовного [имя его] и по святым его молитвам прости мои согрешения.",
    "uk": "Спаси, Господи, і помилуй отця мого духовного [ім’я його], і святими його молитвами прости мої прогрішення.",
-   "en": "Save, O Lord, and have mercy upon my spiritual father [name], and through his holy prayers forgive my sins.",
+   "en": "Save, O Lord, and have mercy upon my spiritual father (name), and through his holy prayers forgive my sins.",
    "fonte": {
     "cu": "Z1912 p. 11",
     "ru": "propria",
@@ -1944,7 +1944,7 @@
    "pt": "Salva, Senhor, e tem piedade dos meus pais [os seus nomes], irmãos e irmãs, dos meus parentes segundo a carne, de todos os próximos da minha família e dos amigos, e concede-lhes os Teus bens terrenos e celestes.",
    "ru": "Спаси, Господи, и помилуй родителей моих [имена их], братьев, и сестер, и родных моих по плоти, и всех близких мне людей из рода моего и друзей, и дай им Твои земные и небесные блага.",
    "uk": "Спаси, Господи, і помилуй батьків моїх [імена їх], братів і сестер, і родичів моїх по плоті, і всіх ближніх роду мого, і друзів, і даруй їм Твої земні і премирні блага.",
-   "en": "Save, O Lord, and have mercy upon my parents [their names], my brothers and sisters, my kinsfolk according to the flesh, all those near to me of my family, and my friends, and grant them Thy good things, both of this world and of the world above.",
+   "en": "Save, O Lord, and have mercy upon my parents (their names), my brothers and sisters, my kinsfolk according to the flesh, all those near to me of my family, and my friends, and grant them Thy good things, both of this world and of the world above.",
    "fonte": {
     "cu": "Z1912 p. 11",
     "ru": "Z1912 p. 11",
@@ -2097,7 +2097,7 @@
    "pt": "Lembra-Te, Senhor, das almas dos Teus servos falecidos, dos meus pais [os seus nomes] e de todos os parentes segundo a carne; e perdoa-lhes todos os pecados, voluntários e involuntários, concedendo-lhes o Reino, a participação nos Teus bens eternos e o gozo da Tua vida infinita e bem-aventurada.",
    "ru": "Помяни, Господи, души усопших рабов Твоих, родителей моих [имена их] и всех родных по плоти, и прости им все согрешения вольные и невольные, даруя им Царство и причастие вечных Твоих благ и наслаждение Твоею бесконечною и блаженною жизнью.",
    "uk": "Пом’яни, Господи, душі покійних рабів Твоїх, батьків моїх [імена їх] і всіх родичів по плоті; і прости їм усі прогрішення вільні й невільні, даруючи їм Царство і причастя вічних Твоїх благ і насолоду Твоїм безконечним і блаженним життям.",
-   "en": "Remember, O Lord, the souls of Thy departed servants, my parents [their names] and all my kinsfolk according to the flesh; and forgive them all their sins, voluntary and involuntary, granting them the Kingdom and a portion in Thine eternal good things, and the delight of Thine endless and blessed life.",
+   "en": "Remember, O Lord, the souls of Thy departed servants, my parents (their names) and all my kinsfolk according to the flesh; and forgive them all their sins, voluntary and involuntary, granting them the Kingdom and a portion in Thine eternal good things, and the delight of Thine endless and blessed life.",
    "fonte": {
     "cu": "Z1912 p. 12",
     "ru": "propria",
