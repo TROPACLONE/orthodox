@@ -1,5 +1,5 @@
 # Corre os testes, gera dist/ e publica no GitHub Pages.
-# Pull requests e outros ramos: só testes e build. Push para main: também publica.
+# Pull requests e outros ramos: só testes e build. Push (ou execução manual) em main: também publica.
 # Verificação periódica (decisão 24): todas as segundas-feiras corre os testes completos sobre o código atual.
 name: Testes, build e publicação
 
@@ -27,12 +27,12 @@ jobs:
       - run: npm run build
       - run: node tests/build.test.mjs
       - uses: actions/upload-pages-artifact@v5
-        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
         with:
           path: dist
 
   deploy:
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
     needs: build
     runs-on: ubuntu-latest
     permissions:
