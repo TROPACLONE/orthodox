@@ -23,19 +23,19 @@
 | # | Gravidade | Achado | Estado |
 |---|---|---|---|
 | 1 | Alta | Ao abrir um texto a partir de uma lista deslocada, o ecrã novo desliza (scroll suave) desde a posição antiga | **Corrigido** |
-| 2 | Alta | Um `import()` falhado (sem rede) fica em cache na sessão: com rede de novo, o texto continua a não abrir | Proposto |
+| 2 | Alta | Um `import()` falhado (sem rede) fica em cache na sessão: com rede de novo, o texto continua a não abrir | **Implementado** (2.ª ronda, §5) |
 | 3 | Média | Voltar de uma catisma: lista no topo e foco num item fora do ecrã | **Corrigido** |
 | 4 | Média | Mudança de língua a meio do carregamento da lista do grupo: lista noutra língua | **Corrigido** |
 | 5 | Média | Cada arranque relia da cache os ~2–2,4 MB da língua (39 pedidos ao service worker) | **Corrigido** |
-| 6 | Média | Catisma 17: tarefa longa de 150–320 ms com CPU ×4 | Proposto |
-| 7 | Média | Tamanho por língua (2,0–2,4 MB): `cu` repetido nas 4 línguas, campos não usados | Proposto (análise §3) |
-| 8 | Baixa-média | Os textos abertos ficam na memória até fechar a app (mapa de módulos) | Proposto (resolve-se com 2) |
+| 6 | Média | Catisma 17: tarefa longa de 150–320 ms com CPU ×4 | **Implementado** (§5) |
+| 7 | Média | Tamanho por língua (2,0–2,4 MB): `cu` repetido nas 4 línguas, campos não usados | **Implementado** (análise §3, resultado §5) |
+| 8 | Baixa-média | Os textos abertos ficam na memória até fechar a app (mapa de módulos) | **Resolvido** com 2 (§5) |
 | 9 | Baixa | «Marcar como lida»: o foco do teclado caía no `<body>` | **Corrigido** |
 | 10 | Baixa | `salterio.ultima` inválido no armazenamento → «Continuar» abre `salterio--2` / `salterio-3.5` | **Corrigido** + testes |
 | 11 | Baixa | Toques repetidos sem rede empilhavam avisos | **Corrigido** |
 | 12 | Baixa | `querySelector('h1').focus()` sem verificação de nulo | **Corrigido** (defensivo) |
-| 13 | Baixa | Grupos de botões (`seg`) sem nome acessível; `<label>` não associado | Proposto |
-| 14 | Baixa | Sem `localStorage` (Safari privado, quota): «marcada como lida» sem efeito no plano | Proposto |
+| 13 | Baixa | Grupos de botões (`seg`) sem nome acessível; `<label>` não associado | **Implementado** (§5) |
+| 14 | Baixa | Sem `localStorage` (Safari privado, quota): «marcada como lida» sem efeito no plano | **Implementado** (§5) |
 | 15 | Baixa | `gerar-dados`: qualquer id com «-» cria um grupo; ordem por `Infinity − Infinity` | Proposto |
 | 16 | Info | Decisão 60: transições continuam ativas com «reduzir movimento» | Verificado |
 
@@ -97,7 +97,7 @@
   Não se conseguiu tornar visível, porque a renderização seguinte apaga o aviso, mas o erro existe.
 - *Correção:* `?.focus(...)`.
 
-### 2.2 Propostos (não aplicados: maiores, ou pedem uma decisão)
+### 2.2 Propostos na 1.ª ronda (2, 6, 7, 8, 13 e 14 implementados depois: ver §5)
 
 **2 — Alta — um `import()` falhado não volta a ser tentado** — `src/app.js:276`, `:292`, `:380` (padrão anterior, agora
 também nos grupos)
@@ -227,3 +227,85 @@ Depois das alterações: `npm test` OK; `node build.mjs && node tests/build.test
 língua iguais); cenários Playwright 1, 3, 4, 5, 9, 10, 11 confirmados como corrigidos; mudança normal de língua com um
 acatisto aberto, modo «Pelos defuntos» com foco do teclado e retoma da posição depois das Definições sem regressões;
 sem erros na consola.
+
+## 5. 2.ª ronda: implementação das propostas 2, 6, 7, 8, 13 e 14
+
+Pedido do coordenador depois do commit 77b3402. A decisão 45 fica igual: toda a língua escolhida, com o Saltério, é
+pré-carregada para uso offline. `data/` não foi tocado; nada foi enviado para o repositório.
+
+### 5.1 O que mudou
+
+| Ficheiro | Alteração |
+|---|---|
+| `tools/gerar-dados.mjs` | Cada oração dá `{id}-cu.json` (`titulo` e o array `cu`, alinhado pela posição; `''` nas rubricas) e `{id}-xx.json` só com a tradução: `id` (mantido), `t`, `tipo` só em rubricas e títulos, `repetir`, `v`, `sob`, `quando`. Saem `cu`, `sl`, `tituloCu` e `tipo: oracao/verso` dos ficheiros de língua. |
+| `build.mjs` | Os dados das orações deixam de ser módulos esbuild. São copiados para `dist/d/{id}-{cu\|xx}.{sha256[0:8]}.json`. O mapa id → hashes (`__DADOS__`, 8 hex por ficheiro na ordem cu, pt, uk, ru, en) vai no núcleo (bloco de 2,1 KB). `idiomas.json` põe os ficheiros `-cu` nas 4 línguas e cada tradução só na sua. A versão da cache inclui `dist/d/`. |
+| `src/app.js` | `dados(id, l)` com `fetch()` (um pedido falhado repete-se no toque seguinte). `abrirOracao` pede a tradução e, **só com o eslavo ligado**, o `-cu` em paralelo. Ao ligar o eslavo nas Definições com uma oração aberta, `completarEslavo` pede o `-cu` nesse momento (sem rede: fica só a tradução). A lista do grupo não se volta a pedir enquanto a língua for a mesma. `eslavo.js` passa a import estático: no núcleo (~10 KB), um `import()` falhado sem rede deixava o eslavo indisponível até reiniciar. A posição depois das Definições guarda-se como bloco e desvio (`posicaoLeitura`/`retomarLeitura`, com correção em até 3 frames). `campo()` dá aos grupos `seg` o nome do rótulo (`aria-labelledby`). Plano do Saltério também em memória (`st.salterio`); `gravar` devolve `false` e, sem armazenamento, aparece a nota `salterio.semArmazenamento` na lista do Saltério e no estado de «Marcar como lida». |
+| `src/sw.js` | A regra de «bloco com nome pelo conteúdo» cobre `d/*.{hash}.json`. Na migração do `activate`, os caminhos comparam-se relativamente ao `scope` (`d/…`), e não só pelo nome final. |
+| `src/index.html` | `.par { content-visibility: auto; contain-intrinsic-size: auto 7rem; }` |
+| `src/i18n/{pt,uk,ru,en}.js` | `salterio.semArmazenamento` nas 4 línguas |
+| `tests/build.test.mjs` | `dist/d/` entra na lista completa de ficheiros. Cada id do índice tem `-cu` e as 4 línguas em `dist/d/`, com hash = conteúdo e conteúdo = ficheiro gerado; o `-cu` está na pré-carga das 4 línguas e cada tradução só na sua; os blocos da tradução e do eslavo são em igual número; os 4 `grupos-xx`; nenhum ficheiro a mais; os hashes estão no núcleo; o eslavo das orações não está no núcleo (além do teste de textos de cada língua). |
+
+### 5.2 Tamanhos (antes → depois)
+
+| | Antes (77b3402) | Depois |
+|---|---|---|
+| `dist/` total | 9096 KB (gzip 2474) | **5606 KB (gzip 1591)** |
+| Núcleo JS + HTML (relatório do build) | 126,0 KB | **118,3 KB** |
+| Pré-cache do núcleo | 333 KB (gzip 239) | 333 KB (gzip 240) |
+| Pré-carga pt | 2013 KB (gzip 563), 39 ficheiros | 1954 KB (gzip 512), 75 ficheiros |
+| Pré-carga uk | 2365 KB (gzip 565) | 2307 KB (gzip 550) |
+| Pré-carga ru | 2368 KB (gzip 544) | 2310 KB (gzip 552) |
+| Pré-carga en | 2039 KB (gzip 567) | 1981 KB (gzip 514) |
+| As 4 línguas juntas | 8754 KB (gzip 2231) | **5265 KB (gzip 1348)** |
+| Cada língua a mais (o eslavo já está guardado) | 2013–2368 KB | **869–1225 KB** (gzip 254–294) |
+
+O eslavo partilhado ocupa 1086 KB (gzip 257). A 1.ª língua quase não muda (−3% no aparelho; com gzip, de −9% em pt a +1,5% em ru), como
+se previa em §3: o ganho está em cada língua a mais, em `dist/` e na memória.
+
+### 5.3 Verificação
+
+- `npm test`, `node build.mjs` e `node tests/build.test.mjs`: OK.
+- **Duas línguas:** em pt, Orações da manhã (51 parágrafos em eslavo), catisma 17 (200) e o acatisto a Jesus (44). A
+  seguir, mudança para uk: lista dos acatistos em ucraniano; Orações da noite, Panikhida e catisma 1 em uk, com eslavo
+  em izvod. Pedidos: um par `xx` + `cu` por oração; `grupos-xx` uma vez por língua. Sem erros na consola.
+- **Eslavo desligado:** a catisma 17 abre sem pedir nenhum `-cu`. Ao ligar o eslavo nas Definições com a catisma
+  aberta, o `-cu` é pedido e, ao voltar, aparecem os 200 parágrafos em eslavo.
+- **Sem rede e depois com rede** (sem service worker, para forçar a falha): o toque em «Saltério» sem rede dá 1 aviso;
+  com rede, o toque seguinte abre a lista. O mesmo com a catisma 5. Antes: 0 pedidos novos e sem abrir até reiniciar.
+- **Service worker:** na 1.ª visita, 86 pedidos (73 de `d/`); a cache fica com 98 entradas (núcleo e língua pt). No
+  **2.º arranque, 11 pedidos e 0 de `d/`**: só os blocos JS do arranque, servidos pela cache. Offline: catisma 17 e
+  Litia abrem, com eslavo.
+- **Atualizações:** simularam-se duas versões seguidas em que só `salterio-17-pt` muda. Depois de cada uma há 2 caches
+  (a atual e a anterior), cada uma com o seu hash de `salterio-17-pt`. O hash da 1.ª versão desaparece na 2.ª
+  atualização, e a catisma 17 continua a abrir. Os ficheiros com hash não se acumulam além da versão anterior.
+- **Catisma 17, CPU ×4** (abrir → frame, 4 execuções; agora inclui o `fetch` e o `JSON.parse`):
+
+  | | Antes: até ao DOM | Antes: tarefa longa | Depois: até ao DOM | Depois: tarefa longa |
+  |---|---|---|---|---|
+  | pt, eslavo ligado | 157–211 ms | 148–194 ms | **93–135 ms** | **55–96 ms** |
+  | uk, eslavo ligado | 195–318 ms | 217–262 ms (traço) | 170–221 ms | 104–188 ms (traço: 86–147) |
+  | pt, eslavo desligado | 133–187 ms | — | 58–107 ms | ≤ 68 ms |
+  | uk, CPU ×6 | 276–509 ms | — | 198–326 ms | 130–263 ms |
+
+  Layout no traço: 121–146 → 29–44 ms. Mudar o tamanho do texto com a catisma aberta: 84–183 → 31–44 ms. Em uk, o
+  custo que resta é sobretudo a conversão izvod (JS), não o layout.
+- **Memória:** heap depois de GC ao abrir as 20 catismas: 2,3 → 2,7 MB (antes 2,3 → 3,7 MB). Os textos fechados
+  libertam-se.
+- **Retoma da posição depois das Definições** (catisma 17, com `content-visibility`): em 5 posições (3000, 9000,
+  15 000 e 22 000 px, e 12 000 px com o tamanho do texto mudado para «grande» nas Definições), volta sempre ao
+  **mesmo versículo** (21, 63, 102, 148, 80), com diferença de 0–1 px dentro do bloco. Sem desvio de um versículo; antes
+  da correção, só com o CSS, o 101 voltava como 102.
+- **Acessibilidade:** `getByRole('group', { name: 'Leitura' })` e `'Uma catisma por dia'` encontram 1 grupo cada; nas
+  Definições, os 4 grupos têm o nome do rótulo.
+- **Sem armazenamento** (`setItem` lança exceção): a nota aparece na lista do Saltério; «Marcar como lida» na catisma 3
+  mostra o estado com o aviso; ao voltar, «Continuar: catisma 4» (plano em memória).
+- **Regressões da 1.ª ronda** (cenários 1, 3, 4, 9, 10, 11, decisão 60): todos OK, e o cenário E2 (repetir depois da
+  falha) passa agora a abrir.
+
+### 5.4 O que fica por fazer
+
+- Os blocos de i18n (`src/i18n/xx.js`) e os nomes (`nomes-xx.json`) continuam a ser `import()`. Se a mudança de língua
+  falhar sem rede antes de a língua estar guardada, só volta a funcionar depois de reiniciar a app. Fica a língua atual,
+  sem erro visível. Isto acontece raramente; a correção é a mesma (JSON com `fetch`), mas para o i18n implica separar o
+  texto das funções.
+- `gerar-dados.mjs` (achado 15) não foi alterado.

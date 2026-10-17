@@ -1,7 +1,8 @@
 // Funcionamento sem internet: guarda só os ficheiros da própria app (nunca dados pessoais). Pré-guarda o núcleo; os blocos
 // de cada língua guardam-se quando a app os pede (decisão 45). Cache primeiro; uma versão nova
 // (novo hash, definido no build) assume no arranque seguinte. A cache anterior mantém-se até à seguinte, para que uma página
-// ainda com o código antigo consiga carregar os seus blocos (c-….js, com nome pelo conteúdo).
+// ainda com o código antigo consiga carregar os seus blocos (c-….js e d/….json, com nome pelo conteúdo). Assim, os
+// ficheiros com hash de versões antigas nunca se acumulam: ficam no máximo os da versão anterior.
 const CACHE = 'orthodox-helper-__HASH__';
 const FICHEIROS = ['./', './index.html', './app.js'];
 self.addEventListener('install', e => e.waitUntil(caches.open(CACHE)
@@ -13,10 +14,11 @@ self.addEventListener('activate', e => e.waitUntil((async () => {
   const antigas = (await caches.keys()).filter(k => k.startsWith('orthodox-helper-') && k !== CACHE);
   const idiomas = await atual.match('idiomas.json');
   const usados = new Set(idiomas ? Object.values(await idiomas.json()).flat() : []);
+  const base = new URL(self.registration.scope).pathname;   // caminhos de idiomas.json: relativos à pasta da app (d/…)
   for (const k of antigas.reverse()) {                 // da mais recente para a mais antiga
     const c = await caches.open(k);
     for (const pedido of await c.keys()) {
-      if (!usados.has(new URL(pedido.url).pathname.split('/').pop()) || await atual.match(pedido)) continue;
+      if (!usados.has(new URL(pedido.url).pathname.slice(base.length)) || await atual.match(pedido)) continue;
       const r = await c.match(pedido);
       if (r) await atual.put(pedido, r);
     }
@@ -27,7 +29,7 @@ self.addEventListener('activate', e => e.waitUntil((async () => {
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
   if (e.request.method !== 'GET' || url.origin !== location.origin) return;
-  const bloco = /\/c-[A-Z0-9]+\.js$/.test(url.pathname);
+  const bloco = /\/c-[A-Z0-9]+\.js$|\/d\/[^/]+\.[0-9a-f]{8}\.json$/.test(url.pathname);   // nome pelo conteúdo
   e.respondWith(caches.open(CACHE).then(c => c.match(e.request, { ignoreSearch: true }))
     .then(r => r || (bloco ? caches.match(e.request, { ignoreSearch: true }) : null))
     .then(r => r || fetch(e.request).then(res => {

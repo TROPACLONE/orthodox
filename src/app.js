@@ -11,6 +11,7 @@ import { grausDoDia, comemoracoesDoDia, carregarNomes } from './dados/graus.js';
 import { leituras, eothinon } from './engine/leituras.js';
 import { formatarRef } from './engine/referencias.js';
 import { periodoOracao, blocosDoPeriodo, eNoite, CATISMAS, planoSalterio } from './engine/oracoes.js';
+import * as conversor from './engine/eslavo.js';   // estático (núcleo, ~10 KB): um import() falhado sem rede não se repetia
 import indiceOracoes from './dados/gerado/oracoes/indice.json' with { type: 'json' };
 
 const LINGUAS = ['pt', 'uk', 'ru', 'en'];
@@ -39,7 +40,11 @@ function transicao(fn) {
 
 // ── Preferências (só conveniência local; a app funciona sem elas)
 function ler(k) { try { return localStorage.getItem('oh.' + k); } catch { return null; } }
-function gravar(k, v) { try { localStorage.setItem('oh.' + k, v); } catch { /* armazenamento indisponível: ignora-se */ } }
+// Armazenamento indisponível (p. ex. navegação privada, quota): a app funciona na mesma; devolve false e fica registado,
+// para avisar onde perder a preferência faz diferença (plano do Saltério).
+let semArmazenamento = false;
+function gravar(k, v) { try { localStorage.setItem('oh.' + k, v); return true; } catch { semArmazenamento = true; return false; } }
+try { localStorage.setItem('oh.teste', '1'); localStorage.removeItem('oh.teste'); } catch { semArmazenamento = true; }
 function linguaInicial() {
   const guardada = ler('lingua');
   if (LINGUAS.includes(guardada)) return guardada;
@@ -56,9 +61,11 @@ const st = {
   outraCamada: false,
   escala: ESCALAS.some(e => e[0] === ler('escala')) ? ler('escala') : 'normal',
   vista: 'hoje', definicoes: false,
-  eslavo: ler('eslavo') !== 'nao', oracao: null,   // oracao: { id, dados } quando há uma oração aberta (3.º nível)
+  eslavo: ler('eslavo') !== 'nao', oracao: null,   // oracao: { id, dados, conv, y } quando há uma oração aberta (3.º nível)
   grupo: null, grupos: null,                        // grupo aberto (Saltério, acatistos, defuntos) e as listas na língua
   modoSalterio: ler('salterio.modo') === 'defuntos' ? 'defuntos' : 'habitual', umPorDia: ler('salterio.diario') === 'sim',
+  // Plano do Saltério (dec. 65) também em memória: sem armazenamento, vale até fechar a app.
+  salterio: { ultima: Number(ler('salterio.ultima')) || 0, data: Number(ler('salterio.data')) || 0 },
   jdn: jdnHoje(), mes: null,
 };
 
@@ -254,12 +261,13 @@ function ecraGrupo() {
   const T = st.t, g = st.grupo, S = T.salterio, s = h('section', { class: 'screen' });
   s.append(h('h1', { class: 'data-civil', tabindex: '-1', text: T.oracoes[g] }));
   if (g === 'salterio') {
-    const p = planoSalterio(Number(ler('salterio.ultima')) || 0, Number(ler('salterio.data')) || 0, jdnHoje(), st.umPorDia);
+    const p = planoSalterio(st.salterio.ultima, st.salterio.data, jdnHoje(), st.umPorDia);
     s.append(h('div', { class: 'bloco' },
       p.lida ? h('p', { class: 'txt', text: S.hojeLida(p.n) })
         : h('button', { class: 'item', type: 'button', 'data-acao': 'oracao', 'data-id': idCatisma(p.n) }, h('span', { text: S.continuar(p.n) }), icone('i-seguinte', 18, 18)),
-      h('div', { class: 'campo' }, h('label', { text: S.umPorDia }), seg('sal-diario', [['sim', T.ui.sim], ['nao', T.ui.nao]], st.umPorDia ? 'sim' : 'nao')),
-      h('div', { class: 'campo' }, h('label', { text: S.modo }), seg('sal-modo', [['habitual', S.habitual], ['defuntos', S.defuntos]], st.modoSalterio))));
+      semArmazenamento && h('p', { class: 'nota', text: S.semArmazenamento }),
+      campo(S.umPorDia, 'sal-diario', [['sim', T.ui.sim], ['nao', T.ui.nao]], st.umPorDia ? 'sim' : 'nao'),
+      campo(S.modo, 'sal-modo', [['habitual', S.habitual], ['defuntos', S.defuntos]], st.modoSalterio)));
   }
   const ul = h('ul', { class: 'menu' });
   for (const m of st.grupos[g] || []) {
@@ -270,13 +278,38 @@ function ecraGrupo() {
   s.append(ul);
   return s;
 }
+// Dados das orações (dist/d/, nome com o hash do conteúdo; ver build.mjs). fetch() e não import(): sem rede, o pedido
+// falha, mas repete-se no toque seguinte (um import() falhado fica guardado pelo browser até fechar a app).
+const DADOS_LINGUAS = ['cu', 'pt', 'uk', 'ru', 'en'];
+async function dados(id, l) {
+  const hash = (__DADOS__[id] || '').substr(DADOS_LINGUAS.indexOf(l) * 8, 8);
+  if (!/^[0-9a-f]{8}$/.test(hash)) throw new Error(`sem dados: ${id}-${l}`);
+  const r = await fetch(`d/${id}-${l}.${hash}.json`);
+  if (!r.ok) throw new Error(r.status);
+  return r.json();
+}
+let gruposDe = null;   // língua de st.grupos (a lista não se volta a pedir a cada abertura)
 // Devolve false se entretanto mudou a língua (dois toques seguidos na língua, ou a língua mudada nas Definições durante o
 // carregamento): a lista que chega tarde não substitui a da língua atual.
 async function carregarGrupos() {
-  const lingua = st.lingua, m = await import(`./dados/gerado/oracoes/grupos-${lingua}.json`, { with: { type: 'json' } });
+  const lingua = st.lingua;
+  if (gruposDe === lingua) return true;
+  const g = await dados('grupos', lingua);
   if (lingua !== st.lingua) return false;
-  st.grupos = m.default;
+  st.grupos = g; gruposDe = lingua;
   return true;
+}
+// Eslavo de uma oração (ficheiro partilhado pelas 4 línguas, alinhado pela posição dos blocos). Com o eslavo desligado
+// não se pede: liga-se nas Definições e completa-se então (completarEslavo). o.conv marca a oração com eslavo.
+const carregarEslavo = async id => (await dados(id, 'cu')).cu;
+function juntarEslavo(o, cu) {
+  o.dados.blocos.forEach((b, i) => { b.cu = cu[i]; });
+  o.conv = conversor;
+}
+async function completarEslavo() {
+  const o = st.oracao;
+  if (!o || o.conv) return;
+  try { const e = await carregarEslavo(o.id); if (st.oracao === o) juntarEslavo(o, e); } catch { /* sem rede: fica só a tradução */ }
 }
 async function abrirGrupo(g) {
   const pedido = ++pedidoOracao;
@@ -289,9 +322,10 @@ async function abrirGrupo(g) {
 let pedidoOracao = 0;
 async function abrirOracao(id) {
   const pedido = ++pedidoOracao, lingua = st.lingua, y = $('main').scrollTop;   // posição na lista, retomada ao voltar
-  const [dados, conv] = await Promise.all([import(`./dados/gerado/oracoes/${id}-${lingua}.json`, { with: { type: 'json' } }), import('./engine/eslavo.js')]);
+  const [d, eslavo] = await Promise.all([dados(id, lingua), st.eslavo ? carregarEslavo(id) : null]);   // em paralelo
   if (pedido !== pedidoOracao || lingua !== st.lingua) return;   // entretanto abriu-se outra oração ou mudou a língua
-  st.oracao = { id, dados: dados.default, conv, y };
+  st.oracao = { id, dados: d, conv: null, y };
+  if (eslavo) juntarEslavo(st.oracao, eslavo);
   await transicao(() => { render(); topo(); });
   // O botão tocado desapareceu: o foco passa ao título da oração (leitores de ecrã anunciam o novo ecrã).
   if (!st.definicoes) $('main').querySelector('h1')?.focus({ preventScroll: true });
@@ -305,7 +339,7 @@ function ecraOracao() {
   const salterio = id.startsWith('salterio-'), modos = salterio && st.modoSalterio === 'defuntos' ? ['defuntos'] : [];
   s.append(h('h1', { class: 'data-civil', tabindex: '-1', text: dados.titulo }), h('span', { class: 'estado', text: T.estado[dados.estado] || dados.estado }));
   if (T.periodo[periodo] && comAviso(id, periodo)) s.append(h('div', { class: 'nota', text: T.periodo[periodo] }));   // só os períodos com aviso (pascais)
-  const eslavo = st.eslavo ? (st.lingua === 'uk' ? conv.izvod : conv.civil) : null;
+  const eslavo = st.eslavo && conv ? (st.lingua === 'uk' ? conv.izvod : conv.civil) : null;
   for (const b of blocosDoPeriodo(dados.blocos, periodo, modos)) {
     const rep = b.repetir ? ` (${T.ui.vezes(b.repetir)})` : '';
     if (b.tipo === 'rubrica') { s.append(h('p', { class: 'rubrica', text: b.t + rep })); continue; }
@@ -327,18 +361,21 @@ function ecraEmPreparacao() {
     h('h1', { text: T.ui.emPreparacao }), h('p', { class: 'txt', text: T.ui.emPreparacaoTxt })));
 }
 
+// Pergunta com botões de escolha: o grupo tem como nome acessível o rótulo (aria-labelledby).
+function campo(rotulo, nome, opcoes, atual) {
+  return h('div', { class: 'campo' }, h('label', { id: 'rotulo-' + nome, text: rotulo }), seg(nome, opcoes, atual));
+}
 function seg(nome, opcoes, atual) {
-  return h('div', { class: 'seg', role: 'group' }, opcoes.map(([v, rotulo]) =>
+  return h('div', { class: 'seg', role: 'group', 'aria-labelledby': 'rotulo-' + nome }, opcoes.map(([v, rotulo]) =>
     h('button', { type: 'button', 'data-acao': nome, 'data-valor': v, 'aria-pressed': String(v === atual), text: rotulo })));
 }
 function ecraDefinicoes() {
   const T = st.t;
   return h('section', { class: 'screen' },
-    h('div', { class: 'campo' }, h('label', { text: T.ui.lingua }), seg('lingua', LINGUAS.map(l => [l, NOMES_LINGUA[l]]), st.lingua)),
-    h('div', { class: 'campo' }, h('label', { text: T.ui.camadaDefeito }),
-      seg('camada-defeito', [['paroquial', T.ui.camadaParoquial], ['typikon', T.ui.camadaTypikon]], st.camada)),
-    h('div', { class: 'campo' }, h('label', { text: T.ui.tamanhoTexto }), seg('escala', ESCALAS.map(([k]) => [k, T.ui[k]]), st.escala)),
-    h('div', { class: 'campo' }, h('label', { text: T.ui.mostrarEslavo }), seg('eslavo', [['sim', T.ui.sim], ['nao', T.ui.nao]], st.eslavo ? 'sim' : 'nao')),
+    campo(T.ui.lingua, 'lingua', LINGUAS.map(l => [l, NOMES_LINGUA[l]]), st.lingua),
+    campo(T.ui.camadaDefeito, 'camada-defeito', [['paroquial', T.ui.camadaParoquial], ['typikon', T.ui.camadaTypikon]], st.camada),
+    campo(T.ui.tamanhoTexto, 'escala', ESCALAS.map(([k]) => [k, T.ui[k]]), st.escala),
+    campo(T.ui.mostrarEslavo, 'eslavo', [['sim', T.ui.sim], ['nao', T.ui.nao]], st.eslavo ? 'sim' : 'nao'),
     h('div', { class: 'bloco' }, h('h2', { text: T.ui.acerca }), h('p', { class: 'txt', text: T.ui.acercaTxt }),
       h('p', { class: 'txt', text: `${T.ui.versao} ${__VERSAO__}` })),
     h('div', { class: 'bloco' }, h('h2', { text: T.ui.licencas }), h('p', { class: 'txt', text: T.ui.licencasTxt })));
@@ -429,12 +466,13 @@ $('main').addEventListener('click', async e => {
   }
   else if (a === 'camada-defeito') { st.camada = b.dataset.valor; gravar('camada', st.camada); }
   else if (a === 'escala') { st.escala = b.dataset.valor; gravar('escala', st.escala); }
-  else if (a === 'eslavo') { st.eslavo = b.dataset.valor === 'sim'; gravar('eslavo', b.dataset.valor); }
+  else if (a === 'eslavo') { st.eslavo = b.dataset.valor === 'sim'; gravar('eslavo', b.dataset.valor); if (st.eslavo) await completarEslavo(); }
   else if (a === 'sal-diario') { st.umPorDia = b.dataset.valor === 'sim'; gravar('salterio.diario', b.dataset.valor); }
   else if (a === 'sal-modo') { st.modoSalterio = b.dataset.valor; gravar('salterio.modo', b.dataset.valor); }
   else if (a === 'sal-lida') {                         // sem reconstruir o ecrã: a posição de leitura fica
-    gravar('salterio.ultima', b.dataset.n); gravar('salterio.data', jdnHoje());
-    const comFoco = document.activeElement === b, aviso = h('p', { class: 'txt', role: 'status', tabindex: '-1', text: st.t.salterio.lida });
+    st.salterio = { ultima: Number(b.dataset.n), data: jdnHoje() };
+    const S = st.t.salterio, ok = gravar('salterio.ultima', st.salterio.ultima) && gravar('salterio.data', st.salterio.data);
+    const comFoco = document.activeElement === b, aviso = h('p', { class: 'txt', role: 'status', tabindex: '-1', text: ok ? S.lida : `${S.lida} ${S.semArmazenamento}` });
     b.replaceWith(aviso);
     if (comFoco) aviso.focus({ preventScroll: true });   // o botão desapareceu: o foco não cai no <body>
     return;
@@ -465,23 +503,41 @@ $('tabs').addEventListener('click', e => {
   st.vista = b.dataset.vista; st.definicoes = false; st.outraCamada = false; st.oracao = null; st.grupo = null; pedidoOracao++;
   transicao(() => { render(); topo(); });
 });
-// Definições abertas a meio de uma oração longa: ao voltar ao mesmo ecrã, retoma-se a posição de leitura.
+// Definições abertas a meio de uma oração longa: ao voltar ao mesmo ecrã, retoma-se a posição de leitura. A posição é o
+// bloco no topo do ecrã (índice entre os filhos do ecrã) e o desvio dentro dele, não os píxeis: com content-visibility,
+// a altura dos blocos fora do ecrã é estimada, e o tamanho do texto pode ter mudado entretanto.
+function posicaoLeitura() {
+  const m = $('main'), topoM = m.getBoundingClientRect().top, filhos = m.firstElementChild?.children || [];
+  for (let i = 0; i < filhos.length; i++) { const r = filhos[i].getBoundingClientRect(); if (r.bottom > topoM) return { i, dy: topoM - r.top }; }
+  return { i: 0, dy: 0 };
+}
+function retomarLeitura({ i, dy }) {
+  const m = $('main'), el = m.firstElementChild?.children[i];
+  if (!el) return;
+  // Os blocos vizinhos só ganham a altura real depois de renderizados: corrige-se nos frames seguintes (até 3).
+  const acertar = n => {
+    const d = el.getBoundingClientRect().top - m.getBoundingClientRect().top + dy;
+    if (Math.abs(d) >= 1) topo(m.scrollTop + d);
+    if (n) requestAnimationFrame(() => acertar(n - 1));
+  };
+  acertar(3);
+}
 let antesDefinicoes = null;
 $('btn-dir').addEventListener('click', () => {
-  antesDefinicoes = { vista: st.vista, oracao: st.oracao, y: $('main').scrollTop };
+  antesDefinicoes = { vista: st.vista, oracao: st.oracao, pos: posicaoLeitura() };
   st.definicoes = true; transicao(() => { render(); topo(); });
 });
 $('btn-esq').addEventListener('click', async () => {
   // O «Voltar» fica desativado no ecrã de destino: o foco do teclado passa ao elemento equivalente (e não ao <body>).
-  let alvo, y = 0;
+  let alvo, y = 0, pos = null;
   if (st.definicoes) {
     st.definicoes = false; alvo = 'btn-dir';
     const a = antesDefinicoes;
-    if (a && a.vista === st.vista && a.oracao === st.oracao) y = a.y;
+    if (a && a.vista === st.vista && a.oracao === st.oracao) pos = a.pos;
   } else if (st.oracao) { alvo = st.oracao.id; y = st.oracao.y || 0; st.oracao = null; pedidoOracao++; }
   else if (st.grupo) { alvo = st.grupo; st.grupo = null; pedidoOracao++; }
   else return;
-  await transicao(() => { render(); topo(y); });   // sem scroll-behavior: smooth
+  await transicao(() => { render(); if (pos) retomarLeitura(pos); else topo(y); });   // sem scroll-behavior: smooth
   const el = alvo === 'btn-dir' ? $('btn-dir') : $('main').querySelector(`.menu [data-id="${alvo}"]`);
   // Aberta pelo «Continuar» (fora da lista) ou lista mais alta do que o ecrã: o item fica à vista antes de receber o foco.
   if (el && alvo !== 'btn-dir') el.scrollIntoView({ block: 'nearest', behavior: 'instant' });

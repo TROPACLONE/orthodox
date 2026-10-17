@@ -130,6 +130,9 @@ select { font: inherit; }
 .rubrica { margin: 0; color: var(--cinnabar); font: italic 400 .92rem/1.45 var(--f-text); }
 .titulo-oracao { margin: 8px 0 0; font: 400 1.15rem/1.3 var(--f-display); color: var(--gold); }
 .par { display: grid; gap: 6px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+/* Textos longos (catisma 17: ~200 blocos): o browser só faz layout e pintura dos blocos perto do ecrã; os outros ocupam
+   a altura estimada (ou a última medida, «auto»). A posição de leitura retoma-se pelo bloco, não pelos píxeis (app.js). */
+.par { content-visibility: auto; contain-intrinsic-size: auto 7rem; }
 .slav { margin: 0; font: 400 1.08rem/1.55 var(--f-slav); }
 .trad { margin: 0; font: 400 1.02rem/1.6 var(--f-text); color: #d6ccb8; }
 
