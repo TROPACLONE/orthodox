@@ -2045,7 +2045,7 @@
   {
    "id": "k13-p-11",
    "tipo": "oracao",
-   "cu": "И ны́нѣ: Стра́шнаго Твоего́ и гро́знаго, и неумы́тнаго суда́, Христе́, во умѣ́ пріе́мъ день и часъ, трепе́щу, я́ко злодѣ́й, студа́ дѣла́ и дѣя́нія имѣ́я лю́тая, я́же еди́нъ азъ содѣ́яхъ приле́жно. Тѣ́мже стра́хомъ припа́даю Тебѣ́, вопія́ болѣ́зненно: моли́твами Ро́ждшія Тя, Многоми́лостиве, спаси́ мя.",
+   "cu": "И ны́нѣ: Стра́шнаго Твоего́ и гро́знаго, и неумы́тнаго суда́, Христе́, во умѣ́ пріе́мъ день и часъ, трепе́щу, я́ко злодѣ́й, студа́ дѣла́ и дѣя́нія имѣ́яй лю́тая, я́же еди́нъ азъ содѣ́яхъ приле́жно. Тѣ́мже стра́хомъ припа́даю Тебѣ́, вопія́ болѣ́зненно: моли́твами Ро́ждшія Тя, Многоми́лостиве, спаси́ мя.",
    "pt": "E agora…: Considerando o dia e a hora do Teu juízo terrível, temível e incorruptível, ó Cristo, tremo como um malfeitor, tendo obras vergonhosas e atos cruéis, que só eu cometi com afinco. Por isso me prostro diante de Ti com temor, clamando com dor: pelas orações daquela que Te deu à luz, ó muito Misericordioso, salva-me.",
    "ru": "И ныне: Страшного Твоего, и грозного, и неподкупного суда, Христе, приняв в ум день и час, трепещу, как злодей, имея постыдные дела и лютые деяния, которые я один совершил усердно. Потому со страхом припадаю к Тебе, болезненно взывая: молитвами Родившей Тебя, Многомилостиве, спаси меня.",
    "uk": "І нині: Страшного Твого, і грізного, і неупередженого суду, Христе, взявши до розуму день і годину, тремчу, як злочинець, маючи соромні діла і люті діяння, які я один чинив ревно. Тому зі страхом припадаю до Тебе, болісно взиваючи: молитвами Тієї, що народила Тебе, Многомилостивий, спаси мене.",
@@ -2061,7 +2061,8 @@
     "excepto": [
      "defuntos"
     ]
-   }
+   },
+   "nota": "P1874 (img. n190): «имѣ́я»."
   },
   {
    "id": "k13-p-12",
@@ -2189,18 +2190,19 @@
   {
    "id": "k13-p-18",
    "tipo": "oracao",
-   "cu": "Го́споди Святы́й, И́же въ вы́шнихъ живы́й, и всеви́дящимъ Твои́мъ о́комъ призира́яй на всю тварь, Тебѣ́ приклони́хомъ вы́ю души́ и тѣлесе́, и Тебѣ́ мо́лимся, Святы́й святы́хъ: простри́ ру́ку Твою́ неви́димую отъ свята́го жили́ща Твоего́, и благослови́ вся ны: и а́ще что къ Тебѣ́ согрѣши́хомъ во́лею и нево́лею, я́ко Благъ и Человѣколю́бецъ Богъ прости́, да́руй намъ и мі́рная блага́я Твоя́: Твое́ бо есть, е́же ми́ловати и спаса́ти, Бо́же нашъ, и Тебѣ́ сла́ву возсыла́емъ, Отцу́ и Сы́ну и Свято́му Ду́ху, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
-   "pt": "Senhor santo, que habitas nas alturas e com o Teu olhar que tudo vê contemplas toda a criação: diante de Ti inclinámos a cerviz da alma e do corpo, e a Ti suplicamos, ó Santo dos santos: estende a Tua mão invisível desde a Tua santa morada e abençoa-nos a todos; e se em algo pecámos contra Ti, voluntária ou involuntariamente, como Deus bom e amigo dos homens, perdoa, concedendo-nos também os Teus bens deste mundo. Pois Teu é ter misericórdia e salvar, ó nosso Deus, e a Ti damos glória, ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
-   "ru": "Господи Святый, в вышних живущий и всевидящим Твоим оком призирающий на всю тварь, Тебе мы преклонили выю души и тела, и Тебе молимся, Святой святых: простри руку Твою невидимую от святого жилища Твоего и благослови всех нас; и если в чем мы согрешили пред Тобою вольно или невольно, как Благой и Человеколюбивый Бог прости, даруя нам и мирские блага Твои. Ибо Твое есть — миловать и спасать, Боже наш, и Тебе славу воссылаем, Отцу и Сыну и Святому Духу, ныне и присно и во веки веков. Аминь.",
-   "uk": "Господи Святий, що живеш на висотах і всевидющим Твоїм оком дивишся на все створіння, Тобі ми схилили шию душі і тіла, і Тобі молимося, Святий святих: простягни руку Твою невидиму від святої оселі Твоєї і благослови всіх нас; і якщо в чомусь ми згрішили перед Тобою з волі чи мимоволі, як Благий і Чоловіколюбний Бог прости, даруючи нам і світські блага Твої. Бо Твоє є — милувати і спасати, Боже наш, і Тобі славу возсилаємо, Отцю, і Сину, і Святому Духу, нині, і повсякчас, і на віки віків. Амінь.",
-   "en": "O holy Lord, Who dwellest on high, and with Thine all-seeing eye lookest upon all creation: before Thee have we bowed the neck of soul and body, and unto Thee we pray, O Holy of holies: stretch forth Thine invisible hand from Thy holy dwelling-place, and bless us all; and if in aught we have sinned against Thee, willingly or unwillingly, as a good God and the Lover of mankind, forgive, granting us also Thy good things of this world. For Thine it is to have mercy and to save, O our God, and unto Thee we send up glory, to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "cu": "Го́споди Святы́й, И́же въ вы́шнихъ живы́й, и всеви́дящимъ Твои́мъ о́комъ призира́яй на всю тварь, Тебѣ́ приклони́хомъ вы́ю души́ и тѣлесе́, и Тебѣ́ мо́лимся, Святы́й святы́хъ: простри́ ру́ку Твою́ неви́димую отъ свята́го жили́ща Твоего́, и благослови́ вся ны: и а́ще что къ Тебѣ́ согрѣши́хомъ во́лею и нево́лею, я́ко Благъ и Человѣколю́бецъ Богъ прости́, да́руяй намъ и ми́рная блага́я Твоя́: Твое́ бо есть, е́же ми́ловати и спаса́ти, Бо́же нашъ, и Тебѣ́ сла́ву возсыла́емъ, Отцу́ и Сы́ну и Свято́му Ду́ху, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Senhor santo, que habitas nas alturas e com o Teu olhar que tudo vê contemplas toda a criação: diante de Ti inclinámos a cerviz da alma e do corpo, e a Ti suplicamos, ó Santo dos santos: estende a Tua mão invisível desde a Tua santa morada e abençoa-nos a todos; e se em algo pecámos contra Ti, voluntária ou involuntariamente, como Deus bom e amigo dos homens, perdoa, concedendo-nos também os Teus bens de paz. Pois Teu é ter misericórdia e salvar, ó nosso Deus, e a Ti damos glória, ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Господи Святый, в вышних живущий и всевидящим Твоим оком призирающий на всю тварь, Тебе мы преклонили выю души и тела, и Тебе молимся, Святой святых: простри руку Твою невидимую от святого жилища Твоего и благослови всех нас; и если в чем мы согрешили пред Тобою вольно или невольно, как Благой и Человеколюбивый Бог прости, даруя нам и мирные блага Твои. Ибо Твое есть — миловать и спасать, Боже наш, и Тебе славу воссылаем, Отцу и Сыну и Святому Духу, ныне и присно и во веки веков. Аминь.",
+   "uk": "Господи Святий, що живеш на висотах і всевидющим Твоїм оком дивишся на все створіння, Тобі ми схилили шию душі і тіла, і Тобі молимося, Святий святих: простягни руку Твою невидиму від святої оселі Твоєї і благослови всіх нас; і якщо в чомусь ми згрішили перед Тобою з волі чи мимоволі, як Благий і Чоловіколюбний Бог прости, даруючи нам і мирні блага Твої. Бо Твоє є — милувати і спасати, Боже наш, і Тобі славу возсилаємо, Отцю, і Сину, і Святому Духу, нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "O holy Lord, Who dwellest on high, and with Thine all-seeing eye lookest upon all creation: before Thee have we bowed the neck of soul and body, and unto Thee we pray, O Holy of holies: stretch forth Thine invisible hand from Thy holy dwelling-place, and bless us all; and if in aught we have sinned against Thee, willingly or unwillingly, as a good God and the Lover of mankind, forgive, granting us also Thy peaceful good things. For Thine it is to have mercy and to save, O our God, and unto Thee we send up glory, to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
    "fonte": {
     "cu": "P1874 img. n190",
     "ru": "propria",
     "en": "propria",
     "pt": "propria",
     "uk": "propria"
-   }
+   },
+   "nota": "P1874 (img. n190): «да́руй намъ и мі́рная» (a forma «мі́рная» é a da transcrição; ilegível na digitalização)."
   }
  ]
 }

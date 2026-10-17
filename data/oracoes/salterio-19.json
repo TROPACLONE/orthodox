@@ -2217,11 +2217,11 @@
   {
    "id": "k19-p-10",
    "tipo": "oracao",
-   "cu": "Сла́ва: Безмѣ́рная Тебѣ́ прегрѣши́хъ, и безмѣ́рныхъ муче́ній ожида́ю: Бо́же мой, уще́дривъ, спаси́ мя.",
-   "pt": "Glória…: Pequei contra Ti sem medida e espero tormentos sem medida: meu Deus, compadece-Te e salva-me.",
-   "ru": "Слава: Безмерно я согрешил пред Тобою и ожидаю безмерных мучений: Боже мой, умилосердившись, спаси меня.",
-   "uk": "Слава: Безмірно я згрішив перед Тобою і чекаю безмірних мук: Боже мій, змилосердившись, спаси мене.",
-   "en": "Glory…: Beyond measure have I sinned against Thee, and torments beyond measure do I await: O my God, have compassion and save me.",
+   "cu": "Сла́ва: Безмѣ́рная Тебѣ́ прегрѣши́въ, и безмѣ́рныхъ муче́ній ожида́ю: Бо́же мой, уще́дривъ, спаси́ мя.",
+   "pt": "Glória…: Tendo pecado contra Ti sem medida, espero tormentos sem medida: meu Deus, compadece-Te e salva-me.",
+   "ru": "Слава: Безмерно согрешив пред Тобою, ожидаю безмерных мучений: Боже мой, умилосердившись, спаси меня.",
+   "uk": "Слава: Безмірно згрішивши перед Тобою, чекаю безмірних мук: Боже мій, змилосердившись, спаси мене.",
+   "en": "Glory…: Having sinned against Thee beyond measure, I await torments beyond measure: O my God, have compassion and save me.",
    "fonte": {
     "cu": "P1874 img. n259",
     "ru": "propria",
@@ -2233,7 +2233,8 @@
     "excepto": [
      "defuntos"
     ]
-   }
+   },
+   "nota": "P1874 (img. n260): «прегрѣши́хъ» (= «pequei»)."
   },
   {
    "id": "k19-p-11",
