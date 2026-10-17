@@ -31,6 +31,7 @@ Períodos (`quando`), calculados pelo motor a partir da Páscoa (doc. 03 §1.4, 
 - `semana_luminosa` — P … P+6 (as orações da manhã e da noite são substituídas pelas Horas Pascais);
 - `pascoa_ascensao` — P+7 … véspera da Ascensão (a oração da noite da quarta-feira P+38 já pertence à Ascensão, B1);
 - `ascensao_pentecostes` — Ascensão … véspera do Pentecostes (as orações começam em «Santo Deus»);
+- `quaresma` — P−48 … P−1, de segunda-feira da 1.ª semana a Sábado Santo, incluindo Sábado de Lázaro, Ramos e Semana Santa (como no Molitvoslov atual por data; usado no tropário «Егда́ сла́внии» do ofício da Comunhão);
 - `comum` — o resto do ano.
 
 Regras de tradução:

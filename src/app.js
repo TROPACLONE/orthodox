@@ -251,11 +251,14 @@ async function abrirOracao(id) {
   // O botão tocado desapareceu: o foco passa ao título da oração (leitores de ecrã anunciam o novo ecrã).
   if (!st.definicoes) $('main').querySelector('h1').focus({ preventScroll: true });
 }
+// Os avisos de período descrevem as orações da manhã e da noite. O ofício da Comunhão começa da mesma maneira,
+// mas na Semana Luminosa lê-se o Cânone Pascal (não as Horas Pascais); as outras orações não têm aviso.
+const comAviso = (id, periodo) => id === 'manha' || id === 'noite' || (id === 'comunhao_preparacao' && periodo !== 'semana_luminosa');
 function ecraOracao() {
   const T = st.t, { id, dados, conv } = st.oracao, s = h('section', { class: 'screen oracao' });
   const d = dia(jdnHoje()), periodo = periodoOracao(d, eNoite(id, new Date().getHours()));
   s.append(h('h1', { class: 'data-civil', tabindex: '-1', text: dados.titulo }), h('span', { class: 'estado', text: T.estado[dados.estado] || dados.estado }));
-  if (T.periodo[periodo]) s.append(h('div', { class: 'nota', text: T.periodo[periodo] }));   // só os períodos com aviso (pascais)
+  if (T.periodo[periodo] && comAviso(id, periodo)) s.append(h('div', { class: 'nota', text: T.periodo[periodo] }));   // só os períodos com aviso (pascais)
   const eslavo = st.eslavo ? (st.lingua === 'uk' ? conv.izvod : conv.civil) : null;
   for (const b of blocosDoPeriodo(dados.blocos, periodo)) {
     const rep = b.repetir ? ` (${T.ui.vezes(b.repetir)})` : '';

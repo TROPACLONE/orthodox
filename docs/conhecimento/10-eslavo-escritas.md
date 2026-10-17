@@ -22,7 +22,7 @@
    - são puras e O(n): uma passagem, e cada palavra é vista um número constante de vezes; 2 MB em poucos milissegundos (teste);
    - preservam pontuação, espaços e maiúsculas;
    - nunca perdem um acento: o número de U+0301 à saída é igual ao da entrada (teste).
-5. **Testes:** 45 casos `civil` e 101 casos `izvod`, sobre linhas reais. Abrangem o Pai-Nosso, o Trisságio, «Царю Небесный», «Богородице Дево», o Credo completo, «Достойно есть», a Oração de Jesus, o Salmo 50, orações da manhã e tropários. Os esperados são copiados de [3], [4] e [1].
+5. **Testes:** 45 casos `civil` e 118 casos `izvod`, sobre linhas reais. Abrangem o Pai-Nosso, o Trisságio, «Царю Небесный», «Богородице Дево», o Credo completo, «Достойно есть», a Oração de Jesus, o Salmo 50, orações da manhã e tropários. Os esperados são copiados de [3], [4] e [1].
 
 ---
 
@@ -200,10 +200,11 @@ A notação «[1] *secção*» indica a secção de Віра.Укр, por exemplo
 
 **Casos de texto:**
 - **2.ª verificação (fase 2a, dec. 49), 16.10.2026:** as 257 linhas de orações (manhã, noite, refeições, Oração de Jesus, regra de S. Serafim) foram convertidas e alinhadas palavra a palavra com o texto de [1] («Молитви ранішні», «Молитви на сон грядущим»). Fora das variantes de redação do próprio texto eslavo, as divergências do conversor foram corrigidas (K8, K9, K15, K16, K18, K21, K22, K23) e ficaram 17 casos novos nos testes. Divergências que ficam: K10 (fontes inconstantes), K16 no plural («плотськія», «Ієрусалимськія» em [1]; o código dá -ия), «Іісус» (K26), «сп'я́ща» de [1] (sem regra que o justifique), «почию» de [1] (o código dá «почію»).
+- **3.ª verificação (fase 2b, dec. 49), 17.10.2026:** todo o eslavo dos três cânones, do Послідування до Святого Причастя e das orações de ação de graças foi alinhado com o texto de [1]. Acrescentados: cerca de 40 nomes com -і na lista fechada (ка́мені, Ве́чері, Кро́ві, Царе́ві…), dativos -ови/-еви → -ові/-еві, imperativo -и́теся → -і́теся, Бож- + -іи- → -ии- (Бо́жиїм), і depois de vogal → ї (шу́їя), prefixo + и → і (неіждива́ємоє, проізволе́ніє, преіму́щий), «Св’я́зан», «сп’я́ща», formas fixas (Госпо́днє, Ко́рмчию, возопи́й, кля́тся, постиди́мся, єле́йом, нісьм, єсьми, возьми́) e o homógrafo «помощи́» (infinitivo, fica com и). Sem regressões na 2a. [1] é inconstante em «-ности» e no plural «-ія»; segue-se a regra escrita.
 - O texto «Київський ізвод» da página longa de [4] (`molytvy-ranishni`) segue outra transliteração, mais simples («святится», «приідет», «мя», «ти/ми»), diferente das páginas individuais de [4] e de [1]; não serve de referência.
 - **45 casos `civil`:** Pai-Nosso (5), Credo (12), Trisságio, «Слава», «Царю Небесный» (3), «Богородице Дево» (2), «Достойно есть» (2), Oração de Jesus, publicano, «Пресвятая Троице», S. Macário (2), Salmo 50 (3), tropário «Внезапно», mais casos de letras e marcas.
   - Esperados de [3]; «Богородице Дево» e Oração de Jesus de [4] (separador civil).
-- **101 casos `izvod`:** as mesmas linhas, mais o Salmo 50, a oração a S. Macário, os tropários do tom 6, «Спаси, Господи», as orações 8 e 10 da manhã, e um caso por regra com os exemplos de [1].
+- **118 casos `izvod`:** as mesmas linhas, mais o Salmo 50, a oração a S. Macário, os tropários do tom 6, «Спаси, Господи», as orações 8 e 10 da manhã, um caso por regra com os exemplos de [1] e 17 linhas dos cânones e do ofício da Comunhão (fase 2b).
   - Esperados de [4] e [1].
   - Onde a fonte difere só em maiúsculas, vírgulas ou acento de monossílabo, o comentário do caso indica-o.
 
