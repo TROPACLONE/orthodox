@@ -1,0 +1,550 @@
+{
+ "id": "salterio-antes",
+ "ordem": 0,
+ "titulo": {
+  "cu": "Моли́твы предъ чте́ніемъ Псалти́ри",
+  "pt": "Orações antes da leitura do Saltério",
+  "ru": "Молитвы перед чтением Псалтири",
+  "uk": "Молитви перед читанням Псалтиря",
+  "en": "Prayers before Reading the Psalter"
+ },
+ "fontes": [
+  {
+   "chave": "PON",
+   "descricao": "Ponomar Project (A. Andreev e colaboradores), «Елисаветинская Библия», ficheiro languages/cu/bible/elis/Psalm.text, e Services/Kathisma1–20.xml (divisão em Glórias). Repositório github.com/typiconman/ponomar, commit 0af645f438856f45c22026912d2e4a9ce495e531 (17.08.2025).",
+   "url": "https://github.com/typiconman/ponomar",
+   "notas": "Licença GNU GPL v3. Texto-base dos Sl 46–151 (dec. 72), em ortografia eslava eclesiástica Unicode, convertido automaticamente para a escrita civil pré-reforma da app (regras e tabela de títulos em data/salterio/_fontes/FONTES-salterio.md). Os dados do Saltério são distribuídos sob GPL v3 (data/salterio/LICENCA.md)."
+  },
+  {
+   "chave": "P1874",
+   "descricao": "Псалтирь [Слѣдованная]. Почаевъ: Почаевская Успенская Лавра, 1874. Exemplar da Bayerische Staatsbibliothek, Liturg. 1444 m (digitalização BSB; cópia no archive.org «11187435bsb»).",
+   "url": "https://archive.org/details/11187435bsb",
+   "notas": "Domínio público. Tipo eslavo com acentos. Texto dos Sl 1–45 (transcrição verificada na digitalização), orações antes da leitura (img. n029–n030), «Слава» de cada estância e textos depois de cada catisma (tropários, «Господи, помилуй» 40, oração). Imagem = «img. nNNN» (folha 0-based do archive.org). Original: https://www.digitale-sammlungen.de/en/view/bsb11187435"
+  },
+  {
+   "chave": "BR1851",
+   "descricao": "L. C. L. Brenton, The Septuagint Version of the Old Testament, with an English translation. London: S. Bagster & Sons (ed. c. 1879; tradução de 1844/1851).",
+   "url": "https://archive.org/details/septuagintversio1879bren",
+   "notas": "Domínio público (Brenton † 1862). Salmos na coluna EN (dec. 41), adaptados a Thee/Thou e ao eslavo."
+  },
+  {
+   "chave": "H1906",
+   "descricao": "I. F. Hapgood, Service Book of the Holy Orthodox-Catholic Apostolic (Greco-Russian) Church. Boston/New York: Houghton, Mifflin & Co., 1906.",
+   "url": "https://archive.org/details/cu31924029363128",
+   "notas": "Domínio público (Hapgood † 1928). Adaptado (dec. 41, 53): Thee/Thou com maiúscula para Deus, en-GB, «Birth-giver of God» → «Theotokos», «Hail» → «Rejoice» (χαῖρε/радуйся), e correções de fidelidade ao eslavo assinaladas em nota."
+  },
+  {
+   "chave": "K1817",
+   "descricao": "Канонникъ. Москва: Синодальная типографія, декабрь 1817.",
+   "url": "https://viewer.rsl.ru/rsl01015049339",
+   "notas": "Biblioteca Estatal Russa; citado por n.º de imagem do visualizador (img. = 2 × folha + 7). Канонъ молебный (forma de moleben) img. 121–140; tropário e Theotokion do Anjo da Guarda img. 141. Não contém o cânone penitencial."
+  },
+  {
+   "chave": "MS1900",
+   "descricao": "Молитвословъ. Изданіе десятое. Москва: Синодальная типографія, 1900. По благословенію Святѣйшаго Правительствующаго Синода.",
+   "url": "https://archive.org/details/molitvoslov00andr",
+   "notas": "Domínio público. Tropários «О умершихъ» (Со духи праведныхъ…, Въ покоищи…, Ты еси Богъ…, Едина чистая…) pp. 324–325; condácio e ícos p. 326; «Молитва по исходѣ души» («Помяни, Господи Боже нашъ…») pp. 536–537; «Молитвами святыхъ отецъ» p. 461. Página = número impresso."
+  },
+  {
+   "chave": "PS1993",
+   "descricao": "Псалтирь слѣдованная, ч. 1. Москва: Издательскій отдѣлъ Московскаго Патріархата / Донской монастырь, 1993 (тип. славянскій, текстъ синодальнаго изданія).",
+   "url": "https://archive.org/details/Psaltirsledovannaja_20221222_222250_744815",
+   "notas": "⚠ Reedição moderna (1993) do texto sinodal em tipo eslavo; o texto litúrgico é tradicional (domínio público) e não se encontrou ainda digitalização pré-1917 da Псалтирь слѣдованная: conferir quando surgir. «Послѣдованіе по исходѣ души отъ тѣла» pp. 216–226 (cânone pelo defunto, tom 8; tropário «Единъ естествомъ»; theotokion «Источникъ живота»; «Во блаженномъ успеніи»). Páginas conferidas nas imagens 216–226."
+  },
+  {
+   "chave": "T1907",
+   "descricao": "Православный толковый молитвословъ. С.-Петербургъ: Изданіе Виленскаго Свято-Духовскаго братства, 1907.",
+   "url": "https://archive.org/details/pravoslavnytolko00russ",
+   "notas": "Domínio público. Leitura do Saltério e cânticos sobre o corpo para os fiéis, pp. 19–28 (escrita civil, sem acentos; com tradução russa): conferência do eslavo."
+  },
+  {
+   "chave": "TR1884",
+   "descricao": "Требникъ. Москва: Синодальная типографія, десятымъ тисненіемъ, январь 1884 (лѣто ҂аѿпд, индиктъ ві). Репринтъ: С.-Петербургъ, 1995, по благословенію Патріарха Алексія II.",
+   "url": "https://archive.org/details/Trebnik_20221222_222250_744815",
+   "notas": "Domínio público (reimpressão fac-similada de edição sinodal de 1884; o ano lê-se no cólofon, img. 3, conferido na imagem). Lítia à morte de um leigo e tropários «Со духи праведныхъ» img. 186–187; salmo 90 img. 188; «Указъ о провожденіи усопшихъ на святую Пасху» л. 125 об. = img. 258. Citado por n.º de imagem do ficheiro DjVu."
+  },
+  {
+   "chave": "YU1915",
+   "descricao": "П. А. Юнгеровъ, Книга Псалмовъ. Русскій переводъ съ греческаго текста LXX съ предисловіемъ и примѣчаніями. Казань, 1915 (⚠ ano/edição a confirmar).",
+   "url": "https://archive.org/details/psalms-yung-1",
+   "notas": "Domínio público (autor † 1921). Coluna RU dos Sl 22, 23, 115 (dec. 41). ⚠ Usada a reedição digital («Псалтирь пророка Давида. Опыт переложения на русский язык», carregada em 2022, texto em ortografia moderna, com acrescentos editoriais entre parênteses retos, aqui omitidos); não conferida com o impresso."
+  },
+  {
+   "chave": "Z1912",
+   "descricao": "Молитвы и песнопения православного молитвослова (для мирян) съ переводомъ на русскій языкъ, объясненіями и примѣчаніями Николая Нахимова [Н. Ч. Зайончковскій, 1859–1920]. С.-Петербургъ: Синодальная типографія, 1912.",
+   "url": "https://archive.org/details/molitvyipesnopenijapravoslavnogomolitvos65",
+   "notas": "Domínio público (autor † 1920). Ofício pelos defuntos (tropário «Глубиною», tropários «по непорочнахъ», sedalen, condácio, ícos, hirmos 9) pp. 266–269, eslavo com acentos + tradução russa (coluna RU adaptada, dec. 57); orações da manhã (blocos reutilizados). Página = número impresso."
+  }
+ ],
+ "estado": {
+  "pt": "nao_revista",
+  "ru": "nao_revista",
+  "uk": "nao_revista",
+  "en": "nao_revista"
+ },
+ "blocos": [
+  {
+   "id": "salterio-antes-01",
+   "tipo": "titulo",
+   "cu": "Моли́твы предъ чте́ніемъ Псалти́ри",
+   "pt": "Orações antes da leitura do Saltério",
+   "ru": "Молитвы перед чтением Псалтири",
+   "uk": "Молитви перед читанням Псалтиря",
+   "en": "Prayers before Reading the Psalter",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Título próprio (como no Molitvoslov atual). P1874 img. n029 abre com a rubrica seguinte."
+  },
+  {
+   "id": "salterio-antes-02",
+   "tipo": "rubrica",
+   "cu": "Разу́мно да бу́детъ, ка́ко подоба́етъ осо́бь пѣ́ти Псалти́рь. А́ще іере́й, глаго́летъ:",
+   "pt": "Saiba-se como convém salmodiar o Saltério em privado. Se for sacerdote, diz:",
+   "ru": "Следует знать, как подобает наедине петь Псалтирь. Если священник, он возглашает:",
+   "uk": "Слід знати, як належить наодинці співати Псалтир. Якщо священник, він виголошує:",
+   "en": "Be it known how the Psalter should be chanted in private. If a priest, he saith:",
+   "fonte": {
+    "cu": "P1874 img. n029",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "salterio-antes-03",
+   "tipo": "oracao",
+   "cu": "Благослове́нъ Богъ нашъ, всегда́, ны́нѣ и при́сно, и во вѣ́ки вѣко́въ.",
+   "pt": "Bendito é o nosso Deus, sempre, agora e sempre e pelos séculos dos séculos.",
+   "ru": "Благословен Бог наш всегда, ныне и присно и во веки веков.",
+   "uk": "Благословен Бог наш завжди, нині, і повсякчас, і на віки віків.",
+   "en": "Blessed is our God, always, now and ever, and unto ages of ages.",
+   "fonte": {
+    "cu": "P1874 img. n029",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Só o sacerdote."
+  },
+  {
+   "id": "salterio-antes-04",
+   "tipo": "rubrica",
+   "cu": "А́ще ли ни, глаго́ли умиле́нно:",
+   "pt": "Se não, diz com compunção:",
+   "ru": "Если же нет, говори с умилением:",
+   "uk": "Якщо ж ні, промовляй з розчуленням:",
+   "en": "If not, say with compunction:",
+   "fonte": {
+    "cu": "P1874 img. n029",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "salterio-antes-05",
+   "tipo": "oracao",
+   "cu": "Моли́твами святы́хъ оте́цъ на́шихъ, Го́споди Іису́се Христе́ Бо́же нашъ, поми́луй насъ. Ами́нь.",
+   "pt": "Pelas orações dos nossos santos Padres, Senhor Jesus Cristo, nosso Deus, tem piedade de nós. Ámen.",
+   "ru": "По молитвам святых отцов наших, Господи Иисусе Христе, Боже наш, помилуй нас. Аминь.",
+   "uk": "Молитвами святих отців наших, Господи Іісусе Христе, Боже наш, помилуй нас. Амінь.",
+   "en": "Through the prayers of our holy fathers, O Lord Jesus Christ our God, have mercy upon us. Amen.",
+   "fonte": {
+    "cu": "Канонникъ 1817 (RSL rsl01015049339, img. 164); MS1900 p. 461",
+    "ru": "propria",
+    "en": "H1906 p. 238",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a noite-019 (noite.json).]"
+  },
+  {
+   "id": "salterio-antes-06",
+   "tipo": "oracao",
+   "cu": "Сла́ва Тебѣ́, Бо́же нашъ, сла́ва Тебѣ́.",
+   "pt": "Glória a Ti, ó nosso Deus, glória a Ti.",
+   "ru": "Слава Тебе, Боже наш, слава Тебе.",
+   "uk": "Слава Тобі, Боже наш, слава Тобі.",
+   "en": "Glory to Thee, O our God, glory to Thee.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a noite-020 (noite.json).] O P1874 passa de «Молитвами святыхъ отецъ…» a «Царю Небесный»; acrescenta-se «Слава Тебе, Боже нашъ», como no Molitvoslov e no Saltério atuais (dec. 62)."
+  },
+  {
+   "id": "salterio-antes-07",
+   "tipo": "oracao",
+   "cu": "Царю́ Небе́сный, Утѣ́шителю, Ду́ше и́стины, И́же вездѣ́ сый и вся исполня́яй, Сокро́вище благи́хъ и жи́зни Пода́телю, пріиди́ и всели́ся въ ны, и очи́сти ны отъ вся́кія скве́рны, и спаси́, Бла́же, ду́ши на́ша.",
+   "pt": "Rei Celeste, Consolador, Espírito da Verdade, que estás em toda a parte e tudo enches, Tesouro dos bens e Dador da vida, vem e habita em nós, purifica-nos de toda a mancha e salva, ó Bom, as nossas almas.",
+   "ru": "Царь Небесный, Утешитель, Дух истины, вездесущий и всё наполняющий, Сокровищница благ и Податель жизни, приди и вселись в нас; очисти нас от всякой нечистоты и спаси, Благий, души наши.",
+   "uk": "Царю Небесний, Утішителю, Душе істини, що всюди єси і все наповнюєш, Скарбе благ і Подателю життя, прийди і вселися в нас, і очисти нас від усякої скверни, і спаси, Благий, душі наші.",
+   "en": "O Heavenly King, the Comforter, the Spirit of Truth, who art in all places and fillest all things, Treasury of good things and Giver of life: come and abide in us, and cleanse us from every stain, and save our souls, O Good One.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "Z1912 p. 1 (adaptado)",
+    "en": "H1906 p. 67",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa",
+     "pascoa_ascensao",
+     "ascensao_pentecostes"
+    ]
+   },
+   "nota": "[Texto idêntico a noite-021 (noite.json).]"
+  },
+  {
+   "id": "salterio-antes-08",
+   "tipo": "oracao",
+   "cu": "Христо́съ воскре́се изъ ме́ртвыхъ, сме́ртію смерть попра́въ и су́щимъ во гробѣ́хъ живо́тъ дарова́въ.",
+   "pt": "Cristo ressuscitou dos mortos, pela morte calcou a morte e aos que estavam nos sepulcros deu a vida.",
+   "ru": "Христос воскрес из мертвых, смертью смерть поправ и сущим во гробах жизнь даровав.",
+   "uk": "Христос воскрес із мертвих, смертю смерть подолав і тим, що в гробах, життя дарував.",
+   "en": "Christ is risen from the dead, trampling down death by death, and upon those in the tombs bestowing life.",
+   "fonte": {
+    "cu": "Z1912 p. 106",
+    "ru": "propria",
+    "en": "H1906 p. 226",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "[Texto idêntico a noite-023 (noite.json).] Em lugar de «Царю Небесный», da Páscoa à Ascensão (regra das orações da manhã e da noite)."
+  },
+  {
+   "id": "salterio-antes-09",
+   "tipo": "rubrica",
+   "cu": "Отъ Вознесе́нія Госпо́дня до Пятидеся́тницы моли́твы начина́ются со «Святы́й Бо́же»; «Царю́ Небе́сный» и всё, что предше́ствуетъ ему́, опуска́ется.",
+   "pt": "Da Ascensão do Senhor até ao Pentecostes, as orações começam em «Santo Deus»; omite-se «Rei Celeste» e tudo o que o precede.",
+   "ru": "От Вознесения Господня до Пятидесятницы молитвы начинаются со «Святый Боже»; «Царю Небесный» и все, что предшествует ему, опускается.",
+   "uk": "Від Вознесіння Господнього до П’ятидесятниці молитви починаються зі «Святий Боже»; «Царю Небесний» і все, що йому передує, опускається.",
+   "en": "From the Ascension of the Lord until Pentecost, the prayers begin with «Holy God»; «O Heavenly King» and all that precedes it are omitted.",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "ascensao_pentecostes"
+    ]
+   },
+   "nota": "[Texto idêntico a noite-024 (noite.json).]"
+  },
+  {
+   "id": "salterio-antes-10",
+   "tipo": "oracao",
+   "cu": "Святы́й Бо́же, Святы́й Крѣ́пкій, Святы́й Безсме́ртный, поми́луй насъ.",
+   "pt": "Santo Deus, Santo Forte, Santo Imortal, tem piedade de nós.",
+   "ru": "Святый Боже, Святый Крепкий, Святый Бессмертный, помилуй нас.",
+   "uk": "Святий Боже, Святий Кріпкий, Святий Безсмертний, помилуй нас.",
+   "en": "Holy God, Holy Mighty, Holy Immortal, have mercy upon us.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "[Texto idêntico a noite-025 (noite.json).]"
+  },
+  {
+   "id": "salterio-antes-11",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a noite-026 (noite.json).]"
+  },
+  {
+   "id": "salterio-antes-12",
+   "tipo": "oracao",
+   "cu": "Пресвята́я Тро́ице, поми́луй насъ; Го́споди, очи́сти грѣхи́ на́ша; Влады́ко, прости́ беззако́нія на́ша; Святы́й, посѣти́ и исцѣли́ не́мощи на́ша, и́мене Твоего́ ра́ди.",
+   "pt": "Santíssima Trindade, tem piedade de nós; Senhor, purifica os nossos pecados; Soberano, perdoa as nossas iniquidades; Santo, visita e cura as nossas enfermidades, por causa do Teu nome.",
+   "ru": "Пресвятая Троица, помилуй нас; Господи, очисти грехи наши; Владыка, прости беззакония наши; Святой, посети и исцели немощи наши ради имени Твоего.",
+   "uk": "Пресвята Трійце, помилуй нас; Господи, очисти гріхи наші; Владико, прости беззаконня наші; Святий, відвідай і зціли немочі наші імені Твого ради.",
+   "en": "O all-holy Trinity, have mercy upon us. O Lord, cleanse our sins. O Master, pardon our transgressions. O Holy One, visit and heal our infirmities, for Thy Name's sake.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a noite-027 (noite.json).]"
+  },
+  {
+   "id": "salterio-antes-13",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "[Texto idêntico a noite-028 (noite.json).]"
+  },
+  {
+   "id": "salterio-antes-14",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a noite-029 (noite.json).]"
+  },
+  {
+   "id": "salterio-antes-15",
+   "tipo": "oracao",
+   "cu": "О́тче нашъ, И́же еси́ на небесѣ́хъ! Да святи́тся и́мя Твое́, да пріи́детъ Ца́рствіе Твое́, да бу́детъ во́ля Твоя́, я́ко на небеси́ и на земли́. Хлѣбъ нашъ насу́щный даждь намъ днесь; и оста́ви намъ до́лги на́ша, я́коже и мы оставля́емъ должнико́мъ на́шимъ; и не введи́ насъ во искуше́ніе, но изба́ви насъ отъ лука́ваго.",
+   "pt": "Pai nosso, que estás nos céus, santificado seja o Teu nome; venha o Teu Reino; seja feita a Tua vontade, como no céu, assim na terra. O pão nosso de cada dia dá-nos hoje; e perdoa-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores; e não nos conduzas à tentação, mas livra-nos do maligno.",
+   "ru": "Отче наш, сущий на небесах! Да святится имя Твое, да придет Царствие Твое, да будет воля Твоя, как на небе, так и на земле. Хлеб наш насущный дай нам сегодня; и прости нам долги наши, как и мы прощаем должникам нашим; и не введи нас в искушение, но избавь нас от лукавого.",
+   "uk": "Отче наш, що єси на небесах! Нехай святиться ім’я Твоє, нехай прийде Царство Твоє, нехай буде воля Твоя, як на небі, так і на землі. Хліб наш насущний дай нам сьогодні; і прости нам борги наші, як і ми прощаємо боржникам нашим; і не введи нас у спокусу, але визволи нас від лукавого.",
+   "en": "Our Father, who art in heaven, hallowed be Thy Name. Thy kingdom come. Thy will be done, as in heaven, so on earth. Give us this day our daily bread. And forgive us our debts, as we forgive our debtors. And lead us not into temptation, but deliver us from the evil one.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria (Z1912 parafraseava)",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a noite-030 (noite.json).]"
+  },
+  {
+   "id": "salterio-antes-16",
+   "tipo": "oracao",
+   "cu": "Тропа́рь, гласъ 8: Глубино́ю му́дрости человѣколю́бно вся стро́яй и поле́зное всѣ́мъ подава́яй, еди́не Содѣ́телю, упоко́й, Го́споди, ду́шу усо́пшаго раба́ Твоего́: на Тя бо упова́ніе возложи́, Творца́ и Зижди́теля и Бо́га на́шего.",
+   "pt": "Tropário, tom 8: Tu que, com profundidade de sabedoria, tudo dispões com amor pelos homens e a todos dás o que lhes é útil, ó único Criador, dá repouso, Senhor, à alma do Teu servo falecido, porque em Ti pôs a sua esperança, no nosso Criador, Arquiteto e Deus.",
+   "ru": "Тропарь, глас 8: Глубиною мудрости человеколюбиво всё устрояющий и всем полезное подающий, единый Создатель, упокой, Господи, душу усопшего раба Твоего, ибо он возложил надежду на Тебя, Творца, Зиждителя и Бога нашего.",
+   "uk": "Тропар, глас 8: Глибиною мудрості чоловіколюбно все влаштовуючи і корисне всім подаючи, єдиний Творче, упокой, Господи, душу спочилого раба Твого, бо на Тебе він поклав надію, Творця, і Будівничого, і Бога нашого.",
+   "en": "Troparion, Tone 8: O Thou who with depth of wisdom dost order all things in love for mankind, and givest unto all that which is profitable, O only Creator: give rest, O Lord, to the soul of Thy servant who hath fallen asleep; for he hath set his hope on Thee, our Maker and Fashioner and God.",
+   "fonte": {
+    "cu": "Z1912 p. 266; T1907 p. 22",
+    "ru": "Z1912 p. 266 (adaptado)",
+    "en": "H1906 p. 440 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "defuntos"
+    ]
+   },
+   "nota": "[Texto idêntico a defuntos-panikhida-27 (defuntos-panikhida.json).] Modo «pelos defuntos»: a prática atual manda começar a leitura «с предначинательных молитв и тропаря «Глубиною мудрости…»» (Azbuka Very, «О чтении Псалтири по усопшим»). ⚠ Posição (antes ou em vez dos tropários «Помилуй насъ») não indicada; não está no P1874."
+  },
+  {
+   "id": "salterio-antes-17",
+   "tipo": "titulo",
+   "cu": "Тропари́, гласъ 6:",
+   "pt": "Tropários, tom 6:",
+   "ru": "Тропари, глас 6:",
+   "uk": "Тропарі, глас 6:",
+   "en": "Troparia, Tone 6:",
+   "fonte": {
+    "cu": "Z1912 p. 13",
+    "ru": "Z1912 p. 13",
+    "en": "H1906 p. 157",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a noite-031 (noite.json).]"
+  },
+  {
+   "id": "salterio-antes-18",
+   "tipo": "oracao",
+   "cu": "Поми́луй насъ, Го́споди, поми́луй насъ; вся́каго бо отвѣ́та недоумѣ́юще, сію́ Ти моли́тву я́ко Влады́цѣ грѣ́шніи прино́симъ: поми́луй насъ.",
+   "pt": "Tem piedade de nós, Senhor, tem piedade de nós; pois, sem saber dar qualquer resposta, nós, pecadores, oferecemos-Te esta súplica como a Soberano: tem piedade de nós.",
+   "ru": "Помилуй нас, Господи, помилуй нас! Не находя себе никакого оправдания, мы, грешные, приносим Тебе, как Владыке, эту молитву: помилуй нас!",
+   "uk": "Помилуй нас, Господи, помилуй нас; бо, жодної відповіді не знаходячи, цю молитву Тобі, як Владиці, ми, грішні, приносимо: помилуй нас.",
+   "en": "Have mercy upon us, O Lord, have mercy upon us; for we sinners, void of all defence, offer unto Thee this supplication as unto our Master: have mercy upon us.",
+   "fonte": {
+    "cu": "Z1912 p. 13; MS1900 p. 36; K1817 img. 164",
+    "ru": "Z1912 p. 13",
+    "en": "H1906 p. 157–158 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a noite-032 (noite.json).] P1874 img. n029: «…поми́луй насъ: вся́каго бо отвѣ́та недоумѣ́юще, сію́ Ти моли́тву, я́ко Влады́цѣ, грѣ́шніи прино́симъ: поми́луй насъ» (só pontuação diferente)."
+  },
+  {
+   "id": "salterio-antes-19",
+   "tipo": "oracao",
+   "cu": "Сла́ва: Честно́е проро́ка Твоего́, Го́споди, торжество́, не́бо Це́рковь показа́, съ человѣ́ки лику́ютъ А́нгели: того́ моли́твами, Христе́ Бо́же, въ ми́рѣ упра́ви живо́тъ нашъ, да пое́мъ Ти: аллилу́іа.",
+   "pt": "Glória…: A venerável festa do Teu profeta, Senhor, mostrou a Igreja como um céu: com os homens exultam os anjos. Pelas suas orações, ó Cristo Deus, guia em paz a nossa vida, para que Te cantemos: Aleluia.",
+   "ru": "Слава: Честное торжество пророка Твоего, Господи, явило Церковь небом: с людьми ликуют Ангелы. Его молитвами, Христе Боже, в мире управь жизнь нашу, чтобы мы пели Тебе: аллилуия.",
+   "uk": "Слава: Чесне торжество пророка Твого, Господи, показало Церкву небом: з людьми радіють Ангели. Його молитвами, Христе Боже, в мирі керуй життям нашим, щоб ми співали Тобі: алилуя.",
+   "en": "Glory…: The honourable festival of Thy Prophet, O Lord, hath shown the Church to be heaven: with men the Angels rejoice. By his prayers, O Christ God, guide our life in peace, that we may sing unto Thee: Alleluia.",
+   "fonte": {
+    "cu": "P1874 img. n029",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Tropário do profeta David (no Saltério, em lugar do 2.º tropário das orações da noite). P1874 img. n029."
+  },
+  {
+   "id": "salterio-antes-20",
+   "tipo": "oracao",
+   "cu": "И ны́нѣ: Мно́гая мно́жества мои́хъ, Богоро́дице, прегрѣше́ній, къ Тебѣ́ прибѣго́хъ, Чи́стая, спасе́нія тре́буя: посѣти́ немощству́ющую мою́ ду́шу, и моли́ Сы́на Твоего́ и Бо́га на́шего, да́ти ми оставле́ніе, я́же содѣ́яхъ лю́тыхъ, Еди́на Благослове́нная.",
+   "pt": "E agora…: Com a imensa multidão dos meus pecados, ó Mãe de Deus, a Ti recorri, ó Pura, buscando a salvação: visita a minha alma enferma e roga ao Teu Filho e nosso Deus que me conceda o perdão dos males que cometi, ó única Bendita.",
+   "ru": "И ныне: С великим множеством моих прегрешений, Богородица, к Тебе прибегаю, Чистая, ища спасения: посети немощную мою душу и моли Сына Твоего и Бога нашего даровать мне прощение лютых дел, которые я совершил, Единая Благословенная.",
+   "uk": "І нині: З великою множиною моїх прогрішень, Богородице, до Тебе прибігаю, Чиста, шукаючи спасіння: відвідай немічну мою душу і благай Сина Твого і Бога нашого дати мені прощення лютих діл, які я вчинив, Єдина Благословенна.",
+   "en": "Now and ever…: With the great multitude of my transgressions, O Theotokos, I have fled unto thee, O pure one, seeking salvation: visit my sick soul, and pray thy Son and our God to grant me remission of the evil deeds that I have done, O thou who alone art blessed.",
+   "fonte": {
+    "cu": "P1874 img. n029",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "salterio-antes-21",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 40,
+   "nota": "[Texto idêntico a noite-011 (noite.json).]"
+  },
+  {
+   "id": "salterio-antes-22",
+   "tipo": "rubrica",
+   "cu": "И поклони́ся, ели́ко ти мо́щно.",
+   "pt": "E faz prostrações, quantas puderes.",
+   "ru": "И положи поклоны, сколько можешь.",
+   "uk": "І зроби поклони, скільки можеш.",
+   "en": "And make prostrations, as many as thou canst.",
+   "fonte": {
+    "cu": "P1874 img. n029",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "salterio-antes-23",
+   "tipo": "titulo",
+   "cu": "Моли́тва Святѣ́й Живонача́льнѣй Тро́ицѣ",
+   "pt": "Oração à Santíssima Trindade, princípio da vida",
+   "ru": "Молитва Святой Живоначальной Троице",
+   "uk": "Молитва до Святої Живоначальної Тройці",
+   "en": "Prayer to the Holy Life-originating Trinity",
+   "fonte": {
+    "cu": "P1874 img. n030",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "P1874: «Та́же моли́тва Святѣ́й Живонача́льнѣй Тро́ицѣ:»."
+  },
+  {
+   "id": "salterio-antes-24",
+   "tipo": "oracao",
+   "cu": "Всесвята́я Тро́ице, Бо́же и Содѣ́телю всего́ мі́ра, поспѣши́ и напра́ви се́рдце мое́ нача́ти съ ра́зумомъ и конча́ти дѣ́лы благи́ми богодухнове́нныя сія́ кни́ги, я́же Святы́й Духъ усты́ Дави́довы отры́гну, я́же ны́нѣ хощу́ глаго́лати азъ недосто́йный. Разумѣ́я же свое́ невѣ́жество, припа́дая молю́ся Ти, и е́же отъ Тебе́ по́мощи прося́: Го́споди, упра́ви умъ мой и утверди́ се́рдце мое́, не о глаго́ланіи усте́нъ стужа́ти си, но о ра́зумѣ глаго́лемыхъ весели́тися, и пригото́витися на творе́ніе до́брыхъ дѣлъ, я́же учу́ся, и глаго́лю: да до́брыми дѣ́лы просвѣще́нъ, на суди́щи десны́я Ти страны́ прича́стникъ бу́ду со всѣ́ми избра́нными Твои́ми. И ны́нѣ, Влады́ко, благослови́, да воздохну́въ отъ се́рдца, и язы́комъ воспою́, глаго́лая си́це:",
+   "pt": "Santíssima Trindade, Deus e Criador do mundo inteiro, apressa-Te e dirige o meu coração a começar com entendimento e a terminar com boas obras estes livros inspirados por Deus, que o Espírito Santo proferiu pela boca de David e que eu, indigno, quero agora dizer. Conhecendo a minha ignorância, prostro-me e suplico-Te, pedindo-Te ajuda: Senhor, guia a minha mente e firma o meu coração, para que não me canse com o dizer dos lábios, mas me alegre com o entendimento do que se diz e me prepare para praticar as boas obras que aprendo; e digo: que, iluminado pelas boas obras, no julgamento eu tenha parte à Tua direita com todos os Teus eleitos. E agora, Soberano, abençoa, para que, suspirando do fundo do coração, cante também com a língua, dizendo assim:",
+   "ru": "Всесвятая Троица, Боже и Создатель всего мира, поспеши и направь сердце мое начать с разумением и окончить добрыми делами эти богодухновенные книги, которые Дух Святой изрек устами Давида и которые ныне хочу произносить я, недостойный. Сознавая же свое невежество, припадаю и молюсь Тебе, прося у Тебя помощи: Господи, управь мой ум и утверди мое сердце, чтобы мне не тяготиться произнесением уст, но веселиться разумением произносимого и приготовляться к творению добрых дел, которым учусь, и говорю: да буду, просвещенный добрыми делами, на суде причастником правой Твоей стороны со всеми избранными Твоими. И ныне, Владыко, благослови, чтобы я, вздохнув от сердца, и языком воспел, говоря так:",
+   "uk": "Всесвята Тройце, Боже і Творче всього світу, поспіши і направ серце моє почати з розумінням і закінчити добрими ділами ці богонатхненні книги, які Дух Святий виголосив устами Давида і які нині хочу промовляти я, недостойний. Усвідомлюючи ж своє невігластво, припадаю і молюся Тобі, просячи в Тебе допомоги: Господи, керуй моїм розумом і утверди серце моє, щоб я не обтяжувався промовлянням уст, але веселився розумінням промовлюваного і готувався до творення добрих діл, яких навчаюся, і кажу: щоб, просвічений добрими ділами, на суді я став причасником правої Твоєї сторони з усіма вибраними Твоїми. І нині, Владико, благослови, щоб я, зітхнувши від серця, і язиком оспівав, промовляючи так:",
+   "en": "O All-holy Trinity, God and Creator of all the world, hasten and direct my heart to begin with understanding and to finish with good works these God-inspired books, which the Holy Spirit uttered by the mouth of David, and which I, unworthy, now desire to recite. Knowing mine own ignorance, I fall down and pray unto Thee, asking help of Thee: O Lord, guide my mind and establish my heart, that I weary not in the uttering of the lips, but rejoice in the understanding of the things said, and prepare myself for the doing of the good works which I learn; and I say: that, enlightened by good works, I may at the judgement have part on Thy right hand with all Thine elect. And now, O Master, bless, that, sighing from my heart, I may also sing with my tongue, saying thus:",
+   "fonte": {
+    "cu": "P1874 img. n030",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "salterio-antes-25",
+   "tipo": "oracao",
+   "cu": "Пріиди́те, поклони́мся Царе́ви на́шему Бо́гу. Пріиди́те, поклони́мся и припаде́мъ Христу́, Царе́ви на́шему Бо́гу. Пріиди́те, поклони́мся и припаде́мъ Самому́ Христу́, Царе́ви и Бо́гу на́шему.",
+   "pt": "Vinde, adoremos o nosso Rei e Deus. Vinde, adoremos e prostremo-nos diante de Cristo, nosso Rei e Deus. Vinde, adoremos e prostremo-nos diante do próprio Cristo, Rei e nosso Deus.",
+   "ru": "Придите, поклонимся Царю, нашему Богу. Придите, поклонимся и припадем ко Христу, Царю, нашему Богу. Придите, поклонимся и припадем к Самому Христу, Царю и Богу нашему.",
+   "uk": "Прийдіть, поклонімося Цареві нашому Богові. Прийдіть, поклонімося і припадімо до Христа, Царя нашого Бога. Прийдіть, поклонімося і припадімо до Самого Христа, Царя і Бога нашого.",
+   "en": "O come, let us worship God our King. O come, let us worship and fall down before Christ, our King and God. O come, let us worship and fall down before Christ Himself, our King and God.",
+   "fonte": {
+    "cu": "Z1912 p. 3",
+    "ru": "Z1912 p. 3 (adaptado)",
+    "en": "H1906 p. 15",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-28 (manha.json).] P1874 img. n030: «Прїиди́те, поклони́мся: три́жды.»"
+  },
+  {
+   "id": "salterio-antes-26",
+   "tipo": "rubrica",
+   "cu": "Та́же посто́й ма́ло, до́ндеже утиша́тся вся чу́вства. Тогда́ сотвори́ нача́ло не вско́рѣ, безъ лѣ́ности, со умиле́ніемъ и сокруше́ннымъ се́рдцемъ. Рцы сіе́: «Блаже́нъ мужъ», ти́хо и разу́мно, со внима́ніемъ, а не борзя́ся, я́коже и умо́мъ разумѣва́ти глаго́лемая.",
+   "pt": "Depois, detém-te um pouco, até que todos os sentidos se acalmem. Então começa sem pressa, sem preguiça, com compunção e coração contrito. Diz «Bem-aventurado o homem» devagar e com entendimento, com atenção e não à pressa, de modo a compreender também com a mente o que se diz.",
+   "ru": "Затем постой немного, пока не утихнут все чувства. Тогда начни не спеша, без лености, с умилением и сокрушенным сердцем. Произноси «Блажен муж» тихо и разумно, со вниманием, а не торопясь, так чтобы и умом понимать произносимое.",
+   "uk": "Потім постій трохи, доки не вгамуються всі почуття. Тоді почни не поспіхом, без лінощів, з розчуленням і сокрушенним серцем. Промовляй «Блаженний муж» тихо і розумно, з увагою, а не поспішаючи, так щоб і розумом розуміти промовлюване.",
+   "en": "Then stand still a little, until all thy senses be calmed. Then make a beginning, not hastily, without sloth, with compunction and a contrite heart. Say «Blessed is the man» quietly and with understanding, with attention and not in haste, so as to comprehend with the mind also the things that are said.",
+   "fonte": {
+    "cu": "P1874 img. n030",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  }
+ ]
+}

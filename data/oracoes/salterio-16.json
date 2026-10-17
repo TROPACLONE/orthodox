@@ -1,0 +1,2192 @@
+{
+ "id": "salterio-16",
+ "ordem": 16,
+ "titulo": {
+  "cu": "Каѳи́сма шестона́десятая",
+  "pt": "Catisma 16",
+  "ru": "Кафизма шестнадцатая",
+  "uk": "Кафізма шістнадцята",
+  "en": "Kathisma XVI"
+ },
+ "fontes": [
+  {
+   "chave": "PON",
+   "descricao": "Ponomar Project (A. Andreev e colaboradores), «Елисаветинская Библия», ficheiro languages/cu/bible/elis/Psalm.text, e Services/Kathisma1–20.xml (divisão em Glórias). Repositório github.com/typiconman/ponomar, commit 0af645f438856f45c22026912d2e4a9ce495e531 (17.08.2025).",
+   "url": "https://github.com/typiconman/ponomar",
+   "notas": "Licença GNU GPL v3. Texto-base dos Sl 46–151 (dec. 72), em ortografia eslava eclesiástica Unicode, convertido automaticamente para a escrita civil pré-reforma da app (regras e tabela de títulos em data/salterio/_fontes/FONTES-salterio.md). Os dados do Saltério são distribuídos sob GPL v3 (data/salterio/LICENCA.md)."
+  },
+  {
+   "chave": "P1874",
+   "descricao": "Псалтирь [Слѣдованная]. Почаевъ: Почаевская Успенская Лавра, 1874. Exemplar da Bayerische Staatsbibliothek, Liturg. 1444 m (digitalização BSB; cópia no archive.org «11187435bsb»).",
+   "url": "https://archive.org/details/11187435bsb",
+   "notas": "Domínio público. Tipo eslavo com acentos. Texto dos Sl 1–45 (transcrição verificada na digitalização), orações antes da leitura (img. n029–n030), «Слава» de cada estância e textos depois de cada catisma (tropários, «Господи, помилуй» 40, oração). Imagem = «img. nNNN» (folha 0-based do archive.org). Original: https://www.digitale-sammlungen.de/en/view/bsb11187435"
+  },
+  {
+   "chave": "CSLE",
+   "descricao": "Bíblia isabelina (1751/1756), módulo SWORD CSlElizabeth (CrossWire), escrita civil sem acentos.",
+   "url": "https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=CSlElizabeth",
+   "notas": "Domínio público. Grelha de versículos vinculativa (data/salterio/_fontes/grelha.json) e conferência palavra a palavra de cada versículo; capitalização dos nomes divinos e próprios."
+  },
+  {
+   "chave": "BR1851",
+   "descricao": "L. C. L. Brenton, The Septuagint Version of the Old Testament, with an English translation. London: S. Bagster & Sons (ed. c. 1879; tradução de 1844/1851).",
+   "url": "https://archive.org/details/septuagintversio1879bren",
+   "notas": "Domínio público (Brenton † 1862). Salmos na coluna EN (dec. 41), adaptados a Thee/Thou e ao eslavo."
+  },
+  {
+   "chave": "H1906",
+   "descricao": "I. F. Hapgood, Service Book of the Holy Orthodox-Catholic Apostolic (Greco-Russian) Church. Boston/New York: Houghton, Mifflin & Co., 1906.",
+   "url": "https://archive.org/details/cu31924029363128",
+   "notas": "Domínio público (Hapgood † 1928). Adaptado (dec. 41, 53): Thee/Thou com maiúscula para Deus, en-GB, «Birth-giver of God» → «Theotokos», «Hail» → «Rejoice» (χαῖρε/радуйся), e correções de fidelidade ao eslavo assinaladas em nota."
+  },
+  {
+   "chave": "K1817",
+   "descricao": "Канонникъ. Москва: Синодальная типографія, декабрь 1817.",
+   "url": "https://viewer.rsl.ru/rsl01015049339",
+   "notas": "Biblioteca Estatal Russa; citado por n.º de imagem do visualizador (img. = 2 × folha + 7). Канонъ молебный (forma de moleben) img. 121–140; tropário e Theotokion do Anjo da Guarda img. 141. Não contém o cânone penitencial."
+  },
+  {
+   "chave": "MS1900",
+   "descricao": "Молитвословъ. Изданіе десятое. Москва: Синодальная типографія, 1900. По благословенію Святѣйшаго Правительствующаго Синода.",
+   "url": "https://archive.org/details/molitvoslov00andr",
+   "notas": "Domínio público. Tropários «О умершихъ» (Со духи праведныхъ…, Въ покоищи…, Ты еси Богъ…, Едина чистая…) pp. 324–325; condácio e ícos p. 326; «Молитва по исходѣ души» («Помяни, Господи Боже нашъ…») pp. 536–537; «Молитвами святыхъ отецъ» p. 461. Página = número impresso."
+  },
+  {
+   "chave": "PS1993",
+   "descricao": "Псалтирь слѣдованная, ч. 1. Москва: Издательскій отдѣлъ Московскаго Патріархата / Донской монастырь, 1993 (тип. славянскій, текстъ синодальнаго изданія).",
+   "url": "https://archive.org/details/Psaltirsledovannaja_20221222_222250_744815",
+   "notas": "⚠ Reedição moderna (1993) do texto sinodal em tipo eslavo; o texto litúrgico é tradicional (domínio público) e não se encontrou ainda digitalização pré-1917 da Псалтирь слѣдованная: conferir quando surgir. «Послѣдованіе по исходѣ души отъ тѣла» pp. 216–226 (cânone pelo defunto, tom 8; tropário «Единъ естествомъ»; theotokion «Источникъ живота»; «Во блаженномъ успеніи»). Páginas conferidas nas imagens 216–226."
+  },
+  {
+   "chave": "T1907",
+   "descricao": "Православный толковый молитвословъ. С.-Петербургъ: Изданіе Виленскаго Свято-Духовскаго братства, 1907.",
+   "url": "https://archive.org/details/pravoslavnytolko00russ",
+   "notas": "Domínio público. Leitura do Saltério e cânticos sobre o corpo para os fiéis, pp. 19–28 (escrita civil, sem acentos; com tradução russa): conferência do eslavo."
+  },
+  {
+   "chave": "TR1884",
+   "descricao": "Требникъ. Москва: Синодальная типографія, десятымъ тисненіемъ, январь 1884 (лѣто ҂аѿпд, индиктъ ві). Репринтъ: С.-Петербургъ, 1995, по благословенію Патріарха Алексія II.",
+   "url": "https://archive.org/details/Trebnik_20221222_222250_744815",
+   "notas": "Domínio público (reimpressão fac-similada de edição sinodal de 1884; o ano lê-se no cólofon, img. 3, conferido na imagem). Lítia à morte de um leigo e tropários «Со духи праведныхъ» img. 186–187; salmo 90 img. 188; «Указъ о провожденіи усопшихъ на святую Пасху» л. 125 об. = img. 258. Citado por n.º de imagem do ficheiro DjVu."
+  },
+  {
+   "chave": "YU1915",
+   "descricao": "П. А. Юнгеровъ, Книга Псалмовъ. Русскій переводъ съ греческаго текста LXX съ предисловіемъ и примѣчаніями. Казань, 1915 (⚠ ano/edição a confirmar).",
+   "url": "https://archive.org/details/psalms-yung-1",
+   "notas": "Domínio público (autor † 1921). Coluna RU dos Sl 22, 23, 115 (dec. 41). ⚠ Usada a reedição digital («Псалтирь пророка Давида. Опыт переложения на русский язык», carregada em 2022, texto em ortografia moderna, com acrescentos editoriais entre parênteses retos, aqui omitidos); não conferida com o impresso."
+  },
+  {
+   "chave": "Z1912",
+   "descricao": "Молитвы и песнопения православного молитвослова (для мирян) съ переводомъ на русскій языкъ, объясненіями и примѣчаніями Николая Нахимова [Н. Ч. Зайончковскій, 1859–1920]. С.-Петербургъ: Синодальная типографія, 1912.",
+   "url": "https://archive.org/details/molitvyipesnopenijapravoslavnogomolitvos65",
+   "notas": "Domínio público (autor † 1920). Ofício pelos defuntos (tropário «Глубиною», tropários «по непорочнахъ», sedalen, condácio, ícos, hirmos 9) pp. 266–269, eslavo com acentos + tradução russa (coluna RU adaptada, dec. 57); orações da manhã (blocos reutilizados). Página = número impresso."
+  }
+ ],
+ "estado": {
+  "pt": "nao_revista",
+  "ru": "nao_revista",
+  "uk": "nao_revista",
+  "en": "nao_revista"
+ },
+ "fonteVersos": {
+  "cu": "PON+P1874",
+  "ru": "YU1915",
+  "en": "BR1851",
+  "pt": "propria",
+  "uk": "propria"
+ },
+ "blocos": [
+  {
+   "id": "k16-01",
+   "tipo": "titulo",
+   "cu": "Каѳи́сма шестона́десятая",
+   "pt": "Catisma 16",
+   "ru": "Кафизма шестнадцатая",
+   "uk": "Кафізма шістнадцята",
+   "en": "Kathisma XVI",
+   "fonte": {
+    "cu": "P1874",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "k16-02",
+   "tipo": "oracao",
+   "cu": "Пріиди́те, поклони́мся Царе́ви на́шему Бо́гу. Пріиди́те, поклони́мся и припаде́мъ Христу́, Царе́ви на́шему Бо́гу. Пріиди́те, поклони́мся и припаде́мъ Самому́ Христу́, Царе́ви и Бо́гу на́шему.",
+   "pt": "Vinde, adoremos o nosso Rei e Deus. Vinde, adoremos e prostremo-nos diante de Cristo, nosso Rei e Deus. Vinde, adoremos e prostremo-nos diante do próprio Cristo, Rei e nosso Deus.",
+   "ru": "Придите, поклонимся Царю, нашему Богу. Придите, поклонимся и припадем ко Христу, Царю, нашему Богу. Придите, поклонимся и припадем к Самому Христу, Царю и Богу нашему.",
+   "uk": "Прийдіть, поклонімося Цареві нашому Богові. Прийдіть, поклонімося і припадімо до Христа, Царя нашого Бога. Прийдіть, поклонімося і припадімо до Самого Христа, Царя і Бога нашого.",
+   "en": "O come, let us worship God our King. O come, let us worship and fall down before Christ, our King and God. O come, let us worship and fall down before Christ Himself, our King and God.",
+   "fonte": {
+    "cu": "Z1912 p. 3",
+    "ru": "Z1912 p. 3 (adaptado)",
+    "en": "H1906 p. 15",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "defuntos"
+    ]
+   },
+   "nota": "[Texto idêntico a manha-28 (manha.json).] Modo «pelos defuntos»: «каждая кафизма начинается молитвословием «Приидите, поклонимся»» (Azbuka Very, «О чтении Псалтири по усопшим»; prática atual, dec. 62). ⚠ Não está no P1874."
+  },
+  {
+   "id": "sl-109",
+   "tipo": "titulo",
+   "sl": 109,
+   "cu": "Псало́мъ 109.",
+   "pt": "Salmo 109 (110)",
+   "ru": "Псалом 109",
+   "uk": "Псалом 109",
+   "en": "Psalm 109 (110)"
+  },
+  {
+   "id": "sl-109-00",
+   "tipo": "verso",
+   "sl": 109,
+   "v": 0,
+   "cu": "Аллилу́іа, псало́мъ Дави́ду.",
+   "pt": "Aleluia, salmo de David.",
+   "ru": "Аллилуия. Псалом Давида.",
+   "uk": "Алилуя, псалом Давидів.",
+   "en": "Alleluia, a Psalm of David.",
+   "sobrescrito": true,
+   "fonte": {
+    "cu": "P1874 img. n214"
+   },
+   "nota": "Sobrescrito ausente da Bíblia isabelina (Ponomar, CSlElizabeth); texto do Saltério litúrgico P1874. Ponomar imprime «Аллилуіа» entre parênteses; retiram-se os parênteses."
+  },
+  {
+   "id": "sl-109-01",
+   "tipo": "verso",
+   "sl": 109,
+   "v": 1,
+   "cu": "Рече́ Госпо́дь Го́сподеви моему́: сѣди́ одесну́ю Мене́, до́ндеже положу́ враги́ Твоя́ подно́жіе ногъ Твои́хъ.",
+   "pt": "Disse o Senhor ao meu Senhor: Senta-Te à Minha direita, até que Eu ponha os Teus inimigos por escabelo dos Teus pés.",
+   "ru": "Рек Господь Господу моему: сиди одесную Меня, доколе положу врагов Твоих в подножие ног Твоих.",
+   "uk": "Сказав Господь Господеві моєму: Сядь праворуч Мене, доки покладу ворогів Твоїх у підніжжя ніг Твоїх.",
+   "en": "The Lord said to my Lord, Sit Thou on my right hand, until I make Thine enemies Thy footstool."
+  },
+  {
+   "id": "sl-109-02",
+   "tipo": "verso",
+   "sl": 109,
+   "v": 2,
+   "cu": "Жезлъ си́лы по́слетъ Ти Госпо́дь отъ Сіо́на, и госпо́дствуй посредѣ́ враго́въ Твои́хъ.",
+   "pt": "Um cetro de poder Te enviará o Senhor de Sião, e domina no meio dos Teus inimigos.",
+   "ru": "Жезл силы пошлет тебе Господь с Сиона, и господствуй среди врагов Твоих.",
+   "uk": "Жезл сили пошле Тобі Господь із Сіону, і пануй посеред ворогів Твоїх.",
+   "en": "The Lord shall send out a rod of power for Thee out of Sion: rule Thou in the midst of Thine enemies."
+  },
+  {
+   "id": "sl-109-03",
+   "tipo": "verso",
+   "sl": 109,
+   "v": 3,
+   "cu": "Съ Тобо́ю нача́ло въ день си́лы Твоея́, во свѣ́тлостехъ святы́хъ твои́хъ: изъ чре́ва пре́жде денни́цы роди́хъ Тя.",
+   "pt": "Contigo está o principado no dia do Teu poder, nos esplendores dos Teus santos: do seio, antes da estrela da manhã, Eu Te gerei.",
+   "ru": "С Тобою власть в день силы Твоей в блеске святых Твоих. «Из чрева прежде денницы Я родил Тебя».",
+   "uk": "З Тобою начало в день сили Твоєї, у світлостях святих Твоїх: з утроби раніше від денниці Я породив Тебе.",
+   "en": "With Thee is dominion in the day of Thy power, in the splendours of Thy saints: I have begotten Thee from the womb before the morning."
+  },
+  {
+   "id": "sl-109-04",
+   "tipo": "verso",
+   "sl": 109,
+   "v": 4,
+   "cu": "Кля́тся Госпо́дь и не раска́ется: Ты іере́й во вѣкъ по чи́ну Мелхиседе́кову.",
+   "pt": "O Senhor jurou e não Se arrependerá: Tu és sacerdote para sempre segundo a ordem de Melquisedeque.",
+   "ru": "Клялся Господь и не раскается: Ты — священник во век по чину Мелхиседека.",
+   "uk": "Поклявся Господь і не розкається: Ти ієрей навіки за чином Мелхиседековим.",
+   "en": "The Lord sware, and will not repent, Thou art a priest for ever, after the order of Melchisedec."
+  },
+  {
+   "id": "sl-109-05",
+   "tipo": "verso",
+   "sl": 109,
+   "v": 5,
+   "cu": "Госпо́дь одесну́ю Тебе́ сокруши́лъ есть въ день гнѣ́ва Своего́ цари́:",
+   "pt": "O Senhor, à Tua direita, esmagou reis no dia da Sua ira:",
+   "ru": "Господь одесную Тебя поразит в день гнева Своего царей.",
+   "uk": "Господь праворуч Тебе розтрощив у день гніву Свого царів;",
+   "en": "The Lord at Thy right hand hath dashed in pieces kings in the day of His wrath."
+  },
+  {
+   "id": "sl-109-06",
+   "tipo": "verso",
+   "sl": 109,
+   "v": 6,
+   "cu": "су́дитъ во язы́цѣхъ, испо́лнитъ паде́нія, сокруши́тъ главы́ на земли́ мно́гихъ.",
+   "pt": "julgará entre as nações, encherá de ruínas, esmagará as cabeças de muitos sobre a terra.",
+   "ru": "Совершит Он суд над народами, наполнит (землю) трупами, сокрушит головы многих на земле,",
+   "uk": "судитиме між народами, наповнить трупами, розтрощить голови багатьох на землі.",
+   "en": "He shall judge among the nations, He shall fill up the number of corpses, He shall crush the heads of many on the earth."
+  },
+  {
+   "id": "sl-109-07",
+   "tipo": "verso",
+   "sl": 109,
+   "v": 7,
+   "cu": "Отъ пото́ка на пути́ піе́тъ: сего́ ра́ди вознесе́тъ главу́.",
+   "pt": "Da torrente bebe no caminho: por isso levantará a cabeça.",
+   "ru": "Из потока на пути будет пить, посему поднимет главу.",
+   "uk": "З потоку на путі питиме, тому піднесе голову.",
+   "en": "He shall drink of the brook in the way; therefore shall He lift up the head."
+  },
+  {
+   "id": "sl-110",
+   "tipo": "titulo",
+   "sl": 110,
+   "cu": "Псало́мъ 110.",
+   "pt": "Salmo 110 (111)",
+   "ru": "Псалом 110",
+   "uk": "Псалом 110",
+   "en": "Psalm 110 (111)"
+  },
+  {
+   "id": "sl-110-00",
+   "tipo": "verso",
+   "sl": 110,
+   "v": 0,
+   "cu": "Аллилу́іа.",
+   "pt": "Aleluia.",
+   "ru": "Аллилуия.",
+   "uk": "Алилуя.",
+   "en": "Alleluia.",
+   "sobrescrito": true,
+   "nota": "Ponomar imprime «Аллилуіа» entre parênteses; retiram-se os parênteses."
+  },
+  {
+   "id": "sl-110-01",
+   "tipo": "verso",
+   "sl": 110,
+   "v": 1,
+   "cu": "Исповѣ́мся Тебѣ́, Го́споди, всѣмъ се́рдцемъ мои́мъ въ совѣ́тѣ пра́выхъ и со́нмѣ.",
+   "pt": "Dar-Te-ei graças, Senhor, de todo o meu coração, no conselho dos retos e na assembleia.",
+   "ru": "Исповедаюсь Тебе, Господи, всем сердцем моим в собрании и сонме праведных.",
+   "uk": "Славитиму Тебе, Господи, всім серцем моїм у раді правих і в зібранні.",
+   "en": "I will give Thee thanks, O Lord, with my whole heart, in the council of the upright, and in the congregation."
+  },
+  {
+   "id": "sl-110-02",
+   "tipo": "verso",
+   "sl": 110,
+   "v": 2,
+   "cu": "Ве́лія дѣла́ Госпо́дня, изы́скана во всѣхъ во́ляхъ его́:",
+   "pt": "Grandes são as obras do Senhor, investigadas em todas as Suas vontades:",
+   "ru": "Велики дела Господни; вожделенны во всем желания Его!",
+   "uk": "Великі діла Господні, досліджені за всією волею Його;",
+   "en": "The works of the Lord are great, sought out according to all His will."
+  },
+  {
+   "id": "sl-110-03",
+   "tipo": "verso",
+   "sl": 110,
+   "v": 3,
+   "cu": "исповѣ́даніе и великолѣ́піе дѣ́ло Его́, и пра́вда Его́ пребыва́етъ въ вѣкъ вѣ́ка.",
+   "pt": "louvor e magnificência é a Sua obra, e a Sua justiça permanece pelos séculos dos séculos.",
+   "ru": "Хвала и великолепие — дело Его, и правда Его пребывает в век века.",
+   "uk": "славлення і величність — діло Його, і правда Його перебуває на віки віків.",
+   "en": "His work is worthy of thanksgiving and honour: and His righteousness endureth for ever and ever."
+  },
+  {
+   "id": "sl-110-04",
+   "tipo": "verso",
+   "sl": 110,
+   "v": 4,
+   "cu": "Па́мять сотвори́лъ есть чуде́съ Свои́хъ: ми́лостивъ и щедръ Госпо́дь.",
+   "pt": "Fez memória das Suas maravilhas: misericordioso e compassivo é o Senhor.",
+   "ru": "Памятными соделал Он чудеса Свои. Милостив и щедр Господь:",
+   "uk": "Пам’ять сотворив Він про чудеса Свої: милостивий і щедрий Господь.",
+   "en": "He hath caused His wonderful works to be remembered: the Lord is merciful and compassionate."
+  },
+  {
+   "id": "sl-110-05",
+   "tipo": "verso",
+   "sl": 110,
+   "v": 5,
+   "cu": "Пи́щу даде́ боя́щымся Его́: помяне́тъ въ вѣкъ завѣ́тъ Свой.",
+   "pt": "Deu alimento aos que O temem: lembrar-Se-á para sempre da Sua aliança.",
+   "ru": "Пищу дал боящимся Его, будет помнить вечно завет Свой.",
+   "uk": "Їжу дав тим, що бояться Його; згадає навіки завіт Свій.",
+   "en": "He hath given food to them that fear Him: He will remember His covenant for ever."
+  },
+  {
+   "id": "sl-110-06",
+   "tipo": "verso",
+   "sl": 110,
+   "v": 6,
+   "cu": "Крѣ́пость дѣлъ Свои́хъ возвѣсти́ лю́демъ Свои́мъ, да́ти имъ достоя́ніе язы́къ.",
+   "pt": "Anunciou ao Seu povo a força das Suas obras, para lhes dar a herança das nações.",
+   "ru": "Силу дел Своих возвестил Он народу Своему, чтобы дать ему наследие язычников.",
+   "uk": "Міць діл Своїх звістив Він народові Своєму, щоб дати їм спадщину народів.",
+   "en": "He hath declared to His people the power of His works, to give them the inheritance of the heathen."
+  },
+  {
+   "id": "sl-110-07",
+   "tipo": "verso",
+   "sl": 110,
+   "v": 7,
+   "cu": "Дѣла́ рукъ Его́ и́стина и судъ, вѣ́рны вся за́повѣди Его́,",
+   "pt": "As obras das Suas mãos são verdade e juízo, fiéis são todos os Seus mandamentos,",
+   "ru": "Дела рук Его — истина и правда, верны все заповеди Его,",
+   "uk": "Діла рук Його — істина і суд; вірні всі заповіді Його,",
+   "en": "The works of His hands are truth and judgment: all His commandments are sure:"
+  },
+  {
+   "id": "sl-110-08",
+   "tipo": "verso",
+   "sl": 110,
+   "v": 8,
+   "cu": "утверже́ны въ вѣкъ вѣ́ка, сотворе́ны во и́стинѣ и правотѣ́.",
+   "pt": "firmados pelos séculos dos séculos, feitos em verdade e retidão.",
+   "ru": "Утверждены они на век века, начертаны по истине и правоте.",
+   "uk": "утверджені на віки віків, сотворені в істині і правоті.",
+   "en": "established for ever and ever, done in truth and uprightness."
+  },
+  {
+   "id": "sl-110-09",
+   "tipo": "verso",
+   "sl": 110,
+   "v": 9,
+   "cu": "Избавле́ніе посла́ лю́демъ Свои́мъ: заповѣ́да въ вѣкъ завѣ́тъ Свой: свя́то и стра́шно и́мя Его́.",
+   "pt": "Enviou a libertação ao Seu povo: ordenou para sempre a Sua aliança: santo e temível é o Seu nome.",
+   "ru": "Избавление послал Он народу Своему, заповедал на век завет Свой.",
+   "uk": "Визволення послав Він народові Своєму, заповів навіки завіт Свій: святе і страшне ім’я Його.",
+   "en": "He sent redemption to His people: He commanded His covenant for ever: holy and fearful is His Name."
+  },
+  {
+   "id": "sl-110-10",
+   "tipo": "verso",
+   "sl": 110,
+   "v": 10,
+   "cu": "Нача́ло прему́дрости страхъ Госпо́день, ра́зумъ же благъ всѣмъ творя́щымъ и: хвала́ Его́ пребыва́етъ въ вѣкъ вѣ́ка.",
+   "pt": "O princípio da sabedoria é o temor do Senhor, e bom entendimento para todos os que o praticam: o Seu louvor permanece pelos séculos dos séculos.",
+   "ru": "Начало премудрости — страх Господень, разум добр у всех, руководящихся им. Хвала Ему пребывает в век века.",
+   "uk": "Початок премудрості — страх Господній, розум же добрий для всіх, що чинять його; хвала Його перебуває на віки віків.",
+   "en": "The fear of the Lord is the beginning of wisdom, and all that act accordingly have a good understanding; His praise endureth for ever and ever."
+  },
+  {
+   "id": "sl-111",
+   "tipo": "titulo",
+   "sl": 111,
+   "cu": "Псало́мъ 111.",
+   "pt": "Salmo 111 (112)",
+   "ru": "Псалом 111",
+   "uk": "Псалом 111",
+   "en": "Psalm 111 (112)"
+  },
+  {
+   "id": "sl-111-00",
+   "tipo": "verso",
+   "sl": 111,
+   "v": 0,
+   "cu": "Аллилу́іа.",
+   "pt": "Aleluia.",
+   "ru": "Аллилуия.",
+   "uk": "Алилуя.",
+   "en": "Alleluia.",
+   "sobrescrito": true,
+   "nota": "Ponomar imprime «Аллилуіа» entre parênteses; retiram-se os parênteses."
+  },
+  {
+   "id": "sl-111-01",
+   "tipo": "verso",
+   "sl": 111,
+   "v": 1,
+   "cu": "Блаже́нъ мужъ боя́йся Го́спода, въ за́повѣдехъ Его́ восхо́щетъ зѣло́.",
+   "pt": "Bem-aventurado o homem que teme o Senhor: nos Seus mandamentos muito se comprazerá.",
+   "ru": "Блажен муж, боящийся Господа, заповеди Его он сильно возлюбит.",
+   "uk": "Блаженний муж, що боїться Господа: заповідей Його він вельми бажатиме.",
+   "en": "Blessed is the man that feareth the Lord: he will delight greatly in His commandments."
+  },
+  {
+   "id": "sl-111-02",
+   "tipo": "verso",
+   "sl": 111,
+   "v": 2,
+   "cu": "Си́льно на земли́ бу́детъ сѣ́мя его́, родъ пра́выхъ благослови́тся:",
+   "pt": "Poderosa sobre a terra será a sua descendência, a geração dos retos será abençoada:",
+   "ru": "Мощно будет на земле семя его, род правых благословится.",
+   "uk": "Сильним на землі буде насіння його, рід правих благословиться;",
+   "en": "His seed shall be mighty in the earth: the generation of the upright shall be blessed."
+  },
+  {
+   "id": "sl-111-03",
+   "tipo": "verso",
+   "sl": 111,
+   "v": 3,
+   "cu": "сла́ва и бога́тство въ дому́ его́, и пра́вда его́ пребыва́етъ въ вѣкъ вѣ́ка.",
+   "pt": "glória e riqueza haverá na sua casa, e a sua justiça permanece pelos séculos dos séculos.",
+   "ru": "Слава и богатство — в доме его, и правда его пребывает в век века.",
+   "uk": "слава і багатство в домі його, і правда його перебуває на віки віків.",
+   "en": "Glory and riches shall be in his house; and his righteousness endureth for evermore."
+  },
+  {
+   "id": "sl-111-04",
+   "tipo": "verso",
+   "sl": 111,
+   "v": 4,
+   "cu": "Возсія́ во тьмѣ свѣтъ пра́вымъ: ми́лостивъ и щедръ и пра́веденъ.",
+   "pt": "Nas trevas brilhou a luz para os retos: misericordioso, e compassivo, e justo.",
+   "ru": "Воссиял во тьме свет правым: он милостив, и щедр, и праведен.",
+   "uk": "Засяяло в темряві світло правим: милостивий, і щедрий, і праведний.",
+   "en": "To the upright light hath sprung up in darkness: he is pitiful, and merciful, and righteous."
+  },
+  {
+   "id": "sl-111-05",
+   "tipo": "verso",
+   "sl": 111,
+   "v": 5,
+   "cu": "Благъ мужъ ще́дря и дая́: устро́итъ словеса́ своя́ на судѣ́, я́ко въ вѣкъ не подви́жится.",
+   "pt": "Bom é o homem que se compadece e dá: disporá as suas palavras no juízo, porque não será abalado para sempre.",
+   "ru": "Добрый муж, щедро дающий, устроит дела свои на суде, так что во век не поколеблется.",
+   "uk": "Добрий муж, що змилосерджується і дає: влаштує слова свої на суді, бо навіки не похитнеться.",
+   "en": "The good man is he that pitieth and lendeth: he will direct his affairs with judgment. For he shall not be moved for ever;"
+  },
+  {
+   "id": "sl-111-06",
+   "tipo": "verso",
+   "sl": 111,
+   "v": 6,
+   "cu": "Въ па́мять вѣ́чную бу́детъ пра́ведникъ.",
+   "pt": "Em memória eterna estará o justo.",
+   "ru": "В вечной памяти будет праведник,",
+   "uk": "На пам’ять вічну буде праведник.",
+   "en": "the righteous shall be in everlasting remembrance."
+  },
+  {
+   "id": "sl-111-07",
+   "tipo": "verso",
+   "sl": 111,
+   "v": 7,
+   "cu": "Отъ слу́ха зла не убои́тся:",
+   "pt": "Não temerá o rumor mau:",
+   "ru": "Худой молвы не убоится.",
+   "uk": "Лихої чутки не убоїться:",
+   "en": "He shall not be afraid of any evil report:"
+  },
+  {
+   "id": "sl-111-08",
+   "tipo": "verso",
+   "sl": 111,
+   "v": 8,
+   "cu": "гото́во се́рдце его́ упова́ти на Го́спода: утверди́ся се́рдце его́, не убои́тся, до́ндеже воззри́тъ на враги́ своя́.",
+   "pt": "o seu coração está pronto a esperar no Senhor: firmou-se o seu coração, não temerá, até que olhe para os seus inimigos.",
+   "ru": "Сердце его готово уповать на Господа, непоколебимо сердце его, не убоится, пока не увидит (погибели) врагов своих.",
+   "uk": "готове серце його уповати на Господа; утвердилося серце його, не убоїться, доки не погляне на ворогів своїх.",
+   "en": "his heart is ready to trust in the Lord. His heart is established, he shall not fear, till he shall see his desire upon his enemies."
+  },
+  {
+   "id": "sl-111-09",
+   "tipo": "verso",
+   "sl": 111,
+   "v": 9,
+   "cu": "Расточи́, даде́ убо́гимъ: пра́вда его́ пребыва́етъ во вѣкъ вѣ́ка: рогъ его́ вознесе́тся въ сла́вѣ.",
+   "pt": "Espalhou, deu aos indigentes: a sua justiça permanece pelos séculos dos séculos: o seu chifre será exaltado em glória.",
+   "ru": "Он расточил: дал нищим, правда его пребывает в век века, мощь его будет превознесена во славе.",
+   "uk": "Розсипав, дав бідним: правда його перебуває на віки віків, ріг його піднесеться у славі.",
+   "en": "He hath dispersed abroad; he hath given to the poor; his righteousness endureth for evermore: his horn shall be exalted with honour."
+  },
+  {
+   "id": "sl-111-10",
+   "tipo": "verso",
+   "sl": 111,
+   "v": 10,
+   "cu": "Грѣ́шникъ у́зритъ и прогнѣ́вается зубы́ свои́ми поскреже́щетъ и раста́етъ: жела́ніе грѣ́шника поги́бнетъ.",
+   "pt": "O pecador verá e irar-se-á, rangerá os dentes e derreter-se-á: o desejo do pecador perecerá.",
+   "ru": "Грешник увидит (сие) и разгневается, зубами своими заскрежещет и истает. Желание грешника погибнет.",
+   "uk": "Грішник побачить і розгнівається, зубами своїми заскрегоче і розтане: бажання грішника загине.",
+   "en": "The sinner shall see and be angry, he shall gnash his teeth, and consume away: the desire of the sinner shall perish."
+  },
+  {
+   "id": "k16-g1-01",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-16 (manha.json).] Fim da 1.ª «Glória» (стати́я): P1874 img. n216 imprime «Сла́ва:». Fórmula segundo a prática russa (Ponomar Kathisma16.xml: GloryToTheFather1 + AlleluiaGlory; Azbuka Very, «Кафизма», que cita Skabalanóvitch, Толковый Типикон, 1910): «Слава… и ныне», «Аллилуия» ×3 com «слава Тебе, Боже» ×3, «Господи, помилуй» ×3, «Слава… и ныне»."
+  },
+  {
+   "id": "k16-g1-02",
+   "tipo": "oracao",
+   "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
+   "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
+   "ru": "Аллилуиа, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
+   "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
+   "fonte": {
+    "cu": "T1907 p. 24 («Аллилуіа. (Три раза.)»)",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "[Texto idêntico a defuntos-panikhida-46 (defuntos-panikhida.json).]"
+  },
+  {
+   "id": "k16-g1-03",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "[Texto idêntico a manha-18 (manha.json).]"
+  },
+  {
+   "id": "k16-g1-04",
+   "tipo": "oracao",
+   "cu": "Помяни́, Го́споди Бо́же нашъ, въ вѣ́рѣ и надежди́ живота́ вѣ́чнаго преста́вльшагося раба́ Твоего́, бра́та на́шего (и́мя), и я́ко Благъ и Человѣколю́бецъ, отпуща́яй грѣхи́ и потребля́яй непра́вды, осла́би, оста́ви и прости́ вся во́льная его́ согрѣше́нія и нево́льная; изба́ви его́ вѣ́чныя му́ки и огня́ гее́нскаго, и да́руй ему́ прича́стіе и наслажде́ніе вѣ́чныхъ Твои́хъ благи́хъ, угото́ванныхъ лю́бящимъ Тя: а́ще бо и согрѣши́, но не отступи́ отъ Тебе́, и несумнѣ́нно во Отца́ и Сы́на и Свята́го Ду́ха, Бо́га Тя въ Тро́ицѣ сла́вимаго, вѣ́рова, и Еди́ницу въ Тро́ицѣ и Тро́ицу во Еди́нствѣ правосла́вно да́же до послѣ́дняго своего́ издыха́нія испо́вѣда. Тѣ́мже ми́лостивъ тому́ бу́ди, и вѣ́ру, я́же въ Тя, вмѣ́сто дѣлъ вмѣни́, и со святы́ми Твои́ми, я́ко Щедръ, упоко́й: нѣсть бо человѣ́ка, и́же поживе́тъ и не согрѣши́тъ. Но Ты еди́нъ еси́ кромѣ́ вся́каго грѣха́, и пра́вда Твоя́ пра́вда во вѣ́ки, и Ты еси́ еди́нъ Богъ ми́лостей и щедро́тъ и человѣколю́бія, и Тебѣ́ сла́ву возсыла́емъ, Отцу́ и Сы́ну и Свято́му Ду́ху, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Lembra-Te, Senhor nosso Deus, na fé e na esperança da vida eterna, do Teu servo falecido, nosso irmão (nome), e, como és bom e Amigo dos homens, Tu que perdoas os pecados e consomes as iniquidades, alivia, remite e perdoa todos os seus pecados, voluntários e involuntários; livra-o do tormento eterno e do fogo da geena, e concede-lhe a comunhão e o gozo dos Teus bens eternos, preparados para os que Te amam. Pois, ainda que tenha pecado, não se afastou de Ti, e creu sem duvidar no Pai e no Filho e no Espírito Santo, em Ti, Deus glorificado na Trindade, e confessou ortodoxamente a Unidade na Trindade e a Trindade na Unidade até ao seu último suspiro. Sê-lhe, pois, misericordioso, conta-lhe a fé que tinha em Ti em lugar das obras, e, como és compassivo, dá-lhe repouso com os Teus santos; porque não há homem que viva e não peque. Mas só Tu estás sem pecado algum, e a Tua justiça é justiça eterna, e só Tu és o Deus das misericórdias, das compaixões e do amor pelos homens, e a Ti damos glória, ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Помяни, Господи Боже наш, в вере и надежде жизни вечной преставившегося раба Твоего, брата нашего (имя), и, как Благой и Человеколюбец, отпускающий грехи и истребляющий неправды, ослабь, оставь и прости все вольные и невольные его согрешения; избавь его от вечной муки и огня геенского и даруй ему причастие и наслаждение вечных Твоих благ, уготованных любящим Тебя. Ибо хотя он и согрешил, но не отступил от Тебя и несомненно веровал в Отца и Сына и Святого Духа, в Тебя, Бога, в Троице славимого, и Единицу в Троице и Троицу в Единстве православно исповедовал даже до последнего своего издыхания. Поэтому будь к нему милостив, и веру его в Тебя вместо дел вмени ему, и со святыми Твоими, как Щедрый, упокой, ибо нет человека, который прожил бы и не согрешил. Но Ты один — вне всякого греха, и правда Твоя — правда вовеки, и Ты один — Бог милостей, щедрот и человеколюбия, и Тебе славу воссылаем, Отцу и Сыну и Святому Духу, ныне и всегда и во веки веков. Аминь.",
+   "uk": "Пом’яни, Господи Боже наш, у вірі і надії життя вічного спочилого раба Твого, брата нашого (ім’я), і, як Благий і Чоловіколюбець, що відпускаєш гріхи і знищуєш неправди, ослаб, залиш і прости всі вільні і невільні його прогрішення; визволи його від вічної муки і вогню геєнського і даруй йому причастя і насолоду вічних Твоїх благ, приготованих тим, що люблять Тебе. Бо хоч і згрішив, але не відступив від Тебе, і без сумніву вірував в Отця, і Сина, і Святого Духа, в Тебе, Бога, в Трійці славленого, і Єдиницю в Трійці і Трійцю в Єдиності православно аж до останнього свого подиху сповідував. Тому будь милостивий до нього, і віру, що в Тебе, замість діл зарахуй, і зі святими Твоїми, як Щедрий, упокой, бо нема людини, яка прожила б і не згрішила. Але Ти єдиний поза всяким гріхом, і правда Твоя — правда навіки, і Ти єдиний Бог милості, і щедрот, і чоловіколюбства, і Тобі славу возсилаємо, Отцю, і Сину, і Святому Духові, нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Remember, O Lord our God, in faith and hope of life eternal, Thy servant who hath fallen asleep, our brother (name); and as Thou art good and the Lover of mankind, who pardonest sins and consumest iniquities, loose, remit and forgive all his sins, voluntary and involuntary. Deliver him from everlasting torment and the fire of Gehenna, and grant him communion in and enjoyment of Thine eternal good things, prepared for them that love Thee. For though he sinned, yet he did not depart from Thee, but without doubting believed in the Father and the Son and the Holy Spirit, in Thee, God glorified in Trinity, and confessed in Orthodox wise the Unity in Trinity and the Trinity in Unity, even unto his last breath. Wherefore be merciful unto him, and account unto him for works the faith which he had in Thee, and give him rest with Thy Saints, as Thou art bountiful: for there is no man who liveth and sinneth not. But Thou alone art without any sin, and Thy righteousness is righteousness for ever, and Thou alone art the God of mercies and compassions and love for mankind, and unto Thee we send up glory, to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "MS1900 pp. 536–537 («Молитва по исходѣ души»); PS1993 p. 225; T1907 pp. 19–20",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "defuntos"
+    ]
+   },
+   "nota": "[Texto idêntico a defuntos-panikhida-49 (defuntos-panikhida.json).] Modo «pelos defuntos» (dec. 64): em cada «Glória», T1907 p. 19 («после каждой «Славы»»); prática atual: Azbuka Very, «О чтении Псалтири по усопшим». ⚠ A posição exata dentro da fórmula da Glória não é indicada nas fontes; põe-se antes do «Слава… и ныне» final."
+  },
+  {
+   "id": "k16-g1-05",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-19 (manha.json).]"
+  },
+  {
+   "id": "sl-112",
+   "tipo": "titulo",
+   "sl": 112,
+   "cu": "Псало́мъ 112.",
+   "pt": "Salmo 112 (113)",
+   "ru": "Псалом 112",
+   "uk": "Псалом 112",
+   "en": "Psalm 112 (113)"
+  },
+  {
+   "id": "sl-112-00",
+   "tipo": "verso",
+   "sl": 112,
+   "v": 0,
+   "cu": "Аллилу́іа.",
+   "pt": "Aleluia.",
+   "ru": "Аллилуия.",
+   "uk": "Алилуя.",
+   "en": "Alleluia.",
+   "sobrescrito": true,
+   "nota": "Ponomar imprime «Аллилуіа» entre parênteses; retiram-se os parênteses."
+  },
+  {
+   "id": "sl-112-01",
+   "tipo": "verso",
+   "sl": 112,
+   "v": 1,
+   "cu": "Хвали́те, о́троцы, Го́спода, хвали́те и́мя Госпо́дне.",
+   "pt": "Louvai, ó servos, o Senhor, louvai o nome do Senhor.",
+   "ru": "Хвалите, отроки, Господа, хвалите имя Господне.",
+   "uk": "Хваліть, отроки, Господа, хваліть ім’я Господнє.",
+   "en": "Praise the Lord, ye servants of His, praise the Name of the Lord."
+  },
+  {
+   "id": "sl-112-02",
+   "tipo": "verso",
+   "sl": 112,
+   "v": 2,
+   "cu": "Бу́ди и́мя Госпо́дне благослове́но отны́нѣ и до вѣ́ка.",
+   "pt": "Seja o nome do Senhor bendito desde agora e para sempre.",
+   "ru": "Да будет имя Господне благословенно отныне и до века.",
+   "uk": "Нехай буде ім’я Господнє благословенне відтепер і довіку.",
+   "en": "Let the Name of the Lord be blessed, from this present time and for ever."
+  },
+  {
+   "id": "sl-112-03",
+   "tipo": "verso",
+   "sl": 112,
+   "v": 3,
+   "cu": "Отъ восто́къ со́лнца до за́падъ хва́льно и́мя Госпо́дне.",
+   "pt": "Do nascer do sol até ao ocaso, digno de louvor é o nome do Senhor.",
+   "ru": "От востока солнца до запада славно имя Господне.",
+   "uk": "Від сходу сонця до заходу хвалене ім’я Господнє.",
+   "en": "From the rising of the sun to his setting, the Name of the Lord is to be praised."
+  },
+  {
+   "id": "sl-112-04",
+   "tipo": "verso",
+   "sl": 112,
+   "v": 4,
+   "cu": "Высо́къ надъ всѣ́ми язы́ки Госпо́дь: надъ небесы́ сла́ва Его́.",
+   "pt": "Excelso sobre todas as nações é o Senhor: acima dos céus está a Sua glória.",
+   "ru": "Высок над всеми народами Господь, выше небес слава Его.",
+   "uk": "Високий над усіма народами Господь, над небесами слава Його.",
+   "en": "The Lord is high above all the nations; His glory is above the heavens."
+  },
+  {
+   "id": "sl-112-05",
+   "tipo": "verso",
+   "sl": 112,
+   "v": 5,
+   "cu": "Кто я́ко Госпо́дь Богъ нашъ? На высо́кихъ живы́й,",
+   "pt": "Quem é como o Senhor nosso Deus? Ele que habita nas alturas,",
+   "ru": "Кто, как Господь Бог наш, на высоте живущий",
+   "uk": "Хто, як Господь Бог наш, що живе на висотах",
+   "en": "Who is as the Lord our God? who dwelleth in the high places,"
+  },
+  {
+   "id": "sl-112-06",
+   "tipo": "verso",
+   "sl": 112,
+   "v": 6,
+   "cu": "и на смире́нныя призира́яй на небеси́ и на земли́:",
+   "pt": "e olha para os humildes no céu e na terra:",
+   "ru": "И на смиренных взирающий на небе и на земле,",
+   "uk": "і на смиренних споглядає на небі і на землі,",
+   "en": "and yet looketh upon the low things in heaven, and on the earth:"
+  },
+  {
+   "id": "sl-112-07",
+   "tipo": "verso",
+   "sl": 112,
+   "v": 7,
+   "cu": "воздвиза́яй отъ земли́ ни́ща, и отъ гно́ища возвыша́яй убо́га:",
+   "pt": "que levanta da terra o pobre e ergue do monturo o indigente:",
+   "ru": "Поднимающий с земли нищего и от гноища возвышающий убогого,",
+   "uk": "що підіймає з землі убогого і з гноїща підносить бідного,",
+   "en": "who lifteth up the poor from the earth, and raiseth up the needy from the dunghill;"
+  },
+  {
+   "id": "sl-112-08",
+   "tipo": "verso",
+   "sl": 112,
+   "v": 8,
+   "cu": "посади́ти его́ съ кня́зи, съ кня́зи люді́й свои́хъ:",
+   "pt": "para o fazer sentar com os príncipes, com os príncipes do seu povo:",
+   "ru": "Чтобы посадить его с князьями, с князьями народа Своего,",
+   "uk": "щоб посадити його з князями, з князями народу свого,",
+   "en": "to set him with princes, even with the princes of his people:"
+  },
+  {
+   "id": "sl-112-09",
+   "tipo": "verso",
+   "sl": 112,
+   "v": 9,
+   "cu": "вселя́я непло́довь въ домъ, ма́терь о ча́дѣхъ веселя́щуся.",
+   "pt": "que faz habitar em casa a estéril, mãe que se regozija com os filhos.",
+   "ru": "Поселяющий неплодную в дом матерью, веселящеюся о детях своих?",
+   "uk": "що оселяє неплідну в домі, матір, яка радіє дітьми.",
+   "en": "who settleth the barren woman in a house, as a mother rejoicing over children."
+  },
+  {
+   "id": "sl-113",
+   "tipo": "titulo",
+   "sl": 113,
+   "cu": "Псало́мъ 113.",
+   "pt": "Salmo 113 (114–115)",
+   "ru": "Псалом 113",
+   "uk": "Псалом 113",
+   "en": "Psalm 113 (114–115)"
+  },
+  {
+   "id": "sl-113-00",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 0,
+   "cu": "Аллилу́іа.",
+   "pt": "Aleluia.",
+   "ru": "Аллилуия.",
+   "uk": "Алилуя.",
+   "en": "Alleluia.",
+   "sobrescrito": true,
+   "nota": "Ponomar imprime «Аллилуіа» entre parênteses; retiram-se os parênteses."
+  },
+  {
+   "id": "sl-113-01",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 1,
+   "cu": "Во исхо́дѣ Изра́илевѣ отъ Егѵ́пта, до́му Іа́ковля изъ люді́й ва́рваръ,",
+   "pt": "Na saída de Israel do Egito, da casa de Jacob do meio de um povo bárbaro,",
+   "ru": "По исходе Израиля из Египта, дома Иакова — из варварского народа,",
+   "uk": "Коли виходив Ізраїль із Єгипту, дім Якова — з народу варварського,",
+   "en": "At the going forth of Israel from Egypt, of the house of Jacob from a barbarous people,"
+  },
+  {
+   "id": "sl-113-02",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 2,
+   "cu": "бысть Іуде́а святы́ня Его́, Изра́иль о́бласть Его́.",
+   "pt": "a Judeia tornou-se o Seu santuário, Israel o Seu domínio.",
+   "ru": "Иудея стала святынею Его, Израиль — областию Его.",
+   "uk": "стала Юдея святинею Його, Ізраїль — володінням Його.",
+   "en": "Judea became His sanctuary, and Israel His dominion."
+  },
+  {
+   "id": "sl-113-03",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 3,
+   "cu": "Мо́ре ви́дѣ и побѣже́, Іорда́нъ возврати́ся вспять:",
+   "pt": "O mar viu e fugiu, o Jordão voltou para trás:",
+   "ru": "Море увидело и побежало, Иордан возвратился вспять.",
+   "uk": "Море побачило і побігло, Йордан повернувся назад;",
+   "en": "The sea saw and fled: Jordan was turned back."
+  },
+  {
+   "id": "sl-113-04",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 4,
+   "cu": "го́ры взыгра́шася я́ко овни́, и хо́лми я́ко а́гнцы о́вчіи.",
+   "pt": "os montes saltaram como carneiros, e as colinas como cordeiros das ovelhas.",
+   "ru": "Горы прыгали, как овны, и холмы — как ягнята у овец.",
+   "uk": "гори застрибали, як барани, і пагорби — як ягнята овечі.",
+   "en": "The mountains skipped like rams, and the hills like lambs."
+  },
+  {
+   "id": "sl-113-05",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 5,
+   "cu": "Что ти есть, мо́ре, я́ко побѣ́гло еси́, и тебѣ́, Іорда́не, я́ко возврати́лся еси́ вспять?",
+   "pt": "Que tens tu, ó mar, que fugiste, e tu, ó Jordão, que voltaste para trás?",
+   "ru": "Что с тобою, море, что ты побежало? И что с тобою, Иордан, что ты возвратился вспять?",
+   "uk": "Що тобі, море, що ти побігло, і тобі, Йордане, що ти повернувся назад?",
+   "en": "What ailed thee, O sea, that thou fleddest? and thou Jordan, that thou wast turned back?"
+  },
+  {
+   "id": "sl-113-06",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 6,
+   "cu": "Го́ры, я́ко взыгра́стеся я́ко овни́, и хо́лми я́ко а́гнцы о́вчіи?",
+   "pt": "Montes, que saltastes como carneiros, e colinas, como cordeiros das ovelhas?",
+   "ru": "(Что с вами) горы, что вы запрыгали, как овны, и холмы — как ягнята у овец?",
+   "uk": "Гори, що ви застрибали, як барани, і пагорби — як ягнята овечі?",
+   "en": "Ye mountains, that ye skipped like rams, and ye hills, like lambs?"
+  },
+  {
+   "id": "sl-113-07",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 7,
+   "cu": "Отъ лица́ Госпо́дня подви́жеся земля́, отъ лица́ Бо́га Іа́ковля:",
+   "pt": "Diante da face do Senhor abalou-se a terra, diante da face do Deus de Jacob:",
+   "ru": "От лица Господа подвинулась земля, от лица Бога Иаковлева,",
+   "uk": "Від лиця Господнього захиталася земля, від лиця Бога Якова,",
+   "en": "The earth trembled at the presence of the Lord, at the presence of the God of Jacob;"
+  },
+  {
+   "id": "sl-113-08",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 8,
+   "cu": "обра́щшаго ка́мень во езе́ра водна́я и несѣко́мый во исто́чники водны́я.",
+   "pt": "que converteu a rocha em lagos de água e a pedra dura em fontes de água.",
+   "ru": "Обратившего камень в озеро воды и несекомый — в источники вод.",
+   "uk": "що обернув камінь на озера водні і кремінь — на джерела водні.",
+   "en": "who turned the rock into pools of water, and the flint into fountains of water."
+  },
+  {
+   "id": "sl-113-09",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 9,
+   "cu": "Не намъ, Го́споди, не намъ, но и́мени Твоему́ даждь сла́ву о ми́лости Твое́й и и́стинѣ Твое́й:",
+   "pt": "Não a nós, Senhor, não a nós, mas ao Teu nome dá glória, pela Tua misericórdia e pela Tua verdade:",
+   "ru": "Не нам, Господи, не нам, а имени Твоему дай славу, по милости Твоей и истине Твоей!",
+   "uk": "Не нам, Господи, не нам, але імені Твоєму дай славу за милість Твою і за істину Твою,",
+   "en": "Not to us, O Lord, not to us, but to Thy Name give glory, because of Thy mercy and Thy truth;"
+  },
+  {
+   "id": "sl-113-10",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 10,
+   "cu": "да не когда́ реку́тъ язы́цы: гдѣ есть Богъ ихъ?",
+   "pt": "para que nunca digam as nações: Onde está o seu Deus?",
+   "ru": "Пусть никогда не говорят язычники: «Где Бог их?»",
+   "uk": "щоб не сказали колись народи: Де Бог їхній?",
+   "en": "lest at any time the nations should say, Where is their God?"
+  },
+  {
+   "id": "sl-113-11",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 11,
+   "cu": "Богъ же нашъ на небеси́ и на земли́, вся ели́ка восхотѣ́, сотвори́.",
+   "pt": "O nosso Deus está no céu e na terra; tudo o que quis, fez.",
+   "ru": "Бог же наш на небе и на земле: все, что захотел, сотворил.",
+   "uk": "А Бог наш на небі і на землі: усе, що схотів, сотворив.",
+   "en": "But our God hath done in heaven and on earth, whatsoever He hath pleased."
+  },
+  {
+   "id": "sl-113-12",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 12,
+   "cu": "И́доли язы́къ сребро́ и зла́то, дѣла́ рукъ человѣ́ческихъ:",
+   "pt": "Os ídolos das nações são prata e ouro, obras das mãos dos homens:",
+   "ru": "Идолы язычников — серебро и золото, дела рук человеческих:",
+   "uk": "Ідоли народів — срібло і золото, діла рук людських:",
+   "en": "The idols of the nations are silver and gold, the works of men's hands."
+  },
+  {
+   "id": "sl-113-13",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 13,
+   "cu": "уста́ и́мутъ, и не возглаго́лютъ: о́чи и́мутъ, и не у́зрятъ:",
+   "pt": "têm boca e não falarão; têm olhos e não verão:",
+   "ru": "Уста имеют, но не проговорят, глаза имеют, но не увидят;",
+   "uk": "уста мають — і не говоритимуть, очі мають — і не побачать,",
+   "en": "They have a mouth, but they cannot speak; they have eyes, but they cannot see:"
+  },
+  {
+   "id": "sl-113-14",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 14,
+   "cu": "у́шы и́мутъ, и не услы́шатъ: но́здри и́мутъ, и не обоня́ютъ:",
+   "pt": "têm ouvidos e não ouvirão; têm narizes e não cheirarão:",
+   "ru": "Уши имеют, но не услышат; ноздри имеют, но не обоняют;",
+   "uk": "вуха мають — і не почують, ніздрі мають — і не відчують запаху,",
+   "en": "they have ears, but they cannot hear; they have noses, but they cannot smell;"
+  },
+  {
+   "id": "sl-113-15",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 15,
+   "cu": "ру́цѣ и́мутъ, и не ося́жутъ: но́зѣ и́мутъ, и не по́йдутъ: не возглася́тъ горта́немъ свои́мъ.",
+   "pt": "têm mãos e não apalparão; têm pés e não andarão; não emitirão som com a sua garganta.",
+   "ru": "Руки имеют, но не осяжут; ноги имеют, но не пойдут; не издадут голоса гортанью своею.",
+   "uk": "руки мають — і не доторкнуться, ноги мають — і не підуть, не видадуть голосу гортанню своєю.",
+   "en": "they have hands, but they cannot handle; they have feet, but they cannot walk: they cannot speak through their throat."
+  },
+  {
+   "id": "sl-113-16",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 16,
+   "cu": "Подо́бни имъ да бу́дутъ творя́щіи я и вси надѣ́ющіися на ня.",
+   "pt": "Sejam semelhantes a eles os que os fazem e todos os que neles confiam.",
+   "ru": "Подобны им да будут делающие их и все надеющиеся на них!",
+   "uk": "Подібні до них нехай будуть ті, що роблять їх, і всі, що надіються на них.",
+   "en": "Let those that make them become like to them, and all who trust in them."
+  },
+  {
+   "id": "sl-113-17",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 17,
+   "cu": "Домъ Изра́илевъ упова́ на Го́спода: помо́щникъ и защи́титель имъ есть.",
+   "pt": "A casa de Israel esperou no Senhor: Ele é o seu auxílio e defensor.",
+   "ru": "Дом Израилев уповал на Господа; Он — помощник и защитник для них.",
+   "uk": "Дім Ізраїлів уповав на Господа: Він помічник і захисник їхній.",
+   "en": "The house of Israel trusteth in the Lord: He is their helper and defender."
+  },
+  {
+   "id": "sl-113-18",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 18,
+   "cu": "Домъ Ааро́нь упова́ на Го́спода: помо́щникъ и защи́титель имъ есть.",
+   "pt": "A casa de Aarão esperou no Senhor: Ele é o seu auxílio e defensor.",
+   "ru": "Дом Ааронов уповал на Господа; Он — помощник и защитник для них.",
+   "uk": "Дім Ааронів уповав на Господа: Він помічник і захисник їхній.",
+   "en": "The house of Aaron trusteth in the Lord: He is their helper and defender."
+  },
+  {
+   "id": "sl-113-19",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 19,
+   "cu": "Боя́щіися Го́спода упова́ша на Го́спода: помо́щникъ и защи́титель имъ есть.",
+   "pt": "Os que temem o Senhor esperaram no Senhor: Ele é o seu auxílio e defensor.",
+   "ru": "Боящиеся Господа уповали на Господа, Он — помощник и защитник для них.",
+   "uk": "Ті, що бояться Господа, уповали на Господа: Він помічник і захисник їхній.",
+   "en": "They that fear the Lord trust in the Lord: He is their helper and defender."
+  },
+  {
+   "id": "sl-113-20",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 20,
+   "cu": "Госпо́дь помяну́въ ны благослови́лъ есть насъ: благослови́лъ есть домъ Изра́илевъ, благослови́лъ есть домъ Ааро́нь,",
+   "pt": "O Senhor lembrou-Se de nós e abençoou-nos: abençoou a casa de Israel, abençoou a casa de Aarão,",
+   "ru": "Господь, вспомнив о нас, благословил нас: благословил дом Израилев, благословил дом Ааронов,",
+   "uk": "Господь, згадавши нас, благословив нас: благословив дім Ізраїлів, благословив дім Ааронів,",
+   "en": "The Lord hath remembered us, and blessed us: He hath blessed the house of Israel, He hath blessed the house of Aaron."
+  },
+  {
+   "id": "sl-113-21",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 21,
+   "cu": "благослови́лъ есть боя́щыяся Го́спода, ма́лыя съ вели́кими.",
+   "pt": "abençoou os que temem o Senhor, os pequenos com os grandes.",
+   "ru": "Благословил боящихся Господа, малых и великих.",
+   "uk": "благословив тих, що бояться Господа, малих із великими.",
+   "en": "He hath blessed them that fear the Lord, both small and great."
+  },
+  {
+   "id": "sl-113-22",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 22,
+   "cu": "Да приложи́тъ Госпо́дь на вы, на вы и на сы́ны ва́ша:",
+   "pt": "Que o Senhor vos acrescente, a vós e aos vossos filhos:",
+   "ru": "Да приложит Господь (благ) вам, вам и сыновьям вашим!",
+   "uk": "Нехай додасть Господь вам, вам і синам вашим:",
+   "en": "The Lord add blessings to you and to your children."
+  },
+  {
+   "id": "sl-113-23",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 23,
+   "cu": "благослове́ни вы Го́сподеви, сотво́ршему не́бо и зе́млю.",
+   "pt": "benditos sois vós do Senhor, que fez o céu e a terra.",
+   "ru": "Благословенны вы Господом, сотворившим небо и землю.",
+   "uk": "благословенні ви Господом, що сотворив небо і землю.",
+   "en": "Blessed are ye of the Lord, who made the heaven and the earth."
+  },
+  {
+   "id": "sl-113-24",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 24,
+   "cu": "Не́бо небесе́ Го́сподеви, зе́млю же даде́ сыново́мъ человѣ́ческимъ.",
+   "pt": "O céu do céu é do Senhor, mas a terra deu-a aos filhos dos homens.",
+   "ru": "Превысшее небо — Господу, а землю Он дал сынам человеческим.",
+   "uk": "Небо неба — Господеві, а землю Він дав синам людським.",
+   "en": "The heaven of heavens belongeth to the Lord: but He hath given the earth to the sons of men."
+  },
+  {
+   "id": "sl-113-25",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 25,
+   "cu": "Не ме́ртвіи восхва́лятъ Тя, Го́споди, ниже́ вси низходя́щіи во адъ:",
+   "pt": "Não são os mortos que Te louvarão, Senhor, nem todos os que descem ao Hades:",
+   "ru": "Не мертвые восхвалят Тебя, Господи, ни все нисходящие во ад,",
+   "uk": "Не мертві восхвалять Тебе, Господи, і не всі, що сходять в ад,",
+   "en": "The dead shall not praise Thee, O Lord, nor any that go down to Hades."
+  },
+  {
+   "id": "sl-113-26",
+   "tipo": "verso",
+   "sl": 113,
+   "v": 26,
+   "cu": "но мы живі́и благослови́мъ Го́спода отны́нѣ и до вѣ́ка.",
+   "pt": "mas nós, os vivos, bendiremos o Senhor desde agora e para sempre.",
+   "ru": "Но мы, живые, будем благословлять Господа отныне и до века.",
+   "uk": "але ми, живі, благословимо Господа відтепер і довіку.",
+   "en": "But we, the living, will bless the Lord, from henceforth and for ever."
+  },
+  {
+   "id": "sl-114",
+   "tipo": "titulo",
+   "sl": 114,
+   "cu": "Псало́мъ 114.",
+   "pt": "Salmo 114 (116,1–9)",
+   "ru": "Псалом 114",
+   "uk": "Псалом 114",
+   "en": "Psalm 114 (116:1–9)"
+  },
+  {
+   "id": "sl-114-00",
+   "tipo": "verso",
+   "sl": 114,
+   "v": 0,
+   "cu": "Аллилу́іа.",
+   "pt": "Aleluia.",
+   "ru": "Аллилуия.",
+   "uk": "Алилуя.",
+   "en": "Alleluia.",
+   "sobrescrito": true,
+   "nota": "Ponomar imprime «Аллилуіа» entre parênteses; retiram-se os parênteses."
+  },
+  {
+   "id": "sl-114-01",
+   "tipo": "verso",
+   "sl": 114,
+   "v": 1,
+   "cu": "Возлюби́хъ, я́ко услы́шитъ Госпо́дь гласъ моле́нія моего́,",
+   "pt": "Amei, porque o Senhor ouvirá a voz da minha súplica,",
+   "ru": "Я радуюсь что слышит Господь глас моления моего,",
+   "uk": "Полюбив я, бо почує Господь голос благання мого,",
+   "en": "I have loved, because the Lord will hearken to the voice of my supplication.",
+   "nota": "EN: Brenton: «I am well pleased»; corrigido para o eslavo «Возлюбих»."
+  },
+  {
+   "id": "sl-114-02",
+   "tipo": "verso",
+   "sl": 114,
+   "v": 2,
+   "cu": "я́ко приклони́ у́хо Свое́ мнѣ: и во дни моя́ призову́.",
+   "pt": "porque inclinou para mim o Seu ouvido: e nos meus dias O invocarei.",
+   "ru": "Что Он приклонил ко мне ухо Свое. Посему во дни мои буду призывать (Его):",
+   "uk": "бо прихилив Він вухо Своє до мене, і в дні мої взиватиму.",
+   "en": "Because He hath inclined His ear to me, therefore will I call upon Him while I live."
+  },
+  {
+   "id": "sl-114-03",
+   "tipo": "verso",
+   "sl": 114,
+   "v": 3,
+   "cu": "Объя́ша мя болѣ́зни сме́ртныя, бѣды́ а́довы обрѣто́ша мя: скорбь и болѣ́знь обрѣто́хъ и и́мя Госпо́дне призва́хъ:",
+   "pt": "Envolveram-me as dores da morte, os perigos do Hades encontraram-me: encontrei aflição e dor, e invoquei o nome do Senhor:",
+   "ru": "Объяли меня болезни смертные, муки адские постигли меня, скорбь и мучение я встретил и имя Господне призвал.",
+   "uk": "Обійняли мене болі смертні, біди адові знайшли мене; скорботу і біль я знайшов, і ім’я Господнє призвав:",
+   "en": "The pangs of death compassed me; the dangers of hell found me: I found affliction and sorrow. Then I called on the Name of the Lord:"
+  },
+  {
+   "id": "sl-114-04",
+   "tipo": "verso",
+   "sl": 114,
+   "v": 4,
+   "cu": "о, Го́споди, изба́ви ду́шу мою́: ми́лостивъ Госпо́дь и пра́веденъ, и Богъ нашъ ми́луетъ.",
+   "pt": "ó Senhor, livra a minha alma: misericordioso é o Senhor e justo, e o nosso Deus tem piedade.",
+   "ru": "О, Господи, избавь душу мою! Милостив Господь и праведен, и Бог наш милует.",
+   "uk": "О Господи, визволи душу мою! Милостивий Господь і праведний, і Бог наш милує.",
+   "en": "O Lord, deliver my soul. The Lord is merciful and righteous; yea, our God hath pity."
+  },
+  {
+   "id": "sl-114-05",
+   "tipo": "verso",
+   "sl": 114,
+   "v": 5,
+   "cu": "Храня́й младе́нцы Госпо́дь: смири́хся, и спасе́ мя.",
+   "pt": "O Senhor guarda os pequeninos: fui humilhado, e salvou-me.",
+   "ru": "Хранит младенцев Господь. Я смирился, и Он спас меня.",
+   "uk": "Береже Господь немовлят: я був упокорений — і Він спас мене.",
+   "en": "The Lord preserveth the simple: I was brought low, and He delivered me."
+  },
+  {
+   "id": "sl-114-06",
+   "tipo": "verso",
+   "sl": 114,
+   "v": 6,
+   "cu": "Обрати́ся, душе́ моя́, въ поко́й твой, я́ко Госпо́дь благодѣ́йствова тя:",
+   "pt": "Volta, ó minha alma, ao teu repouso, porque o Senhor te fez bem:",
+   "ru": "Возвратись, душа моя, в покой твой, ибо Господь облагодетельствовал тебя,",
+   "uk": "Повернися, душе моя, до спокою твого, бо Господь учинив тобі добро,",
+   "en": "Return to thy rest, O my soul; for the Lord hath dealt bountifully with thee."
+  },
+  {
+   "id": "sl-114-07",
+   "tipo": "verso",
+   "sl": 114,
+   "v": 7,
+   "cu": "я́ко изъя́тъ ду́шу мою́ отъ сме́рти, о́чи мои́ отъ слезъ и но́зѣ мои́ отъ поползнове́нія.",
+   "pt": "porque arrancou a minha alma da morte, os meus olhos das lágrimas e os meus pés da queda.",
+   "ru": "Ибо Он избавил душу мою от смерти, очи мои — от слез и ноги мои — от преткновения.",
+   "uk": "бо Він вирвав душу мою від смерті, очі мої — від сліз і ноги мої — від спотикання.",
+   "en": "For He hath delivered my soul from death, mine eyes from tears, and my feet from falling."
+  },
+  {
+   "id": "sl-114-08",
+   "tipo": "verso",
+   "sl": 114,
+   "v": 8,
+   "cu": "Благоугожду́ предъ Го́сподемъ во странѣ́ живы́хъ.",
+   "pt": "Serei agradável ao Senhor na terra dos vivos.",
+   "ru": "Буду благоугоден Господу в стране живых.",
+   "uk": "Буду благоугодний перед Господом у країні живих.",
+   "en": "I shall be well-pleasing before the Lord in the land of the living."
+  },
+  {
+   "id": "k16-g2-01",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-16 (manha.json).] Fim da 2.ª «Glória» (стати́я): P1874 img. n219 imprime «Сла́ва:». Fórmula segundo a prática russa (Ponomar Kathisma16.xml: GloryToTheFather1 + AlleluiaGlory; Azbuka Very, «Кафизма», que cita Skabalanóvitch, Толковый Типикон, 1910): «Слава… и ныне», «Аллилуия» ×3 com «слава Тебе, Боже» ×3, «Господи, помилуй» ×3, «Слава… и ныне»."
+  },
+  {
+   "id": "k16-g2-02",
+   "tipo": "oracao",
+   "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
+   "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
+   "ru": "Аллилуиа, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
+   "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
+   "fonte": {
+    "cu": "T1907 p. 24 («Аллилуіа. (Три раза.)»)",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "[Texto idêntico a defuntos-panikhida-46 (defuntos-panikhida.json).]"
+  },
+  {
+   "id": "k16-g2-03",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "[Texto idêntico a manha-18 (manha.json).]"
+  },
+  {
+   "id": "k16-g2-04",
+   "tipo": "oracao",
+   "cu": "Помяни́, Го́споди Бо́же нашъ, въ вѣ́рѣ и надежди́ живота́ вѣ́чнаго преста́вльшагося раба́ Твоего́, бра́та на́шего (и́мя), и я́ко Благъ и Человѣколю́бецъ, отпуща́яй грѣхи́ и потребля́яй непра́вды, осла́би, оста́ви и прости́ вся во́льная его́ согрѣше́нія и нево́льная; изба́ви его́ вѣ́чныя му́ки и огня́ гее́нскаго, и да́руй ему́ прича́стіе и наслажде́ніе вѣ́чныхъ Твои́хъ благи́хъ, угото́ванныхъ лю́бящимъ Тя: а́ще бо и согрѣши́, но не отступи́ отъ Тебе́, и несумнѣ́нно во Отца́ и Сы́на и Свята́го Ду́ха, Бо́га Тя въ Тро́ицѣ сла́вимаго, вѣ́рова, и Еди́ницу въ Тро́ицѣ и Тро́ицу во Еди́нствѣ правосла́вно да́же до послѣ́дняго своего́ издыха́нія испо́вѣда. Тѣ́мже ми́лостивъ тому́ бу́ди, и вѣ́ру, я́же въ Тя, вмѣ́сто дѣлъ вмѣни́, и со святы́ми Твои́ми, я́ко Щедръ, упоко́й: нѣсть бо человѣ́ка, и́же поживе́тъ и не согрѣши́тъ. Но Ты еди́нъ еси́ кромѣ́ вся́каго грѣха́, и пра́вда Твоя́ пра́вда во вѣ́ки, и Ты еси́ еди́нъ Богъ ми́лостей и щедро́тъ и человѣколю́бія, и Тебѣ́ сла́ву возсыла́емъ, Отцу́ и Сы́ну и Свято́му Ду́ху, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Lembra-Te, Senhor nosso Deus, na fé e na esperança da vida eterna, do Teu servo falecido, nosso irmão (nome), e, como és bom e Amigo dos homens, Tu que perdoas os pecados e consomes as iniquidades, alivia, remite e perdoa todos os seus pecados, voluntários e involuntários; livra-o do tormento eterno e do fogo da geena, e concede-lhe a comunhão e o gozo dos Teus bens eternos, preparados para os que Te amam. Pois, ainda que tenha pecado, não se afastou de Ti, e creu sem duvidar no Pai e no Filho e no Espírito Santo, em Ti, Deus glorificado na Trindade, e confessou ortodoxamente a Unidade na Trindade e a Trindade na Unidade até ao seu último suspiro. Sê-lhe, pois, misericordioso, conta-lhe a fé que tinha em Ti em lugar das obras, e, como és compassivo, dá-lhe repouso com os Teus santos; porque não há homem que viva e não peque. Mas só Tu estás sem pecado algum, e a Tua justiça é justiça eterna, e só Tu és o Deus das misericórdias, das compaixões e do amor pelos homens, e a Ti damos glória, ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Помяни, Господи Боже наш, в вере и надежде жизни вечной преставившегося раба Твоего, брата нашего (имя), и, как Благой и Человеколюбец, отпускающий грехи и истребляющий неправды, ослабь, оставь и прости все вольные и невольные его согрешения; избавь его от вечной муки и огня геенского и даруй ему причастие и наслаждение вечных Твоих благ, уготованных любящим Тебя. Ибо хотя он и согрешил, но не отступил от Тебя и несомненно веровал в Отца и Сына и Святого Духа, в Тебя, Бога, в Троице славимого, и Единицу в Троице и Троицу в Единстве православно исповедовал даже до последнего своего издыхания. Поэтому будь к нему милостив, и веру его в Тебя вместо дел вмени ему, и со святыми Твоими, как Щедрый, упокой, ибо нет человека, который прожил бы и не согрешил. Но Ты один — вне всякого греха, и правда Твоя — правда вовеки, и Ты один — Бог милостей, щедрот и человеколюбия, и Тебе славу воссылаем, Отцу и Сыну и Святому Духу, ныне и всегда и во веки веков. Аминь.",
+   "uk": "Пом’яни, Господи Боже наш, у вірі і надії життя вічного спочилого раба Твого, брата нашого (ім’я), і, як Благий і Чоловіколюбець, що відпускаєш гріхи і знищуєш неправди, ослаб, залиш і прости всі вільні і невільні його прогрішення; визволи його від вічної муки і вогню геєнського і даруй йому причастя і насолоду вічних Твоїх благ, приготованих тим, що люблять Тебе. Бо хоч і згрішив, але не відступив від Тебе, і без сумніву вірував в Отця, і Сина, і Святого Духа, в Тебе, Бога, в Трійці славленого, і Єдиницю в Трійці і Трійцю в Єдиності православно аж до останнього свого подиху сповідував. Тому будь милостивий до нього, і віру, що в Тебе, замість діл зарахуй, і зі святими Твоїми, як Щедрий, упокой, бо нема людини, яка прожила б і не згрішила. Але Ти єдиний поза всяким гріхом, і правда Твоя — правда навіки, і Ти єдиний Бог милості, і щедрот, і чоловіколюбства, і Тобі славу возсилаємо, Отцю, і Сину, і Святому Духові, нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Remember, O Lord our God, in faith and hope of life eternal, Thy servant who hath fallen asleep, our brother (name); and as Thou art good and the Lover of mankind, who pardonest sins and consumest iniquities, loose, remit and forgive all his sins, voluntary and involuntary. Deliver him from everlasting torment and the fire of Gehenna, and grant him communion in and enjoyment of Thine eternal good things, prepared for them that love Thee. For though he sinned, yet he did not depart from Thee, but without doubting believed in the Father and the Son and the Holy Spirit, in Thee, God glorified in Trinity, and confessed in Orthodox wise the Unity in Trinity and the Trinity in Unity, even unto his last breath. Wherefore be merciful unto him, and account unto him for works the faith which he had in Thee, and give him rest with Thy Saints, as Thou art bountiful: for there is no man who liveth and sinneth not. But Thou alone art without any sin, and Thy righteousness is righteousness for ever, and Thou alone art the God of mercies and compassions and love for mankind, and unto Thee we send up glory, to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "MS1900 pp. 536–537 («Молитва по исходѣ души»); PS1993 p. 225; T1907 pp. 19–20",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "defuntos"
+    ]
+   },
+   "nota": "[Texto idêntico a defuntos-panikhida-49 (defuntos-panikhida.json).] Modo «pelos defuntos» (dec. 64): em cada «Glória», T1907 p. 19 («после каждой «Славы»»); prática atual: Azbuka Very, «О чтении Псалтири по усопшим». ⚠ A posição exata dentro da fórmula da Glória não é indicada nas fontes; põe-se antes do «Слава… и ныне» final."
+  },
+  {
+   "id": "k16-g2-05",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-19 (manha.json).]"
+  },
+  {
+   "id": "sl-115",
+   "tipo": "titulo",
+   "sl": 115,
+   "cu": "Псало́мъ 115.",
+   "pt": "Salmo 115 (116,10–19)",
+   "ru": "Псалом 115",
+   "uk": "Псалом 115",
+   "en": "Psalm 115 (116:10–19)"
+  },
+  {
+   "id": "sl-115-00",
+   "tipo": "verso",
+   "sl": 115,
+   "v": 0,
+   "cu": "Аллилу́іа.",
+   "pt": "Aleluia.",
+   "ru": "Аллилуия.",
+   "uk": "Алилуя.",
+   "en": "Alleluia.",
+   "sobrescrito": true,
+   "nota": "Ponomar imprime «Аллилуіа» entre parênteses; retiram-se os parênteses."
+  },
+  {
+   "id": "sl-115-01",
+   "tipo": "verso",
+   "sl": 115,
+   "v": 1,
+   "cu": "Вѣ́ровахъ, тѣ́мже возглаго́лахъ: азъ же смири́хся зѣло́.",
+   "pt": "Acreditei, por isso falei; e eu fui profundamente humilhado.",
+   "ru": "Я веровал, посему и говорил: я весьма смирился.",
+   "uk": "Я увірував, тому й заговорив; я ж упокорився вельми.",
+   "en": "I believed, wherefore I have spoken; and I was greatly humbled.",
+   "nota": "EN: Brenton: «but I was greatly afflicted»; alinhado com o bloco existente (oficio-022): «and I was greatly humbled» (eslavo «аз же смирихся зело»)."
+  },
+  {
+   "id": "sl-115-02",
+   "tipo": "verso",
+   "sl": 115,
+   "v": 2,
+   "cu": "Азъ же рѣхъ во изступле́ніи мое́мъ: всякъ человѣ́къ ложь.",
+   "pt": "Eu disse no meu espanto: todo o homem é mentiroso.",
+   "ru": "Я же сказал в исступлении моем: всякий человек лжив.",
+   "uk": "Я ж сказав у нестямі моїй: всяка людина лжива.",
+   "en": "And I said in mine amazement: Every man is a liar."
+  },
+  {
+   "id": "sl-115-03",
+   "tipo": "verso",
+   "sl": 115,
+   "v": 3,
+   "cu": "Что возда́мъ Го́сподеви о всѣхъ, я́же воздаде́ ми?",
+   "pt": "Que darei em troca ao Senhor por tudo o que Ele me deu?",
+   "ru": "Что воздам Господу за всё, что Он даровал мне?",
+   "uk": "Що віддам Господеві за все, що Він віддав мені?",
+   "en": "What shall I render unto the Lord for all the things wherein He hath rewarded me?"
+  },
+  {
+   "id": "sl-115-04",
+   "tipo": "verso",
+   "sl": 115,
+   "v": 4,
+   "cu": "Ча́шу спасе́нія пріиму́ и и́мя Госпо́дне призову́:",
+   "pt": "Tomarei o cálice da salvação e invocarei o nome do Senhor:",
+   "ru": "Чашу спасения приму и имя Господне призову.",
+   "uk": "Чашу спасіння прийму і ім’я Господнє призову.",
+   "en": "I will take the cup of salvation, and call upon the Name of the Lord."
+  },
+  {
+   "id": "sl-115-05",
+   "tipo": "verso",
+   "sl": 115,
+   "v": 5,
+   "cu": "моли́твы моя́ Го́сподеви возда́мъ предъ всѣ́ми людьми́ Его́.",
+   "pt": "cumprirei os meus votos ao Senhor diante de todo o Seu povo.",
+   "ru": "Обеты мои Господу исполню пред всем народом Его.",
+   "uk": "Обітниці мої Господеві віддам перед усім народом Його.",
+   "en": "I will pay my vows unto the Lord in the presence of all His people."
+  },
+  {
+   "id": "sl-115-06",
+   "tipo": "verso",
+   "sl": 115,
+   "v": 6,
+   "cu": "Честна́ предъ Го́сподемъ смерть преподо́бныхъ Его́.",
+   "pt": "Preciosa aos olhos do Senhor é a morte dos Seus santos.",
+   "ru": "Честна пред Господом смерть преподобных Его.",
+   "uk": "Чесна перед Господом смерть преподобних Його.",
+   "en": "Precious in the sight of the Lord is the death of His saints."
+  },
+  {
+   "id": "sl-115-07",
+   "tipo": "verso",
+   "sl": 115,
+   "v": 7,
+   "cu": "О, Го́споди, азъ рабъ Твой, азъ рабъ Твой и сынъ рабы́ни Твоея́: растерза́лъ еси́ у́зы моя́.",
+   "pt": "Ó Senhor, eu sou Teu servo, eu sou Teu servo e filho da Tua serva; rompeste as minhas cadeias.",
+   "ru": "Господи! Я — раб Твой, я — раб Твой и сын рабыни Твоей; Ты расторг узы мои.",
+   "uk": "О Господи, я раб Твій, я раб Твій і син рабині Твоєї; Ти розірвав пута мої.",
+   "en": "O Lord, I am Thy servant; I am Thy servant, and the son of Thine handmaid; Thou hast burst my bonds asunder."
+  },
+  {
+   "id": "sl-115-08",
+   "tipo": "verso",
+   "sl": 115,
+   "v": 8,
+   "cu": "Тебѣ́ пожру́ же́ртву хвалы́, и во и́мя Госпо́дне призову́.",
+   "pt": "A Ti oferecerei o sacrifício de louvor e invocarei o nome do Senhor.",
+   "ru": "Тебе принесу жертву хвалы и имя Господне призову.",
+   "uk": "Тобі принесу жертву хвали і ім’я Господнє призову.",
+   "en": "I will offer unto Thee the sacrifice of praise, and will call upon the Name of the Lord."
+  },
+  {
+   "id": "sl-115-09",
+   "tipo": "verso",
+   "sl": 115,
+   "v": 9,
+   "cu": "Моли́твы моя́ Го́сподеви возда́мъ предъ всѣ́ми людьми́ Его́,",
+   "pt": "Cumprirei os meus votos ao Senhor diante de todo o Seu povo,",
+   "ru": "Обеты мои Господу исполню пред всем народом Его,",
+   "uk": "Обітниці мої Господеві віддам перед усім народом Його,",
+   "en": "I will pay my vows unto the Lord in the presence of all His people,"
+  },
+  {
+   "id": "sl-115-10",
+   "tipo": "verso",
+   "sl": 115,
+   "v": 10,
+   "cu": "во дво́рѣхъ до́му Госпо́дня, посредѣ́ тебе́, Іерусали́ме.",
+   "pt": "nos átrios da casa do Senhor, no meio de ti, ó Jerusalém.",
+   "ru": "во дворах дома Господня, среди тебя, Иерусалим.",
+   "uk": "у дворах дому Господнього, посеред тебе, Єрусалиме.",
+   "en": "in the courts of the Lord's house, in the midst of thee, O Jerusalem.",
+   "nota": "EN: Brenton: «in the midst of thee, Jerusalem»; alinhado com o bloco existente (oficio-022): «O Jerusalem» (eslavo «Иерусалиме»)."
+  },
+  {
+   "id": "sl-116",
+   "tipo": "titulo",
+   "sl": 116,
+   "cu": "Псало́мъ 116.",
+   "pt": "Salmo 116 (117)",
+   "ru": "Псалом 116",
+   "uk": "Псалом 116",
+   "en": "Psalm 116 (117)"
+  },
+  {
+   "id": "sl-116-00",
+   "tipo": "verso",
+   "sl": 116,
+   "v": 0,
+   "cu": "Аллилу́іа.",
+   "pt": "Aleluia.",
+   "ru": "Аллилуия.",
+   "uk": "Алилуя.",
+   "en": "Alleluia.",
+   "sobrescrito": true,
+   "nota": "Ponomar imprime «Аллилуіа» entre parênteses; retiram-se os parênteses."
+  },
+  {
+   "id": "sl-116-01",
+   "tipo": "verso",
+   "sl": 116,
+   "v": 1,
+   "cu": "Хвали́те Го́спода, вси язы́цы, похвали́те Его́, вси лю́діе:",
+   "pt": "Louvai o Senhor, todas as nações, louvai-O, todos os povos:",
+   "ru": "Хвалите Господа, все народы, похвалите Его, все люди,",
+   "uk": "Хваліть Господа, всі народи, похваліть Його, всі люди,",
+   "en": "Praise the Lord, all ye nations: praise Him, all ye peoples."
+  },
+  {
+   "id": "sl-116-02",
+   "tipo": "verso",
+   "sl": 116,
+   "v": 2,
+   "cu": "я́ко утверди́ся ми́лость Его́ на насъ, и и́стина Госпо́дня пребыва́етъ во вѣкъ.",
+   "pt": "porque se firmou sobre nós a Sua misericórdia, e a verdade do Senhor permanece para sempre.",
+   "ru": "Ибо непоколебима милость Его к нам и истина Господня пребывает во век.",
+   "uk": "бо утвердилася милість Його на нас, і істина Господня перебуває навіки.",
+   "en": "For His mercy hath been abundant toward us: and the truth of the Lord endureth for ever."
+  },
+  {
+   "id": "sl-117",
+   "tipo": "titulo",
+   "sl": 117,
+   "cu": "Псало́мъ 117.",
+   "pt": "Salmo 117 (118)",
+   "ru": "Псалом 117",
+   "uk": "Псалом 117",
+   "en": "Psalm 117 (118)"
+  },
+  {
+   "id": "sl-117-00",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 0,
+   "cu": "Аллилу́іа.",
+   "pt": "Aleluia.",
+   "ru": "Аллилуия.",
+   "uk": "Алилуя.",
+   "en": "Alleluia.",
+   "sobrescrito": true,
+   "nota": "Ponomar imprime «Аллилуіа» entre parênteses; retiram-se os parênteses."
+  },
+  {
+   "id": "sl-117-01",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 1,
+   "cu": "Исповѣ́дайтеся Го́сподеви, я́ко благъ, я́ко въ вѣкъ ми́лость Его́.",
+   "pt": "Dai graças ao Senhor, porque é bom, porque a Sua misericórdia é para sempre.",
+   "ru": "Исповедайтесь Господу, ибо Он благ, ибо во век милость Его.",
+   "uk": "Славте Господа, бо Він благий, бо навіки милість Його.",
+   "en": "Give thanks to the Lord; for He is good: for His mercy endureth for ever."
+  },
+  {
+   "id": "sl-117-02",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 2,
+   "cu": "Да рече́тъ у́бо домъ Изра́илевъ: я́ко благъ, я́ко въ вѣкъ ми́лость Его́.",
+   "pt": "Diga, pois, a casa de Israel: Porque é bom, porque a Sua misericórdia é para sempre.",
+   "ru": "Да скажет (сие) дом Израилев, ибо Он благ, ибо во век милость Его.",
+   "uk": "Нехай скаже ж дім Ізраїлів, що Він благий, що навіки милість Його.",
+   "en": "Let now the house of Israel say, that He is good: for His mercy endureth for ever."
+  },
+  {
+   "id": "sl-117-03",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 3,
+   "cu": "Да рече́тъ у́бо домъ Ааро́нь: я́ко благъ, я́ко въ вѣкъ ми́лость Его́.",
+   "pt": "Diga, pois, a casa de Aarão: Porque é bom, porque a Sua misericórdia é para sempre.",
+   "ru": "Да скажет дом Ааронов, ибо Он благ, ибо во век милость Его.",
+   "uk": "Нехай скаже ж дім Ааронів, що Він благий, що навіки милість Його.",
+   "en": "Let now the house of Aaron say, that He is good: for His mercy endureth for ever."
+  },
+  {
+   "id": "sl-117-04",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 4,
+   "cu": "Да реку́тъ у́бо вси боя́щіися Го́спода: я́ко благъ, я́ко въ вѣкъ ми́лость Его́.",
+   "pt": "Digam, pois, todos os que temem o Senhor: Porque é bom, porque a Sua misericórdia é para sempre.",
+   "ru": "Да скажут все боящиеся Господа, ибо Он благ, ибо во век милость Его.",
+   "uk": "Нехай скажуть же всі, хто боїться Господа, що Він благий, що навіки милість Його.",
+   "en": "Let now all that fear the Lord say, that He is good: for His mercy endureth for ever."
+  },
+  {
+   "id": "sl-117-05",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 5,
+   "cu": "Отъ ско́рби призва́хъ Го́спода, и услы́ша мя въ простра́нство.",
+   "pt": "Na aflição invoquei o Senhor, e ouviu-me, pondo-me em lugar espaçoso.",
+   "ru": "В скорби призвал я Господа, и Он услышал меня, (изведши) на простор.",
+   "uk": "Зі скорботи я призвав Господа, і Він вислухав мене на просторі.",
+   "en": "I called on the Lord out of affliction: and He hearkened to me, so as to bring me into a wide place."
+  },
+  {
+   "id": "sl-117-06",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 6,
+   "cu": "Госпо́дь мнѣ помо́щникъ, и не убою́ся: что сотвори́тъ мнѣ человѣ́къ?",
+   "pt": "O Senhor é o meu auxílio, e não temerei: que me fará o homem?",
+   "ru": "Господь мне помощник, и не убоюсь: что сделает мне человек?",
+   "uk": "Господь мені помічник, і не убоюся: що вчинить мені людина?",
+   "en": "The Lord is my helper; and I will not fear what man shall do to me."
+  },
+  {
+   "id": "sl-117-07",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 7,
+   "cu": "Госпо́дь мнѣ помо́щникъ, и азъ воззрю́ на враги́ моя́.",
+   "pt": "O Senhor é o meu auxílio, e eu olharei para os meus inimigos.",
+   "ru": "Господь мне помощник, и я буду взирать на врагов моих.",
+   "uk": "Господь мені помічник, і я погляну на ворогів моїх.",
+   "en": "The Lord is my helper; and I shall see my desire upon mine enemies."
+  },
+  {
+   "id": "sl-117-08",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 8,
+   "cu": "Бла́го есть надѣ́ятися на Го́спода, не́жели надѣ́ятися на человѣ́ка:",
+   "pt": "Bom é confiar no Senhor, mais do que confiar no homem:",
+   "ru": "Лучше надеяться на Господа, нежели надеяться на человека.",
+   "uk": "Краще надіятися на Господа, ніж надіятися на людину;",
+   "en": "It is better to trust in the Lord than to trust in man."
+  },
+  {
+   "id": "sl-117-09",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 9,
+   "cu": "бла́го есть упова́ти на Го́спода, не́жели упова́ти на кня́зи.",
+   "pt": "bom é esperar no Senhor, mais do que esperar nos príncipes.",
+   "ru": "Лучше уповать на Господа, нежели уповать на князей.",
+   "uk": "краще уповати на Господа, ніж уповати на князів.",
+   "en": "It is better to hope in the Lord, than to hope in princes."
+  },
+  {
+   "id": "sl-117-10",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 10,
+   "cu": "Вси язы́цы обыдо́ша мя, и и́менемъ Госпо́днимъ противля́хся имъ:",
+   "pt": "Todas as nações me cercaram, e em nome do Senhor lhes resisti:",
+   "ru": "Все народы окружили меня, но именем Господним я воспротивился им.",
+   "uk": "Усі народи оточили мене, і ім’ям Господнім я давав їм відсіч;",
+   "en": "All nations compassed me about: but in the Name of the Lord I repulsed them."
+  },
+  {
+   "id": "sl-117-11",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 11,
+   "cu": "обыше́дше обыдо́ша мя, и и́менемъ Госпо́днимъ противля́хся имъ:",
+   "pt": "cercando, cercaram-me, e em nome do Senhor lhes resisti:",
+   "ru": "Со всех сторон окружили меня, но именем Господним я воспротивился им.",
+   "uk": "обступаючи, обступили мене, і ім’ям Господнім я давав їм відсіч;",
+   "en": "They completely compassed me about: but in the Name of the Lord I repulsed them."
+  },
+  {
+   "id": "sl-117-12",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 12,
+   "cu": "обыдо́ша мя я́ко пче́лы сотъ, и разгорѣ́шася я́ко огнь въ те́рніи: и и́менемъ Госпо́днимъ противля́хся имъ.",
+   "pt": "cercaram-me como as abelhas ao favo, e arderam como fogo entre espinhos: e em nome do Senhor lhes resisti.",
+   "ru": "Окружили меня, как пчелы сот, и разгорелись, как огонь в терниях, но именем Господним я воспротивился им.",
+   "uk": "обступили мене, як бджоли стільник, і розгорілися, як вогонь у терні, і ім’ям Господнім я давав їм відсіч.",
+   "en": "They compassed me about as bees do a honeycomb, and they burst into flame as fire among thorns: but in the Name of the Lord I repulsed them."
+  },
+  {
+   "id": "sl-117-13",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 13,
+   "cu": "Отринове́нъ преврати́хся па́сти, и Госпо́дь прія́тъ мя.",
+   "pt": "Empurrado, fui derrubado para cair, e o Senhor amparou-me.",
+   "ru": "Низринутый, я готов был упасть, но Господь поддержал меня.",
+   "uk": "Відштовхнутий, я похилився, щоб упасти, і Господь підтримав мене.",
+   "en": "I was thrust, and sorely shaken, that I might fall: but the Lord helped me."
+  },
+  {
+   "id": "sl-117-14",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 14,
+   "cu": "Крѣ́пость моя́ и пѣ́ніе мое́ Госпо́дь, и бысть ми во спасе́ніе.",
+   "pt": "A minha força e o meu canto é o Senhor, e tornou-Se a minha salvação.",
+   "ru": "Крепость моя и пение мое — Господь, и Он был мне спасением.",
+   "uk": "Міць моя і спів мій — Господь, і Він став мені спасінням.",
+   "en": "The Lord is my strength and my song, and is become my salvation."
+  },
+  {
+   "id": "sl-117-15",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 15,
+   "cu": "Гласъ ра́дости и спасе́нія въ селе́ніихъ пра́ведныхъ: десни́ца Госпо́дня сотвори́ си́лу.",
+   "pt": "Voz de alegria e de salvação nas moradas dos justos: a destra do Senhor agiu com poder.",
+   "ru": "Глас радости и спасения в селениях праведных: десница Господня явила силу.",
+   "uk": "Голос радості і спасіння в оселях праведних: правиця Господня сотворила силу.",
+   "en": "The voice of exultation and salvation is in the tabernacles of the righteous: the right hand of the Lord hath wrought mightily."
+  },
+  {
+   "id": "sl-117-16",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 16,
+   "cu": "Десни́ца Госпо́дня вознесе́ мя, десни́ца Госпо́дня сотвори́ си́лу.",
+   "pt": "A destra do Senhor exaltou-me, a destra do Senhor agiu com poder.",
+   "ru": "Десница Господня возвысила меня, десница Господня явила силу.",
+   "uk": "Правиця Господня піднесла мене, правиця Господня сотворила силу.",
+   "en": "The right hand of the Lord hath exalted me: the right hand of the Lord hath wrought powerfully."
+  },
+  {
+   "id": "sl-117-17",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 17,
+   "cu": "Не умру́, но живъ бу́ду и повѣ́мъ дѣла́ Госпо́дня.",
+   "pt": "Não morrerei, mas viverei e contarei as obras do Senhor.",
+   "ru": "Не умру, но жив буду и поведаю дела Господни.",
+   "uk": "Не умру, але житиму і розповім діла Господні.",
+   "en": "I shall not die, but live, and recount the works of the Lord."
+  },
+  {
+   "id": "sl-117-18",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 18,
+   "cu": "Наказу́я наказа́ мя Госпо́дь, сме́рти же не предаде́ мя.",
+   "pt": "Corrigindo, o Senhor corrigiu-me, mas não me entregou à morte.",
+   "ru": "Научая, наказал меня Господь, смерти же не предал меня.",
+   "uk": "Караючи, покарав мене Господь, але смерті не віддав мене.",
+   "en": "The Lord hath chastened me sore: but He hath not given me up to death."
+  },
+  {
+   "id": "sl-117-19",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 19,
+   "cu": "Отве́рзите мнѣ врата́ пра́вды: вшедъ въ ня, исповѣ́мся Го́сподеви.",
+   "pt": "Abri-me as portas da justiça: entrando por elas, darei graças ao Senhor.",
+   "ru": "Отворите мне врата правды: вошедши в них, я исповедаюсь Господу.",
+   "uk": "Відчиніть мені ворота правди: увійшовши в них, славитиму Господа.",
+   "en": "Open to me the gates of righteousness: I will go into them, and give praise to the Lord."
+  },
+  {
+   "id": "sl-117-20",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 20,
+   "cu": "Сія́ врата́ Госпо́дня: пра́ведніи вни́дутъ въ ня.",
+   "pt": "Esta é a porta do Senhor: os justos entrarão por ela.",
+   "ru": "Это — врата Господни: праведные войдут в них.",
+   "uk": "Це ворота Господні: праведні ввійдуть у них.",
+   "en": "This is the gate of the Lord: the righteous shall enter by it."
+  },
+  {
+   "id": "sl-117-21",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 21,
+   "cu": "Исповѣ́мся Тебѣ́, я́ко услы́шалъ мя еси́ и былъ еси́ мнѣ во спасе́ніе.",
+   "pt": "Dar-Te-ei graças, porque me ouviste e Te tornaste a minha salvação.",
+   "ru": "Исповедаюсь Тебе, ибо Ты услышал меня и был мне спасением.",
+   "uk": "Славитиму Тебе, бо Ти вислухав мене і став мені спасінням.",
+   "en": "I will give thanks to Thee; because Thou hast heard me, and art become my salvation."
+  },
+  {
+   "id": "sl-117-22",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 22,
+   "cu": "Ка́мень, его́же небрего́ша зи́ждущіи, сей бысть во главу́ у́гла:",
+   "pt": "A pedra que os construtores desprezaram, essa tornou-se cabeça de esquina:",
+   "ru": "Камень, которым пренебрегли строители, он стал во главу угла:",
+   "uk": "Камінь, яким знехтували будівничі, той став головою кута:",
+   "en": "The stone which the builders rejected, the same is become the head of the corner."
+  },
+  {
+   "id": "sl-117-23",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 23,
+   "cu": "отъ Го́спода бысть сей, и есть ди́венъ во очесѣ́хъ на́шихъ.",
+   "pt": "pelo Senhor foi feito isto, e é admirável aos nossos olhos.",
+   "ru": "От Господа было это и дивно в очах наших.",
+   "uk": "від Господа це сталося, і дивне воно в очах наших.",
+   "en": "This hath been done of the Lord; and it is wonderful in our eyes."
+  },
+  {
+   "id": "sl-117-24",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 24,
+   "cu": "Сей день, его́же сотвори́ Госпо́дь, возра́дуемся и возвесели́мся въ онь.",
+   "pt": "Este é o dia que o Senhor fez: alegremo-nos e regozijemo-nos nele.",
+   "ru": "Сей день сотворил Господь: возрадуемся и возвеселимся в оный.",
+   "uk": "Це день, що його створив Господь, зрадіймо і звеселімося в нім.",
+   "en": "This is the day which the Lord hath made: let us exult and rejoice in it."
+  },
+  {
+   "id": "sl-117-25",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 25,
+   "cu": "О, Го́споди, спаси́ же: о, Го́споди, поспѣши́ же.",
+   "pt": "Ó Senhor, salva, pois; ó Senhor, ajuda, pois.",
+   "ru": "О Господи, спаси же! О Господи, поспеши же!",
+   "uk": "О Господи, спаси ж! О Господи, допоможи ж!",
+   "en": "O Lord, save now: O Lord, send now prosperity."
+  },
+  {
+   "id": "sl-117-26",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 26,
+   "cu": "Благослове́нъ гряды́й во и́мя Госпо́дне: благослови́хомъ вы изъ до́му Госпо́дня.",
+   "pt": "Bendito o que vem em nome do Senhor: abençoámo-vos da casa do Senhor.",
+   "ru": "Благословен грядущий во имя Господне! Благословили мы вас из дома Господня.",
+   "uk": "Благословенний, хто йде в ім’я Господнє: благословили ми вас із дому Господнього.",
+   "en": "Blessed is He that cometh in the Name of the Lord: we have blessed you out of the house of the Lord."
+  },
+  {
+   "id": "sl-117-27",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 27,
+   "cu": "Богъ Госпо́дь, и яви́ся намъ: соста́вите пра́здникъ во учаща́ющихъ до рогъ олтаре́выхъ.",
+   "pt": "Deus é o Senhor, e manifestou-Se a nós: celebrai a festa com ramos frondosos, até aos chifres do altar.",
+   "ru": "Бог — Господь, и явился нам. Соберитесь на праздник многолюдными толпами (доходящими) до рогов жертвенника.",
+   "uk": "Бог — Господь, і явився нам: улаштуйте свято з густим гіллям аж до рогів жертовника.",
+   "en": "God is the Lord, and He hath shined upon us: celebrate the feast with thick branches, binding the victims even to the horns of the altar."
+  },
+  {
+   "id": "sl-117-28",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 28,
+   "cu": "Богъ мой еси́ Ты, и исповѣ́мся Тебѣ́: Богъ мой еси́ Ты, и вознесу́ Тя: исповѣ́мся Тебѣ́, я́ко услы́шалъ мя еси́ и былъ еси́ мнѣ во спасе́ніе.",
+   "pt": "Tu és o meu Deus, e dar-Te-ei graças; Tu és o meu Deus, e exaltar-Te-ei: dar-Te-ei graças, porque me ouviste e Te tornaste a minha salvação.",
+   "ru": "Ты — Бог мой, и я буду славить Тебя. Ты — Бог мой, и я буду превозносить Тебя. Буду исповедаться Тебе, ибо Ты услышал меня и был мне спасением.",
+   "uk": "Ти Бог мій, і я славитиму Тебе; Ти Бог мій, і я піднесу Тебе; славитиму Тебе, бо Ти вислухав мене і став мені спасінням.",
+   "en": "Thou art my God, and I will give Thee thanks: Thou art my God, and I will exalt Thee. I will give thanks to Thee, for Thou hast heard me, and art become my salvation."
+  },
+  {
+   "id": "sl-117-29",
+   "tipo": "verso",
+   "sl": 117,
+   "v": 29,
+   "cu": "Исповѣ́дайтеся Го́сподеви, я́ко благъ, я́ко въ вѣкъ ми́лость Его́.",
+   "pt": "Dai graças ao Senhor, porque é bom, porque a Sua misericórdia é para sempre.",
+   "ru": "Исповедайтесь Господу, ибо Он благ, ибо во век милость Его.",
+   "uk": "Славте Господа, бо Він благий, бо навіки милість Його.",
+   "en": "Give thanks to the Lord; for He is good: for His mercy endureth for ever."
+  },
+  {
+   "id": "k16-g3-01",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-16 (manha.json).] Fim da 3.ª «Glória» (стати́я): P1874 img. n222 imprime «Сла́ва:». Fórmula segundo a prática russa (Ponomar Kathisma16.xml: GloryToTheFather1 + AlleluiaGlory; Azbuka Very, «Кафизма», que cita Skabalanóvitch, Толковый Типикон, 1910): «Слава… и ныне», «Аллилуия» ×3 com «слава Тебе, Боже» ×3, «Господи, помилуй» ×3, «Слава… и ныне»."
+  },
+  {
+   "id": "k16-g3-02",
+   "tipo": "oracao",
+   "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
+   "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
+   "ru": "Аллилуиа, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
+   "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
+   "fonte": {
+    "cu": "T1907 p. 24 («Аллилуіа. (Три раза.)»)",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "[Texto idêntico a defuntos-panikhida-46 (defuntos-panikhida.json).]"
+  },
+  {
+   "id": "k16-g3-03",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "[Texto idêntico a manha-18 (manha.json).]"
+  },
+  {
+   "id": "k16-g3-04",
+   "tipo": "oracao",
+   "cu": "Помяни́, Го́споди Бо́же нашъ, въ вѣ́рѣ и надежди́ живота́ вѣ́чнаго преста́вльшагося раба́ Твоего́, бра́та на́шего (и́мя), и я́ко Благъ и Человѣколю́бецъ, отпуща́яй грѣхи́ и потребля́яй непра́вды, осла́би, оста́ви и прости́ вся во́льная его́ согрѣше́нія и нево́льная; изба́ви его́ вѣ́чныя му́ки и огня́ гее́нскаго, и да́руй ему́ прича́стіе и наслажде́ніе вѣ́чныхъ Твои́хъ благи́хъ, угото́ванныхъ лю́бящимъ Тя: а́ще бо и согрѣши́, но не отступи́ отъ Тебе́, и несумнѣ́нно во Отца́ и Сы́на и Свята́го Ду́ха, Бо́га Тя въ Тро́ицѣ сла́вимаго, вѣ́рова, и Еди́ницу въ Тро́ицѣ и Тро́ицу во Еди́нствѣ правосла́вно да́же до послѣ́дняго своего́ издыха́нія испо́вѣда. Тѣ́мже ми́лостивъ тому́ бу́ди, и вѣ́ру, я́же въ Тя, вмѣ́сто дѣлъ вмѣни́, и со святы́ми Твои́ми, я́ко Щедръ, упоко́й: нѣсть бо человѣ́ка, и́же поживе́тъ и не согрѣши́тъ. Но Ты еди́нъ еси́ кромѣ́ вся́каго грѣха́, и пра́вда Твоя́ пра́вда во вѣ́ки, и Ты еси́ еди́нъ Богъ ми́лостей и щедро́тъ и человѣколю́бія, и Тебѣ́ сла́ву возсыла́емъ, Отцу́ и Сы́ну и Свято́му Ду́ху, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Lembra-Te, Senhor nosso Deus, na fé e na esperança da vida eterna, do Teu servo falecido, nosso irmão (nome), e, como és bom e Amigo dos homens, Tu que perdoas os pecados e consomes as iniquidades, alivia, remite e perdoa todos os seus pecados, voluntários e involuntários; livra-o do tormento eterno e do fogo da geena, e concede-lhe a comunhão e o gozo dos Teus bens eternos, preparados para os que Te amam. Pois, ainda que tenha pecado, não se afastou de Ti, e creu sem duvidar no Pai e no Filho e no Espírito Santo, em Ti, Deus glorificado na Trindade, e confessou ortodoxamente a Unidade na Trindade e a Trindade na Unidade até ao seu último suspiro. Sê-lhe, pois, misericordioso, conta-lhe a fé que tinha em Ti em lugar das obras, e, como és compassivo, dá-lhe repouso com os Teus santos; porque não há homem que viva e não peque. Mas só Tu estás sem pecado algum, e a Tua justiça é justiça eterna, e só Tu és o Deus das misericórdias, das compaixões e do amor pelos homens, e a Ti damos glória, ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Помяни, Господи Боже наш, в вере и надежде жизни вечной преставившегося раба Твоего, брата нашего (имя), и, как Благой и Человеколюбец, отпускающий грехи и истребляющий неправды, ослабь, оставь и прости все вольные и невольные его согрешения; избавь его от вечной муки и огня геенского и даруй ему причастие и наслаждение вечных Твоих благ, уготованных любящим Тебя. Ибо хотя он и согрешил, но не отступил от Тебя и несомненно веровал в Отца и Сына и Святого Духа, в Тебя, Бога, в Троице славимого, и Единицу в Троице и Троицу в Единстве православно исповедовал даже до последнего своего издыхания. Поэтому будь к нему милостив, и веру его в Тебя вместо дел вмени ему, и со святыми Твоими, как Щедрый, упокой, ибо нет человека, который прожил бы и не согрешил. Но Ты один — вне всякого греха, и правда Твоя — правда вовеки, и Ты один — Бог милостей, щедрот и человеколюбия, и Тебе славу воссылаем, Отцу и Сыну и Святому Духу, ныне и всегда и во веки веков. Аминь.",
+   "uk": "Пом’яни, Господи Боже наш, у вірі і надії життя вічного спочилого раба Твого, брата нашого (ім’я), і, як Благий і Чоловіколюбець, що відпускаєш гріхи і знищуєш неправди, ослаб, залиш і прости всі вільні і невільні його прогрішення; визволи його від вічної муки і вогню геєнського і даруй йому причастя і насолоду вічних Твоїх благ, приготованих тим, що люблять Тебе. Бо хоч і згрішив, але не відступив від Тебе, і без сумніву вірував в Отця, і Сина, і Святого Духа, в Тебе, Бога, в Трійці славленого, і Єдиницю в Трійці і Трійцю в Єдиності православно аж до останнього свого подиху сповідував. Тому будь милостивий до нього, і віру, що в Тебе, замість діл зарахуй, і зі святими Твоїми, як Щедрий, упокой, бо нема людини, яка прожила б і не згрішила. Але Ти єдиний поза всяким гріхом, і правда Твоя — правда навіки, і Ти єдиний Бог милості, і щедрот, і чоловіколюбства, і Тобі славу возсилаємо, Отцю, і Сину, і Святому Духові, нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Remember, O Lord our God, in faith and hope of life eternal, Thy servant who hath fallen asleep, our brother (name); and as Thou art good and the Lover of mankind, who pardonest sins and consumest iniquities, loose, remit and forgive all his sins, voluntary and involuntary. Deliver him from everlasting torment and the fire of Gehenna, and grant him communion in and enjoyment of Thine eternal good things, prepared for them that love Thee. For though he sinned, yet he did not depart from Thee, but without doubting believed in the Father and the Son and the Holy Spirit, in Thee, God glorified in Trinity, and confessed in Orthodox wise the Unity in Trinity and the Trinity in Unity, even unto his last breath. Wherefore be merciful unto him, and account unto him for works the faith which he had in Thee, and give him rest with Thy Saints, as Thou art bountiful: for there is no man who liveth and sinneth not. But Thou alone art without any sin, and Thy righteousness is righteousness for ever, and Thou alone art the God of mercies and compassions and love for mankind, and unto Thee we send up glory, to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "MS1900 pp. 536–537 («Молитва по исходѣ души»); PS1993 p. 225; T1907 pp. 19–20",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "defuntos"
+    ]
+   },
+   "nota": "[Texto idêntico a defuntos-panikhida-49 (defuntos-panikhida.json).] Modo «pelos defuntos» (dec. 64): em cada «Glória», T1907 p. 19 («после каждой «Славы»»); prática atual: Azbuka Very, «О чтении Псалтири по усопшим». ⚠ A posição exata dentro da fórmula da Glória não é indicada nas fontes; põe-se antes do «Слава… и ныне» final."
+  },
+  {
+   "id": "k16-g3-05",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-19 (manha.json).]"
+  },
+  {
+   "id": "k16-p-01",
+   "tipo": "rubrica",
+   "cu": "По шестона́десятой каѳи́смѣ, Трисвято́е.",
+   "pt": "Depois da décima sexta catisma, o Triságio (até ao Pai-Nosso).",
+   "ru": "После шестнадцатой кафизмы — Трисвятое (по «Отче наш»).",
+   "uk": "Після шістнадцятої кафізми — Трисвяте (до «Отче наш»).",
+   "en": "After the Sixteenth Kathisma, the Trisagion (through «Our Father»).",
+   "fonte": {
+    "cu": "P1874 img. n222",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "P1874 img. n222: «По шестона́десятой каѳи́смѣ, Трисвято́е. Та́же тропари́, гласъ 1:» O «Трисвятое» abreviado desdobra-se como no Molitvoslov (Triságio … Pai-Nosso)."
+  },
+  {
+   "id": "k16-p-02",
+   "tipo": "oracao",
+   "cu": "Святы́й Бо́же, Святы́й Крѣ́пкій, Святы́й Безсме́ртный, поми́луй насъ.",
+   "pt": "Santo Deus, Santo Forte, Santo Imortal, tem piedade de nós.",
+   "ru": "Святый Боже, Святый Крепкий, Святый Бессмертный, помилуй нас.",
+   "uk": "Святий Боже, Святий Кріпкий, Святий Безсмертний, помилуй нас.",
+   "en": "Holy God, Holy Mighty, Holy Immortal, have mercy upon us.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "[Texto idêntico a noite-025 (noite.json).]"
+  },
+  {
+   "id": "k16-p-03",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a noite-026 (noite.json).]"
+  },
+  {
+   "id": "k16-p-04",
+   "tipo": "oracao",
+   "cu": "Пресвята́я Тро́ице, поми́луй насъ; Го́споди, очи́сти грѣхи́ на́ша; Влады́ко, прости́ беззако́нія на́ша; Святы́й, посѣти́ и исцѣли́ не́мощи на́ша, и́мене Твоего́ ра́ди.",
+   "pt": "Santíssima Trindade, tem piedade de nós; Senhor, purifica os nossos pecados; Soberano, perdoa as nossas iniquidades; Santo, visita e cura as nossas enfermidades, por causa do Teu nome.",
+   "ru": "Пресвятая Троица, помилуй нас; Господи, очисти грехи наши; Владыка, прости беззакония наши; Святой, посети и исцели немощи наши ради имени Твоего.",
+   "uk": "Пресвята Трійце, помилуй нас; Господи, очисти гріхи наші; Владико, прости беззаконня наші; Святий, відвідай і зціли немочі наші імені Твого ради.",
+   "en": "O all-holy Trinity, have mercy upon us. O Lord, cleanse our sins. O Master, pardon our transgressions. O Holy One, visit and heal our infirmities, for Thy Name's sake.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a noite-027 (noite.json).]"
+  },
+  {
+   "id": "k16-p-05",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "[Texto idêntico a noite-028 (noite.json).]"
+  },
+  {
+   "id": "k16-p-06",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a noite-029 (noite.json).]"
+  },
+  {
+   "id": "k16-p-07",
+   "tipo": "oracao",
+   "cu": "О́тче нашъ, И́же еси́ на небесѣ́хъ! Да святи́тся и́мя Твое́, да пріи́детъ Ца́рствіе Твое́, да бу́детъ во́ля Твоя́, я́ко на небеси́ и на земли́. Хлѣбъ нашъ насу́щный даждь намъ днесь; и оста́ви намъ до́лги на́ша, я́коже и мы оставля́емъ должнико́мъ на́шимъ; и не введи́ насъ во искуше́ніе, но изба́ви насъ отъ лука́ваго.",
+   "pt": "Pai nosso, que estás nos céus, santificado seja o Teu nome; venha o Teu Reino; seja feita a Tua vontade, como no céu, assim na terra. O pão nosso de cada dia dá-nos hoje; e perdoa-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores; e não nos conduzas à tentação, mas livra-nos do maligno.",
+   "ru": "Отче наш, сущий на небесах! Да святится имя Твое, да придет Царствие Твое, да будет воля Твоя, как на небе, так и на земле. Хлеб наш насущный дай нам сегодня; и прости нам долги наши, как и мы прощаем должникам нашим; и не введи нас в искушение, но избавь нас от лукавого.",
+   "uk": "Отче наш, що єси на небесах! Нехай святиться ім’я Твоє, нехай прийде Царство Твоє, нехай буде воля Твоя, як на небі, так і на землі. Хліб наш насущний дай нам сьогодні; і прости нам борги наші, як і ми прощаємо боржникам нашим; і не введи нас у спокусу, але визволи нас від лукавого.",
+   "en": "Our Father, who art in heaven, hallowed be Thy Name. Thy kingdom come. Thy will be done, as in heaven, so on earth. Give us this day our daily bread. And forgive us our debts, as we forgive our debtors. And lead us not into temptation, but deliver us from the evil one.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria (Z1912 parafraseava)",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a noite-030 (noite.json).]"
+  },
+  {
+   "id": "k16-p-08",
+   "tipo": "titulo",
+   "cu": "Тропари́, гласъ 1:",
+   "pt": "Tropários, tom 1:",
+   "ru": "Тропари, глас 1:",
+   "uk": "Тропарі, глас 1:",
+   "en": "Troparia, Tone 1:",
+   "fonte": {
+    "cu": "P1874 img. n222",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "defuntos"
+    ]
+   }
+  },
+  {
+   "id": "k16-p-09",
+   "tipo": "oracao",
+   "cu": "Инъ міръ тебѣ́, душе́, ожида́етъ, и Судія́ хо́щетъ твоя́ обличи́ти та́йная и лю́тая: не пребу́ди у́бо въ здѣ́шнихъ, но предвари́, вопію́щи Судіи́: Бо́же, очи́сти мя и спаси́ мя.",
+   "pt": "Outro mundo te espera, ó alma, e o Juiz quer revelar os teus segredos e as tuas maldades. Não permaneças, pois, nas coisas daqui, mas antecipa-te, clamando ao Juiz: ó Deus, purifica-me e salva-me.",
+   "ru": "Иной мир тебя, душа, ожидает, и Судия хочет обличить тайное и лютое твое. Не пребывай же в здешнем, но предвари, взывая к Судии: Боже, очисти меня и спаси меня.",
+   "uk": "Інший світ тебе, душе, чекає, і Суддя хоче викрити таємне і люте твоє. Тож не перебувай у тутешньому, але випередь, взиваючи до Судді: Боже, очисти мене і спаси мене.",
+   "en": "Another world awaiteth thee, O soul, and the Judge will lay bare thy secret and evil things. Abide not, therefore, in the things of this world, but make haste, crying unto the Judge: O God, cleanse me and save me.",
+   "fonte": {
+    "cu": "P1874 img. n222",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "defuntos"
+    ]
+   }
+  },
+  {
+   "id": "k16-p-10",
+   "tipo": "oracao",
+   "cu": "Сла́ва: Я́ко прегрѣше́ньми мно́гими и я́звами безмѣ́рными облежи́мь есмь, Спа́се, согрѣша́яй молю́ Твое́ благоутро́біе, Христе́: Врачу́ неду́гующихъ, посѣти́ и исцѣли́, и спаси́ мя.",
+   "pt": "Glória…: Cercado de muitos pecados e de chagas sem medida, ó Salvador, eu, o pecador, suplico à Tua compaixão, ó Cristo: ó Médico dos enfermos, visita-me, cura-me e salva-me.",
+   "ru": "Слава: Будучи объят многими прегрешениями и безмерными язвами, Спасе, я, согрешающий, молю Твое благоутробие, Христе: Врач недугующих, посети, и исцели, и спаси меня.",
+   "uk": "Слава: Будучи оточений багатьма прогрішеннями і безмірними ранами, Спасе, я, що грішу, благаю Твоє милосердя, Христе: Лікарю недужих, відвідай, і зціли, і спаси мене.",
+   "en": "Glory…: Beset with many transgressions and with wounds beyond measure, O Saviour, I, the sinner, entreat Thy tender compassion, O Christ: O Physician of the sick, visit, and heal, and save me.",
+   "fonte": {
+    "cu": "P1874 img. n222",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "defuntos"
+    ]
+   }
+  },
+  {
+   "id": "k16-p-11",
+   "tipo": "oracao",
+   "cu": "И ны́нѣ: Душе́ моя́, что неради́во живе́ши, лѣня́щися? Что не пече́шися о злыхъ, и́хже содѣ́яла еси́ въ житіи́? Потщи́ся испра́витися, пре́жде да́же дверь не заключи́тъ тебѣ́ Госпо́дь. Богоро́дицѣ притецы́, припади́ и возопі́й: Упова́ніе ненадѣ́емыхъ, спаси́ мя, мно́го къ Тебѣ́ прегрѣши́вша, Влады́чице Пречи́стая.",
+   "pt": "E agora…: Minha alma, porque vives negligente e preguiçosa? Porque não te preocupas com os males que fizeste na vida? Apressa-te a emendar-te antes que o Senhor te feche a porta. Corre para a Mãe de Deus, prostra-te e clama: Esperança dos desesperados, salva-me, que muito pequei contra Ti, ó Soberana puríssima.",
+   "ru": "И ныне: Душа моя, что нерадиво живешь, ленясь? Что не печешься о злом, которое ты сделала в жизни? Потщись исправиться, прежде чем Господь затворит перед тобою дверь. К Богородице притеки, припади и воззови: Упование безнадежных, спаси меня, много пред Тобою согрешившего, Владычица Пречистая.",
+   "uk": "І нині: Душе моя, чому недбало живеш, лінуючись? Чому не дбаєш про зло, яке вчинила в житті? Поспіши виправитися, перш ніж Господь зачинить перед тобою двері. До Богородиці прибіжи, припади і візви: Уповання безнадійних, спаси мене, що багато перед Тобою згрішив, Владичице Пречиста.",
+   "en": "Now and ever…: O my soul, why livest thou carelessly in sloth? Why carest thou not for the evil things thou hast done in life? Hasten to amend, before the Lord shut the door against thee. Run unto the Theotokos, fall down and cry: O hope of the hopeless, save me, who have greatly sinned against thee, O most pure Lady.",
+   "fonte": {
+    "cu": "P1874 img. n222",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "defuntos"
+    ]
+   }
+  },
+  {
+   "id": "k16-p-12",
+   "tipo": "oracao",
+   "cu": "Тропари́, гласъ 4: Со ду́хи пра́ведныхъ сконча́вшихся ду́шу раба́ Твоего́, Спа́се, упоко́й, сохраня́я ю во блаже́ннѣй жи́зни, я́же у Тебе́, Человѣколю́бче.",
+   "pt": "Tropários, tom 4: Com os espíritos dos justos que alcançaram a perfeição, dá repouso, ó Salvador, à alma do Teu servo, guardando-a na vida bem-aventurada que está junto de Ti, ó Amigo dos homens.",
+   "ru": "Тропари, глас 4: С духами праведных, достигших совершенства, упокой, Спаситель, душу раба Твоего, сохраняя ее в блаженной жизни, которая у Тебя, Человеколюбец.",
+   "uk": "Тропарі, глас 4: З духами праведних, що звершили свій шлях, душу раба Твого, Спасе, упокой, зберігаючи її в блаженному житті, що в Тебе, Чоловіколюбче.",
+   "en": "Troparia, Tone 4: With the spirits of the righteous made perfect give rest, O Saviour, to the soul of Thy servant, preserving it unto the life of blessedness which is with Thee, O Lover of mankind.",
+   "fonte": {
+    "cu": "MS1900 pp. 324–325; TR1884 img. 186; PS1993 p. 216",
+    "ru": "propria",
+    "en": "H1906 p. 568 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "defuntos"
+    ]
+   },
+   "nota": "[Texto idêntico a defuntos-panikhida-129 (defuntos-panikhida.json).] Modo «pelos defuntos»: a prática atual (Azbuka Very, «О чтении Псалтири по усопшим») manda terminar cada catisma «тропарями покойными» e a oração da catisma; ⚠ não está no P1874 nem no T1907 (que só prescreve «Помяни, Господи» em cada Glória)."
+  },
+  {
+   "id": "k16-p-13",
+   "tipo": "oracao",
+   "cu": "Въ поко́ищи Твое́мъ, Го́споди, идѣ́же вси святі́и Твои́ упокоева́ются, упоко́й и ду́шу раба́ Твоего́, я́ко еди́нъ еси́ Человѣколю́бецъ.",
+   "pt": "No Teu lugar de repouso, Senhor, onde repousam todos os Teus santos, dá repouso também à alma do Teu servo, porque só Tu és o Amigo dos homens.",
+   "ru": "В месте покоя Твоего, Господи, где упокоеваются все святые Твои, упокой и душу раба Твоего, ибо Ты один Человеколюбец.",
+   "uk": "В місці спочинку Твого, Господи, де всі святі Твої спочивають, упокой і душу раба Твого, бо Ти єдиний Чоловіколюбець.",
+   "en": "In the place of Thy rest, O Lord, where all Thy Saints repose, give rest also to the soul of Thy servant, for Thou alone art the Lover of mankind.",
+   "fonte": {
+    "cu": "MS1900 p. 325; TR1884 img. 186; PS1993 p. 216",
+    "ru": "propria",
+    "en": "H1906 p. 568 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "defuntos"
+    ]
+   },
+   "nota": "[Texto idêntico a defuntos-panikhida-130 (defuntos-panikhida.json).]"
+  },
+  {
+   "id": "k16-p-14",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху. Ты еси́ Богъ, соше́дый во адъ и у́зы окова́нныхъ разрѣши́вый, Самъ и ду́шу раба́ Твоего́ упоко́й.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo. Tu és o Deus que desceu ao Hades e soltou as cadeias dos que estavam presos: Tu mesmo dá repouso também à alma do Teu servo.",
+   "ru": "Слава Отцу и Сыну и Святому Духу. Ты — Бог, сошедший во ад и разрешивший узы скованных: Сам упокой и душу раба Твоего.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові. Ти єси Бог, що зійшов у ад і розрішив кайдани закутих, Сам і душу раба Твого упокой.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit. Thou art the God who didst descend into Hades and loose the bonds of the captives: do Thou Thyself give rest also to the soul of Thy servant.",
+   "fonte": {
+    "cu": "MS1900 p. 325; TR1884 img. 186; PS1993 p. 216",
+    "ru": "propria",
+    "en": "H1906 p. 568 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "defuntos"
+    ]
+   },
+   "nota": "[Texto idêntico a defuntos-panikhida-131 (defuntos-panikhida.json).]"
+  },
+  {
+   "id": "k16-p-15",
+   "tipo": "oracao",
+   "cu": "И ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь. Еди́на Чи́стая и Непоро́чная Дѣ́во, Бо́га безъ сѣ́мене ро́ждшая, моли́ спасти́ся души́ его́.",
+   "pt": "Agora e sempre e pelos séculos dos séculos. Ámen. Única Virgem pura e imaculada, que sem semente deste à luz Deus, intercede pela salvação da sua alma.",
+   "ru": "И ныне, и всегда, и во веки веков. Аминь. Единая Чистая и Непорочная Дева, без семени родившая Бога, моли о спасении души его.",
+   "uk": "І нині, і повсякчас, і на віки віків. Амінь. Єдина Чиста і Непорочна Діво, що без сімені Бога породила, моли про спасіння душі його.",
+   "en": "Now and ever, and unto ages of ages. Amen. O only pure and immaculate Virgin, who without seed didst bring forth God, pray thou that his soul be saved.",
+   "fonte": {
+    "cu": "MS1900 p. 325; TR1884 img. 186; PS1993 p. 216",
+    "ru": "propria",
+    "en": "H1906 p. 568 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "defuntos"
+    ]
+   },
+   "nota": "[Texto idêntico a defuntos-panikhida-132 (defuntos-panikhida.json).]"
+  },
+  {
+   "id": "k16-p-16",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 40,
+   "nota": "[Texto idêntico a noite-011 (noite.json).]"
+  },
+  {
+   "id": "k16-p-17",
+   "tipo": "titulo",
+   "cu": "Моли́тва",
+   "pt": "Oração",
+   "ru": "Молитва",
+   "uk": "Молитва",
+   "en": "Prayer",
+   "fonte": {
+    "cu": "P1874 img. n222",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "P1874: «Го́споди, поми́луй, м҃. И моли́тва:»."
+  },
+  {
+   "id": "k16-p-18",
+   "tipo": "oracao",
+   "cu": "Го́споди Святы́й, въ вы́шнихъ живы́й, и всеви́дящимъ Твои́мъ о́комъ призира́яй на всю тварь, Тебѣ́ приклоня́емъ вы́ю души́ и тѣлесе́, и Тебѣ́ мо́лимся, Святы́й святы́хъ: простри́ ру́ку Твою́ неви́димую отъ свята́го жили́ща Твоего́, и благослови́ вся ны: и прости́ намъ вся́кое согрѣше́ніе, во́льное же и нево́льное, сло́вомъ или́ дѣ́ломъ. Да́руй намъ, Го́споди, умиле́ніе, да́руй сле́зы духо́вныя отъ души́, во очище́ніе мно́гихъ на́шихъ грѣхо́въ. Да́руй ве́лію Твою́ ми́лость на міръ Твой, и на ны недосто́йныя рабы́ Твоя́: я́ко благослове́нно и препросла́вленно есть и́мя Твое́, Отца́ и Сы́на и Свята́го Ду́ха, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Senhor santo, que habitas nas alturas e com o Teu olhar que tudo vê contemplas toda a criação: diante de Ti inclinamos a cerviz da alma e do corpo, e a Ti suplicamos, ó Santo dos santos: estende a Tua mão invisível desde a Tua santa morada e abençoa-nos a todos; e perdoa-nos todo o pecado, voluntário e involuntário, por palavra ou por obra. Concede-nos, Senhor, a compunção; concede-nos lágrimas espirituais vindas da alma, para purificação dos nossos muitos pecados. Concede a Tua grande misericórdia ao Teu mundo e a nós, Teus servos indignos: porque bendito e sobremaneira glorificado é o Teu nome, do Pai e do Filho e do Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Господи Святый, в вышних живущий и всевидящим Твоим оком призирающий на всю тварь, Тебе преклоняем выю души и тела, и Тебе молимся, Святой святых: простри руку Твою невидимую от святого жилища Твоего и благослови всех нас; и прости нам всякое согрешение, вольное и невольное, словом или делом. Даруй нам, Господи, умиление, даруй слезы духовные от души, во очищение многих наших грехов. Даруй великую милость Твою миру Твоему и нам, недостойным рабам Твоим: ибо благословенно и препрославлено имя Твое, Отца и Сына и Святого Духа, ныне и присно и во веки веков. Аминь.",
+   "uk": "Господи Святий, що живеш на висотах і всевидющим Твоїм оком дивишся на все створіння, Тобі схиляємо шию душі і тіла, і Тобі молимося, Святий святих: простягни руку Твою невидиму від святої оселі Твоєї і благослови всіх нас; і прости нам усякий гріх, вільний і невільний, словом чи ділом. Даруй нам, Господи, розчулення, даруй сльози духовні від душі, на очищення багатьох наших гріхів. Даруй велику милість Твою світові Твоєму і нам, недостойним рабам Твоїм: бо благословенне і препрославлене ім’я Твоє, Отця, і Сина, і Святого Духа, нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "O holy Lord, Who dwellest on high, and with Thine all-seeing eye lookest upon all creation: before Thee we bow the neck of soul and body, and unto Thee we pray, O Holy of holies: stretch forth Thine invisible hand from Thy holy dwelling-place, and bless us all; and forgive us every sin, voluntary and involuntary, in word or in deed. Grant us, O Lord, compunction; grant us spiritual tears from the soul, for the cleansing of our many sins. Grant Thy great mercy unto Thy world, and unto us, Thine unworthy servants: for blessed and most glorified is Thy name, of the Father, and of the Son, and of the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "P1874 img. n222-n223",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  }
+ ]
+}
