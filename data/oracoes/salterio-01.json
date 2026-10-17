@@ -373,7 +373,7 @@
    "cu": "Пріими́те наказа́ніе, да не когда́ прогнѣ́вается Госпо́дь, и поги́бнете отъ пути́ пра́веднаго, егда́ возгори́тся вско́рѣ я́рость Его́: блаже́ни вси надѣ́ющіися Нань.",
    "pt": "Recebei a correção, para que o Senhor não Se ire e não pereçais fora do caminho justo, quando em breve se inflamar o Seu furor. Bem-aventurados todos os que confiam n'Ele.",
    "ru": "Воспользуйтесь научением, дабы не прогневался Господь, и вы погибнете с правого пути, когда воспламенится вскоре ярость Его. Блаженны все, надеющиеся на Него.",
-   "uk": "Прийміть настанову, щоб коли не прогнівався Господь і ви не загинули з путі праведного, коли незабаром розпалиться ярість Його. Блаженні всі, що надіються на Нього.",
+   "uk": "Прийміть настанову, щоб не прогнівався Господь і ви не загинули з путі праведного, коли незабаром розпалиться ярість Його. Блаженні всі, що надіються на Нього.",
    "en": "Accept correction, lest at any time the Lord be angry, and ye should perish from the righteous way: whensoever His wrath shall be suddenly kindled, blessed are all they that trust in Him."
   },
   {
@@ -508,7 +508,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -593,12 +593,13 @@
    "tipo": "verso",
    "sl": 4,
    "v": 1,
-   "cu": "Въ коне́цъ, въ пѣ́снехъ, Псало́мъ Дави́ду.",
+   "cu": "Въ коне́цъ, въ пѣ́снехъ, псало́мъ Дави́ду.",
    "pt": "Para o fim, em cânticos, salmo de David.",
    "ru": "В конец. Песнь. Псалом Давида.",
    "uk": "На кінець, у піснях, псалом Давидів.",
-   "en": "For the end, a Song of David among the Psalms.",
-   "sobrescrito": true
+   "en": "For the end, among the Hymns, a Psalm of David.",
+   "sobrescrito": true,
+   "nota": "EN: Brenton «For the end, a Song of David among the Psalms.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-004-02",
@@ -672,7 +673,7 @@
    "sl": 4,
    "v": 8,
    "cu": "Далъ еси́ весе́ліе въ се́рдцы мое́мъ: отъ плода́ пшени́цы, вина́ и еле́а своего́ умно́жишася:",
-   "pt": "Deste alegria ao meu coração; com o fruto do seu trigo, do seu vinho e do seu azeite se multiplicaram;",
+   "pt": "Deste júbilo ao meu coração; com o fruto do seu trigo, do seu vinho e do seu azeite se multiplicaram;",
    "ru": "Ты дал веселие сердцу моему, а они обогатились от плода пшеницы, вина и елея.",
    "uk": "Ти дав веселість у серце моє; від плоду пшениці, вина і єлею свого вони примножилися;",
    "en": "Thou hast put gladness into my heart: they have been satisfied with the fruit of their corn and wine and oil."
@@ -703,7 +704,7 @@
    "tipo": "verso",
    "sl": 5,
    "v": 1,
-   "cu": "О наслѣ́дствующемъ, Псало́мъ Дави́ду.",
+   "cu": "О наслѣ́дствующемъ, псало́мъ Дави́ду.",
    "pt": "Sobre o que herda, salmo de David.",
    "ru": "О наследствующей. Псалом Давида.",
    "uk": "Про того, хто успадковує, псалом Давидів.",
@@ -742,7 +743,8 @@
    "pt": "De manhã escuta a minha voz; de manhã estarei diante de Ti, e ver-me-ás,",
    "ru": "Поутру услышь голос мой, поутру предстану пред Тобою, и Ты увидишь меня.",
    "uk": "Вранці почуй голос мій; вранці стану перед Тобою, і Ти побачиш мене;",
-   "en": "In the morning Thou shalt hear my voice: in the morning will I wait upon Thee, and will look up."
+   "en": "In the morning hear Thou my voice: in the morning will I stand before Thee, and Thou wilt look upon me.",
+   "nota": "EN: Brenton «In the morning Thou shalt hear my voice: in the morning will I wait upon Thee, and will look up.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-005-05",
@@ -764,7 +766,8 @@
    "pt": "nem permanecerão os iníquos diante dos Teus olhos; odiaste todos os que praticam a iniquidade,",
    "ru": "И не пребудут беззаконники пред очами Твоими, Ты возненавидел всех совершающих беззаконие.",
    "uk": "і не перебуватимуть беззаконники перед очима Твоїми; Ти зненавидів усіх, що чинять беззаконня,",
-   "en": "Neither shall the transgressors continue in Thy sight: Thou hatest, O Lord, all them that work iniquity."
+   "en": "Neither shall the transgressors continue in Thy sight: Thou hatest all them that work iniquity.",
+   "nota": "EN: Brenton «Neither shall the transgressors continue in Thy sight: Thou hatest, O Lord, all them that work iniquity.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-005-07",
@@ -818,7 +821,7 @@
    "cu": "Суди́ имъ, Бо́же, да отпаду́тъ отъ мы́слей свои́хъ: по мно́жеству нече́стія ихъ изри́ни я, я́ко преогорчи́ша Тя, Го́споди.",
    "pt": "Julga-os, ó Deus; caiam dos seus pensamentos; segundo a multidão das suas impiedades, lança-os fora, porque Te amarguraram, Senhor.",
    "ru": "Суди их, Боже! Да отстанут от замыслов своих; за множество нечестия их низринь их, ибо они огорчили Тебя, Господи.",
-   "uk": "Суди їх, Боже, нехай відпадуть від задумів своїх; за множеством нечестя їхнього вижени їх, бо вони прогнівили Тебе, Господи.",
+   "uk": "Суди їх, Боже, нехай відпадуть від задумів своїх; за множеством нечестя їхнього вижени їх, бо вони огірчили Тебе, Господи.",
    "en": "Judge them, O God; let them fail of their counsels: cast them out according to the abundance of their ungodliness; for they have provoked Thee, O Lord."
   },
   {
@@ -829,7 +832,7 @@
    "cu": "И да возвеселя́тся вси упова́ющіи на Тя, во вѣкъ возра́дуются, и всели́шися въ нихъ: и похва́лятся о Тебѣ́ лю́бящіи и́мя Твое́.",
    "pt": "E alegrem-se todos os que esperam em Ti; para sempre exultarão, e habitarás neles; e gloriar-se-ão em Ti os que amam o Teu nome.",
    "ru": "И да возвеселятся все, уповающие на Тебя, во век возрадуются, и вселишься в них, и похвалятся Тобою любящие имя Твое.",
-   "uk": "І нехай звеселяться всі, що уповають на Тебе: повіки радітимуть, і Ти оселишся в них; і хвалитимуться Тобою ті, що люблять ім’я Твоє.",
+   "uk": "І нехай звеселяться всі, що уповають на Тебе: навіки радітимуть, і Ти оселишся в них; і хвалитимуться Тобою ті, що люблять ім’я Твоє.",
    "en": "But let all that trust on Thee be glad in Thee: they shall exult for ever, and Thou shalt dwell among them; and all that love Thy Name shall rejoice in Thee."
   },
   {
@@ -998,7 +1001,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -1084,7 +1087,7 @@
    "sl": 7,
    "v": 1,
    "cu": "Псало́мъ Дави́ду, его́же воспѣ́тъ Го́сподеви о словесѣ́хъ Хусі́евыхъ, сы́на Іемені́ина.",
-   "pt": "Salmo de David, que ele cantou ao Senhor acerca das palavras de Cusi, filho de Jemini.",
+   "pt": "Salmo de David, que ele cantou ao Senhor sobre as palavras de Cusi, filho de Jemini.",
    "ru": "Псалом Давида, который он воспел Господу, по поводу слов Хусия, сына Иемениина.",
    "uk": "Псалом Давидів, який він співав Господеві про слова Хусія, сина Ієменієвого.",
    "en": "A Psalm of David, which he sang to the Lord because of the words of Chusi the Benjamite.",
@@ -1154,7 +1157,8 @@
    "pt": "Levanta-Te, Senhor, na Tua ira, exalta-Te nos confins dos Teus inimigos; e ergue-Te, Senhor meu Deus, segundo o decreto que ordenaste,",
    "ru": "Восстань, Господи, во гневе Твоем, возвысься на пределах врагов Твоих и воздвигнись, Господи Боже мой, по повелению, какое заповедано было Тобою.",
    "uk": "Воскресни, Господи, у гніві Твоїм, піднесися в межах ворогів Твоїх, і встань, Господи Боже мій, за повелінням, яке Ти заповідав,",
-   "en": "Arise, O Lord, in Thy wrath; be exalted in the utmost boundaries of mine enemies: awake, O Lord my God, according to the decree which Thou didst command."
+   "en": "Arise, O Lord, in Thy wrath; be exalted in the utmost boundaries of Thine enemies: awake, O Lord my God, according to the decree which Thou didst command.",
+   "nota": "EN: Brenton «Arise, O Lord, in Thy wrath; be exalted in the utmost boundaries of mine enemies: awake, O Lord my God, according to the decree which Thou didst command.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-007-08",
@@ -1187,7 +1191,8 @@
    "pt": "Acabe-se a malícia dos pecadores, e endireitarás o justo, Tu que perscrutas os corações e as entranhas, ó Deus, com justiça.",
    "ru": "Да прекратится злоба грешников, и направь праведного, Боже, испытующий сердца и утробы по истине.",
    "uk": "Нехай скінчиться злоба грішних, і Ти випрямиш праведного, Ти, що праведно випробовуєш серця й нутрощі, Боже.",
-   "en": "Oh let the wickedness of sinners come to an end; and then Thou shalt direct the righteous, O God that searchest the hearts and reins."
+   "en": "Oh let the wickedness of sinners come to an end; and then Thou shalt direct the righteous, O God that searchest the hearts and reins righteously.",
+   "nota": "EN: Brenton «Oh let the wickedness of sinners come to an end; and then Thou shalt direct the righteous, O God that searchest the hearts and reins.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-007-11",
@@ -1293,7 +1298,7 @@
    "tipo": "verso",
    "sl": 8,
    "v": 1,
-   "cu": "Въ коне́цъ, о точи́лѣхъ, Псало́мъ Дави́ду.",
+   "cu": "Въ коне́цъ, о точи́лѣхъ, псало́мъ Дави́ду.",
    "pt": "Para o fim, sobre os lagares, salmo de David.",
    "ru": "В конец. О точилах. Псалом Давида.",
    "uk": "На кінець, про точила, псалом Давидів.",
@@ -1421,7 +1426,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -1639,7 +1644,7 @@
    "cu": "Въ беззако́ніихъ зача́вся азъ, блу́дный, не дерза́ю взира́ти на высоту́ небе́сную, но дерза́я на человѣколю́біе Твое́, зову́: Бо́же, очи́сти мя, грѣ́шнаго, и спаси́ мя.",
    "pt": "Concebido em iniquidades, eu, o pródigo, não ouso levantar os olhos para a altura do céu; mas, confiando no Teu amor pelos homens, clamo: ó Deus, purifica-me, pecador, e salva-me.",
    "ru": "Зачатый в беззакониях, я, блудный, не дерзаю взирать на высоту небесную; но, дерзая на Твое человеколюбие, взываю: Боже, очисти меня, грешного, и спаси меня.",
-   "uk": "Зачатий у беззаконнях, я, блудний, не смію дивитися на висоту небесну; але, покладаючись на Твоє человіколюбство, взиваю: Боже, очисти мене, грішного, і спаси мене.",
+   "uk": "Зачатий у беззаконнях, я, блудний, не смію дивитися на висоту небесну; але, покладаючись на Твоє чоловіколюбство, взиваю: Боже, очисти мене, грішного, і спаси мене.",
    "en": "Conceived in iniquities, I, the prodigal, dare not look up to the height of heaven; but, emboldened by Thy love for mankind, I cry: O God, cleanse me a sinner, and save me.",
    "fonte": {
     "cu": "P1874 img. n039",
@@ -1657,7 +1662,7 @@
   {
    "id": "k01-p-10",
    "tipo": "oracao",
-   "cu": "А́ще пра́ведникъ едва́ спаса́ется, азъ гдѣ явлю́ся, грѣ́шный? Тя́готы и зно́я дневна́го не понесо́хъ, но съ нае́мники единонадеся́таго ча́са сопричти́ мя, Бо́же, и спаси́ мя.",
+   "cu": "А́ще пра́ведникъ едва́ спаса́ется, азъ гдѣ явлю́ся, грѣ́шный? Тяготы́ и зно́я дневна́го не понесо́хъ, но съ нае́мники единонадеся́таго часа́ сопричти́ мя, Бо́же, и спаси́ мя.",
    "pt": "Se o justo dificilmente se salva, onde aparecerei eu, o pecador? Não suportei o peso nem o calor do dia: mas conta-me com os trabalhadores da undécima hora, ó Deus, e salva-me.",
    "ru": "Если праведник едва спасается, где явлюсь я, грешный? Тяготы и зноя дневного я не понес; но сопричти меня к наемникам одиннадцатого часа, Боже, и спаси меня.",
    "uk": "Якщо праведник ледве спасається, де з’явлюся я, грішний? Тягаря і спеки денної я не поніс; але зарахуй мене до найманців одинадцятої години, Боже, і спаси мене.",
@@ -1682,7 +1687,7 @@
    "pt": "Glória…: Apressa-Te a abrir-me os braços do Pai: gastei a minha vida na dissolução; olhando para a riqueza inesgotável das Tuas misericórdias, ó Salvador, não desprezes agora o meu coração empobrecido. Pois a Ti, Senhor, clamo com compunção: pequei contra o céu e diante de Ti.",
    "ru": "Слава: Отеческие объятия поспеши открыть мне: блудно прожил я жизнь мою; взирая на неистощимое богатство щедрот Твоих, Спасе, не презри ныне обнищавшего моего сердца. Ибо к Тебе, Господи, с умилением взываю: согрешил я против неба и пред Тобою.",
    "uk": "Слава: Обійми Отчі відкрити мені поспіши: блудно прожив я життя моє; дивлячись на невичерпне багатство щедрот Твоїх, Спасе, не знехтуй нині зубожілого мого серця. Бо до Тебе, Господи, з розчуленням взиваю: згрішив я проти неба і перед Тобою.",
-   "en": "Glory…: Make haste to open unto me the Father’s embrace, for I have wasted my life in prodigality; beholding the unfailing wealth of Thy compassions, O Saviour, despise not now my impoverished heart. For unto Thee, O Lord, I cry with compunction: I have sinned against heaven and before Thee.",
+   "en": "Glory…: Make haste to open unto me the Father's embrace, for I have wasted my life in prodigality; beholding the unfailing wealth of Thy compassions, O Saviour, despise not now my impoverished heart. For unto Thee, O Lord, I cry with compunction: I have sinned against heaven and before Thee.",
    "fonte": {
     "cu": "P1874 img. n039",
     "ru": "propria",
@@ -1699,7 +1704,7 @@
   {
    "id": "k01-p-12",
    "tipo": "oracao",
-   "cu": "И ны́нѣ: Упова́ніе христіа́нъ, Пресвята́я Дѣ́во, Его́же родила́ еси́ Бо́га па́че ума́ же и сло́ва, непреста́нно моли́ съ го́рними си́лами да́ти оставле́ніе грѣхо́въ намъ всѣмъ и исправле́ніе жи́тія вѣ́рою и любо́вію при́сно Тя чту́щимъ.",
+   "cu": "И ны́нѣ: Упова́ніе христіа́нъ, Пресвята́я Дѣ́во, Его́же родила́ еси́ Бо́га па́че ума́ же и сло́ва, непреста́нно моли́ съ го́рними си́лами да́ти оставле́ніе грѣхо́въ намъ всѣмъ и исправле́ніе житія́ вѣ́рою и любо́вію при́сно Тя чту́щимъ.",
    "pt": "E agora…: Esperança dos cristãos, ó Virgem santíssima, Aquele Deus que deste à luz acima do entendimento e da palavra, roga-Lhe sem cessar, com as potências do alto, que conceda a todos nós a remissão dos pecados e a emenda da vida, a nós que com fé e amor sempre Te honramos.",
    "ru": "И ныне: Упование христиан, Пресвятая Дева, Бога, Которого Ты родила превыше ума и слова, непрестанно моли с горними силами даровать всем нам прощение грехов и исправление жизни, с верою и любовью всегда Тебя почитающим.",
    "uk": "І нині: Уповання християн, Пресвята Діво, Бога, Якого Ти народила понад розум і слово, безнастанно благай з горніми силами дати всім нам прощення гріхів і виправлення життя, що з вірою і любов’ю завжди Тебе шануємо.",
@@ -1843,10 +1848,10 @@
   {
    "id": "k01-p-19",
    "tipo": "oracao",
-   "cu": "Влады́ко Вседержи́телю, Непостижи́ме, Нача́ло свѣ́та и преу́мная Си́ло, И́же Ѵпоста́снаго Сло́ва Отче́ и единоси́льнаго Твоего́ Ду́ха Испусти́телю: милосе́рдныя ра́ди ми́лости и неизрече́нныя бла́гости не презрѣ́вый человѣ́ческаго естества́, тмо́ю грѣха́ содержи́маго, но Боже́ственными свѣ́ты свяще́нныхъ Твои́хъ уче́ній, зако́номъ и проро́ки свѣти́вый мі́ру, послѣди́ же намъ того́ Единоро́днаго Твоего́ Сы́на благоволи́вый пло́тію возсія́ти и ко осія́нію насъ Твоего́ просвѣще́нія наста́вити, да бу́дутъ у́ши Твои́ вне́млющи гла́су моле́нія на́шего; и да́руй намъ, Бо́же, во бдѣ́нномъ и тре́звенномъ се́рдцѣ всю настоя́щаго жи́тія нощь пройти́, ожида́ющымъ прише́ствія Сы́на Твоего́ и Бо́га на́шего, Судіи́ всѣхъ, да не возлежа́ще и спя́ще, но бо́дрствующе и воздви́жени въ дѣ́ланіе за́повѣдей Твои́хъ обря́щемся, и въ ра́дость Его́ совни́демъ, идѣ́же пра́зднующихъ гласъ непреста́нный и неизрече́нная сла́дость зря́щихъ Твоего́ лица́ добро́ту неизглаго́ланную: я́ко благъ и Человѣколю́бецъ Богъ еси́, и Тебѣ́ сла́ву возсыла́емъ, Отцу́ и Сы́ну и Свято́му Ду́ху, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "cu": "Влады́ко Вседержи́телю, Непостижи́ме, Нача́ло свѣ́та и преу́мная Си́ло, И́же Ѵпоста́снаго Сло́ва Оте́цъ и единоси́льнаго Твоего́ Ду́ха Испусти́тель: милосе́рдныя ра́ди ми́лости и неизрече́нныя бла́гости не презрѣ́вый человѣ́ческаго естества́, тмо́ю грѣха́ содержи́маго, но Боже́ственными свѣ́ты свяще́нныхъ Твои́хъ уче́ній, зако́номъ и проро́ки свѣти́вый мі́ру, послѣди́ же намъ того́ Единоро́днаго Твоего́ Сы́на благоволи́вый пло́тію возсія́ти и ко осія́нію насъ Твоего́ просвѣще́нія наста́вити, да бу́дутъ у́ши Твои́ вне́млюще гла́су моле́нія на́шего; и да́руй намъ, Бо́же, во бдѣ́нномъ и тре́звенномъ се́рдцѣ всю настоя́щаго житія́ нощь прейти́, ожида́ющымъ прише́ствія Сы́на Твоего́ и Бо́га на́шего, Судіи́ всѣхъ, да не возлежа́ще и спя́ще, но бо́дрствующе и воздви́жени въ дѣ́ланіе за́повѣдей Твои́хъ обря́щемся, и въ ра́дость Его́ совни́демъ, идѣ́же пра́зднующихъ гласъ непреста́нный и неизрече́нная сла́дость зря́щихъ Твоего́ лица́ добро́ту неизглаго́ланную: я́ко благъ и Человѣколю́бецъ Богъ еси́, и Тебѣ́ сла́ву возсыла́емъ, Отцу́ и Сы́ну и Свято́му Ду́ху, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
    "pt": "Soberano Todo-Poderoso, Incompreensível, Princípio da luz e Força mais que inteligível, Pai do Verbo hipostático e Fonte do Teu Espírito de igual poder: Tu que, pela Tua compassiva misericórdia e inefável bondade, não desprezaste a natureza humana retida nas trevas do pecado, mas iluminaste o mundo com as luzes divinas dos Teus santos ensinamentos, pela Lei e pelos Profetas, e por fim Te comprouveste em que o Teu Filho Unigénito resplandecesse na carne e nos conduzisse ao resplendor da Tua iluminação: que os Teus ouvidos estejam atentos à voz da nossa súplica; e concede-nos, ó Deus, atravessar toda a noite da vida presente com o coração vigilante e sóbrio, esperando a vinda do Teu Filho e nosso Deus, Juiz de todos, para que não sejamos encontrados deitados e a dormir, mas vigilantes e erguidos para a prática dos Teus mandamentos, e entremos com Ele na Sua alegria, onde está a voz incessante dos que festejam e a doçura inefável dos que contemplam a beleza indizível do Teu rosto. Pois Tu és Deus bom e amigo dos homens, e a Ti damos glória, ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
    "ru": "Владыка Вседержитель, Непостижимый, Начало света и Сила превыше ума, Отец Ипостасного Слова и Источник единосильного Твоего Духа! Ты по милосердной Твоей милости и неизреченной благости не презрел естества человеческого, содержимого тьмою греха, но божественными светами священных Твоих учений, законом и пророками просветил мир, а наконец благоволил, чтобы Единородный Твой Сын воссиял во плоти и наставил нас к сиянию Твоего просвещения. Да будут уши Твои внимательны к голосу моления нашего, и даруй нам, Боже, с бодрствующим и трезвенным сердцем пройти всю ночь настоящей жизни, ожидая пришествия Сына Твоего и Бога нашего, Судии всех, чтобы нам оказаться не возлежащими и спящими, но бодрствующими и воздвигнутыми к деланию заповедей Твоих, и войти в Его радость, где непрестанный глас празднующих и неизреченная сладость зрящих неизглаголанную красоту Твоего лица. Ибо Ты благ и человеколюбивый Бог, и Тебе славу воссылаем, Отцу и Сыну и Святому Духу, ныне и присно и во веки веков. Аминь.",
-   "uk": "Владико Вседержителю, Незбагненний, Початку світла і Силе понадрозумна, Отче Іпостасного Слова і Джерело єдиносильного Твого Духа! Ти з милосердної Твоєї милості й невимовної благості не знехтував людського єства, що його тримала темрява гріха, але божественними світлами священних Твоїх учень, законом і пророками просвітив світ, а наостанок благоволив, щоб Єдинородний Твій Син засяяв у плоті й навів нас до сяйва Твого просвітлення. Хай будуть вуха Твої уважні до голосу благання нашого, і даруй нам, Боже, з пильним і тверезим серцем пройти всю ніч теперішнього життя, чекаючи пришестя Сина Твого і Бога нашого, Судді всіх, щоб ми опинилися не лежачими й сплячими, а пильними й піднесеними до виконання заповідей Твоїх, і ввійшли в Його радість, де безнастанний голос тих, що святкують, і невимовна солодкість тих, що споглядають несказанну красу Твого лиця. Бо Ти благий і человіколюбний Бог, і Тобі славу возсилаємо, Отцю, і Сину, і Святому Духу, нині, і повсякчас, і на віки віків. Амінь.",
+   "uk": "Владико Вседержителю, Незбагненний, Початку світла і Силе понадрозумна, Отче Іпостасного Слова і Джерело єдиносильного Твого Духа! Ти з милосердної Твоєї милості й невимовної благості не знехтував людського єства, що його тримала темрява гріха, але божественними світлами священних Твоїх учень, законом і пророками просвітив світ, а наостанок благоволив, щоб Єдинородний Твій Син засяяв у плоті й навів нас до сяйва Твого просвітлення. Хай будуть вуха Твої уважні до голосу благання нашого, і даруй нам, Боже, з пильним і тверезим серцем пройти всю ніч теперішнього життя, чекаючи пришестя Сина Твого і Бога нашого, Судді всіх, щоб ми опинилися не лежачими й сплячими, а пильними й піднесеними до виконання заповідей Твоїх, і ввійшли в Його радість, де безнастанний голос тих, що святкують, і невимовна солодкість тих, що споглядають несказанну красу Твого лиця. Бо Ти благий і чоловіколюбний Бог, і Тобі славу возсилаємо, Отцю, і Сину, і Святому Духу, нині, і повсякчас, і на віки віків. Амінь.",
    "en": "O Master Almighty, Incomprehensible, Origin of light and Power beyond understanding, Father of the hypostatic Word and Source of Thine equally mighty Spirit: Thou Who, of Thy merciful compassion and ineffable goodness, didst not despise human nature held fast by the darkness of sin, but didst enlighten the world with the divine lights of Thy sacred teachings, by the Law and the Prophets, and at the last wast well pleased that Thine Only-begotten Son should shine forth in the flesh and guide us to the radiance of Thine illumination: let Thine ears be attentive to the voice of our supplication; and grant us, O God, with a watchful and sober heart to pass through the whole night of this present life, awaiting the coming of Thy Son and our God, the Judge of all, that we may be found not lying down and asleep, but watchful and roused to the doing of Thy commandments, and may enter together into His joy, where is the ceaseless voice of them that keep festival, and the unspeakable sweetness of them that behold the ineffable beauty of Thy countenance. For Thou art a good God and the Lover of mankind, and unto Thee we send up glory, to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
    "fonte": {
     "cu": "P1874 img. n039-n041",

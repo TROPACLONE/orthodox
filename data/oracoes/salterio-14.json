@@ -162,9 +162,9 @@
    "sl": 101,
    "v": 2,
    "cu": "Го́споди, услы́ши моли́тву мою́, и вопль мой къ Тебѣ́ да пріи́детъ.",
-   "pt": "Senhor, ouve a minha oração, e chegue a Ti o meu clamor.",
+   "pt": "Senhor, escuta a minha oração, e chegue a Ti o meu clamor.",
    "ru": "Господи! Услышь молитву мою, и вопль мой к Тебе да приидет.",
-   "uk": "Господи, вислухай молитву мою, і волання моє до Тебе нехай прийде.",
+   "uk": "Господи, почуй молитву мою, і волання моє до Тебе нехай прийде.",
    "en": "Hear my prayer, O Lord, and let my cry come to Thee."
   },
   {
@@ -173,9 +173,9 @@
    "sl": 101,
    "v": 3,
    "cu": "Не отврати́ лица́ Твоего́ отъ мене́: въ о́ньже а́ще день скорблю́, приклони́ ко мнѣ у́хо Твое́: въ о́ньже а́ще день призову́ Тя, ско́ро услы́ши мя.",
-   "pt": "Não desvies de mim a Tua face: no dia em que eu estiver aflito, inclina para mim o Teu ouvido; no dia em que Te invocar, ouve-me depressa.",
+   "pt": "Não desvies de mim a Tua face: no dia em que eu estiver aflito, inclina para mim o Teu ouvido; no dia em que Te invocar, escuta-me depressa.",
    "ru": "Не отвращай лица Твоего от меня: когда я скорблю, приклони ко мне ухо Твое; когда я призову Тебя, скоро услышь меня.",
-   "uk": "Не відвертай лиця Твого від мене: в який день я скорблю, прихили до мене вухо Твоє; в який день призову Тебе, швидко вислухай мене.",
+   "uk": "Не відвертай лиця Твого від мене: в який день я скорблю, прихили до мене вухо Твоє; в який день призову Тебе, швидко почуй мене.",
    "en": "Turn not away Thy face from me: in the day when I am afflicted, incline Thine ear to me: in the day when I shall call upon Thee, speedily hear me."
   },
   {
@@ -351,7 +351,7 @@
    "cu": "Да напи́шется сіе́ въ родъ инъ, и лю́діе зи́ждеміи восхва́лятъ Го́спода:",
    "pt": "Escreva-se isto para outra geração, e o povo que vai ser criado louvará o Senhor:",
    "ru": "Да будет написано о сем роду последующему, и будущий народ восхвалит Господа.",
-   "uk": "Нехай напишеться це для роду іншого, і народ, що твориться, восхвалить Господа,",
+   "uk": "Нехай напишеться це для роду іншого, і люди, що творяться, восхвалять Господа,",
    "en": "Let this be written for another generation; and the people that shall be created shall praise the Lord."
   },
   {
@@ -406,7 +406,7 @@
    "cu": "Отвѣща́ Ему́ на пути́ крѣ́пости Его́: умале́ніе дні́й мои́хъ возвѣсти́ ми:",
    "pt": "Respondeu-Lhe no caminho da Sua força: Anuncia-me a brevidade dos meus dias:",
    "ru": "Говорил он Ему, когда был в (полной) силе своей; «Сокращение дней моих поведай мне.",
-   "uk": "Відповів він Йому на путі міці Його: Про короткість днів моїх сповісти мені;",
+   "uk": "Відповів він Йому на путі кріпості Його: Про короткість днів моїх сповісти мені;",
    "en": "He answered Him in the way of His strength: tell me the fewness of my days."
   },
   {
@@ -518,7 +518,7 @@
    "sl": 102,
    "v": 3,
    "cu": "очища́ющаго вся беззако́нія твоя́, изцѣля́ющаго вся неду́ги твоя́,",
-   "pt": "Ele que apaga todas as tuas iniquidades, que cura todas as tuas enfermidades,",
+   "pt": "Ele que purifica todas as tuas iniquidades, que cura todas as tuas enfermidades,",
    "ru": "Он прощает все беззакония Твои, исцеляет все недуги Твои,",
    "uk": "Того, Хто очищає всі беззаконня твої, Хто зціляє всі недуги твої,",
    "en": "who forgiveth all thy transgressions, who healeth all thy diseases;"
@@ -707,7 +707,7 @@
    "cu": "Благослови́те Го́спода, вси А́нгели Его́, си́льніи крѣ́постію, творя́щіи сло́во Его́, услы́шати гласъ слове́съ Его́.",
    "pt": "Bendizei o Senhor, todos os Seus anjos, poderosos em força, que cumpris a Sua palavra, para ouvir a voz das Suas palavras.",
    "ru": "Благословите Господа, все ангелы Его, крепкие силою, исполняющие слово Его, слушающие глас слов Его.",
-   "uk": "Благословіть Господа, всі Ангели Його, сильні міццю, що творите слово Його, щоб чути голос слів Його.",
+   "uk": "Благословіть Господа, всі Ангели Його, сильні кріпостю, що творите слово Його, щоб чути голос слів Його.",
    "en": "Bless the Lord, all ye His angels, mighty in strength, who perform His bidding, ready to hearken to the voice of His words."
   },
   {
@@ -754,7 +754,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -1031,7 +1031,8 @@
    "pt": "ali as aves farão os seus ninhos; a habitação da cegonha vai à frente delas.",
    "ru": "Там устрояют гнезда птицы: жилище аиста управляет ими.",
    "uk": "там птахи гніздитимуться; житло лелеки — провідне між ними.",
-   "en": "There the sparrows will build their nests; and the house of the heron taketh the lead among them."
+   "en": "There the birds will build their nests; and the house of the stork taketh the lead among them.",
+   "nota": "EN: Brenton «There the sparrows will build their nests; and the house of the heron taketh the lead among them.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-103-18",
@@ -1173,7 +1174,7 @@
    "cu": "по́слеши ду́ха Твоего́, и сози́ждутся, и обнови́ши лице́ земли́.",
    "pt": "enviarás o Teu Espírito, e serão criados, e renovarás a face da terra.",
    "ru": "Пошлешь Духа Твоего, и будут созданы, и обновишь лице земли.",
-   "uk": "пошлеш духа Твого — і створяться, і оновиш лице землі.",
+   "uk": "пошлеш Духа Твого — і створяться, і оновиш лице землі.",
    "en": "Thou shalt send forth Thy Spirit, and they shall be created; and Thou shalt renew the face of the earth."
   },
   {
@@ -1182,9 +1183,9 @@
    "sl": 103,
    "v": 31,
    "cu": "Бу́ди сла́ва Госпо́дня во вѣ́ки: возвесели́тся Госпо́дь о дѣ́лѣхъ Свои́хъ:",
-   "pt": "Seja a glória do Senhor pelos séculos: o Senhor regozijar-se-á nas Suas obras:",
+   "pt": "Seja a glória do Senhor pelos séculos: o Senhor alegrar-se-á nas Suas obras:",
    "ru": "Да будет слава Господу во веки! Возвеселится Господь о делах Своих:",
-   "uk": "Нехай буде слава Господня навіки: возвеселиться Господь ділами Своїми,",
+   "uk": "Нехай буде слава Господня навіки: звеселиться Господь ділами Своїми,",
    "en": "Let the glory of the Lord be for ever: the Lord shall rejoice in His works;"
   },
   {
@@ -1215,9 +1216,9 @@
    "sl": 103,
    "v": 34,
    "cu": "да услади́тся Ему́ бесѣ́да моя́, азъ же возвеселю́ся о Го́сподѣ.",
-   "pt": "seja-Lhe agradável a minha conversa, e eu regozijar-me-ei no Senhor.",
+   "pt": "seja-Lhe agradável a minha conversa, e eu alegrar-me-ei no Senhor.",
    "ru": "Да будет усладительна Ему (молитвенная) беседа моя, а я буду веселиться о Господе.",
-   "uk": "Нехай буде приємна Йому бесіда моя, а я возвеселюся в Господі.",
+   "uk": "Нехай буде приємна Йому бесіда моя, а я звеселюся в Господі.",
    "en": "Let my meditation be sweet to Him: and I will rejoice in the Lord."
   },
   {
@@ -1253,7 +1254,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -1374,7 +1375,7 @@
    "sl": 104,
    "v": 3,
    "cu": "Хвали́теся о и́мени святѣ́мъ Его́: да возвесели́тся се́рдце и́щущихъ Го́спода:",
-   "pt": "Gloriai-vos no Seu santo nome: regozije-se o coração dos que buscam o Senhor:",
+   "pt": "Gloriai-vos no Seu santo nome: alegre-se o coração dos que buscam o Senhor:",
    "ru": "Хвалитесь святым Его именем, да возвеселится сердце ищущих Господа.",
    "uk": "Хваліться ім’ям святим Його: нехай звеселиться серце тих, що шукають Господа.",
    "en": "Glory in His holy Name: let the heart of them that seek the Lord rejoice."
@@ -1387,7 +1388,7 @@
    "cu": "взыщи́те Го́спода и утверди́теся, взыщи́те лица́ Его́ вы́ну.",
    "pt": "buscai o Senhor e fortalecei-vos, buscai sempre a Sua face.",
    "ru": "Взыщите Господа и укрепитесь, ищите лица Его всегда.",
-   "uk": "Шукайте Господа і утвердьтеся, шукайте лиця Його повсякчас.",
+   "uk": "Шукайте Господа і утвердьтеся, шукайте лиця Його завжди.",
    "en": "Seek ye the Lord, and be strengthened; seek His face continually."
   },
   {
@@ -1451,7 +1452,7 @@
    "sl": 104,
    "v": 10,
    "cu": "и поста́ви ю Іа́кову въ повелѣ́ніе и Изра́илю въ завѣ́тъ вѣ́ченъ,",
-   "pt": "e estabeleceu-o para Jacob como preceito, e para Israel como aliança eterna,",
+   "pt": "e estabeleceu-o para Jacob como decreto, e para Israel como aliança eterna,",
    "ru": "И поставил ее Иакову в закон и Израилю в завет вечный,",
    "uk": "і поставив її Якову на повеління і Ізраїлю — на завіт вічний,",
    "en": "And He established it to Jacob for an ordinance, and to Israel for an everlasting covenant;"
@@ -1486,7 +1487,7 @@
    "cu": "и преидо́ша отъ язы́ка въ язы́къ и отъ ца́рствія въ лю́ди и́ны:",
    "pt": "passaram de nação em nação e de um reino para outro povo:",
    "ru": "И переходили от народа к народу и от царства — к другому народу.",
-   "uk": "і переходили вони від народу до народу і від царства до іншого народу.",
+   "uk": "і переходили вони від народу до народу і від царства до інших людей.",
    "en": "And they went from nation to nation, and from one kingdom to another people."
   },
   {
@@ -1553,7 +1554,8 @@
    "pt": "até que veio a Sua palavra: a palavra do Senhor acrisolou-o.",
    "ru": "Пока не пришло (в исполнение) слово его: (тогда) слово Господне воспламенило его.",
    "uk": "доки не прийшло слово Його: слово Господнє розпалило його.",
-   "en": "until the time that His cause came on; the word of the Lord tried him as fire."
+   "en": "until His word came; the word of the Lord tried him as fire.",
+   "nota": "EN: Brenton «until the time that His cause came on; the word of the Lord tried him as fire.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-104-20",
@@ -1563,7 +1565,7 @@
    "cu": "Посла́ царь и разрѣши́ его́: князь люді́й, и оста́ви его́.",
    "pt": "Enviou o rei e soltou-o, o príncipe dos povos, e libertou-o.",
    "ru": "Послал (за ним) царь, и разрешил его, владетель народов, и освободил его.",
-   "uk": "Послав цар і звільнив його, князь народів — і відпустив його.",
+   "uk": "Послав цар і звільнив його, князь людей — і відпустив його.",
    "en": "The king sent and loosed him; even the prince of the people, and let him go free."
   },
   {
@@ -1607,7 +1609,7 @@
    "cu": "И возрасти́ лю́ди Своя́ зѣло́ и укрѣпи́ я па́че враго́въ ихъ.",
    "pt": "E fez crescer muito o Seu povo, e tornou-o mais forte que os seus inimigos.",
    "ru": "И весьма размножил Он народ Свой и сделал его сильнее врагов его.",
-   "uk": "І вельми примножив Він народ Свій, і зміцнив їх понад ворогів їхніх.",
+   "uk": "І вельми примножив Він людей Своїх, і зміцнив їх понад ворогів їхніх.",
    "en": "And He increased His people greatly, and made them stronger than their enemies."
   },
   {
@@ -1618,7 +1620,7 @@
    "cu": "Преврати́ се́рдце ихъ возненави́дѣти лю́ди Его́, лесть сотвори́ти въ рабѣ́хъ Его́.",
    "pt": "Mudou o coração deles para odiarem o Seu povo, para usarem de dolo com os Seus servos.",
    "ru": "И возбудил в сердце их ненависть к народу Его и коварство против рабов Его.",
-   "uk": "Обернув серце їхнє, щоб зненавиділи народ Його, щоб чинили підступ рабам Його.",
+   "uk": "Обернув серце їхнє, щоб зненавиділи людей Його, щоб чинили облуду рабам Його.",
    "en": "And He turned their heart to hate His people, to deal craftily with His servants."
   },
   {
@@ -1759,7 +1761,7 @@
    "sl": 104,
    "v": 38,
    "cu": "Возвесели́ся Егѵ́петъ во исхожде́ніи ихъ: я́ко нападе́ страхъ ихъ на ня.",
-   "pt": "O Egito regozijou-se com a sua saída, porque o temor deles caíra sobre eles.",
+   "pt": "O Egito alegrou-se com a sua saída, porque o temor deles caíra sobre eles.",
    "ru": "Обрадовался Египет исшествию их, ибо напал на него страх пред ними.",
    "uk": "Звеселився Єгипет, коли вони виходили, бо напав на них страх перед ними.",
    "en": "Egypt rejoiced at their departing; for the fear of them fell upon them."
@@ -1814,9 +1816,9 @@
    "sl": 104,
    "v": 43,
    "cu": "И изведе́ лю́ди Своя́ въ ра́дости и избра́нныя Своя́ въ весе́ліи.",
-   "pt": "E fez sair o Seu povo com alegria, e os Seus escolhidos com regozijo.",
+   "pt": "E fez sair o Seu povo com alegria, e os Seus escolhidos com júbilo.",
    "ru": "И извел народ Свой в радости и избранных Своих в веселии.",
-   "uk": "І вивів народ Свій у радості і вибраних Своїх у веселості.",
+   "uk": "І вивів людей Своїх у радості і вибраних Своїх у веселості.",
    "en": "And He brought out His people with exultation, and His chosen with joy;"
   },
   {
@@ -1863,7 +1865,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {

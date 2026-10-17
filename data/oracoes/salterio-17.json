@@ -440,7 +440,7 @@
    "cu": "Пути́ моя́ возвѣсти́хъ, и услы́шалъ мя еси́: научи́ мя оправда́ніемъ Твои́мъ.",
    "pt": "Expus os meus caminhos, e ouviste-me: ensina-me as Tuas justificações.",
    "ru": "Пути мои я возвестил, и Ты услышал меня: научи меня уставам Твоим.",
-   "uk": "Путі мої я звістив, і Ти вислухав мене: навчи мене оправдань Твоїх.",
+   "uk": "Путі мої я звістив, і Ти почув мене: навчи мене оправдань Твоїх.",
    "en": "I declared my ways, and Thou didst hear me; teach me Thine ordinances."
   },
   {
@@ -493,7 +493,7 @@
    "sl": 118,
    "v": 31,
    "cu": "Прилѣпи́хся свидѣ́ніемъ Твои́мъ, Го́споди, не посрами́ мене́.",
-   "pt": "Apeguei-me aos Teus testemunhos, Senhor: não me envergonhes.",
+   "pt": "Apeguei-me aos Teus testemunhos, Senhor: não me confundas.",
    "ru": "Я прилепился к откровениям Твоим, Господи, не посрами меня.",
    "uk": "Я прилип до свідчень Твоїх, Господи: не осором мене.",
    "en": "I have cleaved to Thy testimonies, O Lord; put me not to shame."
@@ -517,7 +517,7 @@
    "cu": "Законоположи́ мнѣ, Го́споди, путь оправда́ній Твои́хъ, и взыщу́ и вы́ну:",
    "pt": "Dá-me por lei, Senhor, o caminho das Tuas justificações, e buscá-lo-ei sempre:",
    "ru": "Поставь для меня законом, Господи, путь уставов Твоих, и я всегда буду хранить его.",
-   "uk": "Постанови мені законом, Господи, путь оправдань Твоїх, і шукатиму його повсякчас:",
+   "uk": "Постанови мені законом, Господи, путь оправдань Твоїх, і шукатиму його завжди:",
    "en": "Teach me, O Lord, the way of Thine ordinances, and I will seek it out continually."
   },
   {
@@ -638,7 +638,7 @@
    "cu": "и сохраню́ зако́нъ Твой вы́ну, въ вѣкъ и въ вѣкъ вѣ́ка.",
    "pt": "e guardarei sempre a Tua lei, para sempre e pelos séculos dos séculos.",
    "ru": "И я буду хранить закон Твой всегда, в век и во век века.",
-   "uk": "і берегтиму закон Твій повсякчас, навіки і на віки віків.",
+   "uk": "і берегтиму закон Твій завжди, навіки і на віки віків.",
    "en": "So shall I keep Thy law continually, for ever and ever."
   },
   {
@@ -971,7 +971,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -1058,7 +1058,7 @@
    "sl": 118,
    "v": 74,
    "cu": "Боя́щіися Тебе́ у́зрятъ мя и возвеселя́тся, я́ко на словеса́ Твоя́ упова́хъ.",
-   "pt": "Os que Te temem ver-me-ão e regozijar-se-ão, porque esperei nas Tuas palavras.",
+   "pt": "Os que Te temem ver-me-ão e alegrar-se-ão, porque esperei nas Tuas palavras.",
    "ru": "Боящиеся Тебя увидят меня и возвеселятся, ибо я на слова Твои уповал.",
    "uk": "Ті, що бояться Тебе, побачать мене і звеселяться, бо на слова Твої я уповав.",
    "en": "They that fear Thee will see me and rejoice: for I have hoped in Thy words."
@@ -1445,7 +1445,7 @@
    "cu": "Душа́ моя́ въ руку́ Твое́ю вы́ну, и зако́на Твоего́ не забы́хъ.",
    "pt": "A minha alma está sempre nas Tuas mãos, e não esqueci a Tua lei.",
    "ru": "Душа моя в руках Твоих всегда, и закона Твоего я не забыл.",
-   "uk": "Душа моя в руках Твоїх повсякчас, і закону Твого я не забув.",
+   "uk": "Душа моя в руках Твоїх завжди, і закону Твого я не забув.",
    "en": "My soul is continually in Thine hands; and I have not forgotten Thy law."
   },
   {
@@ -1465,7 +1465,7 @@
    "sl": 118,
    "v": 111,
    "cu": "Наслѣ́довахъ свидѣ́нія Твоя́ во вѣкъ, я́ко ра́дованіе се́рдца моего́ суть:",
-   "pt": "Herdei os Teus testemunhos para sempre, porque são a alegria do meu coração:",
+   "pt": "Herdei os Teus testemunhos para sempre, porque são o regozijo do meu coração:",
    "ru": "Я принял откровения Твои, как наследие, на век, ибо они — радость сердца моего.",
    "uk": "Я успадкував свідчення Твої навіки, бо вони — радість серця мого;",
    "en": "I have inherited Thy testimonies for ever; for they are the joy of my heart."
@@ -1520,7 +1520,7 @@
    "sl": 118,
    "v": 116,
    "cu": "Заступи́ мя по словеси́ Твоему́, и живъ бу́ду: и не посрами́ мене́ отъ ча́янія моего́:",
-   "pt": "Ampara-me segundo a Tua palavra, e viverei: e não me envergonhes na minha expectativa:",
+   "pt": "Ampara-me segundo a Tua palavra, e viverei: e não me confundas na minha expectativa:",
    "ru": "Заступись за меня по слову Твоему, и буду жить, и не посрами меня в надежде моей.",
    "uk": "Заступися за мене за словом Твоїм, і житиму, і не осором мене в сподіванні моєму;",
    "en": "Uphold me according to Thy word, and quicken me; and make me not ashamed of my expectation."
@@ -1533,7 +1533,7 @@
    "cu": "помози́ ми, и спасу́ся, и поучу́ся во оправда́ніихъ Твои́хъ вы́ну.",
    "pt": "ajuda-me, e serei salvo, e meditarei sempre nas Tuas justificações.",
    "ru": "Помоги мне, и спасусь, и буду поучаться уставам Твоим.",
-   "uk": "поможи мені, і спасуся, і навчатимусь в оправданнях Твоїх повсякчас.",
+   "uk": "поможи мені, і спасуся, і навчатимусь в оправданнях Твоїх завжди.",
    "en": "Help me, and I shall be saved; and I will meditate in Thine ordinances continually."
   },
   {
@@ -1712,7 +1712,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -1931,9 +1931,9 @@
    "sl": 118,
    "v": 145,
    "cu": "Воззва́хъ всѣмъ се́рдцемъ мои́мъ, услы́ши мя, Го́споди: оправда́нія Твоя́ взыщу́.",
-   "pt": "Clamei de todo o meu coração, ouve-me, Senhor: buscarei as Tuas justificações.",
+   "pt": "Clamei de todo o meu coração, escuta-me, Senhor: buscarei as Tuas justificações.",
    "ru": "Я воззвал всем сердцем моим: услышь меня, Господи! Уставы Твои буду хранить.",
-   "uk": "Взивав я всім серцем моїм, вислухай мене, Господи: оправдань Твоїх шукатиму.",
+   "uk": "Взивав я всім серцем моїм, почуй мене, Господи: оправдань Твоїх шукатиму.",
    "en": "I cried with my whole heart; hear me, O Lord: I will search out Thine ordinances."
   },
   {
@@ -1975,9 +1975,9 @@
    "sl": 118,
    "v": 149,
    "cu": "Гласъ мой услы́ши, Го́споди, по ми́лости Твое́й: по судьбѣ́ Твое́й живи́ мя.",
-   "pt": "Ouve a minha voz, Senhor, segundo a Tua misericórdia: segundo o Teu juízo dá-me vida.",
+   "pt": "Escuta a minha voz, Senhor, segundo a Tua misericórdia: segundo o Teu juízo dá-me vida.",
    "ru": "Голос мой услышь, Господи, по милости Твоей, по суду Твоему даруй мне жизнь.",
-   "uk": "Голос мій вислухай, Господи, за милістю Твоєю: за судом Твоїм оживи мене.",
+   "uk": "Голос мій почуй, Господи, за милістю Твоєю: за судом Твоїм оживи мене.",
    "en": "Hear my voice, O Lord, according to Thy mercy; quicken me according to Thy judgment."
   },
   {
@@ -2118,9 +2118,9 @@
    "sl": 118,
    "v": 162,
    "cu": "Возра́дуюся азъ о словесѣ́хъ Твои́хъ, я́ко обрѣта́яй коры́сть мно́гу.",
-   "pt": "Alegrar-me-ei nas Tuas palavras, como quem encontra grande despojo.",
+   "pt": "Exultarei nas Tuas palavras, como quem encontra grande despojo.",
    "ru": "Я буду радоваться о словах Твоих, как нашедший большую добычу.",
-   "uk": "Возрадуюся я словам Твоїм, як той, хто знаходить велику здобич.",
+   "uk": "Зрадію я словам Твоїм, як той, хто знаходить велику здобич.",
    "en": "I will exult because of Thine oracles, as one that findeth much spoil."
   },
   {
@@ -2299,7 +2299,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -2703,7 +2703,7 @@
    "cu": "Влады́ко Го́споди Вседержи́телю и Тво́рче всѣхъ, щедро́тъ Оте́цъ и ми́лости Богъ, отъ земли́ созда́вый человѣ́ка, и показа́вый его́ по о́бразу Твоему́ и по подо́бію: да и тѣмъ просла́вится великолѣ́пое и́мя Твое́ на земли́: и исто́ргнена у́бо преступле́ніемъ Твои́хъ за́повѣдей, па́ки на лу́чшее возсозда́вый его́ во Христѣ́ Твое́мъ, и возведы́й на небеса́: благодарю́ Тя, я́ко умно́жилъ еси́ на мнѣ вели́чіе Твое́, и не пре́далъ мя еси́ враго́мъ мои́мъ въ коне́цъ, исто́ргнути мя и́щущымъ въ про́пасть а́дову, ниже́ оста́вилъ мя еси́ поги́бнути со беззако́ніи мои́ми. Ны́нѣ у́бо, Многоми́лостиве и Любобла́же Го́споди, не хотя́й сме́рти грѣ́шнаго, но обраще́нія ожида́яй и пріе́мляй, и́же низве́рженныя исправля́яй, сокруше́нныя исцѣля́яй, обрати́ и мене́ къ покая́нію, и низве́рженнаго испра́ви, и сокруше́ннаго исцѣли́. Помяни́ Твоя́ щедро́ты, и я́же отъ вѣ́ка Твою́ непостижи́мую бла́гость, и моя́ безмѣ́рная забу́ди беззако́нія, я́же дѣ́ломъ, и сло́вомъ, и мы́слію соверши́хъ: разрѣши́ ослѣпле́ніе се́рдца моего́, и даждь ми сле́зы умиле́нія на очище́ніе скве́рны мы́сли моея́. Услы́ши, Го́споди, вонми́, Человѣколю́бче, очи́сти, Благоутро́бне, и отъ мучи́тельства во мнѣ ца́рствующихъ страсте́й окая́нную мою́ ду́шу свободи́, и не ктому́ да содержи́тъ мя грѣхъ, ниже́ да возмо́жетъ на мя бори́тель де́монъ, ниже́ къ своему́ хотѣ́нію да веде́тъ мя: но держа́вною Твое́ю руко́ю, его́ влады́чества исхи́тивый мя, Ты ца́рствуй во мнѣ, Благі́й и Человѣколюби́вый Го́споди, и всего́ Твоего́ бы́ти, и жи́ти мнѣ про́чее по Твое́й благоволи́ во́ли. И пода́ждь ми неизрече́нною бла́гостію се́рдца очище́ніе, устъ хране́ніе, правоту́ дѣя́ній, мудрова́ніе смире́нное, миръ помысло́въ, тишину́ душе́вныхъ мои́хъ силъ, ра́дость духо́вную, любо́вь и́стинную, долготерпѣ́ніе, бла́гость, кро́тость, вѣ́ру нелицемѣ́рну, воздержа́ніе обдержа́тельное, и всѣхъ мя благи́хъ плодо́въ испо́лни дарова́ніемъ Свята́го Твоего́ Ду́ха. И не возведи́ мене́ въ преполове́ніе дней мои́хъ, ниже́ неиспра́влену и негото́ву ду́шу мою́ восхи́тиши: но соверши́ мя Твои́мъ соверше́нствомъ, и та́ко мя настоя́щаго житія́ изведи́, я́ко да невозбра́нно проше́дъ нача́ла и вла́сти тмы, Твое́ю благода́тію узрю́ и азъ непристу́пныя Твоея́ сла́вы добро́ту неизрече́нную со всѣ́ми святы́ми Твои́ми, въ ни́хже освяти́ся и просла́вися всечестно́е и великолѣ́пое и́мя Твое́, Отца́ и Сы́на и Свята́го Ду́ха, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
    "pt": "Soberano Senhor Todo-Poderoso e Criador de todas as coisas, Pai das compaixões e Deus da misericórdia, que formaste o homem da terra e o mostraste à Tua imagem e semelhança, para que também por ele o Teu nome magnífico fosse glorificado na terra; e, tendo ele sido arrancado [da glória] pela transgressão dos Teus mandamentos, de novo o recriaste para melhor em Cristo Teu e o elevaste aos céus: dou-Te graças porque multiplicaste em mim a Tua grandeza e não me entregaste de todo aos meus inimigos, que procuram arrastar-me para o abismo do Hades, nem me deixaste perecer com as minhas iniquidades. Agora, pois, Senhor muito misericordioso e amante do bem, que não queres a morte do pecador, mas esperas e acolhes a sua conversão, Tu que endireitas os caídos e curas os quebrantados, converte também a mim ao arrependimento, endireita-me a mim, caído, e cura-me a mim, quebrantado. Lembra-Te das Tuas compaixões e da Tua bondade incompreensível desde sempre, e esquece as minhas iniquidades sem medida, que cometi por obra, palavra e pensamento; desfaz a cegueira do meu coração e dá-me lágrimas de compunção para purificação da imundície do meu pensamento. Ouve, Senhor, atende, ó Amigo dos homens, purifica, ó Compassivo, e liberta a minha alma miserável da tirania das paixões que reinam em mim; e que o pecado não me domine mais, nem o demónio adversário possa prevalecer contra mim, nem me leve à sua vontade; mas, arrancando-me ao seu domínio com a Tua mão poderosa, reina Tu em mim, Senhor bom e amigo dos homens, e concede-me ser todo Teu e viver doravante segundo a Tua vontade benevolente. E dá-me, pela Tua bondade inefável, pureza de coração, guarda da boca, retidão de ações, sentir humilde, paz dos pensamentos, serenidade das forças da minha alma, alegria espiritual, amor verdadeiro, longanimidade, bondade, mansidão, fé sem fingimento, temperança que tudo abarca, e enche-me de todos os bons frutos, pelo dom do Teu Espírito Santo. E não me leves a meio dos meus dias, nem arrebates a minha alma por emendar e despreparada, mas aperfeiçoa-me com a Tua perfeição e assim tira-me desta vida, para que, passando sem impedimento os principados e potestades das trevas, veja também eu, pela Tua graça, a beleza inefável da Tua glória inacessível, com todos os Teus santos, nos quais é santificado e glorificado o Teu nome honradíssimo e magnífico, do Pai e do Filho e do Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
    "ru": "Владыка Господи Вседержитель и Творец всего, Отец щедрот и Бог милости, создавший человека из земли и явивший его по образу Твоему и подобию, чтобы и через него прославилось великолепное имя Твое на земле; и, когда он был отторгнут преступлением Твоих заповедей, вновь воссоздавший его к лучшему во Христе Твоем и возведший на небеса! Благодарю Тебя, что Ты умножил на мне величие Твое и не предал меня до конца врагам моим, ищущим низвергнуть меня в пропасть ада, и не оставил меня погибнуть с беззакониями моими. Ныне же, Многомилостивый и Любоблагий Господи, не хотящий смерти грешника, но ожидающий и принимающий его обращение, Ты, исправляющий низверженных и исцеляющий сокрушенных, обрати и меня к покаянию, и меня, низверженного, исправь, и сокрушенного исцели. Вспомни щедроты Твои и непостижимую от века Твою благость и забудь мои безмерные беззакония, которые я совершил делом, и словом, и мыслью; разреши ослепление сердца моего и дай мне слезы умиления для очищения скверны мысли моей. Услышь, Господи, внемли, Человеколюбче, очисти, Благоутробне, и от мучительства царствующих во мне страстей окаянную мою душу освободи; и пусть более не обладает мною грех, и да не одолеет меня демон-борец, и да не ведет меня к своему хотению; но, державною Твоею рукою исторгнув меня из его владычества, Ты царствуй во мне, Благой и Человеколюбивый Господи, и дай мне быть всецело Твоим и жить впредь по Твоей благой воле. И подай мне по неизреченной благости Твоей очищение сердца, хранение уст, правоту деяний, смиренномудрие, мир помыслов, тишину душевных моих сил, радость духовную, любовь истинную, долготерпение, благость, кротость, веру нелицемерную, всеобъемлющее воздержание, и всеми благими плодами исполни меня даром Святого Твоего Духа. И не возведи меня в преполовение дней моих, и не похити души моей неисправленною и неготовою, но соверши меня Твоим совершенством и так изведи меня из настоящей жизни, чтобы, беспрепятственно пройдя начала и власти тьмы, Твоею благодатью увидел и я неизреченную красоту неприступной Твоей славы со всеми святыми Твоими, в которых освятилось и прославилось всечестное и великолепное имя Твое, Отца и Сына и Святого Духа, ныне и присно и во веки веков. Аминь.",
-   "uk": "Владико Господи Вседержителю і Творче всього, Отче щедрот і Боже милості, що створив людину з землі і явив її за образом Твоїм і подобою, щоб і через неї прославилося величне ім’я Твоє на землі; і, коли вона була відторгнута переступом Твоїх заповідей, знову відтворив її на краще в Христі Твоєму і підніс на небеса! Дякую Тобі, що Ти примножив на мені велич Твою і не віддав мене до кінця ворогам моїм, які прагнуть скинути мене в прірву аду, і не залишив мене загинути з беззаконнями моїми. Нині ж, Многомилостивий і Любоблагий Господи, що не хочеш смерті грішника, але чекаєш і приймаєш його навернення, Ти, що виправляєш повалених і зціляєш сокрушених, наверни і мене до покаяння, і мене, поваленого, виправ, і сокрушеного зціли. Згадай щедроти Твої і незбагненну від віку Твою благість і забудь мої безмірні беззаконня, які я вчинив ділом, і словом, і думкою; розв’яжи осліплення серця мого і дай мені сльози розчулення для очищення скверни думки моєї. Почуй, Господи, зваж, Человіколюбче, очисти, Милосердний, і від мучительства пристрастей, що царюють у мені, окаянну мою душу звільни; і хай більше не володіє мною гріх, і хай не здолає мене демон-борець, і хай не веде мене до своєї волі; але, державною Твоєю рукою вирвавши мене з його влади, Ти царюй у мені, Благий і Человіколюбний Господи, і дай мені бути цілком Твоїм і жити надалі за Твоєю благою волею. І подай мені з невимовної благості Твоєї очищення серця, охорону уст, правоту діянь, смиренномудріє, мир помислів, тишу душевних моїх сил, радість духовну, любов істинну, довготерпіння, благість, лагідність, віру нелицемірну, всеосяжне стримування, і всіма благими плодами сповни мене даром Святого Твого Духа. І не забери мене в половині днів моїх, і не вихопи душі моєї невиправленою і неготовою, але вдосконали мене Твоєю досконалістю і так виведи мене з теперішнього життя, щоб, безперешкодно пройшовши начала і влади темряви, Твоєю благодаттю побачив і я невимовну красу неприступної Твоєї слави з усіма святими Твоїми, в яких освятилося і прославилося всечесне і величне ім’я Твоє, Отця, і Сина, і Святого Духа, нині, і повсякчас, і на віки віків. Амінь.",
+   "uk": "Владико Господи Вседержителю і Творче всього, Отче щедрот і Боже милості, що створив людину з землі і явив її за образом Твоїм і подобою, щоб і через неї прославилося величне ім’я Твоє на землі; і, коли вона була відторгнута переступом Твоїх заповідей, знову відтворив її на краще в Христі Твоєму і підніс на небеса! Дякую Тобі, що Ти примножив на мені велич Твою і не віддав мене до кінця ворогам моїм, які прагнуть скинути мене в прірву аду, і не залишив мене загинути з беззаконнями моїми. Нині ж, Многомилостивий і Любоблагий Господи, що не хочеш смерті грішника, але чекаєш і приймаєш його навернення, Ти, що виправляєш повалених і зціляєш сокрушених, наверни і мене до покаяння, і мене, поваленого, виправ, і сокрушеного зціли. Згадай щедроти Твої і незбагненну від віку Твою благість і забудь мої безмірні беззаконня, які я вчинив ділом, і словом, і думкою; розв’яжи осліплення серця мого і дай мені сльози розчулення для очищення скверни думки моєї. Почуй, Господи, зваж, Чоловіколюбче, очисти, Милосердний, і від мучительства пристрастей, що царюють у мені, окаянну мою душу звільни; і хай більше не володіє мною гріх, і хай не здолає мене демон-борець, і хай не веде мене до своєї волі; але, державною Твоєю рукою вирвавши мене з його влади, Ти царюй у мені, Благий і Чоловіколюбний Господи, і дай мені бути цілком Твоїм і жити надалі за Твоєю благою волею. І подай мені з невимовної благості Твоєї очищення серця, охорону уст, правоту діянь, смиренномудріє, мир помислів, тишу душевних моїх сил, радість духовну, любов істинну, довготерпіння, благість, лагідність, віру нелицемірну, всеосяжне стримування, і всіма благими плодами сповни мене даром Святого Твого Духа. І не забери мене в половині днів моїх, і не вихопи душі моєї невиправленою і неготовою, але вдосконали мене Твоєю досконалістю і так виведи мене з теперішнього життя, щоб, безперешкодно пройшовши начала і влади темряви, Твоєю благодаттю побачив і я невимовну красу неприступної Твоєї слави з усіма святими Твоїми, в яких освятилося і прославилося всечесне і величне ім’я Твоє, Отця, і Сина, і Святого Духа, нині, і повсякчас, і на віки віків. Амінь.",
    "en": "O Master, Lord Almighty and Creator of all, Father of compassions and God of mercy, Who didst form man from the earth and didst show him forth in Thine image and likeness, that through him also Thy majestic name might be glorified upon the earth; and, when he had been torn away by the transgression of Thy commandments, didst fashion him anew unto better things in Thy Christ and didst raise him up to the heavens: I give thanks unto Thee, for Thou hast magnified Thy greatness upon me, and hast not delivered me utterly unto mine enemies that seek to cast me down into the abyss of Hades, neither hast Thou left me to perish with mine iniquities. Now, therefore, O Lord plenteous in mercy and lover of good, Who desirest not the death of a sinner, but awaitest and receivest his conversion, Who settest upright them that are cast down and healest them that are broken: turn me also unto repentance, set me upright who am cast down, and heal me who am broken. Remember Thy compassions and Thy goodness, incomprehensible from everlasting, and forget mine iniquities beyond measure, which I have committed in deed, and word, and thought; loose the blindness of my heart, and give me tears of compunction for the cleansing of the defilement of my mind. Hear, O Lord; attend, O Lover of mankind; cleanse, O Thou of tender compassion, and free my wretched soul from the tyranny of the passions that reign within me; and let sin no longer hold me fast, neither let the warring demon prevail against me, nor lead me to his will; but, snatching me from his dominion by Thy sovereign hand, do Thou reign in me, O good Lord and Lover of mankind, and grant me to be wholly Thine, and henceforth to live according to Thy good will. And grant me, of Thine ineffable goodness, purity of heart, a guard upon my mouth, uprightness of deeds, humility of mind, peace of thoughts, stillness of the powers of my soul, spiritual joy, true love, long-suffering, kindness, meekness, faith unfeigned, all-embracing self-control, and fill me with all good fruits by the gift of Thy Holy Spirit. And take me not away in the midst of my days, nor snatch away my soul unamended and unprepared, but perfect me with Thy perfection, and so bring me forth out of this present life, that, passing without hindrance the principalities and powers of darkness, I too may behold by Thy grace the ineffable beauty of Thine unapproachable glory, with all Thy saints, in whom Thy most honourable and majestic name is sanctified and glorified, of the Father, and of the Son, and of the Holy Spirit, now and ever, and unto ages of ages. Amen.",
    "fonte": {
     "cu": "P1874 img. n236-n238",

@@ -208,7 +208,7 @@
    "cu": "Запрети́лъ еси́ язы́комъ, и поги́бе нечести́вый: и́мя его́ потреби́лъ еси́ въ вѣкъ и въ вѣкъ вѣ́ка.",
    "pt": "Repreendeste as nações, e pereceu o ímpio; o seu nome destruíste para sempre e pelos séculos dos séculos.",
    "ru": "Ты наказал народы, и погиб нечестивый. Имя его Ты изгладил на век и в век века.",
-   "uk": "Ти погрозив народам, і загинув нечестивий; ім’я його Ти знищив повіки і на віки віків.",
+   "uk": "Ти погрозив народам, і загинув нечестивий; ім’я його Ти знищив навіки і на віки віків.",
    "en": "Thou hast rebuked the nations, and the ungodly one hath perished; Thou hast blotted out their name for ever, even for ever and ever."
   },
   {
@@ -230,7 +230,7 @@
    "cu": "И Госпо́дь во вѣкъ пребыва́етъ, угото́ва на судъ престо́лъ Свой:",
    "pt": "E o Senhor permanece para sempre; preparou o Seu trono para o juízo,",
    "ru": "А Господь вечно пребывает, приготовил Он для суда престол Свой.",
-   "uk": "А Господь повіки перебуває; приготував Він для суду престол Свій,",
+   "uk": "А Господь навіки перебуває; приготував Він для суду престол Свій,",
    "en": "but the Lord endureth for ever: He hath prepared His throne for judgment."
   },
   {
@@ -238,7 +238,7 @@
    "tipo": "verso",
    "sl": 9,
    "v": 9,
-   "cu": "и Той суди́ти и́мать вселе́нней въ пра́вду, суди́ти и́мать лю́демъ въ правотѣ́.",
+   "cu": "и Той суди́ти и́мать вселе́ннѣй въ пра́вду, суди́ти и́мать лю́демъ въ правотѣ́.",
    "pt": "e Ele julgará o universo com justiça, julgará os povos com retidão.",
    "ru": "И Он будет судить вселенную по правде, будет судить людей по правоте.",
    "uk": "і Він судитиме вселенну в правді, судитиме людей у правоті.",
@@ -296,7 +296,7 @@
    "cu": "Поми́луй мя, Го́споди, виждь смире́ніе мое́ отъ врагъ мои́хъ, вознося́й мя отъ вратъ сме́ртныхъ:",
    "pt": "Tem piedade de mim, Senhor, vê a minha humilhação causada pelos meus inimigos, Tu que me levantas das portas da morte,",
    "ru": "Помилуй меня, Господи! Усмотри унижение мое от врагов моих Ты, Который возносишь меня от врат смерти,",
-   "uk": "Помилуй мене, Господи, поглянь на смирення моє від ворогів моїх, Ти, що підносиш мене від воріт смерті,",
+   "uk": "Помилуй мене, Господи, поглянь на приниження моє від ворогів моїх, Ти, що підносиш мене від воріт смерті,",
    "en": "Have mercy upon me, O Lord; look upon my affliction which I suffer of mine enemies, Thou that liftest me up from the gates of death:"
   },
   {
@@ -308,7 +308,8 @@
    "pt": "para que eu anuncie todos os Teus louvores às portas da filha de Sião; exultaremos na Tua salvação.",
    "ru": "Чтобы я возвещал все хвалы Твои во вратах дщери Сионовой. Возрадуемся о спасении Твоем.",
    "uk": "щоб я звістив усі хвали Твої у воротах дочки Сіону; зрадіємо спасінню Твоєму.",
-   "en": "that I may declare all Thy praises in the gates of the daughter of Sion: I will exult in Thy salvation."
+   "en": "that I may declare all Thy praises in the gates of the daughter of Sion: we will exult in Thy salvation.",
+   "nota": "EN: Brenton «that I may declare all Thy praises in the gates of the daughter of Sion: I will exult in Thy salvation.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-009-16",
@@ -329,7 +330,7 @@
    "cu": "Зна́емь есть Госпо́дь судьбы́ творя́й: въ дѣ́лѣхъ руку́ свое́ю увязе́ грѣ́шникъ.",
    "pt": "Conhecido é o Senhor, que executa juízos; nas obras das suas mãos ficou preso o pecador.",
    "ru": "Господь познается, совершая суды: в делах рук своих погряз грешник.",
-   "uk": "Пізнається Господь, Який чинить присуди; в ділах рук своїх заплутався грішник.",
+   "uk": "Пізнається Господь, Який чинить суди; в ділах рук своїх заплутався грішник.",
    "en": "The Lord is known as executing judgments: the sinner is taken in the works of his hands.",
    "nota": "EN: Brenton acrescenta «A song of Pause» (ᾠδὴ διαψάλματος, LXX); o eslavo não o tem: retirado."
   },
@@ -429,7 +430,7 @@
    "cu": "Оскверня́ются путіе́ его́ на вся́ко вре́мя: отъе́млются судьбы́ Твоя́ отъ лица́ его́: всѣ́ми враги́ свои́ми облада́етъ.",
    "pt": "Profanados são os seus caminhos em todo o tempo; afastados são os Teus juízos da sua face; de todos os seus inimigos se assenhoreia.",
    "ru": "Во всякое время пути его нечисты, отстраняются суды Твои от лица его, над всеми врагами своими он господствует.",
-   "uk": "Оскверняються путі його повсякчас, віднімаються присуди Твої від лиця його; над усіма ворогами своїми він панує.",
+   "uk": "Оскверняються путі його повсякчас, віднімаються суди Твої від лиця його; над усіма ворогами своїми він панує.",
    "en": "His ways are profane at all times; Thy judgments are removed from before him: he will gain the mastery over all his enemies."
   },
   {
@@ -459,7 +460,7 @@
    "tipo": "verso",
    "sl": 9,
    "v": 29,
-   "cu": "Присѣди́тъ въ лови́тельствѣ съ бога́тыми въ та́йныхъ, е́же уби́ти непови́ннаго: о́чи его́ на ни́щаго призира́ете.",
+   "cu": "Присѣди́тъ въ лови́тельствѣ съ бога́тыми въ та́йныхъ, е́же уби́ти непови́ннаго: о́чи его́ на ни́щаго призира́етѣ.",
    "pt": "Senta-se de emboscada com os ricos, em lugares ocultos, para matar o inocente; os seus olhos espreitam o pobre.",
    "ru": "Сидит он в засаде, в тайниках, с богатыми, чтобы убить невинного, глаза его подсматривают за нищим.",
    "uk": "Засідає в засідці з багатими потай, щоб убити невинного; очі його на убогого споглядають.",
@@ -507,7 +508,8 @@
    "pt": "Levanta-Te, Senhor meu Deus, eleve-se a Tua mão; não Te esqueças dos Teus necessitados até ao fim.",
    "ru": "Восстань, Господи Боже мой! Да поднимется рука Твоя, не забудь убогих Твоих до конца.",
    "uk": "Воскресни, Господи Боже мій, нехай піднесеться рука Твоя, не забудь бідних Твоїх до кінця.",
-   "en": "Arise, O Lord God; let Thy hand be lifted up: forget not the poor."
+   "en": "Arise, O Lord my God; let Thy hand be lifted up: forget not Thy poor to the end.",
+   "nota": "EN: Brenton «Arise, O Lord God; let Thy hand be lifted up: forget not the poor.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-009-34",
@@ -529,7 +531,7 @@
    "pt": "Tu vês, porque Tu consideras o sofrimento e o furor, para que seja entregue nas Tuas mãos; a Ti está entregue o pobre; do órfão sê Tu o auxílio.",
    "ru": "(Но) Ты видишь, ибо Ты смотришь на страдание и озлобление. Да предан будет он в руки Твои: Тебе предоставлен нищий, сироте Ты будь помощником.",
    "uk": "Ти бачиш, бо Ти споглядаєш муку і ярість, щоб він був відданий у руки Твої; Тобі залишений убогий, сироті Ти будь помічником.",
-   "en": "Thou seest it; for Thou dost observe trouble and wrath, to deliver them into Thy hands: the poor hath been left to Thee; Thou wast a helper to the orphan."
+   "en": "Thou seest it; for Thou dost observe trouble and wrath, to deliver them into Thy hands: the poor hath been left to Thee; be Thou a helper to the orphan."
   },
   {
    "id": "sl-009-36",
@@ -550,8 +552,9 @@
    "cu": "Госпо́дь царь во вѣкъ и въ вѣкъ вѣ́ка: поги́бнете, язы́цы, отъ земли́ Его́.",
    "pt": "O Senhor é Rei para sempre e pelos séculos dos séculos; perecereis, ó nações, da Sua terra.",
    "ru": "Господь — Царь во век и в век века. Исчезните, язычники, с земли Его!",
-   "uk": "Господь — Цар повіки і на віки віків; загинете, народи, з землі Його.",
-   "en": "The Lord shall reign for ever, even for ever and ever: ye Gentiles shall perish out of His land."
+   "uk": "Господь — Цар навіки і на віки віків; загинете, народи, з землі Його.",
+   "en": "The Lord is King for ever, even for ever and ever: ye Gentiles shall perish out of His land.",
+   "nota": "EN: Brenton «The Lord shall reign for ever, even for ever and ever: ye Gentiles shall perish out of His land.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-009-38",
@@ -562,7 +565,8 @@
    "pt": "O desejo dos necessitados escutaste, Senhor; à preparação do seu coração atendeu o Teu ouvido.",
    "ru": "Желание убогих Ты услышал, Господи, преданности сердца их вняло ухо Твое.",
    "uk": "Бажання бідних Ти почув, Господи, на приготування серця їхнього зважило вухо Твоє.",
-   "en": "The Lord hath heard the desire of the poor: Thine ear hath inclined to the preparation of their heart;"
+   "en": "Thou hast heard, O Lord, the desire of the poor: Thine ear hath inclined to the preparation of their heart;",
+   "nota": "EN: Brenton «The Lord hath heard the desire of the poor: Thine ear hath inclined to the preparation of their heart;»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-009-39",
@@ -573,7 +577,8 @@
    "pt": "Julga a favor do órfão e do humilde, para que o homem não continue mais a engrandecer-se sobre a terra.",
    "ru": "Оправдай сироту и смиренного, дабы не продолжал более человек величаться на земле.",
    "uk": "Розсуди сироту і смиренного, щоб більше не величалася людина на землі.",
-   "en": "to plead for the orphan and afflicted, that man may no more boast upon the earth."
+   "en": "judge the orphan and the afflicted, that man may no more boast upon the earth.",
+   "nota": "EN: Brenton «to plead for the orphan and afflicted, that man may no more boast upon the earth.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-010",
@@ -636,10 +641,10 @@
    "tipo": "verso",
    "sl": 10,
    "v": 4,
-   "cu": "Госпо́дь во хра́мѣ святѣ́мъ Свое́мъ. Госпо́дь, на небеси́ престо́лъ Его́: о́чи Его́ на ни́щаго призира́ете, вѣ́жди Его́ испыта́ете сы́ны человѣ́ческія.",
+   "cu": "Госпо́дь во хра́мѣ святѣ́мъ Свое́мъ. Госпо́дь, на небеси́ престо́лъ Его́: о́чи Его́ на ни́щаго призира́етѣ, вѣ́жди Его́ испыта́етѣ сы́ны человѣ́ческія.",
    "pt": "O Senhor está no Seu santo templo; o Senhor, o Seu trono está no céu; os Seus olhos olham para o pobre, as Suas pálpebras examinam os filhos dos homens.",
    "ru": "Господь во храме святом Своем: Господь, — на небе престол Его, очи Его взирают на нищего, зеницы Его испытывают сынов человеческих.",
-   "uk": "Господь у храмі святому Своєму, Господь — на небі престол Його; очі Його на убогого споглядають, повіки Його випробовують синів людських.",
+   "uk": "Господь у храмі святому Своєму, Господь — на небі престол Його; очі Його на убогого споглядають, навіки Його випробовують синів людських.",
    "en": "The Lord is in His holy temple, as for the Lord, His throne is in heaven: His eyes look upon the poor, His eyelids try the sons of men."
   },
   {
@@ -697,7 +702,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -809,7 +814,8 @@
    "pt": "Coisas vãs falou cada um ao seu próximo; lábios dolosos no coração, e no coração falaram coisas más.",
    "ru": "Суетное говорил каждый ближнему своему: уста льстивые (говорили) от сердца, и от сердца говорили злобное.",
    "uk": "Марне говорив кожен до ближнього свого; губи облудні в серці, і в серці говорили зле.",
-   "en": "Every one hath spoken vanity to his neighbour: their lips are deceitful, they have spoken with a double heart."
+   "en": "Every one hath spoken vanity to his neighbour: deceitful lips are in their heart, and in their heart they have spoken evil things.",
+   "nota": "EN: Brenton «Every one hath spoken vanity to his neighbour: their lips are deceitful, they have spoken with a double heart.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-011-04",
@@ -863,7 +869,7 @@
    "cu": "Ты, Го́споди, сохрани́ши ны и соблюде́ши ны отъ ро́да сего́ и во вѣкъ.",
    "pt": "Tu, Senhor, nos guardarás e nos preservarás desta geração e para sempre.",
    "ru": "Ты, Господи, сохранишь нас и сбережешь нас от рода сего и во век.",
-   "uk": "Ти, Господи, збережеш нас і стерегтимеш нас від роду цього і повіки.",
+   "uk": "Ти, Господи, збережеш нас і стерегтимеш нас від роду цього і навіки.",
    "en": "Thou, O Lord, shalt keep us, and shalt preserve us, from this generation, and for ever."
   },
   {
@@ -919,7 +925,8 @@
    "pt": "Até quando porei conselhos na minha alma, dores no meu coração dia e noite? Até quando se exaltará o meu inimigo sobre mim?",
    "ru": "Доколе я буду слагать помыслы в душе моей, (а) печали в сердце моем день и ночь? Доколе будет возноситься надо мною враг мой?",
    "uk": "Доки покладатиму задуми в душі моїй, болі в серці моєму день і ніч? Доки підноситиметься ворог мій наді мною?",
-   "en": "How long shall I take counsel in my soul, having sorrows in my heart daily? how long shall my enemy be exalted over me?"
+   "en": "How long shall I take counsel in my soul, having sorrows in my heart day and night? how long shall my enemy be exalted over me?",
+   "nota": "EN: Brenton «How long shall I take counsel in my soul, having sorrows in my heart daily? how long shall my enemy be exalted over me?»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-012-04",
@@ -929,7 +936,7 @@
    "cu": "При́зри, услы́ши мя, Го́споди Бо́же мой: просвѣти́ о́чи мои́, да не когда́ усну́ въ смерть:",
    "pt": "Olha, escuta-me, Senhor meu Deus; ilumina os meus olhos, para que eu não adormeça na morte,",
    "ru": "Призри, услышь меня, Господи, Боже Мой, просвети очи мои, да не усну смертно.",
-   "uk": "Поглянь, почуй мене, Господи Боже мій; просвіти очі мої, щоб коли не заснув я на смерть,",
+   "uk": "Поглянь, почуй мене, Господи Боже мій; просвіти очі мої, щоб не заснув я смертним сном,",
    "en": "Look on me, hearken to me, O Lord my God: lighten mine eyes, lest I sleep in death;"
   },
   {
@@ -940,7 +947,7 @@
    "cu": "да не когда́ рече́тъ врагъ мой: укрѣпи́хся на него́.",
    "pt": "para que o meu inimigo não diga: Prevaleci contra ele.",
    "ru": "Да не скажет враг мой: «Я преодолел его!»",
-   "uk": "щоб коли не сказав ворог мій: Я переміг його.",
+   "uk": "щоб не сказав ворог мій: Я переміг його.",
    "en": "lest at any time mine enemy say, I have prevailed against him:"
   },
   {
@@ -1031,7 +1038,8 @@
    "pt": "Ali temeram de temor, onde não havia temor, porque o Senhor está na geração dos justos.",
    "ru": "(Посему) там они трепетали от страха, где не было страха, ибо Господь — в роде праведных.",
    "uk": "Там вони налякалися страху, де не було страху, бо Господь у роді праведних.",
-   "en": "There were they alarmed with fear, where there was no fear; for God is in the righteous generation."
+   "en": "There were they alarmed with fear, where there was no fear; for the Lord is in the righteous generation.",
+   "nota": "EN: Brenton «There were they alarmed with fear, where there was no fear; for God is in the righteous generation.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-013-06",
@@ -1077,7 +1085,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -1186,7 +1194,7 @@
    "sl": 14,
    "v": 2,
    "cu": "Ходя́й непоро́ченъ и дѣ́лаяй пра́вду, глаго́ляй и́стину въ се́рдцы свое́мъ:",
-   "pt": "Aquele que anda sem mácula e pratica a justiça, que fala a verdade no seu coração,",
+   "pt": "Aquele que anda imaculado e pratica a justiça, que fala a verdade no seu coração,",
    "ru": "Тот, кто ходит непорочно и делает правду, говорит истину от сердца своего,",
    "uk": "Той, хто ходить непорочним і чинить правду, хто говорить істину в серці своєму,",
    "en": "He that walketh blameless, and worketh righteousness, who speaketh truth in his heart."
@@ -1221,7 +1229,7 @@
    "cu": "сребра́ своего́ не даде́ въ ли́хву и мзды на непови́нныхъ не прія́тъ. Творя́й сія́ не подви́жится во вѣкъ.",
    "pt": "não deu a sua prata a usura, nem aceitou suborno contra os inocentes. Quem faz estas coisas não será abalado para sempre.",
    "ru": "Кто серебра своего не давал в рост и даров против невинных не принимал. Делающий сие не поколеблется во век.",
-   "uk": "срібла свого не давав у лихву і мзди на невинних не брав. Хто чинить це, не похитнеться повіки.",
+   "uk": "срібла свого не давав у лихву і мзди на невинних не брав. Хто чинить це, не похитнеться навіки.",
    "en": "He hath not lent his money on usury, and hath not received bribes against the innocent. He that doeth these things shall never be moved."
   },
   {
@@ -1354,7 +1362,8 @@
    "pt": "Porque não deixarás a minha alma no Hades, nem permitirás que o Teu santo veja a corrupção.",
    "ru": "Что ты не оставишь души моей в аде и не дашь преподобному Твоему видеть тление.",
    "uk": "Бо Ти не залишиш душі моєї в аді і не даси преподобному Твоєму побачити тління.",
-   "en": "because Thou wilt not leave my soul in hell, neither wilt Thou suffer Thine Holy One to see corruption."
+   "en": "because Thou wilt not leave my soul in Hades, neither wilt Thou suffer Thine Holy One to see corruption.",
+   "nota": "EN: Brenton «hell»; «Hades» (dec. 71)."
   },
   {
    "id": "sl-015-11",
@@ -1365,7 +1374,8 @@
    "pt": "Deste-me a conhecer os caminhos da vida; encher-me-ás de júbilo com a Tua face; a formosura está na Tua destra até ao fim.",
    "ru": "Ты показал мне пути жизни, наполнишь меня веселием пред лицем Твоим, блаженство в деснице Твоей во век.",
    "uk": "Ти дав мені пізнати путі життя; Ти сповниш мене веселощами з лицем Твоїм; краса в правиці Твоїй до кінця.",
-   "en": "Thou hast made known to me the ways of life; Thou wilt fill me with joy with Thy countenance: at Thy right hand there are delights for ever."
+   "en": "Thou hast made known to me the ways of life; Thou wilt fill me with joy with Thy countenance: there is beauty at Thy right hand for ever.",
+   "nota": "EN: Brenton «Thou hast made known to me the ways of life; Thou wilt fill me with joy with Thy countenance: at Thy right hand there are delights for ever.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-016",
@@ -1582,7 +1592,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -1860,11 +1870,11 @@
   {
    "id": "k02-p-12",
    "tipo": "oracao",
-   "cu": "И ны́нѣ: Предста́тельство те́плое христіа́нъ, Сы́на Твоего́ Моле́бнице, вся́каго злодѣ́йства и лю́тости изба́вити насъ ра́тника, и да́ти проще́ніе намъ, о ни́хже согрѣши́хомъ, милосе́рдія ра́ди щедро́тъ, Твои́ми моли́твами, Ма́ти Дѣ́во.",
-   "pt": "E agora…: Ardente protetora dos cristãos, intercessora junto do Teu Filho, livra-nos de toda a malícia e crueldade do inimigo e alcança-nos o perdão daquilo em que pecámos, pela misericórdia das [Suas] compaixões, pelas Tuas orações, ó Mãe Virgem.",
-   "ru": "И ныне: Теплое предстательство христиан, Молитвенница пред Сыном Твоим, избавь нас от всякого злодейства и лютости врага и даруй нам прощение в том, в чем мы согрешили, ради милосердия щедрот, Твоими молитвами, Мати Дева.",
-   "uk": "І нині: Тепле заступництво християн, Молитвенице перед Сином Твоїм, визволь нас від усякого злодіяння і лютості ворога і даруй нам прощення того, в чому ми згрішили, заради милосердя щедрот, Твоїми молитвами, Мати Діво.",
-   "en": "Now and ever…: Fervent protection of Christians, Intercessor with thy Son, deliver us from every evil deed and cruelty of the foe, and grant us forgiveness of that wherein we have sinned, for the mercy of His compassions, through thy prayers, O Virgin Mother.",
+   "cu": "И ны́нѣ: Предста́тельство те́плое христіа́нъ, Сы́на Твоего́ моли́, Богоро́дице, вся́каго злодѣ́йства и лю́тости изба́вити насъ ра́тника, и да́ти проще́ніе намъ, о ни́хже согрѣши́хомъ, милосе́рдія ра́ди щедро́тъ, Твои́ми моли́твами, Ма́ти Дѣ́во.",
+   "pt": "E agora…: Ardente protetora dos cristãos, roga ao Teu Filho, ó Mãe de Deus, que nos livre de toda a malícia e crueldade do inimigo e nos conceda o perdão daquilo em que pecámos, pela misericórdia das [Suas] compaixões, pelas Tuas orações, ó Mãe Virgem.",
+   "ru": "И ныне: Теплое предстательство христиан, Богородица, моли Сына Твоего избавить нас от всякого злодейства и лютости врага и даровать нам прощение в том, в чем мы согрешили, ради милосердия щедрот, Твоими молитвами, Мати Дева.",
+   "uk": "І нині: Тепле заступництво християн, Богородице, благай Сина Твого визволити нас від усякого злодіяння і лютості ворога і дарувати нам прощення того, в чому ми згрішили, заради милосердя щедрот, Твоїми молитвами, Мати Діво.",
+   "en": "Now and ever…: Fervent protection of Christians, O Theotokos, entreat thy Son to deliver us from every evil deed and cruelty of the foe, and to grant us forgiveness of that wherein we have sinned, for the mercy of His compassions, through thy prayers, O Virgin Mother.",
    "fonte": {
     "cu": "P1874 img. n050",
     "ru": "propria",
@@ -2005,9 +2015,9 @@
    "id": "k02-p-19",
    "tipo": "oracao",
    "cu": "Влады́ко Вседержи́телю, О́тче Го́спода на́шего Іису́са Христа́, Единоро́днаго Твоего́ Сы́на, даждь ми тѣ́ло нескве́рное, се́рдце чи́стое, умъ бодръ, ра́зумъ незаблу́дный, Ду́ха Свята́го наше́ствіе, къ стяжа́нію и дово́льству и́стины во Христѣ́ Твое́мъ: съ Ни́мже Тебѣ́ сла́ва подоба́етъ, честь и поклоне́ніе со Святы́мъ Ду́хомъ, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
-   "pt": "Soberano Todo-Poderoso, Pai de nosso Senhor Jesus Cristo, Teu Filho Unigénito, dá-me um corpo imaculado, um coração puro, uma mente vigilante, um entendimento sem erro, a vinda do Espírito Santo para a aquisição e a plenitude da verdade, em Cristo Teu, com o Qual Te são devidos a glória, a honra e a adoração, com o Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "pt": "Soberano Todo-Poderoso, Pai de nosso Senhor Jesus Cristo, Teu Filho Unigénito, dá-me um corpo imaculado, um coração puro, uma mente vigilante, um entendimento sem erro, a vinda do Espírito Santo para a aquisição e a plenitude da verdade, no Teu Cristo, com o Qual Te são devidos a glória, a honra e a adoração, com o Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
    "ru": "Владыка Вседержитель, Отец Господа нашего Иисуса Христа, Единородного Твоего Сына, дай мне тело непорочное, сердце чистое, ум бодрый, разум безошибочный, нисшествие Духа Святого к стяжанию и полноте истины во Христе Твоем, с Которым Тебе подобает слава, честь и поклонение со Святым Духом, ныне и присно и во веки веков. Аминь.",
-   "uk": "Владико Вседержителю, Отче Господа нашого Ісуса Христа, Єдинородного Твого Сина, дай мені тіло непорочне, серце чисте, розум бадьорий, розуміння безпомилкове, зішестя Духа Святого для здобуття і повноти істини в Христі Твоєму, з Яким Тобі належить слава, честь і поклоніння зі Святим Духом, нині, і повсякчас, і на віки віків. Амінь.",
+   "uk": "Владико Вседержителю, Отче Господа нашого Іісуса Христа, Єдинородного Твого Сина, дай мені тіло непорочне, серце чисте, розум бадьорий, розуміння безпомилкове, зішестя Духа Святого для здобуття і повноти істини в Христі Твоєму, з Яким Тобі належить слава, честь і поклоніння зі Святим Духом, нині, і повсякчас, і на віки віків. Амінь.",
    "en": "O Master Almighty, Father of our Lord Jesus Christ, Thine Only-begotten Son, give me a body undefiled, a pure heart, a watchful mind, an unerring understanding, the descent of the Holy Spirit for the acquiring and fullness of truth in Thy Christ, with Whom glory, honour and worship are due unto Thee, together with the Holy Spirit, now and ever, and unto ages of ages. Amen.",
    "fonte": {
     "cu": "P1874 img. n050-n051",

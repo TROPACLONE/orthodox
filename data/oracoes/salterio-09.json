@@ -354,7 +354,8 @@
    "pt": "Toda a terra Te adore e Te cante, e cante ao Teu nome, ó Altíssimo.",
    "ru": "Вся земля да поклонится Тебе и поет Тебе, да поет же имени Твоему, Вышний!",
    "uk": "Уся земля нехай поклониться Тобі і співає Тобі, нехай співає ж імені Твоєму, Всевишній.",
-   "en": "Let all the earth worship Thee, and sing to Thee; let them sing to Thy Name."
+   "en": "Let all the earth worship Thee, and sing to Thee; let them sing to Thy Name, O Most High.",
+   "nota": "EN: Brenton «Let all the earth worship Thee, and sing to Thee; let them sing to Thy Name.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-065-05",
@@ -386,7 +387,7 @@
    "cu": "влады́чествующемъ си́лою Свое́ю вѣ́комъ: о́чи Его́ на язы́ки призира́етѣ: преогорчева́ющіи да не возно́сятся въ себѣ́.",
    "pt": "que domina com o Seu poder para sempre; os Seus olhos olham para as nações; os que O amarguram não se exaltem em si mesmos.",
    "ru": "Кто силою Своею владычествует во век: очи Его на народы взирают, дабы не превозносились собою люди, огорчающие (Его).",
-   "uk": "Який владарює силою Своєю повіки: очі Його на народи споглядають: ті, що прогнівляють, нехай не підносяться в собі.",
+   "uk": "Який владарює силою Своєю навіки: очі Його на народи споглядають: ті, що огірчують, нехай не підносяться в собі.",
    "en": "who by His power is Lord over the age, His eyes look upon the nations; let not them that provoke Him be exalted in themselves."
   },
   {
@@ -654,7 +655,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -809,7 +810,7 @@
    "cu": "Богъ вселя́етъ единомы́сленныя въ домъ, изводя́ окова́нныя му́жествомъ, та́кожде преогорчева́ющыя живу́щыя во гробѣ́хъ.",
    "pt": "Deus faz habitar numa casa os de um só sentir, tirando com valentia os que estão acorrentados, e igualmente os que O amarguram, os que habitam nos sepulcros.",
    "ru": "Бог вселяет единомышленных (с Ним) в дом, изводя окованных мужественно, также огорчающих, живущих во гробах.",
-   "uk": "Бог оселяє однодумних у домі, виводячи закутих мужністю, так само і тих, що прогнівляють, що живуть у гробах.",
+   "uk": "Бог оселяє однодумних у домі, виводячи закутих мужністю, так само і тих, що огірчують, що живуть у гробах.",
    "en": "God settleth the solitary in a house; leading forth prisoners mightily, also them that act provokingly, even them that dwell in tombs."
   },
   {
@@ -854,7 +855,7 @@
    "pt": "Os Teus seres vivos habitam nela; preparaste na Tua bondade para o pobre, ó Deus.",
    "ru": "Животные Твои обитали там, Ты, Боже, приготовил их в пищу нищему.",
    "uk": "Живі створіння Твої живуть на ній: Ти приготував благістю Твоєю убогому, Боже.",
-   "en": "Thy creatures dwell in it: Thou hast in Thy goodness prepared for the poor."
+   "en": "Thy creatures dwell in it: Thou hast in Thy goodness prepared for the poor, O God."
   },
   {
    "id": "sl-067-12",
@@ -865,7 +866,7 @@
    "pt": "O Senhor dará a palavra aos que anunciam a boa-nova com grande poder:",
    "ru": "Господь дал слово благовествующим с великою силою!",
    "uk": "Господь дасть слово тим, що благовістять, силою великою;",
-   "en": "The Lord God will give a word to them that preach it in a great company."
+   "en": "The Lord will give a word to them that preach it in a great company."
   },
   {
    "id": "sl-067-13",
@@ -876,7 +877,8 @@
    "pt": "o rei das potestades do amado, para repartir os despojos pela formosura da casa.",
    "ru": "Царь сил возлюбленного (народа), прекрасному дому (дал слово) делить добычу.",
    "uk": "Цар сил улюбленого — щоб красою дому розділити здобич.",
-   "en": "The king of the forces of the beloved, of the beloved, will even grant them for the beauty of the house to divide the spoils."
+   "en": "The king of the forces of the beloved, to divide the spoils for the beauty of the house.",
+   "nota": "EN: Brenton «The king of the forces of the beloved, of the beloved, will even grant them for the beauty of the house to divide the spoils.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-067-14",
@@ -1074,7 +1076,8 @@
    "pt": "Repreende as feras do canavial; a assembleia dos touros entre as novilhas dos povos, para encerrar os que foram provados com prata; dispersa as nações que querem as guerras.",
    "ru": "Запрети зверям (обитателям) тростника, — собранию волов среди телиц народов, — заключать оцененных серебром, расточи народы, желающие войны.",
    "uk": "Загрози звірам очеретяним: сонм бичків серед телиць людських, щоб замкнути випробуваних сріблом; розпороши народи, що хочуть воєн.",
-   "en": "Rebuke the wild beasts of the reed: let the crowd of bulls with the heifers of the nations be rebuked, so that they who have been proved with silver may not be shut out: scatter Thou the nations that wish for wars."
+   "en": "Rebuke the wild beasts of the reed: let the crowd of bulls with the heifers of the nations be rebuked, to shut in them that have been proved with silver: scatter Thou the nations that wish for wars.",
+   "nota": "EN: Brenton «Rebuke the wild beasts of the reed: let the crowd of bulls with the heifers of the nations be rebuked, so that they who have been proved with silver may not be shut out: scatter Thou the nations that wish for wars.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-067-32",
@@ -1085,7 +1088,8 @@
    "pt": "Virão suplicantes do Egito; a Etiópia antecipará a sua mão para Deus.",
    "ru": "Придут богомольцы из Египта, Эфиопия поспешит (молитвенно простереть) руку свою к Богу.",
    "uk": "Прийдуть молільники з Єгипту: Ефіопія випередить руку свою до Бога.",
-   "en": "Ambassadors shall arrive out of Egypt; Ethiopia shall hasten to stretch out her hand readily to God."
+   "en": "Suppliants shall come out of Egypt; Ethiopia shall hasten to stretch out her hand readily to God.",
+   "nota": "EN: Brenton «Ambassadors shall arrive out of Egypt; Ethiopia shall hasten to stretch out her hand readily to God.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-067-33",
@@ -1153,7 +1157,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -1242,7 +1246,7 @@
    "pt": "Para o fim, sobre os que foram mudados, salmo de David.",
    "ru": "В конец. Об имеющих измениться. Псалом Давида.",
    "uk": "На кінець, про тих, що змінилися, псалом Давидів.",
-   "en": "For the end, a Psalm of David, for alternate strains.",
+   "en": "For the end, concerning them that have been changed, a Psalm of David.",
    "sobrescrito": true
   },
   {
@@ -1596,7 +1600,7 @@
    "pt": "Vejam os pobres e alegrem-se; buscai a Deus, e a vossa alma viverá.",
    "ru": "Да увидят (это) бедные и возвеселятся. Взыщите Бога, и жива будет душа ваша.",
    "uk": "Нехай побачать убогі і звеселяться: шукайте Бога, і жива буде душа ваша.",
-   "en": "Let the poor see and rejoice; seek the Lord diligently, and ye shall live."
+   "en": "Let the poor see and rejoice; seek God diligently, and your soul shall live."
   },
   {
    "id": "sl-068-34",
@@ -1742,7 +1746,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -2003,7 +2007,7 @@
    "cu": "И ны́нѣ: Упова́ніе и покро́въ держа́вный къ Тебѣ́ притека́ющихъ, Богороди́тельнице, благо́е предста́тельство мі́ра, моли́ со безпло́тными приле́жно, Его́же родила́ еси́ Человѣколю́бнѣйшаго Бо́га, изба́витися душа́мъ на́шымъ отъ вся́каго преще́нія, Еди́на Благослове́нная.",
    "pt": "E agora…: Esperança e proteção poderosa dos que a Ti acorrem, ó Mãe de Deus, boa intercessora do mundo, roga com os incorpóreos, instantemente, Àquele que deste à luz, Deus amicíssimo dos homens, que as nossas almas sejam livres de toda a ameaça, ó única Bendita.",
    "ru": "И ныне: Упование и покров державный притекающих к Тебе, Богородица, благое предстательство мира, моли с бесплотными усердно Того, Кого Ты родила, Человеколюбивейшего Бога, чтобы души наши избавились от всякой угрозы, Единая Благословенная.",
-   "uk": "І нині: Уповання і покрове державний тих, що прибігають до Тебе, Богородице, добре заступництво світу, благай з безплотними ревно Того, Кого Ти народила, Человіколюбнішого Бога, щоб душі наші визволилися від усякої загрози, Єдина Благословенна.",
+   "uk": "І нині: Уповання і покрове державний тих, що прибігають до Тебе, Богородице, добре заступництво світу, благай з безплотними ревно Того, Кого Ти народила, Чоловіколюбнішого Бога, щоб душі наші визволилися від усякої загрози, Єдина Благословенна.",
    "en": "Now and ever…: O hope and mighty protection of them that hasten unto thee, O Theotokos, good intercession of the world, entreat earnestly, together with the bodiless ones, the most man-befriending God Whom thou didst bear, that our souls may be delivered from every threat, O thou who alone art blessed.",
    "fonte": {
     "cu": "P1874 img. n137",

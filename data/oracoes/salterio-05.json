@@ -238,7 +238,7 @@
    "tipo": "verso",
    "sl": 32,
    "v": 8,
-   "cu": "Да убои́тся Го́спода вся земля́, отъ Него́же да подви́жутся вси живу́щіи по вселе́нней:",
+   "cu": "Да убои́тся Го́спода вся земля́, отъ Него́же да подви́жутся вси живу́щіи по вселе́ннѣй:",
    "pt": "Tema o Senhor toda a terra, e diante d'Ele estremeçam todos os que habitam o universo,",
    "ru": "Да убоится Господа вся земля, да трепещут пред Ним все, живущие во Вселенной!",
    "uk": "Нехай убоїться Господа вся земля, від Нього нехай похитнуться всі, що живуть у вселенній,",
@@ -274,7 +274,7 @@
    "cu": "Совѣ́тъ же Госпо́день во вѣкъ пребыва́етъ, помышле́нія се́рдца Его́ въ родъ и родъ.",
    "pt": "Mas o conselho do Senhor permanece para sempre, os pensamentos do Seu coração de geração em geração.",
    "ru": "Совет же Господень во век пребывает, помышления сердца Его — в род и род.",
-   "uk": "А задум Господній повіки перебуває, помисли серця Його — з роду в рід.",
+   "uk": "А задум Господній навіки перебуває, помисли серця Його — з роду в рід.",
    "en": "But the counsel of the Lord endureth for ever, the thoughts of His heart from generation to generation."
   },
   {
@@ -685,7 +685,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -863,7 +863,8 @@
    "pt": "Venha sobre ele o laço que não conhece, e a armadilha que escondeu o apanhe, e caia ele no próprio laço.",
    "ru": "Да постигнет его сеть, которой он не знает, и западня, которую он скрыл, да уловит его, и он пусть впадет в ту самую сеть.",
    "uk": "Нехай прийде на нього сітка, якої він не знає, і лови, які він сховав, нехай схоплять його, і в сітку нехай він упаде — в неї.",
-   "en": "Let a snare which they know not come upon them: and the gin which they hid take them; and let them fall into the very same snare."
+   "en": "Let a snare which he knoweth not come upon him; and the gin which he hid take him; and let him fall into the very same snare.",
+   "nota": "EN: Brenton «Let a snare which they know not come upon them: and the gin which they hid take them; and let them fall into the very same snare.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-034-09",
@@ -885,7 +886,8 @@
    "pt": "Todos os meus ossos dirão: Senhor, Senhor, quem é semelhante a Ti? Tu que livras o pobre da mão dos que são mais fortes do que ele, e o pobre e o necessitado dos que o despojam.",
    "ru": "Все кости мои скажут: Господи, Господи! Кто подобен Тебе, избавляющему слабого от руки сильнейших его и бедного и убогого — от грабителя его?",
    "uk": "Усі кості мої скажуть: Господи, Господи, хто подібний до Тебе? Ти визволяєш убогого з руки сильніших за нього, і убогого, і бідного від тих, що грабують його.",
-   "en": "All my bones shall say, O Lord, who is like to Thee? delivering the poor out of the hand of them that are stronger than he, yea, the poor and needy one from them that spoil him."
+   "en": "All my bones shall say, O Lord, O Lord, who is like to Thee? delivering the poor out of the hand of them that are stronger than he, yea, the poor and needy one from them that spoil him.",
+   "nota": "EN: Brenton «All my bones shall say, O Lord, who is like to Thee? delivering the poor out of the hand of them that are stronger than he, yea, the poor and needy one from them that spoil him.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-034-11",
@@ -1171,7 +1173,7 @@
    "cu": "Пра́вда Твоя́ я́ко го́ры Бо́жія, судьбы́ Твоя́ бе́здна мно́га: человѣ́ки и скоты́ спасе́ши, Го́споди.",
    "pt": "a Tua justiça é como os montes de Deus, os Teus juízos são um grande abismo; os homens e os animais salvarás, Senhor.",
    "ru": "Правда Твоя — как горы Божии, судьбы Твои — бездна великая: людей и скотов хранишь Ты, Господи!",
-   "uk": "правда Твоя — як гори Божі, присуди Твої — безодня велика; людей і худобу Ти спасеш, Господи.",
+   "uk": "правда Твоя — як гори Божі, суди Твої — безодня велика; людей і худобу Ти спасеш, Господи.",
    "en": "Thy righteousness is as the mountains of God, Thy judgments are as a great deep: O Lord, Thou wilt preserve men and beasts."
   },
   {
@@ -1262,7 +1264,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -1417,7 +1419,7 @@
    "cu": "И изведе́тъ я́ко свѣтъ пра́вду твою́ и судьбу́ твою́ я́ко полу́дне.",
    "pt": "E fará sair como a luz a tua justiça, e o teu juízo como o meio-dia.",
    "ru": "И выведет, как свет, правду твою и судьбу твою, как полдень.",
-   "uk": "І виведе, як світло, правду твою і присуд твій, як полудень.",
+   "uk": "І виведе, як світло, правду твою і суд твій, як полудень.",
    "en": "And He shall bring forth thy righteousness as the light, and thy judgment as the noon-day."
   },
   {
@@ -1547,9 +1549,9 @@
    "sl": 36,
    "v": 18,
    "cu": "Вѣсть Госпо́дь пути́ непоро́чныхъ, и достоя́ніе ихъ въ вѣкъ бу́детъ.",
-   "pt": "O Senhor conhece os caminhos dos que são sem mácula, e a sua herança permanecerá para sempre.",
+   "pt": "O Senhor conhece os caminhos dos imaculados, e a sua herança permanecerá para sempre.",
    "ru": "Знает Господь пути непорочных, и наследие их в век пребудет.",
-   "uk": "Знає Господь путі непорочних, і спадщина їхня буде повіки.",
+   "uk": "Знає Господь путі непорочних, і спадщина їхня буде навіки.",
    "en": "The Lord knoweth the ways of the perfect; and their inheritance shall be for ever."
   },
   {
@@ -1659,7 +1661,7 @@
    "cu": "Я́ко Госпо́дь лю́битъ судъ и не оста́витъ преподо́бныхъ Свои́хъ, во вѣкъ сохраня́тся: беззако́нницы же изжену́тся, и сѣ́мя нечести́выхъ потреби́тся.",
    "pt": "Porque o Senhor ama o juízo e não abandonará os Seus santos; para sempre serão guardados; mas os iníquos serão expulsos, e a descendência dos ímpios será exterminada.",
    "ru": "Ибо Господь любит правосудие и не оставит преподобных своих, во век сохранятся они, беззаконники же будут изгнаны, и потомство нечестивых будет истреблено.",
-   "uk": "Бо Господь любить суд і не покине преподобних Своїх: повіки вони збережуться; беззаконники ж будуть вигнані, і насіння нечестивих буде знищене.",
+   "uk": "Бо Господь любить суд і не покине преподобних Своїх: навіки вони збережуться; беззаконники ж будуть вигнані, і насіння нечестивих буде знищене.",
    "en": "For the Lord loveth judgment, and will not forsake His saints; they shall be preserved for ever: the transgressors shall be driven out, but the seed of the ungodly shall be utterly destroyed.",
    "nota": "EN: Brenton: «the blameless shall be avenged» (sentido oposto); corrigido para o eslavo «беззаконницы же изженутся»."
   },
@@ -1818,7 +1820,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -2036,7 +2038,7 @@
    "cu": "Стра́шный Твой престо́лъ, лука́вое мое́ житіе́, и кто мя изба́витъ тогда́шнія ну́жды, а́ще не Ты поми́луеши мя, Христе́ Бо́же, я́ко щедръ и Человѣколю́бецъ.",
    "pt": "Temível é o Teu trono, e perversa a minha vida; e quem me livrará da angústia daquela hora, se Tu não tiveres piedade de mim, ó Cristo Deus, como compassivo e amigo dos homens?",
    "ru": "Страшен престол Твой, лукава жизнь моя; и кто избавит меня от бедствия того часа, если не Ты помилуешь меня, Христе Боже, как щедрый и Человеколюбец?",
-   "uk": "Страшний престол Твій, лукаве життя моє; і хто визволить мене від біди тієї години, якщо не Ти помилуєш мене, Христе Боже, як щедрий і Человіколюбець?",
+   "uk": "Страшний престол Твій, лукаве життя моє; і хто визволить мене від біди тієї години, якщо не Ти помилуєш мене, Христе Боже, як щедрий і Чоловіколюбець?",
    "en": "Dread is Thy throne, and evil my life; and who shall deliver me from the distress of that hour, unless Thou have mercy on me, O Christ God, as One compassionate and the Lover of mankind?",
    "fonte": {
     "cu": "P1874 img. n087",
@@ -2054,11 +2056,11 @@
   {
    "id": "k05-p-10",
    "tipo": "oracao",
-   "cu": "Сла́ва: Попече́ніе жи́тія изгна́ мя ра́я, и что сотворю́ окая́нный? Сего́ ра́ди толку́ во врата́ и зову́: Го́споди, Го́споди, отве́рзи ми покая́ніемъ, и спаси́ мя.",
-   "pt": "Glória…: Os cuidados da vida expulsaram-me do paraíso; que farei, miserável? Por isso bato à porta e clamo: Senhor, Senhor, abre-me pelo arrependimento e salva-me.",
-   "ru": "Слава: Попечение о житейском изгнало меня из рая, и что сотворю я, окаянный? Потому стучу во врата и взываю: Господи, Господи, отверзи мне покаянием и спаси меня.",
-   "uk": "Слава: Піклування про життєве вигнало мене з раю, і що вчиню я, окаянний? Тому стукаю у ворота і взиваю: Господи, Господи, відчини мені покаянням і спаси мене.",
-   "en": "Glory…: Care for this life hath driven me out of paradise; and what shall I do, wretched one? Wherefore I knock at the gate and cry: O Lord, O Lord, open unto me through repentance, and save me.",
+   "cu": "Сла́ва: Попече́ніе житія́ изгна́ мя ра́я, и что сотворю́ отча́янный? Сего́ ра́ди толку́ во врата́ и зову́: Го́споди, Го́споди, отве́рзи ми покая́ніемъ, и спаси́ мя.",
+   "pt": "Glória…: Os cuidados da vida expulsaram-me do paraíso; que farei eu, desesperado? Por isso bato à porta e clamo: Senhor, Senhor, abre-me pelo arrependimento e salva-me.",
+   "ru": "Слава: Попечение о житейском изгнало меня из рая, и что сотворю я, отчаявшийся? Потому стучу во врата и взываю: Господи, Господи, отверзи мне покаянием и спаси меня.",
+   "uk": "Слава: Піклування про життєве вигнало мене з раю, і що вчиню я, зневірений? Тому стукаю у ворота і взиваю: Господи, Господи, відчини мені покаянням і спаси мене.",
+   "en": "Glory…: Care for this life hath driven me out of paradise; and what shall I do, in despair? Wherefore I knock at the gate and cry: O Lord, O Lord, open unto me through repentance, and save me.",
    "fonte": {
     "cu": "P1874 img. n087",
     "ru": "propria",
@@ -2075,11 +2077,11 @@
   {
    "id": "k05-p-11",
    "tipo": "oracao",
-   "cu": "И ны́нѣ: Кій нарече́мъ храмъ Твой, Богоро́дице? Приста́нище ли духо́вное? Или́ рай сла́дости небе́сныя? Хода́тайственъ жи́зни неконча́емыя? Вся бо и́маши добра́я, всегда́ моля́ся Христу́ спасти́ся душа́мъ на́шимъ.",
-   "pt": "E agora…: Como chamaremos ao Teu templo, ó Mãe de Deus? Porto espiritual? Ou paraíso de delícias celestes? Intercessora da vida sem fim? Pois tens todos os bens, rogando sempre a Cristo pela salvação das nossas almas.",
-   "ru": "И ныне: Как назовем храм Твой, Богородица? Пристанищем ли духовным? Или раем сладости небесной? Ходатаицею жизни бесконечной? Ибо всё благое Ты имеешь, всегда молясь Христу о спасении душ наших.",
-   "uk": "І нині: Як назвемо храм Твій, Богородице? Пристанищем духовним? Чи раєм небесної солодкості? Заступницею життя безконечного? Бо все благе Ти маєш, завжди молячись Христові про спасіння душ наших.",
-   "en": "Now and ever…: What shall we call thy temple, O Theotokos? A spiritual haven? Or a paradise of heavenly delight? An intercessor of life without end? For thou hast all good things, ever praying unto Christ for the salvation of our souls.",
+   "cu": "И ны́нѣ: Кій нарече́мъ храмъ Твой, Богоро́дице? Приста́нище ли духо́вное? Или́ рай сла́дости небе́сныя? Хода́тайственъ жи́зни неконча́емыя? Вся бо и́маши до́брая, всегда́ моли́ся Христу́ спасти́ся душа́мъ на́шимъ.",
+   "pt": "E agora…: Como chamaremos ao Teu templo, ó Mãe de Deus? Porto espiritual? Ou paraíso de delícias celestes? Intercessora da vida sem fim? Pois tens todos os bens: roga sempre a Cristo pela salvação das nossas almas.",
+   "ru": "И ныне: Как назовем храм Твой, Богородица? Пристанищем ли духовным? Или раем сладости небесной? Ходатаицею жизни бесконечной? Ибо всё благое Ты имеешь: моли всегда Христа о спасении душ наших.",
+   "uk": "І нині: Як назвемо храм Твій, Богородице? Пристанищем духовним? Чи раєм небесної солодкості? Заступницею життя безконечного? Бо все благе Ти маєш: благай завжди Христа про спасіння душ наших.",
+   "en": "Now and ever…: What shall we call thy temple, O Theotokos? A spiritual haven? Or a paradise of heavenly delight? An intercessor of life without end? For thou hast all good things: pray ever unto Christ for the salvation of our souls.",
    "fonte": {
     "cu": "P1874 img. n087",
     "ru": "propria",
@@ -2219,7 +2221,7 @@
   {
    "id": "k05-p-18",
    "tipo": "oracao",
-   "cu": "Бо́же Пра́ведный и Хва́льный, Бо́же Вели́кій и Крѣ́пкій, Бо́же Превѣ́чный, услы́ши грѣ́шнаго му́жа моли́тву въ часъ сей: услы́ши мя, обѣща́вый услы́шати во и́стинѣ Тя призыва́ющихъ, и не омерзи́ мя нечи́стыя устнѣ́ иму́ща и во грѣсѣ́хъ содержи́ма, упова́ніе всѣхъ конце́въ земли́ и стра́нствующихъ дале́че. Пріими́ ору́жіе и щитъ, и воста́ни въ по́мощь мою́, изле́й мечь и заключи́ сопроти́въ гоня́щихъ мя. Запрети́ нечи́стымъ ду́хомъ отъ лица́ безу́мія моего́, и да отлучи́тся отъ моея́ мы́сли духъ не́нависти и злопомнѣ́нія, духъ за́висти и ле́сти, духъ боя́зни и уны́нія, духъ го́рдости и вся́кія ины́я зло́бы, и да уга́снетъ вся́кое разжже́ніе и движе́ніе пло́ти моея́, отъ діа́вольскаго дѣ́йства составля́емое, и да просвѣти́тся моя́ душа́ и тѣ́ло и духъ свѣ́томъ Твоего́ Боже́ственнаго позна́нія, да мно́жествомъ щедро́тъ Твои́хъ дости́гну соедине́нія вѣ́ры, въ му́жа соверше́нна, въ мѣ́ру во́зраста, и просла́влю со А́нгелы и всѣ́ми святы́ми Твои́ми всечестно́е и великолѣ́пое и́мя Твое́, Отца́ и Сы́на и Свята́го Ду́ха, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "cu": "Бо́же Пра́ведный и Хва́льный, Бо́же Вели́кій и Крѣ́пкій, Бо́же Превѣ́чный, услы́ши грѣ́шнаго му́жа моли́тву въ часъ сей: услы́ши мя, обѣща́вый услы́шати во и́стинѣ Тя призыва́ющихъ, и не омерзи́ мя нечи́стыя устнѣ́ иму́ща и во грѣсѣ́хъ содержи́ма, упова́ніе всѣхъ конце́въ земли́ и стра́нствующихъ дале́че. Пріими́ ору́жіе и щитъ, и воста́ни въ по́мощь мою́, изле́й мечь и заключи́ сопроти́въ гоня́щихъ мя. Запрети́ нечи́стымъ духово́мъ отъ лица́ безу́мія моего́, и да отлучи́тся отъ моея́ мы́сли духъ не́нависти и злопомнѣ́нія, духъ за́висти и ле́сти, духъ боя́зни и уны́нія, духъ го́рдости и вся́кія ины́я зло́бы, и да уга́снетъ вся́кое разжже́ніе и движе́ніе пло́ти моея́, отъ діа́вольскаго дѣ́йства составля́емое, и да просвѣти́тся моя́ душа́ и тѣ́ло и духъ свѣ́томъ Твоего́ Боже́ственнаго позна́нія, да мно́жествомъ щедро́тъ Твои́хъ дости́гну соедине́нія вѣ́ры, въ му́жа соверше́нна, въ мѣ́ру во́зраста, и просла́влю со А́нгелы и всѣ́ми святы́ми Твои́ми всечестно́е и великолѣ́пое и́мя Твое́, Отца́ и Сы́на и Свята́го Ду́ха, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
    "pt": "Deus justo e digno de louvor, Deus grande e forte, Deus eterno, ouve nesta hora a oração de um homem pecador; ouve-me, Tu que prometeste ouvir os que Te invocam em verdade, e não me tenhas por abominável, a mim que tenho lábios impuros e estou preso nos pecados, ó esperança de todos os confins da terra e dos que andam longe. Toma a arma e o escudo e levanta-Te em meu auxílio; desembainha a espada e fecha o caminho aos que me perseguem. Repreende os espíritos impuros diante da face da minha loucura, e afaste-se do meu pensamento o espírito de ódio e de rancor, o espírito de inveja e de lisonja, o espírito de medo e de desânimo, o espírito de soberba e de toda a outra maldade; e extinga-se todo o ardor e movimento da minha carne produzido pela ação do diabo; e ilumine-se a minha alma, o corpo e o espírito com a luz do Teu conhecimento divino, para que, pela multidão das Tuas compaixões, alcance a unidade da fé, o homem perfeito, a medida da idade [da plenitude de Cristo], e glorifique com os anjos e com todos os Teus santos o Teu nome honradíssimo e magnífico, do Pai e do Filho e do Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
    "ru": "Боже Праведный и Хвальный, Боже Великий и Крепкий, Боже Предвечный, услышь молитву грешного человека в час сей: услышь меня, обещавший услышать призывающих Тебя во истине, и не возгнушайся мною, имеющим нечистые уста и содержимым во грехах, Упование всех концов земли и находящихся далеко. Возьми оружие и щит и восстань на помощь мне, обнажи меч и прегради путь гонящим меня. Запрети нечистым духам от лица безумия моего, и да удалится от моей мысли дух ненависти и злопамятства, дух зависти и лести, дух страха и уныния, дух гордости и всякой иной злобы; и да угаснет всякое разжжение и движение плоти моей, производимое действием диавола; и да просветится моя душа, и тело, и дух светом Твоего Божественного познания, чтобы множеством щедрот Твоих мне достигнуть единства веры, в мужа совершенного, в меру возраста, и прославить с Ангелами и всеми святыми Твоими всечестное и великолепное имя Твое, Отца и Сына и Святого Духа, ныне и присно и во веки веков. Аминь.",
    "uk": "Боже Праведний і Хвальний, Боже Великий і Кріпкий, Боже Предвічний, вислухай молитву грішної людини в годину цю: вислухай мене, Ти, що обіцяв вислухати тих, які кличуть Тебе в істині, і не погидуй мною, що маю нечисті уста і перебуваю в гріхах, Уповання всіх кінців землі і тих, що далеко. Візьми зброю і щит і встань на допомогу мені, оголи меч і загороди путь тим, що женуть мене. Заборони нечистим духам від лиця безумства мого, і хай віддалиться від моєї думки дух ненависті і злопам’ятства, дух заздрощів і лестощів, дух страху і зневіри, дух гордості і всякої іншої злоби; і хай погасне всяке розпалення і порушення плоті моєї, що постає від дії диявола; і хай просвітиться моя душа, і тіло, і дух світлом Твого Божественного пізнання, щоб множеством щедрот Твоїх мені досягти єдності віри, у мужа досконалого, у міру віку, і прославити з Ангелами і всіма святими Твоїми всечесне і величне ім’я Твоє, Отця, і Сина, і Святого Духа, нині, і повсякчас, і на віки віків. Амінь.",

@@ -195,9 +195,9 @@
    "sl": 91,
    "v": 5,
    "cu": "Я́ко возвесели́лъ мя еси́, Го́споди, въ творе́ніи Твое́мъ, и въ дѣ́лѣхъ руку́ Твое́ю возра́дуюся.",
-   "pt": "Porque me regozijaste, Senhor, com a Tua criação, e nas obras das Tuas mãos me alegrarei.",
+   "pt": "Porque me alegraste, Senhor, com a Tua criação, e nas obras das Tuas mãos exultarei.",
    "ru": "Ибо Ты, Господи, возвеселил меня творением Твоим и делами рук Твоих я буду восхищаться.",
-   "uk": "Бо Ти звеселив мене, Господи, творінням Твоїм, і ділами рук Твоїх возрадуюся.",
+   "uk": "Бо Ти звеселив мене, Господи, творінням Твоїм, і ділами рук Твоїх зрадію.",
    "en": "For Thou, O Lord, hast made me glad with Thy work: and in the operations of Thy hands will I exult."
   },
   {
@@ -339,9 +339,9 @@
    "sl": 92,
    "v": 0,
    "cu": "Въ день предсуббо́тный, внегда́ насели́ся земля́, хвала́ пѣ́сни Дави́ду.",
-   "pt": "No dia antes do sábado, quando a terra foi povoada, louvor de cântico, de David.",
+   "pt": "Para o dia antes do sábado, quando a terra foi povoada, louvor de cântico, de David.",
    "ru": "В день предсубботний, когда населилась земля. Хвалебная песнь. Давида.",
-   "uk": "У день передсуботній, коли населилася земля, хвала пісні Давидові.",
+   "uk": "На день передсуботній, коли населилася земля, хвала пісні Давидова.",
    "en": "For the day before the Sabbath, when the land was first inhabited, the praise of a Song by David.",
    "sobrescrito": true
   },
@@ -508,7 +508,7 @@
    "cu": "Разумѣ́йте же, безу́мніи въ лю́дехъ, и бу́іи нѣ́когда, умудри́теся:",
    "pt": "Compreendei, pois, ó insensatos do povo, e vós, tolos, tornai-vos enfim sábios:",
    "ru": "Образумьтесь же, безумные в народе, и глупые, наконец, поймите!",
-   "uk": "Зрозумійте ж, безумні в народі, і ви, нерозумні, станьте нарешті мудрими:",
+   "uk": "Зрозумійте ж, безумні між людьми, і ви, нерозумні, станьте нарешті мудрими:",
    "en": "Understand now, ye simple among the people; and ye fools, at length be wise."
   },
   {
@@ -574,7 +574,7 @@
    "cu": "Я́ко не отри́нетъ Госпо́дь люді́й Свои́хъ, и достоя́нія Своего́ не оста́витъ:",
    "pt": "Porque o Senhor não rejeitará o Seu povo, e não abandonará a Sua herança:",
    "ru": "Ибо не отвергнет Господь народа Своего и наследия Своего не оставит,",
-   "uk": "Бо не відкине Господь народу Свого і спадщини Своєї не покине,",
+   "uk": "Бо не відкине Господь людей Своїх і спадщини Своєї не покине,",
    "en": "For the Lord will not cast off His people, neither will He forsake His inheritance;"
   },
   {
@@ -698,7 +698,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -786,7 +786,7 @@
    "cu": "Хвала́ пѣ́сни Дави́ду, не надпи́санъ у евре́й.",
    "pt": "Louvor de cântico, de David, sem inscrição entre os hebreus.",
    "ru": "Хвалебная песнь. Давида. Не надписан у евреев.",
-   "uk": "Хвала пісні Давидові, не надписаний у євреїв.",
+   "uk": "Хвала пісні Давидова, не надписаний у євреїв.",
    "en": "The praise of a Song by David; not inscribed among the Hebrews.",
    "sobrescrito": true
   },
@@ -796,9 +796,9 @@
    "sl": 94,
    "v": 1,
    "cu": "Пріиди́те, возра́дуемся Го́сподеви, воскли́кнемъ Бо́гу спаси́телю на́шему:",
-   "pt": "Vinde, alegremo-nos no Senhor, aclamemos a Deus, nosso Salvador:",
+   "pt": "Vinde, exultemos no Senhor, aclamemos a Deus, nosso Salvador:",
    "ru": "Приидите, радостно воспоем Господу, воскликнем Богу, Спасителю нашему.",
-   "uk": "Прийдіть, возрадуймося Господеві, воскликнімо Богові, Спасителеві нашому,",
+   "uk": "Прийдіть, зрадіймо Господеві, воскликнімо Богові, Спасителеві нашому,",
    "en": "Come, let us exult in the Lord; let us make a joyful noise to God our Saviour."
   },
   {
@@ -865,7 +865,7 @@
    "cu": "я́ко Той есть Богъ нашъ, и мы лю́діе па́жити Его́ и о́вцы руки́ Его́. Днесь а́ще гласъ Его́ услы́шите,",
    "pt": "porque Ele é o nosso Deus, e nós somos o povo do Seu pasto e as ovelhas da Sua mão. Hoje, se ouvirdes a Sua voz,",
    "ru": "Ибо Он есть Бог наш, а мы народ паствы Его и овцы руки Его. Ныне, если голос Его услышите,",
-   "uk": "бо Він — Бог наш, а ми — народ пасовиська Його і вівці руки Його. Нині, якщо голос Його почуєте,",
+   "uk": "бо Він — Бог наш, а ми — люди пасовиська Його і вівці руки Його. Нині, якщо голос Його почуєте,",
    "en": "For He is our God; and we are the people of His pasture, and the sheep of His hand. To-day, if ye will hear His voice,"
   },
   {
@@ -930,7 +930,7 @@
    "cu": "Хвала́ пѣ́сни Дави́ду, внегда́ домъ созида́шеся по плѣне́ніи, не надпи́санъ у евре́й.",
    "pt": "Louvor de cântico, de David, quando a casa era edificada depois do cativeiro, sem inscrição entre os hebreus.",
    "ru": "Хвалебная песнь Давида. Когда строился дом, после пленения. Не надписан у евреев.",
-   "uk": "Хвала пісні Давидові, коли будувався дім після полону, не надписаний у євреїв.",
+   "uk": "Хвала пісні Давидова, коли будувався дім після полону, не надписаний у євреїв.",
    "en": "The praise of a Song by David, when the house was built after the Captivity; not inscribed among the Hebrews.",
    "sobrescrito": true
   },
@@ -1050,7 +1050,7 @@
    "sl": 95,
    "v": 11,
    "cu": "Да возвеселя́тся небеса́, и ра́дуется земля́: да подви́жится мо́ре и исполне́ніе его́:",
-   "pt": "Regozijem-se os céus e alegre-se a terra; agite-se o mar e a sua plenitude:",
+   "pt": "Alegrem-se os céus e exulte a terra; agite-se o mar e a sua plenitude:",
    "ru": "Да возвеселятся небеса и да радуется земля, да приидет в движение море и что наполняет его!",
    "uk": "Нехай веселяться небеса, і радіє земля, нехай сколихнеться море і все, що наповнює його;",
    "en": "Let the heavens rejoice, and the earth exult; let the sea be moved, and the fulness of it."
@@ -1061,7 +1061,7 @@
    "sl": 95,
    "v": 12,
    "cu": "возра́дуются поля́, и вся я́же на нихъ: тогда́ возра́дуются вся древа́ дубра́вная",
-   "pt": "alegrar-se-ão os campos e tudo o que neles há; então alegrar-se-ão todas as árvores do bosque",
+   "pt": "exultarão os campos e tudo o que neles há; então exultarão todas as árvores do bosque",
    "ru": "Возрадуются поля и все, что на них, тогда возрадуются все деревья дубравные",
    "uk": "зрадіють поля і все, що на них; тоді зрадіють усі дерева дібровні",
    "en": "The plains shall rejoice, and all things in them: then shall all the trees of the wood exult"
@@ -1105,7 +1105,7 @@
    "sl": 96,
    "v": 1,
    "cu": "Госпо́дь воцари́ся, да ра́дуется земля́, да веселя́тся о́строви мно́зи.",
-   "pt": "O Senhor reina: alegre-se a terra, regozijem-se as muitas ilhas.",
+   "pt": "O Senhor reina: exulte a terra, alegrem-se as muitas ilhas.",
    "ru": "Господь воцарился, да радуется земля, да веселятся многочисленные острова!",
    "uk": "Господь воцарився: нехай радіє земля, нехай веселяться острови численні.",
    "en": "The Lord reigneth, let the earth exult, let many islands rejoice."
@@ -1182,7 +1182,7 @@
    "sl": 96,
    "v": 8,
    "cu": "Слы́ша и возвесели́ся Сіо́нъ, и возра́довашася дще́ри Іуде́йскія, суде́бъ ра́ди Твои́хъ, Го́споди:",
-   "pt": "Sião ouviu e regozijou-se, e as filhas da Judeia alegraram-se, por causa dos Teus juízos, Senhor:",
+   "pt": "Sião ouviu e alegrou-se, e as filhas da Judeia exultaram, por causa dos Teus juízos, Senhor:",
    "ru": "Услышал и возвеселился Сион, и возрадовались дщери Иудеи ради судов Твоих, Господи.",
    "uk": "Почув і звеселився Сіон, і зраділи дочки юдейські судів ради Твоїх, Господи,",
    "en": "Sion heard and rejoiced; and the daughters of Judea exulted, because of Thy judgments, O Lord."
@@ -1215,7 +1215,7 @@
    "sl": 96,
    "v": 11,
    "cu": "Свѣтъ возсія́ пра́веднику, и пра́вымъ се́рдцемъ весе́ліе.",
-   "pt": "A luz brilhou para o justo, e a alegria para os retos de coração.",
+   "pt": "A luz brilhou para o justo, e o júbilo para os retos de coração.",
    "ru": "Свет воссиял праведнику и правым сердцем — веселие.",
    "uk": "Світло засяяло праведникові, і правим серцем — веселість.",
    "en": "Light is sprung up for the righteous, and gladness for the upright in heart."
@@ -1226,7 +1226,7 @@
    "sl": 96,
    "v": 12,
    "cu": "Весели́теся, пра́ведніи, о Го́сподѣ, и исповѣ́дайте па́мять святы́ни Его́.",
-   "pt": "Regozijai-vos, ó justos, no Senhor, e dai graças à memória da Sua santidade.",
+   "pt": "Alegrai-vos, ó justos, no Senhor, e dai graças à memória da Sua santidade.",
    "ru": "Возвеселитесь, праведные, о Господе, и поведайте память о святыне Его.",
    "uk": "Веселіться, праведні, в Господі і славте пам’ять святості Його.",
    "en": "Rejoice in the Lord, ye righteous; and give thanks for a remembrance of His holiness."
@@ -1253,7 +1253,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -1413,7 +1413,8 @@
    "pt": "com trombetas forjadas e com som de trombeta de chifre: tocai a trombeta diante do Rei, o Senhor.",
    "ru": "Трубами коваными и звуком трубы роговой вострубите пред царем — Господом!",
    "uk": "на трубах кованих і голосом труби рогової: засурміть перед Царем Господом.",
-   "en": "With trumpets of metal, and the sound of a trumpet of horn make a joyful noise to the Lord before the king."
+   "en": "With trumpets of metal, and the sound of a trumpet of horn make a joyful noise before the King, the Lord.",
+   "nota": "EN: Brenton «With trumpets of metal, and the sound of a trumpet of horn make a joyful noise to the Lord before the king.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-097-07",
@@ -1432,9 +1433,9 @@
    "sl": 97,
    "v": 8,
    "cu": "Рѣ́ки воспле́щутъ руко́ю вку́пѣ, го́ры возра́дуются",
-   "pt": "Os rios baterão palmas juntos, os montes alegrar-se-ão",
+   "pt": "Os rios baterão palmas juntos, os montes exultarão",
    "ru": "Да рукоплещут вместе и реки, горы да радуются",
-   "uk": "Ріки заплещуть рукою разом, гори возрадуються",
+   "uk": "Ріки заплещуть рукою разом, гори зрадіють",
    "en": "The rivers shall clap their hands together; the mountains shall exult."
   },
   {
@@ -1547,7 +1548,7 @@
    "sl": 98,
    "v": 7,
    "cu": "Въ столпѣ́ о́блачнѣ глаго́лаше къ нимъ: я́ко храня́ху свидѣ́нія Его́ и повелѣ́нія Его́, я́же даде́ имъ.",
-   "pt": "Na coluna de nuvem lhes falava: porque guardavam os Seus testemunhos e os Seus preceitos que lhes deu.",
+   "pt": "Na coluna de nuvem lhes falava: porque guardavam os Seus testemunhos e os Seus decretos que lhes deu.",
    "ru": "В столпе облачном говорил Он им, ибо хранили заповеди Его и повеления Его, которые Он дал им.",
    "uk": "У стовпі хмарному говорив Він до них, бо вони зберігали свідчення Його і повеління Його, які Він дав їм.",
    "en": "He spoke to them in a pillar of cloud; they kept His testimonies, and the ordinances which He gave them."
@@ -1590,7 +1591,7 @@
    "sl": 99,
    "v": 0,
    "cu": "Псало́мъ Дави́ду во исповѣ́даніе.",
-   "pt": "Salmo de David, para ação de graças.",
+   "pt": "Salmo de David, para louvor.",
    "ru": "Псалом Давида. Хвалебный.",
    "uk": "Псалом Давидів на славлення.",
    "en": "A Psalm of David for Thanksgiving.",
@@ -1613,7 +1614,7 @@
    "sl": 99,
    "v": 2,
    "cu": "рабо́тайте Го́сподеви въ весе́ліи, вни́дите предъ Нимъ въ ра́дости.",
-   "pt": "servi o Senhor com regozijo, entrai diante d'Ele com alegria.",
+   "pt": "servi o Senhor com júbilo, entrai diante d'Ele com alegria.",
    "ru": "Служите Господу с веселием, входите пред лице Его с радостию.",
    "uk": "служіть Господеві з веселістю, увійдіть перед Нього з радістю.",
    "en": "Serve the Lord with gladness; come before His presence with exultation."
@@ -1626,7 +1627,7 @@
    "cu": "Увѣ́дите, я́ко Госпо́дь Той есть Богъ нашъ: Той сотвори́ насъ, а не мы: мы же лю́діе Его́ и о́вцы па́жити Его́.",
    "pt": "Sabei que o Senhor, Ele é o nosso Deus: Ele nos fez, e não nós; nós somos o Seu povo e as ovelhas do Seu pasto.",
    "ru": "Знайте, что Господь — Он есть Бог Наш, Он сотворил нас, а не мы, мы же народ Его и овцы паствы Его.",
-   "uk": "Знайте, що Господь — Він Бог наш: Він сотворив нас, а не ми; ми ж — народ Його і вівці пасовиська Його.",
+   "uk": "Знайте, що Господь — Він Бог наш: Він сотворив нас, а не ми; ми ж — люди Його і вівці пасовиська Його.",
    "en": "Know that the Lord He is God; He made us, and not we ourselves; we are His people, and the sheep of His pasture."
   },
   {
@@ -1787,7 +1788,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -2005,7 +2006,7 @@
    "cu": "О́комъ благоутро́бнымъ, Го́споди, виждь мое́ смире́ніе, я́ко пома́лѣ жизнь моя́ иждива́ется, и отъ дѣлъ нѣсть мнѣ спасе́нія. Сего́ ра́ди молю́ся: о́комъ благоутро́бнымъ, Го́споди, виждь мое́ смире́ніе и спаси́ мя.",
    "pt": "Com olhar compassivo, Senhor, vê a minha humilhação, porque a minha vida se consome pouco a pouco, e das obras não tenho salvação. Por isso suplico: com olhar compassivo, Senhor, vê a minha humilhação e salva-me.",
    "ru": "Оком благоутробным, Господи, воззри на мое смирение, ибо понемногу жизнь моя иждивается, и от дел нет мне спасения. Потому молюсь: оком благоутробным, Господи, воззри на мое смирение и спаси меня.",
-   "uk": "Оком милосердним, Господи, поглянь на моє смирення, бо помалу життя моє минає, і від діл немає мені спасіння. Тому молюся: оком милосердним, Господи, поглянь на моє смирення і спаси мене.",
+   "uk": "Оком милосердним, Господи, поглянь на моє приниження, бо помалу життя моє минає, і від діл немає мені спасіння. Тому молюся: оком милосердним, Господи, поглянь на моє приниження і спаси мене.",
    "en": "With a compassionate eye, O Lord, behold my lowliness, for little by little my life is spent, and from works I have no salvation. Wherefore I pray: with a compassionate eye, O Lord, behold my lowliness and save me.",
    "fonte": {
     "cu": "P1874 img. n190",
@@ -2191,7 +2192,7 @@
    "cu": "Го́споди Святы́й, И́же въ вы́шнихъ живы́й, и всеви́дящимъ Твои́мъ о́комъ призира́яй на всю тварь, Тебѣ́ приклони́хомъ вы́ю души́ и тѣлесе́, и Тебѣ́ мо́лимся, Святы́й святы́хъ: простри́ ру́ку Твою́ неви́димую отъ свята́го жили́ща Твоего́, и благослови́ вся ны: и а́ще что къ Тебѣ́ согрѣши́хомъ во́лею и нево́лею, я́ко Благъ и Человѣколю́бецъ Богъ прости́, да́руй намъ и мі́рная блага́я Твоя́: Твое́ бо есть, е́же ми́ловати и спаса́ти, Бо́же нашъ, и Тебѣ́ сла́ву возсыла́емъ, Отцу́ и Сы́ну и Свято́му Ду́ху, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
    "pt": "Senhor santo, que habitas nas alturas e com o Teu olhar que tudo vê contemplas toda a criação: diante de Ti inclinámos a cerviz da alma e do corpo, e a Ti suplicamos, ó Santo dos santos: estende a Tua mão invisível desde a Tua santa morada e abençoa-nos a todos; e se em algo pecámos contra Ti, voluntária ou involuntariamente, como Deus bom e amigo dos homens, perdoa, concedendo-nos também os Teus bens deste mundo. Pois Teu é ter misericórdia e salvar, ó nosso Deus, e a Ti damos glória, ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
    "ru": "Господи Святый, в вышних живущий и всевидящим Твоим оком призирающий на всю тварь, Тебе мы преклонили выю души и тела, и Тебе молимся, Святой святых: простри руку Твою невидимую от святого жилища Твоего и благослови всех нас; и если в чем мы согрешили пред Тобою вольно или невольно, как Благой и Человеколюбивый Бог прости, даруя нам и мирские блага Твои. Ибо Твое есть — миловать и спасать, Боже наш, и Тебе славу воссылаем, Отцу и Сыну и Святому Духу, ныне и присно и во веки веков. Аминь.",
-   "uk": "Господи Святий, що живеш на висотах і всевидющим Твоїм оком дивишся на все створіння, Тобі ми схилили шию душі і тіла, і Тобі молимося, Святий святих: простягни руку Твою невидиму від святої оселі Твоєї і благослови всіх нас; і якщо в чомусь ми згрішили перед Тобою з волі чи мимоволі, як Благий і Человіколюбний Бог прости, даруючи нам і світські блага Твої. Бо Твоє є — милувати і спасати, Боже наш, і Тобі славу возсилаємо, Отцю, і Сину, і Святому Духу, нині, і повсякчас, і на віки віків. Амінь.",
+   "uk": "Господи Святий, що живеш на висотах і всевидющим Твоїм оком дивишся на все створіння, Тобі ми схилили шию душі і тіла, і Тобі молимося, Святий святих: простягни руку Твою невидиму від святої оселі Твоєї і благослови всіх нас; і якщо в чомусь ми згрішили перед Тобою з волі чи мимоволі, як Благий і Чоловіколюбний Бог прости, даруючи нам і світські блага Твої. Бо Твоє є — милувати і спасати, Боже наш, і Тобі славу возсилаємо, Отцю, і Сину, і Святому Духу, нині, і повсякчас, і на віки віків. Амінь.",
    "en": "O holy Lord, Who dwellest on high, and with Thine all-seeing eye lookest upon all creation: before Thee have we bowed the neck of soul and body, and unto Thee we pray, O Holy of holies: stretch forth Thine invisible hand from Thy holy dwelling-place, and bless us all; and if in aught we have sinned against Thee, willingly or unwillingly, as a good God and the Lover of mankind, forgive, granting us also Thy good things of this world. For Thine it is to have mercy and to save, O our God, and unto Thee we send up glory, to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
    "fonte": {
     "cu": "P1874 img. n190",

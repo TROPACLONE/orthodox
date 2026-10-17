@@ -164,7 +164,7 @@
    "cu": "На Тя, Го́споди, упова́хъ, да не постыжу́ся въ вѣкъ.",
    "pt": "Em Ti, Senhor, esperei; não seja eu envergonhado para sempre.",
    "ru": "На Тебя, Господи, я уповаю, да не постыжусь во век.",
-   "uk": "На Тебе, Господи, я уповав, нехай не посоромлюся повіки.",
+   "uk": "На Тебе, Господи, я уповав, нехай не посоромлюся навіки.",
    "en": "O Lord, I have hoped in Thee: let me never be put to shame."
   },
   {
@@ -386,7 +386,8 @@
    "pt": "Multiplicaste sobre mim a Tua grandeza, e, voltando-Te, consolaste-me, e dos abismos da terra de novo me fizeste subir.",
    "ru": "Многократно являл на мне величие Твое, и снова утешал меня, и от бездн земли снова возвел меня!",
    "uk": "Ти помножив на мені величчя Твоє, і, обернувшись, утішив мене, і з безодень землі знову вивів мене.",
-   "en": "Thou didst multiply Thy righteousness, and didst turn and comfort me, and broughtest me again out of the depths of the earth."
+   "en": "Thou didst multiply Thy majesty upon me, and didst turn and comfort me, and broughtest me again out of the depths of the earth.",
+   "nota": "EN: Brenton «Thou didst multiply Thy righteousness, and didst turn and comfort me, and broughtest me again out of the depths of the earth.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-070-22",
@@ -595,7 +596,8 @@
    "pt": "da usura e da injustiça livrará as suas almas, e o seu nome será honrado diante deles.",
    "ru": "От любостяжания и неправды спасет души их, и честно имя Его (будет) у них.",
    "uk": "від лихви і від неправди визволить душі їхні, і чесне ім’я його перед ними.",
-   "en": "He shall redeem their souls from usury and injustice: and their name shall be precious before him."
+   "en": "He shall redeem their souls from usury and injustice: and his name shall be precious before them.",
+   "nota": "EN: Brenton «He shall redeem their souls from usury and injustice: and their name shall be precious before him.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-071-15",
@@ -627,7 +629,7 @@
    "cu": "Бу́детъ и́мя его́ благослове́но во вѣ́ки, пре́жде со́лнца пребыва́етъ и́мя его́: и благословя́тся въ немъ вся колѣ́на земна́я, вси язы́цы ублажа́тъ его́.",
    "pt": "Será o seu nome bendito pelos séculos; antes do sol permanece o seu nome; e nele serão abençoadas todas as tribos da terra, todas as nações o proclamarão bem-aventurado.",
    "ru": "Будет имя Его благословенно во веки, прежде солнца пребывает имя Его, и благословятся в Нем все племена земные, все народы ублажат Его.",
-   "uk": "Буде ім’я його благословенне повіки, перед сонцем перебуває ім’я його; і благословляться в ньому всі коліна земні, всі народи назвуть його блаженним.",
+   "uk": "Буде ім’я його благословенне навіки, перед сонцем перебуває ім’я його; і благословляться в ньому всі коліна земні, всі народи назвуть його блаженним.",
    "en": "Let his name be blessed for ever: his name shall endure longer than the sun: and all the tribes of the earth shall be blessed in him: all nations shall call him blessed."
   },
   {
@@ -649,24 +651,8 @@
    "cu": "и благослове́но и́мя сла́вы Его́ во вѣкъ и въ вѣкъ вѣ́ка: и испо́лнится сла́вы Его́ вся земля́: бу́ди, бу́ди.",
    "pt": "e bendito o nome da Sua glória para sempre e pelos séculos dos séculos; e toda a terra se encherá da Sua glória. Assim seja, assim seja.",
    "ru": "И благословенно славное имя Его во век и в век века. И наполнится славою Его вся земля. Да будет. Да будет.",
-   "uk": "і благословенне ім’я слави Його повіки і на віки віків; і сповниться славою Його вся земля. Нехай буде, нехай буде.",
+   "uk": "і благословенне ім’я слави Його навіки і на віки віків; і сповниться славою Його вся земля. Нехай буде, нехай буде.",
    "en": "And blessed is His glorious Name for ever, even for ever and ever: and all the earth shall be filled with His glory. So be it, so be it."
-  },
-  {
-   "id": "sl-071-fim",
-   "tipo": "verso",
-   "sl": 71,
-   "v": 0,
-   "cu": "Оскудѣ́ша пѣ́сни Дави́да, сы́на Іессе́ова.",
-   "pt": "Acabaram-se os cânticos de David, filho de Jessé.",
-   "ru": "Окончились песни Давида, сына Иессеева.",
-   "uk": "Скінчилися пісні Давида, сина Ієссеєвого.",
-   "en": "The hymns of David the son of Jessæ are ended.",
-   "sobrescrito": true,
-   "fonte": {
-    "cu": "P1874 img. n142"
-   },
-   "nota": "Linha final do Sl 71, fora da numeração. P1874 img. n142 (e o Saltério atual): «Оскудѣ́ша пѣ́сни Дави́да, сы́на Іессе́ова», impressa depois do «Сла́ва:» como cabeça do Sl 72; a Bíblia isabelina (Ponomar) traz «Оконча́шася» (gr. ἐξέλιπον) e junta-a ao sobrescrito do Sl 72; CSlElizabeth omite-a. As traduções em _staging («Окончились…», «are ended») seguem a isabelina/LXX."
   },
   {
    "id": "k10-g1-01",
@@ -690,7 +676,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -759,6 +745,22 @@
     "uk": "propria"
    },
    "nota": "[Texto idêntico a manha-19 (manha.json).]"
+  },
+  {
+   "id": "sl-071-fim",
+   "tipo": "verso",
+   "sl": 71,
+   "v": 0,
+   "cu": "Оскудѣ́ша пѣ́сни Дави́да, сы́на Іессе́ова.",
+   "pt": "Acabaram-se os cânticos de David, filho de Jessé.",
+   "ru": "Окончились песни Давида, сына Иессеева.",
+   "uk": "Скінчилися пісні Давида, сина Ієссеєвого.",
+   "en": "The hymns of David the son of Jessæ are ended.",
+   "sobrescrito": true,
+   "fonte": {
+    "cu": "P1874 img. n142"
+   },
+   "nota": "Linha final do Sl 71, fora da numeração. P1874 img. n142 (e o Saltério atual): «Оскудѣ́ша пѣ́сни Дави́да, сы́на Іессе́ова», impressa depois do «Сла́ва:» como cabeça do Sl 72; a Bíblia isabelina (Ponomar) traz «Оконча́шася» (gr. ἐξέλιπον) e junta-a ao sobrescrito do Sl 72; CSlElizabeth omite-a. As traduções em _staging («Окончились…», «are ended») seguem a isabelina/LXX. Posição: depois da 1.ª Glória da catisma 10, como no Saltério de 1874 e no texto atual (QA 2c)."
   },
   {
    "id": "sl-072",
@@ -912,7 +914,7 @@
    "cu": "Се, сі́и грѣ́шницы и гобзу́ющіи въ вѣкъ удержа́ша бога́тство.",
    "pt": "Eis que estes são pecadores, e, prosperando para sempre, apoderaram-se da riqueza.",
    "ru": "Вот эти грешники вечно благоденствуют и удержали богатство».",
-   "uk": "Ось ці грішники, що процвітають повіки, заволоділи багатством.",
+   "uk": "Ось ці грішники, що процвітають навіки, заволоділи багатством.",
    "en": "Behold, these are the sinners, and they that prosper always: they have possessed wealth."
   },
   {
@@ -946,7 +948,8 @@
    "pt": "Se dissesse: Falarei assim, eis a geração dos Teus filhos, com a qual me comprometi;",
    "ru": "(Но) если бы я сказал: «Буду так рассуждать», — то был бы виновен пред родом сим.",
    "uk": "Якби я сказав: Розповім так, — то ось роду синів Твоїх, якому я обіцявся:",
-   "en": "If I said, I will speak thus; behold, I should have broken covenant with the generation of Thy children."
+   "en": "If I said, I will speak thus; behold the generation of Thy children, to which I have pledged myself.",
+   "nota": "EN: Brenton «If I said, I will speak thus; behold, I should have broken covenant with the generation of Thy children.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-072-16",
@@ -1067,7 +1070,7 @@
    "cu": "Изчезе́ се́рдце мое́ и плоть моя́, Бо́же се́рдца моего́, и часть моя́, Бо́же, во вѣкъ.",
    "pt": "Desfaleceu o meu coração e a minha carne, ó Deus do meu coração e minha porção, ó Deus, para sempre.",
    "ru": "Изнемогло сердце мое и плоть моя. Боже сердца моего и часть моя, Боже, во век!",
-   "uk": "Знемогло серце моє і плоть моя, Боже серця мого, і частко моя, Боже, повіки.",
+   "uk": "Знемогло серце моє і плоть моя, Боже серця мого, і частко моя, Боже, навіки.",
    "en": "My heart and my flesh have failed: but God is the strength of my heart, and God is my portion for ever."
   },
   {
@@ -1168,8 +1171,8 @@
    "pt": "Como na saída, lá no alto; como num bosque de árvores, com machados abateram",
    "ru": "При выходе, на верху; как в лесной чаще, посекли секирами",
    "uk": "Як на виході згори, як у гущавині деревній, сокирами розсікли",
-   "en": "As it were in the entrance above: as in a wood of trees they cut down with axes",
-   "nota": "EN: Fronteira: o eslavo tem «яко в дубраве древяне секирами разсекоша» no v. 5 e «двери его вкупе» no v. 6; reordenado o mínimo."
+   "en": "As it were in the going out above: as in a wood of trees they cut down with axes",
+   "nota": "EN: Fronteira: o eslavo tem «яко в дубраве древяне секирами разсекоша» no v. 5 e «двери его вкупе» no v. 6; reordenado o mínimo. EN: Brenton «As it were in the entrance above: as in a wood of trees they cut down with axes»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-073-06",
@@ -1202,7 +1205,7 @@
    "pt": "Disseram no seu coração, toda a sua parentela juntamente: Vinde, e façamos cessar da terra todas as festas de Deus.",
    "ru": "Сказали вместе союзники их в сердце своем: «Приидите, прекратим все праздники Божии на (этой) земле».",
    "uk": "Сказали в серці своєму — рідня їхня разом: Прийдіть, і скасуймо всі свята Божі на землі.",
-   "en": "They have said in their heart, even all their kindred together, Come, let us abolish the feasts of the Lord from the earth."
+   "en": "They have said in their heart, even all their kindred together, Come, let us abolish the feasts of God from the earth."
   },
   {
    "id": "sl-073-09",
@@ -1213,7 +1216,7 @@
    "pt": "Os seus sinais não vimos; já não há profeta, e já não nos conhecerá.",
    "ru": "Знамений наших мы не видели, нет более пророка, и нас уже не знает Он.",
    "uk": "Знамен їхніх ми не бачили: немає більше пророка, і нас не пізнає більше.",
-   "en": "We have not seen our signs; there is no longer a prophet; and God will not know us any more."
+   "en": "We have not seen their signs; there is no longer a prophet; and he will not know us any more."
   },
   {
    "id": "sl-073-10",
@@ -1393,7 +1396,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -1581,7 +1584,7 @@
    "cu": "Азъ же возра́дуюся въ вѣкъ, воспою́ Бо́гу Іа́ковлю:",
    "pt": "Mas eu exultarei para sempre, cantarei ao Deus de Jacob,",
    "ru": "А я буду радоваться во веки, воспевать Богу Иакова.",
-   "uk": "А я радітиму повіки, співатиму Богові Якова,",
+   "uk": "А я радітиму навіки, співатиму Богові Якова,",
    "en": "But I will exult for ever: I will sing praises to the God of Jacob."
   },
   {
@@ -1692,7 +1695,8 @@
    "pt": "Tu és temível, e quem Te resistirá? Desde então é a Tua ira.",
    "ru": "Ты страшен, и кто противостанет Тебе? С того времени гнев Твой (открылся):",
    "uk": "Ти страшний, і хто встоїть проти Тебе? Відтоді — гнів Твій.",
-   "en": "Thou art terrible; and who shall withstand Thee, because of Thine anger?"
+   "en": "Thou art terrible; and who shall withstand Thee? From that time is Thine anger.",
+   "nota": "EN: Brenton «Thou art terrible; and who shall withstand Thee, because of Thine anger?»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-075-09",
@@ -1714,7 +1718,8 @@
    "pt": "quando Deus Se levantou para o juízo, para salvar todos os mansos da terra.",
    "ru": "Когда восстал Бог на суд, чтобы спасти всех кротких земли.",
    "uk": "коли встав на суд Бог, щоб спасти всіх лагідних землі.",
-   "en": "when God arose to judgment, to save all the meek in heart."
+   "en": "when God arose to judgment, to save all the meek of the earth.",
+   "nota": "EN: Brenton «when God arose to judgment, to save all the meek in heart.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-075-11",
@@ -1935,7 +1940,7 @@
    "cu": "изба́вилъ еси́ мы́шцею Твое́ю лю́ди Твоя́, сы́ны Іа́ковли и Іо́сифовы.",
    "pt": "livraste com o Teu braço o Teu povo, os filhos de Jacob e de José.",
    "ru": "Ты избавил мышцею Твоею народ Твой, сынов Иакова и Иосифа.",
-   "uk": "Ти визволив раменом Твоїм людей Твоїх, синів Якова та Іосифа.",
+   "uk": "Ти визволив раменом Твоїм людей Твоїх, синів Якова та Йосифа.",
    "en": "Thou hast with Thine arm redeemed Thy people, the sons of Jacob and Joseph."
   },
   {
@@ -1969,7 +1974,7 @@
    "pt": "A voz do Teu trovão estava na roda; os Teus relâmpagos iluminaram o universo; abalou-se e estremeceu a terra.",
    "ru": "Голос грома Твоего в своде (небесном): молнии Твои осветили вселенную, подвинулась и задрожала земля.",
    "uk": "Голос грому Твого в колесі: освітили блискавиці Твої вселенну: похитнулася і затремтіла земля.",
-   "en": "The voice of Thy thunder was abroad, and around Thy lightnings appeared to the world; the earth trembled and quaked."
+   "en": "The voice of Thy thunder was in the wheel; Thy lightnings lightened the world: the earth trembled and quaked."
   },
   {
    "id": "sl-076-20",
@@ -2015,7 +2020,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -2417,10 +2422,10 @@
   {
    "id": "k10-p-18",
    "tipo": "oracao",
-   "cu": "Го́споди Бо́же нашъ, въ ми́лости бога́тый и въ щедро́тахъ непостижи́мый, Еди́не по естеству́ безгрѣ́шенъ, и насъ ра́ди кромѣ́ грѣха́ бывъ человѣ́къ, услы́ши въ часъ сей болѣ́зненное мое́ сіе́ моле́ніе, я́ко нищъ и убо́гъ есмь отъ дѣлъ благи́хъ, и се́рдце мое́ смяте́ся внутрь мене́. Ты бо вѣ́си, Вы́шній Царю́, Го́споди небесе́ и земли́, я́ко всю мою́ ю́ность во грѣсѣ́хъ ижди́хъ, и въ слѣдъ похоте́й пло́ти моея́ ходи́въ, весь смѣхъ де́мономъ быхъ, весь діа́волу послѣ́довахъ, вы́ну въ тимѣ́ніи сласте́й валя́яйся. Омрачи́вся бо помышле́ніемъ отъ младе́нства, да́же и до ны́нѣ, никогда́же восхотѣ́хъ сотвори́ти во́лю Твою́ святу́ю: но весь отъ навѣ́тующихъ мя страсте́й плѣни́вся, смѣхъ и поруга́ніе де́мономъ быхъ, ника́коже во умѣ́ помышля́яй, я́ко нестерпи́мый гнѣвъ е́же на грѣ́шники преще́нія Твоего́, и лежа́щую гее́нну о́гненную: я́коже отсю́ду во отча́яніе впады́й, и ника́коже въ чу́вствѣ обраще́нія бывъ, пустъ и нагъ е́же отъ Твоея́ дру́жбы быхъ. Кій бо видъ грѣха́ не содѣ́лахъ? Кое́ дѣ́ло де́монское не содѣ́яхъ? Кое́ дѣя́ніе сту́дное и блу́дное не съ преиму́ществомъ и тща́ніемъ соверши́хъ? Умъ воспомина́ньми пло́тскими оскверни́хъ, тѣ́ло смѣше́ньми окаля́хъ, духъ сосложе́ніемъ оскверни́хъ: всякъ удъ окая́нныя моея́ пло́ти служи́ти и рабо́тати грѣхо́мъ возлюби́хъ. И кто про́чее не возрыда́етъ мя окая́ннаго? Кто не воспла́четъ мя осужде́ннаго? Азъ бо еди́нъ, Влады́ко, я́рость Твою́ прогнѣ́вахъ, азъ еди́нъ гнѣвъ Твой на мя разжего́хъ, азъ еди́нъ лука́вое предъ Тобо́ю сотвори́хъ, превозше́дъ и препобѣди́въ вся отъ вѣ́ка грѣ́шники, несравне́нно погрѣши́вый и непроще́нно. Но поне́же многоми́лостивый, благоутро́бный еси́, Человѣколю́бче, и ожида́еши человѣ́ческаго обраще́нія, се и азъ ве́ргаю себе́ предъ стра́шное и нестерпи́мое Твое́ суди́ще, и я́коже пречи́стымъ Твои́мъ нога́мъ каса́яся, изъ глубины́ души́ взыва́ю Ти: очи́сти, Го́споди, прости́, Благопремѣни́телю, поми́луй не́мощь мою́, приклони́ся недоумѣ́нію моему́, вонми́ моле́нію моему́, и слезъ мои́хъ не премолчи́. Пріими́ мя ка́ющагося, и заблу́ждшаго обрати́, обраща́ющагося объи́ми, и моля́щагося прости́: не бо положи́лъ еси́ покая́ніе пра́веднымъ, не положи́лъ еси́ проще́нія не согрѣша́ющымъ, но положи́лъ еси́ покая́ніе мнѣ грѣ́шному. Въ ни́хже въ негодова́ніе Твое́ содѣ́яхъ, нагъ и обнаже́нъ предъ Тобо́ю предстою́, Сердцевѣ́дче Го́споди, исповѣ́дая моя́ грѣхи́: не бо могу́ воззрѣ́ти и ви́дѣти высоту́ небе́сную, отъ тя́жести грѣхо́въ мои́хъ слаца́емь. Просвѣти́ у́бо о́чи се́рдца моего́, и даждь ми умиле́ніе къ покая́нію, и сокруше́ніе се́рдца ко исправле́нію: да со бла́гою наде́ждею и и́стиннымъ увѣре́ніемъ къ та́мошнему мі́ру пойду́, хваля́ и благословя́ вы́ну всесвято́е и́мя Твое́, Отца́ и Сы́на и Свята́го Ду́ха, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "cu": "Го́споди Бо́же нашъ, въ ми́лости бога́тый и въ щедро́тахъ непостижи́мый, Еди́не по естеству́ безгрѣ́шенъ, и насъ ра́ди кромѣ́ грѣха́ бывъ человѣ́къ, услы́ши въ часъ сей болѣ́зненное мое́ сіе́ моле́ніе, я́ко нищъ и убо́гъ есмь отъ дѣлъ благи́хъ, и се́рдце мое́ смяте́ся внутрь мене́. Ты бо вѣ́си, Вы́шній Царю́, Го́споди небесе́ и земли́, я́ко всю мою́ ю́ность во грѣсѣ́хъ ижди́хъ, и въ слѣдъ похоте́й пло́ти моея́ ходи́въ, весь смѣхъ де́мономъ быхъ, весь діа́волу послѣ́довахъ, вы́ну въ тимѣ́ніи сласте́й валя́яйся. Омрачи́вся бо помышле́ніемъ отъ младе́нства, да́же и до ны́нѣ, никогда́же восхотѣ́хъ сотвори́ти во́лю Твою́ святу́ю: но весь отъ навѣ́тующихъ мя страсте́й плѣни́вся, смѣхъ и поруга́ніе де́мономъ быхъ, ника́коже во умѣ́ помышля́яй, я́ко нестерпи́мый гнѣвъ е́же на грѣ́шники преще́нія Твоего́, и лежа́щую гее́нну о́гненную: я́коже отсю́ду во отча́яніе впады́й, и ника́коже въ чу́вствѣ обраще́нія бывъ, пустъ и нагъ е́же отъ Твоея́ дру́жбы быхъ. Кій бо видъ грѣха́ не содѣ́лахъ? Ко́е дѣ́ло де́монское не содѣ́яхъ? Ко́е дѣя́ніе сту́дное и блу́дное не съ преиму́ществомъ и тща́ніемъ соверши́хъ? Умъ воспомина́ньми плотски́ми оскверни́хъ, тѣ́ло смѣше́ньми окаля́хъ, духъ сосложе́ніемъ оскверни́хъ: всякъ удъ окая́нныя моея́ пло́ти служи́ти и рабо́тати грѣхо́мъ возлюби́хъ. И кто про́чее не возрыда́етъ мя окая́ннаго? Кто не воспла́четъ мя осужде́ннаго? Азъ бо еди́нъ, Влады́ко, я́рость Твою́ прогнѣ́вахъ, азъ еди́нъ гнѣвъ Твой на мя разжего́хъ, азъ еди́нъ лука́вое предъ Тобо́ю сотвори́хъ, превозше́дъ и препобѣди́въ вся отъ вѣ́ка грѣ́шники, несравне́нно погрѣши́вый и непроще́нно. Но поне́же многоми́лостивый, благоутро́бный еси́, Человѣколю́бче, и ожида́еши человѣ́ческаго обраще́нія, се и азъ вверга́ю себе́ предъ стра́шное и нестерпи́мое Твое́ суди́ще, и я́коже пречи́стымъ Твои́мъ нога́мъ каса́яйся, изъ глубины́ души́ взыва́ю Ти: очи́сти, Го́споди, прости́, Благопремѣни́телю, поми́луй не́мощь мою́, приклони́ся недоумѣ́нію моему́, вонми́ моле́нію моему́, и слезъ мои́хъ не премолчи́. Пріими́ мя ка́ющагося, и заблу́ждшаго обрати́, обраща́ющагося объими́, и моля́щагося прости́: не бо положи́лъ еси́ покая́ніе пра́веднымъ, не положи́лъ еси́ проще́нія не согрѣша́ющымъ, но положи́лъ еси́ покая́ніе мнѣ грѣ́шному. Въ ни́хже въ негодова́ніе Твое́ содѣ́яхъ, нагъ и обнаже́нъ предъ Тобо́ю предстою́, Сердцевѣ́дче Го́споди, исповѣ́даяй моя́ грѣхи́: не бо могу́ воззрѣ́ти и ви́дѣти высоту́ небе́сную, отъ тя́жести грѣхо́въ мои́хъ сляца́емь. Просвѣти́ у́бо о́чи се́рдца моего́, и даждь ми умиле́ніе къ покая́нію, и сокруше́ніе се́рдца ко исправле́нію: да со благо́ю наде́ждею и и́стиннымъ увѣре́ніемъ къ та́мошнему мі́ру пойду́, хваля́ и благословя́ вы́ну всесвято́е и́мя Твое́, Отца́ и Сы́на и Свята́го Ду́ха, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
    "pt": "Senhor nosso Deus, rico em misericórdia e incompreensível em compaixão, único sem pecado por natureza, que por nós Te fizeste homem sem pecado: ouve nesta hora esta minha dolorosa súplica, porque sou pobre e indigente de boas obras, e o meu coração perturbou-se dentro de mim. Pois Tu sabes, Rei altíssimo, Senhor do céu e da terra, que gastei toda a minha juventude nos pecados e, seguindo os desejos da minha carne, tornei-me inteiramente o escárnio dos demónios, segui o diabo em tudo, revolvendo-me sempre no lodo dos prazeres. Pois, obscurecido no pensamento desde a infância até agora, nunca quis fazer a Tua santa vontade, mas, cativo de todo das paixões que me armam ciladas, tornei-me riso e ludíbrio dos demónios, sem nunca pensar na ira insuportável da Tua ameaça contra os pecadores nem na geena de fogo que os espera; e por isso, caído no desespero e sem nunca ter dado sinal de conversão, fiquei vazio e despido da Tua amizade. Que espécie de pecado não cometi? Que obra demoníaca não pratiquei? Que ato vergonhoso e dissoluto não consumei com afinco e zelo? Manchei a mente com recordações carnais, conspurquei o corpo com impurezas, manchei o espírito com o consentimento; amei servir e escravizar ao pecado todo o membro da minha miserável carne. Quem, pois, não me chorará, a mim, miserável? Quem não me lamentará, a mim, condenado? Pois só eu, Soberano, provoquei a Tua ira, só eu acendi contra mim a Tua indignação, só eu fiz o mal diante de Ti, ultrapassando e vencendo todos os pecadores desde o princípio, pecando sem comparação e sem perdão. Mas, porque és muito misericordioso, compassivo e amigo dos homens, e esperas a conversão do homem, eis que também eu me lanço diante do Teu tribunal terrível e insuportável e, como que tocando os Teus pés puríssimos, clamo-Te do fundo da alma: purifica-me, Senhor, perdoa-me, ó Benfeitor, tem piedade da minha fraqueza, inclina-Te à minha perplexidade, atende à minha súplica e não Te cales perante as minhas lágrimas. Recebe-me arrependido, converte-me, a mim que me extraviei, abraça-me quando me volto e perdoa-me quando suplico: pois não estabeleceste o arrependimento para os justos, nem o perdão para os que não pecam, mas estabeleceste o arrependimento para mim, pecador. Naquilo em que provoquei a Tua indignação, nu e descoberto estou diante de Ti, ó Conhecedor dos corações, Senhor, confessando os meus pecados: pois não posso levantar os olhos e ver a altura do céu, curvado sob o peso dos meus pecados. Ilumina, pois, os olhos do meu coração e dá-me compunção para o arrependimento e contrição do coração para a emenda, para que, com boa esperança e verdadeira certeza, parta para o mundo de lá, louvando e bendizendo sempre o Teu santíssimo nome, do Pai e do Filho e do Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
    "ru": "Господи Боже наш, богатый милостью и непостижимый в щедротах, Единый по естеству безгрешный и ради нас кроме греха ставший человеком, услышь в час сей болезненное это мое моление, ибо я нищ и убог добрыми делами, и сердце мое смутилось во мне. Ибо Ты знаешь, Вышний Царь, Господи неба и земли, что всю мою юность я провел во грехах и, ходя вслед похотей плоти моей, весь стал посмешищем бесов, весь последовал диаволу, всегда валяясь в тине сластей. Ибо, омрачившись помыслами от младенчества и даже доныне, я никогда не восхотел сотворить святую волю Твою, но, весь плененный наветующими на меня страстями, стал смехом и поруганием бесов, никак не помышляя в уме о нестерпимом гневе Твоего прещения на грешников и об уготованной геенне огненной; оттого, впав в отчаяние и никак не явив признака обращения, я стал пуст и наг от Твоей дружбы. Какого вида греха я не совершил? Какого дела бесовского не сделал? Какого деяния постыдного и блудного не исполнил с усердием и тщанием? Ум воспоминаниями плотскими осквернил, тело смешениями окалял, дух соизволением осквернил; всякий член окаянной моей плоти я возлюбил подчинять и порабощать греху. И кто же не восплачет обо мне, окаянном? Кто не возрыдает обо мне, осужденном? Ибо я один, Владыко, прогневал ярость Твою, я один разжег на себя гнев Твой, я один сотворил лукавое пред Тобою, превзойдя и победив всех грешников от века, согрешив несравненно и непростительно. Но поскольку Ты многомилостивый, благоутробный, Человеколюбец, и ожидаешь обращения человека, вот и я повергаю себя пред страшным и нестерпимым Твоим судилищем и, как бы касаясь пречистых Твоих ног, из глубины души взываю к Тебе: очисти, Господи, прости, Благодетелю, помилуй немощь мою, приклонись к недоумению моему, внемли молению моему и не премолчи о слезах моих. Прими меня кающегося, и заблудшего обрати, обращающегося обними, и молящегося прости: ибо не для праведных положил Ты покаяние, не для безгрешных положил прощение, но положил покаяние для меня, грешного. В чем я вызвал негодование Твое, в том наг и обнажен пред Тобою предстою, Сердцеведче Господи, исповедуя грехи мои: ибо не могу воззреть и увидеть высоту небесную, согбенный тяжестью грехов моих. Просвети же очи сердца моего и даруй мне умиление к покаянию и сокрушение сердца к исправлению, чтобы с благою надеждою и истинным упованием отойти мне в тамошний мир, хваля и благословляя всегда всесвятое имя Твое, Отца и Сына и Святого Духа, ныне и присно и во веки веков. Аминь.",
-   "uk": "Господи Боже наш, багатий милістю і незбагненний у щедротах, Єдиний за єством безгрішний і заради нас без гріха ставши людиною, вислухай у годину цю болісне це моє благання, бо я вбогий і бідний на добрі діла, і серце моє стривожилося в мені. Бо Ти знаєш, Всевишній Царю, Господи неба і землі, що всю мою юність я провів у гріхах і, ходячи за пожаданнями плоті моєї, весь став посміховиськом демонів, увесь пішов за дияволом, завжди валяючись у багні насолод. Бо, затьмарившись думками від дитинства і аж дотепер, я ніколи не захотів учинити святу волю Твою, але, весь полонений пристрастями, що підступно нападають на мене, став сміхом і наругою демонів, зовсім не думаючи в розумі про нестерпний гнів Твоєї погрози грішникам і про приготовану геєну вогненну; через те, впавши у відчай і ніяк не виявивши ознаки навернення, я став порожній і нагий без Твоєї дружби. Якого виду гріха я не вчинив? Якого діла демонського не зробив? Якого діяння соромного і блудного не виконав з усердям і старанням? Розум спогадами тілесними осквернив, тіло змішаннями забруднив, дух згодою осквернив; кожен член окаянної моєї плоті я полюбив підкоряти і поневолювати гріхові. І хто ж не заплаче наді мною, окаянним? Хто не заридає наді мною, осудженим? Бо я один, Владико, прогнівив лютість Твою, я один розпалив на себе гнів Твій, я один учинив лукаве перед Тобою, перевершивши і переможувши всіх грішників від віку, згрішивши незрівнянно і непрощенно. Але оскільки Ти многомилостивий, милосердний, Человіколюбець, і чекаєш навернення людини, ось і я повергаю себе перед страшним і нестерпним Твоїм судилищем і, ніби торкаючись пречистих Твоїх ніг, з глибини душі взиваю до Тебе: очисти, Господи, прости, Благодійнику, помилуй неміч мою, прихилися до збентеження мого, зваж на благання моє і не промовчи над сльозами моїми. Прийми мене, що каюся, і заблудлого наверни, навернутого обійми, і того, що молиться, прости: бо не праведним Ти встановив покаяння, не безгрішним установив прощення, але встановив покаяння мені, грішному. У чому я викликав обурення Твоє, у тому нагий і оголений стою перед Тобою, Серцевидче Господи, сповідуючи гріхи мої: бо не можу підвести очей і побачити висоту небесну, зігнутий тягарем гріхів моїх. Просвіти ж очі серця мого і даруй мені розчулення до покаяння і сокрушення серця до виправлення, щоб з доброю надією і істинною впевненістю відійти мені у тамтешній світ, хвалячи і благословляючи завжди всесвяте ім’я Твоє, Отця, і Сина, і Святого Духа, нині, і повсякчас, і на віки віків. Амінь.",
+   "uk": "Господи Боже наш, багатий милістю і незбагненний у щедротах, Єдиний за єством безгрішний і заради нас без гріха ставши людиною, вислухай у годину цю болісне це моє благання, бо я вбогий і бідний на добрі діла, і серце моє стривожилося в мені. Бо Ти знаєш, Всевишній Царю, Господи неба і землі, що всю мою юність я провів у гріхах і, ходячи за пожаданнями плоті моєї, весь став посміховиськом демонів, увесь пішов за дияволом, завжди валяючись у багні насолод. Бо, затьмарившись думками від дитинства і аж дотепер, я ніколи не захотів учинити святу волю Твою, але, весь полонений пристрастями, що підступно нападають на мене, став сміхом і наругою демонів, зовсім не думаючи в розумі про нестерпний гнів Твоєї погрози грішникам і про приготовану геєну вогненну; через те, впавши у відчай і ніяк не виявивши ознаки навернення, я став порожній і нагий без Твоєї дружби. Якого виду гріха я не вчинив? Якого діла демонського не зробив? Якого діяння соромного і блудного не виконав з усердям і старанням? Розум спогадами тілесними осквернив, тіло змішаннями забруднив, дух згодою осквернив; кожен член окаянної моєї плоті я полюбив підкоряти і поневолювати гріхові. І хто ж не заплаче наді мною, окаянним? Хто не заридає наді мною, осудженим? Бо я один, Владико, прогнівив лютість Твою, я один розпалив на себе гнів Твій, я один учинив лукаве перед Тобою, перевершивши і переможувши всіх грішників від віку, згрішивши незрівнянно і непрощенно. Але оскільки Ти многомилостивий, милосердний, Чоловіколюбець, і чекаєш навернення людини, ось і я повергаю себе перед страшним і нестерпним Твоїм судилищем і, ніби торкаючись пречистих Твоїх ніг, з глибини душі взиваю до Тебе: очисти, Господи, прости, Благодійнику, помилуй неміч мою, прихилися до збентеження мого, зваж на благання моє і не промовчи над сльозами моїми. Прийми мене, що каюся, і заблудлого наверни, навернутого обійми, і того, що молиться, прости: бо не праведним Ти встановив покаяння, не безгрішним установив прощення, але встановив покаяння мені, грішному. У чому я викликав обурення Твоє, у тому нагий і оголений стою перед Тобою, Серцевидче Господи, сповідуючи гріхи мої: бо не можу підвести очей і побачити висоту небесну, зігнутий тягарем гріхів моїх. Просвіти ж очі серця мого і даруй мені розчулення до покаяння і сокрушення серця до виправлення, щоб з доброю надією і істинною впевненістю відійти мені у тамтешній світ, хвалячи і благословляючи завжди всесвяте ім’я Твоє, Отця, і Сина, і Святого Духа, нині, і повсякчас, і на віки віків. Амінь.",
    "en": "O Lord our God, rich in mercy and incomprehensible in compassions, Who alone art by nature without sin, and for our sake didst become man, yet without sin: hearken in this hour unto this my sorrowful supplication, for I am poor and needy in good works, and my heart is troubled within me. For Thou knowest, O King Most High, Lord of heaven and earth, that I have spent all my youth in sins, and, following after the lusts of my flesh, I became wholly a laughing-stock to the demons, and wholly followed the devil, ever wallowing in the mire of pleasures. For, darkened in my thoughts from infancy even until now, I have never willed to do Thy holy will, but, wholly made captive by the passions that lie in wait for me, I became the laughter and mockery of the demons, never bethinking myself in my mind of the unbearable wrath of Thy threatening against sinners, and of the fiery Gehenna that lieth in store; and thence, falling into despair and showing no sign of conversion, I became empty and bare of Thy friendship. What kind of sin have I not committed? What work of the demons have I not done? What shameful and lewd deed have I not accomplished with diligence and zeal? I have defiled my mind with carnal recollections, I have sullied my body with impurities, I have defiled my spirit with consent; every member of my wretched flesh have I loved to subject and enslave to sin. And who then will not weep over me, the wretched one? Who will not lament over me, the condemned one? For I alone, O Master, have provoked Thy fury, I alone have kindled Thy wrath against me, I alone have done evil before Thee, surpassing and outdoing all sinners from the beginning, sinning beyond compare and beyond pardon. But since Thou art plenteous in mercy, tender-hearted, the Lover of mankind, and awaitest the conversion of man, behold, I too cast myself down before Thy dread and unbearable judgement-seat, and, as though touching Thy most pure feet, I cry unto Thee from the depth of my soul: cleanse me, O Lord, forgive me, O Benefactor, have mercy on my weakness, incline unto my perplexity, attend unto my supplication, and keep not silence at my tears. Receive me as I repent, turn me who have gone astray, embrace me as I return, and forgive me as I pray: for Thou hast not appointed repentance for the righteous, nor hast Thou appointed forgiveness for them that sin not, but Thou hast appointed repentance for me a sinner. Wherein I have provoked Thine indignation, therein I stand naked and laid bare before Thee, O Lord Who knowest the hearts, confessing my sins: for I cannot look up and see the height of heaven, bowed down by the weight of my sins. Enlighten, therefore, the eyes of my heart, and grant me compunction unto repentance and contrition of heart unto amendment, that with good hope and true assurance I may depart unto the world beyond, praising and blessing evermore Thy all-holy name, of the Father, and of the Son, and of the Holy Spirit, now and ever, and unto ages of ages. Amen.",
    "fonte": {
     "cu": "P1874 img. n150-n152",

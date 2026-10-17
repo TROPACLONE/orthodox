@@ -162,9 +162,9 @@
    "sl": 85,
    "v": 1,
    "cu": "Приклони́, Го́споди, у́хо Твое́, и услы́ши мя: я́ко нищь и убо́гъ есмь азъ.",
-   "pt": "Inclina, Senhor, o Teu ouvido, e ouve-me, porque eu sou pobre e indigente.",
+   "pt": "Inclina, Senhor, o Teu ouvido, e escuta-me, porque eu sou pobre e necessitado.",
    "ru": "Приклони, Господи, ухо Твое и услышь меня, ибо я нищ и убог.",
-   "uk": "Прихили, Господи, вухо Твоє і вислухай мене, бо я убогий і бідний.",
+   "uk": "Прихили, Господи, вухо Твоє і почуй мене, бо я убогий і бідний.",
    "en": "O Lord, incline Thine ear, and hearken to me; for I am poor and needy."
   },
   {
@@ -217,9 +217,9 @@
    "sl": 85,
    "v": 6,
    "cu": "Внуши́, Го́споди, моли́тву мою́ и вонми́ гла́су моле́нія моего́.",
-   "pt": "Presta ouvidos, Senhor, à minha oração e atende à voz da minha súplica.",
+   "pt": "Dá ouvidos, Senhor, à minha oração e atende à voz da minha súplica.",
    "ru": "Услышь, Господи, молитву мою и внемли гласу моления моего.",
-   "uk": "Вслухайся, Господи, в молитву мою і прислухайся до голосу благання мого.",
+   "uk": "Вислухай, Господи, молитву мою і зваж на голос благання мого.",
    "en": "Give ear to my prayer, O Lord; and attend to the voice of my supplication."
   },
   {
@@ -230,7 +230,7 @@
    "cu": "Въ день ско́рби моея́ воззва́хъ къ Тебѣ́, я́ко услы́шалъ мя еси́.",
    "pt": "No dia da minha aflição clamei a Ti, porque me ouviste.",
    "ru": "В день скорби моей я взывал к Тебе, ибо Ты слушал меня.",
-   "uk": "У день скорботи моєї я взивав до Тебе, бо Ти вислухав мене.",
+   "uk": "У день скорботи моєї я взивав до Тебе, бо Ти почув мене.",
    "en": "In the day of my trouble I cried to Thee: for Thou didst hear me."
   },
   {
@@ -272,7 +272,7 @@
    "sl": 85,
    "v": 11,
    "cu": "Наста́ви мя, Го́споди, на путь Твой, и пойду́ во и́стинѣ Твое́й: да возвесели́тся се́рдце мое́ боя́тися и́мене Твоего́.",
-   "pt": "Guia-me, Senhor, no Teu caminho, e andarei na Tua verdade; regozije-se o meu coração em temer o Teu nome.",
+   "pt": "Guia-me, Senhor, no Teu caminho, e andarei na Tua verdade; alegre-se o meu coração em temer o Teu nome.",
    "ru": "Наставь меня, Господи, на путь Твой, и буду ходить во истине Твоей, да возвеселится сердце мое, боясь имени Твоего.",
    "uk": "Настав мене, Господи, на путь Твій, і піду в істині Твоїй; нехай звеселиться серце моє, щоб боятися імені Твого.",
    "en": "Guide me, O Lord, in Thy way, and I will walk in Thy truth: let my heart rejoice, that I may fear Thy Name."
@@ -297,7 +297,8 @@
    "pt": "porque grande é a Tua misericórdia para comigo, e livraste a minha alma do Hades mais profundo.",
    "ru": "Ибо милость Твоя ко мне велика и Ты избавил душу мою от ада преисподнейшего.",
    "uk": "бо милість Твоя велика на мені, і Ти визволив душу мою з аду найглибшого.",
-   "en": "For Thy mercy is great toward me; and Thou hast delivered my soul from the lowest hell."
+   "en": "For Thy mercy is great toward me; and Thou hast delivered my soul from the lowest Hades.",
+   "nota": "EN: Brenton «hell»; «Hades» (dec. 71)."
   },
   {
    "id": "sl-085-14",
@@ -307,7 +308,7 @@
    "cu": "Бо́же, законопресту́пницы воста́ша на мя, и сонмъ держа́вныхъ взыска́ша ду́шу мою́, и не предложи́ша Тебе́ предъ собо́ю.",
    "pt": "Ó Deus, os transgressores da lei levantaram-se contra mim, e uma assembleia de poderosos buscou a minha alma, e não Te puseram diante de si.",
    "ru": "Боже, законопреступники восстали на меня, и сборище сильных искало души моей, и не представили Тебя пред собою.",
-   "uk": "Боже, законопорушники повстали на мене, і зібрання сильних шукало душі моєї, і не поставили вони Тебе перед собою.",
+   "uk": "Боже, законопорушники повстали на мене, і сонм сильних шукав душі моєї, і не поставили вони Тебе перед собою.",
    "en": "O God, transgressors have risen up against me, and an assembly of violent men have sought my life; and have not set Thee before them."
   },
   {
@@ -395,7 +396,7 @@
    "cu": "Помяну́ Раа́въ и Вавѵло́на вѣ́дущымъ мя: и се, иноплеме́нницы и Тѵръ и лю́діе Еѳіо́пстіи, сі́и бы́ша та́мо.",
    "pt": "Lembrarei Raab e Babilónia aos que me conhecem; e eis que os estrangeiros, e Tiro, e o povo dos Etíopes, estes estiveram ali.",
    "ru": "Вспомню знающим меня о Рааве и Вавилоне. И вот иноплеменники, и Тир, и народ эфиопский — они были там.",
-   "uk": "Згадаю Раав і Вавилон тим, що знають мене; і ось іноплемінники, і Тир, і народ ефіопський — вони були там.",
+   "uk": "Згадаю Раав і Вавилон тим, що знають мене; і ось іноплемінники, і Тир, і люди ефіопські — вони були там.",
    "en": "I will make mention of Raab and Babylon to them that know me: behold also the Philistines, and Tyre, and the people of the Ethiopians: these were born there."
   },
   {
@@ -417,7 +418,7 @@
    "cu": "Госпо́дь повѣ́сть въ писа́ніи люді́й и князе́й, сихъ бы́вшихъ въ немъ.",
    "pt": "O Senhor contará na escritura dos povos e dos príncipes, destes que estiveram nela.",
    "ru": "Господь поведает (это) в писании народов и владык — сих, бывших в нем.",
-   "uk": "Господь розповість у писанні народів і князів — тих, що були в ньому.",
+   "uk": "Господь розповість у писанні людей і князів — тих, що були в ньому.",
    "en": "The Lord shall recount it in the writing of the people, and of these princes that were born in her."
   },
   {
@@ -426,7 +427,7 @@
    "sl": 86,
    "v": 7,
    "cu": "Я́ко веселя́щихся всѣхъ жили́ще въ тебѣ́.",
-   "pt": "Porque em ti está a morada de todos os que se regozijam.",
+   "pt": "Porque em ti está a morada de todos os que se alegram.",
    "ru": "Ибо в тебе — жилище всех веселящихся.",
    "uk": "Бо житло всіх, що веселяться, — у тобі.",
    "en": "The dwelling of all within thee is as the dwelling of those that rejoice."
@@ -449,7 +450,7 @@
    "cu": "Пѣснь псалма́ Сыно́мъ Коре́овымъ, въ коне́цъ, о Маеле́ѳѣ е́же отвѣща́ти, ра́зума Ема́ну Изра́ильтянину.",
    "pt": "Cântico de salmo, aos filhos de Coré, para o fim, sobre Maelet, para responder, de entendimento, de Emã, o israelita.",
    "ru": "Песнь — псалом. Сынам Кореевым. В конец. Радостная хоровая песнь. Для ответа. В научение. Емана Израильтянина.",
-   "uk": "Пісня псалма синам Кореєвим, на кінець, про Маелеф, щоб відповідати, розуміння Еманові Ізраїльтянинові.",
+   "uk": "Пісня псалма синам Кореєвим, на кінець, про Маелеф, щоб відповідати, розуміння Емана Ізраїльтянина.",
    "en": "A song of a Psalm for the sons of Core for the end, upon Maeleth for responsive strains, of instruction for Æman the Israelite.",
    "sobrescrito": true
   },
@@ -494,7 +495,7 @@
    "cu": "Привмѣне́нъ быхъ съ низходя́щими въ ровъ: быхъ я́ко человѣ́къ безъ по́мощи,",
    "pt": "Fui contado entre os que descem à cova; tornei-me como um homem sem auxílio,",
    "ru": "Я сравнялся с нисходящими в могилу, я стал, как человек беспомощный,",
-   "uk": "Я зарахований до тих, що сходять у яму, став я, як людина без допомоги,",
+   "uk": "Я зарахований до тих, що сходять у рів, став я, як людина без допомоги,",
    "en": "I have been reckoned with them that go down to the pit; I became as a man without help;"
   },
   {
@@ -516,7 +517,7 @@
    "cu": "Положи́ша мя въ ро́вѣ преиспо́днемъ, въ те́мныхъ и сѣ́ни сме́ртнѣй.",
    "pt": "Puseram-me na cova mais profunda, em lugares tenebrosos e na sombra da morte.",
    "ru": "Положили меня в ров преисподний, во мрак и тень смертную.",
-   "uk": "Поклали мене в ямі найглибшій, у темряві і тіні смертній.",
+   "uk": "Поклали мене у рові найглибшому, у темряві і тіні смертній.",
    "en": "They laid me in the lowest pit, in dark places, and in the shadow of death."
   },
   {
@@ -674,7 +675,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -893,9 +894,9 @@
    "sl": 88,
    "v": 13,
    "cu": "Сѣ́веръ и мо́ре Ты созда́лъ еси́: Ѳаво́ръ и Ермо́нъ о и́мени Твое́мъ возра́дуетася.",
-   "pt": "O norte e o mar, Tu os criaste; o Tabor e o Hermon alegrar-se-ão no Teu nome.",
+   "pt": "O norte e o mar, Tu os criaste; o Tabor e o Hermon exultarão no Teu nome.",
    "ru": "Север и море Ты создал; Фавор и Ермон о имени Твоем возрадуются.",
-   "uk": "Північ і море Ти створив: Фавор і Ермон в імені Твоєму возрадуються.",
+   "uk": "Північ і море Ти створив: Фавор і Ермон в імені Твоєму зрадіють.",
    "en": "Thou hast created the north and the sea: Thabor and Hermon shall rejoice in Thy Name.",
    "nota": "EN: Brenton: «the west»; o eslavo tem «море» (θάλασσα): corrigido."
   },
@@ -929,7 +930,7 @@
    "cu": "Блаже́ни лю́діе вѣ́дущіи воскликнове́ніе: Го́споди, во свѣ́тѣ лица́ Твоего́ по́йдутъ,",
    "pt": "Bem-aventurado o povo que conhece a aclamação: Senhor, à luz da Tua face andarão,",
    "ru": "Блажен народ, знающий (победное) восклицание «Господи!». Во свете лица Твоего они будут ходить,",
-   "uk": "Блаженний народ, що знає радісний вигук: Господи, у світлі лиця Твого ходитимуть",
+   "uk": "Блаженні люди, що знають радісний вигук: Господи, у світлі лиця Твого ходитимуть",
    "en": "Blessed is the people that knoweth the joyful sound: they shall walk, O Lord, in the light of Thy countenance."
   },
   {
@@ -938,7 +939,7 @@
    "sl": 88,
    "v": 17,
    "cu": "и о и́мени Твое́мъ возра́дуются весь день, и пра́вдою Твое́ю вознесу́тся.",
-   "pt": "e no Teu nome se alegrarão todo o dia, e na Tua justiça serão exaltados.",
+   "pt": "e no Teu nome exultarão todo o dia, e na Tua justiça serão exaltados.",
    "ru": "И о имени Твоем будут радоваться весь день и правдою Твоею возноситься.",
    "uk": "і в імені Твоєму радітимуть весь день, і правдою Твоєю піднесуться.",
    "en": "And in Thy Name shall they rejoice all the day: and in Thy righteousness shall they be exalted."
@@ -973,7 +974,7 @@
    "cu": "Тогда́ глаго́лалъ еси́ въ видѣ́ніи сыново́мъ Твои́мъ, и реклъ еси́: положи́хъ по́мощь на си́льнаго, вознесо́хъ избра́ннаго отъ люді́й Мои́хъ:",
    "pt": "Então falaste em visão aos Teus filhos e disseste: Pus auxílio sobre um poderoso, exaltei um escolhido do Meu povo:",
    "ru": "Некогда Ты говорил в видении сынам Твоим и сказал: «Я оказал помощь сильному, вознес избранного из народа моего:",
-   "uk": "Тоді Ти говорив у видінні синам Твоїм і сказав: Я поклав допомогу на сильного, підніс вибраного з народу Мого:",
+   "uk": "Тоді Ти говорив у видінні синам Твоїм і сказав: Я поклав допомогу на сильного, підніс вибраного з людей Моїх:",
    "en": "Then Thou spokest in vision to Thy children, and saidst, I have laid help on a mighty one; I have exalted one chosen out of my people."
   },
   {
@@ -1161,7 +1162,7 @@
    "cu": "Сѣ́мя его́ во вѣкъ пребу́детъ, и престо́лъ его́ я́ко со́лнце предо Мно́ю,",
    "pt": "A sua descendência permanecerá para sempre, e o seu trono como o sol diante de Mim,",
    "ru": "Семя его во век пребудет, и престол его, как солнце, предо Мною,",
-   "uk": "Насіння його повіки перебуватиме, і престол його — як сонце переді Мною,",
+   "uk": "Насіння його навіки перебуватиме, і престол його — як сонце переді Мною,",
    "en": "His seed shall endure for ever, and his throne as the sun before me;"
   },
   {
@@ -1326,7 +1327,7 @@
    "sl": 88,
    "v": 52,
    "cu": "и́мже поноси́ша врази́ Твои́, Го́споди, и́мже поноси́ша измѣне́нію христа́ Твоего́.",
-   "pt": "com que os Teus inimigos ultrajaram, Senhor, com que ultrajaram a mudança do Teu Cristo.",
+   "pt": "com que os Teus inimigos ultrajaram, Senhor, com que ultrajaram a mudança do Teu ungido.",
    "ru": "Коим поносили враги Твои, Господи, коим поносили перемену с помазанником Твоим!",
    "uk": "якою ганьбили вороги Твої, Господи, якою ганьбили заміну помазанця Твого.",
    "en": "wherewith Thine enemies have reviled, O Lord: wherewith they have reviled the recompence of Thine anointed."
@@ -1364,7 +1365,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -1498,7 +1499,7 @@
    "pt": "Porque mil anos diante dos Teus olhos, Senhor, são como o dia de ontem que passou, e como uma vigília da noite.",
    "ru": "Ибо тысяча лет пред очами Твоими, Господи, как день вчерашний, который прошел, и стража ночная.",
    "uk": "Бо тисяча літ перед очима Твоїми, Господи, як день учорашній, що минув, і як сторожа нічна.",
-   "en": "For a thousand years in Thy sight are as the yesterday which is past, and as a watch in the night."
+   "en": "For a thousand years in Thy sight, O Lord, are as the yesterday which is past, and as a watch in the night."
   },
   {
    "id": "sl-089-06",
@@ -1594,9 +1595,9 @@
    "sl": 89,
    "v": 14,
    "cu": "Испо́лнихомся зау́тра ми́лости Твоея́, Го́споди, и возра́довахомся и возвесели́хомся:",
-   "pt": "Fomos saciados de manhã da Tua misericórdia, Senhor, e alegrámo-nos e regozijámo-nos:",
+   "pt": "Fomos saciados de manhã da Tua misericórdia, Senhor, e exultámos e alegrámo-nos:",
    "ru": "Да насытимся скоро милостию Твоею, Господи, и возрадуемся и возвеселимся,",
-   "uk": "Наситилися ми вранці милістю Твоєю, Господи, і возрадувалися, і звеселилися;",
+   "uk": "Наситилися ми вранці милістю Твоєю, Господи, і зраділи, і звеселилися;",
    "en": "We have been satisfied in the morning with Thy mercy; and we did exult and rejoice:"
   },
   {
@@ -1605,7 +1606,7 @@
    "sl": 89,
    "v": 15,
    "cu": "во вся дни на́ша возвесели́хомся, за дни, въ ня́же смири́лъ ны еси́, лѣ́та, въ ня́же ви́дѣхомъ зла́я.",
-   "pt": "em todos os nossos dias nos regozijámos, pelos dias em que nos humilhaste, pelos anos em que vimos males.",
+   "pt": "em todos os nossos dias nos alegrámos, pelos dias em que nos humilhaste, pelos anos em que vimos males.",
    "ru": "Во все дни наши будем веселиться, (в награду) за дни, в которые Ты смирял нас, за лета, в которые мы видели злое.",
    "uk": "у всі дні наші звеселилися ми — за дні, в які Ти упокорив нас, за літа, в які ми бачили лихо.",
    "en": "let us rejoice in all our days, in return for the days wherein Thou didst afflict us, the years wherein we saw evil."
@@ -1818,7 +1819,7 @@
    "cu": "Воззове́тъ ко Мнѣ, и услы́шу его́: съ нимъ есмь въ ско́рби, изму́ его́ и просла́влю его́:",
    "pt": "Invocar-Me-á, e ouvi-lo-ei; com ele estou na aflição, arrancá-lo-ei e glorificá-lo-ei:",
    "ru": "Воззовет ко Мне, и услышу его, с ним Я в скорби, избавлю его и прославлю его,",
-   "uk": "Покличе Мене, і Я вислухаю його; з ним Я в скорботі, вирву його і прославлю його;",
+   "uk": "Покличе Мене, і Я почую його; з ним Я в скорботі, вирву його і прославлю його;",
    "en": "He shall call upon me, and I will hearken to him: I am with him in affliction; and I will deliver him, and glorify him."
   },
   {
@@ -1854,7 +1855,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -2258,7 +2259,7 @@
    "cu": "Го́споди Бо́же мой, Еди́нъ благі́й и человѣколюби́вый, Еди́нъ ми́лостивый и кро́ткій, Еди́нъ и́стинный и пра́ведный, Еди́нъ ще́дрый и ми́лостивый Бо́же нашъ: да пріи́детъ си́ла Твоя́ на мя грѣ́шнаго и непотре́бнаго раба́ Твоего́, и да укрѣпи́тъ мой храмъ Ева́нгеліемъ Боже́ственнаго уче́нія Твоего́. Влады́ко и Человѣколю́бче, Любобла́же, Любоблагоутро́бне, просвѣти́ моя́ утро́бы и вся у́ды Твое́ю во́лею: очи́сти мя отъ вся́кія зло́бы и грѣха́, соблюди́ мя нескве́рна и непоро́чна отъ вся́каго наи́тія и дѣ́йства діа́воля, и да́руй ми, по Твое́й бла́гости, Твоя́ разумѣ́ти, Твоя́ му́дрствовати, и въ Твои́хъ хотѣ́ніихъ жи́ти, Твоего́ стра́ха страши́тися, е́же твори́ти Тебѣ́ благоуго́дная до послѣ́дняго моего́ издыха́нія: я́ко да по неисповѣди́мой Твое́й ми́лости соблюде́ши мое́ тѣ́ло и ду́шу, умъ же и мы́сли, неискуше́нъ вся́кія сопротиволежа́щія сѣ́ти храмъ. Го́споди мой, Го́споди, покры́й мя Твои́мъ благоутро́біемъ, и не оста́ви мя грѣ́шнаго, и нечи́стаго, и недосто́йнаго раба́ Твоего́: я́ко Ты еси́ Защи́титель мой, Го́споди, и о Тебѣ́ пѣ́ніе мое́ вы́ну, и Тебѣ́ сла́ву возсыла́емъ, Отцу́ и Сы́ну и Свято́му Ду́ху, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
    "pt": "Senhor meu Deus, único bom e amigo dos homens, único misericordioso e manso, único verdadeiro e justo, único compassivo e misericordioso, nosso Deus: venha a Tua força sobre mim, pecador e inútil servo Teu, e fortaleça o meu templo com o Evangelho do Teu ensino divino. Soberano e amigo dos homens, que amas o bem, que amas a compaixão, ilumina as minhas entranhas e todos os meus membros com a Tua vontade; purifica-me de toda a malícia e pecado; guarda-me imaculado e irrepreensível de toda a investida e ação do diabo; e concede-me, pela Tua bondade, compreender o que é Teu, pensar o que é Teu, viver nas Tuas vontades, ter temor do Teu temor, fazer o que Te agrada até ao meu último suspiro, para que, pela Tua misericórdia inefável, guardes o meu corpo e a minha alma, a mente e os pensamentos, como templo não tentado por nenhuma rede do adversário. Senhor meu, Senhor, cobre-me com a Tua compaixão e não me abandones, a mim, pecador, impuro e indigno servo Teu, porque Tu és o meu Protetor, Senhor, e a Ti se dirige sempre o meu canto, e a Ti damos glória, ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
    "ru": "Господи Боже мой, Единый благой и человеколюбивый, Единый милостивый и кроткий, Единый истинный и праведный, Единый щедрый и милостивый Боже наш! Да придет сила Твоя на меня, грешного и непотребного раба Твоего, и да укрепит мой храм Евангелием Божественного учения Твоего. Владыко и Человеколюбче, Любоблагий, Любоблагоутробный, просвети мои внутренности и все члены Твоею волею; очисти меня от всякой злобы и греха, сохрани меня нескверным и непорочным от всякого нападения и действия диавольского, и даруй мне по Твоей благости Твое разуметь, Твое мудрствовать, и в Твоих волениях жить, страхом Твоим бояться, творить благоугодное Тебе до последнего моего издыхания, чтобы по неизреченной Твоей милости сохранил Ты мое тело и душу, ум же и мысли, как храм, не искушенный никакою вражескою сетью. Господи мой, Господи, покрой меня Твоим благоутробием и не оставь меня, грешного, и нечистого, и недостойного раба Твоего, ибо Ты — Защитник мой, Господи, и о Тебе пение мое всегда, и Тебе славу воссылаем, Отцу и Сыну и Святому Духу, ныне и присно и во веки веков. Аминь.",
-   "uk": "Господи Боже мій, Єдиний благий і человіколюбний, Єдиний милостивий і лагідний, Єдиний істинний і праведний, Єдиний щедрий і милостивий Боже наш! Хай прийде сила Твоя на мене, грішного і непотрібного раба Твого, і хай укріпить мій храм Євангелієм Божественного вчення Твого. Владико і Человіколюбче, Любоблагий, Любомилосердний, просвіти моє нутро і всі члени Твоєю волею; очисти мене від усякої злоби і гріха, збережи мене нескверним і непорочним від усякого нападу і дії диявольської, і даруй мені за Твоєю благістю Твоє розуміти, Твоє мудрувати, і в Твоїх волях жити, страхом Твоїм боятися, творити благоугодне Тобі до останнього мого подиху, щоб з невимовної Твоєї милості Ти зберіг моє тіло і душу, розум і думки, як храм, не спокушений жодною ворожою сіттю. Господи мій, Господи, покрий мене Твоїм милосердям і не залиш мене, грішного, і нечистого, і недостойного раба Твого, бо Ти — Захисник мій, Господи, і про Тебе спів мій завжди, і Тобі славу возсилаємо, Отцю, і Сину, і Святому Духу, нині, і повсякчас, і на віки віків. Амінь.",
+   "uk": "Господи Боже мій, Єдиний благий і чоловіколюбний, Єдиний милостивий і лагідний, Єдиний істинний і праведний, Єдиний щедрий і милостивий Боже наш! Хай прийде сила Твоя на мене, грішного і непотрібного раба Твого, і хай укріпить мій храм Євангелієм Божественного вчення Твого. Владико і Чоловіколюбче, Любоблагий, Любомилосердний, просвіти моє нутро і всі члени Твоєю волею; очисти мене від усякої злоби і гріха, збережи мене нескверним і непорочним від усякого нападу і дії диявольської, і даруй мені за Твоєю благістю Твоє розуміти, Твоє мудрувати, і в Твоїх волях жити, страхом Твоїм боятися, творити благоугодне Тобі до останнього мого подиху, щоб з невимовної Твоєї милості Ти зберіг моє тіло і душу, розум і думки, як храм, не спокушений жодною ворожою сіттю. Господи мій, Господи, покрий мене Твоїм милосердям і не залиш мене, грішного, і нечистого, і недостойного раба Твого, бо Ти — Захисник мій, Господи, і про Тебе спів мій завжди, і Тобі славу возсилаємо, Отцю, і Сину, і Святому Духу, нині, і повсякчас, і на віки віків. Амінь.",
    "en": "O Lord my God, Who alone art good and the Lover of mankind, Who alone art merciful and meek, Who alone art true and righteous, Who alone art compassionate and merciful, our God: let Thy power come upon me, Thy sinful and unprofitable servant, and strengthen my temple by the Gospel of Thy divine teaching. O Master and Lover of mankind, Thou Who lovest good and lovest compassion, enlighten my inward parts and all my members by Thy will; cleanse me from all malice and sin; keep me undefiled and blameless from every assault and working of the devil; and grant me, of Thy goodness, to understand the things that are Thine, to think the things that are Thine, to live in Thy will, to fear with Thy fear, to do what is well-pleasing unto Thee until my last breath, that by Thine ineffable mercy Thou mayest keep my body and soul, my mind and thoughts, as a temple untried by any snare of the adversary. O my Lord, O Lord, cover me with Thy tender compassion, and forsake me not, Thy sinful, unclean and unworthy servant: for Thou art my Defender, O Lord, and of Thee is my song continually, and unto Thee we send up glory, to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
    "fonte": {
     "cu": "P1874 img. n178-n179",

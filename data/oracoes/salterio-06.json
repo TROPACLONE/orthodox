@@ -150,7 +150,7 @@
    "sl": 37,
    "v": 1,
    "cu": "Псало́мъ Дави́ду, въ воспомина́ніе о суббо́тѣ.",
-   "pt": "Salmo de David, para recordação, acerca do sábado.",
+   "pt": "Salmo de David, para recordação, sobre o sábado.",
    "ru": "Псалом Давида. В воспоминание. На субботу.",
    "uk": "Псалом Давидів, на спомин, про суботу.",
    "en": "A Psalm of David for remembrance concerning the Sabbath-day.",
@@ -183,7 +183,7 @@
    "tipo": "verso",
    "sl": 37,
    "v": 4,
-   "cu": "Нѣсть изцѣле́нія въ пло́ти мое́й отъ лица́ гнѣ́ва Твоего́, нѣсть ми́ра въ костѣ́хъ мои́хъ отъ лица́ грѣхъ мои́хъ.",
+   "cu": "Нѣсть изцѣле́нія въ пло́ти мое́й отъ лица́ гнѣ́ва Твоего́, нѣсть ми́ра въ косте́хъ мои́хъ отъ лица́ грѣхъ мои́хъ.",
    "pt": "Não há cura na minha carne diante da Tua ira, não há paz nos meus ossos diante dos meus pecados.",
    "ru": "Нет исцеления в плоти моей от гнева Твоего, нет мира в костях моих от грехов моих.",
    "uk": "Немає зцілення в плоті моїй від лиця гніву Твого, немає миру в костях моїх від лиця гріхів моїх.",
@@ -254,7 +254,8 @@
    "pt": "Senhor, diante de Ti está todo o meu desejo, e o meu gemido não Te está oculto.",
    "ru": "Господи! Пред Тобою все желание мое, и воздыхание мое от Тебя не утаено.",
    "uk": "Господи, перед Тобою все бажання моє, і зітхання моє від Тебе не сховалося.",
-   "en": "But all my desire is before Thee; and my groaning is not hidden from Thee."
+   "en": "O Lord, all my desire is before Thee; and my groaning is not hidden from Thee.",
+   "nota": "EN: Brenton «But all my desire is before Thee; and my groaning is not hidden from Thee.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-037-11",
@@ -330,7 +331,7 @@
    "cu": "Я́ко рѣхъ, да не когда́ пора́дуютмися врази́ мои́: и внегда́ подвижа́тися нога́мъ мои́мъ, на мя велерѣ́чеваша.",
    "pt": "Porque disse: Que nunca se alegrem a meu respeito os meus inimigos; e quando os meus pés vacilaram, falaram com arrogância contra mim.",
    "ru": "Ибо я сказал: «Пусть не торжествуют надо мною враги мои», — ибо когда колебались ноги мои, они величались надо мною.",
-   "uk": "Бо я сказав: щоб коли не зловтішалися з мене вороги мої; і коли хиталися ноги мої, вони велемовили проти мене.",
+   "uk": "Бо я сказав: щоб не зловтішалися з мене вороги мої; і коли хиталися ноги мої, вони велемовили проти мене.",
    "en": "For I said, Lest mine enemies rejoice against me: for when my feet were moved, they spoke boastingly against me."
   },
   {
@@ -375,7 +376,8 @@
    "pt": "os que me pagam males por bens caluniavam-me, porque eu seguia a bondade.",
    "ru": "Воздающие мне злом за добро клеветали на меня, так как я следовал добру.",
    "uk": "ті, що віддають мені злом за добро, обмовляли мене, бо я гнався за добром.",
-   "en": "They that reward evil for good slandered me; because I followed righteousness."
+   "en": "They that reward evil for good slandered me; because I followed goodness.",
+   "nota": "EN: Brenton «They that reward evil for good slandered me; because I followed righteousness.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-037-22",
@@ -497,7 +499,8 @@
    "pt": "E agora, quem é a minha paciência? Não é o Senhor? E o meu ser vem de Ti.",
    "ru": "И ныне, кто упование мое? Не Господь ли? И состав мой от Тебя произошел.",
    "uk": "І нині хто — терпіння моє? Чи не Господь? І єство моє — від Тебе.",
-   "en": "And now what is my expectation? is it not the Lord? and my ground of hope is with Thee."
+   "en": "And now what is my patience? is it not the Lord? and my substance is from Thee.",
+   "nota": "EN: Brenton «And now what is my expectation? is it not the Lord? and my ground of hope is with Thee.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-038-09",
@@ -541,7 +544,8 @@
    "pt": "Com repreensões pela iniquidade castigaste o homem, e consumiste como uma teia de aranha a sua alma; contudo, em vão é todo o homem.",
    "ru": "Обличениями за беззаконие Ты научал человека и сокрушил, как паутину, жизнь его: так суетен всякий человек!",
    "uk": "Викриттями за беззаконня Ти покарав людину і, як павутину, розтопив душу її; однак марна всяка людина.",
-   "en": "Thou chastenest man with rebukes for iniquity, and Thou makest his life to consume away like a spider's web: nay, every man is disquieted in vain."
+   "en": "Thou chastenest man with rebukes for iniquity, and Thou makest his life to consume away like a spider's web: nay, every man is vanity.",
+   "nota": "EN: Brenton «Thou chastenest man with rebukes for iniquity, and Thou makest his life to consume away like a spider's web: nay, every man is disquieted in vain.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-038-13",
@@ -552,7 +556,8 @@
    "pt": "Escuta, Senhor, a minha oração, e dá ouvidos à minha súplica; não Te cales perante as minhas lágrimas, porque eu sou estrangeiro junto de Ti e peregrino, como todos os meus pais.",
    "ru": "Услышь молитву мою, Господи, и молению моему внемли, не будь безмолвен к слезам моим, ибо я странник у Тебя и пришлец, как и все отцы мои.",
    "uk": "Почуй молитву мою, Господи, і благання моє вислухай, на сльози мої не змовчи, бо я переселенець у Тебе і прибулець, як усі отці мої.",
-   "en": "O Lord, hearken to my prayer and my supplication: attend to my tears: be not silent, for I am a sojourner in the land, and a stranger, as all my fathers were."
+   "en": "O Lord, hearken to my prayer and my supplication: attend to my tears: be not silent, for I am a sojourner with Thee, and a stranger, as all my fathers were.",
+   "nota": "EN: Brenton «O Lord, hearken to my prayer and my supplication: attend to my tears: be not silent, for I am a sojourner in the land, and a stranger, as all my fathers were.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-038-14",
@@ -673,7 +678,8 @@
    "pt": "fazer a Tua vontade, ó meu Deus, desejei, e a Tua lei está no meio das minhas entranhas.",
    "ru": "Исполнить волю Твою, Боже мой, Я восхотел, и закон Твой — во внутренности Моей.",
    "uk": "виконати волю Твою, Боже мій, я захотів, і закон Твій — посеред утроби моєї.",
-   "en": "I desired to do Thy will, O my God, and Thy law in the midst of mine heart."
+   "en": "I desired to do Thy will, O my God, and Thy law in the midst of my bowels.",
+   "nota": "EN: Brenton «I desired to do Thy will, O my God, and Thy law in the midst of mine heart.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-039-10",
@@ -695,8 +701,8 @@
    "pt": "A Tua justiça não a escondi no meu coração; a Tua verdade e a Tua salvação proclamei; não escondi a Tua misericórdia e a Tua verdade da grande assembleia.",
    "ru": "Правды Твоей я не скрывал в сердце моем, истину Твою и спасение Твое я возвещал, не скрывал милости Твоей и истины Твоей от великого собрания.",
    "uk": "Правди Твоєї не сховав я в серці моєму, істину Твою і спасіння Твоє я сказав; не сховав я милості Твоєї та істини Твоєї від сонму численного.",
-   "en": "I have not hid Thy truth within my heart, and I have declared Thy salvation; I have not hid Thy mercy and Thy truth from the great congregation.",
-   "nota": "P1874 (img. n092) «въ се́рдцѣ мое́мъ»; Bíblia isabelina «въ се́рдцы мое́мъ» (seguida)."
+   "en": "I have not hid Thy righteousness within my heart; I have declared Thy truth and Thy salvation; I have not hid Thy mercy and Thy truth from the great congregation.",
+   "nota": "P1874 (img. n092) «въ се́рдцѣ мое́мъ»; Bíblia isabelina «въ се́рдцы мое́мъ» (seguida). EN: Brenton «I have not hid Thy truth within my heart, and I have declared Thy salvation; I have not hid Thy mercy and Thy truth from the great congregation.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-039-12",
@@ -707,7 +713,8 @@
    "pt": "Mas Tu, Senhor, não afastes de mim as Tuas compaixões; a Tua misericórdia e a Tua verdade sempre me protejam.",
    "ru": "Ты же, Господи, не удали щедрот Твоих от меня: милость Твоя и истина Твоя всегда да охраняют меня.",
    "uk": "Ти ж, Господи, не віддаляй щедрот Твоїх від мене: милість Твоя та істина Твоя нехай завжди заступають мене.",
-   "en": "But Thou, Lord, remove not Thy compassion far from me; Thy mercy and Thy truth have helped me continually."
+   "en": "But Thou, Lord, remove not Thy compassion far from me; let Thy mercy and Thy truth continually help me.",
+   "nota": "EN: Brenton «But Thou, Lord, remove not Thy compassion far from me; Thy mercy and Thy truth have helped me continually.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-039-13",
@@ -797,7 +804,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -1018,7 +1025,7 @@
    "cu": "Мене́ же за незло́біе прія́лъ, и утверди́лъ мя еси́ предъ Тобо́ю въ вѣкъ.",
    "pt": "E a mim, pela minha inocência, acolheste-me e firmaste-me diante de Ti para sempre.",
    "ru": "А меня, ради незлобия (моего), Ты принял и утвердил меня пред Тобою во век.",
-   "uk": "А мене за незлобивість Ти прийняв і утвердив мене перед Тобою повіки.",
+   "uk": "А мене за незлобивість Ти прийняв і утвердив мене перед Тобою навіки.",
    "en": "But Thou didst help me because of mine innocence, and hast established me before Thee for ever."
   },
   {
@@ -1051,9 +1058,9 @@
    "pt": "Para o fim, para entendimento, dos filhos de Coré, salmo de David.",
    "ru": "В конец. В научение. Сынам Кореевым. Псалом Давида.",
    "uk": "На кінець, на розуміння синів Кореєвих, псалом Давидів.",
-   "en": "For the end, a Psalm for instruction, for the sons of Core.",
+   "en": "For the end, for instruction, of the sons of Core, a Psalm of David.",
    "sobrescrito": true,
-   "nota": "P1874 (img. n095) e o texto atual acrescentam «не надпи́санъ у евре́й»; a Bíblia isabelina (CSlElizabeth, Ponomar) não o traz — segue-se a isabelina."
+   "nota": "P1874 (img. n095) e o texto atual acrescentam «не надпи́санъ у евре́й»; a Bíblia isabelina (CSlElizabeth, Ponomar) não o traz — segue-se a isabelina. EN: Brenton «For the end, a Psalm for instruction, for the sons of Core.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-041-02",
@@ -1075,7 +1082,8 @@
    "pt": "A minha alma teve sede do Deus forte e vivo; quando irei e aparecerei diante da face de Deus?",
    "ru": "Возжаждала душа моя (явиться) к Богу крепкому, живому (говоря): когда приду и явлюсь лицу Божию?",
    "uk": "Спрагла душа моя до Бога кріпкого, живого: коли прийду і з’явлюся лицю Божому?",
-   "en": "My soul hath thirsted for the living God: when shall I come and appear before God?"
+   "en": "My soul hath thirsted for God, the mighty, the living: when shall I come and appear before God?",
+   "nota": "EN: Brenton «My soul hath thirsted for the living God: when shall I come and appear before God?»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-041-04",
@@ -1094,7 +1102,7 @@
    "sl": 41,
    "v": 5,
    "cu": "Сія́ помяну́хъ, и излія́хъ на мя ду́шу мою́: я́ко пройду́ въ мѣ́сто селе́нія ди́вна, да́же до до́му Бо́жія, во гла́сѣ ра́дованія и исповѣ́данія, шу́ма пра́зднующаго.",
-   "pt": "Disto me lembrei e derramei em mim a minha alma, porque passarei ao lugar da morada admirável, até à casa de Deus, com voz de regozijo e de ação de graças, no clamor dos que festejam.",
+   "pt": "Disto me lembrei e derramei em mim a minha alma, porque passarei ao lugar da morada admirável, até à casa de Deus, com voz de regozijo e de louvor, no clamor dos que festejam.",
    "ru": "Это я вспоминал и изливал душу мою в себя. Как пройду я к месту дивного селения, до дома Божия, при гласе радости и исповедания (Бога), при праздничном восклицании!",
    "uk": "Це я згадав і вилив на себе душу мою, бо пройду до місця оселі дивної, аж до дому Божого, з голосом радості і славлення, шуму святкуючих.",
    "en": "I remembered these things, and poured out my soul in me, for I will go to the place of Thy wondrous tabernacle, even to the house of God, with a voice of exultation and thanksgiving and of the sound of those who keep festival."
@@ -1142,7 +1150,8 @@
    "pt": "De dia o Senhor ordenará a Sua misericórdia, e de noite o Seu cântico vem de mim, oração ao Deus da minha vida.",
    "ru": "Днем явит Господь милость Свою, а ночью — песнь Ему от меня, молитва Богу жизни моей.",
    "uk": "Удень заповість Господь милість Свою, і вночі пісня Його — від мене, молитва до Бога життя мого.",
-   "en": "By day the Lord will command His mercy, and manifest it by night: with me is prayer to the God of my life."
+   "en": "By day the Lord will command His mercy, and by night His song shall be with me, a prayer to the God of my life.",
+   "nota": "EN: Brenton «By day the Lord will command His mercy, and manifest it by night: with me is prayer to the God of my life.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-041-10",
@@ -1164,7 +1173,8 @@
    "pt": "Enquanto os meus ossos se quebravam, os meus inimigos insultavam-me, dizendo-me cada dia: Onde está o teu Deus?",
    "ru": "Когда сокрушались кости мои, поносили меня враги мои, говоря мне ежедневно: «Где Бог твой?»",
    "uk": "Коли ламалися кості мої, ганьбили мене вороги мої, коли казали мені щодня: Де Бог твій?",
-   "en": "While my bones were breaking, they that afflicted me reproached me; while they said to me daily, Where is thy God?"
+   "en": "While my bones were breaking, mine enemies reproached me; while they said to me daily, Where is thy God?",
+   "nota": "EN: Brenton «While my bones were breaking, they that afflicted me reproached me; while they said to me daily, Where is thy God?»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-041-12",
@@ -1276,7 +1286,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -1455,7 +1465,7 @@
    "cu": "О Бо́зѣ похва́лимся весь день, и о и́мени Твое́мъ исповѣ́мыся во вѣкъ.",
    "pt": "Em Deus nos gloriaremos todo o dia, e no Teu nome Te daremos graças para sempre.",
    "ru": "О Боге будем хвалиться всякий день и имя Твое будем исповедывать во век.",
-   "uk": "Богом похвалимося весь день, і в імені Твоєму славитимемо повіки.",
+   "uk": "Богом похвалимося весь день, і в імені Твоєму славитимемо навіки.",
    "en": "In God will we make our boast all the day, and to Thy Name will we give thanks for ever."
   },
   {
@@ -1467,7 +1477,7 @@
    "pt": "Mas agora rejeitaste-nos e confundiste-nos, e não sairás, ó Deus, com os nossos exércitos.",
    "ru": "Но ныне Ты отринул и посрамил нас и не выходишь, Боже, с силами нашими.",
    "uk": "Нині ж Ти відкинув і осоромив нас, і не вийдеш, Боже, з силами нашими.",
-   "en": "But now Thou hast cast off, and put us to shame; and Thou wilt not go forth with our hosts."
+   "en": "But now Thou hast cast off, and put us to shame; and Thou wilt not go forth, O God, with our hosts."
   },
   {
    "id": "sl-043-11",
@@ -1500,7 +1510,8 @@
    "pt": "Entregaste o Teu povo sem preço, e não houve multidão nas nossas aclamações.",
    "ru": "Отдал народ Свой даром, и не было множества (народа) при (радостных) восклицаниях наших.",
    "uk": "Ти віддав людей Твоїх без ціни, і не було множества у вигуках наших.",
-   "en": "Thou hast sold Thy people without price, and there was no profit by their exchange."
+   "en": "Thou hast sold Thy people without price, and there was no multitude in our shouts of joy.",
+   "nota": "EN: Brenton «Thou hast sold Thy people without price, and there was no profit by their exchange.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-043-14",
@@ -1674,10 +1685,10 @@
    "sl": 44,
    "v": 1,
    "cu": "Въ коне́цъ, о измѣня́емыхъ сыно́мъ Коре́овымъ въ ра́зумъ, пѣснь о возлю́бленнѣмъ.",
-   "pt": "Para o fim, sobre os que serão mudados, aos filhos de Coré, para entendimento, cântico acerca do amado.",
+   "pt": "Para o fim, sobre os que serão mudados, aos filhos de Coré, para entendimento, cântico sobre o amado.",
    "ru": "В конец. Об имеющих измениться. Сынам Кореевым. В научение. Песнь о Возлюбленном.",
    "uk": "На кінець, про тих, що змінюються, синам Кореєвим, на розуміння, пісня про улюбленого.",
-   "en": "For the end, for alternate strains by the sons of Core; for instruction, a Song concerning the beloved.",
+   "en": "For the end, concerning them that shall be changed, for the sons of Core; for instruction, a Song concerning the beloved.",
    "sobrescrito": true
   },
   {
@@ -1699,7 +1710,7 @@
    "cu": "Красе́нъ добро́тою па́че сыно́въ человѣ́ческихъ, излія́ся благода́ть во устна́хъ Твои́хъ: сего́ ра́ди благослови́ Тя Богъ во вѣкъ.",
    "pt": "Formoso em beleza mais do que os filhos dos homens, a graça derramou-se nos Teus lábios; por isso Deus Te abençoou para sempre.",
    "ru": "Прекраснейший из сынов человеческих! Благодать излилась из уст Твоих, посему благословил Тебя Бог во век.",
-   "uk": "Прекрасний вродою понад синів людських, вилилася благодать на губах Твоїх; тому благословив Тебе Бог повіки.",
+   "uk": "Прекрасний вродою понад синів людських, вилилася благодать на губах Твоїх; тому благословив Тебе Бог навіки.",
    "en": "Thou art more beautiful than the sons of men: grace hath been shed forth on Thy lips: therefore God hath blessed Thee for ever."
   },
   {
@@ -1869,8 +1880,9 @@
    "cu": "Помяну́ и́мя Твое́ во вся́комъ ро́дѣ и ро́дѣ: сего́ ра́ди лю́діе исповѣ́дятся Тебѣ́ въ вѣкъ и во вѣкъ вѣ́ка.",
    "pt": "Lembrar-me-ei do Teu nome em todas as gerações; por isso os povos Te darão graças para sempre e pelos séculos dos séculos.",
    "ru": "Буду вспоминать имя Твое в род и род, посему и народы будут славить Тебя во век и в век века.",
-   "uk": "Згадаю ім’я Твоє в усякому роді й роді; тому люди славитимуть Тебе повіки і на віки віків.",
-   "en": "They shall make mention of Thy Name from generation to generation: therefore shall the nations give thanks to Thee for ever, even for ever and ever."
+   "uk": "Згадаю ім’я Твоє в усякому роді й роді; тому люди славитимуть Тебе навіки і на віки віків.",
+   "en": "I will make mention of Thy Name from generation to generation: therefore shall the peoples give thanks to Thee for ever, even for ever and ever.",
+   "nota": "EN: Brenton «They shall make mention of Thy Name from generation to generation: therefore shall the nations give thanks to Thee for ever, even for ever and ever.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-045",
@@ -1959,7 +1971,8 @@
    "pt": "Perturbaram-se as nações, inclinaram-se os reinos; o Altíssimo deu a Sua voz, abalou-se a terra.",
    "ru": "Пришли в смятение народы, склонились царства, Вышний дал глас Свой: поколебалась земля.",
    "uk": "Збентежилися народи, похилилися царства: подав голос Свій Всевишній, похитнулася земля.",
-   "en": "The nations were troubled, the kingdoms tottered: He uttered His voice, the earth shook."
+   "en": "The nations were troubled, the kingdoms tottered: the Most High uttered His voice, the earth shook.",
+   "nota": "EN: Brenton «The nations were troubled, the kingdoms tottered: He uttered His voice, the earth shook.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-045-08",
@@ -1989,12 +2002,12 @@
    "tipo": "verso",
    "sl": 45,
    "v": 10,
-   "cu": "отъе́мля бра́ни до конце́въ земли́, лукъ сокруши́тъ, и сло́митъ ору́жіе, и щиты́ сожже́тъ огне́мъ.",
+   "cu": "отъе́мля бра́ни до коне́цъ земли́, лукъ сокруши́тъ, и сло́митъ ору́жіе, и щиты́ сожже́тъ огне́мъ.",
    "pt": "que faz cessar as guerras até aos confins da terra; quebrará o arco e despedaçará a arma, e queimará os escudos no fogo.",
    "ru": "Он прекратит брани до концов земли, лук сокрушит, и сломит оружие, и щиты огнем сожжет.",
    "uk": "що припиняє війни до кінців землі: лук зламає, і розтрощить зброю, і щити спалить вогнем.",
    "en": "Putting an end to wars as for the ends of the earth; He will crush the bow, and break in pieces the weapon, and burn the bucklers with fire.",
-   "nota": "P1874 (transcrição verificada) «до конце́въ земли́»; a Bíblia isabelina (Ponomar, CSlElizabeth) «до коне́цъ земли́». ⚠ Mantém-se a transcrição do P1874 (decisão da 1.ª fase); por uniformidade com a regra «isabelina» poderia ler-se «коне́цъ»."
+   "nota": "Bíblia isabelina (Ponomar, CSlElizabeth) e Saltério atual: «до коне́цъ земли́». O P1874 (img. n101) lê «до конце́въ земли́» (variante antiga; dec. 62, 72)."
   },
   {
    "id": "sl-045-11",
@@ -2041,7 +2054,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -2445,7 +2458,7 @@
    "cu": "Благодари́мъ Тя, Го́споди Бо́же нашъ, о всѣхъ благодѣя́ніихъ Твои́хъ, я́же отъ пе́рваго во́зраста до настоя́щаго въ насъ недосто́йныхъ бы́вшихъ, о и́хже вѣ́мы и не вѣ́мы, о явле́нныхъ и не явле́нныхъ, я́же дѣ́ломъ бы́вшихъ и сло́вомъ: возлюби́вый насъ, я́коже и Единоро́днаго Твоего́ Сы́на о насъ да́ти изво́ливый, сподо́би и насъ досто́йны бы́ти Твоея́ любве́. Даждь сло́вомъ Твои́мъ му́дрость, и стра́хомъ Твои́мъ вдохни́ крѣ́пость отъ Твоея́ си́лы. И а́ще что хотя́ще или́ не хотя́ще согрѣши́хомъ, прости́, и не вмѣни́, и сохрани́ ду́шу на́шу свя́ту, и предста́ви ю Твоему́ престо́лу, со́вѣсть иму́щу чи́сту, и коне́цъ досто́инъ человѣколю́бія Твоего́. И помяни́, Го́споди, всѣхъ призыва́ющихъ и́мя Твое́ во и́стинѣ, помяни́ всѣхъ, бла́га или́ сопроти́вная намъ хотя́щихъ: вси бо человѣ́цы есмы́, и всу́е всякъ человѣ́къ. Тѣ́мже мо́лимся Тебѣ́, Го́споди, пода́ждь намъ Твоего́ благоутро́бія ве́лію ми́лость.",
    "pt": "Damos-Te graças, Senhor nosso Deus, por todos os Teus benefícios, que desde a primeira idade até agora nos foram feitos, a nós indignos, os que conhecemos e os que não conhecemos, os manifestos e os não manifestos, por obra e por palavra: Tu que nos amaste como entregaste por nós o Teu Filho Unigénito, torna-nos também dignos de sermos dignos do Teu amor. Dá-nos sabedoria pela Tua palavra e, pelo Teu temor, inspira-nos fortaleza da Tua força. E se em algo pecámos, com ou sem vontade, perdoa e não nos imputes, e guarda santa a nossa alma, e apresenta-a ao Teu trono com a consciência pura, e que o seu fim seja digno do Teu amor pelos homens. E lembra-Te, Senhor, de todos os que invocam o Teu nome em verdade; lembra-Te de todos os que nos querem bem ou mal: pois todos somos homens, e vão é todo o homem. Por isso Te suplicamos, Senhor: concede-nos a grande misericórdia da Tua compaixão.",
    "ru": "Благодарим Тебя, Господи Боже наш, за все Твои благодеяния, бывшие с нами, недостойными, от первого возраста до настоящего, о которых мы знаем и не знаем, за явные и неявные, бывшие делом и словом: возлюбивший нас так, что благоволил отдать за нас и Единородного Твоего Сына, сподобь и нас стать достойными Твоей любви. Даруй словом Твоим мудрость и страхом Твоим вдохни крепость от Твоей силы; и если в чем, вольно или невольно, мы согрешили, прости и не вмени, и сохрани душу нашу святою, и представь ее Твоему престолу с чистой совестью, и кончину — достойную человеколюбия Твоего. И помяни, Господи, всех призывающих имя Твое во истине; помяни всех, желающих нам добра или противного: ибо все мы люди, и суетен всякий человек. Потому молимся Тебе, Господи: даруй нам великую милость Твоего благоутробия.",
-   "uk": "Дякуємо Тобі, Господи Боже наш, за всі Твої благодіяння, що були з нами, недостойними, від першого віку дотепер, про які знаємо і не знаємо, явні і неявні, вчинені ділом і словом: Ти, що полюбив нас так, що благоволив віддати за нас і Єдинородного Твого Сина, сподоби і нас стати гідними Твоєї любові. Даруй словом Твоїм мудрість і страхом Твоїм вдихни кріпость від Твоєї сили; і якщо в чомусь ми згрішили, з волі чи мимоволі, прости і не постав у вину, і збережи душу нашу святою, і постав її перед Твоїм престолом із чистою совістю, і кінець — гідний Твого человіколюбства. І пом’яни, Господи, всіх, що призивають ім’я Твоє в істині; пом’яни всіх, що бажають нам добра чи протилежного: бо всі ми люди, і марна кожна людина. Тому молимося Тобі, Господи: даруй нам велику милість Твого милосердя.",
+   "uk": "Дякуємо Тобі, Господи Боже наш, за всі Твої благодіяння, що були з нами, недостойними, від першого віку дотепер, про які знаємо і не знаємо, явні і неявні, вчинені ділом і словом: Ти, що полюбив нас так, що благоволив віддати за нас і Єдинородного Твого Сина, сподоби і нас стати гідними Твоєї любові. Даруй словом Твоїм мудрість і страхом Твоїм вдихни кріпость від Твоєї сили; і якщо в чомусь ми згрішили, з волі чи мимоволі, прости і не постав у вину, і збережи душу нашу святою, і постав її перед Твоїм престолом із чистою совістю, і кінець — гідний Твого чоловіколюбства. І пом’яни, Господи, всіх, що призивають ім’я Твоє в істині; пом’яни всіх, що бажають нам добра чи протилежного: бо всі ми люди, і марна кожна людина. Тому молимося Тобі, Господи: даруй нам велику милість Твого милосердя.",
    "en": "We give thanks unto Thee, O Lord our God, for all Thy benefits, which from our earliest years until now have been bestowed upon us, the unworthy, whereof we know and know not, manifest and not manifest, in deed and in word: Thou Who hast so loved us as to be pleased to give Thine Only-begotten Son for us, vouchsafe that we also may be made worthy of Thy love. Give wisdom by Thy word, and by Thy fear breathe into us strength from Thy might; and if in aught we have sinned, willingly or unwillingly, forgive and impute it not, and keep our soul holy, and present it before Thy throne with a pure conscience, and grant an end worthy of Thy love for mankind. And remember, O Lord, all that call upon Thy name in truth; remember all that wish us good or ill: for we are all men, and every man is vanity. Wherefore we pray Thee, O Lord: grant us the great mercy of Thy tender compassion.",
    "fonte": {
     "cu": "P1874 img. n102",

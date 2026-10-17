@@ -400,7 +400,8 @@
    "pt": "Pronto está o meu coração, ó Deus, pronto está o meu coração; cantarei e salmodiarei na minha glória.",
    "ru": "Готово сердце мое, Боже, готово сердце мое: воспою и пою во славе моей.",
    "uk": "Готове серце моє, Боже, готове серце моє: заспіваю і співатиму у славі моїй.",
-   "en": "My heart, O God, is ready, my heart is ready: I will sing, yea will sing psalms."
+   "en": "My heart, O God, is ready, my heart is ready: I will sing, yea will sing psalms in my glory.",
+   "nota": "EN: Brenton «My heart, O God, is ready, my heart is ready: I will sing, yea will sing psalms.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-056-09",
@@ -532,7 +533,8 @@
    "pt": "Deus quebrará os seus dentes na sua boca; os queixais dos leões despedaçou o Senhor.",
    "ru": "Бог сокрушит зубы их в устах их: челюсти львов сокрушил Господь.",
    "uk": "Бог розтрощить зуби їхні в устах їхніх: кутні зуби левів розтрощив Господь.",
-   "en": "God hath crushed their teeth in their mouth: God hath broken the cheek-teeth of the lions."
+   "en": "God will crush their teeth in their mouth: the Lord hath broken the cheek-teeth of the lions.",
+   "nota": "EN: Brenton «God hath crushed their teeth in their mouth: God hath broken the cheek-teeth of the lions.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-057-08",
@@ -611,7 +613,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -821,7 +823,7 @@
    "cu": "Не убі́й ихъ, да не когда́ забу́дутъ зако́нъ Твой: расточи́ я си́лою Твое́ю и низведи́ я, защи́тниче мой, Го́споди.",
    "pt": "Não os mates, para que nunca se esqueçam da Tua lei; dispersa-os com o Teu poder e abate-os, ó meu defensor, Senhor,",
    "ru": "Не убивай их, дабы не забыли закона Твоего; рассей их силою Твоею и низложи их, защитник мой, Господи,",
-   "uk": "Не вбивай їх, щоб коли не забули закону Твого: розпороши їх силою Твоєю і низведи їх, захиснику мій, Господи,",
+   "uk": "Не вбивай їх, щоб не забули закону Твого: розпороши їх силою Твоєю і низведи їх, захиснику мій, Господи,",
    "en": "Slay them not, lest they forget Thy law; scatter them by Thy power; and bring them down, O Lord, my defender."
   },
   {
@@ -844,7 +846,8 @@
    "pt": "na ira do fim, e deixarão de existir; e saberão que Deus domina sobre Jacob e sobre os confins da terra.",
    "ru": "В гневной кончине, и не будут существовать. И узнают, что Бог владычествует Иаковом и концами земли.",
    "uk": "у гніві кончини, і не буде їх; і пізнають, що Бог володіє Яковом і кінцями землі.",
-   "en": "they shall fall by the wrath of utter destruction, and shall not be; so shall they know that the God of Jacob is Lord of the ends of the earth."
+   "en": "they shall fall by the wrath of utter destruction, and shall not be; so shall they know that God ruleth over Jacob and the ends of the earth.",
+   "nota": "EN: Brenton «they shall fall by the wrath of utter destruction, and shall not be; so shall they know that the God of Jacob is Lord of the ends of the earth.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-058-15",
@@ -921,8 +924,9 @@
    "pt": "quando incendiou a Mesopotâmia da Síria e a Síria de Sobal, e Joab voltou e feriu Edom no vale das Salinas, doze mil.",
    "ru": "Когда он сожег Средоречие Сирийское и Сирию Совальскую и возвратился Иоав и поразил Едома в Соляной долине, двенадцать тысяч.",
    "uk": "коли він спалив Межиріччя Сирійське і Сирію Совальську, і повернувся Іоав і вразив Едома в долині Солі — дванадцять тисяч.",
-   "en": "when he had burned Mesopotamia of Syria, and Syria Sobal, and Joab had returned and smitten in the valley of salt twelve thousand.",
-   "sobrescrito": true
+   "en": "when he had burned Mesopotamia of Syria, and Syria Sobal, and Joab had returned and smitten Edom in the valley of salt twelve thousand.",
+   "sobrescrito": true,
+   "nota": "EN: Brenton «when he had burned Mesopotamia of Syria, and Syria Sobal, and Joab had returned and smitten in the valley of salt twelve thousand.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-059-03",
@@ -1071,12 +1075,13 @@
    "tipo": "verso",
    "sl": 60,
    "v": 1,
-   "cu": "Въ коне́цъ, въ пѣ́снехъ, Дави́ду Псало́мъ.",
+   "cu": "Въ коне́цъ, въ пѣ́снехъ, Дави́ду псало́мъ.",
    "pt": "Para o fim, em cânticos, de David, salmo.",
    "ru": "В конец. Песнь. Давида. Псалом.",
    "uk": "На кінець, у піснях, Давидів псалом.",
-   "en": "For the end, among the Hymns of David.",
-   "sobrescrito": true
+   "en": "For the end, among the Hymns, a Psalm of David.",
+   "sobrescrito": true,
+   "nota": "EN: Brenton «For the end, among the Hymns of David.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-060-02",
@@ -1119,7 +1124,7 @@
    "cu": "Вселю́ся въ селе́ніи Твое́мъ во вѣ́ки, покры́юся въ кро́вѣ крилъ Твои́хъ.",
    "pt": "Habitarei na Tua morada pelos séculos, cobrir-me-ei sob o abrigo das Tuas asas.",
    "ru": "Поселюсь на век в жилище Твоем, укроюсь под кровом крыльев Твоих.",
-   "uk": "Оселюся в оселі Твоїй повіки, сховаюся під покровом крил Твоїх.",
+   "uk": "Оселюся в оселі Твоїй навіки, сховаюся під покровом крил Твоїх.",
    "en": "I will dwell in Thy tabernacle for ever; I will shelter myself under the shadow of Thy wings."
   },
   {
@@ -1152,7 +1157,7 @@
    "cu": "Пребу́детъ въ вѣкъ предъ Бо́гомъ: ми́лость и и́стину его́ кто взы́щетъ?",
    "pt": "Permanecerá para sempre diante de Deus; a sua misericórdia e verdade, quem as investigará?",
    "ru": "Пребудет он во век пред Богом. Милость и истину Его кто постигнет?",
-   "uk": "Перебуватиме повіки перед Богом: милість і істину його хто взище?",
+   "uk": "Перебуватиме навіки перед Богом: милість і істину його хто взище?",
    "en": "He shall endure for ever before God: which of them will seek out his mercy and truth?"
   },
   {
@@ -1163,7 +1168,7 @@
    "cu": "Та́ко воспою́ и́мени Твоему́ во вѣ́ки, возда́ти ми моли́твы моя́ день отъ дне.",
    "pt": "Assim cantarei ao Teu nome pelos séculos, para cumprir os meus votos dia após dia.",
    "ru": "Так я буду петь имени Твоему во веки, исполнять обеты мои ежедневно.",
-   "uk": "Так співатиму імені Твоєму повіки, щоб віддавати мені молитви мої день у день.",
+   "uk": "Так співатиму імені Твоєму навіки, щоб віддавати мені молитви мої день у день.",
    "en": "So will I sing to Thy Name for ever and ever, that I may daily perform my vows."
   },
   {
@@ -1188,7 +1193,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -1431,8 +1436,9 @@
    "pt": "Salmo de David, quando estava no deserto da Judeia.",
    "ru": "Псалом Давида, когда он был в пустыне Иудейской.",
    "uk": "Псалом Давидів, коли він був у пустелі Юдейській.",
-   "en": "A Psalm of David, when he was in the wilderness of Idumea.",
-   "sobrescrito": true
+   "en": "A Psalm of David, when he was in the wilderness of Judea.",
+   "sobrescrito": true,
+   "nota": "EN: Brenton «A Psalm of David, when he was in the wilderness of Idumea.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-062-02",
@@ -1487,7 +1493,8 @@
    "pt": "Como de gordura e de unção se encha a minha alma, e com lábios de alegria Te louvará a minha boca.",
    "ru": "Как туком и елеем, душа моя насытится (сим), и гласом радости восхвалят Тебя уста мои.",
    "uk": "Як туком і жиром, нехай наповниться душа моя, і губами радості восхвалять Тебе уста мої.",
-   "en": "Let my soul be filled as with marrow and fatness; and my joyful lips shall praise Thy Name."
+   "en": "Let my soul be filled as with marrow and fatness; and with lips of joy my mouth shall praise Thee.",
+   "nota": "EN: Brenton «Let my soul be filled as with marrow and fatness; and my joyful lips shall praise Thy Name.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-062-07",
@@ -1586,7 +1593,8 @@
    "pt": "Escuta, ó Deus, a minha voz, quando Te suplico; do temor do inimigo arranca a minha alma.",
    "ru": "Услышь, Боже, глас мой, когда я молюсь Тебе, избавь душу мою от страха пред врагами.",
    "uk": "Почуй, Боже, голос мій, коли я молюся до Тебе: від страху ворожого вирви душу мою.",
-   "en": "Hear my prayer, O God, when I make my petition to Thee; deliver my soul from fear of the enemy."
+   "en": "Hear my voice, O God, when I make my petition to Thee; deliver my soul from fear of the enemy.",
+   "nota": "EN: Brenton «Hear my prayer, O God, when I make my petition to Thee; deliver my soul from fear of the enemy.»; corrigido para o eslavo (dec. 68)."
   },
   {
    "id": "sl-063-03",
@@ -1616,7 +1624,7 @@
    "sl": 63,
    "v": 5,
    "cu": "сострѣля́ти въ та́йныхъ непоро́чна: внеза́пу сострѣля́ютъ его́, и не убоя́тся.",
-   "pt": "para assetear em segredo o irrepreensível; de repente o assetearão, e não temerão.",
+   "pt": "para assetear em segredo o imaculado; de repente o assetearão, e não temerão.",
    "ru": "Чтобы стрелять тайно в непорочного, внезапно подстрелят его и не убоятся.",
    "uk": "щоб стріляти потай у непорочного: раптом стрілятимуть у нього і не убояться.",
    "en": "to shoot in secret at the blameless; they will shoot him suddenly, and will not fear."
@@ -1709,7 +1717,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -2111,7 +2119,7 @@
    "id": "k08-p-18",
    "tipo": "oracao",
    "cu": "Го́споди ще́дрый и ми́лостивый, долготерпѣли́ве и многоми́лостиве, внуши́ моли́тву, и вонми́ гла́су моле́нія моего́, сотвори́ со мно́ю зна́меніе во бла́го, наста́ви мя на путь Твой, е́же ходи́ти во и́стинѣ Твое́й: возвесели́ се́рдце мое́, во е́же боя́тися и́мене Твоего́ свята́го, зане́же ве́лій еси́ и творя́й чудеса́. Ты еси́ Богъ еди́нъ, и нѣсть подо́бенъ Тебѣ́ въ бозѣ́хъ, Го́споди, си́льный въ ми́лости, и благі́й въ крѣ́пости, во е́же помога́ти и утѣша́ти, и спаса́ти вся упова́ющыя на и́мя Твое́, Отца́ и Сы́на и Свята́го Ду́ха, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
-   "pt": "Senhor compassivo e misericordioso, longânimo e muito misericordioso, inclina o ouvido à minha oração e atende à voz da minha súplica; faz comigo um sinal para o bem; guia-me no Teu caminho, para que ande na Tua verdade; alegra o meu coração, para que tema o Teu santo nome, porque Tu és grande e fazes maravilhas. Tu és o único Deus, e não há semelhante a Ti entre os deuses, Senhor, poderoso na misericórdia e bom na força, para ajudar, consolar e salvar todos os que esperam no Teu nome, do Pai e do Filho e do Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "pt": "Senhor compassivo e misericordioso, longânime e muito misericordioso, inclina o ouvido à minha oração e atende à voz da minha súplica; faz comigo um sinal para o bem; guia-me no Teu caminho, para que ande na Tua verdade; alegra o meu coração, para que tema o Teu santo nome, porque Tu és grande e fazes maravilhas. Tu és o único Deus, e não há semelhante a Ti entre os deuses, Senhor, poderoso na misericórdia e bom na força, para ajudar, consolar e salvar todos os que esperam no Teu nome, do Pai e do Filho e do Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
    "ru": "Господи щедрый и милостивый, долготерпеливый и многомилостивый, внуши молитву мою и внемли гласу моления моего; сотвори со мною знамение во благо; наставь меня на путь Твой, чтобы мне ходить во истине Твоей; возвесели сердце мое, чтобы бояться имени Твоего святого, ибо Ты велик и творишь чудеса. Ты — Бог единый, и нет подобного Тебе среди богов, Господи, сильный в милости и благой в крепости, чтобы помогать, и утешать, и спасать всех, уповающих на имя Твое, Отца и Сына и Святого Духа, ныне и присно и во веки веков. Аминь.",
    "uk": "Господи щедрий і милостивий, довготерпеливий і многомилостивий, почуй молитву мою і зваж на голос благання мого; вчини зі мною знамення на добро; настав мене на путь Твій, щоб я ходив в істині Твоїй; звесели серце моє, щоб боятися імені Твого святого, бо Ти великий і твориш чудеса. Ти — Бог єдиний, і немає подібного Тобі між богами, Господи, сильний у милості і благий у кріпості, щоб допомагати, і втішати, і спасати всіх, що уповають на ім’я Твоє, Отця, і Сина, і Святого Духа, нині, і повсякчас, і на віки віків. Амінь.",
    "en": "O Lord compassionate and merciful, long-suffering and plenteous in mercy, give ear unto my prayer, and attend to the voice of my supplication; work with me a sign for good; guide me in Thy way, that I may walk in Thy truth; make glad my heart, that I may fear Thy holy name, for Thou art great and doest wonders. Thou art God alone, and there is none like unto Thee among the gods, O Lord, mighty in mercy and good in strength, to help and to comfort and to save all that hope in Thy name, of the Father, and of the Son, and of the Holy Spirit, now and ever, and unto ages of ages. Amen.",

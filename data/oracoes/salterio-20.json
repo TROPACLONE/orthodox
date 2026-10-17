@@ -175,7 +175,7 @@
    "cu": "Ми́лость моя́ и прибѣ́жище мое́, засту́пникъ мой и Изба́витель мой, защи́титель мой, и на Него́ упова́хъ: повину́яй лю́ди моя́ подъ мя.",
    "pt": "Minha misericórdia e meu refúgio, meu protetor e meu Libertador, meu defensor, e n'Ele esperei; Ele que submete o meu povo debaixo de mim.",
    "ru": "(Он) — милость моя и прибежище мое, заступник мой и избавитель мой, защитник мой, и на Него я уповал. Он подчиняет мне народ мой.",
-   "uk": "Милість моя і прибіжище моє, заступник мій і Визволитель мій, захисник мій, і на Нього я уповав; Він підкоряє мені народ мій.",
+   "uk": "Милість моя і прибіжище моє, заступник мій і Визволитель мій, захисник мій, і на Нього я уповав; Він підкоряє мені людей моїх.",
    "en": "My mercy, and my refuge; my helper, and my deliverer; my protector, in whom I have trusted; who subdueth my people under me."
   },
   {
@@ -318,7 +318,7 @@
    "cu": "Ублажи́ша лю́ди, и́мже сія́ суть: блаже́ни лю́діе, и́мже Госпо́дь Богъ ихъ.",
    "pt": "Chamaram bem-aventurado o povo que tem estas coisas: bem-aventurado o povo cujo Deus é o Senhor.",
    "ru": "(Другие) считали счастливым народ, у которого это есть, (но) блажен народ, у которого Господь есть Бог его.",
-   "uk": "Назвали блаженним народ, у якого це є: блаженний народ, у якого Господь — Бог його.",
+   "uk": "Назвали блаженними людей, у яких це є: блаженні люди, у яких Господь — Бог їхній.",
    "en": "Men bless the people to whom this lot belongeth, but blessed is the people whose God is the Lord."
   },
   {
@@ -415,9 +415,9 @@
    "sl": 144,
    "v": 7,
    "cu": "па́мять мно́жества бла́гости Твоея́ отры́гнутъ и пра́вдою Твое́ю возра́дуются.",
-   "pt": "farão brotar a memória da abundância da Tua bondade e alegrar-se-ão na Tua justiça.",
+   "pt": "farão brotar a memória da abundância da Tua bondade e exultarão na Tua justiça.",
    "ru": "Воспоминание о великой благости Твоей провозгласят и правду Твою будут радостно воспевать.",
-   "uk": "пам’ять безлічі благості Твоєї виливатимуть і правдою Твоєю возрадуються.",
+   "uk": "пам’ять безлічі благості Твоєї виливатимуть і правдою Твоєю зрадіють.",
    "en": "They shall utter the memory of the abundance of Thy goodness, and shall exult in Thy righteousness."
   },
   {
@@ -598,7 +598,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -876,7 +876,7 @@
    "cu": "Ве́лій Госпо́дь нашъ, и ве́лія крѣ́пость Его́, и ра́зума Его́ нѣсть числа́.",
    "pt": "Grande é o nosso Senhor, e grande a Sua força, e o Seu entendimento não tem número.",
    "ru": "Велик Господь наш, и велика сила Его, и разум Его непостижим.",
-   "uk": "Великий Господь наш, і велика міць Його, і розумові Його немає числа.",
+   "uk": "Великий Господь наш, і велика кріпость Його, і розумові Його немає числа.",
    "en": "Great is our Lord, and great is His strength; and His understanding is infinite."
   },
   {
@@ -1089,7 +1089,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -1243,7 +1243,7 @@
    "sl": 148,
    "v": 6,
    "cu": "Поста́ви я въ вѣкъ и въ вѣкъ вѣ́ка: повелѣ́ніе положи́, и не ми́мо и́детъ.",
-   "pt": "Estabeleceu-os para sempre e pelos séculos dos séculos: pôs um preceito, e não passará.",
+   "pt": "Estabeleceu-os para sempre e pelos séculos dos séculos: pôs um decreto, e não passará.",
    "ru": "Поставил их во век и в век века: повеление дал, и не пройдет оно.",
    "uk": "Поставив їх навіки і на віки віків: повеління дав, і воно не мине.",
    "en": "He hath established them for ever, even for ever and ever: He hath made an ordinance, and it shall not pass away."
@@ -1333,7 +1333,7 @@
    "cu": "И вознесе́тъ рогъ люді́й Свои́хъ: пѣснь всѣмъ преподо́бнымъ Его́, сыново́мъ Изра́илевымъ, лю́демъ приближа́ющымся Ему́.",
    "pt": "E exaltará o chifre do Seu povo: um cântico para todos os Seus santos, para os filhos de Israel, povo que se aproxima d'Ele.",
    "ru": "И Он возвысит силу народа Своего. (Такова) песнь у всех преподобных Его, у сынов Израиля, народа, приближающегося к Нему.",
-   "uk": "І піднесе Він ріг народу Свого: пісня всім преподобним Його, синам Ізраїлевим, народові, що наближається до Нього.",
+   "uk": "І піднесе Він ріг людей Своїх: пісня всім преподобним Його, синам Ізраїлевим, людям, що наближаються до Нього.",
    "en": "and He shall exalt the horn of His people, there is a hymn for all His saints, even of the children of Israel, a people who draw near to Him."
   },
   {
@@ -1376,9 +1376,9 @@
    "sl": 149,
    "v": 2,
    "cu": "Да возвесели́тся Изра́иль о сотво́ршемъ его́, и сы́нове Сіо́ни возра́дуются о Цари́ свое́мъ.",
-   "pt": "Regozije-se Israel n'Aquele que o criou, e os filhos de Sião alegrem-se no seu Rei.",
+   "pt": "Alegre-se Israel n'Aquele que o criou, e os filhos de Sião exultem no seu Rei.",
    "ru": "Да возвеселится Израиль о Творце своем, и сыны Сиона да возрадуются о Царе своем.",
-   "uk": "Нехай звеселиться Ізраїль Тим, Хто сотворив його, і сини Сіону нехай возрадуються Царем своїм.",
+   "uk": "Нехай звеселиться Ізраїль Тим, Хто сотворив його, і сини Сіону нехай зрадіють Царем своїм.",
    "en": "Let Israel rejoice in Him that made him; and let the children of Sion exult in their King."
   },
   {
@@ -1400,7 +1400,7 @@
    "cu": "Я́ко благоволи́тъ Госпо́дь въ лю́дехъ Свои́хъ, и вознесе́тъ кро́ткія во спасе́ніе.",
    "pt": "Porque o Senhor Se compraz no Seu povo, e exaltará os mansos com a salvação.",
    "ru": "Ибо благоволит Господь к народу Своему и вознесет кротких во спасение.",
-   "uk": "Бо благоволить Господь до народу Свого і піднесе лагідних у спасінні.",
+   "uk": "Бо благоволить Господь до людей Своїх і піднесе лагідних у спасінні.",
    "en": "For the Lord taketh pleasure in His people; and will exalt the meek with salvation."
   },
   {
@@ -1409,9 +1409,9 @@
    "sl": 149,
    "v": 5,
    "cu": "Восхва́лятся преподо́бніи во сла́вѣ и возра́дуются на ло́жахъ свои́хъ.",
-   "pt": "Gloriar-se-ão os santos na glória e alegrar-se-ão nos seus leitos.",
+   "pt": "Gloriar-se-ão os santos na glória e exultarão nos seus leitos.",
    "ru": "Восхвалятся преподобные во славе и возрадуются на ложах своих.",
-   "uk": "Похваляться преподобні у славі і возрадуються на ложах своїх.",
+   "uk": "Похваляться преподобні у славі і зрадіють на ложах своїх.",
    "en": "The saints shall rejoice in glory; and shall exult on their beds."
   },
   {
@@ -1569,7 +1569,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -1692,7 +1692,7 @@
    "cu": "И кто возвѣсти́тъ Го́сподеви моему́? Самъ Госпо́дь, Самъ услы́шитъ:",
    "pt": "E quem o anunciará ao meu Senhor? O próprio Senhor, Ele mesmo ouvirá:",
    "ru": "И кто возвестил (обо мне) Господу моему? Сам Господь, Сам услышал.",
-   "uk": "І хто сповістить Господеві моєму? Сам Господь, Сам вислухає.",
+   "uk": "І хто сповістить Господеві моєму? Сам Господь, Сам почує.",
    "en": "And who shall tell my Lord? the Lord Himself, He Himself heareth."
   },
   {
@@ -2070,10 +2070,10 @@
   {
    "id": "k20-p-18",
    "tipo": "oracao",
-   "cu": "Го́споди Іису́се Христе́ Бо́же мой, поми́луй мя грѣ́шнаго, и прости́ ми недосто́йному рабу́ Твоему́, ели́ка Ти согрѣши́хъ чрезъ все живота́ моего́ вре́мя, и да́же до днесь: и а́ще что я́ко человѣ́къ согрѣши́хъ, во́льная моя́ прегрѣше́нія и нево́льная, дѣ́ломъ и сло́вомъ, я́же умо́мъ и мы́слію, я́же отъ совосхище́нія и невнима́нія, и мно́гія моея́ лѣ́ности и небреже́нія. А́ще же и́менемъ Твои́мъ кля́хся, а́ще же лжекля́хся, или́ ху́лихъ мы́слію, или́ кого́ укори́хъ, или́ оклевета́хъ, или́ опеча́лихъ, или́ въ нѣ́чесомъ прогнѣ́вахъ, или́ окрадо́хъ, или́ блу́дствовахъ, или́ солга́хъ, или́ та́йно ядо́хъ, или́ другъ дости́же ко мнѣ, и презрѣ́хъ его́, или́ бра́та оскорби́хъ и преогорчи́хъ, или́ стоя́щу ми на моли́твѣ и псалмопѣ́ніи, умъ мой лука́вый на лука́вая обхожда́ше, или́ па́че лѣ́паго наслади́хся, или́ безу́мно смѣ́яхся, или́ кощу́нно глаго́лахъ, или́ тщесла́вихся, или́ горди́хся, или́ добро́ту су́етную ви́дѣвъ, и отъ нея́ прельсти́хся, или́ нелѣ́пая мнѣ поглуми́хся. А́ще въ чесо́мъ о моли́твѣ мое́й неради́хъ, или́ за́повѣдей духо́внаго моего́ отца́ не сохрани́хъ, или́ праздносло́вихъ, или́ ино́ что лука́вое сотвори́хъ: сія́ бо вся и вя́щшая сихъ содѣ́яхъ, и́хже ниже́ по́мню. Поми́луй, Го́споди, и прости́ ми вся, да въ ми́рѣ усну́ и почі́ю, поя́ и благословя́ и сла́вя Тя со Безнача́льнымъ Твои́мъ Отце́мъ, и съ Пресвяты́мъ и Благи́мъ и Животворя́щимъ Твои́мъ Ду́хомъ, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "cu": "Го́споди Іису́се Христе́ Бо́же мой, поми́луй мя грѣ́шнаго, и прости́ ми недосто́йному рабу́ Твоему́, ели́ка Ти согрѣши́хъ чрезъ все живота́ моего́ вре́мя, и да́же до днесь: и а́ще что я́ко человѣ́къ согрѣши́хъ, во́льная моя́ прегрѣше́нія и нево́льная, дѣ́ломъ и сло́вомъ, я́же умо́мъ и мы́слію, я́же отъ совосхище́нія и невнима́нія, и мно́гія моея́ лѣ́ности и небреже́нія. А́ще же и́менемъ Твои́мъ кля́хся, а́ще же лжекля́хся, или́ ху́лихъ мы́слію, или́ кого́ укори́хъ, или́ оклевета́хъ, или́ опеча́лихъ, или́ въ нѣ́чесомъ прогнѣ́вахъ, или́ окрадо́хъ, или́ блу́дствовахъ, или́ солга́хъ, или́ та́йно ядо́хъ, или́ другъ дости́же ко мнѣ, и презрѣ́хъ его́, или́ бра́та оскорби́хъ и преогорчи́хъ, или́ стоя́щу ми на моли́твѣ и псалмопѣ́ніи, умъ мой лука́вый на лука́вая обхожда́ше, или́ па́че лѣ́паго наслади́хся, или́ безу́мно смѣ́яхся, или́ кощу́нно глаго́лахъ, или́ тщесла́вихся, или́ горди́хся, или́ добро́ту су́етную ви́дѣвъ, и отъ нея́ прельсти́хся, или́ нелѣ́пая мнѣ поглуми́хся. А́ще въ чесо́мъ о моли́твѣ мое́й неради́хъ, или́ за́повѣдей духо́внаго моего́ отца́ не сохрани́хъ, или́ праздносло́вихъ, или́ и́но что лука́вое сотвори́хъ: сія́ бо вся и вя́щшая сихъ содѣ́яхъ, и́хже ниже́ по́мню. Поми́луй, Го́споди, и прости́ ми вся, да въ ми́рѣ усну́ и почі́ю, поя́ и благословя́ и сла́вя Тя со Безнача́льнымъ Твои́мъ Отце́мъ, и съ Пресвяты́мъ и Благи́мъ и Животворя́щимъ Твои́мъ Ду́хомъ, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
    "pt": "Senhor Jesus Cristo, meu Deus, tem piedade de mim, pecador, e perdoa-me, a mim, Teu servo indigno, tudo aquilo em que pequei contra Ti durante todo o tempo da minha vida, até ao dia de hoje: e se pequei em algo como homem, os meus pecados voluntários e involuntários, por obra e por palavra, os da mente e do pensamento, os que vêm da distração e da desatenção, e da minha muita preguiça e negligência. Se jurei pelo Teu nome, se jurei falso, se blasfemei no pensamento, se censurei alguém, ou o caluniei, ou o entristeci, ou em algo o irritei, ou roubei, ou forniquei, ou menti, ou comi às escondidas, ou um amigo veio ter comigo e eu o desprezei, ou ofendi e amarguei um irmão, ou, estando eu em oração e salmodia, a minha mente maligna andou atrás de coisas más, ou me deleitei mais do que convinha, ou ri insensatamente, ou falei com escárnio, ou me envaideci, ou me ensoberbeci, ou, vendo uma beleza vã, por ela fui seduzido, ou zombei de coisas inconvenientes; se em algo fui negligente na minha oração, ou não guardei os mandamentos do meu pai espiritual, ou falei em vão, ou fiz qualquer outro mal: pois tudo isto e coisas maiores do que estas cometi, das quais nem me lembro. Tem piedade, Senhor, e perdoa-me tudo, para que em paz adormeça e repouse, cantando, bendizendo e glorificando-Te, com o Teu Pai sem princípio e com o Teu Santíssimo, bom e vivificante Espírito, agora e sempre e pelos séculos dos séculos. Ámen.",
    "ru": "Господи Иисусе Христе Боже мой, помилуй меня, грешного, и прости мне, недостойному рабу Твоему, всё, чем я согрешил пред Тобою во все время жизни моей и даже до сего дня: и если что как человек я согрешил, вольные мои прегрешения и невольные, делом и словом, умом и мыслью, от рассеянности и невнимания и от многой моей лености и небрежения. Если же именем Твоим клялся, если ложно клялся, или хулил мыслью, или кого укорил, или оклеветал, или опечалил, или в чем-нибудь прогневал, или украл, или блудодействовал, или солгал, или тайно ел, или друг пришел ко мне, и я презрел его, или брата оскорбил и огорчил, или, когда я стоял на молитве и псалмопении, лукавый мой ум блуждал по лукавому, или сверх подобающего насладился, или безумно смеялся, или кощунственно говорил, или тщеславился, или гордился, или, увидев суетную красоту, ею прельстился, или над непристойным глумился; если в чем о молитве моей нерадел, или заповедей духовного моего отца не сохранил, или празднословил, или иное что лукавое сотворил, — ибо всё это и большее того я сделал, чего и не помню, — помилуй, Господи, и прости мне всё, чтобы мне в мире уснуть и почить, воспевая, и благословляя, и славя Тебя со Безначальным Твоим Отцом и с Пресвятым, и Благим, и Животворящим Твоим Духом, ныне и присно и во веки веков. Аминь.",
-   "uk": "Господи Ісусе Христе Боже мій, помилуй мене, грішного, і прости мені, недостойному рабові Твоєму, все, чим я згрішив перед Тобою за весь час життя мого і аж до цього дня: і якщо в чомусь як людина я згрішив, вільні мої прогрішення і невільні, ділом і словом, розумом і думкою, від неуважності й розсіяності і від великих моїх лінощів і недбальства. Якщо ж іменем Твоїм клявся, якщо фальшиво клявся, чи хулив думкою, чи когось докорив, чи обмовив, чи засмутив, чи в чомусь прогнівив, чи вкрав, чи блудодіяв, чи збрехав, чи таємно їв, чи друг прийшов до мене, і я знехтував його, чи брата образив і огірчив, чи, коли я стояв на молитві й псалмоспіві, лукавий мій розум блукав за лукавим, чи понад належне насолоджувався, чи безумно сміявся, чи блюзнірськи говорив, чи марнославився, чи гордився, чи, побачивши марну красу, нею спокусився, чи з непристойного глумився; якщо в чомусь щодо молитви моєї був недбалим, чи заповідей духовного мого отця не зберіг, чи пустословив, чи щось інше лукаве вчинив, — бо все це і більше від цього я зробив, чого навіть не пам’ятаю, — помилуй, Господи, і прости мені все, щоб мені в мирі заснути і спочити, оспівуючи, і благословляючи, і славлячи Тебе з Безначальним Твоїм Отцем і з Пресвятим, і Благим, і Животворчим Твоїм Духом, нині, і повсякчас, і на віки віків. Амінь.",
+   "uk": "Господи Іісусе Христе Боже мій, помилуй мене, грішного, і прости мені, недостойному рабові Твоєму, все, чим я згрішив перед Тобою за весь час життя мого і аж до цього дня: і якщо в чомусь як людина я згрішив, вільні мої прогрішення і невільні, ділом і словом, розумом і думкою, від неуважності й розсіяності і від великих моїх лінощів і недбальства. Якщо ж іменем Твоїм клявся, якщо фальшиво клявся, чи хулив думкою, чи когось докорив, чи обмовив, чи засмутив, чи в чомусь прогнівив, чи вкрав, чи блудодіяв, чи збрехав, чи таємно їв, чи друг прийшов до мене, і я знехтував його, чи брата образив і огірчив, чи, коли я стояв на молитві й псалмоспіві, лукавий мій розум блукав за лукавим, чи понад належне насолоджувався, чи безумно сміявся, чи блюзнірськи говорив, чи марнославився, чи гордився, чи, побачивши марну красу, нею спокусився, чи з непристойного глумився; якщо в чомусь щодо молитви моєї був недбалим, чи заповідей духовного мого отця не зберіг, чи пустословив, чи щось інше лукаве вчинив, — бо все це і більше від цього я зробив, чого навіть не пам’ятаю, — помилуй, Господи, і прости мені все, щоб мені в мирі заснути і спочити, оспівуючи, і благословляючи, і славлячи Тебе з Безначальним Твоїм Отцем і з Пресвятим, і Благим, і Животворчим Твоїм Духом, нині, і повсякчас, і на віки віків. Амінь.",
    "en": "O Lord Jesus Christ my God, have mercy on me a sinner, and forgive me, Thine unworthy servant, all wherein I have sinned against Thee during the whole time of my life, even unto this day: and if in aught I have sinned as a man, my voluntary and involuntary transgressions, in deed and in word, in mind and in thought, through distraction and inattention, and through my great sloth and negligence. If I have sworn by Thy name, if I have sworn falsely, or blasphemed in thought, or reproached anyone, or slandered, or grieved, or in aught angered anyone, or stolen, or committed fornication, or lied, or eaten in secret, or a friend came unto me and I despised him, or I have wounded and embittered a brother, or, while I stood at prayer and psalmody, my evil mind went about after evil things, or I have taken pleasure beyond what is fitting, or laughed foolishly, or spoken scoffingly, or been vainglorious, or been proud, or, beholding vain beauty, been led astray by it, or mocked at unseemly things; if in aught I have been negligent in my prayer, or have not kept the commandments of my spiritual father, or have spoken idly, or done any other evil thing: for all these, and greater than these, have I done, which I do not even remember. Have mercy, O Lord, and forgive me all things, that in peace I may lie down and sleep, singing, and blessing, and glorifying Thee, together with Thy Father Who is without beginning, and with Thy most holy, good and life-giving Spirit, now and ever, and unto ages of ages. Amen.",
    "fonte": {
     "cu": "P1874 img. n270-n271",

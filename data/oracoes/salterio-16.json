@@ -149,16 +149,16 @@
    "tipo": "verso",
    "sl": 109,
    "v": 0,
-   "cu": "Аллилу́іа, псало́мъ Дави́ду.",
-   "pt": "Aleluia, salmo de David.",
-   "ru": "Аллилуия. Псалом Давида.",
-   "uk": "Алилуя, псалом Давидів.",
-   "en": "Alleluia, a Psalm of David.",
+   "cu": "Псало́мъ Дави́ду.",
+   "pt": "Salmo de David.",
+   "ru": "Псалом Давида.",
+   "uk": "Псалом Давидів.",
+   "en": "A Psalm of David.",
    "sobrescrito": true,
    "fonte": {
     "cu": "P1874 img. n214"
    },
-   "nota": "Sobrescrito ausente da Bíblia isabelina (Ponomar, CSlElizabeth); texto do Saltério litúrgico P1874. Ponomar imprime «Аллилуіа» entre parênteses; retiram-se os parênteses."
+   "nota": "Sobrescrito ausente da Bíblia isabelina (Ponomar, CSlElizabeth); segue-se o Saltério atual (dec. 62) e a LXX. O P1874 (img. n214) lê «Аллилу́іа, псало́мъ Дави́ду»."
   },
   {
    "id": "sl-109-01",
@@ -268,7 +268,7 @@
    "cu": "Исповѣ́мся Тебѣ́, Го́споди, всѣмъ се́рдцемъ мои́мъ въ совѣ́тѣ пра́выхъ и со́нмѣ.",
    "pt": "Dar-Te-ei graças, Senhor, de todo o meu coração, no conselho dos retos e na assembleia.",
    "ru": "Исповедаюсь Тебе, Господи, всем сердцем моим в собрании и сонме праведных.",
-   "uk": "Славитиму Тебе, Господи, всім серцем моїм у раді правих і в зібранні.",
+   "uk": "Славитиму Тебе, Господи, всім серцем моїм у раді правих і в сонмі.",
    "en": "I will give Thee thanks, O Lord, with my whole heart, in the council of the upright, and in the congregation."
   },
   {
@@ -323,7 +323,7 @@
    "cu": "Крѣ́пость дѣлъ Свои́хъ возвѣсти́ лю́демъ Свои́мъ, да́ти имъ достоя́ніе язы́къ.",
    "pt": "Anunciou ao Seu povo a força das Suas obras, para lhes dar a herança das nações.",
    "ru": "Силу дел Своих возвестил Он народу Своему, чтобы дать ему наследие язычников.",
-   "uk": "Міць діл Своїх звістив Він народові Своєму, щоб дати їм спадщину народів.",
+   "uk": "Кріпость діл Своїх звістив Він людям Своїм, щоб дати їм спадщину народів.",
    "en": "He hath declared to His people the power of His works, to give them the inheritance of the heathen."
   },
   {
@@ -356,7 +356,7 @@
    "cu": "Избавле́ніе посла́ лю́демъ Свои́мъ: заповѣ́да въ вѣкъ завѣ́тъ Свой: свя́то и стра́шно и́мя Его́.",
    "pt": "Enviou a libertação ao Seu povo: ordenou para sempre a Sua aliança: santo e temível é o Seu nome.",
    "ru": "Избавление послал Он народу Своему, заповедал на век завет Свой.",
-   "uk": "Визволення послав Він народові Своєму, заповів навіки завіт Свій: святе і страшне ім’я Його.",
+   "uk": "Визволення послав Він людям Своїм, заповів навіки завіт Свій: святе і страшне ім’я Його.",
    "en": "He sent redemption to His people: He commanded His covenant for ever: holy and fearful is His Name."
   },
   {
@@ -487,7 +487,7 @@
    "sl": 111,
    "v": 9,
    "cu": "Расточи́, даде́ убо́гимъ: пра́вда его́ пребыва́етъ во вѣкъ вѣ́ка: рогъ его́ вознесе́тся въ сла́вѣ.",
-   "pt": "Espalhou, deu aos indigentes: a sua justiça permanece pelos séculos dos séculos: o seu chifre será exaltado em glória.",
+   "pt": "Espalhou, deu aos necessitados: a sua justiça permanece pelos séculos dos séculos: o seu chifre será exaltado em glória.",
    "ru": "Он расточил: дал нищим, правда его пребывает в век века, мощь его будет превознесена во славе.",
    "uk": "Розсипав, дав бідним: правда його перебуває на віки віків, ріг його піднесеться у славі.",
    "en": "He hath dispersed abroad; he hath given to the poor; his righteousness endureth for evermore: his horn shall be exalted with honour."
@@ -525,7 +525,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -690,7 +690,7 @@
    "sl": 112,
    "v": 7,
    "cu": "воздвиза́яй отъ земли́ ни́ща, и отъ гно́ища возвыша́яй убо́га:",
-   "pt": "que levanta da terra o pobre e ergue do monturo o indigente:",
+   "pt": "que levanta da terra o pobre e ergue do monturo o necessitado:",
    "ru": "Поднимающий с земли нищего и от гноища возвышающий убогого,",
    "uk": "що підіймає з землі убогого і з гноїща підносить бідного,",
    "en": "who lifteth up the poor from the earth, and raiseth up the needy from the dunghill;"
@@ -703,7 +703,7 @@
    "cu": "посади́ти его́ съ кня́зи, съ кня́зи люді́й свои́хъ:",
    "pt": "para o fazer sentar com os príncipes, com os príncipes do seu povo:",
    "ru": "Чтобы посадить его с князьями, с князьями народа Своего,",
-   "uk": "щоб посадити його з князями, з князями народу свого,",
+   "uk": "щоб посадити його з князями, з князями людей своїх,",
    "en": "to set him with princes, even with the princes of his people:"
   },
   {
@@ -712,7 +712,7 @@
    "sl": 112,
    "v": 9,
    "cu": "вселя́я непло́довь въ домъ, ма́терь о ча́дѣхъ веселя́щуся.",
-   "pt": "que faz habitar em casa a estéril, mãe que se regozija com os filhos.",
+   "pt": "que faz habitar em casa a estéril, mãe que se alegra com os filhos.",
    "ru": "Поселяющий неплодную в дом матерью, веселящеюся о детях своих?",
    "uk": "що оселяє неплідну в домі, матір, яка радіє дітьми.",
    "en": "who settleth the barren woman in a house, as a mother rejoicing over children."
@@ -748,7 +748,7 @@
    "cu": "Во исхо́дѣ Изра́илевѣ отъ Егѵ́пта, до́му Іа́ковля изъ люді́й ва́рваръ,",
    "pt": "Na saída de Israel do Egito, da casa de Jacob do meio de um povo bárbaro,",
    "ru": "По исходе Израиля из Египта, дома Иакова — из варварского народа,",
-   "uk": "Коли виходив Ізраїль із Єгипту, дім Якова — з народу варварського,",
+   "uk": "Коли виходив Ізраїль із Єгипту, дім Якова — з-поміж людей варварських,",
    "en": "At the going forth of Israel from Egypt, of the house of Jacob from a barbarous people,"
   },
   {
@@ -1081,7 +1081,8 @@
    "pt": "Envolveram-me as dores da morte, os perigos do Hades encontraram-me: encontrei aflição e dor, e invoquei o nome do Senhor:",
    "ru": "Объяли меня болезни смертные, муки адские постигли меня, скорбь и мучение я встретил и имя Господне призвал.",
    "uk": "Обійняли мене болі смертні, біди адові знайшли мене; скорботу і біль я знайшов, і ім’я Господнє призвав:",
-   "en": "The pangs of death compassed me; the dangers of hell found me: I found affliction and sorrow. Then I called on the Name of the Lord:"
+   "en": "The pangs of death compassed me; the dangers of Hades found me: I found affliction and sorrow. Then I called on the Name of the Lord:",
+   "nota": "EN: Brenton «hell»; «Hades» (dec. 71)."
   },
   {
    "id": "sl-114-04",
@@ -1160,7 +1161,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {
@@ -1306,7 +1307,7 @@
    "cu": "моли́твы моя́ Го́сподеви возда́мъ предъ всѣ́ми людьми́ Его́.",
    "pt": "cumprirei os meus votos ao Senhor diante de todo o Seu povo.",
    "ru": "Обеты мои Господу исполню пред всем народом Его.",
-   "uk": "Обітниці мої Господеві віддам перед усім народом Його.",
+   "uk": "Обітниці мої Господеві віддам перед усіма людьми Його.",
    "en": "I will pay my vows unto the Lord in the presence of all His people."
   },
   {
@@ -1350,7 +1351,7 @@
    "cu": "Моли́твы моя́ Го́сподеви возда́мъ предъ всѣ́ми людьми́ Его́,",
    "pt": "Cumprirei os meus votos ao Senhor diante de todo o Seu povo,",
    "ru": "Обеты мои Господу исполню пред всем народом Его,",
-   "uk": "Обітниці мої Господеві віддам перед усім народом Його,",
+   "uk": "Обітниці мої Господеві віддам перед усіма людьми Його,",
    "en": "I will pay my vows unto the Lord in the presence of all His people,"
   },
   {
@@ -1485,7 +1486,7 @@
    "cu": "Отъ ско́рби призва́хъ Го́спода, и услы́ша мя въ простра́нство.",
    "pt": "Na aflição invoquei o Senhor, e ouviu-me, pondo-me em lugar espaçoso.",
    "ru": "В скорби призвал я Господа, и Он услышал меня, (изведши) на простор.",
-   "uk": "Зі скорботи я призвав Господа, і Він вислухав мене на просторі.",
+   "uk": "Зі скорботи я призвав Господа, і Він почув мене на просторі.",
    "en": "I called on the Lord out of affliction: and He hearkened to me, so as to bring me into a wide place."
   },
   {
@@ -1584,7 +1585,7 @@
    "cu": "Крѣ́пость моя́ и пѣ́ніе мое́ Госпо́дь, и бысть ми во спасе́ніе.",
    "pt": "A minha força e o meu canto é o Senhor, e tornou-Se a minha salvação.",
    "ru": "Крепость моя и пение мое — Господь, и Он был мне спасением.",
-   "uk": "Міць моя і спів мій — Господь, і Він став мені спасінням.",
+   "uk": "Кріпость моя і спів мій — Господь, і Він став мені спасінням.",
    "en": "The Lord is my strength and my song, and is become my salvation."
   },
   {
@@ -1661,7 +1662,7 @@
    "cu": "Исповѣ́мся Тебѣ́, я́ко услы́шалъ мя еси́ и былъ еси́ мнѣ во спасе́ніе.",
    "pt": "Dar-Te-ei graças, porque me ouviste e Te tornaste a minha salvação.",
    "ru": "Исповедаюсь Тебе, ибо Ты услышал меня и был мне спасением.",
-   "uk": "Славитиму Тебе, бо Ти вислухав мене і став мені спасінням.",
+   "uk": "Славитиму Тебе, бо Ти почув мене і став мені спасінням.",
    "en": "I will give thanks to Thee; because Thou hast heard me, and art become my salvation."
   },
   {
@@ -1692,7 +1693,7 @@
    "sl": 117,
    "v": 24,
    "cu": "Сей день, его́же сотвори́ Госпо́дь, возра́дуемся и возвесели́мся въ онь.",
-   "pt": "Este é o dia que o Senhor fez: alegremo-nos e regozijemo-nos nele.",
+   "pt": "Este é o dia que o Senhor fez: exultemos e alegremo-nos nele.",
    "ru": "Сей день сотворил Господь: возрадуемся и возвеселимся в оный.",
    "uk": "Це день, що його створив Господь, зрадіймо і звеселімося в нім.",
    "en": "This is the day which the Lord hath made: let us exult and rejoice in it."
@@ -1738,7 +1739,7 @@
    "cu": "Богъ мой еси́ Ты, и исповѣ́мся Тебѣ́: Богъ мой еси́ Ты, и вознесу́ Тя: исповѣ́мся Тебѣ́, я́ко услы́шалъ мя еси́ и былъ еси́ мнѣ во спасе́ніе.",
    "pt": "Tu és o meu Deus, e dar-Te-ei graças; Tu és o meu Deus, e exaltar-Te-ei: dar-Te-ei graças, porque me ouviste e Te tornaste a minha salvação.",
    "ru": "Ты — Бог мой, и я буду славить Тебя. Ты — Бог мой, и я буду превозносить Тебя. Буду исповедаться Тебе, ибо Ты услышал меня и был мне спасением.",
-   "uk": "Ти Бог мій, і я славитиму Тебе; Ти Бог мій, і я піднесу Тебе; славитиму Тебе, бо Ти вислухав мене і став мені спасінням.",
+   "uk": "Ти Бог мій, і я славитиму Тебе; Ти Бог мій, і я піднесу Тебе; славитиму Тебе, бо Ти почув мене і став мені спасінням.",
    "en": "Thou art my God, and I will give Thee thanks: Thou art my God, and I will exalt Thee. I will give thanks to Thee, for Thou hast heard me, and art become my salvation."
   },
   {
@@ -1774,7 +1775,7 @@
    "tipo": "oracao",
    "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
    "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
-   "ru": "Аллилуия, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "ru": "Аллилуия, аллилуия, аллилуия, слава Тебе, Боже.",
    "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
    "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
    "fonte": {

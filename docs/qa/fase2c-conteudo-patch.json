@@ -1,0 +1,605 @@
+[
+ {
+  "ficheiro": "salterio-02.json",
+  "id": "sl-009-09",
+  "campo": "cu",
+  "de": "и Той суди́ти и́мать вселе́нней въ пра́вду, суди́ти и́мать лю́демъ въ правотѣ́.",
+  "para": "и Той суди́ти и́мать вселе́ннѣй въ пра́вду, суди́ти и́мать лю́демъ въ правотѣ́.",
+  "motivo": "Erro de transcrição (ѣ lido como е); dativo «вселе́ннѣй», como no Ponomar e nos Sl 95,13; 97,9.",
+  "fonte": "P1874 img. n041 (lê-se «вселе́ннѣй»); Ponomar Psalm.text (Bíblia isabelina)"
+ },
+ {
+  "ficheiro": "salterio-02.json",
+  "id": "sl-009-29",
+  "campo": "cu",
+  "de": "Присѣди́тъ въ лови́тельствѣ съ бога́тыми въ та́йныхъ, е́же уби́ти непови́ннаго: о́чи его́ на ни́щаго призира́ете.",
+  "para": "Присѣди́тъ въ лови́тельствѣ съ бога́тыми въ та́йныхъ, е́же уби́ти непови́ннаго: о́чи его́ на ни́щаго призира́етѣ.",
+  "motivo": "Erro de transcrição: dual neutro («о́чи … призира́етѣ»), como no Ponomar e no Sl 65,7.",
+  "fonte": "P1874 img. n043; Ponomar Psalm.text (Bíblia isabelina)"
+ },
+ {
+  "ficheiro": "salterio-02.json",
+  "id": "sl-010-04",
+  "campo": "cu",
+  "de": "Госпо́дь во хра́мѣ святѣ́мъ Свое́мъ. Госпо́дь, на небеси́ престо́лъ Его́: о́чи Его́ на ни́щаго призира́ете, вѣ́жди Его́ испыта́ете сы́ны человѣ́ческія.",
+  "para": "Госпо́дь во хра́мѣ святѣ́мъ Свое́мъ. Госпо́дь, на небеси́ престо́лъ Его́: о́чи Его́ на ни́щаго призира́етѣ, вѣ́жди Его́ испыта́етѣ сы́ны человѣ́ческія.",
+  "motivo": "Erro de transcrição: duais «призира́етѣ», «испыта́етѣ» (sujeitos «о́чи», «вѣ́жди»).",
+  "fonte": "P1874 img. n045; Ponomar Psalm.text (Bíblia isabelina)"
+ },
+ {
+  "ficheiro": "salterio-03.json",
+  "id": "sl-018-04",
+  "campo": "cu",
+  "de": "Не суть ре́чи, ниже́ словеса́, и́хже не слы́шатся гла́си ихъ.",
+  "para": "Не суть рѣ́чи, ниже́ словеса́, и́хже не слы́шатся гла́си ихъ.",
+  "motivo": "Erro de transcrição: «рѣчь» escreve-se com ѣ.",
+  "fonte": "P1874 img. n055 («Не су́ть рѣ́чи»); Ponomar Psalm.text (Bíblia isabelina)"
+ },
+ {
+  "ficheiro": "salterio-03.json",
+  "id": "sl-019-08",
+  "campo": "cu",
+  "de": "Сі́и на колесни́цахъ, и сі́и на ко́нѣхъ: мы же во и́мя Го́спода Бо́га на́шего призове́мъ.",
+  "para": "Сі́и на колесни́цахъ, и сі́и на ко́нехъ: мы же во и́мя Го́спода Бо́га на́шего призове́мъ.",
+  "motivo": "Erro de transcrição (е lido como ѣ).",
+  "fonte": "P1874 img. n057 («на ко́нехъ»); Ponomar Psalm.text (Bíblia isabelina)"
+ },
+ {
+  "ficheiro": "salterio-05.json",
+  "id": "sl-032-08",
+  "campo": "cu",
+  "de": "Да убои́тся Го́спода вся земля́, отъ Него́же да подви́жутся вси живу́щіи по вселе́нней:",
+  "para": "Да убои́тся Го́спода вся земля́, отъ Него́же да подви́жутся вси живу́щіи по вселе́ннѣй:",
+  "motivo": "Erro de transcrição (ѣ lido como е).",
+  "fonte": "P1874 img. n077; Ponomar Psalm.text (Bíblia isabelina)"
+ },
+ {
+  "ficheiro": "salterio-06.json",
+  "id": "sl-037-04",
+  "campo": "cu",
+  "de": "Нѣсть изцѣле́нія въ пло́ти мое́й отъ лица́ гнѣ́ва Твоего́, нѣсть ми́ра въ костѣ́хъ мои́хъ отъ лица́ грѣхъ мои́хъ.",
+  "para": "Нѣсть изцѣле́нія въ пло́ти мое́й отъ лица́ гнѣ́ва Твоего́, нѣсть ми́ра въ косте́хъ мои́хъ отъ лица́ грѣхъ мои́хъ.",
+  "motivo": "Erro de transcrição (е lido como ѣ); acento do Ponomar.",
+  "fonte": "P1874 img. n088 («въ ко́стехъ/косте́хъ», com е); Ponomar Psalm.text (Bíblia isabelina)"
+ },
+ {
+  "ficheiro": "salterio-04.json",
+  "id": "sl-030-11",
+  "campo": "cu",
+  "de": "Я́ко изче́зе въ болѣ́зни живо́тъ мой, и лѣ́та моя́ въ воздыха́ніихъ: изнемо́же нището́ю крѣ́пость моя́, и ко́сти моя́ смято́шася.",
+  "para": "Я́ко изчезе́ въ болѣ́зни живо́тъ мой, и лѣ́та моя́ въ воздыха́ніихъ: изнемо́же нището́ю крѣ́пость моя́, и ко́сти моя́ смято́шася.",
+  "motivo": "Acento: aoristo «изчезе́», como no Ponomar, no Saltério atual e nos Sl 72,26; 106,5; 142,7 desta app; o P1874 (img. n072) não mostra acento legível.",
+  "fonte": "Ponomar; Azbuka Very (verificação)"
+ },
+ {
+  "ficheiro": "salterio-06.json",
+  "id": "sl-045-10",
+  "campo": "cu",
+  "de": "отъе́мля бра́ни до конце́въ земли́, лукъ сокруши́тъ, и сло́митъ ору́жіе, и щиты́ сожже́тъ огне́мъ.",
+  "para": "отъе́мля бра́ни до коне́цъ земли́, лукъ сокруши́тъ, и сло́митъ ору́жіе, и щиты́ сожже́тъ огне́мъ.",
+  "motivo": "Dec. 72 (base isabelina) e dec. 62 (texto atual): a isabelina e o Saltério atual leem «до коне́цъ земли́»; «конце́въ» é leitura do P1874 (FONTES ⚠1).",
+  "fonte": "Ponomar; CSlElizabeth; Azbuka Very (verificação); P1874 img. n101 (variante)"
+ },
+ {
+  "ficheiro": "salterio-06.json",
+  "id": "sl-045-10",
+  "campo": "nota",
+  "de": "P1874 (transcrição verificada) «до конце́въ земли́»; a Bíblia isabelina (Ponomar, CSlElizabeth) «до коне́цъ земли́». ⚠ Mantém-se a transcrição do P1874 (decisão da 1.ª fase); por uniformidade com a regra «isabelina» poderia ler-se «коне́цъ».",
+  "para": "Bíblia isabelina (Ponomar, CSlElizabeth) e Saltério atual: «до коне́цъ земли́». O P1874 (img. n101) lê «до конце́въ земли́» (variante antiga; dec. 62, 72).",
+  "motivo": "Atualização da nota após a correção do versículo",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-01.json",
+  "id": "sl-004-01",
+  "campo": "cu",
+  "de": "Въ коне́цъ, въ пѣ́снехъ, Псало́мъ Дави́ду.",
+  "para": "Въ коне́цъ, въ пѣ́снехъ, псало́мъ Дави́ду.",
+  "motivo": "Maiúscula indevida a meio do sobrescrito (uniformização com os restantes 80 sobrescritos).",
+  "fonte": "P1874 (minúscula; cf. img. n039, Sl 8); Ponomar"
+ },
+ {
+  "ficheiro": "salterio-01.json",
+  "id": "sl-005-01",
+  "campo": "cu",
+  "de": "О наслѣ́дствующемъ, Псало́мъ Дави́ду.",
+  "para": "О наслѣ́дствующемъ, псало́мъ Дави́ду.",
+  "motivo": "Maiúscula indevida a meio do sobrescrito (uniformização com os restantes 80 sobrescritos).",
+  "fonte": "P1874 (minúscula; cf. img. n039, Sl 8); Ponomar"
+ },
+ {
+  "ficheiro": "salterio-01.json",
+  "id": "sl-008-01",
+  "campo": "cu",
+  "de": "Въ коне́цъ, о точи́лѣхъ, Псало́мъ Дави́ду.",
+  "para": "Въ коне́цъ, о точи́лѣхъ, псало́мъ Дави́ду.",
+  "motivo": "Maiúscula indevida a meio do sobrescrito (uniformização com os restantes 80 sobrescritos).",
+  "fonte": "P1874 (minúscula; cf. img. n039, Sl 8); Ponomar"
+ },
+ {
+  "ficheiro": "salterio-08.json",
+  "id": "sl-060-01",
+  "campo": "cu",
+  "de": "Въ коне́цъ, въ пѣ́снехъ, Дави́ду Псало́мъ.",
+  "para": "Въ коне́цъ, въ пѣ́снехъ, Дави́ду псало́мъ.",
+  "motivo": "Maiúscula indevida a meio do sobrescrito (uniformização com os restantes 80 sobrescritos).",
+  "fonte": "P1874 (minúscula; cf. img. n039, Sl 8); Ponomar"
+ },
+ {
+  "ficheiro": "salterio-19.json",
+  "id": "sl-141-07",
+  "campo": "cu",
+  "de": "Вонми́ моле́нію моему́, я́ко смири́хся зѣло́: изба́ви мя отъ гоня́щихъ мя, я́ко укрепи́шася па́че мене́. Изведи́ изъ темни́цы ду́шу мою́, исповѣ́датися и́мени Твоему́: мене́ ждутъ пра́ведницы, до́ндеже возда́си мнѣ.",
+  "para": "Вонми́ моле́нію моему́, я́ко смири́хся зѣло́: изба́ви мя отъ гоня́щихъ мя, я́ко укрѣпи́шася па́че мене́. Изведи́ изъ темни́цы ду́шу мою́, исповѣ́датися и́мени Твоему́: мене́ ждутъ пра́ведницы, до́ндеже возда́си мнѣ.",
+  "motivo": "Ortografia: raiz «крѣп-» com ѣ (gralha do Ponomar «ᲂу҆крепи́шасѧ»); cf. Sl 68,5 «укрѣпи́шася» e todos os outros ficheiros.",
+  "fonte": "Léxico da app (крѣп-); ortografia sinodal «ᲂу҆крѣпи́шасѧ»"
+ },
+ {
+  "ficheiro": "salterio-16.json",
+  "id": "sl-109-00",
+  "campo": "cu",
+  "de": "Аллилу́іа, псало́мъ Дави́ду.",
+  "para": "Псало́мъ Дави́ду.",
+  "motivo": "Dec. 62: o Saltério atual e a LXX («Τῷ Δαυιδ ψαλμός») leem só «Псаломъ Давиду»; «Аллилуіа» é acrescento do P1874 (FONTES ⚠3).",
+  "fonte": "Azbuka Very, Псалтирь (verificação); LXX; P1874 img. n214 (variante)"
+ },
+ {
+  "ficheiro": "salterio-16.json",
+  "id": "sl-109-00",
+  "campo": "pt",
+  "de": "Aleluia, salmo de David.",
+  "para": "Salmo de David.",
+  "motivo": "Acompanha a correção do eslavo (dec. 62).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-16.json",
+  "id": "sl-109-00",
+  "campo": "ru",
+  "de": "Аллилуия. Псалом Давида.",
+  "para": "Псалом Давида.",
+  "motivo": "Acompanha a correção do eslavo (dec. 62).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-16.json",
+  "id": "sl-109-00",
+  "campo": "uk",
+  "de": "Алилуя, псалом Давидів.",
+  "para": "Псалом Давидів.",
+  "motivo": "Acompanha a correção do eslavo (dec. 62).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-16.json",
+  "id": "sl-109-00",
+  "campo": "en",
+  "de": "Alleluia, a Psalm of David.",
+  "para": "A Psalm of David.",
+  "motivo": "Acompanha a correção do eslavo (dec. 62).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-16.json",
+  "id": "sl-109-00",
+  "campo": "nota",
+  "de": "Sobrescrito ausente da Bíblia isabelina (Ponomar, CSlElizabeth); texto do Saltério litúrgico P1874. Ponomar imprime «Аллилуіа» entre parênteses; retiram-se os parênteses.",
+  "para": "Sobrescrito ausente da Bíblia isabelina (Ponomar, CSlElizabeth); segue-se o Saltério atual (dec. 62) e a LXX. O P1874 (img. n214) lê «Аллилу́іа, псало́мъ Дави́ду».",
+  "motivo": "Atualização da nota",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-01.json",
+  "id": "k01-p-10",
+  "campo": "cu",
+  "de": "А́ще пра́ведникъ едва́ спаса́ется, азъ гдѣ явлю́ся, грѣ́шный? Тя́готы и зно́я дневна́го не понесо́хъ, но съ нае́мники единонадеся́таго ча́са сопричти́ мя, Бо́же, и спаси́ мя.",
+  "para": "А́ще пра́ведникъ едва́ спаса́ется, азъ гдѣ явлю́ся, грѣ́шный? Тяготы́ и зно́я дневна́го не понесо́хъ, но съ нае́мники единонадеся́таго часа́ сопричти́ мя, Бо́же, и спаси́ мя.",
+  "motivo": "Acentos (não legíveis no P1874): «тяготы́», «часа́», como no uso eslavo (Ponomar: «тѧготы̀», «часа̀» ×25) e no Saltério atual.",
+  "fonte": "Ponomar (corpus); Azbuka Very (verificação)"
+ },
+ {
+  "ficheiro": "salterio-01.json",
+  "id": "k01-p-12",
+  "campo": "cu",
+  "de": "И ны́нѣ: Упова́ніе христіа́нъ, Пресвята́я Дѣ́во, Его́же родила́ еси́ Бо́га па́че ума́ же и сло́ва, непреста́нно моли́ съ го́рними си́лами да́ти оставле́ніе грѣхо́въ намъ всѣмъ и исправле́ніе жи́тія вѣ́рою и любо́вію при́сно Тя чту́щимъ.",
+  "para": "И ны́нѣ: Упова́ніе христіа́нъ, Пресвята́я Дѣ́во, Его́же родила́ еси́ Бо́га па́че ума́ же и сло́ва, непреста́нно моли́ съ го́рними си́лами да́ти оставле́ніе грѣхо́въ намъ всѣмъ и исправле́ніе житія́ вѣ́рою и любо́вію при́сно Тя чту́щимъ.",
+  "motivo": "Acento: «житія́» (P1874 img. n040 «житїѧ̀»; Ponomar ×41).",
+  "fonte": "P1874 img. n040; Ponomar"
+ },
+ {
+  "ficheiro": "salterio-01.json",
+  "id": "k01-p-19",
+  "campo": "cu",
+  "de": "Влады́ко Вседержи́телю, Непостижи́ме, Нача́ло свѣ́та и преу́мная Си́ло, И́же Ѵпоста́снаго Сло́ва Отче́ и единоси́льнаго Твоего́ Ду́ха Испусти́телю: милосе́рдныя ра́ди ми́лости и неизрече́нныя бла́гости не презрѣ́вый человѣ́ческаго естества́, тмо́ю грѣха́ содержи́маго, но Боже́ственными свѣ́ты свяще́нныхъ Твои́хъ уче́ній, зако́номъ и проро́ки свѣти́вый мі́ру, послѣди́ же намъ того́ Единоро́днаго Твоего́ Сы́на благоволи́вый пло́тію возсія́ти и ко осія́нію насъ Твоего́ просвѣще́нія наста́вити, да бу́дутъ у́ши Твои́ вне́млющи гла́су моле́нія на́шего; и да́руй намъ, Бо́же, во бдѣ́нномъ и тре́звенномъ се́рдцѣ всю настоя́щаго жи́тія нощь пройти́, ожида́ющымъ прише́ствія Сы́на Твоего́ и Бо́га на́шего, Судіи́ всѣхъ, да не возлежа́ще и спя́ще, но бо́дрствующе и воздви́жени въ дѣ́ланіе за́повѣдей Твои́хъ обря́щемся, и въ ра́дость Его́ совни́демъ, идѣ́же пра́зднующихъ гласъ непреста́нный и неизрече́нная сла́дость зря́щихъ Твоего́ лица́ добро́ту неизглаго́ланную: я́ко благъ и Человѣколю́бецъ Богъ еси́, и Тебѣ́ сла́ву возсыла́емъ, Отцу́ и Сы́ну и Свято́му Ду́ху, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+  "para": "Влады́ко Вседержи́телю, Непостижи́ме, Нача́ло свѣ́та и преу́мная Си́ло, И́же Ѵпоста́снаго Сло́ва Оте́цъ и единоси́льнаго Твоего́ Ду́ха Испусти́тель: милосе́рдныя ра́ди ми́лости и неизрече́нныя бла́гости не презрѣ́вый человѣ́ческаго естества́, тмо́ю грѣха́ содержи́маго, но Боже́ственными свѣ́ты свяще́нныхъ Твои́хъ уче́ній, зако́номъ и проро́ки свѣти́вый мі́ру, послѣди́ же намъ того́ Единоро́днаго Твоего́ Сы́на благоволи́вый пло́тію возсія́ти и ко осія́нію насъ Твоего́ просвѣще́нія наста́вити, да бу́дутъ у́ши Твои́ вне́млюще гла́су моле́нія на́шего; и да́руй намъ, Бо́же, во бдѣ́нномъ и тре́звенномъ се́рдцѣ всю настоя́щаго житія́ нощь прейти́, ожида́ющымъ прише́ствія Сы́на Твоего́ и Бо́га на́шего, Судіи́ всѣхъ, да не возлежа́ще и спя́ще, но бо́дрствующе и воздви́жени въ дѣ́ланіе за́повѣдей Твои́хъ обря́щемся, и въ ра́дость Его́ совни́демъ, идѣ́же пра́зднующихъ гласъ непреста́нный и неизрече́нная сла́дость зря́щихъ Твоего́ лица́ добро́ту неизглаго́ланную: я́ко благъ и Человѣколю́бецъ Богъ еси́, и Тебѣ́ сла́ву возсыла́емъ, Отцу́ и Сы́ну и Свято́му Ду́ху, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+  "motivo": "Erros de transcrição: o P1874 lê «ѻ҆ц҃ъ» (Оте́цъ), «и҆спусти́тель», «вне́млющє», «пре́йти», «житїѧ̀» (igual ao Saltério atual).",
+  "fonte": "P1874 img. n040 (linhas 9–10, 17, 20)"
+ },
+ {
+  "ficheiro": "salterio-02.json",
+  "id": "k02-p-12",
+  "campo": "cu",
+  "de": "И ны́нѣ: Предста́тельство те́плое христіа́нъ, Сы́на Твоего́ Моле́бнице, вся́каго злодѣ́йства и лю́тости изба́вити насъ ра́тника, и да́ти проще́ніе намъ, о ни́хже согрѣши́хомъ, милосе́рдія ра́ди щедро́тъ, Твои́ми моли́твами, Ма́ти Дѣ́во.",
+  "para": "И ны́нѣ: Предста́тельство те́плое христіа́нъ, Сы́на Твоего́ моли́, Богоро́дице, вся́каго злодѣ́йства и лю́тости изба́вити насъ ра́тника, и да́ти проще́ніе намъ, о ни́хже согрѣши́хомъ, милосе́рдія ра́ди щедро́тъ, Твои́ми моли́твами, Ма́ти Дѣ́во.",
+  "motivo": "Erro de transcrição: o P1874 lê «сн҃а твоего̀ молѝ, бцⷣе» (igual ao Saltério atual).",
+  "fonte": "P1874 img. n051"
+ },
+ {
+  "ficheiro": "salterio-02.json",
+  "id": "k02-p-12",
+  "campo": "pt",
+  "de": "E agora…: Ardente protetora dos cristãos, intercessora junto do Teu Filho, livra-nos de toda a malícia e crueldade do inimigo e alcança-nos o perdão daquilo em que pecámos, pela misericórdia das [Suas] compaixões, pelas Tuas orações, ó Mãe Virgem.",
+  "para": "E agora…: Ardente protetora dos cristãos, roga ao Teu Filho, ó Mãe de Deus, que nos livre de toda a malícia e crueldade do inimigo e nos conceda o perdão daquilo em que pecámos, pela misericórdia das [Suas] compaixões, pelas Tuas orações, ó Mãe Virgem.",
+  "motivo": "Acompanha a correção do eslavo («моли́, Богоро́дице»).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-02.json",
+  "id": "k02-p-12",
+  "campo": "ru",
+  "de": "И ныне: Теплое предстательство христиан, Молитвенница пред Сыном Твоим, избавь нас от всякого злодейства и лютости врага и даруй нам прощение в том, в чем мы согрешили, ради милосердия щедрот, Твоими молитвами, Мати Дева.",
+  "para": "И ныне: Теплое предстательство христиан, Богородица, моли Сына Твоего избавить нас от всякого злодейства и лютости врага и даровать нам прощение в том, в чем мы согрешили, ради милосердия щедрот, Твоими молитвами, Мати Дева.",
+  "motivo": "Acompanha a correção do eslavo («моли́, Богоро́дице»).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-02.json",
+  "id": "k02-p-12",
+  "campo": "uk",
+  "de": "І нині: Тепле заступництво християн, Молитвенице перед Сином Твоїм, визволь нас від усякого злодіяння і лютості ворога і даруй нам прощення того, в чому ми згрішили, заради милосердя щедрот, Твоїми молитвами, Мати Діво.",
+  "para": "І нині: Тепле заступництво християн, Богородице, благай Сина Твого визволити нас від усякого злодіяння і лютості ворога і дарувати нам прощення того, в чому ми згрішили, заради милосердя щедрот, Твоїми молитвами, Мати Діво.",
+  "motivo": "Acompanha a correção do eslavo («моли́, Богоро́дице»).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-02.json",
+  "id": "k02-p-12",
+  "campo": "en",
+  "de": "Now and ever…: Fervent protection of Christians, Intercessor with thy Son, deliver us from every evil deed and cruelty of the foe, and grant us forgiveness of that wherein we have sinned, for the mercy of His compassions, through thy prayers, O Virgin Mother.",
+  "para": "Now and ever…: Fervent protection of Christians, O Theotokos, entreat thy Son to deliver us from every evil deed and cruelty of the foe, and to grant us forgiveness of that wherein we have sinned, for the mercy of His compassions, through thy prayers, O Virgin Mother.",
+  "motivo": "Acompanha a correção do eslavo («моли́, Богоро́дице»).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-03.json",
+  "id": "k03-p-10",
+  "campo": "cu",
+  "de": "Доко́лѣ, душе́ моя́, пребыва́еши во прегрѣше́ніихъ? Доко́лѣ пріе́млеши покая́нія преложе́ніе? Пріими́ во умѣ́ судъ гряду́щій и возопі́й Го́сподеви: Сердцевѣ́дче, согрѣши́хъ, пре́жде да́же не осу́диши мя, поми́луй мя.",
+  "para": "Доко́лѣ, душе́ моя́, пребыва́еши въ прегрѣше́ніихъ? Доко́лѣ пріе́млеши покая́нія преложе́ніе? Пріими́ во умѣ́ судъ гряду́щій и возопі́й Го́споду: Сердцевѣ́дче, согрѣши́хъ, пре́жде да́же не осу́диши мя, поми́луй мя.",
+  "motivo": "Erros de transcrição: o P1874 lê «въ прегрѣше́нїихъ» e «гдⷭ҇ꙋ» (Го́споду).",
+  "fonte": "P1874 img. n063"
+ },
+ {
+  "ficheiro": "salterio-03.json",
+  "id": "k03-p-11",
+  "campo": "cu",
+  "de": "Сла́ва: На стра́шномъ суди́щи безъ оглаго́льниковъ облича́юся, безъ свидѣ́телей осужда́юся: кни́ги бо со́вѣстныя разгнѣта́ются, и дѣла́ сокрове́нная открыва́ются. Пре́жде не́же во о́номъ всенаро́днѣмъ позо́рищи и́маши испыта́ти я́же мно́ю содѣ́янная, Бо́же, очи́сти мя и спаси́ мя.",
+  "para": "Сла́ва: На стра́шномъ суди́щи безъ оглаго́льниковъ облича́юся, безъ свидѣ́телей осужда́юся: кни́ги бо со́вѣстныя разгиба́ются, и дѣла́ сокрове́нная открыва́ются. Пре́жде не́же во о́номъ всенаро́дномъ позо́рищи и́маши испыта́ти я́же мно́ю содѣ́янная, Бо́же, очи́сти мя и спаси́ мя.",
+  "motivo": "Erros de transcrição: o P1874 lê «разгиба́ютсѧ» e «всенаро́дномъ» (igual ao Saltério atual).",
+  "fonte": "P1874 img. n063"
+ },
+ {
+  "ficheiro": "salterio-03.json",
+  "id": "k03-p-12",
+  "campo": "cu",
+  "de": "И ны́нѣ: Недоразумѣва́емое и непостижи́мое есть, Богоро́дице, Богоблагода́тная, содѣ́янное о Тебѣ́ стра́шное та́инство: необъе́млемаго бо зачала́, родила́ еси́ пло́тію облече́ннаго отъ чи́стыхъ крове́й Твои́хъ: Его́же чтя, я́ко Сы́на Твоего́, моли́ спасти́ся всѣмъ пою́щимъ Тя.",
+  "para": "И ны́нѣ: Недоразумѣва́емое и непостижи́мое есть, Влады́чице Богоблагода́тная, содѣ́янное о Тебѣ́ стра́шное та́инство: необъе́млемаго бо заче́нши, родила́ еси́ пло́тію обложе́ннаго отъ чи́стыхъ крове́й Твои́хъ: Его́же, Чи́стая, я́ко Сы́на Твоего́, моли́ спасти́ вся пою́щыя Тя.",
+  "motivo": "Erros de transcrição (texto reconstituído): o P1874 lê «Влⷣчце бг҃облгⷣа́тнаѧ … заче́нши … ѡ҆бложе́ннаго … є҆го́же чⷭ҇таѧ … молѝ спастѝ всѧ̑ пою́щыѧ тѧ̀» (igual ao Saltério atual).",
+  "fonte": "P1874 img. n063"
+ },
+ {
+  "ficheiro": "salterio-03.json",
+  "id": "k03-p-12",
+  "campo": "pt",
+  "de": "E agora…: Inconcebível e incompreensível é, ó Mãe de Deus cheia da graça divina, o tremendo mistério realizado em Ti: pois concebeste o Incircunscrito e deste à luz, revestido de carne do Teu sangue puríssimo, Aquele a Quem, honrando-O como Teu Filho, rogas pela salvação de todos os que Te cantam.",
+  "para": "E agora…: Inconcebível e incompreensível é, ó Soberana cheia da graça divina, o tremendo mistério realizado em Ti: pois concebeste o Incircunscrito e deste à luz, revestido de carne do Teu sangue puríssimo, a Ele, ó Puríssima, como a Teu Filho, roga que salve todos os que Te cantam.",
+  "motivo": "Acompanha a correção do eslavo («Влады́чице», «Его́же, Чи́стая … моли́ спасти́ вся пою́щыя Тя»).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-03.json",
+  "id": "k03-p-12",
+  "campo": "ru",
+  "de": "И ныне: Неизъяснимо и непостижимо, Богородица Богоблагодатная, совершившееся в Тебе страшное таинство: ибо Ты зачала Необъятного и родила облеченного плотью от чистых кровей Твоих; Его, чтя как Сына Твоего, моли о спасении всех, воспевающих Тебя.",
+  "para": "И ныне: Неизъяснимо и непостижимо, Владычица Богоблагодатная, совершившееся в Тебе страшное таинство: ибо Ты зачала Необъятного и родила облеченного плотью от чистых кровей Твоих; Его, Чистая, как Сына Твоего, моли спасти всех, воспевающих Тебя.",
+  "motivo": "Acompanha a correção do eslavo.",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-03.json",
+  "id": "k03-p-12",
+  "campo": "uk",
+  "de": "І нині: Незбагненне і неосяжне, Богородице Богоблагодатна, звершене в Тобі страшне таїнство: бо Ти зачала Неосяжного і народила Його, зодягненого в плоть із чистої крові Твоєї; Його, шануючи як Сина Твого, благай про спасіння всіх, що оспівують Тебе.",
+  "para": "І нині: Незбагненне і неосяжне, Владичице Богоблагодатна, звершене в Тобі страшне таїнство: бо Ти зачала Неосяжного і народила Його, зодягненого в плоть із чистої крові Твоєї; Його, Пречиста, як Сина Твого, благай спасти всіх, що оспівують Тебе.",
+  "motivo": "Acompanha a correção do eslavo.",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-03.json",
+  "id": "k03-p-12",
+  "campo": "en",
+  "de": "Now and ever…: Beyond understanding and incomprehensible, O Theotokos full of divine grace, is the dread mystery wrought in thee: for thou didst conceive the Uncontainable, and didst bear Him clothed in flesh from thy pure blood; honouring Him as thy Son, pray that all who sing of thee may be saved.",
+  "para": "Now and ever…: Beyond understanding and incomprehensible, O Lady full of divine grace, is the dread mystery wrought in thee: for thou didst conceive the Uncontainable, and didst bear Him clothed in flesh from thy pure blood; Him, O Pure One, as thy Son, entreat to save all who sing of thee.",
+  "motivo": "Acompanha a correção do eslavo.",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-03.json",
+  "id": "k03-p-19",
+  "campo": "cu",
+  "de": "Го́споди Вседержи́телю, Сло́ве пребезнача́льнаго Отца́, Самосоверше́нный Бо́же Іису́се Христе́, милосе́рдія ра́ди безприкла́днаго ми́лости Твоея́ никако́же разлуча́яйся Твои́хъ рабо́въ, но при́сно въ нихъ почива́яй, не оста́ви мя раба́ Твоего́, Всесвяты́й Царю́, но даждь мнѣ, недосто́йному, ра́дованіе спасе́нія Твоего́, и просвѣти́ мой умъ свѣ́томъ позна́нія Ева́нгелія Твоего́, ду́шу мою́ любо́вію Креста́ Твоего́ обяжи́, тѣ́ло же мое́ Твои́мъ безстра́стіемъ укра́си, мы́сли умири́, и но́зѣ мои́ сохрани́ отъ поползнове́нія, и не погуби́ мя со беззако́ньми мои́ми, Бла́гій Го́споди, но искуси́ мя, Бо́же, и вразуми́ се́рдце мое́, испыта́й мя и увѣ́ждь стези́ моя́, и виждь, а́ще путь беззако́нія во мнѣ, и отврати́ отъ него́, и наста́ви мя на путь вѣ́ченъ. Ты бо еси́ Путь, и И́стина, и Живо́тъ, и Тебѣ́ сла́ву возсыла́емъ, со Безнача́льнымъ Твои́мъ Отце́мъ и Пресвяты́мъ, и Благи́мъ, и Животворя́щимъ Ду́хомъ, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+  "para": "Го́споди Вседержи́телю, Сло́ве пребезнача́льнаго Отца́, Самосоверше́нный Бо́же Іису́се Христе́, милосе́рдія ра́ди безприкла́днаго ми́лости Твоея́ никако́же разлуча́яйся Твои́хъ рабо́въ, но при́сно въ нихъ почива́яй, не оста́ви мя раба́ Твоего́, Всесвяты́й Царю́, но даждь мнѣ, недосто́йному, ра́дованіе спасе́нія Твоего́, и просвѣти́ мой умъ свѣ́томъ позна́нія Ева́нгелія Твоего́, ду́шу мою́ любо́вію Креста́ Твоего́ обяжи́, тѣ́ло же мое́ Твои́мъ безстра́стіемъ украси́, мы́сли умири́, и но́зѣ мои́ сохрани́ отъ поползнове́нія, и не погуби́ мя со беззако́ньми мои́ми, Благі́й Го́споди, но искуси́ мя, Бо́же, и вразуми́ се́рдце мое́, испыта́й мя и увѣ́ждь стези́ моя́, и виждь, а́ще путь беззако́нія во мнѣ, и отврати́ отъ него́, и наста́ви мя на путь вѣ́ченъ. Ты бо еси́ Путь, и И́стина, и Живо́тъ, и Тебѣ́ сла́ву возсыла́емъ, со Безнача́льнымъ Твои́мъ Отце́мъ и Пресвяты́мъ, и Благи́мъ, и Животворя́щимъ Ду́хомъ, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+  "motivo": "Acentos: imperativo «украси́» (Ponomar «ᲂу҆красѝ» ×8) e «Благі́й» (Ponomar «бл҃гі́й» ×14); o P1874 não os mostra legíveis.",
+  "fonte": "Ponomar (corpus); Azbuka Very (verificação)"
+ },
+ {
+  "ficheiro": "salterio-04.json",
+  "id": "k04-p-08",
+  "campo": "cu",
+  "de": "Тропари́, гласъ 4:",
+  "para": "Тропари́, гласъ 7:",
+  "motivo": "Dec. 62: o Saltério atual indica tom 7 para estes tropários; o P1874 (img. n075) imprime «гласъ д҃» (FONTES ⚠2). ⚠ Confirmar.",
+  "fonte": "Azbuka Very, Псалтирь по кафизмам (verificação); P1874 img. n075 (variante)"
+ },
+ {
+  "ficheiro": "salterio-04.json",
+  "id": "k04-p-08",
+  "campo": "pt",
+  "de": "Tropários, tom 4:",
+  "para": "Tropários, tom 7:",
+  "motivo": "Acompanha a correção do tom (dec. 62).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-04.json",
+  "id": "k04-p-08",
+  "campo": "ru",
+  "de": "Тропари, глас 4:",
+  "para": "Тропари, глас 7:",
+  "motivo": "Acompanha a correção do tom (dec. 62).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-04.json",
+  "id": "k04-p-08",
+  "campo": "uk",
+  "de": "Тропарі, глас 4:",
+  "para": "Тропарі, глас 7:",
+  "motivo": "Acompanha a correção do tom (dec. 62).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-04.json",
+  "id": "k04-p-08",
+  "campo": "en",
+  "de": "Troparia, Tone 4:",
+  "para": "Troparia, Tone 7:",
+  "motivo": "Acompanha a correção do tom (dec. 62).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-04.json",
+  "id": "k04-p-08",
+  "campo": "nota",
+  "de": "P1874 img. n075: «гласъ д҃» (4). ⚠ O Saltério atual (Azbuka Very) indica o tom 7 para estes tropários.",
+  "para": "Tom segundo o Saltério atual (dec. 62); o P1874 (img. n075) imprime «гласъ д҃» (4).",
+  "motivo": "Atualização da nota",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-04.json",
+  "id": "k04-p-10",
+  "campo": "cu",
+  "de": "Преплава́я пучи́ну настоя́щаго жи́тія, помышля́ю бе́здну мно́гихъ мои́хъ золъ, и не имѣ́я корми́теля помышле́ній, Петро́въ провѣща́ваю Ти гласъ: спаси́ мя, Христе́, спаси́ мя, Бо́же, я́ко Человѣколю́бецъ.",
+  "para": "Преплава́я пучи́ну настоя́щаго житія́, помышля́ю бе́здну мно́гихъ мои́хъ золъ, и не имѣ́я окорми́теля помышле́ній, Петро́въ провѣща́ваю Ти гласъ: спаси́ мя, Христе́, спаси́ мя, Бо́же, я́ко Человѣколю́бецъ.",
+  "motivo": "Erro de transcrição: o P1874 lê «ѡ҆корми́телѧ»; acento «житія́» (Ponomar ×41).",
+  "fonte": "P1874 img. n075; Ponomar"
+ },
+ {
+  "ficheiro": "salterio-04.json",
+  "id": "k04-p-11",
+  "campo": "cu",
+  "de": "Сла́ва: Ско́ро совни́демъ въ небе́сный черто́гъ Христо́въ, да вси услы́шимъ блаже́нный гласъ Христа́ Бо́га на́шего: Пріиди́те, лю́бящіи небе́сную сла́ву, сопричастни́цы бы́вше му́дрыхъ дѣвъ, укра́сивше свѣщи́ на́ша вѣ́рою.",
+  "para": "Сла́ва: Ско́ро совни́демъ въ невѣ́стникъ Христо́въ, да вси услы́шимъ блаже́нный гласъ Христа́ Бо́га на́шего: Пріиди́те, лю́бящіи небе́сную сла́ву, соприча́стницы бы́вше му́дрыхъ дѣвъ, уясни́вше свѣщы́ на́ша вѣ́рою.",
+  "motivo": "Erros de transcrição: o P1874 lê «въ невѣ́стникъ хрⷭ҇то́въ» e «ᲂу҆ꙗ҆сни́вше свѣщы̀» (igual ao Saltério atual); acento «соприча́стницы».",
+  "fonte": "P1874 img. n075; Ponomar"
+ },
+ {
+  "ficheiro": "salterio-04.json",
+  "id": "k04-p-11",
+  "campo": "pt",
+  "de": "Glória…: Entremos depressa na câmara nupcial celeste de Cristo, para que todos ouçamos a voz bem-aventurada de Cristo nosso Deus: «Vinde, vós que amais a glória celeste», tornados companheiros das virgens sábias, tendo adornado com a fé as nossas lâmpadas.",
+  "para": "Glória…: Entremos depressa na câmara nupcial de Cristo, para que todos ouçamos a voz bem-aventurada de Cristo nosso Deus: «Vinde, vós que amais a glória celeste», tornados companheiros das virgens sábias, tendo feito brilhar com a fé as nossas lâmpadas.",
+  "motivo": "Acompanha a correção do eslavo («невѣ́стникъ», «уясни́вше»).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-04.json",
+  "id": "k04-p-11",
+  "campo": "ru",
+  "de": "Слава: Скорее войдем вместе в небесный чертог Христов, чтобы все мы услышали блаженный глас Христа Бога нашего: «Придите, любящие небесную славу», — став сопричастниками мудрых дев, украсив верою светильники наши.",
+  "para": "Слава: Скорее войдем вместе в брачный чертог Христов, чтобы все мы услышали блаженный глас Христа Бога нашего: «Придите, любящие небесную славу», — став сопричастниками мудрых дев, сделав светлыми верою светильники наши.",
+  "motivo": "Acompanha a correção do eslavo («невѣ́стникъ», «уясни́вше»).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-04.json",
+  "id": "k04-p-11",
+  "campo": "uk",
+  "de": "Слава: Швидше ввійдімо разом до небесного чертога Христового, щоб усі ми почули блаженний голос Христа Бога нашого: «Прийдіть, ви, що любите небесну славу», — ставши спільниками мудрих дів, прикрасивши вірою світильники наші.",
+  "para": "Слава: Швидше ввійдімо разом до весільного чертога Христового, щоб усі ми почули блаженний голос Христа Бога нашого: «Прийдіть, ви, що любите небесну славу», — ставши спільниками мудрих дів, зробивши ясними вірою світильники наші.",
+  "motivo": "Acompanha a correção do eslavo («невѣ́стникъ», «уясни́вше»).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-04.json",
+  "id": "k04-p-11",
+  "campo": "en",
+  "de": "Glory…: Let us speedily enter together into the heavenly bridechamber of Christ, that we all may hear the blessed voice of Christ our God: «Come, ye that love the heavenly glory», being made companions of the wise virgins, having adorned our lamps with faith.",
+  "para": "Glory…: Let us speedily enter together into the bridechamber of Christ, that we all may hear the blessed voice of Christ our God: «Come, ye that love the heavenly glory», being made companions of the wise virgins, having made bright our lamps with faith.",
+  "motivo": "Acompanha a correção do eslavo («невѣ́стникъ», «уясни́вше»).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-04.json",
+  "id": "k04-p-12",
+  "campo": "cu",
+  "de": "И ны́нѣ: Душе́, пока́йся пре́жде исхо́да твоего́: судъ неумы́тенъ грѣ́шнымъ есть и нестерпи́мый. Возопі́й Го́сподеви во умиле́ніи се́рдца: согрѣши́хъ Ти въ вѣ́дѣніи и не въ вѣ́дѣніи, Ще́дрый, моли́твами Богоро́дицы уще́дри и спаси́ мя.",
+  "para": "И ны́нѣ: Душе́, пока́йся пре́жде исхо́да твоего́: судъ неумы́тенъ грѣ́шнымъ есть и нестерпи́мый. Возопі́й Го́споду во умиле́ніи се́рдца: согрѣши́хъ Ти въ вѣ́дѣніи и не въ вѣ́дѣніи, Ще́дрый, моли́твами Богоро́дицы уще́дри и спаси́ мя.",
+  "motivo": "Erro de transcrição: o P1874 lê «гдⷭ҇ꙋ» (Го́споду).",
+  "fonte": "P1874 img. n075"
+ },
+ {
+  "ficheiro": "salterio-04.json",
+  "id": "k04-p-19",
+  "campo": "cu",
+  "de": "Тебѣ́, Го́споди, Еди́ному Бла́гому и Непамятозло́бному, исповѣ́даю грѣхи́ моя́, Тебѣ́ припа́даю, вопія́ недосто́йный: согрѣши́хъ, Го́споди, согрѣши́хъ и нѣсмь досто́инъ воззрѣ́ти на высоту́ небе́сную отъ мно́жества непра́вдъ мои́хъ. Но, Го́споди мой, Го́споди, да́руй ми слезы́ умиле́нія, Еди́ный Бла́же и Ми́лостивый, я́ко да ти́ми Тя умолю́ очи́ститися пре́жде конца́ отъ вся́каго грѣха́: стра́шно бо и гро́зно мѣ́сто и́мамъ проити́, тѣ́ла разлучи́вся, и мно́жество мя мра́чное и безчелове́чное де́моновъ сря́щетъ, и никто́же въ по́мощь спу́тствуяй или́ избавля́яй. Тѣмъ припа́даю Твое́й бла́гости, не преда́ждь оби́дящимъ мя, ниже́ да похва́лятся о мнѣ врази́ мои́, Бла́гій Го́споди, ниже́ да реку́тъ: въ ру́ки на́ша прише́лъ еси́, и намъ пре́данъ еси́. Ни, Го́споди, не забу́ди щедро́тъ Твои́хъ, и не возда́ждь ми по беззако́ніемъ мои́мъ, и не отврати́ лица́ Твоего́ отъ мене́: но Ты, Го́споди, накажи́ мя, оба́че ми́лостію и щедро́тами. Врагъ же мой да не возра́дуется о мнѣ, но угаси́ его́ на мя преще́нія, и все упраздни́ его́ дѣ́йство. И даждь ми къ Тебѣ́ путь неукори́зненный, Бла́гій Го́споди, зане́же и согрѣши́въ не прибѣго́хъ ко ино́му врачу́, и не простро́хъ руки́ моея́ къ бо́гу чу́ждему. Не отри́ни у́бо моле́нія моего́, но услы́ши мя Твое́ю бла́гостію, и утверди́ мое́ се́рдце стра́хомъ Твои́мъ, и да бу́детъ благода́ть Твоя́ на мнѣ, Го́споди, я́ко огнь попаля́яй нечи́стыя во мнѣ по́мыслы. Ты бо еси́, Го́споди, свѣтъ па́че вся́каго свѣ́та, ра́дость па́че вся́кія ра́дости, упокое́ніе па́че вся́каго упокое́нія, жизнь и́стинная и спасе́ніе, пребыва́ющее во вѣ́ки вѣко́въ. Ами́нь.",
+  "para": "Тебѣ́, Го́споди, Еди́ному Благо́му и Непамятозло́бному, исповѣ́даю грѣхи́ моя́, Тебѣ́ припа́даю, вопія́ недосто́йный: согрѣши́хъ, Го́споди, согрѣши́хъ и нѣсмь досто́инъ воззрѣ́ти на высоту́ небе́сную отъ мно́жества непра́вдъ мои́хъ. Но, Го́споди мой, Го́споди, да́руй ми сле́зы умиле́нія, Еди́ный Бла́же и Ми́лостивый, я́ко да и́ми Тя умолю́ очи́ститися пре́жде конца́ отъ вся́каго грѣха́: стра́шно бо и гро́зно мѣ́сто и́мамъ проити́, тѣ́ла разлучи́вся, и мно́жество мя мра́чное и безчеловѣ́чное де́моновъ сря́щетъ, и никто́же въ по́мощь спу́тствуяй или́ избавля́яй. Тѣмъ припа́даю Твое́й бла́гости, не преда́ждь оби́дящимъ мя, ниже́ да похва́лятся о мнѣ врази́ мои́, Благі́й Го́споди, ниже́ да реку́тъ: въ ру́ки на́ша прише́лъ еси́, и намъ пре́данъ еси́. Ни, Го́споди, не забу́ди щедро́тъ Твои́хъ, и не возда́ждь ми по беззако́ніемъ мои́мъ, и не отврати́ лица́ Твоего́ отъ мене́: но Ты, Го́споди, накажи́ мя, оба́че ми́лостію и щедро́тами. Врагъ же мой да не возра́дуется о мнѣ, но угаси́ его́ на мя преще́нія, и все упраздни́ его́ дѣ́йство. И даждь ми къ Тебѣ́ путь неуко́рный, Благі́й Го́споди, зане́же и согрѣши́въ не прибѣго́хъ ко ино́му врачу́, и не простро́хъ руки́ моея́ къ бо́гу чужде́му. Не отри́ни у́бо моле́нія моего́, но услы́ши мя Твое́ю бла́гостію, и утверди́ мое́ се́рдце стра́хомъ Твои́мъ, и да бу́детъ благода́ть Твоя́ на мнѣ, Го́споди, я́ко огнь попаля́яй нечи́стыя во мнѣ по́мыслы. Ты бо еси́, Го́споди, свѣтъ па́че вся́каго свѣ́та, ра́дость па́че вся́кія ра́дости, упокое́ніе па́че вся́каго упокое́нія, жизнь и́стинная и спасе́ніе, пребыва́ющее во вѣ́ки вѣко́въ. Ами́нь.",
+  "motivo": "Erros de transcrição: o P1874 lê «и҆́ми», «неꙋко́рный», «безчеловѣ́чное» (raiz человѣк-); acentos «Благо́му», «сле́зы», «Благі́й», «чужде́му» (Ponomar; Saltério atual).",
+  "fonte": "P1874 img. n076; Ponomar (corpus)"
+ },
+ {
+  "ficheiro": "salterio-05.json",
+  "id": "k05-p-10",
+  "campo": "cu",
+  "de": "Сла́ва: Попече́ніе жи́тія изгна́ мя ра́я, и что сотворю́ окая́нный? Сего́ ра́ди толку́ во врата́ и зову́: Го́споди, Го́споди, отве́рзи ми покая́ніемъ, и спаси́ мя.",
+  "para": "Сла́ва: Попече́ніе житія́ изгна́ мя ра́я, и что сотворю́ отча́янный? Сего́ ра́ди толку́ во врата́ и зову́: Го́споди, Го́споди, отве́рзи ми покая́ніемъ, и спаси́ мя.",
+  "motivo": "Erro de transcrição: o P1874 lê «ѿча́ѧнный» e «житїѧ̀» (igual ao Saltério atual).",
+  "fonte": "P1874 img. n087"
+ },
+ {
+  "ficheiro": "salterio-05.json",
+  "id": "k05-p-10",
+  "campo": "pt",
+  "de": "Glória…: Os cuidados da vida expulsaram-me do paraíso; que farei, miserável? Por isso bato à porta e clamo: Senhor, Senhor, abre-me pelo arrependimento e salva-me.",
+  "para": "Glória…: Os cuidados da vida expulsaram-me do paraíso; que farei eu, desesperado? Por isso bato à porta e clamo: Senhor, Senhor, abre-me pelo arrependimento e salva-me.",
+  "motivo": "Acompanha a correção do eslavo («отча́янный»).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-05.json",
+  "id": "k05-p-10",
+  "campo": "ru",
+  "de": "Слава: Попечение о житейском изгнало меня из рая, и что сотворю я, окаянный? Потому стучу во врата и взываю: Господи, Господи, отверзи мне покаянием и спаси меня.",
+  "para": "Слава: Попечение о житейском изгнало меня из рая, и что сотворю я, отчаявшийся? Потому стучу во врата и взываю: Господи, Господи, отверзи мне покаянием и спаси меня.",
+  "motivo": "Acompanha a correção do eslavo («отча́янный»).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-05.json",
+  "id": "k05-p-10",
+  "campo": "uk",
+  "de": "Слава: Піклування про життєве вигнало мене з раю, і що вчиню я, окаянний? Тому стукаю у ворота і взиваю: Господи, Господи, відчини мені покаянням і спаси мене.",
+  "para": "Слава: Піклування про життєве вигнало мене з раю, і що вчиню я, зневірений? Тому стукаю у ворота і взиваю: Господи, Господи, відчини мені покаянням і спаси мене.",
+  "motivo": "Acompanha a correção do eslavo («отча́янный»).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-05.json",
+  "id": "k05-p-10",
+  "campo": "en",
+  "de": "Glory…: Care for this life hath driven me out of paradise; and what shall I do, wretched one? Wherefore I knock at the gate and cry: O Lord, O Lord, open unto me through repentance, and save me.",
+  "para": "Glory…: Care for this life hath driven me out of paradise; and what shall I do, in despair? Wherefore I knock at the gate and cry: O Lord, O Lord, open unto me through repentance, and save me.",
+  "motivo": "Acompanha a correção do eslavo («отча́янный»).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-05.json",
+  "id": "k05-p-11",
+  "campo": "cu",
+  "de": "И ны́нѣ: Кій нарече́мъ храмъ Твой, Богоро́дице? Приста́нище ли духо́вное? Или́ рай сла́дости небе́сныя? Хода́тайственъ жи́зни неконча́емыя? Вся бо и́маши добра́я, всегда́ моля́ся Христу́ спасти́ся душа́мъ на́шимъ.",
+  "para": "И ны́нѣ: Кій нарече́мъ храмъ Твой, Богоро́дице? Приста́нище ли духо́вное? Или́ рай сла́дости небе́сныя? Хода́тайственъ жи́зни неконча́емыя? Вся бо и́маши до́брая, всегда́ моли́ся Христу́ спасти́ся душа́мъ на́шимъ.",
+  "motivo": "Erro de transcrição: o P1874 lê «до́браѧ, всегда̀ моли́сѧ хрⷭ҇тꙋ̀» (imperativo, igual ao Saltério atual).",
+  "fonte": "P1874 img. n087"
+ },
+ {
+  "ficheiro": "salterio-05.json",
+  "id": "k05-p-11",
+  "campo": "pt",
+  "de": "E agora…: Como chamaremos ao Teu templo, ó Mãe de Deus? Porto espiritual? Ou paraíso de delícias celestes? Intercessora da vida sem fim? Pois tens todos os bens, rogando sempre a Cristo pela salvação das nossas almas.",
+  "para": "E agora…: Como chamaremos ao Teu templo, ó Mãe de Deus? Porto espiritual? Ou paraíso de delícias celestes? Intercessora da vida sem fim? Pois tens todos os bens: roga sempre a Cristo pela salvação das nossas almas.",
+  "motivo": "Acompanha a correção do eslavo («моли́ся»).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-05.json",
+  "id": "k05-p-11",
+  "campo": "ru",
+  "de": "И ныне: Как назовем храм Твой, Богородица? Пристанищем ли духовным? Или раем сладости небесной? Ходатаицею жизни бесконечной? Ибо всё благое Ты имеешь, всегда молясь Христу о спасении душ наших.",
+  "para": "И ныне: Как назовем храм Твой, Богородица? Пристанищем ли духовным? Или раем сладости небесной? Ходатаицею жизни бесконечной? Ибо всё благое Ты имеешь: моли всегда Христа о спасении душ наших.",
+  "motivo": "Acompanha a correção do eslavo («моли́ся»).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-05.json",
+  "id": "k05-p-11",
+  "campo": "uk",
+  "de": "І нині: Як назвемо храм Твій, Богородице? Пристанищем духовним? Чи раєм небесної солодкості? Заступницею життя безконечного? Бо все благе Ти маєш, завжди молячись Христові про спасіння душ наших.",
+  "para": "І нині: Як назвемо храм Твій, Богородице? Пристанищем духовним? Чи раєм небесної солодкості? Заступницею життя безконечного? Бо все благе Ти маєш: благай завжди Христа про спасіння душ наших.",
+  "motivo": "Acompanha a correção do eslavo («моли́ся»).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-05.json",
+  "id": "k05-p-11",
+  "campo": "en",
+  "de": "Now and ever…: What shall we call thy temple, O Theotokos? A spiritual haven? Or a paradise of heavenly delight? An intercessor of life without end? For thou hast all good things, ever praying unto Christ for the salvation of our souls.",
+  "para": "Now and ever…: What shall we call thy temple, O Theotokos? A spiritual haven? Or a paradise of heavenly delight? An intercessor of life without end? For thou hast all good things: pray ever unto Christ for the salvation of our souls.",
+  "motivo": "Acompanha a correção do eslavo («моли́ся»).",
+  "fonte": "QA 2c"
+ },
+ {
+  "ficheiro": "salterio-05.json",
+  "id": "k05-p-18",
+  "campo": "cu",
+  "de": "Бо́же Пра́ведный и Хва́льный, Бо́же Вели́кій и Крѣ́пкій, Бо́же Превѣ́чный, услы́ши грѣ́шнаго му́жа моли́тву въ часъ сей: услы́ши мя, обѣща́вый услы́шати во и́стинѣ Тя призыва́ющихъ, и не омерзи́ мя нечи́стыя устнѣ́ иму́ща и во грѣсѣ́хъ содержи́ма, упова́ніе всѣхъ конце́въ земли́ и стра́нствующихъ дале́че. Пріими́ ору́жіе и щитъ, и воста́ни въ по́мощь мою́, изле́й мечь и заключи́ сопроти́въ гоня́щихъ мя. Запрети́ нечи́стымъ ду́хомъ отъ лица́ безу́мія моего́, и да отлучи́тся отъ моея́ мы́сли духъ не́нависти и злопомнѣ́нія, духъ за́висти и ле́сти, духъ боя́зни и уны́нія, духъ го́рдости и вся́кія ины́я зло́бы, и да уга́снетъ вся́кое разжже́ніе и движе́ніе пло́ти моея́, отъ діа́вольскаго дѣ́йства составля́емое, и да просвѣти́тся моя́ душа́ и тѣ́ло и духъ свѣ́томъ Твоего́ Боже́ственнаго позна́нія, да мно́жествомъ щедро́тъ Твои́хъ дости́гну соедине́нія вѣ́ры, въ му́жа соверше́нна, въ мѣ́ру во́зраста, и просла́влю со А́нгелы и всѣ́ми святы́ми Твои́ми всечестно́е и великолѣ́пое и́мя Твое́, Отца́ и Сы́на и Свята́го Ду́ха, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+  "para": "Бо́же Пра́ведный и Хва́льный, Бо́же Вели́кій и Крѣ́пкій, Бо́же Превѣ́чный, услы́ши грѣ́шнаго му́жа моли́тву въ часъ сей: услы́ши мя, обѣща́вый услы́шати во и́стинѣ Тя призыва́ющихъ, и не омерзи́ мя нечи́стыя устнѣ́ иму́ща и во грѣсѣ́хъ содержи́ма, упова́ніе всѣхъ конце́въ земли́ и стра́нствующихъ дале́че. Пріими́ ору́жіе и щитъ, и воста́ни въ по́мощь мою́, изле́й мечь и заключи́ сопроти́въ гоня́щихъ мя. Запрети́ нечи́стымъ духово́мъ отъ лица́ безу́мія моего́, и да отлучи́тся отъ моея́ мы́сли духъ не́нависти и злопомнѣ́нія, духъ за́висти и ле́сти, духъ боя́зни и уны́нія, духъ го́рдости и вся́кія ины́я зло́бы, и да уга́снетъ вся́кое разжже́ніе и движе́ніе пло́ти моея́, отъ діа́вольскаго дѣ́йства составля́емое, и да просвѣти́тся моя́ душа́ и тѣ́ло и духъ свѣ́томъ Твоего́ Боже́ственнаго позна́нія, да мно́жествомъ щедро́тъ Твои́хъ дости́гну соедине́нія вѣ́ры, въ му́жа соверше́нна, въ мѣ́ру во́зраста, и просла́влю со А́нгелы и всѣ́ми святы́ми Твои́ми всечестно́е и великолѣ́пое и́мя Твое́, Отца́ и Сы́на и Свята́го Ду́ха, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+  "motivo": "Erro de transcrição: o P1874 lê «дꙋховѡ́мъ» (igual ao Saltério atual).",
+  "fonte": "P1874 img. n087"
+ },
+ {
+  "ficheiro": "salterio-10.json",
+  "id": "k10-p-18",
+  "campo": "cu",
+  "de": "Го́споди Бо́же нашъ, въ ми́лости бога́тый и въ щедро́тахъ непостижи́мый, Еди́не по естеству́ безгрѣ́шенъ, и насъ ра́ди кромѣ́ грѣха́ бывъ человѣ́къ, услы́ши въ часъ сей болѣ́зненное мое́ сіе́ моле́ніе, я́ко нищъ и убо́гъ есмь отъ дѣлъ благи́хъ, и се́рдце мое́ смяте́ся внутрь мене́. Ты бо вѣ́си, Вы́шній Царю́, Го́споди небесе́ и земли́, я́ко всю мою́ ю́ность во грѣсѣ́хъ ижди́хъ, и въ слѣдъ похоте́й пло́ти моея́ ходи́въ, весь смѣхъ де́мономъ быхъ, весь діа́волу послѣ́довахъ, вы́ну въ тимѣ́ніи сласте́й валя́яйся. Омрачи́вся бо помышле́ніемъ отъ младе́нства, да́же и до ны́нѣ, никогда́же восхотѣ́хъ сотвори́ти во́лю Твою́ святу́ю: но весь отъ навѣ́тующихъ мя страсте́й плѣни́вся, смѣхъ и поруга́ніе де́мономъ быхъ, ника́коже во умѣ́ помышля́яй, я́ко нестерпи́мый гнѣвъ е́же на грѣ́шники преще́нія Твоего́, и лежа́щую гее́нну о́гненную: я́коже отсю́ду во отча́яніе впады́й, и ника́коже въ чу́вствѣ обраще́нія бывъ, пустъ и нагъ е́же отъ Твоея́ дру́жбы быхъ. Кій бо видъ грѣха́ не содѣ́лахъ? Кое́ дѣ́ло де́монское не содѣ́яхъ? Кое́ дѣя́ніе сту́дное и блу́дное не съ преиму́ществомъ и тща́ніемъ соверши́хъ? Умъ воспомина́ньми пло́тскими оскверни́хъ, тѣ́ло смѣше́ньми окаля́хъ, духъ сосложе́ніемъ оскверни́хъ: всякъ удъ окая́нныя моея́ пло́ти служи́ти и рабо́тати грѣхо́мъ возлюби́хъ. И кто про́чее не возрыда́етъ мя окая́ннаго? Кто не воспла́четъ мя осужде́ннаго? Азъ бо еди́нъ, Влады́ко, я́рость Твою́ прогнѣ́вахъ, азъ еди́нъ гнѣвъ Твой на мя разжего́хъ, азъ еди́нъ лука́вое предъ Тобо́ю сотвори́хъ, превозше́дъ и препобѣди́въ вся отъ вѣ́ка грѣ́шники, несравне́нно погрѣши́вый и непроще́нно. Но поне́же многоми́лостивый, благоутро́бный еси́, Человѣколю́бче, и ожида́еши человѣ́ческаго обраще́нія, се и азъ ве́ргаю себе́ предъ стра́шное и нестерпи́мое Твое́ суди́ще, и я́коже пречи́стымъ Твои́мъ нога́мъ каса́яся, изъ глубины́ души́ взыва́ю Ти: очи́сти, Го́споди, прости́, Благопремѣни́телю, поми́луй не́мощь мою́, приклони́ся недоумѣ́нію моему́, вонми́ моле́нію моему́, и слезъ мои́хъ не премолчи́. Пріими́ мя ка́ющагося, и заблу́ждшаго обрати́, обраща́ющагося объи́ми, и моля́щагося прости́: не бо положи́лъ еси́ покая́ніе пра́веднымъ, не положи́лъ еси́ проще́нія не согрѣша́ющымъ, но положи́лъ еси́ покая́ніе мнѣ грѣ́шному. Въ ни́хже въ негодова́ніе Твое́ содѣ́яхъ, нагъ и обнаже́нъ предъ Тобо́ю предстою́, Сердцевѣ́дче Го́споди, исповѣ́дая моя́ грѣхи́: не бо могу́ воззрѣ́ти и ви́дѣти высоту́ небе́сную, отъ тя́жести грѣхо́въ мои́хъ слаца́емь. Просвѣти́ у́бо о́чи се́рдца моего́, и даждь ми умиле́ніе къ покая́нію, и сокруше́ніе се́рдца ко исправле́нію: да со бла́гою наде́ждею и и́стиннымъ увѣре́ніемъ къ та́мошнему мі́ру пойду́, хваля́ и благословя́ вы́ну всесвято́е и́мя Твое́, Отца́ и Сы́на и Свята́го Ду́ха, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+  "para": "Го́споди Бо́же нашъ, въ ми́лости бога́тый и въ щедро́тахъ непостижи́мый, Еди́не по естеству́ безгрѣ́шенъ, и насъ ра́ди кромѣ́ грѣха́ бывъ человѣ́къ, услы́ши въ часъ сей болѣ́зненное мое́ сіе́ моле́ніе, я́ко нищъ и убо́гъ есмь отъ дѣлъ благи́хъ, и се́рдце мое́ смяте́ся внутрь мене́. Ты бо вѣ́си, Вы́шній Царю́, Го́споди небесе́ и земли́, я́ко всю мою́ ю́ность во грѣсѣ́хъ ижди́хъ, и въ слѣдъ похоте́й пло́ти моея́ ходи́въ, весь смѣхъ де́мономъ быхъ, весь діа́волу послѣ́довахъ, вы́ну въ тимѣ́ніи сласте́й валя́яйся. Омрачи́вся бо помышле́ніемъ отъ младе́нства, да́же и до ны́нѣ, никогда́же восхотѣ́хъ сотвори́ти во́лю Твою́ святу́ю: но весь отъ навѣ́тующихъ мя страсте́й плѣни́вся, смѣхъ и поруга́ніе де́мономъ быхъ, ника́коже во умѣ́ помышля́яй, я́ко нестерпи́мый гнѣвъ е́же на грѣ́шники преще́нія Твоего́, и лежа́щую гее́нну о́гненную: я́коже отсю́ду во отча́яніе впады́й, и ника́коже въ чу́вствѣ обраще́нія бывъ, пустъ и нагъ е́же отъ Твоея́ дру́жбы быхъ. Кій бо видъ грѣха́ не содѣ́лахъ? Ко́е дѣ́ло де́монское не содѣ́яхъ? Ко́е дѣя́ніе сту́дное и блу́дное не съ преиму́ществомъ и тща́ніемъ соверши́хъ? Умъ воспомина́ньми плотски́ми оскверни́хъ, тѣ́ло смѣше́ньми окаля́хъ, духъ сосложе́ніемъ оскверни́хъ: всякъ удъ окая́нныя моея́ пло́ти служи́ти и рабо́тати грѣхо́мъ возлюби́хъ. И кто про́чее не возрыда́етъ мя окая́ннаго? Кто не воспла́четъ мя осужде́ннаго? Азъ бо еди́нъ, Влады́ко, я́рость Твою́ прогнѣ́вахъ, азъ еди́нъ гнѣвъ Твой на мя разжего́хъ, азъ еди́нъ лука́вое предъ Тобо́ю сотвори́хъ, превозше́дъ и препобѣди́въ вся отъ вѣ́ка грѣ́шники, несравне́нно погрѣши́вый и непроще́нно. Но поне́же многоми́лостивый, благоутро́бный еси́, Человѣколю́бче, и ожида́еши человѣ́ческаго обраще́нія, се и азъ вверга́ю себе́ предъ стра́шное и нестерпи́мое Твое́ суди́ще, и я́коже пречи́стымъ Твои́мъ нога́мъ каса́яйся, изъ глубины́ души́ взыва́ю Ти: очи́сти, Го́споди, прости́, Благопремѣни́телю, поми́луй не́мощь мою́, приклони́ся недоумѣ́нію моему́, вонми́ моле́нію моему́, и слезъ мои́хъ не премолчи́. Пріими́ мя ка́ющагося, и заблу́ждшаго обрати́, обраща́ющагося объими́, и моля́щагося прости́: не бо положи́лъ еси́ покая́ніе пра́веднымъ, не положи́лъ еси́ проще́нія не согрѣша́ющымъ, но положи́лъ еси́ покая́ніе мнѣ грѣ́шному. Въ ни́хже въ негодова́ніе Твое́ содѣ́яхъ, нагъ и обнаже́нъ предъ Тобо́ю предстою́, Сердцевѣ́дче Го́споди, исповѣ́даяй моя́ грѣхи́: не бо могу́ воззрѣ́ти и ви́дѣти высоту́ небе́сную, отъ тя́жести грѣхо́въ мои́хъ сляца́емь. Просвѣти́ у́бо о́чи се́рдца моего́, и даждь ми умиле́ніе къ покая́нію, и сокруше́ніе се́рдца ко исправле́нію: да со благо́ю наде́ждею и и́стиннымъ увѣре́ніемъ къ та́мошнему мі́ру пойду́, хваля́ и благословя́ вы́ну всесвято́е и́мя Твое́, Отца́ и Сы́на и Свята́го Ду́ха, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+  "motivo": "Erros de transcrição: o P1874 lê «вверга́ю», «каса́ѧйсѧ», «ѡ҆бъимѝ», «и҆сповѣ́даѧй», «слѧца́емь»; acentos «ко́е», «плотски́ми», «благо́ю» (Ponomar; Saltério atual).",
+  "fonte": "P1874 img. n151–n152; Ponomar (corpus)"
+ },
+ {
+  "ficheiro": "salterio-11.json",
+  "id": "k11-p-18",
+  "campo": "cu",
+  "de": "Возсія́й въ сердца́хъ на́шихъ, Человѣколю́бче Го́споди, Твоего́ Боговѣ́дѣнія нетлѣ́нный свѣтъ, и мы́сленная на́ша отве́рзи о́чи, во ева́нгельскихъ Твои́хъ проповѣ́даній разумѣ́ніе: вложи́ въ насъ и блаже́нныхъ Твои́хъ за́повѣдей страхъ, да пло́тскія по́хоти вся попра́вше, духо́вное жи́тельство про́йдемъ, вся, я́же къ благоугожде́нію Твоему́, и му́дрствующе и дѣ́юще. Ты бо еси́ просвѣще́ніе душъ и тѣле́съ на́шихъ, Христе́ Бо́же, и Тебѣ́ сла́ву возсыла́емъ, со Безнача́льнымъ Твои́мъ Отце́мъ, и Всесвяты́мъ, и Благи́мъ, и Животворя́щимъ Твои́мъ Ду́хомъ, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+  "para": "Возсія́й въ сердца́хъ на́шихъ, Человѣколю́бче Го́споди, Твоего́ Боговѣ́дѣнія нетлѣ́нный свѣтъ, и мы́сленная на́ша отве́рзи о́чи, во ева́нгельскихъ Твои́хъ проповѣ́даній разумѣ́ніе: вложи́ въ насъ и блаже́нныхъ Твои́хъ за́повѣдей страхъ, да плотскі́я по́хоти вся попра́вше, духо́вное жи́тельство про́йдемъ, вся, я́же къ благоугожде́нію Твоему́, и му́дрствующе и дѣ́юще. Ты бо еси́ просвѣще́ніе душъ и тѣле́съ на́шихъ, Христе́ Бо́же, и Тебѣ́ сла́ву возсыла́емъ, со Безнача́льнымъ Твои́мъ Отце́мъ, и Всесвяты́мъ, и Благи́мъ, и Животворя́щимъ Твои́мъ Ду́хомъ, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+  "motivo": "Acento «плотскі́я» (Ponomar ×7).",
+  "fonte": "Ponomar (corpus); Azbuka Very (verificação)"
+ },
+ {
+  "ficheiro": "salterio-18.json",
+  "id": "k18-p-18",
+  "campo": "cu",
+  "de": "Го́споди, да не я́ростію Твое́ю обличи́ши мене́, ниже́ гнѣ́вомъ Твои́мъ нака́жеши мя. Влады́ко Го́споди Іису́се Христе́, Сы́не Бо́га жива́го, поми́луй мя грѣ́шнаго, ни́щаго, обнаже́ннаго, лѣни́ваго, неради́ваго, прекосло́внаго, окая́ннаго, блудника́, прелюбодѣ́я, малакі́я, мужело́жника, скве́рнаго, блу́днаго, неблагода́рнаго, неми́лостиваго, жесто́каго, пія́ницу, сожже́ннаго со́вѣстію, безли́чнаго, бездерзнове́ннаго, безотвѣ́тнаго, недосто́йнаго Твоего́ человѣколю́бія, и досто́йна вся́каго муче́нія и гее́нны и му́ки. И не ра́ди мно́жества толи́кихъ мои́хъ согрѣше́ній мно́жеству подложи́ши, Изба́вителю, мукъ: но поми́луй мя, я́ко не́мощенъ есмь и душе́ю, и пло́тію, и ра́зумомъ, и помышле́ніемъ: и и́миже вѣ́си судьба́ми, спаси́ мя недосто́йнаго раба́ Твоего́, моли́твами Пречи́стыя Влады́чицы на́шея Богоро́дицы и всѣхъ святы́хъ, отъ вѣ́ка Тебѣ́ благоуго́ждшихъ, я́ко благослове́нъ еси́ во вѣ́ки вѣко́въ. Ами́нь.",
+  "para": "Го́споди, да не я́ростію Твое́ю обличи́ши мене́, ниже́ гнѣ́вомъ Твои́мъ нака́жеши мя. Влады́ко Го́споди Іису́се Христе́, Сы́не Бо́га жива́го, поми́луй мя грѣ́шнаго, ни́щаго, обнаже́ннаго, лѣни́ваго, неради́ваго, прекосло́внаго, окая́ннаго, блудника́, прелюбодѣ́я, малакі́я, мужело́жника, скве́рнаго, блу́днаго, неблагода́рнаго, неми́лостиваго, же́стокаго, пія́ницу, сожже́ннаго со́вѣстію, безли́чнаго, бездерзнове́ннаго, безотвѣ́тнаго, недосто́йнаго Твоего́ человѣколю́бія, и досто́йна вся́каго муче́нія и гее́нны и му́ки. И не ра́ди мно́жества толи́кихъ мои́хъ согрѣше́ній мно́жеству подложи́ши, Изба́вителю, мукъ: но поми́луй мя, я́ко не́мощенъ есмь и душе́ю, и пло́тію, и ра́зумомъ, и помышле́ніемъ: и и́миже вѣ́си судьба́ми, спаси́ мя недосто́йнаго раба́ Твоего́, моли́твами Пречи́стыя Влады́чицы на́шея Богоро́дицы и всѣхъ святы́хъ, отъ вѣ́ка Тебѣ́ благоуго́ждшихъ, я́ко благослове́нъ еси́ во вѣ́ки вѣко́въ. Ами́нь.",
+  "motivo": "Acento «же́стокаго» (Ponomar «же́стокъ, же́стокагѡ…»).",
+  "fonte": "Ponomar (corpus); Azbuka Very (verificação)"
+ },
+ {
+  "ficheiro": "salterio-19.json",
+  "id": "k19-p-18",
+  "campo": "cu",
+  "de": "Влады́ко Христе́ Бо́же, И́же стра́стьми Твои́ми стра́сти моя́ исцѣли́вый, и я́звами Твои́ми я́звы моя́ уврачева́вый, да́руй мнѣ, мно́го Тебѣ́ прегрѣши́вшему, сле́зы умиле́нія: сраствори́ моему́ тѣ́лу отъ обоня́нія животворя́щаго Тѣ́ла Твоего́, и наслади́ ду́шу мою́ Твое́ю честно́ю Кро́вію отъ го́рести, е́юже мя сопроти́вникъ напои́. Возвы́си мой умъ къ Тебѣ́, до́лу привле́кшійся, и возведи́ отъ про́пасти поги́бели: я́ко не и́мамъ покая́нія, не и́мамъ умиле́нія, не и́мамъ слезы́ утѣ́шительныя, возводя́щія ча́да ко своему́ наслѣ́дію. Омрачи́хся умо́мъ въ жите́йскихъ страсте́хъ, не могу́ воззрѣ́ти къ Тебѣ́ въ болѣ́зни, не могу́ согрѣ́тися слеза́ми, я́же къ Тебѣ́ любве́: но, Влады́ко Го́споди Іису́се Христе́, Сокро́вище благи́хъ, да́руй мнѣ покая́ніе всецѣ́лое и се́рдце люботру́дное во взыска́ніе Твое́: да́руй мнѣ благода́ть Твою́, и обнови́ во мнѣ зра́ки Твоего́ о́браза. Оста́вихъ Тя, не оста́ви мене́: изы́ди на взыска́ніе мое́, возведи́ къ па́жити Твое́й, и сопричти́ мя овца́мъ избра́ннаго Твоего́ ста́да: воспита́й мя съ ни́ми отъ зла́ка Боже́ственныхъ Твои́хъ та́инствъ, моли́твами Пречи́стыя Твоея́ Ма́тере и всѣхъ святы́хъ Твои́хъ. Ами́нь.",
+  "para": "Влады́ко Христе́ Бо́же, И́же страстьми́ Твои́ми стра́сти моя́ исцѣли́вый, и я́звами Твои́ми я́звы моя́ уврачева́вый, да́руй мнѣ, мно́го Тебѣ́ прегрѣши́вшему, сле́зы умиле́нія: сраствори́ моему́ тѣ́лу отъ обоня́нія животворя́щаго Тѣ́ла Твоего́, и наслади́ ду́шу мою́ Твое́ю честно́ю Кро́вію отъ го́рести, е́юже мя сопроти́вникъ напои́. Возвы́си мой умъ къ Тебѣ́, до́лу привле́кшійся, и возведи́ отъ про́пасти поги́бели: я́ко не и́мамъ покая́нія, не и́мамъ умиле́нія, не и́мамъ слезы́ утѣ́шительныя, возводя́щія ча́да ко своему́ наслѣ́дію. Омрачи́хся умо́мъ въ жите́йскихъ страсте́хъ, не могу́ воззрѣ́ти къ Тебѣ́ въ болѣ́зни, не могу́ согрѣ́тися слеза́ми, я́же къ Тебѣ́ любве́: но, Влады́ко Го́споди Іису́се Христе́, Сокро́вище благи́хъ, да́руй мнѣ покая́ніе всецѣ́лое и се́рдце люботру́дное во взыска́ніе Твое́: да́руй мнѣ благода́ть Твою́, и обнови́ во мнѣ зра́ки Твоего́ о́браза. Оста́вихъ Тя, не оста́ви мене́: изы́ди на взыска́ніе мое́, возведи́ къ па́жити Твое́й, и сопричти́ мя овца́мъ избра́ннаго Твоего́ ста́да: воспита́й мя съ ни́ми отъ зла́ка Боже́ственныхъ Твои́хъ та́инствъ, моли́твами Пречи́стыя Твоея́ Ма́тере и всѣхъ святы́хъ Твои́хъ. Ами́нь.",
+  "motivo": "Acento «страстьми́», como nos outros ficheiros da app (×9) e no Saltério atual.",
+  "fonte": "data/oracoes (manha-46, comunhao-kan-024…); Azbuka Very (verificação)"
+ },
+ {
+  "ficheiro": "salterio-20.json",
+  "id": "k20-p-18",
+  "campo": "cu",
+  "de": "Го́споди Іису́се Христе́ Бо́же мой, поми́луй мя грѣ́шнаго, и прости́ ми недосто́йному рабу́ Твоему́, ели́ка Ти согрѣши́хъ чрезъ все живота́ моего́ вре́мя, и да́же до днесь: и а́ще что я́ко человѣ́къ согрѣши́хъ, во́льная моя́ прегрѣше́нія и нево́льная, дѣ́ломъ и сло́вомъ, я́же умо́мъ и мы́слію, я́же отъ совосхище́нія и невнима́нія, и мно́гія моея́ лѣ́ности и небреже́нія. А́ще же и́менемъ Твои́мъ кля́хся, а́ще же лжекля́хся, или́ ху́лихъ мы́слію, или́ кого́ укори́хъ, или́ оклевета́хъ, или́ опеча́лихъ, или́ въ нѣ́чесомъ прогнѣ́вахъ, или́ окрадо́хъ, или́ блу́дствовахъ, или́ солга́хъ, или́ та́йно ядо́хъ, или́ другъ дости́же ко мнѣ, и презрѣ́хъ его́, или́ бра́та оскорби́хъ и преогорчи́хъ, или́ стоя́щу ми на моли́твѣ и псалмопѣ́ніи, умъ мой лука́вый на лука́вая обхожда́ше, или́ па́че лѣ́паго наслади́хся, или́ безу́мно смѣ́яхся, или́ кощу́нно глаго́лахъ, или́ тщесла́вихся, или́ горди́хся, или́ добро́ту су́етную ви́дѣвъ, и отъ нея́ прельсти́хся, или́ нелѣ́пая мнѣ поглуми́хся. А́ще въ чесо́мъ о моли́твѣ мое́й неради́хъ, или́ за́повѣдей духо́внаго моего́ отца́ не сохрани́хъ, или́ праздносло́вихъ, или́ ино́ что лука́вое сотвори́хъ: сія́ бо вся и вя́щшая сихъ содѣ́яхъ, и́хже ниже́ по́мню. Поми́луй, Го́споди, и прости́ ми вся, да въ ми́рѣ усну́ и почі́ю, поя́ и благословя́ и сла́вя Тя со Безнача́льнымъ Твои́мъ Отце́мъ, и съ Пресвяты́мъ и Благи́мъ и Животворя́щимъ Твои́мъ Ду́хомъ, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+  "para": "Го́споди Іису́се Христе́ Бо́же мой, поми́луй мя грѣ́шнаго, и прости́ ми недосто́йному рабу́ Твоему́, ели́ка Ти согрѣши́хъ чрезъ все живота́ моего́ вре́мя, и да́же до днесь: и а́ще что я́ко человѣ́къ согрѣши́хъ, во́льная моя́ прегрѣше́нія и нево́льная, дѣ́ломъ и сло́вомъ, я́же умо́мъ и мы́слію, я́же отъ совосхище́нія и невнима́нія, и мно́гія моея́ лѣ́ности и небреже́нія. А́ще же и́менемъ Твои́мъ кля́хся, а́ще же лжекля́хся, или́ ху́лихъ мы́слію, или́ кого́ укори́хъ, или́ оклевета́хъ, или́ опеча́лихъ, или́ въ нѣ́чесомъ прогнѣ́вахъ, или́ окрадо́хъ, или́ блу́дствовахъ, или́ солга́хъ, или́ та́йно ядо́хъ, или́ другъ дости́же ко мнѣ, и презрѣ́хъ его́, или́ бра́та оскорби́хъ и преогорчи́хъ, или́ стоя́щу ми на моли́твѣ и псалмопѣ́ніи, умъ мой лука́вый на лука́вая обхожда́ше, или́ па́че лѣ́паго наслади́хся, или́ безу́мно смѣ́яхся, или́ кощу́нно глаго́лахъ, или́ тщесла́вихся, или́ горди́хся, или́ добро́ту су́етную ви́дѣвъ, и отъ нея́ прельсти́хся, или́ нелѣ́пая мнѣ поглуми́хся. А́ще въ чесо́мъ о моли́твѣ мое́й неради́хъ, или́ за́повѣдей духо́внаго моего́ отца́ не сохрани́хъ, или́ праздносло́вихъ, или́ и́но что лука́вое сотвори́хъ: сія́ бо вся и вя́щшая сихъ содѣ́яхъ, и́хже ниже́ по́мню. Поми́луй, Го́споди, и прости́ ми вся, да въ ми́рѣ усну́ и почі́ю, поя́ и благословя́ и сла́вя Тя со Безнача́льнымъ Твои́мъ Отце́мъ, и съ Пресвяты́мъ и Благи́мъ и Животворя́щимъ Твои́мъ Ду́хомъ, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+  "motivo": "Acento «и́но» (Ponomar «и҆́но»; Saltério atual).",
+  "fonte": "Ponomar (corpus); Azbuka Very (verificação)"
+ }
+]
