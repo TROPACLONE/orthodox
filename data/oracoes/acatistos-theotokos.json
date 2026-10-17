@@ -1,0 +1,1566 @@
+{
+ "id": "acatistos-theotokos",
+ "ordem": 1,
+ "titulo": {
+  "cu": "Акаѳи́стъ Преблагослове́ннѣй Влады́чицѣ на́шей Богоро́дицѣ и Приснодѣ́вѣ Марі́и",
+  "pt": "Acatisto à Santíssima Mãe de Deus",
+  "ru": "Акафист Пресвятой Богородице",
+  "uk": "Акафіст Пресвятій Богородиці",
+  "en": "Akathist to the Most Holy Theotokos"
+ },
+ "fontes": [
+  {
+   "chave": "MS1900",
+   "descricao": "Молитвословъ. Изданіе десятое. Москва: Синодальная типографія, 1900. По благословенію Святѣйшаго Правительствующаго Синода.",
+   "url": "https://archive.org/details/molitvoslov00andr",
+   "notas": "Domínio público. Escrita civil pré-reforma com acentos esporádicos. «XIII. Акаѳистъ Преблагословеннѣй Владычицѣ нашей Богородицѣ и Приснодѣвѣ Маріи», pp. 387–409 (página impressa; folha archive.org = página + 10 nesta secção). Base do eslavo: camada OCR conferida palavra a palavra com o texto atual (AZB); divergências verificadas nas imagens (ver FONTES-acatistos.md)."
+  },
+  {
+   "chave": "Z1912",
+   "descricao": "Молитвы и пѣснопѣнія православнаго молитвослова (для мірянъ) съ переводомъ на русскій языкъ, объясненіями и примѣчаніями Николая Нахимова [Н. Ч. Зайончковскій, 1859–1920]. С.-Петербургъ: Синодальная типографія, 1912.",
+   "url": "https://archive.org/details/molitvyipesnopenijapravoslavnogomolitvos65",
+   "notas": "Domínio público (autor † 1920). Cap. 8 «Акафистъ Преблагословенной Владычицѣ нашей Богородицѣ…» pp. 188–199: eslavo em tipo eslavo (acentuado) + tradução russa; base da coluna RU onde o OCR é legível (K1–I2, K3, K5–I5), adaptada (dec. 57); resto tradução própria. Também fonte de fórmulas comuns copiadas de manha.json."
+  },
+  {
+   "chave": "K1817",
+   "descricao": "Канонникъ. Москва: Синодальная типографія, декабрь 1817.",
+   "url": "https://viewer.rsl.ru/rsl01015049339",
+   "notas": "Biblioteca Estatal Russa. Fonte de «Молитвами святыхъ отецъ…» (bloco copiado de noite-019)."
+  },
+  {
+   "chave": "H1906",
+   "descricao": "I. F. Hapgood, Service Book of the Holy Orthodox-Catholic Apostolic (Greco-Russian) Church. Boston/New York: Houghton, Mifflin & Co., 1906.",
+   "url": "https://archive.org/details/cu31924029363128",
+   "notas": "Domínio público. Só nos blocos comuns copiados de manha.json/noite.json/comunhao_preparacao.json; o texto dos acatistos não está em Hapgood (coluna EN própria)."
+  },
+  {
+   "chave": "AZB",
+   "descricao": "Акафисты (texto eslavo atual em escrita civil), azbyka.ru.",
+   "url": "",
+   "notas": "Só para identificar o texto atual (dec. 62) e como guia de acentuação, conferida por amostragem com os acentos impressos das edições PD; não é fonte do texto (cada palavra foi conferida com a edição PD). Variantes assinaladas em nota em cada bloco."
+  }
+ ],
+ "estado": {
+  "pt": "nao_revista",
+  "ru": "nao_revista",
+  "uk": "nao_revista",
+  "en": "nao_revista"
+ },
+ "blocos": [
+  {
+   "id": "act-001",
+   "tipo": "titulo",
+   "cu": "Акаѳи́стъ Преблагослове́ннѣй Влады́чицѣ на́шей Богоро́дицѣ и Приснодѣ́вѣ Марі́и",
+   "pt": "Acatisto à Santíssima Mãe de Deus",
+   "ru": "Акафист Пресвятой Богородице",
+   "uk": "Акафіст Пресвятій Богородиці",
+   "en": "Akathist to the Most Holy Theotokos",
+   "fonte": {
+    "cu": "MS1900 p. 387",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Título de MS1900 p. 387 («XIII. Акаѳистъ Преблагословеннѣй Владычицѣ нашей Богородицѣ и Приснодѣвѣ Маріи»). Único acatisto com lugar no Typikon (Matinas do sábado da 5.ª semana da Quaresma); hino do séc. VI–VII, tradução eslava antiga. «Гласъ 8» do condácio 1 segundo Z1912 p. 188."
+  },
+  {
+   "id": "act-002",
+   "tipo": "rubrica",
+   "cu": "Акаѳі́стъ, чте́мый на́единѣ, предваря́ется обы́чнымъ нача́ломъ и заверша́ется моли́твою «Досто́йно есть», «Сла́ва, и ны́нѣ», «Го́споди, поми́луй» три́жды и отпу́стомъ.",
+   "pt": "O acatisto lido em privado é precedido do início habitual e conclui-se com «É verdadeiramente digno», «Glória… agora e sempre…», «Senhor, tem piedade» três vezes e a despedida.",
+   "ru": "Акафист, читаемый наедине, предваряется обычным началом и завершается молитвой «Достойно есть», «Слава, и ныне», «Господи, помилуй» трижды и отпустом.",
+   "uk": "Акафіст, що читається наодинці, починається звичайним початком і завершується молитвою «Достойно є», «Слава, і нині», «Господи, помилуй» тричі і відпустом.",
+   "en": "An akathist read privately is preceded by the usual beginning and concluded with «It is truly meet», «Glory… now and ever…», «Lord, have mercy» thrice, and the dismissal.",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Rubrica própria segundo doc. 03 §3.2 e §5.5 (ordem de leitura em privado, «чин келейного чтения»; azbyka só como referência). As edições PD usadas (MS1900) começam diretamente no condácio 1 e terminam na oração, sem início nem conclusão. O Santo Sínodo (14.05.2018, ata n.º 28) desaconselha acatistos no culto público durante a Grande Quaresma (exceto as Matinas do Sábado do Acatisto); a determinação não regula a oração privada (doc. 03 §5.5)."
+  },
+  {
+   "id": "act-003",
+   "tipo": "oracao",
+   "cu": "Моли́твами святы́хъ оте́цъ на́шихъ, Го́споди Іису́се Христе́ Бо́же нашъ, поми́луй насъ. Ами́нь.",
+   "pt": "Pelas orações dos nossos santos Padres, Senhor Jesus Cristo, nosso Deus, tem piedade de nós. Ámen.",
+   "ru": "По молитвам святых отцов наших, Господи Иисусе Христе, Боже наш, помилуй нас. Аминь.",
+   "uk": "Молитвами святих отців наших, Господи Іісусе Христе, Боже наш, помилуй нас. Амінь.",
+   "en": "Through the prayers of our holy fathers, O Lord Jesus Christ our God, have mercy upon us. Amen.",
+   "fonte": {
+    "cu": "Канонникъ 1817 (RSL rsl01015049339, img. 164); MS1900 p. 461",
+    "ru": "propria",
+    "en": "H1906 p. 238",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "ascensao_pentecostes"
+    ]
+   },
+   "nota": "Texto idêntico a noite-019 (fórmula comum)."
+  },
+  {
+   "id": "act-004",
+   "tipo": "rubrica",
+   "cu": "Во всю Свѣ́тлую седми́цу, отъ Па́схи до суббо́ты у́тра включи́тельно, вмѣ́сто обы́чнаго нача́ла глаго́лется три́жды тропа́рь Па́схи; по акаѳі́стѣ же — «А́нгелъ вопія́ше», «Свѣти́ся» и па́ки три́жды «Христо́съ воскре́се».",
+   "pt": "Em toda a Semana Luminosa, desde a Páscoa até sábado de manhã inclusive, em vez do início habitual diz-se três vezes o tropário da Páscoa; depois do acatisto, «O Anjo clamou», «Resplandece» e de novo três vezes «Cristo ressuscitou».",
+   "ru": "Всю Светлую седмицу, от Пасхи до утра субботы включительно, вместо обычного начала трижды читается тропарь Пасхи; после акафиста — «Ангел вопияше», «Светися» и снова трижды «Христос воскресе».",
+   "uk": "Усю Світлу седмицю, від Пасхи до ранку суботи включно, замість звичайного початку тричі читається тропар Пасхи; після акафіста — «Ангел взивав», «Світися» і знову тричі «Христос воскрес».",
+   "en": "Throughout Bright Week, from Pascha until Saturday morning inclusive, instead of the usual beginning the Paschal troparion is said thrice; after the akathist, «The Angel cried», «Shine» and again thrice «Christ is risen».",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Rubrica própria, segundo o modelo das Horas Pascais (doc. 03 §1.4) e da dec. 63 (comunhao_preparacao, oficio-106a). ⚠ Não há rubrica para acatistos na Semana Luminosa nas edições PD consultadas; prática a confirmar."
+  },
+  {
+   "id": "act-005",
+   "tipo": "oracao",
+   "cu": "Сла́ва Тебѣ́, Бо́же нашъ, сла́ва Тебѣ́.",
+   "pt": "Glória a Ti, ó nosso Deus, glória a Ti.",
+   "ru": "Слава Тебе, Боже наш, слава Тебе.",
+   "uk": "Слава Тобі, Боже наш, слава Тобі.",
+   "en": "Glory to Thee, O our God, glory to Thee.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa",
+     "ascensao_pentecostes"
+    ]
+   },
+   "nota": "Texto idêntico a manha-10 (fórmula comum)."
+  },
+  {
+   "id": "act-006",
+   "tipo": "rubrica",
+   "cu": "Отъ Вознесе́нія Госпо́дня до Пятидеся́тницы моли́твы начина́ются со «Святы́й Бо́же»; «Царю́ Небе́сный» и всё, что предше́ствуетъ ему́, опуска́ется.",
+   "pt": "Da Ascensão do Senhor até ao Pentecostes, as orações começam em «Santo Deus»; omite-se «Rei Celeste» e tudo o que o precede.",
+   "ru": "От Вознесения Господня до Пятидесятницы молитвы начинаются со «Святый Боже»; «Царю Небесный» и все, что предшествует ему, опускается.",
+   "uk": "Від Вознесіння Господнього до П’ятидесятниці молитви починаються зі «Святий Боже»; «Царю Небесний» і все, що йому передує, опускається.",
+   "en": "From the Ascension of the Lord until Pentecost, the prayers begin with «Holy God»; «O Heavenly King» and all that precedes it are omitted.",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "ascensao_pentecostes"
+    ]
+   },
+   "nota": "Texto idêntico a manha-05 (fórmula comum)."
+  },
+  {
+   "id": "act-007",
+   "tipo": "oracao",
+   "cu": "Царю́ Небе́сный, Утѣ́шителю, Ду́ше и́стины, И́же вездѣ́ сый и вся исполня́яй, Сокро́вище благи́хъ и жи́зни Пода́телю, пріиди́ и всели́ся въ ны, и очи́сти ны отъ вся́кія скве́рны, и спаси́, Бла́же, ду́ши на́ша.",
+   "pt": "Rei Celeste, Consolador, Espírito da Verdade, que estás em toda a parte e tudo enches, Tesouro dos bens e Dador da vida, vem e habita em nós, purifica-nos de toda a mancha e salva, ó Bom, as nossas almas.",
+   "ru": "Царь Небесный, Утешитель, Дух истины, вездесущий и всё наполняющий, Сокровищница благ и Податель жизни, приди и вселись в нас; очисти нас от всякой нечистоты и спаси, Благий, души наши.",
+   "uk": "Царю Небесний, Утішителю, Душе істини, що всюди єси і все наповнюєш, Скарбе благ і Подателю життя, прийди і вселися в нас, і очисти нас від усякої скверни, і спаси, Благий, душі наші.",
+   "en": "O Heavenly King, the Comforter, the Spirit of Truth, who art in all places and fillest all things, Treasury of good things and Giver of life: come and abide in us, and cleanse us from every stain, and save our souls, O Good One.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "Z1912 p. 1 (adaptado)",
+    "en": "H1906 p. 67",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa",
+     "pascoa_ascensao",
+     "ascensao_pentecostes"
+    ]
+   },
+   "nota": "Texto idêntico a manha-12 (fórmula comum)."
+  },
+  {
+   "id": "act-008",
+   "tipo": "rubrica",
+   "cu": "Отъ Ѳоми́ной недѣ́ли до Вознесе́нія Госпо́дня, вмѣ́сто «Царю́ Небе́сный», чита́ется три́жды тропа́рь Па́схи:",
+   "pt": "Do Domingo de Tomé até à Ascensão do Senhor, em lugar de «Rei Celeste», diz-se três vezes o tropário da Páscoa:",
+   "ru": "От Фомина воскресенья до Вознесения Господня вместо «Царю Небесный» читается трижды тропарь Пасхи:",
+   "uk": "Від Томиної неділі до Вознесіння Господнього замість «Царю Небесний» читається тричі тропар Пасхи:",
+   "en": "From Thomas Sunday until the Ascension of the Lord, instead of «O Heavenly King», the troparion of Pascha is said three times:",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "Texto idêntico a manha-13 (fórmula comum)."
+  },
+  {
+   "id": "act-009",
+   "tipo": "oracao",
+   "cu": "Христо́съ воскре́се изъ ме́ртвыхъ, сме́ртію смерть попра́въ и су́щимъ во гробѣ́хъ живо́тъ дарова́въ.",
+   "pt": "Cristo ressuscitou dos mortos, pela morte calcou a morte e aos que estavam nos sepulcros deu a vida.",
+   "ru": "Христос воскрес из мертвых, смертью смерть поправ и сущим во гробах жизнь даровав.",
+   "uk": "Христос воскрес із мертвих, смертю смерть подолав і тим, що в гробах, життя дарував.",
+   "en": "Christ is risen from the dead, trampling down death by death, and upon those in the tombs bestowing life.",
+   "fonte": {
+    "cu": "Z1912 p. 106",
+    "ru": "propria",
+    "en": "H1906 p. 226",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "Texto idêntico a manha-14 (fórmula comum)."
+  },
+  {
+   "id": "act-010",
+   "tipo": "oracao",
+   "cu": "Святы́й Бо́же, Святы́й Крѣ́пкій, Святы́й Безсме́ртный, поми́луй насъ.",
+   "pt": "Santo Deus, Santo Forte, Santo Imortal, tem piedade de nós.",
+   "ru": "Святый Боже, Святый Крепкий, Святый Бессмертный, помилуй нас.",
+   "uk": "Святий Боже, Святий Кріпкий, Святий Безсмертний, помилуй нас.",
+   "en": "Holy God, Holy Mighty, Holy Immortal, have mercy upon us.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-15 (fórmula comum)."
+  },
+  {
+   "id": "act-011",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-16 (fórmula comum)."
+  },
+  {
+   "id": "act-012",
+   "tipo": "oracao",
+   "cu": "Пресвята́я Тро́ице, поми́луй насъ; Го́споди, очи́сти грѣхи́ на́ша; Влады́ко, прости́ беззако́нія на́ша; Святы́й, посѣти́ и исцѣли́ не́мощи на́ша, и́мене Твоего́ ра́ди.",
+   "pt": "Santíssima Trindade, tem piedade de nós; Senhor, purifica os nossos pecados; Soberano, perdoa as nossas iniquidades; Santo, visita e cura as nossas enfermidades, por causa do Teu nome.",
+   "ru": "Пресвятая Троица, помилуй нас; Господи, очисти грехи наши; Владыка, прости беззакония наши; Святой, посети и исцели немощи наши ради имени Твоего.",
+   "uk": "Пресвята Трійце, помилуй нас; Господи, очисти гріхи наші; Владико, прости беззаконня наші; Святий, відвідай і зціли немочі наші імені Твого ради.",
+   "en": "O all-holy Trinity, have mercy upon us. O Lord, cleanse our sins. O Master, pardon our transgressions. O Holy One, visit and heal our infirmities, for Thy Name's sake.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-17 (fórmula comum)."
+  },
+  {
+   "id": "act-013",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-18 (fórmula comum)."
+  },
+  {
+   "id": "act-014",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-19 (fórmula comum)."
+  },
+  {
+   "id": "act-015",
+   "tipo": "oracao",
+   "cu": "О́тче нашъ, И́же еси́ на небесѣ́хъ! Да святи́тся и́мя Твое́, да пріи́детъ Ца́рствіе Твое́, да бу́детъ во́ля Твоя́, я́ко на небеси́ и на земли́. Хлѣбъ нашъ насу́щный даждь намъ днесь; и оста́ви намъ до́лги на́ша, я́коже и мы оставля́емъ должнико́мъ на́шимъ; и не введи́ насъ во искуше́ніе, но изба́ви насъ отъ лука́ваго.",
+   "pt": "Pai nosso, que estás nos céus, santificado seja o Teu nome; venha o Teu Reino; seja feita a Tua vontade, como no céu, assim na terra. O pão nosso de cada dia dá-nos hoje; e perdoa-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores; e não nos conduzas à tentação, mas livra-nos do maligno.",
+   "ru": "Отче наш, сущий на небесах! Да святится имя Твое, да придет Царствие Твое, да будет воля Твоя, как на небе, так и на земле. Хлеб наш насущный дай нам сегодня; и прости нам долги наши, как и мы прощаем должникам нашим; и не введи нас в искушение, но избавь нас от лукавого.",
+   "uk": "Отче наш, що єси на небесах! Нехай святиться ім’я Твоє, нехай прийде Царство Твоє, нехай буде воля Твоя, як на небі, так і на землі. Хліб наш насущний дай нам сьогодні; і прости нам борги наші, як і ми прощаємо боржникам нашим; і не введи нас у спокусу, але визволи нас від лукавого.",
+   "en": "Our Father, who art in heaven, hallowed be Thy Name. Thy kingdom come. Thy will be done, as in heaven, so on earth. Give us this day our daily bread. And forgive us our debts, as we forgive our debtors. And lead us not into temptation, but deliver us from the evil one.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria (Z1912 parafraseava)",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-20 (fórmula comum)."
+  },
+  {
+   "id": "act-016",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 12,
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-25 (fórmula comum)."
+  },
+  {
+   "id": "act-017",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-16 (fórmula comum)."
+  },
+  {
+   "id": "act-018",
+   "tipo": "oracao",
+   "cu": "Пріиди́те, поклони́мся Царе́ви на́шему Бо́гу. Пріиди́те, поклони́мся и припаде́мъ Христу́, Царе́ви на́шему Бо́гу. Пріиди́те, поклони́мся и припаде́мъ Самому́ Христу́, Царе́ви и Бо́гу на́шему.",
+   "pt": "Vinde, adoremos o nosso Rei e Deus. Vinde, adoremos e prostremo-nos diante de Cristo, nosso Rei e Deus. Vinde, adoremos e prostremo-nos diante do próprio Cristo, Rei e nosso Deus.",
+   "ru": "Придите, поклонимся Царю, нашему Богу. Придите, поклонимся и припадем ко Христу, Царю, нашему Богу. Придите, поклонимся и припадем к Самому Христу, Царю и Богу нашему.",
+   "uk": "Прийдіть, поклонімося Цареві нашому Богові. Прийдіть, поклонімося і припадімо до Христа, Царя нашого Бога. Прийдіть, поклонімося і припадімо до Самого Христа, Царя і Бога нашого.",
+   "en": "O come, let us worship God our King. O come, let us worship and fall down before Christ, our King and God. O come, let us worship and fall down before Christ Himself, our King and God.",
+   "fonte": {
+    "cu": "Z1912 p. 3",
+    "ru": "Z1912 p. 3 (adaptado)",
+    "en": "H1906 p. 15",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-28 (fórmula comum)."
+  },
+  {
+   "id": "act-019",
+   "tipo": "titulo",
+   "cu": "Конда́къ 1, гласъ 8",
+   "pt": "Condácio 1, tom 8",
+   "ru": "Кондак 1, глас 8",
+   "uk": "Кондак 1, глас 8",
+   "en": "Kontakion 1, Tone 8",
+   "fonte": {
+    "cu": "MS1900 p. 387",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-020",
+   "tipo": "oracao",
+   "cu": "Взбра́нной Воево́дѣ побѣди́тельная, я́ко изба́вльшеся отъ злыхъ, благода́рственная воспису́емъ Ти раби́ Твои́, Богоро́дице; но я́ко иму́щая держа́ву непобѣди́мую, отъ вся́кихъ насъ бѣдъ свободи́, да зове́мъ Ти: Ра́дуйся, Невѣ́сто Неневѣ́стная.",
+   "pt": "A Ti, Comandante que por nós combate, como libertos dos males, nós, Teus servos, entoamos cânticos de vitória e de ação de graças, ó Mãe de Deus. E Tu, que tens um poder invencível, livra-nos de todas as desgraças, para que Te clamemos: Alegra-Te, Noiva não desposada!",
+   "ru": "Тебе, Взбранной Воеводе, избавившись от зол, мы, рабы Твои, Богородица, воспеваем победную и благодарственную песнь. Ты же, как имеющая державу непобедимую, освободи нас от всяких бед, чтобы мы взывали к Тебе: Радуйся, Невеста Неневестная!",
+   "uk": "Тобі, Взбранній Воєводі, як ізбавлені від лихого, ми, раби Твої, Богородице, співаємо пісні перемоги й подяки. Ти ж, маючи силу непереможну, від усяких бід визволи нас, щоб ми взивали до Тебе: Радуйся, Невісто Неневісна!",
+   "en": "To thee, the Champion Leader, we thy servants, delivered from evils, ascribe songs of victory and thanksgiving, O Theotokos. But as thou hast invincible might, set us free from all calamities, that we may cry unto thee: Rejoice, O Bride unwedded!",
+   "fonte": {
+    "cu": "MS1900 p. 387",
+    "ru": "Z1912 p. 188 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«Взбранной Воеводѣ» = τῇ ὑπερμάχῳ στρατηγῷ, «Comandante (Voivoda) que combate por nós». RU: Z1912 adaptado (dec. 57): «высшей Военачальнице» → «Взбранной Воеводе»; «силу» → «державу»; acrescento «недостойные» retirado; «от бед» → «от зол» (отъ злыхъ)."
+  },
+  {
+   "id": "act-021",
+   "tipo": "titulo",
+   "cu": "И́косъ 1",
+   "pt": "Ikos 1",
+   "ru": "Икос 1",
+   "uk": "Ікос 1",
+   "en": "Ikos 1",
+   "fonte": {
+    "cu": "MS1900 pp. 388–389",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-022",
+   "tipo": "oracao",
+   "cu": "А́нгелъ предста́тель съ Небесе́ по́сланъ бысть рещи́ Богоро́дицѣ: ра́дуйся, и со безпло́тнымъ гла́сомъ воплоща́ема Тя зря, Го́споди, ужаса́шеся и стоя́ше, зовы́й къ Ней такова́я: Ра́дуйся, Е́юже ра́дость возсія́етъ; ра́дуйся, Е́юже кля́тва исче́знетъ. Ра́дуйся, па́дшаго Ада́ма воззва́ніе; ра́дуйся, слезъ Е́виныхъ избавле́ніе. Ра́дуйся, высото́ неудобовосходи́мая человѣ́ческими по́мыслы; ра́дуйся, глубино́ неудобозри́мая и а́нгельскима очи́ма. Ра́дуйся, я́ко еси́ Царе́во сѣда́лище; ра́дуйся, я́ко но́сиши Нося́щаго вся. Ра́дуйся, Звѣздо́, явля́ющая Со́лнце; ра́дуйся, утро́бо Боже́ственнаго воплоще́нія. Ра́дуйся, Е́юже обновля́ется тварь; ра́дуйся, Е́юже покланя́емся Творцу́. Ра́дуйся, Невѣ́сто Неневѣ́стная.",
+   "pt": "Um Anjo, o primeiro entre eles, foi enviado do céu a dizer à Mãe de Deus: Alegra-Te! E, vendo-Te, Senhor, encarnar-Te à sua voz incorpórea, ficou extasiado e de pé, clamando-lhe assim: Alegra-Te, Tu por quem a alegria resplandecerá; alegra-Te, Tu por quem a maldição se extinguirá. Alegra-Te, chamamento de Adão caído; alegra-Te, libertação das lágrimas de Eva. Alegra-Te, altura inacessível aos pensamentos humanos; alegra-Te, profundidade insondável até para os olhos dos anjos. Alegra-Te, porque és o trono do Rei; alegra-Te, porque trazes Aquele que tudo sustenta. Alegra-Te, estrela que manifesta o Sol; alegra-Te, seio da divina encarnação. Alegra-Te, Tu por quem a criação se renova; alegra-Te, Tu por quem adoramos o Criador. Alegra-Te, Noiva não desposada!",
+   "ru": "Ангел-предстатель послан был с неба сказать Богородице: «Радуйся!» И, видя Тебя, Господи, воплощающимся при его бесплотном возгласе, он стоял в изумлении, взывая к Ней так: Радуйся, Ты, через Которую воссияет радость; радуйся, Ты, через Которую исчезнет проклятие. Радуйся, падшего Адама призвание; радуйся, слез Евы избавление. Радуйся, высота, недосягаемая для человеческих помыслов; радуйся, глубина, непостижимая и для очей ангельских. Радуйся, ибо Ты — престол Царя; радуйся, ибо Ты носишь Носящего всё. Радуйся, звезда, являющая Солнце; радуйся, утроба Божественного воплощения. Радуйся, Ты, через Которую обновляется творение; радуйся, Ты, через Которую мы поклоняемся Творцу. Радуйся, Невеста Неневестная!",
+   "uk": "Ангел-предстатель був посланий з неба сказати Богородиці: Радуйся! І, бачачи Тебе, Господи, що втілюєшся від його безплотного голосу, жахнувся і стояв, так до Неї взиваючи: Радуйся, Тобою радість засяє; радуйся, Тобою клятва зникне. Радуйся, падшого Адама поклик; радуйся, сліз Євиних визволення. Радуйся, висото, недосяжна для людських помислів; радуйся, глибино, незглибима і для ангельських очей. Радуйся, бо Ти — престол Царя; радуйся, бо Ти носиш Того, Хто все носить. Радуйся, зоре, що являє Сонце; радуйся, утробо Божественного втілення. Радуйся, Тобою оновлюється творіння; радуйся, Тобою поклоняємося Творцеві. Радуйся, Невісто Неневісна!",
+   "en": "An Angel, chief among them, was sent from heaven to say unto the Theotokos: Rejoice! And beholding Thee, O Lord, taking flesh at his bodiless voice, he stood in awe, and cried unto her thus: Rejoice, thou through whom joy shall shine forth; rejoice, thou through whom the curse shall vanish. Rejoice, recalling of fallen Adam; rejoice, deliverance from the tears of Eve. Rejoice, height hard to ascend for human thoughts; rejoice, depth hard to behold even for the eyes of Angels. Rejoice, for thou art the King's throne; rejoice, for thou bearest Him Who beareth all. Rejoice, star that showest forth the Sun; rejoice, womb of the divine Incarnation. Rejoice, thou through whom creation is renewed; rejoice, thou through whom we worship the Creator. Rejoice, O Bride unwedded!",
+   "fonte": {
+    "cu": "MS1900 pp. 388–389",
+    "ru": "Z1912 pp. 188–189 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«предста́тель» = ἄγγελος πρωτοστάτης, «o primeiro (chefe) dos anjos». RU: Z1912 adaptado: «Один из верховных Ангелов» → «Ангел-предстатель»; «ибо обратно призван падший Адам» → «падшего Адама призвание» (sem perífrase); «трон Царский» → «престол Царя»."
+  },
+  {
+   "id": "act-023",
+   "tipo": "titulo",
+   "cu": "Конда́къ 2",
+   "pt": "Condácio 2",
+   "ru": "Кондак 2",
+   "uk": "Кондак 2",
+   "en": "Kontakion 2",
+   "fonte": {
+    "cu": "MS1900 p. 389",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-024",
+   "tipo": "oracao",
+   "cu": "Ви́дящи Свята́я Себе́ въ чистотѣ́, глаго́летъ Гавріи́лу де́рзостно: пресла́вное твоего́ гла́са неудобопрія́тельно души́ Мое́й явля́ется: безсѣ́меннаго бо зача́тія рождество́ ка́ко глаго́леши, зовы́й: Аллилу́іа.",
+   "pt": "Vendo-se em pureza, a Santa diz a Gabriel com ousadia: A estranheza da tua palavra parece difícil de aceitar à Minha alma; pois como falas de um parto de uma conceição sem semente, clamando: Aleluia?",
+   "ru": "Святая, видя Себя в чистоте, смело говорит Гавриилу: «Странное слово твое представляется душе Моей неудобоприемлемым: ибо как говоришь ты о рождении от бессеменного зачатия, восклицая: Аллилуия?»",
+   "uk": "Свята, бачачи Себе в чистоті, мовить сміливо Гавриїлові: Дивне слово твоє видається душі Моїй неприйнятним, бо як ти говориш про народження від безсіменного зачаття, взиваючи: Алилуя?",
+   "en": "Seeing herself in chastity, the holy one saith boldly unto Gabriel: The strangeness of thy word seemeth hard for my soul to receive; for how speakest thou of a birth from a seedless conception, crying: Alleluia?",
+   "fonte": {
+    "cu": "MS1900 p. 389",
+    "ru": "Z1912 p. 189 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«пресла́вное» = τὸ παράδοξον, «o que é estranho, inaudito». RU: Z1912 «непреемлемым» → «неудобоприемлемым» (неудобопрія́тельно)."
+  },
+  {
+   "id": "act-025",
+   "tipo": "titulo",
+   "cu": "И́косъ 2",
+   "pt": "Ikos 2",
+   "ru": "Икос 2",
+   "uk": "Ікос 2",
+   "en": "Ikos 2",
+   "fonte": {
+    "cu": "MS1900 pp. 389–390",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-026",
+   "tipo": "oracao",
+   "cu": "Ра́зумъ недоразумѣва́емый разумѣ́ти Дѣ́ва и́щущи, возопи́ къ служа́щему: изъ боку́ чи́сту, Сы́ну ка́ко есть роди́тися мо́щно, рцы Ми? Къ Не́йже онъ рече́ со стра́хомъ, оба́че зовы́й си́це: Ра́дуйся, совѣ́та неизрече́ннаго Таи́ннице; ра́дуйся, молча́нія прося́щихъ вѣ́ро. Ра́дуйся, чуде́съ Христо́выхъ нача́ло; ра́дуйся, велѣ́ній Его́ глави́зно. Ра́дуйся, лѣ́ствице небе́сная, Е́юже сни́де Богъ; ра́дуйся, мо́сте, преводя́й су́щихъ отъ земли́ на не́бо. Ра́дуйся, А́нгеловъ многослову́щее чу́до; ра́дуйся, бѣсо́въ многоплаче́вное пораже́ніе. Ра́дуйся, Свѣтъ неизрече́нно роди́вшая; ра́дуйся, е́же ка́ко, ни еди́наго же научи́вшая. Ра́дуйся, прему́дрыхъ превосходя́щая ра́зумъ; ра́дуйся, вѣ́рныхъ озаря́ющая смы́слы. Ра́дуйся, Невѣ́сто Неневѣ́стная.",
+   "pt": "Procurando entender um entendimento incompreensível, a Virgem exclamou ao servidor: Como pode nascer um Filho de um seio puro? Diz-Mo. E ele, com temor, disse-Lhe, clamando assim: Alegra-Te, iniciada no conselho inefável; alegra-Te, fé dos que pedem silêncio. Alegra-Te, princípio dos milagres de Cristo; alegra-Te, cume dos Seus mandamentos. Alegra-Te, escada celeste por onde Deus desceu; alegra-Te, ponte que conduz os da terra ao céu. Alegra-Te, milagre muito celebrado dos anjos; alegra-Te, ferida muito chorada dos demónios. Alegra-Te, que inefavelmente deste à luz a Luz; alegra-Te, que a ninguém ensinaste o «como». Alegra-Te, que ultrapassas o entendimento dos sábios; alegra-Te, que iluminas o espírito dos fiéis. Alegra-Te, Noiva não desposada!",
+   "ru": "Желая постичь непостижимое разумение, Дева воскликнула к служителю: «Как возможно Сыну родиться из чистого чрева? Скажи Мне». Он же со страхом сказал Ей, взывая так: Радуйся, тайнозрительница неизреченного совета; радуйся, вера в то, что требует молчания. Радуйся, начало чудес Христовых; радуйся, главизна Его повелений. Радуйся, лестница небесная, по которой сошел Бог; радуйся, мост, переводящий находящихся на земле на небо. Радуйся, чудо, многославимое Ангелами; радуйся, многооплакиваемое поражение бесов. Радуйся, неизреченно родившая Свет; радуйся, никого не научившая, как это было. Радуйся, превосходящая разумение мудрых; радуйся, озаряющая умы верных. Радуйся, Невеста Неневестная!",
+   "uk": "Розум незбагненний збагнути шукаючи, Діва вигукнула до служителя: З пречистого лона як можна Синові народитися? Скажи Мені. А він зі страхом мовив до Неї, так взиваючи: Радуйся, таємнице несказанної ради; радуйся, віро в те, що вимагає мовчання. Радуйся, чудес Христових початку; радуйся, повелінь Його вершино. Радуйся, драбино небесна, якою зійшов Бог; радуйся, мосте, що переводить земних на небо. Радуйся, ангелами многославне чудо; радуйся, бісів многооплакана поразко. Радуйся, що Світло несказанно породила; радуйся, що «як» нікого не навчила. Радуйся, що перевершуєш розум мудрих; радуйся, що осяваєш думки вірних. Радуйся, Невісто Неневісна!",
+   "en": "Seeking to understand an understanding past understanding, the Virgin cried unto the minister: From a pure womb how can a Son be born? Tell me. And he spake unto her in fear, yet crying thus: Rejoice, initiate of the ineffable counsel; rejoice, faith in that which calleth for silence. Rejoice, beginning of the miracles of Christ; rejoice, crown of His commandments. Rejoice, heavenly ladder by which God came down; rejoice, bridge that leadest those of earth to heaven. Rejoice, wonder much praised of Angels; rejoice, wound much lamented of demons. Rejoice, thou who ineffably gavest birth to the Light; rejoice, thou who taughtest no one the «how». Rejoice, thou who surpassest the knowledge of the wise; rejoice, thou who enlightenest the minds of the faithful. Rejoice, O Bride unwedded!",
+   "fonte": {
+    "cu": "MS1900 pp. 389–390",
+    "ru": "Z1912 pp. 189–190 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«Та́иннице» = μυσταγωγέ/μύστις, «iniciada». «главизно» = κεφάλαιον, «cume, súmula». «многослову́щее» = πολυθρύλητον, «muito celebrado». RU: Z1912 adaptado: «Служительница неизреченной тайны» → «тайнозрительница неизреченного совета»; «основа учения о Нем» → «главизна Его повелений»."
+  },
+  {
+   "id": "act-027",
+   "tipo": "titulo",
+   "cu": "Конда́къ 3",
+   "pt": "Condácio 3",
+   "ru": "Кондак 3",
+   "uk": "Кондак 3",
+   "en": "Kontakion 3",
+   "fonte": {
+    "cu": "MS1900 pp. 390–391",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-028",
+   "tipo": "oracao",
+   "cu": "Си́ла Вы́шняго осѣни́ тогда́ къ зача́тію Браконеиску́сную, и благопло́дная Тоя́ ложесна́, я́ко село́ показа́ сла́дкое, всѣмъ хотя́щимъ жа́ти спасе́ніе, внегда́ пѣ́ти си́це: Аллилу́іа.",
+   "pt": "O poder do Altíssimo cobriu então com a sua sombra, para a conceição, Aquela que não conhecia o matrimónio, e mostrou o Seu seio fecundo como um campo suave para todos os que querem colher a salvação, cantando assim: Aleluia.",
+   "ru": "Сила Всевышнего осенила тогда к зачатию Не познавшую брака и плодоносное чрево Ее явила как сладостное поле для всех, желающих пожинать спасение, воспевая так: Аллилуия.",
+   "uk": "Сила Всевишнього осінила тоді до зачаття Ту, що не знала шлюбу, і плодоносне лоно Її показала, мов поле солодке, для всіх, хто бажає жати спасіння, співаючи так: Алилуя.",
+   "en": "The power of the Most High then overshadowed unto conception her who knew not wedlock, and showed her fruitful womb as a sweet field unto all who would reap salvation, singing thus: Alleluia.",
+   "fonte": {
+    "cu": "MS1900 pp. 390–391",
+    "ru": "Z1912 p. 190 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«Браконеиску́сную» = ἀπειρόγαμον, «inexperiente do matrimónio»."
+  },
+  {
+   "id": "act-029",
+   "tipo": "titulo",
+   "cu": "И́косъ 3",
+   "pt": "Ikos 3",
+   "ru": "Икос 3",
+   "uk": "Ікос 3",
+   "en": "Ikos 3",
+   "fonte": {
+    "cu": "MS1900 pp. 391–392",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-030",
+   "tipo": "oracao",
+   "cu": "Иму́щи Богопрія́тную Дѣ́ва утро́бу, востече́ ко Елисаве́ти: младе́нецъ же о́ноя а́біе позна́въ Сея́ цѣлова́ніе, ра́довашеся, и игра́ньми я́ко пѣ́сньми вопія́ше къ Богоро́дицѣ: Ра́дуйся, о́трасли неувяда́емыя розго́; ра́дуйся, Плода́ безсме́ртнаго стяжа́ніе. Ра́дуйся, Дѣ́лателя дѣ́лающая Человѣколю́бца; ра́дуйся, Сади́теля жи́зни на́шея ро́ждшая. Ра́дуйся, ни́во, растя́щая гобзова́ніе щедро́тъ; ра́дуйся, трапе́зо, нося́щая оби́ліе очище́нія. Ра́дуйся, я́ко рай пи́щный процвѣта́еши; ра́дуйся, я́ко приста́нище душа́мъ гото́виши. Ра́дуйся, прія́тное моли́твы кади́ло; ра́дуйся, всего́ мі́ра очище́ніе. Ра́дуйся, Бо́жіе къ сме́ртнымъ благоволе́ніе; ра́дуйся, сме́ртныхъ къ Бо́гу дерзнове́ніе. Ра́дуйся, Невѣ́сто Неневѣ́стная.",
+   "pt": "Tendo a Virgem o seio que recebeu a Deus, apressou-se a ir ter com Isabel; e o menino desta, reconhecendo logo a Sua saudação, rejubilou e com saltos, como com cânticos, clamava à Mãe de Deus: Alegra-Te, vergôntea de rebento que não murcha; alegra-Te, possessão do fruto imortal. Alegra-Te, que cultivas o Cultivador amigo dos homens; alegra-Te, que deste à luz o Plantador da nossa vida. Alegra-Te, campo que fazes crescer a abundância das misericórdias; alegra-Te, mesa que trazes a fartura da propiciação. Alegra-Te, porque floresces como um paraíso de delícias; alegra-Te, porque preparas um porto para as almas. Alegra-Te, incenso agradável de oração; alegra-Te, propiciação do mundo inteiro. Alegra-Te, benevolência de Deus para com os mortais; alegra-Te, confiança dos mortais diante de Deus. Alegra-Te, Noiva não desposada!",
+   "ru": "Имея во чреве Бога, Дева поспешила к Елисавете; и младенец ее, тотчас узнав Ее приветствие, возрадовался и взыграниями, как песнями, взывал к Богородице: Радуйся, ветвь неувядаемого отростка; радуйся, стяжание бессмертного Плода. Радуйся, Делателя-Человеколюбца возделывающая; радуйся, Насадителя жизни нашей родившая. Радуйся, нива, взращивающая обилие щедрот; радуйся, трапеза, носящая изобилие очищения. Радуйся, ибо Ты расцветаешь, как рай сладости; радуйся, ибо Ты уготовляешь пристанище душам. Радуйся, благоприятное кадило молитвы; радуйся, очищение всего мира. Радуйся, благоволение Божие к смертным; радуйся, дерзновение смертных к Богу. Радуйся, Невеста Неневестная!",
+   "uk": "Маючи лоно, що прийняло Бога, Діва поспішила до Єлисавети; а немовля її, зразу пізнавши Її привітання, зраділо і граннями, мов піснями, взивало до Богородиці: Радуйся, гілко нев'янучого паростка; радуйся, надбання безсмертного Плоду. Радуйся, що Ділателя-Чоловіколюбця вирощуєш; радуйся, що Садівника життя нашого породила. Радуйся, ниво, що вирощуєш щедрот рясноту; радуйся, трапезо, що несеш очищення достаток. Радуйся, бо як рай поживний розквітаєш; радуйся, бо пристановище душам готуєш. Радуйся, приємне кадило молитви; радуйся, всього світу очищення. Радуйся, Боже до смертних благовоління; радуйся, смертних до Бога дерзновення. Радуйся, Невісто Неневісна!",
+   "en": "Having the God-receiving womb, the Virgin hastened unto Elisabeth; and her babe, straightway knowing her greeting, rejoiced, and with leaps as with songs cried unto the Theotokos: Rejoice, branch of an unfading shoot; rejoice, possession of the immortal Fruit. Rejoice, thou who tillest the Husbandman Who loveth mankind; rejoice, thou who gavest birth to the Planter of our life. Rejoice, field that yieldest a rich increase of compassions; rejoice, table that bearest an abundance of cleansing. Rejoice, for thou blossomest as a paradise of delight; rejoice, for thou preparest a haven for souls. Rejoice, acceptable incense of prayer; rejoice, cleansing of the whole world. Rejoice, good will of God toward mortals; rejoice, boldness of mortals toward God. Rejoice, O Bride unwedded!",
+   "fonte": {
+    "cu": "MS1900 pp. 391–392",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«пи́щный» = τρυφῆς, «de delícias». «очище́ніе» = ἱλασμός, «propiciação/expiação». RU: própria (Z1912 pp. 190–191 só legível em parte no OCR)."
+  },
+  {
+   "id": "act-031",
+   "tipo": "titulo",
+   "cu": "Конда́къ 4",
+   "pt": "Condácio 4",
+   "ru": "Кондак 4",
+   "uk": "Кондак 4",
+   "en": "Kontakion 4",
+   "fonte": {
+    "cu": "MS1900 p. 392",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-032",
+   "tipo": "oracao",
+   "cu": "Бу́рю внутрь имѣ́я помышле́ній сумни́тельныхъ, цѣлому́дренный Іо́сифъ смяте́ся, къ Тебѣ́ зря небра́чнѣй, и бракоокра́дованную помышля́я, Непоро́чная; увѣ́дѣвъ же Твое́ зача́тіе отъ Ду́ха Свя́та, рече́: Аллилу́іа.",
+   "pt": "Tendo por dentro uma tempestade de pensamentos de dúvida, o casto José ficou perturbado, ao olhar para Ti, que não conhecias o matrimónio, e ao pensar que tinhas sido furtivamente desposada, ó Imaculada; mas, sabendo que a Tua conceição era do Espírito Santo, disse: Aleluia.",
+   "ru": "Имея внутри бурю сомнительных помыслов, целомудренный Иосиф смутился, взирая на Тебя, не познавшую брака, и помышляя о тайном браке, Непорочная; узнав же, что Твое зачатие от Духа Святого, сказал: Аллилуия.",
+   "uk": "Маючи всередині бурю сумнівних помислів, цнотливий Йосиф збентежився, дивлячись на Тебе, неодружену, і думаючи про потаємний шлюб, Непорочна; довідавшись же, що зачаття Твоє від Духа Святого, мовив: Алилуя.",
+   "en": "Having within a tempest of doubting thoughts, the chaste Joseph was troubled, as he looked upon thee who hadst known no wedlock, and thought of a stolen union, O blameless one; but learning that thy conception was of the Holy Spirit, he said: Alleluia.",
+   "fonte": {
+    "cu": "MS1900 p. 392",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«бракоокра́дованную» = κλεψίγαμον, «desposada às ocultas». PT/UK: «José» / «Йосиф» (forma tradicional, dec. 19)."
+  },
+  {
+   "id": "act-033",
+   "tipo": "titulo",
+   "cu": "И́косъ 4",
+   "pt": "Ikos 4",
+   "ru": "Икос 4",
+   "uk": "Ікос 4",
+   "en": "Ikos 4",
+   "fonte": {
+    "cu": "MS1900 p. 393",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-034",
+   "tipo": "oracao",
+   "cu": "Слы́шаша па́стыріе А́нгеловъ пою́щихъ плотско́е Христо́во прише́ствіе, и те́кше я́ко къ Па́стырю ви́дятъ Сего́ я́ко а́гнца непоро́чна, во чре́вѣ Марі́инѣ упа́сшася, Ю́же пою́ще рѣ́ша: Ра́дуйся, А́гнца и Па́стыря Ма́ти; ра́дуйся, дво́ре слове́сныхъ ове́цъ. Ра́дуйся, неви́димыхъ враго́въ муче́ніе; ра́дуйся, ра́йскихъ две́рей отверзе́ніе. Ра́дуйся, я́ко небе́сная сра́дуются земны́мъ; ра́дуйся, я́ко земна́я сликовству́ютъ небе́снымъ. Ра́дуйся, апо́столовъ немо́лчная уста́; ра́дуйся, страстоте́рпцевъ непобѣди́мая де́рзосте. Ра́дуйся, тве́рдое вѣ́ры утвержде́ніе; ра́дуйся, свѣ́тлое благода́ти позна́ніе. Ра́дуйся, Е́юже обнажи́ся адъ; ра́дуйся, Е́юже облеко́хомся сла́вою. Ра́дуйся, Невѣ́сто Неневѣ́стная.",
+   "pt": "Os pastores ouviram os anjos a cantar a vinda de Cristo na carne e, correndo como para um Pastor, veem-no como um Cordeiro imaculado, apascentado no seio de Maria, e, cantando-A, disseram: Alegra-Te, Mãe do Cordeiro e do Pastor; alegra-Te, redil das ovelhas espirituais. Alegra-Te, tormento dos inimigos invisíveis; alegra-Te, abertura das portas do paraíso. Alegra-Te, porque as coisas do céu se alegram com a terra; alegra-Te, porque as coisas da terra dançam em coro com o céu. Alegra-Te, boca nunca silenciosa dos apóstolos; alegra-Te, ousadia invencível dos mártires. Alegra-Te, firme alicerce da fé; alegra-Te, conhecimento luminoso da graça. Alegra-Te, Tu por quem o Hades foi despojado; alegra-Te, Tu por quem fomos revestidos de glória. Alegra-Te, Noiva não desposada!",
+   "ru": "Услышали пастухи Ангелов, воспевающих пришествие Христово во плоти, и, поспешив как к Пастырю, видят Его, как Агнца непорочного, пасомого во чреве Марии, и, воспевая Ее, сказали: Радуйся, Агнца и Пастыря Матерь; радуйся, двор словесных овец. Радуйся, мучение невидимых врагов; радуйся, отверзение райских дверей. Радуйся, ибо небесное радуется с земным; радуйся, ибо земное ликует с небесным. Радуйся, немолчные уста апостолов; радуйся, непобедимое дерзновение страстотерпцев. Радуйся, твердое утверждение веры; радуйся, светлое познание благодати. Радуйся, Ты, через Которую обнажен ад; радуйся, Ты, через Которую мы облеклись славою. Радуйся, Невеста Неневестная!",
+   "uk": "Почули пастирі ангелів, що оспівували прихід Христа в тілі, і, прибігши, мов до Пастиря, бачать Його, як непорочне Ягня, що пасеться в лоні Марії, і, оспівуючи Її, мовили: Радуйся, Ягняти і Пастиря Мати; радуйся, дворе словесних овець. Радуйся, невидимих ворогів муко; радуйся, райських дверей відкриття. Радуйся, бо небесне радіє разом із земним; радуйся, бо земне ликує разом із небесним. Радуйся, апостолів невмовкні уста; радуйся, страстотерпців непереможна відваго. Радуйся, віри тверде утвердження; радуйся, благодаті світле пізнання. Радуйся, Тобою оголено ад; радуйся, Тобою ми зодяглися славою. Радуйся, Невісто Неневісна!",
+   "en": "The shepherds heard the Angels hymning the coming of Christ in the flesh, and running as unto a Shepherd, they behold Him as a spotless Lamb that had been pastured in the womb of Mary; and hymning her they said: Rejoice, Mother of the Lamb and the Shepherd; rejoice, fold of the rational sheep. Rejoice, torment of the invisible enemies; rejoice, opening of the gates of paradise. Rejoice, for the things of heaven rejoice with the earth; rejoice, for the things of earth dance with the heavens. Rejoice, never-silent mouth of the Apostles; rejoice, invincible boldness of the passion-bearers. Rejoice, firm foundation of the faith; rejoice, radiant knowledge of grace. Rejoice, thou through whom Hades was laid bare; rejoice, thou through whom we are clothed with glory. Rejoice, O Bride unwedded!",
+   "fonte": {
+    "cu": "MS1900 p. 393",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«адъ» = ᾅδης: PT «Hades» (dec. 71). «упа́сшася» = ποιμανθέντα, «apascentado»."
+  },
+  {
+   "id": "act-035",
+   "tipo": "titulo",
+   "cu": "Конда́къ 5",
+   "pt": "Condácio 5",
+   "ru": "Кондак 5",
+   "uk": "Кондак 5",
+   "en": "Kontakion 5",
+   "fonte": {
+    "cu": "MS1900 p. 394",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-036",
+   "tipo": "oracao",
+   "cu": "Боготе́чную звѣзду́ узрѣ́вше волсви́, тоя́ послѣ́доваша зари́, и я́ко свѣти́льникъ держа́ще ю, то́ю испыта́ху крѣ́пкаго Царя́, и дости́гше Непостижи́маго, возра́довашася, Ему́ вопію́ще: Аллилу́іа.",
+   "pt": "Tendo visto a estrela que corre para Deus, os Magos seguiram o seu fulgor e, tendo-a como lâmpada, por ela procuraram o Rei poderoso; e, tendo alcançado o Inalcançável, alegraram-se, clamando-Lhe: Aleluia.",
+   "ru": "Увидев Боготечную звезду, волхвы последовали ее сиянию и, держа ее как светильник, с нею искали могущественного Царя; и, достигнув Недостижимого, возрадовались, взывая Ему: Аллилуия.",
+   "uk": "Побачивши Боготечну зорю, волхви пішли за її сяйвом і, тримаючи її, мов світильник, нею шукали могутнього Царя; і, досягнувши Недосяжного, зраділи, взиваючи Йому: Алилуя.",
+   "en": "Having beheld the God-directed star, the Magi followed its radiance; and holding it as a lamp, by it they sought the mighty King; and having reached the Unreachable, they rejoiced, crying unto Him: Alleluia.",
+   "fonte": {
+    "cu": "MS1900 p. 394",
+    "ru": "Z1912 p. 192 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«Боготе́чную» = θεόδρομον, «que corre segundo Deus / conduzida por Deus». RU: Z1912 adaptado: «звезду, шедшую указанным от Бога путем» → «Боготечную звезду»; «державного Царя» → «могущественного Царя» (крѣ́пкаго)."
+  },
+  {
+   "id": "act-037",
+   "tipo": "titulo",
+   "cu": "И́косъ 5",
+   "pt": "Ikos 5",
+   "ru": "Икос 5",
+   "uk": "Ікос 5",
+   "en": "Ikos 5",
+   "fonte": {
+    "cu": "MS1900 pp. 394–395",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-038",
+   "tipo": "oracao",
+   "cu": "Ви́дѣша о́троцы халде́йстіи на руку́ Дѣви́чу Созда́вшаго рука́ми человѣ́ки, и Влады́ку разумѣва́юще Его́, а́ще и ра́бій прія́тъ зракъ, потща́шася дарми́ послужи́ти Ему́, и возопи́ти Благослове́ннѣй: Ра́дуйся, Звѣзды́ незаходи́мыя Ма́ти; ра́дуйся, заре́ та́инственнаго дне. Ра́дуйся, пре́лести пещь угаси́вшая; ра́дуйся, Тро́ицы таи́нники просвѣща́ющая. Ра́дуйся, мучи́теля безчеловѣ́чнаго измѣта́ющая отъ нача́льства; ра́дуйся, Го́спода Человѣколю́бца показа́вшая Христа́. Ра́дуйся, ва́рварскаго избавля́ющая служе́нія; ра́дуйся, тимѣ́нія изъима́ющая дѣлъ. Ра́дуйся, огня́ поклоне́ніе угаси́вшая; ра́дуйся, пла́мене страсте́й измѣня́ющая. Ра́дуйся, вѣ́рныхъ наста́внице цѣлому́дрія; ра́дуйся, всѣхъ родо́въ весе́ліе. Ра́дуйся, Невѣ́сто Неневѣ́стная.",
+   "pt": "Os filhos dos caldeus viram nos braços da Virgem Aquele que com as Suas mãos formou os homens e, reconhecendo-O como Soberano, ainda que tivesse tomado a forma de servo, apressaram-se a servi-Lo com dons e a clamar à Bendita: Alegra-Te, Mãe da estrela sem ocaso; alegra-Te, aurora do dia místico. Alegra-Te, que extinguiste a fornalha do engano; alegra-Te, que iluminas os iniciados na Trindade. Alegra-Te, que expulsas do poder o tirano desumano; alegra-Te, que mostraste Cristo, o Senhor amigo dos homens. Alegra-Te, que livras do culto bárbaro; alegra-Te, que arrancas do lodo das obras. Alegra-Te, que fizeste cessar a adoração do fogo; alegra-Te, que transformas a chama das paixões. Alegra-Te, guia dos fiéis para a castidade; alegra-Te, alegria de todas as gerações. Alegra-Te, Noiva não desposada!",
+   "ru": "Увидели отроки халдейские на руках Девы Создавшего руками людей и, уразумев в Нем Владыку, хотя Он и принял образ раба, поспешили послужить Ему дарами и возгласить Благословенной: Радуйся, Матерь Звезды незаходимой; радуйся, заря таинственного дня. Радуйся, угасившая печь заблуждения; радуйся, просвещающая тайнозрителей Троицы. Радуйся, низвергающая от власти бесчеловечного мучителя; радуйся, явившая Господа Человеколюбца — Христа. Радуйся, избавляющая от варварского служения; радуйся, извлекающая из тины дел. Радуйся, угасившая поклонение огню; радуйся, избавляющая от пламени страстей. Радуйся, наставница верных к целомудрию; радуйся, веселие всех родов. Радуйся, Невеста Неневестная!",
+   "uk": "Побачили отроки халдейські на руках Діви Того, Хто руками створив людей, і, розпізнавши в Ньому Владику, хоч і прийняв Він образ раба, поспішили дарами послужити Йому і заволати до Благословенної: Радуйся, Зорі незахідної Мати; радуйся, світанку таємничого дня. Радуйся, що загасила піч омани; радуйся, що просвіщаєш таємників Трійці. Радуйся, що скидаєш з влади нелюдського мучителя; радуйся, що явила Господа Чоловіколюбця — Христа. Радуйся, що визволяєш від варварського служіння; радуйся, що витягаєш із багна діл. Радуйся, що загасила поклоніння вогню; радуйся, що змінюєш полум'я пристрастей. Радуйся, вірних наставнице цнотливості; радуйся, всіх родів веселощі. Радуйся, Невісто Неневісна!",
+   "en": "The children of the Chaldees saw in the arms of the Virgin Him Who with His hands fashioned mankind; and knowing Him to be the Master, though He had taken the form of a servant, they hastened to serve Him with gifts, and to cry unto her who is blessed: Rejoice, Mother of the Star that never setteth; rejoice, dawn of the mystic day. Rejoice, thou who didst quench the furnace of error; rejoice, thou who enlightenest the initiates of the Trinity. Rejoice, thou who castest out from power the inhuman tyrant; rejoice, thou who didst show forth Christ the Lord, the Lover of mankind. Rejoice, thou who deliverest from barbarous worship; rejoice, thou who drawest us out of the mire of works. Rejoice, thou who didst quench the worship of fire; rejoice, thou who changest the flame of the passions. Rejoice, guide of the faithful unto chastity; rejoice, gladness of all generations. Rejoice, O Bride unwedded!",
+   "fonte": {
+    "cu": "MS1900 pp. 394–395",
+    "ru": "Z1912 pp. 192–193 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«Звѣзды́ незаходи́мыя» (genitivo): «Mãe da Estrela sem ocaso» (Cristo). «тимѣ́нія … дѣ́лъ» = βορβόρου ἔργων, «do lodo das obras». «пла́мене страсте́й измѣня́ющая» = φλογὸς παθῶν ἀπαλλάττουσα: o eslavo diz «измѣня́ющая» («transformas / livras»); RU «избавляющая» segue o grego. RU: Z1912 adaptado: «Матерь Светила незаходящего» → «Матерь Звезды незаходимой»; «от грубого идолослужения» → «от варварского служения»."
+  },
+  {
+   "id": "act-039",
+   "tipo": "titulo",
+   "cu": "Конда́къ 6",
+   "pt": "Condácio 6",
+   "ru": "Кондак 6",
+   "uk": "Кондак 6",
+   "en": "Kontakion 6",
+   "fonte": {
+    "cu": "MS1900 pp. 395–396",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-040",
+   "tipo": "oracao",
+   "cu": "Проповѣ́дницы богоно́сніи, бы́вше волсви́, возврати́шася въ Вавило́нъ, сконча́вше Твое́ проро́чество, и проповѣ́давше Тя Христа́ всѣмъ, оста́виша И́рода я́ко буесло́вна, не вѣ́дуща пѣ́ти: Аллилу́іа.",
+   "pt": "Tornados pregadores portadores de Deus, os Magos voltaram para Babilónia, tendo cumprido a Tua profecia; e, pregando-Te a todos como Cristo, deixaram Herodes como um falador vão que não sabia cantar: Aleluia.",
+   "ru": "Став проповедниками богоносными, волхвы возвратились в Вавилон, исполнив Твое пророчество, и, проповедав всем Тебя как Христа, оставили Ирода как пустослова, не умеющего петь: Аллилуия.",
+   "uk": "Ставши проповідниками богоносними, волхви повернулися до Вавилона, виконавши Твоє пророцтво, і, проповідавши всім Тебе як Христа, залишили Ірода, мов пустослова, що не вміє співати: Алилуя.",
+   "en": "Having become God-bearing heralds, the Magi returned to Babylon, having fulfilled Thy prophecy; and having preached Thee to all as the Christ, they left Herod as a babbler, who knew not how to sing: Alleluia.",
+   "fonte": {
+    "cu": "MS1900 pp. 395–396",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Variante (dec. 62): MS1900 p. 396 «я́ко буесло́вяща» («como quem fala loucuras»); segue-se o texto atual «я́ко буесло́вна» (= ὡς ληρώδη, «como falador vão»)."
+  },
+  {
+   "id": "act-041",
+   "tipo": "titulo",
+   "cu": "И́косъ 6",
+   "pt": "Ikos 6",
+   "ru": "Икос 6",
+   "uk": "Ікос 6",
+   "en": "Ikos 6",
+   "fonte": {
+    "cu": "MS1900 pp. 396–397",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-042",
+   "tipo": "oracao",
+   "cu": "Возсія́вый во Еги́птѣ просвѣще́ніе и́стины, отгна́лъ еси́ лжи тьму: и́доли бо его́, Спа́се, не терпя́ще Твоея́ крѣ́пости, падо́ша, сихъ же изба́вльшіися вопія́ху къ Богоро́дицѣ: Ра́дуйся, исправле́ніе человѣ́ковъ; ра́дуйся, низпаде́ніе бѣсо́въ. Ра́дуйся, пре́лести держа́ву попра́вшая; ра́дуйся, и́дольскую лесть обличи́вшая. Ра́дуйся, мо́ре, потопи́вшее фарао́на мы́сленнаго; ра́дуйся, ка́меню, напои́вшій жа́ждущія жи́зни. Ра́дуйся, о́гненный сто́лпе, наставля́яй су́щія во тьмѣ; ра́дуйся, покро́ве мі́ру, ши́ршій о́блака. Ра́дуйся, пи́ще, ма́нны пріе́мнице; ра́дуйся, сла́дости святы́я служи́тельнице. Ра́дуйся, земле́ обѣтова́нія; ра́дуйся, изъ нея́же тече́тъ медъ и млеко́. Ра́дуйся, Невѣ́сто Неневѣ́стная.",
+   "pt": "Fazendo brilhar no Egito a iluminação da verdade, expulsaste as trevas da mentira; pois os seus ídolos, ó Salvador, não suportando a Tua força, caíram; e os que deles foram libertos clamavam à Mãe de Deus: Alegra-Te, reerguimento dos homens; alegra-Te, queda dos demónios. Alegra-Te, que calcaste o poder do engano; alegra-Te, que desmascaraste a fraude dos ídolos. Alegra-Te, mar que afogou o Faraó espiritual; alegra-Te, rocha que deu de beber aos sedentos de vida. Alegra-Te, coluna de fogo que guias os que estão nas trevas; alegra-Te, abrigo do mundo, mais largo que a nuvem. Alegra-Te, alimento que sucede ao maná; alegra-Te, servidora das delícias santas. Alegra-Te, terra da promessa; alegra-Te, de onde corre leite e mel. Alegra-Te, Noiva não desposada!",
+   "ru": "Воссияв в Египте просвещением истины, Ты изгнал тьму лжи; ибо идолы его, Спасе, не вынося силы Твоей, пали, а избавленные от них взывали к Богородице: Радуйся, исправление людей; радуйся, низвержение бесов. Радуйся, поправшая державу заблуждения; радуйся, обличившая идольский обман. Радуйся, море, потопившее фараона мысленного; радуйся, камень, напоивший жаждущих жизни. Радуйся, столп огненный, наставляющий сущих во тьме; радуйся, покров миру, ширший облака. Радуйся, пища, преемница манны; радуйся, служительница святой сладости. Радуйся, земля обетования; радуйся, Ты, из Которой течет мед и молоко. Радуйся, Невеста Неневестная!",
+   "uk": "Засяявши в Єгипті просвітленням істини, Ти прогнав темряву неправди; бо ідоли його, Спасе, не стерпівши сили Твоєї, впали, а визволені від них взивали до Богородиці: Радуйся, людей виправлення; радуйся, бісів падіння. Радуйся, що потоптала владу омани; радуйся, що викрила ідольську облуду. Радуйся, море, що потопило фараона мисленного; радуйся, скеле, що напоїла спраглих життя. Радуйся, стовпе вогненний, що ведеш тих, хто в темряві; радуйся, покрове світу, ширший за хмару. Радуйся, поживо, що прийшла на зміну манні; радуйся, святої солодкості служителько. Радуйся, земле обітована; радуйся, з якої тече мед і молоко. Радуйся, Невісто Неневісна!",
+   "en": "Having shone in Egypt the illumination of truth, Thou didst drive away the darkness of falsehood; for her idols, O Saviour, not enduring Thy strength, fell down; and they that were delivered from them cried unto the Theotokos: Rejoice, uplifting of men; rejoice, downfall of demons. Rejoice, thou who didst trample upon the dominion of delusion; rejoice, thou who didst expose the deceit of idols. Rejoice, sea that drowned the spiritual Pharaoh; rejoice, rock that gavest drink to them that thirst for life. Rejoice, pillar of fire, guiding them that are in darkness; rejoice, shelter of the world, broader than a cloud. Rejoice, food that succeedest the manna; rejoice, minister of holy delight. Rejoice, land of promise; rejoice, thou from whom floweth milk and honey. Rejoice, O Bride unwedded!",
+   "fonte": {
+    "cu": "MS1900 pp. 396–397",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«мысленнаго» = νοητόν, «espiritual (inteligível)». «ма́нны прiéмнице» = μάννα διάδοχε, «sucessora do maná». «Возсія́вый … отгна́лъ еси́» dirige-se a Cristo (2.ª pessoa); o resto à Mãe de Deus."
+  },
+  {
+   "id": "act-043",
+   "tipo": "titulo",
+   "cu": "Конда́къ 7",
+   "pt": "Condácio 7",
+   "ru": "Кондак 7",
+   "uk": "Кондак 7",
+   "en": "Kontakion 7",
+   "fonte": {
+    "cu": "MS1900 p. 397",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-044",
+   "tipo": "oracao",
+   "cu": "Хотя́щу Симео́ну отъ ны́нѣшняго вѣ́ка преста́витися преле́стнаго, вда́лся еси́ я́ко младе́нецъ тому́, но позна́лся еси́ ему́ и Богъ соверше́нный. Тѣ́мже удиви́ся Твое́й неизрече́ннѣй прему́дрости, зовы́й: Аллилу́іа.",
+   "pt": "Estando Simeão para partir desta era enganosa, entregaste-Te a ele como menino, mas foste-lhe reconhecido também como Deus perfeito. Por isso ele maravilhou-se da Tua inefável sabedoria, clamando: Aleluia.",
+   "ru": "Когда Симеон должен был отойти от нынешнего обольстительного века, Ты был вручен ему как Младенец, но познан был им и как совершенный Бог. Поэтому он изумился неизреченной Твоей премудрости, восклицая: Аллилуия.",
+   "uk": "Коли Симеон мав відійти від цього оманливого віку, Ти дався йому як немовля, але пізнаний був ним і як Бог досконалий. Тому він здивувався Твоїй несказанній премудрості, взиваючи: Алилуя.",
+   "en": "As Simeon was about to depart from this present deceitful age, Thou wast given unto him as a babe, but wast made known unto him as perfect God also. Wherefore he marvelled at Thine ineffable wisdom, crying: Alleluia.",
+   "fonte": {
+    "cu": "MS1900 p. 397",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-045",
+   "tipo": "titulo",
+   "cu": "И́косъ 7",
+   "pt": "Ikos 7",
+   "ru": "Икос 7",
+   "uk": "Ікос 7",
+   "en": "Ikos 7",
+   "fonte": {
+    "cu": "MS1900 pp. 397–398",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-046",
+   "tipo": "oracao",
+   "cu": "Но́вую показа́ тварь, я́влься Зижди́тель намъ отъ Него́ бы́вшимъ, изъ безсѣ́менныя прозя́бъ утро́бы, и сохрани́въ Ю, я́коже бѣ, нетлѣ́нну, да чу́до ви́дяще, воспои́мъ Ю, вопію́ще: Ра́дуйся, цвѣ́те нетлѣ́нія; ра́дуйся, вѣ́нче воздержа́нія. Ра́дуйся, воскресе́нія о́бразъ облиста́ющая; ра́дуйся, а́нгельское житіе́ явля́ющая. Ра́дуйся, дре́во свѣтлоплодови́тое, отъ него́же пита́ются вѣ́рніи; ра́дуйся, дре́во благосѣнноли́ственное, и́мже покрыва́ются мно́зи. Ра́дуйся, во чре́вѣ нося́щая Изба́вителя плѣне́ннымъ; ра́дуйся, ро́ждшая Наста́вника заблу́ждшимъ. Ра́дуйся, Судіи́ пра́веднаго умоле́ніе; ра́дуйся, мно́гихъ согрѣше́ній проще́ніе. Ра́дуйся, оде́ждо наги́хъ дерзнове́нія; ра́дуйся, любы́, вся́кое жела́ніе побѣжда́ющая. Ра́дуйся, Невѣ́сто Неневѣ́стная.",
+   "pt": "Mostrou-nos uma nova criação o Criador, ao manifestar-Se a nós, que por Ele fomos feitos, brotando de um seio sem semente e conservando-o incorrupto como era, para que, vendo o milagre, A cantemos, clamando: Alegra-Te, flor da incorrupção; alegra-Te, coroa da continência. Alegra-Te, que fazes resplandecer a imagem da ressurreição; alegra-Te, que mostras a vida dos anjos. Alegra-Te, árvore de fruto luminoso, de que se alimentam os fiéis; alegra-Te, árvore de folhagem frondosa, sob a qual muitos se abrigam. Alegra-Te, que trazes no seio o Libertador dos cativos; alegra-Te, que deste à luz o Guia dos extraviados. Alegra-Te, súplica ao Juiz justo; alegra-Te, perdão de muitos pecados. Alegra-Te, veste de confiança para os nus; alegra-Te, amor que vence todo o desejo. Alegra-Te, Noiva não desposada!",
+   "ru": "Новое творение явил Зиждитель, явившись нам, от Него происшедшим: произрос из бессеменной утробы и сохранил ее, как была, нетленной, чтобы мы, видя чудо, воспевали Ее, взывая: Радуйся, цвет нетления; радуйся, венец воздержания. Радуйся, воссияние образа воскресения; радуйся, являющая ангельское житие. Радуйся, древо светлоплодовитое, от которого питаются верные; радуйся, древо благосеннолиственное, под которым укрываются многие. Радуйся, во чреве носящая Избавителя пленным; радуйся, родившая Наставника заблудшим. Радуйся, умилостивление праведного Судии; радуйся, прощение многих согрешений. Радуйся, одежда дерзновения для нагих; радуйся, любовь, побеждающая всякое желание. Радуйся, Невеста Неневестная!",
+   "uk": "Нове творіння показав Творець, явившись нам, що від Нього постали: з безсіменного лона проріс і зберіг його, як було, нетлінним, щоб ми, бачачи чудо, оспівували Її, взиваючи: Радуйся, цвіте нетління; радуйся, вінче стриманості. Радуйся, що образ воскресіння осяваєш; радуйся, що ангельське життя являєш. Радуйся, дерево світлоплідне, від якого живляться вірні; радуйся, дерево благотінистолисте, яким покриваються многі. Радуйся, що в лоні носиш Визволителя полоненим; радуйся, що породила Наставника заблукалим. Радуйся, праведного Судді умилостивлення; радуйся, многих гріхів прощення. Радуйся, одежо відваги для нагих; радуйся, любове, що перемагає всяке бажання. Радуйся, Невісто Неневісна!",
+   "en": "The Creator showed forth a new creation, appearing unto us who came into being from Him; He sprang forth from a seedless womb, and preserved it incorrupt as it was, that seeing the wonder we might hymn her, crying: Rejoice, flower of incorruption; rejoice, crown of continence. Rejoice, thou who makest the image of the resurrection to shine; rejoice, thou who showest forth the life of the Angels. Rejoice, tree of radiant fruit, whereof the faithful are nourished; rejoice, tree of goodly shading leaves, whereby many are sheltered. Rejoice, thou who bearest in thy womb the Redeemer of captives; rejoice, thou who gavest birth to the Guide of them that have gone astray. Rejoice, entreaty before the righteous Judge; rejoice, forgiveness of many transgressions. Rejoice, robe of boldness for the naked; rejoice, love that vanquishest all desire. Rejoice, O Bride unwedded!",
+   "fonte": {
+    "cu": "MS1900 pp. 397–398",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«Ю» (2×) refere-se ao seio (утроба) e depois à Virgem: «воспо́имъ Ю» = «cantemo-La». «благосѣннолиственное» = εὐσκιόφυλλον, «de folhas que dão boa sombra»."
+  },
+  {
+   "id": "act-047",
+   "tipo": "titulo",
+   "cu": "Конда́къ 8",
+   "pt": "Condácio 8",
+   "ru": "Кондак 8",
+   "uk": "Кондак 8",
+   "en": "Kontakion 8",
+   "fonte": {
+    "cu": "MS1900 p. 399",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-048",
+   "tipo": "oracao",
+   "cu": "Стра́нное рождество́ ви́дѣвше, устрани́мся мі́ра, умъ на небеса́ прело́жше: сего́ бо ра́ди высо́кій Богъ на земли́ яви́ся смире́нный человѣ́къ, хотя́й привлещи́ къ высотѣ́ Тому́ вопію́щія: Аллилу́іа.",
+   "pt": "Vendo um nascimento estranho, alheemo-nos do mundo, transportando o espírito para o céu; pois por isso o Deus altíssimo apareceu na terra como homem humilde, querendo atrair às alturas os que Lhe clamam: Aleluia.",
+   "ru": "Видев странное рождество, устранимся от мира, перенеся ум на небеса: ибо для того высокий Бог явился на земле смиренным человеком, чтобы привлечь к высоте взывающих Ему: Аллилуия.",
+   "uk": "Побачивши дивне Різдво, відчужимося від світу, підносячи розум до неба; бо для того високий Бог явився на землі смиренною людиною, щоб привернути до висоти тих, хто взиває до Нього: Алилуя.",
+   "en": "Having beheld a strange nativity, let us estrange ourselves from the world, transporting our minds to heaven; for to this end the most high God appeared on earth as a lowly man, desiring to draw to the heights them that cry unto Him: Alleluia.",
+   "fonte": {
+    "cu": "MS1900 p. 399",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-049",
+   "tipo": "titulo",
+   "cu": "И́косъ 8",
+   "pt": "Ikos 8",
+   "ru": "Икос 8",
+   "uk": "Ікос 8",
+   "en": "Ikos 8",
+   "fonte": {
+    "cu": "MS1900 pp. 399–400",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-050",
+   "tipo": "oracao",
+   "cu": "Весь бѣ въ ни́жнихъ и вы́шнихъ ника́коже отступи́ неопи́санное Сло́во: снизхожде́ніе бо Боже́ственное, не прехожде́ніе же мѣ́стное бысть, и рождество́ отъ Дѣ́вы Богопрія́тныя, слы́шащія сія́: Ра́дуйся, Бо́га невмѣсти́маго вмѣсти́лище; ра́дуйся, честна́го та́инства две́ри. Ра́дуйся, невѣ́рныхъ сумни́тельное слы́шаніе; ра́дуйся, вѣ́рныхъ извѣ́стная похвало́. Ра́дуйся, колесни́це пресвята́я Су́щаго на Херуви́мѣхъ; ра́дуйся, селе́ніе пресла́вное Су́щаго на Серафи́мѣхъ. Ра́дуйся, проти́вная въ то́жде собра́вшая; ра́дуйся, дѣ́вство и рождество́ сочета́вшая. Ра́дуйся, Е́юже разрѣши́ся преступле́ніе; ра́дуйся, Е́юже отве́рзеся рай. Ра́дуйся, ключу́ Ца́рствія Христо́ва; ра́дуйся, наде́ждо благъ вѣ́чныхъ. Ра́дуйся, Невѣ́сто Неневѣ́стная.",
+   "pt": "Todo inteiro estava cá em baixo e de modo nenhum se ausentou do alto o Verbo incircunscrito; pois houve uma condescendência divina, e não uma mudança de lugar, e um nascimento de uma Virgem que recebeu a Deus e ouviu isto: Alegra-Te, recetáculo do Deus que nada pode conter; alegra-Te, porta do venerável mistério. Alegra-Te, anúncio duvidoso para os incrédulos; alegra-Te, glória segura dos fiéis. Alegra-Te, carro santíssimo d'Aquele que está sobre os Querubins; alegra-Te, morada gloriosíssima d'Aquele que está sobre os Serafins. Alegra-Te, que reuniste em um os contrários; alegra-Te, que uniste a virgindade e a maternidade. Alegra-Te, Tu por quem foi desfeita a transgressão; alegra-Te, Tu por quem se abriu o paraíso. Alegra-Te, chave do Reino de Cristo; alegra-Te, esperança dos bens eternos. Alegra-Te, Noiva não desposada!",
+   "ru": "Всецело было в дольних и нисколько не оставляло горних неописуемое Слово: ибо было снисхождение Божественное, а не переход с места на место, и рождество от Девы Богоприимной, слышащей это: Радуйся, вместилище невместимого Бога; радуйся, дверь честного таинства. Радуйся, сомнительная весть для неверных; радуйся, несомненная похвала верных. Радуйся, всесвятая колесница Сидящего на Херувимах; радуйся, преславное селение Восседающего на Серафимах. Радуйся, соединившая противоположное воедино; радуйся, сочетавшая девство и рождество. Радуйся, Ты, через Которую разрешено преступление; радуйся, Ты, через Которую отверзся рай. Радуйся, ключ Царства Христова; радуйся, надежда вечных благ. Радуйся, Невеста Неневестная!",
+   "uk": "Цілком було в дольніх, і анітрохи не відступило від горніх неописане Слово: бо зішестя Боже, а не перехід із місця на місце сталося, і народження від Діви Богоприйнятної, що чула це: Радуйся, вмістилище невмістимого Бога; радуйся, двері чесного таїнства. Радуйся, для невірних сумнівна вістко; радуйся, вірних певна похвало. Радуйся, всесвята колеснице Того, Хто на Херувимах; радуйся, преславна оселе Того, Хто на Серафимах. Радуйся, що протилежне в одне зібрала; радуйся, що дівство й народження поєднала. Радуйся, Тобою розрішено переступ; радуйся, Тобою відкрито рай. Радуйся, ключу Царства Христового; радуйся, надіє вічних благ. Радуйся, Невісто Неневісна!",
+   "en": "Wholly was the uncircumscribed Word among those below, yet in no wise was He absent from those above; for this was a divine condescension, and not a change of place, and a birth from a God-receiving Virgin, who heard these things: Rejoice, container of the uncontainable God; rejoice, door of the venerable mystery. Rejoice, tidings doubtful to unbelievers; rejoice, sure boast of the faithful. Rejoice, all-holy chariot of Him that sitteth upon the Cherubim; rejoice, most glorious dwelling of Him that is upon the Seraphim. Rejoice, thou who hast gathered opposites into one; rejoice, thou who hast joined virginity and motherhood. Rejoice, thou through whom transgression was loosed; rejoice, thou through whom paradise was opened. Rejoice, key of the Kingdom of Christ; rejoice, hope of eternal good things. Rejoice, O Bride unwedded!",
+   "fonte": {
+    "cu": "MS1900 pp. 399–400",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Variante (dec. 62): MS1900 p. 399 «честна́го та́инства дверь» (nominativo); segue-se o texto atual «двéри» (vocativo). «рождество́» na 6.ª saudação = τόκος, «maternidade/parto»."
+  },
+  {
+   "id": "act-051",
+   "tipo": "titulo",
+   "cu": "Конда́къ 9",
+   "pt": "Condácio 9",
+   "ru": "Кондак 9",
+   "uk": "Кондак 9",
+   "en": "Kontakion 9",
+   "fonte": {
+    "cu": "MS1900 pp. 400–401",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-052",
+   "tipo": "oracao",
+   "cu": "Вся́кое естество́ а́нгельское удиви́ся вели́кому Твоего́ вочеловѣ́ченія дѣ́лу; непристу́пнаго бо я́ко Бо́га, зря́ше всѣмъ присту́пнаго Человѣ́ка, намъ у́бо спребыва́юща, слы́шаща же отъ всѣхъ: Аллилу́іа.",
+   "pt": "Toda a natureza angélica se maravilhou da grande obra da Tua encarnação; pois via o Deus inacessível como Homem acessível a todos, convivendo connosco e ouvindo de todos: Aleluia.",
+   "ru": "Всякое естество ангельское изумилось великому делу Твоего вочеловечения: ибо видело неприступного, как Бог, — доступным для всех Человеком, пребывающим с нами и слышащим от всех: Аллилуия.",
+   "uk": "Уся природа ангельська здивувалася великому ділу Твого вочоловічення, бо бачила неприступного як Бога — приступною для всіх Людиною, що перебуває з нами і чує від усіх: Алилуя.",
+   "en": "All the nature of Angels was amazed at the great work of Thine incarnation; for it beheld the unapproachable as God become a Man approachable by all, abiding with us and hearing from all: Alleluia.",
+   "fonte": {
+    "cu": "MS1900 pp. 400–401",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-053",
+   "tipo": "titulo",
+   "cu": "И́косъ 9",
+   "pt": "Ikos 9",
+   "ru": "Икос 9",
+   "uk": "Ікос 9",
+   "en": "Ikos 9",
+   "fonte": {
+    "cu": "MS1900 pp. 401–402",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-054",
+   "tipo": "oracao",
+   "cu": "Вѣті́я многовѣща́нныя, я́ко ры́бы безгла́сныя ви́димъ о Тебѣ́, Богоро́дице, недоумѣва́ютъ бо глаго́лати, е́же ка́ко и Дѣ́ва пребыва́еши, и роди́ти возмогла́ еси́. Мы же, та́инству дивя́щеся, вѣ́рно вопіе́мъ: Ра́дуйся, прему́дрости Бо́жія прія́телище, ра́дуйся, промышле́нія Его́ сокро́вище. Ра́дуйся, любому́дрыя нему́дрыя явля́ющая; ра́дуйся, хитрослове́сныя безслове́сныя облича́ющая. Ра́дуйся, я́ко обуя́ша лю́тіи взыска́теле; ра́дуйся, я́ко увядо́ша баснотво́рцы. Ра́дуйся, аѳине́йская плете́нія растерза́ющая; ра́дуйся, ры́барскія мре́жи исполня́ющая. Ра́дуйся, изъ глубины́ невѣ́дѣнія извлача́ющая; ра́дуйся, мно́ги въ ра́зумѣ просвѣща́ющая. Ра́дуйся, кораблю́ хотя́щихъ спасти́ся; ра́дуйся, приста́нище жите́йскихъ пла́ваній. Ра́дуйся, Невѣ́сто Неневѣ́стная.",
+   "pt": "Os oradores eloquentes vemo-los, a Teu respeito, ó Mãe de Deus, como peixes mudos; pois não sabem dizer como permaneces Virgem e pudeste dar à luz. Mas nós, maravilhados com o mistério, clamamos com fé: Alegra-Te, recetáculo da sabedoria de Deus; alegra-Te, tesouro da Sua providência. Alegra-Te, que mostras ignorantes os filósofos; alegra-Te, que confundes os hábeis em palavras, tornando-os sem palavras. Alegra-Te, porque os subtis investigadores se tornaram insensatos; alegra-Te, porque os inventores de fábulas murcharam. Alegra-Te, que rasgas as teias dos atenienses; alegra-Te, que enches as redes dos pescadores. Alegra-Te, que tiras do abismo da ignorância; alegra-Te, que iluminas muitos no conhecimento. Alegra-Te, navio dos que querem salvar-se; alegra-Te, porto dos navegantes da vida. Alegra-Te, Noiva não desposada!",
+   "ru": "Витий многовещанных мы видим безгласными, как рыбы, о Тебе, Богородица: ибо они недоумевают сказать, как Ты и Девою пребываешь, и родить смогла. Мы же, дивясь таинству, верно взываем: Радуйся, вместилище премудрости Божией; радуйся, сокровищница Его промысла. Радуйся, показывающая любомудрых немудрыми; радуйся, обличающая искусных в словах бессловесными. Радуйся, ибо обезумели лютые изыскатели; радуйся, ибо увяли творцы басен. Радуйся, расторгающая афинские плетения; радуйся, наполняющая рыбарские сети. Радуйся, извлекающая из глубины неведения; радуйся, многих просвещающая в разуме. Радуйся, корабль желающих спастись; радуйся, пристань житейских плаваний. Радуйся, Невеста Неневестная!",
+   "uk": "Красномовців багатослівних бачимо, мов риб безголосих, щодо Тебе, Богородице: бо не знають, як сказати, як Ти і Дівою перебуваєш, і змогла народити. Ми ж, дивуючись таїнству, вірно взиваємо: Радуйся, вмістилище премудрості Божої; радуйся, скарбнице Його промислу. Радуйся, що любомудрих показуєш немудрими; радуйся, що хитрословесних викриваєш безсловесними. Радуйся, бо знавіснілі стали люті шукачі; радуйся, бо зів'яли байкотворці. Радуйся, що розриваєш афінські плетива; радуйся, що наповнюєш рибальські сіті. Радуйся, що витягаєш із глибини незнання; радуйся, що многих просвіщаєш у розумінні. Радуйся, кораблю тих, хто хоче спастися; радуйся, пристане житейських плавань. Радуйся, Невісто Неневісна!",
+   "en": "We behold most eloquent orators mute as fish concerning thee, O Theotokos; for they are at a loss to tell how thou both remainest a virgin and wast able to give birth. But we, marvelling at the mystery, cry out faithfully: Rejoice, receptacle of the wisdom of God; rejoice, treasury of His providence. Rejoice, thou who showest the philosophers to be unwise; rejoice, thou who provest the skilful in words to be wordless. Rejoice, for the subtle disputers have become fools; rejoice, for the makers of myths have withered away. Rejoice, thou who didst tear asunder the webs of the Athenians; rejoice, thou who didst fill the nets of the fishermen. Rejoice, thou who drawest out of the depth of ignorance; rejoice, thou who enlightenest many with knowledge. Rejoice, ship of them that would be saved; rejoice, haven of the voyagers of this life. Rejoice, O Bride unwedded!",
+   "fonte": {
+    "cu": "MS1900 pp. 401–402",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«лю́тіи взыска́теле» = οἱ δεινοὶ συζητηταί, «os temíveis (hábeis) disputadores»; PT «subtis» procura o sentido; «лютый» aqui não é «cruel»."
+  },
+  {
+   "id": "act-055",
+   "tipo": "titulo",
+   "cu": "Конда́къ 10",
+   "pt": "Condácio 10",
+   "ru": "Кондак 10",
+   "uk": "Кондак 10",
+   "en": "Kontakion 10",
+   "fonte": {
+    "cu": "MS1900 p. 402",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-056",
+   "tipo": "oracao",
+   "cu": "Спасти́ хотя́ міръ, И́же всѣхъ Украси́тель, къ сему́ самообѣтова́нъ пріи́де, и Па́стырь сый, я́ко Богъ, насъ ра́ди яви́ся по намъ человѣ́къ: подо́бнымъ бо подо́бное призва́въ, я́ко Богъ слы́шитъ: Аллилу́іа.",
+   "pt": "Querendo salvar o mundo, o Ordenador de todas as coisas veio a ele por Sua própria promessa; e, sendo Pastor como Deus, por nossa causa apareceu Homem como nós; pois, tendo chamado o semelhante pelo semelhante, como Deus ouve: Aleluia.",
+   "ru": "Желая спасти мир, Украситель всего пришел в него по собственному обетованию; и, будучи Пастырем, как Бог, ради нас явился человеком, подобным нам: ибо, призвав подобное подобным, Он, как Бог, слышит: Аллилуия.",
+   "uk": "Бажаючи спасти світ, Упорядник усього прийшов до нього за власною обітницею, і, будучи Пастирем як Бог, заради нас явився людиною, подібною до нас; бо, покликавши подібним подібне, як Бог, чує: Алилуя.",
+   "en": "Desiring to save the world, He that is the Adorner of all came unto it of His own promise; and being, as God, the Shepherd, for our sake He appeared as a Man like unto us; for having called like by like, as God He heareth: Alleluia.",
+   "fonte": {
+    "cu": "MS1900 p. 402",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«Украси́тель» = κοσμήτωρ, «Ordenador (do cosmos)». «самообѣтова́нъ» = αὐτεπάγγελτος, «por Sua própria promessa / de Seu próprio impulso»."
+  },
+  {
+   "id": "act-057",
+   "tipo": "titulo",
+   "cu": "И́косъ 10",
+   "pt": "Ikos 10",
+   "ru": "Икос 10",
+   "uk": "Ікос 10",
+   "en": "Ikos 10",
+   "fonte": {
+    "cu": "MS1900 pp. 402–403",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-058",
+   "tipo": "oracao",
+   "cu": "Стѣна́ еси́ дѣ́вамъ, Богоро́дице Дѣ́во, и всѣмъ къ Тебѣ́ прибѣга́ющимъ: и́бо небесе́ и земли́ Творе́цъ устро́и Тя, Пречи́стая, все́лься во утро́бѣ Твое́й, и вся приглаша́ти Тебѣ́ научи́въ: Ра́дуйся, сто́лпе дѣ́вства; ра́дуйся, дверь спасе́нія. Ра́дуйся, нача́льнице мы́сленнаго назда́нія; ра́дуйся, пода́тельнице Боже́ственныя бла́гости. Ра́дуйся, Ты бо обнови́ла еси́ зача́тыя сту́дно; ра́дуйся, Ты бо наказа́ла еси́ окра́денныя умо́мъ. Ра́дуйся, тли́теля смы́словъ упражня́ющая; ра́дуйся, Сѣ́ятеля чистоты́ ро́ждшая. Ра́дуйся, черто́же безсѣ́меннаго уневѣ́щенія; ра́дуйся, вѣ́рныхъ Го́сподеви сочета́вшая. Ра́дуйся, до́брая младопита́тельнице дѣ́вамъ; ра́дуйся, невѣстокраси́тельнице душъ святы́хъ. Ра́дуйся, Невѣ́сто Неневѣ́стная.",
+   "pt": "És muralha das virgens, ó Mãe de Deus Virgem, e de todos os que a Ti recorrem; pois o Criador do céu e da terra Te preparou, ó Puríssima, habitando no Teu seio, e ensinou todos a chamar-Te: Alegra-Te, coluna da virgindade; alegra-Te, porta da salvação. Alegra-Te, princípio da recriação espiritual; alegra-Te, dispensadora da bondade divina. Alegra-Te, porque renovaste os concebidos na vergonha; alegra-Te, porque deste juízo aos que tinham sido despojados do entendimento. Alegra-Te, que anulas o corruptor dos pensamentos; alegra-Te, que deste à luz o Semeador da pureza. Alegra-Te, tálamo de núpcias sem semente; alegra-Te, que uniste os fiéis ao Senhor. Alegra-Te, boa ama das virgens; alegra-Te, que adornas como noivas as almas santas. Alegra-Te, Noiva não desposada!",
+   "ru": "Стена Ты для дев, Богородица Дева, и для всех, к Тебе прибегающих: ибо Творец неба и земли устроил Тебя, Пречистая, вселившись в Твое чрево и научив всех взывать Тебе: Радуйся, столп девства; радуйся, дверь спасения. Радуйся, начальница мысленного воссоздания; радуйся, подательница Божественной благости. Радуйся, ибо Ты обновила зачатых в срамоте; радуйся, ибо Ты вразумила обкраденных умом. Радуйся, упраздняющая растлителя смыслов; радуйся, родившая Сеятеля чистоты. Радуйся, чертог бессеменного бракосочетания; радуйся, сочетавшая верных с Господом. Радуйся, добрая воспитательница дев; радуйся, невестоукрасительница душ святых. Радуйся, Невеста Неневестная!",
+   "uk": "Ти — стіна для дів, Богородице Діво, і для всіх, хто до Тебе прибігає; бо Творець неба і землі приготував Тебе, Пречиста, вселившись у лоно Твоє, і всіх навчив взивати до Тебе: Радуйся, стовпе дівства; радуйся, двері спасіння. Радуйся, початку мисленного відтворення; радуйся, подательнице Божественної доброти. Радуйся, бо Ти оновила зачатих у соромі; радуйся, бо Ти напоумила обкрадених розумом. Радуйся, що знищуєш розтлителя думок; радуйся, що породила Сіятеля чистоти. Радуйся, чертогу безсіменного обручення; радуйся, що вірних з Господом поєднала. Радуйся, добра вихователько дів; радуйся, що як наречених прикрашаєш душі святих. Радуйся, Невісто Неневісна!",
+   "en": "Thou art a wall unto virgins, O Virgin Theotokos, and unto all that flee unto thee; for the Maker of heaven and earth prepared thee, O most pure one, dwelling in thy womb, and taught all to cry unto thee: Rejoice, pillar of virginity; rejoice, gate of salvation. Rejoice, beginning of spiritual refashioning; rejoice, bestower of divine goodness. Rejoice, for thou didst renew them that were conceived in shame; rejoice, for thou didst bring to their senses them that had been robbed of their minds. Rejoice, thou who bringest to nought the corrupter of minds; rejoice, thou who gavest birth to the Sower of purity. Rejoice, bridal chamber of a seedless marriage; rejoice, thou who joinest the faithful unto the Lord. Rejoice, good nurse of virgins; rejoice, thou who adornest holy souls as brides. Rejoice, O Bride unwedded!",
+   "fonte": {
+    "cu": "MS1900 pp. 402–403",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«прiглаша́ти Тебѣ́» = προσφωνεῖν σοι, «dirigir-Te (a saudação)». «ты бо наказа́ла еси́» = «ensinaste/corrigiste»."
+  },
+  {
+   "id": "act-059",
+   "tipo": "titulo",
+   "cu": "Конда́къ 11",
+   "pt": "Condácio 11",
+   "ru": "Кондак 11",
+   "uk": "Кондак 11",
+   "en": "Kontakion 11",
+   "fonte": {
+    "cu": "MS1900 p. 404",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-060",
+   "tipo": "oracao",
+   "cu": "Пѣ́ніе вся́кое побѣжда́ется, спростре́тися тща́щееся ко мно́жеству мно́гихъ щедро́тъ Твои́хъ: равночи́сленныя бо песка́ пѣ́сни а́ще прино́симъ Ти, Царю́ Святы́й, ничто́же соверша́емъ досто́йно, я́же далъ еси́ намъ, Тебѣ́ вопію́щимъ: Аллилу́іа.",
+   "pt": "Todo o cântico é vencido ao esforçar-se por igualar a multidão das Tuas muitas misericórdias; pois, ainda que Te ofereçamos cânticos em número igual à areia, ó Rei santo, nada fazemos de digno daquilo que nos deste, a nós que Te clamamos: Aleluia.",
+   "ru": "Всякое пение побеждается, стремясь сравниться с множеством многих щедрот Твоих: ибо, если бы мы и принесли Тебе песни, равночисленные песку, Царь Святой, ничего не совершим достойного того, что Ты дал нам, взывающим Тебе: Аллилуия.",
+   "uk": "Усякий спів переможений буває, силкуючись дорівнятися до безлічі многих щедрот Твоїх; бо хоч би ми приносили Тобі пісні, числом рівні піску, Царю Святий, нічого не чинимо гідного того, що Ти дав нам, які взивають до Тебе: Алилуя.",
+   "en": "Every hymn is overcome that striveth to match the multitude of Thy many compassions; for even if we offer Thee songs equal in number to the sand, O holy King, we accomplish nothing worthy of what Thou hast given unto us who cry unto Thee: Alleluia.",
+   "fonte": {
+    "cu": "MS1900 p. 404",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Condácio dirigido a Cristo («Царю́ Святы́й»)."
+  },
+  {
+   "id": "act-061",
+   "tipo": "titulo",
+   "cu": "И́косъ 11",
+   "pt": "Ikos 11",
+   "ru": "Икос 11",
+   "uk": "Ікос 11",
+   "en": "Ikos 11",
+   "fonte": {
+    "cu": "MS1900 pp. 404–405",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-062",
+   "tipo": "oracao",
+   "cu": "Свѣтопріе́мную свѣщу́, су́щимъ во тьмѣ я́вльшуюся, зримъ Святу́ю Дѣ́ву, невеще́ственный бо вжига́ющи огнь, наставля́етъ къ ра́зуму Боже́ственному вся, заре́ю умъ просвѣща́ющая, зва́ніемъ же почита́емая, си́ми: Ра́дуйся, луче́ у́мнаго Со́лнца; ра́дуйся, свѣти́ло незаходи́маго Свѣ́та. Ра́дуйся, мо́лніе, ду́ши просвѣща́ющая; ра́дуйся, я́ко громъ враги́ устраша́ющая. Ра́дуйся, я́ко многосвѣ́тлое возсіява́еши просвѣще́ніе; ра́дуйся, я́ко многотеку́щую источа́еши рѣку́. Ра́дуйся, купѣ́ли живопису́ющая о́бразъ; ра́дуйся, грѣхо́вную отъе́млющая скве́рну. Ра́дуйся, ба́не, омыва́ющая со́вѣсть; ра́дуйся, ча́ше, че́рплющая ра́дость. Ра́дуйся, обоня́ніе Христо́ва благоуха́нія; ра́дуйся, животе́ та́йнаго весе́лія. Ра́дуйся, Невѣ́сто Неневѣ́стная.",
+   "pt": "Vemos a santa Virgem como lâmpada portadora de luz, aparecida aos que estão nas trevas; pois, acendendo o fogo imaterial, guia todos ao conhecimento divino, iluminando o espírito com o seu clarão, e é honrada com esta saudação: Alegra-Te, raio do Sol espiritual; alegra-Te, astro da Luz sem ocaso. Alegra-Te, relâmpago que iluminas as almas; alegra-Te, que como trovão aterras os inimigos. Alegra-Te, porque fazes brilhar uma iluminação de muitas luzes; alegra-Te, porque fazes brotar um rio de muitas correntes. Alegra-Te, que prefiguras a piscina; alegra-Te, que tiras a mancha do pecado. Alegra-Te, banho que lavas a consciência; alegra-Te, taça que tiras alegria. Alegra-Te, perfume da fragrância de Cristo; alegra-Te, vida do banquete místico. Alegra-Te, Noiva não desposada!",
+   "ru": "Светоприемную свечу, явившуюся сущим во тьме, видим мы — Святую Деву: ибо, возжигая невещественный огонь, Она наставляет всех к Божественному разуму, озаряя ум сиянием, и почитается таким воззванием: Радуйся, луч мысленного Солнца; радуйся, светило незаходимого Света. Радуйся, молния, просвещающая души; радуйся, ибо Ты, как гром, устрашаешь врагов. Радуйся, ибо Ты воссияваешь многосветлое просвещение; радуйся, ибо Ты источаешь многоструйную реку. Радуйся, живописующая образ купели; радуйся, отъемлющая скверну греховную. Радуйся, баня, омывающая совесть; радуйся, чаша, черпающая радость. Радуйся, обоняние благоухания Христова; радуйся, жизнь таинственного веселия. Радуйся, Невеста Неневестная!",
+   "uk": "Світлоприйнятну свічу, що явилася сущим у темряві, бачимо — Святу Діву; бо, запалюючи нематеріальний вогонь, Вона веде всіх до Божественного розуміння, зорею розум просвіщаючи, і шанується таким покликом: Радуйся, променю мисленного Сонця; радуйся, світило незахідного Світла. Радуйся, блискавко, що душі просвіщаєш; радуйся, бо, як грім, ворогів страхаєш. Радуйся, бо многосвітле просвітлення сяєш; радуйся, бо многоводну ріку виточуєш. Радуйся, що образ купелі вимальовуєш; радуйся, що гріховну скверну знімаєш. Радуйся, купелю, що омиваєш совість; радуйся, чаше, що черпаєш радість. Радуйся, пахощі Христового благоухання; радуйся, життя таємничого веселощів. Радуйся, Невісто Неневісна!",
+   "en": "We behold the holy Virgin as a light-receiving candle appearing unto them that are in darkness; for, kindling the immaterial fire, she guideth all unto divine knowledge, illumining the mind with radiance, and is honoured by this cry: Rejoice, ray of the spiritual Sun; rejoice, luminary of the Light that never setteth. Rejoice, lightning that enlightenest souls; rejoice, for as thunder thou terrifiest the enemies. Rejoice, for thou makest to shine forth an illumination of many lights; rejoice, for thou pourest forth a river of many streams. Rejoice, thou who prefigurest the font; rejoice, thou who takest away the filth of sin. Rejoice, laver that washest the conscience; rejoice, cup that drawest up joy. Rejoice, fragrance of the sweet savour of Christ; rejoice, life of the mystical banquet. Rejoice, O Bride unwedded!",
+   "fonte": {
+    "cu": "MS1900 pp. 404–405",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«купѣ́ли живопису́ющая о́бразъ» = τῆς κολυμβήθρας ζωγραφοῦσα τὸν τύπον, «que prefiguras a pia (batismal)». «живо́те та́йнаго весе́лія» = ζωὴ μυστικῆς εὐωχίας, «vida do banquete místico». «невеще́ственный» = «imaterial»."
+  },
+  {
+   "id": "act-063",
+   "tipo": "titulo",
+   "cu": "Конда́къ 12",
+   "pt": "Condácio 12",
+   "ru": "Кондак 12",
+   "uk": "Кондак 12",
+   "en": "Kontakion 12",
+   "fonte": {
+    "cu": "MS1900 pp. 405–406",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-064",
+   "tipo": "oracao",
+   "cu": "Благода́ть да́ти восхотѣ́въ, долго́въ дре́внихъ, всѣхъ долго́въ Рѣши́тель человѣ́комъ, пріи́де Собо́ю ко отше́дшимъ Того́ благода́ти, и раздра́въ рукописа́ніе, слы́шитъ отъ всѣхъ си́це: Аллилу́іа.",
+   "pt": "Querendo dar a graça das dívidas antigas, o Perdoador das dívidas de todos os homens veio por Si mesmo aos que se tinham afastado da Sua graça e, rasgando o título da dívida, ouve de todos assim: Aleluia.",
+   "ru": "Желая даровать благодать прощения древних долгов, Решитель всех долгов человеческих пришел Сам к отпавшим от Его благодати и, разорвав рукописание, слышит от всех так: Аллилуия.",
+   "uk": "Бажаючи дати благодать прощення давніх боргів, Розрішитель усіх людських боргів прийшов Сам до тих, хто відпав від Його благодаті, і, роздерши рукописання, чує від усіх так: Алилуя.",
+   "en": "Desiring to grant grace for ancient debts, He that looseth the debts of all men came of Himself unto them that had departed from His grace; and having torn up the handwriting, He heareth from all thus: Alleluia.",
+   "fonte": {
+    "cu": "MS1900 pp. 405–406",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«рукописа́ніе» = χειρόγραφον (Col 2,14), «título/escrito da dívida»."
+  },
+  {
+   "id": "act-065",
+   "tipo": "titulo",
+   "cu": "И́косъ 12",
+   "pt": "Ikos 12",
+   "ru": "Икос 12",
+   "uk": "Ікос 12",
+   "en": "Ikos 12",
+   "fonte": {
+    "cu": "MS1900 pp. 406–407",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-066",
+   "tipo": "oracao",
+   "cu": "Пою́ще Твое́ Рождество́, хва́лимъ Тя вси, я́ко одушевле́нный храмъ, Богоро́дице: во Твое́й бо всели́вся утро́бѣ содержа́й вся руко́ю Госпо́дь, освяти́, просла́ви и научи́ вопи́ти Тебѣ́ всѣхъ: Ра́дуйся, селе́ніе Бо́га и Сло́ва; ра́дуйся, свята́я святы́хъ бо́льшая. Ра́дуйся, ковче́же, позлаще́нный Ду́хомъ; ра́дуйся, сокро́вище живота́ неистощи́мое. Ра́дуйся, честны́й вѣ́нче люде́й благочести́выхъ; ра́дуйся, честна́я похвало́ іере́евъ благоговѣ́йныхъ. Ра́дуйся, це́ркве непоколеби́мый сто́лпе; ра́дуйся, Ца́рствія неруши́мая стѣно́. Ра́дуйся, Е́юже воздви́жутся побѣ́ды; ра́дуйся, Е́юже низпа́даютъ врази́. Ра́дуйся, тѣ́ла моего́ врачева́ніе; ра́дуйся, души́ моея́ спасе́ніе. Ра́дуйся, Невѣ́сто Неневѣ́стная.",
+   "pt": "Cantando o Teu parto, todos Te louvamos como templo animado, ó Mãe de Deus; pois, tendo habitado no Teu seio, o Senhor que tudo contém na Sua mão santificou, glorificou e ensinou todos a clamar-Te: Alegra-Te, tabernáculo de Deus e Verbo; alegra-Te, santa, maior que o Santo dos Santos. Alegra-Te, arca dourada pelo Espírito; alegra-Te, tesouro inesgotável da vida. Alegra-Te, coroa venerável dos povos piedosos; alegra-Te, glória venerável dos sacerdotes reverentes. Alegra-Te, coluna inabalável da Igreja; alegra-Te, muralha indestrutível do Reino. Alegra-Te, Tu por quem se erguem as vitórias; alegra-Te, Tu por quem caem os inimigos. Alegra-Te, cura do meu corpo; alegra-Te, salvação da minha alma. Alegra-Te, Noiva não desposada!",
+   "ru": "Воспевая Твое Рождество, хвалим Тебя все, как одушевленный храм, Богородица: ибо, вселившись в Твое чрево, Господь, содержащий всё рукою, освятил, прославил и научил всех взывать Тебе: Радуйся, селение Бога и Слова; радуйся, святая, большая Святого Святых. Радуйся, ковчег, позлащенный Духом; радуйся, неистощимое сокровище жизни. Радуйся, честный венец людей благочестивых; радуйся, честная похвала иереев благоговейных. Радуйся, непоколебимый столп Церкви; радуйся, нерушимая стена Царства. Радуйся, Ты, через Которую воздвигаются победы; радуйся, Ты, через Которую низвергаются враги. Радуйся, врачевание моего тела; радуйся, спасение моей души. Радуйся, Невеста Неневестная!",
+   "uk": "Оспівуючи Твоє Різдво, хвалимо Тебе всі, як одушевлений храм, Богородице; бо, вселившись у лоно Твоє, Господь, що тримає все рукою, освятив, прославив і навчив усіх взивати до Тебе: Радуйся, оселе Бога і Слова; радуйся, свята, більша за Святеє Святих. Радуйся, ковчеже, позолочений Духом; радуйся, скарбе життя невичерпний. Радуйся, чесний вінче людей благочестивих; радуйся, чесна похвало ієреїв благоговійних. Радуйся, Церкви непохитний стовпе; радуйся, Царства незруйновна стіно. Радуйся, Тобою здвигаються перемоги; радуйся, Тобою падають вороги. Радуйся, тіла мого лікування; радуйся, душі моєї спасіння. Радуйся, Невісто Неневісна!",
+   "en": "Hymning thine Offspring, we all praise thee as a living temple, O Theotokos; for having dwelt in thy womb, the Lord Who holdeth all things in His hand sanctified, glorified, and taught all to cry unto thee: Rejoice, tabernacle of God the Word; rejoice, holy one, greater than the Holy of Holies. Rejoice, ark gilded by the Spirit; rejoice, inexhaustible treasure of life. Rejoice, precious crown of pious people; rejoice, venerable boast of reverent priests. Rejoice, unshakeable pillar of the Church; rejoice, indestructible wall of the Kingdom. Rejoice, thou through whom trophies are raised up; rejoice, thou through whom enemies fall down. Rejoice, healing of my body; rejoice, salvation of my soul. Rejoice, O Bride unwedded!",
+   "fonte": {
+    "cu": "MS1900 pp. 406–407",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Variante (dec. 62): MS1900 p. 406 (e Z1912 p. 198) «вѣ́нче царе́й благочести́выхъ», «coroa dos reis piedosos» (= βασιλέων εὐσεβῶν); segue-se o texto atual «люде́й». ⚠ Edições atuais divergem neste ponto (há edições recentes com «царей»); a confirmar com o Akafistnik oficial da IOR. «Рождество́» = τόκος, «o Teu parto/Filho»."
+  },
+  {
+   "id": "act-067",
+   "tipo": "titulo",
+   "cu": "Конда́къ 13",
+   "pt": "Condácio 13",
+   "ru": "Кондак 13",
+   "uk": "Кондак 13",
+   "en": "Kontakion 13",
+   "fonte": {
+    "cu": "MS1900 p. 407",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-068",
+   "tipo": "oracao",
+   "cu": "О, Всепѣ́тая Ма́ти, ро́ждшая всѣхъ святы́хъ Святѣ́йшее Сло́во! Ны́нѣшнее пріе́мши приноше́ніе, отъ вся́кія изба́ви напа́сти всѣхъ, и бу́дущія изми́ му́ки, о Тебѣ́ вопію́щихъ: Аллилу́іа.",
+   "pt": "Ó Mãe digna de todo o louvor, que deste à luz o Verbo, o mais santo de todos os santos, recebendo a presente oferenda, livra todos de toda a adversidade e arranca do tormento futuro os que por Ti clamam: Aleluia.",
+   "ru": "О всепетая Мати, родившая Слово, Святейшее всех святых! Приняв нынешнее приношение, избавь всех от всякой напасти и исторгни от будущей муки взывающих о Тебе: Аллилуия.",
+   "uk": "О всеоспівана Мати, що породила Слово, Найсвятіше від усіх святих! Прийнявши нинішнє приношення, від усякої напасті визволи всіх і від майбутньої муки вирви тих, хто через Тебе взиває: Алилуя.",
+   "en": "O all-hymned Mother, who didst bear the Word, holiest of all the saints: accepting this present offering, deliver all from every misfortune, and rescue from the torment to come them that cry by thee: Alleluia.",
+   "fonte": {
+    "cu": "MS1900 p. 407",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Lê-se três vezes (MS1900 p. 407: «[Трижды]»). O texto atual em linha (azbyka) escreve «Аллилу́іа» três vezes; MS1900 traz uma só, repetindo-se o condácio inteiro.",
+   "repetir": 3
+  },
+  {
+   "id": "act-069",
+   "tipo": "rubrica",
+   "cu": "Та́же па́ки чте́тся и́косъ 1-й и конда́къ 1-й.",
+   "pt": "Em seguida lê-se de novo o ikos 1 e o condácio 1.",
+   "ru": "Затем снова читаются 1-й икос и 1-й кондак.",
+   "uk": "Потім знову читаються 1-й ікос і 1-й кондак.",
+   "en": "Then the first Ikos and the first Kontakion are read again.",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Rubrica própria (dec. 62: texto atual). ⚠ resolvido (doc. 03 §5.5): MS1900 p. 407 traz só «[Трижды]» depois do condácio 13 e passa logo à oração (o mesmo em MS1900 p. 385 para o acatisto a Jesus e em Слово жизни, 1917, p. 103, para o de S. Nicolau). A repetição do ikos 1 e do condácio 1 é prática das edições atuais (azbyka: «Этот кондак читается трижды, затем икос 1-й и кондак 1-й»); segue-se o texto atual."
+  },
+  {
+   "id": "act-070",
+   "tipo": "titulo",
+   "cu": "И́косъ 1",
+   "pt": "Ikos 1",
+   "ru": "Икос 1",
+   "uk": "Ікос 1",
+   "en": "Ikos 1",
+   "fonte": {
+    "cu": "MS1900 pp. 388–389",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-071",
+   "tipo": "oracao",
+   "cu": "А́нгелъ предста́тель съ Небесе́ по́сланъ бысть рещи́ Богоро́дицѣ: ра́дуйся, и со безпло́тнымъ гла́сомъ воплоща́ема Тя зря, Го́споди, ужаса́шеся и стоя́ше, зовы́й къ Ней такова́я: Ра́дуйся, Е́юже ра́дость возсія́етъ; ра́дуйся, Е́юже кля́тва исче́знетъ. Ра́дуйся, па́дшаго Ада́ма воззва́ніе; ра́дуйся, слезъ Е́виныхъ избавле́ніе. Ра́дуйся, высото́ неудобовосходи́мая человѣ́ческими по́мыслы; ра́дуйся, глубино́ неудобозри́мая и а́нгельскима очи́ма. Ра́дуйся, я́ко еси́ Царе́во сѣда́лище; ра́дуйся, я́ко но́сиши Нося́щаго вся. Ра́дуйся, Звѣздо́, явля́ющая Со́лнце; ра́дуйся, утро́бо Боже́ственнаго воплоще́нія. Ра́дуйся, Е́юже обновля́ется тварь; ра́дуйся, Е́юже покланя́емся Творцу́. Ра́дуйся, Невѣ́сто Неневѣ́стная.",
+   "pt": "Um Anjo, o primeiro entre eles, foi enviado do céu a dizer à Mãe de Deus: Alegra-Te! E, vendo-Te, Senhor, encarnar-Te à sua voz incorpórea, ficou extasiado e de pé, clamando-lhe assim: Alegra-Te, Tu por quem a alegria resplandecerá; alegra-Te, Tu por quem a maldição se extinguirá. Alegra-Te, chamamento de Adão caído; alegra-Te, libertação das lágrimas de Eva. Alegra-Te, altura inacessível aos pensamentos humanos; alegra-Te, profundidade insondável até para os olhos dos anjos. Alegra-Te, porque és o trono do Rei; alegra-Te, porque trazes Aquele que tudo sustenta. Alegra-Te, estrela que manifesta o Sol; alegra-Te, seio da divina encarnação. Alegra-Te, Tu por quem a criação se renova; alegra-Te, Tu por quem adoramos o Criador. Alegra-Te, Noiva não desposada!",
+   "ru": "Ангел-предстатель послан был с неба сказать Богородице: «Радуйся!» И, видя Тебя, Господи, воплощающимся при его бесплотном возгласе, он стоял в изумлении, взывая к Ней так: Радуйся, Ты, через Которую воссияет радость; радуйся, Ты, через Которую исчезнет проклятие. Радуйся, падшего Адама призвание; радуйся, слез Евы избавление. Радуйся, высота, недосягаемая для человеческих помыслов; радуйся, глубина, непостижимая и для очей ангельских. Радуйся, ибо Ты — престол Царя; радуйся, ибо Ты носишь Носящего всё. Радуйся, звезда, являющая Солнце; радуйся, утроба Божественного воплощения. Радуйся, Ты, через Которую обновляется творение; радуйся, Ты, через Которую мы поклоняемся Творцу. Радуйся, Невеста Неневестная!",
+   "uk": "Ангел-предстатель був посланий з неба сказати Богородиці: Радуйся! І, бачачи Тебе, Господи, що втілюєшся від його безплотного голосу, жахнувся і стояв, так до Неї взиваючи: Радуйся, Тобою радість засяє; радуйся, Тобою клятва зникне. Радуйся, падшого Адама поклик; радуйся, сліз Євиних визволення. Радуйся, висото, недосяжна для людських помислів; радуйся, глибино, незглибима і для ангельських очей. Радуйся, бо Ти — престол Царя; радуйся, бо Ти носиш Того, Хто все носить. Радуйся, зоре, що являє Сонце; радуйся, утробо Божественного втілення. Радуйся, Тобою оновлюється творіння; радуйся, Тобою поклоняємося Творцеві. Радуйся, Невісто Неневісна!",
+   "en": "An Angel, chief among them, was sent from heaven to say unto the Theotokos: Rejoice! And beholding Thee, O Lord, taking flesh at his bodiless voice, he stood in awe, and cried unto her thus: Rejoice, thou through whom joy shall shine forth; rejoice, thou through whom the curse shall vanish. Rejoice, recalling of fallen Adam; rejoice, deliverance from the tears of Eve. Rejoice, height hard to ascend for human thoughts; rejoice, depth hard to behold even for the eyes of Angels. Rejoice, for thou art the King's throne; rejoice, for thou bearest Him Who beareth all. Rejoice, star that showest forth the Sun; rejoice, womb of the divine Incarnation. Rejoice, thou through whom creation is renewed; rejoice, thou through whom we worship the Creator. Rejoice, O Bride unwedded!",
+   "fonte": {
+    "cu": "MS1900 pp. 388–389",
+    "ru": "Z1912 pp. 188–189 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Repetição do ikos 1 e do condácio 1 depois do condácio 13 (texto atual; não consta da edição PD, ver rubrica anterior)."
+  },
+  {
+   "id": "act-072",
+   "tipo": "titulo",
+   "cu": "Конда́къ 1, гласъ 8",
+   "pt": "Condácio 1, tom 8",
+   "ru": "Кондак 1, глас 8",
+   "uk": "Кондак 1, глас 8",
+   "en": "Kontakion 1, Tone 8",
+   "fonte": {
+    "cu": "MS1900 p. 387",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-073",
+   "tipo": "oracao",
+   "cu": "Взбра́нной Воево́дѣ побѣди́тельная, я́ко изба́вльшеся отъ злыхъ, благода́рственная воспису́емъ Ти раби́ Твои́, Богоро́дице; но я́ко иму́щая держа́ву непобѣди́мую, отъ вся́кихъ насъ бѣдъ свободи́, да зове́мъ Ти: Ра́дуйся, Невѣ́сто Неневѣ́стная.",
+   "pt": "A Ti, Comandante que por nós combate, como libertos dos males, nós, Teus servos, entoamos cânticos de vitória e de ação de graças, ó Mãe de Deus. E Tu, que tens um poder invencível, livra-nos de todas as desgraças, para que Te clamemos: Alegra-Te, Noiva não desposada!",
+   "ru": "Тебе, Взбранной Воеводе, избавившись от зол, мы, рабы Твои, Богородица, воспеваем победную и благодарственную песнь. Ты же, как имеющая державу непобедимую, освободи нас от всяких бед, чтобы мы взывали к Тебе: Радуйся, Невеста Неневестная!",
+   "uk": "Тобі, Взбранній Воєводі, як ізбавлені від лихого, ми, раби Твої, Богородице, співаємо пісні перемоги й подяки. Ти ж, маючи силу непереможну, від усяких бід визволи нас, щоб ми взивали до Тебе: Радуйся, Невісто Неневісна!",
+   "en": "To thee, the Champion Leader, we thy servants, delivered from evils, ascribe songs of victory and thanksgiving, O Theotokos. But as thou hast invincible might, set us free from all calamities, that we may cry unto thee: Rejoice, O Bride unwedded!",
+   "fonte": {
+    "cu": "MS1900 p. 387",
+    "ru": "Z1912 p. 188 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Repetição do ikos 1 e do condácio 1 depois do condácio 13 (texto atual; não consta da edição PD, ver rubrica anterior)."
+  },
+  {
+   "id": "act-074",
+   "tipo": "titulo",
+   "cu": "Моли́тва ко Пресвятѣ́й Богоро́дицѣ",
+   "pt": "Oração à Santíssima Mãe de Deus",
+   "ru": "Молитва ко Пресвятой Богородице",
+   "uk": "Молитва до Пресвятої Богородиці",
+   "en": "Prayer to the Most Holy Theotokos",
+   "fonte": {
+    "cu": "MS1900 pp. 407–409",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "act-075",
+   "tipo": "oracao",
+   "cu": "Пріими́, Всеблагомо́щная, Пречи́стая Госпоже́ Влады́чице Богороди́тельнице, сія́ честны́я да́ры, Тебѣ́ еди́нѣй прикла́дныя, отъ насъ недосто́йныхъ рабо́въ Твои́хъ, отъ всѣхъ родо́въ избра́нная, всѣхъ тва́рей небе́сныхъ и земны́хъ вы́шшая я́вльшаяся; поне́же бо Тебе́ ра́ди бысть Госпо́дь силъ съ на́ми, и Тобо́ю Сы́на Бо́жія позна́хомъ, и сподо́бихомся Свята́го тѣ́ла Его́ и Пречи́стыя кро́ве Его́. Тѣ́мже блаже́нна еси́ въ ро́дѣхъ родо́въ, Богоблаже́нная, Херуви́мовъ свѣтлѣ́йши и Серафи́мовъ честнѣ́йши су́щая. И ны́нѣ, всепѣ́тая Пресвята́я Богоро́дице, не преста́й моля́щися о насъ, недосто́йныхъ рабѣ́хъ Твои́хъ, е́же изба́витися намъ отъ вся́каго совѣ́та лука́ваго и отъ вся́каго обстоя́нія, и сохрани́тися намъ неврежде́ннымъ отъ вся́каго ядови́таго прило́га діа́вольскаго; но да́же до конца́ моли́твами Твои́ми неосужде́нныхъ насъ соблюди́: я́ко да Твои́мъ заступле́ніемъ и по́мощію спаса́еми, сла́ву, хвалу́, благодаре́ніе и поклоне́ніе за вся въ Тро́ицѣ еди́ному Бо́гу и всѣхъ Созда́телю возсыла́емъ, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Recebe, ó Senhora todo-poderosa no bem, puríssima Soberana Mãe de Deus, estes dons preciosos, que só a Ti são oferecidos por nós, Teus servos indignos, ó escolhida de entre todas as gerações, que Te mostraste mais elevada que todas as criaturas do céu e da terra. Porque por Ti o Senhor dos exércitos esteve connosco, e por Ti conhecemos o Filho de Deus e fomos tornados dignos do Seu santo Corpo e do Seu puríssimo Sangue. Por isso és bem-aventurada nas gerações das gerações, ó bendita de Deus, mais luminosa que os Querubins e mais venerável que os Serafins. E agora, ó Santíssima Mãe de Deus, digna de todo o louvor, não cesses de rogar por nós, Teus servos indignos, para que sejamos libertos de todo o conselho maligno e de toda a angústia, e guardados ilesos de todo o assalto venenoso do diabo; mas até ao fim conserva-nos sem condenação pelas Tuas orações, para que, salvos pela Tua intercessão e auxílio, por tudo elevemos glória, louvor, ação de graças e adoração ao único Deus em Trindade, Criador de todas as coisas, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Прими, Всеблагомощная, Пречистая Госпожа Владычица Богородительница, эти честные дары, Тебе единой приносимые от нас, недостойных рабов Твоих, избранная из всех родов, явившаяся превыше всех тварей небесных и земных. Ибо через Тебя был с нами Господь сил, и через Тебя мы познали Сына Божия и сподобились Святого Тела Его и Пречистой Крови Его. Поэтому блаженна Ты в родах родов, Богоблаженная, светлейшая Херувимов и честнейшая Серафимов. И ныне, всепетая Пресвятая Богородица, не переставай молиться о нас, недостойных рабах Твоих, чтобы нам избавиться от всякого лукавого совета и от всякой беды и сохраниться невредимыми от всякого ядовитого нападения диавольского; но до конца молитвами Твоими соблюди нас неосужденными, чтобы, спасаемые Твоим заступлением и помощью, мы за всё возсылали славу, хвалу, благодарение и поклонение единому в Троице Богу и Создателю всех, ныне и присно и во веки веков. Аминь.",
+   "uk": "Прийми, Всеблагомогутня, Пречиста Пані Владичице Богородице, ці чесні дари, що Тобі єдиній приносяться від нас, недостойних рабів Твоїх, вибрана з усіх родів, що явилася вищою за всі творіння небесні й земні. Бо через Тебе був з нами Господь сил, і Тобою ми пізнали Сина Божого і сподобилися Святого Тіла Його і Пречистої Крові Його. Тому блаженна Ти в родах родів, Богоблаженна, світліша від Херувимів і чесніша від Серафимів. І нині, всеоспівана Пресвята Богородице, не переставай молитися за нас, недостойних рабів Твоїх, щоб нам визволитися від усякої лукавої ради і від усякої біди, і зберегтися неушкодженими від усякого отруйного нападу диявольського; але аж до кінця молитвами Твоїми збережи нас неосудженими, щоб, Твоїм заступництвом і допомогою спасенні, ми за все возсилали славу, хвалу, подяку і поклоніння єдиному в Трійці Богові і всіх Творцеві, нині і повсякчас, і на віки віків. Амінь.",
+   "en": "Receive, O Lady all-good and almighty, most pure Sovereign Lady Theotokos, these precious gifts, offered unto thee alone by us thine unworthy servants, O thou who wast chosen out of all generations, and who hast been shown higher than all creatures of heaven and earth. For through thee the Lord of hosts hath been with us, and through thee we have known the Son of God, and have been counted worthy of His holy Body and His most pure Blood. Wherefore blessed art thou in the generations of generations, O God-blessed one, brighter than the Cherubim and more honourable than the Seraphim. And now, O all-hymned most holy Theotokos, cease not to pray for us thine unworthy servants, that we may be delivered from every evil counsel and from every distress, and be preserved unharmed from every venomous assault of the devil; but even unto the end keep us uncondemned through thy prayers, that, being saved by thine intercession and help, we may send up glory, praise, thanksgiving and worship for all things unto the one God in Trinity, the Creator of all, now and ever, and unto the ages of ages. Amen.",
+   "fonte": {
+    "cu": "MS1900 pp. 407–409",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Oração tal como em MS1900 pp. 407–409 («Молитва ко Пресвятѣй Богородицѣ»; acentos do impresso, completados onde faltam). ⚠ O texto em linha (azbyka) dá em vez dela a oração «Пресвята́я Влады́чице моя́ Богоро́дице» (já em manha.json, última oração da manhã); as edições atuais da IOR variam."
+  },
+  {
+   "id": "act-076",
+   "tipo": "oracao",
+   "cu": "Досто́йно есть я́ко вои́стинну блажи́ти Тя Богоро́дицу, Присноблаже́нную и Пренепоро́чную и Ма́терь Бо́га на́шего. Честнѣ́йшую Херуви́мъ и сла́внѣйшую безъ сравне́нія Серафи́мъ, безъ истлѣ́нія Бо́га Сло́ва ро́ждшую, су́щую Богоро́дицу Тя велича́емъ.",
+   "pt": "É verdadeiramente digno bendizer-Te, ó Mãe de Deus, sempre bem-aventurada e toda imaculada, Mãe do nosso Deus. Mais venerável que os Querubins e incomparavelmente mais gloriosa que os Serafins, que sem corrupção deste à luz Deus Verbo, verdadeira Mãe de Deus, nós Te engrandecemos.",
+   "ru": "Достойно поистине ублажать Тебя, Богородицу, присноблаженную и пренепорочную и Матерь Бога нашего. Честнейшую Херувимов и несравненно славнейшую Серафимов, нетленно родившую Бога Слово, истинную Богородицу — Тебя величаем.",
+   "uk": "Достойно є воістину блажити Тебе, Богородицю, Присноблаженну і Пренепорочну, і Матір Бога нашого. Чеснішу від Херувимів і незрівнянно славнішу від Серафимів, що без зотління Бога Слово породила, сущу Богородицю, Тебе величаємо.",
+   "en": "It is truly meet to bless thee, O Theotokos, ever-blessed and all-immaculate, and the Mother of our God. More honourable than the Cherubim, and beyond compare more glorious than the Seraphim, thou who without corruption gavest birth to God the Word, true Theotokos, we magnify thee.",
+   "fonte": {
+    "cu": "Z1912 pp. 12–13",
+    "ru": "propria (Z1912 parafraseava)",
+    "en": "H1906 p. 107",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "Texto idêntico a manha-81 (fórmula comum)."
+  },
+  {
+   "id": "act-077",
+   "tipo": "rubrica",
+   "cu": "Отъ Па́схи до Вознесе́нія Госпо́дня, вмѣ́сто «Досто́йно есть», поётся:",
+   "pt": "Da Páscoa até à Ascensão do Senhor, em lugar de «É verdadeiramente digno», canta-se:",
+   "ru": "От Пасхи до Вознесения Господня вместо «Достойно есть» поется:",
+   "uk": "Від Пасхи до Вознесіння Господнього замість «Достойно є» співається:",
+   "en": "From Pascha until the Ascension of the Lord, instead of «It is truly meet», the following is sung:",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "Texto idêntico a manha-82 (fórmula comum). Na Semana Luminosa vale a rubrica inicial (bloco 004)."
+  },
+  {
+   "id": "act-078",
+   "tipo": "oracao",
+   "cu": "А́нгелъ вопія́ше Благода́тнѣй: Чи́стая Дѣ́во, ра́дуйся! И па́ки реку́: ра́дуйся! Твой Сынъ воскре́се тридне́венъ отъ гро́ба, и ме́ртвыя воздви́гнувый; лю́діе, весели́теся!",
+   "pt": "O Anjo clamou à Cheia de Graça: Virgem pura, alegra-Te! E de novo digo: alegra-Te! O Teu Filho ressuscitou ao terceiro dia do sepulcro e levantou os mortos. Povos, regozijai-vos!",
+   "ru": "Ангел возгласил Благодатной: «Чистая Дева, радуйся!» И я повторю: радуйся! Твой Сын воскрес на третий день из гроба, воскресивший мертвых. Люди, торжествуйте!",
+   "uk": "Ангел взивав Благодатній: Чиста Діво, радуйся! І знову кажу: радуйся! Твій Син воскрес на третій день із гробу і мертвих підняв. Люди, веселіться!",
+   "en": "The Angel cried unto her who is full of grace: Rejoice, O pure Virgin! And again I say: Rejoice! Thy Son is risen from the tomb on the third day, and hath raised up the dead. Rejoice, O ye people!",
+   "fonte": {
+    "cu": "Z1912 p. 112",
+    "ru": "Z1912 p. 112",
+    "en": "H1906 p. 232",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "Texto idêntico a manha-83 (fórmula comum)."
+  },
+  {
+   "id": "act-079",
+   "tipo": "oracao",
+   "cu": "Свѣти́ся, свѣти́ся, но́вый Іерусали́ме, сла́ва бо Госпо́дня на тебѣ́ возсія́; лику́й ны́нѣ и весели́ся, Сіо́не! Ты же, Чи́стая, красу́йся, Богоро́дице, о воста́ніи Рождества́ Твоего́.",
+   "pt": "Resplandece, resplandece, ó nova Jerusalém, porque a glória do Senhor brilhou sobre ti; exulta agora e alegra-te, ó Sião! E Tu, ó Pura, rejubila, Mãe de Deus, com a ressurreição d'Aquele que deste à luz.",
+   "ru": "Сияй, сияй, новый Иерусалим, ибо слава Господня озарила тебя! Торжествуй теперь и веселись, Сион! А Ты, Чистая Богородица, радуйся воскресению Рожденного Тобою.",
+   "uk": "Світися, світися, новий Єрусалиме, бо слава Господня над тобою засяяла; радій нині і веселися, Сіоне! А Ти, Чиста Богородице, красуйся воскресінням Народженого Тобою.",
+   "en": "Shine, shine, O new Jerusalem, for the glory of the Lord hath arisen upon thee! Dance now and be glad, O Zion! And do thou, O pure Theotokos, rejoice in the rising of Him whom thou didst bear.",
+   "fonte": {
+    "cu": "Z1912 p. 113",
+    "ru": "Z1912 p. 113",
+    "en": "H1906 p. 232",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "Texto idêntico a manha-84 (fórmula comum)."
+  },
+  {
+   "id": "act-080",
+   "tipo": "oracao",
+   "cu": "Христо́съ воскре́се изъ ме́ртвыхъ, сме́ртію смерть попра́въ и су́щимъ во гробѣ́хъ живо́тъ дарова́въ.",
+   "pt": "Cristo ressuscitou dos mortos, pela morte calcou a morte e aos que estavam nos sepulcros deu a vida.",
+   "ru": "Христос воскрес из мертвых, смертью смерть поправ и сущим во гробах жизнь даровав.",
+   "uk": "Христос воскрес із мертвих, смертю смерть подолав і тим, що в гробах, життя дарував.",
+   "en": "Christ is risen from the dead, trampling down death by death, and upon those in the tombs bestowing life.",
+   "fonte": {
+    "cu": "Z1912 p. 106",
+    "ru": "propria",
+    "en": "H1906 p. 226",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a oficio-106a / manha-14 (fórmula comum). Fecho da Semana Luminosa (rubrica inicial, bloco 004)."
+  },
+  {
+   "id": "act-081",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-85 (fórmula comum)."
+  },
+  {
+   "id": "act-082",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-86 (fórmula comum)."
+  },
+  {
+   "id": "act-083",
+   "tipo": "oracao",
+   "cu": "Го́споди Іису́се Христе́, Сы́не Бо́жій, моли́твъ ра́ди Пречи́стыя Твоея́ Ма́тере, преподо́бныхъ и богоно́сныхъ оте́цъ на́шихъ и всѣхъ святы́хъ, поми́луй насъ. Ами́нь.",
+   "pt": "Senhor Jesus Cristo, Filho de Deus, pelas orações da Tua Mãe puríssima, dos nossos veneráveis Padres teóforos e de todos os santos, tem piedade de nós. Ámen.",
+   "ru": "Господи Иисусе Христе, Сыне Божий, по молитвам Пречистой Твоей Матери, преподобных и богоносных отцов наших и всех святых помилуй нас. Аминь.",
+   "uk": "Господи Іісусе Христе, Сину Божий, молитвами Пречистої Твоєї Матері, преподобних і богоносних отців наших і всіх святих, помилуй нас. Амінь.",
+   "en": "O Lord Jesus Christ, Son of God, through the prayers of Thy most pure Mother, of our venerable and God-bearing Fathers, and of all the saints, have mercy upon us. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 13",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-87 (fórmula comum)."
+  }
+ ]
+}

@@ -1,0 +1,1571 @@
+{
+ "id": "acatistos-nicolau",
+ "ordem": 3,
+ "titulo": {
+  "cu": "Акаѳи́стъ святи́телю Христо́ву Никола́ю",
+  "pt": "Acatisto a São Nicolau, o Taumaturgo",
+  "ru": "Акафист святителю Николаю Чудотворцу",
+  "uk": "Акафіст святителю Миколаю Чудотворцю",
+  "en": "Akathist to Saint Nicholas the Wonderworker"
+ },
+ "fontes": [
+  {
+   "chave": "SZ1917",
+   "descricao": "Слово жизни въ богослужебныхъ пѣснопѣніяхъ Православной Церкви, избранныхъ для общенароднаго пѣнія. Выпускъ 2. Акаѳисты на каждый день седмицы [еп. Никандръ (Феноменовъ)]. Вятка: Изданіе Вятскаго Епархіальнаго Братства Святителя Николая, Тип. Епарх. Братства, 1917.",
+   "url": "https://archive.org/details/slovozhiznivbogosluzhebnyhpesnopenijahpr78",
+   "notas": "Domínio público (publicado em 1917; compilador † 1933). Escrita civil pré-reforma, sem acentos. «Акаѳистъ Святителю Христову Николаю», pp. 89–104 (página impressa = folha do PDF − 1). Lido integralmente nas imagens e conferido palavra a palavra com o texto atual (AZB). ⚠ B2: edição diocesana (Vyatka), não sinodal; não se encontrou digitalização legível de edição sinodal pré-1917 deste acatisto (ver FONTES-acatistos.md)."
+  },
+  {
+   "chave": "Z1912",
+   "descricao": "Молитвы и пѣснопѣнія православнаго молитвослова (для мірянъ) съ переводомъ на русскій языкъ, объясненіями и примѣчаніями Николая Нахимова [Н. Ч. Зайончковскій, 1859–1920]. С.-Петербургъ: Синодальная типографія, 1912.",
+   "url": "https://archive.org/details/molitvyipesnopenijapravoslavnogomolitvos65",
+   "notas": "Domínio público (autor † 1920). Fonte de fórmulas comuns copiadas de manha.json; não contém este acatisto (coluna RU própria)."
+  },
+  {
+   "chave": "K1817",
+   "descricao": "Канонникъ. Москва: Синодальная типографія, декабрь 1817.",
+   "url": "https://viewer.rsl.ru/rsl01015049339",
+   "notas": "Biblioteca Estatal Russa. Fonte de «Молитвами святыхъ отецъ…» (bloco copiado de noite-019)."
+  },
+  {
+   "chave": "H1906",
+   "descricao": "I. F. Hapgood, Service Book of the Holy Orthodox-Catholic Apostolic (Greco-Russian) Church. Boston/New York: Houghton, Mifflin & Co., 1906.",
+   "url": "https://archive.org/details/cu31924029363128",
+   "notas": "Domínio público. Só nos blocos comuns copiados de manha.json/noite.json/comunhao_preparacao.json; o texto dos acatistos não está em Hapgood (coluna EN própria)."
+  },
+  {
+   "chave": "MS1900",
+   "descricao": "Молитвословъ. Изданіе десятое. Москва: Синодальная типографія, 1900. По благословенію Святѣйшаго Правительствующаго Синода.",
+   "url": "https://archive.org/details/molitvoslov00andr",
+   "notas": "Domínio público. Só fórmulas comuns (via manha/noite)."
+  },
+  {
+   "chave": "AZB",
+   "descricao": "Акафисты (texto eslavo atual em escrita civil), azbyka.ru.",
+   "url": "",
+   "notas": "Só para identificar o texto atual (dec. 62) e como guia de acentuação, conferida por amostragem com os acentos impressos das edições PD; não é fonte do texto (cada palavra foi conferida com a edição PD). Variantes assinaladas em nota em cada bloco."
+  }
+ ],
+ "estado": {
+  "pt": "nao_revista",
+  "ru": "nao_revista",
+  "uk": "nao_revista",
+  "en": "nao_revista"
+ },
+ "blocos": [
+  {
+   "id": "acn-001",
+   "tipo": "titulo",
+   "cu": "Акаѳи́стъ святи́телю Христо́ву Никола́ю",
+   "pt": "Acatisto a São Nicolau, o Taumaturgo",
+   "ru": "Акафист святителю Николаю Чудотворцу",
+   "uk": "Акафіст святителю Миколаю Чудотворцю",
+   "en": "Akathist to Saint Nicholas the Wonderworker",
+   "fonte": {
+    "cu": "SZ1917 p. 89",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Título e «Кондакъ 1. (Гласъ 8)» de Слово жизни (1917) p. 89 («Акаѳистъ Святителю Христову Николаю»). A nota da edição que o atribui a «Исидоръ, патріархъ Цареградскій» não é seguida (autoria não comprovada)."
+  },
+  {
+   "id": "acn-002",
+   "tipo": "rubrica",
+   "cu": "Акаѳі́стъ, чте́мый на́единѣ, предваря́ется обы́чнымъ нача́ломъ и заверша́ется моли́твою «Досто́йно есть», «Сла́ва, и ны́нѣ», «Го́споди, поми́луй» три́жды и отпу́стомъ.",
+   "pt": "O acatisto lido em privado é precedido do início habitual e conclui-se com «É verdadeiramente digno», «Glória… agora e sempre…», «Senhor, tem piedade» três vezes e a despedida.",
+   "ru": "Акафист, читаемый наедине, предваряется обычным началом и завершается молитвой «Достойно есть», «Слава, и ныне», «Господи, помилуй» трижды и отпустом.",
+   "uk": "Акафіст, що читається наодинці, починається звичайним початком і завершується молитвою «Достойно є», «Слава, і нині», «Господи, помилуй» тричі і відпустом.",
+   "en": "An akathist read privately is preceded by the usual beginning and concluded with «It is truly meet», «Glory… now and ever…», «Lord, have mercy» thrice, and the dismissal.",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Rubrica própria segundo doc. 03 §3.2 e §5.5 (ordem de leitura em privado, «чин келейного чтения»; azbyka só como referência). As edições PD usadas (Слово жизни, 1917) começam diretamente no condácio 1 e terminam na oração, sem início nem conclusão. O Santo Sínodo (14.05.2018, ata n.º 28) desaconselha acatistos no culto público durante a Grande Quaresma (exceto as Matinas do Sábado do Acatisto); a determinação não regula a oração privada (doc. 03 §5.5)."
+  },
+  {
+   "id": "acn-003",
+   "tipo": "oracao",
+   "cu": "Моли́твами святы́хъ оте́цъ на́шихъ, Го́споди Іису́се Христе́ Бо́же нашъ, поми́луй насъ. Ами́нь.",
+   "pt": "Pelas orações dos nossos santos Padres, Senhor Jesus Cristo, nosso Deus, tem piedade de nós. Ámen.",
+   "ru": "По молитвам святых отцов наших, Господи Иисусе Христе, Боже наш, помилуй нас. Аминь.",
+   "uk": "Молитвами святих отців наших, Господи Іісусе Христе, Боже наш, помилуй нас. Амінь.",
+   "en": "Through the prayers of our holy fathers, O Lord Jesus Christ our God, have mercy upon us. Amen.",
+   "fonte": {
+    "cu": "Канонникъ 1817 (RSL rsl01015049339, img. 164); MS1900 p. 461",
+    "ru": "propria",
+    "en": "H1906 p. 238",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "ascensao_pentecostes"
+    ]
+   },
+   "nota": "Texto idêntico a noite-019 (fórmula comum)."
+  },
+  {
+   "id": "acn-004",
+   "tipo": "rubrica",
+   "cu": "Во всю Свѣ́тлую седми́цу, отъ Па́схи до суббо́ты у́тра включи́тельно, вмѣ́сто обы́чнаго нача́ла глаго́лется три́жды тропа́рь Па́схи; по акаѳі́стѣ же — «А́нгелъ вопія́ше», «Свѣти́ся» и па́ки три́жды «Христо́съ воскре́се».",
+   "pt": "Em toda a Semana Luminosa, desde a Páscoa até sábado de manhã inclusive, em vez do início habitual diz-se três vezes o tropário da Páscoa; depois do acatisto, «O Anjo clamou», «Resplandece» e de novo três vezes «Cristo ressuscitou».",
+   "ru": "Всю Светлую седмицу, от Пасхи до утра субботы включительно, вместо обычного начала трижды читается тропарь Пасхи; после акафиста — «Ангел вопияше», «Светися» и снова трижды «Христос воскресе».",
+   "uk": "Усю Світлу седмицю, від Пасхи до ранку суботи включно, замість звичайного початку тричі читається тропар Пасхи; після акафіста — «Ангел взивав», «Світися» і знову тричі «Христос воскрес».",
+   "en": "Throughout Bright Week, from Pascha until Saturday morning inclusive, instead of the usual beginning the Paschal troparion is said thrice; after the akathist, «The Angel cried», «Shine» and again thrice «Christ is risen».",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Rubrica própria, segundo o modelo das Horas Pascais (doc. 03 §1.4) e da dec. 63 (comunhao_preparacao, oficio-106a). ⚠ Não há rubrica para acatistos na Semana Luminosa nas edições PD consultadas; prática a confirmar."
+  },
+  {
+   "id": "acn-005",
+   "tipo": "oracao",
+   "cu": "Сла́ва Тебѣ́, Бо́же нашъ, сла́ва Тебѣ́.",
+   "pt": "Glória a Ti, ó nosso Deus, glória a Ti.",
+   "ru": "Слава Тебе, Боже наш, слава Тебе.",
+   "uk": "Слава Тобі, Боже наш, слава Тобі.",
+   "en": "Glory to Thee, O our God, glory to Thee.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa",
+     "ascensao_pentecostes"
+    ]
+   },
+   "nota": "Texto idêntico a manha-10 (fórmula comum)."
+  },
+  {
+   "id": "acn-006",
+   "tipo": "rubrica",
+   "cu": "Отъ Вознесе́нія Госпо́дня до Пятидеся́тницы моли́твы начина́ются со «Святы́й Бо́же»; «Царю́ Небе́сный» и всё, что предше́ствуетъ ему́, опуска́ется.",
+   "pt": "Da Ascensão do Senhor até ao Pentecostes, as orações começam em «Santo Deus»; omite-se «Rei Celeste» e tudo o que o precede.",
+   "ru": "От Вознесения Господня до Пятидесятницы молитвы начинаются со «Святый Боже»; «Царю Небесный» и все, что предшествует ему, опускается.",
+   "uk": "Від Вознесіння Господнього до П’ятидесятниці молитви починаються зі «Святий Боже»; «Царю Небесний» і все, що йому передує, опускається.",
+   "en": "From the Ascension of the Lord until Pentecost, the prayers begin with «Holy God»; «O Heavenly King» and all that precedes it are omitted.",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "ascensao_pentecostes"
+    ]
+   },
+   "nota": "Texto idêntico a manha-05 (fórmula comum)."
+  },
+  {
+   "id": "acn-007",
+   "tipo": "oracao",
+   "cu": "Царю́ Небе́сный, Утѣ́шителю, Ду́ше и́стины, И́же вездѣ́ сый и вся исполня́яй, Сокро́вище благи́хъ и жи́зни Пода́телю, пріиди́ и всели́ся въ ны, и очи́сти ны отъ вся́кія скве́рны, и спаси́, Бла́же, ду́ши на́ша.",
+   "pt": "Rei Celeste, Consolador, Espírito da Verdade, que estás em toda a parte e tudo enches, Tesouro dos bens e Dador da vida, vem e habita em nós, purifica-nos de toda a mancha e salva, ó Bom, as nossas almas.",
+   "ru": "Царь Небесный, Утешитель, Дух истины, вездесущий и всё наполняющий, Сокровищница благ и Податель жизни, приди и вселись в нас; очисти нас от всякой нечистоты и спаси, Благий, души наши.",
+   "uk": "Царю Небесний, Утішителю, Душе істини, що всюди єси і все наповнюєш, Скарбе благ і Подателю життя, прийди і вселися в нас, і очисти нас від усякої скверни, і спаси, Благий, душі наші.",
+   "en": "O Heavenly King, the Comforter, the Spirit of Truth, who art in all places and fillest all things, Treasury of good things and Giver of life: come and abide in us, and cleanse us from every stain, and save our souls, O Good One.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "Z1912 p. 1 (adaptado)",
+    "en": "H1906 p. 67",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa",
+     "pascoa_ascensao",
+     "ascensao_pentecostes"
+    ]
+   },
+   "nota": "Texto idêntico a manha-12 (fórmula comum)."
+  },
+  {
+   "id": "acn-008",
+   "tipo": "rubrica",
+   "cu": "Отъ Ѳоми́ной недѣ́ли до Вознесе́нія Госпо́дня, вмѣ́сто «Царю́ Небе́сный», чита́ется три́жды тропа́рь Па́схи:",
+   "pt": "Do Domingo de Tomé até à Ascensão do Senhor, em lugar de «Rei Celeste», diz-se três vezes o tropário da Páscoa:",
+   "ru": "От Фомина воскресенья до Вознесения Господня вместо «Царю Небесный» читается трижды тропарь Пасхи:",
+   "uk": "Від Томиної неділі до Вознесіння Господнього замість «Царю Небесний» читається тричі тропар Пасхи:",
+   "en": "From Thomas Sunday until the Ascension of the Lord, instead of «O Heavenly King», the troparion of Pascha is said three times:",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "Texto idêntico a manha-13 (fórmula comum)."
+  },
+  {
+   "id": "acn-009",
+   "tipo": "oracao",
+   "cu": "Христо́съ воскре́се изъ ме́ртвыхъ, сме́ртію смерть попра́въ и су́щимъ во гробѣ́хъ живо́тъ дарова́въ.",
+   "pt": "Cristo ressuscitou dos mortos, pela morte calcou a morte e aos que estavam nos sepulcros deu a vida.",
+   "ru": "Христос воскрес из мертвых, смертью смерть поправ и сущим во гробах жизнь даровав.",
+   "uk": "Христос воскрес із мертвих, смертю смерть подолав і тим, що в гробах, життя дарував.",
+   "en": "Christ is risen from the dead, trampling down death by death, and upon those in the tombs bestowing life.",
+   "fonte": {
+    "cu": "Z1912 p. 106",
+    "ru": "propria",
+    "en": "H1906 p. 226",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "Texto idêntico a manha-14 (fórmula comum)."
+  },
+  {
+   "id": "acn-010",
+   "tipo": "oracao",
+   "cu": "Святы́й Бо́же, Святы́й Крѣ́пкій, Святы́й Безсме́ртный, поми́луй насъ.",
+   "pt": "Santo Deus, Santo Forte, Santo Imortal, tem piedade de nós.",
+   "ru": "Святый Боже, Святый Крепкий, Святый Бессмертный, помилуй нас.",
+   "uk": "Святий Боже, Святий Кріпкий, Святий Безсмертний, помилуй нас.",
+   "en": "Holy God, Holy Mighty, Holy Immortal, have mercy upon us.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-15 (fórmula comum)."
+  },
+  {
+   "id": "acn-011",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-16 (fórmula comum)."
+  },
+  {
+   "id": "acn-012",
+   "tipo": "oracao",
+   "cu": "Пресвята́я Тро́ице, поми́луй насъ; Го́споди, очи́сти грѣхи́ на́ша; Влады́ко, прости́ беззако́нія на́ша; Святы́й, посѣти́ и исцѣли́ не́мощи на́ша, и́мене Твоего́ ра́ди.",
+   "pt": "Santíssima Trindade, tem piedade de nós; Senhor, purifica os nossos pecados; Soberano, perdoa as nossas iniquidades; Santo, visita e cura as nossas enfermidades, por causa do Teu nome.",
+   "ru": "Пресвятая Троица, помилуй нас; Господи, очисти грехи наши; Владыка, прости беззакония наши; Святой, посети и исцели немощи наши ради имени Твоего.",
+   "uk": "Пресвята Трійце, помилуй нас; Господи, очисти гріхи наші; Владико, прости беззаконня наші; Святий, відвідай і зціли немочі наші імені Твого ради.",
+   "en": "O all-holy Trinity, have mercy upon us. O Lord, cleanse our sins. O Master, pardon our transgressions. O Holy One, visit and heal our infirmities, for Thy Name's sake.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-17 (fórmula comum)."
+  },
+  {
+   "id": "acn-013",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-18 (fórmula comum)."
+  },
+  {
+   "id": "acn-014",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-19 (fórmula comum)."
+  },
+  {
+   "id": "acn-015",
+   "tipo": "oracao",
+   "cu": "О́тче нашъ, И́же еси́ на небесѣ́хъ! Да святи́тся и́мя Твое́, да пріи́детъ Ца́рствіе Твое́, да бу́детъ во́ля Твоя́, я́ко на небеси́ и на земли́. Хлѣбъ нашъ насу́щный даждь намъ днесь; и оста́ви намъ до́лги на́ша, я́коже и мы оставля́емъ должнико́мъ на́шимъ; и не введи́ насъ во искуше́ніе, но изба́ви насъ отъ лука́ваго.",
+   "pt": "Pai nosso, que estás nos céus, santificado seja o Teu nome; venha o Teu Reino; seja feita a Tua vontade, como no céu, assim na terra. O pão nosso de cada dia dá-nos hoje; e perdoa-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores; e não nos conduzas à tentação, mas livra-nos do maligno.",
+   "ru": "Отче наш, сущий на небесах! Да святится имя Твое, да придет Царствие Твое, да будет воля Твоя, как на небе, так и на земле. Хлеб наш насущный дай нам сегодня; и прости нам долги наши, как и мы прощаем должникам нашим; и не введи нас в искушение, но избавь нас от лукавого.",
+   "uk": "Отче наш, що єси на небесах! Нехай святиться ім’я Твоє, нехай прийде Царство Твоє, нехай буде воля Твоя, як на небі, так і на землі. Хліб наш насущний дай нам сьогодні; і прости нам борги наші, як і ми прощаємо боржникам нашим; і не введи нас у спокусу, але визволи нас від лукавого.",
+   "en": "Our Father, who art in heaven, hallowed be Thy Name. Thy kingdom come. Thy will be done, as in heaven, so on earth. Give us this day our daily bread. And forgive us our debts, as we forgive our debtors. And lead us not into temptation, but deliver us from the evil one.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria (Z1912 parafraseava)",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-20 (fórmula comum)."
+  },
+  {
+   "id": "acn-016",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 12,
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-25 (fórmula comum)."
+  },
+  {
+   "id": "acn-017",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-16 (fórmula comum)."
+  },
+  {
+   "id": "acn-018",
+   "tipo": "oracao",
+   "cu": "Пріиди́те, поклони́мся Царе́ви на́шему Бо́гу. Пріиди́те, поклони́мся и припаде́мъ Христу́, Царе́ви на́шему Бо́гу. Пріиди́те, поклони́мся и припаде́мъ Самому́ Христу́, Царе́ви и Бо́гу на́шему.",
+   "pt": "Vinde, adoremos o nosso Rei e Deus. Vinde, adoremos e prostremo-nos diante de Cristo, nosso Rei e Deus. Vinde, adoremos e prostremo-nos diante do próprio Cristo, Rei e nosso Deus.",
+   "ru": "Придите, поклонимся Царю, нашему Богу. Придите, поклонимся и припадем ко Христу, Царю, нашему Богу. Придите, поклонимся и припадем к Самому Христу, Царю и Богу нашему.",
+   "uk": "Прийдіть, поклонімося Цареві нашому Богові. Прийдіть, поклонімося і припадімо до Христа, Царя нашого Бога. Прийдіть, поклонімося і припадімо до Самого Христа, Царя і Бога нашого.",
+   "en": "O come, let us worship God our King. O come, let us worship and fall down before Christ, our King and God. O come, let us worship and fall down before Christ Himself, our King and God.",
+   "fonte": {
+    "cu": "Z1912 p. 3",
+    "ru": "Z1912 p. 3 (adaptado)",
+    "en": "H1906 p. 15",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-28 (fórmula comum)."
+  },
+  {
+   "id": "acn-019",
+   "tipo": "titulo",
+   "cu": "Конда́къ 1, гласъ 8",
+   "pt": "Condácio 1, tom 8",
+   "ru": "Кондак 1, глас 8",
+   "uk": "Кондак 1, глас 8",
+   "en": "Kontakion 1, Tone 8",
+   "fonte": {
+    "cu": "SZ1917 p. 89",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-020",
+   "tipo": "oracao",
+   "cu": "Возбра́нный Чудотво́рче и изря́дный уго́дниче Христо́въ, мі́ру всему́ источа́яй многоцѣ́нное ми́лости мѵ́ро и неисчерпа́емое чуде́съ мо́ре, восхваля́ю тя любо́вію, святи́телю Нико́лае; ты же, я́ко имѣ́яй дерзнове́ніе ко Го́споду, отъ вся́кихъ мя бѣдъ свободи́, да зову́ ти: Ра́дуйся, Нико́лае, вели́кій Чудотво́рче.",
+   "pt": "Ó Taumaturgo que por nós combates e insigne servo de Cristo, que derramas sobre o mundo inteiro a mirra preciosa da misericórdia e um mar inesgotável de milagres, eu louvo-te com amor, ó santo hierarca Nicolau; e tu, que tens confiança junto do Senhor, livra-me de todas as desgraças, para que te clame: Alegra-te, Nicolau, grande Taumaturgo!",
+   "ru": "Взбранный Чудотворец и изрядный угодник Христов, источающий всему миру многоценное миро милости и неисчерпаемое море чудес! Восхваляю тебя с любовью, святитель Николай; ты же, как имеющий дерзновение ко Господу, от всяких бед освободи меня, чтобы я взывал тебе: Радуйся, Николае, великий Чудотворче!",
+   "uk": "Взбранний Чудотворче і преславний угоднику Христовий, що всьому світові виточуєш дорогоцінне миро милості і невичерпне море чудес, вихваляю тебе з любов'ю, святителю Миколаю; ти ж, маючи відвагу перед Господом, від усяких бід визволи мене, щоб я взивав до тебе: Радуйся, Миколаю, великий Чудотворче!",
+   "en": "O champion Wonderworker and excellent servant of Christ, who pourest forth upon the whole world the precious myrrh of mercy and an inexhaustible sea of miracles: I praise thee with love, O holy hierarch Nicholas; and as thou hast boldness before the Lord, set me free from all calamities, that I may cry unto thee: Rejoice, O Nicholas, great Wonderworker!",
+   "fonte": {
+    "cu": "SZ1917 p. 89",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«изря́дный» = «insigne, excelente» (nota de Слово жизни p. 89: «чрезвычайный»). «мѵ́ро»: a mirra que mana das relíquias do santo em Bari."
+  },
+  {
+   "id": "acn-021",
+   "tipo": "titulo",
+   "cu": "И́косъ 1",
+   "pt": "Ikos 1",
+   "ru": "Икос 1",
+   "uk": "Ікос 1",
+   "en": "Ikos 1",
+   "fonte": {
+    "cu": "SZ1917 pp. 89–90",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-022",
+   "tipo": "oracao",
+   "cu": "А́нгела о́бразомъ, земна́го су́ща естество́мъ, яви́ тебѣ́ всея́ тва́ри Созда́тель: благопло́дную бо добро́ту души́ твоея́ прови́дѣвъ, преблаже́нне Нико́лае, научи́ всѣхъ вопи́ти тебѣ́ си́це: Ра́дуйся, отъ утро́бы ма́тернія очище́нный; ра́дуйся, да́же до конца́ освяще́нный. Ра́дуйся, рожде́ніемъ свои́мъ роди́телей удиви́вый; ра́дуйся, си́лу душе́вную а́біе по рождествѣ́ яви́вый. Ра́дуйся, са́де земли́ обѣтова́нія; ра́дуйся, цвѣ́те Боже́ственнаго сажде́нія. Ра́дуйся, лозо́ добродѣ́тельная виногра́да Христо́ва; ра́дуйся, дре́во чудото́чное рая́ Іису́сова. Ра́дуйся, кри́не ра́йскаго прозябе́нія; ра́дуйся, мѵ́ро Христо́ва благоуха́нія. Ра́дуйся, я́ко тобо́ю отго́нится рыда́ніе; ра́дуйся, я́ко тобо́ю прино́сится ра́дованіе. Ра́дуйся, Нико́лае, вели́кій Чудотво́рче.",
+   "pt": "O Criador de toda a criação mostrou-te anjo na forma, embora fosses terreno por natureza; pois, prevendo a fecunda beleza da tua alma, ó bem-aventurado Nicolau, ensinou todos a clamar-te assim: Alegra-te, purificado desde o seio materno; alegra-te, santificado até ao fim. Alegra-te, que com o teu nascimento maravilhaste os teus pais; alegra-te, que logo depois de nascer mostraste a força da alma. Alegra-te, jardim da terra prometida; alegra-te, flor da plantação divina. Alegra-te, videira virtuosa da vinha de Cristo; alegra-te, árvore taumaturga do paraíso de Jesus. Alegra-te, lírio de rebento celeste; alegra-te, mirra da fragrância de Cristo. Alegra-te, porque por ti é afugentado o pranto; alegra-te, porque por ti é trazida a alegria. Alegra-te, Nicolau, grande Taumaturgo!",
+   "ru": "Ангелом по образу, будучи земным по естеству, явил тебя Создатель всей твари: ибо, провидев благоплодную красоту твоей души, преблаженный Николай, Он научил всех взывать тебе так: Радуйся, от утробы матери очищенный; радуйся, до конца освященный. Радуйся, рождением своим родителей удививший; радуйся, силу души тотчас по рождении явивший. Радуйся, сад земли обетованной; радуйся, цвет Божественного насаждения. Радуйся, добродетельная лоза винограда Христова; радуйся, чудотворное древо рая Иисусова. Радуйся, крин райского произрастания; радуйся, миро Христова благоухания. Радуйся, ибо тобою прогоняется рыдание; радуйся, ибо тобою приносится радость. Радуйся, Николае, великий Чудотворче!",
+   "uk": "Ангелом за образом, хоч земним за єством, явив тебе Творець усього творіння, бо, передбачивши плодоносну красу душі твоєї, преблаженний Миколаю, навчив усіх так взивати до тебе: Радуйся, від утроби матері очищений; радуйся, аж до кінця освячений. Радуйся, що народженням своїм батьків здивував; радуйся, що силу душі зразу по народженні явив. Радуйся, саде землі обітованої; радуйся, цвіте Божественного насадження. Радуйся, лозо доброчесна винограду Христового; радуйся, дерево чудотворне раю Іісусового. Радуйся, лілеє райського проростання; радуйся, мирро Христового благоухання. Радуйся, бо тобою проганяється ридання; радуйся, бо тобою приноситься радість. Радуйся, Миколаю, великий Чудотворче!",
+   "en": "The Creator of all creation showed thee forth as an Angel in form, though thou wast earthly by nature; for foreseeing the fruitful beauty of thy soul, O most blessed Nicholas, He taught all to cry unto thee thus: Rejoice, thou who wast purified from thy mother's womb; rejoice, thou who wast sanctified even unto the end. Rejoice, thou who by thy birth didst astonish thy parents; rejoice, thou who straightway after thy birth didst show forth the strength of thy soul. Rejoice, garden of the land of promise; rejoice, flower of divine planting. Rejoice, virtuous vine of Christ's vineyard; rejoice, wonder-working tree of the paradise of Jesus. Rejoice, lily of heavenly growth; rejoice, myrrh of the fragrance of Christ. Rejoice, for through thee lamentation is driven away; rejoice, for through thee joy is brought. Rejoice, O Nicholas, great Wonderworker!",
+   "fonte": {
+    "cu": "SZ1917 pp. 89–90",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-023",
+   "tipo": "titulo",
+   "cu": "Конда́къ 2",
+   "pt": "Condácio 2",
+   "ru": "Кондак 2",
+   "uk": "Кондак 2",
+   "en": "Kontakion 2",
+   "fonte": {
+    "cu": "SZ1917 p. 90",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-024",
+   "tipo": "oracao",
+   "cu": "Ви́дяще твои́хъ мѵръ излія́ніе, Богому́дре, просвѣща́емся душа́ми и тѣлесы́, ди́внаго тя мѵрото́чца живоно́сна, Нико́лае, разумѣ́юще: чудесы́ бо, я́ко вода́ми, благода́тію Бо́жіею излива́ющимися, напая́еши вѣ́рно вопію́щихъ Бо́гу: Аллилу́іа.",
+   "pt": "Vendo a efusão das tuas mirras, ó sábio em Deus, somos iluminados na alma e no corpo, reconhecendo em ti, ó Nicolau, um admirável manancial de mirra que dá a vida; pois com os milagres, que como águas jorram pela graça de Deus, dás de beber aos que com fé clamam a Deus: Aleluia.",
+   "ru": "Видя излияние твоих мирр, Богомудрый, мы просвещаемся душами и телами, разумея тебя, Николай, дивным, жизненосным мироточцем: ибо чудесами, как водами, изливающимися благодатью Божией, ты напаяешь верно взывающих Богу: Аллилуия.",
+   "uk": "Бачачи виливання твоїх мирр, богомудрий, просвітлюємося душами і тілами, розуміючи, Миколаю, що ти — дивний життєдайний мироточець; бо чудесами, мов водами, що виливаються благодаттю Божою, напуваєш тих, хто вірно взиває до Бога: Алилуя.",
+   "en": "Beholding the outpouring of thy myrrh, O God-wise one, we are enlightened in soul and body, perceiving thee, O Nicholas, to be a wondrous life-bearing myrrh-gusher; for with miracles, flowing like waters by the grace of God, thou givest drink to them that faithfully cry unto God: Alleluia.",
+   "fonte": {
+    "cu": "SZ1917 p. 90",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Variantes (dec. 62): Слово жизни p. 90 «дивнаго тя мѵротво́рца», «напоя́еши вѣ́рно вопію́щихъ къ Бо́гу»; segue-se o texto atual «мѵроточца», «напая́еши … вопію́щихъ Бо́гу»."
+  },
+  {
+   "id": "acn-025",
+   "tipo": "titulo",
+   "cu": "И́косъ 2",
+   "pt": "Ikos 2",
+   "ru": "Икос 2",
+   "uk": "Ікос 2",
+   "en": "Ikos 2",
+   "fonte": {
+    "cu": "SZ1917 pp. 90–91",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-026",
+   "tipo": "oracao",
+   "cu": "Ра́зумъ неуразумѣ́нный вразумля́я о Святѣ́й Тро́ицѣ, былъ еси́ въ Нике́и со святы́ми отцы́ побо́рникъ исповѣ́данія правосла́вныя вѣ́ры: ра́вна бо Отцу́ Сы́на исповѣ́далъ еси́, соприсносу́щна и сопресто́льна, А́рія же безу́мнаго обличи́лъ еси́. Сего́ ра́ди вѣ́рніи научи́шася воспѣва́ти тебѣ́: Ра́дуйся, вели́кій благоче́стія сто́лпе; ра́дуйся, вѣ́рныхъ прибѣ́жища гра́де. Ра́дуйся, тве́рдое Правосла́вія укрѣпле́ніе; ра́дуйся, честно́е Пресвяты́я Тро́ицы носи́ло и похвале́ніе. Ра́дуйся, Отцу́ равноче́стна Сы́на проповѣ́давый; ра́дуйся, А́рія возбѣси́вшагося отъ Собо́ра святы́хъ отгна́вый. Ра́дуйся, о́тче, отце́въ сла́вная красото́; ра́дуйся, всѣхъ богому́дрыхъ прему́драя добро́то. Ра́дуйся, о́гненная словеса́ испуща́яй; ра́дуйся, до́брѣ ста́до свое́ наставля́яй. Ра́дуйся, я́ко тобо́ю вѣ́ра утвержда́ется; ра́дуйся, я́ко тобо́ю е́ресь низлага́ется. Ра́дуйся, Нико́лае, вели́кій Чудотво́рче.",
+   "pt": "Dando entendimento ao entendimento incompreensível acerca da Santíssima Trindade, estiveste em Niceia com os santos Padres como defensor da confissão da fé ortodoxa; pois confessaste o Filho igual ao Pai, coeterno e partícipe do mesmo trono, e desmascaraste o insensato Ário. Por isso os fiéis aprenderam a cantar-te: Alegra-te, grande coluna da piedade; alegra-te, cidade de refúgio dos fiéis. Alegra-te, firme sustentáculo da Ortodoxia; alegra-te, venerável portador e louvor da Santíssima Trindade. Alegra-te, que pregaste o Filho igual em honra ao Pai; alegra-te, que expulsaste do santo Concílio o furioso Ário. Alegra-te, pai, gloriosa beleza dos Padres; alegra-te, sábia formosura de todos os sábios em Deus. Alegra-te, que lanças palavras de fogo; alegra-te, que bem guias o teu rebanho. Alegra-te, porque por ti a fé se fortalece; alegra-te, porque por ti a heresia é derrubada. Alegra-te, Nicolau, grande Taumaturgo!",
+   "ru": "Непостижимое разумение о Святой Троице уясняя, ты был в Никее со святыми отцами поборником исповедания православной веры: ибо исповедал Сына равным Отцу, соприсносущным и сопрестольным, а безумного Ария обличил. Поэтому верные научились воспевать тебе: Радуйся, великий столп благочестия; радуйся, град прибежища верных. Радуйся, твердое утверждение Православия; радуйся, честный носитель и хвала Пресвятой Троицы. Радуйся, проповедавший Сына равночестным Отцу; радуйся, обезумевшего Ария изгнавший из собора святых. Радуйся, отче, славная красота отцов; радуйся, премудрое украшение всех богомудрых. Радуйся, изрекающий огненные слова; радуйся, добре стадо свое наставляющий. Радуйся, ибо тобою вера утверждается; радуйся, ибо тобою ересь низлагается. Радуйся, Николае, великий Чудотворче!",
+   "uk": "Незбагненне розуміння про Святу Трійцю пояснюючи, ти був у Нікеї зі святими отцями поборником сповідання православної віри: бо сповідав Сина, рівного Отцеві, співвічного і співпрестольного, а безумного Арія викрив. Тому вірні навчилися оспівувати тебе: Радуйся, великий стовпе благочестя; радуйся, вірних граде-пристановище. Радуйся, тверде утвердження Православ'я; радуйся, чесний носію і хвало Пресвятої Трійці. Радуйся, що проповідував Сина рівночесним Отцеві; радуйся, що скаженого Арія від собору святих прогнав. Радуйся, отче, славна красо отців; радуйся, всіх богомудрих премудра окрасо. Радуйся, що вогненні слова вимовляєш; радуйся, що добре стадо своє наставляєш. Радуйся, бо тобою віра утверджується; радуйся, бо тобою єресь скидається. Радуйся, Миколаю, великий Чудотворче!",
+   "en": "Making clear the incomprehensible understanding concerning the Holy Trinity, thou wast at Nicaea with the holy Fathers as a champion of the confession of the Orthodox faith; for thou didst confess the Son equal to the Father, co-eternal and co-enthroned, and didst rebuke the senseless Arius. Wherefore the faithful have learned to sing unto thee: Rejoice, great pillar of piety; rejoice, city of refuge of the faithful. Rejoice, firm support of Orthodoxy; rejoice, venerable bearer and praise of the Holy Trinity. Rejoice, thou who didst preach the Son equal in honour with the Father; rejoice, thou who didst drive the raging Arius from the council of the saints. Rejoice, O father, glorious beauty of the Fathers; rejoice, wise comeliness of all the God-wise. Rejoice, thou who sendest forth fiery words; rejoice, thou who guidest well thy flock. Rejoice, for through thee the faith is confirmed; rejoice, for through thee heresy is overthrown. Rejoice, O Nicholas, great Wonderworker!",
+   "fonte": {
+    "cu": "SZ1917 pp. 90–91",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "I Concílio Ecuménico (Niceia, 325). «но́сило» = «portador». Variantes (dec. 62): Слово жизни pp. 90–91 «Разумъ неразумѣ́нный», «Сы́на проповѣ́дывай»; segue-se o texto atual «неуразумѣ́нный», «проповѣ́давый»."
+  },
+  {
+   "id": "acn-027",
+   "tipo": "titulo",
+   "cu": "Конда́къ 3",
+   "pt": "Condácio 3",
+   "ru": "Кондак 3",
+   "uk": "Кондак 3",
+   "en": "Kontakion 3",
+   "fonte": {
+    "cu": "SZ1917 pp. 91–92",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-028",
+   "tipo": "oracao",
+   "cu": "Си́лою, да́нною ти свы́ше, слезу́ вся́ку отъя́лъ еси́ отъ лица́ лю́тѣ стра́ждущихъ, богоно́сне о́тче Нико́лае: а́лчущимъ бо яви́лся еси́ корми́тель, въ пучи́нѣ морсте́й су́щимъ изря́дный прави́тель, неду́гующимъ исцѣле́ніе и всѣмъ всякъ помо́щникъ показа́лся еси́, вопію́щимъ Бо́гу: Аллилу́іа.",
+   "pt": "Com o poder que te foi dado do alto, enxugaste toda a lágrima do rosto dos que sofriam cruelmente, ó pai Nicolau portador de Deus; pois foste alimentador para os famintos, timoneiro insigne para os que estavam no abismo do mar, cura para os doentes, e mostraste-te auxílio em tudo para todos os que clamam a Deus: Aleluia.",
+   "ru": "Силою, данной тебе свыше, ты отер всякую слезу с лица тяжко страждущих, богоносный отче Николае: ибо явился ты кормителем алчущим, изрядным кормчим находящимся в пучине морской, исцелением недужным и для всех во всем помощником, взывающим Богу: Аллилуия.",
+   "uk": "Силою, даною тобі згори, ти обтер усяку сльозу з лиця тяжко стражденних, богоносний отче Миколаю: бо явився ти годувальником голодним, вправним стерновим тим, хто в морській безодні, зціленням недужим і всім у всьому помічником, що взивають до Бога: Алилуя.",
+   "en": "By the power given thee from on high thou didst wipe away every tear from the face of them that sorely suffered, O God-bearing father Nicholas; for thou didst appear as a feeder of the hungry, an excellent pilot of them that were in the deep of the sea, a healing of the sick, and a helper in all things unto all that cry unto God: Alleluia.",
+   "fonte": {
+    "cu": "SZ1917 pp. 91–92",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Variantes (dec. 62): Слово жизни pp. 91–92 «сле́зу вся́кую», «богоно́се о́тче»; segue-se o texto atual «вся́ку», «богоно́сне»."
+  },
+  {
+   "id": "acn-029",
+   "tipo": "titulo",
+   "cu": "И́косъ 3",
+   "pt": "Ikos 3",
+   "ru": "Икос 3",
+   "uk": "Ікос 3",
+   "en": "Ikos 3",
+   "fonte": {
+    "cu": "SZ1917 p. 92",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-030",
+   "tipo": "oracao",
+   "cu": "Имѣ́яше вои́стину, о́тче Нико́лае, съ Небесе́ пѣснь тебѣ́ воспѣва́ема бы́ти, а не отъ земли́: ка́ко бо кто отъ человѣ́къ возмо́жетъ твоея́ святы́ни вели́чія проповѣ́дати? Но мы, любо́вію твое́ю побѣжда́еми, вопіе́мъ ти си́це: Ра́дуйся, о́бразе а́гнцевъ и па́стырей; ра́дуйся, свято́е очисти́лище нра́вовъ. Ра́дуйся, добродѣ́телей вели́кихъ вмѣсти́лище; ра́дуйся, святы́ни чи́стое и честно́е жили́ще. Ра́дуйся, свѣти́льниче всесвѣ́тлый и вселюби́мый; ра́дуйся, свѣ́те златоза́рный и непоро́чный. Ра́дуйся, досто́йный А́нгеловъ собесѣ́дниче; ра́дуйся, до́брый человѣ́ковъ наста́вниче. Ра́дуйся, пра́вило вѣ́ры благочести́выя; ра́дуйся, о́бразе кро́тости духо́вныя. Ра́дуйся, я́ко тобо́ю отъ страсте́й тѣле́сныхъ избавля́емся; ра́дуйся, я́ко тобо́ю сла́достей духо́вныхъ исполня́емся. Ра́дуйся, Нико́лае, вели́кій Чудотво́рче.",
+   "pt": "Na verdade, ó pai Nicolau, convinha que um cântico te fosse cantado do céu e não da terra; pois como poderá alguém dentre os homens pregar a grandeza da tua santidade? Mas nós, vencidos pelo teu amor, clamamos-te assim: Alegra-te, modelo dos cordeiros e dos pastores; alegra-te, santo purificador dos costumes. Alegra-te, recetáculo de grandes virtudes; alegra-te, morada pura e venerável da santidade. Alegra-te, lâmpada toda luminosa e amada de todos; alegra-te, luz dourada e imaculada. Alegra-te, digno companheiro dos anjos; alegra-te, bom guia dos homens. Alegra-te, regra da fé piedosa; alegra-te, modelo da mansidão espiritual. Alegra-te, porque por ti somos libertos das paixões do corpo; alegra-te, porque por ti somos cheios de doçuras espirituais. Alegra-te, Nicolau, grande Taumaturgo!",
+   "ru": "Поистине, отче Николае, подобало бы песнь тебе воспевать с неба, а не с земли: ибо как может кто-либо из людей возвестить величие твоей святости? Но мы, побеждаемые любовью твоей, взываем тебе так: Радуйся, образ агнцев и пастырей; радуйся, святое очищение нравов. Радуйся, вместилище великих добродетелей; радуйся, чистое и честное жилище святыни. Радуйся, светильник всесветлый и всеми любимый; радуйся, свет златозарный и непорочный. Радуйся, достойный собеседник Ангелов; радуйся, добрый наставник людей. Радуйся, правило благочестивой веры; радуйся, образ духовной кротости. Радуйся, ибо тобою мы избавляемся от телесных страстей; радуйся, ибо тобою исполняемся духовных сладостей. Радуйся, Николае, великий Чудотворче!",
+   "uk": "Воістину, отче Миколаю, належало б тобі пісню співати з неба, а не з землі: бо як хтось із людей зможе проповідати велич твоєї святості? Та ми, переможені любов'ю твоєю, взиваємо до тебе так: Радуйся, образе ягнят і пастирів; радуйся, святе очищення звичаїв. Радуйся, вмістилище великих чеснот; радуйся, святині чисте й чесне житло. Радуйся, світильнику всесвітлий і всіма улюблений; радуйся, світло золотосяйне і непорочне. Радуйся, гідний співрозмовнику ангелів; радуйся, добрий наставнику людей. Радуйся, правило благочестивої віри; радуйся, образе духовної лагідності. Радуйся, бо тобою від тілесних пристрастей визволяємося; радуйся, бо тобою духовних солодощів сповнюємося. Радуйся, Миколаю, великий Чудотворче!",
+   "en": "Truly, O father Nicholas, it were fitting that a song be sung unto thee from heaven and not from earth; for how can any among men proclaim the greatness of thy holiness? But we, overcome by thy love, cry unto thee thus: Rejoice, model of lambs and shepherds; rejoice, holy purifier of morals. Rejoice, vessel of great virtues; rejoice, pure and honourable dwelling of holiness. Rejoice, all-radiant and all-beloved lamp; rejoice, golden-shining and spotless light. Rejoice, worthy companion of Angels; rejoice, good guide of men. Rejoice, rule of the pious faith; rejoice, model of spiritual meekness. Rejoice, for through thee we are delivered from bodily passions; rejoice, for through thee we are filled with spiritual sweetness. Rejoice, O Nicholas, great Wonderworker!",
+   "fonte": {
+    "cu": "SZ1917 p. 92",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Variante (dec. 62): Слово жизни p. 92 «а́нгеломъ собесѣ́дниче … человѣ́комъ наста́вниче» (dativo); segue-se o texto atual «А́нгеловъ … человѣ́ковъ» (genitivo)."
+  },
+  {
+   "id": "acn-031",
+   "tipo": "titulo",
+   "cu": "Конда́къ 4",
+   "pt": "Condácio 4",
+   "ru": "Кондак 4",
+   "uk": "Кондак 4",
+   "en": "Kontakion 4",
+   "fonte": {
+    "cu": "SZ1917 p. 93",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-032",
+   "tipo": "oracao",
+   "cu": "Бу́ря недоумѣ́нія смуща́етъ ми умъ, ка́ко досто́йно есть пѣ́ти чудеса́ твоя́, блаже́нне Нико́лае? Никто́же бо мо́жетъ я исчести́, а́ще бы и мно́ги язы́ки имѣ́лъ и глаго́лати восхотѣ́лъ; но мы, ди́вно Бо́гу въ тебѣ́ прославля́ющемуся, дерза́емъ воспѣва́ти: Аллилу́іа.",
+   "pt": "Uma tempestade de perplexidade perturba-me o espírito: como cantar dignamente os teus milagres, ó bem-aventurado Nicolau? Pois ninguém os pode contar, ainda que tivesse muitas línguas e quisesse falar; mas nós, a Deus que é admiravelmente glorificado em ti, ousamos cantar: Aleluia.",
+   "ru": "Буря недоумения смущает мой ум: как достойно воспеть чудеса твои, блаженный Николай? Ибо никто не может исчислить их, хотя бы имел и многие языки и захотел говорить; но мы дерзаем воспевать дивно прославляемому в тебе Богу: Аллилуия.",
+   "uk": "Буря недоумінь бентежить мій розум: як гідно оспівати чудеса твої, блаженний Миколаю? Бо ніхто не може їх злічити, хоч би й мав багато язиків і захотів говорити; але ми дивно прославлюваному в тобі Богові сміємо співати: Алилуя.",
+   "en": "A tempest of perplexity troubleth my mind: how may I worthily sing thy miracles, O blessed Nicholas? For none can number them, even had he many tongues and wished to speak; but unto God, Who is wondrously glorified in thee, we make bold to sing: Alleluia.",
+   "fonte": {
+    "cu": "SZ1917 p. 93",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-033",
+   "tipo": "titulo",
+   "cu": "И́косъ 4",
+   "pt": "Ikos 4",
+   "ru": "Икос 4",
+   "uk": "Ікос 4",
+   "en": "Ikos 4",
+   "fonte": {
+    "cu": "SZ1917 pp. 93–94",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-034",
+   "tipo": "oracao",
+   "cu": "Слы́шаша, богому́дре Нико́лае, бли́жніи и да́льніи вели́чіе чуде́съ твои́хъ, я́ко по возду́ху ле́гкими благода́тными крила́ми навы́клъ еси́ су́щихъ въ бѣда́хъ предваря́ти, ско́ро отъ тѣхъ избавля́я всѣхъ, вопію́щихъ къ тебѣ́ такова́я: Ра́дуйся, избавле́ніе отъ печа́ли; ра́дуйся, подая́ніе благода́ти. Ра́дуйся, неча́емыхъ золъ прогони́телю; ра́дуйся, жела́емыхъ благи́хъ насади́телю. Ра́дуйся, ско́рый утѣ́шителю въ бѣдѣ́ су́щихъ; ра́дуйся, стра́шный наказа́телю оби́дящихъ. Ра́дуйся, чуде́съ пучи́но, Бо́гомъ излія́нная; ра́дуйся, зако́на Христо́ва скрижа́ли, Бо́гомъ пи́санныя. Ра́дуйся, крѣ́пкое па́дающихъ возведе́ніе; ра́дуйся, пра́во стоя́щихъ утвержде́ніе. Ра́дуйся, я́ко тобо́ю вся́кая лесть обнажа́ется; ра́дуйся, я́ко тобо́ю вся́кая и́стина сбыва́ется. Ра́дуйся, Нико́лае, вели́кій Чудотво́рче.",
+   "pt": "Ouviram os de perto e os de longe, ó sábio em Deus Nicolau, a grandeza dos teus milagres: como, pelos ares, com asas ligeiras da graça, te habituaste a socorrer prontamente os que estão em aflição, livrando depressa deles todos os que te clamam assim: Alegra-te, libertação da tristeza; alegra-te, dispensador da graça. Alegra-te, que afugentas os males inesperados; alegra-te, que plantas os bens desejados. Alegra-te, pronto consolador dos que estão em aflição; alegra-te, terrível castigador dos que ofendem. Alegra-te, abismo de milagres derramado por Deus; alegra-te, tábua da lei de Cristo escrita por Deus. Alegra-te, firme reerguimento dos que caem; alegra-te, firmeza dos que estão de pé com retidão. Alegra-te, porque por ti todo o engano é desmascarado; alegra-te, porque por ti toda a verdade se cumpre. Alegra-te, Nicolau, grande Taumaturgo!",
+   "ru": "Услышали, богомудрый Николай, ближние и дальние о величии чудес твоих: как ты по воздуху, на легких благодатных крыльях, привык предварять находящихся в бедах, скоро избавляя от них всех, взывающих к тебе так: Радуйся, избавление от печали; радуйся, подаяние благодати. Радуйся, прогоняющий нечаянные беды; радуйся, насаждающий желанные блага. Радуйся, скорый утешитель находящихся в беде; радуйся, страшный каратель обидчиков. Радуйся, пучина чудес, Богом излитая; радуйся, скрижаль закона Христова, Богом написанная. Радуйся, крепкое восстание падающих; радуйся, утверждение правостоящих. Радуйся, ибо тобою обнажается всякий обман; радуйся, ибо тобою сбывается всякая истина. Радуйся, Николае, великий Чудотворче!",
+   "uk": "Почули, богомудрий Миколаю, близькі й далекі про велич чудес твоїх: як ти повітрям, на легких благодатних крилах, звик випереджати тих, хто в бідах, швидко визволяючи від них усіх, що так взивають до тебе: Радуйся, визволення від печалі; радуйся, подавання благодаті. Радуйся, проганячу несподіваних лих; радуйся, насаджувачу бажаних благ. Радуйся, швидкий утішителю тих, хто в біді; радуйся, грізний каральнику кривдників. Радуйся, безодне чудес, Богом вилита; радуйся, скрижалі закону Христового, Богом написані. Радуйся, міцне підняття тих, хто падає; радуйся, утвердження тих, хто стоїть прямо. Радуйся, бо тобою викривається всяка омана; радуйся, бо тобою справджується всяка істина. Радуйся, Миколаю, великий Чудотворче!",
+   "en": "They that are near and they that are far off have heard, O God-wise Nicholas, of the greatness of thy miracles: how through the air, on light wings of grace, thou art wont to come swiftly to them that are in distress, speedily delivering from it all that cry unto thee thus: Rejoice, deliverance from sorrow; rejoice, bestowal of grace. Rejoice, thou who drivest away unlooked-for evils; rejoice, thou who plantest desired good things. Rejoice, swift comforter of them that are in distress; rejoice, dread punisher of them that do wrong. Rejoice, abyss of miracles poured forth by God; rejoice, tablet of the law of Christ written by God. Rejoice, strong raising-up of them that fall; rejoice, establishment of them that stand aright. Rejoice, for through thee all deceit is laid bare; rejoice, for through thee all truth is fulfilled. Rejoice, O Nicholas, great Wonderworker!",
+   "fonte": {
+    "cu": "SZ1917 pp. 93–94",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "2 Cor 3,3. Variantes (dec. 62): Слово жизни pp. 93–94 «Слы́ша», «вся́ка и́стина»; segue-se o texto atual «Слы́шаша», «вся́кая»."
+  },
+  {
+   "id": "acn-035",
+   "tipo": "titulo",
+   "cu": "Конда́къ 5",
+   "pt": "Condácio 5",
+   "ru": "Кондак 5",
+   "uk": "Кондак 5",
+   "en": "Kontakion 5",
+   "fonte": {
+    "cu": "SZ1917 p. 94",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-036",
+   "tipo": "oracao",
+   "cu": "Боготе́чная звѣзда́ яви́лся еси́, наставля́я по мо́рю пла́вающихъ лю́тѣ, и́мже смерть предстоя́ше вско́рѣ иногда́, а́ще не бы ты предста́лъ еси́ призыва́ющимъ тя въ по́мощь, Чудотво́рче святы́й Нико́лае; уже́ бо несты́дно бѣсо́мъ лета́ющимъ и погрузи́ти корабли́ хотя́щимъ запрети́въ, отгна́лъ еси́ ихъ, вѣ́рныя же научи́лъ еси́ спаса́ющему тобо́ю Бо́гу взыва́ти: Аллилу́іа.",
+   "pt": "Mostraste-te estrela que corre segundo Deus, guiando os que navegavam cruelmente pelo mar, a quem a morte por vezes estava iminente, se não tivesses acudido aos que te chamavam em seu auxílio, ó santo Taumaturgo Nicolau; pois, tendo repreendido os demónios que voavam desavergonhadamente e queriam afundar os navios, expulsaste-os, e ensinaste os fiéis a clamar ao Deus que por ti os salva: Aleluia.",
+   "ru": "Боготечной звездой явился ты, наставляя плавающих по морю в бурю, которым иногда грозила скорая смерть, если бы ты не предстал призывающим тебя на помощь, чудотворец святой Николай; ибо, запретив бесам, бесстыдно летающим и хотящим потопить корабли, ты прогнал их, а верных научил взывать спасающему через тебя Богу: Аллилуия.",
+   "uk": "Боготечною зорею явився ти, наставляючи тих, хто тяжко плавав морем, кому інколи загрожувала швидка смерть, якби ти не став перед тими, хто кликав тебе на поміч, чудотворче святий Миколаю; бо, заборонивши бісам, що безсоромно літали і хотіли потопити кораблі, ти прогнав їх, а вірних навчив взивати до Бога, що спасає через тебе: Алилуя.",
+   "en": "Thou didst appear as a God-directed star, guiding them that sailed in peril upon the sea, to whom death at times was near at hand, hadst thou not stood by them that called upon thee for help, O holy Wonderworker Nicholas; for rebuking the demons that flew about shamelessly and sought to sink the ships, thou didst drive them away, and didst teach the faithful to cry unto God, Who saveth through thee: Alleluia.",
+   "fonte": {
+    "cu": "SZ1917 p. 94",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«не́стыдно» = «desavergonhadamente» (Слово жизни p. 94: «нагло»)."
+  },
+  {
+   "id": "acn-037",
+   "tipo": "titulo",
+   "cu": "И́косъ 5",
+   "pt": "Ikos 5",
+   "ru": "Икос 5",
+   "uk": "Ікос 5",
+   "en": "Ikos 5",
+   "fonte": {
+    "cu": "SZ1917 pp. 94–95",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-038",
+   "tipo": "oracao",
+   "cu": "Ви́дѣша отрокови́цы, на бракъ скве́рный нищеты́ ра́ди угото́ванныя, вели́кое твое́ къ ни́щимъ милосе́рдіе, преблаже́нне о́тче Нико́лае, егда́ ста́рцу роди́телю ихъ но́щію узельцы́ три зла́та тая́ся пода́лъ еси́, самаго́ со дще́рьми избавля́я отъ паде́нія грѣхо́внаго. Того́ ра́ди слы́шиши отъ всѣхъ си́це: Ра́дуйся, ми́лости превели́кія сокро́вище; ра́дуйся, промышле́нія о лю́дехъ прія́телище. Ра́дуйся, пи́ще и отра́до къ тебѣ́ прибѣга́ющихъ; ра́дуйся, хлѣ́бе неснѣда́емый а́лчущихъ. Ра́дуйся, бога́тство, бѣ́днѣ живу́щимъ на земли́, Бо́гомъ да́нное; ра́дуйся, воздви́женіе ско́рое убо́гихъ. Ра́дуйся, бы́строе ни́щихъ услы́шаніе; ра́дуйся, скорбя́щихъ прія́тное попече́ніе. Ра́дуйся, тріе́хъ дѣвъ непоро́чный невѣсти́телю; ра́дуйся, чистоты́ усе́рдный храни́телю. Ра́дуйся, ненаде́жныхъ надѣ́яніе; ра́дуйся, всего́ мі́ра наслажде́ніе. Ра́дуйся, Нико́лае, вели́кій Чудотво́рче.",
+   "pt": "As donzelas preparadas, por causa da pobreza, para um casamento impuro viram a tua grande misericórdia para com os pobres, ó bem-aventurado pai Nicolau, quando, de noite e às escondidas, deste ao velho pai delas três bolsas de ouro, livrando-o, a ele e às filhas, da queda no pecado. Por isso ouves de todos assim: Alegra-te, tesouro de grandíssima misericórdia; alegra-te, recetáculo da providência para com os homens. Alegra-te, alimento e consolação dos que a ti recorrem; alegra-te, pão inesgotável dos famintos. Alegra-te, riqueza dada por Deus aos que vivem pobremente na terra; alegra-te, pronto erguimento dos pobres. Alegra-te, ouvido atento dos indigentes; alegra-te, agradável cuidado dos que sofrem. Alegra-te, imaculado casamenteiro das três virgens; alegra-te, zeloso guardião da castidade. Alegra-te, esperança dos desesperados; alegra-te, deleite do mundo inteiro. Alegra-te, Nicolau, grande Taumaturgo!",
+   "ru": "Увидели девицы, готовимые по бедности к нечистому браку, великое твое милосердие к нищим, преблаженный отче Николае, когда ты ночью тайно дал старцу, отцу их, три узелка золота, избавляя его самого с дочерьми от греховного падения. Поэтому слышишь от всех так: Радуйся, сокровище превеликой милости; радуйся, вместилище промышления о людях. Радуйся, пища и отрада прибегающих к тебе; радуйся, неистощимый хлеб алчущих. Радуйся, богатство, Богом данное бедно живущим на земле; радуйся, скорое восставление убогих. Радуйся, быстрое услышание нищих; радуйся, приятное попечение о скорбящих. Радуйся, непорочный устроитель брака трех дев; радуйся, усердный хранитель чистоты. Радуйся, надежда безнадежных; радуйся, наслаждение всего мира. Радуйся, Николае, великий Чудотворче!",
+   "uk": "Побачили дівиці, яких через убогість готували до нечистого шлюбу, велике твоє милосердя до убогих, преблаженний отче Миколаю, коли ти вночі таємно дав старцеві, батькові їхньому, три вузлики золота, визволяючи його самого з дочками від гріховного падіння. Тому чуєш від усіх так: Радуйся, скарбе превеликої милості; радуйся, вмістилище промислу про людей. Радуйся, поживо і розрадо тих, хто прибігає до тебе; радуйся, хлібе невичерпний голодних. Радуйся, багатство, Богом дане тим, хто вбого живе на землі; радуйся, швидке піднесення убогих. Радуйся, швидке вислухання бідних; радуйся, приємне піклування про скорботних. Радуйся, непорочний сватачу трьох дів; радуйся, ревний хранителю чистоти. Радуйся, безнадійних надіє; радуйся, всього світу втіхо. Радуйся, Миколаю, великий Чудотворче!",
+   "en": "The maidens who, for poverty's sake, were being made ready for an impure marriage beheld thy great mercy toward the poor, O most blessed father Nicholas, when by night thou didst secretly give their aged father three bundles of gold, delivering him and his daughters from a fall into sin. Wherefore thou hearest from all thus: Rejoice, treasury of exceeding great mercy; rejoice, receptacle of providence for mankind. Rejoice, food and consolation of them that flee unto thee; rejoice, unfailing bread of the hungry. Rejoice, wealth given by God to them that live in poverty on earth; rejoice, swift raising-up of the needy. Rejoice, quick hearing of the poor; rejoice, gracious care of the sorrowful. Rejoice, spotless provider of marriage for the three virgins; rejoice, zealous guardian of chastity. Rejoice, hope of the hopeless; rejoice, delight of the whole world. Rejoice, O Nicholas, great Wonderworker!",
+   "fonte": {
+    "cu": "SZ1917 pp. 94–95",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«неснѣ́даемый» (Слово жизни p. 94 com ѣ) = «que não se consome». «невѣсти́телю» = «que dá em casamento»."
+  },
+  {
+   "id": "acn-039",
+   "tipo": "titulo",
+   "cu": "Конда́къ 6",
+   "pt": "Condácio 6",
+   "ru": "Кондак 6",
+   "uk": "Кондак 6",
+   "en": "Kontakion 6",
+   "fonte": {
+    "cu": "SZ1917 p. 95",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-040",
+   "tipo": "oracao",
+   "cu": "Проповѣ́дуетъ міръ весь тебѣ́, преблаже́нне Нико́лае, ско́раго въ бѣда́хъ засту́пника: я́ко мно́гажды во еди́немъ часѣ́, по земли́ путеше́ствующимъ и по мо́рю пла́вающимъ, предваря́я, посо́бствуеши, ку́пно всѣхъ отъ злыхъ сохраня́я, вопію́щихъ къ Бо́гу: Аллилу́іа.",
+   "pt": "O mundo inteiro te proclama, ó bem-aventurado Nicolau, pronto protetor nas desgraças; pois muitas vezes, numa só hora, socorres antecipadamente os que viajam por terra e os que navegam pelo mar, guardando juntamente dos males todos os que clamam a Deus: Aleluia.",
+   "ru": "Весь мир проповедует тебя, преблаженный Николай, скорым заступником в бедах: ибо многократно в один час, предваряя, ты помогаешь путешествующим по земле и плавающим по морю, вместе охраняя от зол всех, взывающих к Богу: Аллилуия.",
+   "uk": "Увесь світ проповідує тебе, преблаженний Миколаю, швидким заступником у бідах: бо часто в одну годину, випереджаючи, допомагаєш тим, хто подорожує суходолом і пливе морем, разом оберігаючи від лихого всіх, хто взиває до Бога: Алилуя.",
+   "en": "The whole world proclaimeth thee, O most blessed Nicholas, a swift intercessor in misfortunes; for oftentimes in a single hour thou comest beforehand to help them that journey by land and them that sail by sea, preserving together from evils all that cry unto God: Alleluia.",
+   "fonte": {
+    "cu": "SZ1917 p. 95",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Variante (dec. 62): Слово жизни p. 95 «во еди́номъ часѣ́»; segue-se o texto atual («во еди́немъ часѣ́», grafado com е como no texto atual)."
+  },
+  {
+   "id": "acn-041",
+   "tipo": "titulo",
+   "cu": "И́косъ 6",
+   "pt": "Ikos 6",
+   "ru": "Икос 6",
+   "uk": "Ікос 6",
+   "en": "Ikos 6",
+   "fonte": {
+    "cu": "SZ1917 pp. 95–96",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-042",
+   "tipo": "oracao",
+   "cu": "Возсія́лъ еси́ свѣтъ живо́тный, избавле́ніе нося́ воево́дамъ, непра́ведную смерть прія́ти иму́щимъ, тебѣ́, до́брый па́стырю Нико́лае, призыва́ющимъ, егда́ вско́рѣ я́влься во снѣ царе́ви, устраши́лъ еси́ его́, сихъ же неврежде́нныхъ отпусти́ти повелѣ́лъ еси́. Сего́ ра́ди съ ни́ми ку́пно и мы благода́рственно вопіе́мъ ти: Ра́дуйся, усе́рдно призыва́ющимъ тя помога́яй; ра́дуйся, отъ непра́веднаго убіе́нія избавля́яй. Ра́дуйся, отъ ле́стныя сохраня́яй клеветы́; ра́дуйся, непра́ведныя разруша́яй совѣ́ты. Ра́дуйся, растерза́яй лжу я́ко паучи́ну; ра́дуйся, возноша́яй сла́вно и́стину. Ра́дуйся, непови́нныхъ отъ узъ разрѣше́ніе; ра́дуйся, и мертвеце́въ оживле́ніе. Ра́дуйся, прояви́телю пра́вды; ра́дуйся, помрачи́телю непра́вды. Ра́дуйся, я́ко тобо́ю непови́нніи избавле́ни отъ меча́; ра́дуйся, я́ко тобо́ю наслади́шася свѣ́та. Ра́дуйся, Нико́лае, вели́кій Чудотво́рче.",
+   "pt": "Fizeste resplandecer uma luz vivificante, levando a libertação aos comandantes que iam receber uma morte injusta e que te invocavam, ó bom pastor Nicolau, quando, aparecendo depressa em sonho ao imperador, o aterraste e lhe ordenaste que os soltasse ilesos. Por isso também nós, juntamente com eles, te clamamos com gratidão: Alegra-te, que socorres os que te invocam com fervor; alegra-te, que livras da morte injusta. Alegra-te, que guardas da calúnia enganosa; alegra-te, que desfazes os conselhos injustos. Alegra-te, que rasgas a mentira como teia de aranha; alegra-te, que exaltas gloriosamente a verdade. Alegra-te, libertação dos inocentes das cadeias; alegra-te, vivificação até dos mortos. Alegra-te, revelador da justiça; alegra-te, ofuscador da injustiça. Alegra-te, porque por ti os inocentes foram libertos da espada; alegra-te, porque por ti gozaram da luz. Alegra-te, Nicolau, grande Taumaturgo!",
+   "ru": "Воссиял ты светом животворным, неся избавление воеводам, которым предстояло принять неправедную смерть, призывавшим тебя, добрый пастырь Николай, когда, вскоре явившись во сне царю, ты устрашил его и повелел отпустить их невредимыми. Поэтому вместе с ними и мы благодарно взываем тебе: Радуйся, усердно призывающим тебя помогающий; радуйся, от неправедного убиения избавляющий. Радуйся, от лживой клеветы охраняющий; радуйся, неправедные советы разрушающий. Радуйся, разрывающий ложь, как паутину; радуйся, славно возвышающий истину. Радуйся, освобождение невинных от уз; радуйся, оживление и мертвецов. Радуйся, обнаружитель правды; радуйся, помрачитель неправды. Радуйся, ибо тобою невинные избавлены от меча; радуйся, ибо тобою они насладились светом. Радуйся, Николае, великий Чудотворче!",
+   "uk": "Засяяв ти світлом животворним, несучи визволення воєводам, що мали прийняти неправедну смерть і кликали тебе, добрий пастирю Миколаю, коли, швидко явившись уві сні цареві, ти налякав його і повелів відпустити їх неушкодженими. Тому й ми разом із ними вдячно взиваємо до тебе: Радуйся, що допомагаєш тим, хто ревно тебе кличе; радуйся, що визволяєш від неправедного вбивства. Радуйся, що бережеш від підступного наклепу; радуйся, що руйнуєш неправедні задуми. Радуйся, що розриваєш неправду, мов павутину; радуйся, що славно підносиш істину. Радуйся, визволення невинних з кайданів; радуйся, оживлення й мертвих. Радуйся, виявнику правди; радуйся, затьмарювачу неправди. Радуйся, бо тобою невинні визволені від меча; радуйся, бо тобою втішилися світлом. Радуйся, Миколаю, великий Чудотворче!",
+   "en": "Thou didst shine forth a life-giving light, bringing deliverance to the commanders who were about to suffer an unjust death and who called upon thee, O good shepherd Nicholas, when, appearing speedily in a dream to the emperor, thou didst affright him and command him to release them unharmed. Wherefore, together with them, we also cry unto thee with thanksgiving: Rejoice, thou who helpest them that fervently call upon thee; rejoice, thou who deliverest from unjust slaughter. Rejoice, thou who guardest from deceitful slander; rejoice, thou who overthrowest unjust counsels. Rejoice, thou who tearest falsehood like a spider's web; rejoice, thou who gloriously exaltest the truth. Rejoice, release of the innocent from bonds; rejoice, quickening even of the dead. Rejoice, revealer of righteousness; rejoice, darkener of unrighteousness. Rejoice, for through thee the innocent were delivered from the sword; rejoice, for through thee they have enjoyed the light. Rejoice, O Nicholas, great Wonderworker!",
+   "fonte": {
+    "cu": "SZ1917 pp. 95–96",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Os três comandantes (стратилаты) salvos da morte injusta pela aparição do santo em sonho ao imperador Constantino. «свѣтъ живо́тный» = «luz vivificante» (Слово жизни p. 95: «подающій жизнь»)."
+  },
+  {
+   "id": "acn-043",
+   "tipo": "titulo",
+   "cu": "Конда́къ 7",
+   "pt": "Condácio 7",
+   "ru": "Кондак 7",
+   "uk": "Кондак 7",
+   "en": "Kontakion 7",
+   "fonte": {
+    "cu": "SZ1917 p. 96",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-044",
+   "tipo": "oracao",
+   "cu": "Хотя́ богоху́льное ерети́ческое отгна́ти злосмра́діе, мѵ́ро вои́стину благово́нное, та́инственное яви́лся еси́, Нико́лае: лю́ди Мѵре́йскія упа́слъ еси́ и весь міръ свои́мъ благода́тнымъ мѵ́ромъ испо́лнилъ еси́. И отъ насъ у́бо богоме́рзкое грѣхо́вное злосмра́діе отжени́, да благопрія́тно Бо́гу вопіе́мъ: Аллилу́іа.",
+   "pt": "Querendo afugentar o mau odor da heresia blasfema, mostraste-te verdadeiramente mirra fragrante e mística, ó Nicolau: apascentaste o povo de Mira e encheste o mundo inteiro com a tua mirra cheia de graça. Afasta, pois, também de nós o mau odor do pecado, abominável a Deus, para que clamemos a Deus de modo agradável: Aleluia.",
+   "ru": "Желая отогнать злосмрадие богохульной ереси, ты явился поистине благовонным таинственным миром, Николай: ты упас людей Мирликийских и весь мир исполнил своим благодатным миром. Отгони же и от нас богомерзкое греховное злосмрадие, чтобы мы благоугодно взывали Богу: Аллилуия.",
+   "uk": "Бажаючи прогнати смороду богохульної єресі, ти явився воістину пахучим таємничим миром, Миколаю: людей Мир Лікійських упас і весь світ своїм благодатним миром сповнив. Тож і від нас віджени богомерзенний гріховний сморід, щоб ми благоугодно взивали до Бога: Алилуя.",
+   "en": "Desiring to drive away the stench of blasphemous heresy, thou didst appear as truly fragrant and mystical myrrh, O Nicholas: thou didst shepherd the people of Myra, and didst fill the whole world with thy grace-filled myrrh. Drive away, then, from us also the stench of sin, abhorrent to God, that we may cry acceptably unto God: Alleluia.",
+   "fonte": {
+    "cu": "SZ1917 p. 96",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Variante (dec. 62): Слово жизни p. 96 «лю́ди Мѵре́йскія пасы́й, весь міръ … испо́лнилъ еси́, и отъ насъ…» («tu que apascentas…»); segue-se o texto atual «упа́слъ еси́ и весь міръ … испо́лнилъ еси́. И отъ насъ…». «Мѵре́йскія»: de Mira (Lícia)."
+  },
+  {
+   "id": "acn-045",
+   "tipo": "titulo",
+   "cu": "И́косъ 7",
+   "pt": "Ikos 7",
+   "ru": "Икос 7",
+   "uk": "Ікос 7",
+   "en": "Ikos 7",
+   "fonte": {
+    "cu": "SZ1917 p. 97",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-046",
+   "tipo": "oracao",
+   "cu": "Но́ваго тя Но́я, наста́вника ковче́га спаси́тельнаго разумѣ́емъ, о́тче святы́й Нико́лае, бу́рю всѣхъ лю́тыхъ разгоня́ющаго направле́ніемъ свои́мъ, тишину́ же Боже́ственную принося́щаго вопію́щимъ такова́я: Ра́дуйся, обурева́емыхъ ти́хое приста́нище; ра́дуйся, утопа́ющихъ извѣ́стное храни́лище. Ра́дуйся, пла́вающихъ посредѣ́ пучи́нъ до́брый ко́рмчій; ра́дуйся, треволне́нія морска́я уставля́ющій. Ра́дуйся, превожде́ніе су́щихъ въ ви́хрехъ; ра́дуйся, согрѣ́яніе су́щихъ во мра́зѣхъ. Ра́дуйся, сія́ніе, ско́рбный мракъ разгоня́ющее; ра́дуйся, свѣти́ло, вся концы́ земли́ просвѣща́ющее. Ра́дуйся, отъ бе́здны грѣхо́вныя человѣ́ки избавля́яй; ра́дуйся, въ бе́здну а́дскую сатану́ вверга́яй. Ра́дуйся, я́ко тобо́ю дерзнове́нно бе́здну милосе́рдія Бо́жія призыва́емъ; ра́дуйся, я́ко тобо́ю отъ пото́па гнѣ́ва изба́вльшеся, миръ съ Бо́гомъ обрѣта́емъ. Ра́дуйся, Нико́лае, вели́кій Чудотво́рче.",
+   "pt": "Reconhecemos-te como novo Noé, condutor da arca da salvação, ó santo pai Nicolau, que com a tua direção dispersas a tempestade de todos os males e trazes a calma divina aos que clamam assim: Alegra-te, porto tranquilo dos que a tempestade agita; alegra-te, refúgio seguro dos que se afogam. Alegra-te, bom timoneiro dos que navegam no meio dos abismos; alegra-te, que acalmas a agitação do mar. Alegra-te, guia dos que estão nos turbilhões; alegra-te, calor dos que estão no frio. Alegra-te, fulgor que dissipa a treva da aflição; alegra-te, luzeiro que ilumina todos os confins da terra. Alegra-te, que livras os homens do abismo do pecado; alegra-te, que lanças Satanás no abismo do inferno. Alegra-te, porque por ti invocamos com confiança o abismo da misericórdia de Deus; alegra-te, porque por ti, libertos do dilúvio da ira, encontramos a paz com Deus. Alegra-te, Nicolau, grande Taumaturgo!",
+   "ru": "Новым Ноем, наставником ковчега спасения, мы разумеем тебя, отче святой Николай, своим управлением разгоняющим бурю всех лютых бед и приносящим Божественную тишину взывающим так: Радуйся, тихое пристанище обуреваемых; радуйся, надежное хранилище утопающих. Радуйся, добрый кормчий плавающих среди пучин; радуйся, укрощающий морские волнения. Радуйся, водитель находящихся в вихрях; радуйся, согревание находящихся в стуже. Радуйся, сияние, разгоняющее мрак скорби; радуйся, светило, просвещающее все концы земли. Радуйся, избавляющий людей от бездны греховной; радуйся, низвергающий сатану в бездну адскую. Радуйся, ибо через тебя мы с дерзновением призываем бездну милосердия Божия; радуйся, ибо через тебя, избавившись от потопа гнева, обретаем мир с Богом. Радуйся, Николае, великий Чудотворче!",
+   "uk": "Новим Ноєм, наставником ковчега спасіння, розуміємо тебе, отче святий Миколаю, що своїм керуванням розганяєш бурю всіх лютих бід і приносиш Божественну тишу тим, хто так взиває: Радуйся, тиха пристане тих, кого буря захопила; радуйся, надійне сховище тих, хто тоне. Радуйся, добрий керманичу тих, хто пливе серед безодень; радуйся, що втихомирюєш морське хвилювання. Радуйся, проводирю тих, хто у вихорах; радуйся, зігріття тих, хто в морозах. Радуйся, сяйво, що розганяє скорботну темряву; радуйся, світило, що просвіщає всі кінці землі. Радуйся, що визволяєш людей із безодні гріховної; радуйся, що сатану в безодню пекельну скидаєш. Радуйся, бо тобою сміливо закликаємо безодню милосердя Божого; радуйся, бо тобою, визволившись від потопу гніву, мир з Богом знаходимо. Радуйся, Миколаю, великий Чудотворче!",
+   "en": "We perceive thee as a new Noah, guide of the ark of salvation, O holy father Nicholas, who by thy direction scatterest the storm of all fierce evils, and bringest divine calm unto them that cry thus: Rejoice, quiet haven of the storm-tossed; rejoice, sure refuge of the drowning. Rejoice, good pilot of them that sail amid the deeps; rejoice, thou who stillest the tumult of the sea. Rejoice, guide of them that are in whirlwinds; rejoice, warmth of them that are in frost. Rejoice, radiance that scatterest the gloom of sorrow; rejoice, luminary that enlightenest all the ends of the earth. Rejoice, thou who deliverest men from the abyss of sin; rejoice, thou who castest Satan into the abyss of hell. Rejoice, for through thee we boldly call upon the abyss of God's mercy; rejoice, for through thee, delivered from the flood of wrath, we find peace with God. Rejoice, O Nicholas, great Wonderworker!",
+   "fonte": {
+    "cu": "SZ1917 p. 97",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«въ безд́ну а́дскую»: aqui «а́дскій» é adjetivo do lugar do castigo (Satanás lançado no abismo); PT «inferno», EN «hell» (não se trata do Hades como morada dos mortos, dec. 71)."
+  },
+  {
+   "id": "acn-047",
+   "tipo": "titulo",
+   "cu": "Конда́къ 8",
+   "pt": "Condácio 8",
+   "ru": "Кондак 8",
+   "uk": "Кондак 8",
+   "en": "Kontakion 8",
+   "fonte": {
+    "cu": "SZ1917 pp. 97–98",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-048",
+   "tipo": "oracao",
+   "cu": "Стра́нное чу́до явля́ется притека́ющимъ къ тебѣ́, блаже́нне Нико́лае, свяще́нная твоя́ це́рковь: въ ней бо и ма́лое моле́ніе принося́ще, ве́ліихъ неду́говъ пріе́млемъ исцѣле́ніе, а́ще то́кмо по Бо́зѣ упова́ніе на тя возложи́мъ, вѣ́рно вопію́ще: Аллилу́іа.",
+   "pt": "Um estranho milagre se manifesta aos que acorrem a ti, ó bem-aventurado Nicolau: a tua santa igreja; pois nela, oferecendo até uma pequena súplica, recebemos a cura de grandes doenças, se, depois de Deus, pusermos em ti a nossa esperança, clamando com fé: Aleluia.",
+   "ru": "Странное чудо является притекающим к тебе, блаженный Николай, — священный храм твой: ибо в нем, принося и малое моление, мы получаем исцеление великих недугов, если только после Бога возложим упование на тебя, верно взывая: Аллилуия.",
+   "uk": "Дивне чудо являється тим, хто прибігає до тебе, блаженний Миколаю, — священна церква твоя: бо в ній, і мале моління приносячи, ми одержуємо зцілення від великих недуг, якщо тільки після Бога на тебе покладемо надію, вірно взиваючи: Алилуя.",
+   "en": "A strange wonder is made manifest unto them that hasten unto thee, O blessed Nicholas: thy holy church; for therein, offering even a small supplication, we receive healing of great infirmities, if only, after God, we set our hope on thee, faithfully crying: Alleluia.",
+   "fonte": {
+    "cu": "SZ1917 pp. 97–98",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-049",
+   "tipo": "titulo",
+   "cu": "И́косъ 8",
+   "pt": "Ikos 8",
+   "ru": "Икос 8",
+   "uk": "Ікос 8",
+   "en": "Ikos 8",
+   "fonte": {
+    "cu": "SZ1917 p. 98",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-050",
+   "tipo": "oracao",
+   "cu": "Весь еси́ всѣмъ вои́стину помо́щникъ, богоно́се Нико́лае, и собра́лъ еси́ вку́пѣ вся прибѣга́ющія къ тебѣ́, я́ко свободи́тель, пита́тель и врачъ ско́рый всѣмъ земны́мъ, на похвалу́ всѣхъ подвиза́я вопи́ти къ тебѣ́ си́це: Ра́дуйся, вся́кихъ исцѣле́ній исто́чниче; ра́дуйся, лю́тѣ стра́ждущимъ помо́щниче. Ра́дуйся, заре́, сія́ющая въ нощи́ грѣхо́внѣй блужда́ющимъ; ра́дуйся, росо́ небото́чная въ зно́и трудо́въ су́щимъ. Ра́дуйся, подава́яй тре́бующимъ благострое́ніе; ра́дуйся, уготовля́яй прося́щимъ изоби́ліе. Ра́дуйся, мно́гажды проше́ніе предваря́яй; ра́дуйся, ста́рымъ сѣди́намъ си́лу обновля́яй. Ра́дуйся, мно́гихъ заблу́ждшихъ отъ пути́ и́стиннаго обличи́телю; ра́дуйся, та́инъ Бо́жіихъ вѣ́рный служи́телю. Ра́дуйся, я́ко тобо́ю за́висть попира́емъ; ра́дуйся, я́ко тобо́ю благонра́вное житіе́ исправля́емъ. Ра́дуйся, Нико́лае, вели́кій Чудотво́рче.",
+   "pt": "Tu és verdadeiramente auxílio de todos, ó Nicolau portador de Deus, e reuniste num só todos os que a ti recorrem, como libertador, alimentador e médico pronto de todos os que vivem na terra, incitando todos a clamar-te em louvor assim: Alegra-te, fonte de todas as curas; alegra-te, auxílio dos que sofrem cruelmente. Alegra-te, aurora que brilha na noite do pecado para os que andam errantes; alegra-te, orvalho caído do céu para os que estão no calor das fadigas. Alegra-te, que dás prosperidade aos necessitados; alegra-te, que preparas abundância para os que pedem. Alegra-te, que muitas vezes te antecipas ao pedido; alegra-te, que renovas a força das velhas cãs. Alegra-te, que corriges os muitos que se desviaram do caminho verdadeiro; alegra-te, fiel servidor dos mistérios de Deus. Alegra-te, porque por ti calcamos a inveja; alegra-te, porque por ti emendamos a vida em bons costumes. Alegra-te, Nicolau, grande Taumaturgo!",
+   "ru": "Поистине ты для всех помощник, богоносный Николай, и собрал воедино всех прибегающих к тебе, как избавитель, питатель и скорый врач всех земнородных, побуждая всех к похвале взывать тебе так: Радуйся, источник всяких исцелений; радуйся, помощник люто страждущих. Радуйся, заря, сияющая блуждающим в ночи греховной; радуйся, роса, ниспосланная с небес находящимся в зное трудов. Радуйся, подающий нуждающимся благоустройство; радуйся, уготовляющий просящим изобилие. Радуйся, многократно предваряющий прошение; радуйся, обновляющий силы старых седин. Радуйся, обличитель многих, заблудших с пути истинного; радуйся, верный служитель таин Божиих. Радуйся, ибо через тебя мы попираем зависть; радуйся, ибо через тебя исправляем благонравную жизнь. Радуйся, Николае, великий Чудотворче!",
+   "uk": "Воістину ти для всіх помічник, богоносний Миколаю, і зібрав разом усіх, що прибігають до тебе, як визволитель, годувальник і швидкий лікар усіх земних, спонукаючи всіх на похвалу так взивати до тебе: Радуйся, джерело всяких зцілень; радуйся, помічнику люто стражденних. Радуйся, зоре, що сяє заблукалим у ночі гріховній; радуйся, росо, з неба послана тим, хто в спеці трудів. Радуйся, що подаєш потребуючим добрий лад; радуйся, що готуєш тим, хто просить, достаток. Радуйся, що часто випереджаєш прохання; радуйся, що старим сивинам силу оновлюєш. Радуйся, викривачу многих, що збилися з путі істинної; радуйся, вірний служителю таїн Божих. Радуйся, бо тобою заздрість зневажаємо; радуйся, бо тобою життя доброчесне виправляємо. Радуйся, Миколаю, великий Чудотворче!",
+   "en": "Thou art truly a helper unto all, O God-bearing Nicholas, and thou hast gathered together all that flee unto thee, as deliverer, nourisher and swift physician of all on earth, moving all to cry unto thee in praise thus: Rejoice, fountain of every healing; rejoice, helper of them that grievously suffer. Rejoice, dawn shining for them that wander in the night of sin; rejoice, dew sent from heaven for them that are in the heat of toil. Rejoice, thou who givest good order unto them that are in need; rejoice, thou who preparest abundance for them that ask. Rejoice, thou who oftentimes anticipatest the petition; rejoice, thou who renewest the strength of the hoary-headed. Rejoice, reprover of the many who have strayed from the true path; rejoice, faithful minister of the mysteries of God. Rejoice, for through thee we trample upon envy; rejoice, for through thee we amend our life in good conduct. Rejoice, O Nicholas, great Wonderworker!",
+   "fonte": {
+    "cu": "SZ1917 p. 98",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Variante (dec. 62): Слово жизни p. 98 «на похвалу́ всѣхъ воздвиза́я вопи́ти»; segue-se o texto atual «подвиза́я» (ambos = «incitando»). «неботочная» = «que desce do céu» (Слово жизни: «съ небесъ посылаемая»)."
+  },
+  {
+   "id": "acn-051",
+   "tipo": "titulo",
+   "cu": "Конда́къ 9",
+   "pt": "Condácio 9",
+   "ru": "Кондак 9",
+   "uk": "Кондак 9",
+   "en": "Kontakion 9",
+   "fonte": {
+    "cu": "SZ1917 p. 99",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-052",
+   "tipo": "oracao",
+   "cu": "Вся́кія утоли́ болѣ́зни, вели́кій нашъ засту́пниче Нико́лае, растворя́я благода́тная врачева́нія, услажда́ющая ду́ши на́ша, сердца́ же веселя́щая всѣхъ усе́рдно къ по́мощи твое́й притека́ющихъ, Бо́гу же вопію́щихъ: Аллилу́іа.",
+   "pt": "Acalma todas as doenças, ó nosso grande intercessor Nicolau, distribuindo curas cheias de graça, que deleitam as nossas almas e alegram os corações de todos os que com fervor acorrem ao teu auxílio e clamam a Deus: Aleluia.",
+   "ru": "Утоли всякие болезни, великий наш заступник Николай, раздавая благодатные врачевания, услаждающие души наши и веселящие сердца всех, усердно притекающих к твоей помощи и взывающих Богу: Аллилуия.",
+   "uk": "Утиш усякі недуги, великий наш заступнику Миколаю, роздаючи благодатні лікування, що втішають душі наші і звеселяють серця всіх, хто ревно прибігає до твоєї допомоги і взиває до Бога: Алилуя.",
+   "en": "Assuage all infirmities, O our great intercessor Nicholas, dispensing grace-filled healings that delight our souls and gladden the hearts of all that fervently hasten unto thy help and cry unto God: Alleluia.",
+   "fonte": {
+    "cu": "SZ1917 p. 99",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-053",
+   "tipo": "titulo",
+   "cu": "И́косъ 9",
+   "pt": "Ikos 9",
+   "ru": "Икос 9",
+   "uk": "Ікос 9",
+   "en": "Ikos 9",
+   "fonte": {
+    "cu": "SZ1917 pp. 99–100",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-054",
+   "tipo": "oracao",
+   "cu": "Вѣті́я суему́дренныя нечести́выхъ ви́димъ тобо́ю посра́мленныя, богому́дре о́тче Нико́лае: А́рія бо ху́льника, раздѣля́юща Божество́, и Саве́ллія, смѣша́юща Святу́ю Тро́ицу, препрѣ́лъ, насъ же во Правосла́віи укрѣпи́лъ еси́. Сего́ ра́ди вопіе́мъ ти си́це: Ра́дуйся, щи́те, защища́яй благоче́стіе; ра́дуйся, мечу́, посѣца́яй злоче́стіе. Ра́дуйся, учи́телю Боже́ственныхъ велѣ́ній; ра́дуйся, губи́телю богопроти́вныхъ уче́ній. Ра́дуйся, лѣ́ствице, Бо́гомъ утвержде́нная, е́юже восхо́димъ къ Небеси́; ра́дуйся, покро́ве, Бо́гомъ зда́нный, и́мже покрыва́ются мно́зи. Ра́дуйся, нему́дрыхъ умудри́вый твои́ми словесы́; ра́дуйся, лѣни́выхъ подви́гнувый твои́ми нра́вы. Ра́дуйся, свѣ́тлосте за́повѣдей Бо́жіихъ неугаси́мая; ра́дуйся, луче́ оправда́ній Госпо́днихъ пресвѣ́тлая. Ра́дуйся, я́ко уче́ніемъ твои́мъ сокруша́ются ерети́ческія главы́; ра́дуйся, я́ко тобо́ю вѣ́рніи сподобля́ются сла́вы. Ра́дуйся, Нико́лае, вели́кій Чудотво́рче.",
+   "pt": "Vemos por ti confundidos os oradores vãmente sábios dos ímpios, ó pai Nicolau sábio em Deus; pois Ário, o blasfemo, que dividia a Divindade, e Sabélio, que confundia a Santíssima Trindade, venceste-os na disputa, e a nós fortaleceste na Ortodoxia. Por isso clamamos-te assim: Alegra-te, escudo que defendes a piedade; alegra-te, espada que cortas a impiedade. Alegra-te, mestre dos mandamentos divinos; alegra-te, destruidor das doutrinas contrárias a Deus. Alegra-te, escada firmada por Deus, pela qual subimos ao céu; alegra-te, abrigo criado por Deus, sob o qual muitos se cobrem. Alegra-te, que com as tuas palavras tornaste sábios os insensatos; alegra-te, que com os teus costumes despertaste os preguiçosos. Alegra-te, claridade inextinguível dos mandamentos de Deus; alegra-te, raio luminosíssimo das ordenações do Senhor. Alegra-te, porque pelo teu ensino são esmagadas as cabeças heréticas; alegra-te, porque por ti os fiéis são tornados dignos da glória. Alegra-te, Nicolau, grande Taumaturgo!",
+   "ru": "Витий суемудрых нечестивых мы видим посрамленными тобою, богомудрый отче Николае: ибо ты препрел хульника Ария, разделявшего Божество, и Савеллия, сливавшего Святую Троицу, а нас утвердил в Православии. Поэтому взываем тебе так: Радуйся, щит, защищающий благочестие; радуйся, меч, посекающий нечестие. Радуйся, учитель Божественных заповедей; радуйся, губитель богопротивных учений. Радуйся, лествица, Богом утвержденная, по которой мы восходим на небо; радуйся, покров, Богом созданный, которым покрываются многие. Радуйся, умудривший немудрых своими словами; радуйся, подвигнувший ленивых своими нравами. Радуйся, неугасимая светлость заповедей Божиих; радуйся, пресветлый луч оправданий Господних. Радуйся, ибо твоим учением сокрушаются еретические главы; радуйся, ибо тобою верные сподобляются славы. Радуйся, Николае, великий Чудотворче!",
+   "uk": "Красномовців суємудрих нечестивих бачимо тобою посоромленими, богомудрий отче Миколаю: бо хульника Арія, що розділяв Божество, і Савелія, що змішував Святу Трійцю, ти переміг у суперечці, а нас утвердив у Православ'ї. Тому взиваємо до тебе так: Радуйся, щите, що захищаєш благочестя; радуйся, мечу, що посікаєш нечестя. Радуйся, учителю Божественних велінь; радуйся, губителю богопротивних учень. Радуйся, драбино, Богом утверджена, якою сходимо до неба; радуйся, покрове, Богом створений, яким покриваються многі. Радуйся, що немудрих умудрив своїми словами; радуйся, що лінивих спонукав своїми звичаями. Радуйся, світлосте заповідей Божих невгасима; радуйся, променю оправдань Господніх пресвітлий. Радуйся, бо твоїм ученням сокрушуються єретичні голови; радуйся, бо тобою вірні сподоблюються слави. Радуйся, Миколаю, великий Чудотворче!",
+   "en": "We behold the vainly wise orators of the ungodly put to shame by thee, O God-wise father Nicholas; for thou didst confute Arius the blasphemer, who divided the Godhead, and Sabellius, who confounded the Holy Trinity, and didst strengthen us in Orthodoxy. Wherefore we cry unto thee thus: Rejoice, shield that defendest piety; rejoice, sword that cuttest down impiety. Rejoice, teacher of the divine commandments; rejoice, destroyer of ungodly doctrines. Rejoice, ladder set up by God, whereby we ascend to heaven; rejoice, shelter fashioned by God, wherewith many are covered. Rejoice, thou who by thy words madest wise the unwise; rejoice, thou who by thy ways didst stir up the slothful. Rejoice, unquenchable brightness of the commandments of God; rejoice, most radiant ray of the ordinances of the Lord. Rejoice, for by thy teaching the heads of heretics are crushed; rejoice, for through thee the faithful are counted worthy of glory. Rejoice, O Nicholas, great Wonderworker!",
+   "fonte": {
+    "cu": "SZ1917 pp. 99–100",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«препрѣ́лъ» = «venceste na disputa» (Слово жизни p. 99: «побѣдилъ въ словѣ»). Variantes (dec. 62): Слово жизни p. 99 «посѣка́яй злоче́стіе» e «покро́ве Бо́гомъ да́нный»; segue-se o texto atual «посѣца́яй» e «зда́нный». Ortografia: «Вѣті́я» com ѣ como no impresso (o texto atual acentua «Вити́я»)."
+  },
+  {
+   "id": "acn-055",
+   "tipo": "titulo",
+   "cu": "Конда́къ 10",
+   "pt": "Condácio 10",
+   "ru": "Кондак 10",
+   "uk": "Кондак 10",
+   "en": "Kontakion 10",
+   "fonte": {
+    "cu": "SZ1917 p. 100",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-056",
+   "tipo": "oracao",
+   "cu": "Спасти́ хотя́ ду́шу, плоть твою́ ду́хови покори́лъ еси́ вои́стину, о́тче нашъ Нико́лае: молча́ньми бо пре́жде и боре́ньми съ по́мыслы, дѣя́нію богомы́сліе приложи́лъ еси́, богомы́сліемъ же ра́зумъ соверше́нъ стяжа́лъ еси́, и́мже дерзнове́нно съ Бо́гомъ и А́нгелы бесѣ́довалъ еси́, всегда́ вопія́: Аллилу́іа.",
+   "pt": "Querendo salvar a tua alma, submeteste verdadeiramente a tua carne ao espírito, ó nosso pai Nicolau; pois primeiro pelo silêncio e pela luta contra os pensamentos juntaste a contemplação à ação, e pela contemplação adquiriste um entendimento perfeito, com o qual conversavas confiadamente com Deus e com os anjos, clamando sempre: Aleluia.",
+   "ru": "Желая спасти душу, ты поистине покорил плоть твою духу, отче наш Николае: ибо прежде молчанием и борьбой с помыслами ты соединил с деланием богомыслие, а богомыслием стяжал совершенный разум, с которым дерзновенно беседовал с Богом и Ангелами, всегда взывая: Аллилуия.",
+   "uk": "Бажаючи спасти душу, ти воістину підкорив плоть свою духові, отче наш Миколаю: бо спершу мовчанням і боротьбою з помислами до діяння додав богомислення, а богомисленням здобув досконалий розум, з яким сміливо розмовляв з Богом і ангелами, завжди взиваючи: Алилуя.",
+   "en": "Desiring to save thy soul, thou didst truly subject thy flesh to the spirit, O our father Nicholas; for first by silence and by wrestling with thoughts thou didst join divine contemplation to action, and by contemplation thou didst acquire perfect understanding, whereby thou didst converse boldly with God and the Angels, ever crying: Alleluia.",
+   "fonte": {
+    "cu": "SZ1917 p. 100",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«дѣя́нію богомы́сліе приложи́лъ еси́»: πρᾶξις e θεωρία (ação e contemplação)."
+  },
+  {
+   "id": "acn-057",
+   "tipo": "titulo",
+   "cu": "И́косъ 10",
+   "pt": "Ikos 10",
+   "ru": "Икос 10",
+   "uk": "Ікос 10",
+   "en": "Ikos 10",
+   "fonte": {
+    "cu": "SZ1917 pp. 100–101",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-058",
+   "tipo": "oracao",
+   "cu": "Стѣна́ еси́ похваля́ющимъ, преблаже́нне, чудеса́ твоя́ и всѣмъ къ заступле́нію твоему́ прибѣга́ющимъ; тѣ́мже и насъ, въ добродѣ́тели убо́гихъ, отъ нищеты́, напа́сти, неду́говъ и нуждъ разли́чныхъ свобожда́й, вопію́щихъ ти съ любо́вію такова́я: Ра́дуйся, отъ убо́жества вѣ́чнаго изъима́яй; ра́дуйся, бога́тство нетлѣ́нное подава́яй. Ра́дуйся, бра́шно неги́блющее а́лчущимъ пра́вды; ра́дуйся, питіе́ неисчерпа́емое жа́ждущимъ жи́зни. Ра́дуйся, отъ мяте́жа и бра́ни соблюда́яй; ра́дуйся, отъ узъ и плѣне́нія свобожда́яй. Ра́дуйся, пресла́вный въ бѣда́хъ засту́пниче; ра́дуйся, превели́кій въ напа́стехъ защи́тниче. Ра́дуйся, мно́гихъ отъ поги́бели исхи́тивый; ра́дуйся, безчи́сленныхъ неврежде́нно сохрани́вый. Ра́дуйся, я́ко тобо́ю лю́тыя сме́рти грѣ́шніи избѣга́ютъ; ра́дуйся, я́ко тобо́ю жизнь вѣ́чную ка́ющіися получа́ютъ. Ра́дуйся, Нико́лае, вели́кій Чудотво́рче.",
+   "pt": "És muralha para os que louvam os teus milagres, ó bem-aventurado, e para todos os que recorrem à tua proteção; por isso livra também a nós, pobres em virtude, da miséria, da adversidade, das doenças e das várias necessidades, a nós que com amor te clamamos assim: Alegra-te, que arrancas da pobreza eterna; alegra-te, que dás a riqueza incorruptível. Alegra-te, alimento que não perece para os que têm fome de justiça; alegra-te, bebida inesgotável para os que têm sede da vida. Alegra-te, que guardas da revolta e da guerra; alegra-te, que libertas das cadeias e do cativeiro. Alegra-te, gloriosíssimo intercessor nas desgraças; alegra-te, grandíssimo defensor nas adversidades. Alegra-te, que arrebataste muitos da perdição; alegra-te, que guardaste ilesos inúmeros. Alegra-te, porque por ti os pecadores escapam da morte cruel; alegra-te, porque por ti os que se arrependem alcançam a vida eterna. Alegra-te, Nicolau, grande Taumaturgo!",
+   "ru": "Ты — стена для восхваляющих чудеса твои, преблаженный, и для всех, прибегающих к твоему заступлению; поэтому и нас, убогих в добродетели, избавь от нищеты, напастей, болезней и различных нужд, взывающих тебе с любовью так: Радуйся, избавляющий от вечной нищеты; радуйся, подающий нетленное богатство. Радуйся, неоскудевающая пища алчущим правды; радуйся, неисчерпаемое питие жаждущим жизни. Радуйся, охраняющий от мятежа и брани; радуйся, освобождающий от уз и плена. Радуйся, преславный в бедах заступник; радуйся, превеликий в напастях защитник. Радуйся, многих исхитивший от погибели; радуйся, бесчисленных невредимо сохранивший. Радуйся, ибо тобою грешные избегают лютой смерти; радуйся, ибо тобою кающиеся получают вечную жизнь. Радуйся, Николае, великий Чудотворче!",
+   "uk": "Ти — стіна для тих, хто вихваляє чудеса твої, преблаженний, і для всіх, хто прибігає до твого заступництва; тому й нас, убогих на чесноти, від злиднів, напастей, недуг і різних потреб визволи, нас, що з любов'ю так взиваємо до тебе: Радуйся, що від убогості вічної рятуєш; радуйся, що багатство нетлінне подаєш. Радуйся, поживо неминуща для голодних правди; радуйся, напою невичерпний для спраглих життя. Радуйся, що бережеш від заколоту і війни; радуйся, що звільняєш від кайданів і полону. Радуйся, преславний у бідах заступнику; радуйся, превеликий у напастях захиснику. Радуйся, що многих від загибелі вихопив; радуйся, що безліч неушкодженими зберіг. Радуйся, бо тобою грішні уникають лютої смерті; радуйся, бо тобою ті, що каються, одержують життя вічне. Радуйся, Миколаю, великий Чудотворче!",
+   "en": "Thou art a wall unto them that praise thy miracles, O most blessed one, and unto all that flee unto thine intercession; wherefore deliver us also, who are poor in virtue, from poverty, misfortune, sickness and divers needs, as we cry unto thee with love thus: Rejoice, thou who rescuest from eternal poverty; rejoice, thou who bestowest incorruptible riches. Rejoice, food that perisheth not for them that hunger after righteousness; rejoice, drink inexhaustible for them that thirst for life. Rejoice, thou who preservest from tumult and war; rejoice, thou who freest from bonds and captivity. Rejoice, most glorious intercessor in misfortunes; rejoice, most mighty defender in adversities. Rejoice, thou who hast snatched many from perdition; rejoice, thou who hast kept countless ones unharmed. Rejoice, for through thee sinners escape a cruel death; rejoice, for through thee the repentant obtain eternal life. Rejoice, O Nicholas, great Wonderworker!",
+   "fonte": {
+    "cu": "SZ1917 pp. 100–101",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«изъима́яй» (Слово жизни p. 100 «изима́яй») = «que arrancas»."
+  },
+  {
+   "id": "acn-059",
+   "tipo": "titulo",
+   "cu": "Конда́къ 11",
+   "pt": "Condácio 11",
+   "ru": "Кондак 11",
+   "uk": "Кондак 11",
+   "en": "Kontakion 11",
+   "fonte": {
+    "cu": "SZ1917 p. 101",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-060",
+   "tipo": "oracao",
+   "cu": "Пѣ́ніе Пресвятѣ́й Тро́ицѣ па́че ины́хъ прине́слъ еси́, преблаже́нне Нико́лае, умо́мъ, сло́вомъ и дѣ́ломъ: мно́гимъ бо испыта́ніемъ правовѣ́рная повелѣ́нія уясни́лъ еси́, вѣ́рою, наде́ждою и любо́вію наставля́я насъ въ Тро́ицѣ Еди́ному Бо́гу воспѣва́ти: Аллилу́іа.",
+   "pt": "Ofereceste à Santíssima Trindade um cântico mais do que outros, ó bem-aventurado Nicolau, com o espírito, a palavra e a obra; pois com muita indagação esclareceste os mandamentos da fé ortodoxa, ensinando-nos, pela fé, pela esperança e pelo amor, a cantar ao Deus único em Trindade: Aleluia.",
+   "ru": "Пение Пресвятой Троице ты принес более других, преблаженный Николай, умом, словом и делом: ибо с великим исследованием ты уяснил повеления правой веры, верою, надеждою и любовью наставляя нас воспевать в Троице Единому Богу: Аллилуия.",
+   "uk": "Спів Пресвятій Трійці приніс ти понад інших, преблаженний Миколаю, розумом, словом і ділом: бо з великим дослідженням з'ясував повеління правої віри, вірою, надією і любов'ю наставляючи нас оспівувати в Трійці Єдиного Бога: Алилуя.",
+   "en": "More than others thou didst offer a hymn to the All-holy Trinity, O most blessed Nicholas, in mind, word and deed; for with much searching thou didst make clear the commandments of the right faith, guiding us by faith, hope and love to sing unto the One God in Trinity: Alleluia.",
+   "fonte": {
+    "cu": "SZ1917 p. 101",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«правовѣ́рная» (Слово жизни p. 101: «благочестивыя»)."
+  },
+  {
+   "id": "acn-061",
+   "tipo": "titulo",
+   "cu": "И́косъ 11",
+   "pt": "Ikos 11",
+   "ru": "Икос 11",
+   "uk": "Ікос 11",
+   "en": "Ikos 11",
+   "fonte": {
+    "cu": "SZ1917 pp. 101–102",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-062",
+   "tipo": "oracao",
+   "cu": "Свѣтоза́рную лучу́ во мра́цѣ житія́ су́щимъ неугаси́мую ви́димъ тя, Бо́гомъ избра́нне о́тче Нико́лае: съ невеще́ственными бо а́нгельскими свѣ́ты бесѣ́дуеши о несозда́нномъ Тро́ическомъ Свѣ́тѣ, вѣ́рныхъ же ду́ши просвѣща́еши, вопію́щихъ ти такова́я: Ра́дуйся, озаре́ніе Трисо́лнечнаго Свѣ́та; ра́дуйся, денни́це незаходи́маго Со́лнца. Ра́дуйся, свѣще́, Боже́ственнымъ пла́менемъ возжже́нная; ра́дуйся, я́ко угаси́лъ еси́ бѣсо́вскій пла́мень нече́стія. Ра́дуйся, свѣ́тлое правовѣ́рія проповѣ́даніе; ра́дуйся, доброзра́чное свѣ́та ева́нгельскаго сія́ніе. Ра́дуйся, мо́лніе, е́реси пожига́ющая; ра́дуйся, гро́ме, устраша́ющій соблазня́ющія. Ра́дуйся, и́стиннаго научи́телю ра́зума; ра́дуйся, та́инственнаго изъяви́телю ума́. Ра́дуйся, я́ко тобо́ю попра́ся поклоне́ніе тва́ри; ра́дуйся, я́ко тобо́ю научи́хомся покланя́тися Творцу́ въ Тро́ицѣ. Ра́дуйся, Нико́лае, вели́кій Чудотво́рче.",
+   "pt": "Vemos-te, ó pai Nicolau, escolhido por Deus, como raio luminoso e inextinguível para os que estão nas trevas da vida; pois com as luzes imateriais dos anjos conversas sobre a Luz incriada da Trindade e iluminas as almas dos fiéis, que te clamam assim: Alegra-te, irradiação da Luz trissolar; alegra-te, estrela da manhã do Sol sem ocaso. Alegra-te, círio aceso pela chama divina; alegra-te, porque extinguiste a chama demoníaca da impiedade. Alegra-te, luminosa pregação da fé ortodoxa; alegra-te, fulgor resplandecente da luz do Evangelho. Alegra-te, relâmpago que queimas as heresias; alegra-te, trovão que aterras os que escandalizam. Alegra-te, mestre do verdadeiro entendimento; alegra-te, revelador do sentido místico. Alegra-te, porque por ti foi calcada a adoração da criatura; alegra-te, porque por ti aprendemos a adorar o Criador em Trindade. Alegra-te, Nicolau, grande Taumaturgo!",
+   "ru": "Светозарным лучом, неугасимым для находящихся во мраке жизни, мы видим тебя, Богом избранный отче Николае: ибо с невещественными ангельскими светами ты беседуешь о несозданном Троическом Свете и просвещаешь души верных, взывающих тебе так: Радуйся, озарение Трисолнечного Света; радуйся, денница незаходимого Солнца. Радуйся, светильник, возжженный Божественным пламенем; радуйся, ибо ты угасил бесовский пламень нечестия. Радуйся, светлое проповедание православия; радуйся, лучезарное сияние света евангельского. Радуйся, молния, попаляющая ереси; радуйся, гром, устрашающий соблазнителей. Радуйся, учитель истинного разума; радуйся, изъяснитель таинственного смысла. Радуйся, ибо тобою попрано поклонение твари; радуйся, ибо тобою мы научились поклоняться Творцу в Троице. Радуйся, Николае, великий Чудотворче!",
+   "uk": "Світлосяйним променем, невгасимим для тих, хто в темряві життя, бачимо тебе, Богом обраний отче Миколаю: бо з нематеріальними ангельськими світлами розмовляєш про нестворене Трійчне Світло і просвіщаєш душі вірних, що так взивають до тебе: Радуйся, осяяння Трисонячного Світла; радуйся, зоре вранішня незахідного Сонця. Радуйся, свіче, запалена Божественним полум'ям; радуйся, бо ти згасив бісівське полум'я нечестя. Радуйся, світла проповіде православ'я; радуйся, ясне сяйво світла євангельського. Радуйся, блискавко, що спалюєш єресі; радуйся, громе, що страхаєш спокусників. Радуйся, учителю істинного розуміння; радуйся, виявнику таємничого смислу. Радуйся, бо тобою потоптано поклоніння творінню; радуйся, бо тобою ми навчилися поклонятися Творцеві в Трійці. Радуйся, Миколаю, великий Чудотворче!",
+   "en": "We behold thee, O father Nicholas chosen of God, as a radiant ray, unquenchable for them that are in the darkness of life; for with the immaterial angelic lights thou conversest of the uncreated Light of the Trinity, and thou enlightenest the souls of the faithful, who cry unto thee thus: Rejoice, illumination of the Light of the three Suns; rejoice, morning star of the Sun that never setteth. Rejoice, candle kindled by the divine flame; rejoice, for thou didst quench the demonic flame of impiety. Rejoice, radiant preaching of the Orthodox faith; rejoice, resplendent shining of the light of the Gospel. Rejoice, lightning that consumest heresies; rejoice, thunder that terrifiest them that cause offence. Rejoice, teacher of true understanding; rejoice, revealer of the mystical meaning. Rejoice, for through thee the worship of the creature was trampled down; rejoice, for through thee we have learned to worship the Creator in Trinity. Rejoice, O Nicholas, great Wonderworker!",
+   "fonte": {
+    "cu": "SZ1917 pp. 101–102",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Variante (dec. 62): Слово жизни p. 101 «Свѣтоза́рную свѣ́щу»; segue-se o texto atual «лу́чу». «попра́ся поклоне́ніе тва́ри»: o arianismo, que adorava o Filho como criatura (nota de Слово жизни p. 102)."
+  },
+  {
+   "id": "acn-063",
+   "tipo": "titulo",
+   "cu": "Конда́къ 12",
+   "pt": "Condácio 12",
+   "ru": "Кондак 12",
+   "uk": "Кондак 12",
+   "en": "Kontakion 12",
+   "fonte": {
+    "cu": "SZ1917 p. 102",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-064",
+   "tipo": "oracao",
+   "cu": "Благода́ть, да́нную ти отъ Бо́га, свѣ́дущіи, ра́дующеся, твою́ па́мять пра́зднуемъ по до́лгу, пресла́вный о́тче Нико́лае, и къ чу́дному заступле́нію твоему́ вседу́шно притека́емъ; пресла́вныхъ же твои́хъ дѣя́ній, я́ко песка́ морска́го и мно́жества звѣ́зднаго исчести́ не могу́ще, недоумѣ́ніемъ объя́ти бы́вше, вопіе́мъ къ Бо́гу: Аллилу́іа.",
+   "pt": "Conhecendo a graça que te foi dada por Deus, celebramos com alegria a tua memória, como é devido, ó gloriosíssimo pai Nicolau, e acorremos de toda a alma à tua admirável proteção; e, não podendo contar os teus feitos gloriosíssimos, como a areia do mar e a multidão das estrelas, tomados de perplexidade, clamamos a Deus: Aleluia.",
+   "ru": "Зная благодать, данную тебе от Бога, мы с радостью празднуем по долгу твою память, преславный отче Николае, и всей душою притекаем к дивному твоему заступлению; не будучи же в силах исчислить преславные твои деяния, как песок морской и множество звезд, объятые недоумением, взываем к Богу: Аллилуия.",
+   "uk": "Знаючи благодать, дану тобі від Бога, радісно святкуємо, як належить, твою пам'ять, преславний отче Миколаю, і всією душею прибігаємо до дивного твого заступництва; та, не можучи злічити преславних твоїх діянь, мов пісок морський і безліч зір, охоплені недоумінням, взиваємо до Бога: Алилуя.",
+   "en": "Knowing the grace given thee by God, we joyfully keep thy memory as is meet, O most glorious father Nicholas, and with all our soul we hasten unto thy wondrous intercession; but being unable to number thy most glorious deeds, as the sand of the sea and the multitude of the stars, we are seized with perplexity and cry unto God: Alleluia.",
+   "fonte": {
+    "cu": "SZ1917 p. 102",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Variante (dec. 62): Слово жизни p. 102 «свѣ́дующіи»; segue-se o texto atual «свѣ́дущіи»."
+  },
+  {
+   "id": "acn-065",
+   "tipo": "titulo",
+   "cu": "И́косъ 12",
+   "pt": "Ikos 12",
+   "ru": "Икос 12",
+   "uk": "Ікос 12",
+   "en": "Ikos 12",
+   "fonte": {
+    "cu": "SZ1917 pp. 102–103",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-066",
+   "tipo": "oracao",
+   "cu": "Пою́ще твоя́ чудеса́, восхваля́емъ тя, всехва́льне Нико́лае: въ тебѣ́ бо Богъ, въ Тро́ицѣ прославля́емый, ди́вно просла́вися. Но а́ще и попремно́гу соста́вленныя отъ души́ псалмы́ и пѣ́сни прино́симъ ти, Чудотво́рче святы́й, ничто́же твори́мъ ра́вно дарова́нію чуде́съ твои́хъ, и́мже удивля́ющеся, вопіе́мъ къ тебѣ́ такова́я: Ра́дуйся, Царя́ ца́рствующихъ и Го́спода госпо́дствующихъ служи́телю; ра́дуйся, служи́телей Его́ небе́сныхъ сожи́телю. Ра́дуйся, лю́демъ вѣ́рнымъ поможе́ніе; ра́дуйся, ро́да христіа́нскаго возвыше́ніе. Ра́дуйся, побѣ́ды тезоимени́тый; ра́дуйся, вѣнцено́сче наро́читый. Ра́дуйся, всѣхъ добродѣ́телей зерца́ло; ра́дуйся, всѣхъ притека́ющихъ къ тебѣ́ крѣ́пкое забра́ло. Ра́дуйся, по Бо́зѣ и Богоро́дицѣ, все на́ше упова́ніе; ра́дуйся, тѣле́съ на́шихъ здра́віе и душъ спасе́ніе. Ра́дуйся, я́ко тобо́ю отъ вѣ́чныя сме́рти свобожда́емся; ра́дуйся, я́ко тобо́ю безконе́чныя жи́зни сподобля́емся. Ра́дуйся, Нико́лае, вели́кій Чудотво́рче.",
+   "pt": "Cantando os teus milagres, louvamos-te, ó Nicolau digno de todo o louvor; pois em ti Deus, glorificado em Trindade, foi admiravelmente glorificado. Mas, ainda que te ofereçamos salmos e cânticos compostos com toda a alma, ó santo Taumaturgo, nada fazemos de igual ao dom dos teus milagres, e, maravilhados com eles, clamamos-te assim: Alegra-te, servo do Rei dos reis e Senhor dos senhores; alegra-te, companheiro dos Seus servos celestes. Alegra-te, auxílio do povo fiel; alegra-te, exaltação da raça cristã. Alegra-te, que tens o nome da vitória; alegra-te, ilustre portador de coroa. Alegra-te, espelho de todas as virtudes; alegra-te, forte baluarte de todos os que a ti acorrem. Alegra-te, toda a nossa esperança depois de Deus e da Mãe de Deus; alegra-te, saúde dos nossos corpos e salvação das almas. Alegra-te, porque por ti somos libertos da morte eterna; alegra-te, porque por ti somos tornados dignos da vida sem fim. Alegra-te, Nicolau, grande Taumaturgo!",
+   "ru": "Воспевая твои чудеса, мы восхваляем тебя, всехвальный Николай: ибо в тебе Бог, в Троице прославляемый, дивно прославился. Но если бы мы и приносили тебе псалмы и песни, составленные от души во множестве, святой чудотворец, мы ничего не совершаем равного дару твоих чудес, и, удивляясь им, взываем к тебе так: Радуйся, служитель Царя царствующих и Господа господствующих; радуйся, сожитель небесных Его служителей. Радуйся, помощь людям верным; радуйся, возвышение рода христианского. Радуйся, тезоименитый победе; радуйся, славный венценосец. Радуйся, зерцало всех добродетелей; радуйся, крепкое ограждение всех, притекающих к тебе. Радуйся, после Бога и Богородицы всё наше упование; радуйся, здравие наших тел и спасение душ. Радуйся, ибо тобою мы освобождаемся от вечной смерти; радуйся, ибо тобою сподобляемся бесконечной жизни. Радуйся, Николае, великий Чудотворче!",
+   "uk": "Оспівуючи твої чудеса, вихваляємо тебе, всехвальний Миколаю: бо в тобі Бог, у Трійці прославлюваний, дивно прославився. Та хоч би ми й приносили тобі численні псалми й пісні, від душі складені, святий чудотворче, нічого не чинимо рівного дарові чудес твоїх, і, дивуючись їм, взиваємо до тебе так: Радуйся, служителю Царя царюючих і Господа пануючих; радуйся, співжителю небесних Його служителів. Радуйся, поміч людям вірним; радуйся, піднесення роду християнського. Радуйся, тезоіменитий перемозі; радуйся, славний вінценосцю. Радуйся, дзеркало всіх чеснот; радуйся, міцне забороло всіх, що до тебе прибігають. Радуйся, після Бога і Богородиці вся наша надія; радуйся, тіл наших здоров'я і душ спасіння. Радуйся, бо тобою від вічної смерті звільняємося; радуйся, бо тобою безконечного життя сподоблюємося. Радуйся, Миколаю, великий Чудотворче!",
+   "en": "Hymning thy miracles, we praise thee, O all-praised Nicholas; for in thee God, glorified in Trinity, is wondrously glorified. But though we offer thee psalms and songs composed in abundance from the soul, O holy Wonderworker, we do nothing equal to the gift of thy miracles, and marvelling at them we cry unto thee thus: Rejoice, servant of the King of kings and Lord of lords; rejoice, companion of His heavenly servants. Rejoice, help of the faithful people; rejoice, exaltation of the Christian race. Rejoice, thou who art named after victory; rejoice, illustrious bearer of a crown. Rejoice, mirror of all virtues; rejoice, strong bulwark of all that hasten unto thee. Rejoice, after God and the Theotokos all our hope; rejoice, health of our bodies and salvation of our souls. Rejoice, for through thee we are set free from eternal death; rejoice, for through thee we are counted worthy of life without end. Rejoice, O Nicholas, great Wonderworker!",
+   "fonte": {
+    "cu": "SZ1917 pp. 102–103",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«побѣ́ды тезоимени́тый»: Νικόλαος = «vitória do povo» (nota de Слово жизни p. 103). Variante (dec. 62): Слово жизни p. 103 «царе́мъ вѣ́рнымъ поможе́ніе» («auxílio dos reis fiéis»); segue-se o texto atual «лю́демъ». ⚠ Edições atuais divergem neste ponto (há edições com «царем»)."
+  },
+  {
+   "id": "acn-067",
+   "tipo": "titulo",
+   "cu": "Конда́къ 13",
+   "pt": "Condácio 13",
+   "ru": "Кондак 13",
+   "uk": "Кондак 13",
+   "en": "Kontakion 13",
+   "fonte": {
+    "cu": "SZ1917 p. 103",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-068",
+   "tipo": "oracao",
+   "cu": "О, пресвяты́й и пречу́дный о́тче Нико́лае, утѣше́ніе всѣхъ скорбя́щихъ, ны́нѣшнее на́ше пріими́ приноше́ніе и отъ гее́нны изба́витися намъ Го́спода умоли́ богопрія́тнымъ твои́мъ хода́тайствомъ, да съ тобо́ю воспѣва́емъ: Аллилу́іа.",
+   "pt": "Ó santíssimo e admirabilíssimo pai Nicolau, consolação de todos os que choram, recebe a nossa oferenda presente e roga ao Senhor que sejamos livres da geena pela tua intercessão agradável a Deus, para que contigo cantemos: Aleluia.",
+   "ru": "О пресвятой и предивный отче Николае, утешение всех скорбящих, прими наше нынешнее приношение и умоли Господа избавить нас от геенны твоим богоугодным ходатайством, чтобы мы вместе с тобою воспевали: Аллилуия.",
+   "uk": "О пресвятий і предивний отче Миколаю, утіхо всіх скорботних, прийми нинішнє наше приношення і умоли Господа, щоб ми визволилися від геєни богоприємним твоїм заступництвом, і разом з тобою співали: Алилуя.",
+   "en": "O most holy and most wondrous father Nicholas, consolation of all that sorrow, accept this our present offering, and entreat the Lord that we may be delivered from Gehenna by thy God-pleasing intercession, that with thee we may sing: Alleluia.",
+   "fonte": {
+    "cu": "SZ1917 p. 103",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Lê-se três vezes (Слово жизни p. 103: «(Трижды)»). «гее́нны» = Geena (o lugar do castigo), não o Hades (dec. 71).",
+   "repetir": 3
+  },
+  {
+   "id": "acn-069",
+   "tipo": "rubrica",
+   "cu": "Та́же па́ки чте́тся и́косъ 1-й и конда́къ 1-й.",
+   "pt": "Em seguida lê-se de novo o ikos 1 e o condácio 1.",
+   "ru": "Затем снова читаются 1-й икос и 1-й кондак.",
+   "uk": "Потім знову читаються 1-й ікос і 1-й кондак.",
+   "en": "Then the first Ikos and the first Kontakion are read again.",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Rubrica própria (dec. 62: texto atual). ⚠ resolvido (doc. 03 §5.5): Слово жизни (1917) p. 103 traz só «(Трижды)» depois do condácio 13 e passa logo à oração (o mesmo em MS1900, pp. 385 e 407, para os acatistos a Jesus e à Mãe de Deus). A repetição do ikos 1 e do condácio 1 é prática das edições atuais (azbyka: «Этот кондак читается трижды, затем икос 1-й и кондак 1-й»); segue-se o texto atual."
+  },
+  {
+   "id": "acn-070",
+   "tipo": "titulo",
+   "cu": "И́косъ 1",
+   "pt": "Ikos 1",
+   "ru": "Икос 1",
+   "uk": "Ікос 1",
+   "en": "Ikos 1",
+   "fonte": {
+    "cu": "SZ1917 pp. 89–90",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-071",
+   "tipo": "oracao",
+   "cu": "А́нгела о́бразомъ, земна́го су́ща естество́мъ, яви́ тебѣ́ всея́ тва́ри Созда́тель: благопло́дную бо добро́ту души́ твоея́ прови́дѣвъ, преблаже́нне Нико́лае, научи́ всѣхъ вопи́ти тебѣ́ си́це: Ра́дуйся, отъ утро́бы ма́тернія очище́нный; ра́дуйся, да́же до конца́ освяще́нный. Ра́дуйся, рожде́ніемъ свои́мъ роди́телей удиви́вый; ра́дуйся, си́лу душе́вную а́біе по рождествѣ́ яви́вый. Ра́дуйся, са́де земли́ обѣтова́нія; ра́дуйся, цвѣ́те Боже́ственнаго сажде́нія. Ра́дуйся, лозо́ добродѣ́тельная виногра́да Христо́ва; ра́дуйся, дре́во чудото́чное рая́ Іису́сова. Ра́дуйся, кри́не ра́йскаго прозябе́нія; ра́дуйся, мѵ́ро Христо́ва благоуха́нія. Ра́дуйся, я́ко тобо́ю отго́нится рыда́ніе; ра́дуйся, я́ко тобо́ю прино́сится ра́дованіе. Ра́дуйся, Нико́лае, вели́кій Чудотво́рче.",
+   "pt": "O Criador de toda a criação mostrou-te anjo na forma, embora fosses terreno por natureza; pois, prevendo a fecunda beleza da tua alma, ó bem-aventurado Nicolau, ensinou todos a clamar-te assim: Alegra-te, purificado desde o seio materno; alegra-te, santificado até ao fim. Alegra-te, que com o teu nascimento maravilhaste os teus pais; alegra-te, que logo depois de nascer mostraste a força da alma. Alegra-te, jardim da terra prometida; alegra-te, flor da plantação divina. Alegra-te, videira virtuosa da vinha de Cristo; alegra-te, árvore taumaturga do paraíso de Jesus. Alegra-te, lírio de rebento celeste; alegra-te, mirra da fragrância de Cristo. Alegra-te, porque por ti é afugentado o pranto; alegra-te, porque por ti é trazida a alegria. Alegra-te, Nicolau, grande Taumaturgo!",
+   "ru": "Ангелом по образу, будучи земным по естеству, явил тебя Создатель всей твари: ибо, провидев благоплодную красоту твоей души, преблаженный Николай, Он научил всех взывать тебе так: Радуйся, от утробы матери очищенный; радуйся, до конца освященный. Радуйся, рождением своим родителей удививший; радуйся, силу души тотчас по рождении явивший. Радуйся, сад земли обетованной; радуйся, цвет Божественного насаждения. Радуйся, добродетельная лоза винограда Христова; радуйся, чудотворное древо рая Иисусова. Радуйся, крин райского произрастания; радуйся, миро Христова благоухания. Радуйся, ибо тобою прогоняется рыдание; радуйся, ибо тобою приносится радость. Радуйся, Николае, великий Чудотворче!",
+   "uk": "Ангелом за образом, хоч земним за єством, явив тебе Творець усього творіння, бо, передбачивши плодоносну красу душі твоєї, преблаженний Миколаю, навчив усіх так взивати до тебе: Радуйся, від утроби матері очищений; радуйся, аж до кінця освячений. Радуйся, що народженням своїм батьків здивував; радуйся, що силу душі зразу по народженні явив. Радуйся, саде землі обітованої; радуйся, цвіте Божественного насадження. Радуйся, лозо доброчесна винограду Христового; радуйся, дерево чудотворне раю Іісусового. Радуйся, лілеє райського проростання; радуйся, мирро Христового благоухання. Радуйся, бо тобою проганяється ридання; радуйся, бо тобою приноситься радість. Радуйся, Миколаю, великий Чудотворче!",
+   "en": "The Creator of all creation showed thee forth as an Angel in form, though thou wast earthly by nature; for foreseeing the fruitful beauty of thy soul, O most blessed Nicholas, He taught all to cry unto thee thus: Rejoice, thou who wast purified from thy mother's womb; rejoice, thou who wast sanctified even unto the end. Rejoice, thou who by thy birth didst astonish thy parents; rejoice, thou who straightway after thy birth didst show forth the strength of thy soul. Rejoice, garden of the land of promise; rejoice, flower of divine planting. Rejoice, virtuous vine of Christ's vineyard; rejoice, wonder-working tree of the paradise of Jesus. Rejoice, lily of heavenly growth; rejoice, myrrh of the fragrance of Christ. Rejoice, for through thee lamentation is driven away; rejoice, for through thee joy is brought. Rejoice, O Nicholas, great Wonderworker!",
+   "fonte": {
+    "cu": "SZ1917 pp. 89–90",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Repetição do ikos 1 e do condácio 1 depois do condácio 13 (texto atual; não consta da edição PD, ver rubrica anterior)."
+  },
+  {
+   "id": "acn-072",
+   "tipo": "titulo",
+   "cu": "Конда́къ 1, гласъ 8",
+   "pt": "Condácio 1, tom 8",
+   "ru": "Кондак 1, глас 8",
+   "uk": "Кондак 1, глас 8",
+   "en": "Kontakion 1, Tone 8",
+   "fonte": {
+    "cu": "SZ1917 p. 89",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-073",
+   "tipo": "oracao",
+   "cu": "Возбра́нный Чудотво́рче и изря́дный уго́дниче Христо́въ, мі́ру всему́ источа́яй многоцѣ́нное ми́лости мѵ́ро и неисчерпа́емое чуде́съ мо́ре, восхваля́ю тя любо́вію, святи́телю Нико́лае; ты же, я́ко имѣ́яй дерзнове́ніе ко Го́споду, отъ вся́кихъ мя бѣдъ свободи́, да зову́ ти: Ра́дуйся, Нико́лае, вели́кій Чудотво́рче.",
+   "pt": "Ó Taumaturgo que por nós combates e insigne servo de Cristo, que derramas sobre o mundo inteiro a mirra preciosa da misericórdia e um mar inesgotável de milagres, eu louvo-te com amor, ó santo hierarca Nicolau; e tu, que tens confiança junto do Senhor, livra-me de todas as desgraças, para que te clame: Alegra-te, Nicolau, grande Taumaturgo!",
+   "ru": "Взбранный Чудотворец и изрядный угодник Христов, источающий всему миру многоценное миро милости и неисчерпаемое море чудес! Восхваляю тебя с любовью, святитель Николай; ты же, как имеющий дерзновение ко Господу, от всяких бед освободи меня, чтобы я взывал тебе: Радуйся, Николае, великий Чудотворче!",
+   "uk": "Взбранний Чудотворче і преславний угоднику Христовий, що всьому світові виточуєш дорогоцінне миро милості і невичерпне море чудес, вихваляю тебе з любов'ю, святителю Миколаю; ти ж, маючи відвагу перед Господом, від усяких бід визволи мене, щоб я взивав до тебе: Радуйся, Миколаю, великий Чудотворче!",
+   "en": "O champion Wonderworker and excellent servant of Christ, who pourest forth upon the whole world the precious myrrh of mercy and an inexhaustible sea of miracles: I praise thee with love, O holy hierarch Nicholas; and as thou hast boldness before the Lord, set me free from all calamities, that I may cry unto thee: Rejoice, O Nicholas, great Wonderworker!",
+   "fonte": {
+    "cu": "SZ1917 p. 89",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Repetição do ikos 1 e do condácio 1 depois do condácio 13 (texto atual; não consta da edição PD, ver rubrica anterior)."
+  },
+  {
+   "id": "acn-074",
+   "tipo": "titulo",
+   "cu": "Моли́тва святи́телю Христо́ву Никола́ю",
+   "pt": "Oração a São Nicolau",
+   "ru": "Молитва святителю Николаю",
+   "uk": "Молитва до святителя Миколая",
+   "en": "Prayer to Saint Nicholas",
+   "fonte": {
+    "cu": "SZ1917 p. 104",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acn-075",
+   "tipo": "oracao",
+   "cu": "О, па́стырю до́брый, учи́телю и наста́вниче нашъ, святи́телю о́тче Нико́лае! А́нгельски пожи́въ на земли́, ты, я́ко а́нгелъ благі́й, яви́лся еси́ и въ ди́внемъ твое́мъ прославле́ніи. Вѣ́руемъ отъ всея́ души́ и помышле́нія, я́ко ты, благосе́рдый нашъ помо́щниче и моли́твенниче, твои́ми нело́жными хода́тайствы и благода́тію, оби́льно дарова́нною тебѣ́ отъ Го́спода Спа́са на́шего, при́сно спосо́бствуеши на́шему спасе́нію. Пріими́ у́бо, ублажа́емый уго́дниче Христо́въ, и въ часъ сей на́ша недосто́йная моле́нія: свободи́ насъ твои́мъ заступле́ніемъ отъ облега́ющаго насъ суесло́вія и суему́дрія, неправовѣ́рія и зловѣ́рія человѣ́ческаго, моли́ся миръ всѣмъ Даю́щему ниспосла́ти миръ це́рквамъ, собира́я расточе́нныя во еди́но, и сохрани́ти Держа́ву Россі́йскую въ ми́рѣ и тишинѣ́; моли́ милосе́рдіе Го́спода, е́же спасти́ насъ отъ прегрѣше́ній на́шихъ, и́миже вѣсть судьба́ми; моли́ бла́гость Его́, е́же ми́лостиво пода́ти намъ и всему́ мі́ру потре́бная, да вы́ну сла́вимъ, хва́лимъ, пое́мъ и велича́емъ пречестно́е и великолѣ́пое и́мя Отца́ и Сы́на и Свята́го Ду́ха, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Ó pastor bom, mestre e guia nosso, santo hierarca pai Nicolau! Tendo vivido na terra como um anjo, tu, como anjo bom, te manifestaste também na tua admirável glorificação. Cremos de toda a alma e de todo o pensamento que tu, nosso auxílio e intercessor compassivo, pelas tuas intercessões verdadeiras e pela graça abundantemente dada a ti pelo Senhor nosso Salvador, ajudas sempre a nossa salvação. Recebe, pois, ó servo de Cristo que bendizemos, também nesta hora as nossas indignas súplicas: livra-nos, pela tua proteção, da vã palavra e da vã sabedoria que nos rodeiam, da heterodoxia e da má-fé dos homens; roga Àquele que dá a paz a todos que conceda a paz às Igrejas, reunindo num só o que está disperso, e que guarde o Estado russo em paz e tranquilidade; roga à misericórdia do Senhor que nos salve dos nossos pecados pelos caminhos que Ele conhece; roga à Sua bondade que nos dê misericordiosamente, a nós e a todo o mundo, o que é necessário, para que sempre glorifiquemos, louvemos, cantemos e engrandeçamos o nome venerabilíssimo e magnífico do Pai e do Filho e do Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "О пастырь добрый, учитель и наставник наш, святитель отче Николае! Ангельски поживший на земле, ты, как благой ангел, явился и в дивном твоем прославлении. Веруем от всей души и всего помышления, что ты, благосердый наш помощник и молитвенник, твоими нелживыми ходатайствами и благодатью, обильно дарованной тебе от Господа Спаса нашего, всегда способствуешь нашему спасению. Прими же, ублажаемый угодник Христов, и в этот час наши недостойные моления: освободи нас твоим заступлением от окружающего нас суесловия и суемудрия, неправоверия и зловерия человеческого; молись Дающему всем мир ниспослать мир церквам, собирая рассеянных воедино, и сохранить Державу Российскую в мире и тишине; моли милосердие Господа спасти нас от прегрешений наших, ведомыми Ему путями; моли благость Его милостиво подать нам и всему миру потребное, чтобы мы всегда славили, хвалили, воспевали и величали пречестное и великолепное имя Отца и Сына и Святого Духа, ныне и присно и во веки веков. Аминь.",
+   "uk": "О пастирю добрий, учителю і наставнику наш, святителю отче Миколаю! Ангельськи поживши на землі, ти, як ангел благий, явився і в дивному твоєму прославленні. Віруємо всією душею і всією думкою, що ти, наш милосердний помічник і молитвеник, своїми неложними заступництвами і благодаттю, щедро дарованою тобі від Господа Спаса нашого, завжди сприяєш нашому спасінню. Прийми ж, ублажаний угоднику Христовий, і в цю годину наші недостойні моління: визволи нас своїм заступництвом від суєслів'я і суємудрія, що оточують нас, від неправовір'я і зловір'я людського; молися Тому, Хто всім дає мир, щоб послав мир церквам, збираючи розпорошених воєдино, і зберіг Державу Російську в мирі й тиші; моли милосердя Господнє, щоб спас нас від гріхів наших шляхами, які Він знає; моли доброту Його, щоб милостиво подав нам і всьому світові потрібне, щоб ми завжди славили, хвалили, оспівували і величали пречесне і величне ім'я Отця, і Сина, і Святого Духа, нині і повсякчас, і на віки віків. Амінь.",
+   "en": "O good shepherd, our teacher and guide, holy hierarch father Nicholas! Having lived on earth as an Angel, thou hast appeared as a good Angel also in thy wondrous glorification. We believe with all our soul and all our mind that thou, our compassionate helper and intercessor, by thy true intercessions and by the grace abundantly given thee by the Lord our Saviour, ever furtherest our salvation. Accept, then, O blessed servant of Christ, in this hour also our unworthy supplications: by thine intercession set us free from the vain talk and vain wisdom that beset us, from the heterodoxy and false belief of men; pray Him Who giveth peace to all that He send down peace upon the Churches, gathering the scattered into one, and preserve the Russian State in peace and quietness; entreat the mercy of the Lord that He save us from our transgressions by the ways He knoweth; entreat His goodness that He mercifully grant unto us and unto all the world what is needful, that we may ever glorify, praise, hymn and magnify the most honourable and majestic name of the Father, and of the Son, and of the Holy Spirit, now and ever, and unto the ages of ages. Amen.",
+   "fonte": {
+    "cu": "SZ1917 p. 104",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Oração tal como em Слово жизни p. 104 («Молитва Святителю Христову Николаю»), sem edição acentuada (acentos próprios). Menciona «Держа́ву Россі́йскую» (edição de 1917); traduz-se fielmente. ⚠ As edições atuais da IOR trazem depois deste acatisto outras orações («О, всесвяты́й Нико́лае, уго́дниче преизря́дный Госпо́день…» e «О, всеблаги́й о́тче Нико́лае…»), não incluídas por não se ter encontrado edição sinodal pré-1917 digitalizada que as contenha (B2)."
+  },
+  {
+   "id": "acn-076",
+   "tipo": "oracao",
+   "cu": "Досто́йно есть я́ко вои́стинну блажи́ти Тя Богоро́дицу, Присноблаже́нную и Пренепоро́чную и Ма́терь Бо́га на́шего. Честнѣ́йшую Херуви́мъ и сла́внѣйшую безъ сравне́нія Серафи́мъ, безъ истлѣ́нія Бо́га Сло́ва ро́ждшую, су́щую Богоро́дицу Тя велича́емъ.",
+   "pt": "É verdadeiramente digno bendizer-Te, ó Mãe de Deus, sempre bem-aventurada e toda imaculada, Mãe do nosso Deus. Mais venerável que os Querubins e incomparavelmente mais gloriosa que os Serafins, que sem corrupção deste à luz Deus Verbo, verdadeira Mãe de Deus, nós Te engrandecemos.",
+   "ru": "Достойно поистине ублажать Тебя, Богородицу, присноблаженную и пренепорочную и Матерь Бога нашего. Честнейшую Херувимов и несравненно славнейшую Серафимов, нетленно родившую Бога Слово, истинную Богородицу — Тебя величаем.",
+   "uk": "Достойно є воістину блажити Тебе, Богородицю, Присноблаженну і Пренепорочну, і Матір Бога нашого. Чеснішу від Херувимів і незрівнянно славнішу від Серафимів, що без зотління Бога Слово породила, сущу Богородицю, Тебе величаємо.",
+   "en": "It is truly meet to bless thee, O Theotokos, ever-blessed and all-immaculate, and the Mother of our God. More honourable than the Cherubim, and beyond compare more glorious than the Seraphim, thou who without corruption gavest birth to God the Word, true Theotokos, we magnify thee.",
+   "fonte": {
+    "cu": "Z1912 pp. 12–13",
+    "ru": "propria (Z1912 parafraseava)",
+    "en": "H1906 p. 107",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "Texto idêntico a manha-81 (fórmula comum)."
+  },
+  {
+   "id": "acn-077",
+   "tipo": "rubrica",
+   "cu": "Отъ Па́схи до Вознесе́нія Госпо́дня, вмѣ́сто «Досто́йно есть», поётся:",
+   "pt": "Da Páscoa até à Ascensão do Senhor, em lugar de «É verdadeiramente digno», canta-se:",
+   "ru": "От Пасхи до Вознесения Господня вместо «Достойно есть» поется:",
+   "uk": "Від Пасхи до Вознесіння Господнього замість «Достойно є» співається:",
+   "en": "From Pascha until the Ascension of the Lord, instead of «It is truly meet», the following is sung:",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "Texto idêntico a manha-82 (fórmula comum). Na Semana Luminosa vale a rubrica inicial (bloco 004)."
+  },
+  {
+   "id": "acn-078",
+   "tipo": "oracao",
+   "cu": "А́нгелъ вопія́ше Благода́тнѣй: Чи́стая Дѣ́во, ра́дуйся! И па́ки реку́: ра́дуйся! Твой Сынъ воскре́се тридне́венъ отъ гро́ба, и ме́ртвыя воздви́гнувый; лю́діе, весели́теся!",
+   "pt": "O Anjo clamou à Cheia de Graça: Virgem pura, alegra-Te! E de novo digo: alegra-Te! O Teu Filho ressuscitou ao terceiro dia do sepulcro e levantou os mortos. Povos, regozijai-vos!",
+   "ru": "Ангел возгласил Благодатной: «Чистая Дева, радуйся!» И я повторю: радуйся! Твой Сын воскрес на третий день из гроба, воскресивший мертвых. Люди, торжествуйте!",
+   "uk": "Ангел взивав Благодатній: Чиста Діво, радуйся! І знову кажу: радуйся! Твій Син воскрес на третій день із гробу і мертвих підняв. Люди, веселіться!",
+   "en": "The Angel cried unto her who is full of grace: Rejoice, O pure Virgin! And again I say: Rejoice! Thy Son is risen from the tomb on the third day, and hath raised up the dead. Rejoice, O ye people!",
+   "fonte": {
+    "cu": "Z1912 p. 112",
+    "ru": "Z1912 p. 112",
+    "en": "H1906 p. 232",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "Texto idêntico a manha-83 (fórmula comum)."
+  },
+  {
+   "id": "acn-079",
+   "tipo": "oracao",
+   "cu": "Свѣти́ся, свѣти́ся, но́вый Іерусали́ме, сла́ва бо Госпо́дня на тебѣ́ возсія́; лику́й ны́нѣ и весели́ся, Сіо́не! Ты же, Чи́стая, красу́йся, Богоро́дице, о воста́ніи Рождества́ Твоего́.",
+   "pt": "Resplandece, resplandece, ó nova Jerusalém, porque a glória do Senhor brilhou sobre ti; exulta agora e alegra-te, ó Sião! E Tu, ó Pura, rejubila, Mãe de Deus, com a ressurreição d'Aquele que deste à luz.",
+   "ru": "Сияй, сияй, новый Иерусалим, ибо слава Господня озарила тебя! Торжествуй теперь и веселись, Сион! А Ты, Чистая Богородица, радуйся воскресению Рожденного Тобою.",
+   "uk": "Світися, світися, новий Єрусалиме, бо слава Господня над тобою засяяла; радій нині і веселися, Сіоне! А Ти, Чиста Богородице, красуйся воскресінням Народженого Тобою.",
+   "en": "Shine, shine, O new Jerusalem, for the glory of the Lord hath arisen upon thee! Dance now and be glad, O Zion! And do thou, O pure Theotokos, rejoice in the rising of Him whom thou didst bear.",
+   "fonte": {
+    "cu": "Z1912 p. 113",
+    "ru": "Z1912 p. 113",
+    "en": "H1906 p. 232",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "Texto idêntico a manha-84 (fórmula comum)."
+  },
+  {
+   "id": "acn-080",
+   "tipo": "oracao",
+   "cu": "Христо́съ воскре́се изъ ме́ртвыхъ, сме́ртію смерть попра́въ и су́щимъ во гробѣ́хъ живо́тъ дарова́въ.",
+   "pt": "Cristo ressuscitou dos mortos, pela morte calcou a morte e aos que estavam nos sepulcros deu a vida.",
+   "ru": "Христос воскрес из мертвых, смертью смерть поправ и сущим во гробах жизнь даровав.",
+   "uk": "Христос воскрес із мертвих, смертю смерть подолав і тим, що в гробах, життя дарував.",
+   "en": "Christ is risen from the dead, trampling down death by death, and upon those in the tombs bestowing life.",
+   "fonte": {
+    "cu": "Z1912 p. 106",
+    "ru": "propria",
+    "en": "H1906 p. 226",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a oficio-106a / manha-14 (fórmula comum). Fecho da Semana Luminosa (rubrica inicial, bloco 004)."
+  },
+  {
+   "id": "acn-081",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-85 (fórmula comum)."
+  },
+  {
+   "id": "acn-082",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-86 (fórmula comum)."
+  },
+  {
+   "id": "acn-083",
+   "tipo": "oracao",
+   "cu": "Го́споди Іису́се Христе́, Сы́не Бо́жій, моли́твъ ра́ди Пречи́стыя Твоея́ Ма́тере, преподо́бныхъ и богоно́сныхъ оте́цъ на́шихъ и всѣхъ святы́хъ, поми́луй насъ. Ами́нь.",
+   "pt": "Senhor Jesus Cristo, Filho de Deus, pelas orações da Tua Mãe puríssima, dos nossos veneráveis Padres teóforos e de todos os santos, tem piedade de nós. Ámen.",
+   "ru": "Господи Иисусе Христе, Сыне Божий, по молитвам Пречистой Твоей Матери, преподобных и богоносных отцов наших и всех святых помилуй нас. Аминь.",
+   "uk": "Господи Іісусе Христе, Сину Божий, молитвами Пречистої Твоєї Матері, преподобних і богоносних отців наших і всіх святих, помилуй нас. Амінь.",
+   "en": "O Lord Jesus Christ, Son of God, through the prayers of Thy most pure Mother, of our venerable and God-bearing Fathers, and of all the saints, have mercy upon us. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 13",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-87 (fórmula comum)."
+  }
+ ]
+}

@@ -1,0 +1,1565 @@
+{
+ "id": "acatistos-jesus",
+ "ordem": 2,
+ "titulo": {
+  "cu": "Акаѳи́стъ Сладча́йшему Го́споду на́шему Іису́су Христу́",
+  "pt": "Acatisto ao Dulcíssimo Senhor Jesus Cristo",
+  "ru": "Акафист Иисусу Сладчайшему",
+  "uk": "Акафіст Іісусу Найсолодшому",
+  "en": "Akathist to our Most Sweet Lord Jesus Christ"
+ },
+ "fontes": [
+  {
+   "chave": "MS1900",
+   "descricao": "Молитвословъ. Изданіе десятое. Москва: Синодальная типографія, 1900. По благословенію Святѣйшаго Правительствующаго Синода.",
+   "url": "https://archive.org/details/molitvoslov00andr",
+   "notas": "Domínio público. Escrita civil pré-reforma com acentos esporádicos. «XII. Акаѳистъ Сладчайшему Господу нашему Іисусу Христу», pp. 365–386 (página impressa; pp. 365–366 sem número na digitalização, folhas 373–374). Base do eslavo: camada OCR conferida palavra a palavra com o texto atual (AZB); divergências verificadas nas imagens (ver FONTES-acatistos.md)."
+  },
+  {
+   "chave": "Z1912",
+   "descricao": "Молитвы и пѣснопѣнія православнаго молитвослова (для мірянъ) съ переводомъ на русскій языкъ, объясненіями и примѣчаніями Николая Нахимова [Н. Ч. Зайончковскій, 1859–1920]. С.-Петербургъ: Синодальная типографія, 1912.",
+   "url": "https://archive.org/details/molitvyipesnopenijapravoslavnogomolitvos65",
+   "notas": "Domínio público (autor † 1920). Cap. «Акафистъ Сладчайшему Господу нашему Іисусу Христу» pp. 209–217: a tradução russa cobre só a parte narrativa de cada estrofe (as invocações «Іисусе…» ficam em eslavo com glosas); base da coluna RU em K1–K4 e no início de I1–I3, adaptada (dec. 57); resto tradução própria. Também fonte de fórmulas comuns copiadas de manha.json."
+  },
+  {
+   "chave": "K1817",
+   "descricao": "Канонникъ. Москва: Синодальная типографія, декабрь 1817.",
+   "url": "https://viewer.rsl.ru/rsl01015049339",
+   "notas": "Biblioteca Estatal Russa. Fonte de «Молитвами святыхъ отецъ…» (bloco copiado de noite-019)."
+  },
+  {
+   "chave": "H1906",
+   "descricao": "I. F. Hapgood, Service Book of the Holy Orthodox-Catholic Apostolic (Greco-Russian) Church. Boston/New York: Houghton, Mifflin & Co., 1906.",
+   "url": "https://archive.org/details/cu31924029363128",
+   "notas": "Domínio público. Só nos blocos comuns copiados de manha.json/noite.json/comunhao_preparacao.json; o texto dos acatistos não está em Hapgood (coluna EN própria)."
+  },
+  {
+   "chave": "AZB",
+   "descricao": "Акафисты (texto eslavo atual em escrita civil), azbyka.ru.",
+   "url": "",
+   "notas": "Só para identificar o texto atual (dec. 62) e como guia de acentuação, conferida por amostragem com os acentos impressos das edições PD; não é fonte do texto (cada palavra foi conferida com a edição PD). Variantes assinaladas em nota em cada bloco."
+  }
+ ],
+ "estado": {
+  "pt": "nao_revista",
+  "ru": "nao_revista",
+  "uk": "nao_revista",
+  "en": "nao_revista"
+ },
+ "blocos": [
+  {
+   "id": "acj-001",
+   "tipo": "titulo",
+   "cu": "Акаѳи́стъ Сладча́йшему Го́споду на́шему Іису́су Христу́",
+   "pt": "Acatisto ao Dulcíssimo Senhor Jesus Cristo",
+   "ru": "Акафист Иисусу Сладчайшему",
+   "uk": "Акафіст Іісусу Найсолодшому",
+   "en": "Akathist to our Most Sweet Lord Jesus Christ",
+   "fonte": {
+    "cu": "MS1900 p. 365",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Título e «Кондакъ 1, гласъ 8» de MS1900 p. 365 («XII. Акаѳистъ Сладчайшему Господу нашему Іисусу Христу»)."
+  },
+  {
+   "id": "acj-002",
+   "tipo": "rubrica",
+   "cu": "Акаѳі́стъ, чте́мый на́единѣ, предваря́ется обы́чнымъ нача́ломъ и заверша́ется моли́твою «Досто́йно есть», «Сла́ва, и ны́нѣ», «Го́споди, поми́луй» три́жды и отпу́стомъ.",
+   "pt": "O acatisto lido em privado é precedido do início habitual e conclui-se com «É verdadeiramente digno», «Glória… agora e sempre…», «Senhor, tem piedade» três vezes e a despedida.",
+   "ru": "Акафист, читаемый наедине, предваряется обычным началом и завершается молитвой «Достойно есть», «Слава, и ныне», «Господи, помилуй» трижды и отпустом.",
+   "uk": "Акафіст, що читається наодинці, починається звичайним початком і завершується молитвою «Достойно є», «Слава, і нині», «Господи, помилуй» тричі і відпустом.",
+   "en": "An akathist read privately is preceded by the usual beginning and concluded with «It is truly meet», «Glory… now and ever…», «Lord, have mercy» thrice, and the dismissal.",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Rubrica própria segundo doc. 03 §3.2 e §5.5 (ordem de leitura em privado, «чин келейного чтения»; azbyka só como referência). As edições PD usadas (MS1900) começam diretamente no condácio 1 e terminam na oração, sem início nem conclusão. O Santo Sínodo (14.05.2018, ata n.º 28) desaconselha acatistos no culto público durante a Grande Quaresma (exceto as Matinas do Sábado do Acatisto); a determinação não regula a oração privada (doc. 03 §5.5)."
+  },
+  {
+   "id": "acj-003",
+   "tipo": "oracao",
+   "cu": "Моли́твами святы́хъ оте́цъ на́шихъ, Го́споди Іису́се Христе́ Бо́же нашъ, поми́луй насъ. Ами́нь.",
+   "pt": "Pelas orações dos nossos santos Padres, Senhor Jesus Cristo, nosso Deus, tem piedade de nós. Ámen.",
+   "ru": "По молитвам святых отцов наших, Господи Иисусе Христе, Боже наш, помилуй нас. Аминь.",
+   "uk": "Молитвами святих отців наших, Господи Іісусе Христе, Боже наш, помилуй нас. Амінь.",
+   "en": "Through the prayers of our holy fathers, O Lord Jesus Christ our God, have mercy upon us. Amen.",
+   "fonte": {
+    "cu": "Канонникъ 1817 (RSL rsl01015049339, img. 164); MS1900 p. 461",
+    "ru": "propria",
+    "en": "H1906 p. 238",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "ascensao_pentecostes"
+    ]
+   },
+   "nota": "Texto idêntico a noite-019 (fórmula comum)."
+  },
+  {
+   "id": "acj-004",
+   "tipo": "rubrica",
+   "cu": "Во всю Свѣ́тлую седми́цу, отъ Па́схи до суббо́ты у́тра включи́тельно, вмѣ́сто обы́чнаго нача́ла глаго́лется три́жды тропа́рь Па́схи; по акаѳі́стѣ же — «А́нгелъ вопія́ше», «Свѣти́ся» и па́ки три́жды «Христо́съ воскре́се».",
+   "pt": "Em toda a Semana Luminosa, desde a Páscoa até sábado de manhã inclusive, em vez do início habitual diz-se três vezes o tropário da Páscoa; depois do acatisto, «O Anjo clamou», «Resplandece» e de novo três vezes «Cristo ressuscitou».",
+   "ru": "Всю Светлую седмицу, от Пасхи до утра субботы включительно, вместо обычного начала трижды читается тропарь Пасхи; после акафиста — «Ангел вопияше», «Светися» и снова трижды «Христос воскресе».",
+   "uk": "Усю Світлу седмицю, від Пасхи до ранку суботи включно, замість звичайного початку тричі читається тропар Пасхи; після акафіста — «Ангел взивав», «Світися» і знову тричі «Христос воскрес».",
+   "en": "Throughout Bright Week, from Pascha until Saturday morning inclusive, instead of the usual beginning the Paschal troparion is said thrice; after the akathist, «The Angel cried», «Shine» and again thrice «Christ is risen».",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Rubrica própria, segundo o modelo das Horas Pascais (doc. 03 §1.4) e da dec. 63 (comunhao_preparacao, oficio-106a). ⚠ Não há rubrica para acatistos na Semana Luminosa nas edições PD consultadas; prática a confirmar."
+  },
+  {
+   "id": "acj-005",
+   "tipo": "oracao",
+   "cu": "Сла́ва Тебѣ́, Бо́же нашъ, сла́ва Тебѣ́.",
+   "pt": "Glória a Ti, ó nosso Deus, glória a Ti.",
+   "ru": "Слава Тебе, Боже наш, слава Тебе.",
+   "uk": "Слава Тобі, Боже наш, слава Тобі.",
+   "en": "Glory to Thee, O our God, glory to Thee.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa",
+     "ascensao_pentecostes"
+    ]
+   },
+   "nota": "Texto idêntico a manha-10 (fórmula comum)."
+  },
+  {
+   "id": "acj-006",
+   "tipo": "rubrica",
+   "cu": "Отъ Вознесе́нія Госпо́дня до Пятидеся́тницы моли́твы начина́ются со «Святы́й Бо́же»; «Царю́ Небе́сный» и всё, что предше́ствуетъ ему́, опуска́ется.",
+   "pt": "Da Ascensão do Senhor até ao Pentecostes, as orações começam em «Santo Deus»; omite-se «Rei Celeste» e tudo o que o precede.",
+   "ru": "От Вознесения Господня до Пятидесятницы молитвы начинаются со «Святый Боже»; «Царю Небесный» и все, что предшествует ему, опускается.",
+   "uk": "Від Вознесіння Господнього до П’ятидесятниці молитви починаються зі «Святий Боже»; «Царю Небесний» і все, що йому передує, опускається.",
+   "en": "From the Ascension of the Lord until Pentecost, the prayers begin with «Holy God»; «O Heavenly King» and all that precedes it are omitted.",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "ascensao_pentecostes"
+    ]
+   },
+   "nota": "Texto idêntico a manha-05 (fórmula comum)."
+  },
+  {
+   "id": "acj-007",
+   "tipo": "oracao",
+   "cu": "Царю́ Небе́сный, Утѣ́шителю, Ду́ше и́стины, И́же вездѣ́ сый и вся исполня́яй, Сокро́вище благи́хъ и жи́зни Пода́телю, пріиди́ и всели́ся въ ны, и очи́сти ны отъ вся́кія скве́рны, и спаси́, Бла́же, ду́ши на́ша.",
+   "pt": "Rei Celeste, Consolador, Espírito da Verdade, que estás em toda a parte e tudo enches, Tesouro dos bens e Dador da vida, vem e habita em nós, purifica-nos de toda a mancha e salva, ó Bom, as nossas almas.",
+   "ru": "Царь Небесный, Утешитель, Дух истины, вездесущий и всё наполняющий, Сокровищница благ и Податель жизни, приди и вселись в нас; очисти нас от всякой нечистоты и спаси, Благий, души наши.",
+   "uk": "Царю Небесний, Утішителю, Душе істини, що всюди єси і все наповнюєш, Скарбе благ і Подателю життя, прийди і вселися в нас, і очисти нас від усякої скверни, і спаси, Благий, душі наші.",
+   "en": "O Heavenly King, the Comforter, the Spirit of Truth, who art in all places and fillest all things, Treasury of good things and Giver of life: come and abide in us, and cleanse us from every stain, and save our souls, O Good One.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "Z1912 p. 1 (adaptado)",
+    "en": "H1906 p. 67",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa",
+     "pascoa_ascensao",
+     "ascensao_pentecostes"
+    ]
+   },
+   "nota": "Texto idêntico a manha-12 (fórmula comum)."
+  },
+  {
+   "id": "acj-008",
+   "tipo": "rubrica",
+   "cu": "Отъ Ѳоми́ной недѣ́ли до Вознесе́нія Госпо́дня, вмѣ́сто «Царю́ Небе́сный», чита́ется три́жды тропа́рь Па́схи:",
+   "pt": "Do Domingo de Tomé até à Ascensão do Senhor, em lugar de «Rei Celeste», diz-se três vezes o tropário da Páscoa:",
+   "ru": "От Фомина воскресенья до Вознесения Господня вместо «Царю Небесный» читается трижды тропарь Пасхи:",
+   "uk": "Від Томиної неділі до Вознесіння Господнього замість «Царю Небесний» читається тричі тропар Пасхи:",
+   "en": "From Thomas Sunday until the Ascension of the Lord, instead of «O Heavenly King», the troparion of Pascha is said three times:",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "Texto idêntico a manha-13 (fórmula comum)."
+  },
+  {
+   "id": "acj-009",
+   "tipo": "oracao",
+   "cu": "Христо́съ воскре́се изъ ме́ртвыхъ, сме́ртію смерть попра́въ и су́щимъ во гробѣ́хъ живо́тъ дарова́въ.",
+   "pt": "Cristo ressuscitou dos mortos, pela morte calcou a morte e aos que estavam nos sepulcros deu a vida.",
+   "ru": "Христос воскрес из мертвых, смертью смерть поправ и сущим во гробах жизнь даровав.",
+   "uk": "Христос воскрес із мертвих, смертю смерть подолав і тим, що в гробах, життя дарував.",
+   "en": "Christ is risen from the dead, trampling down death by death, and upon those in the tombs bestowing life.",
+   "fonte": {
+    "cu": "Z1912 p. 106",
+    "ru": "propria",
+    "en": "H1906 p. 226",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "Texto idêntico a manha-14 (fórmula comum)."
+  },
+  {
+   "id": "acj-010",
+   "tipo": "oracao",
+   "cu": "Святы́й Бо́же, Святы́й Крѣ́пкій, Святы́й Безсме́ртный, поми́луй насъ.",
+   "pt": "Santo Deus, Santo Forte, Santo Imortal, tem piedade de nós.",
+   "ru": "Святый Боже, Святый Крепкий, Святый Бессмертный, помилуй нас.",
+   "uk": "Святий Боже, Святий Кріпкий, Святий Безсмертний, помилуй нас.",
+   "en": "Holy God, Holy Mighty, Holy Immortal, have mercy upon us.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-15 (fórmula comum)."
+  },
+  {
+   "id": "acj-011",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-16 (fórmula comum)."
+  },
+  {
+   "id": "acj-012",
+   "tipo": "oracao",
+   "cu": "Пресвята́я Тро́ице, поми́луй насъ; Го́споди, очи́сти грѣхи́ на́ша; Влады́ко, прости́ беззако́нія на́ша; Святы́й, посѣти́ и исцѣли́ не́мощи на́ша, и́мене Твоего́ ра́ди.",
+   "pt": "Santíssima Trindade, tem piedade de nós; Senhor, purifica os nossos pecados; Soberano, perdoa as nossas iniquidades; Santo, visita e cura as nossas enfermidades, por causa do Teu nome.",
+   "ru": "Пресвятая Троица, помилуй нас; Господи, очисти грехи наши; Владыка, прости беззакония наши; Святой, посети и исцели немощи наши ради имени Твоего.",
+   "uk": "Пресвята Трійце, помилуй нас; Господи, очисти гріхи наші; Владико, прости беззаконня наші; Святий, відвідай і зціли немочі наші імені Твого ради.",
+   "en": "O all-holy Trinity, have mercy upon us. O Lord, cleanse our sins. O Master, pardon our transgressions. O Holy One, visit and heal our infirmities, for Thy Name's sake.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-17 (fórmula comum)."
+  },
+  {
+   "id": "acj-013",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-18 (fórmula comum)."
+  },
+  {
+   "id": "acj-014",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-19 (fórmula comum)."
+  },
+  {
+   "id": "acj-015",
+   "tipo": "oracao",
+   "cu": "О́тче нашъ, И́же еси́ на небесѣ́хъ! Да святи́тся и́мя Твое́, да пріи́детъ Ца́рствіе Твое́, да бу́детъ во́ля Твоя́, я́ко на небеси́ и на земли́. Хлѣбъ нашъ насу́щный даждь намъ днесь; и оста́ви намъ до́лги на́ша, я́коже и мы оставля́емъ должнико́мъ на́шимъ; и не введи́ насъ во искуше́ніе, но изба́ви насъ отъ лука́ваго.",
+   "pt": "Pai nosso, que estás nos céus, santificado seja o Teu nome; venha o Teu Reino; seja feita a Tua vontade, como no céu, assim na terra. O pão nosso de cada dia dá-nos hoje; e perdoa-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores; e não nos conduzas à tentação, mas livra-nos do maligno.",
+   "ru": "Отче наш, сущий на небесах! Да святится имя Твое, да придет Царствие Твое, да будет воля Твоя, как на небе, так и на земле. Хлеб наш насущный дай нам сегодня; и прости нам долги наши, как и мы прощаем должникам нашим; и не введи нас в искушение, но избавь нас от лукавого.",
+   "uk": "Отче наш, що єси на небесах! Нехай святиться ім’я Твоє, нехай прийде Царство Твоє, нехай буде воля Твоя, як на небі, так і на землі. Хліб наш насущний дай нам сьогодні; і прости нам борги наші, як і ми прощаємо боржникам нашим; і не введи нас у спокусу, але визволи нас від лукавого.",
+   "en": "Our Father, who art in heaven, hallowed be Thy Name. Thy kingdom come. Thy will be done, as in heaven, so on earth. Give us this day our daily bread. And forgive us our debts, as we forgive our debtors. And lead us not into temptation, but deliver us from the evil one.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria (Z1912 parafraseava)",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-20 (fórmula comum)."
+  },
+  {
+   "id": "acj-016",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 12,
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-25 (fórmula comum)."
+  },
+  {
+   "id": "acj-017",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-16 (fórmula comum)."
+  },
+  {
+   "id": "acj-018",
+   "tipo": "oracao",
+   "cu": "Пріиди́те, поклони́мся Царе́ви на́шему Бо́гу. Пріиди́те, поклони́мся и припаде́мъ Христу́, Царе́ви на́шему Бо́гу. Пріиди́те, поклони́мся и припаде́мъ Самому́ Христу́, Царе́ви и Бо́гу на́шему.",
+   "pt": "Vinde, adoremos o nosso Rei e Deus. Vinde, adoremos e prostremo-nos diante de Cristo, nosso Rei e Deus. Vinde, adoremos e prostremo-nos diante do próprio Cristo, Rei e nosso Deus.",
+   "ru": "Придите, поклонимся Царю, нашему Богу. Придите, поклонимся и припадем ко Христу, Царю, нашему Богу. Придите, поклонимся и припадем к Самому Христу, Царю и Богу нашему.",
+   "uk": "Прийдіть, поклонімося Цареві нашому Богові. Прийдіть, поклонімося і припадімо до Христа, Царя нашого Бога. Прийдіть, поклонімося і припадімо до Самого Христа, Царя і Бога нашого.",
+   "en": "O come, let us worship God our King. O come, let us worship and fall down before Christ, our King and God. O come, let us worship and fall down before Christ Himself, our King and God.",
+   "fonte": {
+    "cu": "Z1912 p. 3",
+    "ru": "Z1912 p. 3 (adaptado)",
+    "en": "H1906 p. 15",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-28 (fórmula comum)."
+  },
+  {
+   "id": "acj-019",
+   "tipo": "titulo",
+   "cu": "Конда́къ 1, гласъ 8",
+   "pt": "Condácio 1, tom 8",
+   "ru": "Кондак 1, глас 8",
+   "uk": "Кондак 1, глас 8",
+   "en": "Kontakion 1, Tone 8",
+   "fonte": {
+    "cu": "MS1900 p. 365",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-020",
+   "tipo": "oracao",
+   "cu": "Возбра́нный Воево́до и Го́споди, а́да побѣди́телю, я́ко изба́влься отъ вѣ́чныя сме́рти, похва́льная воспису́ю Ти, созда́ніе и рабъ Твой; но, я́ко имѣ́яй милосе́рдіе неизрече́нное, отъ вся́кихъ мя бѣдъ свободи́, зову́ща: Іису́се, Сы́не Бо́жій, поми́луй мя.",
+   "pt": "Ó Comandante que por nós combates e Senhor, vencedor do Hades, eu, Tua criatura e servo, liberto da morte eterna, escrevo-Te cânticos de louvor; e Tu, que tens uma misericórdia inefável, livra-me de todas as desgraças, a mim que clamo: Jesus, Filho de Deus, tem piedade de mim.",
+   "ru": "Взбранный Воевода и Господь, победитель ада! Избавившись от вечной смерти, я, создание и раб Твой, приношу Тебе хвалебные песни. Ты же, как имеющий милосердие неизреченное, от всяких бед освободи меня, взывающего: Иисусе, Сыне Божий, помилуй меня.",
+   "uk": "Взбранний Воєводо і Господи, переможцю аду, я, творіння і раб Твій, ізбавлений від вічної смерті, складаю Тобі похвальні пісні; Ти ж, маючи милосердя несказанне, від усяких бід визволи мене, що взиваю: Іісусе, Сину Божий, помилуй мене.",
+   "en": "O Champion Leader and Lord, Vanquisher of Hades, I, Thy creature and servant, delivered from eternal death, offer Thee songs of praise; but as Thou hast ineffable compassion, set me free from all calamities, as I cry: Jesus, Son of God, have mercy on me.",
+   "fonte": {
+    "cu": "MS1900 p. 365",
+    "ru": "Z1912 pp. 209–210 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Variante (dec. 62): MS1900 p. 365 «я́ко имѣ́я милосе́рдіе»; segue-se o texto atual «имѣ́яй». «а́да» = Hades (dec. 71). RU: Z1912 adaptado: «Вышний Военачальник» → «Взбранный Воевода»; «неизъяснимое» → «неизреченное»."
+  },
+  {
+   "id": "acj-021",
+   "tipo": "titulo",
+   "cu": "И́косъ 1",
+   "pt": "Ikos 1",
+   "ru": "Икос 1",
+   "uk": "Ікос 1",
+   "en": "Ikos 1",
+   "fonte": {
+    "cu": "MS1900 pp. 365–367",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-022",
+   "tipo": "oracao",
+   "cu": "А́нгеловъ Тво́рче и Го́споди силъ, отве́рзи ми недоумѣ́нный умъ и язы́къ на похвалу́ пречи́стаго Твоего́ и́мене, я́коже глухо́му и гугни́вому дре́вле слухъ и язы́къ отве́рзлъ еси́, и глаго́лаше, зовы́й такова́я: Іису́се пречу́дный, а́нгеловъ удивле́ніе; Іису́се преси́льный, прароди́телей избавле́ніе. Іису́се пресла́дкій, патріа́рховъ велича́ніе; Іису́се пресла́вный, вѣ́рныхъ укрѣпле́ніе. Іису́се прелюби́мый, проро́ковъ исполне́ніе; Іису́се преди́вный, му́чениковъ крѣ́посте. Іису́се прети́хій, мона́ховъ ра́досте; Іису́се преми́лостивый, пресви́теровъ сла́досте. Іису́се премилосе́рдый, по́стниковъ воздержа́ніе; Іису́се пресла́достный, преподо́бныхъ ра́дованіе. Іису́се пречестны́й, дѣ́вственныхъ цѣлому́дріе; Іису́се предвѣ́чный, грѣ́шниковъ спасе́ніе. Іису́се, Сы́не Бо́жій, поми́луй мя.",
+   "pt": "Criador dos anjos e Senhor das potestades, abre o meu entendimento perplexo e a minha língua para o louvor do Teu nome puríssimo, como outrora abriste o ouvido e a língua do surdo-gago, que clamava assim: Jesus admirabilíssimo, assombro dos anjos; Jesus poderosíssimo, libertação dos primeiros pais. Jesus dulcíssimo, exaltação dos patriarcas; Jesus gloriosíssimo, fortaleza dos fiéis. Jesus amabilíssimo, cumprimento dos profetas; Jesus maravilhosíssimo, fortaleza dos mártires. Jesus mansíssimo, alegria dos monges; Jesus misericordiosíssimo, doçura dos presbíteros. Jesus compassivíssimo, continência dos que jejuam; Jesus suavíssimo, alegria dos justos. Jesus puríssimo, castidade dos virgens; Jesus pré-eterno, salvação dos pecadores. Jesus, Filho de Deus, tem piedade de mim.",
+   "ru": "Творец Ангелов и Господь сил, открой мой недоумевающий ум и язык на хвалу пречистого Твоего имени, как некогда Ты открыл слух и язык глухому и косноязычному, который взывал так: Иисусе пречудный, Ангелов удивление; Иисусе пресильный, прародителей избавление. Иисусе пресладкий, патриархов величание; Иисусе преславный, верных укрепление. Иисусе прелюбимый, пророков исполнение; Иисусе предивный, мучеников крепость. Иисусе претихий, монахов радость; Иисусе премилостивый, пресвитеров сладость. Иисусе премилосердый, постников воздержание; Иисусе пресладостный, преподобных радование. Иисусе пречестный, девственников целомудрие; Иисусе предвечный, грешников спасение. Иисусе, Сыне Божий, помилуй меня.",
+   "uk": "Творче ангелів і Господи сил, відкрий мій розум недоумінний і язик на похвалу пречистого Твого імені, як колись глухому й гугнявому відкрив Ти слух і язик, і він так взивав: Іісусе пречудний, ангелів подиве; Іісусе пресильний, праотців визволення. Іісусе пресолодкий, патріархів величання; Іісусе преславний, вірних утвердження. Іісусе прелюбий, пророків сповнення; Іісусе предивний, мучеників кріпосте. Іісусе претихий, ченців радосте; Іісусе премилостивий, пресвітерів солодкосте. Іісусе премилосердий, постників стриманосте; Іісусе пресолодощний, преподобних радування. Іісусе пречесний, дівственників цнотливосте; Іісусе предвічний, грішників спасіння. Іісусе, Сину Божий, помилуй мене.",
+   "en": "O Creator of Angels and Lord of hosts, open my perplexed mind and tongue unto the praise of Thy most pure name, as of old Thou didst open the ears and tongue of him that was deaf and had an impediment in his speech, who cried thus: Jesus most wonderful, astonishment of Angels; Jesus most powerful, deliverance of our first parents. Jesus most sweet, exaltation of Patriarchs; Jesus most glorious, strength of the faithful. Jesus most beloved, fulfilment of Prophets; Jesus most marvellous, fortitude of Martyrs. Jesus most gentle, joy of monks; Jesus most merciful, sweetness of Presbyters. Jesus most compassionate, abstinence of fasters; Jesus most sweet, joy of the righteous. Jesus most honourable, chastity of virgins; Jesus pre-eternal, salvation of sinners. Jesus, Son of God, have mercy on me.",
+   "fonte": {
+    "cu": "MS1900 pp. 365–367",
+    "ru": "Z1912 p. 210 (adaptado, só a 1.ª parte); invocações: própria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Variante (dec. 62): MS1900 p. 366 «Іису́се пресла́вный, царе́й укрѣпле́ніе» («fortaleza dos reis»); segue-se o texto atual «вѣ́рныхъ». «гугни́вому» = «gago». «прароди́телей» = Adão e Eva. «преподо́бныхъ» (ὅσιοι): PT «justos», EN «the righteous», em sentido lato. PT: a série «-íssimo» procura o «пре-» eslavo."
+  },
+  {
+   "id": "acj-023",
+   "tipo": "titulo",
+   "cu": "Конда́къ 2",
+   "pt": "Condácio 2",
+   "ru": "Кондак 2",
+   "uk": "Кондак 2",
+   "en": "Kontakion 2",
+   "fonte": {
+    "cu": "MS1900 p. 367",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-024",
+   "tipo": "oracao",
+   "cu": "Ви́дя вдови́цу зѣ́льнѣ пла́чущу, Го́споди, я́коже бо тогда́ умилосе́рдився, сы́на ея́ на погребе́ніе несо́ма воскреси́лъ еси́; си́це и о мнѣ умилосе́рдися, Человѣколю́бче, и грѣха́ми умерщвле́нную мою́ ду́шу воскреси́, зову́щую: Аллилу́іа.",
+   "pt": "Vendo a viúva a chorar amargamente, Senhor, assim como então Te compadeceste e ressuscitaste o seu filho, que era levado a sepultar, assim também compadece-Te de mim, ó Amigo dos homens, e ressuscita a minha alma, morta pelos pecados, que clama: Aleluia.",
+   "ru": "Видя вдову, сильно плачущую, Господи, как Ты тогда умилосердился и воскресил сына ее, несомого на погребение, так и ко мне умилосердись, Человеколюбец, и воскреси умерщвленную грехами мою душу, взывающую: Аллилуия.",
+   "uk": "Бачачи вдову, що гірко плакала, Господи, як тоді змилосердився Ти і воскресив її сина, якого несли на поховання, так і наді мною змилосердься, Чоловіколюбче, і воскреси мою душу, грíхами умертвлену, що взиває: Алилуя.",
+   "en": "Beholding the widow weeping bitterly, O Lord, as Thou wast then moved with compassion and didst raise up her son as he was being carried to burial, so likewise have compassion on me, O Lover of mankind, and raise up my soul, slain by sins, as it crieth: Alleluia.",
+   "fonte": {
+    "cu": "MS1900 p. 367",
+    "ru": "Z1912 p. 210 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Variante (dec. 62): MS1900 p. 367 «вдови́цу зѣ́льнѣ пла́чущую»; segue-se o texto atual «пла́чущу». Lc 7,11–16."
+  },
+  {
+   "id": "acj-025",
+   "tipo": "titulo",
+   "cu": "И́косъ 2",
+   "pt": "Ikos 2",
+   "ru": "Икос 2",
+   "uk": "Ікос 2",
+   "en": "Ikos 2",
+   "fonte": {
+    "cu": "MS1900 p. 368",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-026",
+   "tipo": "oracao",
+   "cu": "Ра́зумъ неуразумѣ́нный разумѣ́ти Фили́ппъ ища́, Го́споди, покажи́ намъ Отца́, глаго́лаше; Ты же къ нему́: толи́кое вре́мя сый со Мно́ю, не позна́лъ ли еси́, я́ко Оте́цъ во Мнѣ, и Азъ во Отцѣ́ есмь? Тѣ́мже, Неизслѣ́дованне, со стра́хомъ зову́ Ти: Іису́се, Бо́же предвѣ́чный; Іису́се, Царю́ преси́льный. Іису́се, Влады́ко долготерпѣли́вый; Іису́се, Спа́се преми́лостивый. Іису́се, храни́телю мой преблагі́й; Іису́се, очи́сти грѣхи́ моя́. Іису́се, отъими́ беззако́нія моя́; Іису́се, отпусти́ непра́вды моя́. Іису́се, наде́ждо моя́, не оста́ви мене́; Іису́се, помо́щниче мой, не отри́ни мене́. Іису́се, Созда́телю мой, не забу́ди мене́; Іису́се, Па́стырю мой, не погуби́ мене́. Іису́се, Сы́не Бо́жій, поми́луй мя.",
+   "pt": "Procurando entender o entendimento incompreensível, Filipe dizia: Senhor, mostra-nos o Pai; e Tu a ele: Há tanto tempo que estou convosco e não conheceste que o Pai está em Mim e Eu estou no Pai? Por isso, ó Insondável, com temor Te clamo: Jesus, Deus pré-eterno; Jesus, Rei poderosíssimo. Jesus, Soberano longânime; Jesus, Salvador misericordiosíssimo. Jesus, meu guardião boníssimo; Jesus, purifica os meus pecados. Jesus, tira as minhas iniquidades; Jesus, perdoa as minhas injustiças. Jesus, minha esperança, não me abandones; Jesus, meu auxílio, não me rejeites. Jesus, meu Criador, não me esqueças; Jesus, meu Pastor, não me percas. Jesus, Filho de Deus, tem piedade de mim.",
+   "ru": "Желая постичь непостижимое, Филипп говорил: «Господи, покажи нам Отца». А Ты ему: «Столько времени Я с вами, и ты не познал, что Отец во Мне и Я в Отце?» Поэтому, Неисследимый, со страхом взываю Тебе: Иисусе, Боже предвечный; Иисусе, Царю пресильный. Иисусе, Владыко долготерпеливый; Иисусе, Спасе премилостивый. Иисусе, хранитель мой преблагий; Иисусе, очисти грехи мои. Иисусе, отыми беззакония мои; Иисусе, отпусти неправды мои. Иисусе, надежда моя, не оставь меня; Иисусе, помощник мой, не отвергни меня. Иисусе, Создатель мой, не забудь меня; Иисусе, Пастырь мой, не погуби меня. Иисусе, Сыне Божий, помилуй меня.",
+   "uk": "Розум незбагненний збагнути шукаючи, Филип говорив: Господи, покажи нам Отця; а Ти до нього: Стільки часу Я з вами, і ти не пізнав, що Отець у Мені, а Я в Отці? Тому, Недослідимий, зі страхом взиваю до Тебе: Іісусе, Боже предвічний; Іісусе, Царю пресильний. Іісусе, Владико довготерпеливий; Іісусе, Спасе премилостивий. Іісусе, хранителю мій преблагий; Іісусе, очисти гріхи мої. Іісусе, відійми беззаконня мої; Іісусе, відпусти неправди мої. Іісусе, надіє моя, не залиш мене; Іісусе, помічнику мій, не відкинь мене. Іісусе, Творче мій, не забудь мене; Іісусе, Пастирю мій, не погуби мене. Іісусе, Сину Божий, помилуй мене.",
+   "en": "Seeking to understand the understanding past understanding, Philip said: Lord, show us the Father; and Thou didst say unto him: Have I been so long time with you, and hast thou not known that the Father is in Me, and I in the Father? Wherefore, O Unsearchable One, with fear I cry unto Thee: Jesus, God pre-eternal; Jesus, King most powerful. Jesus, Master long-suffering; Jesus, Saviour most merciful. Jesus, my most good Guardian; Jesus, cleanse my sins. Jesus, take away mine iniquities; Jesus, pardon mine unrighteousness. Jesus, my hope, forsake me not; Jesus, my helper, reject me not. Jesus, my Creator, forget me not; Jesus, my Shepherd, destroy me not. Jesus, Son of God, have mercy on me.",
+   "fonte": {
+    "cu": "MS1900 p. 368",
+    "ru": "Z1912 p. 210 (adaptado, só a 1.ª parte); invocações: própria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Jo 14,8–10. «очи́сти» = «purifica» (dec. 70)."
+  },
+  {
+   "id": "acj-027",
+   "tipo": "titulo",
+   "cu": "Конда́къ 3",
+   "pt": "Condácio 3",
+   "ru": "Кондак 3",
+   "uk": "Кондак 3",
+   "en": "Kontakion 3",
+   "fonte": {
+    "cu": "MS1900 p. 369",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-028",
+   "tipo": "oracao",
+   "cu": "Си́лою свы́ше апо́столы облекі́й, Іису́се, во Іерусали́мѣ сѣдя́щія, облецы́ и мене́, обнаже́ннаго отъ вся́каго благотворе́нія, теплото́ю Ду́ха Свята́го Твоего́ и даждь ми съ любо́вію пѣ́ти Тебѣ́: Аллилу́іа.",
+   "pt": "Ó Jesus, que revestiste de poder do alto os apóstolos que estavam em Jerusalém, reveste também a mim, despido de toda a boa obra, com o calor do Teu Espírito Santo, e concede-me cantar-Te com amor: Aleluia.",
+   "ru": "Иисусе, облекший силою свыше апостолов, пребывавших в Иерусалиме, облеки и меня, обнаженного от всякого доброго дела, теплотою Святого Твоего Духа и дай мне с любовью петь Тебе: Аллилуия.",
+   "uk": "Іісусе, що силою згори зодягнув апостолів, які перебували в Єрусалимі, зодягни і мене, оголеного від усякого доброго діла, теплом Духа Твого Святого і дай мені з любов'ю співати Тобі: Алилуя.",
+   "en": "O Jesus, Who didst clothe with power from on high the Apostles that tarried in Jerusalem, clothe me also, who am stripped of every good work, with the warmth of Thy Holy Spirit, and grant me to sing unto Thee with love: Alleluia.",
+   "fonte": {
+    "cu": "MS1900 p. 369",
+    "ru": "Z1912 p. 211 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Lc 24,49; At 2."
+  },
+  {
+   "id": "acj-029",
+   "tipo": "titulo",
+   "cu": "И́косъ 3",
+   "pt": "Ikos 3",
+   "ru": "Икос 3",
+   "uk": "Ікос 3",
+   "en": "Ikos 3",
+   "fonte": {
+    "cu": "MS1900 pp. 369–370",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-030",
+   "tipo": "oracao",
+   "cu": "Имѣ́яй бога́тство милосе́рдія, мытари́ и грѣ́шники, и невѣ́рныя призва́лъ еси́, Іису́се; не пре́зри и мене́ ны́нѣ, подо́бнаго имъ, но, я́ко многоцѣ́нное мѵ́ро, пріими́ пѣснь сію́: Іису́се, си́ло непобѣди́мая; Іису́се, ми́лосте безконе́чная. Іису́се, красото́ пресвѣ́тлая; Іису́се, любы́ неизрече́нная. Іису́се, Сы́не Бо́га Жива́го; Іису́се, поми́луй мя грѣ́шнаго. Іису́се, услы́ши мя въ беззако́ніихъ зача́таго; Іису́се, очи́сти мя во грѣсѣ́хъ рожде́ннаго. Іису́се, научи́ мя непотре́бнаго; Іису́се, освѣти́ мя те́мнаго. Іису́се, очи́сти мя скве́рнаго; Іису́се, возведи́ мя блу́днаго. Іису́се, Сы́не Бо́жій, поми́луй мя.",
+   "pt": "Rico em misericórdia, chamaste publicanos, pecadores e infiéis, ó Jesus; não desprezes também agora a mim, semelhante a eles, mas, como mirra preciosa, recebe este cântico: Jesus, força invencível; Jesus, misericórdia sem fim. Jesus, beleza luminosíssima; Jesus, amor inefável. Jesus, Filho do Deus vivo; Jesus, tem piedade de mim, pecador. Jesus, ouve-me, a mim que fui concebido em iniquidades; Jesus, purifica-me, a mim que nasci em pecados. Jesus, ensina-me, a mim, inútil; Jesus, ilumina-me, a mim, que estou nas trevas. Jesus, purifica-me, a mim, impuro; Jesus, reconduz-me, a mim, pródigo. Jesus, Filho de Deus, tem piedade de mim.",
+   "ru": "Имея богатство милосердия, Ты призвал мытарей, грешников и неверных, Иисусе; не презри и меня ныне, подобного им, но, как многоценное миро, прими эту песнь: Иисусе, сила непобедимая; Иисусе, милость бесконечная. Иисусе, красота пресветлая; Иисусе, любовь неизреченная. Иисусе, Сыне Бога Живого; Иисусе, помилуй меня, грешного. Иисусе, услышь меня, в беззакониях зачатого; Иисусе, очисти меня, во грехах рожденного. Иисусе, научи меня, непотребного; Иисусе, просвети меня, темного. Иисусе, очисти меня, скверного; Иисусе, возврати меня, блудного. Иисусе, Сыне Божий, помилуй меня.",
+   "uk": "Маючи багатство милосердя, Ти покликав митарів, грішників і невірних, Іісусе; не зневаж і мене нині, подібного до них, але, мов дорогоцінне миро, прийми пісню цю: Іісусе, сило непереможна; Іісусе, милосте безконечна. Іісусе, красо пресвітла; Іісусе, любове несказанна. Іісусе, Сину Бога Живого; Іісусе, помилуй мене, грішного. Іісусе, вислухай мене, в беззаконнях зачатого; Іісусе, очисти мене, в гріхах народженого. Іісусе, навчи мене, непотрібного; Іісусе, просвіти мене, темного. Іісусе, очисти мене, скверного; Іісусе, поверни мене, блудного. Іісусе, Сину Божий, помилуй мене.",
+   "en": "Having riches of compassion, Thou didst call publicans and sinners and unbelievers, O Jesus; despise not me also now, who am like unto them, but as precious myrrh accept this song: Jesus, invincible power; Jesus, mercy without end. Jesus, most radiant beauty; Jesus, ineffable love. Jesus, Son of the living God; Jesus, have mercy on me a sinner. Jesus, hear me who was conceived in iniquities; Jesus, cleanse me who was born in sins. Jesus, teach me who am unprofitable; Jesus, enlighten me who am darkened. Jesus, cleanse me who am defiled; Jesus, restore me, the prodigal. Jesus, Son of God, have mercy on me.",
+   "fonte": {
+    "cu": "MS1900 pp. 369–370",
+    "ru": "Z1912 p. 211 (adaptado, só a 1.ª parte); invocações: própria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«мѵ́ро» (MS1900 p. 369 com ѵ) = «mirra/unguento». «возведи́ мя блу́днаго» = «reconduz-me, a mim, pródigo» (Lc 15)."
+  },
+  {
+   "id": "acj-031",
+   "tipo": "titulo",
+   "cu": "Конда́къ 4",
+   "pt": "Condácio 4",
+   "ru": "Кондак 4",
+   "uk": "Кондак 4",
+   "en": "Kontakion 4",
+   "fonte": {
+    "cu": "MS1900 p. 370",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-032",
+   "tipo": "oracao",
+   "cu": "Бу́рю внутрь имѣ́яй помышле́ній сумни́тельныхъ, Петръ утопа́ше; узрѣ́въ же во пло́ти Тя су́ща, Іису́се, и по вода́мъ ходя́ща, позна́ Тя Бо́га и́стиннаго и, ру́ку спасе́нія получи́въ, рече́: Аллилу́іа.",
+   "pt": "Tendo por dentro uma tempestade de pensamentos de dúvida, Pedro afundava-se; mas, vendo-Te, ó Jesus, na carne e a caminhar sobre as águas, reconheceu-Te como Deus verdadeiro e, tendo recebido a mão da salvação, disse: Aleluia.",
+   "ru": "Имея внутри бурю сомнительных помыслов, Петр утопал; но, увидев Тебя, Иисусе, во плоти и идущим по водам, познал Тебя как истинного Бога и, получив руку спасения, сказал: Аллилуия.",
+   "uk": "Маючи всередині бурю сумнівних помислів, Петро тонув; та, побачивши Тебе, Іісусе, в тілі, що ходив по водах, пізнав Тебе, істинного Бога, і, прийнявши руку спасіння, мовив: Алилуя.",
+   "en": "Having within a tempest of doubting thoughts, Peter was sinking; but beholding Thee, O Jesus, in the flesh and walking upon the waters, he knew Thee to be the true God, and, receiving the hand of salvation, he said: Alleluia.",
+   "fonte": {
+    "cu": "MS1900 p. 370",
+    "ru": "Z1912 p. 211 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Mt 14,22–33. O texto em linha (azbyka) acrescenta aqui a legenda «Хождение Иисуса Христа по водам (Мф. 14:22–33)», que não pertence ao acatisto (omitida)."
+  },
+  {
+   "id": "acj-033",
+   "tipo": "titulo",
+   "cu": "И́косъ 4",
+   "pt": "Ikos 4",
+   "ru": "Икос 4",
+   "uk": "Ікос 4",
+   "en": "Ikos 4",
+   "fonte": {
+    "cu": "MS1900 pp. 370–371",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-034",
+   "tipo": "oracao",
+   "cu": "Слы́ша слѣпы́й мимоходя́ща Тя, Го́споди, путе́мъ вопія́ше: Іису́се, Сы́не Дави́довъ, поми́луй мя! И, призва́въ, отве́рзлъ еси́ о́чи его́. Просвѣти́ у́бо ми́лостію Твое́ю о́чи мы́сленныя се́рдца и мене́, вопію́ща Ти и глаго́люща: Іису́се, вы́шнихъ Созда́телю; Іису́се, ни́жнихъ Искупи́телю. Іису́се, преиспо́днихъ потреби́телю; Іису́се, всея́ тва́ри украси́телю. Іису́се, души́ моея́ утѣ́шителю; Іису́се, ума́ моего́ просвѣти́телю. Іису́се, се́рдца моего́ весе́ліе; Іису́се, тѣ́ла моего́ здра́віе. Іису́се, Спа́се мой, спаси́ мя; Іису́се, свѣ́те мой, просвѣти́ мя. Іису́се, му́ки вся́кія изба́ви мя; Іису́се, спаси́ мя, недосто́йнаго. Іису́се, Сы́не Бо́жій, поми́луй мя.",
+   "pt": "Ouvindo o cego que passavas, Senhor, pelo caminho, clamava: Jesus, Filho de David, tem piedade de mim! E, chamando-o, abriste-lhe os olhos. Ilumina, pois, com a Tua misericórdia os olhos espirituais do coração também de mim, que Te clamo e digo: Jesus, Criador dos que estão no alto; Jesus, Redentor dos que estão em baixo. Jesus, destruidor dos poderes infernais; Jesus, adornador de toda a criação. Jesus, consolador da minha alma; Jesus, iluminador do meu entendimento. Jesus, alegria do meu coração; Jesus, saúde do meu corpo. Jesus, meu Salvador, salva-me; Jesus, minha luz, ilumina-me. Jesus, livra-me de todo o tormento; Jesus, salva-me, a mim, indigno. Jesus, Filho de Deus, tem piedade de mim.",
+   "ru": "Слепой, услышав, что Ты, Господи, проходишь мимо по дороге, взывал: «Иисусе, Сыне Давидов, помилуй меня!» И, призвав его, Ты открыл ему очи. Просвети же милостью Твоею мысленные очи сердца и у меня, взывающего Тебе и говорящего: Иисусе, Создатель горних; Иисусе, Искупитель дольних. Иисусе, сокрушитель преисподних; Иисусе, украситель всякой твари. Иисусе, утешитель души моей; Иисусе, просветитель ума моего. Иисусе, веселие сердца моего; Иисусе, здравие тела моего. Иисусе, Спасе мой, спаси меня; Иисусе, свет мой, просвети меня. Иисусе, от всякой муки избавь меня; Иисусе, спаси меня, недостойного. Иисусе, Сыне Божий, помилуй меня.",
+   "uk": "Почувши сліпий, що Ти, Господи, проходиш мимо, при дорозі взивав: Іісусе, Сину Давидів, помилуй мене! І, покликавши, Ти відкрив йому очі. Просвіти ж милістю Твоєю мислені очі серця і мені, що взиваю до Тебе і кажу: Іісусе, горніх Творче; Іісусе, дольніх Викупителю. Іісусе, підземних сил переможцю; Іісусе, всього творіння прикрасителю. Іісусе, душі моєї утішителю; Іісусе, розуму мого просвітителю. Іісусе, серця мого радосте; Іісусе, тіла мого здоров'я. Іісусе, Спасе мій, спаси мене; Іісусе, світло моє, просвіти мене. Іісусе, від усякої муки визволи мене; Іісусе, спаси мене, недостойного. Іісусе, Сину Божий, помилуй мене.",
+   "en": "Hearing that Thou, O Lord, wast passing by, the blind man cried by the wayside: Jesus, Son of David, have mercy on me! And having called him, Thou didst open his eyes. Enlighten, then, by Thy mercy the spiritual eyes of my heart also, as I cry unto Thee and say: Jesus, Creator of those on high; Jesus, Redeemer of those below. Jesus, Vanquisher of the powers of the nether world; Jesus, Adorner of all creation. Jesus, Comforter of my soul; Jesus, Enlightener of my mind. Jesus, gladness of my heart; Jesus, health of my body. Jesus, my Saviour, save me; Jesus, my Light, enlighten me. Jesus, deliver me from all torment; Jesus, save me who am unworthy. Jesus, Son of God, have mercy on me.",
+   "fonte": {
+    "cu": "MS1900 pp. 370–371",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Mc 10,46–52. «преиспо́днихъ потреби́телю» = «destruidor dos (poderes) infernais»."
+  },
+  {
+   "id": "acj-035",
+   "tipo": "titulo",
+   "cu": "Конда́къ 5",
+   "pt": "Condácio 5",
+   "ru": "Кондак 5",
+   "uk": "Кондак 5",
+   "en": "Kontakion 5",
+   "fonte": {
+    "cu": "MS1900 pp. 371–372",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-036",
+   "tipo": "oracao",
+   "cu": "Богото́чною Кро́вію я́коже искупи́лъ еси́ насъ дре́вле отъ зако́нныя кля́твы, Іису́се, си́це изми́ насъ отъ сѣ́ти, е́юже змій запя́тъ ны страстьми́ плотски́ми, и блу́днымъ наважде́ніемъ, и злымъ уны́ніемъ, вопію́щія Ти: Аллилу́іа.",
+   "pt": "Assim como outrora nos resgataste da maldição da Lei com o Teu Sangue que mana de Deus, ó Jesus, assim também arranca-nos das redes com que a serpente nos enredou pelas paixões carnais, pelas sugestões de luxúria e pelo mau desânimo, a nós que Te clamamos: Aleluia.",
+   "ru": "Как Ты некогда искупил нас Боготочною Кровию от клятвы закона, Иисусе, так исторгни нас и из сетей, которыми змий опутал нас плотскими страстями, блудными наваждениями и злым унынием, взывающих Тебе: Аллилуия.",
+   "uk": "Як Ти колись викупив нас Боготочною Кров'ю від клятви закону, Іісусе, так вирви нас і з сітей, якими змій сплутав нас пристрастями тілесними, і блудними навіюваннями, і лихим унинням, нас, що взиваємо до Тебе: Алилуя.",
+   "en": "As of old Thou didst redeem us from the curse of the Law by Thy divinely-flowing Blood, O Jesus, so also rescue us from the snares wherewith the serpent hath entangled us through carnal passions, lustful suggestions and evil despondency, as we cry unto Thee: Alleluia.",
+   "fonte": {
+    "cu": "MS1900 pp. 371–372",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Gl 3,13."
+  },
+  {
+   "id": "acj-037",
+   "tipo": "titulo",
+   "cu": "И́косъ 5",
+   "pt": "Ikos 5",
+   "ru": "Икос 5",
+   "uk": "Ікос 5",
+   "en": "Ikos 5",
+   "fonte": {
+    "cu": "MS1900 pp. 372–373",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-038",
+   "tipo": "oracao",
+   "cu": "Ви́дѣвше о́троцы евре́йстіи во о́бразѣ человѣ́честѣмъ Созда́вшаго руко́ю человѣ́ка, и Влады́ку разумѣ́вше Его́, потща́шася вѣ́твьми угоди́ти Ему́, оса́нна вопію́ще. Мы же пѣснь прино́симъ Ти, глаго́люще: Іису́се, Бо́же и́стинный; Іису́се, Сы́не Дави́довъ. Іису́се, Царю́ пресла́вный; Іису́се, А́гнче непоро́чный. Іису́се, Па́стырю преди́вный; Іису́се, храни́телю во мла́дости мое́й. Іису́се, корми́телю во ю́ности мое́й; Іису́се, похвало́ въ ста́рости мое́й. Іису́се, наде́ждо въ сме́рти мое́й; Іису́се, животе́ по сме́рти мое́й. Іису́се, утѣше́ніе мое́ на судѣ́ Твое́мъ; Іису́се, жела́ніе мое́, не посрами́ мене́ тогда́. Іису́се, Сы́не Бо́жій, поми́луй мя.",
+   "pt": "Vendo os meninos hebreus, em forma humana, Aquele que com a Sua mão formou o homem, e reconhecendo-O como Soberano, apressaram-se a agradar-Lhe com ramos, clamando: Hossana! E nós oferecemos-Te um cântico, dizendo: Jesus, Deus verdadeiro; Jesus, Filho de David. Jesus, Rei gloriosíssimo; Jesus, Cordeiro imaculado. Jesus, Pastor admirabilíssimo; Jesus, guardião da minha infância. Jesus, sustento da minha juventude; Jesus, glória da minha velhice. Jesus, esperança na minha morte; Jesus, vida depois da minha morte. Jesus, minha consolação no Teu juízo; Jesus, meu desejo, não me envergonhes então. Jesus, Filho de Deus, tem piedade de mim.",
+   "ru": "Увидев в образе человеческом Создавшего рукою человека и уразумев в Нем Владыку, еврейские отроки поспешили угодить Ему ветвями, восклицая: «Осанна!» Мы же песнь приносим Тебе, говоря: Иисусе, Боже истинный; Иисусе, Сыне Давидов. Иисусе, Царю преславный; Иисусе, Агнче непорочный. Иисусе, Пастырь предивный; Иисусе, хранитель в младенчестве моем. Иисусе, кормитель в юности моей; Иисусе, похвала в старости моей. Иисусе, надежда в смерти моей; Иисусе, жизнь по смерти моей. Иисусе, утешение мое на суде Твоем; Иисусе, желание мое, не посрами меня тогда. Иисусе, Сыне Божий, помилуй меня.",
+   "uk": "Побачивши єврейські отроки в людському образі Того, Хто рукою створив людину, і розпізнавши в Ньому Владику, поспішили догодити Йому віттям, взиваючи: Осанна! Ми ж пісню приносимо Тобі, кажучи: Іісусе, Боже істинний; Іісусе, Сину Давидів. Іісусе, Царю преславний; Іісусе, Агнче непорочний. Іісусе, Пастирю предивний; Іісусе, хранителю мій у дитинстві. Іісусе, годувальнику мій у юності; Іісусе, похвало моя в старості. Іісусе, надіє в смерті моїй; Іісусе, життя по смерті моїй. Іісусе, розрадо моя на суді Твоєму; Іісусе, бажання моє, не осором мене тоді. Іісусе, Сину Божий, помилуй мене.",
+   "en": "Beholding in the form of man Him Who with His hand fashioned man, and knowing Him to be the Master, the Hebrew children hastened to please Him with branches, crying: Hosanna! And we offer Thee a song, saying: Jesus, true God; Jesus, Son of David. Jesus, most glorious King; Jesus, spotless Lamb. Jesus, most wondrous Shepherd; Jesus, Guardian of my childhood. Jesus, Nourisher of my youth; Jesus, praise of my old age. Jesus, my hope in death; Jesus, my life after death. Jesus, my comfort at Thy judgement; Jesus, my desire, put me not to shame then. Jesus, Son of God, have mercy on me.",
+   "fonte": {
+    "cu": "MS1900 pp. 372–373",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Mt 21,8–9. «живо́те по сме́рти мое́й» = «vida depois da minha morte»."
+  },
+  {
+   "id": "acj-039",
+   "tipo": "titulo",
+   "cu": "Конда́къ 6",
+   "pt": "Condácio 6",
+   "ru": "Кондак 6",
+   "uk": "Кондак 6",
+   "en": "Kontakion 6",
+   "fonte": {
+    "cu": "MS1900 p. 373",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-040",
+   "tipo": "oracao",
+   "cu": "Проповѣ́дникъ богоно́сныхъ вѣща́ніе и глаго́лы исполня́я, Іису́се, на земли́ я́влься и съ человѣ́ки Невмѣсти́мый пожи́лъ еси́, и болѣ́зни на́ша подъя́лъ еси́, отню́дуже ра́нами Твои́ми мы исцѣлѣ́вше, пѣ́ти навыко́хомъ: Аллилу́іа.",
+   "pt": "Cumprindo as palavras e os oráculos dos profetas portadores de Deus, ó Jesus, apareceste na terra e Tu, que não podes ser contido, habitaste com os homens; e tomaste sobre Ti as nossas enfermidades, de modo que, curados pelas Tuas chagas, aprendemos a cantar: Aleluia.",
+   "ru": "Исполняя проповедь и глаголы богоносных пророков, Иисусе, Ты явился на земле и, Невместимый, жил с людьми и понес наши болезни, так что мы, исцелившись Твоими ранами, научились петь: Аллилуия.",
+   "uk": "Сповнюючи проповідь і слова богоносних пророків, Іісусе, Ти явився на землі і, Невмістимий, з людьми пожив, і недуги наші підняв, тож ми, ранами Твоїми зцілені, навчилися співати: Алилуя.",
+   "en": "Fulfilling the sayings and words of the God-bearing Prophets, O Jesus, Thou didst appear on earth, and Thou, the Uncontainable, didst dwell with men, and didst take up our infirmities; whence, being healed by Thy wounds, we have learned to sing: Alleluia.",
+   "fonte": {
+    "cu": "MS1900 p. 373",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Is 53,4–5. «Пропо́вѣдникъ богоно́сныхъ вѣща́ніе» = «os oráculos dos pregadores portadores de Deus» (os profetas)."
+  },
+  {
+   "id": "acj-041",
+   "tipo": "titulo",
+   "cu": "И́косъ 6",
+   "pt": "Ikos 6",
+   "ru": "Икос 6",
+   "uk": "Ікос 6",
+   "en": "Ikos 6",
+   "fonte": {
+    "cu": "MS1900 pp. 373–374",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-042",
+   "tipo": "oracao",
+   "cu": "Возсія́ вселе́ннѣй просвѣще́ніе и́стины Твоея́, и отгна́ся лесть бѣсо́вская: и́доли бо, Спа́се нашъ, не терпя́ще Твоея́ крѣ́пости, падо́ша. Мы же, спасе́ніе получи́вше, вопіе́мъ Ти: Іису́се, и́стино, лесть отгоня́щая; Іису́се, свѣ́те, превы́шшій всѣхъ свѣ́тлостей. Іису́се, Царю́, премога́яй всѣхъ крѣ́пости; Іису́се, Бо́же, пребыва́яй въ ми́лости. Іису́се, Хлѣ́бе Живо́тный, насы́ти мя а́лчущаго; Іису́се, исто́чниче ра́зума, напо́й мя жа́ждущаго. Іису́се, оде́ждо весе́лія, одѣ́й мя тлѣ́ннаго; Іису́се, покро́ве ра́дости, покры́й мя недосто́йнаго. Іису́се, пода́телю прося́щимъ, даждь мнѣ плачъ за грѣхи́ моя́; Іису́се, обрѣ́теніе и́щущимъ, обря́щи ду́шу мою́. Іису́се, отве́рзителю толку́щимъ, отве́рзи се́рдце мое́ окая́нное; Іису́се, Искупи́телю грѣ́шныхъ, очи́сти беззако́нія моя́. Іису́се, Сы́не Бо́жій, поми́луй мя.",
+   "pt": "Resplandeceu no universo a iluminação da Tua verdade e foi expulso o engano demoníaco; pois os ídolos, ó nosso Salvador, não suportando a Tua força, caíram. E nós, tendo recebido a salvação, clamamos-Te: Jesus, verdade que afugentas o engano; Jesus, luz acima de todas as luzes. Jesus, Rei que superas toda a força; Jesus, Deus que permaneces na misericórdia. Jesus, pão da vida, sacia-me a mim, faminto; Jesus, fonte da sabedoria, dá de beber a mim, sedento. Jesus, veste da alegria, reveste-me a mim, corruptível; Jesus, abrigo da alegria, cobre-me a mim, indigno. Jesus, que dás aos que pedem, dá-me pranto pelos meus pecados; Jesus, achado dos que procuram, encontra a minha alma. Jesus, que abres aos que batem, abre o meu coração miserável; Jesus, Redentor dos pecadores, purifica as minhas iniquidades. Jesus, Filho de Deus, tem piedade de mim.",
+   "ru": "Воссияло во вселенной просвещение истины Твоей, и изгнано бесовское заблуждение: ибо идолы, Спасе наш, не вынося Твоей силы, пали. Мы же, получив спасение, взываем Тебе: Иисусе, истина, отгоняющая обман; Иисусе, свет, превосходящий всякое сияние. Иисусе, Царь, превосходящий всякую силу; Иисусе, Боже, пребывающий в милости. Иисусе, хлеб жизни, насыть меня, алчущего; Иисусе, источник разума, напои меня, жаждущего. Иисусе, одежда веселия, одень меня, тленного; Иисусе, покров радости, покрой меня, недостойного. Иисусе, дающий просящим, даруй мне плач о грехах моих; Иисусе, обретение ищущих, обрети душу мою. Иисусе, отверзающий стучащим, отверзи сердце мое окаянное; Иисусе, Искупитель грешных, очисти беззакония мои. Иисусе, Сыне Божий, помилуй меня.",
+   "uk": "Засяяло у всесвіті просвітлення істини Твоєї, і прогнана бісівська омана; бо ідоли, Спасе наш, не стерпівши сили Твоєї, впали. Ми ж, спасіння одержавши, взиваємо до Тебе: Іісусе, істино, що проганяєш оману; Іісусе, світло, вище за всі сяйва. Іісусе, Царю, що перевершуєш усяку силу; Іісусе, Боже, що перебуваєш у милості. Іісусе, Хлібе Животворчий, насити мене, голодного; Іісусе, джерело розуму, напій мене, спраглого. Іісусе, одежо веселощів, зодягни мене, тлінного; Іісусе, покрове радості, покрий мене, недостойного. Іісусе, що даєш тим, хто просить, дай мені плач за гріхи мої; Іісусе, знахідко тих, хто шукає, знайди душу мою. Іісусе, що відчиняєш тим, хто стукає, відкрий серце моє окаянне; Іісусе, Викупителю грішних, очисти беззаконня мої. Іісусе, Сину Божий, помилуй мене.",
+   "en": "The illumination of Thy truth shone forth upon the world, and demonic delusion was driven away; for the idols, O our Saviour, not enduring Thy strength, fell down. And we, having received salvation, cry unto Thee: Jesus, Truth that drivest away delusion; Jesus, Light above all radiance. Jesus, King surpassing all in strength; Jesus, God abiding in mercy. Jesus, Bread of life, fill me who am hungry; Jesus, Fountain of knowledge, give drink to me who am thirsty. Jesus, Garment of gladness, clothe me who am corruptible; Jesus, Shelter of joy, cover me who am unworthy. Jesus, Giver to them that ask, grant me tears for my sins; Jesus, Finding of them that seek, find my soul. Jesus, Opener to them that knock, open my wretched heart; Jesus, Redeemer of sinners, cleanse mine iniquities. Jesus, Son of God, have mercy on me.",
+   "fonte": {
+    "cu": "MS1900 pp. 373–374",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Variantes (dec. 62): MS1900 p. 374 «да́ждь ми плачъ» e «обрѣ́теніе и́щущихъ»; segue-se o texto atual «мнѣ» e «и́щущимъ». «Хлѣ́бе Живо́тный» = «pão da vida» (Jo 6,35). Mt 7,7."
+  },
+  {
+   "id": "acj-043",
+   "tipo": "titulo",
+   "cu": "Конда́къ 7",
+   "pt": "Condácio 7",
+   "ru": "Кондак 7",
+   "uk": "Кондак 7",
+   "en": "Kontakion 7",
+   "fonte": {
+    "cu": "MS1900 p. 375",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-044",
+   "tipo": "oracao",
+   "cu": "Хотя́ сокрове́нную та́йну отъ вѣ́ка откры́ти, я́ко овча́ на заколе́ніе веде́нъ былъ еси́, Іису́се, и я́ко а́гнецъ пря́мо стригу́щаго его́ безгла́сенъ, и я́ко Богъ изъ ме́ртвыхъ воскре́слъ еси́, и со сла́вою на небеса́ возне́слся еси́, и насъ совоздви́глъ еси́, зову́щихъ: Аллилу́іа.",
+   "pt": "Querendo revelar o mistério escondido desde os séculos, foste levado como ovelha ao matadouro, ó Jesus, e como cordeiro mudo diante do que o tosquia; e como Deus ressuscitaste dos mortos e com glória subiste aos céus, e connosco elevaste os que clamam: Aleluia.",
+   "ru": "Желая открыть тайну, сокрытую от века, Ты, как овца, веден был на заклание, Иисусе, и, как агнец безгласен пред стригущим его; и, как Бог, воскрес из мертвых и со славою вознесся на небеса, и нас совоздвиг, взывающих: Аллилуия.",
+   "uk": "Бажаючи відкрити таїну, від віку приховану, Ти, як вівця, ведений був на заколення, Іісусе, і, як ягня перед тим, хто його стриже, безголосий; і, як Бог, із мертвих воскрес, і зі славою на небеса вознісся, і нас разом підніс, що взиваємо: Алилуя.",
+   "en": "Desiring to reveal the mystery hidden from the ages, Thou wast led as a sheep to the slaughter, O Jesus, and as a lamb dumb before his shearer; and as God Thou didst rise from the dead, and with glory didst ascend into the heavens, and didst raise us up with Thee, who cry: Alleluia.",
+   "fonte": {
+    "cu": "MS1900 p. 375",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Is 53,7; Ef 2,6."
+  },
+  {
+   "id": "acj-045",
+   "tipo": "titulo",
+   "cu": "И́косъ 7",
+   "pt": "Ikos 7",
+   "ru": "Икос 7",
+   "uk": "Ікос 7",
+   "en": "Ikos 7",
+   "fonte": {
+    "cu": "MS1900 pp. 375–376",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-046",
+   "tipo": "oracao",
+   "cu": "Ди́вную показа́ тварь, явле́йся Творе́цъ намъ: безъ сѣ́мене отъ Дѣ́вы воплоти́ся, изъ гро́ба, печа́ти не руши́въ, воскре́се, и ко апо́столомъ, две́ремъ затворе́ннымъ, съ пло́тію вни́де. Тѣ́мже чудя́щеся, воспои́мъ: Іису́се, Сло́ве необъиме́нный; Іису́се, Сло́ве несогляда́емый. Іису́се, си́ло непостижи́мая; Іису́се, му́дросте недомы́слимая. Іису́се, Божество́ неопи́санное; Іису́се, госпо́дство неисче́тное. Іису́се, ца́рство непобѣди́мое; Іису́се, влады́чество безконе́чное. Іису́се, крѣ́посте высоча́йшая; Іису́се, вла́сте вѣ́чная. Іису́се, Тво́рче мой, уще́дри мя; Іису́се, Спа́се мой, спаси́ мя. Іису́се, Сы́не Бо́жій, поми́луй мя.",
+   "pt": "Uma criação admirável mostrou o Criador ao manifestar-Se a nós: sem semente encarnou de uma Virgem, ressuscitou do sepulcro sem romper os selos e entrou com a carne junto dos apóstolos, estando as portas fechadas. Por isso, maravilhados, cantemos: Jesus, Verbo incompreensível; Jesus, Verbo insondável. Jesus, força inapreensível; Jesus, sabedoria inconcebível. Jesus, divindade indescritível; Jesus, senhorio incalculável. Jesus, reino invencível; Jesus, domínio sem fim. Jesus, fortaleza altíssima; Jesus, poder eterno. Jesus, meu Criador, compadece-Te de mim; Jesus, meu Salvador, salva-me. Jesus, Filho de Deus, tem piedade de mim.",
+   "ru": "Дивное творение явил Творец, явившись нам: без семени воплотился от Девы, воскрес из гроба, не нарушив печатей, и во плоти вошел к апостолам при дверях затворенных. Поэтому, дивясь, воспоем: Иисусе, Слово необъятное; Иисусе, Слово неисследимое. Иисусе, сила непостижимая; Иисусе, премудрость недомыслимая. Иисусе, Божество неописуемое; Иисусе, господство неисчислимое. Иисусе, царство непобедимое; Иисусе, владычество бесконечное. Иисусе, крепость высочайшая; Иисусе, власть вечная. Иисусе, Творец мой, ущедри меня; Иисусе, Спасе мой, спаси меня. Иисусе, Сыне Божий, помилуй меня.",
+   "uk": "Дивне творіння показав Творець, явившись нам: без сім'я втілився від Діви, воскрес із гробу, не порушивши печатей, і в тілі ввійшов до апостолів, коли двері були зачинені. Тому, дивуючись, заспіваймо: Іісусе, Слово неосяжне; Іісусе, Слово недослідиме. Іісусе, сило незбагненна; Іісусе, мудросте недомисленна. Іісусе, Божество неописане; Іісусе, панування незчисленне. Іісусе, царство непереможне; Іісусе, владарювання безконечне. Іісусе, кріпосте найвища; Іісусе, владо вічна. Іісусе, Творче мій, ущедри мене; Іісусе, Спасе мій, спаси мене. Іісусе, Сину Божий, помилуй мене.",
+   "en": "The Creator showed forth a wondrous creation when He appeared unto us: without seed He took flesh of a Virgin, He rose from the tomb without breaking the seals, and entered bodily unto the Apostles, the doors being shut. Wherefore, marvelling, let us sing: Jesus, Word incomprehensible; Jesus, Word inscrutable. Jesus, Power unattainable; Jesus, Wisdom inconceivable. Jesus, Godhead indescribable; Jesus, Dominion incalculable. Jesus, Kingdom invincible; Jesus, Sovereignty without end. Jesus, Strength most high; Jesus, Power eternal. Jesus, my Creator, have compassion on me; Jesus, my Saviour, save me. Jesus, Son of God, have mercy on me.",
+   "fonte": {
+    "cu": "MS1900 pp. 375–376",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Jo 20,19–26. «необъиме́нный» = «que não pode ser abarcado»."
+  },
+  {
+   "id": "acj-047",
+   "tipo": "titulo",
+   "cu": "Конда́къ 8",
+   "pt": "Condácio 8",
+   "ru": "Кондак 8",
+   "uk": "Кондак 8",
+   "en": "Kontakion 8",
+   "fonte": {
+    "cu": "MS1900 p. 376",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-048",
+   "tipo": "oracao",
+   "cu": "Стра́нно Бо́га вочеловѣ́чшася ви́дяще, устрани́мся су́етнаго мі́ра и умъ на Боже́ственная возложи́мъ. Сего́ бо ра́ди Богъ на зе́млю сни́де, да насъ на небеса́ возведе́тъ, вопію́щихъ Ему́: Аллилу́іа.",
+   "pt": "Vendo Deus estranhamente feito homem, alheemo-nos do mundo vão e ponhamos o espírito nas coisas divinas; pois por isso Deus desceu à terra: para nos elevar aos céus, a nós que Lhe clamamos: Aleluia.",
+   "ru": "Видя Бога, странно вочеловечившегося, устранимся от суетного мира и устремим ум к Божественному: ибо для того Бог сошел на землю, чтобы возвести на небеса нас, взывающих Ему: Аллилуия.",
+   "uk": "Бачачи Бога, що дивно вочоловічився, відчужимося від суєтного світу і розум піднесімо до Божественного; бо для того Бог зійшов на землю, щоб нас підняти на небо, що взиваємо до Нього: Алилуя.",
+   "en": "Beholding God strangely become man, let us estrange ourselves from the vain world and set our mind upon divine things; for to this end God came down upon earth, that He might raise unto heaven us who cry unto Him: Alleluia.",
+   "fonte": {
+    "cu": "MS1900 p. 376",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-049",
+   "tipo": "titulo",
+   "cu": "И́косъ 8",
+   "pt": "Ikos 8",
+   "ru": "Икос 8",
+   "uk": "Ікос 8",
+   "en": "Ikos 8",
+   "fonte": {
+    "cu": "MS1900 p. 377",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-050",
+   "tipo": "oracao",
+   "cu": "Весь бѣ въ ни́жнихъ, и вы́шнихъ ника́коже отступи́ Неисче́тный, егда́ во́лею насъ ра́ди пострада́, и сме́ртію Свое́ю на́шу смерть умертви́, и воскресе́ніемъ живо́тъ дарова́ пою́щимъ: Іису́се, сла́досте серде́чная; Іису́се, крѣ́посте тѣле́сная. Іису́се, свѣ́тлосте душе́вная; Іису́се, быстрото́ у́мная. Іису́се, ра́досте со́вѣстная; Іису́се, наде́ждо извѣ́стная. Іису́се, па́мяте предвѣ́чная; Іису́се, похвало́ высо́кая. Іису́се, сла́во моя́ превознесе́нная; Іису́се, жела́ніе мое́, не отри́ни мене́. Іису́се, Па́стырю мой, взыщи́ мене́; Іису́се, Спа́се мой, спаси́ мене́. Іису́се, Сы́не Бо́жій, поми́луй мя.",
+   "pt": "Todo inteiro estava cá em baixo e de modo nenhum se ausentou do alto o Incalculável, quando voluntariamente sofreu por nós; e com a Sua morte deu morte à nossa morte e com a ressurreição concedeu a vida aos que cantam: Jesus, doçura do coração; Jesus, força do corpo. Jesus, claridade da alma; Jesus, agilidade do espírito. Jesus, alegria da consciência; Jesus, esperança segura. Jesus, memória eterna; Jesus, louvor sublime. Jesus, minha glória exaltada; Jesus, meu desejo, não me rejeites. Jesus, meu Pastor, procura-me; Jesus, meu Salvador, salva-me. Jesus, Filho de Deus, tem piedade de mim.",
+   "ru": "Весь был в дольних и нисколько не оставлял горних Неисчислимый, когда добровольно пострадал за нас и смертью Своею умертвил нашу смерть, а воскресением даровал жизнь поющим: Иисусе, сладость сердечная; Иисусе, крепость телесная. Иисусе, светлость душевная; Иисусе, быстрота умная. Иисусе, радость совести; Иисусе, надежда несомненная. Иисусе, память предвечная; Иисусе, похвала высокая. Иисусе, слава моя превознесенная; Иисусе, желание мое, не отвергни меня. Иисусе, Пастырь мой, взыщи меня; Иисусе, Спасе мой, спаси меня. Иисусе, Сыне Божий, помилуй меня.",
+   "uk": "Увесь був у дольніх і анітрохи не відступив від горніх Незчисленний, коли волею заради нас постраждав і смертю Своєю нашу смерть умертвив, а воскресінням дарував життя тим, що співають: Іісусе, солодкосте сердечна; Іісусе, кріпосте тілесна. Іісусе, світлосте душевна; Іісусе, швидкосте розуму. Іісусе, радосте сумління; Іісусе, надіє певна. Іісусе, пам'яте предвічна; Іісусе, похвало висока. Іісусе, славо моя превознесена; Іісусе, бажання моє, не відкинь мене. Іісусе, Пастирю мій, знайди мене; Іісусе, Спасе мій, спаси мене. Іісусе, Сину Божий, помилуй мене.",
+   "en": "Wholly was the Incalculable One among those below, yet in no wise was He absent from those above, when of His own will He suffered for our sake, and by His death put our death to death, and by His resurrection granted life unto them that sing: Jesus, sweetness of the heart; Jesus, strength of the body. Jesus, radiance of the soul; Jesus, swiftness of the mind. Jesus, joy of the conscience; Jesus, sure hope. Jesus, eternal remembrance; Jesus, lofty praise. Jesus, my exalted glory; Jesus, my desire, reject me not. Jesus, my Shepherd, seek me out; Jesus, my Saviour, save me. Jesus, Son of God, have mercy on me.",
+   "fonte": {
+    "cu": "MS1900 p. 377",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-051",
+   "tipo": "titulo",
+   "cu": "Конда́къ 9",
+   "pt": "Condácio 9",
+   "ru": "Кондак 9",
+   "uk": "Кондак 9",
+   "en": "Kontakion 9",
+   "fonte": {
+    "cu": "MS1900 p. 378",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-052",
+   "tipo": "oracao",
+   "cu": "Все естество́ а́нгельское безпреста́ни сла́витъ пресвято́е и́мя Твое́, Іису́се, на небеси́: Святъ, Святъ, Святъ, вопію́ще; мы же, грѣ́шніи на земли́ бре́нными устна́ми вопіе́мъ: Аллилу́іа.",
+   "pt": "Toda a natureza angélica glorifica sem cessar o Teu santíssimo nome, ó Jesus, no céu, clamando: Santo, Santo, Santo; e nós, pecadores, na terra, com lábios de barro clamamos: Aleluia.",
+   "ru": "Все естество ангельское непрестанно славит пресвятое имя Твое, Иисусе, на небесах, взывая: «Свят, Свят, Свят»; а мы, грешные, на земле бренными устами взываем: Аллилуия.",
+   "uk": "Уся природа ангельська безперестанно славить пресвяте ім'я Твоє, Іісусе, на небі, взиваючи: Свят, Свят, Свят; а ми, грішні, на землі тлінними устами взиваємо: Алилуя.",
+   "en": "All the nature of Angels unceasingly glorifieth Thy most holy name, O Jesus, in heaven, crying: Holy, Holy, Holy; and we sinners on earth with lips of clay cry: Alleluia.",
+   "fonte": {
+    "cu": "MS1900 p. 378",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-053",
+   "tipo": "titulo",
+   "cu": "И́косъ 9",
+   "pt": "Ikos 9",
+   "ru": "Икос 9",
+   "uk": "Ікос 9",
+   "en": "Ikos 9",
+   "fonte": {
+    "cu": "MS1900 pp. 378–379",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-054",
+   "tipo": "oracao",
+   "cu": "Вѣті́я многовѣща́нныя я́коже ры́бы безгла́сныя ви́димъ о Тебѣ́, Іису́се, Спа́се нашъ: недоумѣ́ютъ бо глаго́лати, ка́ко Богъ непрело́жный и человѣ́къ соверше́нный пребыва́еши? Мы же та́инству дивя́щеся, вопіе́мъ вѣ́рно: Іису́се, Бо́же предвѣ́чный; Іису́се, Царю́ ца́рствующихъ. Іису́се, Влады́ко владѣ́ющихъ; Іису́се, Судіе́ живы́хъ и ме́ртвыхъ. Іису́се, наде́ждо ненаде́жныхъ; Іису́се, утѣше́ніе пла́чущихъ. Іису́се, сла́во ни́щихъ; Іису́се, не осуди́ мя по дѣло́мъ мои́мъ. Іису́се, очи́сти мя по ми́лости Твое́й; Іису́се, отжени́ отъ мене́ уны́ніе. Іису́се, просвѣти́ моя́ мы́сли серде́чныя; Іису́се, даждь ми па́мять сме́ртную. Іису́се, Сы́не Бо́жій, поми́луй мя.",
+   "pt": "Os oradores eloquentes vemo-los, a Teu respeito, ó Jesus, nosso Salvador, como peixes mudos; pois não sabem dizer como permaneces Deus imutável e Homem perfeito. Mas nós, maravilhados com o mistério, clamamos com fé: Jesus, Deus pré-eterno; Jesus, Rei dos reis. Jesus, Senhor dos senhores; Jesus, Juiz dos vivos e dos mortos. Jesus, esperança dos desesperados; Jesus, consolação dos que choram. Jesus, glória dos pobres; Jesus, não me condenes segundo as minhas obras. Jesus, purifica-me segundo a Tua misericórdia; Jesus, afasta de mim o desânimo. Jesus, ilumina os pensamentos do meu coração; Jesus, dá-me a lembrança da morte. Jesus, Filho de Deus, tem piedade de mim.",
+   "ru": "Витий многовещанных мы видим безгласными, как рыбы, о Тебе, Иисусе, Спасе наш: ибо они недоумевают сказать, как Ты пребываешь Богом неизменным и Человеком совершенным. Мы же, дивясь таинству, верно взываем: Иисусе, Боже предвечный; Иисусе, Царю царствующих. Иисусе, Владыко владычествующих; Иисусе, Судия живых и мертвых. Иисусе, надежда безнадежных; Иисусе, утешение плачущих. Иисусе, слава нищих; Иисусе, не осуди меня по делам моим. Иисусе, очисти меня по милости Твоей; Иисусе, отгони от меня уныние. Иисусе, просвети помышления сердца моего; Иисусе, даруй мне память смертную. Иисусе, Сыне Божий, помилуй меня.",
+   "uk": "Красномовців багатослівних бачимо, мов риб безголосих, щодо Тебе, Іісусе, Спасе наш, бо не знають, як сказати, як Ти перебуваєш Богом незмінним і Людиною досконалою. Ми ж, дивуючись таїнству, вірно взиваємо: Іісусе, Боже предвічний; Іісусе, Царю царюючих. Іісусе, Владико владарюючих; Іісусе, Судде живих і мертвих. Іісусе, надіє безнадійних; Іісусе, утіхо плачучих. Іісусе, славо убогих; Іісусе, не осуди мене за ділами моїми. Іісусе, очисти мене за милістю Твоєю; Іісусе, віджени від мене зневіру. Іісусе, просвіти думки серця мого; Іісусе, дай мені пам'ять смертну. Іісусе, Сину Божий, помилуй мене.",
+   "en": "We behold most eloquent orators mute as fish concerning Thee, O Jesus our Saviour; for they are at a loss to tell how Thou remainest unchangeable God and perfect Man. But we, marvelling at the mystery, cry out faithfully: Jesus, God pre-eternal; Jesus, King of kings. Jesus, Lord of lords; Jesus, Judge of the living and the dead. Jesus, hope of the hopeless; Jesus, comfort of them that mourn. Jesus, glory of the poor; Jesus, condemn me not according to my deeds. Jesus, cleanse me according to Thy mercy; Jesus, drive away despondency from me. Jesus, enlighten the thoughts of my heart; Jesus, grant me remembrance of death. Jesus, Son of God, have mercy on me.",
+   "fonte": {
+    "cu": "MS1900 pp. 378–379",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«па́мять сме́ртную» = «a lembrança da morte» (μνήμη θανάτου)."
+  },
+  {
+   "id": "acj-055",
+   "tipo": "titulo",
+   "cu": "Конда́къ 10",
+   "pt": "Condácio 10",
+   "ru": "Кондак 10",
+   "uk": "Кондак 10",
+   "en": "Kontakion 10",
+   "fonte": {
+    "cu": "MS1900 p. 379",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-056",
+   "tipo": "oracao",
+   "cu": "Спасти́ хотя́ міръ, Восто́че восто́комъ, къ те́мному за́паду, естеству́ на́шему прише́дъ, смири́лся еси́ до сме́рти; тѣ́мже превознесе́ся и́мя Твое́ па́че вся́каго и́мене, и отъ всѣхъ колѣ́нъ небе́сныхъ и земны́хъ слы́шиши: Аллилу́іа.",
+   "pt": "Querendo salvar o mundo, ó Oriente dos orientes, vieste ao ocidente tenebroso da nossa natureza e humilhaste-Te até à morte; por isso o Teu nome foi exaltado acima de todo o nome, e de todas as tribos do céu e da terra ouves: Aleluia.",
+   "ru": "Желая спасти мир, Восток востоков, придя к темному западу — нашему естеству, Ты смирил Себя до смерти; поэтому превознесено имя Твое превыше всякого имени, и от всех племен небесных и земных Ты слышишь: Аллилуия.",
+   "uk": "Бажаючи спасти світ, Сходе сходів, прийшовши до темного заходу — нашого єства, Ти упокорив Себе аж до смерті; тому вознеслося ім'я Твоє понад усяке ім'я, і від усіх колін небесних і земних Ти чуєш: Алилуя.",
+   "en": "Desiring to save the world, O Dayspring of the East, Thou didst come to the dark west of our nature, and didst humble Thyself even unto death; wherefore Thy name is exalted above every name, and from all the tribes of heaven and earth Thou hearest: Alleluia.",
+   "fonte": {
+    "cu": "MS1900 p. 379",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Fl 2,8–10. «Восто́че восто́комъ» = «Oriente dos orientes» (Cristo, Zc 6,12; Lc 1,78). «колѣ́нъ» = «tribos» (não «joelhos»)."
+  },
+  {
+   "id": "acj-057",
+   "tipo": "titulo",
+   "cu": "И́косъ 10",
+   "pt": "Ikos 10",
+   "ru": "Икос 10",
+   "uk": "Ікос 10",
+   "en": "Ikos 10",
+   "fonte": {
+    "cu": "MS1900 p. 380",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-058",
+   "tipo": "oracao",
+   "cu": "Царю́ Превѣ́чный, Утѣ́шителю, Христе́ и́стинный, очи́сти ны отъ вся́кія скве́рны, я́коже очи́стилъ еси́ де́сять прокаже́нныхъ, и исцѣли́ ны, я́коже исцѣли́лъ еси́ сребролюби́вую ду́шу Закхе́а мытаря́, да вопіе́мъ Ти, во умиле́ніи зову́ще: Іису́се, сокро́вище нетлѣ́нное; Іису́се, бога́тство неистощи́мое. Іису́се, пи́ще крѣ́пкая; Іису́се, питіе́ неисчерпа́емое. Іису́се, ни́щихъ одѣя́ніе; Іису́се, вдовъ заступле́ніе. Іису́се, си́рыхъ защи́тниче; Іису́се, тружда́ющихся по́моще. Іису́се, стра́нныхъ наста́вниче; Іису́се, пла́вающихъ ко́рмчій. Іису́се, бу́рныхъ оти́шіе; Іису́се Бо́же, воздви́гни мя па́дшаго. Іису́се, Сы́не Бо́жій, поми́луй мя.",
+   "pt": "Rei eterno, Consolador, ó Cristo verdadeiro, purifica-nos de toda a impureza, como purificaste os dez leprosos, e cura-nos, como curaste a alma avarenta de Zaqueu, o publicano, para que Te clamemos com compunção, dizendo: Jesus, tesouro incorruptível; Jesus, riqueza inesgotável. Jesus, alimento forte; Jesus, bebida inexaurível. Jesus, vestido dos pobres; Jesus, amparo das viúvas. Jesus, defensor dos órfãos; Jesus, auxílio dos que trabalham. Jesus, guia dos peregrinos; Jesus, timoneiro dos navegantes. Jesus, bonança dos que estão na tempestade; Jesus Deus, levanta-me a mim, caído. Jesus, Filho de Deus, tem piedade de mim.",
+   "ru": "Царь Превечный, Утешитель, Христе истинный, очисти нас от всякой скверны, как Ты очистил десять прокаженных, и исцели нас, как исцелил сребролюбивую душу мытаря Закхея, чтобы мы взывали Тебе, в умилении восклицая: Иисусе, сокровище нетленное; Иисусе, богатство неистощимое. Иисусе, пища крепкая; Иисусе, питие неисчерпаемое. Иисусе, одеяние нищих; Иисусе, заступление вдов. Иисусе, защитник сирот; Иисусе, помощь труждающихся. Иисусе, наставник странников; Иисусе, кормчий плавающих. Иисусе, тишина обуреваемых; Иисусе Боже, воздвигни меня, падшего. Иисусе, Сыне Божий, помилуй меня.",
+   "uk": "Царю Превічний, Утішителю, Христе істинний, очисти нас від усякої скверни, як Ти очистив десятьох прокажених, і зціли нас, як зцілив сріблолюбну душу митаря Закхея, щоб ми взивали до Тебе, в розчуленні кажучи: Іісусе, скарбе нетлінний; Іісусе, багатство невичерпне. Іісусе, їжо міцна; Іісусе, напою невичерпний. Іісусе, одежо убогих; Іісусе, заступництво вдів. Іісусе, захиснику сиріт; Іісусе, поміч трудящих. Іісусе, наставнику подорожніх; Іісусе, керманичу плаваючих. Іісусе, тишо для тих, кого буря захопила; Іісусе Боже, підніми мене, впалого. Іісусе, Сину Божий, помилуй мене.",
+   "en": "O King pre-eternal, O Comforter, O true Christ, cleanse us from all defilement, as Thou didst cleanse the ten lepers, and heal us, as Thou didst heal the covetous soul of Zacchaeus the publican, that we may cry unto Thee with compunction, saying: Jesus, incorruptible treasure; Jesus, inexhaustible wealth. Jesus, strong food; Jesus, unfailing drink. Jesus, raiment of the poor; Jesus, protection of widows. Jesus, defender of orphans; Jesus, help of those that labour. Jesus, guide of strangers; Jesus, pilot of voyagers. Jesus, calm of the storm-tossed; Jesus God, raise me up who am fallen. Jesus, Son of God, have mercy on me.",
+   "fonte": {
+    "cu": "MS1900 p. 380",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Lc 17,12–19; 19,1–10."
+  },
+  {
+   "id": "acj-059",
+   "tipo": "titulo",
+   "cu": "Конда́къ 11",
+   "pt": "Condácio 11",
+   "ru": "Кондак 11",
+   "uk": "Кондак 11",
+   "en": "Kontakion 11",
+   "fonte": {
+    "cu": "MS1900 p. 381",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-060",
+   "tipo": "oracao",
+   "cu": "Пѣ́ніе всеумиле́нное приношу́ Ти недосто́йный, вопію́ Ти я́ко ханане́а: Іису́се, поми́луй мя; не дщерь бо, но плоть и́мамъ страстьми́ лю́тѣ бѣся́щуюся и я́ростію пали́мую, и исцѣле́ніе даждь вопію́щу Ти: Аллилу́іа.",
+   "pt": "Ofereço-Te, eu indigno, um cântico cheio de compunção e clamo-Te como a cananeia: Jesus, tem piedade de mim; pois não é uma filha, mas a carne que tenho cruelmente atormentada pelas paixões e abrasada pela ira; e dá a cura a quem Te clama: Aleluia.",
+   "ru": "Пение всеумиленное приношу Тебе я, недостойный, взываю Тебе, как хананеянка: «Иисусе, помилуй меня!» Ибо не дочь, но плоть имею, люто беснующуюся страстями и палимую яростью, — и даруй исцеление мне, взывающему Тебе: Аллилуия.",
+   "uk": "Спів зворушливий приношу Тобі я, недостойний, взиваю до Тебе, як хананеянка: Іісусе, помилуй мене; бо не дочку, а тіло маю, що люто біснується пристрастями і палає гнівом, — і дай зцілення мені, що взиваю до Тебе: Алилуя.",
+   "en": "I, unworthy, offer Thee a song full of compunction, and I cry unto Thee like the Canaanite woman: Jesus, have mercy on me; for not a daughter, but my flesh do I have, cruelly vexed by passions and inflamed with wrath; and grant healing unto me who cry unto Thee: Alleluia.",
+   "fonte": {
+    "cu": "MS1900 p. 381",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Mt 15,22. Variante (dec. 62): MS1900 p. 381 «исцѣле́нія да́ждь» (genitivo); segue-se o texto atual «исцѣле́ніе»."
+  },
+  {
+   "id": "acj-061",
+   "tipo": "titulo",
+   "cu": "И́косъ 11",
+   "pt": "Ikos 11",
+   "ru": "Икос 11",
+   "uk": "Ікос 11",
+   "en": "Ikos 11",
+   "fonte": {
+    "cu": "MS1900 pp. 381–382",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-062",
+   "tipo": "oracao",
+   "cu": "Свѣтопода́тельна свѣти́льника су́щимъ во тьмѣ неразу́мія, пре́жде гоня́й Тя Па́велъ, богоразу́мнаго гла́са си́лу внуши́ и душе́вную быстроту́ уясни́; си́це и мене́ те́мныя зѣ́ницы душе́вныя просвѣти́, зову́ща: Іису́се, Царю́ мой прекрѣ́пкій; Іису́се, Бо́же мой преси́льный. Іису́се, Го́споди мой пребезсме́ртный; Іису́се, Созда́телю мой пресла́вный. Іису́се, Наста́вниче мой предо́брый; Іису́се, Па́стырю мой преще́дрый. Іису́се, Влады́ко мой преми́лостивый; Іису́се, Спа́се мой премилосе́рдый. Іису́се, просвѣти́ моя́ чу́вствія, потемне́нныя страстьми́; Іису́се, исцѣли́ мое́ тѣ́ло, острупле́нное грѣхми́. Іису́се, очи́сти мой умъ отъ по́мысловъ су́етныхъ; Іису́се, сохрани́ се́рдце мое́ отъ по́хотей лука́выхъ. Іису́се, Сы́не Бо́жій, поми́луй мя.",
+   "pt": "Paulo, que outrora Te perseguia, ouviu o poder da voz que dá a conhecer Deus — Tu, Luzeiro que dás a luz aos que estão nas trevas da ignorância — e clarificou a agilidade da sua alma; assim também ilumina as pupilas obscurecidas da minha alma, que clama: Jesus, meu Rei fortíssimo; Jesus, meu Deus poderosíssimo. Jesus, meu Senhor imortalíssimo; Jesus, meu Criador gloriosíssimo. Jesus, meu Guia boníssimo; Jesus, meu Pastor generosíssimo. Jesus, meu Soberano misericordiosíssimo; Jesus, meu Salvador compassivíssimo. Jesus, ilumina os meus sentidos, obscurecidos pelas paixões; Jesus, cura o meu corpo, coberto de chagas pelos pecados. Jesus, purifica o meu espírito dos pensamentos vãos; Jesus, guarda o meu coração dos desejos malignos. Jesus, Filho de Deus, tem piedade de mim.",
+   "ru": "Светоподательного Светильника для сущих во тьме неведения — Тебя, прежде гнавший Тебя Павел услышал в силе богопросвещающего гласа и прояснил быстроту души; так и мои темные очи душевные просвети, взывающего: Иисусе, Царь мой прекрепкий; Иисусе, Боже мой пресильный. Иисусе, Господи мой пребессмертный; Иисусе, Создатель мой преславный. Иисусе, Наставник мой преблагий; Иисусе, Пастырь мой прещедрый. Иисусе, Владыко мой премилостивый; Иисусе, Спасе мой премилосердый. Иисусе, просвети мои чувства, помраченные страстями; Иисусе, исцели мое тело, покрытое струпьями грехов. Иисусе, очисти мой ум от помыслов суетных; Иисусе, сохрани мое сердце от похотей лукавых. Иисусе, Сыне Божий, помилуй меня.",
+   "uk": "Світлоподавця Світильника для сущих у темряві незнання — Тебе, Павло, що колись гнав Тебе, почув у силі богопросвітлюючого голосу і прояснив швидкість душі; так і мої темні зіниці душевні просвіти, мене, що взиваю: Іісусе, Царю мій прекріпкий; Іісусе, Боже мій пресильний. Іісусе, Господи мій пребезсмертний; Іісусе, Творче мій преславний. Іісусе, Наставниче мій предобрий; Іісусе, Пастирю мій прещедрий. Іісусе, Владико мій премилостивий; Іісусе, Спасе мій премилосердий. Іісусе, просвіти мої чуття, затемнені пристрастями; Іісусе, зціли моє тіло, вкрите струпами гріхів. Іісусе, очисти мій розум від помислів суєтних; Іісусе, збережи серце моє від похотей лукавих. Іісусе, Сину Божий, помилуй мене.",
+   "en": "Paul, who aforetime persecuted Thee, the Light-giving Lamp of them that are in the darkness of ignorance, heeded the power of the God-revealing voice, and his soul's swiftness was made clear; so also enlighten the darkened eyes of my soul, as I cry: Jesus, my King most mighty; Jesus, my God most powerful. Jesus, my Lord most immortal; Jesus, my Creator most glorious. Jesus, my Guide most good; Jesus, my Shepherd most bountiful. Jesus, my Master most merciful; Jesus, my Saviour most compassionate. Jesus, enlighten my senses darkened by passions; Jesus, heal my body scarred by sins. Jesus, cleanse my mind from vain thoughts; Jesus, keep my heart from evil desires. Jesus, Son of God, have mercy on me.",
+   "fonte": {
+    "cu": "MS1900 pp. 381–382",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "At 9,1–18. Variantes (dec. 62): MS1900 p. 382 «чу́вствія, потемне́нная» e «острупле́нное грѣха́ми»; segue-se o texto atual «потемне́нныя» e «грѣхми́»."
+  },
+  {
+   "id": "acj-063",
+   "tipo": "titulo",
+   "cu": "Конда́къ 12",
+   "pt": "Condácio 12",
+   "ru": "Кондак 12",
+   "uk": "Кондак 12",
+   "en": "Kontakion 12",
+   "fonte": {
+    "cu": "MS1900 pp. 382–383",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-064",
+   "tipo": "oracao",
+   "cu": "Благода́ть пода́ждь ми, всѣхъ долго́въ рѣши́телю, Іису́се, и пріими́ мя ка́ющася, я́коже прія́лъ еси́ Петра́, отве́ргшагося Тебе́, и призови́ мя уныва́ющаго, я́коже дре́вле Па́вла, гоня́ща Тя, и услы́ши мя, вопію́ща Ти: Аллилу́іа.",
+   "pt": "Concede-me a graça, ó Jesus, que perdoas todas as dívidas, e recebe-me arrependido, como recebeste Pedro, que Te negou; e chama-me a mim, desanimado, como outrora a Paulo, que Te perseguia; e ouve-me, a mim que Te clamo: Aleluia.",
+   "ru": "Благодать подай мне, Решитель всех долгов, Иисусе, и прими меня кающегося, как Ты принял отрекшегося от Тебя Петра, и призови меня, унывающего, как некогда Павла, гнавшего Тебя, и услышь меня, взывающего Тебе: Аллилуия.",
+   "uk": "Благодать подай мені, Розрішителю всіх боргів, Іісусе, і прийми мене, що каюся, як прийняв Ти Петра, що відрікся від Тебе, і поклич мене, зневіреного, як колись Павла, що гнав Тебе, і почуй мене, що взиваю до Тебе: Алилуя.",
+   "en": "Grant me grace, O Jesus, Who forgivest all debts, and receive me in repentance, as Thou didst receive Peter who denied Thee; and call me, who am despondent, as of old Thou didst call Paul who persecuted Thee; and hear me as I cry unto Thee: Alleluia.",
+   "fonte": {
+    "cu": "MS1900 pp. 382–383",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-065",
+   "tipo": "titulo",
+   "cu": "И́косъ 12",
+   "pt": "Ikos 12",
+   "ru": "Икос 12",
+   "uk": "Ікос 12",
+   "en": "Ikos 12",
+   "fonte": {
+    "cu": "MS1900 pp. 383–384",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-066",
+   "tipo": "oracao",
+   "cu": "Пою́ще Твое́ вочеловѣ́ченіе, восхваля́емъ Тя вси, и вѣ́руемъ со Ѳомо́ю, я́ко Госпо́дь и Богъ еси́, сѣдя́й со Отце́мъ и хотя́й суди́ти живы́мъ и ме́ртвымъ. Тогда́ у́бо сподо́би мя десна́го стоя́нія, вопію́щаго: Іису́се, Царю́ предвѣ́чный, поми́луй мя; Іису́се, цвѣ́те благово́нный, облагоуха́й мя. Іису́се, теплото́ люби́мая, согрѣ́й мя; Іису́се, хра́ме предвѣ́чный, покры́й мя. Іису́се, оде́ждо свѣ́тлая, украси́ мя; Іису́се, би́сере честны́й, осія́й мя. Іису́се, ка́меню драгі́й, просвѣти́ мя; Іису́се, со́лнце пра́вды, освѣти́ мя. Іису́се, свѣ́те святы́й, облиста́й мя; Іису́се, болѣ́зни душе́вныя и тѣле́сныя изба́ви мя. Іису́се, изъ руки́ сопроти́вныя изми́ мя; Іису́се, огня́ неугаси́маго и про́чихъ вѣ́чныхъ мукъ свободи́ мя. Іису́се, Сы́не Бо́жій, поми́луй мя.",
+   "pt": "Cantando a Tua encarnação, todos Te louvamos e cremos com Tomé que és Senhor e Deus, que estás sentado com o Pai e hás de vir julgar os vivos e os mortos. Então, pois, torna-me digno de estar à direita, a mim que clamo: Jesus, Rei pré-eterno, tem piedade de mim; Jesus, flor perfumada, envolve-me com o Teu perfume. Jesus, calor amado, aquece-me; Jesus, templo pré-eterno, abriga-me. Jesus, veste luminosa, adorna-me; Jesus, pérola preciosa, faz-me resplandecer. Jesus, pedra preciosa, ilumina-me; Jesus, Sol de justiça, alumia-me. Jesus, luz santa, faz-me brilhar; Jesus, livra-me das doenças da alma e do corpo. Jesus, arranca-me da mão do adversário; Jesus, livra-me do fogo inextinguível e dos outros tormentos eternos. Jesus, Filho de Deus, tem piedade de mim.",
+   "ru": "Воспевая Твое вочеловечение, восхваляем Тебя все и веруем с Фомою, что Ты — Господь и Бог, сидящий со Отцом и грядущий судить живых и мертвых. Тогда удостой меня стояния одесную, взывающего: Иисусе, Царь предвечный, помилуй меня; Иисусе, цвет благовонный, облагоухай меня. Иисусе, теплота любимая, согрей меня; Иисусе, храм предвечный, покрой меня. Иисусе, одежда светлая, укрась меня; Иисусе, жемчужина драгоценная, осияй меня. Иисусе, камень драгоценный, просвети меня; Иисусе, солнце правды, освети меня. Иисусе, свет святой, озари меня; Иисусе, от болезней душевных и телесных избавь меня. Иисусе, из руки противника исторгни меня; Иисусе, от огня неугасимого и прочих вечных мук освободи меня. Иисусе, Сыне Божий, помилуй меня.",
+   "uk": "Оспівуючи Твоє вочоловічення, хвалимо Тебе всі і віруємо з Хомою, що Ти — Господь і Бог, що сидиш з Отцем і прийдеш судити живих і мертвих. Тоді сподоби мене стояння праворуч, мене, що взиваю: Іісусе, Царю предвічний, помилуй мене; Іісусе, цвіте пахучий, напахти мене. Іісусе, теплото улюблена, зігрій мене; Іісусе, храме предвічний, покрий мене. Іісусе, одежо світла, прикрась мене; Іісусе, перло дорогоцінна, осяй мене. Іісусе, каменю дорогоцінний, просвіти мене; Іісусе, сонце правди, освіти мене. Іісусе, світло святе, осяй мене; Іісусе, від недуг душевних і тілесних визволи мене. Іісусе, з руки супротивника вирви мене; Іісусе, від вогню невгасимого та інших вічних мук звільни мене. Іісусе, Сину Божий, помилуй мене.",
+   "en": "Hymning Thine incarnation, we all praise Thee, and with Thomas we believe that Thou art Lord and God, Who sittest with the Father and shalt come to judge the living and the dead. Then vouchsafe me to stand at Thy right hand, as I cry: Jesus, King pre-eternal, have mercy on me; Jesus, fragrant Flower, make me fragrant. Jesus, beloved Warmth, warm me; Jesus, pre-eternal Temple, shelter me. Jesus, radiant Garment, adorn me; Jesus, precious Pearl, shine upon me. Jesus, precious Stone, enlighten me; Jesus, Sun of righteousness, illumine me. Jesus, holy Light, make me radiant; Jesus, deliver me from infirmities of soul and body. Jesus, rescue me from the hand of the adversary; Jesus, free me from the unquenchable fire and the other eternal torments. Jesus, Son of God, have mercy on me.",
+   "fonte": {
+    "cu": "MS1900 pp. 383–384",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Jo 20,28. Variante (dec. 62): MS1900 p. 383 «теплото́ люби́мая, огрѣ́й мя»; segue-se o texto atual «согрѣ́й». A ordem das invocações finais segue o texto atual (as de MS1900 são as mesmas)."
+  },
+  {
+   "id": "acj-067",
+   "tipo": "titulo",
+   "cu": "Конда́къ 13",
+   "pt": "Condácio 13",
+   "ru": "Кондак 13",
+   "uk": "Кондак 13",
+   "en": "Kontakion 13",
+   "fonte": {
+    "cu": "MS1900 pp. 384–385",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-068",
+   "tipo": "oracao",
+   "cu": "О, пресла́дкій и всеще́дрый Іису́се! Пріими́ ны́нѣ ма́лое моле́ніе сіе́ на́ше, я́коже прія́лъ еси́ вдови́цы двѣ ле́птѣ, и сохрани́ достоя́ніе Твое́ отъ врагъ ви́димыхъ и неви́димыхъ, отъ наше́ствія иноплеме́нникъ, отъ неду́га и гла́да, отъ вся́кія ско́рби и смертоно́сныя ра́ны, и гряду́щія изми́ му́ки всѣхъ, вопію́щихъ Ти: Аллилу́іа.",
+   "pt": "Ó Jesus dulcíssimo e generosíssimo! Recebe agora esta nossa pequena súplica, como recebeste as duas moedas da viúva, e guarda a Tua herança dos inimigos visíveis e invisíveis, da invasão de estrangeiros, da doença e da fome, de toda a aflição e ferida mortal, e livra do tormento futuro todos os que Te clamam: Aleluia.",
+   "ru": "О пресладкий и всещедрый Иисусе! Прими ныне это малое наше моление, как принял Ты две лепты вдовицы, и сохрани достояние Твое от врагов видимых и невидимых, от нашествия иноплеменников, от болезни и голода, от всякой скорби и смертоносной раны, и избавь от будущей муки всех, взывающих Тебе: Аллилуия.",
+   "uk": "О пресолодкий і всещедрий Іісусе! Прийми нині це мале наше моління, як прийняв Ти дві лепти вдовиці, і збережи надбання Твоє від ворогів видимих і невидимих, від навали чужинців, від недуги й голоду, від усякої скорботи і смертоносної рани, і від майбутньої муки визволи всіх, що взивають до Тебе: Алилуя.",
+   "en": "O most sweet and all-bountiful Jesus! Accept now this our small supplication, as Thou didst accept the widow's two mites, and preserve Thine inheritance from enemies visible and invisible, from the invasion of foreigners, from sickness and famine, from every sorrow and mortal wound, and deliver from the torment to come all that cry unto Thee: Alleluia.",
+   "fonte": {
+    "cu": "MS1900 pp. 384–385",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Lê-se três vezes (MS1900 p. 385: «[Трижды]»). Mc 12,41–44.",
+   "repetir": 3
+  },
+  {
+   "id": "acj-069",
+   "tipo": "rubrica",
+   "cu": "Та́же па́ки чте́тся и́косъ 1-й и конда́къ 1-й.",
+   "pt": "Em seguida lê-se de novo o ikos 1 e o condácio 1.",
+   "ru": "Затем снова читаются 1-й икос и 1-й кондак.",
+   "uk": "Потім знову читаються 1-й ікос і 1-й кондак.",
+   "en": "Then the first Ikos and the first Kontakion are read again.",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Rubrica própria (dec. 62: texto atual). ⚠ resolvido (doc. 03 §5.5): MS1900 p. 385 traz só «[Трижды]» depois do condácio 13 e passa logo à oração (o mesmo em MS1900 p. 407 e em Слово жизни, 1917, p. 103). A repetição do ikos 1 e do condácio 1 é prática das edições atuais (azbyka: «Этот кондак читается трижды, затем икос 1-й и кондак 1-й»); segue-se o texto atual."
+  },
+  {
+   "id": "acj-070",
+   "tipo": "titulo",
+   "cu": "И́косъ 1",
+   "pt": "Ikos 1",
+   "ru": "Икос 1",
+   "uk": "Ікос 1",
+   "en": "Ikos 1",
+   "fonte": {
+    "cu": "MS1900 pp. 365–367",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-071",
+   "tipo": "oracao",
+   "cu": "А́нгеловъ Тво́рче и Го́споди силъ, отве́рзи ми недоумѣ́нный умъ и язы́къ на похвалу́ пречи́стаго Твоего́ и́мене, я́коже глухо́му и гугни́вому дре́вле слухъ и язы́къ отве́рзлъ еси́, и глаго́лаше, зовы́й такова́я: Іису́се пречу́дный, а́нгеловъ удивле́ніе; Іису́се преси́льный, прароди́телей избавле́ніе. Іису́се пресла́дкій, патріа́рховъ велича́ніе; Іису́се пресла́вный, вѣ́рныхъ укрѣпле́ніе. Іису́се прелюби́мый, проро́ковъ исполне́ніе; Іису́се преди́вный, му́чениковъ крѣ́посте. Іису́се прети́хій, мона́ховъ ра́досте; Іису́се преми́лостивый, пресви́теровъ сла́досте. Іису́се премилосе́рдый, по́стниковъ воздержа́ніе; Іису́се пресла́достный, преподо́бныхъ ра́дованіе. Іису́се пречестны́й, дѣ́вственныхъ цѣлому́дріе; Іису́се предвѣ́чный, грѣ́шниковъ спасе́ніе. Іису́се, Сы́не Бо́жій, поми́луй мя.",
+   "pt": "Criador dos anjos e Senhor das potestades, abre o meu entendimento perplexo e a minha língua para o louvor do Teu nome puríssimo, como outrora abriste o ouvido e a língua do surdo-gago, que clamava assim: Jesus admirabilíssimo, assombro dos anjos; Jesus poderosíssimo, libertação dos primeiros pais. Jesus dulcíssimo, exaltação dos patriarcas; Jesus gloriosíssimo, fortaleza dos fiéis. Jesus amabilíssimo, cumprimento dos profetas; Jesus maravilhosíssimo, fortaleza dos mártires. Jesus mansíssimo, alegria dos monges; Jesus misericordiosíssimo, doçura dos presbíteros. Jesus compassivíssimo, continência dos que jejuam; Jesus suavíssimo, alegria dos justos. Jesus puríssimo, castidade dos virgens; Jesus pré-eterno, salvação dos pecadores. Jesus, Filho de Deus, tem piedade de mim.",
+   "ru": "Творец Ангелов и Господь сил, открой мой недоумевающий ум и язык на хвалу пречистого Твоего имени, как некогда Ты открыл слух и язык глухому и косноязычному, который взывал так: Иисусе пречудный, Ангелов удивление; Иисусе пресильный, прародителей избавление. Иисусе пресладкий, патриархов величание; Иисусе преславный, верных укрепление. Иисусе прелюбимый, пророков исполнение; Иисусе предивный, мучеников крепость. Иисусе претихий, монахов радость; Иисусе премилостивый, пресвитеров сладость. Иисусе премилосердый, постников воздержание; Иисусе пресладостный, преподобных радование. Иисусе пречестный, девственников целомудрие; Иисусе предвечный, грешников спасение. Иисусе, Сыне Божий, помилуй меня.",
+   "uk": "Творче ангелів і Господи сил, відкрий мій розум недоумінний і язик на похвалу пречистого Твого імені, як колись глухому й гугнявому відкрив Ти слух і язик, і він так взивав: Іісусе пречудний, ангелів подиве; Іісусе пресильний, праотців визволення. Іісусе пресолодкий, патріархів величання; Іісусе преславний, вірних утвердження. Іісусе прелюбий, пророків сповнення; Іісусе предивний, мучеників кріпосте. Іісусе претихий, ченців радосте; Іісусе премилостивий, пресвітерів солодкосте. Іісусе премилосердий, постників стриманосте; Іісусе пресолодощний, преподобних радування. Іісусе пречесний, дівственників цнотливосте; Іісусе предвічний, грішників спасіння. Іісусе, Сину Божий, помилуй мене.",
+   "en": "O Creator of Angels and Lord of hosts, open my perplexed mind and tongue unto the praise of Thy most pure name, as of old Thou didst open the ears and tongue of him that was deaf and had an impediment in his speech, who cried thus: Jesus most wonderful, astonishment of Angels; Jesus most powerful, deliverance of our first parents. Jesus most sweet, exaltation of Patriarchs; Jesus most glorious, strength of the faithful. Jesus most beloved, fulfilment of Prophets; Jesus most marvellous, fortitude of Martyrs. Jesus most gentle, joy of monks; Jesus most merciful, sweetness of Presbyters. Jesus most compassionate, abstinence of fasters; Jesus most sweet, joy of the righteous. Jesus most honourable, chastity of virgins; Jesus pre-eternal, salvation of sinners. Jesus, Son of God, have mercy on me.",
+   "fonte": {
+    "cu": "MS1900 pp. 365–367",
+    "ru": "Z1912 p. 210 (adaptado, só a 1.ª parte); invocações: própria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Repetição do ikos 1 e do condácio 1 depois do condácio 13 (texto atual; não consta da edição PD, ver rubrica anterior)."
+  },
+  {
+   "id": "acj-072",
+   "tipo": "titulo",
+   "cu": "Конда́къ 1, гласъ 8",
+   "pt": "Condácio 1, tom 8",
+   "ru": "Кондак 1, глас 8",
+   "uk": "Кондак 1, глас 8",
+   "en": "Kontakion 1, Tone 8",
+   "fonte": {
+    "cu": "MS1900 p. 365",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-073",
+   "tipo": "oracao",
+   "cu": "Возбра́нный Воево́до и Го́споди, а́да побѣди́телю, я́ко изба́влься отъ вѣ́чныя сме́рти, похва́льная воспису́ю Ти, созда́ніе и рабъ Твой; но, я́ко имѣ́яй милосе́рдіе неизрече́нное, отъ вся́кихъ мя бѣдъ свободи́, зову́ща: Іису́се, Сы́не Бо́жій, поми́луй мя.",
+   "pt": "Ó Comandante que por nós combates e Senhor, vencedor do Hades, eu, Tua criatura e servo, liberto da morte eterna, escrevo-Te cânticos de louvor; e Tu, que tens uma misericórdia inefável, livra-me de todas as desgraças, a mim que clamo: Jesus, Filho de Deus, tem piedade de mim.",
+   "ru": "Взбранный Воевода и Господь, победитель ада! Избавившись от вечной смерти, я, создание и раб Твой, приношу Тебе хвалебные песни. Ты же, как имеющий милосердие неизреченное, от всяких бед освободи меня, взывающего: Иисусе, Сыне Божий, помилуй меня.",
+   "uk": "Взбранний Воєводо і Господи, переможцю аду, я, творіння і раб Твій, ізбавлений від вічної смерті, складаю Тобі похвальні пісні; Ти ж, маючи милосердя несказанне, від усяких бід визволи мене, що взиваю: Іісусе, Сину Божий, помилуй мене.",
+   "en": "O Champion Leader and Lord, Vanquisher of Hades, I, Thy creature and servant, delivered from eternal death, offer Thee songs of praise; but as Thou hast ineffable compassion, set me free from all calamities, as I cry: Jesus, Son of God, have mercy on me.",
+   "fonte": {
+    "cu": "MS1900 p. 365",
+    "ru": "Z1912 pp. 209–210 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Repetição do ikos 1 e do condácio 1 depois do condácio 13 (texto atual; não consta da edição PD, ver rubrica anterior)."
+  },
+  {
+   "id": "acj-074",
+   "tipo": "titulo",
+   "cu": "Моли́тва ко Го́споду на́шему Іису́су Христу́",
+   "pt": "Oração a Nosso Senhor Jesus Cristo",
+   "ru": "Молитва ко Господу нашему Иисусу Христу",
+   "uk": "Молитва до Господа нашого Іісуса Христа",
+   "en": "Prayer to our Lord Jesus Christ",
+   "fonte": {
+    "cu": "MS1900 pp. 385–386",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "acj-075",
+   "tipo": "oracao",
+   "cu": "Влады́ко Го́споди Іису́се Христе́ Бо́же мой, и́же неизрече́ннаго ра́ди Твоего́ человѣколю́бія на коне́цъ вѣко́въ во плоть оболкі́йся отъ Приснодѣ́вы Марі́и, сла́влю о мнѣ Твое́ спаси́тельное промышле́ніе, рабъ Твой, Влады́ко; пѣсносло́влю Тя, я́ко Тебе́ ра́ди Отца́ позна́хъ; благословлю́ Тя, Его́же ра́ди и Духъ Святы́й въ міръ пріи́де; покланя́юся Твое́й по пло́ти Пречи́стѣй Ма́тери, таковѣ́й стра́шнѣй та́йнѣ послужи́вшей; восхваля́ю Твоя́ А́нгельская ликостоя́нія, я́ко воспѣва́тели и служи́тели Твоего́ вели́чествія; ублажа́ю Предте́чу Іоа́нна, Тебе́ крести́вшаго, Го́споди; почита́ю и провозвѣсти́вшія Тя проро́ки, прославля́ю апо́столы Твоя́ святы́я; торжеству́ю же и му́ченики, свяще́нники же Твоя́ сла́влю; покланя́юся преподо́бнымъ Твои́мъ, и вся Твоя́ пра́ведники пѣ́снствую. Такова́го и толи́каго мно́гаго и неизрече́ннаго ли́ка Боже́ственнаго въ моли́тву привожду́ Тебѣ́, всеще́дрому Бо́гу, рабъ Твой, и сего́ ра́ди прошу́ мои́мъ согрѣше́ніемъ проще́нія, е́же да́руй ми всѣхъ Твои́хъ ра́ди святы́хъ, изря́днѣе же святы́хъ Твои́хъ щедро́тъ, я́ко благослове́нъ еси́ во вѣ́ки. Ами́нь.",
+   "pt": "Soberano Senhor Jesus Cristo, meu Deus, que pelo Teu inefável amor aos homens Te revestiste de carne, no fim dos séculos, da sempre Virgem Maria, eu, Teu servo, ó Soberano, glorifico a Tua providência salvadora para comigo; canto-Te, porque por Ti conheci o Pai; bendigo-Te, porque por Ti também o Espírito Santo veio ao mundo; prosto-me diante da Tua Mãe puríssima segundo a carne, que serviu tão tremendo mistério; louvo os coros dos Teus anjos, como cantores e servidores da Tua majestade; enalteço o Precursor João, que Te batizou, Senhor; honro também os profetas que Te anunciaram; glorifico os Teus santos apóstolos; celebro também os mártires e glorifico os Teus sacerdotes; prosto-me diante dos Teus santos monges e canto todos os Teus justos. Tão grande, tão numeroso e inefável coro divino Te trago em oração, a Ti, Deus generosíssimo, eu, Teu servo, e por isso peço o perdão dos meus pecados, que me concederás por todos os Teus santos, e sobretudo pelas Tuas santas misericórdias, porque és bendito pelos séculos. Ámen.",
+   "ru": "Владыко Господи Иисусе Христе, Боже мой, по неизреченному Твоему человеколюбию в конце веков облекшийся в плоть от Приснодевы Марии! Славлю Твое спасительное промышление обо мне, я, раб Твой, Владыко; воспеваю Тебя, ибо через Тебя я познал Отца; благословляю Тебя, ибо через Тебя и Дух Святой пришел в мир; поклоняюсь Твоей по плоти Пречистой Матери, послужившей столь страшному таинству; восхваляю Твои Ангельские лики, как певцов и служителей Твоего величия; ублажаю Предтечу Иоанна, крестившего Тебя, Господи; почитаю и возвестивших Тебя пророков; прославляю святых Твоих апостолов; торжественно чту и мучеников, и священников Твоих славлю; поклоняюсь преподобным Твоим и всех Твоих праведников воспеваю. Такой, столь многочисленный и неизреченный Божественный лик привожу Тебе в молитву, всещедрому Богу, я, раб Твой, и потому прошу прощения моих согрешений, которое даруй мне ради всех Твоих святых, особенно же ради святых Твоих щедрот, ибо Ты благословен во веки. Аминь.",
+   "uk": "Владико Господи Іісусе Христе, Боже мій, що з несказанного Твого чоловіколюбства наприкінці віків зодягнувся в тіло від Приснодіви Марії! Славлю Твій спасительний промисел про мене я, раб Твій, Владико; оспівую Тебе, бо через Тебе пізнав Отця; благословляю Тебе, бо через Тебе і Дух Святий прийшов у світ; поклоняюся Твоїй за тілом Пречистій Матері, що послужила такій страшній таїні; вихваляю Твої ангельські лики, як співців і служителів Твоєї величі; ублажаю Предтечу Іоанна, що хрестив Тебе, Господи; шаную і пророків, що звістили Тебе; прославляю апостолів Твоїх святих; урочисто вшановую і мучеників, і священиків Твоїх славлю; поклоняюся преподобним Твоїм і всіх Твоїх праведників оспівую. Такий і такий численний, несказанний лик Божественний приводжу в молитву до Тебе, всещедрого Бога, я, раб Твій, і тому прошу прощення моїх гріхів, яке даруй мені заради всіх Твоїх святих, а найбільше заради святих Твоїх щедрот, бо Ти благословенний навіки. Амінь.",
+   "en": "O Master, Lord Jesus Christ my God, Who for Thine ineffable love for mankind didst at the end of the ages clothe Thyself in flesh from the Ever-virgin Mary: I, Thy servant, O Master, glorify Thy saving providence toward me; I hymn Thee, for through Thee I have known the Father; I bless Thee, for through Thee the Holy Spirit also came into the world; I bow down before Thy most pure Mother according to the flesh, who served so awesome a mystery; I praise the choirs of Thine Angels, as the singers and servants of Thy majesty; I call blessed the Forerunner John, who baptized Thee, O Lord; I honour also the Prophets who proclaimed Thee; I glorify Thy holy Apostles; I celebrate also the Martyrs, and glorify Thy Priests; I bow down before Thy venerable ones, and hymn all Thy righteous. So great, so numerous and ineffable a divine choir do I, Thy servant, bring in prayer unto Thee, the all-bountiful God; and therefore I ask forgiveness of my sins, which do Thou grant me for the sake of all Thy saints, and above all for the sake of Thy holy compassions; for blessed art Thou unto the ages. Amen.",
+   "fonte": {
+    "cu": "MS1900 pp. 385–386",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Variante (dec. 62): MS1900 pp. 385–386 dá a oração no plural («Бо́же нашъ … сла́вимъ о насъ … ра́би Твои́ … про́симъ на́шимъ согрѣше́ніемъ проще́ніе, е́же да́руй намъ»), com «Духъ Святы́й въ міръ вни́де» e «такова́го и толи́ко мно́гаго»; segue-se o texto atual no singular, com «пріи́де» e «толи́каго». «всѣхъ Твои́хъ ра́ди святы́хъ, изря́днѣе же святы́хъ Твои́хъ щедро́тъ»: PT/EN «e sobretudo pelas Tuas santas misericórdias»."
+  },
+  {
+   "id": "acj-076",
+   "tipo": "oracao",
+   "cu": "Досто́йно есть я́ко вои́стинну блажи́ти Тя Богоро́дицу, Присноблаже́нную и Пренепоро́чную и Ма́терь Бо́га на́шего. Честнѣ́йшую Херуви́мъ и сла́внѣйшую безъ сравне́нія Серафи́мъ, безъ истлѣ́нія Бо́га Сло́ва ро́ждшую, су́щую Богоро́дицу Тя велича́емъ.",
+   "pt": "É verdadeiramente digno bendizer-Te, ó Mãe de Deus, sempre bem-aventurada e toda imaculada, Mãe do nosso Deus. Mais venerável que os Querubins e incomparavelmente mais gloriosa que os Serafins, que sem corrupção deste à luz Deus Verbo, verdadeira Mãe de Deus, nós Te engrandecemos.",
+   "ru": "Достойно поистине ублажать Тебя, Богородицу, присноблаженную и пренепорочную и Матерь Бога нашего. Честнейшую Херувимов и несравненно славнейшую Серафимов, нетленно родившую Бога Слово, истинную Богородицу — Тебя величаем.",
+   "uk": "Достойно є воістину блажити Тебе, Богородицю, Присноблаженну і Пренепорочну, і Матір Бога нашого. Чеснішу від Херувимів і незрівнянно славнішу від Серафимів, що без зотління Бога Слово породила, сущу Богородицю, Тебе величаємо.",
+   "en": "It is truly meet to bless thee, O Theotokos, ever-blessed and all-immaculate, and the Mother of our God. More honourable than the Cherubim, and beyond compare more glorious than the Seraphim, thou who without corruption gavest birth to God the Word, true Theotokos, we magnify thee.",
+   "fonte": {
+    "cu": "Z1912 pp. 12–13",
+    "ru": "propria (Z1912 parafraseava)",
+    "en": "H1906 p. 107",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "Texto idêntico a manha-81 (fórmula comum)."
+  },
+  {
+   "id": "acj-077",
+   "tipo": "rubrica",
+   "cu": "Отъ Па́схи до Вознесе́нія Госпо́дня, вмѣ́сто «Досто́йно есть», поётся:",
+   "pt": "Da Páscoa até à Ascensão do Senhor, em lugar de «É verdadeiramente digno», canta-se:",
+   "ru": "От Пасхи до Вознесения Господня вместо «Достойно есть» поется:",
+   "uk": "Від Пасхи до Вознесіння Господнього замість «Достойно є» співається:",
+   "en": "From Pascha until the Ascension of the Lord, instead of «It is truly meet», the following is sung:",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "Texto idêntico a manha-82 (fórmula comum). Na Semana Luminosa vale a rubrica inicial (bloco 004)."
+  },
+  {
+   "id": "acj-078",
+   "tipo": "oracao",
+   "cu": "А́нгелъ вопія́ше Благода́тнѣй: Чи́стая Дѣ́во, ра́дуйся! И па́ки реку́: ра́дуйся! Твой Сынъ воскре́се тридне́венъ отъ гро́ба, и ме́ртвыя воздви́гнувый; лю́діе, весели́теся!",
+   "pt": "O Anjo clamou à Cheia de Graça: Virgem pura, alegra-Te! E de novo digo: alegra-Te! O Teu Filho ressuscitou ao terceiro dia do sepulcro e levantou os mortos. Povos, regozijai-vos!",
+   "ru": "Ангел возгласил Благодатной: «Чистая Дева, радуйся!» И я повторю: радуйся! Твой Сын воскрес на третий день из гроба, воскресивший мертвых. Люди, торжествуйте!",
+   "uk": "Ангел взивав Благодатній: Чиста Діво, радуйся! І знову кажу: радуйся! Твій Син воскрес на третій день із гробу і мертвих підняв. Люди, веселіться!",
+   "en": "The Angel cried unto her who is full of grace: Rejoice, O pure Virgin! And again I say: Rejoice! Thy Son is risen from the tomb on the third day, and hath raised up the dead. Rejoice, O ye people!",
+   "fonte": {
+    "cu": "Z1912 p. 112",
+    "ru": "Z1912 p. 112",
+    "en": "H1906 p. 232",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "Texto idêntico a manha-83 (fórmula comum)."
+  },
+  {
+   "id": "acj-079",
+   "tipo": "oracao",
+   "cu": "Свѣти́ся, свѣти́ся, но́вый Іерусали́ме, сла́ва бо Госпо́дня на тебѣ́ возсія́; лику́й ны́нѣ и весели́ся, Сіо́не! Ты же, Чи́стая, красу́йся, Богоро́дице, о воста́ніи Рождества́ Твоего́.",
+   "pt": "Resplandece, resplandece, ó nova Jerusalém, porque a glória do Senhor brilhou sobre ti; exulta agora e alegra-te, ó Sião! E Tu, ó Pura, rejubila, Mãe de Deus, com a ressurreição d'Aquele que deste à luz.",
+   "ru": "Сияй, сияй, новый Иерусалим, ибо слава Господня озарила тебя! Торжествуй теперь и веселись, Сион! А Ты, Чистая Богородица, радуйся воскресению Рожденного Тобою.",
+   "uk": "Світися, світися, новий Єрусалиме, бо слава Господня над тобою засяяла; радій нині і веселися, Сіоне! А Ти, Чиста Богородице, красуйся воскресінням Народженого Тобою.",
+   "en": "Shine, shine, O new Jerusalem, for the glory of the Lord hath arisen upon thee! Dance now and be glad, O Zion! And do thou, O pure Theotokos, rejoice in the rising of Him whom thou didst bear.",
+   "fonte": {
+    "cu": "Z1912 p. 113",
+    "ru": "Z1912 p. 113",
+    "en": "H1906 p. 232",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "Texto idêntico a manha-84 (fórmula comum)."
+  },
+  {
+   "id": "acj-080",
+   "tipo": "oracao",
+   "cu": "Христо́съ воскре́се изъ ме́ртвыхъ, сме́ртію смерть попра́въ и су́щимъ во гробѣ́хъ живо́тъ дарова́въ.",
+   "pt": "Cristo ressuscitou dos mortos, pela morte calcou a morte e aos que estavam nos sepulcros deu a vida.",
+   "ru": "Христос воскрес из мертвых, смертью смерть поправ и сущим во гробах жизнь даровав.",
+   "uk": "Христос воскрес із мертвих, смертю смерть подолав і тим, що в гробах, життя дарував.",
+   "en": "Christ is risen from the dead, trampling down death by death, and upon those in the tombs bestowing life.",
+   "fonte": {
+    "cu": "Z1912 p. 106",
+    "ru": "propria",
+    "en": "H1906 p. 226",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a oficio-106a / manha-14 (fórmula comum). Fecho da Semana Luminosa (rubrica inicial, bloco 004)."
+  },
+  {
+   "id": "acj-081",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-85 (fórmula comum)."
+  },
+  {
+   "id": "acj-082",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-86 (fórmula comum)."
+  },
+  {
+   "id": "acj-083",
+   "tipo": "oracao",
+   "cu": "Го́споди Іису́се Христе́, Сы́не Бо́жій, моли́твъ ра́ди Пречи́стыя Твоея́ Ма́тере, преподо́бныхъ и богоно́сныхъ оте́цъ на́шихъ и всѣхъ святы́хъ, поми́луй насъ. Ами́нь.",
+   "pt": "Senhor Jesus Cristo, Filho de Deus, pelas orações da Tua Mãe puríssima, dos nossos veneráveis Padres teóforos e de todos os santos, tem piedade de nós. Ámen.",
+   "ru": "Господи Иисусе Христе, Сыне Божий, по молитвам Пречистой Твоей Матери, преподобных и богоносных отцов наших и всех святых помилуй нас. Аминь.",
+   "uk": "Господи Іісусе Христе, Сину Божий, молитвами Пречистої Твоєї Матері, преподобних і богоносних отців наших і всіх святих, помилуй нас. Амінь.",
+   "en": "O Lord Jesus Christ, Son of God, through the prayers of Thy most pure Mother, of our venerable and God-bearing Fathers, and of all the saints, have mercy upon us. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 13",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Texto idêntico a manha-87 (fórmula comum)."
+  }
+ ]
+}
