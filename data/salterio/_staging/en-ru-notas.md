@@ -2,6 +2,20 @@
 
 > Staging: `data/salterio/_staging/en.json` e `ru.json` — um objeto `{"sl.v": "texto"}` cada, com exatamente as 2529 chaves de `data/salterio/_fontes/grelha.json` (151 salmos, numeração LXX/eslava). Validado por script: conjunto de chaves = grelha, nenhum texto vazio. Gerado em 2026-10-17 a partir das fontes abaixo; nada copiado de azbyka.ru (consultada só para um dado bibliográfico, §1.2).
 
+## 0. Atualização — decisão 68 (prevalece sobre §§1–7 onde estas digam o contrário)
+
+**EN = Brenton adaptado**, como os blocos EN existentes (`en.json`):
+- **«Pause.» retirado** em todos os 72 versículos (o eslavo não tem диапсалма); 9.17 «A song of Pause» retirado via nota.
+- **Arcaísmos verbais:** 3.ª pessoa em *-eth* e *hath/doth/saith* em todo o Saltério (601 formas: has→hath ×253, -s→-eth; substantivos homógrafos verificados à mão, ex. 76.5 *watches*, 54.18 *wants*, 88.41 *holds* ficam). **«unto» não foi acrescentado** (os blocos não o usam de forma sistemática: 23.4 «to his neighbour»).
+- **Maiúsculas divinas:** *Thou/Thee/Thy/Thine/Thyself/He/Him/His/Himself* só quando se referem a Deus/Cristo (decisão por versículo, guiada pelas maiúsculas do eslavo e do russo e revista à mão; ex. 120.x, 121.x, 147.1–3 *thee/thy* = Israel/Jerusalém ficam em minúscula); *Name* com maiúscula em «Thy/His (holy) Name» e «the Name of the Lord/God»; 149.2 «their King» (eslavo «о Цари своем»).
+- **Apóstrofos retos** (') como em todos os blocos EN existentes (nenhum usa ’); substitui o que §1.1 diz.
+- **Correções para o eslavo:** as divergências relevantes de §4 e as 4 fronteiras não resolvidas (16.7–8, 44.9–10, 51.3–4, 73.4–6) — 72 versículos — foram corrigidas minimamente, mantendo a dicção de Brenton; mais 144.16 «Thine hand» (eslavo/LXX singular). Uma nota por versículo em **`en-notas.json`** (92 notas, em português).
+- **Blocos existentes:** 50.3–21 (manha-30 = comunhao-kan-085 = oficio-032; 50.12–14 = oficio-036/038/099), 22.1–6 (oficio-018), 23.1–10 (oficio-020) e 115.1–10 (oficio-022) são agora **idênticos byte a byte** aos blocos (37 versículos mudaram; notas para as diferenças de leitura). **Não alinhados:** refeicoes-06 (144.15–16) segue a forma da oração («hope in Thee, O Lord… Thy bountiful hand… good pleasure»), não o versículo do Saltério; os estiquios «Verse:» de comunhao_preparacao-cp119/120/121 (67.3 «so let them vanish», 67.4 «So let the sinners perish at the presence of God, but let the righteous be glad», 117.24 «let us rejoice and be glad therein») são versões abreviadas/litúrgicas diferentes de Brenton — deixados como estão, para decisão.
+
+**RU** (`ru.json`): acentos de desambiguação **retirados** (16 versículos, §1.2); Sl 22, 23 e 115 **idênticos** aos blocos oficio-018/020/022 (mudaram 22.4, 22.5, 22.6, 115.3, 115.7, 115.10 — as diferenças listadas em §7; 23 só diferia nos acentos).
+
+**Sobrescritos** (`sobrescritos.json`): o texto fora da grelha de §5 — 84 sobrescritos não numerados (`"N.0"`, EN adaptado + RU; EN vazio em 1.0 e 2.0, onde Brenton não tem sobrescrito) e o cólofon do Sl 71 (`"71.fim"`). RU 104.0 «Аллилуиа.» (gralha da edição) normalizado para «Аллилуия.».
+
 ## 1. Fontes e prova de domínio público
 
 ### 1.1 EN — Brenton 1851 (BR1851)
