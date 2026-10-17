@@ -1,0 +1,1651 @@
+[
+ {
+  "ficheiro": "fichas.json",
+  "id": "tiago-de-alfeu",
+  "campo": "resumo.en",
+  "de": "One of the Twelve; according to the source, a brother of the Evangelist Matthew. After Pentecost he preached in Judaea, in Edessa with St Andrew, in Gaza and Eleutheropolis. There are two traditions about his death: stoned in Marmarica, or crucified at Ostracine on the way to Egypt.",
+  "para": "One of the Twelve; according to tradition, a brother of the Evangelist Matthew. After Pentecost he preached in Judaea, in Edessa with St Andrew, in Gaza and Eleutheropolis. There are two traditions about his death: stoned in Marmarica, or crucified at Ostracine on the way to Egypt.",
+  "motivo": "Linguagem interna de QA («segundo a fonte») no texto para o utilizador.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "tiago-de-alfeu",
+  "campo": "resumo.pt",
+  "de": "Um dos Doze; segundo a fonte, irmão do evangelista Mateus. Depois do Pentecostes pregou na Judeia, em Edessa com S. André, em Gaza e em Eleuterópolis. Sobre a sua morte há duas tradições: apedrejado na Marmárica ou crucificado em Ostracine, a caminho do Egito.",
+  "para": "Um dos Doze; segundo a tradição, irmão do evangelista Mateus. Depois do Pentecostes pregou na Judeia, em Edessa com S. André, em Gaza e em Eleuterópolis. Sobre a sua morte há duas tradições: apedrejado na Marmárica ou crucificado em Ostracine, a caminho do Egito.",
+  "motivo": "Linguagem interna de QA («segundo a fonte») no texto para o utilizador.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "tiago-de-alfeu",
+  "campo": "resumo.ru",
+  "de": "Один из Двенадцати; по источнику — брат евангелиста Матфея. После Пятидесятницы проповедовал в Иудее, в Едессе вместе с апостолом Андреем, в Газе и Елевферополе. О его кончине есть два предания: побит камнями в Мармарике или распят в Острацине по пути в Египет.",
+  "para": "Один из Двенадцати; по преданию — брат евангелиста Матфея. После Пятидесятницы проповедовал в Иудее, в Едессе вместе с апостолом Андреем, в Газе и Елевферополе. О его кончине есть два предания: побит камнями в Мармарике или распят в Острацине по пути в Египет.",
+  "motivo": "Linguagem interna de QA («segundo a fonte») no texto para o utilizador.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "tiago-de-alfeu",
+  "campo": "resumo.uk",
+  "de": "Один із Дванадцятьох; за джерелом — брат євангеліста Матфея. Після П'ятидесятниці проповідував в Юдеї, в Едесі разом з апостолом Андрієм, у Газі та Елевферополі. Про його смерть є два перекази: побитий камінням у Мармариці або розп'ятий в Острацині на шляху до Єгипту.",
+  "para": "Один із Дванадцятьох; за переданням — брат євангеліста Матфея. Після П’ятидесятниці проповідував в Юдеї, в Едесі разом з апостолом Андрієм, у Газі та Елевферополі. Про його смерть є два перекази: побитий камінням у Мармариці або розп’ятий в Острацині на шляху до Єгипту.",
+  "motivo": "Linguagem interna de QA («segundo a fonte») no texto para o utilizador. | Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "parasceva-sexta-feira",
+  "campo": "resumo.en",
+  "de": "Born at Iconium, she was named after the day of the Passion (Paraskeve is Greek for 'Friday'). Orphaned early, she vowed virginity and preached among the pagans. Under Diocletian she refused to worship the idols, was tortured and beheaded.",
+  "para": "Born at Iconium, she was named after the day of the Passion (Paraskeve is Greek for 'Friday'). Orphaned early, she vowed virginity and preached among the pagans. Under Diocletian she refused to worship the idols, was tortured and beheaded; she is greatly venerated in Russia as protectress of the family and of work.",
+  "motivo": "Omissão em RU/UK/EN da última oração do PT. (Alternativa: retirá-la do PT — não está no doc. 05 #15.)",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "parasceva-sexta-feira",
+  "campo": "resumo.ru",
+  "de": "Родилась в Иконии и получила имя по дню Страстей Христовых (Параскева по-гречески — «пятница»). Рано осиротев, дала обет девства и проповедовала среди язычников. При Диоклетиане отказалась поклониться идолам, была подвергнута пыткам и усечена мечом.",
+  "para": "Родилась в Иконии и получила имя по дню Страстей Христовых (Параскева по-гречески — «пятница»). Рано осиротев, дала обет девства и проповедовала среди язычников. При Диоклетиане отказалась поклониться идолам, была подвергнута пыткам и усечена мечом; глубоко почитается на Руси как покровительница семьи и труда.",
+  "motivo": "Omissão em RU/UK/EN da última oração do PT. (Alternativa: retirá-la do PT — não está no doc. 05 #15.)",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "parasceva-sexta-feira",
+  "campo": "resumo.uk",
+  "de": "Народилася в Іконії і дістала ім'я на честь дня Страстей Христових (Параскева грецькою — «п'ятниця»). Рано осиротівши, дала обітницю дівства і проповідувала серед язичників. За Діоклетіана відмовилася вклонитися ідолам, зазнала катувань і була обезголовлена.",
+  "para": "Народилася в Іконії і дістала ім’я на честь дня Страстей Христових (Параскева грецькою — «п’ятниця»). Рано осиротівши, дала обітницю дівства і проповідувала серед язичників. За Діоклетіана відмовилася вклонитися ідолам, зазнала катувань і була обезголовлена; глибоко шанується на Русі як покровителька родини і праці.",
+  "motivo": "Omissão em RU/UK/EN da última oração do PT. (Alternativa: retirá-la do PT — não está no doc. 05 #15.) | Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "paisio-velitchkovski",
+  "campo": "festas",
+  "de": [
+   "11-15",
+   "07-05"
+  ],
+  "para": [
+   "11-15",
+   "05-07"
+  ],
+  "motivo": "Data trocada: a Sinaxe dos padres russos do Athos é 07.05 OS (7 de maio), não 5 de julho (doc. 05 #20: «07.05 OS (padres russos do Athos)»; cf. silvano-do-athos, que tem «05-07»).",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "filareto-de-moscovo",
+  "campo": "resumo.en",
+  "de": "Trained at the Trinity Lavra, a preacher and theologian, he was rector of the St Petersburg Theological Academy and from 1821 Metropolitan of Moscow. He played a central part in the translation of the Bible into Russian, composed the Christian Catechism and drafted the 1861 Manifesto emancipating the serfs. He was glorified by the Council of Bishops of 1994.",
+  "para": "Trained at the Trinity Lavra, a preacher and theologian, he was rector of the St Petersburg Theological Academy and from 1821 Archbishop of Moscow (Metropolitan from 1826). He played a central part in the translation of the Bible into Russian, composed the Christian Catechism and drafted the 1861 Manifesto emancipating the serfs. He was glorified by the Council of Bishops of 1994.",
+  "motivo": "Facto: em 1821 foi nomeado arcebispo de Moscovo; metropolita só em 1826 (azbyka, vida completa: «В 1821 … архиепископу Филарету занять кафедру … В 1826 году … возведен в сан митрополита»). O doc. 05 #22 copia o resumo inexato da azbyka — corrigir também lá.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "filareto-de-moscovo",
+  "campo": "resumo.pt",
+  "de": "Formado na Lavra da Trindade, pregador e teólogo, foi reitor da Academia Teológica de S. Petersburgo e metropolita de Moscovo desde 1821. Teve papel central na tradução da Bíblia para russo, compôs o Catecismo Cristão e redigiu o Manifesto de 1861 de emancipação dos servos. Foi glorificado pelo Concílio dos Bispos de 1994.",
+  "para": "Formado na Lavra da Trindade, pregador e teólogo, foi reitor da Academia Teológica de S. Petersburgo e, desde 1821, arcebispo de Moscovo (metropolita desde 1826). Teve papel central na tradução da Bíblia para russo, compôs o Catecismo Cristão e redigiu o Manifesto de 1861 de emancipação dos servos. Foi glorificado pelo Concílio dos Bispos de 1994.",
+  "motivo": "Facto: em 1821 foi nomeado arcebispo de Moscovo; metropolita só em 1826 (azbyka, vida completa: «В 1821 … архиепископу Филарету занять кафедру … В 1826 году … возведен в сан митрополита»). O doc. 05 #22 copia o resumo inexato da azbyka — corrigir também lá.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "filareto-de-moscovo",
+  "campo": "resumo.ru",
+  "de": "Воспитанник Троице-Сергиевой лавры, проповедник и богослов, ректор Санкт-Петербургской духовной академии, с 1821 г. митрополит Московский. Играл ключевую роль в переводе Библии на русский язык, составил Пространный христианский катихизис и Манифест 1861 г. об освобождении крестьян. Прославлен Архиерейским Собором 1994 г.",
+  "para": "Воспитанник Троице-Сергиевой лавры, проповедник и богослов, ректор Санкт-Петербургской духовной академии, с 1821 г. архиепископ Московский (митрополит с 1826 г.). Играл ключевую роль в переводе Библии на русский язык, составил Пространный христианский катихизис и Манифест 1861 г. об освобождении крестьян. Прославлен Архиерейским Собором 1994 г.",
+  "motivo": "Facto: em 1821 foi nomeado arcebispo de Moscovo; metropolita só em 1826 (azbyka, vida completa: «В 1821 … архиепископу Филарету занять кафедру … В 1826 году … возведен в сан митрополита»). O doc. 05 #22 copia o resumo inexato da azbyka — corrigir também lá.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "filareto-de-moscovo",
+  "campo": "resumo.uk",
+  "de": "Вихованець Троїце-Сергієвої лаври, проповідник і богослов, ректор Санкт-Петербурзької духовної академії, з 1821 р. митрополит Московський. Відіграв ключову роль у перекладі Біблії російською мовою, уклав Християнський катехизис і Маніфест 1861 р. про звільнення селян. Прославлений Архієрейським Собором 1994 р.",
+  "para": "Вихованець Троїце-Сергієвої лаври, проповідник і богослов, ректор Санкт-Петербурзької духовної академії, з 1821 р. архієпископ Московський (митрополит з 1826 р.). Відіграв ключову роль у перекладі Біблії російською мовою, уклав Християнський катехизис і Маніфест 1861 р. про звільнення селян. Прославлений Архієрейським Собором 1994 р.",
+  "motivo": "Facto: em 1821 foi nomeado arcebispo de Moscovo; metropolita só em 1826 (azbyka, vida completa: «В 1821 … архиепископу Филарету занять кафедру … В 1826 году … возведен в сан митрополита»). O doc. 05 #22 copia o resumo inexato da azbyka — corrigir também lá.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "alexandre-nevski",
+  "campo": "tropario.uk",
+  "de": "Ти був, блаженний Олександре, чесною галуззю благочестивого кореня, бо Христос явив тебе як божественний скарб Руської землі, нового чудотворця, преславного і Богові угодного. І нині, зібравшись на пам'ять твою з вірою і любов'ю, у псалмах і співах радісно славимо Господа, що дарував тобі благодать зцілень. Його моли спасти місто це, і державі бути богоугодною, і синам Русі спастися.",
+  "para": "Ти був, блаженний Олександре, чесною галуззю благочестивого кореня, бо Христос явив тебе як божественний скарб Руської землі, нового чудотворця, преславного і Богові угодного. І нині, зібравшись на пам’ять твою з вірою і любов’ю, у псалмах і співах радісно славимо Господа, що дарував тобі благодать зцілень. Його моли спасти місто це, і державі Руській бути богоугодною, і синам Русі спастися.",
+  "motivo": "Omissão: «держа́вѣ Россі́йстѣй» (RU «державе Российской», EN «realm of Russia»). | Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "barbara",
+  "campo": "resumo.en",
+  "de": "Born at Heliopolis in Syria into a noble pagan family, she lived in the time of Maximian. According to tradition her father Dioscorus shut her in a tower, and by contemplating creation she came to know the one Creator. She died a martyr c. 306 and is greatly venerated in Russia.",
+  "para": "Born at Heliopolis in Syria into a noble pagan family, she lived in the time of Maximinus. According to tradition her father Dioscorus shut her in a tower, and by contemplating creation she came to know the one Creator. She died a martyr c. 306 and is greatly venerated in Russia.",
+  "motivo": "PT e doc. 05 #27 / azbyka: «при императоре Максимине (305–311)»; RU/UK/EN trocaram por Maximiano.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "barbara",
+  "campo": "resumo.ru",
+  "de": "Родилась в Илиополе Сирийском в знатной языческой семье во времена Максимиана. По преданию, отец ее Диоскор заключил ее в башню, а она, созерцая творение, пришла к познанию единого Творца. Пострадала ок. 306 г.; глубоко почитается на Руси.",
+  "para": "Родилась в Илиополе Сирийском в знатной языческой семье во времена Максимина. По преданию, отец ее Диоскор заключил ее в башню, а она, созерцая творение, пришла к познанию единого Творца. Пострадала ок. 306 г.; глубоко почитается на Руси.",
+  "motivo": "PT e doc. 05 #27 / azbyka: «при императоре Максимине (305–311)»; RU/UK/EN trocaram por Maximiano.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "barbara",
+  "campo": "resumo.uk",
+  "de": "Народилася в Іліополі Сирійському в знатній язичницькій родині за часів Максиміана. За переданням, батько її Діоскор замкнув її у вежі, а вона, споглядаючи творіння, прийшла до пізнання єдиного Творця. Постраждала бл. 306 р.; глибоко шанується на Русі.",
+  "para": "Народилася в Іліополі Сирійському в знатній язичницькій родині за часів Максиміна. За переданням, батько її Діоскор замкнув її у вежі, а вона, споглядаючи творіння, прийшла до пізнання єдиного Творця. Постраждала бл. 306 р.; глибоко шанується на Русі.",
+  "motivo": "PT e doc. 05 #27 / azbyka: «при императоре Максимине (305–311)»; RU/UK/EN trocaram por Maximiano.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "nicolau-taumaturgo",
+  "campo": "resumo.en",
+  "de": "A native of Patara in Lycia, of a noble and pious family, he was Archbishop of Myra. The Life used by the source holds that he took part in the Council of Nicaea (an argument of the source, not documentary proof). He is one of the most venerated saints in Russia; the feast of 9 May recalls the translation of his relics to Bari in 1087.",
+  "para": "A native of Patara in Lycia, of a noble and pious family, he was Archbishop of Myra. According to his Life, he took part in the Council of Nicaea. He is one of the most venerated saints in Russia; the feast of 9 May recalls the translation of his relics to Bari in 1087.",
+  "motivo": "Linguagem interna de QA (nota do doc. 05) copiada para o texto do utilizador; mantém-se a reserva («segundo a sua Vida»).",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "nicolau-taumaturgo",
+  "campo": "resumo.pt",
+  "de": "Natural de Pátara, na Lícia, de família nobre e piedosa, foi arcebispo de Mira. A Vida usada pela fonte sustenta que participou no Concílio de Niceia (argumento da fonte, não prova documental). É um dos santos mais venerados na Rússia; a memória de 9 de maio recorda a trasladação das relíquias para Bari em 1087.",
+  "para": "Natural de Pátara, na Lícia, de família nobre e piedosa, foi arcebispo de Mira. Segundo a sua Vida, participou no Concílio de Niceia. É um dos santos mais venerados na Rússia; a memória de 9 de maio recorda a trasladação das relíquias para Bari em 1087.",
+  "motivo": "Linguagem interna de QA (nota do doc. 05) copiada para o texto do utilizador; mantém-se a reserva («segundo a sua Vida»).",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "nicolau-taumaturgo",
+  "campo": "resumo.ru",
+  "de": "Уроженец Патар в Ликии, из знатной благочестивой семьи; архиепископ Мир Ликийских. Житие, используемое источником, утверждает его участие в Никейском Соборе (довод источника, а не документальное свидетельство). Один из самых почитаемых святых на Руси; память 9 мая — перенесение мощей в Бари в 1087 г.",
+  "para": "Уроженец Патар в Ликии, из знатной благочестивой семьи; архиепископ Мир Ликийских. Согласно житию, участвовал в Никейском Соборе. Один из самых почитаемых святых на Руси; память 9 мая — перенесение мощей в Бари в 1087 г.",
+  "motivo": "Linguagem interna de QA (nota do doc. 05) copiada para o texto do utilizador; mantém-se a reserva («segundo a sua Vida»).",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "nicolau-taumaturgo",
+  "campo": "resumo.uk",
+  "de": "Уродженець Патар у Лікії, зі знатної благочестивої родини; архієпископ Мир Лікійських. Житіє, яке використовує джерело, стверджує його участь у Нікейському Соборі (довід джерела, а не документальне свідчення). Один із найшанованіших святих на Русі; пам'ять 9 травня — перенесення мощей до Барі 1087 р.",
+  "para": "Уродженець Патар у Лікії, зі знатної благочестивої родини; архієпископ Мир Лікійських. Згідно з житієм, брав участь у Нікейському Соборі. Один із найшанованіших святих на Русі; пам’ять 9 травня — перенесення мощей до Барі 1087 р.",
+  "motivo": "Linguagem interna de QA (nota do doc. 05) copiada para o texto do utilizador; mantém-se a reserva («segundo a sua Vida»). | Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "nina-da-georgia",
+  "campo": "resumo.en",
+  "de": "According to the source she was a niece of Patriarch Juvenal of Jerusalem; her father Zabulon became a hermit and her mother Susanna a deaconess. Brought up by an elderly woman who told her of pagan Iberia (Georgia), she set out to evangelise it. She is venerated as the Enlightener of Georgia and died in 335.",
+  "para": "According to tradition she was a niece of Patriarch Juvenal of Jerusalem; her father Zabulon became a hermit and her mother Susanna a deaconess. Brought up by an elderly woman who told her of pagan Iberia (Georgia), she set out to evangelise it. She is venerated as the Enlightener of Georgia and died in 335.",
+  "motivo": "Linguagem interna de QA («segundo a fonte») no texto para o utilizador.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "nina-da-georgia",
+  "campo": "resumo.pt",
+  "de": "Segundo a fonte, era sobrinha do patriarca Juvenal de Jerusalém; o pai, Zabulon, fez-se eremita e a mãe, Susana, diaconisa. Educada por uma anciã que lhe falava da Ibéria (Geórgia) pagã, partiu para a evangelizar. É venerada como iluminadora da Geórgia; morreu em 335.",
+  "para": "Segundo a tradição, era sobrinha do patriarca Juvenal de Jerusalém; o pai, Zabulon, fez-se eremita e a mãe, Susana, diaconisa. Educada por uma anciã que lhe falava da Ibéria (Geórgia) pagã, partiu para a evangelizar. É venerada como iluminadora da Geórgia; morreu em 335.",
+  "motivo": "Linguagem interna de QA («segundo a fonte») no texto para o utilizador.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "nina-da-georgia",
+  "campo": "resumo.ru",
+  "de": "По источнику, племянница Иерусалимского патриарха Ювеналия; отец ее Завулон стал отшельником, а мать Сусанна — диакониссой. Воспитанная старицей, рассказывавшей ей о языческой Иверии (Грузии), отправилась ее просвещать. Почитается как просветительница Грузии; скончалась в 335 г.",
+  "para": "По преданию, племянница Иерусалимского патриарха Ювеналия; отец ее Завулон стал отшельником, а мать Сусанна — диакониссой. Воспитанная старицей, рассказывавшей ей о языческой Иверии (Грузии), отправилась ее просвещать. Почитается как просветительница Грузии; скончалась в 335 г.",
+  "motivo": "Linguagem interna de QA («segundo a fonte») no texto para o utilizador.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "nina-da-georgia",
+  "campo": "resumo.uk",
+  "de": "За джерелом, племінниця Єрусалимського патріарха Ювеналія; батько її Завулон став пустельником, а мати Сусанна — дияконисою. Вихована старицею, яка розповідала їй про язичницьку Іверію (Грузію), вирушила її просвіщати. Шанується як просвітителька Грузії; померла 335 р.",
+  "para": "За переданням, племінниця Єрусалимського патріарха Ювеналія; батько її Завулон став пустельником, а мати Сусанна — дияконисою. Вихована старицею, яка розповідала їй про язичницьку Іверію (Грузію), вирушила її просвіщати. Шанується як просвітителька Грузії; померла 335 р.",
+  "motivo": "Linguagem interna de QA («segundo a fonte») no texto para o utilizador.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "jorge-grande-martir",
+  "campo": "resumo.en",
+  "de": "A Roman officer born in Palestine, he confessed the faith under Diocletian, gave his goods to the poor, was tortured and beheaded at Nicomedia in 303. The miracle of the dragon near Beirut is the tradition of a posthumous miracle. He is one of the most venerated saints in Russia.",
+  "para": "A Roman officer born in Palestine, he confessed the faith under Diocletian, gave his goods to the poor, was tortured and beheaded at Nicomedia in 303. The miracle of the dragon near Beirut is the tradition of a posthumous miracle. He is one of the most venerated saints in Russia and patron of Moscow.",
+  "motivo": "Omissão em RU/UK/EN de «padroeiro de Moscovo» (PT). (Alternativa: retirar do PT — não está no doc. 05 #64.)",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "jorge-grande-martir",
+  "campo": "resumo.ru",
+  "de": "Римский военачальник, уроженец Палестины; при Диоклетиане исповедал веру, раздал имение бедным, был подвергнут пыткам и усечен мечом в Никомидии в 303 г. Чудо о змие близ Бейрута — предание о посмертном чуде. Один из самых почитаемых святых на Руси.",
+  "para": "Римский военачальник, уроженец Палестины; при Диоклетиане исповедал веру, раздал имение бедным, был подвергнут пыткам и усечен мечом в Никомидии в 303 г. Чудо о змие близ Бейрута — предание о посмертном чуде. Один из самых почитаемых святых на Руси, покровитель Москвы.",
+  "motivo": "Omissão em RU/UK/EN de «padroeiro de Moscovo» (PT). (Alternativa: retirar do PT — não está no doc. 05 #64.)",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "jorge-grande-martir",
+  "campo": "resumo.uk",
+  "de": "Римський військовик, уродженець Палестини; за Діоклетіана визнав віру, роздав майно бідним, зазнав катувань і був обезголовлений у Нікомідії 303 р. Чудо про змія поблизу Бейрута — передання про посмертне чудо. Один із найшанованіших святих на Русі.",
+  "para": "Римський військовик, уродженець Палестини; за Діоклетіана визнав віру, роздав майно бідним, зазнав катувань і був обезголовлений у Нікомідії 303 р. Чудо про змія поблизу Бейрута — передання про посмертне чудо. Один із найшанованіших святих на Русі, покровитель Москви.",
+  "motivo": "Omissão em RU/UK/EN de «padroeiro de Moscovo» (PT). (Alternativa: retirar do PT — não está no doc. 05 #64.)",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "marcos-evangelista",
+  "campo": "tropario.cu",
+  "de": "У верхо́внаго Петра́ научи́вся, апо́столъ Христо́въ былъ еси́ и, я́ко со́лнце страна́мъ возсія́лъ еси́, Александрі́омъ удобре́ніе бывъ, блаже́нне: тобо́ю Егѵ́петъ отъ пре́лести свободи́ся, ева́нгельскимъ твои́мъ уче́ніемъ просвѣ́щь вся, я́ко свѣтъ, столпъ церко́вный. Сего́ ра́ди твою́ па́мять чту́ще, свѣ́тло пра́зднуемъ, Ма́рко, Богогла́се, моли́ тобо́ю благовѣсти́маго Бо́га, да согрѣше́ній оставле́ніе пода́стъ душа́мъ на́шимъ.",
+  "para": "Апо́столе святы́й и Евангели́сте Ма́рко, моли́ Ми́лостиваго Бо́га, да прегрѣше́ній оставле́ніе пода́стъ душа́мъ на́шимъ.",
+  "motivo": "Usou-se o 2.º tropário do Ponomar (1459.xml, TROPARION Type=\"2\", tradição grega); o tropário principal (Type=\"1\") é o que traz o texto atual da IOR (azbyka, mesmo tom 3) — dec. 2/62; tradução alinhada com Mateus/Filipe/Tiago Alfeu.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "marcos-evangelista",
+  "campo": "tropario.en",
+  "de": "Taught by Peter, the chief of the Apostles, thou didst become an Apostle of Christ and didst shine like the sun upon the nations, becoming the adornment of the Alexandrians, O blessed one: through thee Egypt was freed from error, and by thy Gospel teaching thou didst enlighten all as a light, O pillar of the Church. Therefore, honouring thy memory, we keep it with splendour: O Mark, voice of God, entreat the God Whom thou didst proclaim to grant our souls forgiveness of transgressions.",
+  "para": "O holy Apostle and Evangelist Mark, entreat the merciful God that He grant our souls forgiveness of transgressions.",
+  "motivo": "Usou-se o 2.º tropário do Ponomar (1459.xml, TROPARION Type=\"2\", tradição grega); o tropário principal (Type=\"1\") é o que traz o texto atual da IOR (azbyka, mesmo tom 3) — dec. 2/62; tradução alinhada com Mateus/Filipe/Tiago Alfeu.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "marcos-evangelista",
+  "campo": "tropario.pt",
+  "de": "Instruído pelo corifeu Pedro, foste apóstolo de Cristo e, como sol, resplandeceste sobre as nações, tornando-te ornamento dos alexandrinos, ó bem-aventurado: por ti o Egito foi libertado do erro, e, com o teu ensinamento evangélico, iluminaste todos como luz, ó coluna da Igreja. Por isso, honrando a tua memória, celebramo-la com esplendor: ó Marcos, voz de Deus, roga ao Deus que anunciaste que conceda às nossas almas o perdão dos pecados.",
+  "para": "Apóstolo santo e evangelista Marcos, roga ao Deus misericordioso que conceda às nossas almas o perdão dos pecados.",
+  "motivo": "Usou-se o 2.º tropário do Ponomar (1459.xml, TROPARION Type=\"2\", tradição grega); o tropário principal (Type=\"1\") é o que traz o texto atual da IOR (azbyka, mesmo tom 3) — dec. 2/62; tradução alinhada com Mateus/Filipe/Tiago Alfeu.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "marcos-evangelista",
+  "campo": "tropario.ru",
+  "de": "Научившись у первоверховного Петра, ты стал апостолом Христовым и, как солнце, воссиял странам, став украшением александрийцев, блаженный: тобою Египет освободился от заблуждения, а евангельским учением твоим ты всех просветил, как свет, столп церковный. Поэтому, почитая твою память, светло празднуем; Марк боговещанный, моли Бога, Которого ты благовестил, да подаст душам нашим прощение согрешений.",
+  "para": "Святой апостол и евангелист Марк, моли милостивого Бога, да подаст душам нашим прощение согрешений.",
+  "motivo": "Usou-se o 2.º tropário do Ponomar (1459.xml, TROPARION Type=\"2\", tradição grega); o tropário principal (Type=\"1\") é o que traz o texto atual da IOR (azbyka, mesmo tom 3) — dec. 2/62; tradução alinhada com Mateus/Filipe/Tiago Alfeu.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "marcos-evangelista",
+  "campo": "tropario.uk",
+  "de": "Навчившись у первоверховного Петра, ти став апостолом Христовим і, як сонце, засяяв країнам, ставши окрасою александрійців, блаженний: тобою Єгипет звільнився від омани, а євангельським ученням твоїм ти всіх просвітив, як світло, стовпе церковний. Тому, шануючи твою пам'ять, світло святкуємо; Марку боговісний, моли Бога, Якого ти благовістив, щоб дарував душам нашим прощення гріхів.",
+  "para": "Святий апостоле і євангелисте Марку, моли милостивого Бога, щоб дарував душам нашим прощення гріхів.",
+  "motivo": "Usou-se o 2.º tropário do Ponomar (1459.xml, TROPARION Type=\"2\", tradição grega); o tropário principal (Type=\"1\") é o que traz o texto atual da IOR (azbyka, mesmo tom 3) — dec. 2/62; tradução alinhada com Mateus/Filipe/Tiago Alfeu.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "tiago-de-zebedeu",
+  "campo": "tropario.cu",
+  "de": "Апо́столъ Христо́въ былъ еси́ избра́нный и Богосло́ву возлю́бленному братъ единоро́дный, всехва́льне Іа́кове, пою́щимъ тя грѣхо́въ оставле́ніе испроси́ и душа́мъ на́шимъ ве́лію ми́лость.",
+  "para": "Апо́столе святы́й Іа́кове, моли́ Ми́лостиваго Бо́га, да прегрѣше́ній оставле́ніе пода́стъ душа́мъ на́шимъ.",
+  "motivo": "Usou-se o 2.º tropário do Ponomar (872.xml, TROPARION Type=\"2\", tradição grega); o tropário principal (Type=\"1\") é o que traz o texto atual da IOR (azbyka, mesmo tom 3) — dec. 2/62; tradução alinhada com Mateus/Filipe/Tiago Alfeu.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "tiago-de-zebedeu",
+  "campo": "tropario.en",
+  "de": "Thou wast a chosen Apostle of Christ and own brother of the beloved Theologian, O all-praised James: ask forgiveness of sins for those who sing thy praise, and great mercy for our souls.",
+  "para": "O holy Apostle James, entreat the merciful God that He grant our souls forgiveness of transgressions.",
+  "motivo": "Usou-se o 2.º tropário do Ponomar (872.xml, TROPARION Type=\"2\", tradição grega); o tropário principal (Type=\"1\") é o que traz o texto atual da IOR (azbyka, mesmo tom 3) — dec. 2/62; tradução alinhada com Mateus/Filipe/Tiago Alfeu.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "tiago-de-zebedeu",
+  "campo": "tropario.pt",
+  "de": "Foste apóstolo eleito de Cristo e irmão de sangue do Teólogo amado, ó Tiago digno de todo o louvor: pede para os que te cantam o perdão dos pecados e para as nossas almas a grande misericórdia.",
+  "para": "Apóstolo santo Tiago, roga ao Deus misericordioso que conceda às nossas almas o perdão dos pecados.",
+  "motivo": "Usou-se o 2.º tropário do Ponomar (872.xml, TROPARION Type=\"2\", tradição grega); o tropário principal (Type=\"1\") é o que traz o texto atual da IOR (azbyka, mesmo tom 3) — dec. 2/62; tradução alinhada com Mateus/Filipe/Tiago Alfeu.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "tiago-de-zebedeu",
+  "campo": "tropario.ru",
+  "de": "Ты был избранным апостолом Христовым и единокровным братом возлюбленного Богослова, всехвальный Иаков; испроси воспевающим тебя прощение грехов и душам нашим великую милость.",
+  "para": "Святой апостол Иаков, моли милостивого Бога, да подаст душам нашим прощение согрешений.",
+  "motivo": "Usou-se o 2.º tropário do Ponomar (872.xml, TROPARION Type=\"2\", tradição grega); o tropário principal (Type=\"1\") é o que traz o texto atual da IOR (azbyka, mesmo tom 3) — dec. 2/62; tradução alinhada com Mateus/Filipe/Tiago Alfeu.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "tiago-de-zebedeu",
+  "campo": "tropario.uk",
+  "de": "Ти був обраним апостолом Христовим і рідним братом улюбленого Богослова, всехвальний Якове; випроси тим, що оспівують тебе, прощення гріхів і душам нашим велику милість.",
+  "para": "Святий апостоле Якове, моли милостивого Бога, щоб дарував душам нашим прощення гріхів.",
+  "motivo": "Usou-se o 2.º tropário do Ponomar (872.xml, TROPARION Type=\"2\", tradição grega); o tropário principal (Type=\"1\") é o que traz o texto atual da IOR (azbyka, mesmo tom 3) — dec. 2/62; tradução alinhada com Mateus/Filipe/Tiago Alfeu.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "vladimir-igual-apostolos",
+  "campo": "tropario.uk",
+  "de": "Ти уподібнився купцеві, що шукає доброї перлини, славнодержавний Володимире, сидячи на високому престолі матері міст, богоспасенного Києва; випробовуючи і посилаючи до Царгорода дізнатися про православну віру, ти знайшов безцінну перлину — Христа, Який обрав тебе, як другого Павла, і струсив у святій купелі сліпоту твою, душевну разом і тілесну. Тому ми, люди твої, святкуємо твоє успіння: моли про спасіння правителів держави твоєї та безлічі підвладних.",
+  "para": "Ти уподібнився купцеві, що шукає доброї перлини, славнодержавний Володимире, сидячи на високому престолі матері міст, богоспасенного Києва; випробовуючи і посилаючи до Царгорода дізнатися про православну віру, ти знайшов безцінну перлину — Христа, Який обрав тебе, як другого Павла, і струсив у святій купелі сліпоту твою, душевну разом і тілесну. Тому ми, люди твої, святкуємо твоє успіння: моли про спасіння правителів держави твоєї Руської та безлічі підвладних.",
+  "motivo": "Omissão: «держа́вы твоея́ Россі́йскія» (RU/EN/PT têm-no).",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "joao-o-guerreiro",
+  "campo": "resumo.en",
+  "de": "A soldier of the Emperor Julian the Apostate (361–363), he secretly helped the Christians, freeing prisoners and warning them of danger. Discovered, he was imprisoned, but released after Julian's death, and lived piously to old age. He is venerated as a martyr for the sufferings he bore for Christ.",
+  "para": "A soldier of the Emperor Julian the Apostate (361–363), he secretly helped the Christians, freeing prisoners and warning them of danger. Discovered, he was imprisoned, but released after Julian's death, and lived piously to old age. He is venerated as a martyr for the sufferings he bore for Christ and is invoked by those who suffer wrong.",
+  "motivo": "Omissão em RU/UK/EN de «e invocado pelos que sofrem injustiça» (PT). (Alternativa: retirar do PT — não está no doc. 05 #100.)",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "joao-o-guerreiro",
+  "campo": "resumo.ru",
+  "de": "Воин императора Юлиана Отступника (361–363), тайно помогал христианам, освобождая узников и предупреждая их об опасности. Разоблаченный, был заключен в темницу, но после смерти Юлиана освобожден и благочестиво дожил до старости. Почитается как мученик за перенесенные ради Христа страдания.",
+  "para": "Воин императора Юлиана Отступника (361–363), тайно помогал христианам, освобождая узников и предупреждая их об опасности. Разоблаченный, был заключен в темницу, но после смерти Юлиана освобожден и благочестиво дожил до старости. Почитается как мученик за перенесенные ради Христа страдания; к нему прибегают обижаемые.",
+  "motivo": "Omissão em RU/UK/EN de «e invocado pelos que sofrem injustiça» (PT). (Alternativa: retirar do PT — não está no doc. 05 #100.)",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "joao-o-guerreiro",
+  "campo": "resumo.uk",
+  "de": "Воїн імператора Юліана Відступника (361–363), таємно допомагав християнам, звільняючи в'язнів і попереджаючи їх про небезпеку. Викритий, був ув'язнений, але після смерті Юліана звільнений і благочестиво дожив до старості. Шанується як мученик за перенесені заради Христа страждання.",
+  "para": "Воїн імператора Юліана Відступника (361–363), таємно допомагав християнам, звільняючи в’язнів і попереджаючи їх про небезпеку. Викритий, був ув’язнений, але після смерті Юліана звільнений і благочестиво дожив до старості. Шанується як мученик за перенесені заради Христа страждання; до нього звертаються скривджені.",
+  "motivo": "Omissão em RU/UK/EN de «e invocado pelos que sofrem injustiça» (PT). (Alternativa: retirar do PT — não está no doc. 05 #100.) | Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "tikhon-de-zadonsk",
+  "campo": "resumo.en",
+  "de": "Born Timothy Sokolov to a poor family, he studied at the Novgorod seminary, became a teacher and then a monk. At 37 he was elected Bishop of Voronezh; being ill, he retired to the Zadonsk monastery, where he spent sixteen years in prayer, charity and spiritual writing. He died in 1783 and was canonised in 1861.",
+  "para": "Born Timothy Sokolov to a poor family, he studied at the Novgorod seminary, became a teacher and then a monk. At 37 he was consecrated bishop (vicar of Novgorod) and in 1763 became Bishop of Voronezh; being ill, he retired to the Zadonsk monastery, where he spent sixteen years in prayer, charity and spiritual writing. He died in 1783 and was canonised in 1861.",
+  "motivo": "Facto: 13.05.1761 (aos 37 anos) sagrado bispo de Kexholm e Ladoga, vigário de Novgorod; Voronej só a partir de 1763 (azbyka, vida completa). O doc. 05 #103 copia o resumo inexato — corrigir também lá.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "tikhon-de-zadonsk",
+  "campo": "resumo.pt",
+  "de": "Nascido Timóteo Sokolov, de família pobre, estudou no seminário de Novgorod, foi professor e depois monge. Aos 37 anos foi eleito bispo de Voronej; doente, retirou-se para o mosteiro de Zadonsk, onde passou dezasseis anos em oração, caridade e escrita espiritual. Morreu em 1783 e foi canonizado em 1861.",
+  "para": "Nascido Timóteo Sokolov, de família pobre, estudou no seminário de Novgorod, foi professor e depois monge. Aos 37 anos foi sagrado bispo (vigário de Novgorod) e em 1763 passou a bispo de Voronej; doente, retirou-se para o mosteiro de Zadonsk, onde passou dezasseis anos em oração, caridade e escrita espiritual. Morreu em 1783 e foi canonizado em 1861.",
+  "motivo": "Facto: 13.05.1761 (aos 37 anos) sagrado bispo de Kexholm e Ladoga, vigário de Novgorod; Voronej só a partir de 1763 (azbyka, vida completa). O doc. 05 #103 copia o resumo inexato — corrigir também lá.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "tikhon-de-zadonsk",
+  "campo": "resumo.ru",
+  "de": "В миру Тимофей Соколов, из бедной семьи; учился в Новгородской семинарии, был преподавателем, затем принял монашество. В 37 лет избран епископом Воронежским; по болезни удалился в Задонский монастырь, где шестнадцать лет провел в молитве, благотворительности и духовных писаниях. Скончался в 1783 г.; канонизирован в 1861 г.",
+  "para": "В миру Тимофей Соколов, из бедной семьи; учился в Новгородской семинарии, был преподавателем, затем принял монашество. В 37 лет хиротонисан во епископа (викарий Новгородский), с 1763 г. — епископ Воронежский; по болезни удалился в Задонский монастырь, где шестнадцать лет провел в молитве, благотворительности и духовных писаниях. Скончался в 1783 г.; канонизирован в 1861 г.",
+  "motivo": "Facto: 13.05.1761 (aos 37 anos) sagrado bispo de Kexholm e Ladoga, vigário de Novgorod; Voronej só a partir de 1763 (azbyka, vida completa). O doc. 05 #103 copia o resumo inexato — corrigir também lá.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "tikhon-de-zadonsk",
+  "campo": "resumo.uk",
+  "de": "У миру Тимофій Соколов, з бідної родини; навчався в Новгородській семінарії, був викладачем, потім прийняв чернецтво. У 37 років обраний єпископом Воронезьким; через хворобу пішов до Задонського монастиря, де шістнадцять років провів у молитві, благодійності й духовних писаннях. Помер 1783 р.; канонізований 1861 р.",
+  "para": "У миру Тимофій Соколов, з бідної родини; навчався в Новгородській семінарії, був викладачем, потім прийняв чернецтво. У 37 років висвячений на єпископа (вікарій Новгородський), з 1763 р. — єпископ Воронезький; через хворобу пішов до Задонського монастиря, де шістнадцять років провів у молитві, благодійності й духовних писаннях. Помер 1783 р.; канонізований 1861 р.",
+  "motivo": "Facto: 13.05.1761 (aos 37 anos) sagrado bispo de Kexholm e Ladoga, vigário de Novgorod; Voronej só a partir de 1763 (azbyka, vida completa). O doc. 05 #103 copia o resumo inexato — corrigir também lá.",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "tatiana",
+  "campo": "tropario.pt",
+  "de": "Seguindo o Cordeiro puríssimo e Pastor, ó cordeira dotada de razão, Tatiana, não temeste as feras espirituais; armada com o sinal da cruz, abateste-as por completo e entraste no aprisco celeste, onde te lembras também de nós, ó sapientíssima mártir de Cristo.",
+  "para": "Seguindo o Cordeiro puríssimo e Pastor, ó cordeira dotada de razão, Tatiana, não temeste as feras espirituais; armada com o sinal da cruz, abateste-as por completo e entraste no aprisco celeste: aí lembra-te também de nós, ó sapientíssima mártir de Cristo.",
+  "motivo": "«идѣ́же помяни́ и насъ» é imperativo (pedido), não indicativo (RU «помяни», EN «remember»).",
+  "prioridade": "A"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "demetrio-de-tessalonica",
+  "campo": "tropario.cu",
+  "de": "Вели́ка обрѣ́те въ бѣда́хъ тя побо́рника вселе́нная, страстоте́рпче, язы́ки побѣжда́юща. Я́коже у́бо Лі́еву низложи́лъ еси горды́ню, и на по́двигъ дерзнове́нна сотвори́въ Не́стора, та́ко, свя́те Дими́тріе, Христу́ Бо́гу моли́ся дарова́ти намъ ве́лію ми́лость.",
+  "para": "Вели́ка обрѣ́те въ бѣда́хъ тя побо́рника вселе́нная, страстоте́рпче, язы́ки побѣжда́юща. Я́коже у́бо Лі́еву низложи́лъ еси́ горды́ню, и на по́двигъ дерзнове́нна сотвори́въ Не́стора, та́ко, свя́те Дими́тріе, Христу́ Бо́гу моли́ся дарова́ти намъ ве́лію ми́лость.",
+  "motivo": "Lint: «еси» sem acento (no corpus da app «-лъ еси́» ×380 vs 1; texto atual azbyka «еси́»).",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "filipe-apostolo",
+  "campo": "resumo.uk",
+  "de": "Уродженець Віфсаїди, привів Нафанаїла до Ісуса і був присутній при помноженні хлібів. За переданням, проповідував у Галилеї, Греції та Малій Азії і був розп'ятий в Ієраполі, молячись за своїх катів. Наступного дня після його пам'яті починається Різдвяний («Пилипів») піст.",
+  "para": "Уродженець Віфсаїди, привів Нафанаїла до Іісуса і був присутній при помноженні хлібів. За переданням, проповідував у Галилеї, Греції та Малій Азії і був розп’ятий в Ієраполі, молячись за своїх катів. Наступного дня після його пам’яті починається Різдвяний («Пилипів») піст.",
+  "motivo": "UK IOU (dec. 30): «Іісус», como já corrigido nas orações (fase 2c: «Ісус» ×6 → «Іісус») e em dia.json. | Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "paisio-velitchkovski",
+  "campo": "nome.cu",
+  "de": "Преподо́бный Паі́сій Величко́вскій",
+  "para": "Преподо́бный Паи́сій Величко́вскій",
+  "motivo": "Ortografia pré-reforma: «і» só antes de vogal ou й; antes de «с» é «и» (Паисій).",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "paisio-velitchkovski",
+  "campo": "resumo.uk",
+  "de": "Народився в Полтаві в родині протоієрея; у 17 років вступив до Любецького монастиря, потім подвизався в скитах Трейстени і Кирну в Молдові. Був архімандритом Нямецького монастиря. Шанується як учитель Ісусової молитви і відновник старчества в руському чернецтві; прославлений Помісним Собором 1988 р.",
+  "para": "Народився в Полтаві в родині протоієрея; у 17 років вступив до Любецького монастиря, потім подвизався в скитах Трейстени і Кирну в Молдові. Був архімандритом Нямецького монастиря. Шанується як учитель Іісусової молитви і відновник старчества в руському чернецтві; прославлений Помісним Собором 1988 р.",
+  "motivo": "UK IOU (dec. 30): «Іісус», como já corrigido nas orações (fase 2c: «Ісус» ×6 → «Іісус») e em dia.json.",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "nicolau-taumaturgo",
+  "campo": "nome.cu",
+  "de": "Святи́тель Никола́й, архіепи́скопъ Мѵрлікі́йскій, чудотво́рецъ",
+  "para": "Святи́тель Никола́й, архіепи́скопъ Мѵрлѵкі́йскій, чудотво́рецъ",
+  "motivo": "«і» antes de consoante é erro; forma da app em dia.json: «Мѵрлѵкі́йскихъ».",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "espiridiao-de-trimitunte",
+  "campo": "resumo.en",
+  "de": "Born in Cyprus at the end of the 3rd century, he was a shepherd, married with children. Widowed, he was elected Bishop of Trimythous in the reign of Constantine and kept a simple, charitable life. According to the Church historians cited by the source, he took part in the First Ecumenical Council (325) and confounded an Arian philosopher with simple words.",
+  "para": "Born in Cyprus at the end of the 3rd century, he was a shepherd, married with children. Widowed, he was elected Bishop of Trimythous in the reign of Constantine and kept a simple, charitable life. According to the Church historians, he took part in the First Ecumenical Council (325) and confounded an Arian philosopher with simple words.",
+  "motivo": "Linguagem interna de QA («citados pela fonte») no texto para o utilizador.",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "espiridiao-de-trimitunte",
+  "campo": "resumo.pt",
+  "de": "Nascido em Chipre no fim do séc. III, foi pastor, casado e pai de família. Viúvo, foi eleito bispo de Trimitunte no reinado de Constantino e manteve uma vida simples e caritativa. Segundo os historiadores eclesiásticos citados pela fonte, participou no I Concílio Ecuménico (325) e confundiu um filósofo ariano com palavras simples.",
+  "para": "Nascido em Chipre no fim do séc. III, foi pastor, casado e pai de família. Viúvo, foi eleito bispo de Trimitunte no reinado de Constantino e manteve uma vida simples e caritativa. Segundo os historiadores eclesiásticos, participou no I Concílio Ecuménico (325) e confundiu um filósofo ariano com palavras simples.",
+  "motivo": "Linguagem interna de QA («citados pela fonte») no texto para o utilizador.",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "espiridiao-de-trimitunte",
+  "campo": "resumo.ru",
+  "de": "Родился на Кипре в конце III в.; был пастухом, имел жену и детей. Овдовев, при Константине избран епископом Тримифунта и сохранил простую, милосердную жизнь. По свидетельству церковных историков, на которых ссылается источник, участвовал в I Вселенском Соборе (325) и простыми словами посрамил философа-арианина.",
+  "para": "Родился на Кипре в конце III в.; был пастухом, имел жену и детей. Овдовев, при Константине избран епископом Тримифунта и сохранил простую, милосердную жизнь. По свидетельству церковных историков, участвовал в I Вселенском Соборе (325) и простыми словами посрамил философа-арианина.",
+  "motivo": "Linguagem interna de QA («citados pela fonte») no texto para o utilizador.",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "espiridiao-de-trimitunte",
+  "campo": "resumo.uk",
+  "de": "Народився на Кіпрі наприкінці III ст.; був пастухом, мав дружину і дітей. Овдовівши, за Костянтина обраний єпископом Тримифунта і зберіг просте, милосердне життя. За свідченням церковних істориків, на яких посилається джерело, брав участь у I Вселенському Соборі (325) і простими словами осоромив філософа-аріанина.",
+  "para": "Народився на Кіпрі наприкінці III ст.; був пастухом, мав дружину і дітей. Овдовівши, за Костянтина обраний єпископом Тримифунта і зберіг просте, милосердне життя. За свідченням церковних істориків, брав участь у I Вселенському Соборі (325) і простими словами осоромив філософа-аріанина.",
+  "motivo": "Linguagem interna de QA («citados pela fonte») no texto para o utilizador.",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "eustracio-e-companheiros",
+  "campo": "tropario.pt",
+  "de": "Os teus mártires, Senhor, receberam nos seus sofrimentos de Ti, nosso Deus, coroas incorruptíveis; pois, tendo a Tua força, abateram os tiranos e esmagaram também a impotente audácia dos demónios. Pelas suas orações, salva as nossas almas.",
+  "para": "Os Teus mártires, Senhor, receberam nos seus sofrimentos de Ti, nosso Deus, coroas incorruptíveis; pois, tendo a Tua força, abateram os tiranos e esmagaram também a impotente audácia dos demónios. Pelas suas orações, salva as nossas almas.",
+  "motivo": "Pronome divino com maiúscula (como «Ti», «Tua» no mesmo texto e «os Teus servos» ×25 em data/oracoes).",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "estevao-protomartir",
+  "campo": "resumo.uk",
+  "de": "Один із семи дияконів, обраних апостолами. Звинувачений перед синедріоном, побачив відкриті небеса й Ісуса праворуч Бога; побитий камінням за мурами Єрусалима, молячись за своїх убивць (Діян. 7). Перший мученик Церкви; пам'ять звершується на третій день Різдва.",
+  "para": "Один із семи дияконів, обраних апостолами. Звинувачений перед синедріоном, побачив відкриті небеса й Іісуса праворуч Бога; побитий камінням за мурами Єрусалима, молячись за своїх убивць (Діян. 7). Перший мученик Церкви; пам’ять звершується на третій день Різдва.",
+  "motivo": "UK IOU (dec. 30): «Іісус», como já corrigido nas orações (fase 2c: «Ісус» ×6 → «Іісус») e em dia.json. | Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "teofano-recluso",
+  "campo": "festas",
+  "de": [
+   "01-10",
+   "01-06",
+   "06-16"
+  ],
+  "para": [
+   "01-10",
+   "06-16"
+  ],
+  "motivo": "06.01 é o dia do repouso, mas não há memória litúrgica nesse dia (Teofania); a memória é 10.01 (doc. 05 #41). «festas» lista comemorações.",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "teodosio-cenobiarca",
+  "campo": "nome.cu",
+  "de": "Преподо́бный Ѳеодо́сій Вели́кій, о́бщихъ жити́й нача́льникъ",
+  "para": "Преподо́бный Ѳеодо́сій Вели́кій, о́бщихъ житі́й нача́льникъ",
+  "motivo": "Gen. pl. de «житіе»: «житій» (і antes de й), como no corpus.",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "tres-hierarcas",
+  "campo": "tropario.en",
+  "de": "As those of one mind with the Apostles and teachers of the world, entreat the Master of all to grant peace to the world and great mercy to our souls.",
+  "para": "As those like in manner to the Apostles and teachers of the world, entreat the Master of all to grant peace to the world and great mercy to our souls.",
+  "motivo": "«единонра́вніи» = of like manner/character, not «of one mind» (PT «iguais aos apóstolos nos costumes»; cf. cirilo-e-metodio EN «equals of the Apostles in their ways»).",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "tres-hierarcas",
+  "campo": "tropario.uk",
+  "de": "Як однодумні з апостолами і вчителі вселенної, моліть Владику всіх дарувати мир вселенній і душам нашим велику милість.",
+  "para": "Як однакові вдачею з апостолами і вчителі вселенної, моліть Владику всіх дарувати мир вселенній і душам нашим велику милість.",
+  "motivo": "«единонра́вніи» = однакові вдачею (нравом), не «однодумні» (= единомысленные).",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "cirilo-e-metodio",
+  "campo": "tropario.uk",
+  "de": "Як однодумні з апостолами і вчителі слов'янських країн, Кириле і Мефодію богомудрі, моліть Владику всіх утвердити всі слов'янські народи в Православ'ї та єдинодумності, умирити світ і спасти душі наші.",
+  "para": "Як однакові вдачею з апостолами і вчителі слов’янських країн, Кириле і Мефодію богомудрі, моліть Владику всіх утвердити всі слов’янські народи в Православ’ї та єдинодумності, умирити світ і спасти душі наші.",
+  "motivo": "«единонра́вніи» = однакові вдачею (нравом), не «однодумні» (= единомысленные). | Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "joao-russo",
+  "campo": "resumo.pt",
+  "de": "Natural da Pequena Rússia e soldado de Pedro I, foi capturado pelos turcos na campanha do Prut (1711) e vendido como escravo. Manteve a fé cristã em meio muçulmano, rezando às escondidas e suportando troças e ameaças. Morreu na escravidão em 1730; o corpo incorrupto tornou-se fonte de milagres e foi inscrito no calendário da IOR em 1962.",
+  "para": "Natural da Pequena Rússia e soldado de Pedro I, foi capturado pelos turcos na campanha do Prut (1711) e vendido como escravo. Manteve a fé cristã em meio muçulmano, rezando às escondidas e suportando troças e ameaças. Morreu na escravidão em 1730; o corpo incorrupto tornou-se fonte de milagres. Foi inscrito no calendário da IOR em 1962.",
+  "motivo": "Sintaxe: o sujeito de «foi inscrito» passava a ser «o corpo».",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "judas-tadeu",
+  "campo": "nome.uk",
+  "de": "Апостол Юда, брат Господній",
+  "para": "Апостол Іуда, брат Господній",
+  "motivo": "UK IOU (dec. 30): «Іуда», como em dia.json («Ап. Іуда, брат Господній») e nas orações.",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "judas-tadeu",
+  "campo": "tropario.uk",
+  "de": "Знаючи тебе родичем Христовим, Юдо, і твердим мучеником, священно вихваляємо тебе, що зневажив оману і зберіг віру. Тому, святкуючи нині всесвяту пам'ять твою, твоїми молитвами одержуємо прощення гріхів.",
+  "para": "Знаючи тебе родичем Христовим, Іудо, і твердим мучеником, священно вихваляємо тебе, що потоптав оману і зберіг віру. Тому, святкуючи нині всесвяту пам’ять твою, твоїми молитвами одержуємо прощення гріхів.",
+  "motivo": "«пре́лесть попра́вша» = потоптав (RU «поправшего», EN «trample»); «зневажив» = знехтував. | UK IOU (dec. 30): «Іуда», como em dia.json e nas orações. | Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "joao-batista",
+  "campo": "resumo.uk",
+  "de": "Син священника Захарії та Єлисавети, родич Ісуса по матері і на пів року старший за Нього; до тридцяти років жив у пустелі. Проповідував біля Йордану покаяння і хрещення та хрестив Господа. Викрив Ірода Антипу за співжиття з Іродіадою, був ув'язнений і обезголовлений; найшанованіший святий після Богородиці, з кількома святами в році (Усікновення глави, 29 серпня, — пісний день).",
+  "para": "Син священника Захарії та Єлисавети, родич Іісуса по матері і на пів року старший за Нього; до тридцяти років жив у пустелі. Проповідував біля Йордану покаяння і хрещення та хрестив Господа. Викрив Ірода Антипу за співжиття з Іродіадою, був ув’язнений і обезголовлений; найшанованіший святий після Богородиці, з кількома святами в році (Усікновення глави, 29 серпня, — пісний день).",
+  "motivo": "UK IOU (dec. 30): «Іісус», como já corrigido nas orações (fase 2c: «Ісус» ×6 → «Іісус») e em dia.json. | Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "pedro-e-paulo",
+  "campo": "resumo.uk",
+  "de": "Петро, брат Андрія, рибалка з Капернаума, першим визнав Ісуса Месією і після потрійного зречення був відновлений в апостольстві. Павло з Тарса, гонитель християн, був покликаний Христом на дорозі до Дамаска і став апостолом язичників. Обидва прийняли мученицьку смерть у Римі (за переданням, бл. 67/68 р.); святу передує Петрів піст.",
+  "para": "Петро, брат Андрія, рибалка з Капернаума, першим визнав Іісуса Месією і після потрійного зречення був відновлений в апостольстві. Павло з Тарса, гонитель християн, був покликаний Христом на дорозі до Дамаска і став апостолом язичників. Обидва прийняли мученицьку смерть у Римі (за переданням, бл. 67/68 р.); святу передує Петрів піст.",
+  "motivo": "UK IOU (dec. 30): «Іісус», como já corrigido nas orações (fase 2c: «Ісус» ×6 → «Іісус») e em dia.json.",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "andre-rublev",
+  "campo": "nome.cu",
+  "de": "Преподо́бный Андре́й Рублёвъ, иконопи́сецъ",
+  "para": "Преподо́бный Андре́й Рубле́въ, иконопи́сецъ",
+  "motivo": "«ё» não pertence à ortografia de armazenamento (lint CHARS); acento explícito em «е́»: «Рубле́въ».",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "basilio-bem-aventurado",
+  "campo": "tropario.cu",
+  "de": "Житіе́ твое́, Васи́ліе, нело́жное, и чистота́ нескве́рна, Христа́ ра́ди тѣ́ло твое́ изнури́лъ еси́ посто́мъ и бдѣ́ніемъ, и мра́зомъ и теплото́ю со́лнечною, и слото́ю, и дожде́внымъ о́блакомъ, и просвѣти́ся лице́ твое́, я́ко со́лнце, и ны́нѣ прихо́дятъ къ тебѣ́ Россі́йстіи наро́ди и вси́ лю́діе, прославля́юще свято́е твое́ успе́ніе. Тѣмъ Христа́ Бо́га моли́, да изба́витъ ны отъ ва́рварскаго плѣне́нія и междоусо́бныя бра́ни, и миръ мі́рови пода́стъ, и душа́мъ на́шимъ ве́лію ми́лость.",
+  "para": "Житіе́ твое́, Васи́ліе, нело́жное, и чистота́ нескве́рна, Христа́ ра́ди тѣ́ло твое́ изнури́лъ еси́ посто́мъ и бдѣ́ніемъ, и мра́зомъ и теплото́ю со́лнечною, и слото́ю, и дожде́внымъ о́блакомъ, и просвѣти́ся лице́ твое́, я́ко со́лнце, и ны́нѣ прихо́дятъ къ тебѣ́ Россі́йстіи наро́ди и вси лю́діе, прославля́юще свято́е твое́ успе́ніе. Тѣмъ Христа́ Бо́га моли́, да изба́витъ ны отъ ва́рварскаго плѣне́нія и междоусо́бныя бра́ни, и миръ мі́рови пода́стъ, и душа́мъ на́шимъ ве́лію ми́лость.",
+  "motivo": "Lint: monossílabo com acento; convenção da app «вси» sem acento (corpus: 199 × «вси», 0 × «вси́»).",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "alexandre-de-svir",
+  "campo": "festas",
+  "de": [
+   "08-30",
+   "04-17"
+  ],
+  "para": [
+   "08-30",
+   "04-17",
+   "07-17"
+  ],
+  "motivo": "Falta a 2.ª invenção das relíquias (17.07 OS = 30.07 NS, 1998), listada no doc. 05 #104 e referida no próprio resumo.",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "joao-damasceno",
+  "campo": "tropario.en",
+  "de": "Instructor of Orthodoxy, teacher of piety and purity, luminary of the world, God-inspired adornment of monastics, O all-wise John, by thy teachings thou hast enlightened all, O lyre of the Spirit: pray to Christ God that our souls be saved.",
+  "para": "Instructor of Orthodoxy, teacher of piety and purity, luminary of the world, God-inspired adornment of monastics, O all-wise John, by thy teachings thou hast enlightened all, O spiritual lyre: pray to Christ God that our souls be saved.",
+  "motivo": "«цѣвни́це духо́вная» = «spiritual», not «of the Spirit» (cf. demetrio-de-rostov-repouso «O spiritual lyre»).",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "joao-damasceno",
+  "campo": "tropario.pt",
+  "de": "Mestre da Ortodoxia, doutor da piedade e da pureza, luzeiro do universo, ornamento inspirado por Deus dos monges, ó sapientíssimo João, com os teus ensinamentos iluminaste todos, ó lira do Espírito: roga a Cristo Deus que salve as nossas almas.",
+  "para": "Mestre da Ortodoxia, doutor da piedade e da pureza, luzeiro do universo, ornamento inspirado por Deus dos monges, ó sapientíssimo João, com os teus ensinamentos iluminaste todos, ó lira espiritual: roga a Cristo Deus que salve as nossas almas.",
+  "motivo": "«цѣвни́це духо́вная» = «espiritual», não «do Espírito» (RU/UK «духовная свирель/сопілко духовна»; cf. demetrio-de-rostov-repouso «lira espiritual»).",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "anastacia-libertadora",
+  "campo": "tropario.uk",
+  "de": "Агниця Твоя, Ісусе, Анастасія взиває гучним голосом: «Тебе, Наречений мій, люблю і, шукаючи Тебе, страждаю, співрозпинаюся і співпогрібаюся Хрещенню Твоєму, і страждаю заради Тебе, щоб царювати в Тобі, і вмираю за Тебе, щоб і жити з Тобою; але прийми мене, з любов'ю заколену Тобі, як непорочну жертву». Її молитвами, як Милостивий, спаси душі наші.",
+  "para": "Агниця Твоя, Іісусе, Анастасія взиває гучним голосом: «Тебе, Наречений мій, люблю і, шукаючи Тебе, страждаю, співрозпинаюся і співпогрібаюся Хрещенню Твоєму, і страждаю заради Тебе, щоб царювати в Тобі, і вмираю за Тебе, щоб і жити з Тобою; але прийми мене, з любов’ю заколену Тобі, як непорочну жертву». Її молитвами, як Милостивий, спаси душі наші.",
+  "motivo": "UK IOU (dec. 30): «Іісус», como já corrigido nas orações (fase 2c: «Ісус» ×6 → «Іісус») e em dia.json. | Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "sava-da-servia",
+  "campo": "tropario.en",
+  "de": "Instructor of Orthodoxy, teacher of piety and purity, luminary of the world, God-inspired adornment of hierarchs, O all-wise Sava, by thy teachings thou hast enlightened all, O lyre of the Spirit: pray to Christ God that our souls be saved.",
+  "para": "Instructor of Orthodoxy, teacher of piety and purity, luminary of the world, God-inspired adornment of hierarchs, O all-wise Sava, by thy teachings thou hast enlightened all, O spiritual lyre: pray to Christ God that our souls be saved.",
+  "motivo": "«цѣвни́це духо́вная» = «spiritual», not «of the Spirit» (cf. demetrio-de-rostov-repouso «O spiritual lyre»).",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "sava-da-servia",
+  "campo": "tropario.pt",
+  "de": "Mestre da Ortodoxia, doutor da piedade e da pureza, luzeiro do universo, ornamento inspirado por Deus dos hierarcas, ó sapientíssimo Sava, com os teus ensinamentos iluminaste todos, ó lira do Espírito: roga a Cristo Deus que salve as nossas almas.",
+  "para": "Mestre da Ortodoxia, doutor da piedade e da pureza, luzeiro do universo, ornamento inspirado por Deus dos hierarcas, ó sapientíssimo Sava, com os teus ensinamentos iluminaste todos, ó lira espiritual: roga a Cristo Deus que salve as nossas almas.",
+  "motivo": "«цѣвни́це духо́вная» = «espiritual», não «do Espírito» (RU/UK «духовная свирель/сопілко духовна»; cf. demetrio-de-rostov-repouso «lira espiritual»).",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "paisio-athonita",
+  "campo": "nome.cu",
+  "de": "Преподо́бный Паі́сій Святого́рецъ",
+  "para": "Преподо́бный Паи́сій Святого́рецъ",
+  "motivo": "Ortografia pré-reforma: «і» só antes de vogal ou й; antes de «с» é «и» (Паисій).",
+  "prioridade": "B"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "simeao-estilita",
+  "campo": "resumo.uk",
+  "de": "Народився бл. 387 р. у селищі Сис у Кілікії в бідній родині і в юності пас батькове стадо. Прийняв чернецтво в сусідньому монастирі, потім пішов у сирійську пустелю, де подвизався як стовпник. Помер 459 р. поблизу Алеппо, у місці, яке нині зветься Калат-Симан; пам'ять його збігається з церковним новоліттям.",
+  "para": "Народився бл. 387 р. у селищі Сис у Кілікії в бідній родині і в юності пас батькове стадо. Прийняв чернецтво в сусідньому монастирі, потім пішов у сирійську пустелю, де подвизався як стовпник. Помер 459 р. поблизу Алеппо, у місці, яке нині зветься Калат-Симан; пам’ять його збігається з церковним новоліттям.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "sergio-de-radonej",
+  "campo": "tropario.pt",
+  "de": "Asceta das virtudes, como verdadeiro soldado de Cristo Deus, lutaste com vigor contra as paixões nesta vida temporal; nos salmos, nas vigílias e nos jejuns foste modelo para os teus discípulos. Por isso habitou em ti o Espírito Santíssimo, por cuja ação foste radiosamente adornado. E, tendo ousadia junto da Santíssima Trindade, lembra-te do rebanho que reuniste, ó sábio, e não te esqueças, como prometeste, de visitar os teus filhos, ó Sérgio, venerável pai nosso.",
+  "para": "Asceta das virtudes, como verdadeiro soldado de Cristo Deus, lutaste com vigor contra as paixões nesta vida temporal; nos cânticos, nas vigílias e nos jejuns foste modelo para os teus discípulos. Por isso habitou em ti o Espírito Santíssimo, por cuja ação foste radiosamente adornado. E, tendo ousadia junto da Santíssima Trindade, lembra-te do rebanho que reuniste, ó sábio, e não te esqueças, como prometeste, de visitar os teus filhos, ó Sérgio, venerável pai nosso.",
+  "motivo": "«въ пѣ́ніихъ» = cânticos/cantos (RU «песнопениях», UK «співах»), não «salmos».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "sergio-de-radonej",
+  "campo": "tropario.uk",
+  "de": "Подвижнику чеснот, як істинний воїн Христа Бога, ти ревно боровся з пристрастями в житті тимчасовому і в співах, чуваннях і постах був взірцем для своїх учнів. Тому й вселився в тебе Пресвятий Дух, дією Якого ти світло прикрашений. Маючи ж сміливість перед Святою Тройцею, пам'ятай стадо, яке ти зібрав, мудрий, і не забудь, як обіцяв, відвідувати чад твоїх, преподобний Сергію, отче наш.",
+  "para": "Подвижнику чеснот, як істинний воїн Христа Бога, ти ревно боровся з пристрастями в житті тимчасовому і в співах, чуваннях і постах був взірцем для своїх учнів. Тому й вселився в тебе Пресвятий Дух, дією Якого ти світло прикрашений. Маючи ж сміливість перед Святою Тройцею, пам’ятай стадо, яке ти зібрав, мудрий, і не забудь, як обіцяв, відвідувати чад твоїх, преподобний Сергію, отче наш.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "joao-teologo-repouso",
+  "campo": "resumo.uk",
+  "de": "Улюблений учень Христа, свідок Преображення, Таємної вечері і Розп'яття, піклувався про Божу Матір до Її Успіння. Проповідував у Малій Азії і був засланий на Патмос, де написав Апокаліпсис, а потім в Ефесі — Євангеліє і три послання. Єдиний з апостолів, який не зазнав насильницької смерті; пам'ять 8 травня пов'язана, за переданням, із цілющим порохом, що з'являвся на його гробі.",
+  "para": "Улюблений учень Христа, свідок Преображення, Таємної вечері і Розп’яття, піклувався про Божу Матір до Її Успіння. Проповідував у Малій Азії і був засланий на Патмос, де написав Апокаліпсис, а потім в Ефесі — Євангеліє і три послання. Єдиний з апостолів, який не зазнав насильницької смерті; пам’ять 8 травня пов’язана, за переданням, із цілющим порохом, що з’являвся на його гробі.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "sinaxe-hierarcas-de-moscovo",
+  "campo": "tropario.uk",
+  "de": "Першосвятителі Руські, істинні хоронителі апостольських передань, стовпи непохитні, наставники православ'я, Петре, Алексію, Іоно, Филипе і Єрмогене, моліть Владику всіх дарувати мир вселенній і душам нашим велику милість.",
+  "para": "Першосвятителі Руські, істинні хоронителі апостольських передань, стовпи непохитні, наставники православ’я, Петре, Алексію, Іоно, Филипе і Єрмогене, моліть Владику всіх дарувати мир вселенній і душам нашим велику милість.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "tome-apostolo",
+  "campo": "tropario.uk",
+  "de": "Ти був учнем Христовим, учасником божественного собору апостолів; своїм невір'ям ти засвідчив Воскресіння Христове і дотиком підтвердив Його пречисті страждання. Всехвальний Фомо, і нині проси нам миру і великої милості.",
+  "para": "Ти був учнем Христовим, учасником божественного собору апостолів; своїм невір’ям ти засвідчив Воскресіння Христове і дотиком підтвердив Його пречисті страждання. Всехвальний Фомо, і нині проси нам миру і великої милості.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "sinaxe-optina",
+  "campo": "resumo.uk",
+  "de": "Святкується пам'ять старців Оптиної пустині: Лева, Макарія, Мойсея, Антонія, Іларіона, Анатолія (Зерцалова), Ісаакія (Антимонова), Йосифа, Варсонофія, Анатолія (Потапова), Нектарія, Никона (сповідника) та Ісаакія (Бобракова, преподобномученика). Прославлені місцево 1996 р. і для всієї Церкви Архієрейським Собором 2000 р. Спільну пам'ять установлено цього дня 2016 р. і внесено до місяцеслова 2018 р.",
+  "para": "Святкується пам’ять старців Оптиної пустині: Лева, Макарія, Мойсея, Антонія, Іларіона, Анатолія (Зерцалова), Ісаакія (Антимонова), Йосифа, Варсонофія, Анатолія (Потапова), Нектарія, Никона (сповідника) та Ісаакія (Бобракова, преподобномученика). Прославлені місцево 1996 р. і для всієї Церкви Архієрейським Собором 2000 р. Спільну пам’ять установлено цього дня 2016 р. і внесено до місяцеслова 2018 р.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "demetrio-de-tessalonica",
+  "campo": "resumo.en",
+  "de": "The son of secretly Christian parents, his father being a Roman proconsul. The Emperor Galerius made him governor of the region of Thessalonica and ordered him to exterminate the Christians, but Demetrius set about rooting out pagan customs and converting the pagans. He was martyred under Galerius (c. 306); the Saturday before his feast is a day of prayer for the departed.",
+  "para": "According to his Life, the son of secretly Christian parents, his father being a Roman proconsul. The Emperor Galerius made him governor of the region of Thessalonica and ordered him to exterminate the Christians, but Demetrius set about rooting out pagan customs and converting the pagans. He was martyred under Galerius (c. 306); the Saturday before his feast is a day of prayer for the departed.",
+  "motivo": "Pormenores da Vida (pai procônsul, nomeação por Galério) apresentados como facto histórico.",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "demetrio-de-tessalonica",
+  "campo": "resumo.pt",
+  "de": "Filho de pais cristãos em segredo; o pai era procônsul romano. O imperador Galério nomeou-o governador da região de Tessalónica e ordenou-lhe exterminar os cristãos, mas Demétrio pôs-se a extirpar os costumes pagãos e a converter os pagãos. Foi martirizado sob Galério (c. 306); o sábado anterior à sua festa é dia de oração pelos defuntos.",
+  "para": "Segundo a sua Vida, era filho de pais cristãos em segredo; o pai era procônsul romano. O imperador Galério nomeou-o governador da região de Tessalónica e ordenou-lhe exterminar os cristãos, mas Demétrio pôs-se a extirpar os costumes pagãos e a converter os pagãos. Foi martirizado sob Galério (c. 306); o sábado anterior à sua festa é dia de oração pelos defuntos.",
+  "motivo": "Pormenores da Vida (pai procônsul, nomeação por Galério) apresentados como facto histórico.",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "demetrio-de-tessalonica",
+  "campo": "resumo.ru",
+  "de": "Сын тайных христиан; отец его был римским проконсулом. Император Галерий назначил его правителем Фессалоникийской области и повелел истреблять христиан, но Димитрий стал искоренять языческие обычаи и обращать язычников. Пострадал при Галерии (ок. 306 г.); суббота перед его праздником — день поминовения усопших.",
+  "para": "Согласно житию, сын тайных христиан; отец его был римским проконсулом. Император Галерий назначил его правителем Фессалоникийской области и повелел истреблять христиан, но Димитрий стал искоренять языческие обычаи и обращать язычников. Пострадал при Галерии (ок. 306 г.); суббота перед его праздником — день поминовения усопших.",
+  "motivo": "Pormenores da Vida (pai procônsul, nomeação por Galério) apresentados como facto histórico.",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "demetrio-de-tessalonica",
+  "campo": "resumo.uk",
+  "de": "Син таємних християн; батько його був римським проконсулом. Імператор Галерій призначив його правителем Солунської області і наказав винищувати християн, але Димитрій став викорінювати язичницькі звичаї та навертати язичників. Постраждав за Галерія (бл. 306 р.); субота перед його святом — день поминання померлих.",
+  "para": "Згідно з житієм, син таємних християн; батько його був римським проконсулом. Імператор Галерій призначив його правителем Солунської області і наказав винищувати християн, але Димитрій став викорінювати язичницькі звичаї та навертати язичників. Постраждав за Галерія (бл. 306 р.); субота перед його святом — день поминання померлих.",
+  "motivo": "Pormenores da Vida (pai procônsul, nomeação por Galério) apresentados como facto histórico.",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "demetrio-de-rostov-repouso",
+  "campo": "tropario.uk",
+  "de": "Ревнителю православ'я і викорінювачу розколу, цілителю Руський і новий молитовнику перед Богом, писаннями твоїми ти напоумив нерозумних, сопілко духовна, блаженний Димитрію; моли Христа Бога спасти душі наші.",
+  "para": "Ревнителю православ’я і викорінювачу розколу, цілителю Руський і новий молитовнику перед Богом, писаннями твоїми ти напоумив нерозумних, сопілко духовна, блаженний Димитрію; моли Христа Бога спасти душі наші.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "parasceva-sexta-feira",
+  "campo": "nome.uk",
+  "de": "Великомучениця Параскева, названа П'ятниця",
+  "para": "Великомучениця Параскева, названа П’ятниця",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "jo-de-potchaiv",
+  "campo": "resumo.uk",
+  "de": "У миру Іван Залізо, ігумен Почаївської лаври на Волині. Захищав Православ'я від католицького впливу та унії; прославився подвижницьким життям, молитвою і чудесами. Помер 1651 р. у віці понад сто років; прославлений 1659 р. під час знайдення мощей.",
+  "para": "У миру Іван Залізо, ігумен Почаївської лаври на Волині. Захищав Православ’я від католицького впливу та унії; прославився подвижницьким життям, молитвою і чудесами. Помер 1651 р. у віці понад сто років; прославлений 1659 р. під час знайдення мощей.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "jo-de-potchaiv",
+  "campo": "tropario.uk",
+  "de": "Здобувши довготерпіння многостраждального праотця, уподібнившись стриманню Хрестителя і прилучившись до божественної ревності обох, ти сподобився прийняти їхні імена і був безстрашним проповідником істинної віри; тому ти привів до Христа безліч ченців і утвердив увесь народ у Православ'ї. Преподобний Іове, отче наш, моли про спасіння душ наших.",
+  "para": "Здобувши довготерпіння многостраждального праотця, уподібнившись стриманню Хрестителя і прилучившись до божественної ревності обох, ти сподобився прийняти їхні імена і був безстрашним проповідником істинної віри; тому ти привів до Христа безліч ченців і утвердив увесь народ у Православ’ї. Преподобний Іове, отче наш, моли про спасіння душ наших.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "joao-crisostomo",
+  "campo": "resumo.uk",
+  "de": "Народився в Антіохії в родині військовика Секунда та Анфуси; був проповідником і тлумачем Писання, потім архієпископом Константинопольським. Викривав вади двору і двічі був засланий; помер на засланні в Команах 407 р. зі словами «Слава Богу за все». Його ім'я носить звичайна Божественна літургія; мощі перенесено до Константинополя 438 р.",
+  "para": "Народився в Антіохії в родині військовика Секунда та Анфуси; був проповідником і тлумачем Писання, потім архієпископом Константинопольським. Викривав вади двору і двічі був засланий; помер на засланні в Команах 407 р. зі словами «Слава Богу за все». Його ім’я носить звичайна Божественна літургія; мощі перенесено до Константинополя 438 р.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "joao-crisostomo",
+  "campo": "tropario.uk",
+  "de": "Благодать, що засяяла з уст твоїх, мов полум'я вогню, просвітила вселенну, здобула світові скарби некористолюбства і показала нам висоту смиренномудрості. Навчаючи нас твоїми словами, отче Іоанне Золотоусте, моли Слово, Христа Бога, спасти душі наші.",
+  "para": "Благодать, що засяяла з уст твоїх, мов полум’я вогню, просвітила вселенну, здобула світові скарби некористолюбства і показала нам висоту смиренномудрості. Навчаючи нас твоїми словами, отче Іоанне Золотоусте, моли Слово, Христа Бога, спасти душі наші.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "gregorio-palamas",
+  "campo": "resumo.uk",
+  "de": "Народився 1296 р. у Малій Азії і виріс у Константинополі при дворі Андроника II. Близько двадцяти років пішов на Афон (Ватопед) під керівництво старця Никодима, потім став архієпископом Солунським. Захисник ісихастської молитви, канонізований Константинопольським Собором 1368 р.; Церква святкує його пам'ять також у 2-гу Неділю Великого посту.",
+  "para": "Народився 1296 р. у Малій Азії і виріс у Константинополі при дворі Андроника II. Близько двадцяти років пішов на Афон (Ватопед) під керівництво старця Никодима, потім став архієпископом Солунським. Захисник ісихастської молитви, канонізований Константинопольським Собором 1368 р.; Церква святкує його пам’ять також у 2-гу Неділю Великого посту.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "gregorio-palamas",
+  "campo": "tropario.uk",
+  "de": "Наставнику православ'я, окрасо святителів, непереможний поборнику богословів, Григорію чудотворче, велика похвало Солуня, проповіднику благодаті, моли Христа Бога спасти душі наші.",
+  "para": "Наставнику православ’я, окрасо святителів, непереможний поборнику богословів, Григорію чудотворче, велика похвало Солуня, проповіднику благодаті, моли Христа Бога спасти душі наші.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "alexandre-nevski",
+  "campo": "nome.cu",
+  "de": "Благовѣ́рный вели́кій кня́зь Алекса́ндръ Не́вскій",
+  "para": "Благовѣ́рный вели́кій князь Алекса́ндръ Не́вскій",
+  "motivo": "Lint: monossílabos sem acento na ortografia de armazenamento (como em data/oracoes: «князь», «Петръ»).",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "alexandre-nevski",
+  "campo": "resumo.uk",
+  "de": "Князь Новгородський, переміг шведів на Неві (1240) і тевтонських лицарів на Чудському озері (1242). Дипломатією у стосунках із Золотою Ордою вберіг Русь від нових спустошень і перед смертю прийняв схиму з ім'ям Алексій. Шанувався відразу після смерті; мощі 1724 р. перенесено з Володимира до Санкт-Петербурга.",
+  "para": "Князь Новгородський, переміг шведів на Неві (1240) і тевтонських лицарів на Чудському озері (1242). Дипломатією у стосунках із Золотою Ордою вберіг Русь від нових спустошень і перед смертю прийняв схиму з ім’ям Алексій. Шанувався відразу після смерті; мощі 1724 р. перенесено з Володимира до Санкт-Петербурга.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "mitrofano-de-voronej",
+  "campo": "resumo.uk",
+  "de": "Народився у Володимирській землі і сорок років прожив у миру; овдовівши, прийняв чернецтво. 1682 р. висвячений на першого єпископа нової Воронезької єпархії, будував храми і боровся з розколом; підтримував перетворення Петра I, але обстоював православні традиції. Перед смертю прийняв схиму з ім'ям Макарій; канонізований 1832 р.",
+  "para": "Народився у Володимирській землі і сорок років прожив у миру; овдовівши, прийняв чернецтво. 1682 р. висвячений на першого єпископа нової Воронезької єпархії, будував храми і боровся з розколом; підтримував перетворення Петра I, але обстоював православні традиції. Перед смертю прийняв схиму з ім’ям Макарій; канонізований 1832 р.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "catarina-de-alexandria",
+  "campo": "tropario.uk",
+  "de": "Чеснотами, мов сонячними променями, ти просвітила невірних мудреців і, як пресвітлий місяць, відігнала темряву невір'я від тих, що ходять у ночі; ти навернула царицю і викрила мучителя. Богопокликана наречена, блаженна Катерино, ти з любов'ю зійшла до небесного чертогу до прекрасного Нареченого Христа і від Нього увінчалася царським вінцем; стоячи перед Ним з ангелами, молися за нас, що звершуємо чесну пам'ять твою.",
+  "para": "Чеснотами, мов сонячними променями, ти просвітила невірних мудреців і, як пресвітлий місяць, відігнала темряву невір’я від тих, що ходять у ночі; ти навернула царицю і викрила мучителя. Богопокликана наречена, блаженна Катерино, ти з любов’ю піднеслася до небесного чертогу до прекрасного Нареченого Христа і від Нього увінчалася царським вінцем; стоячи перед Ним з ангелами, молися за нас, що звершуємо чесну пам’ять твою.",
+  "motivo": "«востекла́ еси́» = піднеслася (ascensão); «зійшла до» lê-se como descida. | Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "andre-primeiro-chamado",
+  "campo": "resumo.uk",
+  "de": "Брат апостола Петра, галилейський рибалка, першим пішов за Христом і привів до Нього Петра. Проповідував у Малій Азії, Фракії та Македонії; за переданням, був у Криму і дійшов до земель, де згодом постав Новгород. Розп'ятий у Патрах за наказом правителя Егеата.",
+  "para": "Брат апостола Петра, галилейський рибалка, першим пішов за Христом і привів до Нього Петра. Проповідував у Малій Азії, Фракії та Македонії; за переданням, був у Криму і дійшов до земель, де згодом постав Новгород. Розп’ятий у Патрах за наказом правителя Егеата.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "joasafe-de-belgorod",
+  "campo": "tropario.uk",
+  "de": "Святителю, возлюблений Христом Богом, ти був для людей правилом віри і образом милосердя; чуванням, постом і молитвою ти засяяв, як пресвітлий світильник, і явився прославленим від Бога. Тілом спочиваючи в нетлінні, а духом стоячи перед престолом Божим, ти дивно чиниш чудеса. Моли Христа Бога утвердити нас у Православ'ї та благочесті і спасти душі наші.",
+  "para": "Святителю, возлюблений Христом Богом, ти був для людей правилом віри і образом милосердя; чуванням, постом і молитвою ти засяяв, як пресвітлий світильник, і явився прославленим від Бога. Тілом спочиваючи в нетлінні, а духом стоячи перед престолом Божим, ти дивно чиниш чудеса. Моли Христа Бога утвердити нас у Православ’ї та благочесті і спасти душі наші.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "pedro-de-moscovo",
+  "campo": "nome.cu",
+  "de": "Святи́тель Пе́тръ, митрополи́тъ Моско́вскій",
+  "para": "Святи́тель Петръ, митрополи́тъ Моско́вскій",
+  "motivo": "Lint: monossílabos sem acento na ortografia de armazenamento (como em data/oracoes: «князь», «Петръ»).",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "basilio-magno",
+  "campo": "resumo.uk",
+  "de": "Народився в Кесарії Каппадокійській у родині святих (мати Емілія, сестра Макрина, брат Григорій Ниський); навчався в Кесарії, Константинополі та Афінах, де заприятелював зі святителем Григорієм Богословом. З 370 р. єпископ Кесарійський, уклав чин Літургії, що носить його ім'я, «Бесіди на Шестоднев» і твори проти аріан. Помер 1 січня 379 р.; пам'ять його звершується разом з Обрізанням Господнім.",
+  "para": "Народився в Кесарії Каппадокійській у родині святих (мати Емілія, сестра Макрина, брат Григорій Ниський); навчався в Кесарії, Константинополі та Афінах, де заприятелював зі святителем Григорієм Богословом. З 370 р. єпископ Кесарійський, уклав чин Літургії, що носить його ім’я, «Бесіди на Шестоднев» і твори проти аріан. Помер 1 січня 379 р.; пам’ять його звершується разом з Обрізанням Господнім.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "basilio-magno",
+  "campo": "tropario.uk",
+  "de": "По всій землі пройшло вістування твоє, бо вона прийняла слово твоє, яким ти боголіпно навчив, з'ясував природу сущого і прикрасив звичаї людські. Царське священство, преподобний отче, моли Христа Бога спасти душі наші.",
+  "para": "По всій землі пройшло вістування твоє, бо вона прийняла слово твоє, яким ти боголіпно навчив, з’ясував природу сущого і прикрасив звичаї людські. Царське священство, преподобний отче, моли Христа Бога спасти душі наші.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "filipe-de-moscovo",
+  "campo": "resumo.uk",
+  "de": "У миру Федір Количев, з боярського роду; залишив двір і прийняв постриг у Соловецькому монастирі, де став ігуменом. 1566 р. на наполягання Івана IV став митрополитом Московським, але відкрито викривав опричнину і відмовлявся благословляти страти. Скинутий за неправдивими звинуваченнями і ув'язнений у тверському Отроч-монастирі, був убитий там Малютою Скуратовим 1569 р.",
+  "para": "У миру Федір Количев, з боярського роду; залишив двір і прийняв постриг у Соловецькому монастирі, де став ігуменом. 1566 р. на наполягання Івана IV став митрополитом Московським, але відкрито викривав опричнину і відмовлявся благословляти страти. Скинутий за неправдивими звинуваченнями і ув’язнений у тверському Отроч-монастирі, був убитий там Малютою Скуратовим 1569 р.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "filipe-de-moscovo",
+  "campo": "tropario.uk",
+  "de": "Наступнику першосвятителів, стовпе Православ'я, поборнику істини, новий сповідниче, святителю Филипе, що поклав душу за паству твою: маючи сміливість перед Христом, моли за місто і людей, що гідно шанують святу пам'ять твою.",
+  "para": "Наступнику першосвятителів, стовпе Православ’я, поборнику істини, новий сповідниче, святителю Филипе, що поклав душу за паству твою: маючи сміливість перед Христом, моли за місто і людей, що гідно шанують святу пам’ять твою.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "marcos-de-efeso",
+  "campo": "nome.cu",
+  "de": "Святи́тель Ма́ркъ, архіепи́скопъ Ефе́сскій",
+  "para": "Святи́тель Маркъ, архіепи́скопъ Ефе́сскій",
+  "motivo": "Lint: monossílabos sem acento na ortografia de armazenamento (como em data/oracoes: «князь», «Петръ»).",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "marcos-de-efeso",
+  "campo": "resumo.uk",
+  "de": "Архієпископ Ефеський, захисник Православ'я на Флорентійському Соборі, що відкинув унію з Римом. Таємно залишив Флоренцію і закликав мешканців Константинополя відкинути угоду. Шанувався відразу після смерті (1444); офіційно зарахований до святих Константинопольським Патріархатом 1734 р.",
+  "para": "Архієпископ Ефеський, захисник Православ’я на Флорентійському Соборі, що відкинув унію з Римом. Таємно залишив Флоренцію і закликав мешканців Константинополя відкинути угоду. Шанувався відразу після смерті (1444); офіційно зарахований до святих Константинопольським Патріархатом 1734 р.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "maximo-o-grego",
+  "campo": "nome.cu",
+  "de": "Преподо́бный Макси́мъ Гре́къ",
+  "para": "Преподо́бный Макси́мъ Грекъ",
+  "motivo": "Lint: monossílabos sem acento na ortografia de armazenamento (como em data/oracoes: «князь», «Петръ»).",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "maximo-o-grego",
+  "campo": "resumo.uk",
+  "de": "Грек за походженням, освічений у Західній Європі, чернець Афону, прибув 1518 р. до Москви на прохання Василія III для перекладу богослужбових книг. За викриття церковних і політичних зловживань (зокрема розлучення великого князя) був засуджений і двадцять років провів в ув'язненні, продовжуючи писати. Місцеве шанування благословлено 1591 р.; загальноцерковне прославлення — Помісний Собор 1988 р.",
+  "para": "Грек за походженням, освічений у Західній Європі, чернець Афону, прибув 1518 р. до Москви на прохання Василія III для перекладу богослужбових книг. За викриття церковних і політичних зловживань (зокрема розлучення великого князя) був засуджений і двадцять років провів в ув’язненні, продовжуючи писати. Місцеве шанування благословлено 1591 р.; загальноцерковне прославлення — Помісний Собор 1988 р.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "gregorio-teologo",
+  "campo": "tropario.uk",
+  "de": "Пастирська сопілка твого богослов'я перемогла сурми риторів, бо тобі, що дослідив глибини Духа, дано було й красу слова. Моли ж Христа Бога, отче Григорію, спасти душі наші.",
+  "para": "Пастирська сопілка твого богослов’я перемогла сурми риторів, бо тобі, що дослідив глибини Духа, дано було й красу слова. Моли ж Христа Бога, отче Григорію, спасти душі наші.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "nicolau-do-japao",
+  "campo": "resumo.uk",
+  "de": "У миру Іван Касаткін, син диякона Смоленської губернії; закінчив Санкт-Петербурзьку духовну академію і 1860 р. пострижений з ім'ям Миколай. Вирушив настоятелем консульської церкви в Хакодате і започаткував православну місію в Японії, яку очолював до смерті (1912). Прославлений Священним Синодом 1970 р. у лику рівноапостольних.",
+  "para": "У миру Іван Касаткін, син диякона Смоленської губернії; закінчив Санкт-Петербурзьку духовну академію і 1860 р. пострижений з ім’ям Миколай. Вирушив настоятелем консульської церкви в Хакодате і започаткував православну місію в Японії, яку очолював до смерті (1912). Прославлений Священним Синодом 1970 р. у лику рівноапостольних.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "aleixo-de-moscovo",
+  "campo": "tropario.uk",
+  "de": "Як співпрестольника апостолів, чудового лікаря і благоугодного служителя, приходячи до чесної раки твоєї, святителю Алексію богомудрий, чудотворче, зібравшись із любов'ю, світло святкуємо пам'ять твою, у піснях і співах радіючи і славлячи Христа, що дарував тобі таку благодать зцілень і місту твоєму велике утвердження.",
+  "para": "Як співпрестольника апостолів, чудового лікаря і благоугодного служителя, приходячи до чесної раки твоєї, святителю Алексію богомудрий, чудотворче, зібравшись із любов’ю, світло святкуємо пам’ять твою, у піснях і співах радіючи і славлячи Христа, що дарував тобі таку благодать зцілень і місту твоєму велике утвердження.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "cirilo-e-metodio",
+  "campo": "resumo.uk",
+  "de": "Брати зі знатної родини Солуня: Мефодій був військовиком і правителем слов'янського князівства, потім ченцем на Олімпі; Костянтин навчався в Константинополі, дістав прізвисько «Філософ» і в чернецтві прийняв ім'я Кирило. Шануються як учителі слов'янські й рівноапостольні. Кирило помер 869 р. і похований у Римі в церкві святого Климента; Мефодій помер 885 р.",
+  "para": "Брати зі знатної родини Солуня: Мефодій був військовиком і правителем слов’янського князівства, потім ченцем на Олімпі; Костянтин навчався в Константинополі, дістав прізвисько «Філософ» і в чернецтві прийняв ім’я Кирило. Шануються як учителі слов’янські й рівноапостольні. Кирило помер 869 р. і похований у Римі в церкві святого Климента; Мефодій помер 885 р.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "hermogenes-de-moscovo",
+  "campo": "resumo.uk",
+  "de": "Бувши священиком у Казані, був свідком явлення Казанської ікони Божої Матері і уклав їй службу. З 1606 р. патріарх, у Смутні часи очолив духовний опір польсько-литовським загарбникам, розсилаючи грамоти із закликом захищати віру і вітчизну. Ув'язнений у Чудовому монастирі, помер від голоду 1612 р.; прославлений 1913 р.",
+  "para": "Бувши священиком у Казані, був свідком явлення Казанської ікони Божої Матері і уклав їй службу. З 1606 р. патріарх, у Смутні часи очолив духовний опір польсько-литовським загарбникам, розсилаючи грамоти із закликом захищати віру і вітчизну. Ув’язнений у Чудовому монастирі, помер від голоду 1612 р.; прославлений 1913 р.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "daniel-de-moscovo",
+  "campo": "nome.cu",
+  "de": "Благовѣ́рный кня́зь Даніи́лъ Моско́вскій",
+  "para": "Благовѣ́рный князь Даніи́лъ Моско́вскій",
+  "motivo": "Lint: monossílabos sem acento na ortografia de armazenamento (como em data/oracoes: «князь», «Петръ»).",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "quarenta-martires-de-sebaste",
+  "campo": "resumo.uk",
+  "de": "За Ліцинія, що продовжував гоніння у своїх провінціях усупереч едикту 313 р., сорок воїнів-християн родом із Каппадокії, які служили в римському загоні в Севастії Вірменській, відмовилися принести жертву ідолам за наказом воєначальника Агриколая. Вони постраждали в крижаному озері бл. 320 р. Пам'ять їх припадає на Великий піст або близько до нього.",
+  "para": "За Ліцинія, що продовжував гоніння у своїх провінціях усупереч едикту 313 р., сорок воїнів-християн родом із Каппадокії, які служили в римському загоні в Севастії Вірменській, відмовилися принести жертву ідолам за наказом воєначальника Агриколая. Вони постраждали в крижаному озері бл. 320 р. Пам’ять їх припадає на Великий піст або близько до нього.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "joao-climaco",
+  "campo": "resumo.uk",
+  "de": "Про його походження відомо мало; у 16 років прийшов на Синай під керівництво авви Мартирія, потім сорок років жив пустельником у Фолі. Автор «Ліствиці», звідки його прізвисько, — книги, яку традиційно читають у Великий піст. Церква святкує його пам'ять також у 4-ту Неділю Великого посту.",
+  "para": "Про його походження відомо мало; у 16 років прийшов на Синай під керівництво авви Мартирія, потім сорок років жив пустельником у Фолі. Автор «Ліствиці», звідки його прізвисько, — книги, яку традиційно читають у Великий піст. Церква святкує його пам’ять також у 4-ту Неділю Великого посту.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "maria-egipciaca",
+  "campo": "resumo.uk",
+  "de": "У 12 років покинула батьківський дім в Александрії і 17 років жила в гріху, доки не навернулася до покаяння. За традиційним житієм, невидима сила не пустила її до храму Гробу Господнього, і після молитви перед іконою Божої Матері вона близько 47 років прожила в Зайорданській пустелі, де її знайшов чернець Зосима, що причастив її Святих Таїн. Образ покаяння; пам'ять звершується також у 5-ту Неділю Великого посту.",
+  "para": "У 12 років покинула батьківський дім в Александрії і 17 років жила в гріху, доки не навернулася до покаяння. За традиційним житієм, невидима сила не пустила її до храму Гробу Господнього, і після молитви перед іконою Божої Матері вона близько 47 років прожила в Зайорданській пустелі, де її знайшов чернець Зосима, що причастив її Святих Таїн. Образ покаяння; пам’ять звершується також у 5-ту Неділю Великого посту.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "zosimo-e-savacio-de-solovki",
+  "campo": "tropario.uk",
+  "de": "Волею божественного розуму ти оселився в пустелі і там, спрямувавши розум до небесних осель, прожив на землі життям, рівним ангелам, і в молитвах, трудах і постах був взірцем для своїх учнів. Тому Бог, бачачи твою добру волю, помножив чад твоїх у пустелі, напоєній потоками сліз твоїх. Маючи ж сміливість перед Богом, пам'ятай стадо, яке ти зібрав, мудрий, і не забудь, як обіцяв, відвідувати чад твоїх, преподобний Зосимо, отче наш.",
+  "para": "Волею божественного розуму ти оселився в пустелі і там, спрямувавши розум до небесних осель, прожив на землі життям, рівним ангелам, і в молитвах, трудах і постах був взірцем для своїх учнів. Тому Бог, бачачи твою добру волю, помножив чад твоїх у пустелі, напоєній потоками сліз твоїх. Маючи ж сміливість перед Богом, пам’ятай стадо, яке ти зібрав, мудрий, і не забудь, як обіцяв, відвідувати чад твоїх, преподобний Зосимо, отче наш.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "jorge-grande-martir",
+  "campo": "festas",
+  "de": [
+   "04-23",
+   "11-03",
+   "11-26"
+  ],
+  "para": [
+   "04-23",
+   "11-03",
+   "11-10",
+   "11-26"
+  ],
+  "motivo": "Falta 10.11 OS (suplício da roda), listado no doc. 05 #64 (opcional).",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "marcos-evangelista",
+  "campo": "nome.cu",
+  "de": "Апо́столъ и Евангели́стъ Ма́ркъ",
+  "para": "Апо́столъ и Евангели́стъ Маркъ",
+  "motivo": "Lint: monossílabos sem acento na ortografia de armazenamento (como em data/oracoes: «князь», «Петръ»).",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "marcos-evangelista",
+  "campo": "resumo.en",
+  "de": "Born in Jerusalem, a nephew of St Barnabas, he followed Christ on the night of the Passion (Mark 14:51-52). A disciple of St Peter, he founded the Church of Egypt and was the first bishop of Alexandria. According to tradition he wrote his Gospel in Rome.",
+  "para": "Born in Jerusalem, a nephew of St Barnabas, according to tradition he was the young man who followed Christ on the night of the Passion (Mark 14:51-52). A disciple of St Peter, he founded the Church of Egypt and was the first bishop of Alexandria. According to tradition he wrote his Gospel in Rome.",
+  "motivo": "Identificação tradicional apresentada como facto (o texto de Mc 14,51-52 não nomeia o jovem).",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "marcos-evangelista",
+  "campo": "resumo.pt",
+  "de": "Nascido em Jerusalém e sobrinho de S. Barnabé, seguiu Cristo na noite da Paixão (Mc 14,51-52). Discípulo de S. Pedro, fundou a Igreja do Egito e foi o primeiro bispo de Alexandria. Segundo a tradição, escreveu o Evangelho em Roma.",
+  "para": "Nascido em Jerusalém e sobrinho de S. Barnabé, segundo a tradição, é o jovem que seguiu Cristo na noite da Paixão (Mc 14,51-52). Discípulo de S. Pedro, fundou a Igreja do Egito e foi o primeiro bispo de Alexandria. Segundo a tradição, escreveu o Evangelho em Roma.",
+  "motivo": "Identificação tradicional apresentada como facto (o texto de Mc 14,51-52 não nomeia o jovem).",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "marcos-evangelista",
+  "campo": "resumo.ru",
+  "de": "Уроженец Иерусалима, племянник апостола Варнавы, следовал за Христом в ночь Страстей (Мк. 14:51–52). Ученик апостола Петра, основал Церковь в Египте и стал первым епископом Александрийским. По преданию, написал Евангелие в Риме.",
+  "para": "Уроженец Иерусалима, племянник апостола Варнавы, по преданию, это он следовал за Христом в ночь Страстей (Мк. 14:51–52). Ученик апостола Петра, основал Церковь в Египте и стал первым епископом Александрийским. По преданию, написал Евангелие в Риме.",
+  "motivo": "Identificação tradicional apresentada como facto (o texto de Mc 14,51-52 não nomeia o jovem).",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "marcos-evangelista",
+  "campo": "resumo.uk",
+  "de": "Уродженець Єрусалима, племінник апостола Варнави, йшов за Христом у ніч Страстей (Мк. 14:51–52). Учень апостола Петра, заснував Церкву в Єгипті і став першим єпископом Александрійським. За переданням, написав Євангеліє в Римі.",
+  "para": "Уродженець Єрусалима, племінник апостола Варнави, за переданням, це він ішов за Христом у ніч Страстей (Мк. 14:51–52). Учень апостола Петра, заснував Церкву в Єгипті і став першим єпископом Александрійським. За переданням, написав Євангеліє в Римі.",
+  "motivo": "Identificação tradicional apresentada como facto (o texto de Mc 14,51-52 não nomeia o jovem).",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "estevao-de-perm",
+  "campo": "tropario.uk",
+  "de": "З юного віку запалившись божественним бажанням, премудрий Стефане, ти взяв ярмо Христове і, посіявши божественне насіння в серцях людей, віддавна скрижанілих від невір'я, духовно породив їх за Євангелієм. Тому, шануючи преславну твою пам'ять, молимо тебе: моли Того, Кого ти проповідував, щоб спас душі наші.",
+  "para": "З юного віку запалившись божественним бажанням, премудрий Стефане, ти взяв ярмо Христове і, посіявши божественне насіння в серцях людей, віддавна скрижанілих від невір’я, духовно породив їх за Євангелієм. Тому, шануючи преславну твою пам’ять, молимо тебе: моли Того, Кого ти проповідував, щоб спас душі наші.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "nilo-de-sora",
+  "campo": "nome.cu",
+  "de": "Преподо́бный Ни́лъ Со́рскій",
+  "para": "Преподо́бный Нилъ Со́рскій",
+  "motivo": "Lint: monossílabos sem acento na ortografia de armazenamento (como em data/oracoes: «князь», «Петръ»).",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "nilo-de-sora",
+  "campo": "tropario.uk",
+  "de": "Утікши по-давидськи від світу і вважаючи все, що в ньому, за сміття, ти оселився в безмовному місці й сповнився духовної радості, отче наш Ніле; зволивши служити єдиному Богові, ти розцвів, як фінік, і, як плідна лоза, помножив чад пустелі. Тому вдячно взиваємо: слава Тому, Хто укріпив тебе в подвигу пустельного життя; слава Тому, Хто обрав тебе в Росії видатним уставоположником пустельників; слава Тому, Хто твоїми молитвами спасає і нас.",
+  "para": "Утікши по-давидськи від світу і вважаючи все, що в ньому, за сміття, ти оселився в безмовному місці й сповнився духовної радості, отче наш Ніле; зволивши служити єдиному Богові, ти розцвів, як фінік, і, як плідна лоза, помножив чад пустелі. Тому вдячно взиваємо: слава Тому, Хто укріпив тебе в подвигу пустельного життя; слава Тому, Хто обрав тебе на Русі видатним уставоположником пустельників; слава Тому, Хто твоїми молитвами спасає і нас.",
+  "motivo": "Uniformidade: os outros tropários UK traduzem «Россі́я/Россі́йскій» por «Русь/Руський».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "demetrio-de-uglitch",
+  "campo": "tropario.uk",
+  "de": "Ти обагрив кров'ю твоєю царську діадему, богомудрий мучениче; взявши в руку замість скіпетра хрест, явився побідоносцем і приніс себе Владиці в непорочну жертву, бо, як незлобивий агнець, був заколений рабом, і нині з радістю стоїш перед Святою Тройцею. Молися, щоб держава родичів твоїх була богоугодною і сини Русі спаслися.",
+  "para": "Ти обагрив кров’ю твоєю царську діадему, богомудрий мучениче; взявши в руку замість скіпетра хрест, явився побідоносцем і приніс себе Владиці в непорочну жертву, бо, як незлобивий агнець, був заколений рабом, і нині з радістю стоїш перед Святою Тройцею. Молися, щоб держава родичів твоїх була богоугодною і сини Русі спаслися.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "demetrio-donskoi",
+  "campo": "nome.cu",
+  "de": "Благовѣ́рный вели́кій кня́зь Дими́трій Донско́й",
+  "para": "Благовѣ́рный вели́кій князь Дими́трій Донско́й",
+  "motivo": "Lint: monossílabos sem acento na ortografia de armazenamento (como em data/oracoes: «князь», «Петръ»).",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "demetrio-donskoi",
+  "campo": "resumo.uk",
+  "de": "Великий князь Московський з 9 років, вихованець святителя Алексія, об'єднав руські землі проти Орди і переміг Мамая на Куликовому полі (1380), отримавши, за житійним переданням, благословення преподобного Сергія. Був одружений зі святою Євдокією (в чернецтві Євфросинією Московською). Помер 39 років, прийнявши схиму; прославлений Помісним Собором 1988 р.",
+  "para": "Великий князь Московський з 9 років, вихованець святителя Алексія, об’єднав руські землі проти Орди і переміг Мамая на Куликовому полі (1380), отримавши, за житійним переданням, благословення преподобного Сергія. Був одружений зі святою Євдокією (в чернецтві Євфросинією Московською). Помер 39 років, прийнявши схиму; прославлений Помісним Собором 1988 р.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "constantino-e-helena",
+  "campo": "nome.cu",
+  "de": "Равноапо́стольные ца́рь Константи́нъ и ма́ти его́ цари́ца Еле́на",
+  "para": "Равноапо́стольные царь Константи́нъ и ма́ти его́ цари́ца Еле́на",
+  "motivo": "Lint: monossílabos sem acento na ortografia de armazenamento (como em data/oracoes: «князь», «Петръ»).",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "lucas-da-crimeia",
+  "campo": "resumo.uk",
+  "de": "Валентин Войно-Ясенецький, уродженець Керчі, хірург і професор медицини. 1923 р. прийняв чернецтво і був висвячений на єпископа; багаторазово зазнавав арештів і заслань (близько одинадцяти років), продовжуючи служити й оперувати. Останні п'ятнадцять років був архієпископом Сімферопольським; прославлений місцево 1995 р. і загальноцерковно 2000 р.",
+  "para": "Валентин Войно-Ясенецький, уродженець Керчі, хірург і професор медицини. 1923 р. прийняв чернецтво і був висвячений на єпископа; багаторазово зазнавав арештів і заслань (близько одинадцяти років), продовжуючи служити й оперувати. Останні п’ятнадцять років був архієпископом Сімферопольським; прославлений місцево 1995 р. і загальноцерковно 2000 р.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "bartolomeu-e-barnabe",
+  "campo": "tropario.uk",
+  "de": "Прийнявши вогненатхненну мову в силі Духа, ви всюди проповідували Слово, що прийшло в тілі; заради Нього один був обезголовлений, другий побитий камінням, і ви — окраса апостольського лику, Варфоломію і Варнаво. Тому шануємо вашу пам'ять і просимо: моліть Христа Бога дарувати нам прощення гріхів.",
+  "para": "Прийнявши вогненатхненну мову в силі Духа, ви всюди проповідували Слово, що прийшло в тілі; заради Нього один був обезголовлений, другий побитий камінням, і ви — окраса апостольського лику, Варфоломію і Варнаво. Тому шануємо вашу пам’ять і просимо: моліть Христа Бога дарувати нам прощення гріхів.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "judas-tadeu",
+  "campo": "nome.cu",
+  "de": "Апо́столъ Іу́да, бра́тъ Госпо́день",
+  "para": "Апо́столъ Іу́да, братъ Госпо́день",
+  "motivo": "Lint: monossílabos sem acento na ortografia de armazenamento (como em data/oracoes: «князь», «Петръ»).",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "judas-tadeu",
+  "campo": "resumo.uk",
+  "de": "За переданням, син святого Йосифа Обручника від першого шлюбу («брат Господній»); у Євангеліях згадується також як Левей і Фаддей. Проповідував в Юдеї, Галилеї, Аравії, Сирії, Месопотамії, Персії та Вірменії; автор соборного послання, що носить його ім'я. За переданням, прийняв мученицьку смерть у Вірменії.",
+  "para": "За переданням, син святого Йосифа Обручника від першого шлюбу («брат Господній»); у Євангеліях згадується також як Левей і Фаддей. Проповідував в Юдеї, Галилеї, Аравії, Сирії, Месопотамії, Персії та Вірменії; автор соборного послання, що носить його ім’я. За переданням, прийняв мученицьку смерть у Вірменії.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "joao-batista",
+  "campo": "tropario.uk",
+  "de": "Пророче і Предтече пришестя Христового, гідно вихвалити тебе ми, що з любов'ю шануємо тебе, не вміємо: бо славним і чесним твоїм народженням розв'язалися безпліддя тієї, що народила, і німота батька, і світові проповідується втілення Сина Божого.",
+  "para": "Пророче і Предтече пришестя Христового, гідно вихвалити тебе ми, що з любов’ю шануємо тебе, не вміємо: бо славним і чесним твоїм народженням розв’язалися безпліддя тієї, що народила, і німота батька, і світові проповідується втілення Сина Божого.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "pedro-e-fevronia",
+  "campo": "nome.cu",
+  "de": "Благовѣ́рные кня́зь Пе́тръ и княги́ня Февро́нія, Му́ромстіи чудотво́рцы",
+  "para": "Благовѣ́рные князь Петръ и княги́ня Февро́нія, Му́ромстіи чудотво́рцы",
+  "motivo": "Lint: monossílabos sem acento na ortografia de armazenamento (como em data/oracoes: «князь», «Петръ»).",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "pedro-e-paulo",
+  "campo": "nome.cu",
+  "de": "Первоверхо́вные апо́столы Пе́тръ и Па́ѵелъ",
+  "para": "Первоверхо́вные апо́столы Петръ и Па́ѵелъ",
+  "motivo": "Lint: monossílabos sem acento na ortografia de armazenamento (como em data/oracoes: «князь», «Петръ»).",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "andre-bogoliubski",
+  "campo": "nome.cu",
+  "de": "Благовѣ́рный вели́кій кня́зь Андре́й Боголю́бскій",
+  "para": "Благовѣ́рный вели́кій князь Андре́й Боголю́бскій",
+  "motivo": "Lint: monossílabos sem acento na ortografia de armazenamento (como em data/oracoes: «князь», «Петръ»).",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "andre-bogoliubski",
+  "campo": "tropario.uk",
+  "de": "Як благовірний і праведний, за любов до Христа Бога ти прийняв смерть від своїх, проливши кров свою, як колись родичі твої, страстотерпці Борис і Гліб; з їхньою кров'ю волає до Бога і твоя кров, святий, як кров праведних Авеля і Захарії, благовірний страстотерпче, великий княже Андрію. З ними моли Христа Бога за країну нашу, щоб була вона богоугодною і сини Русі спаслися.",
+  "para": "Як благовірний і праведний, за любов до Христа Бога ти прийняв смерть від своїх, проливши кров свою, як колись родичі твої, страстотерпці Борис і Гліб; з їхньою кров’ю волає до Бога і твоя кров, святий, як кров праведних Авеля і Захарії, благовірний страстотерпче, великий княже Андрію. З ними моли Христа Бога за країну нашу, щоб була вона богоугодною і сини Русі спаслися.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "isabel-feodorovna",
+  "campo": "resumo.uk",
+  "de": "Німецька принцеса за народженням, прийняла Православ'я 1891 р. Після вбивства чоловіка, великого князя Сергія, терористом присвятила себе Богові й ближнім і заснувала в Москві Марфо-Маріїнську обитель — осередок духовної та медичної допомоги. 1918 р. разом з іншими членами імператорської родини була скинута в шахту поблизу Алапаєвська; прославлена Архієрейським Собором 1992 р.",
+  "para": "Німецька принцеса за народженням, прийняла Православ’я 1891 р. Після вбивства чоловіка, великого князя Сергія, терористом присвятила себе Богові й ближнім і заснувала в Москві Марфо-Маріїнську обитель — осередок духовної та медичної допомоги. 1918 р. разом з іншими членами імператорської родини була скинута в шахту поблизу Алапаєвська; прославлена Архієрейським Собором 1992 р.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "olga-de-kiev",
+  "campo": "resumo.uk",
+  "de": "Велика княгиня Київська, після загибелі чоловіка, князя Ігоря, правила державою. Хрестилася в Константинополі 954 або 957 р. з ім'ям Олена, будувала храми і заповіла поховати себе за християнським обрядом. Літопис уже прославляє її як першу з Русі, що ввійшла в Царство Небесне; загальноцерковне прославлення — 1547 р.",
+  "para": "Велика княгиня Київська, після загибелі чоловіка, князя Ігоря, правила державою. Хрестилася в Константинополі 954 або 957 р. з ім’ям Олена, будувала храми і заповіла поховати себе за християнським обрядом. Літопис уже прославляє її як першу з Русі, що ввійшла в Царство Небесне; загальноцерковне прославлення — 1547 р.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "vladimir-igual-apostolos",
+  "campo": "nome.cu",
+  "de": "Равноапо́стольный вели́кій кня́зь Влади́міръ",
+  "para": "Равноапо́стольный вели́кій князь Влади́міръ",
+  "motivo": "Lint: monossílabos sem acento na ortografia de armazenamento (como em data/oracoes: «князь», «Петръ»).",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "vladimir-igual-apostolos",
+  "campo": "resumo.uk",
+  "de": "Почав князювання в Києві переконаним язичником; мучеництво християн-варягів Феодора й Іоанна змусило його засумніватися в язичництві. Вислухавши проповідників різних вір і відправивши посольства, обрав Православ'я, хрестився в Херсонесі й, повернувшись до Києва, повалив ідолів і охрестив народ у Дніпрі (988). Помер 1015 р.",
+  "para": "Почав князювання в Києві переконаним язичником; мучеництво християн-варягів Феодора й Іоанна змусило його засумніватися в язичництві. Вислухавши проповідників різних вір і відправивши посольства, обрав Православ’я, хрестився в Херсонесі й, повернувшись до Києва, повалив ідолів і охрестив народ у Дніпрі (988). Помер 1015 р.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "elias-profeta",
+  "campo": "resumo.uk",
+  "de": "Уродженець Фесви Галаадської, викривав служіння Ваалу за царя Ахава і провістив трирічну посуху. За його молитвою зійшов вогонь з неба на политу водою жертву; був узятий живим на небо у вогняній колісниці. З'явився з Мойсеєм на Преображенні і, за переданням, буде предтечею Другого пришестя.",
+  "para": "Уродженець Фесви Галаадської, викривав служіння Ваалу за царя Ахава і провістив трирічну посуху. За його молитвою зійшов вогонь з неба на политу водою жертву; був узятий живим на небо у вогняній колісниці. З’явився з Мойсеєм на Преображенні і, за переданням, буде предтечею Другого пришестя.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "maria-madalena",
+  "campo": "resumo.uk",
+  "de": "Зцілена Христом від семи бісів (Лк. 8:2), йшла за Ним і була присутня при Розп'ятті й похованні. Першою побачила воскреслого Господа (Ін. 20:11–18). За переданням, проповідувала в Римі й закінчила дні в Ефесі при апостолі Іоанні.",
+  "para": "Зцілена Христом від семи бісів (Лк. 8:2), йшла за Ним і була присутня при Розп’ятті й похованні. Першою побачила воскреслого Господа (Ін. 20:11–18). За переданням, проповідувала в Римі й закінчила дні в Ефесі при апостолі Іоанні.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "maria-madalena",
+  "campo": "tropario.uk",
+  "de": "За Христом, що заради нас народився від Діви, ти пішла, чесна Маріє Магдалино, зберігаючи Його установи й закони. Тому, святкуючи нині всесвяту пам'ять твою, твоїми молитвами одержуємо прощення гріхів.",
+  "para": "За Христом, що заради нас народився від Діви, ти пішла, чесна Маріє Магдалино, зберігаючи Його установи й закони. Тому, святкуючи нині всесвяту пам’ять твою, твоїми молитвами одержуємо прощення гріхів.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "boris-e-gleb",
+  "campo": "nome.cu",
+  "de": "Благовѣ́рные кня́зи страстоте́рпцы Бори́съ и Глѣ́бъ",
+  "para": "Благовѣ́рные кня́зи страстоте́рпцы Бори́съ и Глѣбъ",
+  "motivo": "Lint: monossílabos sem acento na ortografia de armazenamento (como em data/oracoes: «князь», «Петръ»).",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "pantaleao",
+  "campo": "resumo.uk",
+  "de": "Народився в Нікомідії в родині язичника Євсторгія і християнки Еввули, вивчав медицину і був навернений пресвітером Єрмолаєм. Безоплатно лікував хворих в ім'я Христа і був виданий імператорові Максиміану. Прийняв мученицьку смерть 305 р.; за переданням, отримав від Господа ім'я Пантелеймон («всемилостивий»).",
+  "para": "Народився в Нікомідії в родині язичника Євсторгія і християнки Еввули, вивчав медицину і був навернений пресвітером Єрмолаєм. Безоплатно лікував хворих в ім’я Христа і був виданий імператорові Максиміану. Прийняв мученицьку смерть 305 р.; за переданням, отримав від Господа ім’я Пантелеймон («всемилостивий»).",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "joao-o-guerreiro",
+  "campo": "tropario.uk",
+  "de": "Всеблагого Бога і Царя вірним рабом і воїном явився ти, Іоанне чудотворче; мужньо постраждавши за віру і блаженно закінчивши біг, ти нині ясніше споглядаєш на небесах Господа, Творця всього. Прийнявши від Нього дар чудес, ти допомагаєш стражденним людям у всяких напастях, укріплюєш воїнів у битвах, визволяєш від ворожого полону, ран, раптової смерті й лютих бід. Тому моли Владику Христа, приснопам'ятний, щоб у всякій скорботі помилував нас, не ввів у спокусу, але спас душі наші, як Чоловіколюбець.",
+  "para": "Всеблагого Бога і Царя вірним рабом і воїном явився ти, Іоанне чудотворче; мужньо постраждавши за віру і блаженно закінчивши біг, ти нині ясніше споглядаєш на небесах Господа, Творця всього. Прийнявши від Нього дар чудес, ти допомагаєш стражденним людям у всяких напастях, укріплюєш воїнів у битвах, визволяєш від ворожого полону, ран, раптової смерті й лютих бід. Тому моли Владику Христа, приснопам’ятний, щоб у всякій скорботі помилував нас, не ввів у спокусу, але спас душі наші, як Чоловіколюбець.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "basilio-bem-aventurado",
+  "campo": "resumo.uk",
+  "de": "Народився в Москві; у 16 років розпочав подвиг юродства Христа ради, за будь-якої погоди ходячи босим і майже нагим. За переданням, передбачив московську пожежу 1547 р. і викривав вади сильних світу, зокрема Івана IV. Помер 1557 р.; канонізований 1588 р.; його ім'ям у народі називають Покровський собор на Червоній площі.",
+  "para": "Народився в Москві; у 16 років розпочав подвиг юродства Христа ради, за будь-якої погоди ходячи босим і майже нагим. За переданням, передбачив московську пожежу 1547 р. і викривав вади сильних світу, зокрема Івана IV. Помер 1557 р.; канонізований 1588 р.; його ім’ям у народі називають Покровський собор на Червоній площі.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "basilio-bem-aventurado",
+  "campo": "titulo.en",
+  "de": "Fool-for-Christ",
+  "para": "Blessed Fool-for-Christ",
+  "motivo": "RU/UK «Блаженный, Христа ради юродивый»; cf. Xenia «Blessed Fool-for-Christ».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "basilio-bem-aventurado",
+  "campo": "titulo.pt",
+  "de": "Louco por Cristo",
+  "para": "Bem-aventurado, louco por Cristo",
+  "motivo": "RU/UK «Блаженный, Христа ради юродивый»; cf. xenia «Bem-aventurada, louca por Cristo».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "matias-apostolo",
+  "campo": "resumo.uk",
+  "de": "Учень Христів із числа Сімдесятьох, обраний жеребом на місце Юди Іскаріота (Діян. 1). Проповідував в Юдеї, Сирії та Малій Азії. За переданням, побитий камінням за вироком синедріону бл. 63 р.",
+  "para": "Учень Христів із числа Сімдесятьох, обраний жеребом на місце Іуди Іскаріота (Діян. 1). Проповідував в Юдеї, Сирії та Малій Азії. За переданням, побитий камінням за вироком синедріону бл. 63 р.",
+  "motivo": "UK IOU (dec. 30): «Іуда» (orações: «Іуда»).",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "tikhon-de-zadonsk",
+  "campo": "tropario.uk",
+  "de": "З юності ти полюбив Христа, блаженний, і був для всіх взірцем словом, життям, любов'ю, духом, вірою, чистотою і смиренням; тому й вселився в небесні оселі, де, стоячи перед престолом Пресвятої Тройці, моли, святителю Тихоне, про спасіння душ наших.",
+  "para": "З юності ти полюбив Христа, блаженний, і був для всіх взірцем словом, життям, любов’ю, духом, вірою, чистотою і смиренням; тому й вселився в небесні оселі, де, стоячи перед престолом Пресвятої Тройці, моли, святителю Тихоне, про спасіння душ наших.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "joaquim-e-ana",
+  "campo": "tropario.uk",
+  "de": "Святкуючи пам'ять праведних Твоїх, Господи, їхніми молитвами молимо Тебе: спаси душі наші.",
+  "para": "Святкуючи пам’ять праведних Твоїх, Господи, їхніми молитвами молимо Тебе: спаси душі наші.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "fe-esperanca-caridade-e-sofia",
+  "campo": "tropario.en",
+  "de": "The Church of the first-born keepeth festival and rejoiceth, receiving the mother who is glad in her daughters, for she, named after Wisdom, bore daughters equal in number to the three theological virtues. She seeth them betrothed with the wise virgins to the Bridegroom, God the Word; and with her we too rejoice spiritually in their memory, saying: O champions of the Trinity, Faith, Hope and Love, establish us in faith, love and hope.",
+  "para": "The Church of the first-born keepeth festival and rejoiceth, receiving the mother who is glad in her daughters, for she, named after Wisdom, bore daughters equal in number to the three theological virtues. She seeth them betrothed with the wise virgins to the Bridegroom, God the Word; and with her we too rejoice spiritually in their memory, saying: O champions of the Trinity, Faith, Love and Hope, establish us in faith, love and hope.",
+  "motivo": "Order of the Slavonic: «Вѣ́ро, Любве́ и Наде́ждо».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "fe-esperanca-caridade-e-sofia",
+  "campo": "tropario.pt",
+  "de": "Exulta a Igreja dos primogénitos e regozija-se acolhendo a mãe que se alegra com as filhas, ela que, homónima da Sabedoria, deu à luz filhas iguais em número às três virtudes teologais. Vê-as desposadas, com as virgens prudentes, ao Esposo, Deus Verbo; com ela também nós nos alegramos espiritualmente na sua memória, dizendo: ó defensoras da Trindade, Fé, Esperança e Caridade, firmai-nos na fé, no amor e na esperança.",
+  "para": "Exulta a Igreja dos primogénitos e regozija-se acolhendo a mãe que se alegra com as filhas, ela que, homónima da Sabedoria, deu à luz filhas iguais em número às três virtudes teologais. Vê-as desposadas, com as virgens prudentes, ao Esposo, Deus Verbo; com ela também nós nos alegramos espiritualmente na sua memória, dizendo: ó defensoras da Trindade, Fé, Caridade e Esperança, firmai-nos na fé, no amor e na esperança.",
+  "motivo": "Ordem do eslavo: «Вѣ́ро, Любве́ и Наде́ждо».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "fe-esperanca-caridade-e-sofia",
+  "campo": "tropario.ru",
+  "de": "Торжествует Церковь первородных и сорадуется, принимая мать, веселящуюся о дочерях, ибо она, тезоименитая премудрости, родила равночисленных трем богословским добродетелям. Она видит их с мудрыми девами обручившимися Жениху, Богу Слову; с нею и мы духовно сорадуемся в их память, говоря: поборницы Троицы, Вера, Надежда и Любовь, утверждайте нас в вере, любви и надежде.",
+  "para": "Торжествует Церковь первородных и сорадуется, принимая мать, веселящуюся о дочерях, ибо она, тезоименитая премудрости, родила равночисленных трем богословским добродетелям. Она видит их с мудрыми девами обручившимися Жениху, Богу Слову; с нею и мы духовно сорадуемся в их память, говоря: поборницы Троицы, Вера, Любовь и Надежда, утверждайте нас в вере, любви и надежде.",
+  "motivo": "Ordem do eslavo: «Вѣ́ро, Любве́ и Наде́ждо».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "fe-esperanca-caridade-e-sofia",
+  "campo": "tropario.uk",
+  "de": "Торжествує Церква первородних і співрадіє, приймаючи матір, що веселиться про доньок, бо вона, тезоіменна премудрості, народила рівночисленних трьом богословським чеснотам. Вона бачить їх з мудрими дівами зарученими з Нареченим, Богом Словом; з нею і ми духовно співрадіємо в їхню пам'ять, кажучи: поборниці Тройці, Віро, Надіє і Любове, утверджуйте нас у вірі, любові й надії.",
+  "para": "Торжествує Церква первородних і співрадіє, приймаючи матір, що веселиться про доньок, бо вона, тезоіменна премудрості, народила рівночисленних трьом богословським чеснотам. Вона бачить їх з мудрими дівами зарученими з Нареченим, Богом Словом; з нею і ми духовно співрадіємо в їхню пам’ять, кажучи: поборниці Тройці, Віро, Любове і Надіє, утверджуйте нас у вірі, любові й надії.",
+  "motivo": "Ordem do eslavo: «Вѣ́ро, Любве́ и Наде́ждо». | Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "parasceva-da-servia",
+  "campo": "resumo.uk",
+  "de": "Народилася в Епіватах у Фракії в XI ст.; покинула дім заради подвижницького життя — спершу в Константинополі, потім у Йорданській пустелі. Незадовго до смерті повернулася на батьківщину, де закінчила дні в молитві. Її мощі, глибоко шановані на Балканах, з 1641 р. перебувають у Яссах (Румунія); не плутати з великомученицею Параскевою П'ятницею (28.10).",
+  "para": "Народилася в Епіватах у Фракії в XI ст.; покинула дім заради подвижницького життя — спершу в Константинополі, потім у Йорданській пустелі. Незадовго до смерті повернулася на батьківщину, де закінчила дні в молитві. Її мощі, глибоко шановані на Балканах, з 1641 р. перебувають у Яссах (Румунія); не плутати з великомученицею Параскевою П’ятницею (28.10).",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "parasceva-da-servia",
+  "campo": "tropario.uk",
+  "de": "Полюбивши пустельне і безмовне життя, ти ревно пішла за Христом, Нареченим твоїм, і, взявши в юності Його благе ярмо, мужньо озброїлася хресним знаменням проти мисленних ворогів; постницькими подвигами, постом, молитвами і краплями сліз ти погасила жар пристрастей, преславна Параскево. І нині в небесному чертозі з мудрими дівами стоячи перед Христом, молися за нас, що шануємо чесну пам'ять твою.",
+  "para": "Полюбивши пустельне і безмовне життя, ти ревно пішла за Христом, Нареченим твоїм, і, взявши в юності Його благе ярмо, мужньо озброїлася хресним знаменням проти мисленних ворогів; постницькими подвигами, постом, молитвами і краплями сліз ти погасила жар пристрастей, преславна Параскево. І нині в небесному чертозі з мудрими дівами стоячи перед Христом, молися за нас, що шануємо чесну пам’ять твою.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "nikon-de-radonej",
+  "campo": "resumo.uk",
+  "de": "Учень преподобного Сергія Радонезького, його наступник в ігуменстві Троїцької обителі. Після спустошення монастиря татарами (1408) відновив його; 1422 р. знайшов нетлінні мощі преподобного Сергія і спорудив над ними кам'яний Троїцький собор. Помер 1426 р.",
+  "para": "Учень преподобного Сергія Радонезького, його наступник в ігуменстві Троїцької обителі. Після спустошення монастиря татарами (1408) відновив його; 1422 р. знайшов нетлінні мощі преподобного Сергія і спорудив над ними кам’яний Троїцький собор. Помер 1426 р.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "nikon-de-radonej",
+  "campo": "tropario.uk",
+  "de": "Ти був добрим ревнителем послуху, преподобний Никоне приснопам'ятний, бо спорудив прекрасну церкву Святої Тройці на славу отця твого. Тому й ми, чада твої, з любов'ю взиваємо до тебе: слава Тому, Хто дав тобі силу, слава Тому, Хто вінчав тебе, слава Тому, Хто чинить через тебе всім зцілення.",
+  "para": "Ти був добрим ревнителем послуху, преподобний Никоне приснопам’ятний, бо спорудив прекрасну церкву Святої Тройці на славу отця твого. Тому й ми, чада твої, з любов’ю взиваємо до тебе: слава Тому, Хто дав тобі силу, слава Тому, Хто вінчав тебе, слава Тому, Хто чинить через тебе всім зцілення.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "sabas-de-storojevsk",
+  "campo": "tropario.uk",
+  "de": "З юності запалюваний божественною ревністю, ти полюбив чисте життя і, зневаживши красу й марноту цього світу, пішов за богомудрим учителем твоїм, преблаженним Сергієм, у праці й чуванні, у пості й подвигу. З'явившись на Сторожі заради безмовності й невсипно стоячи на божественній сторожі, ти здобув розум, звернений до Бога, що прозирає підступи й напади бісів; прийнявши в себе осяяння Пресвятого Духа, ти став для вірних пресвітлою зорею. Тому ти явився премудрим і світлосяйним предстоятелем і пастирем стада твого: просвіщай світлом твоїм і всіх, що приходять до тебе з вірою, отче наш Саво, і моли Христа Бога, щоб спас душі наші.",
+  "para": "З юності запалюваний божественною ревністю, ти полюбив чисте життя і, зневаживши красу й марноту цього світу, пішов за богомудрим учителем твоїм, преблаженним Сергієм, у праці й чуванні, у пості й подвигу. З’явившись на Сторожі заради безмовності й невсипно стоячи на божественній сторожі, ти здобув розум, звернений до Бога, що прозирає підступи й напади бісів; прийнявши в себе осяяння Пресвятого Духа, ти став для вірних пресвітлою зорею. Тому ти явився премудрим і світлосяйним предстоятелем і пастирем стада твого: просвіщай світлом твоїм і всіх, що приходять до тебе з вірою, отче наш Саво, і моли Христа Бога, щоб спас душі наші.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "joao-damasceno",
+  "campo": "tropario.uk",
+  "de": "Наставнику православ'я, учителю благочестя і чистоти, світильнику вселенної, боговдохновенна окрасо ченців, премудрий Іоанне, ученнями твоїми ти всіх просвітив, сопілко духовна: моли Христа Бога спасти душі наші.",
+  "para": "Наставнику православ’я, учителю благочестя і чистоти, світильнику вселенної, боговдохновенна окрасо ченців, премудрий Іоанне, ученнями твоїми ти всіх просвітив, сопілко духовна: моли Христа Бога спасти душі наші.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "anastacia-libertadora",
+  "campo": "resumo.uk",
+  "de": "Знатна римлянка, відвідувала й підтримувала ув'язнених християн під час гоніння Діоклетіана, за що названа Узорішителькою («та, що розв'язує кайдани»). Була схоплена і постраждала в Іллірику бл. 304 р. До неї звертаються в'язні й стражденні.",
+  "para": "Знатна римлянка, відвідувала й підтримувала ув’язнених християн під час гоніння Діоклетіана, за що названа Узорішителькою («та, що розв’язує кайдани»). Була схоплена і постраждала в Іллірику бл. 304 р. До неї звертаються в’язні й стражденні.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "tatiana",
+  "campo": "resumo.uk",
+  "de": "Донька знатних римських християн, була дияконисою і служила бідним і хворим. За Олександра Севера (222–235) схоплена за відмову принести жертву ідолам, зазнала катувань і була обезголовлена. У Росії шанується як покровителька студентів, бо Московський університет засновано в день її пам'яті (1755).",
+  "para": "Донька знатних римських християн, була дияконисою і служила бідним і хворим. За Олександра Севера (222–235) схоплена за відмову принести жертву ідолам, зазнала катувань і була обезголовлена. У Росії шанується як покровителька студентів, бо Московський університет засновано в день її пам’яті (1755).",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "tatiana",
+  "campo": "tropario.uk",
+  "de": "Ідучи за Пречистим Агнцем і Пастирем, словесна агнице Тетяно, ти не злякалася мисленних звірів, але, озброївшись хресним знаменням, до кінця подолала їх і ввійшла до небесної огорожі; там пом'яни і нас, премудра мученице Христова.",
+  "para": "Ідучи за Пречистим Агнцем і Пастирем, словесна агнице Тетяно, ти не злякалася мисленних звірів, але, озброївшись хресним знаменням, до кінця подолала їх і ввійшла до небесної огорожі; там пом’яни і нас, премудра мученице Христова.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "sava-da-servia",
+  "campo": "tropario.uk",
+  "de": "Наставнику православ'я, учителю благочестя і чистоти, світильнику вселенної, боговдохновенна окрасо архієреїв, премудрий Саво, ученнями твоїми ти всіх просвітив, сопілко духовна: моли Христа Бога спасти душі наші.",
+  "para": "Наставнику православ’я, учителю благочестя і чистоти, світильнику вселенної, боговдохновенна окрасо архієреїв, премудрий Саво, ученнями твоїми ти всіх просвітив, сопілко духовна: моли Христа Бога спасти душі наші.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "teodoro-tiro",
+  "campo": "resumo.uk",
+  "de": "Молодий новобранець (тирон) в Амасії Понтійській, відмовився брати участь у язичницьких жертвоприношеннях і спалив ідольське капище; зазнав катувань і спалений бл. 306 р. У першу суботу Великого посту Церква згадує приписуване йому чудо: 361 р. він попередив єпископа Константинопольського, що імператор Юліан звелів осквернити їжу кров'ю ідоложертовних тварин, і вірні харчувалися вареною пшеницею (коливом).",
+  "para": "Молодий новобранець (тирон) в Амасії Понтійській, відмовився брати участь у язичницьких жертвоприношеннях і спалив ідольське капище; зазнав катувань і спалений бл. 306 р. У першу суботу Великого посту Церква згадує приписуване йому чудо: 361 р. він попередив єпископа Константинопольського, що імператор Юліан звелів осквернити їжу кров’ю ідоложертовних тварин, і вірні харчувалися вареною пшеницею (коливом).",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "teodoro-tiro",
+  "campo": "tropario.uk",
+  "de": "Великі подвиги віри! У джерелі полум'я, як на воді спокою, святий мученик Феодор радів; бо, спалений вогнем, він був принесений Тройці, як солодкий хліб. Його молитвами, Христе Боже, спаси душі наші.",
+  "para": "Великі подвиги віри! У джерелі полум’я, як на воді спокою, святий мученик Феодор радів; бо, спалений вогнем, він був принесений Тройці, як солодкий хліб. Його молитвами, Христе Боже, спаси душі наші.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "eufrosina-de-polotsk",
+  "campo": "tropario.uk",
+  "de": "Наслідуючи дванадцятилітня дванадцятилітнього Христа, що навчав у храмі, ти пішла за словом Божим, Євфросиніє. Залишивши тимчасову славу і земного нареченого та зневаживши все світське, ти заручила себе Христові, найпрекраснішому від усіх; взявши хрест, ідучи шляхом ангельського життя і багатьох наставляючи до Нього, ти в пахощах мира зійшла до небесного чертогу: там моли Того, Кого полюбила, за тих, що благочестиво шанують пам'ять твою.",
+  "para": "Наслідуючи дванадцятилітня дванадцятилітнього Христа, що навчав у храмі, ти пішла за словом Божим, Євфросиніє. Залишивши тимчасову славу і земного нареченого та зневаживши все світське, ти заручила себе Христові, найпрекраснішому від усіх; взявши хрест, ідучи шляхом ангельського життя і багатьох наставляючи до Нього, ти в пахощах мира піднеслася до небесного чертогу: там моли Того, Кого полюбила, за тих, що благочестиво шанують пам’ять твою.",
+  "motivo": "«востекла́ еси́» = піднеслася (ascensão); «зійшла до» lê-se como descida. | Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "cirilo-de-belozersk",
+  "campo": "resumo.uk",
+  "de": "Уродженець Москви, у хрещенні Косма; прийняв постриг у Симоновому монастирі, де потім був архімандритом, і спілкувався з преподобним Сергієм Радонезьким. 1397 р. заснував на березі Сиверського озера в Білозерському краї монастир, що носить його ім'я, — один із найбільших на руській Півночі. Писав напучувальні послання князям і залишив духовний заповіт; помер 1427 р.",
+  "para": "Уродженець Москви, у хрещенні Косма; прийняв постриг у Симоновому монастирі, де потім був архімандритом, і спілкувався з преподобним Сергієм Радонезьким. 1397 р. заснував на березі Сиверського озера в Білозерському краї монастир, що носить його ім’я, — один із найбільших на руській Півночі. Писав напучувальні послання князям і залишив духовний заповіт; помер 1427 р.",
+  "motivo": "Apóstrofo UK: «’» (U+2019), como em data/oracoes (504 × ’); as fichas usam o reto «'».",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "paisio-athonita",
+  "campo": "resumo.en",
+  "de": "Arsenios Eznepidis was born in 1924 in Cappadocia and grew up in Konitsa, Greece. A monk from 1950, he lived on Mount Athos and Sinai and from 1979 at the cell of Panagouda on Athos, where he received many pilgrims daily. He died in 1994 at the Souroti monastery near Thessalonica; he was canonised by the Patriarchate of Constantinople in 2015 and entered in the Russian calendar.",
+  "para": "Arsenios Eznepidis was born in 1924 in Cappadocia and grew up in Konitsa, Greece. He went to Mount Athos in 1950 and became a monk in 1954; he lived on Athos and Sinai and from 1979 at the cell of Panagouda on Athos, where he received many pilgrims daily. He died in 1994 at the Souroti monastery near Thessalonica; he was canonised by the Patriarchate of Constantinople in 2015 and entered in the Russian calendar.",
+  "motivo": "Em 1950 entrou como noviço no Athos; tonsura (rassóforo) em 1954, pequeno esquema (Paísio) em 1956. ⚠ conferir com pravenc antes de aplicar.",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "paisio-athonita",
+  "campo": "resumo.pt",
+  "de": "Arsénio Eznepidis nasceu em 1924 na Capadócia e cresceu em Konitsa, na Grécia. Monge desde 1950, viveu no Monte Athos e no Sinai e, a partir de 1979, na cela de Panagouda, no Athos, onde recebia diariamente numerosos peregrinos. Morreu em 1994 no mosteiro de Souroti, junto a Tessalónica; canonizado pelo Patriarcado de Constantinopla em 2015 e inscrito no menológio russo.",
+  "para": "Arsénio Eznepidis nasceu em 1924 na Capadócia e cresceu em Konitsa, na Grécia. Foi para o Monte Athos em 1950 e fez-se monge em 1954; viveu no Athos e no Sinai e, a partir de 1979, na cela de Panagouda, no Athos, onde recebia diariamente numerosos peregrinos. Morreu em 1994 no mosteiro de Souroti, junto a Tessalónica; canonizado pelo Patriarcado de Constantinopla em 2015 e inscrito no menológio russo.",
+  "motivo": "Em 1950 entrou como noviço no Athos; tonsura (rassóforo) em 1954, pequeno esquema (Paísio) em 1956. ⚠ conferir com pravenc antes de aplicar.",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "paisio-athonita",
+  "campo": "resumo.ru",
+  "de": "Арсений Эзнепидис родился в 1924 г. в Каппадокии и вырос в Конице (Греция). Монах с 1950 г., подвизался на Афоне и Синае, а с 1979 г. — в келье Панагуда на Афоне, где ежедневно принимал множество паломников. Скончался в 1994 г. в монастыре Суроти близ Фессалоники; канонизирован Константинопольским Патриархатом в 2015 г. и внесен в месяцеслов Русской Церкви.",
+  "para": "Арсений Эзнепидис родился в 1924 г. в Каппадокии и вырос в Конице (Греция). С 1950 г. на Афоне, монах с 1954 г.; подвизался на Афоне и Синае, а с 1979 г. — в келье Панагуда на Афоне, где ежедневно принимал множество паломников. Скончался в 1994 г. в монастыре Суроти близ Фессалоники; канонизирован Константинопольским Патриархатом в 2015 г. и внесен в месяцеслов Русской Церкви.",
+  "motivo": "Em 1950 entrou como noviço no Athos; tonsura (rassóforo) em 1954, pequeno esquema (Paísio) em 1956. ⚠ conferir com pravenc antes de aplicar.",
+  "prioridade": "C"
+ },
+ {
+  "ficheiro": "fichas.json",
+  "id": "paisio-athonita",
+  "campo": "resumo.uk",
+  "de": "Арсеній Езнепідіс народився 1924 р. в Каппадокії й виріс у Коніці (Греція). Чернець з 1950 р., подвизався на Афоні й Синаї, а з 1979 р. — у келії Панагуда на Афоні, де щодня приймав безліч паломників. Помер 1994 р. в монастирі Суроті поблизу Солуня; канонізований Константинопольським Патріархатом 2015 р. і внесений до місяцеслова Руської Церкви.",
+  "para": "Арсеній Езнепідіс народився 1924 р. в Каппадокії й виріс у Коніці (Греція). З 1950 р. на Афоні, чернець з 1954 р.; подвизався на Афоні й Синаї, а з 1979 р. — у келії Панагуда на Афоні, де щодня приймав безліч паломників. Помер 1994 р. в монастирі Суроті поблизу Солуня; канонізований Константинопольським Патріархатом 2015 р. і внесений до місяцеслова Руської Церкви.",
+  "motivo": "Em 1950 entrou como noviço no Athos; tonsura (rassóforo) em 1954, pequeno esquema (Paísio) em 1956. ⚠ conferir com pravenc antes de aplicar.",
+  "prioridade": "C"
+ }
+]
