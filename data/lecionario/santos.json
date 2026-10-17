@@ -1,0 +1,5018 @@
+{
+ "_meta": {
+  "descricao": "Leituras próprias dos santos do Menaion (Liturgia; Evangelho das Matinas e parémias das Vésperas nos santos de polieleo/vigília). Chave = data juliana MM-DD; id = id de data/menaion/graus.json, ou «pon-<CId>» (santo de grau inferior, sem entrada nos graus). Chaves não MM-DD = id de domingo semimóvel (calendario.semimoveis).",
+  "fontes": "Ponomar (github.com/typiconman/ponomar, GPL v3 ou posterior, dec. 76) — leituras por comemoração; leituras gerais («общие») do Apóstolo e Evangeliário sinodais (festas.json → comuns); conferência automática com o calendário oficial do Patriarcado de Moscovo 2026 (só verificação). Ver FONTES-santos.md.",
+  "licenca": "Dados derivados do Ponomar: GPL v3 ou posterior, com atribuição (A. Andreev e colaboradores).",
+  "campos": {
+   "grau": "grande|vigilia|polieleo|doxologia|seis|simples|null",
+   "fonte": "PON:<CId> | comum:<categoria> | comum*:<categoria> (combinação de leituras gerais escolhida pela conferência) | MP | festa:<MM-DD>",
+   "conf": "OF26 = coincide com o calendário oficial 2026",
+   "vt": "parémias das Vésperas (sv: vesperas), sem zachalo"
+  }
+ },
+ "01-02": [
+  {
+   "id": "serafim-de-sarov",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "fonte": "PON:010202"
+  }
+ ],
+ "01-09": [
+  {
+   "id": "filipe-de-moscovo",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.13.17-21",
+     "z": 335
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "fonte": "PON:180"
+  }
+ ],
+ "01-10": [
+  {
+   "id": "teofano-recluso",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "fonte": "PON:6892"
+  }
+ ],
+ "01-11": [
+  {
+   "id": "teodosio-cenobiarca",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "2Cor.4.6-15",
+     "z": 176
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23",
+     "z": 24
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "comum*:veneravel",
+   "conf": "OF26"
+  }
+ ],
+ "01-12": [
+  {
+   "id": "sava-da-servia",
+   "grau": "doxologia",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "fonte": "PON:1901"
+  }
+ ],
+ "01-13": [
+  {
+   "id": "irinarco-de-rostov",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "comum:veneravel"
+  }
+ ],
+ "01-14": [
+  {
+   "id": "nina-da-georgia",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "1Cor.4.9-16",
+     "z": 131
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.25.1-13",
+     "z": 104
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.10.1,5-8",
+     "z": 34,
+     "meio": true
+    }
+   ],
+   "fonte": "PON:2630"
+  }
+ ],
+ "01-15": [
+  {
+   "id": "pon-221",
+   "grau": "seis",
+   "cu": "Прп. Павла Фивейского",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "PON:221"
+  }
+ ],
+ "01-17": [
+  {
+   "id": "antao-o-grande",
+   "grau": "vigilia",
+   "ap": [
+    {
+     "r": "Heb.13.17-21",
+     "z": 335
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "PON:209"
+  }
+ ],
+ "01-18": [
+  {
+   "id": "pon-295",
+   "grau": "seis",
+   "cu": "Свтт. Афанасия (373) и Кирилла (444), архиепископов Александрийских.",
+   "ap": [
+    {
+     "r": "Heb.13.7-16",
+     "z": 334
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.5.14-19",
+     "z": 11
+    }
+   ],
+   "fonte": "PON:295"
+  }
+ ],
+ "01-19": [
+  {
+   "id": "marcos-de-efeso",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35
+    }
+   ],
+   "fonte": "comum:hierarca"
+  }
+ ],
+ "01-20": [
+  {
+   "id": "eutimio-o-grande",
+   "grau": "vigilia",
+   "ap": [
+    {
+     "r": "Heb.13.17-21",
+     "z": 335
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "PON:260"
+  }
+ ],
+ "01-21": [
+  {
+   "id": "maximo-o-grego",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "comum:veneravel",
+   "conf": "OF26"
+  }
+ ],
+ "01-22": [
+  {
+   "id": "pon-279",
+   "grau": "simples",
+   "cu": "Ап. Тимофея",
+   "ap": [
+    {
+     "r": "2Tim.1.3-9",
+     "z": 290,
+     "meio": true
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.1-15",
+     "z": 50
+    }
+   ],
+   "fonte": "PON:279",
+   "conf": "OF26"
+  }
+ ],
+ "01-23": [
+  {
+   "id": "pon-284",
+   "grau": "simples",
+   "cu": "Сщмч. Климента, еп. Анкирского, и мч. Агафангела",
+   "ap": [
+    {
+     "r": "Heb.13.7-16",
+     "z": 334
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "fonte": "PON:284",
+   "conf": "OF26"
+  }
+ ],
+ "01-24": [
+  {
+   "id": "xenia-de-sao-petersburgo",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23",
+     "z": 24
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "comum*:veneraveis_mulheres",
+   "conf": "OF26",
+   "nota": "Ponomar dá leituras próprias diferentes; o calendário oficial segue o comum"
+  }
+ ],
+ "01-25": [
+  {
+   "id": "gregorio-teologo",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "1Cor.12.7-11",
+     "z": 151
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35,
+     "meio": true
+    }
+   ],
+   "fonte": "PON:535",
+   "conf": "OF26"
+  }
+ ],
+ "01-27": [
+  {
+   "id": "joao-crisostomo-trasladacao",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35,
+     "meio": true
+    }
+   ],
+   "fonte": "PON:09022",
+   "conf": "OF26"
+  }
+ ],
+ "01-28": [
+  {
+   "id": "pon-817",
+   "grau": "seis",
+   "cu": "Прп. Ефрема Сирина",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "PON:817",
+   "conf": "OF26"
+  }
+ ],
+ "01-29": [
+  {
+   "id": "pon-09031",
+   "grau": "seis",
+   "cu": "Перенесение мощей священномученика Игнатия Богоносца",
+   "ap": [
+    {
+     "r": "Heb.4.14-5.6",
+     "z": 311
+    }
+   ],
+   "ev": [
+    {
+     "r": "Mark.9.33-41",
+     "z": 41
+    }
+   ],
+   "fonte": "PON:09031"
+  }
+ ],
+ "01-30": [
+  {
+   "id": "tres-hierarcas",
+   "grau": "vigilia",
+   "ap": [
+    {
+     "r": "Heb.13.7-16",
+     "z": 334
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.5.14-19",
+     "z": 11
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "vt": [
+    {
+     "r": "Deut.1.8-11,15-17",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Deut.10.14-21",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Wis.3.1-9",
+     "sv": "vesperas"
+    }
+   ],
+   "fonte": "PON:09030"
+  }
+ ],
+ "01-31": [
+  {
+   "id": "pon-346",
+   "grau": "seis",
+   "cu": "Бессребреников мчч. Кира и Иоанна и с ними мцц. Афанасии и дщерей ее Феодотии,  Феоктисты и Евдоксии",
+   "ap": [
+    {
+     "r": "1Cor.12.27-13.8a",
+     "z": 153
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.10.1,5-8",
+     "z": 34,
+     "meio": true
+    }
+   ],
+   "fonte": "PON:346",
+   "conf": "OF26"
+  }
+ ],
+ "02-03": [
+  {
+   "id": "pon-1998",
+   "grau": "seis",
+   "cu": "Правв. Симеона Богоприимца и Анны пророчицы (I)",
+   "ap": [
+    {
+     "r": "Heb.9.11-14",
+     "z": 321,
+     "meio": true
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.2.25-38",
+     "z": 8
+    }
+   ],
+   "fonte": "PON:1998",
+   "conf": "OF26"
+  }
+ ],
+ "02-05": [
+  {
+   "id": "teodosio-de-tchernigov",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.13.17-21",
+     "z": 335
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "fonte": "PON:2214"
+  }
+ ],
+ "02-09": [
+  {
+   "id": "tikhon-de-moscovo-reliquias",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35
+    }
+   ],
+   "fonte": "comum:hierarca",
+   "conf": "OF26"
+  }
+ ],
+ "02-12": [
+  {
+   "id": "aleixo-de-moscovo",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.13.17-21",
+     "z": 335
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "fonte": "PON:131"
+  },
+  {
+   "id": "icone-iveron-fevereiro",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Phil.2.5-11",
+     "z": 240
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.38-42;Luke.11.27-28",
+     "z": 54
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Luke.1.39-49,56",
+     "z": 4
+    }
+   ],
+   "fonte": "PON:2858"
+  }
+ ],
+ "02-14": [
+  {
+   "id": "cirilo-filosofo",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "1Cor.4.9-16",
+     "z": 131
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.10.1;Matt.10.5-8",
+     "z": 34
+    }
+   ],
+   "fonte": "comum:apostolo"
+  }
+ ],
+ "02-17": [
+  {
+   "id": "hermogenes-de-moscovo",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.13.7-16",
+     "z": 334
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.12.32-40",
+     "z": 67
+    }
+   ],
+   "fonte": "comum:hieromartir"
+  }
+ ],
+ "02-23": [
+  {
+   "id": "matrona-de-moscovo-reliquias",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.3.23-29",
+     "z": 208
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.25.1-13",
+     "z": 104
+    }
+   ],
+   "fonte": "comum:veneraveis_mulheres"
+  }
+ ],
+ "02-24": [
+  {
+   "id": "cabeca-joao-batista-1-2",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "2Cor.4.6-15",
+     "z": 176
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.11.2-15",
+     "z": 40
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Luke.7.17-30",
+     "z": 31
+    }
+   ],
+   "fonte": "PON:09107"
+  }
+ ],
+ "03-02": [
+  {
+   "id": "icone-soberana",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Phil.2.5-11",
+     "z": 240
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.38-42;Luke.11.27-28",
+     "z": 54
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Luke.1.39-49,56",
+     "z": 4
+    }
+   ],
+   "fonte": "PON:553",
+   "conf": "OF26"
+  }
+ ],
+ "03-04": [
+  {
+   "id": "daniel-de-moscovo",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "comum:veneravel"
+  }
+ ],
+ "03-09": [
+  {
+   "id": "quarenta-martires-de-sebaste",
+   "grau": null,
+   "ap": [
+    {
+     "r": "Heb.12.1-10",
+     "z": 331
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.20.1-16",
+     "z": 80
+    }
+   ],
+   "fonte": "PON:1238"
+  }
+ ],
+ "04-06": [
+  {
+   "id": "metodio-da-moravia",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "1Cor.4.9-16",
+     "z": 131
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.10.1;Matt.10.5-8",
+     "z": 34
+    }
+   ],
+   "fonte": "comum:apostolo"
+  }
+ ],
+ "04-17": [
+  {
+   "id": "zosimo-de-solovki",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.4.25-5.12",
+     "z": 10
+    }
+   ],
+   "fonte": "comum*:veneravel",
+   "conf": "OF26"
+  }
+ ],
+ "04-19": [
+  {
+   "id": "matrona-de-moscovo",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.3.23-29",
+     "z": 208
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.25.1-13",
+     "z": 104
+    }
+   ],
+   "fonte": "comum:veneraveis_mulheres",
+   "conf": "OF26"
+  }
+ ],
+ "04-23": [
+  {
+   "id": "jorge-grande-martir",
+   "grau": "vigilia",
+   "ap": [
+    {
+     "r": "Acts.12.1-11",
+     "z": 29
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.15.17-16.2",
+     "z": 52
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Luke.12.2-12",
+     "z": 63
+    }
+   ],
+   "vt": [
+    {
+     "r": "Isa.43.9-14",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Wis.3.1-9",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Wis.4.7-15",
+     "sv": "vesperas"
+    }
+   ],
+   "fonte": "PON:09497",
+   "conf": "OF26"
+  }
+ ],
+ "04-25": [
+  {
+   "id": "marcos-evangelista",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "1Pet.5.6-14",
+     "z": 63
+    }
+   ],
+   "ev": [
+    {
+     "r": "Mark.6.7-13",
+     "z": 23
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Luke.10.1-15",
+     "z": 50
+    }
+   ],
+   "fonte": "PON:1459",
+   "conf": "OF26"
+  }
+ ],
+ "04-30": [
+  {
+   "id": "tiago-de-zebedeu",
+   "grau": "polieleo",
+   "ap": [],
+   "ev": [],
+   "fonte": "por-resolver",
+   "nota": "⚠ por resolver: fonte (comum:apostolo) 1Cor#131 Matt#34 ≠ calendário oficial 2026"
+  },
+  {
+   "id": "inacio-briantchaninov",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.21.15-25",
+     "z": 67
+    }
+   ],
+   "fonte": "comum:hierarca",
+   "conf": "OF26"
+  }
+ ],
+ "05-01": [
+  {
+   "id": "pafnucio-de-borovsk",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.4.25-5.12",
+     "z": 10
+    }
+   ],
+   "fonte": "comum*:veneravel",
+   "conf": "OF26"
+  },
+  {
+   "id": "pon-963",
+   "grau": "simples",
+   "cu": "Прор. Иеремии",
+   "ap": [
+    {
+     "r": "1Cor.14.20-25",
+     "z": 156
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.4.22b-30",
+     "z": 14
+    }
+   ],
+   "fonte": "PON:963",
+   "conf": "OF26"
+  }
+ ],
+ "05-03": [
+  {
+   "id": "teodosio-das-grutas",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.13.7-16",
+     "z": 334
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "fonte": "PON:2211",
+   "conf": "OF26"
+  }
+ ],
+ "05-06": [
+  {
+   "id": "pon-1035",
+   "grau": "simples",
+   "cu": "Прав. Иова Многострадального",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "PON:1035",
+   "conf": "OF26"
+  }
+ ],
+ "05-07": [
+  {
+   "id": "nilo-de-sora",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "comum:veneravel"
+  }
+ ],
+ "05-08": [
+  {
+   "id": "joao-teologo-maio",
+   "grau": "vigilia",
+   "ap": [
+    {
+     "r": "1John.1.1-7",
+     "z": 68
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.19.25-27;John.21.24-25",
+     "z": 61
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.21.15-25",
+     "z": 67
+    }
+   ],
+   "vt": [
+    {
+     "r": "1John.3.21-4.6",
+     "sv": "vesperas"
+    },
+    {
+     "r": "1John.4.11-16",
+     "sv": "vesperas"
+    },
+    {
+     "r": "1John.4.20-5.5",
+     "sv": "vesperas"
+    }
+   ],
+   "fonte": "PON:96201",
+   "conf": "OF26"
+  }
+ ],
+ "05-09": [
+  {
+   "id": "nicolau-trasladacao",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.13.17-21",
+     "z": 335
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35
+    }
+   ],
+   "vt": [
+    {
+     "r": "Prov.10.7,6;Prov.3.13-16",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Prov.10.31-32;Prov.11.1-12",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Wis.4.7-15",
+     "sv": "vesperas"
+    }
+   ],
+   "fonte": "PON:163501",
+   "conf": "OF26"
+  }
+ ],
+ "05-10": [
+  {
+   "id": "simao-zelota",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "1Cor.4.9-16",
+     "z": 131
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.13.54-58",
+     "z": 56
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.21.15-25",
+     "z": 67
+    }
+   ],
+   "fonte": "MP",
+   "conf": "OF26"
+  }
+ ],
+ "05-11": [
+  {
+   "id": "cirilo-e-metodio",
+   "grau": "vigilia",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.5.14-19",
+     "z": 11
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "fonte": "PON:152501",
+   "conf": "OF26"
+  }
+ ],
+ "05-12": [
+  {
+   "id": "hermogenes-glorificacao",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35
+    }
+   ],
+   "fonte": "comum*:hieromartir",
+   "conf": "OF26"
+  }
+ ],
+ "05-15": [
+  {
+   "id": "demetrio-de-uglitch",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "2Tim.2.1-10",
+     "z": 292
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.15.17-16.2",
+     "z": 52
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.25.1-13",
+     "z": 104
+    }
+   ],
+   "fonte": "PON:60501",
+   "conf": "OF26"
+  },
+  {
+   "id": "pon-1070",
+   "grau": "simples",
+   "cu": "Прп. Пахомия Великого",
+   "ap": [
+    {
+     "r": "2Cor.4.6-15",
+     "z": 176
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.14.25-35",
+     "z": 77
+    }
+   ],
+   "fonte": "PON:1070",
+   "conf": "OF26"
+  }
+ ],
+ "05-19": [
+  {
+   "id": "demetrio-donskoi",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "PON:6552"
+  }
+ ],
+ "05-20": [
+  {
+   "id": "aleixo-de-moscovo-reliquias",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.13.17-21",
+     "z": 335
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35
+    }
+   ],
+   "fonte": "PON:13101",
+   "conf": "OF26"
+  }
+ ],
+ "05-21": [
+  {
+   "id": "constantino-e-helena",
+   "grau": "polieleo",
+   "ap": [],
+   "ev": [],
+   "fonte": "por-resolver",
+   "nota": "⚠ por resolver: fonte (PON:1270) Acts#49 John#35 ≠ calendário oficial 2026"
+  },
+  {
+   "id": "icone-vladimir-maio",
+   "grau": "vigilia",
+   "ap": [
+    {
+     "r": "Phil.2.5-11",
+     "z": 240
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.38-42;Luke.11.27-28",
+     "z": 54
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Luke.1.39-49,56",
+     "z": 4
+    }
+   ],
+   "fonte": "PON:2812",
+   "conf": "OF26"
+  }
+ ],
+ "05-24": [
+  {
+   "id": "xenia-glorificacao",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23",
+     "z": 24
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "comum*:veneraveis_mulheres",
+   "conf": "OF26"
+  }
+ ],
+ "05-25": [
+  {
+   "id": "cabeca-joao-batista-3",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "2Cor.4.6-15",
+     "z": 176
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.11.2-15",
+     "z": 40
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Luke.7.17-30",
+     "z": 31
+    }
+   ],
+   "fonte": "PON:100702"
+  }
+ ],
+ "05-27": [
+  {
+   "id": "joao-russo",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "fonte": "PON:101001"
+  }
+ ],
+ "05-29": [
+  {
+   "id": "lucas-da-crimeia",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.5.14-19",
+     "z": 11
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35
+    }
+   ],
+   "fonte": "comum:hierarca",
+   "conf": "OF26"
+  }
+ ],
+ "06-01": [
+  {
+   "id": "joao-de-kronstadt-glorificacao",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "comum:veneravel"
+  }
+ ],
+ "06-04": [
+  {
+   "id": "metodio-de-pechnocha-repouso",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23",
+     "z": 24
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "comum:veneravel",
+   "conf": "OF26"
+  }
+ ],
+ "06-08": [
+  {
+   "id": "pon-220101",
+   "grau": "seis",
+   "cu": "Translation of the relics of Вмч. Феодора Стратилата",
+   "ap": [
+    {
+     "r": "2Tim.2.1-10",
+     "z": 292
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.10.16-22",
+     "z": 36
+    }
+   ],
+   "fonte": "PON:220101",
+   "conf": "OF26"
+  }
+ ],
+ "06-09": [
+  {
+   "id": "icone-trindade-lavra",
+   "grau": "polieleo",
+   "ap": [],
+   "ev": [],
+   "fonte": "por-resolver",
+   "nota": "⚠ por resolver: fonte (comum:mae_de_deus) Phil#240 Luke#54 ≠ calendário oficial 2026"
+  },
+  {
+   "id": "pon-1221",
+   "grau": "seis",
+   "cu": "Свт. Кирилла, архиеп. Александрийского",
+   "ap": [
+    {
+     "r": "Heb.13.7-16",
+     "z": 334
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.5.14-19",
+     "z": 11
+    }
+   ],
+   "fonte": "PON:1221",
+   "conf": "OF26"
+  }
+ ],
+ "06-10": [
+  {
+   "id": "joao-de-tobolsk",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.13.17-21",
+     "z": 335
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35
+    }
+   ],
+   "fonte": "PON:1020",
+   "conf": "OF26"
+  }
+ ],
+ "06-11": [
+  {
+   "id": "bartolomeu-e-barnabe",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Acts.11.19-26,29-30",
+     "z": 28
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.16-21",
+     "z": 51
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.21.15-25",
+     "z": 67
+    }
+   ],
+   "vt": [
+    {
+     "r": "1Pet.1.3-9",
+     "sv": "vesperas"
+    },
+    {
+     "r": "1Pet.1.13-19",
+     "sv": "vesperas"
+    },
+    {
+     "r": "1Pet.2.11-24",
+     "sv": "vesperas"
+    }
+   ],
+   "fonte": "PON:365",
+   "conf": "OF26"
+  },
+  {
+   "id": "icone-digno-e",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Phil.2.5-11",
+     "z": 240
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.38-42;Luke.11.27-28",
+     "z": 54
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.21.15-25",
+     "z": 67
+    }
+   ],
+   "fonte": "comum:mae_de_deus",
+   "conf": "OF26"
+  }
+ ],
+ "06-12": [
+  {
+   "id": "pon-1287",
+   "grau": "seis",
+   "cu": "Прп. Онуфрия Великого",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "PON:1287",
+   "conf": "OF26"
+  }
+ ],
+ "06-14": [
+  {
+   "id": "metodio-de-pechnocha",
+   "grau": "polieleo",
+   "ap": [],
+   "ev": [],
+   "fonte": "MP",
+   "nota": "⚠ leituras por resolver (o calendário oficial 2026 imprime Gl 213 sem Evangelho identificável)"
+  },
+  {
+   "id": "pon-76401",
+   "grau": "simples",
+   "cu": "Прор. Елисея",
+   "ap": [
+    {
+     "r": "Jas.5.10-20",
+     "z": 57
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.4.22b-30",
+     "z": 14
+    }
+   ],
+   "fonte": "PON:76401",
+   "conf": "OF26"
+  }
+ ],
+ "06-15": [
+  {
+   "id": "jonas-de-moscovo",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35
+    }
+   ],
+   "fonte": "comum:hierarca",
+   "conf": "OF26"
+  }
+ ],
+ "06-16": [
+  {
+   "id": "teofano-recluso-trasladacao",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35
+    }
+   ],
+   "fonte": "comum:hierarca",
+   "conf": "OF26"
+  }
+ ],
+ "06-17": [
+  {
+   "id": "pon-1331",
+   "grau": "simples",
+   "cu": "Мчч. Мануила, Савела и Исмаила",
+   "ap": [
+    {
+     "r": "Eph.6.10-17",
+     "z": 233
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.21.12-19",
+     "z": 106
+    }
+   ],
+   "fonte": "PON:1331",
+   "conf": "OF26"
+  }
+ ],
+ "06-18": [
+  {
+   "id": "pon-1335",
+   "grau": "simples",
+   "cu": "Мчч. Леонтия, Ипатия и Феодула",
+   "ap": [
+    {
+     "r": "Acts.12.1-11",
+     "z": 29
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.15.17-16.2",
+     "z": 52
+    }
+   ],
+   "fonte": "PON:1335",
+   "conf": "OF26"
+  }
+ ],
+ "06-19": [
+  {
+   "id": "judas-tadeu",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Jude.1.1-10",
+     "z": 77
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.14.21-24",
+     "z": 48,
+     "meio": true
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.21.15-25",
+     "z": 67
+    }
+   ],
+   "fonte": "PON:1346",
+   "conf": "OF26"
+  },
+  {
+   "id": "jo-patriarca-de-moscovo",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.21.15-25",
+     "z": 67
+    }
+   ],
+   "fonte": "comum:hierarca",
+   "conf": "OF26"
+  },
+  {
+   "id": "joao-de-xangai",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.21.15-25",
+     "z": 67
+    }
+   ],
+   "vt": [
+    {
+     "r": "Prov.10.7,6;Prov.3.13-16;Prov.8.6,34-35,4,12,14,17,5-9;Prov.1.23;Prov.15.4",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Prov.10.31-32;Prov.11.1-2,4,3,5-12",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Wis.4.7-15",
+     "sv": "vesperas"
+    }
+   ],
+   "fonte": "PON:6630",
+   "conf": "OF26"
+  }
+ ],
+ "06-23": [
+  {
+   "id": "icone-vladimir-junho",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Phil.2.5-11",
+     "z": 240
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.38-42;Luke.11.27-28",
+     "z": 54
+    }
+   ],
+   "fonte": "PON:09812"
+  }
+ ],
+ "06-25": [
+  {
+   "id": "pedro-e-fevronia",
+   "grau": "doxologia",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.4.25-5.12a",
+     "z": 10
+    }
+   ],
+   "fonte": "PON:6797",
+   "conf": "OF26"
+  }
+ ],
+ "06-26": [
+  {
+   "id": "icone-tikhvin",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Phil.2.5-11",
+     "z": 240
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.38-42;Luke.11.27-28",
+     "z": 54
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Luke.1.39-49,56",
+     "z": 4
+    }
+   ],
+   "fonte": "PON:1395",
+   "conf": "OF26"
+  }
+ ],
+ "06-27": [
+  {
+   "id": "pon-1919",
+   "grau": "simples",
+   "cu": "Прп. Сампсона странноприимца",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.12.32-40",
+     "z": 67
+    }
+   ],
+   "fonte": "PON:1919",
+   "conf": "OF26"
+  },
+  {
+   "id": "pon-4645",
+   "grau": "simples",
+   "cu": "Обретение мощей прп. Амвросия Оптинского",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "fonte": "PON:4645",
+   "conf": "OF26"
+  }
+ ],
+ "06-30": [
+  {
+   "id": "sinaxe-doze-apostolos",
+   "grau": "doxologia",
+   "ap": [
+    {
+     "r": "1Cor.4.9-16",
+     "z": 131
+    }
+   ],
+   "ev": [
+    {
+     "r": "Mark.3.13-19",
+     "z": 12
+    }
+   ],
+   "fonte": "PON:1419",
+   "conf": "OF26"
+  }
+ ],
+ "07-01": [
+  {
+   "id": "pon-1298",
+   "grau": "seis",
+   "cu": "Бессребреников Космы и Дамиана, в Риме пострадавших",
+   "ap": [
+    {
+     "r": "1Cor.12.27-13.8a",
+     "z": 153
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.10.1,5-8",
+     "z": 34,
+     "meio": true
+    }
+   ],
+   "fonte": "PON:1298",
+   "conf": "OF26"
+  }
+ ],
+ "07-02": [
+  {
+   "id": "manto-mae-de-deus",
+   "grau": "doxologia",
+   "ap": [
+    {
+     "r": "Heb.9.1-7",
+     "z": 320
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.38-42;Luke.11.27-28",
+     "z": 54
+    }
+   ],
+   "fonte": "PON:4138",
+   "conf": "OF26"
+  }
+ ],
+ "07-03": [
+  {
+   "id": "filipe-de-moscovo-trasladacao",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.13.17-21",
+     "z": 335
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35,
+     "meio": true
+    }
+   ],
+   "fonte": "PON:2294",
+   "conf": "OF26"
+  }
+ ],
+ "07-04": [
+  {
+   "id": "portadores-paixao-imperiais",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Rom.8.28-39",
+     "z": 99
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.15.17-27;John.16.1-2",
+     "z": 52
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.10.16-22",
+     "z": 36
+    }
+   ],
+   "vt": [
+    {
+     "r": "Wis.3.1-9",
+     "sv": "vesperas"
+    },
+    {
+     "r": "1Kgs.8.22-23,27-30",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Isa.61.10-11;Isa.62.1-5",
+     "sv": "vesperas"
+    }
+   ],
+   "fonte": "PON:4872",
+   "conf": "OF26"
+  },
+  {
+   "id": "andre-rublev",
+   "grau": "polieleo",
+   "ap": [],
+   "ev": [],
+   "fonte": "por-resolver",
+   "nota": "⚠ por resolver: fonte (comum:veneravel) Gal#213 Matt#43 ≠ calendário oficial 2026"
+  },
+  {
+   "id": "andre-bogoliubski",
+   "grau": "polieleo",
+   "ap": [],
+   "ev": [],
+   "fonte": "por-resolver",
+   "nota": "⚠ por resolver: fonte (comum:veneravel) Gal#213 Matt#43 ≠ calendário oficial 2026"
+  }
+ ],
+ "07-05": [
+  {
+   "id": "atanasio-do-athos",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "PON:293",
+   "conf": "OF26"
+  },
+  {
+   "id": "sergio-de-radonej-reliquias",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "PON:1974",
+   "conf": "OF26"
+  },
+  {
+   "id": "isabel-feodorovna",
+   "grau": "doxologia",
+   "ap": [
+    {
+     "r": "2Cor.6.1-10",
+     "z": 181
+    }
+   ],
+   "ev": [
+    {
+     "r": "Mark.5.24-34",
+     "z": 21
+    }
+   ],
+   "fonte": "comum:martires_mulheres",
+   "conf": "OF26",
+   "nota": "Ponomar dá leituras próprias diferentes; o calendário oficial segue o comum"
+  }
+ ],
+ "07-08": [
+  {
+   "id": "icone-kazan-julho",
+   "grau": "vigilia",
+   "ap": [
+    {
+     "r": "Phil.2.5-11",
+     "z": 240
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.38-42;Luke.11.27-28",
+     "z": 54
+    }
+   ],
+   "fonte": "PON:2865"
+  },
+  {
+   "id": "pon-4181",
+   "grau": "seis",
+   "cu": "Вмч. Прокопия",
+   "ap": [
+    {
+     "r": "2Tim.2.1-10",
+     "z": 292
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.10.37-11.1",
+     "z": 39
+    }
+   ],
+   "fonte": "PON:4181"
+  }
+ ],
+ "07-10": [
+  {
+   "id": "tunica-do-senhor",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "1Cor.1.18-24",
+     "z": 125
+    }
+   ],
+   "ev": [
+    {
+     "r": "Mark.15.16-32",
+     "z": 67
+    }
+   ],
+   "fonte": "PON:4206",
+   "conf": "OF26"
+  },
+  {
+   "id": "antao-das-grutas",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.4.25-5.12a",
+     "z": 10
+    }
+   ],
+   "fonte": "PON:21801",
+   "conf": "OF26"
+  }
+ ],
+ "07-11": [
+  {
+   "id": "hilariao-troitski-reliquias",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "fonte": "comum*:hieromartir",
+   "conf": "OF26"
+  }
+ ],
+ "07-14": [
+  {
+   "id": "nicodemos-hagiorita",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "comum:veneravel"
+  }
+ ],
+ "07-15": [
+  {
+   "id": "vladimir-igual-apostolos",
+   "grau": "vigilia",
+   "ap": [
+    {
+     "r": "Gal.1.11-19",
+     "z": 200
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35,
+     "meio": true
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "vt": [
+    {
+     "r": "1Kgs.8.22-23,27-30",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Isa.61.10-11;Isa.62.1-5",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Isa.60.1-16",
+     "sv": "vesperas"
+    }
+   ],
+   "fonte": "PON:43101"
+  }
+ ],
+ "07-17": [
+  {
+   "id": "pon-2587",
+   "grau": "seis",
+   "cu": "Вмц. Марины (Маргариты)",
+   "ap": [
+    {
+     "r": "2Cor.6.1-10",
+     "z": 181
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.7.36-50",
+     "z": 33
+    }
+   ],
+   "fonte": "PON:2587",
+   "conf": "OF26"
+  }
+ ],
+ "07-19": [
+  {
+   "id": "serafim-de-sarov-reliquias",
+   "grau": "vigilia",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "PON:09968"
+  }
+ ],
+ "07-20": [
+  {
+   "id": "elias-profeta",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Jas.5.10-20",
+     "z": 57
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.4.22b-30",
+     "z": 14
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Luke.4.22b-30",
+     "z": 14
+    }
+   ],
+   "vt": [
+    {
+     "r": "1Kgs.17.1-23",
+     "sv": "vesperas"
+    },
+    {
+     "r": "1Kgs.18.1,17-40,44,42,45-46;1Kgs.19.1-16",
+     "sv": "vesperas"
+    },
+    {
+     "r": "1Kgs.19.19-21;2Kgs.2.1,6-14",
+     "sv": "vesperas"
+    }
+   ],
+   "fonte": "PON:09946",
+   "conf": "OF26"
+  }
+ ],
+ "07-22": [
+  {
+   "id": "pon-2598",
+   "grau": "simples",
+   "cu": "Мироносицы равноап. Марии Магдалины",
+   "ap": [
+    {
+     "r": "1Cor.9.2b-12",
+     "z": 141
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.8.1-3",
+     "z": 34
+    }
+   ],
+   "fonte": "PON:2598",
+   "conf": "OF26"
+  }
+ ],
+ "07-23": [
+  {
+   "id": "icone-potchaiv",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.9.1-7",
+     "z": 320
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.38-42;Luke.11.27-28",
+     "z": 54
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Luke.1.39-49;Luke.1.56",
+     "z": 4
+    }
+   ],
+   "fonte": "PON:2947",
+   "conf": "OF26"
+  }
+ ],
+ "07-24": [
+  {
+   "id": "boris-e-gleb",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Rom.8.28-39",
+     "z": 99
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.15.17-16.2",
+     "z": 52
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Luke.21.12-19",
+     "z": 106
+    }
+   ],
+   "fonte": "PON:32401",
+   "conf": "OF26"
+  },
+  {
+   "id": "pon-4296",
+   "grau": "seis",
+   "cu": "Мц. Христины",
+   "ap": [
+    {
+     "r": "2Cor.6.1-10",
+     "z": 181
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.7.36-50",
+     "z": 33
+    }
+   ],
+   "fonte": "PON:4296",
+   "conf": "OF26"
+  }
+ ],
+ "07-25": [
+  {
+   "id": "dormicao-ana",
+   "grau": "doxologia",
+   "ap": [
+    {
+     "r": "Gal.4.22b-31",
+     "z": 210,
+     "meio": true
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.8.16-21",
+     "z": 36
+    }
+   ],
+   "fonte": "PON:2394",
+   "conf": "OF26"
+  }
+ ],
+ "07-27": [
+  {
+   "id": "pantaleao",
+   "grau": null,
+   "ap": [
+    {
+     "r": "2Tim.2.1-10",
+     "z": 292
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.15.17-16.2",
+     "z": 52
+    }
+   ],
+   "fonte": "PON:1727",
+   "conf": "OF26"
+  }
+ ],
+ "07-28": [
+  {
+   "id": "icone-smolensk",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Phil.2.5-11",
+     "z": 240
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.38-42;Luke.11.27-28",
+     "z": 54
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Luke.1.39-49;Luke.1.56",
+     "z": 4
+    }
+   ],
+   "fonte": "PON:4319",
+   "conf": "OF26"
+  }
+ ],
+ "08-01": [
+  {
+   "id": "procissao-cruz",
+   "grau": "doxologia",
+   "ap": [
+    {
+     "r": "1Cor.1.18-24",
+     "z": 125
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.19.6-11a,13-20,25-28a,30b-35a",
+     "z": 60
+    }
+   ],
+   "fonte": "PON:4360"
+  }
+ ],
+ "08-02": [
+  {
+   "id": "basilio-bem-aventurado",
+   "grau": "doxologia",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "PON:379",
+   "conf": "OF26"
+  },
+  {
+   "id": "pon-2051",
+   "grau": "seis",
+   "cu": "Перенесение из Иерусалима в Константинополь мощей первомч. архидиакона Стефана (ок. 428) и обретение мощей правв. Никодима, Гамалиила и сына его Авива",
+   "ap": [
+    {
+     "r": "Acts.6.8-15;Acts.7.1-5;Acts.7.47-60",
+     "z": 17
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.21.33-42",
+     "z": 87
+    }
+   ],
+   "fonte": "PON:2051",
+   "conf": "OF26"
+  }
+ ],
+ "08-03": [
+  {
+   "id": "antao-romano",
+   "grau": "doxologia",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23",
+     "z": 24
+    }
+   ],
+   "fonte": "comum:veneravel",
+   "conf": "OF26",
+   "nota": "Ponomar dá leituras próprias diferentes; o calendário oficial segue o comum"
+  }
+ ],
+ "08-07": [
+  {
+   "id": "mitrofano-de-voronej-reliquias",
+   "grau": "polieleo",
+   "ap": [],
+   "ev": [],
+   "fonte": "por-resolver",
+   "nota": "⚠ por resolver: fonte (comum:hierarca) Heb#318 John#36 ≠ calendário oficial 2026"
+  },
+  {
+   "id": "pon-4387",
+   "grau": "simples",
+   "cu": "Прмч. Дометия Персиянина и двух учеников его",
+   "ap": [
+    {
+     "r": "Eph.6.10-17",
+     "z": 233
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.15.17-16.2",
+     "z": 52
+    }
+   ],
+   "fonte": "PON:4387",
+   "conf": "OF26"
+  }
+ ],
+ "08-08": [
+  {
+   "id": "pon-85401",
+   "grau": "simples",
+   "cu": "Перенесение мощей прпп. Зосимы и Савватия Соловецких (1566), второе перенесение мощей прпп. Зосимы, Савватия и Германа Соловецких",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "fonte": "PON:85401",
+   "conf": "OF26"
+  }
+ ],
+ "08-09": [
+  {
+   "id": "matias-apostolo",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Acts.1.12-17,21-26",
+     "z": 2
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.9.1-6",
+     "z": 40
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.21.15-25",
+     "z": 67
+    }
+   ],
+   "fonte": "PON:1503",
+   "conf": "OF26"
+  }
+ ],
+ "08-13": [
+  {
+   "id": "tikhon-de-zadonsk",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.5.14-19",
+     "z": 11
+    }
+   ],
+   "fonte": "PON:221601",
+   "conf": "OF26"
+  }
+ ],
+ "08-16": [
+  {
+   "id": "imagem-nao-feita-por-maos",
+   "grau": "doxologia",
+   "ap": [
+    {
+     "r": "Col.1.12-18",
+     "z": 250
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.9.51-56;Luke.10.22-24",
+     "z": 48,
+     "meio": true
+    }
+   ],
+   "fonte": "PON:4447",
+   "conf": "OF26"
+  }
+ ],
+ "08-18": [
+  {
+   "id": "pon-2315",
+   "grau": "simples",
+   "cu": "Мчч. Флора и Лавра",
+   "ap": [
+    {
+     "r": "Eph.6.10-17",
+     "z": 233
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.12.2-12",
+     "z": 63
+    }
+   ],
+   "fonte": "PON:2315",
+   "conf": "OF26"
+  }
+ ],
+ "08-19": [
+  {
+   "id": "pon-19001",
+   "grau": "simples",
+   "cu": "Мч. Андрея Стратилата и с ним 2593 мучеников",
+   "ap": [
+    {
+     "r": "Eph.6.10-17",
+     "z": 233
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.21.12-19",
+     "z": 106
+    }
+   ],
+   "fonte": "PON:19001",
+   "conf": "OF26"
+  }
+ ],
+ "08-23": [
+  {
+   "id": "despedida-dormicao",
+   "grau": "doxologia",
+   "ap": [
+    {
+     "r": "Phil.2.5-11",
+     "z": 240
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.38-42;Luke.11.27-28",
+     "z": 54
+    }
+   ],
+   "fonte": "festa:08-15",
+   "nota": "despedida: leituras da festa"
+  }
+ ],
+ "08-24": [
+  {
+   "id": "pedro-de-moscovo-trasladacao",
+   "grau": "doxologia",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "fonte": "PON:09779",
+   "conf": "OF26"
+  }
+ ],
+ "08-25": [
+  {
+   "id": "pon-2110",
+   "grau": "simples",
+   "cu": "Ап. от 70-ти Тита, еп. Критского",
+   "ap": [
+    {
+     "r": "Titus.1.1-4;Titus.2.15-3.3,12-13,15",
+     "z": 300
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.5.14-19",
+     "z": 11
+    }
+   ],
+   "fonte": "PON:2110",
+   "conf": "OF26"
+  }
+ ],
+ "08-26": [
+  {
+   "id": "icone-vladimir-agosto",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Phil.2.5-11",
+     "z": 240
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.38-42;Luke.11.27-28",
+     "z": 54
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Luke.1.39-49;Luke.1.56",
+     "z": 4
+    }
+   ],
+   "fonte": "PON:281201",
+   "conf": "OF26"
+  }
+ ],
+ "08-27": [
+  {
+   "id": "pon-1790",
+   "grau": "simples",
+   "cu": "Прп. Пимена Великого",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.4.25-5.12a",
+     "z": 10
+    }
+   ],
+   "fonte": "PON:1790",
+   "conf": "OF26"
+  }
+ ],
+ "08-30": [
+  {
+   "id": "alexandre-nevski-trasladacao",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "vt": [
+    {
+     "r": "Isa.66.10-14",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Isa.61.1-14;Isa.62.1-5",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Isa.60.1-16",
+     "sv": "vesperas"
+    }
+   ],
+   "fonte": "PON:114",
+   "conf": "OF26"
+  }
+ ],
+ "08-31": [
+  {
+   "id": "pon-4557",
+   "grau": "simples",
+   "cu": "Положение честного Пояса Пресвятой Богородицы",
+   "ap": [
+    {
+     "r": "Heb.9.1-7",
+     "z": 320
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.38-42;Luke.11.27-28",
+     "z": 54
+    }
+   ],
+   "fonte": "PON:4557",
+   "conf": "OF26"
+  }
+ ],
+ "09-01": [
+  {
+   "id": "indiccao-simeao-estilita",
+   "grau": "doxologia",
+   "ap": [
+    {
+     "r": "1Tim.2.1-7",
+     "z": 282
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.4.16-22a",
+     "z": 13
+    }
+   ],
+   "fonte": "PON:09426"
+  }
+ ],
+ "09-02": [
+  {
+   "id": "pon-1434",
+   "grau": "simples",
+   "cu": "Мч. Маманта, отца его Феодота и матери Руфины",
+   "ap": [
+    {
+     "r": "Rom.8.28-39",
+     "z": 99
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.15.1-7",
+     "z": 50
+    }
+   ],
+   "fonte": "PON:1434",
+   "conf": "OF26"
+  }
+ ],
+ "09-03": [
+  {
+   "id": "pon-1439",
+   "grau": "simples",
+   "cu": "Сщмч. Анфима, еп. Никомидийского, и с ним мчч. Феофила диакона, Дорофея, Мардония, Мигдония, Петра, Индиса, Горгония, Зинона, Домны девы и Евфимия",
+   "ap": [
+    {
+     "r": "Heb.13.7-16",
+     "z": 334
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "fonte": "PON:1439",
+   "conf": "OF26"
+  }
+ ],
+ "09-04": [
+  {
+   "id": "joasafe-de-belgorod-reliquias",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35
+    }
+   ],
+   "fonte": "comum:hierarca",
+   "conf": "OF26"
+  },
+  {
+   "id": "pon-1446",
+   "grau": "simples",
+   "cu": "Сщмч. Вавилы, еп. Великой Антиохии, и с ним трех отроков: Урвана, Прилидиана, Епполония и матери их Христодулы",
+   "ap": [
+    {
+     "r": "Heb.11.33-12.2",
+     "z": 330
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.12.32-40",
+     "z": 67
+    }
+   ],
+   "fonte": "PON:1446",
+   "conf": "OF26"
+  }
+ ],
+ "09-05": [
+  {
+   "id": "pon-1453",
+   "grau": "seis",
+   "cu": "Прор. Захарии и прав. Елисаветы, родителей св. Иоанна Предтечи",
+   "ap": [
+    {
+     "r": "Heb.6.13-20",
+     "z": 314
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.23.29-39",
+     "z": 96
+    }
+   ],
+   "fonte": "PON:1453",
+   "conf": "OF26"
+  }
+ ],
+ "09-06": [
+  {
+   "id": "pon-91547",
+   "grau": "seis",
+   "cu": "Воспоминание чуда Архистратига Михаила, бывшего в Хонех (Колоссах)",
+   "ap": [
+    {
+     "r": "Heb.2.2-10",
+     "z": 305
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.16-21",
+     "z": 51
+    }
+   ],
+   "fonte": "PON:91547",
+   "conf": "OF26"
+  }
+ ],
+ "09-07": [
+  {
+   "id": "pon-1470",
+   "grau": "simples",
+   "cu": "Мч. Созонта",
+   "ap": [
+    {
+     "r": "Eph.6.10-17",
+     "z": 233
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.15.17-16.2",
+     "z": 52
+    }
+   ],
+   "fonte": "PON:1470",
+   "conf": "OF26"
+  }
+ ],
+ "09-09": [
+  {
+   "id": "pon-955",
+   "grau": "seis",
+   "cu": "Праведных Богоотец Иоакима и Анны",
+   "ap": [
+    {
+     "r": "Gal.4.22b-31",
+     "z": 210,
+     "meio": true
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.8.16-21",
+     "z": 36
+    }
+   ],
+   "fonte": "PON:955",
+   "conf": "OF26"
+  }
+ ],
+ "09-11": [
+  {
+   "id": "silvano-do-athos",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "comum:veneravel",
+   "conf": "OF26"
+  }
+ ],
+ "09-13": [
+  {
+   "id": "dedicacao-igreja-ressurreicao",
+   "grau": "doxologia",
+   "ap": [
+    {
+     "r": "Heb.3.1-4",
+     "z": 307
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.16.13-18",
+     "z": 67
+    }
+   ],
+   "fonte": "PON:1521",
+   "conf": "OF26"
+  }
+ ],
+ "09-15": [
+  {
+   "id": "pon-153301",
+   "grau": "seis",
+   "cu": "Вмч. Никиты Готфского, Константинопольского",
+   "ap": [
+    {
+     "r": "2Tim.2.1-10",
+     "z": 292
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.10.16-22",
+     "z": 36
+    }
+   ],
+   "fonte": "PON:153301",
+   "conf": "OF26"
+  }
+ ],
+ "09-16": [
+  {
+   "id": "pon-2479",
+   "grau": "seis",
+   "cu": "Вмц. Евфимии всехвальной",
+   "ap": [
+    {
+     "r": "2Cor.6.1-10",
+     "z": 181
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.7.36-50",
+     "z": 33
+    }
+   ],
+   "fonte": "PON:2479",
+   "conf": "OF26"
+  }
+ ],
+ "09-20": [
+  {
+   "id": "pon-156901",
+   "grau": "seis",
+   "cu": "Вмч. Евстафия Плакиды, жены его Феопистии и чад их Агапия и Феописта",
+   "ap": [
+    {
+     "r": "Eph.6.10-17",
+     "z": 233
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.21.12-19",
+     "z": 106
+    }
+   ],
+   "fonte": "PON:156901",
+   "conf": "OF26"
+  }
+ ],
+ "09-21": [
+  {
+   "id": "demetrio-de-rostov-reliquias",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35
+    }
+   ],
+   "fonte": "comum:hierarca",
+   "conf": "OF26"
+  }
+ ],
+ "09-22": [
+  {
+   "id": "pon-232101",
+   "grau": "simples",
+   "cu": "Сщмч. Фоки, еп. Синопийского",
+   "ap": [
+    {
+     "r": "Heb.4.14-5.6",
+     "z": 311
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "fonte": "PON:232101",
+   "conf": "OF26"
+  }
+ ],
+ "09-23": [
+  {
+   "id": "conceicao-joao-batista",
+   "grau": "doxologia",
+   "ap": [
+    {
+     "r": "Gal.4.22b-31",
+     "z": 210,
+     "meio": true
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.1.5-25",
+     "z": 2
+    }
+   ],
+   "fonte": "PON:100704",
+   "conf": "OF26"
+  }
+ ],
+ "09-24": [
+  {
+   "id": "pon-1594",
+   "grau": "seis",
+   "cu": "Первомц. равноап. Феклы",
+   "ap": [
+    {
+     "r": "2Tim.3.10-15",
+     "z": 296
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.25.1-13",
+     "z": 104
+    }
+   ],
+   "fonte": "PON:1594"
+  }
+ ],
+ "09-25": [
+  {
+   "id": "sergio-de-radonej",
+   "grau": "vigilia",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "PON:197401"
+  }
+ ],
+ "09-26": [
+  {
+   "id": "joao-teologo-repouso",
+   "grau": "vigilia",
+   "ap": [
+    {
+     "r": "1John.4.12-19",
+     "z": 73,
+     "meio": true
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.19.25-27;John.21.24-25",
+     "z": 61
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.21.15-25",
+     "z": 67
+    }
+   ],
+   "vt": [
+    {
+     "r": "1John.3.21-4.6",
+     "sv": "vesperas"
+    },
+    {
+     "r": "1John.4.11-16",
+     "sv": "vesperas"
+    },
+    {
+     "r": "1John.4.20-5.5",
+     "sv": "vesperas"
+    }
+   ],
+   "fonte": "PON:962"
+  },
+  {
+   "id": "tikhon-de-moscovo-glorificacao",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35
+    }
+   ],
+   "fonte": "comum:hierarca"
+  }
+ ],
+ "09-28": [
+  {
+   "id": "caritao-confessor",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "2Cor.4.6-15",
+     "z": 176
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.4.25-5.12a",
+     "z": 10
+    }
+   ],
+   "vt": [
+    {
+     "r": "Wis.5.15-6.3",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Wis.3.1-9",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Wis.4.7-15",
+     "sv": "vesperas"
+    }
+   ],
+   "fonte": "PON:1619",
+   "conf": "OF26"
+  },
+  {
+   "id": "cirilo-e-maria-de-radonej",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23",
+     "z": 24
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "comum:veneravel",
+   "conf": "OF26"
+  },
+  {
+   "id": "isabel-feodorovna-reliquias",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "2Cor.6.1-10",
+     "z": 181
+    }
+   ],
+   "ev": [
+    {
+     "r": "Mark.5.24-34",
+     "z": 21
+    }
+   ],
+   "fonte": "comum:martires_mulheres",
+   "conf": "OF26"
+  }
+ ],
+ "09-29": [
+  {
+   "id": "pon-1626",
+   "grau": "seis",
+   "cu": "Прп. Кириака отшельника",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "fonte": "PON:1626",
+   "conf": "OF26"
+  }
+ ],
+ "09-30": [
+  {
+   "id": "miguel-de-kiev",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "fonte": "PON:1553"
+  },
+  {
+   "id": "pon-1632",
+   "grau": "seis",
+   "cu": "Сщмч. Григория еп., просветителя Великой Армении",
+   "ap": [
+    {
+     "r": "1Cor.16.13-24",
+     "z": 166
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.24.42-47",
+     "z": 103
+    }
+   ],
+   "fonte": "PON:1632"
+  }
+ ],
+ "10-02": [
+  {
+   "id": "pon-1651",
+   "grau": "seis",
+   "cu": "Сщмч. Киприана, мц. Иустины и мч. Феоктиста",
+   "ap": [
+    {
+     "r": "1Tim.1.12-17",
+     "z": 280
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "fonte": "PON:1651",
+   "conf": "OF26"
+  }
+ ],
+ "10-03": [
+  {
+   "id": "pon-1657",
+   "grau": "seis",
+   "cu": "Сщмч. Дионисия Ареопагита, еп. Афинского",
+   "ap": [
+    {
+     "r": "Acts.17.16-34",
+     "z": 40
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.13.44-54a",
+     "z": 55
+    }
+   ],
+   "fonte": "PON:1657",
+   "conf": "OF26"
+  }
+ ],
+ "10-05": [
+  {
+   "id": "sinaxe-hierarcas-de-moscovo",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.13.17-21",
+     "z": 335
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.5.14-19",
+     "z": 11
+    }
+   ],
+   "fonte": "PON:1779",
+   "conf": "OF26"
+  }
+ ],
+ "10-06": [
+  {
+   "id": "tome-apostolo",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "1Cor.4.9-16",
+     "z": 131
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.20.19-31",
+     "z": 65
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.21.15-25",
+     "z": 67
+    }
+   ],
+   "fonte": "PON:2323",
+   "conf": "OF26"
+  }
+ ],
+ "10-07": [
+  {
+   "id": "pon-168501",
+   "grau": "seis",
+   "cu": "Мчч. Сергия и Вакха",
+   "ap": [
+    {
+     "r": "Heb.11.33-12.2a",
+     "z": 330
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.21.12-19",
+     "z": 106
+    }
+   ],
+   "fonte": "PON:168501",
+   "conf": "OF26"
+  }
+ ],
+ "10-09": [
+  {
+   "id": "tiago-de-alfeu",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "1Cor.4.9-16",
+     "z": 131
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.16-21",
+     "z": 51
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.21.15-25",
+     "z": 67
+    }
+   ],
+   "fonte": "PON:86701",
+   "conf": "OF26"
+  }
+ ],
+ "10-10": [
+  {
+   "id": "ambrosio-de-optina",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "comum:veneravel",
+   "conf": "OF26"
+  },
+  {
+   "id": "pon-7009",
+   "grau": "simples",
+   "cu": "Собор святых Оптинских старцев: Льва, Макария, Амвросия, Моисея, Антония, Илариона, Исаака (первого), Анатолия (старшего), Иосифа, Варсонофия, Анатолия (младший), Нектария, Исаак (второго) и Никона",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "fonte": "PON:7009",
+   "conf": "OF26"
+  }
+ ],
+ "10-11": [
+  {
+   "id": "pon-2292",
+   "grau": "simples",
+   "cu": "Ап. Филиппа, единого от семи диаконов",
+   "ap": [
+    {
+     "r": "Acts.8.26-39",
+     "z": 20
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.1-15",
+     "z": 50
+    }
+   ],
+   "fonte": "PON:2292",
+   "conf": "OF26"
+  }
+ ],
+ "10-13": [
+  {
+   "id": "icone-iveron-outubro",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Phil.2.5-11",
+     "z": 240
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.38-42;Luke.11.27-28",
+     "z": 54
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Luke.1.39-49;Luke.1.56",
+     "z": 4
+    }
+   ],
+   "fonte": "PON:285801",
+   "conf": "OF26"
+  }
+ ],
+ "10-15": [
+  {
+   "id": "atanasio-de-kovrov",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Eph.6.10-17",
+     "z": 233
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.12.8-12",
+     "z": 64
+    }
+   ],
+   "fonte": "comum*:hierarca",
+   "conf": "OF26"
+  }
+ ],
+ "10-16": [
+  {
+   "id": "pon-136801",
+   "grau": "simples",
+   "cu": "Мч. Лонгина сотника, иже при Кресте Господни",
+   "ap": [
+    {
+     "r": "2Tim.2.1-10",
+     "z": 292
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.27.33-54",
+     "z": 113
+    }
+   ],
+   "fonte": "PON:136801",
+   "conf": "OF26"
+  }
+ ],
+ "10-18": [
+  {
+   "id": "lucas-evangelista",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Col.4.5-9,14,18",
+     "z": 260,
+     "meio": true
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.16-21",
+     "z": 51
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.21.15-25",
+     "z": 67
+    }
+   ],
+   "vt": [
+    {
+     "r": "1John.1.1-7",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Jas.1.1-12",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Jude.1.1-7,17-25",
+     "sv": "vesperas"
+    }
+   ],
+   "fonte": "PON:176401",
+   "conf": "OF26"
+  }
+ ],
+ "10-20": [
+  {
+   "id": "pon-1777",
+   "grau": "seis",
+   "cu": "Вмч. Артемия",
+   "ap": [
+    {
+     "r": "2Tim.2.1-10",
+     "z": 292
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.15.17-6.2",
+     "z": 52
+    }
+   ],
+   "fonte": "PON:1777"
+  }
+ ],
+ "10-21": [
+  {
+   "id": "pon-4561",
+   "grau": "seis",
+   "cu": "Прп. Илариона Великого",
+   "ap": [
+    {
+     "r": "2Cor.9.6-11",
+     "z": 188
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "fonte": "PON:4561"
+  }
+ ],
+ "10-22": [
+  {
+   "id": "icone-kazan-outubro",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Phil.2.5-11",
+     "z": 240
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.38-42;Luke.11.27-28",
+     "z": 54
+    }
+   ],
+   "fonte": "PON:286501"
+  }
+ ],
+ "10-23": [
+  {
+   "id": "tiago-irmao-do-senhor",
+   "grau": "doxologia",
+   "ap": [
+    {
+     "r": "Gal.1.11-19",
+     "z": 200
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.13.54-58",
+     "z": 56
+    }
+   ],
+   "fonte": "PON:869"
+  }
+ ],
+ "10-24": [
+  {
+   "id": "icone-alegria-dos-aflitos",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Phil.2.5-11",
+     "z": 240
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.38-42;Luke.11.27-28",
+     "z": 54
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Luke.1.39-49;Luke.1.56",
+     "z": 4
+    }
+   ],
+   "fonte": "comum:mae_de_deus"
+  }
+ ],
+ "10-26": [
+  {
+   "id": "demetrio-de-tessalonica",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "2Tim.2.1-10",
+     "z": 292
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.15.17-16.2",
+     "z": 52
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.10.16-22",
+     "z": 36
+    }
+   ],
+   "fonte": "PON:60401"
+  }
+ ],
+ "10-28": [
+  {
+   "id": "parasceva-sexta-feira",
+   "grau": "doxologia",
+   "ap": [
+    {
+     "r": "2Cor.6.1-10",
+     "z": 181
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.7.36-50",
+     "z": 33
+    }
+   ],
+   "fonte": "PON:14172"
+  },
+  {
+   "id": "demetrio-de-rostov-repouso",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35
+    }
+   ],
+   "fonte": "comum:hierarca"
+  },
+  {
+   "id": "jo-de-potchaiv",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "comum:veneravel"
+  }
+ ],
+ "11-01": [
+  {
+   "id": "pon-1294",
+   "grau": "seis",
+   "cu": "Бессребреников и чудотворцев Космы и Дамиана Азийских и матери их прп. Феодотии",
+   "ap": [
+    {
+     "r": "1Cor.12.27-13.8a",
+     "z": 153
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.10.1,5-8",
+     "z": 34,
+     "meio": true
+    }
+   ],
+   "fonte": "PON:1294"
+  }
+ ],
+ "11-05": [
+  {
+   "id": "tikhon-de-moscovo-eleicao",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35
+    }
+   ],
+   "fonte": "comum:hierarca"
+  }
+ ],
+ "11-06": [
+  {
+   "id": "barlaao-de-khutyn",
+   "grau": "doxologia",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "fonte": "PON:357"
+  },
+  {
+   "id": "pon-2491",
+   "grau": "seis",
+   "cu": "Свт. Павла исп., патриарха Константинопольского",
+   "ap": [
+    {
+     "r": "Heb.8.3-6",
+     "z": 318,
+     "meio": true
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.12.8-12",
+     "z": 64
+    }
+   ],
+   "fonte": "PON:2491"
+  }
+ ],
+ "11-08": [
+  {
+   "id": "sinaxe-arcanjo-miguel",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.2.2-10",
+     "z": 305
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.16-21",
+     "z": 51
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.13.24-30,36b-43",
+     "z": 52
+    }
+   ],
+   "vt": [
+    {
+     "r": "Josh.5.13-15",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Judg.6.2,7,11-24",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Isa.14.7-20",
+     "sv": "vesperas"
+    }
+   ],
+   "fonte": "PON:154701"
+  }
+ ],
+ "11-12": [
+  {
+   "id": "pon-252601",
+   "grau": "seis",
+   "cu": "Свт. Иоанна Милостивого, патриарха Александрийского",
+   "ap": [
+    {
+     "r": "Heb.4.14-5.6",
+     "z": 311
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "fonte": "PON:252601"
+  }
+ ],
+ "11-13": [
+  {
+   "id": "joao-crisostomo",
+   "grau": "vigilia",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35,
+     "meio": true
+    }
+   ],
+   "fonte": "PON:97802"
+  }
+ ],
+ "11-14": [
+  {
+   "id": "filipe-apostolo",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "1Cor.4.9-16",
+     "z": 131
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.1.43-51",
+     "z": 5
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.21.15-25",
+     "z": 67
+    }
+   ],
+   "fonte": "PON:2535"
+  }
+ ],
+ "11-16": [
+  {
+   "id": "mateus-evangelista",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "1Cor.4.9-16",
+     "z": 131
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.9.9-13",
+     "z": 30
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.21.15-25",
+     "z": 67
+    }
+   ],
+   "fonte": "PON:1500"
+  }
+ ],
+ "11-17": [
+  {
+   "id": "pon-551",
+   "grau": "seis",
+   "cu": "Свт. Григория чудотворца, еп. Неокесарийского",
+   "ap": [
+    {
+     "r": "1Cor.12.7-11",
+     "z": 151
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.10.1,5-8",
+     "z": 34,
+     "meio": true
+    }
+   ],
+   "fonte": "PON:551"
+  }
+ ],
+ "11-19": [
+  {
+   "id": "barlaao-e-joasafe-da-india",
+   "grau": null,
+   "ap": [
+    {
+     "r": "Col.1.3-18",
+     "z": 250
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.5.14-19",
+     "z": 11
+    }
+   ],
+   "fonte": "PON:2561"
+  },
+  {
+   "id": "filareto-de-moscovo",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35
+    }
+   ],
+   "fonte": "comum:hierarca"
+  }
+ ],
+ "11-22": [
+  {
+   "id": "pon-1562",
+   "grau": "seis",
+   "cu": "Блгв. кн. Михаила Тверского",
+   "ap": [
+    {
+     "r": "Rom.8.28-39",
+     "z": 99
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.21.12-19",
+     "z": 106
+    }
+   ],
+   "fonte": "PON:1562"
+  }
+ ],
+ "11-23": [
+  {
+   "id": "alexandre-nevski",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "fonte": "PON:11401"
+  },
+  {
+   "id": "mitrofano-de-voronej",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "fonte": "PON:154503"
+  }
+ ],
+ "11-24": [
+  {
+   "id": "pon-249101",
+   "grau": "seis",
+   "cu": "Вмц. Екатерины",
+   "ap": [
+    {
+     "r": "Eph.6.10-17",
+     "z": 233
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.21.12-19",
+     "z": 106
+    }
+   ],
+   "fonte": "PON:249101"
+  }
+ ],
+ "11-26": [
+  {
+   "id": "inocencio-de-irkutsk",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "fonte": "PON:95101"
+  }
+ ],
+ "11-27": [
+  {
+   "id": "icone-sinal-novgorod",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.9.1-7",
+     "z": 320
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.38-42;Luke.11.27-28",
+     "z": 54
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Luke.1.39-49,56",
+     "z": 4
+    }
+   ],
+   "fonte": "PON:3233"
+  },
+  {
+   "id": "pon-3234",
+   "grau": "seis",
+   "cu": "Вмч. Иакова Персянина",
+   "ap": [
+    {
+     "r": "Eph.6.10-17",
+     "z": 233
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.15.1-7",
+     "z": 50
+    }
+   ],
+   "fonte": "PON:3234"
+  }
+ ],
+ "11-28": [
+  {
+   "id": "pon-3241",
+   "grau": "seis",
+   "cu": "Прмч. и исп. Стефана Нового",
+   "ap": [
+    {
+     "r": "2Tim.1.8-18",
+     "z": 291
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.10.23-31",
+     "z": 37
+    }
+   ],
+   "fonte": "PON:3241"
+  }
+ ],
+ "11-30": [
+  {
+   "id": "andre-primeiro-chamado",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "1Cor.4.9-16",
+     "z": 131
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.1.35-51",
+     "z": 4
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Matt.4.18-23",
+     "z": 9
+    }
+   ],
+   "fonte": "PON:18601"
+  }
+ ],
+ "12-03": [
+  {
+   "id": "sabas-de-storojevsk",
+   "grau": "doxologia",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.4.25-5.12a",
+     "z": 10
+    }
+   ],
+   "fonte": "PON:190402"
+  }
+ ],
+ "12-04": [
+  {
+   "id": "pon-3061",
+   "grau": "seis",
+   "cu": "Вмц. Варвары и мц. Иулиании",
+   "ap": [
+    {
+     "r": "Gal.3.23-29",
+     "z": 208
+    }
+   ],
+   "ev": [
+    {
+     "r": "Mark.5.24b-34",
+     "z": 21
+    }
+   ],
+   "fonte": "PON:3061"
+  }
+ ],
+ "12-05": [
+  {
+   "id": "sabas-santificado",
+   "grau": "vigilia",
+   "ap": [
+    {
+     "r": "Gal.5.22-6.2",
+     "z": 213
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.11.27-30",
+     "z": 43
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "fonte": "PON:1898"
+  }
+ ],
+ "12-06": [
+  {
+   "id": "nicolau-taumaturgo",
+   "grau": "vigilia",
+   "ap": [
+    {
+     "r": "Heb.13.17-21",
+     "z": 335
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "vt": [
+    {
+     "r": "Prov.10.7,6;Prov.3.13-16;Prov.8.6,34-35,4,12,14,17,5-9;Prov.1.23;Prov.15.4",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Prov.10.31-32;Prov.11.1-2,4,3,5-12",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Wis.4.7-15",
+     "sv": "vesperas"
+    }
+   ],
+   "fonte": "PON:1635"
+  }
+ ],
+ "12-07": [
+  {
+   "id": "nilo-de-stolobny",
+   "grau": "doxologia",
+   "ap": [
+    {
+     "r": "2Cor.4.6-15",
+     "z": 176
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "fonte": "PON:1653"
+  }
+ ],
+ "12-09": [
+  {
+   "id": "conceicao-mae-de-deus",
+   "grau": "doxologia",
+   "ap": [
+    {
+     "r": "Gal.4.22b-31",
+     "z": 210,
+     "meio": true
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.8.16-21",
+     "z": 36
+    }
+   ],
+   "fonte": "PON:239401"
+  }
+ ],
+ "12-10": [
+  {
+   "id": "joasafe-de-belgorod",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35
+    }
+   ],
+   "fonte": "comum:hierarca"
+  }
+ ],
+ "12-12": [
+  {
+   "id": "pon-2049",
+   "grau": "seis",
+   "cu": "Свт. Спиридона, еп. Тримифунтского, чудотворца",
+   "ap": [
+    {
+     "r": "Heb.13.17-21",
+     "z": 335
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "fonte": "PON:2049"
+  }
+ ],
+ "12-13": [
+  {
+   "id": "eustracio-e-companheiros",
+   "grau": null,
+   "ap": [
+    {
+     "r": "Eph.6.10-17",
+     "z": 233
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.21.12-19",
+     "z": 106
+    }
+   ],
+   "fonte": "PON:3111"
+  }
+ ],
+ "12-17": [
+  {
+   "id": "pon-3136",
+   "grau": "seis",
+   "cu": "Прор. Даниила и трех отроков: Анании, Азарии и Мисаила",
+   "ap": [
+    {
+     "r": "Heb.11.33-40",
+     "z": 330
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.11.47-12.1",
+     "z": 62
+    }
+   ],
+   "fonte": "PON:3136"
+  }
+ ],
+ "12-20": [
+  {
+   "id": "joao-de-kronstadt",
+   "grau": "polieleo",
+   "ap": [],
+   "ev": [],
+   "fonte": "por-resolver",
+   "nota": "⚠ por resolver: fonte (PON:6616) 1John#73 Luke#26 ≠ calendário oficial 2026"
+  },
+  {
+   "id": "pon-897",
+   "grau": "seis",
+   "cu": "Сщмч. Игнатия Богоносца",
+   "ap": [
+    {
+     "r": "Heb.4.14-5.6",
+     "z": 311
+    }
+   ],
+   "ev": [
+    {
+     "r": "Mark.9.33-41",
+     "z": 41
+    }
+   ],
+   "fonte": "PON:897",
+   "conf": "OF26"
+  }
+ ],
+ "12-21": [
+  {
+   "id": "pedro-de-moscovo",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.6.17-23a",
+     "z": 24
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35,
+     "meio": true
+    }
+   ],
+   "fonte": "PON:177901",
+   "conf": "OF26"
+  }
+ ],
+ "12-27": [
+  {
+   "id": "pon-205102",
+   "grau": "seis",
+   "cu": "Ап. первомч. и архидиакона Стефана",
+   "ap": [
+    {
+     "r": "Acts.6.8-15;Acts.7.1-5;Acts.7.47-60",
+     "z": 17
+    }
+   ],
+   "ev": [
+    {
+     "r": "Matt.21.33-42",
+     "z": 87
+    }
+   ],
+   "fonte": "PON:205102",
+   "conf": "OF26"
+  }
+ ],
+ "12-28": [
+  {
+   "id": "pon-3189",
+   "grau": "seis",
+   "cu": "Мучеников 20000, в Никомидии в церкви сожженных, и прочих, тамо же вне церкви пострадавших: Гликерия пресвитера, Зинона, Феофила диакона, Дорофея, Мардония, Мигдония диакона, Индиса, Горгония, Петра, Евфимия, мцц. Агафии, Домны, Феофилы и иных",
+   "ap": [
+    {
+     "r": "Rom.8.3-9",
+     "z": 96,
+     "meio": true
+    }
+   ],
+   "ev": [
+    {
+     "r": "Luke.10.19-21",
+     "z": 51,
+     "meio": true
+    }
+   ],
+   "fonte": "PON:3189",
+   "conf": "OF26"
+  }
+ ],
+ "12-30": [
+  {
+   "id": "macario-de-moscovo",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.7.26-8.2",
+     "z": 318
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.10.9-16",
+     "z": 36
+    }
+   ],
+   "matinas_ev": [
+    {
+     "r": "John.10.1-9",
+     "z": 35
+    }
+   ],
+   "fonte": "comum:hierarca",
+   "conf": "OF26"
+  }
+ ],
+ "dom_padres_seis_concilios": [
+  {
+   "id": "dom_padres_seis_concilios",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.13.7-16",
+     "z": 334
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.17.1-13",
+     "z": 56
+    }
+   ],
+   "vt": [
+    {
+     "r": "Gen.14.14-20",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Deut.1.8-10,15-17",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Deut.10.14-21",
+     "sv": "vesperas"
+    }
+   ],
+   "fonte": "PON:9969",
+   "conf": "OF26"
+  }
+ ],
+ "dom_padres_vii_concilio": [
+  {
+   "id": "dom_padres_vii_concilio",
+   "grau": "polieleo",
+   "ap": [
+    {
+     "r": "Heb.13.7-16",
+     "z": 334
+    }
+   ],
+   "ev": [
+    {
+     "r": "John.17.1-13",
+     "z": 56
+    }
+   ],
+   "vt": [
+    {
+     "r": "Gen.14.14-20",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Deut.1.8-11,15-17",
+     "sv": "vesperas"
+    },
+    {
+     "r": "Deut.10.14-21",
+     "sv": "vesperas"
+    }
+   ],
+   "fonte": "PON:9914",
+   "conf": "OF26"
+  }
+ ]
+}

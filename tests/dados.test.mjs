@@ -17,11 +17,25 @@ if (graus) {
 }
 const REF = /^[1-4]?[A-Za-z]+\.\d+\.\d+/;
 const refs = x => (Array.isArray(x) ? x : x ? [x] : []).forEach(r => { if (r && r.r) { assert.match(r.r, REF, JSON.stringify(r)); n++; } });
-for (const f of ['pentecostario', 'semanas', 'triodio', 'especiais', 'festas']) {
+for (const f of ['pentecostario', 'semanas', 'triodio', 'especiais', 'festas', 'santos']) {
   const d = ler(`data/lecionario/${f}.json`);
   if (!d) continue;
   const andar = o => { if (Array.isArray(o)) { if (o.length && o[0] && typeof o[0] === 'object' && 'r' in o[0]) refs(o); else o.forEach(andar); }
     else if (o && typeof o === 'object') { if ('r' in o) refs(o); else for (const [k, v] of Object.entries(o)) if (!k.startsWith('_')) andar(v); } };
   andar(d);
+}
+// santos.json: ids dos graus (ou «pon-<CId>» para santos de grau inferior; domingos semimóveis dos Padres pelo id do domingo);
+// Apóstolo/Evangelho com zachalo
+const santos = ler('data/lecionario/santos.json');
+if (santos && graus) {
+  const ids = new Set(Object.values(graus).flat().map(c => c.id));
+  for (const [md, lista] of Object.entries(santos)) { if (md.startsWith('_')) continue;
+    assert.match(md, /^((0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])|dom_[a-z_]+)$/, md);
+    for (const c of lista) {
+      assert.ok(ids.has(c.id) || /^pon-\w+$/.test(c.id) || c.id === md, `santos ${md}: id ${c.id} fora dos graus`);
+      [...c.ap, ...c.ev, ...(c.matinas_ev || [])].forEach(x => assert.ok(Number.isInteger(x.z), `santos ${md} ${c.id}: ${x.r} sem zachalo`));
+      n++;
+    }
+  }
 }
 console.log(`dados: ${n} registos validados`);

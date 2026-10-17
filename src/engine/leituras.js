@@ -7,6 +7,8 @@ import semanas from '../../data/lecionario/semanas.json' with { type: 'json' };
 import triodio from '../../data/lecionario/triodio.json' with { type: 'json' };
 import especiais from '../../data/lecionario/especiais.json' with { type: 'json' };
 import festas from '../../data/lecionario/festas.json' with { type: 'json' };
+import santos from '../../data/lecionario/santos.json' with { type: 'json' };
+import { dia } from './calendario.js';
 
 const DIAS = ['dom', 'seg', 'ter', 'qua', 'qui', 'sex', 'sab'];
 const GRANDES_SENHOR = new Set(['09-14', '12-25', '01-06', '02-02', '08-06', '01-01']);
@@ -28,9 +30,19 @@ function domingoAntepassados(y) { let j = jdnJuliano(y, 12, 11); while (diaSeman
 /**
  * @param {object} d  resultado de calendario.dia()
  * @returns {{ap: object[], ev: object[], vt: object[], extra: object[], incerto: boolean, deslocadas: boolean, semLiturgia: boolean, origem: string}}
- *   extra: grupos adicionais {rotulo: 'horas_reais'|'bencao_aguas'|'vesperas'|'festa'|'ordinario', ap, ev, vt, horas}
+ *   extra: grupos adicionais {rotulo: 'horas_reais'|'bencao_aguas'|'vesperas'|'festa'|'ordinario'|'santo', ap, ev, vt, horas}
+ *   · 'santo': leituras próprias de um santo do Menaion {id, grau, ap, ev, vt?, matinas_ev?} (santos.json; FONTES-santos.md)
+ *   · 'ordinario' com facultativo: true — leituras de um dia vizinho deslocadas por uma festa, «под зачало»
  */
 export function leituras(d) {
+  const res = base(d);
+  juntaSantos(d, res);
+  juntaDeslocadas(d, res);
+  return res;
+}
+
+/** Leituras do ciclo (Triódio, Pentecostário, semanas) e das festas, sem os santos do Menaion. */
+function base(d) {
   const { o, dow, jdn } = d, md = chaveMD(d.juliano.m, d.juliano.d), dk = DIAS[dow];
   const res = { ap: [], ev: [], vt: [], extra: [], incerto: false, deslocadas: false, semLiturgia: false, origem: '' };
   const usa = (x, origem) => { if (!x) return false; res.ap = x.ap || []; res.ev = x.ev || []; res.vt = x.vt || []; res.origem = origem; return true; };
@@ -64,9 +76,7 @@ export function leituras(d) {
     return dow === 5 && (j - jdn === 1 || j - jdn === 2); });
   if (vesperaSabDom) { res.semLiturgia = true; res.extra.push({ rotulo: 'horas_reais', horas: festas[vesperaSabDom].horas_reais }); res.origem = 'horas_reais'; return res; }
 
-  if (o >= -70 && o <= -1) usa(triodio[String(o)], 'triodio');
-  else if (o >= 0 && o <= 56) usa(pentecostario[String(o)], 'pentecostario');
-  else ordinario(d, dk, res);
+  ciclo(d, dk, res, usa);
 
   // Festas da Mãe de Deus (Doze): ao domingo e nas semanas Santa/Luminosa juntam-se; em dia útil substituem (doc. 01 §5.2)
   if (festa && MAE_DE_DEUS.has(md)) {
@@ -79,6 +89,63 @@ export function leituras(d) {
       usa(festa, 'festa'); res.incerto = false; res.deslocadas = !!havia; }
   } else if (festa && COM_AS_DO_DIA.has(md)) res.extra.push({ rotulo: 'festa', ap: festa.ap, ev: festa.ev });
   return res;
+}
+
+/** Leituras do ciclo móvel do dia (sem festas fixas). */
+function ciclo(d, dk, res, usa) {
+  const { o } = d;
+  if (o >= -70 && o <= -1) usa(triodio[String(o)], 'triodio');
+  else if (o >= 0 && o <= 56) usa(pentecostario[String(o)], 'pentecostario');
+  else ordinario(d, dk, res);
+}
+
+// ── Santos do Menaion (doc. 01 §5, §7.4; FONTES-santos.md §3). Os santos com leituras próprias juntam-se às do dia
+// (domingo, dia útil, sábado); as grandes festas substituem-nos. Sem leitura de santos nos períodos abaixo.
+const SEM_SANTOS_ORIGEM = new Set(['festa', 'vespera', 'vespera_sab_dom', 'horas_reais']);
+function leSantos(d, res) {
+  const { o, dow } = d;
+  if (SEM_SANTOS_ORIGEM.has(res.origem) || res.semLiturgia || res.extra.some(e => e.rotulo === 'festa')) return false;
+  if (o >= -48 && o <= 6) return false;                           // Quaresma (⚠ Pré-santificados), Semana Santa, Luminosa
+  if ([38, 39, 48, 49, 50].includes(o)) return false;            // despedida da Páscoa, Ascensão, sábado dos defuntos, Pentecostes, Espírito Santo
+  if (o === -57 || o === -50) return false;                       // sábados do Triódio (defuntos; ascetas)
+  if (dow === 0 && o >= -70 && o <= 63) return false;             // domingos do Triódio e do Pentecostário, Todos os Santos (russos)
+  return true;
+}
+const chave = x => x.r.split('.')[0] + '#' + x.z;
+function juntaSantos(d, res) {
+  // Santos da data (juliana) e dos domingos semimóveis dos Padres (chave = id do domingo em calendario.semimoveis)
+  const lista = [...(santos[chaveMD(d.juliano.m, d.juliano.d)] || []), ...d.semimoveis.flatMap(id => santos[id] || [])];
+  if (!lista.length) return;
+  if (!leSantos(d, res)) {
+    // Quaresma, dia útil: santo de polieleo/vigília — nos Pré-santificados (qua./sex.) ou com Liturgia por bênção do reitor
+    // pode ler-se o Apóstolo e o Evangelho do santo; o calendário oficial de 2026 não dá nenhum caso (⚠)
+    if (d.o >= -48 && d.o <= -8 && d.dow >= 1 && d.dow <= 5 && lista.some(s => s.grau === 'polieleo' || s.grau === 'vigilia')) res.incerto = true;
+    return;
+  }
+  const lidas = new Set([...res.ap, ...res.ev].map(chave));          // a mesma perícope não se lê duas vezes
+  for (const s of lista) {
+    const g = { rotulo: 'santo', id: s.id, grau: s.grau, ap: (s.ap || []).filter(x => !lidas.has(chave(x))), ev: (s.ev || []).filter(x => !lidas.has(chave(x))) };
+    if (!g.ap.length && !g.ev.length) continue;
+    if (s.vt) g.vt = s.vt;
+    if (s.matinas_ev) g.matinas_ev = s.matinas_ev;
+    g.ap.concat(g.ev).forEach(x => lidas.add(chave(x)));
+    res.extra.push(g);
+  }
+}
+
+/** Ordinário de um dia vizinho deslocado por festa (res.deslocadas): lê-se «под зачало» na véspera; se a véspera for
+ *  domingo ou não tiver leituras ordinárias, no dia seguinte (Typikon, Сказание; doc. 01 §7.4). ⚠ O calendário oficial
+ *  de 2026 só o imprime num dos 6 casos (22.09) e só o Apóstolo: facultativo. */
+function juntaDeslocadas(d, res) {
+  if (d.dow === 0 || res.deslocadas || SEM_SANTOS_ORIGEM.has(res.origem) || !res.ap.length) return;
+  const seg = dia(d.jdn + 1), ant = dia(d.jdn - 1);
+  let fonte = null;
+  if (seg.dow !== 0 && base(seg).deslocadas) fonte = seg;
+  else if (base(ant).deslocadas) { const ant2 = dia(d.jdn - 2), b2 = base(ant2); if (ant2.dow === 0 || b2.deslocadas || !b2.ap.length) fonte = ant; }
+  if (!fonte) return;
+  const r = { ap: [], ev: [], vt: [], extra: [], incerto: false };
+  ciclo(fonte, DIAS[fonte.dow], r, x => { if (!x) return false; r.ap = x.ap || []; r.ev = x.ev || []; return true; });
+  if (r.ap.length || r.ev.length) res.extra.push({ rotulo: 'ordinario', facultativo: true, ap: r.ap, ev: r.ev, de: fonte.jdn });
 }
 
 function ordinario(d, dk, res) {
