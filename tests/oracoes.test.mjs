@@ -34,3 +34,5 @@ if (fs.existsSync('data/oracoes')) for (const f of fs.readdirSync('data/oracoes'
   }
 }
 console.log(`orações: períodos OK; ${n} blocos validados`);
+assert.equal(periodoOracao(dia(G(2027, 3, 20))), 'quaresma');   // sábado da 1.ª semana da Quaresma de 2027
+console.log('orações: período da Quaresma OK');

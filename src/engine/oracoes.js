@@ -7,6 +7,7 @@ export function periodoOracao(d, noite = false) {
   if (o >= 0 && o <= 6) return 'semana_luminosa';
   if (o >= 7 && o <= 38) return 'pascoa_ascensao';
   if (o >= 39 && o <= 48) return 'ascensao_pentecostes';
+  if (o >= -48 && o <= -1) return 'quaresma';   // Grande Quaresma e Semana Santa (p. ex. «Егда славнии» no ofício da Comunhão)
   return 'comum';
 }
 
