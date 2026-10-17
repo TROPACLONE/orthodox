@@ -18,7 +18,20 @@ export function eNoite(id, hora) {
   return hora >= 18 || (id === 'noite' && hora >= 12);
 }
 
-/** Blocos que se leem no período dado (campo «quando»: so / excepto). */
-export function blocosDoPeriodo(blocos, periodo) {
-  return blocos.filter(b => !b.quando || (b.quando.so ? b.quando.so.includes(periodo) : !(b.quando.excepto || []).includes(periodo)));
+/** Blocos que se leem no período dado e com os modos ativos (p. ex. «defuntos» no Saltério, dec. 64): campo «quando»,
+ *  so (basta uma etiqueta ativa) / excepto (basta uma etiqueta ativa para o excluir). */
+export function blocosDoPeriodo(blocos, periodo, modos = []) {
+  const ativa = t => t === periodo || modos.includes(t);
+  return blocos.filter(b => !b.quando || (b.quando.so ? b.quando.so.some(ativa) : !(b.quando.excepto || []).some(ativa)));
+}
+
+// Saltério (doc. 03 §5.6): salmos de cada catisma, numeração LXX.
+export const CATISMAS = [[1, 8], [9, 16], [17, 23], [24, 31], [32, 36], [37, 45], [46, 54], [55, 63], [64, 69], [70, 76],
+  [77, 84], [85, 90], [91, 100], [101, 104], [105, 108], [109, 117], [118, 118], [119, 133], [134, 142], [143, 151]];
+
+/** Plano pessoal do Saltério (dec. 65): a catisma a seguir à última marcada como lida, em ciclo 1–20. Com «1 por dia»,
+ *  se já se marcou uma hoje, devolve essa, como lida. */
+export function planoSalterio(ultima, dataUltima, hoje, umPorDia) {
+  if (umPorDia && ultima && dataUltima === hoje) return { n: ultima, lida: true };
+  return { n: ultima ? ultima % 20 + 1 : 1, lida: false };
 }

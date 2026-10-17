@@ -40,3 +40,23 @@ Regras de tradução:
 - **UK**: tradução própria com a terminologia da IOU (dec. 30, 37): Іісус, Іоанн, Богородиця…
 - **EN**: Hapgood 1906 (domínio público) adaptado onde cobrir; senão tradução própria; Thee/Thou (dec. 53); en-GB.
 - Fidelidade: tradução fiel, sem paráfrase nem acrescentos; quando o eslavo é ambíguo, seguir o grego e anotar em `nota`.
+
+## Saltério (2c; dec. 18, 40, 41, 64, 65)
+
+Ficheiros em `data/oracoes/` (mesmo formato das orações, mesmo gerador):
+- `salterio-antes.json`: orações antes da leitura do Saltério (lidas antes de cada sessão).
+- `salterio-01.json` … `salterio-20.json`: uma catisma por ficheiro (`id` = `salterio-01`…).
+- `salterio-depois.json` (só se a fonte PD o tiver): orações depois de ler todo o Saltério.
+
+Blocos novos, além de `rubrica | oracao | titulo`:
+```
+{ "id": "sl-050", "tipo": "titulo", "sl": 50, "cu": "Псало́мъ 50.", "pt": "Salmo 50 (51)", "ru": "Псалом 50", "uk": "Псалом 50", "en": "Psalm 50 (51)" }
+{ "id": "sl-050-03", "tipo": "verso", "sl": 50, "v": 3, "cu": "…", "pt": "…", "ru": "…", "uk": "…", "en": "…" }
+```
+- `sl` e `v`: numeração LXX/eslava (dec. 18); número hebraico entre parênteses só no título, quando difere.
+- Grelha de versículos de referência: `data/salterio/_fontes/grelha.json` (Bíblia isabelina, módulo CSlElizabeth, domínio público): 151 salmos, 2529 versículos; o sobrescrito conta como versículo (Sl 50,1–2). Diferenças com Brenton: Sl 71, 114, 129, 141 (alinhar ao eslavo e assinalar em nota).
+- A fonte por omissão de cada língua para os versículos vai no nível do ficheiro: `"fonteVersos": { "cu": "…", "ru": "YU1915", "en": "BR1851", "pt": "propria", "uk": "propria" }`; `fonte` num bloco só quando foge à regra.
+- «Glórias» (статии): rubrica + fórmulas, segundo a Следованная Псалтирь PD; ids `kNN-gM-…`.
+- Modo **«pelos defuntos»** (dec. 64): a etiqueta `defuntos` entra em `quando.so` / `quando.excepto` como os períodos (p. ex. «Помяни, Господи» com `"quando": {"so": ["defuntos"]}`). O motor recebe o período e os modos ativos.
+
+Tradução dos salmos: PT e UK próprias a partir do eslavo isabelino, LXX grega só como controlo (dec. 40); RU Yungerov (dec. 41); EN Brenton adaptado (Thee/Thou já é o de Brenton; en-GB). Salmos que já existem noutras orações (Sl 50, 22, 23, 115, 142…): o texto do Saltério é a referência; as diferenças com os blocos existentes são assinaladas para alinhar.

@@ -19,14 +19,20 @@ const dirO = `${dir}/oracoes`;
 fs.rmSync(dirO, { recursive: true, force: true });
 fs.mkdirSync(dirO, { recursive: true });
 const indice = [];
+// Grupos (Saltério, acatistos, defuntos): ids «grupo-membro»; a lista de cada grupo, com os títulos na língua, vai num
+// ficheiro pequeno por língua, carregado só quando se abre um grupo. Ordem: campo «ordem» do ficheiro, senão o nome.
+const grupos = Object.fromEntries(['pt', 'ru', 'uk', 'en'].map(l => [l, {}]));
 if (fs.existsSync('data/oracoes')) for (const f of fs.readdirSync('data/oracoes').sort()) {
   if (!f.endsWith('.json') || f.startsWith('_')) continue;   // _parte-*.json: partes ainda por juntar
   const o = JSON.parse(fs.readFileSync(`data/oracoes/${f}`, 'utf8'));
   indice.push(o.id);
+  const g = o.id.includes('-') && o.id.split('-')[0];
+  if (g) for (const l of ['pt', 'ru', 'uk', 'en']) (grupos[l][g] ||= []).push({ id: o.id, titulo: o.titulo[l], ordem: o.ordem ?? Infinity });
   for (const l of ['pt', 'ru', 'uk', 'en']) {
     const blocos = o.blocos.map(b => {
       const x = { id: b.id, tipo: b.tipo, cu: b.cu || '', t: b[l] || '' };
       if (b.repetir) x.repetir = b.repetir;
+      if (b.sl) { x.sl = b.sl; if (b.v) x.v = b.v; }   // salmo e versículo (Saltério)
       if (b.quando) x.quando = b.quando;
       return x;
     });
@@ -34,3 +40,7 @@ if (fs.existsSync('data/oracoes')) for (const f of fs.readdirSync('data/oracoes'
   }
 }
 fs.writeFileSync(`${dirO}/indice.json`, JSON.stringify(indice));
+for (const [l, gs] of Object.entries(grupos)) {
+  for (const m of Object.values(gs)) { m.sort((a, b) => a.ordem - b.ordem); for (const x of m) delete x.ordem; }   // sort estável
+  fs.writeFileSync(`${dirO}/grupos-${l}.json`, JSON.stringify(gs));
+}

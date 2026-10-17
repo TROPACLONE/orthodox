@@ -10,7 +10,7 @@ import { jejum, N } from './engine/jejum.js';
 import { grausDoDia, comemoracoesDoDia, carregarNomes } from './dados/graus.js';
 import { leituras, eothinon } from './engine/leituras.js';
 import { formatarRef } from './engine/referencias.js';
-import { periodoOracao, blocosDoPeriodo, eNoite } from './engine/oracoes.js';
+import { periodoOracao, blocosDoPeriodo, eNoite, CATISMAS, planoSalterio } from './engine/oracoes.js';
 import indiceOracoes from './dados/gerado/oracoes/indice.json' with { type: 'json' };
 
 const LINGUAS = ['pt', 'uk', 'ru', 'en'];
@@ -54,6 +54,8 @@ const st = {
   escala: ESCALAS.some(e => e[0] === ler('escala')) ? ler('escala') : 'normal',
   vista: 'hoje', definicoes: false,
   eslavo: ler('eslavo') !== 'nao', oracao: null,   // oracao: { id, dados } quando há uma oração aberta (3.º nível)
+  grupo: null, grupos: null,                        // grupo aberto (Saltério, acatistos, defuntos) e as listas na língua
+  modoSalterio: ler('salterio.modo') === 'defuntos' ? 'defuntos' : 'habitual', umPorDia: ler('salterio.diario') === 'sim',
   jdn: jdnHoje(), mes: null,
 };
 
@@ -231,16 +233,53 @@ function ecraCalendario() {
 
 // ── Orações: lista (2.º nível) e texto (3.º nível). Ordem do mapa de navegação aprovado (decisão 47).
 const ORACOES = ['manha', 'noite', 'comunhao_preparacao', 'comunhao_acao_gracas', 'jesus', 'serafim', 'acatistos', 'salterio', 'defuntos', 'refeicoes'];
+const GRUPOS = new Set(['acatistos', 'salterio', 'defuntos']);   // abrem uma lista (ids «grupo-membro» nos dados)
 function ecraOracoes() {
   const T = st.t, s = h('section', { class: 'screen' }), ul = h('ul', { class: 'menu' });
   for (const id of ORACOES) {
-    const ok = indiceOracoes.includes(id);
-    ul.append(h('li', {}, h('button', { class: 'item', type: 'button', 'data-acao': 'oracao', 'data-id': id, disabled: !ok },
+    const grupo = GRUPOS.has(id), ok = grupo ? indiceOracoes.some(x => x.startsWith(id + '-')) : indiceOracoes.includes(id);
+    ul.append(h('li', {}, h('button', { class: 'item', type: 'button', 'data-acao': grupo ? 'grupo' : 'oracao', 'data-id': id, disabled: !ok },
       h('span', { text: T.oracoes[id] }), ok ? icone('i-seguinte', 18, 18) : h('small', { text: T.ui.emPreparacao }))));
   }
   s.append(ul);
   return s;
 }
+// Lista de um grupo (4.º nível de navegação: Orações → Saltério → catisma). No Saltério, o plano pessoal (dec. 65) e o
+// modo de leitura (dec. 64) ficam por cima da lista.
+const idCatisma = n => 'salterio-' + String(n).padStart(2, '0');
+function ecraGrupo() {
+  const T = st.t, g = st.grupo, S = T.salterio, s = h('section', { class: 'screen' });
+  s.append(h('h1', { class: 'data-civil', tabindex: '-1', text: T.oracoes[g] }));
+  if (g === 'salterio') {
+    const p = planoSalterio(Number(ler('salterio.ultima')) || 0, Number(ler('salterio.data')) || 0, jdnHoje(), st.umPorDia);
+    s.append(h('div', { class: 'bloco' },
+      p.lida ? h('p', { class: 'txt', text: S.hojeLida(p.n) })
+        : h('button', { class: 'item', type: 'button', 'data-acao': 'oracao', 'data-id': idCatisma(p.n) }, h('span', { text: S.continuar(p.n) }), icone('i-seguinte', 18, 18)),
+      h('div', { class: 'campo' }, h('label', { text: S.umPorDia }), seg('sal-diario', [['sim', T.ui.sim], ['nao', T.ui.nao]], st.umPorDia ? 'sim' : 'nao')),
+      h('div', { class: 'campo' }, h('label', { text: S.modo }), seg('sal-modo', [['habitual', S.habitual], ['defuntos', S.defuntos]], st.modoSalterio))));
+  }
+  const ul = h('ul', { class: 'menu' });
+  for (const m of st.grupos[g] || []) {
+    const n = g === 'salterio' && /^salterio-\d\d$/.test(m.id) && Number(m.id.slice(9));
+    ul.append(h('li', {}, h('button', { class: 'item', type: 'button', 'data-acao': 'oracao', 'data-id': m.id },
+      h('span', {}, m.titulo, n && h('small', { class: 'sub', text: S.salmos(...CATISMAS[n - 1]) })), icone('i-seguinte', 18, 18))));
+  }
+  s.append(ul);
+  return s;
+}
+async function carregarGrupos() {
+  const m = await import(`./dados/gerado/oracoes/grupos-${st.lingua}.json`, { with: { type: 'json' } });
+  st.grupos = m.default;
+}
+async function abrirGrupo(g) {
+  const pedido = ++pedidoOracao;
+  await carregarGrupos();
+  if (pedido !== pedidoOracao) return;
+  st.grupo = g;
+  await transicao(() => { render(); $('main').scrollTop = 0; });
+  if (!st.definicoes) $('main').querySelector('h1').focus({ preventScroll: true });
+}
+
 let pedidoOracao = 0;
 async function abrirOracao(id) {
   const pedido = ++pedidoOracao, lingua = st.lingua;
@@ -257,19 +296,22 @@ const comAviso = (id, periodo) => id === 'manha' || id === 'noite' || (id === 'c
 function ecraOracao() {
   const T = st.t, { id, dados, conv } = st.oracao, s = h('section', { class: 'screen oracao' });
   const d = dia(jdnHoje()), periodo = periodoOracao(d, eNoite(id, new Date().getHours()));
+  const salterio = id.startsWith('salterio-'), modos = salterio && st.modoSalterio === 'defuntos' ? ['defuntos'] : [];
   s.append(h('h1', { class: 'data-civil', tabindex: '-1', text: dados.titulo }), h('span', { class: 'estado', text: T.estado[dados.estado] || dados.estado }));
   if (T.periodo[periodo] && comAviso(id, periodo)) s.append(h('div', { class: 'nota', text: T.periodo[periodo] }));   // só os períodos com aviso (pascais)
   const eslavo = st.eslavo ? (st.lingua === 'uk' ? conv.izvod : conv.civil) : null;
-  for (const b of blocosDoPeriodo(dados.blocos, periodo)) {
+  for (const b of blocosDoPeriodo(dados.blocos, periodo, modos)) {
     const rep = b.repetir ? ` (${T.ui.vezes(b.repetir)})` : '';
     if (b.tipo === 'rubrica') { s.append(h('p', { class: 'rubrica', text: b.t + rep })); continue; }
     if (b.tipo === 'titulo') { if (b.t !== dados.titulo) s.append(h('h2', { class: 'titulo-oracao', text: b.t })); continue; }   // o 1.º título repete o h1
-    const par = h('div', { class: 'par' });
+    const par = h('div', { class: 'par' }), v = () => b.v && h('sup', { class: 'v', text: b.v });   // n.º do versículo
     // «(3 vezes)» está na língua da interface, não em eslavo
-    if (eslavo && b.cu) par.append(h('p', { class: 'slav', lang: 'cu' }, eslavo(b.cu), rep && h('span', { lang: T.lang, text: rep })));
-    par.append(h('p', { class: 'trad', text: b.t + (eslavo && b.cu ? '' : rep) }));
+    if (eslavo && b.cu) par.append(h('p', { class: 'slav', lang: 'cu' }, v(), eslavo(b.cu), rep && h('span', { lang: T.lang, text: rep })));
+    par.append(h('p', { class: 'trad' }, v(), b.t + (eslavo && b.cu ? '' : rep)));
     s.append(par);
   }
+  // Catisma: marcar como lida avança o plano pessoal (dec. 65).
+  if (/^salterio-\d\d$/.test(id)) s.append(h('button', { class: 'link', type: 'button', 'data-acao': 'sal-lida', 'data-n': Number(id.slice(9)), text: T.salterio.marcarLida }));
   return s;
 }
 
@@ -302,7 +344,7 @@ function render() {
   document.documentElement.lang = T.lang;
   document.documentElement.style.setProperty('--scale', ESCALAS.find(e => e[0] === st.escala)[1]);
   const esq = $('btn-esq'), dir = $('btn-dir');
-  const voltar = st.definicoes || !!st.oracao;
+  const voltar = st.definicoes || !!st.oracao || !!st.grupo;
   esq.replaceChildren(icone(voltar ? 'i-voltar' : 'i-pesquisa'));
   esq.setAttribute('aria-label', voltar ? T.ui.voltar : T.ui.pesquisar);
   esq.disabled = !voltar;                        // a pesquisa chega com o conteúdo pesquisável (fases 2–4)
@@ -310,7 +352,7 @@ function render() {
   $('titulo').textContent = st.definicoes ? T.ui.definicoes : (st.vista === 'hoje' ? 'Orthodox Helper' : T.nav[st.vista]);
 
   const ecra = st.definicoes ? ecraDefinicoes() : st.vista === 'hoje' ? ecraHoje() : st.vista === 'calendario' ? ecraCalendario()
-    : st.vista === 'oracoes' ? (st.oracao ? ecraOracao() : ecraOracoes()) : ecraEmPreparacao();
+    : st.vista === 'oracoes' ? (st.oracao ? ecraOracao() : st.grupo ? ecraGrupo() : ecraOracoes()) : ecraEmPreparacao();
   main.replaceChildren(ecra);
 
   const tabs = $('tabs');
@@ -376,12 +418,20 @@ $('main').addEventListener('click', async e => {
     // Bloco da língua indisponível (sem rede e ainda não guardado): fica a língua atual.
     try { if (!(await mudarLingua(b.dataset.valor))) return; } catch { return; }
     gravar('lingua', st.lingua); st.oracao = null;   // o texto aberto estava noutra língua
+    if (st.grupo) try { await carregarGrupos(); } catch { st.grupo = null; }   // a lista do grupo também
   }
   else if (a === 'camada-defeito') { st.camada = b.dataset.valor; gravar('camada', st.camada); }
   else if (a === 'escala') { st.escala = b.dataset.valor; gravar('escala', st.escala); }
   else if (a === 'eslavo') { st.eslavo = b.dataset.valor === 'sim'; gravar('eslavo', b.dataset.valor); }
-  else if (a === 'oracao') {
-    abrirOracao(b.dataset.id).catch(() => {           // sem rede e ainda não guardada: avisa em vez de não fazer nada
+  else if (a === 'sal-diario') { st.umPorDia = b.dataset.valor === 'sim'; gravar('salterio.diario', b.dataset.valor); }
+  else if (a === 'sal-modo') { st.modoSalterio = b.dataset.valor; gravar('salterio.modo', b.dataset.valor); }
+  else if (a === 'sal-lida') {                         // sem reconstruir o ecrã: a posição de leitura fica
+    gravar('salterio.ultima', b.dataset.n); gravar('salterio.data', jdnHoje());
+    b.replaceWith(h('p', { class: 'txt', role: 'status', text: st.t.salterio.lida }));
+    return;
+  }
+  else if (a === 'oracao' || a === 'grupo') {
+    (a === 'grupo' ? abrirGrupo : abrirOracao)(b.dataset.id).catch(() => {   // sem rede e ainda não guardada: avisa em vez de não fazer nada
       const aviso = h('p', { class: 'nota', role: 'status', text: st.t.ui.erroCarregar });
       $('main').querySelector('.screen')?.prepend(aviso);
     });
@@ -402,7 +452,7 @@ $('tabs').addEventListener('click', e => {
   const b = e.target.closest('[data-vista]');
   if (!b) return;
   if (b.dataset.vista === 'hoje' && st.vista === 'hoje' && !st.definicoes) st.jdn = jdnHoje();
-  st.vista = b.dataset.vista; st.definicoes = false; st.outraCamada = false; st.oracao = null; pedidoOracao++;
+  st.vista = b.dataset.vista; st.definicoes = false; st.outraCamada = false; st.oracao = null; st.grupo = null; pedidoOracao++;
   transicao(() => { render(); $('main').scrollTop = 0; });
 });
 // Definições abertas a meio de uma oração longa: ao voltar ao mesmo ecrã, retoma-se a posição de leitura.
@@ -419,9 +469,10 @@ $('btn-esq').addEventListener('click', async () => {
     const a = antesDefinicoes;
     if (a && a.vista === st.vista && a.oracao === st.oracao) y = a.y;
   } else if (st.oracao) { alvo = st.oracao.id; st.oracao = null; pedidoOracao++; }
+  else if (st.grupo) { alvo = st.grupo; st.grupo = null; pedidoOracao++; }
   else return;
   await transicao(() => { render(); $('main').scrollTo({ top: y, behavior: 'instant' }); });   // sem scroll-behavior: smooth
-  const el = alvo === 'btn-dir' ? $('btn-dir') : $('main').querySelector(`[data-acao="oracao"][data-id="${alvo}"]`);
+  const el = alvo === 'btn-dir' ? $('btn-dir') : $('main').querySelector(`.menu [data-id="${alvo}"]`);
   (el || $('main')).focus({ preventScroll: true });
 });
 // Mudança de dia com a app aberta: se o ecrã mostrava «hoje», passa para o novo dia.
