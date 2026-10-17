@@ -7,7 +7,7 @@ export default {
     pesquisar: 'Search', definicoes: 'Settings', voltar: 'Back', hojeBtn: 'Go to today',
     dataJuliana: (dm, y) => `${dm} ${y}`,
     calJuliano: 'Old Style (Julian)', semana: 'week', tom: n => `Tone ${n}`,
-    leiturasSanto: 'Of the saint of the day', santosTodos: n => `Show all (${n})`, santosMenos: 'Show fewer', festas: 'Feast days', tropario: tom => (tom ? `Troparion, Tone ${tom}` : 'Troparion'), dataFesta: (civil, juliana) => `${civil} (${juliana}, Julian calendar)`, santosFichas: 'Saints', jejum: 'Fast', santos: 'Saints and feasts', leituras: 'Readings', semJejum: 'Fast-free',
+    leiturasSanto: 'Of the saint of the day', troparioAConferir: 'Traditional text, still to be checked against a printed edition.', santosTodos: n => `Show all (${n})`, santosMenos: 'Show fewer', festas: 'Feast days', tropario: tom => (tom ? `Troparion, Tone ${tom}` : 'Troparion'), dataFesta: (civil, juliana) => `${civil} (${juliana}, Julian calendar)`, santosFichas: 'Saints', jejum: 'Fast', santos: 'Saints and feasts', leituras: 'Readings', semJejum: 'Fast-free',
     diaJejum: 'Fast day', camadaParoquial: 'Parish calendar (per Azbuka Very)', camadaTypikon: 'Typikon',
     verTypikon: 'Show the Typikon rule', verParoquial: 'Show the parish calendar',
     notaJejum: 'The Church publishes no official food table. The measure of each person’s fast is set by their spiritual father.',

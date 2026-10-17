@@ -64,7 +64,8 @@ const frases = o => { const r = []; JSON.stringify(o, (k, v) => { if (typeof v =
 const maisLonga = l => l.reduce((a, b) => (b.length > a.length ? b : a), '');
 // O eslavo das orações também não pode estar no núcleo.
 for (const f of fs.readdirSync(dirO)) if (f.endsWith('-cu.json')) {
-  const x = maisLonga(JSON.parse(fs.readFileSync(`${dirO}/${f}`, 'utf8')).cu);
+  const o = JSON.parse(fs.readFileSync(`${dirO}/${f}`, 'utf8'));
+  const x = maisLonga(o.cu || frases(o));   // fichas-cu.json: { id: { n, tr } }
   assert.ok(x.length > 20 && !nucleoJs.includes(x), `eslavo de ${f} no núcleo: «${x.slice(0, 40)}…»`);
 }
 for (const l of ['pt', 'uk', 'ru', 'en']) {

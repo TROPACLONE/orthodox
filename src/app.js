@@ -350,6 +350,7 @@ function ecraFicha() {
     if (eslavo && cu.tr) par.append(h('p', { class: 'slav', lang: 'cu', text: eslavo(cu.tr) }));
     par.append(h('p', { class: 'trad', text: x.tr.t }));
     s.append(par);
+    if (x.tr.ac) s.append(h('p', { class: 'nota', text: T.ui.troparioAConferir }));   // dec. 78
   }
   return s;
 }

@@ -11,7 +11,7 @@ export default {
     pesquisar: 'Пошук', definicoes: 'Налаштування', voltar: 'Назад', hojeBtn: 'До сьогоднішнього дня',
     dataJuliana: (dm, y) => `${dm} ${y} р.`,
     calJuliano: 'за старим стилем', semana: 'седмиця', tom: n => `Глас ${n}`,
-    leiturasSanto: 'Святому дня', santosTodos: n => `Показати всіх (${n})`, santosMenos: 'Згорнути', festas: 'Дні пам’яті', tropario: tom => (tom ? `Тропар, глас ${tom}` : 'Тропар'), dataFesta: (civil, juliana) => `${civil} (${juliana} за юліанським календарем)`, santosFichas: 'Святі', jejum: 'Піст', santos: 'Святі та свята', leituras: 'Читання', semJejum: 'Посту немає',
+    leiturasSanto: 'Святому дня', troparioAConferir: 'Давній текст; ще не звірений з друкованим виданням.', santosTodos: n => `Показати всіх (${n})`, santosMenos: 'Згорнути', festas: 'Дні пам’яті', tropario: tom => (tom ? `Тропар, глас ${tom}` : 'Тропар'), dataFesta: (civil, juliana) => `${civil} (${juliana} за юліанським календарем)`, santosFichas: 'Святі', jejum: 'Піст', santos: 'Святі та свята', leituras: 'Читання', semJejum: 'Посту немає',
     diaJejum: 'Пісний день', camadaParoquial: 'Парафіяльний календар (за «Азбукою віри»)', camadaTypikon: 'Типікон',
     verTypikon: 'Показати устав Типікону', verParoquial: 'Показати парафіяльний календар',
     notaJejum: 'Церква не публікує офіційної таблиці їжі. Особисту міру посту визначає духівник.',

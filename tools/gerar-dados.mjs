@@ -62,7 +62,9 @@ const doMotor = c => MOVEIS_DO_MOTOR.has(c.id) || ((c.tipo === 'senhor' || c.tip
 if (fs.existsSync('data/santos/dia.json')) {
   const dia = JSON.parse(fs.readFileSync('data/santos/dia.json', 'utf8'));
   const fichas = fs.existsSync('data/santos/fichas.json') ? JSON.parse(fs.readFileSync('data/santos/fichas.json', 'utf8')) : {};
-  const linha = (c, l) => [c[l], GRAU[c.grau] || '', fichas[c.id] ? c.id : 0];
+  // Ligação comemoração → ficha (data/santos/fichas-ligacoes.json: id da lista diária → id da ficha; inclui as trasladações).
+  const lig = fs.existsSync('data/santos/fichas-ligacoes.json') ? JSON.parse(fs.readFileSync('data/santos/fichas-ligacoes.json', 'utf8')) : {};
+  const linha = (c, l) => [c[l], GRAU[c.grau] || '', lig[c.id] || (fichas[c.id] ? c.id : 0)];
   // Nomes dos santos com leituras próprias (data/lecionario/santos.json: id de graus.json ou «pon-<id Ponomar>»), para o
   // rótulo do grupo de leituras no ecrã Hoje.
   const lec = fs.existsSync('data/lecionario/santos.json') ? JSON.parse(fs.readFileSync('data/lecionario/santos.json', 'utf8')) : {};
@@ -75,7 +77,7 @@ if (fs.existsSync('data/santos/dia.json')) {
     const n = Object.fromEntries([...idsLec].filter(id => porId.has(id)).map(id => [id, porId.get(id)[l]]));
     fs.writeFileSync(`${dirO}/santos-${l}.json`, JSON.stringify({ f, m, n }));
     if (Object.keys(fichas).length) fs.writeFileSync(`${dirO}/fichas-${l}.json`, JSON.stringify(Object.fromEntries(Object.entries(fichas).map(([id, x]) =>
-      [id, { n: x.nome[l], ti: x.titulo[l], v: x.vida[l], fe: x.festas, r: x.resumo[l], tr: x.tropario && { tom: x.tropario.tom, t: x.tropario[l] } }]))));
+      [id, { n: x.nome[l], ti: x.titulo[l], v: x.vida[l], fe: x.festas, r: x.resumo[l], tr: x.tropario && { tom: x.tropario.tom, t: x.tropario[l], ...(x.tropario.fonte && x.tropario.fonte.estado === 'a confirmar' ? { ac: 1 } : {}) } }]))));
   }
   if (Object.keys(fichas).length) fs.writeFileSync(`${dirO}/fichas-cu.json`, JSON.stringify(Object.fromEntries(Object.entries(fichas).map(([id, x]) =>
     [id, { n: x.nome.cu, tr: x.tropario ? x.tropario.cu : '' }]))));
