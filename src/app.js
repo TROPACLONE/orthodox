@@ -154,13 +154,17 @@ function ecraHoje() {
   // As grandes festas («G») já vêm do motor. Um nome com ficha abre-a.
   let todos = null;
   if (st.santos) {
-    const ss = santosDoDia(st.santos, d).filter(x => x[1] !== 'G');
-    const ver = st.todosSantos ? ss : ss.filter((x, i) => x[1] || i < 3);
+    const ss = santosDoDia(st.santos, d).filter(x => x[1] !== 'G'), poucos = ss.filter((x, i) => x[1] || i < 3);
+    const ver = st.todosSantos ? ss : poucos;
     for (const [nome, g, ficha] of ver) lista.append(h('li', { class: g ? 'g-' + g : null },
       ficha ? h('button', { class: 'santo', type: 'button', 'data-acao': 'ficha', 'data-id': ficha, text: nome }) : nome));
-    if (ss.length > ver.length || st.todosSantos) todos = h('button', { class: 'link', type: 'button', 'data-acao': 'santos-todos',
+    // «Mostrar menos» só onde há o que esconder (st.todosSantos mantém-se ao mudar de dia)
+    if (ss.length > poucos.length) todos = h('button', { class: 'link', type: 'button', 'data-acao': 'santos-todos',
       'aria-expanded': String(st.todosSantos), text: st.todosSantos ? T.ui.santosMenos : T.ui.santosTodos(ss.length) });
-  } else carregarSantos().then(ok => { if (ok && !st.definicoes && !st.ficha && st.vista === 'hoje') render(); }).catch(() => {});   // sem rede no arranque
+  } else if (!santosPendentes) {   // sem rede no arranque: um só pedido de cada vez, por muitas renderizações que haja
+    santosPendentes = carregarSantos().then(ok => { if (ok && !st.definicoes && !st.ficha && st.vista === 'hoje') renderFundo(); })
+      .catch(() => {}).finally(() => { santosPendentes = null; });
+  }
   if (lista.childElementCount) bloco.append(lista);
   if (todos) bloco.append(todos);
   if (bloco.childElementCount > 1) s.append(bloco);
@@ -213,7 +217,7 @@ function blocoLeituras(d) {
     if (e.rotulo === 'horas_reais') { sub(T.ui.horasReais);
       for (const [hora, x] of Object.entries(e.horas)) linha(T.ui.servico[hora] || hora, [...(x.vt || []), ...(x.ap || []), ...(x.ev || [])]); }
     else if (e.rotulo === 'santo') {   // santo do Menaion (fase 3): Vésperas (AT), Matinas (Evangelho), Liturgia
-      sub((st.santos && st.santos.n[e.id]) || T.ui.leiturasSanto);
+      sub((st.santos && st.santos.n[e.id]) || T.semimovel[e.id] || T.ui.leiturasSanto);   // domingos dos Padres: id do domingo
       linha(`${T.ui.servico.vesperas}: ${T.ui.antigoTestamento}`, e.vt); linha(`${T.ui.servico.matinas}: ${T.ui.evangelho}`, e.matinas_ev);
       linha(T.ui.apostolo, e.ap); linha(T.ui.evangelho, e.ev); }
     else { sub({ bencao_aguas: T.ui.bencaoAguas, vesperas: T.ui.servico.vesperas, ordinario: T.ui.ordinario }[e.rotulo] || T.ui.festaLeituras);
@@ -306,6 +310,7 @@ async function dados(id, l) {
   return r.json();
 }
 // ── Santos (fase 3): a lista do dia carrega-se com a língua; as fichas só quando se abre uma (ou a lista de Conhecer).
+let santosPendentes = null;
 async function carregarSantos() {
   const lingua = st.lingua, x = await dados('santos', lingua);
   if (lingua !== st.lingua) return false;
@@ -320,10 +325,11 @@ async function carregarFichas() {
   st.fichas = x; fichasDe = lingua; return true;
 }
 async function abrirFicha(id) {
-  const pedido = ++pedidoOracao;
+  const pedido = ++pedidoOracao, lingua = st.lingua;
   // Eslavo (nome e tropário) só com «Mostrar o eslavo»; sem rede, a ficha abre na mesma, sem ele.
   const [ok, cu] = await Promise.all([carregarFichas(), st.eslavo ? dados('fichas', 'cu').catch(() => null) : null]);
-  if (!ok || pedido !== pedidoOracao || !st.fichas[id]) return;
+  // As fichas já estavam em memória e o eslavo chegou depois de mudar a língua: a ficha ficaria na língua anterior.
+  if (!ok || pedido !== pedidoOracao || lingua !== st.lingua || !st.fichas[id]) return;
   st.ficha = { id, x: st.fichas[id], cu: cu && cu[id], y: $('main').scrollTop };
   await transicao(() => { render(); topo(); });
   if (!st.definicoes) $('main').querySelector('h1')?.focus({ preventScroll: true });
@@ -359,7 +365,7 @@ function ecraConhecer() {
   const T = st.t, s = h('section', { class: 'screen' });
   s.append(h('h1', { class: 'data-civil', tabindex: '-1', text: T.ui.santosFichas }));
   if (!st.fichas || fichasDe !== st.lingua) {
-    carregarFichas().then(ok => { if (ok && st.vista === 'conhecer' && !st.ficha && !st.definicoes) render(); })
+    carregarFichas().then(ok => { if (ok && st.vista === 'conhecer' && !st.ficha && !st.definicoes) renderFundo(); })
       .catch(() => s.append(h('p', { class: 'nota', role: 'status', text: T.ui.erroCarregar })));
     return s;
   }
@@ -390,6 +396,8 @@ function juntarEslavo(o, cu) {
   o.conv = conversor;
 }
 async function completarEslavo() {
+  const f = st.ficha;   // ficha aberta com o eslavo desligado: nome e tropário eslavos ainda por pedir
+  if (f && !f.cu) try { const cu = await dados('fichas', 'cu'); if (st.ficha === f) f.cu = cu[f.id]; } catch { /* sem rede */ }
   const o = st.oracao;
   if (!o || o.conv) return;
   try { const e = await carregarEslavo(o.id); if (st.oracao === o) juntarEslavo(o, e); } catch { /* sem rede: fica só a tradução */ }
@@ -488,6 +496,14 @@ function render() {
     tabs.dataset.lingua = st.lingua;
   }
   for (const b of tabs.children) b.setAttribute('aria-current', !st.definicoes && b.dataset.vista === st.vista ? 'page' : 'false');
+}
+// Renderização pedida por um carregamento em segundo plano (santos do dia, fichas de Conhecer): o ecrã é reconstruído
+// sem um toque, e o foco do teclado não pode cair no <body> — volta ao botão equivalente, ou ao conteúdo.
+function renderFundo() {
+  const m = $('main'), a = document.activeElement, dentro = a !== m && m.contains(a);
+  const sel = dentro && a.dataset.acao ? `[data-acao="${a.dataset.acao}"]` + (a.dataset.id ? `[data-id="${a.dataset.id}"]` : '') : null;
+  render();
+  if (dentro) ((sel && m.querySelector(sel)) || m).focus({ preventScroll: true });
 }
 
 // Pedidos em fila: dois toques seguidos não podem terminar fora de ordem (os santos do dia também ficam no estado), e um pedido
@@ -610,7 +626,7 @@ function retomarLeitura({ i, dy }) {
 }
 let antesDefinicoes = null;
 $('btn-dir').addEventListener('click', () => {
-  antesDefinicoes = { vista: st.vista, oracao: st.oracao, pos: posicaoLeitura() };
+  antesDefinicoes = { vista: st.vista, oracao: st.oracao, ficha: st.ficha, pos: posicaoLeitura() };
   st.definicoes = true; transicao(() => { render(); topo(); });
 });
 $('btn-esq').addEventListener('click', async () => {
@@ -619,7 +635,8 @@ $('btn-esq').addEventListener('click', async () => {
   if (st.definicoes) {
     st.definicoes = false; alvo = 'btn-dir';
     const a = antesDefinicoes;
-    if (a && a.vista === st.vista && a.oracao === st.oracao) pos = a.pos;
+    // A mudança de língua fecha a ficha (e o texto): a posição guardada era a dele, não a do ecrã por baixo.
+    if (a && a.vista === st.vista && a.oracao === st.oracao && a.ficha === st.ficha) pos = a.pos;
   } else if (st.ficha) { alvo = st.ficha.id; y = st.ficha.y || 0; st.ficha = null; pedidoOracao++; }
   else if (st.oracao) { alvo = st.oracao.id; y = st.oracao.y || 0; st.oracao = null; pedidoOracao++; }
   else if (st.grupo) { alvo = st.grupo; st.grupo = null; pedidoOracao++; }
