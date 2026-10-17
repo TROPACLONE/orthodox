@@ -33,9 +33,13 @@ const maisLonga = l => l.reduce((a, b) => (b.length > a.length ? b : a), '');
 for (const l of ['pt', 'uk', 'ru', 'en']) {
   const fontes = { [`i18n/${l}`]: (await import(`../src/i18n/${l}.js`)).default };
   const dirO = 'src/dados/gerado/oracoes';
-  for (const f of fs.readdirSync(dirO)) if (f.endsWith(`-${l}.json`)) fontes[f] = JSON.parse(fs.readFileSync(`${dirO}/${f}`, 'utf8')).blocos.map(b => b.t);
+  for (const f of fs.readdirSync(dirO)) if (f.endsWith(`-${l}.json`)) {
+    const o = JSON.parse(fs.readFileSync(`${dirO}/${f}`, 'utf8'));
+    fontes[f] = o.blocos ? o.blocos.map(b => b.t) : o;   // grupos-xx.json: só títulos (podem ser curtos ou nenhum)
+  }
   for (const [nome, o] of Object.entries(fontes)) {
     const x = maisLonga(frases(o));
+    if (nome.startsWith('grupos-') && x.length <= 20) continue;
     assert.ok(x.length > 20 && !nucleoJs.includes(x), `texto de ${nome} no núcleo: «${x.slice(0, 40)}…»`);
   }
 }
