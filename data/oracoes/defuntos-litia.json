@@ -1,0 +1,840 @@
+{
+ "id": "defuntos-litia",
+ "ordem": 2,
+ "titulo": {
+  "cu": "Лі́тія заупоко́йная",
+  "pt": "Litia pelos defuntos (forma para leigos)",
+  "ru": "Лития заупокойная (чин для мирян)",
+  "uk": "Заупокійна літія (чин для мирян)",
+  "en": "Litiya for the Departed (Lay Form)"
+ },
+ "fontes": [
+  {
+   "chave": "MS1900",
+   "descricao": "Молитвословъ. Изданіе десятое. Москва: Синодальная типографія, 1900. По благословенію Святѣйшаго Правительствующаго Синода.",
+   "url": "https://archive.org/details/molitvoslov00andr",
+   "notas": "Domínio público. Tropários «О умершихъ» (Со духи праведныхъ…, Въ покоищи…, Ты еси Богъ…, Едина чистая…) pp. 324–325; condácio e ícos p. 326; «Молитва по исходѣ души» («Помяни, Господи Боже нашъ…») pp. 536–537; «Молитвами святыхъ отецъ» p. 461. Página = número impresso."
+  },
+  {
+   "chave": "Z1912",
+   "descricao": "Молитвы и песнопения православного молитвослова (для мирян) съ переводомъ на русскій языкъ, объясненіями и примѣчаніями Николая Нахимова [Н. Ч. Зайончковскій, 1859–1920]. С.-Петербургъ: Синодальная типографія, 1912.",
+   "url": "https://archive.org/details/molitvyipesnopenijapravoslavnogomolitvos65",
+   "notas": "Domínio público (autor † 1920). Ofício pelos defuntos (tropário «Глубиною», tropários «по непорочнахъ», sedalen, condácio, ícos, hirmos 9) pp. 266–269, eslavo com acentos + tradução russa (coluna RU adaptada, dec. 57); orações da manhã (blocos reutilizados). Página = número impresso."
+  },
+  {
+   "chave": "H1906",
+   "descricao": "I. F. Hapgood, Service Book of the Holy Orthodox-Catholic Apostolic (Greco-Russian) Church. Boston/New York: Houghton, Mifflin & Co., 1906.",
+   "url": "https://archive.org/details/cu31924029363128",
+   "notas": "Domínio público. Panikhida (Requiem), pp. 437–453 (com a parastás) e 564–569 (forma geral): fonte da coluna EN onde cobre, adaptada (Thee/Thou, en-GB, singular, «Birth-giver of God» → «Theotokos»); correções de fidelidade em nota."
+  },
+  {
+   "chave": "T1907",
+   "descricao": "Православный толковый молитвословъ. С.-Петербургъ: Изданіе Виленскаго Свято-Духовскаго братства, 1907.",
+   "url": "https://archive.org/details/pravoslavnytolko00russ",
+   "notas": "Domínio público. Leitura do Saltério e cânticos sobre o corpo para os fiéis, pp. 19–28 (escrita civil, sem acentos; com tradução russa): conferência do eslavo."
+  },
+  {
+   "chave": "TR1884",
+   "descricao": "Требникъ. Москва: Синодальная типографія, десятымъ тисненіемъ, январь 1884 (лѣто ҂аѿпд, индиктъ ві). Репринтъ: С.-Петербургъ, 1995, по благословенію Патріарха Алексія II.",
+   "url": "https://archive.org/details/Trebnik_20221222_222250_744815",
+   "notas": "Domínio público (reimpressão fac-similada de edição sinodal de 1884; o ano lê-se no cólofon, img. 3, conferido na imagem). Lítia à morte de um leigo e tropários «Со духи праведныхъ» img. 186–187; salmo 90 img. 188; «Указъ о провожденіи усопшихъ на святую Пасху» л. 125 об. = img. 258. Citado por n.º de imagem do ficheiro DjVu."
+  },
+  {
+   "chave": "PS1993",
+   "descricao": "Псалтирь слѣдованная, ч. 1. Москва: Издательскій отдѣлъ Московскаго Патріархата / Донской монастырь, 1993 (тип. славянскій, текстъ синодальнаго изданія).",
+   "url": "https://archive.org/details/Psaltirsledovannaja_20221222_222250_744815",
+   "notas": "⚠ Reedição moderna (1993) do texto sinodal em tipo eslavo; o texto litúrgico é tradicional (domínio público) e não se encontrou ainda digitalização pré-1917 da Псалтирь слѣдованная: conferir quando surgir. «Послѣдованіе по исходѣ души отъ тѣла» pp. 216–226 (cânone pelo defunto, tom 8; tropário «Единъ естествомъ»; theotokion «Источникъ живота»; «Во блаженномъ успеніи»). Páginas conferidas nas imagens 216–226."
+  },
+  {
+   "chave": "YU1915",
+   "descricao": "П. А. Юнгеровъ, Книга Псалмовъ. Русскій переводъ съ греческаго текста LXX съ предисловіемъ и примѣчаніями. Казань, 1915 (⚠ ano/edição a confirmar).",
+   "url": "https://archive.org/details/psalms-yung-1",
+   "notas": "Domínio público (autor † 1921). Sl 90 na coluna RU, copiado de data/salterio/_staging/ru.json."
+  },
+  {
+   "chave": "BR1851",
+   "descricao": "L. C. L. Brenton, The Septuagint Version of the Old Testament, with an English translation. London: S. Bagster & Sons (ed. c. 1879; tradução de 1844/1851).",
+   "url": "https://archive.org/details/septuagintversio1879bren",
+   "notas": "Domínio público. Sl 90 na coluna EN, copiado de data/salterio/_staging/en.json; Sl 50 (bloco manha-30)."
+  }
+ ],
+ "estado": {
+  "pt": "nao_revista",
+  "ru": "nao_revista",
+  "uk": "nao_revista",
+  "en": "nao_revista"
+ },
+ "blocos": [
+  {
+   "id": "defuntos-litia-01",
+   "tipo": "titulo",
+   "cu": "Лі́тія заупоко́йная",
+   "pt": "Litia pelos defuntos (forma para leigos)",
+   "ru": "Лития заупокойная (чин для мирян)",
+   "uk": "Заупокійна літія (чин для мирян)",
+   "en": "Litiya for the Departed (Lay Form)",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Título próprio; glossário doc. 09 §3.3 n.º 64."
+  },
+  {
+   "id": "defuntos-litia-02",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "A litia pelos defuntos é uma forma breve da panikhida, que se reza à saída do corpo da casa, junto à sepultura e, em geral, em qualquer comemoração. Esta é a forma para leigos, em casa ou no cemitério: em lugar de «Bendito é o nosso Deus» diz-se «Pelas orações dos nossos santos Padres…»; as litanias e a oração do sacerdote omitem-se, e a despedida é a dos leigos.",
+   "ru": "Заупокойная лития — краткий чин панихиды, совершаемый при выносе тела из дома, у могилы и вообще при всяком поминовении. Здесь — чин для мирян, дома или на кладбище: вместо «Благословен Бог наш» говорится «Молитвами святых отец наших…»; ектении и молитва священника опускаются, а отпуст — мирянский.",
+   "uk": "Заупокійна літія — короткий чин панахиди, що звершується при винесенні тіла з дому, біля могили і взагалі при всякому поминанні. Тут — чин для мирян, удома або на кладовищі: замість «Благословен Бог наш» говориться «Молитвами святих отців наших…»; єктенії і молитва священика опускаються, а відпуст — мирянський.",
+   "en": "The Litiya for the departed is a short form of the Panikhida, said when the body is carried out of the house, at the grave, and generally at any commemoration. This is the form for laypeople, at home or at the cemetery: instead of «Blessed is our God» one says «Through the prayers of our holy Fathers…»; the litanies and the priest's prayer are omitted, and the dismissal is that used by laypeople.",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "⚠ Para confirmação pelo clero (dec. 44). Núcleo segundo TR1884 img. 186–187 (litia à morte de um leigo: Triságio…Pai nosso, tropários «Со духи праведныхъ», litania, «Боже духовъ», despedida). A ordem para leigos (início habitual com «Молитвами святыхъ отецъ», sl. 90, tropários, sedalen, condácio e ícos, «Достойно есть», despedida «Молитвами…», «Во блаженномъ успеніи», «Вѣчная память») segue o «Чин литии, совершаемой мирянином дома и на кладбище» das edições atuais (Azbuka Very, só a estrutura, sem copiar o texto), só com textos de fontes PD. Omitiu-se o fecho moderno «Душа его во благих водворится…» (sem fonte PD)."
+  },
+  {
+   "id": "defuntos-litia-03",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "Onde se lê «(nome)», diz-se o nome de batismo do defunto, na forma eclesiástica. Os textos estão no masculino singular, como no livro. Por uma defunta, muda-se o género («a Tua serva»; eslavo: «раба́ Твоего́» → «рабы́ Твоея́», «его́» → «ея́», «ему́» → «ей»); por vários defuntos, o plural («os Teus servos»; «ду́шу раба́ Твоего́» → «ду́ши рабъ Твои́хъ», «его́» → «ихъ»), como indicam os próprios livros («или́, рабы́ Твоея́»).",
+   "ru": "Где написано «(имя)», произносится имя усопшего, данное в Крещении, в церковной форме. Тексты даны в мужском роде единственного числа, как в книге. Об усопшей изменяется род («рабы Твоея»: «раба Твоего» → «рабы Твоея», «его» → «ея», «ему» → «ей»); о нескольких усопших — множественное число («души раб Твоих», «их»), как указывают сами книги («или, рабы Твоея»).",
+   "uk": "Де написано «(ім’я)», вимовляється хрестильне ім’я спочилого в церковній формі. Тексти подано в чоловічому роді однини, як у книзі. За спочилу змінюється рід («раба Твого» → «раби Твоєї», «його» → «її», «йому» → «їй»; церк.-слов. «рабы́ Твоея́», «ея́»); за кількох спочилих — множина («душі рабів Твоїх», «їх»; церк.-слов. «ду́ши рабъ Твои́хъ», «ихъ»), як вказують самі книги («или́, рабы́ Твоея́»).",
+   "en": "Where «(name)» is written, the baptismal name of the departed is said, in its church form. The texts are given in the masculine singular, as in the book. For a woman the gender is changed («Thy handmaid»; Slavonic «раба́ Твоего́» → «рабы́ Твоея́», «его́» → «ея́»); for several departed, the plural («Thy servants»; «ду́ши рабъ Твои́хъ», «ихъ»), as the books themselves indicate («или́, рабы́ Твоея́»).",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Rubrica própria. TR1884 img. 186 e PS1993 p. 216 imprimem as variantes «(или́, рабы́ Твоея́)»; PS1993 marca o nome «[и́мкъ]» (и́мярекъ); MS1900 p. 535 «(имя рекъ)». Placeholder uniformizado «(и́мя)»."
+  },
+  {
+   "id": "defuntos-litia-04",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "Na oração da Igreja comemoram-se pelo nome só os batizados na Igreja Ortodoxa. Os que puseram termo à própria vida e os não batizados não são comemorados na igreja; os familiares podem rezar por eles em privado, com a bênção do pai espiritual (ver «Orações pelos defuntos em circunstâncias particulares»).",
+   "ru": "В церковной молитве поминаются по имени только крещеные в Православной Церкви. Самоубийцы и некрещеные в храме не поминаются; родственники могут молиться о них келейно, с благословения духовника (см. «Молитвы об усопших в особых обстоятельствах»).",
+   "uk": "У церковній молитві поминаються на ім’я тільки хрещені в Православній Церкві. Самогубці і нехрещені в храмі не поминаються; рідні можуть молитися за них келійно, з благословення духівника (див. «Молитви за спочилих в особливих обставинах»).",
+   "en": "In the prayer of the Church only those baptised in the Orthodox Church are commemorated by name. Those who took their own life and the unbaptised are not commemorated in church; their relatives may pray for them privately, with the blessing of their spiritual father (see «Prayers for the Departed in Particular Circumstances»).",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Nota pastoral do doc. 03 §5.7 [34][35] (Azbuka Very, «Записка церковная»; «Об отпевании… совершивших самоубийство», que refere a determinação sinodal de 27.07.2011): só verificação da prática atual, sem cópia de texto."
+  },
+  {
+   "id": "defuntos-litia-05",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "Na Semana Luminosa (da Páscoa ao sábado seguinte) não se celebram panikhidas nem a comemoração pública dos defuntos: a Igreja só canta a Ressurreição. A comemoração retoma-se na Radonitsa (terça-feira da 2.ª semana depois da Páscoa). Ver «Comemoração dos defuntos no Tempo Pascal».",
+   "ru": "На Светлой седмице (от Пасхи до следующей субботы) панихиды и гласное поминовение усопших не совершаются: Церковь воспевает только Воскресение. Поминовение возобновляется на Радоницу (вторник 2-й седмицы по Пасхе). См. «Поминовение усопших в пасхальные дни».",
+   "uk": "На Світлій седмиці (від Пасхи до наступної суботи) панахиди і гласне поминання спочилих не звершуються: Церква оспівує тільки Воскресіння. Поминання відновлюється на Радоницю (вівторок 2-ї седмиці після Пасхи). Див. «Поминання спочилих у пасхальні дні».",
+   "en": "In Bright Week (from Pascha to the following Saturday) no Panikhidas and no public commemoration of the departed are celebrated: the Church sings only of the Resurrection. Commemoration resumes on Radonitsa (Tuesday of the second week after Pascha). See «Commemoration of the Departed in Paschaltide».",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Prática atual da IOR (dec. 2), verificada em Azbuka Very («Радоница»; «Поминовение усопших в Пасхальные дни»), que remete ao Typikon, cap. 49; cf. o princípio de TR1884 img. 258 (defuntos-pascoa)."
+  },
+  {
+   "id": "defuntos-litia-06",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "Na Grande Quaresma a Igreja comemora os defuntos sobretudo nos sábados da 2.ª, 3.ª e 4.ª semanas. Da Quinta-feira Santa ao Domingo de Tomé não se fazem litias nem panikhidas pelos defuntos (Typikon, cap. 49); as comemorações desses dias passam para a Radonitsa.",
+   "ru": "Великим постом Церковь поминает усопших особенно в субботы 2-й, 3-й и 4-й седмиц. С Великого четверга до Фомина воскресенья литии и панихиды об усопших не совершаются (Типикон, гл. 49); поминовения этих дней переносятся на Радоницу.",
+   "uk": "Великим постом Церква поминає спочилих особливо в суботи 2-ї, 3-ї і 4-ї седмиць. Від Великого четверга до Томиної неділі літії і панахиди за спочилих не звершуються (Типікон, гл. 49); поминання цих днів переносяться на Радоницю.",
+   "en": "In Great Lent the Church commemorates the departed above all on the Saturdays of the second, third and fourth weeks. From Holy Thursday until Thomas Sunday no Litiyas or Panikhidas for the departed are served (Typikon, ch. 49); the commemorations of those days are transferred to Radonitsa.",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "quaresma"
+    ]
+   },
+   "nota": "Prática atual (dec. 2), verificada em Azbuka Very («Радоница», citando o Typikon, cap. 49, «Во святый и великий четверток», «зри»); sábados de sufrágio: doc. 01 (sab_defuntos_2/3/4)."
+  },
+  {
+   "id": "defuntos-litia-07",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "No Tempo Pascal (até à véspera da Ascensão) este ofício lê-se com as mudanças pascais (aplicadas aqui automaticamente): no princípio e no fim diz-se três vezes «Cristo ressuscitou», e em lugar de «É verdadeiramente digno» canta-se «O Anjo clamou». As paróquias seguem práticas diferentes (há quem acrescente outros cânticos pascais); ver «Comemoração dos defuntos no Tempo Pascal».",
+   "ru": "В пасхальный период (до кануна Вознесения) этот чин читается с пасхальными изменениями (здесь они внесены автоматически): в начале и в конце трижды «Христос воскресе», а вместо «Достойно есть» поется «Ангел вопияше». В приходах практика различна (иногда добавляют и другие пасхальные песнопения); см. «Поминовение усопших в пасхальные дни».",
+   "uk": "У пасхальний період (до навечір’я Вознесіння) цей чин читають із пасхальними змінами (тут їх внесено автоматично): на початку і в кінці тричі «Христос воскрес», а замість «Достойно є» співається «Ангел вопіяше». У парафіях практика різна (дехто додає й інші пасхальні піснеспіви); див. «Поминання спочилих у пасхальні дні».",
+   "en": "In Paschaltide (until the eve of the Ascension) this office is read with the Paschal changes (applied here automatically): «Christ is risen» thrice at the beginning and at the end, and «The Angel cried» instead of «It is truly meet». Parishes follow different practices (some add other Paschal hymns); see «Commemoration of the Departed in Paschaltide».",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "⚠ Para confirmação pelo clero (dec. 44): aplicam-se as regras das orações privadas no Tempo Pascal (doc. 03 §1.4: «Христос воскресе» ×3 em lugar de «Царю Небесный»; «Ангел вопияше» em lugar de «Достойно есть»). Azbyka Very («Радоница») indica que não há rito pascal da panikhida no Typikon e que há duas práticas paroquiais («moscovita» e «petersburguesa»)."
+  },
+  {
+   "id": "defuntos-litia-08",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "Da Ascensão ao Pentecostes omitem-se «Glória a Ti, ó nosso Deus» e «Rei Celeste»: depois de «Pelas orações…» diz-se logo «Santo Deus».",
+   "ru": "От Вознесения до Пятидесятницы «Слава Тебе, Боже наш» и «Царю Небесный» опускаются: после «Молитвами…» сразу читается «Святый Боже».",
+   "uk": "Від Вознесіння до П’ятидесятниці «Слава Тобі, Боже наш» і «Царю Небесний» опускаються: після «Молитвами…» відразу читається «Святий Боже».",
+   "en": "From the Ascension until Pentecost «Glory to Thee, our God» and «O Heavenly King» are omitted: after «Through the prayers…» one says at once «Holy God».",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "ascensao_pentecostes"
+    ]
+   },
+   "nota": "Como nas orações da manhã (manha-05, manha-10, manha-12; doc. 03 §1.4)."
+  },
+  {
+   "id": "defuntos-litia-09",
+   "tipo": "oracao",
+   "cu": "Моли́твами святы́хъ оте́цъ на́шихъ, Го́споди Іису́се Христе́ Бо́же нашъ, поми́луй насъ. Ами́нь.",
+   "pt": "Pelas orações dos nossos santos Padres, Senhor Jesus Cristo, nosso Deus, tem piedade de nós. Ámen.",
+   "ru": "По молитвам святых отцов наших, Господи Иисусе Христе, Боже наш, помилуй нас. Аминь.",
+   "uk": "Молитвами святих отців наших, Господи Іісусе Христе, Боже наш, помилуй нас. Амінь.",
+   "en": "Through the prayers of our holy fathers, O Lord Jesus Christ our God, have mercy upon us. Amen.",
+   "fonte": {
+    "cu": "MS1900 p. 461",
+    "ru": "propria",
+    "en": "H1906 p. 238",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Início e despedida dos leigos (em lugar de «Благословенъ Богъ нашъ» e da despedida do sacerdote). [Texto idêntico a manha-p03 (manha.json).]"
+  },
+  {
+   "id": "defuntos-litia-10",
+   "tipo": "oracao",
+   "cu": "Сла́ва Тебѣ́, Бо́же нашъ, сла́ва Тебѣ́.",
+   "pt": "Glória a Ti, ó nosso Deus, glória a Ti.",
+   "ru": "Слава Тебе, Боже наш, слава Тебе.",
+   "uk": "Слава Тобі, Боже наш, слава Тобі.",
+   "en": "Glory to Thee, O our God, glory to Thee.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "ascensao_pentecostes"
+    ]
+   },
+   "nota": "[Texto idêntico a manha-10 (manha.json).]"
+  },
+  {
+   "id": "defuntos-litia-11",
+   "tipo": "oracao",
+   "cu": "Царю́ Небе́сный, Утѣ́шителю, Ду́ше и́стины, И́же вездѣ́ сый и вся исполня́яй, Сокро́вище благи́хъ и жи́зни Пода́телю, пріиди́ и всели́ся въ ны, и очи́сти ны отъ вся́кія скве́рны, и спаси́, Бла́же, ду́ши на́ша.",
+   "pt": "Rei Celeste, Consolador, Espírito da Verdade, que estás em toda a parte e tudo enches, Tesouro dos bens e Dador da vida, vem e habita em nós, purifica-nos de toda a mancha e salva, ó Bom, as nossas almas.",
+   "ru": "Царь Небесный, Утешитель, Дух истины, вездесущий и всё наполняющий, Сокровищница благ и Податель жизни, приди и вселись в нас; очисти нас от всякой нечистоты и спаси, Благий, души наши.",
+   "uk": "Царю Небесний, Утішителю, Душе істини, що всюди єси і все наповнюєш, Скарбе благ і Подателю життя, прийди і вселися в нас, і очисти нас від усякої скверни, і спаси, Благий, душі наші.",
+   "en": "O Heavenly King, the Comforter, the Spirit of Truth, who art in all places and fillest all things, Treasury of good things and Giver of life: come and abide in us, and cleanse us from every stain, and save our souls, O Good One.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "Z1912 p. 1 (adaptado)",
+    "en": "H1906 p. 67",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa",
+     "pascoa_ascensao",
+     "ascensao_pentecostes"
+    ]
+   },
+   "nota": "[Texto idêntico a manha-12 (manha.json).]"
+  },
+  {
+   "id": "defuntos-litia-12",
+   "tipo": "oracao",
+   "cu": "Христо́съ воскре́се изъ ме́ртвыхъ, сме́ртію смерть попра́въ и су́щимъ во гробѣ́хъ живо́тъ дарова́въ.",
+   "pt": "Cristo ressuscitou dos mortos, pela morte calcou a morte e aos que estavam nos sepulcros deu a vida.",
+   "ru": "Христос воскрес из мертвых, смертью смерть поправ и сущим во гробах жизнь даровав.",
+   "uk": "Христос воскрес із мертвих, смертю смерть подолав і тим, що в гробах, життя дарував.",
+   "en": "Christ is risen from the dead, trampling down death by death, and upon those in the tombs bestowing life.",
+   "fonte": {
+    "cu": "Z1912 p. 106",
+    "ru": "propria",
+    "en": "H1906 p. 226",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "[Texto idêntico a manha-14 (manha.json).]"
+  },
+  {
+   "id": "defuntos-litia-13",
+   "tipo": "oracao",
+   "cu": "Святы́й Бо́же, Святы́й Крѣ́пкій, Святы́й Безсме́ртный, поми́луй насъ.",
+   "pt": "Santo Deus, Santo Forte, Santo Imortal, tem piedade de nós.",
+   "ru": "Святый Боже, Святый Крепкий, Святый Бессмертный, помилуй нас.",
+   "uk": "Святий Боже, Святий Кріпкий, Святий Безсмертний, помилуй нас.",
+   "en": "Holy God, Holy Mighty, Holy Immortal, have mercy upon us.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "[Texto idêntico a manha-15 (manha.json).]"
+  },
+  {
+   "id": "defuntos-litia-14",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-16 (manha.json).]"
+  },
+  {
+   "id": "defuntos-litia-15",
+   "tipo": "oracao",
+   "cu": "Пресвята́я Тро́ице, поми́луй насъ; Го́споди, очи́сти грѣхи́ на́ша; Влады́ко, прости́ беззако́нія на́ша; Святы́й, посѣти́ и исцѣли́ не́мощи на́ша, и́мене Твоего́ ра́ди.",
+   "pt": "Santíssima Trindade, tem piedade de nós; Senhor, purifica os nossos pecados; Soberano, perdoa as nossas iniquidades; Santo, visita e cura as nossas enfermidades, por causa do Teu nome.",
+   "ru": "Пресвятая Троица, помилуй нас; Господи, очисти грехи наши; Владыка, прости беззакония наши; Святой, посети и исцели немощи наши ради имени Твоего.",
+   "uk": "Пресвята Трійце, помилуй нас; Господи, очисти гріхи наші; Владико, прости беззаконня наші; Святий, відвідай і зціли немочі наші імені Твого ради.",
+   "en": "O all-holy Trinity, have mercy upon us. O Lord, cleanse our sins. O Master, pardon our transgressions. O Holy One, visit and heal our infirmities, for Thy Name's sake.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-17 (manha.json).]"
+  },
+  {
+   "id": "defuntos-litia-16",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "[Texto idêntico a manha-18 (manha.json).]"
+  },
+  {
+   "id": "defuntos-litia-17",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-19 (manha.json).]"
+  },
+  {
+   "id": "defuntos-litia-18",
+   "tipo": "oracao",
+   "cu": "О́тче нашъ, И́же еси́ на небесѣ́хъ! Да святи́тся и́мя Твое́, да пріи́детъ Ца́рствіе Твое́, да бу́детъ во́ля Твоя́, я́ко на небеси́ и на земли́. Хлѣбъ нашъ насу́щный даждь намъ днесь; и оста́ви намъ до́лги на́ша, я́коже и мы оставля́емъ должнико́мъ на́шимъ; и не введи́ насъ во искуше́ніе, но изба́ви насъ отъ лука́ваго.",
+   "pt": "Pai nosso, que estás nos céus, santificado seja o Teu nome; venha o Teu Reino; seja feita a Tua vontade, como no céu, assim na terra. O pão nosso de cada dia dá-nos hoje; e perdoa-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores; e não nos conduzas à tentação, mas livra-nos do maligno.",
+   "ru": "Отче наш, сущий на небесах! Да святится имя Твое, да придет Царствие Твое, да будет воля Твоя, как на небе, так и на земле. Хлеб наш насущный дай нам сегодня; и прости нам долги наши, как и мы прощаем должникам нашим; и не введи нас в искушение, но избавь нас от лукавого.",
+   "uk": "Отче наш, що єси на небесах! Нехай святиться ім’я Твоє, нехай прийде Царство Твоє, нехай буде воля Твоя, як на небі, так і на землі. Хліб наш насущний дай нам сьогодні; і прости нам борги наші, як і ми прощаємо боржникам нашим; і не введи нас у спокусу, але визволи нас від лукавого.",
+   "en": "Our Father, who art in heaven, hallowed be Thy Name. Thy kingdom come. Thy will be done, as in heaven, so on earth. Give us this day our daily bread. And forgive us our debts, as we forgive our debtors. And lead us not into temptation, but deliver us from the evil one.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria (Z1912 parafraseava)",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-20 (manha.json).]"
+  },
+  {
+   "id": "defuntos-litia-19",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 12,
+   "nota": "[Texto idêntico a manha-25 (manha.json).]"
+  },
+  {
+   "id": "defuntos-litia-20",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-19 (manha.json).]"
+  },
+  {
+   "id": "defuntos-litia-21",
+   "tipo": "oracao",
+   "cu": "Пріиди́те, поклони́мся Царе́ви на́шему Бо́гу. Пріиди́те, поклони́мся и припаде́мъ Христу́, Царе́ви на́шему Бо́гу. Пріиди́те, поклони́мся и припаде́мъ Самому́ Христу́, Царе́ви и Бо́гу на́шему.",
+   "pt": "Vinde, adoremos o nosso Rei e Deus. Vinde, adoremos e prostremo-nos diante de Cristo, nosso Rei e Deus. Vinde, adoremos e prostremo-nos diante do próprio Cristo, Rei e nosso Deus.",
+   "ru": "Придите, поклонимся Царю, нашему Богу. Придите, поклонимся и припадем ко Христу, Царю, нашему Богу. Придите, поклонимся и припадем к Самому Христу, Царю и Богу нашему.",
+   "uk": "Прийдіть, поклонімося Цареві нашому Богові. Прийдіть, поклонімося і припадімо до Христа, Царя нашого Бога. Прийдіть, поклонімося і припадімо до Самого Христа, Царя і Бога нашого.",
+   "en": "O come, let us worship God our King. O come, let us worship and fall down before Christ, our King and God. O come, let us worship and fall down before Christ Himself, our King and God.",
+   "fonte": {
+    "cu": "Z1912 p. 3",
+    "ru": "Z1912 p. 3 (adaptado)",
+    "en": "H1906 p. 15",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-28 (manha.json).]"
+  },
+  {
+   "id": "defuntos-litia-22",
+   "tipo": "titulo",
+   "cu": "Псало́мъ 90",
+   "pt": "Salmo 90 (91)",
+   "ru": "Псалом 90",
+   "uk": "Псалом 90",
+   "en": "Psalm 90 (91)",
+   "fonte": {
+    "cu": "TR1884 img. 188; T1907 p. 27",
+    "ru": "YU1915",
+    "en": "BR1851",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Numeração LXX/eslava, hebraica entre parênteses (dec. 18)."
+  },
+  {
+   "id": "defuntos-litia-23",
+   "tipo": "oracao",
+   "cu": "Живы́й въ по́мощи Вы́шняго, въ кро́вѣ Бо́га Небе́снаго водвори́тся. Рече́тъ Го́сподеви: Засту́пникъ мой еси́ и Прибѣ́жище мое́, Богъ мой, и упова́ю на Него́. Я́ко Той изба́витъ тя отъ сѣ́ти ло́вчи и отъ словесе́ мяте́жна: плещма́ Свои́ма осѣни́тъ тя, и подъ крилѣ́ Его́ надѣ́ешися: ору́жіемъ обы́детъ тя и́стина Его́. Не убои́шися отъ стра́ха нощна́го, отъ стрѣлы́ летя́щія во дни, отъ ве́щи во тмѣ преходя́щія, отъ сря́ща и бѣ́са полу́деннаго. Паде́тъ отъ страны́ твоея́ ты́сяща, и тма одесну́ю тебе́, къ тебѣ́ же не прибли́жится: оба́че очи́ма твои́ма смотри́ши, и воздая́ніе грѣ́шниковъ у́зриши. Я́ко Ты, Го́споди, упова́ніе мое́: Вы́шняго положи́лъ еси́ прибѣ́жище твое́. Не пріи́детъ къ тебѣ́ зло, и ра́на не прибли́жится тѣ́леси твоему́: я́ко А́нгеломъ Свои́мъ заповѣ́сть о тебѣ́, сохрани́ти тя во всѣ́хъ путе́хъ твои́хъ. На рука́хъ во́змутъ тя, да не когда́ преткне́ши о ка́мень но́гу твою́: на а́спида и васили́ска насту́пиши, и попере́ши льва и зми́я. Я́ко на Мя упова́, и изба́влю и: покры́ю и, я́ко позна́ и́мя Мое́. Воззове́тъ ко Мнѣ, и услы́шу его́: съ нимъ есмь въ ско́рби, изму́ его́ и просла́влю его́: долгото́ю дні́й испо́лню его́, и явлю́ ему́ спасе́ніе Мое́.",
+   "pt": "Aquele que vive no auxílio do Altíssimo habitará sob o abrigo do Deus do céu, dirá ao Senhor: Tu és o meu protetor e o meu refúgio, o meu Deus, e espero n'Ele. Porque Ele te livrará do laço do caçador e da palavra perturbadora: com os Seus ombros te cobrirá, e debaixo das Suas asas confiarás; a Sua verdade te cercará como um escudo. Não temerás o terror da noite, a seta que voa de dia, a coisa que anda nas trevas, o assalto e o demónio do meio-dia. Cairão ao teu lado mil, e dez mil à tua direita, mas a ti não se aproximará: contudo, com os teus olhos contemplarás e verás a recompensa dos pecadores. Porque Tu, Senhor, és a minha esperança; puseste o Altíssimo como teu refúgio. Não virá a ti o mal, e a chaga não se aproximará do teu corpo: porque aos Seus anjos dará ordens a teu respeito, para te guardarem em todos os teus caminhos. Levar-te-ão nas mãos, para que não tropeces com o teu pé nalguma pedra: pisarás a áspide e o basilisco, e calcarás o leão e o dragão. Porque esperou em Mim, livrá-lo-ei; protegê-lo-ei, porque conheceu o Meu nome. Invocar-Me-á, e ouvi-lo-ei; com ele estou na aflição, arrancá-lo-ei e glorificá-lo-ei: com longura de dias o saciarei, e mostrar-lhe-ei a Minha salvação.",
+   "ru": "Живущий помощью Вышнего под кровом Бога небесного водворится, Скажет Господу: «Ты — заступник мой и прибежище мое, Бог мой и уповаю на Него». Ибо Он избавит тебя от сети ловцов и от мятежного слова, Плечами Своими защитит тебя, и под крыльями Его будешь безопасен, щитом оградит тебя истина Его. Не убоишься от ужаса ночи, стрелы, летящей днем, Бедствия, постигающего ночью, болезни и полуденного беса. Падет подле тебя тысяча, и десять тысяч направо от тебя, к тебе же не приблизится. Только очами своими смотреть будешь и воздаяние грешникам увидишь. Ибо (ты сказал:) «Ты, Господи, упование мое», Вышнего избрал ты прибежищем своим. Не приступит к тебе зло, и язва не приблизится к жилищу твоему. Ибо ангелам Своим Он заповедает о тебе — хранить тебя на всех путях твоих. На руки возьмут тебя, чтобы не преткнулся ты ногою своею о камень. На аспида и василиска наступишь и попирать будешь льва и змея «Так как он на Меня уповал, то Я избавлю его, покрою его, ибо он познал имя Мое. Воззовет ко Мне, и услышу его, с ним Я в скорби, избавлю его и прославлю его, Долготою дней насыщу его и явлю ему спасение Мое».",
+   "uk": "Хто живе з допомогою Всевишнього, під покровом Бога небесного оселиться, скаже Господеві: Ти заступник мій і прибіжище моє, Бог мій, і уповаю на Нього. Бо Він визволить тебе від сітки ловця і від слова бентежного: плечима Своїми осінить тебе, і під крилами Його матимеш надію: зброєю оточить тебе істина Його. Не убоїшся страху нічного, стріли, що летить удень, речі, що ходить у темряві, напасті і біса полуденного. Впаде біля тебе тисяча, і десять тисяч праворуч від тебе, а до тебе не наблизиться: тільки очима твоїми дивитимешся і відплату грішникам побачиш. Бо Ти, Господи, — уповання моє: Всевишнього зробив ти прибіжищем твоїм. Не прийде до тебе зло, і рана не наблизиться до тіла твого, бо Ангелам Своїм заповість про тебе — зберігати тебе на всіх путях твоїх. На руках понесуть тебе, щоб не спіткнувся ти ногою твоєю об камінь: на аспида і василиска наступиш, і зопчеш лева і змія. Бо на Мене він уповав, і Я визволю його; покрию його, бо він пізнав ім’я Моє. Покличе Мене, і Я вислухаю його; з ним Я в скорботі, вирву його і прославлю його; довготою днів наситю його і явлю йому спасіння Моє.",
+   "en": "He that dwelleth in the help of the Highest, shall sojourn under the shelter of the God of heaven. He shall say to the Lord, Thou art my helper and my refuge: my God; I will hope in Him. For He shall deliver thee from the snare of the hunters, from every troublesome matter. He shall overshadow thee with His shoulders, and thou shalt trust under His wings: His truth shall cover thee with a shield. Thou shalt not be afraid of terror by night; nor of the arrow flying by day; nor of the evil thing that walketh in darkness; nor of calamity, and the evil spirit at noon-day. A thousand shall fall at thy side, and ten thousand at thy right hand; but it shall not come nigh thee. Only with thine eyes shalt thou observe and see the reward of sinners. For Thou, O Lord, art my hope: thou, my soul, hast made the Most High thy refuge. No evils shall come upon thee, and no scourge shall draw nigh to thy body. For He shall give His angels charge concerning thee, to keep thee in all thy ways. They shall bear thee up on their hands, lest at any time thou dash thy foot against a stone. Thou shalt tread on the asp and basilisk: and thou shalt trample on the lion and dragon. For he hath hoped in me, and I will deliver him: I will protect him, because he hath known my name. He shall call upon me, and I will hearken to him: I am with him in affliction; and I will deliver him, and glorify him. I will satisfy him with length of days, and shew him my salvation.",
+   "fonte": {
+    "cu": "TR1884 img. 188 (eslavo); T1907 pp. 27–28 (escrita civil)",
+    "ru": "YU1915",
+    "en": "BR1851",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Eslavo: TR1884 img. 188 (enterro dos leigos), conferido com T1907 pp. 27–28; acentos segundo a prática corrente. Traduções copiadas textualmente do Saltério do projeto (data/salterio/_staging: pt-b, uk-b, ru = Yungerov, en = Brenton; Sl 90,1–16), para coincidirem com a catisma 12 (2c). ⚠ Quando o Saltério (2c) estiver fechado, alinhar também o eslavo."
+  },
+  {
+   "id": "defuntos-litia-24",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь. Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen. Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь. Аллилуиа, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь. Алилуя, алилуя, алилуя, слава Тобі, Боже.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen. Alleluia, alleluia, alleluia, glory to Thee, O God.",
+   "fonte": {
+    "cu": "PS1993 (fórmula das «Glórias» do Saltério)",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«Аллилуіа» três vezes (T1907 p. 22: «Аллилуіа (трижды)»); fórmula completa como no fim de cada «Glória» da Псалтирь следованная. O «Glória… agora…» diz-se uma vez; o «Aleluia… glória a Ti, ó Deus» três vezes."
+  },
+  {
+   "id": "defuntos-litia-25",
+   "tipo": "oracao",
+   "cu": "Тропари́, гласъ 4: Со ду́хи пра́ведныхъ сконча́вшихся ду́шу раба́ Твоего́, Спа́се, упоко́й, сохраня́я ю во блаже́ннѣй жи́зни, я́же у Тебе́, Человѣколю́бче.",
+   "pt": "Tropários, tom 4: Com os espíritos dos justos que alcançaram a perfeição, dá repouso, ó Salvador, à alma do Teu servo, guardando-a na vida bem-aventurada que está junto de Ti, ó Amigo dos homens.",
+   "ru": "Тропари, глас 4: С духами праведных, достигших совершенства, упокой, Спаситель, душу раба Твоего, сохраняя ее в блаженной жизни, которая у Тебя, Человеколюбец.",
+   "uk": "Тропарі, глас 4: З духами праведних, що звершили свій шлях, душу раба Твого, Спасе, упокой, зберігаючи її в блаженному житті, що в Тебе, Чоловіколюбче.",
+   "en": "Troparia, Tone 4: With the spirits of the righteous made perfect give rest, O Saviour, to the soul of Thy servant, preserving it unto the life of blessedness which is with Thee, O Lover of mankind.",
+   "fonte": {
+    "cu": "MS1900 pp. 324–325; TR1884 img. 186; PS1993 p. 216",
+    "ru": "propria",
+    "en": "H1906 p. 568 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«сконча́вшихся» = τετελειωμένων «aperfeiçoados, que chegaram ao fim» (Hb 12,23). TR1884 e PS1993 trazem a variante «(или, рабы Твоея)»; MS1900 «блаженнѣй», TR1884 «блаженной»."
+  },
+  {
+   "id": "defuntos-litia-26",
+   "tipo": "oracao",
+   "cu": "Въ поко́ищи Твое́мъ, Го́споди, идѣ́же вси святі́и Твои́ упокоева́ются, упоко́й и ду́шу раба́ Твоего́, я́ко еди́нъ еси́ Человѣколю́бецъ.",
+   "pt": "No Teu lugar de repouso, Senhor, onde repousam todos os Teus santos, dá repouso também à alma do Teu servo, porque só Tu és o Amigo dos homens.",
+   "ru": "В месте покоя Твоего, Господи, где упокоеваются все святые Твои, упокой и душу раба Твоего, ибо Ты один Человеколюбец.",
+   "uk": "В місці спочинку Твого, Господи, де всі святі Твої спочивають, упокой і душу раба Твого, бо Ти єдиний Чоловіколюбець.",
+   "en": "In the place of Thy rest, O Lord, where all Thy Saints repose, give rest also to the soul of Thy servant, for Thou alone art the Lover of mankind.",
+   "fonte": {
+    "cu": "MS1900 p. 325; TR1884 img. 186; PS1993 p. 216",
+    "ru": "propria",
+    "en": "H1906 p. 568 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-litia-27",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху. Ты еси́ Богъ, соше́дый во адъ и у́зы окова́нныхъ разрѣши́вый, Самъ и ду́шу раба́ Твоего́ упоко́й.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo. Tu és o Deus que desceu ao Hades e soltou as cadeias dos que estavam presos: Tu mesmo dá repouso também à alma do Teu servo.",
+   "ru": "Слава Отцу и Сыну и Святому Духу. Ты — Бог, сошедший во ад и разрешивший узы скованных: Сам упокой и душу раба Твоего.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові. Ти єси Бог, що зійшов у ад і розрішив кайдани закутих, Сам і душу раба Твого упокой.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit. Thou art the God who didst descend into Hades and loose the bonds of the captives: do Thou Thyself give rest also to the soul of Thy servant.",
+   "fonte": {
+    "cu": "MS1900 p. 325; TR1884 img. 186; PS1993 p. 216",
+    "ru": "propria",
+    "en": "H1906 p. 568 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "MS1900, TR1884 e PS1993: «Слава:» abreviado; dá-se por extenso. «адъ» (ᾅδης) = «Hades» (dec. 71)."
+  },
+  {
+   "id": "defuntos-litia-28",
+   "tipo": "oracao",
+   "cu": "И ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь. Еди́на Чи́стая и Непоро́чная Дѣ́во, Бо́га безъ сѣ́мене ро́ждшая, моли́ спасти́ся души́ его́.",
+   "pt": "Agora e sempre e pelos séculos dos séculos. Ámen. Única Virgem pura e imaculada, que sem semente deste à luz Deus, intercede pela salvação da sua alma.",
+   "ru": "И ныне, и всегда, и во веки веков. Аминь. Единая Чистая и Непорочная Дева, без семени родившая Бога, моли о спасении души его.",
+   "uk": "І нині, і повсякчас, і на віки віків. Амінь. Єдина Чиста і Непорочна Діво, що без сімені Бога породила, моли про спасіння душі його.",
+   "en": "Now and ever, and unto ages of ages. Amen. O only pure and immaculate Virgin, who without seed didst bring forth God, pray thou that his soul be saved.",
+   "fonte": {
+    "cu": "MS1900 p. 325; TR1884 img. 186; PS1993 p. 216",
+    "ru": "propria",
+    "en": "H1906 p. 568 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Por uma defunta: «души́ ея́»; por vários: «душа́мъ ихъ» (TR1884: «(или, ея)»)."
+  },
+  {
+   "id": "defuntos-litia-29",
+   "tipo": "oracao",
+   "cu": "Седа́ленъ, гласъ 5: Поко́й, Спа́се нашъ, съ пра́ведными раба́ Твоего́, и сего́ всели́ во дворы́ Твоя́, я́коже есть пи́сано, презира́я, я́ко Благъ, прегрѣше́нія его́ во́льная и нево́льная, и вся я́же въ вѣ́дѣніи и не въ вѣ́дѣніи, Человѣколю́бче.",
+   "pt": "Sedalen, tom 5: Dá repouso, ó nosso Salvador, ao Teu servo com os justos e fá-lo habitar nos Teus átrios, como está escrito, não olhando, porque és bom, aos seus pecados voluntários e involuntários, e a todos os que cometeu com conhecimento e sem conhecimento, ó Amigo dos homens.",
+   "ru": "Седален, глас 5: Упокой, Спаситель наш, с праведными раба Твоего и посели его во дворах Твоих, как написано, не взирая, как Благой, на согрешения его, вольные и невольные, и на все, совершенные сознательно и неведением, Человеколюбец.",
+   "uk": "Сідальний, глас 5: Упокой, Спасе наш, з праведними раба Твого і всели його у двори Твої, як написано, не зважаючи, як Благий, на прогрішення його вільні і невільні, і на всі, що свідомо і несвідомо, Чоловіколюбче.",
+   "en": "Sessional Hymn, Tone 5: Give rest, O our Saviour, with the righteous unto Thy servant, and make him to dwell in Thy courts, as it is written, overlooking, in that Thou art good, his transgressions voluntary and involuntary, and all that he hath done in knowledge and in ignorance, O Lover of mankind.",
+   "fonte": {
+    "cu": "MS1900 p. 325; Z1912 p. 268; T1907 p. 24",
+    "ru": "Z1912 p. 268 (adaptado)",
+    "en": "H1906 p. 567 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "RU: Z1912 «посели его в жилище Твоем, как сказано в Писании» → «во дворах Твоих, как написано». EN: Hapgood (plural) adaptado ao singular."
+  },
+  {
+   "id": "defuntos-litia-30",
+   "tipo": "oracao",
+   "cu": "Конда́къ, гласъ 8: Со святы́ми упоко́й, Христе́, ду́шу раба́ Твоего́, идѣ́же нѣсть болѣ́знь, ни печа́ль, ни воздыха́ніе, но жизнь безконе́чная.",
+   "pt": "Condácio, tom 8: Com os santos dá repouso, ó Cristo, à alma do Teu servo, onde não há dor, nem tristeza, nem suspiro, mas vida sem fim.",
+   "ru": "Кондак, глас 8: Со святыми упокой, Христе, душу раба Твоего, где нет ни болезни, ни печали, ни воздыхания, но жизнь бесконечная.",
+   "uk": "Кондак, глас 8: Зі святими упокой, Христе, душу раба Твого, де нема ні болізні, ні печалі, ні зітхання, але життя безконечне.",
+   "en": "Kontakion, Tone 8: With the Saints give rest, O Christ, to the soul of Thy servant, where there is neither sickness, nor sorrow, nor sighing, but life everlasting.",
+   "fonte": {
+    "cu": "MS1900 p. 326; PS1993 p. 221; Z1912 p. 269",
+    "ru": "Z1912 p. 269 (adaptado)",
+    "en": "H1906 p. 567 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "RU: Z1912 «ни стона» → «ни воздыхания»."
+  },
+  {
+   "id": "defuntos-litia-31",
+   "tipo": "oracao",
+   "cu": "И́косъ: Самъ еди́нъ еси́ Безсме́ртный, сотвори́вый и созда́вый человѣ́ка: земні́и у́бо отъ земли́ созда́хомся, и въ зе́млю ту́южде по́йдемъ, я́коже повелѣ́лъ еси́, созда́вый мя и рекі́й ми: я́ко земля́ еси́ и въ зе́млю оты́деши, а́може вси человѣ́цы по́йдемъ, надгро́бное рыда́ніе творя́ще пѣснь: аллилу́іа, аллилу́іа, аллилу́іа.",
+   "pt": "Ikos: Só Tu és imortal, que fizeste e formaste o homem; nós, os terrenos, fomos formados da terra e à mesma terra iremos, como ordenaste quando me formaste e me disseste: «Tu és terra e à terra voltarás»; para lá iremos todos os homens, fazendo do pranto fúnebre um cântico: aleluia, aleluia, aleluia.",
+   "ru": "Икос: Ты один бессмертен, сотворивший и создавший человека; мы же, земные, из земли созданы и в ту же землю пойдем, как Ты повелел, создавший меня и сказавший мне: «Ты — земля и в землю отойдешь», куда все мы, люди, пойдем, творя надгробное рыдание песнью: аллилуиа, аллилуиа, аллилуиа.",
+   "uk": "Ікос: Ти єдиний єси безсмертний, що сотворив і создав людину; ми ж, земні, з землі створені і в ту саму землю підемо, як Ти повелів, створивши мене і сказавши мені: «Ти земля і в землю відійдеш»; туди всі люди підемо, творячи надгробне ридання піснею: алилуя, алилуя, алилуя.",
+   "en": "Ikos: Thou alone art immortal, who didst create and fashion man; but we mortals were fashioned from the earth, and unto the same earth shall we return, as Thou didst command when Thou didst fashion me and say unto me: Earth thou art, and unto earth shalt thou return; whither all we mortals go, making of our funeral lament the song: Alleluia, alleluia, alleluia.",
+   "fonte": {
+    "cu": "MS1900 p. 326; PS1993 p. 221; Z1912 p. 269",
+    "ru": "Z1912 p. 269 (adaptado)",
+    "en": "H1906 p. 567 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«Аллилуіа» três vezes: PS1993 p. 221 «[Трижды]»; MS1900 e Z1912 trazem-no uma vez. RU: Z1912 adaptado («пойдем с песнью: «аллилуиа», как надгробным плачем» → ordem do eslavo)."
+  },
+  {
+   "id": "defuntos-litia-32",
+   "tipo": "oracao",
+   "cu": "Досто́йно есть я́ко вои́стинну блажи́ти Тя Богоро́дицу, Присноблаже́нную и Пренепоро́чную и Ма́терь Бо́га на́шего. Честнѣ́йшую Херуви́мъ и сла́внѣйшую безъ сравне́нія Серафи́мъ, безъ истлѣ́нія Бо́га Сло́ва ро́ждшую, су́щую Богоро́дицу Тя велича́емъ.",
+   "pt": "É verdadeiramente digno bendizer-Te, ó Mãe de Deus, sempre bem-aventurada e toda imaculada, Mãe do nosso Deus. Mais venerável que os Querubins e incomparavelmente mais gloriosa que os Serafins, que sem corrupção deste à luz Deus Verbo, verdadeira Mãe de Deus, nós Te engrandecemos.",
+   "ru": "Достойно поистине ублажать Тебя, Богородицу, присноблаженную и пренепорочную и Матерь Бога нашего. Честнейшую Херувимов и несравненно славнейшую Серафимов, нетленно родившую Бога Слово, истинную Богородицу — Тебя величаем.",
+   "uk": "Достойно є воістину блажити Тебе, Богородицю, Присноблаженну і Пренепорочну, і Матір Бога нашого. Чеснішу від Херувимів і незрівнянно славнішу від Серафимів, що без зотління Бога Слово породила, сущу Богородицю, Тебе величаємо.",
+   "en": "It is truly meet to bless thee, O Theotokos, ever-blessed and all-immaculate, and the Mother of our God. More honourable than the Cherubim, and beyond compare more glorious than the Seraphim, thou who without corruption gavest birth to God the Word, true Theotokos, we magnify thee.",
+   "fonte": {
+    "cu": "Z1912 pp. 12–13",
+    "ru": "propria (Z1912 parafraseava)",
+    "en": "H1906 p. 107",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "[Texto idêntico a manha-81 (manha.json).]"
+  },
+  {
+   "id": "defuntos-litia-33",
+   "tipo": "rubrica",
+   "cu": "Отъ Па́схи до Вознесе́нія Госпо́дня, вмѣ́сто «Досто́йно есть», поётся:",
+   "pt": "Da Páscoa até à Ascensão do Senhor, em lugar de «É verdadeiramente digno», canta-se:",
+   "ru": "От Пасхи до Вознесения Господня вместо «Достойно есть» поется:",
+   "uk": "Від Пасхи до Вознесіння Господнього замість «Достойно є» співається:",
+   "en": "From Pascha until the Ascension of the Lord, instead of «It is truly meet», the following is sung:",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "[Texto idêntico a manha-82 (manha.json).]"
+  },
+  {
+   "id": "defuntos-litia-34",
+   "tipo": "oracao",
+   "cu": "А́нгелъ вопія́ше Благода́тнѣй: Чи́стая Дѣ́во, ра́дуйся! И па́ки реку́: ра́дуйся! Твой Сынъ воскре́се тридне́венъ отъ гро́ба, и ме́ртвыя воздви́гнувый; лю́діе, весели́теся!",
+   "pt": "O Anjo clamou à Cheia de Graça: Virgem pura, alegra-Te! E de novo digo: alegra-Te! O Teu Filho ressuscitou ao terceiro dia do sepulcro e levantou os mortos. Povos, regozijai-vos!",
+   "ru": "Ангел возгласил Благодатной: «Чистая Дева, радуйся!» И я повторю: радуйся! Твой Сын воскрес на третий день из гроба, воскресивший мертвых. Люди, торжествуйте!",
+   "uk": "Ангел взивав Благодатній: Чиста Діво, радуйся! І знову кажу: радуйся! Твій Син воскрес на третій день із гробу і мертвих підняв. Люди, веселіться!",
+   "en": "The Angel cried unto her who is full of grace: Rejoice, O pure Virgin! And again I say: Rejoice! Thy Son is risen from the tomb on the third day, and hath raised up the dead. Rejoice, O ye people!",
+   "fonte": {
+    "cu": "Z1912 p. 112",
+    "ru": "Z1912 p. 112",
+    "en": "H1906 p. 232",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "[Texto idêntico a manha-83 (manha.json).]"
+  },
+  {
+   "id": "defuntos-litia-35",
+   "tipo": "oracao",
+   "cu": "Свѣти́ся, свѣти́ся, но́вый Іерусали́ме, сла́ва бо Госпо́дня на тебѣ́ возсія́; лику́й ны́нѣ и весели́ся, Сіо́не! Ты же, Чи́стая, красу́йся, Богоро́дице, о воста́ніи Рождества́ Твоего́.",
+   "pt": "Resplandece, resplandece, ó nova Jerusalém, porque a glória do Senhor brilhou sobre ti; exulta agora e alegra-te, ó Sião! E Tu, ó Pura, rejubila, Mãe de Deus, com a ressurreição d'Aquele que deste à luz.",
+   "ru": "Сияй, сияй, новый Иерусалим, ибо слава Господня озарила тебя! Торжествуй теперь и веселись, Сион! А Ты, Чистая Богородица, радуйся воскресению Рожденного Тобою.",
+   "uk": "Світися, світися, новий Єрусалиме, бо слава Господня над тобою засяяла; радій нині і веселися, Сіоне! А Ти, Чиста Богородице, красуйся воскресінням Народженого Тобою.",
+   "en": "Shine, shine, O new Jerusalem, for the glory of the Lord hath arisen upon thee! Dance now and be glad, O Zion! And do thou, O pure Theotokos, rejoice in the rising of Him whom thou didst bear.",
+   "fonte": {
+    "cu": "Z1912 p. 113",
+    "ru": "Z1912 p. 113",
+    "en": "H1906 p. 232",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "[Texto idêntico a manha-84 (manha.json).]"
+  },
+  {
+   "id": "defuntos-litia-36",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-85 (manha.json).]"
+  },
+  {
+   "id": "defuntos-litia-37",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "[Texto idêntico a manha-86 (manha.json).]"
+  },
+  {
+   "id": "defuntos-litia-38",
+   "tipo": "oracao",
+   "cu": "Моли́твами святы́хъ оте́цъ на́шихъ, Го́споди Іису́се Христе́ Бо́же нашъ, поми́луй насъ. Ами́нь.",
+   "pt": "Pelas orações dos nossos santos Padres, Senhor Jesus Cristo, nosso Deus, tem piedade de nós. Ámen.",
+   "ru": "По молитвам святых отцов наших, Господи Иисусе Христе, Боже наш, помилуй нас. Аминь.",
+   "uk": "Молитвами святих отців наших, Господи Іісусе Христе, Боже наш, помилуй нас. Амінь.",
+   "en": "Through the prayers of our holy fathers, O Lord Jesus Christ our God, have mercy upon us. Amen.",
+   "fonte": {
+    "cu": "MS1900 p. 461",
+    "ru": "propria",
+    "en": "H1906 p. 238",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Início e despedida dos leigos (em lugar de «Благословенъ Богъ нашъ» e da despedida do sacerdote). [Texto idêntico a manha-p03 (manha.json).]"
+  },
+  {
+   "id": "defuntos-litia-39",
+   "tipo": "oracao",
+   "cu": "Во блаже́нномъ успе́ніи вѣ́чный поко́й пода́ждь, Го́споди, усо́пшему рабу́ Твоему́ (и́мя), и сотвори́ ему́ вѣ́чную па́мять.",
+   "pt": "No bem-aventurado adormecimento dá, Senhor, repouso eterno ao Teu servo falecido (nome), e faz-lhe memória eterna.",
+   "ru": "В блаженном успении вечный покой подай, Господи, усопшему рабу Твоему (имя) и сотвори ему вечную память.",
+   "uk": "У блаженному успінні вічний спочинок подай, Господи, спочилому рабові Твоєму (ім’я) і сотвори йому вічну пам’ять.",
+   "en": "In blessed falling-asleep grant, O Lord, eternal rest unto Thy servant who hath fallen asleep, (name), and make his memory to be eternal.",
+   "fonte": {
+    "cu": "PS1993 p. 226",
+    "ru": "propria",
+    "en": "H1906 p. 569 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "No livro (PS1993 p. 226) di-lo o sacerdote; na forma para leigos di-lo quem lê. PS1993: «[и́мкъ]» (имярекъ) → «(и́мя)». EN: Hapgood (plural) adaptado ao singular."
+  },
+  {
+   "id": "defuntos-litia-40",
+   "tipo": "oracao",
+   "cu": "Вѣ́чная па́мять.",
+   "pt": "Memória eterna.",
+   "ru": "Вечная память.",
+   "uk": "Вічна пам’ять.",
+   "en": "Memory eternal.",
+   "fonte": {
+    "cu": "PS1993 p. 226",
+    "ru": "propria",
+    "en": "H1906 p. 569",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3
+  },
+  {
+   "id": "defuntos-litia-41",
+   "tipo": "oracao",
+   "cu": "Христо́съ воскре́се изъ ме́ртвыхъ, сме́ртію смерть попра́въ и су́щимъ во гробѣ́хъ живо́тъ дарова́въ.",
+   "pt": "Cristo ressuscitou dos mortos, pela morte calcou a morte e aos que estavam nos sepulcros deu a vida.",
+   "ru": "Христос воскрес из мертвых, смертью смерть поправ и сущим во гробах жизнь даровав.",
+   "uk": "Христос воскрес із мертвих, смертю смерть подолав і тим, що в гробах, життя дарував.",
+   "en": "Christ is risen from the dead, trampling down death by death, and upon those in the tombs bestowing life.",
+   "fonte": {
+    "cu": "Z1912 p. 106",
+    "ru": "propria",
+    "en": "H1906 p. 226",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "[Texto idêntico a manha-14 (manha.json).]"
+  }
+ ]
+}

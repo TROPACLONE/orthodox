@@ -1,0 +1,411 @@
+{
+ "id": "defuntos-circunstancias",
+ "ordem": 4,
+ "titulo": {
+  "cu": "Моли́твы объ усо́пшихъ въ осо́быхъ обстоя́тельствахъ",
+  "pt": "Orações pelos defuntos em circunstâncias particulares",
+  "ru": "Молитвы об усопших в особых обстоятельствах",
+  "uk": "Молитви за спочилих в особливих обставинах",
+  "en": "Prayers for the Departed in Particular Circumstances"
+ },
+ "fontes": [
+  {
+   "chave": "MS1900",
+   "descricao": "Молитвословъ. Изданіе десятое. Москва: Синодальная типографія, 1900. По благословенію Святѣйшаго Правительствующаго Синода.",
+   "url": "https://archive.org/details/molitvoslov00andr",
+   "notas": "Domínio público. Tropários «О умершихъ» (Со духи праведныхъ…, Въ покоищи…, Ты еси Богъ…, Едина чистая…) pp. 324–325; condácio e ícos p. 326; «Молитва по исходѣ души» («Помяни, Господи Боже нашъ…») pp. 536–537; «Молитвами святыхъ отецъ» p. 461. Página = número impresso."
+  },
+  {
+   "chave": "Z1912",
+   "descricao": "Молитвы и песнопения православного молитвослова (для мирян) съ переводомъ на русскій языкъ, объясненіями и примѣчаніями Николая Нахимова [Н. Ч. Зайончковскій, 1859–1920]. С.-Петербургъ: Синодальная типографія, 1912.",
+   "url": "https://archive.org/details/molitvyipesnopenijapravoslavnogomolitvos65",
+   "notas": "Domínio público (autor † 1920). Ofício pelos defuntos (tropário «Глубиною», tropários «по непорочнахъ», sedalen, condácio, ícos, hirmos 9) pp. 266–269, eslavo com acentos + tradução russa (coluna RU adaptada, dec. 57); orações da manhã (blocos reutilizados). Página = número impresso."
+  },
+  {
+   "chave": "T1907",
+   "descricao": "Православный толковый молитвословъ. С.-Петербургъ: Изданіе Виленскаго Свято-Духовскаго братства, 1907.",
+   "url": "https://archive.org/details/pravoslavnytolko00russ",
+   "notas": "Domínio público. Leitura do Saltério e cânticos sobre o corpo para os fiéis, pp. 19–28 (escrita civil, sem acentos; com tradução russa): conferência do eslavo."
+  },
+  {
+   "chave": "PS1993",
+   "descricao": "Псалтирь слѣдованная, ч. 1. Москва: Издательскій отдѣлъ Московскаго Патріархата / Донской монастырь, 1993 (тип. славянскій, текстъ синодальнаго изданія).",
+   "url": "https://archive.org/details/Psaltirsledovannaja_20221222_222250_744815",
+   "notas": "⚠ Reedição moderna (1993) do texto sinodal em tipo eslavo; o texto litúrgico é tradicional (domínio público) e não se encontrou ainda digitalização pré-1917 da Псалтирь слѣдованная: conferir quando surgir. «Послѣдованіе по исходѣ души отъ тѣла» pp. 216–226 (cânone pelo defunto, tom 8; tropário «Единъ естествомъ»; theotokion «Источникъ живота»; «Во блаженномъ успеніи»). Páginas conferidas nas imagens 216–226."
+  }
+ ],
+ "estado": {
+  "pt": "nao_revista",
+  "ru": "nao_revista",
+  "uk": "nao_revista",
+  "en": "nao_revista"
+ },
+ "blocos": [
+  {
+   "id": "defuntos-circunstancias-01",
+   "tipo": "titulo",
+   "cu": "Моли́твы объ усо́пшихъ въ осо́быхъ обстоя́тельствахъ",
+   "pt": "Orações pelos defuntos em circunstâncias particulares",
+   "ru": "Молитвы об усопших в особых обстоятельствах",
+   "uk": "Молитви за спочилих в особливих обставинах",
+   "en": "Prayers for the Departed in Particular Circumstances",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Título próprio (agrupamento do projeto, cf. doc. 03 §5.9)."
+  },
+  {
+   "id": "defuntos-circunstancias-02",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "Aqui reúnem-se as orações pelos defuntos em circunstâncias particulares. Dá-se o texto das orações que se encontram em edições de domínio público; das orações próprias das edições atuais do Molitvoslov indica-se só o início, com a referência, porque não se encontrou ainda o texto numa edição de domínio público. Em todos os casos pode rezar-se a Litia, a Panikhida ou o Cânone pelo defunto.",
+   "ru": "Здесь собраны молитвы об усопших в особых обстоятельствах. Приводится текст молитв, найденных в изданиях, находящихся в общественном достоянии; у молитв, известных по современным изданиям Молитвослова, указывается только начало со ссылкой, так как их текст в общественном достоянии пока не найден. Во всех случаях можно молиться литией, панихидой или каноном за усопшего.",
+   "uk": "Тут зібрано молитви за спочилих в особливих обставинах. Подається текст молитов, знайдених у виданнях, що є суспільним надбанням; для молитов, відомих із сучасних видань Молитвослова, вказано тільки початок із посиланням, бо їхній текст у суспільному надбанні ще не знайдено. У всіх випадках можна молитися літією, панахидою або каноном за спочилого.",
+   "en": "Here are gathered prayers for the departed in particular circumstances. The text is given for prayers found in public-domain editions; for prayers known from current editions of the Prayer Book only the opening words are given, with a reference, since their text has not yet been found in a public-domain edition. In every case one may pray the Litiya, the Panikhida or the Canon for one departed.",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Regra do projeto: edições modernas e sítios (azbyka.ru) só para verificar a prática, sem copiar (direito sui generis das bases de dados, Diretiva 96/9/CE). Íncipits verificados em Azbuka Very, secção «Молитвы об усопших» [doc. 03 ref. 33]."
+  },
+  {
+   "id": "defuntos-circunstancias-03",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "Onde se lê «(nome)», diz-se o nome de batismo do defunto, na forma eclesiástica. Os textos estão no masculino singular, como no livro. Por uma defunta, muda-se o género («a Tua serva»; eslavo: «раба́ Твоего́» → «рабы́ Твоея́», «его́» → «ея́», «ему́» → «ей»); por vários defuntos, o plural («os Teus servos»; «ду́шу раба́ Твоего́» → «ду́ши рабъ Твои́хъ», «его́» → «ихъ»), como indicam os próprios livros («или́, рабы́ Твоея́»).",
+   "ru": "Где написано «(имя)», произносится имя усопшего, данное в Крещении, в церковной форме. Тексты даны в мужском роде единственного числа, как в книге. Об усопшей изменяется род («рабы Твоея»: «раба Твоего» → «рабы Твоея», «его» → «ея», «ему» → «ей»); о нескольких усопших — множественное число («души раб Твоих», «их»), как указывают сами книги («или, рабы Твоея»).",
+   "uk": "Де написано «(ім’я)», вимовляється хрестильне ім’я спочилого в церковній формі. Тексти подано в чоловічому роді однини, як у книзі. За спочилу змінюється рід («раба Твого» → «раби Твоєї», «його» → «її», «йому» → «їй»; церк.-слов. «рабы́ Твоея́», «ея́»); за кількох спочилих — множина («душі рабів Твоїх», «їх»; церк.-слов. «ду́ши рабъ Твои́хъ», «ихъ»), як вказують самі книги («или́, рабы́ Твоея́»).",
+   "en": "Where «(name)» is written, the baptismal name of the departed is said, in its church form. The texts are given in the masculine singular, as in the book. For a woman the gender is changed («Thy handmaid»; Slavonic «раба́ Твоего́» → «рабы́ Твоея́», «его́» → «ея́»); for several departed, the plural («Thy servants»; «ду́ши рабъ Твои́хъ», «ихъ»), as the books themselves indicate («или́, рабы́ Твоея́»).",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Rubrica própria. TR1884 img. 186 e PS1993 p. 216 imprimem as variantes «(или́, рабы́ Твоея́)»; PS1993 marca o nome «[и́мкъ]» (и́мярекъ); MS1900 p. 535 «(имя рекъ)». Placeholder uniformizado «(и́мя)»."
+  },
+  {
+   "id": "defuntos-circunstancias-04",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "Na oração da Igreja comemoram-se pelo nome só os batizados na Igreja Ortodoxa. Os que puseram termo à própria vida e os não batizados não são comemorados na igreja; os familiares podem rezar por eles em privado, com a bênção do pai espiritual (ver «Orações pelos defuntos em circunstâncias particulares»).",
+   "ru": "В церковной молитве поминаются по имени только крещеные в Православной Церкви. Самоубийцы и некрещеные в храме не поминаются; родственники могут молиться о них келейно, с благословения духовника (см. «Молитвы об усопших в особых обстоятельствах»).",
+   "uk": "У церковній молитві поминаються на ім’я тільки хрещені в Православній Церкві. Самогубці і нехрещені в храмі не поминаються; рідні можуть молитися за них келійно, з благословення духівника (див. «Молитви за спочилих в особливих обставинах»).",
+   "en": "In the prayer of the Church only those baptised in the Orthodox Church are commemorated by name. Those who took their own life and the unbaptised are not commemorated in church; their relatives may pray for them privately, with the blessing of their spiritual father (see «Prayers for the Departed in Particular Circumstances»).",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Nota pastoral do doc. 03 §5.7 [34][35] (Azbuka Very, «Записка церковная»; «Об отпевании… совершивших самоубийство», que refere a determinação sinodal de 27.07.2011): só verificação da prática atual, sem cópia de texto."
+  },
+  {
+   "id": "defuntos-circunstancias-05",
+   "tipo": "titulo",
+   "cu": "Моли́тва за вся́каго усо́пшаго",
+   "pt": "Por qualquer defunto",
+   "ru": "Молитва о всяком усопшем",
+   "uk": "Молитва за всякого спочилого",
+   "en": "For Any Departed",
+   "fonte": {
+    "cu": "MS1900 p. 536",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-circunstancias-06",
+   "tipo": "oracao",
+   "cu": "Помяни́, Го́споди Бо́же нашъ, въ вѣ́рѣ и надежди́ живота́ вѣ́чнаго преста́вльшагося раба́ Твоего́, бра́та на́шего (и́мя), и я́ко Благъ и Человѣколю́бецъ, отпуща́яй грѣхи́ и потребля́яй непра́вды, осла́би, оста́ви и прости́ вся во́льная его́ согрѣше́нія и нево́льная; изба́ви его́ вѣ́чныя му́ки и огня́ гее́нскаго, и да́руй ему́ прича́стіе и наслажде́ніе вѣ́чныхъ Твои́хъ благи́хъ, угото́ванныхъ лю́бящимъ Тя: а́ще бо и согрѣши́, но не отступи́ отъ Тебе́, и несумнѣ́нно во Отца́ и Сы́на и Свята́го Ду́ха, Бо́га Тя въ Тро́ицѣ сла́вимаго, вѣ́рова, и Еди́ницу въ Тро́ицѣ и Тро́ицу во Еди́нствѣ правосла́вно да́же до послѣ́дняго своего́ издыха́нія испо́вѣда. Тѣ́мже ми́лостивъ тому́ бу́ди, и вѣ́ру, я́же въ Тя, вмѣ́сто дѣлъ вмѣни́, и со святы́ми Твои́ми, я́ко Щедръ, упоко́й: нѣсть бо человѣ́ка, и́же поживе́тъ и не согрѣши́тъ. Но Ты еди́нъ еси́ кромѣ́ вся́каго грѣха́, и пра́вда Твоя́ пра́вда во вѣ́ки, и Ты еси́ еди́нъ Богъ ми́лостей и щедро́тъ и человѣколю́бія, и Тебѣ́ сла́ву возсыла́емъ, Отцу́ и Сы́ну и Свято́му Ду́ху, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Lembra-Te, Senhor nosso Deus, na fé e na esperança da vida eterna, do Teu servo falecido, nosso irmão (nome), e, como és bom e Amigo dos homens, Tu que perdoas os pecados e consomes as iniquidades, alivia, remite e perdoa todos os seus pecados, voluntários e involuntários; livra-o do tormento eterno e do fogo da geena, e concede-lhe a comunhão e o gozo dos Teus bens eternos, preparados para os que Te amam. Pois, ainda que tenha pecado, não se afastou de Ti, e creu sem duvidar no Pai e no Filho e no Espírito Santo, em Ti, Deus glorificado na Trindade, e confessou ortodoxamente a Unidade na Trindade e a Trindade na Unidade até ao seu último suspiro. Sê-lhe, pois, misericordioso, conta-lhe a fé que tinha em Ti em lugar das obras, e, como és compassivo, dá-lhe repouso com os Teus santos; porque não há homem que viva e não peque. Mas só Tu estás sem pecado algum, e a Tua justiça é justiça eterna, e só Tu és o Deus das misericórdias, das compaixões e do amor pelos homens, e a Ti damos glória, ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Помяни, Господи Боже наш, в вере и надежде жизни вечной преставившегося раба Твоего, брата нашего (имя), и, как Благой и Человеколюбец, отпускающий грехи и истребляющий неправды, ослабь, оставь и прости все вольные и невольные его согрешения; избавь его от вечной муки и огня геенского и даруй ему причастие и наслаждение вечных Твоих благ, уготованных любящим Тебя. Ибо хотя он и согрешил, но не отступил от Тебя и несомненно веровал в Отца и Сына и Святого Духа, в Тебя, Бога, в Троице славимого, и Единицу в Троице и Троицу в Единстве православно исповедовал даже до последнего своего издыхания. Поэтому будь к нему милостив, и веру его в Тебя вместо дел вмени ему, и со святыми Твоими, как Щедрый, упокой, ибо нет человека, который прожил бы и не согрешил. Но Ты один — вне всякого греха, и правда Твоя — правда вовеки, и Ты один — Бог милостей, щедрот и человеколюбия, и Тебе славу воссылаем, Отцу и Сыну и Святому Духу, ныне и всегда и во веки веков. Аминь.",
+   "uk": "Пом’яни, Господи Боже наш, у вірі і надії життя вічного спочилого раба Твого, брата нашого (ім’я), і, як Благий і Чоловіколюбець, що відпускаєш гріхи і знищуєш неправди, ослаб, залиш і прости всі вільні і невільні його прогрішення; визволи його від вічної муки і вогню геєнського і даруй йому причастя і насолоду вічних Твоїх благ, приготованих тим, що люблять Тебе. Бо хоч і згрішив, але не відступив від Тебе, і без сумніву вірував в Отця, і Сина, і Святого Духа, в Тебе, Бога, в Трійці славленого, і Єдиницю в Трійці і Трійцю в Єдиності православно аж до останнього свого подиху сповідував. Тому будь милостивий до нього, і віру, що в Тебе, замість діл зарахуй, і зі святими Твоїми, як Щедрий, упокой, бо нема людини, яка прожила б і не згрішила. Але Ти єдиний поза всяким гріхом, і правда Твоя — правда навіки, і Ти єдиний Бог милості, і щедрот, і чоловіколюбства, і Тобі славу возсилаємо, Отцю, і Сину, і Святому Духові, нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Remember, O Lord our God, in faith and hope of life eternal, Thy servant who hath fallen asleep, our brother (name); and as Thou art good and the Lover of mankind, who pardonest sins and consumest iniquities, loose, remit and forgive all his sins, voluntary and involuntary. Deliver him from everlasting torment and the fire of Gehenna, and grant him communion in and enjoyment of Thine eternal good things, prepared for them that love Thee. For though he sinned, yet he did not depart from Thee, but without doubting believed in the Father and the Son and the Holy Spirit, in Thee, God glorified in Trinity, and confessed in Orthodox wise the Unity in Trinity and the Trinity in Unity, even unto his last breath. Wherefore be merciful unto him, and account unto him for works the faith which he had in Thee, and give him rest with Thy Saints, as Thou art bountiful: for there is no man who liveth and sinneth not. But Thou alone art without any sin, and Thy righteousness is righteousness for ever, and Thou alone art the God of mercies and compassions and love for mankind, and unto Thee we send up glory, to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "MS1900 pp. 536–537 («Молитва по исходѣ души»); PS1993 p. 225; T1907 pp. 19–20",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Oração que T1907 p. 19 manda dizer, na leitura do Saltério sobre o corpo de um leigo, «depois de cada Glória»; em PS1993 p. 225 fecha o ofício «по исходѣ души». Por uma defunta: «преста́вльшуюся рабу́ Твою́, сестру́ на́шу… ея́… ей…»; por vários, o plural. MS1900/PS1993: «надеждѣ/надежди»; MS1900 «вся вольная его согрѣшенія и невольная»."
+  },
+  {
+   "id": "defuntos-circunstancias-07",
+   "tipo": "titulo",
+   "cu": "Моли́тва дѣте́й объ усо́пшихъ роди́теляхъ",
+   "pt": "Oração dos filhos pelos pais falecidos",
+   "ru": "Молитва детей об усопших родителях",
+   "uk": "Молитва дітей за спочилих батьків",
+   "en": "Prayer of Children for Their Departed Parents",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-circunstancias-08",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "Pelos pais falecidos reza-se a oração das orações da manhã que se segue (edições sinodais). As edições atuais do Molitvoslov trazem ainda uma «Oração dos filhos pelos pais falecidos», que começa «Senhor Jesus Cristo, nosso Deus! Tu és o guardião dos órfãos, o refúgio dos aflitos e o consolador dos que choram…» (texto não incluído: sem edição de domínio público localizada).",
+   "ru": "Об усопших родителях молятся следующей молитвой из утренних молитв (синодальные издания). В современных изданиях Молитвослова есть также «Молитва детей об усопших родителях», начинающаяся словами «Господи Иисусе Христе Боже наш! Ты сирых хранитель, скорбящих прибежище и плачущих утешитель…» (текст не приводится: издание в общественном достоянии не найдено).",
+   "uk": "За спочилих батьків моляться такою молитвою з ранішніх молитов (синодальні видання). У сучасних виданнях Молитвослова є також «Молитва дітей за спочилих батьків», що починається словами «Господи Іісусе Христе Боже наш! Ти сиріт охоронець, скорботних пристановище і плачучих утішитель…» (текст не подається: видання в суспільному надбанні не знайдено).",
+   "en": "For departed parents the following prayer from the Morning Prayers is said (Synodal editions). Current editions of the Prayer Book also contain a «Prayer of Children for Their Departed Parents», beginning «O Lord Jesus Christ our God! Thou art the guardian of orphans, the refuge of the sorrowful and the comforter of them that weep…» (text not included: no public-domain edition located).",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "⚠ Íncipit verificado em Azbuka Very («Молитва детей об усопших родителях»); origem e data da oração por estabelecer."
+  },
+  {
+   "id": "defuntos-circunstancias-09",
+   "tipo": "oracao",
+   "cu": "Помяни́, Го́споди, ду́ши усо́пшихъ рабо́въ Твои́хъ, роди́телей мои́хъ [имена́ ихъ] и всѣхъ сро́дниковъ по пло́ти; и прости́ ихъ вся согрѣше́нія во́льная и нево́льная, да́руя имъ Ца́рствіе и прича́стіе вѣ́чныхъ Твои́хъ благи́хъ и Твоея́ безконе́чныя и блаже́нныя жи́зни наслажде́ніе.",
+   "pt": "Lembra-Te, Senhor, das almas dos Teus servos falecidos, dos meus pais [os seus nomes] e de todos os parentes segundo a carne; e perdoa-lhes todos os pecados, voluntários e involuntários, concedendo-lhes o Reino, a participação nos Teus bens eternos e o gozo da Tua vida infinita e bem-aventurada.",
+   "ru": "Помяни, Господи, души усопших рабов Твоих, родителей моих [имена их] и всех родных по плоти, и прости им все согрешения вольные и невольные, даруя им Царство и причастие вечных Твоих благ и наслаждение Твоею бесконечною и блаженною жизнью.",
+   "uk": "Пом’яни, Господи, душі покійних рабів Твоїх, батьків моїх [імена їх] і всіх родичів по плоті; і прости їм усі прогрішення вільні й невільні, даруючи їм Царство і причастя вічних Твоїх благ і насолоду Твоїм безконечним і блаженним життям.",
+   "en": "Remember, O Lord, the souls of Thy departed servants, my parents [their names] and all my kinsfolk according to the flesh; and forgive them all their sins, voluntary and involuntary, granting them the Kingdom and a portion in Thine eternal good things, and the delight of Thine endless and blessed life.",
+   "fonte": {
+    "cu": "Z1912 p. 12",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-77 (manha.json).]"
+  },
+  {
+   "id": "defuntos-circunstancias-10",
+   "tipo": "titulo",
+   "cu": "Моли́тва роди́телей объ усо́пшемъ ча́дѣ",
+   "pt": "Oração dos pais por um filho falecido",
+   "ru": "Молитва родителей об усопшем чаде",
+   "uk": "Молитва батьків за спочилу дитину",
+   "en": "Prayer of Parents for a Departed Child",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-circunstancias-11",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "Pelo filho falecido rezam-se a Litia, a Panikhida ou o Cânone pelo defunto, dizendo o seu nome; a oração geral «Lembra-Te, Senhor nosso Deus…» (acima) pode dizer-se substituindo «o nosso irmão» por «o meu filho» / «a minha filha». Pelas crianças batizadas que morrem antes dos sete anos a Igreja tem um ofício fúnebre próprio (Требникъ, «Чинъ погребенія младенческаго»), celebrado pelo sacerdote. As edições atuais trazem uma «Oração dos pais pelos filhos falecidos», que começa «Senhor Jesus Cristo, nosso Deus, Senhor da vida e da morte, Consolador dos aflitos!…» (texto não incluído: sem edição de domínio público localizada).",
+   "ru": "Об усопшем чаде молятся литией, панихидой или каноном за усопшего, называя его имя; общую молитву «Помяни, Господи Боже наш…» (выше) можно читать, заменяя «брата нашего» на «чадо мое». Для крещеных детей, скончавшихся до семи лет, у Церкви есть особый чин погребения (Требник, «Чин погребения младенческого»), совершаемый священником. В современных изданиях есть «Молитва родителей об усопших детях», начинающаяся словами «Господи Иисусе Христе, Боже наш, Господи живота и смерти, Утешителю скорбящих!…» (текст не приводится: издание в общественном достоянии не найдено).",
+   "uk": "За спочилу дитину моляться літією, панахидою або каноном за спочилого, називаючи її ім’я; загальну молитву «Пом’яни, Господи Боже наш…» (вище) можна читати, замінюючи «брата нашого» на «чадо моє». Для хрещених дітей, що померли до семи років, Церква має окремий чин похорону (Требник, «Чин поховання немовлят»), який звершує священик. У сучасних виданнях є «Молитва батьків за спочилих дітей», що починається словами «Господи Іісусе Христе, Боже наш, Господи життя і смерті, Утішителю скорботних!…» (текст не подається: видання в суспільному надбанні не знайдено).",
+   "en": "For a departed child one prays the Litiya, the Panikhida or the Canon for one departed, saying the child's name; the general prayer «Remember, O Lord our God…» (above) may be said, replacing «our brother» with «my child». For baptised children who die before the age of seven the Church has a proper burial office (Book of Needs, «Order for the Burial of an Infant»), celebrated by the priest. Current editions contain a «Prayer of Parents for Their Departed Children», beginning «O Lord Jesus Christ our God, Lord of life and death, Comforter of the afflicted!…» (text not included: no public-domain edition located).",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "TR1884, índice, n.º 33: «Чинъ погребенія младенческаго, листъ рм҃д на оборотѣ». ⚠ Íncipit da oração moderna conforme o uso corrente (não verificado em fonte PD); ⚠ a adaptação «чадо мое» é sugestão pastoral, a confirmar pelo clero (dec. 44)."
+  },
+  {
+   "id": "defuntos-circunstancias-12",
+   "tipo": "titulo",
+   "cu": "Моли́тва вдовы́",
+   "pt": "Oração da viúva",
+   "ru": "Молитва вдовы",
+   "uk": "Молитва вдови",
+   "en": "Prayer of a Widow",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-circunstancias-13",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "As edições atuais do Molitvoslov trazem uma «Oração da viúva» pelo marido falecido, que começa «Cristo Jesus, Senhor e Todo-Poderoso! Tu és a consolação dos que choram, a proteção dos órfãos e das viúvas…» (texto não incluído: sem edição de domínio público localizada). Pode rezar-se a oração geral «Lembra-Te, Senhor nosso Deus…» (acima), dizendo «o meu esposo».",
+   "ru": "В современных изданиях Молитвослова есть «Молитва вдовы» о почившем супруге, начинающаяся словами «Христе Иисусе, Господи и Вседержителю! Ты плачущих утешение, сирых и вдовиц заступление…» (текст не приводится: издание в общественном достоянии не найдено). Можно читать общую молитву «Помяни, Господи Боже наш…» (выше), говоря «супруга моего».",
+   "uk": "У сучасних виданнях Молитвослова є «Молитва вдови» за спочилого чоловіка, що починається словами «Христе Іісусе, Господи і Вседержителю! Ти плачучих утіха, сиріт і вдовиць заступництво…» (текст не подається: видання в суспільному надбанні не знайдено). Можна читати загальну молитву «Пом’яни, Господи Боже наш…» (вище), кажучи «чоловіка мого».",
+   "en": "Current editions of the Prayer Book contain a «Prayer of a Widow» for her departed husband, beginning «O Christ Jesus, Lord and Almighty! Thou art the consolation of them that weep, the protection of orphans and widows…» (text not included: no public-domain edition located). The general prayer «Remember, O Lord our God…» (above) may be said, saying «my husband».",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "⚠ Íncipit verificado em Azbuka Very («Молитва вдовы»). ⚠ Adaptação «супруга моего» = sugestão pastoral (dec. 44)."
+  },
+  {
+   "id": "defuntos-circunstancias-14",
+   "tipo": "titulo",
+   "cu": "Моли́тва вдовца́",
+   "pt": "Oração do viúvo",
+   "ru": "Молитва вдовца",
+   "uk": "Молитва вдівця",
+   "en": "Prayer of a Widower",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-circunstancias-15",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "As edições atuais do Molitvoslov trazem uma «Oração do viúvo» pela esposa falecida, que começa «Cristo Jesus, Senhor e Todo-Poderoso! Na contrição e enternecimento do meu coração Te rogo: dá repouso, Senhor, à alma da Tua serva falecida…» (texto não incluído: sem edição de domínio público localizada). Pode rezar-se a oração geral «Lembra-Te, Senhor nosso Deus…» (acima), no feminino.",
+   "ru": "В современных изданиях Молитвослова есть «Молитва вдовца» о почившей супруге, начинающаяся словами «Христе Иисусе, Господи и Вседержителю! В сокрушении и умилении сердца моего молюся Тебе: упокой, Господи, душу усопшей рабы Твоея…» (текст не приводится: издание в общественном достоянии не найдено). Можно читать общую молитву «Помяни, Господи Боже наш…» (выше) в женском роде.",
+   "uk": "У сучасних виданнях Молитвослова є «Молитва вдівця» за спочилу дружину, що починається словами «Христе Іісусе, Господи і Вседержителю! У сокрушенні і зворушенні серця мого молюся Тобі: упокой, Господи, душу спочилої раби Твоєї…» (текст не подається: видання в суспільному надбанні не знайдено). Можна читати загальну молитву «Пом’яни, Господи Боже наш…» (вище) в жіночому роді.",
+   "en": "Current editions of the Prayer Book contain a «Prayer of a Widower» for his departed wife, beginning «O Christ Jesus, Lord and Almighty! In contrition and tenderness of heart I pray unto Thee: give rest, O Lord, to the soul of Thy departed handmaid…» (text not included: no public-domain edition located). The general prayer «Remember, O Lord our God…» (above) may be said in the feminine.",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "⚠ Íncipit verificado em Azbuka Very («Молитва вдовца»)."
+  },
+  {
+   "id": "defuntos-circunstancias-16",
+   "tipo": "titulo",
+   "cu": "Моли́тва о сконча́вшихся внеза́пною сме́ртію",
+   "pt": "Por quem morreu de morte súbita",
+   "ru": "Молитва о скончавшихся внезапной смертью",
+   "uk": "Молитва за тих, хто помер наглою смертю",
+   "en": "For Those Who Died a Sudden Death",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-circunstancias-17",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "As edições atuais trazem uma oração «por quem morreu de morte súbita», que começa «Insondáveis são os Teus juízos, Senhor! Inescrutáveis os Teus caminhos!…» (texto não incluído: sem edição de domínio público localizada). Reza-se a Litia, a Panikhida ou o Cânone pelo defunto e a oração geral «Lembra-Te, Senhor nosso Deus…» (acima).",
+   "ru": "В современных изданиях есть молитва «о скончавшихся внезапной (скоропостижной) смертью», начинающаяся словами «Неисповедимы судьбы Твои, Господи! Неисследимы пути Твои!…» (текст не приводится: издание в общественном достоянии не найдено). Читаются лития, панихида или канон за усопшего и общая молитва «Помяни, Господи Боже наш…» (выше).",
+   "uk": "У сучасних виданнях є молитва «за тих, хто помер наглою смертю», що починається словами «Невідомі суди Твої, Господи! Недослідимі путі Твої!…» (текст не подається: видання в суспільному надбанні не знайдено). Читаються літія, панахида або канон за спочилого і загальна молитва «Пом’яни, Господи Боже наш…» (вище).",
+   "en": "Current editions contain a prayer «for those who died a sudden death», beginning «Unsearchable are Thy judgements, O Lord! Inscrutable are Thy ways!…» (text not included: no public-domain edition located). One prays the Litiya, the Panikhida or the Canon for one departed and the general prayer «Remember, O Lord our God…» (above).",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "⚠ Íncipit verificado em Azbuka Very («Молитва за скончавшихся внезапной (скоропостижной) смертью»)."
+  },
+  {
+   "id": "defuntos-circunstancias-18",
+   "tipo": "titulo",
+   "cu": "Ины́я моли́твы",
+   "pt": "Outras circunstâncias",
+   "ru": "Иные молитвы",
+   "uk": "Інші молитви",
+   "en": "Other Circumstances",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-circunstancias-19",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "As edições atuais trazem ainda orações por quem morreu fora da sua pátria e pelos que não têm família e pelos pobres («Senhor Jesus Cristo, nosso Deus, Protetor dos órfãos, Guia dos peregrinos…»), por quem morreu depois de doença grave e prolongada («Senhor, Senhor! Justo és Tu, e justo é o Teu juízo…») e por quem morreu em estado de doença mental («Admiráveis são as Tuas obras, Senhor…»). Os textos não se incluem (sem edição de domínio público localizada).",
+   "ru": "В современных изданиях есть также молитвы о скончавшихся вне своего отечества, о безродных и убогих («Господи Иисусе Христе Боже наш, сирых Защитниче, странных Наставниче…»), о скончавшихся после тяжкой и продолжительной болезни («Господи, Господи! Праведен еси Ты, и суд Твой праведен…») и о скончавшихся в состоянии душевного заболевания («Дивна дела Твоя, Господи…»). Тексты не приводятся (издание в общественном достоянии не найдено).",
+   "uk": "У сучасних виданнях є також молитви за тих, хто помер поза своєю батьківщиною, за безрідних і вбогих («Господи Іісусе Христе Боже наш, сиріт Захиснику, мандрівників Наставнику…»), за тих, хто помер після тяжкої і тривалої хвороби («Господи, Господи! Праведний єси Ти, і суд Твій праведний…») і за тих, хто помер у стані душевної хвороби («Дивні діла Твої, Господи…»). Тексти не подаються (видання в суспільному надбанні не знайдено).",
+   "en": "Current editions also contain prayers for those who died outside their homeland, for those without kin and for the poor («O Lord Jesus Christ our God, Protector of orphans, Guide of wanderers…»), for those who died after a grave and long illness («O Lord, O Lord! Righteous art Thou, and Thy judgement is righteous…») and for those who died in a state of mental illness («Wondrous are Thy works, O Lord…»). The texts are not included (no public-domain edition located).",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "⚠ Íncipits verificados em Azbuka Very (secção «Молитвы об усопших»; doc. 03 §5.9)."
+  },
+  {
+   "id": "defuntos-circunstancias-20",
+   "tipo": "titulo",
+   "cu": "О сконча́вшихся безъ покая́нія и о живо́тъ свой самово́льнѣ сконча́вшихъ",
+   "pt": "Por quem morreu sem arrependimento ou pôs termo à própria vida",
+   "ru": "О скончавшихся без покаяния и о самовольно скончавших живот свой",
+   "uk": "За тих, хто помер без покаяння, і за тих, хто самовільно позбавив себе життя",
+   "en": "For Those Who Died without Repentance or Took Their Own Life",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-circunstancias-21",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "Os que puseram termo à própria vida não recebem o funeral da Igreja nem são comemorados na igreja (salvo decisão do bispo, por exemplo em caso de doença mental). Em 27 de julho de 2011 o Santo Sínodo da Igreja Ortodoxa Russa aprovou um «Rito de consolação, pela oração, dos familiares de quem pôs termo à própria vida» (Чин молитвенного утешения сродников живот свой самовольне скончавшего), celebrado pelo sacerdote para os familiares — não é um funeral nem uma panikhida; o texto, moderno, não se reproduz aqui. Os familiares podem rezar em privado, com a bênção do pai espiritual; S. Leão de Optina deu para isso a oração seguinte.",
+   "ru": "Самовольно лишившие себя жизни не отпеваются и не поминаются в храме (кроме случаев, когда архиерей разрешает это, например при душевной болезни). 27 июля 2011 года Священный Синод Русской Православной Церкви утвердил «Чин молитвенного утешения сродников живот свой самовольне скончавшего», совершаемый священником для родственников, — это не отпевание и не панихида; современный текст здесь не приводится. Родственники могут молиться келейно, с благословения духовника; прп. Лев Оптинский дал для этого следующую молитву.",
+   "uk": "Ті, хто самовільно позбавив себе життя, не відспівуються і не поминаються в храмі (крім випадків, коли архієрей це дозволяє, наприклад при душевній хворобі). 27 липня 2011 року Священний Синод Руської Православної Церкви затвердив «Чин молитовної розради родичів того, хто самовільно позбавив себе життя», який звершує священик для родичів, — це не відспівування і не панахида; сучасний текст тут не подається. Рідні можуть молитися келійно, з благословення духівника; прп. Лев Оптинський дав для цього таку молитву.",
+   "en": "Those who took their own life do not receive the Church's funeral and are not commemorated in church (except where the bishop permits it, for instance in a case of mental illness). On 27 July 2011 the Holy Synod of the Russian Orthodox Church approved an «Order of prayerful consolation for the relatives of one who has taken his own life», celebrated by the priest for the relatives — it is neither a funeral nor a Panikhida; its modern text is not reproduced here. Relatives may pray privately, with the blessing of their spiritual father; St Leo of Optina gave the following prayer for this purpose.",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Nota pastoral do doc. 03 §5.7 [33][34][35] (verificada em Azbuka Very; o texto do rito de 2011 é moderno e não é domínio público: só se descreve). ⚠ A exceção da doença mental (decisão do bispo) segue a prática corrente referida em [35]; a confirmar pelo clero (dec. 44)."
+  },
+  {
+   "id": "defuntos-circunstancias-22",
+   "tipo": "oracao",
+   "cu": "Взыщи́, Го́споди, поги́бшую ду́шу отца́ моего́ (и́мя): а́ще возмо́жно есть, поми́луй. Неизслѣди́мы судьбы́ Твоя́. Не поста́ви мнѣ во грѣхъ сея́ моли́твы моея́. Но да бу́детъ свята́я во́ля Твоя́.",
+   "pt": "Procura, Senhor, a alma perdida do meu pai (nome): se é possível, tem piedade dela. Insondáveis são os Teus juízos. Não me imputes como pecado esta minha oração. Mas seja feita a Tua santa vontade.",
+   "ru": "Взыщи, Господи, погибшую душу отца моего (имя): если возможно, помилуй. Неисследимы судьбы Твои. Не поставь мне в грех этой моей молитвы. Но да будет святая воля Твоя.",
+   "uk": "Знайди, Господи, загиблу душу батька мого (ім’я): якщо можливо, помилуй. Недослідимі суди Твої. Не постав мені в гріх цієї моєї молитви. Але нехай буде свята воля Твоя.",
+   "en": "Seek out, O Lord, the lost soul of my father (name): if it be possible, have mercy. Unsearchable are Thy judgements. Account not this my prayer unto me as sin. But Thy holy will be done.",
+   "fonte": {
+    "cu": "⚠ Жизнеописаніе оптинскаго старца іеросхимонаха Леонида (въ схимѣ Льва), Москва, 1876 (carta de S. Leão a P. Tambovtsev)",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Oração de S. Leão de Optina († 1841), escrita para um discípulo cujo pai pusera termo à vida; diz-se em privado e com a bênção do pai espiritual. Por outro parente, muda-se «отца моего» (p. ex. «раба Твоего»). ⚠ Texto segundo a forma corrente; não conferido em imagem da edição de 1876 (pendente, FONTES-defuntos.md)."
+  }
+ ]
+}

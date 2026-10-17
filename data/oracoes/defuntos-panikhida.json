@@ -1,0 +1,2548 @@
+{
+ "id": "defuntos-panikhida",
+ "ordem": 1,
+ "titulo": {
+  "cu": "Панихи́да",
+  "pt": "Panikhida (forma para leigos)",
+  "ru": "Панихида (чин для мирян)",
+  "uk": "Панахида (чин для мирян)",
+  "en": "Panikhida (Lay Form)"
+ },
+ "fontes": [
+  {
+   "chave": "MS1900",
+   "descricao": "Молитвословъ. Изданіе десятое. Москва: Синодальная типографія, 1900. По благословенію Святѣйшаго Правительствующаго Синода.",
+   "url": "https://archive.org/details/molitvoslov00andr",
+   "notas": "Domínio público. Tropários «О умершихъ» (Со духи праведныхъ…, Въ покоищи…, Ты еси Богъ…, Едина чистая…) pp. 324–325; condácio e ícos p. 326; «Молитва по исходѣ души» («Помяни, Господи Боже нашъ…») pp. 536–537; «Молитвами святыхъ отецъ» p. 461. Página = número impresso."
+  },
+  {
+   "chave": "Z1912",
+   "descricao": "Молитвы и песнопения православного молитвослова (для мирян) съ переводомъ на русскій языкъ, объясненіями и примѣчаніями Николая Нахимова [Н. Ч. Зайончковскій, 1859–1920]. С.-Петербургъ: Синодальная типографія, 1912.",
+   "url": "https://archive.org/details/molitvyipesnopenijapravoslavnogomolitvos65",
+   "notas": "Domínio público (autor † 1920). Ofício pelos defuntos (tropário «Глубиною», tropários «по непорочнахъ», sedalen, condácio, ícos, hirmos 9) pp. 266–269, eslavo com acentos + tradução russa (coluna RU adaptada, dec. 57); orações da manhã (blocos reutilizados). Página = número impresso."
+  },
+  {
+   "chave": "H1906",
+   "descricao": "I. F. Hapgood, Service Book of the Holy Orthodox-Catholic Apostolic (Greco-Russian) Church. Boston/New York: Houghton, Mifflin & Co., 1906.",
+   "url": "https://archive.org/details/cu31924029363128",
+   "notas": "Domínio público. Panikhida (Requiem), pp. 437–453 (com a parastás) e 564–569 (forma geral): fonte da coluna EN onde cobre, adaptada (Thee/Thou, en-GB, singular, «Birth-giver of God» → «Theotokos»); correções de fidelidade em nota."
+  },
+  {
+   "chave": "T1907",
+   "descricao": "Православный толковый молитвословъ. С.-Петербургъ: Изданіе Виленскаго Свято-Духовскаго братства, 1907.",
+   "url": "https://archive.org/details/pravoslavnytolko00russ",
+   "notas": "Domínio público. Leitura do Saltério e cânticos sobre o corpo para os fiéis, pp. 19–28 (escrita civil, sem acentos; com tradução russa): conferência do eslavo."
+  },
+  {
+   "chave": "TR1884",
+   "descricao": "Требникъ. Москва: Синодальная типографія, десятымъ тисненіемъ, январь 1884 (лѣто ҂аѿпд, индиктъ ві). Репринтъ: С.-Петербургъ, 1995, по благословенію Патріарха Алексія II.",
+   "url": "https://archive.org/details/Trebnik_20221222_222250_744815",
+   "notas": "Domínio público (reimpressão fac-similada de edição sinodal de 1884; o ano lê-se no cólofon, img. 3, conferido na imagem). Lítia à morte de um leigo e tropários «Со духи праведныхъ» img. 186–187; salmo 90 img. 188; «Указъ о провожденіи усопшихъ на святую Пасху» л. 125 об. = img. 258. Citado por n.º de imagem do ficheiro DjVu."
+  },
+  {
+   "chave": "PS1993",
+   "descricao": "Псалтирь слѣдованная, ч. 1. Москва: Издательскій отдѣлъ Московскаго Патріархата / Донской монастырь, 1993 (тип. славянскій, текстъ синодальнаго изданія).",
+   "url": "https://archive.org/details/Psaltirsledovannaja_20221222_222250_744815",
+   "notas": "⚠ Reedição moderna (1993) do texto sinodal em tipo eslavo; o texto litúrgico é tradicional (domínio público) e não se encontrou ainda digitalização pré-1917 da Псалтирь слѣдованная: conferir quando surgir. «Послѣдованіе по исходѣ души отъ тѣла» pp. 216–226 (cânone pelo defunto, tom 8; tropário «Единъ естествомъ»; theotokion «Источникъ живота»; «Во блаженномъ успеніи»). Páginas conferidas nas imagens 216–226."
+  },
+  {
+   "chave": "YU1915",
+   "descricao": "П. А. Юнгеровъ, Книга Псалмовъ. Русскій переводъ съ греческаго текста LXX съ предисловіемъ и примѣчаніями. Казань, 1915 (⚠ ano/edição a confirmar).",
+   "url": "https://archive.org/details/psalms-yung-1",
+   "notas": "Domínio público (autor † 1921). Sl 90 na coluna RU, copiado de data/salterio/_staging/ru.json."
+  },
+  {
+   "chave": "BR1851",
+   "descricao": "L. C. L. Brenton, The Septuagint Version of the Old Testament, with an English translation. London: S. Bagster & Sons (ed. c. 1879; tradução de 1844/1851).",
+   "url": "https://archive.org/details/septuagintversio1879bren",
+   "notas": "Domínio público. Sl 90 na coluna EN, copiado de data/salterio/_staging/en.json; Sl 50 (bloco manha-30)."
+  }
+ ],
+ "estado": {
+  "pt": "nao_revista",
+  "ru": "nao_revista",
+  "uk": "nao_revista",
+  "en": "nao_revista"
+ },
+ "blocos": [
+  {
+   "id": "defuntos-panikhida-01",
+   "tipo": "titulo",
+   "cu": "Панихи́да",
+   "pt": "Panikhida (forma para leigos)",
+   "ru": "Панихида (чин для мирян)",
+   "uk": "Панахида (чин для мирян)",
+   "en": "Panikhida (Lay Form)",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Título próprio; glossário doc. 09 §3.3 n.º 62."
+  },
+  {
+   "id": "defuntos-panikhida-02",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "Forma da panikhida para ser lida por leigos, sem sacerdote. Em lugar de «Bendito é o nosso Deus», diz-se «Pelas orações dos nossos santos pais…»; as litanias, as orações secretas e as exclamações do sacerdote omitem-se e, no seu lugar, diz-se «Senhor, tem piedade», como se indica. Segue-se a ordem da panikhida (salmo 90, «Aleluia», tropários, salmo 50, cânone, Triságio, tropários «Com os espíritos dos justos», oração e «Memória eterna»), com o cânone pelo defunto da Псалтирь следованная.",
+   "ru": "Чин панихиды для чтения мирянами, без священника. Вместо «Благословен Бог наш» говорится «Молитвами святых отец наших…»; ектении, тайные молитвы и возгласы священника опускаются, а вместо них читается «Господи, помилуй», как указано. Сохраняется порядок панихиды (псалом 90, «Аллилуиа», тропари, псалом 50, канон, Трисвятое, тропари «Со духи праведных», молитва и «Вечная память»), с каноном за усопшего из Следованной Псалтири.",
+   "uk": "Чин панахиди для читання мирянами, без священика. Замість «Благословен Бог наш» кажуть «Молитвами святих отців наших…»; єктенії, таємні молитви і виголоси священика опускаються, а замість них читається «Господи, помилуй», як вказано. Зберігається порядок панахиди (псалом 90, «Алилуя», тропарі, псалом 50, канон, Трисвяте, тропарі «Зі духами праведних», молитва і «Вічна пам’ять»), з каноном за спочилого зі Слідованої Псалтирі.",
+   "en": "The order of the Panikhida for reading by laypeople, without a priest. Instead of «Blessed is our God» one says «Through the prayers of our holy fathers…»; the litanies, the secret prayers and the exclamations of the priest are omitted, and «Lord, have mercy» is said in their place, as indicated. The order of the Panikhida is kept (Psalm 90, «Alleluia», troparia, Psalm 50, canon, Trisagion, the troparia «With the spirits of the righteous», prayer and «Memory eternal»), with the Canon for One Departed from the Sequential Psalter.",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "⚠ Para confirmação pelo clero (dec. 44). Não se encontrou edição pré-1917 com uma panikhida «para leigos»; a ordem segue a panikhida sinodal (H1906 pp. 437–453 e 564–569; T1907 pp. 19–25, que dá os cânticos do ofício sobre o corpo para os fiéis), com a substituição habitual de «Благословен Бог наш» por «Молитвами святых отец» e das litanias por «Господи, помилуй». O cânone é o do «Послѣдованіе по исходѣ души отъ тѣла» (PS1993 pp. 216–226), que é também o das edições atuais para leigos (verificado em Azbuka Very, «Панихида для чтения мирянами», só quanto à estrutura). A 17.ª catisma da parastás remete-se ao Saltério."
+  },
+  {
+   "id": "defuntos-panikhida-03",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "Onde se lê «(nome)», diz-se o nome de batismo do defunto, na forma eclesiástica. Os textos estão no masculino singular, como no livro. Por uma defunta, muda-se o género («a Tua serva»; eslavo: «раба́ Твоего́» → «рабы́ Твоея́», «его́» → «ея́», «ему́» → «ей»); por vários defuntos, o plural («os Teus servos»; «ду́шу раба́ Твоего́» → «ду́ши рабъ Твои́хъ», «его́» → «ихъ»), como indicam os próprios livros («или́, рабы́ Твоея́»).",
+   "ru": "Где написано «(имя)», произносится имя усопшего, данное в Крещении, в церковной форме. Тексты даны в мужском роде единственного числа, как в книге. Об усопшей изменяется род («рабы Твоея»: «раба Твоего» → «рабы Твоея», «его» → «ея», «ему» → «ей»); о нескольких усопших — множественное число («души раб Твоих», «их»), как указывают сами книги («или, рабы Твоея»).",
+   "uk": "Де написано «(ім’я)», вимовляється хрестильне ім’я спочилого в церковній формі. Тексти подано в чоловічому роді однини, як у книзі. За спочилу змінюється рід («раба Твого» → «раби Твоєї», «його» → «її», «йому» → «їй»; церк.-слов. «рабы́ Твоея́», «ея́»); за кількох спочилих — множина («душі рабів Твоїх», «їх»; церк.-слов. «ду́ши рабъ Твои́хъ», «ихъ»), як вказують самі книги («или́, рабы́ Твоея́»).",
+   "en": "Where «(name)» is written, the baptismal name of the departed is said, in its church form. The texts are given in the masculine singular, as in the book. For a woman the gender is changed («Thy handmaid»; Slavonic «раба́ Твоего́» → «рабы́ Твоея́», «его́» → «ея́»); for several departed, the plural («Thy servants»; «ду́ши рабъ Твои́хъ», «ихъ»), as the books themselves indicate («или́, рабы́ Твоея́»).",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Rubrica própria. TR1884 img. 186 e PS1993 p. 216 imprimem as variantes «(или́, рабы́ Твоея́)»; PS1993 marca o nome «[и́мкъ]» (и́мярекъ); MS1900 p. 535 «(имя рекъ)». Placeholder uniformizado «(и́мя)»."
+  },
+  {
+   "id": "defuntos-panikhida-04",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "Na oração da Igreja comemoram-se pelo nome só os batizados na Igreja Ortodoxa. Os que puseram termo à própria vida e os não batizados não são comemorados na igreja; os familiares podem rezar por eles em privado, com a bênção do pai espiritual (ver «Orações pelos defuntos em circunstâncias particulares»).",
+   "ru": "В церковной молитве поминаются по имени только крещеные в Православной Церкви. Самоубийцы и некрещеные в храме не поминаются; родственники могут молиться о них келейно, с благословения духовника (см. «Молитвы об усопших в особых обстоятельствах»).",
+   "uk": "У церковній молитві поминаються на ім’я тільки хрещені в Православній Церкві. Самогубці і нехрещені в храмі не поминаються; рідні можуть молитися за них келійно, з благословення духівника (див. «Молитви за спочилих в особливих обставинах»).",
+   "en": "In the prayer of the Church only those baptised in the Orthodox Church are commemorated by name. Those who took their own life and the unbaptised are not commemorated in church; their relatives may pray for them privately, with the blessing of their spiritual father (see «Prayers for the Departed in Particular Circumstances»).",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Nota pastoral do doc. 03 §5.7 [34][35] (Azbuka Very, «Записка церковная»; «Об отпевании… совершивших самоубийство», que refere a determinação sinodal de 27.07.2011): só verificação da prática atual, sem cópia de texto."
+  },
+  {
+   "id": "defuntos-panikhida-05",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "Na Semana Luminosa (da Páscoa ao sábado seguinte) não se celebram panikhidas nem a comemoração pública dos defuntos: a Igreja só canta a Ressurreição. A comemoração retoma-se na Radonitsa (terça-feira da 2.ª semana depois da Páscoa). Ver «Comemoração dos defuntos no Tempo Pascal».",
+   "ru": "На Светлой седмице (от Пасхи до следующей субботы) панихиды и гласное поминовение усопших не совершаются: Церковь воспевает только Воскресение. Поминовение возобновляется на Радоницу (вторник 2-й седмицы по Пасхе). См. «Поминовение усопших в пасхальные дни».",
+   "uk": "На Світлій седмиці (від Пасхи до наступної суботи) панахиди і гласне поминання спочилих не звершуються: Церква оспівує тільки Воскресіння. Поминання відновлюється на Радоницю (вівторок 2-ї седмиці після Пасхи). Див. «Поминання спочилих у пасхальні дні».",
+   "en": "In Bright Week (from Pascha to the following Saturday) no Panikhidas and no public commemoration of the departed are celebrated: the Church sings only of the Resurrection. Commemoration resumes on Radonitsa (Tuesday of the second week after Pascha). See «Commemoration of the Departed in Paschaltide».",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa"
+    ]
+   },
+   "nota": "Prática atual da IOR (dec. 2), verificada em Azbuka Very («Радоница»; «Поминовение усопших в Пасхальные дни»), que remete ao Typikon, cap. 49; cf. o princípio de TR1884 img. 258 (defuntos-pascoa)."
+  },
+  {
+   "id": "defuntos-panikhida-06",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "Na Grande Quaresma a Igreja comemora os defuntos sobretudo nos sábados da 2.ª, 3.ª e 4.ª semanas. Da Quinta-feira Santa ao Domingo de Tomé não se fazem litias nem panikhidas pelos defuntos (Typikon, cap. 49); as comemorações desses dias passam para a Radonitsa.",
+   "ru": "Великим постом Церковь поминает усопших особенно в субботы 2-й, 3-й и 4-й седмиц. С Великого четверга до Фомина воскресенья литии и панихиды об усопших не совершаются (Типикон, гл. 49); поминовения этих дней переносятся на Радоницу.",
+   "uk": "Великим постом Церква поминає спочилих особливо в суботи 2-ї, 3-ї і 4-ї седмиць. Від Великого четверга до Томиної неділі літії і панахиди за спочилих не звершуються (Типікон, гл. 49); поминання цих днів переносяться на Радоницю.",
+   "en": "In Great Lent the Church commemorates the departed above all on the Saturdays of the second, third and fourth weeks. From Holy Thursday until Thomas Sunday no Litiyas or Panikhidas for the departed are served (Typikon, ch. 49); the commemorations of those days are transferred to Radonitsa.",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "quaresma"
+    ]
+   },
+   "nota": "Prática atual (dec. 2), verificada em Azbuka Very («Радоница», citando o Typikon, cap. 49, «Во святый и великий четверток», «зри»); sábados de sufrágio: doc. 01 (sab_defuntos_2/3/4)."
+  },
+  {
+   "id": "defuntos-panikhida-07",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "No Tempo Pascal (até à véspera da Ascensão) este ofício lê-se com as mudanças pascais (aplicadas aqui automaticamente): no princípio e no fim diz-se três vezes «Cristo ressuscitou», e em lugar de «É verdadeiramente digno» canta-se «O Anjo clamou». As paróquias seguem práticas diferentes (há quem acrescente outros cânticos pascais); ver «Comemoração dos defuntos no Tempo Pascal».",
+   "ru": "В пасхальный период (до кануна Вознесения) этот чин читается с пасхальными изменениями (здесь они внесены автоматически): в начале и в конце трижды «Христос воскресе», а вместо «Достойно есть» поется «Ангел вопияше». В приходах практика различна (иногда добавляют и другие пасхальные песнопения); см. «Поминовение усопших в пасхальные дни».",
+   "uk": "У пасхальний період (до навечір’я Вознесіння) цей чин читають із пасхальними змінами (тут їх внесено автоматично): на початку і в кінці тричі «Христос воскрес», а замість «Достойно є» співається «Ангел вопіяше». У парафіях практика різна (дехто додає й інші пасхальні піснеспіви); див. «Поминання спочилих у пасхальні дні».",
+   "en": "In Paschaltide (until the eve of the Ascension) this office is read with the Paschal changes (applied here automatically): «Christ is risen» thrice at the beginning and at the end, and «The Angel cried» instead of «It is truly meet». Parishes follow different practices (some add other Paschal hymns); see «Commemoration of the Departed in Paschaltide».",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "⚠ Para confirmação pelo clero (dec. 44): aplicam-se as regras das orações privadas no Tempo Pascal (doc. 03 §1.4: «Христос воскресе» ×3 em lugar de «Царю Небесный»; «Ангел вопияше» em lugar de «Достойно есть»). Azbyka Very («Радоница») indica que não há rito pascal da panikhida no Typikon e que há duas práticas paroquiais («moscovita» e «petersburguesa»)."
+  },
+  {
+   "id": "defuntos-panikhida-08",
+   "tipo": "oracao",
+   "cu": "Моли́твами святы́хъ оте́цъ на́шихъ, Го́споди Іису́се Христе́ Бо́же нашъ, поми́луй насъ. Ами́нь.",
+   "pt": "Pelas orações dos nossos santos Padres, Senhor Jesus Cristo, nosso Deus, tem piedade de nós. Ámen.",
+   "ru": "По молитвам святых отцов наших, Господи Иисусе Христе, Боже наш, помилуй нас. Аминь.",
+   "uk": "Молитвами святих отців наших, Господи Іісусе Христе, Боже наш, помилуй нас. Амінь.",
+   "en": "Through the prayers of our holy fathers, O Lord Jesus Christ our God, have mercy upon us. Amen.",
+   "fonte": {
+    "cu": "MS1900 p. 461",
+    "ru": "propria",
+    "en": "H1906 p. 238",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Início e despedida dos leigos (em lugar de «Благословенъ Богъ нашъ» e da despedida do sacerdote). [Texto idêntico a manha-p03 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-09",
+   "tipo": "oracao",
+   "cu": "Христо́съ воскре́се изъ ме́ртвыхъ, сме́ртію смерть попра́въ и су́щимъ во гробѣ́хъ живо́тъ дарова́въ.",
+   "pt": "Cristo ressuscitou dos mortos, pela morte calcou a morte e aos que estavam nos sepulcros deu a vida.",
+   "ru": "Христос воскрес из мертвых, смертью смерть поправ и сущим во гробах жизнь даровав.",
+   "uk": "Христос воскрес із мертвих, смертю смерть подолав і тим, що в гробах, життя дарував.",
+   "en": "Christ is risen from the dead, trampling down death by death, and upon those in the tombs bestowing life.",
+   "fonte": {
+    "cu": "Z1912 p. 106",
+    "ru": "propria",
+    "en": "H1906 p. 226",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "[Texto idêntico a manha-14 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-10",
+   "tipo": "oracao",
+   "cu": "Святы́й Бо́же, Святы́й Крѣ́пкій, Святы́й Безсме́ртный, поми́луй насъ.",
+   "pt": "Santo Deus, Santo Forte, Santo Imortal, tem piedade de nós.",
+   "ru": "Святый Боже, Святый Крепкий, Святый Бессмертный, помилуй нас.",
+   "uk": "Святий Боже, Святий Кріпкий, Святий Безсмертний, помилуй нас.",
+   "en": "Holy God, Holy Mighty, Holy Immortal, have mercy upon us.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "[Texto idêntico a manha-15 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-11",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-16 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-12",
+   "tipo": "oracao",
+   "cu": "Пресвята́я Тро́ице, поми́луй насъ; Го́споди, очи́сти грѣхи́ на́ша; Влады́ко, прости́ беззако́нія на́ша; Святы́й, посѣти́ и исцѣли́ не́мощи на́ша, и́мене Твоего́ ра́ди.",
+   "pt": "Santíssima Trindade, tem piedade de nós; Senhor, purifica os nossos pecados; Soberano, perdoa as nossas iniquidades; Santo, visita e cura as nossas enfermidades, por causa do Teu nome.",
+   "ru": "Пресвятая Троица, помилуй нас; Господи, очисти грехи наши; Владыка, прости беззакония наши; Святой, посети и исцели немощи наши ради имени Твоего.",
+   "uk": "Пресвята Трійце, помилуй нас; Господи, очисти гріхи наші; Владико, прости беззаконня наші; Святий, відвідай і зціли немочі наші імені Твого ради.",
+   "en": "O all-holy Trinity, have mercy upon us. O Lord, cleanse our sins. O Master, pardon our transgressions. O Holy One, visit and heal our infirmities, for Thy Name's sake.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-17 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-13",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "[Texto idêntico a manha-18 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-14",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-19 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-15",
+   "tipo": "oracao",
+   "cu": "О́тче нашъ, И́же еси́ на небесѣ́хъ! Да святи́тся и́мя Твое́, да пріи́детъ Ца́рствіе Твое́, да бу́детъ во́ля Твоя́, я́ко на небеси́ и на земли́. Хлѣбъ нашъ насу́щный даждь намъ днесь; и оста́ви намъ до́лги на́ша, я́коже и мы оставля́емъ должнико́мъ на́шимъ; и не введи́ насъ во искуше́ніе, но изба́ви насъ отъ лука́ваго.",
+   "pt": "Pai nosso, que estás nos céus, santificado seja o Teu nome; venha o Teu Reino; seja feita a Tua vontade, como no céu, assim na terra. O pão nosso de cada dia dá-nos hoje; e perdoa-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores; e não nos conduzas à tentação, mas livra-nos do maligno.",
+   "ru": "Отче наш, сущий на небесах! Да святится имя Твое, да придет Царствие Твое, да будет воля Твоя, как на небе, так и на земле. Хлеб наш насущный дай нам сегодня; и прости нам долги наши, как и мы прощаем должникам нашим; и не введи нас в искушение, но избавь нас от лукавого.",
+   "uk": "Отче наш, що єси на небесах! Нехай святиться ім’я Твоє, нехай прийде Царство Твоє, нехай буде воля Твоя, як на небі, так і на землі. Хліб наш насущний дай нам сьогодні; і прости нам борги наші, як і ми прощаємо боржникам нашим; і не введи нас у спокусу, але визволи нас від лукавого.",
+   "en": "Our Father, who art in heaven, hallowed be Thy Name. Thy kingdom come. Thy will be done, as in heaven, so on earth. Give us this day our daily bread. And forgive us our debts, as we forgive our debtors. And lead us not into temptation, but deliver us from the evil one.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria (Z1912 parafraseava)",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-20 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-16",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 12,
+   "nota": "[Texto idêntico a manha-25 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-17",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-19 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-18",
+   "tipo": "oracao",
+   "cu": "Пріиди́те, поклони́мся Царе́ви на́шему Бо́гу. Пріиди́те, поклони́мся и припаде́мъ Христу́, Царе́ви на́шему Бо́гу. Пріиди́те, поклони́мся и припаде́мъ Самому́ Христу́, Царе́ви и Бо́гу на́шему.",
+   "pt": "Vinde, adoremos o nosso Rei e Deus. Vinde, adoremos e prostremo-nos diante de Cristo, nosso Rei e Deus. Vinde, adoremos e prostremo-nos diante do próprio Cristo, Rei e nosso Deus.",
+   "ru": "Придите, поклонимся Царю, нашему Богу. Придите, поклонимся и припадем ко Христу, Царю, нашему Богу. Придите, поклонимся и припадем к Самому Христу, Царю и Богу нашему.",
+   "uk": "Прийдіть, поклонімося Цареві нашому Богові. Прийдіть, поклонімося і припадімо до Христа, Царя нашого Бога. Прийдіть, поклонімося і припадімо до Самого Христа, Царя і Бога нашого.",
+   "en": "O come, let us worship God our King. O come, let us worship and fall down before Christ, our King and God. O come, let us worship and fall down before Christ Himself, our King and God.",
+   "fonte": {
+    "cu": "Z1912 p. 3",
+    "ru": "Z1912 p. 3 (adaptado)",
+    "en": "H1906 p. 15",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-28 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-19",
+   "tipo": "titulo",
+   "cu": "Псало́мъ 90",
+   "pt": "Salmo 90 (91)",
+   "ru": "Псалом 90",
+   "uk": "Псалом 90",
+   "en": "Psalm 90 (91)",
+   "fonte": {
+    "cu": "TR1884 img. 188; T1907 p. 27",
+    "ru": "YU1915",
+    "en": "BR1851",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Numeração LXX/eslava, hebraica entre parênteses (dec. 18)."
+  },
+  {
+   "id": "defuntos-panikhida-20",
+   "tipo": "oracao",
+   "cu": "Живы́й въ по́мощи Вы́шняго, въ кро́вѣ Бо́га Небе́снаго водвори́тся. Рече́тъ Го́сподеви: Засту́пникъ мой еси́ и Прибѣ́жище мое́, Богъ мой, и упова́ю на Него́. Я́ко Той изба́витъ тя отъ сѣ́ти ло́вчи и отъ словесе́ мяте́жна: плещма́ Свои́ма осѣни́тъ тя, и подъ крилѣ́ Его́ надѣ́ешися: ору́жіемъ обы́детъ тя и́стина Его́. Не убои́шися отъ стра́ха нощна́го, отъ стрѣлы́ летя́щія во дни, отъ ве́щи во тмѣ преходя́щія, отъ сря́ща и бѣ́са полу́деннаго. Паде́тъ отъ страны́ твоея́ ты́сяща, и тма одесну́ю тебе́, къ тебѣ́ же не прибли́жится: оба́че очи́ма твои́ма смотри́ши, и воздая́ніе грѣ́шниковъ у́зриши. Я́ко Ты, Го́споди, упова́ніе мое́: Вы́шняго положи́лъ еси́ прибѣ́жище твое́. Не пріи́детъ къ тебѣ́ зло, и ра́на не прибли́жится тѣ́леси твоему́: я́ко А́нгеломъ Свои́мъ заповѣ́сть о тебѣ́, сохрани́ти тя во всѣ́хъ путе́хъ твои́хъ. На рука́хъ во́змутъ тя, да не когда́ преткне́ши о ка́мень но́гу твою́: на а́спида и васили́ска насту́пиши, и попере́ши льва и зми́я. Я́ко на Мя упова́, и изба́влю и: покры́ю и, я́ко позна́ и́мя Мое́. Воззове́тъ ко Мнѣ, и услы́шу его́: съ нимъ есмь въ ско́рби, изму́ его́ и просла́влю его́: долгото́ю дні́й испо́лню его́, и явлю́ ему́ спасе́ніе Мое́.",
+   "pt": "Aquele que vive no auxílio do Altíssimo habitará sob o abrigo do Deus do céu, dirá ao Senhor: Tu és o meu protetor e o meu refúgio, o meu Deus, e espero n'Ele. Porque Ele te livrará do laço do caçador e da palavra perturbadora: com os Seus ombros te cobrirá, e debaixo das Suas asas confiarás; a Sua verdade te cercará como um escudo. Não temerás o terror da noite, a seta que voa de dia, a coisa que anda nas trevas, o assalto e o demónio do meio-dia. Cairão ao teu lado mil, e dez mil à tua direita, mas a ti não se aproximará: contudo, com os teus olhos contemplarás e verás a recompensa dos pecadores. Porque Tu, Senhor, és a minha esperança; puseste o Altíssimo como teu refúgio. Não virá a ti o mal, e a chaga não se aproximará do teu corpo: porque aos Seus anjos dará ordens a teu respeito, para te guardarem em todos os teus caminhos. Levar-te-ão nas mãos, para que não tropeces com o teu pé nalguma pedra: pisarás a áspide e o basilisco, e calcarás o leão e o dragão. Porque esperou em Mim, livrá-lo-ei; protegê-lo-ei, porque conheceu o Meu nome. Invocar-Me-á, e ouvi-lo-ei; com ele estou na aflição, arrancá-lo-ei e glorificá-lo-ei: com longura de dias o saciarei, e mostrar-lhe-ei a Minha salvação.",
+   "ru": "Живущий помощью Вышнего под кровом Бога небесного водворится, Скажет Господу: «Ты — заступник мой и прибежище мое, Бог мой и уповаю на Него». Ибо Он избавит тебя от сети ловцов и от мятежного слова, Плечами Своими защитит тебя, и под крыльями Его будешь безопасен, щитом оградит тебя истина Его. Не убоишься от ужаса ночи, стрелы, летящей днем, Бедствия, постигающего ночью, болезни и полуденного беса. Падет подле тебя тысяча, и десять тысяч направо от тебя, к тебе же не приблизится. Только очами своими смотреть будешь и воздаяние грешникам увидишь. Ибо (ты сказал:) «Ты, Господи, упование мое», Вышнего избрал ты прибежищем своим. Не приступит к тебе зло, и язва не приблизится к жилищу твоему. Ибо ангелам Своим Он заповедает о тебе — хранить тебя на всех путях твоих. На руки возьмут тебя, чтобы не преткнулся ты ногою своею о камень. На аспида и василиска наступишь и попирать будешь льва и змея «Так как он на Меня уповал, то Я избавлю его, покрою его, ибо он познал имя Мое. Воззовет ко Мне, и услышу его, с ним Я в скорби, избавлю его и прославлю его, Долготою дней насыщу его и явлю ему спасение Мое».",
+   "uk": "Хто живе з допомогою Всевишнього, під покровом Бога небесного оселиться, скаже Господеві: Ти заступник мій і прибіжище моє, Бог мій, і уповаю на Нього. Бо Він визволить тебе від сітки ловця і від слова бентежного: плечима Своїми осінить тебе, і під крилами Його матимеш надію: зброєю оточить тебе істина Його. Не убоїшся страху нічного, стріли, що летить удень, речі, що ходить у темряві, напасті і біса полуденного. Впаде біля тебе тисяча, і десять тисяч праворуч від тебе, а до тебе не наблизиться: тільки очима твоїми дивитимешся і відплату грішникам побачиш. Бо Ти, Господи, — уповання моє: Всевишнього зробив ти прибіжищем твоїм. Не прийде до тебе зло, і рана не наблизиться до тіла твого, бо Ангелам Своїм заповість про тебе — зберігати тебе на всіх путях твоїх. На руках понесуть тебе, щоб не спіткнувся ти ногою твоєю об камінь: на аспида і василиска наступиш, і зопчеш лева і змія. Бо на Мене він уповав, і Я визволю його; покрию його, бо він пізнав ім’я Моє. Покличе Мене, і Я вислухаю його; з ним Я в скорботі, вирву його і прославлю його; довготою днів наситю його і явлю йому спасіння Моє.",
+   "en": "He that dwelleth in the help of the Highest, shall sojourn under the shelter of the God of heaven. He shall say to the Lord, Thou art my helper and my refuge: my God; I will hope in Him. For He shall deliver thee from the snare of the hunters, from every troublesome matter. He shall overshadow thee with His shoulders, and thou shalt trust under His wings: His truth shall cover thee with a shield. Thou shalt not be afraid of terror by night; nor of the arrow flying by day; nor of the evil thing that walketh in darkness; nor of calamity, and the evil spirit at noon-day. A thousand shall fall at thy side, and ten thousand at thy right hand; but it shall not come nigh thee. Only with thine eyes shalt thou observe and see the reward of sinners. For Thou, O Lord, art my hope: thou, my soul, hast made the Most High thy refuge. No evils shall come upon thee, and no scourge shall draw nigh to thy body. For He shall give His angels charge concerning thee, to keep thee in all thy ways. They shall bear thee up on their hands, lest at any time thou dash thy foot against a stone. Thou shalt tread on the asp and basilisk: and thou shalt trample on the lion and dragon. For he hath hoped in me, and I will deliver him: I will protect him, because he hath known my name. He shall call upon me, and I will hearken to him: I am with him in affliction; and I will deliver him, and glorify him. I will satisfy him with length of days, and shew him my salvation.",
+   "fonte": {
+    "cu": "TR1884 img. 188 (eslavo); T1907 pp. 27–28 (escrita civil)",
+    "ru": "YU1915",
+    "en": "BR1851",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Eslavo: TR1884 img. 188 (enterro dos leigos), conferido com T1907 pp. 27–28; acentos segundo a prática corrente. Traduções copiadas textualmente do Saltério do projeto (data/salterio/_staging: pt-b, uk-b, ru = Yungerov, en = Brenton; Sl 90,1–16), para coincidirem com a catisma 12 (2c). ⚠ Quando o Saltério (2c) estiver fechado, alinhar também o eslavo."
+  },
+  {
+   "id": "defuntos-panikhida-21",
+   "tipo": "rubrica",
+   "cu": "Вмѣ́сто вели́кой ектеніи́:",
+   "pt": "Em lugar da grande litania:",
+   "ru": "Вместо великой ектении:",
+   "uk": "Замість великої єктенії:",
+   "en": "Instead of the Great Litany:",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Na forma para leigos, as litanias do sacerdote/diácono omitem-se e diz-se «Senhor, tem piedade» (doc. 03 §3.2; T1907 p. 19). ⚠ número de vezes segundo o uso corrente das edições para leigos (dec. 44)."
+  },
+  {
+   "id": "defuntos-panikhida-22",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 12,
+   "nota": "[Texto idêntico a manha-25 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-23",
+   "tipo": "oracao",
+   "cu": "Аллилу́іа, гласъ 8: Аллилу́іа, аллилу́іа, аллилу́іа.",
+   "pt": "Aleluia, tom 8: Aleluia, aleluia, aleluia.",
+   "ru": "Аллилуиа, глас 8: Аллилуиа, аллилуиа, аллилуиа.",
+   "uk": "Алилуя, глас 8: Алилуя, алилуя, алилуя.",
+   "en": "Alleluia, Tone 8: Alleluia, alleluia, alleluia.",
+   "fonte": {
+    "cu": "H1906 p. 565 (ordem); T1907 p. 22",
+    "ru": "propria",
+    "en": "H1906 p. 565",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Na panikhida sinodal canta-se «Aleluia» em tom 8 com três versículos (H1906 pp. 440 e 565). ⚠ O texto eslavo dos versículos não foi verificado em imagem pré-1917 (T1907 só traz «Аллилуіа (трижды)»): segue o texto corrente."
+  },
+  {
+   "id": "defuntos-panikhida-24",
+   "tipo": "oracao",
+   "cu": "Стихъ 1: Блаже́нъ, его́же избра́лъ и прія́лъ еси́, Го́споди. Аллилу́іа, аллилу́іа, аллилу́іа.",
+   "pt": "Versículo 1: Bem-aventurado aquele que escolheste e tomaste, Senhor. Aleluia, aleluia, aleluia.",
+   "ru": "Стих 1: Блажен, кого Ты избрал и принял, Господи. Аллилуиа, аллилуиа, аллилуиа.",
+   "uk": "Стих 1: Блаженний, кого Ти вибрав і прийняв, Господи. Алилуя, алилуя, алилуя.",
+   "en": "Verse 1: Blessed is he whom Thou hast chosen and taken, O Lord. Alleluia, alleluia, alleluia.",
+   "fonte": {
+    "cu": "⚠ texto corrente (cf. Sl 64,5)",
+    "ru": "propria",
+    "en": "H1906 p. 440 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Por uma defunta: «Блаже́на, ю́же…»; por vários: «Блаже́ни, я́же…» (H1906 p. 565 traz o plural)."
+  },
+  {
+   "id": "defuntos-panikhida-25",
+   "tipo": "oracao",
+   "cu": "Стихъ 2: Па́мять его́ въ родъ и родъ. Аллилу́іа, аллилу́іа, аллилу́іа.",
+   "pt": "Versículo 2: A sua memória, de geração em geração. Aleluia, aleluia, aleluia.",
+   "ru": "Стих 2: Память его в род и род. Аллилуиа, аллилуиа, аллилуиа.",
+   "uk": "Стих 2: Пам’ять його з роду в рід. Алилуя, алилуя, алилуя.",
+   "en": "Verse 2: His memory is from generation to generation. Alleluia, alleluia, alleluia.",
+   "fonte": {
+    "cu": "⚠ texto corrente (cf. Sl 101,13)",
+    "ru": "propria",
+    "en": "H1906 p. 440 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Hapgood: «The remembrance of them» (plural); adaptado ao singular do resto do ofício."
+  },
+  {
+   "id": "defuntos-panikhida-26",
+   "tipo": "oracao",
+   "cu": "Стихъ 3: Душа́ его́ во благи́хъ водвори́тся. Аллилу́іа, аллилу́іа, аллилу́іа.",
+   "pt": "Versículo 3: A sua alma habitará entre os bens. Aleluia, aleluia, aleluia.",
+   "ru": "Стих 3: Душа его водворится среди благ. Аллилуиа, аллилуиа, аллилуиа.",
+   "uk": "Стих 3: Душа його оселиться серед благ. Алилуя, алилуя, алилуя.",
+   "en": "Verse 3: His soul shall dwell amid good things. Alleluia, alleluia, alleluia.",
+   "fonte": {
+    "cu": "⚠ texto corrente (Sl 24,13)",
+    "ru": "propria",
+    "en": "H1906 p. 440 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Hapgood: «Their souls shall dwell with the blessed»; «во благи́хъ» = ἐν ἀγαθοῖς «entre os bens»."
+  },
+  {
+   "id": "defuntos-panikhida-27",
+   "tipo": "oracao",
+   "cu": "Тропа́рь, гласъ 8: Глубино́ю му́дрости человѣколю́бно вся стро́яй и поле́зное всѣ́мъ подава́яй, еди́не Содѣ́телю, упоко́й, Го́споди, ду́шу усо́пшаго раба́ Твоего́: на Тя бо упова́ніе возложи́, Творца́ и Зижди́теля и Бо́га на́шего.",
+   "pt": "Tropário, tom 8: Tu que, com profundidade de sabedoria, tudo dispões com amor pelos homens e a todos dás o que lhes é útil, ó único Criador, dá repouso, Senhor, à alma do Teu servo falecido, porque em Ti pôs a sua esperança, no nosso Criador, Arquiteto e Deus.",
+   "ru": "Тропарь, глас 8: Глубиною мудрости человеколюбиво всё устрояющий и всем полезное подающий, единый Создатель, упокой, Господи, душу усопшего раба Твоего, ибо он возложил надежду на Тебя, Творца, Зиждителя и Бога нашего.",
+   "uk": "Тропар, глас 8: Глибиною мудрості чоловіколюбно все влаштовуючи і корисне всім подаючи, єдиний Творче, упокой, Господи, душу спочилого раба Твого, бо на Тебе він поклав надію, Творця, і Будівничого, і Бога нашого.",
+   "en": "Troparion, Tone 8: O Thou who with depth of wisdom dost order all things in love for mankind, and givest unto all that which is profitable, O only Creator: give rest, O Lord, to the soul of Thy servant who hath fallen asleep; for he hath set his hope on Thee, our Maker and Fashioner and God.",
+   "fonte": {
+    "cu": "Z1912 p. 266; T1907 p. 22",
+    "ru": "Z1912 p. 266 (adaptado)",
+    "en": "H1906 p. 440 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "RU: Z1912 adaptado (dec. 57): «С глубочайшею мудростью и с любовью к людям» → «Глубиною мудрости человеколюбиво»; «единый Устроитель» → «единый Создатель» (Содѣ́телю). EN: Hapgood «mercifully orderest» → «dost order … in love for mankind» (человѣколю́бно)."
+  },
+  {
+   "id": "defuntos-panikhida-28",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-19 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-29",
+   "tipo": "oracao",
+   "cu": "Богоро́диченъ: Тебе́ и стѣ́ну и приста́нище и́мамы, и моли́твенницу благопрія́тну къ Бо́гу, Его́же родила́ еси́, Богоро́дице безневѣ́стная, вѣ́рныхъ спасе́ніе.",
+   "pt": "Theotokion: Temos-Te como muralha e porto de abrigo e intercessora agradável a Deus, que deste à luz, ó Mãe de Deus sem esposo, salvação dos fiéis.",
+   "ru": "Богородичен: Тебя мы имеем и стеною, и пристанищем, и молитвенницей, благоугодной Богу, Которого Ты родила, Богородица Неневестная, спасение верных.",
+   "uk": "Богородичний: Тебе маємо і стіною, і пристановищем, і молитвеницею, благоприємною до Бога, Якого Ти породила, Богородице Неневісная, вірних спасіння.",
+   "en": "Theotokion: We have thee as a wall and a haven, and an intercessor well-pleasing unto God whom thou didst bear, O unwedded Theotokos, salvation of the faithful.",
+   "fonte": {
+    "cu": "Z1912 p. 266; T1907 p. 22",
+    "ru": "Z1912 p. 266 (adaptado)",
+    "en": "H1906 p. 565 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Diz-se depois de «Glória… agora e sempre…». RU: Z1912 adaptado («В Тебе мы имеем покров…» → «Тебя мы имеем и стеною…»). EN: Hapgood «Wall and a Defence… Virgin Birth-giver of God» → «a wall and a haven… unwedded Theotokos» (приста́нище, безневѣ́стная)."
+  },
+  {
+   "id": "defuntos-panikhida-30",
+   "tipo": "rubrica",
+   "cu": "",
+   "pt": "Na grande panikhida (parastás) lê-se aqui a 17.ª catisma (Salmo 118), em duas partes: na primeira, depois de cada versículo, o refrão «Lembra-Te, Senhor, da alma do Teu servo»; na segunda, «Dá repouso, Senhor, à alma do Teu servo». O salmo está no Saltério (catisma 17). Na panikhida comum omite-se e passa-se aos tropários seguintes.",
+   "ru": "На великой панихиде (парастасе) здесь читается 17-я кафизма (Псалом 118) в двух статиях: в первой после каждого стиха припев «Помяни, Господи, душу раба Твоего», во второй — «Упокой, Господи, душу раба Твоего». Псалом — в Псалтири (кафизма 17). На обычной панихиде он опускается, и переходят к следующим тропарям.",
+   "uk": "На великій панахиді (парастасі) тут читається 17-та кафизма (Псалом 118) у двох статіях: у першій після кожного стиха приспів «Пом’яни, Господи, душу раба Твого», у другій — «Упокой, Господи, душу раба Твого». Псалом — у Псалтирі (кафизма 17). На звичайній панахиді його опускають і переходять до наступних тропарів.",
+   "en": "At the Great Panikhida (Parastas) the Seventeenth Kathisma (Psalm 118) is read here in two portions: in the first, after each verse, the refrain «Remember, O Lord, the soul of Thy servant»; in the second, «Give rest, O Lord, to the soul of Thy servant». The psalm is in the Psalter (Kathisma 17). At the ordinary Panikhida it is omitted, and one passes to the following troparia.",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Rubrica própria segundo H1906 pp. 440–441 (Parastas: «Psalm cxix in two portions», refrões «Remember…» / «Give rest…») e T1907 p. 22 (ofício sobre o corpo: «Псаломъ 118… (См. ниже, стран. 29)»). Não se repete aqui o salmo (176 versículos), que pertence ao Saltério (2c); a panikhida comum de H1906 pp. 564–566 passa diretamente de «Тебе́ и стѣ́ну» aos tropários «Святы́хъ ликъ»."
+  },
+  {
+   "id": "defuntos-panikhida-31",
+   "tipo": "titulo",
+   "cu": "Тропари́ по непоро́чнахъ, гласъ 5",
+   "pt": "Tropários dos Imaculados (Evlogitária), tom 5",
+   "ru": "Тропари по непорочнах, глас 5",
+   "uk": "Тропарі по непорочних, глас 5",
+   "en": "Troparia for the Departed (Evlogitaria), Tone 5",
+   "fonte": {
+    "cu": "Z1912 p. 266 («Тропари, гл. 5»)",
+    "ru": "propria",
+    "en": "H1906 p. 565",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Chamam-se «Evlogitária» pelo refrão «Bendito és Tu, Senhor» (Sl 118,12). Título segundo o uso corrente; Z1912 p. 266 diz só «Тропари, гл. 5»."
+  },
+  {
+   "id": "defuntos-panikhida-32",
+   "tipo": "oracao",
+   "cu": "Благослове́нъ еси́, Го́споди, научи́ мя оправда́ніемъ Твои́мъ.",
+   "pt": "Bendito és Tu, Senhor; ensina-me os Teus mandamentos.",
+   "ru": "Благословен Ты, Господи, научи меня уставам Твоим.",
+   "uk": "Благословен єси, Господи, навчи мене повелінь Твоїх.",
+   "en": "Blessed art Thou, O Lord; teach me Thy statutes.",
+   "fonte": {
+    "cu": "Z1912 p. 266; T1907 p. 22",
+    "ru": "T1907 p. 22 (adaptado)",
+    "en": "H1906 p. 565",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Refrão (Sl 118,12) dito antes de cada tropário. «оправда́нія» = δικαιώματα: «mandamentos/preceitos justos»."
+  },
+  {
+   "id": "defuntos-panikhida-33",
+   "tipo": "oracao",
+   "cu": "Святы́хъ ликъ обрѣ́те исто́чникъ жи́зни и дверь ра́йскую, да обря́щу и азъ путь покая́ніемъ: поги́бшее овча́ азъ есмь, воззови́ мя, Спа́се, и спаси́ мя.",
+   "pt": "O coro dos santos encontrou a fonte da vida e a porta do paraíso; que também eu encontre o caminho pelo arrependimento. Eu sou a ovelha perdida: chama-me, ó Salvador, e salva-me.",
+   "ru": "Лик святых обрел источник жизни и дверь райскую; да обрету и я путь покаянием. Я — погибшая овца: призови меня, Спаситель, и спаси меня.",
+   "uk": "Лик святих знайшов джерело життя і двері райські; нехай знайду і я путь покаянням. Я — загублена вівця: поклич мене, Спасе, і спаси мене.",
+   "en": "The choir of the Saints hath found the fountain of life and the door of Paradise: may I also find the way through repentance. I am the lost sheep: call me back, O Saviour, and save me.",
+   "fonte": {
+    "cu": "Z1912 p. 266; T1907 p. 22",
+    "ru": "Z1912 p. 266 (adaptado)",
+    "en": "H1906 p. 565 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "RU: Z1912 adaptado (dec. 57): «Сонм… дверь в рай; да найду и я путь туда» → sem o acrescento «туда»."
+  },
+  {
+   "id": "defuntos-panikhida-34",
+   "tipo": "oracao",
+   "cu": "Благослове́нъ еси́, Го́споди, научи́ мя оправда́ніемъ Твои́мъ.",
+   "pt": "Bendito és Tu, Senhor; ensina-me os Teus mandamentos.",
+   "ru": "Благословен Ты, Господи, научи меня уставам Твоим.",
+   "uk": "Благословен єси, Господи, навчи мене повелінь Твоїх.",
+   "en": "Blessed art Thou, O Lord; teach me Thy statutes.",
+   "fonte": {
+    "cu": "Z1912 p. 266; T1907 p. 22",
+    "ru": "T1907 p. 22 (adaptado)",
+    "en": "H1906 p. 565",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Refrão (Sl 118,12) dito antes de cada tropário. «оправда́нія» = δικαιώματα: «mandamentos/preceitos justos»."
+  },
+  {
+   "id": "defuntos-panikhida-35",
+   "tipo": "oracao",
+   "cu": "А́гнца Бо́жія проповѣ́давше, и закла́ни бы́вше я́коже а́гнцы, и къ жи́зни нестарѣ́емѣй, святі́и, и присносу́щнѣй преста́вльшеся, Того́ приле́жно, му́ченицы, моли́те, долго́въ разрѣше́ніе намъ дарова́ти.",
+   "pt": "Vós que pregastes o Cordeiro de Deus e fostes imolados como cordeiros, e passastes, ó santos, à vida que não envelhece e é eterna, suplicai-Lhe com fervor, ó mártires, que nos conceda a remissão das dívidas.",
+   "ru": "Святые мученики, проповедавшие Агнца Божия и сами закланные, как агнцы, и переселившиеся к жизни нестареющей и вечной, усердно молите Его даровать нам прощение долгов.",
+   "uk": "Агнця Божого проповідувавши і заколені бувши, як агнці, і до життя нестаріючого і вічного переселившись, святі мученики, Його старанно моліть, щоб дарував нам прощення боргів.",
+   "en": "Ye who preached the Lamb of God, and were slain like lambs, and are translated, O Saints, unto the life which waxeth not old and is everlasting: entreat Him earnestly, O Martyrs, to grant us the remission of our debts.",
+   "fonte": {
+    "cu": "Z1912 p. 267; T1907 p. 23",
+    "ru": "Z1912 p. 267 (adaptado)",
+    "en": "H1906 p. 565 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "RU: Z1912 «как овцы» → «как агнцы»; «отпущения грехов» → «прощение долгов» (долго́въ разрѣше́ніе). EN: Hapgood «remission of our sins» → «of our debts»."
+  },
+  {
+   "id": "defuntos-panikhida-36",
+   "tipo": "oracao",
+   "cu": "Благослове́нъ еси́, Го́споди, научи́ мя оправда́ніемъ Твои́мъ.",
+   "pt": "Bendito és Tu, Senhor; ensina-me os Teus mandamentos.",
+   "ru": "Благословен Ты, Господи, научи меня уставам Твоим.",
+   "uk": "Благословен єси, Господи, навчи мене повелінь Твоїх.",
+   "en": "Blessed art Thou, O Lord; teach me Thy statutes.",
+   "fonte": {
+    "cu": "Z1912 p. 266; T1907 p. 22",
+    "ru": "T1907 p. 22 (adaptado)",
+    "en": "H1906 p. 565",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Refrão (Sl 118,12) dito antes de cada tropário. «оправда́нія» = δικαιώματα: «mandamentos/preceitos justos»."
+  },
+  {
+   "id": "defuntos-panikhida-37",
+   "tipo": "oracao",
+   "cu": "Въ путь у́зкій хо́ждшіи приско́рбный, вси въ житіи́ крестъ я́ко яре́мъ взе́мшіи, и Мнѣ послѣ́довавшіи вѣ́рою, пріиди́те, наслади́теся, и́хже угото́вахъ вамъ почесте́й и вѣ́нцевъ небе́сныхъ.",
+   "pt": "Vós todos que caminhastes pela via estreita e dolorosa, que na vida tomastes a cruz como jugo e Me seguistes com fé, vinde, gozai das honras e das coroas celestes que vos preparei.",
+   "ru": "Ходившие путем узким, прискорбным, все, взявшие в жизни крест, как ярмо, и с верою Мне последовавшие, придите, насладитесь почестями и небесными венцами, которые Я приготовил вам.",
+   "uk": "Ви, що вузьким скорботним шляхом ходили, всі, що в житті хрест, як ярмо, взяли і Мені вірою послідували, прийдіть, насолоджуйтеся почестями і вінцями небесними, які Я приготував вам.",
+   "en": "All ye who have trodden the narrow way of sorrow, who in life have taken up the cross as a yoke and have followed Me in faith: draw near, enjoy the honours and heavenly crowns which I have prepared for you.",
+   "fonte": {
+    "cu": "Z1912 p. 267; T1907 p. 23",
+    "ru": "Z1912 p. 267 (adaptado)",
+    "en": "H1906 pp. 565–566 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-38",
+   "tipo": "oracao",
+   "cu": "Благослове́нъ еси́, Го́споди, научи́ мя оправда́ніемъ Твои́мъ.",
+   "pt": "Bendito és Tu, Senhor; ensina-me os Teus mandamentos.",
+   "ru": "Благословен Ты, Господи, научи меня уставам Твоим.",
+   "uk": "Благословен єси, Господи, навчи мене повелінь Твоїх.",
+   "en": "Blessed art Thou, O Lord; teach me Thy statutes.",
+   "fonte": {
+    "cu": "Z1912 p. 266; T1907 p. 22",
+    "ru": "T1907 p. 22 (adaptado)",
+    "en": "H1906 p. 565",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Refrão (Sl 118,12) dito antes de cada tropário. «оправда́нія» = δικαιώματα: «mandamentos/preceitos justos»."
+  },
+  {
+   "id": "defuntos-panikhida-39",
+   "tipo": "oracao",
+   "cu": "О́бразъ есмь неизрече́нныя Твоея́ сла́вы, а́ще и я́звы ношу́ прегрѣше́ній: уще́дри Твое́ созда́ніе, Влады́ко, и очи́сти Твои́мъ благоутро́біемъ, и вожделѣ́нное оте́чество пода́ждь ми, ра́я па́ки жи́теля мя сотворя́я.",
+   "pt": "Sou imagem da Tua glória inefável, ainda que traga as feridas dos pecados; compadece-Te da Tua criatura, ó Soberano, purifica-a pela Tua compaixão e dá-me a pátria desejada, fazendo-me de novo habitante do paraíso.",
+   "ru": "Я — образ Твоей неизреченной славы, хотя и ношу язвы грехов; умилосердись над Твоим созданием, Владыка, очисти его Твоим милосердием и даруй мне желанное отечество, снова сделав меня жителем рая.",
+   "uk": "Я — образ невимовної Твоєї слави, хоч і рани гріхів ношу; змилосердься над Твоїм созданням, Владико, і очисти Твоїм милосердям, і жадану вітчизну подай мені, знову зробивши мене жителем раю.",
+   "en": "I am the image of Thine ineffable glory, though I bear the wounds of transgressions: have compassion on Thy creature, O Master, and cleanse it by Thy loving-kindness, and grant me the longed-for homeland, making me again a citizen of Paradise.",
+   "fonte": {
+    "cu": "Z1912 p. 267; T1907 p. 23",
+    "ru": "Z1912 p. 267 (adaptado)",
+    "en": "H1906 p. 566 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "RU: Z1912 «глубокие знаки грехов» → «язвы грехов» (sem o acrescento «глубокие»). EN: Hapgood «brands» → «wounds» (я́звы)."
+  },
+  {
+   "id": "defuntos-panikhida-40",
+   "tipo": "oracao",
+   "cu": "Благослове́нъ еси́, Го́споди, научи́ мя оправда́ніемъ Твои́мъ.",
+   "pt": "Bendito és Tu, Senhor; ensina-me os Teus mandamentos.",
+   "ru": "Благословен Ты, Господи, научи меня уставам Твоим.",
+   "uk": "Благословен єси, Господи, навчи мене повелінь Твоїх.",
+   "en": "Blessed art Thou, O Lord; teach me Thy statutes.",
+   "fonte": {
+    "cu": "Z1912 p. 266; T1907 p. 22",
+    "ru": "T1907 p. 22 (adaptado)",
+    "en": "H1906 p. 565",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Refrão (Sl 118,12) dito antes de cada tropário. «оправда́нія» = δικαιώματα: «mandamentos/preceitos justos»."
+  },
+  {
+   "id": "defuntos-panikhida-41",
+   "tipo": "oracao",
+   "cu": "Дре́вле у́бо отъ не су́щихъ созда́вый мя, и о́бразомъ Твои́мъ Боже́ственнымъ почты́й, преступле́ніемъ же за́повѣди па́ки мя возврати́вый въ зе́млю, отъ нея́же взятъ быхъ, на е́же по подо́бію возведи́, дре́внею добро́тою возобрази́тися.",
+   "pt": "Tu que outrora me criaste do nada e me honraste com a Tua imagem divina, mas, pela transgressão do mandamento, de novo me fizeste voltar à terra de onde fui tirado, reconduz-me à semelhança, para ser de novo formado na beleza antiga.",
+   "ru": "Некогда из небытия создавший меня и почтивший Твоим Божественным образом, но за преступление заповеди снова возвративший меня в землю, из которой я был взят, возведи меня к подобию, чтобы мне вновь украситься древней красотой.",
+   "uk": "Ти, що колись із небуття створив мене і образом Твоїм Божественним ушанував, а за переступ заповіді знову повернув мене в землю, з якої я був узятий, — підійми мене до подоби, щоб знову уподібнитися давній красі.",
+   "en": "O Thou who of old didst create me from nothing and didst honour me with Thy divine image, but because of my transgression of the commandment didst return me again unto the earth whence I was taken: lead me back to Thy likeness, to be refashioned in my ancient beauty.",
+   "fonte": {
+    "cu": "Z1912 p. 267; T1907 p. 23",
+    "ru": "Z1912 p. 267 (adaptado)",
+    "en": "H1906 p. 566 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "RU: Z1912 «возвысь меня сообразно Твоему подобию, чтобы мне облечься в первоначальную красоту» → mais próximo do eslavo. EN: Hapgood «because I had forgotten thy commandments» → «because of my transgression of the commandment»."
+  },
+  {
+   "id": "defuntos-panikhida-42",
+   "tipo": "oracao",
+   "cu": "Благослове́нъ еси́, Го́споди, научи́ мя оправда́ніемъ Твои́мъ.",
+   "pt": "Bendito és Tu, Senhor; ensina-me os Teus mandamentos.",
+   "ru": "Благословен Ты, Господи, научи меня уставам Твоим.",
+   "uk": "Благословен єси, Господи, навчи мене повелінь Твоїх.",
+   "en": "Blessed art Thou, O Lord; teach me Thy statutes.",
+   "fonte": {
+    "cu": "Z1912 p. 266; T1907 p. 22",
+    "ru": "T1907 p. 22 (adaptado)",
+    "en": "H1906 p. 565",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Refrão (Sl 118,12) dito antes de cada tropário. «оправда́нія» = δικαιώματα: «mandamentos/preceitos justos»."
+  },
+  {
+   "id": "defuntos-panikhida-43",
+   "tipo": "oracao",
+   "cu": "Упоко́й, Бо́же, раба́ Твоего́, и учини́ его́ въ раи́, идѣ́же ли́цы святы́хъ, Го́споди, и пра́ведницы сія́ютъ я́ко свѣти́ла: усо́пшаго раба́ Твоего́ упоко́й, презира́я его́ вся согрѣше́нія.",
+   "pt": "Dá repouso, ó Deus, ao Teu servo e estabelece-o no paraíso, onde os coros dos santos, Senhor, e os justos resplandecem como astros; dá repouso ao Teu servo falecido, não olhando a todos os seus pecados.",
+   "ru": "Упокой, Боже, раба Твоего и водвори его в раю, где лики святых, Господи, и праведники сияют, как светила; усопшего раба Твоего упокой, не взирая на все его согрешения.",
+   "uk": "Упокой, Боже, раба Твого і помісти його в раю, де лики святих, Господи, і праведники сяють, як світила; спочилого раба Твого упокой, не зважаючи на всі його прогрішення.",
+   "en": "Give rest, O God, to Thy servant, and establish him in Paradise, where the choirs of the Saints, O Lord, and the righteous shine as the stars: give rest to Thy servant who hath fallen asleep, overlooking all his transgressions.",
+   "fonte": {
+    "cu": "Z1912 p. 267; T1907 p. 24",
+    "ru": "Z1912 p. 267 (adaptado)",
+    "en": "H1906 p. 566 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "RU: Z1912 «дай ему место в раю, где сонмы святых» → «водвори его в раю, где лики святых». EN: Hapgood (plural) adaptado ao singular do eslavo."
+  },
+  {
+   "id": "defuntos-panikhida-44",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху. Трисія́тельное еди́наго Божества́ благоче́стно пое́мъ, вопію́ще: святъ еси́, О́тче безнача́льный, собезнача́льный Сы́не и Боже́ственный Ду́ше: просвѣти́ насъ, вѣ́рою Тебѣ́ служа́щихъ, и вѣ́чнаго огня́ исхити́.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo. Cantemos piedosamente o triplo fulgor da única Divindade, clamando: Santo és Tu, ó Pai sem princípio, Filho igualmente sem princípio e Espírito divino; ilumina-nos, a nós que Te servimos com fé, e arranca-nos do fogo eterno.",
+   "ru": "Слава Отцу и Сыну и Святому Духу. Благочестиво воспоем трисиянное единое Божество, взывая: свят Ты, Отче безначальный, собезначальный Сын и Божественный Дух! Просвети нас, с верою Тебе служащих, и исторгни из вечного огня.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові. Трисяйне єдине Божество благочестиво оспівуємо, взиваючи: святий єси, Отче безначальний, Сину собезначальний і Душе Божественний; просвіти нас, що вірою Тобі служимо, і від вогню вічного визволи.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit. Devoutly let us hymn the threefold radiance of the one Godhead, crying aloud: Holy art Thou, O Father without beginning, co-unoriginate Son and divine Spirit; enlighten us who serve Thee in faith, and snatch us from the eternal fire.",
+   "fonte": {
+    "cu": "Z1912 p. 268; T1907 p. 24",
+    "ru": "Z1912 p. 268 (adaptado)",
+    "en": "H1906 p. 566 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "RU: Z1912 «тройственным светом сияющего единого Бога» → «трисиянное единое Божество»; «освободи из вечного огня» → «исторгни» (исхити́)."
+  },
+  {
+   "id": "defuntos-panikhida-45",
+   "tipo": "oracao",
+   "cu": "И ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь. Ра́дуйся, Чи́стая, Бо́га пло́тію ро́ждшая во спасе́ніе всѣ́хъ, Е́юже родъ человѣ́ческій обрѣ́те спасе́ніе: Тобо́ю да обря́щемъ рай, Богоро́дице чи́стая, благослове́нная.",
+   "pt": "Agora e sempre e pelos séculos dos séculos. Ámen. Alegra-Te, ó Pura, que deste à luz Deus na carne para a salvação de todos, por quem o género humano encontrou a salvação; por Ti encontremos o paraíso, ó Mãe de Deus pura e bendita.",
+   "ru": "И ныне, и всегда, и во веки веков. Аминь. Радуйся, Чистая, Бога во плоти родившая во спасение всех, через Которую род человеческий обрел спасение; через Тебя да обретем рай, Богородица чистая, благословенная.",
+   "uk": "І нині, і повсякчас, і на віки віків. Амінь. Радуйся, Чиста, що Бога плоттю породила на спасіння всіх, через Яку рід людський знайшов спасіння; через Тебе нехай знайдемо рай, Богородице чиста, благословенна.",
+   "en": "Now and ever, and unto ages of ages. Amen. Rejoice, O pure one, who didst bear God in the flesh for the salvation of all, through whom the race of men hath found salvation: through thee may we find Paradise, O pure and blessed Theotokos.",
+   "fonte": {
+    "cu": "Z1912 p. 268; T1907 p. 24",
+    "ru": "propria",
+    "en": "H1906 p. 566 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "EN: Hapgood «Hail, O August One» → «Rejoice, O pure one» (Ра́дуйся, Чи́стая); «Birth-giver of God» → «Theotokos». RU própria (Z1912 não traduz este Theotokion)."
+  },
+  {
+   "id": "defuntos-panikhida-46",
+   "tipo": "oracao",
+   "cu": "Аллилу́іа, аллилу́іа, аллилу́іа, сла́ва Тебѣ́, Бо́же.",
+   "pt": "Aleluia, aleluia, aleluia, glória a Ti, ó Deus.",
+   "ru": "Аллилуиа, аллилуиа, аллилуиа, слава Тебе, Боже.",
+   "uk": "Алилуя, алилуя, алилуя, слава Тобі, Боже.",
+   "en": "Alleluia, alleluia, alleluia, glory to Thee, O God.",
+   "fonte": {
+    "cu": "T1907 p. 24 («Аллилуіа. (Три раза.)»)",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3
+  },
+  {
+   "id": "defuntos-panikhida-47",
+   "tipo": "rubrica",
+   "cu": "Вмѣ́сто ектеніи́:",
+   "pt": "Em lugar da litania:",
+   "ru": "Вместо ектении:",
+   "uk": "Замість єктенії:",
+   "en": "Instead of the Litany:",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Ver a nota da rubrica anterior. ⚠ Confirmação pelo clero (dec. 44)."
+  },
+  {
+   "id": "defuntos-panikhida-48",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 40,
+   "nota": "[Texto idêntico a manha-p11 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-49",
+   "tipo": "oracao",
+   "cu": "Помяни́, Го́споди Бо́же нашъ, въ вѣ́рѣ и надежди́ живота́ вѣ́чнаго преста́вльшагося раба́ Твоего́, бра́та на́шего (и́мя), и я́ко Благъ и Человѣколю́бецъ, отпуща́яй грѣхи́ и потребля́яй непра́вды, осла́би, оста́ви и прости́ вся во́льная его́ согрѣше́нія и нево́льная; изба́ви его́ вѣ́чныя му́ки и огня́ гее́нскаго, и да́руй ему́ прича́стіе и наслажде́ніе вѣ́чныхъ Твои́хъ благи́хъ, угото́ванныхъ лю́бящимъ Тя: а́ще бо и согрѣши́, но не отступи́ отъ Тебе́, и несумнѣ́нно во Отца́ и Сы́на и Свята́го Ду́ха, Бо́га Тя въ Тро́ицѣ сла́вимаго, вѣ́рова, и Еди́ницу въ Тро́ицѣ и Тро́ицу во Еди́нствѣ правосла́вно да́же до послѣ́дняго своего́ издыха́нія испо́вѣда. Тѣ́мже ми́лостивъ тому́ бу́ди, и вѣ́ру, я́же въ Тя, вмѣ́сто дѣлъ вмѣни́, и со святы́ми Твои́ми, я́ко Щедръ, упоко́й: нѣсть бо человѣ́ка, и́же поживе́тъ и не согрѣши́тъ. Но Ты еди́нъ еси́ кромѣ́ вся́каго грѣха́, и пра́вда Твоя́ пра́вда во вѣ́ки, и Ты еси́ еди́нъ Богъ ми́лостей и щедро́тъ и человѣколю́бія, и Тебѣ́ сла́ву возсыла́емъ, Отцу́ и Сы́ну и Свято́му Ду́ху, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Lembra-Te, Senhor nosso Deus, na fé e na esperança da vida eterna, do Teu servo falecido, nosso irmão (nome), e, como és bom e Amigo dos homens, Tu que perdoas os pecados e consomes as iniquidades, alivia, remite e perdoa todos os seus pecados, voluntários e involuntários; livra-o do tormento eterno e do fogo da geena, e concede-lhe a comunhão e o gozo dos Teus bens eternos, preparados para os que Te amam. Pois, ainda que tenha pecado, não se afastou de Ti, e creu sem duvidar no Pai e no Filho e no Espírito Santo, em Ti, Deus glorificado na Trindade, e confessou ortodoxamente a Unidade na Trindade e a Trindade na Unidade até ao seu último suspiro. Sê-lhe, pois, misericordioso, conta-lhe a fé que tinha em Ti em lugar das obras, e, como és compassivo, dá-lhe repouso com os Teus santos; porque não há homem que viva e não peque. Mas só Tu estás sem pecado algum, e a Tua justiça é justiça eterna, e só Tu és o Deus das misericórdias, das compaixões e do amor pelos homens, e a Ti damos glória, ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Помяни, Господи Боже наш, в вере и надежде жизни вечной преставившегося раба Твоего, брата нашего (имя), и, как Благой и Человеколюбец, отпускающий грехи и истребляющий неправды, ослабь, оставь и прости все вольные и невольные его согрешения; избавь его от вечной муки и огня геенского и даруй ему причастие и наслаждение вечных Твоих благ, уготованных любящим Тебя. Ибо хотя он и согрешил, но не отступил от Тебя и несомненно веровал в Отца и Сына и Святого Духа, в Тебя, Бога, в Троице славимого, и Единицу в Троице и Троицу в Единстве православно исповедовал даже до последнего своего издыхания. Поэтому будь к нему милостив, и веру его в Тебя вместо дел вмени ему, и со святыми Твоими, как Щедрый, упокой, ибо нет человека, который прожил бы и не согрешил. Но Ты один — вне всякого греха, и правда Твоя — правда вовеки, и Ты один — Бог милостей, щедрот и человеколюбия, и Тебе славу воссылаем, Отцу и Сыну и Святому Духу, ныне и всегда и во веки веков. Аминь.",
+   "uk": "Пом’яни, Господи Боже наш, у вірі і надії життя вічного спочилого раба Твого, брата нашого (ім’я), і, як Благий і Чоловіколюбець, що відпускаєш гріхи і знищуєш неправди, ослаб, залиш і прости всі вільні і невільні його прогрішення; визволи його від вічної муки і вогню геєнського і даруй йому причастя і насолоду вічних Твоїх благ, приготованих тим, що люблять Тебе. Бо хоч і згрішив, але не відступив від Тебе, і без сумніву вірував в Отця, і Сина, і Святого Духа, в Тебе, Бога, в Трійці славленого, і Єдиницю в Трійці і Трійцю в Єдиності православно аж до останнього свого подиху сповідував. Тому будь милостивий до нього, і віру, що в Тебе, замість діл зарахуй, і зі святими Твоїми, як Щедрий, упокой, бо нема людини, яка прожила б і не згрішила. Але Ти єдиний поза всяким гріхом, і правда Твоя — правда навіки, і Ти єдиний Бог милості, і щедрот, і чоловіколюбства, і Тобі славу возсилаємо, Отцю, і Сину, і Святому Духові, нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Remember, O Lord our God, in faith and hope of life eternal, Thy servant who hath fallen asleep, our brother (name); and as Thou art good and the Lover of mankind, who pardonest sins and consumest iniquities, loose, remit and forgive all his sins, voluntary and involuntary. Deliver him from everlasting torment and the fire of Gehenna, and grant him communion in and enjoyment of Thine eternal good things, prepared for them that love Thee. For though he sinned, yet he did not depart from Thee, but without doubting believed in the Father and the Son and the Holy Spirit, in Thee, God glorified in Trinity, and confessed in Orthodox wise the Unity in Trinity and the Trinity in Unity, even unto his last breath. Wherefore be merciful unto him, and account unto him for works the faith which he had in Thee, and give him rest with Thy Saints, as Thou art bountiful: for there is no man who liveth and sinneth not. But Thou alone art without any sin, and Thy righteousness is righteousness for ever, and Thou alone art the God of mercies and compassions and love for mankind, and unto Thee we send up glory, to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "MS1900 pp. 536–537 («Молитва по исходѣ души»); PS1993 p. 225; T1907 pp. 19–20",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Oração que T1907 p. 19 manda dizer, na leitura do Saltério sobre o corpo de um leigo, «depois de cada Glória»; em PS1993 p. 225 fecha o ofício «по исходѣ души». Por uma defunta: «преста́вльшуюся рабу́ Твою́, сестру́ на́шу… ея́… ей…»; por vários, o plural. MS1900/PS1993: «надеждѣ/надежди»; MS1900 «вся вольная его согрѣшенія и невольная»."
+  },
+  {
+   "id": "defuntos-panikhida-50",
+   "tipo": "oracao",
+   "cu": "Седа́ленъ, гласъ 5: Поко́й, Спа́се нашъ, съ пра́ведными раба́ Твоего́, и сего́ всели́ во дворы́ Твоя́, я́коже есть пи́сано, презира́я, я́ко Благъ, прегрѣше́нія его́ во́льная и нево́льная, и вся я́же въ вѣ́дѣніи и не въ вѣ́дѣніи, Человѣколю́бче.",
+   "pt": "Sedalen, tom 5: Dá repouso, ó nosso Salvador, ao Teu servo com os justos e fá-lo habitar nos Teus átrios, como está escrito, não olhando, porque és bom, aos seus pecados voluntários e involuntários, e a todos os que cometeu com conhecimento e sem conhecimento, ó Amigo dos homens.",
+   "ru": "Седален, глас 5: Упокой, Спаситель наш, с праведными раба Твоего и посели его во дворах Твоих, как написано, не взирая, как Благой, на согрешения его, вольные и невольные, и на все, совершенные сознательно и неведением, Человеколюбец.",
+   "uk": "Сідальний, глас 5: Упокой, Спасе наш, з праведними раба Твого і всели його у двори Твої, як написано, не зважаючи, як Благий, на прогрішення його вільні і невільні, і на всі, що свідомо і несвідомо, Чоловіколюбче.",
+   "en": "Sessional Hymn, Tone 5: Give rest, O our Saviour, with the righteous unto Thy servant, and make him to dwell in Thy courts, as it is written, overlooking, in that Thou art good, his transgressions voluntary and involuntary, and all that he hath done in knowledge and in ignorance, O Lover of mankind.",
+   "fonte": {
+    "cu": "MS1900 p. 325; Z1912 p. 268; T1907 p. 24",
+    "ru": "Z1912 p. 268 (adaptado)",
+    "en": "H1906 p. 567 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "RU: Z1912 «посели его в жилище Твоем, как сказано в Писании» → «во дворах Твоих, как написано». EN: Hapgood (plural) adaptado ao singular."
+  },
+  {
+   "id": "defuntos-panikhida-51",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-19 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-52",
+   "tipo": "oracao",
+   "cu": "Богоро́диченъ: Отъ Дѣ́вы возсія́вый мі́ру, Христе́ Бо́же, сы́ны свѣ́та То́ю показа́вый, поми́луй насъ.",
+   "pt": "Theotokion: Ó Cristo Deus, que resplandeceste para o mundo a partir da Virgem e por ela nos fizeste filhos da luz, tem piedade de nós.",
+   "ru": "Богородичен: Христе Боже, воссиявший миру от Девы и через Нее явивший нас сынами света, помилуй нас.",
+   "uk": "Богородичний: Христе Боже, що від Діви засяяв світові і через Неї показав нас синами світла, помилуй нас.",
+   "en": "Theotokion: O Christ God, who didst shine forth upon the world from a Virgin, and through her didst show us forth as children of light, have mercy upon us.",
+   "fonte": {
+    "cu": "Z1912 p. 268; T1907 p. 24",
+    "ru": "Z1912 p. 268 (adaptado)",
+    "en": "H1906 p. 567 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Diz-se depois de «Glória… agora e sempre…»."
+  },
+  {
+   "id": "defuntos-panikhida-53",
+   "tipo": "titulo",
+   "cu": "Псало́мъ 50",
+   "pt": "Salmo 50 (51)",
+   "ru": "Псалом 50",
+   "uk": "Псалом 50",
+   "en": "Psalm 50 (51)",
+   "fonte": {
+    "cu": "Z1912 p. 4",
+    "ru": "Z1912 p. 4",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-29 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-54",
+   "tipo": "oracao",
+   "cu": "Поми́луй мя, Бо́же, по вели́цѣй ми́лости Твое́й, и по мно́жеству щедро́тъ Твои́хъ очи́сти беззако́ніе мое́. Наипа́че омы́й мя отъ беззако́нія моего́, и отъ грѣха́ моего́ очи́сти мя; я́ко беззако́ніе мое́ азъ зна́ю, и грѣхъ мой пре́до мно́ю есть вы́ну. Тебѣ́ еди́ному согрѣши́хъ и лука́вое предъ Тобо́ю сотвори́хъ, я́ко да оправди́шися во словесѣ́хъ Твои́хъ, и побѣди́ши внегда́ суди́ти Ти. Се бо, въ беззако́ніихъ зача́тъ есмь, и во грѣсѣ́хъ роди́ мя ма́ти моя́. Се бо, и́стину возлюби́лъ еси́, безвѣ́стная и та́йная прему́дрости Твоея́ яви́лъ ми еси́. Окропи́ши мя ѵссо́помъ, и очи́щуся; омы́еши мя, и па́че снѣ́га убѣлю́ся. Слу́ху моему́ да́си ра́дость и весе́ліе; возра́дуются ко́сти смире́нныя. Отврати́ лице́ Твое́ отъ грѣхъ мои́хъ и вся беззако́нія моя́ очи́сти. Се́рдце чи́сто сози́жди во мнѣ, Бо́же, и духъ правъ обнови́ во утро́бѣ мое́й. Не отве́ржи мене́ отъ лица́ Твоего́ и Ду́ха Твоего́ Свята́го не отъими́ отъ мене́. Возда́ждь ми ра́дость спасе́нія Твоего́ и Ду́хомъ Влады́чнимъ утверди́ мя. Научу́ беззако́нныя путе́мъ Твои́мъ, и нечести́віи къ Тебѣ́ обратя́тся. Изба́ви мя отъ крове́й, Бо́же, Бо́же спасе́нія моего́; возра́дуется язы́къ мой пра́вдѣ Твое́й. Го́споди, устнѣ́ мои́ отве́рзеши, и уста́ моя́ возвѣстя́тъ хвалу́ Твою́. Я́ко а́ще бы восхотѣ́лъ еси́ же́ртвы, далъ быхъ у́бо; всесожже́нія не благоволи́ши. Же́ртва Бо́гу духъ сокруше́нъ; се́рдце сокруше́нно и смире́нно Богъ не уничижи́тъ. Ублажи́, Го́споди, благоволе́ніемъ Твои́мъ Сіо́на, и да сози́ждутся стѣ́ны Іерусали́мскія. Тогда́ благоволи́ши же́ртву пра́вды, возноше́ніе и всесожега́емая; тогда́ возложа́тъ на олта́рь Твой тельцы́.",
+   "pt": "Tem piedade de mim, ó Deus, segundo a Tua grande misericórdia, e segundo a multidão das Tuas compaixões purifica a minha iniquidade. Lava-me ainda mais da minha iniquidade e purifica-me do meu pecado, porque eu conheço a minha iniquidade e o meu pecado está sempre diante de mim. Contra Ti só pequei e fiz o mal diante de Ti, para que sejas justificado nas Tuas palavras e venças quando fores julgado. Eis que fui concebido em iniquidades, e em pecados me deu à luz minha mãe. Eis que amaste a verdade; manifestaste-me os segredos e os mistérios da Tua sabedoria. Aspergir-me-ás com hissopo, e ficarei puro; lavar-me-ás, e ficarei mais branco que a neve. Dar-me-ás a ouvir alegria e júbilo; exultarão os ossos humilhados. Desvia o Teu rosto dos meus pecados e purifica todas as minhas iniquidades. Cria em mim um coração puro, ó Deus, e renova nas minhas entranhas um espírito reto. Não me rejeites da Tua presença e não retires de mim o Teu Espírito Santo. Restitui-me a alegria da Tua salvação e firma-me com o Espírito soberano. Ensinarei aos iníquos os Teus caminhos, e os ímpios voltar-se-ão para Ti. Livra-me do sangue, ó Deus, Deus da minha salvação; a minha língua exultará na Tua justiça. Senhor, abrirás os meus lábios, e a minha boca anunciará o Teu louvor. Porque, se quisesses um sacrifício, eu to daria; não Te comprazes em holocaustos. Sacrifício a Deus é um espírito contrito; um coração contrito e humilhado Deus não desprezará. Faz bem, Senhor, a Sião na Tua benevolência, e sejam edificadas as muralhas de Jerusalém. Então Te comprazerás no sacrifício de justiça, na oblação e nos holocaustos; então oferecerão novilhos sobre o Teu altar.",
+   "ru": "Помилуй меня, Боже, по великой милости Твоей, и по множеству щедрот Твоих очисти беззаконие мое. Многократно омой меня от беззакония моего, и от греха моего очисти меня; ибо беззаконие мое я знаю, и грех мой всегда предо мною. Тебе единому согрешил я и лукавое пред Тобою сотворил, так что Ты оправдаешься в словах Твоих и победишь, когда будешь судить. Ибо вот, я в беззакониях зачат, и во грехах родила меня мать моя. Ибо вот, Ты возлюбил истину, неведомое и тайное премудрости Твоей Ты явил мне. Окропишь меня иссопом, и очищусь; омоешь меня, и стану белее снега. Слуху моему дашь радость и веселие; возрадуются кости смиренные. Отврати лицо Твое от грехов моих и все беззакония мои очисти. Сердце чистое созижди во мне, Боже, и дух правый обнови внутри меня. Не отвергни меня от лица Твоего и Духа Твоего Святого не отними от меня. Возврати мне радость спасения Твоего и Духом Владычественным утверди меня. Научу беззаконных путям Твоим, и нечестивые к Тебе обратятся. Избавь меня от кровей, Боже, Боже спасения моего; возрадуется язык мой правде Твоей. Господи, Ты откроешь уста мои, и уста мои возвестят хвалу Твою. Ибо если бы Ты восхотел жертвы, я дал бы ее; всесожжения Ты не благоволишь. Жертва Богу — дух сокрушенный; сердца сокрушенного и смиренного Бог не уничижит. Облагодетельствуй, Господи, благоволением Твоим Сион, и да созиждутся стены Иерусалимские. Тогда благоволишь жертву правды, возношение и всесожжения; тогда возложат на алтарь Твой тельцов.",
+   "uk": "Помилуй мене, Боже, з великої милості Твоєї, і з безлічі щедрот Твоїх очисти беззаконня моє. Найбільше омий мене від беззаконня мого, і від гріха мого очисти мене, бо беззаконня моє я знаю, і гріх мій завжди переді мною. Тобі єдиному згрішив я і лукаве перед Тобою вчинив, щоб Ти виправдався у словах Твоїх і переміг, коли судитимуть Тебе. Ось бо в беззаконнях я зачатий, і в гріхах породила мене мати моя. Ось бо Ти полюбив істину; невідоме й таємне премудрості Твоєї Ти відкрив мені. Окропиш мене іссопом — і очищуся; омиєш мене — і стану біліший від снігу. Даси мені почути радість і веселість; зрадіють кості упокорені. Відверни лице Твоє від гріхів моїх і всі беззаконня мої очисти. Серце чисте створи в мені, Боже, і дух правий онови в нутрі моєму. Не відкинь мене від лиця Твого і Духа Твого Святого не відійми від мене. Поверни мені радість спасіння Твого і Духом владичним утверди мене. Навчу беззаконних путей Твоїх, і нечестиві до Тебе навернуться. Визволи мене від крові, Боже, Боже спасіння мого; зрадіє язик мій правді Твоїй. Господи, губи мої відкриєш, і уста мої сповістять хвалу Твою. Бо якби Ти захотів жертви, я дав би її; всепалень Ти не вподобаєш. Жертва Богові — дух скрушений; серця скрушеного і смиренного Бог не зневажить. Ощаслив, Господи, благоволінням Твоїм Сіон, і нехай відбудуються стіни єрусалимські. Тоді вподобаєш жертву правди, приношення і всепалення; тоді покладуть на жертовник Твій тельців.",
+   "en": "Have mercy upon me, O God, according to Thy great mercy; and according to the multitude of Thy compassions cleanse my transgression. Wash me thoroughly from mine iniquity, and cleanse me from my sin. For I know mine iniquity, and my sin is continually before me. Against Thee only have I sinned, and done evil before Thee, that Thou mightest be justified in Thy sayings, and mightest overcome when Thou art judged. For behold, I was conceived in iniquities, and in sins did my mother bear me. For behold, Thou hast loved truth; the hidden and secret things of Thy wisdom hast Thou made manifest unto me. Thou shalt sprinkle me with hyssop, and I shall be purified; Thou shalt wash me, and I shall be made whiter than snow. Thou shalt cause me to hear gladness and joy; the humbled bones shall rejoice. Turn away Thy face from my sins, and cleanse all mine iniquities. Create in me a clean heart, O God, and renew a right spirit in my inward parts. Cast me not away from Thy presence, and take not Thy Holy Spirit from me. Restore unto me the joy of Thy salvation, and establish me with Thy sovereign Spirit. Then will I teach transgressors Thy ways, and the ungodly shall turn unto Thee. Deliver me from blood-guiltiness, O God, the God of my salvation; my tongue shall joyfully declare Thy righteousness. O Lord, Thou shalt open my lips, and my mouth shall declare Thy praise. For if Thou hadst desired sacrifice, I would have given it; Thou wilt not take pleasure in whole-burnt offerings. A sacrifice unto God is a broken spirit; a broken and humbled heart God will not despise. Do good, O Lord, unto Sion in Thy good pleasure, and let the walls of Jerusalem be built. Then shalt Thou be pleased with a sacrifice of righteousness, with oblation and whole-burnt offerings; then shall they offer calves upon Thine altar.",
+   "fonte": {
+    "cu": "Z1912 pp. 4–5",
+    "ru": "propria (Z1912 parafraseava)",
+    "en": "BR1851 Sl 50",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-30 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-55",
+   "tipo": "titulo",
+   "cu": "Кано́нъ за преста́вльшагося, гласъ 8",
+   "pt": "Cânone pelo defunto, tom 8",
+   "ru": "Канон за усопшего, глас 8",
+   "uk": "Канон за спочилого, глас 8",
+   "en": "Canon for One Departed, Tone 8",
+   "fonte": {
+    "cu": "PS1993 p. 218",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "PS1993 p. 218: «И абіе поетъ, или глаголетъ канонъ сей за преставльшагося. Гласъ 8.» É o cânone do «Послѣдованіе по исходѣ души отъ тѣла» da Псалтирь следованная (pp. 216–226), chamado nas edições correntes «канон за единоумершего». Os hirmos vêm no livro só pelo íncipit; dão-se por extenso (os das odes 1, 3–7 são os do cânone de súplica à Mãe de Deus, tom 8, já transcritos de MS1900)."
+  },
+  {
+   "id": "defuntos-panikhida-56",
+   "tipo": "titulo",
+   "cu": "Пѣснь 1",
+   "pt": "Ode 1",
+   "ru": "Песнь 1",
+   "uk": "Пісня 1",
+   "en": "Ode 1",
+   "fonte": {
+    "cu": "PS1993 p. 218",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-57",
+   "tipo": "oracao",
+   "cu": "Ирмо́съ: Во́ду проше́дъ я́ко су́шу, и еги́петскаго зла избѣжа́въ, изра́ильтянинъ вопія́ше: Изба́вителю и Бо́гу на́шему пои́мъ.",
+   "pt": "Hirmos: Tendo atravessado a água como terra seca e escapado ao mal do Egito, o israelita clamava: Cantemos ao nosso Libertador e Deus.",
+   "ru": "Ирмос: Пройдя воду, как сушу, и избежав египетского зла, израильтянин взывал: Избавителю и Богу нашему воспоем!",
+   "uk": "Ірмос: Пройшовши воду, як суходіл, і уникнувши єгипетського зла, ізраїльтянин взивав: Визволителеві і Богові нашому заспіваймо!",
+   "en": "Irmos: Having passed through the water as on dry land, and having escaped the evil of Egypt, the Israelite cried aloud: Unto our Deliverer and God let us sing.",
+   "fonte": {
+    "cu": "MS1900 p. 426",
+    "ru": "Z1912 p. 201 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a comunhao-kan-088 (comunhao_preparacao.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-58",
+   "tipo": "oracao",
+   "cu": "Поко́й, Го́споди, ду́шу усо́пшаго раба́ Твоего́.",
+   "pt": "Dá repouso, Senhor, à alma do Teu servo falecido.",
+   "ru": "Упокой, Господи, душу усопшего раба Твоего.",
+   "uk": "Упокой, Господи, душу спочилого раба Твого.",
+   "en": "Give rest, O Lord, to the soul of Thy servant who hath fallen asleep.",
+   "fonte": {
+    "cu": "PS1993 p. 218",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Refrão (PS1993 p. 218: «Стихъ: Покой Господи душу усопшаго раба Твоего»), dito antes de cada tropário, exceto antes de «Glória» e «Agora». Por uma defunta: «рабы́ Твоея́»; por vários: «ду́ши усо́пшихъ рабъ Твои́хъ»."
+  },
+  {
+   "id": "defuntos-panikhida-59",
+   "tipo": "oracao",
+   "cu": "Отве́рзъ уста́ моя́, Спа́се, сло́во ми пода́ждь моли́тися, Милосе́рде, о ны́нѣ преста́вленномъ, да поко́иши ду́шу его́, Влады́ко.",
+   "pt": "Abri a minha boca, ó Salvador: dá-me palavra para rezar, ó Misericordioso, pelo que agora faleceu, para que dês repouso à sua alma, ó Soberano.",
+   "ru": "Открыв уста мои, Спаситель, прошу: дай мне слово, Милосердный, чтобы молиться о ныне преставившемся, да упокоишь душу его, Владыка.",
+   "uk": "Відкрив я уста мої, Спасе: дай мені слово, Милосердний, молитися за нині преставленого, щоб упокоїв Ти душу його, Владико.",
+   "en": "I have opened my mouth, O Saviour: give me a word, O Merciful One, to pray for him who hath now departed, that Thou mayest give rest to his soul, O Master.",
+   "fonte": {
+    "cu": "PS1993 p. 218",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-60",
+   "tipo": "oracao",
+   "cu": "Поко́й, Го́споди, ду́шу усо́пшаго раба́ Твоего́.",
+   "pt": "Dá repouso, Senhor, à alma do Teu servo falecido.",
+   "ru": "Упокой, Господи, душу усопшего раба Твоего.",
+   "uk": "Упокой, Господи, душу спочилого раба Твого.",
+   "en": "Give rest, O Lord, to the soul of Thy servant who hath fallen asleep.",
+   "fonte": {
+    "cu": "PS1993 p. 218",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Refrão (PS1993 p. 218: «Стихъ: Покой Господи душу усопшаго раба Твоего»), dito antes de cada tropário, exceto antes de «Glória» e «Agora». Por uma defunta: «рабы́ Твоея́»; por vários: «ду́ши усо́пшихъ рабъ Твои́хъ»."
+  },
+  {
+   "id": "defuntos-panikhida-61",
+   "tipo": "oracao",
+   "cu": "Ме́ртвъ бывъ пло́тію, Спа́се, и во гро́бѣ положе́нъ съ ме́ртвыми, ду́шу раба́ Твоего́ поко́й въ мѣ́стѣ зла́чнѣ, я́ко Милосе́рдъ.",
+   "pt": "Tendo estado morto na carne, ó Salvador, e posto no sepulcro com os mortos, dá repouso à alma do Teu servo num lugar verdejante, porque és misericordioso.",
+   "ru": "Умерший плотию, Спаситель, и положенный во гроб с мертвыми, упокой душу раба Твоего в месте злачном, как Милосердный.",
+   "uk": "Помертвівши плоттю, Спасе, і покладений у гробі з мертвими, душу раба Твого упокой у місці злачному, як Милосердний.",
+   "en": "O Saviour, who wast dead in the flesh and laid in the tomb with the dead, give rest to the soul of Thy servant in a place of green pasture, as Thou art merciful.",
+   "fonte": {
+    "cu": "PS1993 p. 218",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«въ мѣ́стѣ зла́чнѣ» = ἐν τόπῳ χλοερῷ «lugar verdejante» (Sl 22,2)."
+  },
+  {
+   "id": "defuntos-panikhida-62",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху. Моле́бный гласъ мой услы́ши, Бо́же Тріипоста́сне, и учини́ ду́шу преста́вленнаго въ нѣ́дрѣхъ Авраа́млихъ, Изба́вителю.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo. Escuta a voz da minha súplica, ó Deus em três Hipóstases, e coloca a alma do falecido no seio de Abraão, ó Libertador.",
+   "ru": "Слава Отцу и Сыну и Святому Духу. Услышь мой молитвенный голос, Боже Триипостасный, и водвори душу преставившегося в лоне Авраамовом, Избавитель.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові. Почуй мій молитовний голос, Боже Триіпостасний, і помісти душу преставленого в лоні Авраамовім, Ізбавителю.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit. Hear the voice of my supplication, O God in three Hypostases, and set the soul of the departed in the bosom of Abraham, O Deliverer.",
+   "fonte": {
+    "cu": "PS1993 p. 218",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-63",
+   "tipo": "oracao",
+   "cu": "И ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь. Ты, Пречи́стая Богоро́дице, Его́же безъ иску́са му́жеска заче́нши родила́ еси́, моли́ Сы́на Твоего́ пода́ти поко́й рабу́ Твоему́ преста́вленному.",
+   "pt": "Agora e sempre e pelos séculos dos séculos. Ámen. Tu, ó puríssima Mãe de Deus, que deste à luz Aquele que concebeste sem conhecer varão, roga ao Teu Filho que dê repouso ao Teu servo falecido.",
+   "ru": "И ныне, и всегда, и во веки веков. Аминь. Ты, Пречистая Богородица, без мужа зачавшая и родившая, моли Сына Твоего подать покой рабу Твоему преставившемуся.",
+   "uk": "І нині, і повсякчас, і на віки віків. Амінь. Ти, Пречиста Богородице, що без мужа зачала і породила, моли Сина Твого подати спочинок рабові Твоєму преставленому.",
+   "en": "Now and ever, and unto ages of ages. Amen. O most pure Theotokos, who without knowing man didst conceive and bring Him forth, entreat thy Son to grant rest unto thy departed servant.",
+   "fonte": {
+    "cu": "PS1993 p. 218",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-64",
+   "tipo": "titulo",
+   "cu": "Пѣснь 3",
+   "pt": "Ode 3",
+   "ru": "Песнь 3",
+   "uk": "Пісня 3",
+   "en": "Ode 3",
+   "fonte": {
+    "cu": "PS1993 p. 218–219",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-65",
+   "tipo": "oracao",
+   "cu": "Ирмо́съ: Небе́снаго кру́га Верхотво́рче Го́споди, и Це́ркве Зижди́телю, Ты мене́ утверди́ въ любви́ Твое́й, жела́ній кра́ю, вѣ́рныхъ утвержде́ніе, еди́не Человѣколю́бче.",
+   "pt": "Hirmos: Senhor, Criador da abóbada celeste e Construtor da Igreja, firma-me no Teu amor, ó termo dos desejos, firmeza dos fiéis, único Amigo dos homens.",
+   "ru": "Ирмос: Небесного свода Творец, Господи, и Церкви Зиждитель, утверди меня в любви к Тебе, предел желаний, верных утверждение, единый Человеколюбец!",
+   "uk": "Ірмос: Небесного склепіння Творче, Господи, і Церкви Будівничий, утверди мене в любові Твоїй, межо бажань, вірних утвердження, єдиний Чоловіколюбче.",
+   "en": "Irmos: O Lord, Creator of the vault of heaven and Builder of the Church, do Thou establish me in Thy love, Thou summit of desires, the confirmation of the faithful, O only Lover of mankind.",
+   "fonte": {
+    "cu": "MS1900 p. 427",
+    "ru": "Z1912 p. 202 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a comunhao-kan-096 (comunhao_preparacao.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-66",
+   "tipo": "oracao",
+   "cu": "Поко́й, Го́споди, ду́шу усо́пшаго раба́ Твоего́.",
+   "pt": "Dá repouso, Senhor, à alma do Teu servo falecido.",
+   "ru": "Упокой, Господи, душу усопшего раба Твоего.",
+   "uk": "Упокой, Господи, душу спочилого раба Твого.",
+   "en": "Give rest, O Lord, to the soul of Thy servant who hath fallen asleep.",
+   "fonte": {
+    "cu": "PS1993 p. 218",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Refrão (PS1993 p. 218: «Стихъ: Покой Господи душу усопшаго раба Твоего»), dito antes de cada tropário, exceto antes de «Glória» e «Agora». Por uma defunta: «рабы́ Твоея́»; por vários: «ду́ши усо́пшихъ рабъ Твои́хъ»."
+  },
+  {
+   "id": "defuntos-panikhida-67",
+   "tipo": "oracao",
+   "cu": "Въ мѣ́стѣ зла́чнѣ, въ мѣ́стѣ поко́йнѣ, идѣ́же ли́цы святы́хъ веселя́тся, ду́шу раба́ Твоего́ преста́вленнаго поко́й, Христе́, еди́не Ми́лостиве.",
+   "pt": "Num lugar verdejante, num lugar de repouso, onde se alegram os coros dos santos, dá repouso, ó Cristo, à alma do Teu servo falecido, ó único Misericordioso.",
+   "ru": "В месте злачном, в месте покойном, где веселятся лики святых, упокой, Христе, душу преставившегося раба Твоего, единый Милостивый.",
+   "uk": "У місці злачному, у місці спокійному, де лики святих веселяться, душу преставленого раба Твого упокой, Христе, єдиний Милостивий.",
+   "en": "In a place of green pasture, in a place of rest, where the choirs of the Saints rejoice, give rest, O Christ, to the soul of Thy departed servant, O only Merciful One.",
+   "fonte": {
+    "cu": "PS1993 p. 219",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-68",
+   "tipo": "oracao",
+   "cu": "Поко́й, Го́споди, ду́шу усо́пшаго раба́ Твоего́.",
+   "pt": "Dá repouso, Senhor, à alma do Teu servo falecido.",
+   "ru": "Упокой, Господи, душу усопшего раба Твоего.",
+   "uk": "Упокой, Господи, душу спочилого раба Твого.",
+   "en": "Give rest, O Lord, to the soul of Thy servant who hath fallen asleep.",
+   "fonte": {
+    "cu": "PS1993 p. 218",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Refrão (PS1993 p. 218: «Стихъ: Покой Господи душу усопшаго раба Твоего»), dito antes de cada tropário, exceto antes de «Glória» e «Agora». Por uma defunta: «рабы́ Твоея́»; por vários: «ду́ши усо́пшихъ рабъ Твои́хъ»."
+  },
+  {
+   "id": "defuntos-panikhida-69",
+   "tipo": "oracao",
+   "cu": "Идѣ́же ли́цы святы́хъ, та́мо вчини́, Влады́ко, послужи́вшаго Тебѣ́ всѣ́мъ се́рдцемъ и воздви́гшаго и́го Твое́ на ра́мо свое́, я́ко еди́нъ Влады́ка живота́ и сме́рти.",
+   "pt": "Onde estão os coros dos santos, aí coloca, ó Soberano, aquele que Te serviu com todo o coração e tomou o Teu jugo sobre o seu ombro, porque só Tu és Senhor da vida e da morte.",
+   "ru": "Где лики святых, там водвори, Владыка, послужившего Тебе всем сердцем и поднявшего иго Твое на плечо свое, ибо Ты один Владыка жизни и смерти.",
+   "uk": "Де лики святих, там помісти, Владико, того, хто послужив Тобі всім серцем і взяв ярмо Твоє на рамено своє, бо Ти єдиний Владика життя і смерті.",
+   "en": "Where the choirs of the Saints are, there set, O Master, him who served Thee with all his heart and took up Thy yoke upon his shoulder, for Thou alone art Master of life and death.",
+   "fonte": {
+    "cu": "PS1993 p. 219",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-70",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху. Небе́сный О́тче Вседержи́телю, и Сы́не Единоро́дный, и Ду́ше Святы́й Исхо́дный, пре́зри уме́ршаго согрѣше́нія, и въ Це́ркви пе́рвенецъ всели́ его́ сла́вити Тя со всѣ́ми уго́ждшими Тебѣ́.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo. Pai celeste Todo-Poderoso, e Filho Unigénito, e Espírito Santo que procede, não olhes aos pecados do falecido e fá-lo habitar na Igreja dos primogénitos, para Te glorificar com todos os que Te agradaram.",
+   "ru": "Слава Отцу и Сыну и Святому Духу. Небесный Отче Вседержитель, и Сыне Единородный, и Душе Святый Исходящий, презри согрешения умершего и всели его в Церковь первенцев славить Тебя со всеми угодившими Тебе.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові. Небесний Отче Вседержителю, і Сину Єдинородний, і Душе Святий Ісходний, не зважай на прогрішення померлого і всели його в Церкву первенців славити Тебе з усіма, що догодили Тобі.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit. O heavenly Father Almighty, and only-begotten Son, and Holy Spirit who proceedest, overlook the sins of him that hath died, and make him to dwell in the Church of the first-born, to glorify Thee with all who have pleased Thee.",
+   "fonte": {
+    "cu": "PS1993 p. 219",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«Це́рковь пе́рвенецъ» = ἐκκλησία πρωτοτόκων (Hb 12,23)."
+  },
+  {
+   "id": "defuntos-panikhida-71",
+   "tipo": "oracao",
+   "cu": "И ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь. Я́ко Ма́ти свята́я Пресвята́го Бо́га, Влады́чице вся́ческихъ, Марі́е Богоро́дице, со всѣ́ми святы́ми сего́ моли́ ду́шу поко́ити раба́ Твоего́ въ небе́сныхъ селе́ніихъ.",
+   "pt": "Agora e sempre e pelos séculos dos séculos. Ámen. Como santa Mãe do Deus santíssimo, ó Senhora de todas as coisas, Maria, Mãe de Deus, com todos os santos roga-Lhe que dê repouso à alma do Teu servo nas moradas celestes.",
+   "ru": "И ныне, и всегда, и во веки веков. Аминь. Как святая Матерь Пресвятого Бога, Владычица всего, Мария Богородица, со всеми святыми моли Его упокоить душу раба Твоего в небесных селениях.",
+   "uk": "І нині, і повсякчас, і на віки віків. Амінь. Як свята Мати Пресвятого Бога, Владичице всього, Маріє Богородице, з усіма святими Його моли упокоїти душу раба Твого в небесних оселях.",
+   "en": "Now and ever, and unto ages of ages. Amen. As holy Mother of the most holy God, O Lady of all, Mary Theotokos, with all the Saints entreat Him to give rest to the soul of thy servant in the heavenly mansions.",
+   "fonte": {
+    "cu": "PS1993 p. 219",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«Марі́е Богоро́дице» (PS1993 p. 219: «мр҃іе бц҃е») conferido na imagem."
+  },
+  {
+   "id": "defuntos-panikhida-72",
+   "tipo": "rubrica",
+   "cu": "Вмѣ́сто ектеніи́:",
+   "pt": "Em lugar da litania:",
+   "ru": "Вместо ектении:",
+   "uk": "Замість єктенії:",
+   "en": "Instead of the Litany:",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Ver a nota da rubrica anterior. ⚠ Confirmação pelo clero (dec. 44)."
+  },
+  {
+   "id": "defuntos-panikhida-73",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "[Texto idêntico a manha-86 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-74",
+   "tipo": "oracao",
+   "cu": "Седа́ленъ, гласъ 5: Поко́й, Спа́се нашъ, съ пра́ведными раба́ Твоего́, и сего́ всели́ во дворы́ Твоя́, я́коже есть пи́сано, презира́я, я́ко Благъ, прегрѣше́нія его́ во́льная и нево́льная, и вся я́же въ вѣ́дѣніи и не въ вѣ́дѣніи, Человѣколю́бче.",
+   "pt": "Sedalen, tom 5: Dá repouso, ó nosso Salvador, ao Teu servo com os justos e fá-lo habitar nos Teus átrios, como está escrito, não olhando, porque és bom, aos seus pecados voluntários e involuntários, e a todos os que cometeu com conhecimento e sem conhecimento, ó Amigo dos homens.",
+   "ru": "Седален, глас 5: Упокой, Спаситель наш, с праведными раба Твоего и посели его во дворах Твоих, как написано, не взирая, как Благой, на согрешения его, вольные и невольные, и на все, совершенные сознательно и неведением, Человеколюбец.",
+   "uk": "Сідальний, глас 5: Упокой, Спасе наш, з праведними раба Твого і всели його у двори Твої, як написано, не зважаючи, як Благий, на прогрішення його вільні і невільні, і на всі, що свідомо і несвідомо, Чоловіколюбче.",
+   "en": "Sessional Hymn, Tone 5: Give rest, O our Saviour, with the righteous unto Thy servant, and make him to dwell in Thy courts, as it is written, overlooking, in that Thou art good, his transgressions voluntary and involuntary, and all that he hath done in knowledge and in ignorance, O Lover of mankind.",
+   "fonte": {
+    "cu": "MS1900 p. 325; Z1912 p. 268; T1907 p. 24",
+    "ru": "Z1912 p. 268 (adaptado)",
+    "en": "H1906 p. 567 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "RU: Z1912 «посели его в жилище Твоем, как сказано в Писании» → «во дворах Твоих, как написано». EN: Hapgood (plural) adaptado ao singular."
+  },
+  {
+   "id": "defuntos-panikhida-75",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-19 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-76",
+   "tipo": "oracao",
+   "cu": "Богоро́диченъ: Отъ Дѣ́вы возсія́вый мі́ру, Христе́ Бо́же, сы́ны свѣ́та То́ю показа́вый, поми́луй насъ.",
+   "pt": "Theotokion: Ó Cristo Deus, que resplandeceste para o mundo a partir da Virgem e por ela nos fizeste filhos da luz, tem piedade de nós.",
+   "ru": "Богородичен: Христе Боже, воссиявший миру от Девы и через Нее явивший нас сынами света, помилуй нас.",
+   "uk": "Богородичний: Христе Боже, що від Діви засяяв світові і через Неї показав нас синами світла, помилуй нас.",
+   "en": "Theotokion: O Christ God, who didst shine forth upon the world from a Virgin, and through her didst show us forth as children of light, have mercy upon us.",
+   "fonte": {
+    "cu": "Z1912 p. 268; T1907 p. 24",
+    "ru": "Z1912 p. 268 (adaptado)",
+    "en": "H1906 p. 567 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Diz-se depois de «Glória… agora e sempre…»."
+  },
+  {
+   "id": "defuntos-panikhida-77",
+   "tipo": "titulo",
+   "cu": "Пѣснь 4",
+   "pt": "Ode 4",
+   "ru": "Песнь 4",
+   "uk": "Пісня 4",
+   "en": "Ode 4",
+   "fonte": {
+    "cu": "PS1993 p. 219–220",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-78",
+   "tipo": "oracao",
+   "cu": "Ирмо́съ: Услы́шахъ, Го́споди, смотре́нія Твоего́ та́инство, разумѣ́хъ дѣла́ Твоя́ и просла́вихъ Твое́ Божество́.",
+   "pt": "Hirmos: Ouvi, Senhor, o mistério da Tua economia; compreendi as Tuas obras e glorifiquei a Tua divindade.",
+   "ru": "Ирмос: Услышал я, Господи, тайну домостроительства Твоего, уразумел дела Твои и прославил Твое Божество.",
+   "uk": "Ірмос: Почув я, Господи, таїнство Твого домобудівництва, зрозумів діла Твої і прославив Твоє Божество.",
+   "en": "Irmos: I have heard, O Lord, the mystery of Thy dispensation; I have understood Thy works, and have glorified Thy Godhead.",
+   "fonte": {
+    "cu": "MS1900 p. 430",
+    "ru": "Z1912 p. 204 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a comunhao-kan-109 (comunhao_preparacao.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-79",
+   "tipo": "oracao",
+   "cu": "Поко́й, Го́споди, ду́шу усо́пшаго раба́ Твоего́.",
+   "pt": "Dá repouso, Senhor, à alma do Teu servo falecido.",
+   "ru": "Упокой, Господи, душу усопшего раба Твоего.",
+   "uk": "Упокой, Господи, душу спочилого раба Твого.",
+   "en": "Give rest, O Lord, to the soul of Thy servant who hath fallen asleep.",
+   "fonte": {
+    "cu": "PS1993 p. 218",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Refrão (PS1993 p. 218: «Стихъ: Покой Господи душу усопшаго раба Твоего»), dito antes de cada tropário, exceto antes de «Glória» e «Agora». Por uma defunta: «рабы́ Твоея́»; por vários: «ду́ши усо́пшихъ рабъ Твои́хъ»."
+  },
+  {
+   "id": "defuntos-panikhida-80",
+   "tipo": "oracao",
+   "cu": "Соше́дый въ преиспо́дняя, Христе́, совоздви́глъ еси́ уме́ршыя вся, и преста́вльшагося отъ насъ поко́й, Спа́се, я́ко Щедръ.",
+   "pt": "Tendo descido às profundezas, ó Cristo, ressuscitaste contigo todos os mortos; dá repouso, ó Salvador, ao que partiu de entre nós, porque és compassivo.",
+   "ru": "Сошедший в преисподнюю, Христе, Ты воздвиг с Собою всех умерших; и преставившегося от нас упокой, Спаситель, как Щедрый.",
+   "uk": "Зійшовши в пекельні глибини, Христе, Ти воскресив з Собою всіх померлих; і преставленого від нас упокой, Спасе, як Щедрий.",
+   "en": "Having descended into the nethermost parts, O Christ, Thou didst raise up all the dead with Thee: give rest, O Saviour, to him that hath departed from among us, as Thou art bountiful.",
+   "fonte": {
+    "cu": "PS1993 p. 219",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-81",
+   "tipo": "oracao",
+   "cu": "Поко́й, Го́споди, ду́шу усо́пшаго раба́ Твоего́.",
+   "pt": "Dá repouso, Senhor, à alma do Teu servo falecido.",
+   "ru": "Упокой, Господи, душу усопшего раба Твоего.",
+   "uk": "Упокой, Господи, душу спочилого раба Твого.",
+   "en": "Give rest, O Lord, to the soul of Thy servant who hath fallen asleep.",
+   "fonte": {
+    "cu": "PS1993 p. 218",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Refrão (PS1993 p. 218: «Стихъ: Покой Господи душу усопшаго раба Твоего»), dito antes de cada tropário, exceto antes de «Glória» e «Agora». Por uma defunta: «рабы́ Твоея́»; por vários: «ду́ши усо́пшихъ рабъ Твои́хъ»."
+  },
+  {
+   "id": "defuntos-panikhida-82",
+   "tipo": "oracao",
+   "cu": "Никто́же безъ грѣха́ есть, то́кмо Ты еди́нъ, Влады́ко: сего́ ра́ди преста́вленному и грѣхи́ оста́ви, и въ рай того́ всели́.",
+   "pt": "Ninguém está sem pecado, senão Tu só, ó Soberano: por isso perdoa os pecados ao falecido e fá-lo habitar no paraíso.",
+   "ru": "Никто не без греха, кроме Тебя одного, Владыка; поэтому и грехи преставившемуся прости, и в рай его всели.",
+   "uk": "Ніхто не без гріха, тільки Ти єдиний, Владико; тому преставленому і гріхи прости, і в раю його всели.",
+   "en": "None is without sin save Thee alone, O Master: wherefore forgive the departed his sins, and make him to dwell in Paradise.",
+   "fonte": {
+    "cu": "PS1993 p. 219",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-83",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху. Услы́ши, Тро́ице Свята́я, гла́сы моле́бныя, приноси́мыя Тебѣ́ въ Це́ркви о усо́пшемъ, и Богонача́льнымъ Твои́мъ свѣ́томъ оза́ри ду́шу, омраче́нную свѣ́тскими привержені́и.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo. Ouve, ó Santa Trindade, as vozes de súplica que Te são oferecidas na Igreja pelo falecido, e ilumina com a Tua luz divina a alma obscurecida pelos apegos mundanos.",
+   "ru": "Слава Отцу и Сыну и Святому Духу. Услышь, Троица Святая, молитвенные голоса, приносимые Тебе в Церкви об усопшем, и Твоим Божественным светом озари душу, омраченную мирскими пристрастиями.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові. Почуй, Трійце Свята, молитовні голоси, що приносяться Тобі в Церкві за спочилого, і Твоїм Боженачальним світлом осяй душу, затьмарену світськими прив’язаннями.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit. Hear, O Holy Trinity, the voices of supplication offered unto Thee in the Church for him that hath fallen asleep, and with Thy divine light illumine his soul, darkened by worldly attachments.",
+   "fonte": {
+    "cu": "PS1993 p. 219",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«Богонача́льнымъ» = θεαρχικῷ, da Divindade que é princípio de tudo."
+  },
+  {
+   "id": "defuntos-panikhida-84",
+   "tipo": "oracao",
+   "cu": "И ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь. Родила́ еси́, Пречи́стая, безъ му́жеска сѣ́мене Бо́га соверше́нна и человѣ́ка соверше́нна, взе́млющаго грѣхи́ на́ша, Дѣ́во: Того́ моли́, Госпоже́, преста́вльшемуся рабу́ Твоему́ пода́ти поко́й.",
+   "pt": "Agora e sempre e pelos séculos dos séculos. Ámen. Deste à luz, ó Puríssima, sem semente de varão, o Deus perfeito e homem perfeito que tira os nossos pecados, ó Virgem: roga-Lhe, ó Senhora, que dê repouso ao Teu servo falecido.",
+   "ru": "И ныне, и всегда, и во веки веков. Аминь. Ты родила, Пречистая, без мужского семени совершенного Бога и совершенного Человека, взявшего грехи наши, Дева; Его моли, Госпожа, подать покой преставившемуся рабу Твоему.",
+   "uk": "І нині, і повсякчас, і на віки віків. Амінь. Ти породила, Пречиста, без чоловічого сімені Бога досконалого і Людину досконалу, Який бере гріхи наші, Діво; Його моли, Владичице, подати спочинок преставленому рабові Твоєму.",
+   "en": "Now and ever, and unto ages of ages. Amen. Thou didst bear without the seed of man, O most pure Virgin, Him who is perfect God and perfect man, who taketh away our sins: entreat Him, O Lady, to grant rest unto thy departed servant.",
+   "fonte": {
+    "cu": "PS1993 p. 220",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-85",
+   "tipo": "titulo",
+   "cu": "Пѣснь 5",
+   "pt": "Ode 5",
+   "ru": "Песнь 5",
+   "uk": "Пісня 5",
+   "en": "Ode 5",
+   "fonte": {
+    "cu": "PS1993 p. 220",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-86",
+   "tipo": "oracao",
+   "cu": "Ирмо́съ: Просвѣти́ насъ повелѣ́ніи Твои́ми, Го́споди, и мы́шцею Твое́ю высо́кою Твой миръ пода́ждь намъ, Человѣколю́бче.",
+   "pt": "Hirmos: Ilumina-nos com os Teus mandamentos, Senhor, e com o Teu braço excelso dá-nos a Tua paz, ó Amigo dos homens.",
+   "ru": "Ирмос: Просвети нас повелениями Твоими, Господи, и мышцею Твоею высокою мир Твой подай нам, Человеколюбец.",
+   "uk": "Ірмос: Просвіти нас веліннями Твоїми, Господи, і рукою Твоєю високою мир Твій подай нам, Чоловіколюбче.",
+   "en": "Irmos: Enlighten us with Thy commandments, O Lord, and with Thine uplifted arm grant us Thy peace, O Lover of mankind.",
+   "fonte": {
+    "cu": "MS1900 p. 431",
+    "ru": "Z1912 p. 204 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a comunhao-kan-119 (comunhao_preparacao.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-87",
+   "tipo": "oracao",
+   "cu": "Поко́й, Го́споди, ду́шу усо́пшаго раба́ Твоего́.",
+   "pt": "Dá repouso, Senhor, à alma do Teu servo falecido.",
+   "ru": "Упокой, Господи, душу усопшего раба Твоего.",
+   "uk": "Упокой, Господи, душу спочилого раба Твого.",
+   "en": "Give rest, O Lord, to the soul of Thy servant who hath fallen asleep.",
+   "fonte": {
+    "cu": "PS1993 p. 218",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Refrão (PS1993 p. 218: «Стихъ: Покой Господи душу усопшаго раба Твоего»), dito antes de cada tropário, exceto antes de «Glória» e «Agora». Por uma defunta: «рабы́ Твоея́»; por vários: «ду́ши усо́пшихъ рабъ Твои́хъ»."
+  },
+  {
+   "id": "defuntos-panikhida-88",
+   "tipo": "oracao",
+   "cu": "И́мый живота́ и сме́рти власть, преста́вленнаго отъ насъ поко́й, Христе́ Бо́же: Ты бо еси́ всѣхъ Спа́съ, поко́й и живо́тъ.",
+   "pt": "Tu que tens poder sobre a vida e a morte, dá repouso, ó Cristo Deus, ao que partiu de entre nós, porque Tu és o Salvador de todos, o repouso e a vida.",
+   "ru": "Имеющий власть над жизнью и смертью, упокой преставившегося от нас, Христе Боже, ибо Ты — Спаситель всех, покой и жизнь.",
+   "uk": "Ти, що маєш владу над життям і смертю, преставленого від нас упокой, Христе Боже, бо Ти єси всіх Спас, спочинок і життя.",
+   "en": "O Thou who hast power over life and death, give rest, O Christ God, to him that hath departed from among us; for Thou art the Saviour of all, the rest and the life.",
+   "fonte": {
+    "cu": "PS1993 p. 220",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-89",
+   "tipo": "oracao",
+   "cu": "Поко́й, Го́споди, ду́шу усо́пшаго раба́ Твоего́.",
+   "pt": "Dá repouso, Senhor, à alma do Teu servo falecido.",
+   "ru": "Упокой, Господи, душу усопшего раба Твоего.",
+   "uk": "Упокой, Господи, душу спочилого раба Твого.",
+   "en": "Give rest, O Lord, to the soul of Thy servant who hath fallen asleep.",
+   "fonte": {
+    "cu": "PS1993 p. 218",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Refrão (PS1993 p. 218: «Стихъ: Покой Господи душу усопшаго раба Твоего»), dito antes de cada tropário, exceto antes de «Glória» e «Agora». Por uma defunta: «рабы́ Твоея́»; por vários: «ду́ши усо́пшихъ рабъ Твои́хъ»."
+  },
+  {
+   "id": "defuntos-panikhida-90",
+   "tipo": "oracao",
+   "cu": "На Тя, Спа́се, наде́жду возло́жь, уме́рый оты́де отъ насъ: Ты же, Го́споди, уще́дри его́, я́ко Богъ Многоми́лостивъ.",
+   "pt": "Tendo posto em Ti, ó Salvador, a sua esperança, o falecido partiu de entre nós; mas Tu, Senhor, compadece-Te dele, porque és Deus de grande misericórdia.",
+   "ru": "Возложив на Тебя, Спаситель, надежду, умерший отошел от нас; Ты же, Господи, помилуй его, как Бог многомилостивый.",
+   "uk": "На Тебе, Спасе, надію поклавши, померлий відійшов від нас; Ти ж, Господи, змилосердься над ним, як Бог Багатомилостивий.",
+   "en": "Having set his hope on Thee, O Saviour, he that hath died hath departed from us: but do Thou, O Lord, have compassion on him, as God of great mercy.",
+   "fonte": {
+    "cu": "PS1993 p. 220",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-91",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху. Просвѣти́ насъ, Трисвя́те, воспѣва́емый Влады́ко, моля́щихся Тебѣ́ миръ небе́сный прія́ти, и въ ми́рныхъ се́лѣхъ ду́шу вчини́, оше́дшую отъ вре́менныхъ, въ наде́ждѣ безконе́чныя жи́зни.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo. Ilumina-nos, ó Soberano três vezes santo, a quem cantamos, a nós que Te pedimos receber a paz celeste, e coloca nas moradas da paz a alma que partiu das coisas temporais na esperança da vida sem fim.",
+   "ru": "Слава Отцу и Сыну и Святому Духу. Просвети нас, Трисвятой, воспеваемый Владыка, молящихся Тебе, чтобы принять мир небесный, и водвори в мирных селениях душу, отошедшую от временного в надежде бесконечной жизни.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові. Просвіти нас, Трисвятий, оспівуваний Владико, що молимося Тобі прийняти мир небесний, і в мирних оселях помісти душу, яка відійшла від тимчасового в надії безконечного життя.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit. Enlighten us, O thrice-holy Master whom we hymn, who pray Thee that we may receive the heavenly peace; and set in the abodes of peace the soul which hath departed from things temporal in hope of life without end.",
+   "fonte": {
+    "cu": "PS1993 p. 220",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-92",
+   "tipo": "oracao",
+   "cu": "И ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь. Шу́яго стоя́нія, Пречи́стая, изба́вити преста́вленнаго умоли́ Сы́на Твоего́, Дѣ́во Госпоже́, я́ко Спа́са и Бо́га на́шего Ма́ти су́щая.",
+   "pt": "Agora e sempre e pelos séculos dos séculos. Ámen. Roga ao Teu Filho, ó Puríssima, Virgem Senhora, que livre o falecido do lugar à esquerda, pois és Mãe do nosso Salvador e Deus.",
+   "ru": "И ныне, и всегда, и во веки веков. Аминь. Умоли, Пречистая Дева Госпожа, Сына Твоего избавить преставившегося от стояния по левую сторону, ибо Ты — Матерь Спаса и Бога нашего.",
+   "uk": "І нині, і повсякчас, і на віки віків. Амінь. Від стояння ліворуч, Пречиста, визволити преставленого умоли Сина Твого, Діво Владичице, бо Ти єси Мати Спаса і Бога нашого.",
+   "en": "Now and ever, and unto ages of ages. Amen. Entreat thy Son, O most pure Virgin and Lady, to deliver the departed from standing on the left hand, for thou art the Mother of our Saviour and God.",
+   "fonte": {
+    "cu": "PS1993 p. 220",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«шу́ее стоя́ніе»: o lugar à esquerda no Juízo (Mt 25,33)."
+  },
+  {
+   "id": "defuntos-panikhida-93",
+   "tipo": "titulo",
+   "cu": "Пѣснь 6",
+   "pt": "Ode 6",
+   "ru": "Песнь 6",
+   "uk": "Пісня 6",
+   "en": "Ode 6",
+   "fonte": {
+    "cu": "PS1993 p. 220–221",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-94",
+   "tipo": "oracao",
+   "cu": "Ирмо́съ: Моли́тву пролію́ ко Го́споду, и Тому́ возвѣщу́ печа́ли моя́, я́ко золъ душа́ моя́ испо́лнися, и живо́тъ мой а́ду прибли́жися, и молю́ся я́ко Іо́на: отъ тли, Бо́же, возведи́ мя.",
+   "pt": "Hirmos: Derramarei a minha oração diante do Senhor e a Ele contarei as minhas tristezas, porque a minha alma se encheu de males e a minha vida se aproximou do Hades; e rezo como Jonas: Da corrupção, ó Deus, faz-me subir.",
+   "ru": "Ирмос: Пролью молитву ко Господу и Ему возвещу печали мои, ибо душа моя исполнилась зол и жизнь моя приблизилась к аду, и молюсь, как Иона: из тления, Боже, возведи меня.",
+   "uk": "Ірмос: Молитву виллю до Господа і Йому звіщу печалі мої, бо душа моя сповнилася зла, і життя моє наблизилося до аду, і молюся, як Іона: з тління, Боже, виведи мене.",
+   "en": "Irmos: I will pour out my prayer unto the Lord, and unto Him will I declare my griefs; for my soul is filled with evils, and my life hath drawn nigh unto Hades; and like Jonah I pray: From corruption, O God, raise me up.",
+   "fonte": {
+    "cu": "MS1900 p. 433",
+    "ru": "Z1912 p. 205 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a comunhao-kan-127 (comunhao_preparacao.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-95",
+   "tipo": "oracao",
+   "cu": "Поко́й, Го́споди, ду́шу усо́пшаго раба́ Твоего́.",
+   "pt": "Dá repouso, Senhor, à alma do Teu servo falecido.",
+   "ru": "Упокой, Господи, душу усопшего раба Твоего.",
+   "uk": "Упокой, Господи, душу спочилого раба Твого.",
+   "en": "Give rest, O Lord, to the soul of Thy servant who hath fallen asleep.",
+   "fonte": {
+    "cu": "PS1993 p. 218",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Refrão (PS1993 p. 218: «Стихъ: Покой Господи душу усопшаго раба Твоего»), dito antes de cada tropário, exceto antes de «Glória» e «Agora». Por uma defunta: «рабы́ Твоея́»; por vários: «ду́ши усо́пшихъ рабъ Твои́хъ»."
+  },
+  {
+   "id": "defuntos-panikhida-96",
+   "tipo": "oracao",
+   "cu": "А́да испрове́ргъ, Влады́ко, воскреси́лъ еси́ уме́ршыя отъ вѣ́ка: и ны́нѣ преста́вленнаго отъ насъ въ нѣ́дро Авраа́мле Ты, Бо́же, всели́, прегрѣше́нія вся отпу́стивъ, я́ко Милосе́рдъ.",
+   "pt": "Tendo derrubado o Hades, ó Soberano, ressuscitaste os mortos de todos os séculos; e agora, ó Deus, faz habitar no seio de Abraão o que partiu de entre nós, perdoando-lhe todos os pecados, porque és misericordioso.",
+   "ru": "Низвергнув ад, Владыка, Ты воскресил умерших от века; и ныне преставившегося от нас всели, Боже, в лоно Авраамово, отпустив ему все согрешения, как Милосердный.",
+   "uk": "Зруйнувавши ад, Владико, Ти воскресив померлих від віку; і нині преставленого від нас у лоно Авраамове, Боже, всели, всі прогрішення відпустивши, як Милосердний.",
+   "en": "Having overthrown Hades, O Master, Thou didst raise up them that had died from all ages: and now, O God, make him that hath departed from among us to dwell in the bosom of Abraham, forgiving all his transgressions, as Thou art merciful.",
+   "fonte": {
+    "cu": "PS1993 p. 220",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "PS1993 p. 220: «ѿпꙋ́стивъ». «адъ» (ᾅδης) = «Hades» (dec. 71)."
+  },
+  {
+   "id": "defuntos-panikhida-97",
+   "tipo": "oracao",
+   "cu": "Поко́й, Го́споди, ду́шу усо́пшаго раба́ Твоего́.",
+   "pt": "Dá repouso, Senhor, à alma do Teu servo falecido.",
+   "ru": "Упокой, Господи, душу усопшего раба Твоего.",
+   "uk": "Упокой, Господи, душу спочилого раба Твого.",
+   "en": "Give rest, O Lord, to the soul of Thy servant who hath fallen asleep.",
+   "fonte": {
+    "cu": "PS1993 p. 218",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Refrão (PS1993 p. 218: «Стихъ: Покой Господи душу усопшаго раба Твоего»), dito antes de cada tropário, exceto antes de «Glória» e «Agora». Por uma defunta: «рабы́ Твоея́»; por vários: «ду́ши усо́пшихъ рабъ Твои́хъ»."
+  },
+  {
+   "id": "defuntos-panikhida-98",
+   "tipo": "oracao",
+   "cu": "За́повѣдь, ю́же ми далъ еси́, Бо́же, преступи́хъ и сме́ртенъ быхъ: но Ты, Бо́же, соше́дый во гробъ и ду́шы я́же отъ вѣ́ка воскреси́вый, не возста́ви мене́, Влады́ко, на муче́ніе, но на поко́й, преста́вленный вопіе́тъ Тебѣ́ на́ми, Многоми́лостиве.",
+   "pt": "«Transgredi o mandamento que me deste, ó Deus, e tornei-me mortal; mas Tu, ó Deus, que desceste ao sepulcro e ressuscitaste as almas dos séculos, não me levantes, ó Soberano, para o tormento, mas para o repouso»: assim Te clama o falecido por nós, ó Misericordiosíssimo.",
+   "ru": "«Заповедь, которую Ты мне дал, Боже, я преступил и стал смертным; но Ты, Боже, сошедший во гроб и воскресивший души от века, не воздвигни меня, Владыка, на мучение, но на покой», — взывает Тебе через нас преставившийся, Многомилостивый.",
+   "uk": "«Заповідь, яку Ти дав мені, Боже, я переступив і став смертним; але Ти, Боже, що зійшов у гроб і душі від віку воскресив, не підійми мене, Владико, на муку, а на спочинок», — взиває до Тебе через нас преставлений, Багатомилостивий.",
+   "en": "«I transgressed the commandment which Thou gavest me, O God, and became mortal; but Thou, O God, who didst descend into the tomb and raise up the souls of all the ages, raise me not, O Master, unto torment, but unto rest»: thus doth the departed cry unto Thee through us, O most Merciful.",
+   "fonte": {
+    "cu": "PS1993 p. 221",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-99",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху. Мо́лимъ Тя, Безнача́льне О́тче, и Сы́не, и Ду́ше Святы́й: зло́бою душезло́бнаго мі́ра озло́бленную и къ Тебѣ́ Зижди́телю прише́дшую ду́шу во а́дово дно не отри́ни, Бо́же Спа́се мой.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo. Rogamos-Te, ó Pai sem princípio, e Filho, e Espírito Santo: a alma afligida pela maldade do mundo, mau para as almas, e que veio a Ti, seu Criador, não a lances no fundo do Hades, ó Deus, meu Salvador.",
+   "ru": "Слава Отцу и Сыну и Святому Духу. Молим Тебя, Безначальный Отче, и Сыне, и Душе Святый: душу, удрученную злобою душевредного мира и пришедшую к Тебе, Создателю, не отринь на дно ада, Боже, Спаситель мой.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові. Молимо Тебе, Безначальний Отче, і Сину, і Душе Святий: душу, озлоблену злобою душезлобного світу, що прийшла до Тебе, Творця, на дно аду не відкинь, Боже, Спасе мій.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit. We beseech Thee, O Father without beginning, and Son, and Holy Spirit: the soul which hath been afflicted by the malice of the soul-destroying world and hath come unto Thee its Creator, cast not down into the depth of Hades, O God my Saviour.",
+   "fonte": {
+    "cu": "PS1993 p. 221",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«адъ» (ᾅδης) = «Hades» (dec. 71)."
+  },
+  {
+   "id": "defuntos-panikhida-100",
+   "tipo": "oracao",
+   "cu": "И ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь. Съ небесе́ Христо́съ Богъ нашъ, я́ко дождь на руно́, Пречи́стая, сни́де на Тя, напая́я весь міръ, и изсуша́я вся безбо́жныя пото́ки, наводня́яй всю зе́млю ра́зумомъ Свои́мъ, Приснодѣ́во: Того́ моли́ да́ти поко́й преста́вленному рабу́ Твоему́.",
+   "pt": "Agora e sempre e pelos séculos dos séculos. Ámen. Do céu, ó Puríssima, Cristo nosso Deus desceu sobre Ti como a chuva sobre o velo, regando o mundo inteiro e secando todas as torrentes da impiedade, inundando toda a terra com o Seu conhecimento, ó sempre Virgem: roga-Lhe que dê repouso ao Teu servo falecido.",
+   "ru": "И ныне, и всегда, и во веки веков. Аминь. С неба Христос Бог наш, как дождь на руно, Пречистая, сошел на Тебя, напояя весь мир и иссушая все безбожные потоки, наводняя всю землю познанием Своим, Приснодева; Его моли дать покой преставившемуся рабу Твоему.",
+   "uk": "І нині, і повсякчас, і на віки віків. Амінь. З неба Христос Бог наш, як дощ на руно, Пречиста, зійшов на Тебе, напуваючи весь світ і висушуючи всі безбожні потоки, наповнюючи всю землю пізнанням Своїм, Приснодіво; Його моли дати спочинок преставленому рабові Твоєму.",
+   "en": "Now and ever, and unto ages of ages. Amen. Christ our God came down from heaven upon thee, O most pure one, as rain upon the fleece, watering the whole world and drying up all the torrents of ungodliness, flooding all the earth with His knowledge, O ever-Virgin: entreat Him to grant rest unto thy departed servant.",
+   "fonte": {
+    "cu": "PS1993 p. 221",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«руно́»: o velo de Gedeão (Jz 6,37; Sl 71,6)."
+  },
+  {
+   "id": "defuntos-panikhida-101",
+   "tipo": "rubrica",
+   "cu": "Вмѣ́сто ектеніи́:",
+   "pt": "Em lugar da litania:",
+   "ru": "Вместо ектении:",
+   "uk": "Замість єктенії:",
+   "en": "Instead of the Litany:",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Ver a nota da rubrica anterior. ⚠ Confirmação pelo clero (dec. 44)."
+  },
+  {
+   "id": "defuntos-panikhida-102",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "[Texto idêntico a manha-86 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-103",
+   "tipo": "oracao",
+   "cu": "Конда́къ, гласъ 8: Со святы́ми упоко́й, Христе́, ду́шу раба́ Твоего́, идѣ́же нѣсть болѣ́знь, ни печа́ль, ни воздыха́ніе, но жизнь безконе́чная.",
+   "pt": "Condácio, tom 8: Com os santos dá repouso, ó Cristo, à alma do Teu servo, onde não há dor, nem tristeza, nem suspiro, mas vida sem fim.",
+   "ru": "Кондак, глас 8: Со святыми упокой, Христе, душу раба Твоего, где нет ни болезни, ни печали, ни воздыхания, но жизнь бесконечная.",
+   "uk": "Кондак, глас 8: Зі святими упокой, Христе, душу раба Твого, де нема ні болізні, ні печалі, ні зітхання, але життя безконечне.",
+   "en": "Kontakion, Tone 8: With the Saints give rest, O Christ, to the soul of Thy servant, where there is neither sickness, nor sorrow, nor sighing, but life everlasting.",
+   "fonte": {
+    "cu": "MS1900 p. 326; PS1993 p. 221; Z1912 p. 269",
+    "ru": "Z1912 p. 269 (adaptado)",
+    "en": "H1906 p. 567 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "RU: Z1912 «ни стона» → «ни воздыхания»."
+  },
+  {
+   "id": "defuntos-panikhida-104",
+   "tipo": "oracao",
+   "cu": "И́косъ: Самъ еди́нъ еси́ Безсме́ртный, сотвори́вый и созда́вый человѣ́ка: земні́и у́бо отъ земли́ созда́хомся, и въ зе́млю ту́южде по́йдемъ, я́коже повелѣ́лъ еси́, созда́вый мя и рекі́й ми: я́ко земля́ еси́ и въ зе́млю оты́деши, а́може вси человѣ́цы по́йдемъ, надгро́бное рыда́ніе творя́ще пѣснь: аллилу́іа, аллилу́іа, аллилу́іа.",
+   "pt": "Ikos: Só Tu és imortal, que fizeste e formaste o homem; nós, os terrenos, fomos formados da terra e à mesma terra iremos, como ordenaste quando me formaste e me disseste: «Tu és terra e à terra voltarás»; para lá iremos todos os homens, fazendo do pranto fúnebre um cântico: aleluia, aleluia, aleluia.",
+   "ru": "Икос: Ты один бессмертен, сотворивший и создавший человека; мы же, земные, из земли созданы и в ту же землю пойдем, как Ты повелел, создавший меня и сказавший мне: «Ты — земля и в землю отойдешь», куда все мы, люди, пойдем, творя надгробное рыдание песнью: аллилуиа, аллилуиа, аллилуиа.",
+   "uk": "Ікос: Ти єдиний єси безсмертний, що сотворив і создав людину; ми ж, земні, з землі створені і в ту саму землю підемо, як Ти повелів, створивши мене і сказавши мені: «Ти земля і в землю відійдеш»; туди всі люди підемо, творячи надгробне ридання піснею: алилуя, алилуя, алилуя.",
+   "en": "Ikos: Thou alone art immortal, who didst create and fashion man; but we mortals were fashioned from the earth, and unto the same earth shall we return, as Thou didst command when Thou didst fashion me and say unto me: Earth thou art, and unto earth shalt thou return; whither all we mortals go, making of our funeral lament the song: Alleluia, alleluia, alleluia.",
+   "fonte": {
+    "cu": "MS1900 p. 326; PS1993 p. 221; Z1912 p. 269",
+    "ru": "Z1912 p. 269 (adaptado)",
+    "en": "H1906 p. 567 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«Аллилуіа» três vezes: PS1993 p. 221 «[Трижды]»; MS1900 e Z1912 trazem-no uma vez. RU: Z1912 adaptado («пойдем с песнью: «аллилуиа», как надгробным плачем» → ordem do eslavo)."
+  },
+  {
+   "id": "defuntos-panikhida-105",
+   "tipo": "titulo",
+   "cu": "Пѣснь 7",
+   "pt": "Ode 7",
+   "ru": "Песнь 7",
+   "uk": "Пісня 7",
+   "en": "Ode 7",
+   "fonte": {
+    "cu": "PS1993 p. 222",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-106",
+   "tipo": "oracao",
+   "cu": "Ирмо́съ: Отъ Іуде́и доше́дше о́троцы, въ Вавило́нѣ иногда́, вѣ́рою Тро́ическою пла́мень пе́щный попра́ша, пою́ще: отце́въ Бо́же, благослове́нъ еси́.",
+   "pt": "Hirmos: Os jovens vindos da Judeia, outrora em Babilónia, pela fé na Trindade calcaram a chama da fornalha, cantando: Ó Deus de nossos pais, bendito és Tu.",
+   "ru": "Ирмос: Пришедшие из Иудеи юноши некогда в Вавилоне верою в Троицу попрали пламя печи, воспевая: Боже отцов наших, благословен Ты!",
+   "uk": "Ірмос: Прийшовши з Юдеї, отроки колись у Вавилоні вірою в Трійцю полум’я печі потоптали, співаючи: Боже отців, благословен єси.",
+   "en": "Irmos: The youths that came from Judaea, once in Babylon, by faith in the Trinity trampled down the flame of the furnace, singing: O God of our fathers, blessed art Thou.",
+   "fonte": {
+    "cu": "MS1900 p. 436",
+    "ru": "Z1912 p. 206 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a comunhao-kan-143 (comunhao_preparacao.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-107",
+   "tipo": "oracao",
+   "cu": "Поко́й, Го́споди, ду́шу усо́пшаго раба́ Твоего́.",
+   "pt": "Dá repouso, Senhor, à alma do Teu servo falecido.",
+   "ru": "Упокой, Господи, душу усопшего раба Твоего.",
+   "uk": "Упокой, Господи, душу спочилого раба Твого.",
+   "en": "Give rest, O Lord, to the soul of Thy servant who hath fallen asleep.",
+   "fonte": {
+    "cu": "PS1993 p. 218",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Refrão (PS1993 p. 218: «Стихъ: Покой Господи душу усопшаго раба Твоего»), dito antes de cada tropário, exceto antes de «Glória» e «Agora». Por uma defunta: «рабы́ Твоея́»; por vários: «ду́ши усо́пшихъ рабъ Твои́хъ»."
+  },
+  {
+   "id": "defuntos-panikhida-108",
+   "tipo": "oracao",
+   "cu": "Влады́ко Христе́ Бо́же, егда́ хо́щеши суди́ти мі́ру, пощади́ ду́шу раба́ Твоего́, его́же отъ насъ прія́лъ еси́, вопію́щаго: оте́цъ на́шихъ Бо́же, благослове́нъ еси́.",
+   "pt": "Ó Soberano Cristo Deus, quando vieres julgar o mundo, poupa a alma do Teu servo que tomaste de entre nós e que clama: Bendito és Tu, ó Deus de nossos pais.",
+   "ru": "Владыка Христе Боже, когда придешь судить мир, пощади душу раба Твоего, которого Ты принял от нас, взывающего: Боже отцов наших, благословен Ты!",
+   "uk": "Владико Христе Боже, коли судитимеш світ, пощади душу раба Твого, якого Ти прийняв від нас, що взиває: отців наших Боже, благословен єси.",
+   "en": "O Master Christ God, when Thou comest to judge the world, spare the soul of Thy servant whom Thou hast taken from us, as he crieth: Blessed art Thou, O God of our fathers.",
+   "fonte": {
+    "cu": "PS1993 p. 222",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-109",
+   "tipo": "oracao",
+   "cu": "Поко́й, Го́споди, ду́шу усо́пшаго раба́ Твоего́.",
+   "pt": "Dá repouso, Senhor, à alma do Teu servo falecido.",
+   "ru": "Упокой, Господи, душу усопшего раба Твоего.",
+   "uk": "Упокой, Господи, душу спочилого раба Твого.",
+   "en": "Give rest, O Lord, to the soul of Thy servant who hath fallen asleep.",
+   "fonte": {
+    "cu": "PS1993 p. 218",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Refrão (PS1993 p. 218: «Стихъ: Покой Господи душу усопшаго раба Твоего»), dito antes de cada tropário, exceto antes de «Glória» e «Agora». Por uma defunta: «рабы́ Твоея́»; por vários: «ду́ши усо́пшихъ рабъ Твои́хъ»."
+  },
+  {
+   "id": "defuntos-panikhida-110",
+   "tipo": "oracao",
+   "cu": "Въ пи́щи ра́йстѣй, идѣ́же пра́ведныхъ ду́шы веселя́тся, послужи́вшихъ Тебѣ́, причти́ съ ни́ми, Христе́, ду́шу раба́ Твоего́, воспѣ́вшаго: оте́цъ на́шихъ Бо́же, благослове́нъ еси́.",
+   "pt": "Nas delícias do paraíso, onde se alegram as almas dos justos que Te serviram, conta com elas, ó Cristo, a alma do Teu servo que cantou: Bendito és Tu, ó Deus de nossos pais.",
+   "ru": "В райской пище, где веселятся души праведных, послуживших Тебе, причти к ним, Христе, душу раба Твоего, воспевавшего: Боже отцов наших, благословен Ты!",
+   "uk": "У райській насолоді, де веселяться душі праведних, що послужили Тобі, причисли до них, Христе, душу раба Твого, що оспівував: отців наших Боже, благословен єси.",
+   "en": "In the delight of Paradise, where the souls of the righteous who served Thee rejoice, number with them, O Christ, the soul of Thy servant who sang: Blessed art Thou, O God of our fathers.",
+   "fonte": {
+    "cu": "PS1993 p. 222",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«пи́ща ра́йская» = τρυφή «delícia» do paraíso (Gn 2,15 LXX «παράδεισος τῆς τρυφῆς»)."
+  },
+  {
+   "id": "defuntos-panikhida-111",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху. Іуде́йскія три о́троки спасы́й во огни́, въ трі́ехъ ли́цѣхъ воспѣ́тый, изба́ви огня́ вѣ́чнаго усо́пшаго, воспѣ́вшаго Ти вѣ́рно: оте́цъ на́шихъ Бо́же, благослове́нъ еси́.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo. Tu que salvaste no fogo os três jovens judeus, louvado em três Pessoas, livra do fogo eterno o falecido que Te cantou com fé: Bendito és Tu, ó Deus de nossos pais.",
+   "ru": "Слава Отцу и Сыну и Святому Духу. Спасший во огне трех отроков иудейских, воспетый в трех Лицах, избавь от вечного огня усопшего, верно воспевавшего Тебе: Боже отцов наших, благословен Ты!",
+   "uk": "Слава Отцю, і Сину, і Святому Духові. Ти, що спас трьох отроків юдейських у вогні, оспіваний у трьох Особах, визволи від вогню вічного спочилого, що вірно співав Тобі: отців наших Боже, благословен єси.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit. O Thou who didst save the three Hebrew youths in the fire, who art praised in three Persons, deliver from the eternal fire him that hath fallen asleep, who sang unto Thee faithfully: Blessed art Thou, O God of our fathers.",
+   "fonte": {
+    "cu": "PS1993 p. 222",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-112",
+   "tipo": "oracao",
+   "cu": "И ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь. Иса́ія Тя же́злъ нарече́, Чи́стая, Даніи́лъ же го́ру несѣко́мую, Іезекі́иль же дверь, изъ нея́же про́йде Христо́съ: мы́ же Тя и́стинную Богоро́дицу имену́юще велича́емъ.",
+   "pt": "Agora e sempre e pelos séculos dos séculos. Ámen. Isaías chamou-Te vara, ó Pura; Daniel, monte não talhado; Ezequiel, porta por onde passou Cristo; e nós, chamando-Te verdadeira Mãe de Deus, engrandecemos-Te.",
+   "ru": "И ныне, и всегда, и во веки веков. Аминь. Исаия назвал Тебя жезлом, Чистая, Даниил — горою несекомою, Иезекииль — дверью, через которую прошел Христос; мы же, именуя Тебя истинною Богородицею, величаем.",
+   "uk": "І нині, і повсякчас, і на віки віків. Амінь. Ісая назвав Тебе жезлом, Чиста, Даниїл же — горою несіченою, Ієзекиїль же — дверима, крізь які пройшов Христос; ми ж, іменуючи Тебе істинною Богородицею, величаємо.",
+   "en": "Now and ever, and unto ages of ages. Amen. Isaiah called thee a rod, O pure one; Daniel, a mountain unhewn; Ezekiel, the door through which Christ passed: and we, naming thee truly Theotokos, magnify thee.",
+   "fonte": {
+    "cu": "PS1993 p. 222",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-113",
+   "tipo": "titulo",
+   "cu": "Пѣснь 8",
+   "pt": "Ode 8",
+   "ru": "Песнь 8",
+   "uk": "Пісня 8",
+   "en": "Ode 8",
+   "fonte": {
+    "cu": "PS1993 p. 222–223",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-114",
+   "tipo": "oracao",
+   "cu": "Ирмо́съ: Седмери́цею пещь халде́йскій мучи́тель богочести́вымъ неи́стовно разжже́, си́лою же лу́чшею спасе́ны сія́ ви́дѣвъ, Творцу́ и Изба́вителю вопія́ше: о́троцы, благослови́те, свяще́нницы, воспо́йте, лю́діе, превозноси́те во вся вѣ́ки.",
+   "pt": "Hirmos: O tirano caldeu, enfurecido, acendeu sete vezes mais a fornalha para os servos de Deus; mas, ao vê-los salvos por um poder superior, clamava ao Criador e Libertador: Jovens, bendizei; sacerdotes, cantai; povo, exaltai-O por todos os séculos.",
+   "ru": "Ирмос: Халдейский мучитель для благочестивых в неистовстве разжег печь всемеро сильнее; но, увидев их спасенными высшею силою, взывал к Творцу и Избавителю: отроки, благословите, священники, воспойте, люди, превозносите Его во все века!",
+   "uk": "Ірмос: Халдейський мучитель для боголюбців несамовито розпалив піч усемеро; та, побачивши їх спасенними силою вищою, до Творця і Ізбавителя взивав: отроки, благословіть, священики, оспівуйте, люди, превозносьте на всі віки.",
+   "en": "Irmos: The Chaldean tyrant in his fury heated the furnace sevenfold for the godly; but seeing them saved by a mightier power, he cried unto the Creator and Deliverer: Ye youths, bless; ye priests, praise; ye people, supremely exalt Him unto all ages.",
+   "fonte": {
+    "cu": "PS1993 p. 222 (só o íncipit)",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "⚠ PS1993 p. 222 dá só o íncipit «Седмерицею пещь»; texto completo do hirmos do tom 8 segundo o texto corrente (Octoechos, tom 8), não verificado em imagem pré-1917."
+  },
+  {
+   "id": "defuntos-panikhida-115",
+   "tipo": "oracao",
+   "cu": "Поко́й, Го́споди, ду́шу усо́пшаго раба́ Твоего́.",
+   "pt": "Dá repouso, Senhor, à alma do Teu servo falecido.",
+   "ru": "Упокой, Господи, душу усопшего раба Твоего.",
+   "uk": "Упокой, Господи, душу спочилого раба Твого.",
+   "en": "Give rest, O Lord, to the soul of Thy servant who hath fallen asleep.",
+   "fonte": {
+    "cu": "PS1993 p. 218",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Refrão (PS1993 p. 218: «Стихъ: Покой Господи душу усопшаго раба Твоего»), dito antes de cada tropário, exceto antes de «Glória» e «Agora». Por uma defunta: «рабы́ Твоея́»; por vários: «ду́ши усо́пшихъ рабъ Твои́хъ»."
+  },
+  {
+   "id": "defuntos-panikhida-116",
+   "tipo": "oracao",
+   "cu": "Сконча́въ тече́ніе, и къ Тебѣ́ прибѣго́хъ, Го́споди, преста́вленный вопіе́тъ ны́нѣ: прегрѣше́нія оста́ви, Христе́ Бо́же, и не осуди́ мене́, егда́ хо́щеши суди́ти всѣ́мъ: вѣ́рно бо Тебѣ́ взыва́хъ: вся дѣла́ Госпо́дня Го́спода по́йте, и превозноси́те Его́ во вѣ́ки.",
+   "pt": "«Terminei a carreira e a Ti me acolhi, Senhor», clama agora o falecido; «perdoa os pecados, ó Cristo Deus, e não me condenes quando vieres julgar todos, pois com fé Te clamava: Todas as obras do Senhor, cantai ao Senhor e exaltai-O pelos séculos».",
+   "ru": "«Окончив течение, к Тебе прибегаю, Господи», — взывает ныне преставившийся, — «прости согрешения, Христе Боже, и не осуди меня, когда придешь судить всех, ибо я верно взывал к Тебе: все дела Господни, пойте Господа и превозносите Его во веки».",
+   "uk": "«Закінчивши біг, я прибіг до Тебе, Господи», — взиває нині преставлений, — «прости прогрішення, Христе Боже, і не осуди мене, коли судитимеш усіх, бо я вірно взивав до Тебе: всі діла Господні, співайте Господеві і превозносьте Його навіки».",
+   "en": "«Having finished my course, I have fled unto Thee, O Lord», the departed now crieth: «forgive my transgressions, O Christ God, and condemn me not when Thou comest to judge all; for faithfully I cried unto Thee: All ye works of the Lord, praise ye the Lord and supremely exalt Him unto the ages».",
+   "fonte": {
+    "cu": "PS1993 p. 222",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-117",
+   "tipo": "oracao",
+   "cu": "Поко́й, Го́споди, ду́шу усо́пшаго раба́ Твоего́.",
+   "pt": "Dá repouso, Senhor, à alma do Teu servo falecido.",
+   "ru": "Упокой, Господи, душу усопшего раба Твоего.",
+   "uk": "Упокой, Господи, душу спочилого раба Твого.",
+   "en": "Give rest, O Lord, to the soul of Thy servant who hath fallen asleep.",
+   "fonte": {
+    "cu": "PS1993 p. 218",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Refrão (PS1993 p. 218: «Стихъ: Покой Господи душу усопшаго раба Твоего»), dito antes de cada tropário, exceto antes de «Glória» e «Agora». Por uma defunta: «рабы́ Твоея́»; por vários: «ду́ши усо́пшихъ рабъ Твои́хъ»."
+  },
+  {
+   "id": "defuntos-panikhida-118",
+   "tipo": "oracao",
+   "cu": "Поне́сшаго, Влады́ко, и́го Твое́ на ра́мѣ свое́мъ и бре́мя Твое́ ле́гкое, а́ще и не всегда́, оба́че въ мѣ́стѣ пра́ведныхъ Твои́хъ всели́ ду́шу его́, воспѣ́вшаго Тебѣ́, Христе́ Спа́се: о́троцы, благослови́те, свяще́нницы, воспо́йте, лю́діе, превозноси́те Его́ во вѣ́ки.",
+   "pt": "Àquele que levou, ó Soberano, o Teu jugo sobre o ombro e o Teu fardo leve, ainda que não sempre, faz-lhe habitar a alma no lugar dos Teus justos, pois Te cantou, ó Cristo Salvador: Jovens, bendizei; sacerdotes, cantai; povo, exaltai-O pelos séculos.",
+   "ru": "Понесшего, Владыка, иго Твое на плече своем и бремя Твое легкое, хотя и не всегда, всели все же в месте праведных Твоих, душу его, воспевавшего Тебе, Христе Спаситель: отроки, благословите, священники, воспойте, люди, превозносите Его во веки!",
+   "uk": "Того, хто ніс, Владико, ярмо Твоє на рамені своєму і тягар Твій легкий, хоч і не завжди, все ж душу його всели в місці праведних Твоїх, бо він оспівував Тебе, Христе Спасе: отроки, благословіть, священики, оспівуйте, люди, превозносьте Його навіки.",
+   "en": "Him who bore, O Master, Thy yoke upon his shoulder and Thy light burden, though not always, yet do Thou make his soul to dwell in the place of Thy righteous ones, for he sang unto Thee, O Christ Saviour: Ye youths, bless; ye priests, praise; ye people, supremely exalt Him unto the ages.",
+   "fonte": {
+    "cu": "PS1993 p. 222–223",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«и́го… бре́мя Твое́ ле́гкое» (Mt 11,30)."
+  },
+  {
+   "id": "defuntos-panikhida-119",
+   "tipo": "oracao",
+   "cu": "Благослови́мъ Отца́ и Сы́на и Свята́го Ду́ха, Го́спода. Безнача́льная Тро́ице Свята́я, Бо́же О́тче, и Сы́не, и Ду́ше Святы́й, въ ли́цѣ святы́хъ причти́ ду́шу преста́вленнаго раба́ Твоего́, и огня́ вѣ́чнаго изба́ви, да Тя хва́литъ, воспѣва́я во вѣ́ки: о́троцы, благослови́те, свяще́нницы, воспо́йте, лю́діе, превозноси́те Его́ во вѣ́ки.",
+   "pt": "Bendigamos o Pai e o Filho e o Espírito Santo, o Senhor. Santa Trindade sem princípio, Deus Pai, e Filho, e Espírito Santo, conta no coro dos santos a alma do Teu servo falecido e livra-o do fogo eterno, para que Te louve cantando pelos séculos: Jovens, bendizei; sacerdotes, cantai; povo, exaltai-O pelos séculos.",
+   "ru": "Благословим Отца и Сына и Святого Духа, Господа. Безначальная Троица Святая, Боже Отче, и Сыне, и Душе Святый, к лику святых причти душу преставившегося раба Твоего и от вечного огня избавь, да хвалит Тебя, воспевая во веки: отроки, благословите, священники, воспойте, люди, превозносите Его во веки!",
+   "uk": "Благословімо Отця, і Сина, і Святого Духа, Господа. Безначальна Трійце Свята, Боже Отче, і Сину, і Душе Святий, до лику святих причисли душу преставленого раба Твого і від вогню вічного визволи, щоб хвалив Тебе, оспівуючи навіки: отроки, благословіть, священики, оспівуйте, люди, превозносьте Його навіки.",
+   "en": "Let us bless the Father, and the Son, and the Holy Spirit, the Lord. O Holy Trinity without beginning, God the Father, and the Son, and the Holy Spirit, number in the choir of the Saints the soul of Thy departed servant, and deliver him from the eternal fire, that he may praise Thee, hymning Thee unto the ages: Ye youths, bless; ye priests, praise; ye people, supremely exalt Him unto the ages.",
+   "fonte": {
+    "cu": "PS1993 p. 223",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Em lugar de «Glória…», na ode 8 diz-se «Bendigamos o Pai…» (PS1993 p. 223)."
+  },
+  {
+   "id": "defuntos-panikhida-120",
+   "tipo": "oracao",
+   "cu": "И ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь. Тя, Дѣ́во, проро́честіи ли́цы прореко́ша: прозря́ще бо Тя прозорли́выма очи́ма, о́въ у́бо же́злъ нарече́ Тя, и́нъ же дверь восто́чную, о́въ же го́ру человѣ́ки несѣко́мую: мы́ же испо́вѣдуемъ Тя вои́стинну Богоро́дицу, Бо́га вся́ческихъ ро́ждшую: Его́же моли́ упоко́ити преста́вленнаго во вѣ́ки вся.",
+   "pt": "Agora e sempre e pelos séculos dos séculos. Ámen. De Ti, ó Virgem, falaram de antemão os coros dos profetas, pois, vendo-Te de longe com olhos clarividentes, um chamou-Te vara, outro porta oriental, outro monte não talhado por mãos humanas; e nós confessamos-Te verdadeiramente Mãe de Deus, que deste à luz o Deus de todas as coisas: roga-Lhe que dê repouso ao falecido por todos os séculos.",
+   "ru": "И ныне, и всегда, и во веки веков. Аминь. О Тебе, Дева, предрекли лики пророков: прозревая Тебя прозорливыми очами, один назвал Тебя жезлом, другой — дверью восточною, иной — горою, не высеченною людьми; мы же исповедуем Тебя воистину Богородицею, родившею Бога всего; Его моли упокоить преставившегося во все века.",
+   "uk": "І нині, і повсякчас, і на віки віків. Амінь. Про Тебе, Діво, пророчі лики провістили: прозріваючи Тебе прозорливими очима, один назвав Тебе жезлом, інший — дверима східними, ще інший — горою, людьми не тесаною; ми ж сповідуємо Тебе воістину Богородицею, що породила Бога всього; Його моли упокоїти преставленого на всі віки.",
+   "en": "Now and ever, and unto ages of ages. Amen. Of thee, O Virgin, the choirs of the prophets foretold; for beholding thee from afar with far-seeing eyes, one called thee a rod, another the eastern gate, and another the mountain unhewn by men: and we confess thee truly Theotokos, who didst bear the God of all things: entreat Him to give rest unto the departed unto all ages.",
+   "fonte": {
+    "cu": "PS1993 p. 223",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-121",
+   "tipo": "titulo",
+   "cu": "Пѣснь 9",
+   "pt": "Ode 9",
+   "ru": "Песнь 9",
+   "uk": "Пісня 9",
+   "en": "Ode 9",
+   "fonte": {
+    "cu": "PS1993 p. 223–224",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-122",
+   "tipo": "oracao",
+   "cu": "Ирмо́съ: Ужасе́ся о семъ не́бо, и земли́ удиви́шася концы́, я́ко Богъ яви́ся человѣ́комъ пло́тски, и чре́во Твое́ бы́сть простра́ннѣйшее небе́съ: тѣмъ Тя, Богоро́дицу, А́нгеловъ и человѣ́къ чинонача́лія велича́ютъ.",
+   "pt": "Hirmos: O céu ficou assombrado com isto e os confins da terra maravilharam-se, porque Deus Se manifestou aos homens na carne, e o Teu seio tornou-se mais vasto que os céus; por isso as hierarquias dos Anjos e dos homens Te engrandecem como Mãe de Deus.",
+   "ru": "Ирмос: Ужаснулось этому небо, и изумились концы земли, что Бог явился людям во плоти и чрево Твое стало пространнее небес; поэтому Тебя, как Богородицу, величают чиноначалия Ангелов и людей.",
+   "uk": "Ірмос: Жахнулося з цього небо, і кінці землі здивувалися, що Бог явився людям тілесно, і утроба Твоя стала просторіша за небеса; тому Тебе як Богородицю величають чиноначалія Ангелів і людей.",
+   "en": "Irmos: Heaven was amazed at this, and the ends of the earth marvelled, that God appeared bodily unto men, and thy womb became more spacious than the heavens: wherefore the ranks of Angels and of men magnify thee as Theotokos.",
+   "fonte": {
+    "cu": "Z1912 p. 269; PS1993 p. 223 (íncipit)",
+    "ru": "Z1912 p. 269 (adaptado)",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Texto de Z1912 p. 269 (verificado na imagem): «пространнѣйшее небесъ. Тѣмъ Тя Богородицу, Ангеловъ и человѣкъ чиноначалія величаютъ». RU: Z1912 adaptado («были поражены крайне пределы земли» → «изумились концы земли»; «вожди сонмов Ангелов и людей» → «чиноначалия Ангелов и людей»)."
+  },
+  {
+   "id": "defuntos-panikhida-123",
+   "tipo": "oracao",
+   "cu": "Поко́й, Го́споди, ду́шу усо́пшаго раба́ Твоего́.",
+   "pt": "Dá repouso, Senhor, à alma do Teu servo falecido.",
+   "ru": "Упокой, Господи, душу усопшего раба Твоего.",
+   "uk": "Упокой, Господи, душу спочилого раба Твого.",
+   "en": "Give rest, O Lord, to the soul of Thy servant who hath fallen asleep.",
+   "fonte": {
+    "cu": "PS1993 p. 218",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Refrão (PS1993 p. 218: «Стихъ: Покой Господи душу усопшаго раба Твоего»), dito antes de cada tropário, exceto antes de «Glória» e «Agora». Por uma defunta: «рабы́ Твоея́»; por vários: «ду́ши усо́пшихъ рабъ Твои́хъ»."
+  },
+  {
+   "id": "defuntos-panikhida-124",
+   "tipo": "oracao",
+   "cu": "Іису́се Бо́же мой, Спа́се, Ада́мле Ты взя́лъ еси́ преступле́ніе и сме́рти вкуси́лъ еси́, да человѣ́ки отъ нея́ свободи́ши, Милосе́рде. Тѣ́мже мо́лимъ Тя, Ми́лостиве: преста́вленнаго поко́й, я́ко Благъ, во дворѣ́хъ святы́хъ Твои́хъ, я́ко еди́нъ Всеблагі́й и Милосе́рдый.",
+   "pt": "Jesus, meu Deus e Salvador, Tu tomaste sobre Ti a transgressão de Adão e provaste a morte para dela libertares os homens, ó Misericordioso. Por isso Te rogamos, ó Compassivo: dá repouso ao falecido, porque és bom, nos átrios dos Teus santos, porque só Tu és todo bondade e misericórdia.",
+   "ru": "Иисусе, Боже мой, Спаситель! Ты взял на Себя преступление Адама и вкусил смерти, чтобы освободить от нее людей, Милосердный. Поэтому молим Тебя, Милостивый: упокой преставившегося, как Благой, во дворах святых Твоих, как единый Всеблагой и Милосердный.",
+   "uk": "Іісусе Боже мій, Спасе, Ти взяв на Себе переступ Адама і смерті скуштував, щоб людей від неї звільнити, Милосердний. Тому молимо Тебе, Милостивий: преставленого упокой, як Благий, у дворах святих Твоїх, як єдиний Всеблагий і Милосердний.",
+   "en": "O Jesus my God and Saviour, Thou didst take upon Thee the transgression of Adam and didst taste of death, that Thou mightest set men free from it, O Merciful One. Wherefore we pray Thee, O Compassionate One: give rest to the departed, as Thou art good, in the courts of Thy Saints, as Thou alone art all-good and merciful.",
+   "fonte": {
+    "cu": "PS1993 p. 223",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-125",
+   "tipo": "oracao",
+   "cu": "Поко́й, Го́споди, ду́шу усо́пшаго раба́ Твоего́.",
+   "pt": "Dá repouso, Senhor, à alma do Teu servo falecido.",
+   "ru": "Упокой, Господи, душу усопшего раба Твоего.",
+   "uk": "Упокой, Господи, душу спочилого раба Твого.",
+   "en": "Give rest, O Lord, to the soul of Thy servant who hath fallen asleep.",
+   "fonte": {
+    "cu": "PS1993 p. 218",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Refrão (PS1993 p. 218: «Стихъ: Покой Господи душу усопшаго раба Твоего»), dito antes de cada tropário, exceto antes de «Glória» e «Agora». Por uma defunta: «рабы́ Твоея́»; por vários: «ду́ши усо́пшихъ рабъ Твои́хъ»."
+  },
+  {
+   "id": "defuntos-panikhida-126",
+   "tipo": "oracao",
+   "cu": "Нѣсть никто́же, Милосе́рде, и́же не согрѣши́ въ человѣ́цѣхъ, то́кмо Ты еди́нъ, Іису́се Христе́, взе́мляй грѣхи́ всего́ мі́ра. Тѣ́мже очи́стивъ раба́ Твоего́ отъ прегрѣше́ній, вчини́ во святы́хъ Твои́хъ дворѣ́хъ: Ты бо живо́тъ еси́ и поко́й, и свѣтъ и весе́ліе всѣ́хъ Тебѣ́ благоугоди́вшихъ.",
+   "pt": "Não há ninguém entre os homens, ó Misericordioso, que não tenha pecado, senão Tu só, Jesus Cristo, que tiras os pecados do mundo inteiro. Por isso, purificando o Teu servo dos pecados, coloca-o nos átrios dos Teus santos, porque Tu és a vida e o repouso, a luz e a alegria de todos os que Te agradaram.",
+   "ru": "Нет никого среди людей, Милосердный, кто бы не согрешил, кроме Тебя одного, Иисусе Христе, берущего грехи всего мира. Поэтому, очистив раба Твоего от прегрешений, водвори его во святых Твоих дворах, ибо Ты — жизнь и покой, свет и веселие всех, угодивших Тебе.",
+   "uk": "Нема нікого, Милосердний, серед людей, хто б не згрішив, тільки Ти єдиний, Іісусе Христе, що береш гріхи всього світу. Тому, очистивши раба Твого від прогрішень, помісти його у святих Твоїх дворах, бо Ти — життя і спочинок, світло і радість усіх, що догодили Тобі.",
+   "en": "There is none among men, O Merciful One, who hath not sinned, save Thee alone, O Jesus Christ, who takest away the sins of the whole world. Wherefore, cleansing Thy servant from his transgressions, set him in the holy courts of Thy Saints: for Thou art the life and the rest, the light and the gladness of all who have been well-pleasing unto Thee.",
+   "fonte": {
+    "cu": "PS1993 p. 223–224",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-127",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху. Удиви́ся все естество́ человѣ́ческое, ка́ко Безнача́льнаго Отца́ Сынъ, сый Единоро́дный, плоть отъ Дѣ́вы дѣ́йствомъ Свята́го Ду́ха прія́лъ еси́, и пострада́лъ еси́ я́ко человѣ́къ, да уме́ршыя оживи́ши: тѣ́мъ и преста́вленнаго ны́нѣ отъ насъ приле́жно мо́лимъ Тя, во странѣ́ живы́хъ, я́ко Благъ, всели́.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo. Maravilhou-se toda a natureza humana de como Tu, Filho Unigénito do Pai sem princípio, recebeste da Virgem a carne pela ação do Espírito Santo e sofreste como homem, para dares vida aos mortos; por isso Te rogamos com fervor: faz habitar na terra dos vivos, porque és bom, aquele que agora partiu de entre nós.",
+   "ru": "Слава Отцу и Сыну и Святому Духу. Удивилась вся человеческая природа тому, как Ты, Единородный Сын Безначального Отца, принял плоть от Девы действием Святого Духа и пострадал как человек, чтобы оживить умерших; поэтому и о преставившемся ныне от нас усердно молим Тебя: всели его, как Благой, в стране живых.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові. Здивувалося все людське єство, як Ти, Безначального Отця Син Єдинородний, плоть від Діви дією Святого Духа прийняв і постраждав як людина, щоб померлих оживити; тому й за преставленого нині від нас старанно молимо Тебе: в країні живих, як Благий, всели його.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit. All human nature was amazed how Thou, the only-begotten Son of the Father without beginning, didst take flesh of the Virgin by the operation of the Holy Spirit, and didst suffer as man, that Thou mightest give life to the dead: wherefore we earnestly pray Thee for him who hath now departed from us: make him to dwell, as Thou art good, in the land of the living.",
+   "fonte": {
+    "cu": "PS1993 p. 224",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-128",
+   "tipo": "oracao",
+   "cu": "И ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь. Невѣ́сту Тя нарица́емъ, Пречи́стая, Отца́ неви́димаго, и Ма́терь Сы́на, изъ Тебе́ Ду́хомъ Святы́мъ вопло́щеннаго: и моле́бницу Тя о усо́пшемъ рабѣ́ Твое́мъ предлага́емъ: Тебе́ бо помо́щницу и́мамы земні́и, и любо́вію пою́ще Тя велича́емъ.",
+   "pt": "Agora e sempre e pelos séculos dos séculos. Ámen. Chamamos-Te, ó Puríssima, Esposa do Pai invisível e Mãe do Filho que de Ti Se encarnou pelo Espírito Santo; e apresentamos-Te como intercessora pelo Teu servo falecido; porque a Ti temos, nós os terrenos, por auxiliadora, e, cantando-Te com amor, engrandecemos-Te.",
+   "ru": "И ныне, и всегда, и во веки веков. Аминь. Невестою Отца невидимого именуем Тебя, Пречистая, и Матерью Сына, воплотившегося из Тебя Духом Святым; и Тебя, молитвенницу, предлагаем об усопшем рабе Твоем, ибо Тебя имеем мы, земные, помощницей и, с любовью воспевая, величаем Тебя.",
+   "uk": "І нині, і повсякчас, і на віки віків. Амінь. Нареченою Тебе, Пречиста, Отця невидимого називаємо і Матір’ю Сина, що з Тебе Духом Святим воплотився; і Тебе як молитвеницю за спочилого раба Твого предлагаємо, бо Тебе маємо помічницею ми, земні, і, з любов’ю співаючи, Тебе величаємо.",
+   "en": "Now and ever, and unto ages of ages. Amen. We call thee, O most pure one, the Bride of the invisible Father and the Mother of the Son who was incarnate of thee by the Holy Spirit; and we set thee forth as intercessor for thy servant who hath fallen asleep: for we earth-born have thee as our helper, and hymning thee with love we magnify thee.",
+   "fonte": {
+    "cu": "PS1993 p. 224",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-129",
+   "tipo": "oracao",
+   "cu": "Тропари́, гласъ 4: Со ду́хи пра́ведныхъ сконча́вшихся ду́шу раба́ Твоего́, Спа́се, упоко́й, сохраня́я ю во блаже́ннѣй жи́зни, я́же у Тебе́, Человѣколю́бче.",
+   "pt": "Tropários, tom 4: Com os espíritos dos justos que alcançaram a perfeição, dá repouso, ó Salvador, à alma do Teu servo, guardando-a na vida bem-aventurada que está junto de Ti, ó Amigo dos homens.",
+   "ru": "Тропари, глас 4: С духами праведных, достигших совершенства, упокой, Спаситель, душу раба Твоего, сохраняя ее в блаженной жизни, которая у Тебя, Человеколюбец.",
+   "uk": "Тропарі, глас 4: З духами праведних, що звершили свій шлях, душу раба Твого, Спасе, упокой, зберігаючи її в блаженному житті, що в Тебе, Чоловіколюбче.",
+   "en": "Troparia, Tone 4: With the spirits of the righteous made perfect give rest, O Saviour, to the soul of Thy servant, preserving it unto the life of blessedness which is with Thee, O Lover of mankind.",
+   "fonte": {
+    "cu": "MS1900 pp. 324–325; TR1884 img. 186; PS1993 p. 216",
+    "ru": "propria",
+    "en": "H1906 p. 568 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "«сконча́вшихся» = τετελειωμένων «aperfeiçoados, que chegaram ao fim» (Hb 12,23). TR1884 e PS1993 trazem a variante «(или, рабы Твоея)»; MS1900 «блаженнѣй», TR1884 «блаженной»."
+  },
+  {
+   "id": "defuntos-panikhida-130",
+   "tipo": "oracao",
+   "cu": "Въ поко́ищи Твое́мъ, Го́споди, идѣ́же вси святі́и Твои́ упокоева́ются, упоко́й и ду́шу раба́ Твоего́, я́ко еди́нъ еси́ Человѣколю́бецъ.",
+   "pt": "No Teu lugar de repouso, Senhor, onde repousam todos os Teus santos, dá repouso também à alma do Teu servo, porque só Tu és o Amigo dos homens.",
+   "ru": "В месте покоя Твоего, Господи, где упокоеваются все святые Твои, упокой и душу раба Твоего, ибо Ты один Человеколюбец.",
+   "uk": "В місці спочинку Твого, Господи, де всі святі Твої спочивають, упокой і душу раба Твого, бо Ти єдиний Чоловіколюбець.",
+   "en": "In the place of Thy rest, O Lord, where all Thy Saints repose, give rest also to the soul of Thy servant, for Thou alone art the Lover of mankind.",
+   "fonte": {
+    "cu": "MS1900 p. 325; TR1884 img. 186; PS1993 p. 216",
+    "ru": "propria",
+    "en": "H1906 p. 568 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "defuntos-panikhida-131",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху. Ты еси́ Богъ, соше́дый во адъ и у́зы окова́нныхъ разрѣши́вый, Самъ и ду́шу раба́ Твоего́ упоко́й.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo. Tu és o Deus que desceu ao Hades e soltou as cadeias dos que estavam presos: Tu mesmo dá repouso também à alma do Teu servo.",
+   "ru": "Слава Отцу и Сыну и Святому Духу. Ты — Бог, сошедший во ад и разрешивший узы скованных: Сам упокой и душу раба Твоего.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові. Ти єси Бог, що зійшов у ад і розрішив кайдани закутих, Сам і душу раба Твого упокой.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit. Thou art the God who didst descend into Hades and loose the bonds of the captives: do Thou Thyself give rest also to the soul of Thy servant.",
+   "fonte": {
+    "cu": "MS1900 p. 325; TR1884 img. 186; PS1993 p. 216",
+    "ru": "propria",
+    "en": "H1906 p. 568 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "MS1900, TR1884 e PS1993: «Слава:» abreviado; dá-se por extenso. «адъ» (ᾅδης) = «Hades» (dec. 71)."
+  },
+  {
+   "id": "defuntos-panikhida-132",
+   "tipo": "oracao",
+   "cu": "И ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь. Еди́на Чи́стая и Непоро́чная Дѣ́во, Бо́га безъ сѣ́мене ро́ждшая, моли́ спасти́ся души́ его́.",
+   "pt": "Agora e sempre e pelos séculos dos séculos. Ámen. Única Virgem pura e imaculada, que sem semente deste à luz Deus, intercede pela salvação da sua alma.",
+   "ru": "И ныне, и всегда, и во веки веков. Аминь. Единая Чистая и Непорочная Дева, без семени родившая Бога, моли о спасении души его.",
+   "uk": "І нині, і повсякчас, і на віки віків. Амінь. Єдина Чиста і Непорочна Діво, що без сімені Бога породила, моли про спасіння душі його.",
+   "en": "Now and ever, and unto ages of ages. Amen. O only pure and immaculate Virgin, who without seed didst bring forth God, pray thou that his soul be saved.",
+   "fonte": {
+    "cu": "MS1900 p. 325; TR1884 img. 186; PS1993 p. 216",
+    "ru": "propria",
+    "en": "H1906 p. 568 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Por uma defunta: «души́ ея́»; por vários: «душа́мъ ихъ» (TR1884: «(или, ея)»)."
+  },
+  {
+   "id": "defuntos-panikhida-133",
+   "tipo": "rubrica",
+   "cu": "Вмѣ́сто ектеніи́ и моли́твы свяще́нника:",
+   "pt": "Em lugar da litania e da oração do sacerdote:",
+   "ru": "Вместо ектении и молитвы священника:",
+   "uk": "Замість єктенії і молитви священика:",
+   "en": "Instead of the Litany and the Priest's Prayer:",
+   "fonte": {
+    "cu": "—",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Em PS1993 p. 225 o próprio ofício manda «Господи помилуй» 12 vezes e a oração «Помяни, Господи…»; T1907 p. 19 manda dizê-la, na leitura dos leigos, depois de cada «Glória» do Saltério."
+  },
+  {
+   "id": "defuntos-panikhida-134",
+   "tipo": "oracao",
+   "cu": "Помяни́, Го́споди Бо́же нашъ, въ вѣ́рѣ и надежди́ живота́ вѣ́чнаго преста́вльшагося раба́ Твоего́, бра́та на́шего (и́мя), и я́ко Благъ и Человѣколю́бецъ, отпуща́яй грѣхи́ и потребля́яй непра́вды, осла́би, оста́ви и прости́ вся во́льная его́ согрѣше́нія и нево́льная; изба́ви его́ вѣ́чныя му́ки и огня́ гее́нскаго, и да́руй ему́ прича́стіе и наслажде́ніе вѣ́чныхъ Твои́хъ благи́хъ, угото́ванныхъ лю́бящимъ Тя: а́ще бо и согрѣши́, но не отступи́ отъ Тебе́, и несумнѣ́нно во Отца́ и Сы́на и Свята́го Ду́ха, Бо́га Тя въ Тро́ицѣ сла́вимаго, вѣ́рова, и Еди́ницу въ Тро́ицѣ и Тро́ицу во Еди́нствѣ правосла́вно да́же до послѣ́дняго своего́ издыха́нія испо́вѣда. Тѣ́мже ми́лостивъ тому́ бу́ди, и вѣ́ру, я́же въ Тя, вмѣ́сто дѣлъ вмѣни́, и со святы́ми Твои́ми, я́ко Щедръ, упоко́й: нѣсть бо человѣ́ка, и́же поживе́тъ и не согрѣши́тъ. Но Ты еди́нъ еси́ кромѣ́ вся́каго грѣха́, и пра́вда Твоя́ пра́вда во вѣ́ки, и Ты еси́ еди́нъ Богъ ми́лостей и щедро́тъ и человѣколю́бія, и Тебѣ́ сла́ву возсыла́емъ, Отцу́ и Сы́ну и Свято́му Ду́ху, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Lembra-Te, Senhor nosso Deus, na fé e na esperança da vida eterna, do Teu servo falecido, nosso irmão (nome), e, como és bom e Amigo dos homens, Tu que perdoas os pecados e consomes as iniquidades, alivia, remite e perdoa todos os seus pecados, voluntários e involuntários; livra-o do tormento eterno e do fogo da geena, e concede-lhe a comunhão e o gozo dos Teus bens eternos, preparados para os que Te amam. Pois, ainda que tenha pecado, não se afastou de Ti, e creu sem duvidar no Pai e no Filho e no Espírito Santo, em Ti, Deus glorificado na Trindade, e confessou ortodoxamente a Unidade na Trindade e a Trindade na Unidade até ao seu último suspiro. Sê-lhe, pois, misericordioso, conta-lhe a fé que tinha em Ti em lugar das obras, e, como és compassivo, dá-lhe repouso com os Teus santos; porque não há homem que viva e não peque. Mas só Tu estás sem pecado algum, e a Tua justiça é justiça eterna, e só Tu és o Deus das misericórdias, das compaixões e do amor pelos homens, e a Ti damos glória, ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Помяни, Господи Боже наш, в вере и надежде жизни вечной преставившегося раба Твоего, брата нашего (имя), и, как Благой и Человеколюбец, отпускающий грехи и истребляющий неправды, ослабь, оставь и прости все вольные и невольные его согрешения; избавь его от вечной муки и огня геенского и даруй ему причастие и наслаждение вечных Твоих благ, уготованных любящим Тебя. Ибо хотя он и согрешил, но не отступил от Тебя и несомненно веровал в Отца и Сына и Святого Духа, в Тебя, Бога, в Троице славимого, и Единицу в Троице и Троицу в Единстве православно исповедовал даже до последнего своего издыхания. Поэтому будь к нему милостив, и веру его в Тебя вместо дел вмени ему, и со святыми Твоими, как Щедрый, упокой, ибо нет человека, который прожил бы и не согрешил. Но Ты один — вне всякого греха, и правда Твоя — правда вовеки, и Ты один — Бог милостей, щедрот и человеколюбия, и Тебе славу воссылаем, Отцу и Сыну и Святому Духу, ныне и всегда и во веки веков. Аминь.",
+   "uk": "Пом’яни, Господи Боже наш, у вірі і надії життя вічного спочилого раба Твого, брата нашого (ім’я), і, як Благий і Чоловіколюбець, що відпускаєш гріхи і знищуєш неправди, ослаб, залиш і прости всі вільні і невільні його прогрішення; визволи його від вічної муки і вогню геєнського і даруй йому причастя і насолоду вічних Твоїх благ, приготованих тим, що люблять Тебе. Бо хоч і згрішив, але не відступив від Тебе, і без сумніву вірував в Отця, і Сина, і Святого Духа, в Тебе, Бога, в Трійці славленого, і Єдиницю в Трійці і Трійцю в Єдиності православно аж до останнього свого подиху сповідував. Тому будь милостивий до нього, і віру, що в Тебе, замість діл зарахуй, і зі святими Твоїми, як Щедрий, упокой, бо нема людини, яка прожила б і не згрішила. Але Ти єдиний поза всяким гріхом, і правда Твоя — правда навіки, і Ти єдиний Бог милості, і щедрот, і чоловіколюбства, і Тобі славу возсилаємо, Отцю, і Сину, і Святому Духові, нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Remember, O Lord our God, in faith and hope of life eternal, Thy servant who hath fallen asleep, our brother (name); and as Thou art good and the Lover of mankind, who pardonest sins and consumest iniquities, loose, remit and forgive all his sins, voluntary and involuntary. Deliver him from everlasting torment and the fire of Gehenna, and grant him communion in and enjoyment of Thine eternal good things, prepared for them that love Thee. For though he sinned, yet he did not depart from Thee, but without doubting believed in the Father and the Son and the Holy Spirit, in Thee, God glorified in Trinity, and confessed in Orthodox wise the Unity in Trinity and the Trinity in Unity, even unto his last breath. Wherefore be merciful unto him, and account unto him for works the faith which he had in Thee, and give him rest with Thy Saints, as Thou art bountiful: for there is no man who liveth and sinneth not. But Thou alone art without any sin, and Thy righteousness is righteousness for ever, and Thou alone art the God of mercies and compassions and love for mankind, and unto Thee we send up glory, to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "MS1900 pp. 536–537 («Молитва по исходѣ души»); PS1993 p. 225; T1907 pp. 19–20",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Oração que T1907 p. 19 manda dizer, na leitura do Saltério sobre o corpo de um leigo, «depois de cada Glória»; em PS1993 p. 225 fecha o ofício «по исходѣ души». Por uma defunta: «преста́вльшуюся рабу́ Твою́, сестру́ на́шу… ея́… ей…»; por vários, o plural. MS1900/PS1993: «надеждѣ/надежди»; MS1900 «вся вольная его согрѣшенія и невольная»."
+  },
+  {
+   "id": "defuntos-panikhida-135",
+   "tipo": "oracao",
+   "cu": "Досто́йно есть я́ко вои́стинну блажи́ти Тя Богоро́дицу, Присноблаже́нную и Пренепоро́чную и Ма́терь Бо́га на́шего. Честнѣ́йшую Херуви́мъ и сла́внѣйшую безъ сравне́нія Серафи́мъ, безъ истлѣ́нія Бо́га Сло́ва ро́ждшую, су́щую Богоро́дицу Тя велича́емъ.",
+   "pt": "É verdadeiramente digno bendizer-Te, ó Mãe de Deus, sempre bem-aventurada e toda imaculada, Mãe do nosso Deus. Mais venerável que os Querubins e incomparavelmente mais gloriosa que os Serafins, que sem corrupção deste à luz Deus Verbo, verdadeira Mãe de Deus, nós Te engrandecemos.",
+   "ru": "Достойно поистине ублажать Тебя, Богородицу, присноблаженную и пренепорочную и Матерь Бога нашего. Честнейшую Херувимов и несравненно славнейшую Серафимов, нетленно родившую Бога Слово, истинную Богородицу — Тебя величаем.",
+   "uk": "Достойно є воістину блажити Тебе, Богородицю, Присноблаженну і Пренепорочну, і Матір Бога нашого. Чеснішу від Херувимів і незрівнянно славнішу від Серафимів, що без зотління Бога Слово породила, сущу Богородицю, Тебе величаємо.",
+   "en": "It is truly meet to bless thee, O Theotokos, ever-blessed and all-immaculate, and the Mother of our God. More honourable than the Cherubim, and beyond compare more glorious than the Seraphim, thou who without corruption gavest birth to God the Word, true Theotokos, we magnify thee.",
+   "fonte": {
+    "cu": "Z1912 pp. 12–13",
+    "ru": "propria (Z1912 parafraseava)",
+    "en": "H1906 p. 107",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "excepto": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "[Texto idêntico a manha-81 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-136",
+   "tipo": "rubrica",
+   "cu": "Отъ Па́схи до Вознесе́нія Госпо́дня, вмѣ́сто «Досто́йно есть», поётся:",
+   "pt": "Da Páscoa até à Ascensão do Senhor, em lugar de «É verdadeiramente digno», canta-se:",
+   "ru": "От Пасхи до Вознесения Господня вместо «Достойно есть» поется:",
+   "uk": "Від Пасхи до Вознесіння Господнього замість «Достойно є» співається:",
+   "en": "From Pascha until the Ascension of the Lord, instead of «It is truly meet», the following is sung:",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "[Texto idêntico a manha-82 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-137",
+   "tipo": "oracao",
+   "cu": "А́нгелъ вопія́ше Благода́тнѣй: Чи́стая Дѣ́во, ра́дуйся! И па́ки реку́: ра́дуйся! Твой Сынъ воскре́се тридне́венъ отъ гро́ба, и ме́ртвыя воздви́гнувый; лю́діе, весели́теся!",
+   "pt": "O Anjo clamou à Cheia de Graça: Virgem pura, alegra-Te! E de novo digo: alegra-Te! O Teu Filho ressuscitou ao terceiro dia do sepulcro e levantou os mortos. Povos, regozijai-vos!",
+   "ru": "Ангел возгласил Благодатной: «Чистая Дева, радуйся!» И я повторю: радуйся! Твой Сын воскрес на третий день из гроба, воскресивший мертвых. Люди, торжествуйте!",
+   "uk": "Ангел взивав Благодатній: Чиста Діво, радуйся! І знову кажу: радуйся! Твій Син воскрес на третій день із гробу і мертвих підняв. Люди, веселіться!",
+   "en": "The Angel cried unto her who is full of grace: Rejoice, O pure Virgin! And again I say: Rejoice! Thy Son is risen from the tomb on the third day, and hath raised up the dead. Rejoice, O ye people!",
+   "fonte": {
+    "cu": "Z1912 p. 112",
+    "ru": "Z1912 p. 112",
+    "en": "H1906 p. 232",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "[Texto idêntico a manha-83 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-138",
+   "tipo": "oracao",
+   "cu": "Свѣти́ся, свѣти́ся, но́вый Іерусали́ме, сла́ва бо Госпо́дня на тебѣ́ возсія́; лику́й ны́нѣ и весели́ся, Сіо́не! Ты же, Чи́стая, красу́йся, Богоро́дице, о воста́ніи Рождества́ Твоего́.",
+   "pt": "Resplandece, resplandece, ó nova Jerusalém, porque a glória do Senhor brilhou sobre ti; exulta agora e alegra-te, ó Sião! E Tu, ó Pura, rejubila, Mãe de Deus, com a ressurreição d'Aquele que deste à luz.",
+   "ru": "Сияй, сияй, новый Иерусалим, ибо слава Господня озарила тебя! Торжествуй теперь и веселись, Сион! А Ты, Чистая Богородица, радуйся воскресению Рожденного Тобою.",
+   "uk": "Світися, світися, новий Єрусалиме, бо слава Господня над тобою засяяла; радій нині і веселися, Сіоне! А Ти, Чиста Богородице, красуйся воскресінням Народженого Тобою.",
+   "en": "Shine, shine, O new Jerusalem, for the glory of the Lord hath arisen upon thee! Dance now and be glad, O Zion! And do thou, O pure Theotokos, rejoice in the rising of Him whom thou didst bear.",
+   "fonte": {
+    "cu": "Z1912 p. 113",
+    "ru": "Z1912 p. 113",
+    "en": "H1906 p. 232",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "[Texto idêntico a manha-84 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-139",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "[Texto idêntico a manha-85 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-140",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "[Texto idêntico a manha-86 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-141",
+   "tipo": "oracao",
+   "cu": "Моли́твами святы́хъ оте́цъ на́шихъ, Го́споди Іису́се Христе́ Бо́же нашъ, поми́луй насъ. Ами́нь.",
+   "pt": "Pelas orações dos nossos santos Padres, Senhor Jesus Cristo, nosso Deus, tem piedade de nós. Ámen.",
+   "ru": "По молитвам святых отцов наших, Господи Иисусе Христе, Боже наш, помилуй нас. Аминь.",
+   "uk": "Молитвами святих отців наших, Господи Іісусе Христе, Боже наш, помилуй нас. Амінь.",
+   "en": "Through the prayers of our holy fathers, O Lord Jesus Christ our God, have mercy upon us. Amen.",
+   "fonte": {
+    "cu": "MS1900 p. 461",
+    "ru": "propria",
+    "en": "H1906 p. 238",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Início e despedida dos leigos (em lugar de «Благословенъ Богъ нашъ» e da despedida do sacerdote). [Texto idêntico a manha-p03 (manha.json).]"
+  },
+  {
+   "id": "defuntos-panikhida-142",
+   "tipo": "oracao",
+   "cu": "Во блаже́нномъ успе́ніи вѣ́чный поко́й пода́ждь, Го́споди, усо́пшему рабу́ Твоему́ (и́мя), и сотвори́ ему́ вѣ́чную па́мять.",
+   "pt": "No bem-aventurado adormecimento dá, Senhor, repouso eterno ao Teu servo falecido (nome), e faz-lhe memória eterna.",
+   "ru": "В блаженном успении вечный покой подай, Господи, усопшему рабу Твоему (имя) и сотвори ему вечную память.",
+   "uk": "У блаженному успінні вічний спочинок подай, Господи, спочилому рабові Твоєму (ім’я) і сотвори йому вічну пам’ять.",
+   "en": "In blessed falling-asleep grant, O Lord, eternal rest unto Thy servant who hath fallen asleep, (name), and make his memory to be eternal.",
+   "fonte": {
+    "cu": "PS1993 p. 226",
+    "ru": "propria",
+    "en": "H1906 p. 569 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "No livro (PS1993 p. 226) di-lo o sacerdote; na forma para leigos di-lo quem lê. PS1993: «[и́мкъ]» (имярекъ) → «(и́мя)». EN: Hapgood (plural) adaptado ao singular."
+  },
+  {
+   "id": "defuntos-panikhida-143",
+   "tipo": "oracao",
+   "cu": "Вѣ́чная па́мять.",
+   "pt": "Memória eterna.",
+   "ru": "Вечная память.",
+   "uk": "Вічна пам’ять.",
+   "en": "Memory eternal.",
+   "fonte": {
+    "cu": "PS1993 p. 226",
+    "ru": "propria",
+    "en": "H1906 p. 569",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3
+  },
+  {
+   "id": "defuntos-panikhida-144",
+   "tipo": "oracao",
+   "cu": "Христо́съ воскре́се изъ ме́ртвыхъ, сме́ртію смерть попра́въ и су́щимъ во гробѣ́хъ живо́тъ дарова́въ.",
+   "pt": "Cristo ressuscitou dos mortos, pela morte calcou a morte e aos que estavam nos sepulcros deu a vida.",
+   "ru": "Христос воскрес из мертвых, смертью смерть поправ и сущим во гробах жизнь даровав.",
+   "uk": "Христос воскрес із мертвих, смертю смерть подолав і тим, що в гробах, життя дарував.",
+   "en": "Christ is risen from the dead, trampling down death by death, and upon those in the tombs bestowing life.",
+   "fonte": {
+    "cu": "Z1912 p. 106",
+    "ru": "propria",
+    "en": "H1906 p. 226",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "quando": {
+    "so": [
+     "semana_luminosa",
+     "pascoa_ascensao"
+    ]
+   },
+   "nota": "[Texto idêntico a manha-14 (manha.json).]"
+  }
+ ]
+}
