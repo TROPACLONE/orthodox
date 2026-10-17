@@ -1,0 +1,614 @@
+{
+ "id": "comunhao_acao_gracas",
+ "titulo": {
+  "cu": "Благода́рственныя моли́твы по Свято́мъ Прича́щеніи",
+  "pt": "Orações de ação de graças depois da Sagrada Comunhão",
+  "ru": "Благодарственные молитвы по Святом Причащении",
+  "uk": "Подячні молитви після Святого Причастя",
+  "en": "Thanksgiving Prayers after Holy Communion"
+ },
+ "fontes": [
+  {
+   "chave": "MS1900",
+   "descricao": "Молитвословъ. Изданіе десятое. Москва: Синодальная типографія, 1900. По благословенію Святѣйшаго Правительствующаго Синода.",
+   "url": "https://archive.org/details/molitvoslov00andr",
+   "notas": "Domínio público. Escrita civil pré-reforma, acentos esporádicos. «Молитвы по Святомъ Причащеніи» pp. 511–518 (versos, «Слава Тебѣ, Боже» ×3, orações 1–5; termina na 5.ª oração). Tropário e condácio de S. Basílio pp. 244–245; theotokion «Предстательство христіанъ» p. 435. Página = número impresso."
+  },
+  {
+   "chave": "Z1912",
+   "descricao": "Молитвы и песнопения православного молитвослова (для мирян) съ переводомъ на русскій языкъ, объясненіями и примѣчаніями Николая Нахимова [Н. Ч. Зайончковскій, 1859–1920]. С.-Петербургъ: Синодальная типографія, 1912.",
+   "url": "https://archive.org/details/molitvyipesnopenijapravoslavnogomolitvos65",
+   "notas": "Domínio público (autor † 1920). Eslavo em tipo eslavo com acentos + tradução russa. «Молитвы по святомъ причащеніи», cap. 13, pp. 262–265 (orações 1–5; a 4.ª sem tradução); S. Basílio pp. 143–144. Página = número impresso (folha do PDF = página + 6). Fonte dos acentos e da coluna RU (adaptada, dec. 57)."
+  },
+  {
+   "chave": "H1906",
+   "descricao": "I. F. Hapgood, Service Book of the Holy Orthodox-Catholic Apostolic (Greco-Russian) Church. Boston/New York: Houghton, Mifflin & Co., 1906.",
+   "url": "https://archive.org/details/cu31924029363128",
+   "notas": "Domínio público. Post-Communion Prayers pp. 123–126 (orações, Nunc dimittis, Triságio, tropários de S. João Crisóstomo e de S. Basílio, theotokion). Adaptado: Thee/Thou, en-GB, «Birth-giver of God» → «Theotokos», correções de fidelidade em nota."
+  },
+  {
+   "chave": "T1907",
+   "descricao": "Православный толковый молитвословъ. С.-Петербургъ: Изданіе Виленскаго Свято-Духовскаго братства, 1907.",
+   "url": "https://archive.org/details/pravoslavnytolko00russ",
+   "notas": "Domínio público. «Нынѣ отпущаеши» p. 77 (escrita civil pré-reforma, sem acentos)."
+  },
+  {
+   "chave": "SIN1876",
+   "descricao": "Синодальный перевод Библии (НЗ 1862; Библия 1876).",
+   "url": "https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=RusSynodal",
+   "notas": "Domínio público (dec. 41: NT em russo). Lc 2,29–32 na coluna RU."
+  }
+ ],
+ "estado": {
+  "pt": "nao_revista",
+  "ru": "nao_revista",
+  "uk": "nao_revista",
+  "en": "dp_adaptada"
+ },
+ "blocos": [
+  {
+   "id": "comunhao_acao_gracas-01",
+   "tipo": "titulo",
+   "cu": "Благода́рственныя моли́твы по Свято́мъ Прича́щеніи",
+   "pt": "Orações de ação de graças depois da Sagrada Comunhão",
+   "ru": "Благодарственные молитвы по Святом Причащении",
+   "uk": "Подячні молитви після Святого Причастя",
+   "en": "Thanksgiving Prayers after Holy Communion",
+   "fonte": {
+    "cu": "MS1900 p. 511",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "MS1900 p. 511 intitula «Молитвы по Святомъ Причащеніи»; Z1912 p. 262 «Молитвы по святомъ причащеніи». Título segundo o Molitvoslov atual (dec. 2); glossário doc. 09 §3.3 n.º 97."
+  },
+  {
+   "id": "comunhao_acao_gracas-02",
+   "tipo": "rubrica",
+   "cu": "Егда́ полу́чиши до́браго причаще́нія животворя́щихъ та́инственныхъ дарова́ній, воспо́й а́біе, благодари́ ве́льми, и сія́ теплѣ́ отъ души́ Бо́гу глаго́ли:",
+   "pt": "Quando tiveres recebido a boa comunhão dos místicos dons que dão a vida, canta logo, dá muitas graças e, com fervor, do fundo da alma, diz a Deus:",
+   "ru": "Когда получишь благое причастие животворящих таинственных Даров, тотчас воспой, усердно благодари и с теплотою от души говори Богу:",
+   "uk": "Коли одержиш добре причастя животворчих таїнственних дарів, одразу заспівай, щиро дякуй і це гаряче від душі Богові говори:",
+   "en": "When thou hast received the good Communion of the life-giving mystical Gifts, sing praise at once, give thanks greatly, and fervently from thy soul say unto God:",
+   "fonte": {
+    "cu": "MS1900 p. 511",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Versos de S. Simeão Metafrasta que abrem as orações em MS1900 p. 511 (e no Molitvoslov atual). Acentuação segundo a prática corrente ⚠ (MS1900 quase não acentua; Z1912 omite estes versos)."
+  },
+  {
+   "id": "comunhao_acao_gracas-03",
+   "tipo": "oracao",
+   "cu": "Сла́ва Тебѣ́, Бо́же.",
+   "pt": "Glória a Ti, ó Deus.",
+   "ru": "Слава Тебе, Боже.",
+   "uk": "Слава Тобі, Боже.",
+   "en": "Glory to Thee, O God.",
+   "fonte": {
+    "cu": "Z1912 p. 262; MS1900 p. 511",
+    "ru": "propria",
+    "en": "H1906 p. 123",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "Z1912 p. 262 e MS1900 p. 511 escrevem a fórmula três vezes por extenso («Слава Тебѣ, Боже!»). Diferente de «Сла́ва Тебѣ́, Бо́же нашъ, сла́ва Тебѣ́» (manha-10)."
+  },
+  {
+   "id": "comunhao_acao_gracas-04",
+   "tipo": "titulo",
+   "cu": "Моли́тва благода́рственная, 1-я",
+   "pt": "Oração de ação de graças, 1.ª",
+   "ru": "Благодарственная молитва 1-я",
+   "uk": "Подячна молитва 1-а",
+   "en": "First Prayer of Thanksgiving",
+   "fonte": {
+    "cu": "MS1900 p. 511",
+    "ru": "Z1912 p. 262",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Z1912 p. 262: «Молитва благодарственная первая»."
+  },
+  {
+   "id": "comunhao_acao_gracas-05",
+   "tipo": "oracao",
+   "cu": "Благодарю́ Тя, Го́споди Бо́же мой, я́ко не отри́нулъ мя еси́ грѣ́шнаго, но о́бщника мя бы́ти святы́нь Твои́хъ сподо́билъ еси́. Благодарю́ Тя, я́ко мене́ недосто́йнаго причасти́тися пречи́стыхъ Твои́хъ и небе́сныхъ Даро́въ сподо́билъ еси́. Но, Влады́ко Человѣколю́бче, насъ ра́ди уме́рый же и воскресы́й, и дарова́вый намъ стра́шная сія́ и животворя́щая Та́инства во благодѣя́ніе и освяще́ніе душъ и тѣле́съ на́шихъ, даждь бы́ти си́мъ и мнѣ во исцѣле́ніе души́ же и тѣ́ла, во отгна́ніе вся́каго сопроти́внаго, въ просвѣще́ніе о́чію се́рдца моего́, въ миръ душе́вныхъ мои́хъ силъ, въ вѣ́ру непосты́дну, въ любо́вь нелицемѣ́рну, во исполне́ніе прему́дрости, въ соблюде́ніе за́повѣдей Твои́хъ, въ приложе́ніе Боже́ственныя Твоея́ благода́ти и Твоего́ Ца́рствія присвое́ніе: да во святы́ни Твое́й тѣ́ми сохраня́емь, Твою́ благода́ть помина́ю всегда́, и не ктому́ себѣ́ живу́, но Тебѣ́, на́шему Влады́цѣ и Благодѣ́телю; и та́ко сего́ житія́ изше́дъ о наде́жди живота́ вѣ́чнаго, въ присносу́щный дости́гну поко́й, идѣ́же пра́зднующихъ гласъ непреста́нный и безконе́чная сла́дость зря́щихъ Твоего́ лица́ добро́ту неизрече́нную. Ты бо еси́ и́стинное жела́ніе и неизрече́нное весе́ліе лю́бящихъ Тя, Христе́ Бо́же нашъ, и Тя пое́тъ вся тварь во вѣ́ки. Ами́нь.",
+   "pt": "Dou-Te graças, Senhor meu Deus, porque não me rejeitaste a mim, pecador, mas me fizeste digno de participar nas Tuas coisas santas. Dou-Te graças porque me fizeste digno, a mim, indigno, de comungar os Teus puríssimos e celestes Dons. Mas, ó Soberano que amas os homens, que por nós morreste e ressuscitaste e nos concedeste estes temíveis e vivificantes Mistérios para benefício e santificação das nossas almas e dos nossos corpos, concede que eles sejam também para mim cura da alma e do corpo, afastamento de tudo o que é adverso, iluminação dos olhos do meu coração, paz das forças da minha alma, fé que não será confundida, amor sem fingimento, plenitude de sabedoria, observância dos Teus mandamentos, acréscimo da Tua divina graça e posse do Teu Reino; para que, guardado por eles na Tua santidade, me lembre sempre da Tua graça e já não viva para mim mesmo, mas para Ti, nosso Soberano e Benfeitor; e assim, tendo saído desta vida na esperança da vida eterna, chegue ao repouso sempiterno, onde é incessante a voz dos que estão em festa e sem fim a doçura dos que contemplam a inefável beleza do Teu rosto. Porque Tu és o verdadeiro objeto do desejo e a alegria inefável dos que Te amam, ó Cristo nosso Deus, e toda a criação Te canta pelos séculos. Ámen.",
+   "ru": "Благодарю Тебя, Господи Боже мой, что Ты не отверг меня, грешного, но удостоил быть причастником Святынь Твоих. Благодарю Тебя, что Ты удостоил меня, недостойного, причаститься пречистых и небесных Твоих Даров. Но, Владыка Человеколюбец, ради нас умерший и воскресший и даровавший нам эти страшные и животворящие Таинства во благодеяние и освящение душ и тел наших, дай, чтобы они были и мне во исцеление души и тела, в отражение всего враждебного, в просвещение очей сердца моего, в мир душевных моих сил, в веру непостыдную, в любовь нелицемерную, в исполнение премудрости, в соблюдение заповедей Твоих, в приумножение Божественной Твоей благодати и в стяжание Царства Твоего; чтобы, сохраняемый ими во святыне Твоей, я всегда помнил благодать Твою и жил уже не для себя, но для Тебя, нашего Владыки и Благодетеля; и чтобы, так окончив эту жизнь в надежде на жизнь вечную, я достиг вечного покоя, где непрестанный глас празднующих и бесконечная сладость созерцающих несказанную красоту лица Твоего. Ибо Ты — истинное желание и неизреченная радость любящих Тебя, Христе Боже наш, и Тебя воспевает всё творение вовеки. Аминь.",
+   "uk": "Дякую Тобі, Господи Боже мій, що Ти не відкинув мене, грішного, але сподобив бути причасником святинь Твоїх. Дякую Тобі, що мене, недостойного, Ти сподобив причаститися пречистих Твоїх і небесних Дарів. Але, Владико Чоловіколюбче, Ти, що ради нас помер і воскрес і дарував нам ці страшні й животворчі Таїнства на благодіяння і освячення душ і тіл наших, дай, щоб вони були і мені на зцілення душі й тіла, на відігнання всякого супротивного, на просвітлення очей серця мого, на мир душевних моїх сил, на віру непостидну, на любов нелицемірну, на сповнення премудрості, на дотримання заповідей Твоїх, на примноження Божественної Твоєї благодаті і на здобуття Царства Твого; щоб, ними збережений у святості Твоїй, я завжди пам’ятав Твою благодать і вже не для себе жив, а для Тебе, нашого Владики і Благодійника; і щоб так, відійшовши з цього життя в надії на життя вічне, я досяг вічного спочинку, де невмовкний голос тих, що святкують, і безконечна насолода тих, що споглядають невимовну красу лиця Твого. Бо Ти — істинне бажання і невимовна радість тих, що люблять Тебе, Христе Боже наш, і Тебе оспівує все творіння навіки. Амінь.",
+   "en": "I thank Thee, O Lord my God, that Thou hast not rejected me, a sinner, but hast vouchsafed me to be a partaker of Thy Holy Things. I thank Thee that Thou hast vouchsafed me, unworthy as I am, to partake of Thy most pure and heavenly Gifts. But, O Master who lovest mankind, who for our sake didst die and didst rise again, and hast bestowed upon us these dread and life-giving Mysteries for the benefit and sanctification of our souls and bodies: grant that they may be also unto me for the healing of soul and body, for the driving away of everything contrary, for the enlightening of the eyes of my heart, for the peace of my spiritual powers, for faith unashamed, for love unfeigned, for the fulfilling of wisdom, for the keeping of Thy commandments, for the increase of Thy divine grace, and for the attaining of Thy Kingdom; that, preserved by them in Thy holiness, I may ever remember Thy grace, and live no longer for myself, but for Thee, our Master and Benefactor; and so, having departed this life in the hope of life eternal, I may attain unto everlasting rest, where the voice of them that keep festival is unceasing, and endless is the delight of them that behold the ineffable beauty of Thy countenance. For Thou art the true desire and the unutterable joy of them that love Thee, O Christ our God, and all creation praiseth Thee unto the ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 pp. 262–263; MS1900 pp. 511–513",
+    "ru": "Z1912 pp. 262–263 (adaptado)",
+    "en": "H1906 p. 123 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Eslavo e acentos segundo Z1912 pp. 262–263, conferido com MS1900 pp. 511–513 («сохраня́емь», «о наде́жди» como em Z1912). RU: Z1912 adaptado (dec. 57): «грешника» → «грешного», «сподобил приобщиться» → «удостоил быть причастником» (о́бщника), «отражение всякого врага» → «всего враждебного» (сопроти́внаго), «веру твердую» → «непостыдную», «наполнение мудростью» → «исполнение премудрости», «в чистоте пред Тобою» → «во святыне Твоей», «милость» → «благодать». PT: «непосты́дну» (ἀκαταίσχυντον) = «fé que não será confundida». EN: Hapgood adaptado (Thee/Thou; «averting of everything contrary thereto» → «driving away of everything contrary»; «faith invincible» → «faith unashamed»). Feminino: «грѣ́шную», «недосто́йную» / «pecadora», «indigna» / «грешную», «недостойную» / «грішну», «недостойну»."
+  },
+  {
+   "id": "comunhao_acao_gracas-06",
+   "tipo": "titulo",
+   "cu": "Моли́тва 2-я, свята́го Васи́лія Вели́каго",
+   "pt": "Oração 2.ª, de São Basílio, o Grande",
+   "ru": "Молитва 2-я, святого Василия Великого",
+   "uk": "Молитва 2-а, святого Василія Великого",
+   "en": "Prayer 2, of St Basil the Great",
+   "fonte": {
+    "cu": "MS1900 p. 513",
+    "ru": "Z1912 p. 263",
+    "en": "H1906 p. 123",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "comunhao_acao_gracas-07",
+   "tipo": "oracao",
+   "cu": "Влады́ко Христе́ Бо́же, Царю́ вѣко́въ и Содѣ́телю всѣхъ, благодарю́ Тя о всѣхъ, я́же ми еси́ по́далъ благи́хъ, и о причаще́ніи пречи́стыхъ и животворя́щихъ Твои́хъ Та́инствъ. Молю́ у́бо Тя, Бла́же и Человѣколю́бче: сохрани́ мя подъ кро́вомъ Твои́мъ и въ сѣ́ни крилу́ Твое́ю, и да́руй ми чи́стою со́вѣстію, да́же до послѣ́дняго моего́ издыха́нія, досто́йно причаща́тися святы́нь Твои́хъ во оставле́ніе грѣхо́въ и въ жизнь вѣ́чную. Ты бо еси́ хлѣбъ живо́тный, исто́чникъ святы́ни, Пода́тель благи́хъ, и Тебѣ́ сла́ву возсыла́емъ, со Отце́мъ и Святы́мъ Ду́хомъ, ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Soberano Cristo Deus, Rei dos séculos e Criador de todas as coisas, dou-Te graças por todos os bens que me concedeste e pela comunhão dos Teus puríssimos e vivificantes Mistérios. Rogo-Te, pois, ó Bom, que amas os homens: guarda-me sob a Tua proteção e à sombra das Tuas asas, e concede-me que, com a consciência pura, até ao meu último suspiro, comungue dignamente as Tuas coisas santas, para a remissão dos pecados e para a vida eterna. Porque Tu és o pão da vida, a fonte da santidade, o Dador dos bens, e a Ti elevamos a glória, com o Pai e o Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Владыка Христе Боже, Царь веков и Создатель всего! Благодарю Тебя за все блага, которые Ты подал мне, и за причащение пречистых и животворящих Твоих Таинств. Итак, молю Тебя, Благий и Человеколюбец: сохрани меня под кровом Твоим и в тени крыл Твоих и даруй мне с чистою совестью до последнего моего издыхания достойно причащаться Святынь Твоих во оставление грехов и в жизнь вечную. Ибо Ты — Хлеб жизни, Источник святыни, Податель благ, и Тебе славу воссылаем со Отцом и Святым Духом, ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Владико Христе Боже, Царю віків і Творче всього, дякую Тобі за всі блага, які Ти подав мені, і за причастя пречистих і животворчих Твоїх Таїн. Тож молю Тебе, Благий і Чоловіколюбче: збережи мене під покровом Твоїм і в тіні крил Твоїх, і даруй мені з чистою совістю, аж до останнього мого подиху, достойно причащатися святинь Твоїх на відпущення гріхів і на життя вічне. Бо Ти — хліб життя, джерело святості, Податель благ, і Тобі славу возсилаємо, з Отцем і Святим Духом, нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "O Master, Christ God, King of the ages and Creator of all things, I thank Thee for all the good things which Thou hast bestowed upon me, and for the communion of Thy most pure and life-giving Mysteries. I pray Thee therefore, O Good One who lovest mankind: keep me under Thy shelter and in the shadow of Thy wings, and grant that with a pure conscience, even unto my last breath, I may worthily partake of Thy Holy Things, unto the remission of sins and unto life eternal. For Thou art the Bread of life, the Fountain of holiness, the Giver of good things, and unto Thee we send up glory, together with the Father and the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 263; MS1900 pp. 513–514",
+    "ru": "Z1912 p. 263 (adaptado)",
+    "en": "H1906 p. 123 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "RU: Z1912 adaptado (dec. 57): «Создатель всего міра» → «всего» (Содѣ́телю всѣхъ), «дающихъ жизнь» → «животворящих», «милостивый» → «Благий», «подъ защитою» → «под кровом», «отпущеніе» → «оставление», «источникъ освященія» → «Источник святыни». EN: Hapgood adaptado («O Lord Christ, God» → «O Master, Christ God»; «tabernacle» → «shelter» (кро́въ); a doxologia de Hapgood «to the Father, and to the Son…» corrigida para «together with the Father and the Holy Spirit», como no eslavo)."
+  },
+  {
+   "id": "comunhao_acao_gracas-08",
+   "tipo": "titulo",
+   "cu": "Моли́тва 3-я, Симео́на Метафра́ста",
+   "pt": "Oração 3.ª, de Simeão Metafrasta",
+   "ru": "Молитва 3-я, Симеона Метафраста",
+   "uk": "Молитва 3-я, Симеона Метафраста",
+   "en": "Prayer 3, of Symeon Metaphrastes",
+   "fonte": {
+    "cu": "MS1900 p. 514",
+    "ru": "Z1912 p. 263",
+    "en": "H1906 p. 123",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "O Molitvoslov atual acrescenta «прп.» (venerável). PT: nome tradicional «Simeão» (dec. 19)."
+  },
+  {
+   "id": "comunhao_acao_gracas-09",
+   "tipo": "oracao",
+   "cu": "Да́вый пи́щу мнѣ плоть Твою́ во́лею, огнь сый и опаля́яй недосто́йныя, да не опали́ши мене́, Содѣ́телю мой; па́че же пройди́ во у́ды моя́, во вся соста́вы, во утро́бу, въ се́рдце. Попали́ те́рніе всѣхъ мои́хъ прегрѣше́ній. Ду́шу очи́сти, освяти́ помышле́нія. Соста́вы утверди́ съ костьми́ вку́пѣ. Чувствъ просвѣти́ просту́ю пятери́цу. Всего́ мя спригвозди́ стра́ху Твоему́. При́сно покры́й, соблюди́ же и сохрани́ мя отъ вся́каго дѣ́ла и сло́ва душетлѣ́ннаго. Очи́сти и омы́й, и украси́ мя; удобри́, вразуми́ и просвѣти́ мя. Покажи́ мя Твое́ селе́ніе еди́наго Ду́ха, и не ктому́ селе́ніе грѣха́: да я́ко Твоего́ до́му, вхо́домъ причаще́нія, я́ко огня́ мене́ бѣжи́тъ всякъ злодѣ́й, вся́ка страсть. Моли́твенники Тебѣ́ приношу́ вся святы́я, чинонача́лія же безпло́тныхъ, Предте́чу Твоего́, прему́дрыя Апо́столы, къ си́мъ же Твою́ нескве́рную, чи́стую Ма́терь: и́хже мольбы́, Благоутро́бне, пріими́, Христе́ мой, и сы́номъ свѣ́та содѣ́лай Твоего́ служи́теля. Ты бо еси́ освяще́ніе и еди́ный на́шихъ, Бла́же, душъ и свѣ́тлость, и Тебѣ́ лѣпоподо́бно, я́ко Бо́гу и Влады́цѣ, сла́ву вси возсыла́емъ на всякъ день.",
+   "pt": "Tu que voluntariamente me dás a Tua carne como alimento, Tu que és fogo e queimas os indignos, não me queimes, ó meu Criador; mas antes penetra nos meus membros, em todas as articulações, nas entranhas, no coração. Queima os espinhos de todos os meus pecados. Purifica a alma, santifica os pensamentos. Firma as articulações juntamente com os ossos. Ilumina a simples pêntade dos sentidos. Prega-me todo ao Teu temor. Cobre-me sempre, guarda-me e preserva-me de toda a obra e palavra que corrompe a alma. Purifica-me, lava-me e adorna-me; dá-me ordem, entendimento e luz. Mostra-me morada do Teu único Espírito, e não mais morada do pecado: para que, como da Tua casa, pela entrada da comunhão, fujam de mim, como do fogo, todo o malfeitor e toda a paixão. Apresento-Te como intercessores todos os santos, as ordens dos incorpóreos, o Teu Precursor, os sábios Apóstolos e, com eles, a Tua Mãe imaculada e pura: acolhe as suas súplicas, ó Compassivo, ó meu Cristo, e faz do Teu servo filho da luz. Porque Tu és a santificação e o único esplendor das nossas almas, ó Bom, e a Ti, como a Deus e Soberano, todos elevamos, como convém, a glória em cada dia.",
+   "ru": "Ты, добровольно дающий мне в пищу плоть Твою, Ты, огонь, опаляющий недостойных, не опали меня, Создатель мой, но лучше пройди в члены мои, во все составы, во внутренности, в сердце. Попали терние всех моих прегрешений. Душу очисти, освяти помышления. Составы укрепи вместе с костями. Чувств простую пятерицу просвети. Всего меня пригвозди к страху Твоему. Всегда покрывай, соблюдай и сохраняй меня от всякого душевредного дела и слова. Очисти, и омой, и укрась меня; благоустрой, вразуми и просвети меня. Яви меня жилищем единого Духа, а не жилищем греха, чтобы от меня, как от дома Твоего, по вхождении Причастия, как от огня, бежал всякий злодей, всякая страсть. Молитвенниками приношу Тебе всех святых, начальства бесплотных, Предтечу Твоего, премудрых апостолов и, сверх того, Твою непорочную, чистую Матерь: их мольбы, Милосердный, прими, Христе мой, и сделай служителя Твоего сыном света. Ибо Ты — освящение и единственный свет наших, Благий, душ, и Тебе подобающе, как Богу и Владыке, мы все воссылаем славу каждый день.",
+   "uk": "Ти, що з волі Своєї даєш мені в їжу плоть Твою, Ти, що є вогонь і палиш недостойних, не попали мене, Творче мій, але радше пройди в члени мої, в усі суглоби, в нутро, в серце. Попали терня всіх моїх прогрішень. Душу очисти, освяти помисли. Суглоби утверди разом із кістками. Чуттів просту п’ятірку просвіти. Всього мене прибий до страху Твого. Завжди покривай, оберігай і зберігай мене від усякого душетлінного діла і слова. Очисти, і омий, і прикрась мене; упорядкуй, врозуми і просвіти мене. Покажи мене оселею єдиного Духа, і вже не оселею гріха: щоб від мене, як від дому Твого, через входження Причастя, як від вогню, утікав усякий лиходій, усяка пристрасть. Молитовниками приношу Тобі всіх святих, чиноначалля безплотних, Предтечу Твого, премудрих апостолів, а з ними й Твою непорочну, чисту Матір: їхні моління, Милосердний, прийми, Христе мій, і сином світла вчини Твого служителя. Бо Ти — освячення і єдине світло наших, Благий, душ, і Тобі, як Богові і Владиці, гідно ми всі славу возсилаємо щодня.",
+   "en": "O Thou who of Thine own will dost give me Thy flesh as food, who art fire consuming the unworthy: consume me not, O my Creator; but rather enter into my members, into all my joints, into my reins, into my heart. Burn up the thorns of all my transgressions. Cleanse my soul, sanctify my thoughts. Make firm my joints together with my bones. Enlighten the simple fivefold of my senses. Nail me wholly to the fear of Thee. Ever shelter, guard and keep me from every soul-corrupting deed and word. Cleanse me, wash me, and adorn me; set me in order, give me understanding, and enlighten me. Show me to be the dwelling of Thy one Spirit, and no longer the dwelling of sin: that from me, as from Thy house, through the entrance of Communion, every evildoer and every passion may flee as from fire. As intercessors I bring unto Thee all the Saints, the commanders of the bodiless hosts, Thy Forerunner, the wise Apostles, and with them Thine undefiled and pure Mother: accept their entreaties, O compassionate One, O my Christ, and make Thy servant a child of the light. For Thou art the sanctification and the only radiance of our souls, O Good One, and unto Thee, as God and Master, we all send up glory, as is meet, every day.",
+   "fonte": {
+    "cu": "Z1912 pp. 263–264; MS1900 pp. 514–516",
+    "ru": "propria (Z1912 parafraseava)",
+    "en": "H1906 pp. 123–124 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Eslavo segundo MS1900 pp. 514–516 e o Molitvoslov atual: «Ты бо еси́ освяще́ніе и еди́ный на́шихъ… свѣ́тлость» (Z1912 p. 264 traz «Ты бо еди́нъ еси́ и освяще́ніе…») ⚠; «на всякъ день» com MS1900 e Z1912. Sem «Ами́нь» nas duas edições. «Чувствъ просту́ю пятери́цу» = os cinco sentidos (PT «pêntade»). «злодѣ́й» = o maligno (UK «лиходій», não «злодій» = ladrão). RU: tradução própria (dec. 57); Z1912 parafraseava («укрѣпи въ колѣнахъ ноги мои», «пять моихъ основныхъ чувствъ», «пропитай страхомъ»). EN: Hapgood adaptado («Make stable my knees» → «Make firm my joints», como o eslavo; «every carnal passion» → «every passion»)."
+  },
+  {
+   "id": "comunhao_acao_gracas-10",
+   "tipo": "titulo",
+   "cu": "Моли́тва 4-я",
+   "pt": "Oração 4.ª",
+   "ru": "Молитва 4-я",
+   "uk": "Молитва 4-а",
+   "en": "Prayer 4",
+   "fonte": {
+    "cu": "MS1900 p. 516",
+    "ru": "Z1912 p. 264",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Hapgood p. 124 intitula «Another Prayer»."
+  },
+  {
+   "id": "comunhao_acao_gracas-11",
+   "tipo": "oracao",
+   "cu": "Тѣ́ло Твое́ свято́е, Го́споди Іису́се Христе́ Бо́же нашъ, да бу́детъ ми въ живо́тъ вѣ́чный, и Кровь Твоя́ честна́я во оставле́ніе грѣхо́въ; бу́ди же ми благодаре́ніе сіе́ въ ра́дость, здра́віе и весе́ліе; въ стра́шное же и второ́е прише́ствіе Твое́ сподо́би мя грѣ́шнаго ста́ти одесну́ю сла́вы Твоея́, моли́твами Пречи́стыя Твоея́ Ма́тере и всѣхъ святы́хъ.",
+   "pt": "Que o Teu santo Corpo, Senhor Jesus Cristo, nosso Deus, seja para mim para a vida eterna, e o Teu precioso Sangue para a remissão dos pecados; e que esta ação de graças seja para mim alegria, saúde e júbilo; e na Tua temível e segunda vinda, torna-me digno, a mim, pecador, de estar à direita da Tua glória, pelas orações da Tua Mãe puríssima e de todos os santos.",
+   "ru": "Тело Твое Святое, Господи Иисусе Христе Боже наш, да будет мне в жизнь вечную, и Кровь Твоя Честная — во оставление грехов; да будет же мне это благодарение в радость, здравие и веселие; в страшное же и второе пришествие Твое сподобь меня, грешного, стать одесную славы Твоей, по молитвам Пречистой Твоей Матери и всех святых.",
+   "uk": "Тіло Твоє Святе, Господи Іісусе Христе Боже наш, нехай буде мені на життя вічне, і Кров Твоя Чесна — на відпущення гріхів; нехай же буде мені це благодарення на радість, здоров’я і веселість; а в страшне і друге пришестя Твоє сподоби мене, грішного, стати праворуч слави Твоєї, молитвами Пречистої Твоєї Матері і всіх святих.",
+   "en": "May Thy holy Body, O Lord Jesus Christ our God, be unto me for life eternal, and Thy precious Blood for the remission of sins; and may this thanksgiving be unto me for joy, health and gladness; and at Thy dread and second Coming vouchsafe me, a sinner, to stand at the right hand of Thy glory, through the prayers of Thy most pure Mother and of all the Saints.",
+   "fonte": {
+    "cu": "MS1900 pp. 516–517; Z1912 pp. 264–265",
+    "ru": "propria",
+    "en": "H1906 p. 124 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Sem «Ами́нь» em MS1900, Z1912 e Hapgood. «благодаре́ніе сіе́» (εὐχαριστία) segundo MS1900 e o Molitvoslov atual; Z1912 p. 265 lê «причаще́ніе сіе́» ⚠. Hapgood: «this Eucharist» → «this thanksgiving». RU: Z1912 não traduz esta oração; tradução própria. Feminino: «грѣ́шную» / «pecadora» / «грешную» / «грішну»."
+  },
+  {
+   "id": "comunhao_acao_gracas-12",
+   "tipo": "titulo",
+   "cu": "Моли́тва 5-я, ко Пресвятѣ́й Богоро́дицѣ",
+   "pt": "Oração 5.ª, à Santíssima Mãe de Deus",
+   "ru": "Молитва 5-я, ко Пресвятой Богородице",
+   "uk": "Молитва 5-а, до Пресвятої Богородиці",
+   "en": "Prayer 5, to the Most Holy Theotokos",
+   "fonte": {
+    "cu": "MS1900 p. 517",
+    "ru": "Z1912 p. 265",
+    "en": "H1906 p. 124 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   }
+  },
+  {
+   "id": "comunhao_acao_gracas-13",
+   "tipo": "oracao",
+   "cu": "Пресвята́я Влады́чице Богоро́дице, свѣ́те помраче́нныя моея́ души́, наде́ждо, покро́ве, прибѣ́жище, утѣше́ніе, ра́дованіе мое́, благодарю́ Тя, я́ко сподо́била мя еси́ недосто́йнаго прича́стника бы́ти пречи́стаго Тѣ́ла и честны́я Кро́ве Сы́на Твоего́. Но, Ро́ждшая и́стинный Свѣтъ, просвѣти́ моя́ у́мныя о́чи се́рдца; Я́же Исто́чникъ безсме́ртія ро́ждшая, оживотвори́ мя, умерщвле́ннаго грѣхо́мъ; Я́же ми́лостиваго Бо́га любоблагоутро́бная Ма́ти, поми́луй мя, и даждь ми умиле́ніе и сокруше́ніе въ се́рдцѣ мое́мъ, и смире́ніе въ мы́слехъ мои́хъ, и воззва́ніе въ плѣне́ніихъ помышле́ній мои́хъ; и сподо́би мя до послѣ́дняго издыха́нія неосужде́нно пріима́ти пречи́стыхъ Та́инъ освяще́ніе, во исцѣле́ніе души́ же и тѣ́ла; и пода́ждь ми сле́зы покая́нія и исповѣ́данія, во е́же пѣ́ти и сла́вити Тя во вся дни живота́ моего́, я́ко благослове́на и препросла́влена еси́ во вѣ́ки. Ами́нь.",
+   "pt": "Santíssima Soberana, Mãe de Deus, luz da minha alma entenebrecida, minha esperança, proteção, refúgio, consolação e alegria: dou-Te graças porque me fizeste digno, a mim, indigno, de participar no puríssimo Corpo e no precioso Sangue do Teu Filho. Tu, que deste à luz a verdadeira Luz, ilumina os olhos espirituais do meu coração; Tu, que deste à luz a Fonte da imortalidade, vivifica-me a mim, morto pelo pecado; Tu, Mãe toda compassiva do Deus misericordioso, tem piedade de mim e dá-me compunção e contrição no meu coração, humildade nos meus pensamentos e o regresso dos meus pensamentos do seu cativeiro; e torna-me digno de receber sem condenação, até ao último suspiro, a santificação dos puríssimos Mistérios, para cura da alma e do corpo; e dá-me lágrimas de arrependimento e de confissão, para Te cantar e glorificar todos os dias da minha vida, porque és bendita e gloriosíssima pelos séculos. Ámen.",
+   "ru": "Пресвятая Владычица Богородица, свет помраченной души моей, надежда, покров, прибежище, утешение, радость моя! Благодарю Тебя, что Ты удостоила меня, недостойного, быть причастником пречистого Тела и честной Крови Сына Твоего. Родившая истинный Свет, просвети духовные очи сердца моего; Родившая Источник бессмертия, оживотвори меня, умерщвленного грехом; милостивого Бога любящая милосердие Матерь, помилуй меня и дай мне умиление и сокрушение в сердце моем, и смирение в мыслях моих, и возвращение помыслов моих из плена; и сподобь меня до последнего вздоха неосужденно принимать освящение пречистых Таин во исцеление души и тела; и подай мне слезы покаяния и исповедания, чтобы воспевать и прославлять Тебя во все дни жизни моей, ибо Ты благословенна и препрославлена вовеки. Аминь.",
+   "uk": "Пресвята Владичице Богородице, світло потьмареної душі моєї, надіє, покрове, прибіжище, утіхо, радосте моя! Дякую Тобі, що Ти сподобила мене, недостойного, бути причасником пречистого Тіла і чесної Крові Сина Твого. Ти, що породила істинне Світло, просвіти мислені очі серця мого; Ти, що породила Джерело безсмертя, оживи мене, умертвленого гріхом; Ти, милостивого Бога всемилосердна Мати, помилуй мене і дай мені розчулення і сокрушення в серці моєму, і смирення в думках моїх, і повернення помислів моїх із полону; і сподоби мене до останнього подиху неосудно приймати освячення пречистих Таїн на зцілення душі й тіла; і подай мені сльози покаяння і сповідання, щоб оспівувати і славити Тебе по всі дні життя мого, бо Ти благословенна і препрославлена навіки. Амінь.",
+   "en": "O most holy Lady Theotokos, light of my darkened soul, my hope, shelter, refuge, consolation and joy: I thank thee that thou hast vouchsafed me, who am unworthy, to be a partaker of the most pure Body and precious Blood of thy Son. O thou who didst bring forth the true Light, enlighten the spiritual eyes of my heart; O thou who didst bear the Fountain of immortality, quicken me who am dead in sin; O thou loving and compassionate Mother of the merciful God, have mercy upon me, and grant me compunction and contrition in my heart, and humility in my thoughts, and the recalling of my thoughts from their captivity; and vouchsafe me, even unto my last breath, to receive without condemnation the sanctification of the most pure Mysteries, unto the healing of soul and body; and grant me tears of repentance and confession, that I may hymn and glorify thee all the days of my life; for blessed and all-glorified art thou unto the ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 265; MS1900 pp. 517–518",
+    "ru": "Z1912 p. 265 (adaptado)",
+    "en": "H1906 p. 124 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Eslavo segundo Z1912 p. 265 («благослове́на и препросла́влена» com um só «н», como manha-p10). RU: Z1912 adaptado (dec. 57): «драгоценной» → «честной», «оживи» → «оживотвори», o acrescento explicativo «возвращение къ благимъ помысламъ разсудка моего въ случаяхъ его увлеченія» → «возвращение помыслов моих из плена» (воззва́ніе въ плѣне́ніихъ помышле́ній), e «слезы… благодаренія» corrigido para «исповедания» (исповѣ́данія). EN: Hapgood adaptado («Birth-giver of our God» → «Theotokos»; «repentance» → «compunction» (умиле́ніе); «deliverance from bondage to evil thoughts» → «the recalling of my thoughts from their captivity»). Feminino: «грѣ́шную», «недосто́йную» / «pecadora», «indigna» / «грешную», «недостойную» / «грішну», «недостойну»."
+  },
+  {
+   "id": "comunhao_acao_gracas-14",
+   "tipo": "titulo",
+   "cu": "Пѣснь свята́го Симео́на Богопрі́имца",
+   "pt": "Cântico de São Simeão, o que recebeu Deus nos braços",
+   "ru": "Песнь святого Симеона Богоприимца",
+   "uk": "Пісня святого Симеона Богоприїмця",
+   "en": "The Song of St Simeon the God-receiver",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Título próprio para a interface; os Molitvoslovy dão só o texto (Lc 2,29–32)."
+  },
+  {
+   "id": "comunhao_acao_gracas-15",
+   "tipo": "oracao",
+   "cu": "Ны́нѣ отпуща́еши раба́ Твоего́, Влады́ко, по глаго́лу Твоему́, съ ми́ромъ: я́ко ви́дѣста о́чи мои́ спасе́ніе Твое́, е́же еси́ угото́валъ предъ лице́мъ всѣхъ люде́й, свѣтъ во открове́ніе язы́ковъ и сла́ву люде́й Твои́хъ Изра́иля.",
+   "pt": "Agora, Soberano, deixas ir em paz o Teu servo, segundo a Tua palavra, porque os meus olhos viram a Tua salvação, que preparaste diante da face de todos os povos: luz para revelação às nações e glória do Teu povo, Israel.",
+   "ru": "Ныне отпускаешь раба Твоего, Владыко, по слову Твоему, с миром, ибо видели очи мои спасение Твое, которое Ты уготовал пред лицем всех народов, свет к просвещению язычников и славу народа Твоего Израиля.",
+   "uk": "Нині відпускаєш раба Твого, Владико, за словом Твоїм, з миром, бо бачили очі мої спасіння Твоє, яке Ти приготував перед лицем усіх народів, світло на просвіту язичникам і славу народу Твого, Ізраїля.",
+   "en": "Now lettest Thou Thy servant depart, O Master, according to Thy word, in peace; for mine eyes have seen Thy salvation, which Thou hast prepared before the face of all peoples: a light for the revelation of the Gentiles, and the glory of Thy people Israel.",
+   "fonte": {
+    "cu": "T1907 p. 77",
+    "ru": "SIN1876 Лк 2:29–32",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Lc 2,29–32. Eslavo segundo T1907 p. 77 (= Bíblia isabelina); acentuação segundo a prática corrente ⚠ (T1907 em escrita civil sem acentos). Traduções segundo a dec. 41: PT própria do eslavo; RU Sinodal (1876); UK própria; EN própria do eslavo (Hapgood p. 124 segue a KJV). Hapgood p. 124 e o Molitvoslov atual põem aqui o cântico; MS1900 e Z1912 terminam na 5.ª oração."
+  },
+  {
+   "id": "comunhao_acao_gracas-16",
+   "tipo": "oracao",
+   "cu": "Святы́й Бо́же, Святы́й Крѣ́пкій, Святы́й Безсме́ртный, поми́луй насъ.",
+   "pt": "Santo Deus, Santo Forte, Santo Imortal, tem piedade de nós.",
+   "ru": "Святый Боже, Святый Крепкий, Святый Бессмертный, помилуй нас.",
+   "uk": "Святий Боже, Святий Кріпкий, Святий Безсмертний, помилуй нас.",
+   "en": "Holy God, Holy Mighty, Holy Immortal, have mercy upon us.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "Texto e traduções idênticos a manha.json (manha-15). Na igreja e no Molitvoslov atual, com três inclinações."
+  },
+  {
+   "id": "comunhao_acao_gracas-17",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Texto e traduções idênticos a manha.json (manha-16)."
+  },
+  {
+   "id": "comunhao_acao_gracas-18",
+   "tipo": "oracao",
+   "cu": "Пресвята́я Тро́ице, поми́луй насъ; Го́споди, очи́сти грѣхи́ на́ша; Влады́ко, прости́ беззако́нія на́ша; Святы́й, посѣти́ и исцѣли́ не́мощи на́ша, и́мене Твоего́ ра́ди.",
+   "pt": "Santíssima Trindade, tem piedade de nós; Senhor, purifica os nossos pecados; Soberano, perdoa as nossas iniquidades; Santo, visita e cura as nossas enfermidades, por causa do Teu nome.",
+   "ru": "Пресвятая Троица, помилуй нас; Господи, очисти грехи наши; Владыка, прости беззакония наши; Святой, посети и исцели немощи наши ради имени Твоего.",
+   "uk": "Пресвята Трійце, помилуй нас; Господи, очисти гріхи наші; Владико, прости беззаконня наші; Святий, відвідай і зціли немочі наші імені Твого ради.",
+   "en": "O all-holy Trinity, have mercy upon us. O Lord, cleanse our sins. O Master, pardon our transgressions. O Holy One, visit and heal our infirmities, for Thy Name's sake.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Texto e traduções idênticos a manha.json (manha-17)."
+  },
+  {
+   "id": "comunhao_acao_gracas-19",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "Texto e traduções idênticos a manha.json (manha-18)."
+  },
+  {
+   "id": "comunhao_acao_gracas-20",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Texto e traduções idênticos a manha.json (manha-19)."
+  },
+  {
+   "id": "comunhao_acao_gracas-21",
+   "tipo": "oracao",
+   "cu": "О́тче нашъ, И́же еси́ на небесѣ́хъ! Да святи́тся и́мя Твое́, да пріи́детъ Ца́рствіе Твое́, да бу́детъ во́ля Твоя́, я́ко на небеси́ и на земли́. Хлѣбъ нашъ насу́щный даждь намъ днесь; и оста́ви намъ до́лги на́ша, я́коже и мы оставля́емъ должнико́мъ на́шимъ; и не введи́ насъ во искуше́ніе, но изба́ви насъ отъ лука́ваго.",
+   "pt": "Pai nosso, que estás nos céus, santificado seja o Teu nome; venha o Teu Reino; seja feita a Tua vontade, como no céu, assim na terra. O pão nosso de cada dia dá-nos hoje; e perdoa-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores; e não nos conduzas à tentação, mas livra-nos do maligno.",
+   "ru": "Отче наш, сущий на небесах! Да святится имя Твое, да придет Царствие Твое, да будет воля Твоя, как на небе, так и на земле. Хлеб наш насущный дай нам сегодня; и прости нам долги наши, как и мы прощаем должникам нашим; и не введи нас в искушение, но избавь нас от лукавого.",
+   "uk": "Отче наш, що єси на небесах! Нехай святиться ім’я Твоє, нехай прийде Царство Твоє, нехай буде воля Твоя, як на небі, так і на землі. Хліб наш насущний дай нам сьогодні; і прости нам борги наші, як і ми прощаємо боржникам нашим; і не введи нас у спокусу, але визволи нас від лукавого.",
+   "en": "Our Father, who art in heaven, hallowed be Thy Name. Thy kingdom come. Thy will be done, as in heaven, so on earth. Give us this day our daily bread. And forgive us our debts, as we forgive our debtors. And lead us not into temptation, but deliver us from the evil one.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria (Z1912 parafraseava)",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Texto e traduções idênticos a manha.json (manha-20)."
+  },
+  {
+   "id": "comunhao_acao_gracas-22",
+   "tipo": "rubrica",
+   "cu": "Е́сли соверша́лась Литурги́я святи́теля Іоа́нна Златоу́стаго:",
+   "pt": "Se se celebrou a Liturgia de São João Crisóstomo:",
+   "ru": "Если совершалась Литургия святителя Иоанна Златоуста:",
+   "uk": "Якщо звершувалася Літургія святителя Іоанна Золотоустого:",
+   "en": "If the Liturgy of St John Chrysostom was celebrated:",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "H1906 p. 125 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Rubrica própria (doc. 03 §3.4; Molitvoslov atual). Variante por defeito (Liturgia de S. João Crisóstomo)."
+  },
+  {
+   "id": "comunhao_acao_gracas-23",
+   "tipo": "oracao",
+   "cu": "Тропа́рь, гласъ 8: У́стъ твои́хъ, я́коже свѣ́тлость огня́, возсія́вши благода́ть вселе́нную просвѣти́, не сребролю́бія мі́рови сокро́вища сниска́, высоту́ намъ смиренному́дрія показа́; но твои́ми словесы́ наказу́я, о́тче Іоа́нне Златоу́сте, моли́ Сло́ва Христа́ Бо́га спасти́ся душа́мъ на́шимъ.",
+   "pt": "Tropário, tom 8: A graça da tua boca, resplandecendo como o fulgor do fogo, iluminou o universo; não amontoou para o mundo tesouros de avareza, mas mostrou-nos a altura da humildade. E tu, que nos instruis com as tuas palavras, ó Padre João Crisóstomo, roga ao Verbo, Cristo Deus, que salve as nossas almas.",
+   "ru": "Тропарь, глас 8: Благодать, воссиявшая из уст твоих, как сияние огня, просветила вселенную, собрала миру сокровища не сребролюбия, показала нам высоту смиренномудрия; но, наставляя твоими словами, отче Иоанне Златоусте, моли Слово, Христа Бога, о спасении душ наших.",
+   "uk": "Тропар, глас 8: Благодать уст твоїх, засяявши, мов світло вогню, всесвіт просвітила, не скарби сріблолюбства світові зібрала, висоту смиренномудрості нам показала; але, повчаючи твоїми словами, отче Іоанне Золотоусте, моли Слово, Христа Бога, спастися душам нашим.",
+   "en": "Troparion, Tone 8: The grace of thy lips, shining forth like a beacon of fire, hath illumined the universe; it hath laid up for the world no treasures of avarice, and hath shown us the height of humility. But as thou instructest us by thy words, O Father John Chrysostom, entreat the Word, Christ God, to save our souls.",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "H1906 p. 125 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "⚠ Eslavo transcrito segundo o texto atual (Menaion, 13 nov.; Molitvoslov), em grafia pré-reforma: não se localizou edição sinodal pré-1917 em domínio público com este tropário (MS1900, Z1912 e T1907 não o têm; o Канонникъ 1817 da RSL não traz as orações de ação de graças). A conferir numa digitalização do Служебникъ ou da Минея pré-1917. Hapgood p. 125 dá «Tone V»; o eslavo e o grego dão tom 8 ⚠. «не сребролю́бія… сокро́вища» = οὐ φιλαργυρίας θησαυρούς (tesouros que não são de avareza). UK: «Золотоустий», forma da IOU."
+  },
+  {
+   "id": "comunhao_acao_gracas-24",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху. Конда́къ, гласъ 6: Отъ небе́съ прія́лъ еси́ Боже́ственную благода́ть и твои́ма устна́ма вся у́чиши покланя́тися въ Тро́ицѣ еди́ному Бо́гу, Іоа́нне Златоу́сте, всеблаже́нне, преподо́бне; досто́йно хва́лимъ тя: еси́ бо наста́вникъ, я́ко Боже́ственная явля́я.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo. Condácio, tom 6: Dos céus recebeste a graça divina e, pelos teus lábios, ensinas todos a adorar o Deus único na Trindade, ó João Crisóstomo, beatíssimo e venerável; com razão te louvamos, pois és mestre que revela as coisas divinas.",
+   "ru": "Слава Отцу и Сыну и Святому Духу. Кондак, глас 6: С небес принял ты Божественную благодать и устами твоими всех учишь поклоняться единому Богу в Троице, Иоанне Златоусте, всеблаженне, преподобне; достойно хвалим тебя, ибо ты наставник, являющий божественное.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові. Кондак, глас 6: З небес прийняв ти Божественну благодать і твоїми устами всіх учиш поклонятися єдиному в Трійці Богові, Іоанне Золотоусте, всеблаженний, преподобний; достойно хвалимо тебе, бо ти наставник, що являє божественне.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit. Kontakion, Tone 6: From heaven hast thou received divine grace, and by thy lips thou teachest all to worship the One God in Trinity, O John Chrysostom, all-blessed and venerable; rightly do we praise thee, for thou art a guide, revealing things divine.",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "H1906 p. 125 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "⚠ Eslavo transcrito segundo o texto atual (fonte PD não localizada; ver o bloco anterior). «Сла́ва…» abrevia aqui só a primeira parte da doxologia, como em manha-p09. EN: Hapgood adaptado («the One God in three Persons» → «the One God in Trinity», въ Тро́ицѣ; «Teacher» → «guide», наста́вникъ)."
+  },
+  {
+   "id": "comunhao_acao_gracas-25",
+   "tipo": "rubrica",
+   "cu": "Е́сли соверша́лась Литурги́я святи́теля Васи́лія Вели́каго, вмѣ́сто тропаря́ и конда́ка Іоа́нну Златоу́стому чита́ются: Тропа́рь, гласъ 1: Во всю зе́млю изы́де вѣща́ніе твое́, я́ко пріе́мшую сло́во твое́, и́мже боголѣ́пно научи́лъ еси́, естество́ су́щихъ уясни́лъ еси́, человѣ́ческія обы́чаи украси́лъ еси́, ца́рское свяще́ніе, о́тче преподо́бне: моли́ Христа́ Бо́га спасти́ся душа́мъ на́шимъ. Конда́къ, гласъ 4: Яви́лся еси́ основа́ніе непоколеби́мое Це́ркве, подая́ всѣмъ некра́домое госпо́дство человѣ́комъ, запечатлѣ́я твои́ми велѣ́ньми, небоявле́нне Васи́ліе преподо́бне.",
+   "pt": "Se se celebrou a Liturgia de São Basílio, o Grande, em lugar do tropário e do condácio de São João Crisóstomo diz-se: Tropário, tom 1: Por toda a terra saiu a tua voz, pois ela recebeu a tua palavra, com a qual ensinaste de modo digno de Deus, esclareceste a natureza dos seres e ornaste os costumes dos homens; ó sacerdócio régio, venerável Padre, roga a Cristo Deus que salve as nossas almas. Condácio, tom 4: Mostraste-te fundamento inabalável da Igreja, concedendo a todos os homens um senhorio inviolável e selando-o com os teus preceitos, ó venerável Basílio, revelador das coisas celestes.",
+   "ru": "Если совершалась Литургия святителя Василия Великого, вместо тропаря и кондака Иоанну Златоусту читаются: Тропарь, глас 1: По всей земле разнеслось вещание твое, ибо она приняла слово твое, которым ты боголепно научил, природу сущего разъяснил, нравы человеческие украсил; царственное священство, отче преподобне, моли Христа Бога о спасении душ наших. Кондак, глас 4: Ты явился непоколебимым основанием Церкви, подавая всем людям неотъемлемое владычество и запечатлевая его твоими повелениями, небоявленный преподобне Василие.",
+   "uk": "Якщо звершувалася Літургія святителя Василія Великого, замість тропаря і кондака Іоанну Золотоустому читаються: Тропар, глас 1: По всій землі пройшло вістування твоє, бо вона прийняла слово твоє, яким ти боголіпно навчив, єство сущого з’ясував, звичаї людські прикрасив; царське священство, отче преподобний, моли Христа Бога спастися душам нашим. Кондак, глас 4: Явився ти непохитною основою Церкви, подаючи всім людям невідчужуване владарювання і запечатуючи його твоїми веліннями, небоявленний преподобний Василію.",
+   "en": "If the Liturgy of St Basil the Great was celebrated, instead of the troparion and kontakion of St John Chrysostom the following are said: Troparion, Tone 1: Thy voice hath gone forth into all the earth, which hath received thy word, whereby thou hast taught as befitteth God, hast made plain the nature of created things, and hast adorned the ways of men; O royal priesthood, venerable Father, entreat Christ God that our souls be saved. Kontakion, Tone 4: Thou didst prove to be an unshakeable foundation of the Church, granting unto all men an inviolable lordship and sealing it with thy decrees, O venerable Basil, revealer of heavenly things.",
+   "fonte": {
+    "cu": "MS1900 pp. 244–245",
+    "ru": "Z1912 pp. 143–144 (adaptado)",
+    "en": "H1906 p. 125 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Textos de S. Basílio (1 jan.) segundo MS1900 pp. 244–245; acentuação segundo a prática corrente ⚠. Hapgood p. 125 traz esta variante entre parênteses retos. RU: Z1912 adaptado (dec. 57): Z1912 parafraseava («научилъ основамъ божественной вѣры», «сокровищемъ ученія», «сіяющій до небесъ»). «небоявле́нне» = οὐρανοφάντορ (revelador do céu): PT/EN «revelador das coisas celestes». Em dez Liturgias por ano (doc. 03 §3.4)."
+  },
+  {
+   "id": "comunhao_acao_gracas-26",
+   "tipo": "rubrica",
+   "cu": "Е́сли соверша́лась Литурги́я Преждеосвяще́нныхъ Даро́въ, чита́ются тропа́рь (гласъ 4) «И́же отъ Бо́га свы́ше Боже́ственную благода́ть воспрі́емъ…» и конда́къ (гласъ 3) «Подобонача́льникъ показа́лся еси́ Нача́льника па́стыремъ Христа́…» святи́телю Григо́рію Двоесло́ву.",
+   "pt": "Se se celebrou a Liturgia dos Dons Pré-santificados, dizem-se o tropário (tom 4) «Tendo recebido do alto, de Deus, a graça divina…» e o condácio (tom 3) «Mostraste-te aos pastores imitador de Cristo, o Príncipe dos pastores…» de São Gregório Dialogo.",
+   "ru": "Если совершалась Литургия Преждеосвященных Даров, читаются тропарь (глас 4) «Иже от Бога свыше Божественную благодать восприем…» и кондак (глас 3) «Подобоначальник показался еси Начальника пастырем Христа…» святителю Григорию Двоеслову.",
+   "uk": "Якщо звершувалася Літургія Передосвячених Дарів, читаються тропар (глас 4) «Іже от Бога свише Божественную благодать восприєм…» і кондак (глас 3) «Подобоначальник показався єси Начальника пастирем Христа…» святителю Григорію Двоєслову.",
+   "en": "If the Liturgy of the Presanctified Gifts was celebrated, the troparion (Tone 4) «Having received divine grace from God on high…» and the kontakion (Tone 3) «Thou didst show thyself to shepherds an imitator of Christ, the Chief Shepherd…» of St Gregory the Dialogist are said.",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "⚠ Só os incípites (doc. 03 §3.4 [70]): o texto integral de S. Gregório Dialogo (12 mar.) não foi localizado em edição PD consultada (MS1900, Z1912 e Hapgood não o têm); a transcrever de uma Минея pré-1917. UK: incípites eslavos no «Київський ізвод» aproximado, como citação ⚠."
+  },
+  {
+   "id": "comunhao_acao_gracas-27",
+   "tipo": "oracao",
+   "cu": "И ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь. Предста́тельство христіа́нъ непосты́дное, хода́тайство ко Творцу́ непрело́жное, не пре́зри грѣ́шныхъ моле́ній гла́сы, но предвари́, я́ко Блага́я, на по́мощь насъ, вѣ́рно зову́щихъ Ти: ускори́ на моли́тву и потщи́ся на умоле́ніе, предста́тельствующи при́сно, Богоро́дице, чту́щихъ Тя.",
+   "pt": "Agora e sempre e pelos séculos dos séculos. Ámen. Proteção infalível dos cristãos, mediação imutável junto do Criador, não desprezes as vozes das súplicas dos pecadores, mas, como Boa, apressa-Te a socorrer-nos, a nós que fielmente Te clamamos: apressa-Te a interceder e diligencia em suplicar, Tu que sempre proteges, ó Mãe de Deus, os que Te honram.",
+   "ru": "И ныне, и всегда, и во веки веков. Аминь. Заступничество христиан непостыдное, ходатайство пред Творцом непреложное, не презри голосов моления грешников, но поспеши, как Благая, на помощь нам, верно взывающим к Тебе: поспеши на молитву и потщись на умоление, всегда заступающая, Богородица, за чтущих Тебя.",
+   "uk": "І нині, і повсякчас, і на віки віків. Амінь. Заступнице християн непостидна, Посереднице перед Творцем незмінна, не зневаж голосів молінь грішних, але випередь, як Блага, на допомогу нам, що вірно взиваємо до Тебе: поспіши на молитву і подбай про благання, завжди заступаючись, Богородице, за тих, що шанують Тебе.",
+   "en": "Now and ever, and unto ages of ages. Amen. O Protection of Christians that cannot be put to shame, O Mediation unfailing with the Creator, despise not the voices of sinners' prayers; but, in that thou art good, hasten to help us who faithfully cry unto thee: make haste to intercede and speed thou to make supplication, O Theotokos, who ever protectest them that honour thee.",
+   "fonte": {
+    "cu": "MS1900 p. 435",
+    "ru": "propria",
+    "en": "H1906 p. 125 (adaptado)",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Theotokion (condácio, tom 6), segundo MS1900 p. 435 (no cânone de súplica à Mãe de Deus); acentuação segundo a prática corrente ⚠. Hapgood p. 125 dá-o a seguir aos tropários dos santos. «И ны́нѣ…» por extenso, como manha-p10. UK: «Заступнице… Посереднице» (vocativo), leitura corrente ucraniana do vocativo eslavo."
+  },
+  {
+   "id": "comunhao_acao_gracas-28",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 12,
+   "nota": "Texto e traduções idênticos a manha.json (manha-25)."
+  },
+  {
+   "id": "comunhao_acao_gracas-29",
+   "tipo": "oracao",
+   "cu": "Честнѣ́йшую Херуви́мъ и сла́внѣйшую безъ сравне́нія Серафи́мъ, безъ истлѣ́нія Бо́га Сло́ва ро́ждшую, су́щую Богоро́дицу Тя велича́емъ.",
+   "pt": "Mais venerável que os Querubins e incomparavelmente mais gloriosa que os Serafins, que sem corrupção deste à luz Deus Verbo, verdadeira Mãe de Deus, nós Te engrandecemos.",
+   "ru": "Честнейшую Херувимов и несравненно славнейшую Серафимов, нетленно родившую Бога Слово, истинную Богородицу — Тебя величаем.",
+   "uk": "Чеснішу від Херувимів і незрівнянно славнішу від Серафимів, що без зотління Бога Слово породила, сущу Богородицю, Тебе величаємо.",
+   "en": "More honourable than the Cherubim, and beyond compare more glorious than the Seraphim, thou who without corruption gavest birth to God the Word, true Theotokos, we magnify thee.",
+   "fonte": {
+    "cu": "Z1912 p. 13",
+    "ru": "propria (Z1912 parafraseava)",
+    "en": "H1906 p. 63",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Texto e traduções idênticos a manha.json (manha-p13); também em manha-81 (2.ª parte)."
+  },
+  {
+   "id": "comunhao_acao_gracas-30",
+   "tipo": "oracao",
+   "cu": "Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́нѣ и при́сно и во вѣ́ки вѣко́въ. Ами́нь.",
+   "pt": "Glória ao Pai e ao Filho e ao Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+   "ru": "Слава Отцу и Сыну и Святому Духу, и ныне, и всегда, и во веки веков. Аминь.",
+   "uk": "Слава Отцю, і Сину, і Святому Духові, і нині, і повсякчас, і на віки віків. Амінь.",
+   "en": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 1",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Texto e traduções idênticos a manha.json (manha-85)."
+  },
+  {
+   "id": "comunhao_acao_gracas-31",
+   "tipo": "oracao",
+   "cu": "Го́споди, поми́луй.",
+   "pt": "Senhor, tem piedade.",
+   "ru": "Господи, помилуй.",
+   "uk": "Господи, помилуй.",
+   "en": "Lord, have mercy.",
+   "fonte": {
+    "cu": "Z1912 p. 2",
+    "ru": "propria",
+    "en": "H1906 p. 13",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "repetir": 3,
+   "nota": "Texto e traduções idênticos a manha.json (manha-86)."
+  },
+  {
+   "id": "comunhao_acao_gracas-32",
+   "tipo": "oracao",
+   "cu": "Го́споди Іису́се Христе́, Сы́не Бо́жій, моли́твъ ра́ди Пречи́стыя Твоея́ Ма́тере, преподо́бныхъ и богоно́сныхъ оте́цъ на́шихъ и всѣхъ святы́хъ, поми́луй насъ. Ами́нь.",
+   "pt": "Senhor Jesus Cristo, Filho de Deus, pelas orações da Tua Mãe puríssima, dos nossos veneráveis Padres teóforos e de todos os santos, tem piedade de nós. Ámen.",
+   "ru": "Господи Иисусе Христе, Сыне Божий, по молитвам Пречистой Твоей Матери, преподобных и богоносных отцов наших и всех святых помилуй нас. Аминь.",
+   "uk": "Господи Іісусе Христе, Сину Божий, молитвами Пречистої Твоєї Матері, преподобних і богоносних отців наших і всіх святих, помилуй нас. Амінь.",
+   "en": "O Lord Jesus Christ, Son of God, through the prayers of Thy most pure Mother, of our venerable and God-bearing Fathers, and of all the saints, have mercy upon us. Amen.",
+   "fonte": {
+    "cu": "Z1912 p. 13",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Texto e traduções idênticos a manha.json (manha-87). Molitvoslov atual: despedida leiga no fim das orações de ação de graças."
+  },
+  {
+   "id": "comunhao_acao_gracas-33",
+   "tipo": "rubrica",
+   "cu": "По Прича́щеніи же да храни́тъ себе́ всякъ въ трезве́ніи и воздержа́ніи и немногоглаго́ланіи, да́бы въ той день че́стно соблю́лъ въ себѣ́ Христа́ прія́таго.",
+   "pt": "Depois da Comunhão, guarde-se cada um na sobriedade, na temperança e no pouco falar, para que nesse dia conserve dignamente em si o Cristo que recebeu.",
+   "ru": "После Причащения да хранит себя каждый в трезвении, воздержании и немногословии, чтобы в тот день достойно сохранить в себе принятого Христа.",
+   "uk": "Після Причастя нехай кожен береже себе у тверезінні, стриманості й небагатослів’ї, щоб того дня гідно зберегти в собі прийнятого Христа.",
+   "en": "After Communion let each one keep himself in sobriety, abstinence and fewness of words, that on that day he may worthily preserve within himself the Christ whom he hath received.",
+   "fonte": {
+    "cu": "propria",
+    "ru": "propria",
+    "en": "propria",
+    "pt": "propria",
+    "uk": "propria"
+   },
+   "nota": "Rubrica final do Molitvoslov atual (doc. 03 §3.4, n.º 11; dec. 2); não está em MS1900 nem Z1912 ⚠. Grafia pré-reforma e acentos próprios."
+  }
+ ]
+}
