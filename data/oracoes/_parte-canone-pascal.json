@@ -42,7 +42,7 @@
  "nota": "Parte para fundir em comunhao_preparacao.json (regra da Semana Luminosa, depois das Horas Pascais). Todos os blocos têm quando.so = [\"semana_luminosa\"]. IDs com prefixo «comunhao_preparacao-cp».",
  "blocos": [
   {
-   "id": "comunhao_preparacao-cp01",
+   "id": "comunhao_preparacao-cp001",
    "tipo": "titulo",
    "cu": "Кано́нъ Святы́я Па́схи, творе́ніе преподо́бнаго Іоа́нна Дамаски́на",
    "pt": "Cânone Pascal, obra de São João Damasceno",
@@ -64,7 +64,7 @@
    "nota": "Título segundo o Molitvoslov atual; MS1900 p. 170 intitula «Канонъ, гласъ 1»; Z1912 p. 106 «Канонъ, гл. 1. [Св. Іоанна Дамаскина]»."
   },
   {
-   "id": "comunhao_preparacao-cp02",
+   "id": "comunhao_preparacao-cp002",
    "tipo": "rubrica",
    "cu": "Во всю Свѣ́тлую седми́цу пра́вило ко Свято́му Прича́щенію начина́ется Часа́ми Па́схи, по ни́хже слѣ́дуетъ Кано́нъ Па́схи. Богоро́дичны («Сла́ва:» и «И ны́нѣ:») чита́ются со второ́го дне Па́схи.",
    "pt": "Durante toda a Semana Luminosa, a regra para a Sagrada Comunhão começa pelas Horas Pascais, a que se segue o Cânone Pascal. Os theotokia («Glória…» e «E agora…») dizem-se a partir do segundo dia da Páscoa.",
@@ -86,7 +86,7 @@
    "nota": "Rubrica própria segundo doc. 03 §3.3 e a página pascal do azbyka [64] («начинается с Часов Пасхи, после которых следует Пасхальный канон»), que na Semana Luminosa substitui os três cânones. Os theotokia são do Pentecostário (2.ª-feira Luminosa em diante); no domingo de Páscoa omitem-se."
   },
   {
-   "id": "comunhao_preparacao-cp03",
+   "id": "comunhao_preparacao-cp003",
    "tipo": "titulo",
    "cu": "Пѣснь 1, гласъ 1",
    "pt": "Ode 1, tom 1",
@@ -107,7 +107,7 @@
    }
   },
   {
-   "id": "comunhao_preparacao-cp04",
+   "id": "comunhao_preparacao-cp004",
    "tipo": "oracao",
    "cu": "Ирмо́съ: Воскресе́нія день, просвѣти́мся, лю́діе: Па́сха, Госпо́дня Па́сха! Отъ сме́рти бо къ жи́зни и отъ земли́ къ небеси́ Христо́съ Богъ насъ преведе́, побѣ́дную пою́щія.",
    "pt": "Hirmos: Dia da Ressurreição! Resplandeçamos, ó povos: Páscoa, Páscoa do Senhor! Porque da morte para a vida e da terra para o céu nos fez passar Cristo Deus, a nós que cantamos o hino da vitória.",
@@ -129,7 +129,7 @@
    "nota": "Eslavo segundo MS1900 p. 170 e Z1912 p. 106 (acentos). PT: «просвѣти́мся» = λαμπρυνθῶμεν, «resplandeçamos». EN: Hapgood adaptado («The Passover» → «Pascha», como no glossário). RU: Z1912 adaptado («съ земли на небо» → «от земли к небу»)."
   },
   {
-   "id": "comunhao_preparacao-cp05",
+   "id": "comunhao_preparacao-cp005",
    "tipo": "oracao",
    "cu": "Христо́съ воскре́се изъ ме́ртвыхъ.",
    "pt": "Cristo ressuscitou dos mortos.",
@@ -151,7 +151,7 @@
    "nota": "Refrão (припѣвъ) antes de cada tropário das odes 1–8 (Molitvoslov atual; Hapgood «Refrain»). MS1900 e Z1912 não o imprimem."
   },
   {
-   "id": "comunhao_preparacao-cp06",
+   "id": "comunhao_preparacao-cp006",
    "tipo": "oracao",
    "cu": "Очи́стимъ чу́вствія, и у́зримъ непристу́пнымъ свѣ́томъ воскресе́нія Христа́ блиста́ющася, и, ра́дуйтеся, реку́ща, я́сно да услы́шимъ, побѣ́дную пою́ще.",
    "pt": "Purifiquemos os sentidos e veremos Cristo a fulgurar na luz inacessível da ressurreição, e ouvi-l’O-emos dizer claramente «Alegrai-vos!», enquanto cantamos o hino da vitória.",
@@ -172,7 +172,7 @@
    }
   },
   {
-   "id": "comunhao_preparacao-cp07",
+   "id": "comunhao_preparacao-cp007",
    "tipo": "oracao",
    "cu": "Христо́съ воскре́се изъ ме́ртвыхъ.",
    "pt": "Cristo ressuscitou dos mortos.",
@@ -194,7 +194,7 @@
    "nota": "Refrão (припѣвъ) antes de cada tropário das odes 1–8 (Molitvoslov atual; Hapgood «Refrain»). MS1900 e Z1912 não o imprimem."
   },
   {
-   "id": "comunhao_preparacao-cp08",
+   "id": "comunhao_preparacao-cp008",
    "tipo": "oracao",
    "cu": "Небеса́ у́бо досто́йно да веселя́тся, земля́ же да ра́дуется, да пра́зднуетъ же міръ, ви́димый же весь и неви́димый: Христо́съ бо воста́, весе́ліе вѣ́чное.",
    "pt": "Que os céus se alegrem dignamente, e a terra rejubile, e celebre a festa o mundo inteiro, visível e invisível: porque Cristo ressuscitou, alegria eterna.",
@@ -216,7 +216,7 @@
    "nota": "RU: Z1912 não traduz este tropário; tradução própria."
   },
   {
-   "id": "comunhao_preparacao-cp09",
+   "id": "comunhao_preparacao-cp009",
    "tipo": "oracao",
    "cu": "Сла́ва: Умерщвле́нія предѣ́лъ сломи́ла еси́, вѣ́чную жизнь ро́ждшая Христа́, изъ гро́ба возсія́вшаго днесь, Дѣ́во Всенепоро́чная, и міръ просвѣти́вшаго.",
    "pt": "Glória…: Quebraste o limite da morte, ó Virgem toda imaculada, dando à luz a Vida eterna, Cristo, que hoje resplandeceu do sepulcro e iluminou o mundo.",
@@ -238,7 +238,7 @@
    "nota": "Theotokion do Pentecostário («поемыя со второго дня Пасхи и до отдания»): ⚠ eslavo transcrito do texto atual em grafia pré-reforma (conferido com o Molitvoslov do azbyka, dec. 2), sem edição sinodal pré-1917 localizada: MS1900, Z1912 e Hapgood dão o cânone do dia de Páscoa, sem theotokia; Цветная Триодь pré-1917 não encontrada no archive.org nem na RSL. RU, UK, EN e PT: traduções próprias."
   },
   {
-   "id": "comunhao_preparacao-cp10",
+   "id": "comunhao_preparacao-cp010",
    "tipo": "oracao",
    "cu": "И ны́нѣ: Воскре́сшаго ви́дѣвши Сы́на Твоего́ и Бо́га, ра́дуйся со Апо́столы, Богоблагода́тная Чи́стая; и е́же ра́дуйся пе́рвѣе, я́ко всѣхъ ра́дости вина́, воспрія́ла еси́, Богома́ти Всенепоро́чная.",
    "pt": "E agora…: Tendo visto ressuscitado o Teu Filho e Deus, alegra-Te com os Apóstolos, ó Pura, cheia da graça de Deus; foste Tu a primeira a receber o «Alegra-Te», como causa da alegria de todos, ó Mãe de Deus toda imaculada.",
@@ -260,7 +260,7 @@
    "nota": "Theotokion do Pentecostário («поемыя со второго дня Пасхи и до отдания»): ⚠ eslavo transcrito do texto atual em grafia pré-reforma (conferido com o Molitvoslov do azbyka, dec. 2), sem edição sinodal pré-1917 localizada: MS1900, Z1912 e Hapgood dão o cânone do dia de Páscoa, sem theotokia; Цветная Триодь pré-1917 não encontrada no archive.org nem na RSL. RU, UK, EN e PT: traduções próprias."
   },
   {
-   "id": "comunhao_preparacao-cp11",
+   "id": "comunhao_preparacao-cp011",
    "tipo": "oracao",
    "cu": "Катава́сія: Воскресе́нія день, просвѣти́мся, лю́діе: Па́сха, Госпо́дня Па́сха! Отъ сме́рти бо къ жи́зни и отъ земли́ къ небеси́ Христо́съ Богъ насъ преведе́, побѣ́дную пою́щія.",
    "pt": "Catavásia: Dia da Ressurreição! Resplandeçamos, ó povos: Páscoa, Páscoa do Senhor! Porque da morte para a vida e da terra para o céu nos fez passar Cristo Deus, a nós que cantamos o hino da vitória.",
@@ -282,7 +282,7 @@
    "nota": "Na catavásia repete-se o hirmos (Molitvoslov atual: «На катавасии снова ирмос»; Hapgood: «the Choirs repeat… the Theme-Song»)."
   },
   {
-   "id": "comunhao_preparacao-cp12",
+   "id": "comunhao_preparacao-cp012",
    "tipo": "oracao",
    "cu": "Христо́съ воскре́се изъ ме́ртвыхъ, сме́ртію смерть попра́въ и су́щимъ во гробѣ́хъ живо́тъ дарова́въ.",
    "pt": "Cristo ressuscitou dos mortos, pela morte calcou a morte e aos que estavam nos sepulcros deu a vida.",
@@ -305,7 +305,7 @@
    "nota": "Texto e traduções idênticos a manha.json (manha-p04). Depois da catavásia de cada ode."
   },
   {
-   "id": "comunhao_preparacao-cp13",
+   "id": "comunhao_preparacao-cp013",
    "tipo": "titulo",
    "cu": "Пѣснь 3",
    "pt": "Ode 3",
@@ -326,7 +326,7 @@
    }
   },
   {
-   "id": "comunhao_preparacao-cp14",
+   "id": "comunhao_preparacao-cp014",
    "tipo": "oracao",
    "cu": "Ирмо́съ: Пріиди́те, пи́во піе́мъ но́вое, не отъ ка́мене непло́дна чудодѣ́емое, но нетлѣ́нія исто́чникъ, изъ гро́ба одожди́вша Христа́, въ Не́мже утвержда́емся.",
    "pt": "Hirmos: Vinde, bebamos uma bebida nova, não tirada prodigiosamente de uma rocha estéril, mas a fonte da incorrupção, que Cristo fez jorrar do sepulcro, n’Ele em quem somos firmados.",
@@ -348,7 +348,7 @@
    "nota": "RU: Z1912 adaptado («безсмертія, произведенный» → «нетления, излитый» (одожди́вша)). EN: Hapgood «beverage new… the Fountain of Immortality springing from the tomb of Christ» → mais literal («incorruption», нетлѣ́нія)."
   },
   {
-   "id": "comunhao_preparacao-cp15",
+   "id": "comunhao_preparacao-cp015",
    "tipo": "oracao",
    "cu": "Христо́съ воскре́се изъ ме́ртвыхъ.",
    "pt": "Cristo ressuscitou dos mortos.",
@@ -370,7 +370,7 @@
    "nota": "Refrão (припѣвъ) antes de cada tropário das odes 1–8 (Molitvoslov atual; Hapgood «Refrain»). MS1900 e Z1912 não o imprimem."
   },
   {
-   "id": "comunhao_preparacao-cp16",
+   "id": "comunhao_preparacao-cp016",
    "tipo": "oracao",
    "cu": "Ны́нѣ вся испо́лнишася свѣ́та, не́бо же и земля́ и преиспо́дняя: да пра́зднуетъ у́бо вся тварь воста́ніе Христо́во, въ не́мже утвержда́ется.",
    "pt": "Agora todas as coisas se encheram de luz, o céu, a terra e os abismos: celebre, pois, toda a criação a ressurreição de Cristo, na qual se firma.",
@@ -392,7 +392,7 @@
    "nota": "RU: Z1912 não traduz este tropário; tradução própria."
   },
   {
-   "id": "comunhao_preparacao-cp17",
+   "id": "comunhao_preparacao-cp017",
    "tipo": "oracao",
    "cu": "Христо́съ воскре́се изъ ме́ртвыхъ.",
    "pt": "Cristo ressuscitou dos mortos.",
@@ -414,7 +414,7 @@
    "nota": "Refrão (припѣвъ) antes de cada tropário das odes 1–8 (Molitvoslov atual; Hapgood «Refrain»). MS1900 e Z1912 não o imprimem."
   },
   {
-   "id": "comunhao_preparacao-cp18",
+   "id": "comunhao_preparacao-cp018",
    "tipo": "oracao",
    "cu": "Вчера́ спогребо́хся Тебѣ́, Христе́, совостаю́ днесь воскре́сшу Тебѣ́; сраспина́хся Тебѣ́ вчера́: Самъ мя спросла́ви, Спа́се, во Ца́рствіи Твое́мъ.",
    "pt": "Ontem fui sepultado contigo, ó Cristo; hoje levanto-me contigo, que ressuscitaste; ontem fui crucificado contigo: glorifica-me Tu mesmo contigo, ó Salvador, no Teu Reino.",
@@ -435,7 +435,7 @@
    }
   },
   {
-   "id": "comunhao_preparacao-cp19",
+   "id": "comunhao_preparacao-cp019",
    "tipo": "oracao",
    "cu": "Сла́ва: На нетлѣ́нную жизнь прихожду́ днесь бла́гостію ро́ждшагося изъ Тебе́, Чи́стая, и всѣмъ конце́мъ свѣтъ облиста́вшаго.",
    "pt": "Glória…: Hoje chego à vida incorruptível pela bondade d’Aquele que de Ti nasceu, ó Pura, e fez resplandecer a luz sobre todos os confins.",
@@ -457,7 +457,7 @@
    "nota": "Theotokion do Pentecostário («поемыя со второго дня Пасхи и до отдания»): ⚠ eslavo transcrito do texto atual em grafia pré-reforma (conferido com o Molitvoslov do azbyka, dec. 2), sem edição sinodal pré-1917 localizada: MS1900, Z1912 e Hapgood dão o cânone do dia de Páscoa, sem theotokia; Цветная Триодь pré-1917 não encontrada no archive.org nem na RSL. RU, UK, EN e PT: traduções próprias."
   },
   {
-   "id": "comunhao_preparacao-cp20",
+   "id": "comunhao_preparacao-cp020",
    "tipo": "oracao",
    "cu": "И ны́нѣ: Бо́га, Его́же родила́ еси́ пло́тію, изъ ме́ртвыхъ, я́коже рече́, воста́вша ви́дѣвши, Чи́стая, лику́й, и Сего́ я́ко Бо́га, Пречи́стая, возвелича́й.",
    "pt": "E agora…: Tendo visto o Deus que geraste na carne ressuscitado dos mortos, como tinha dito, ó Pura, exulta e engrandece-O como Deus, ó Puríssima.",
@@ -479,7 +479,7 @@
    "nota": "Theotokion do Pentecostário («поемыя со второго дня Пасхи и до отдания»): ⚠ eslavo transcrito do texto atual em grafia pré-reforma (conferido com o Molitvoslov do azbyka, dec. 2), sem edição sinodal pré-1917 localizada: MS1900, Z1912 e Hapgood dão o cânone do dia de Páscoa, sem theotokia; Цветная Триодь pré-1917 não encontrada no archive.org nem na RSL. RU, UK, EN e PT: traduções próprias."
   },
   {
-   "id": "comunhao_preparacao-cp21",
+   "id": "comunhao_preparacao-cp021",
    "tipo": "oracao",
    "cu": "Катава́сія: Пріиди́те, пи́во піе́мъ но́вое, не отъ ка́мене непло́дна чудодѣ́емое, но нетлѣ́нія исто́чникъ, изъ гро́ба одожди́вша Христа́, въ Не́мже утвержда́емся.",
    "pt": "Catavásia: Vinde, bebamos uma bebida nova, não tirada prodigiosamente de uma rocha estéril, mas a fonte da incorrupção, que Cristo fez jorrar do sepulcro, n’Ele em quem somos firmados.",
@@ -501,7 +501,7 @@
    "nota": "Na catavásia repete-se o hirmos (Molitvoslov atual: «На катавасии снова ирмос»; Hapgood: «the Choirs repeat… the Theme-Song»)."
   },
   {
-   "id": "comunhao_preparacao-cp22",
+   "id": "comunhao_preparacao-cp022",
    "tipo": "oracao",
    "cu": "Христо́съ воскре́се изъ ме́ртвыхъ, сме́ртію смерть попра́въ и су́щимъ во гробѣ́хъ живо́тъ дарова́въ.",
    "pt": "Cristo ressuscitou dos mortos, pela morte calcou a morte e aos que estavam nos sepulcros deu a vida.",
@@ -524,7 +524,7 @@
    "nota": "Texto e traduções idênticos a manha.json (manha-p04). Depois da catavásia de cada ode."
   },
   {
-   "id": "comunhao_preparacao-cp23",
+   "id": "comunhao_preparacao-cp023",
    "tipo": "oracao",
    "cu": "Ипакои́, гласъ 4: Предвари́вшія у́тро, я́же о Марі́и, и обрѣ́тшія ка́мень отвале́нъ отъ гро́ба, слы́шаху отъ А́нгела: во свѣ́тѣ присносу́щнѣмъ Су́щаго съ ме́ртвыми что и́щете я́ко человѣ́ка? Ви́дите гро́бныя пелены́, тецы́те и мі́ру проповѣ́дите, я́ко воста́ Госпо́дь, умертви́вый смерть, я́ко есть Сынъ Бо́га, спаса́ющаго родъ человѣ́ческій.",
    "pt": "Hipacoé, tom 4: As que estavam com Maria, tendo chegado antes da aurora e encontrado a pedra removida do sepulcro, ouviram do Anjo: Porque buscais entre os mortos, como a um homem, Aquele que habita na luz eterna? Vede as faixas do sepulcro; correi e anunciai ao mundo que o Senhor ressuscitou, tendo dado morte à morte, porque é o Filho de Deus que salva o género humano.",
@@ -546,7 +546,7 @@
    "nota": "Texto e traduções idênticos a manha.json (manha-p06). Hipacoé depois da 3.ª ode (MS1900 pp. 171–172; Z1912 pp. 107–108; Hapgood p. 228)."
   },
   {
-   "id": "comunhao_preparacao-cp24",
+   "id": "comunhao_preparacao-cp024",
    "tipo": "titulo",
    "cu": "Пѣснь 4",
    "pt": "Ode 4",
@@ -567,7 +567,7 @@
    }
   },
   {
-   "id": "comunhao_preparacao-cp25",
+   "id": "comunhao_preparacao-cp025",
    "tipo": "oracao",
    "cu": "Ирмо́съ: На Боже́ственнѣй стра́жи Богоглаго́ливый Авваку́мъ да ста́нетъ съ на́ми и пока́жетъ свѣтоно́сна А́нгела, я́сно глаго́люща: днесь спасе́ніе мі́ру, я́ко воскре́се Христо́съ, я́ко всеси́ленъ.",
    "pt": "Hirmos: Que o divinamente inspirado Habacuc esteja connosco na divina vigília e nos mostre o Anjo portador de luz, que diz claramente: Hoje é a salvação para o mundo, porque Cristo ressuscitou, como Todo-Poderoso.",
@@ -589,7 +589,7 @@
    "nota": "Hab 2,1. RU: Z1912 adaptado («громко говорящаго» → «ясно возвещающего»). PT: nome tradicional «Habacuc» (dec. 19)."
   },
   {
-   "id": "comunhao_preparacao-cp26",
+   "id": "comunhao_preparacao-cp026",
    "tipo": "oracao",
    "cu": "Христо́съ воскре́се изъ ме́ртвыхъ.",
    "pt": "Cristo ressuscitou dos mortos.",
@@ -611,7 +611,7 @@
    "nota": "Refrão (припѣвъ) antes de cada tropário das odes 1–8 (Molitvoslov atual; Hapgood «Refrain»). MS1900 e Z1912 não o imprimem."
   },
   {
-   "id": "comunhao_preparacao-cp27",
+   "id": "comunhao_preparacao-cp027",
    "tipo": "oracao",
    "cu": "Му́жескій у́бо полъ, я́ко разве́рзый дѣ́вственную утро́бу, яви́ся Христо́съ; я́ко человѣ́къ же, А́гнецъ нарече́ся; непоро́ченъ же, я́ко невку́сенъ скве́рны, на́ша Па́сха; и я́ко Богъ и́стиненъ, соверше́нъ рече́ся.",
    "pt": "Como varão que abriu o seio virginal, Cristo manifestou-Se; como homem, foi chamado Cordeiro; imaculado, porque não provou mancha, é a nossa Páscoa; e, como verdadeiro Deus, foi dito perfeito.",
@@ -633,7 +633,7 @@
    "nota": "Ex 12,5; 13,2 (cordeiro macho, sem defeito, perfeito). RU: tradução própria (dec. 57); Z1912 parafraseava («Младенецъ-первенецъ», «предлагаемый въ снѣдь»)."
   },
   {
-   "id": "comunhao_preparacao-cp28",
+   "id": "comunhao_preparacao-cp028",
    "tipo": "oracao",
    "cu": "Христо́съ воскре́се изъ ме́ртвыхъ.",
    "pt": "Cristo ressuscitou dos mortos.",
@@ -655,7 +655,7 @@
    "nota": "Refrão (припѣвъ) antes de cada tropário das odes 1–8 (Molitvoslov atual; Hapgood «Refrain»). MS1900 e Z1912 não o imprimem."
   },
   {
-   "id": "comunhao_preparacao-cp29",
+   "id": "comunhao_preparacao-cp029",
    "tipo": "oracao",
    "cu": "Я́ко единолѣ́тный а́гнецъ, благослове́нный намъ вѣ́нецъ Христо́съ, во́лею за всѣхъ закла́нъ бысть, Па́сха чисти́тельная, и па́ки изъ гро́ба кра́сное пра́вды намъ возсія́ Со́лнце.",
    "pt": "Como cordeiro de um ano, Cristo, coroa bendita para nós, foi imolado voluntariamente por todos, Páscoa purificadora; e de novo, do sepulcro, resplandeceu para nós, o belo Sol de justiça.",
@@ -676,7 +676,7 @@
    }
   },
   {
-   "id": "comunhao_preparacao-cp30",
+   "id": "comunhao_preparacao-cp030",
    "tipo": "oracao",
    "cu": "Христо́съ воскре́се изъ ме́ртвыхъ.",
    "pt": "Cristo ressuscitou dos mortos.",
@@ -698,7 +698,7 @@
    "nota": "Refrão (припѣвъ) antes de cada tropário das odes 1–8 (Molitvoslov atual; Hapgood «Refrain»). MS1900 e Z1912 não o imprimem."
   },
   {
-   "id": "comunhao_preparacao-cp31",
+   "id": "comunhao_preparacao-cp031",
    "tipo": "oracao",
    "cu": "Богооте́цъ у́бо Дави́дъ предъ сѣ́ннымъ ковче́гомъ скака́ше игра́я, лю́діе же Бо́жіи святі́и, образо́въ сбытіе́ зря́ще, весели́мся Боже́ственнѣ, я́ко воскре́се Христо́съ, я́ко всеси́ленъ.",
    "pt": "David, antepassado de Deus, dançava e saltava diante da arca, que era sombra; e nós, santo povo de Deus, vendo cumpridas as figuras, alegremo-nos divinamente, porque Cristo ressuscitou, como Todo-Poderoso.",
@@ -720,7 +720,7 @@
    "nota": "2 Rs (2 Sm) 6,14. «сѣ́нный ковче́гъ» = a arca que era sombra (σκιώδης). RU: Z1912 adaptado («станемъ торжествовать духовно» → «божественно возвеселимся»)."
   },
   {
-   "id": "comunhao_preparacao-cp32",
+   "id": "comunhao_preparacao-cp032",
    "tipo": "oracao",
    "cu": "Сла́ва: Созда́вый Ада́ма, Твоего́ пра́отца, Чи́стая, зи́ждется отъ Тебе́, и сме́ртное жили́ще разори́ Свое́ю сме́ртію днесь, и озари́ вся Боже́ственными блиста́ньми воскресе́нія.",
    "pt": "Glória…: Aquele que criou Adão, Teu antepassado, ó Pura, é formado de Ti, e hoje destruiu pela Sua morte a morada da morte e iluminou todas as coisas com os fulgores divinos da ressurreição.",
@@ -742,7 +742,7 @@
    "nota": "Theotokion do Pentecostário («поемыя со второго дня Пасхи и до отдания»): ⚠ eslavo transcrito do texto atual em grafia pré-reforma (conferido com o Molitvoslov do azbyka, dec. 2), sem edição sinodal pré-1917 localizada: MS1900, Z1912 e Hapgood dão o cânone do dia de Páscoa, sem theotokia; Цветная Триодь pré-1917 não encontrada no archive.org nem na RSL. RU, UK, EN e PT: traduções próprias."
   },
   {
-   "id": "comunhao_preparacao-cp33",
+   "id": "comunhao_preparacao-cp033",
    "tipo": "oracao",
    "cu": "И ны́нѣ: Его́же родила́ еси́ Христа́, прекра́сно изъ ме́ртвыхъ возсія́вша, Чи́стая, зря́щи, до́брая и непоро́чная въ жена́хъ и кра́сная, днесь во спасе́ніе всѣхъ, со Апо́столы ра́дующися, Того́ прославля́й.",
    "pt": "E agora…: Contemplando Cristo, que deste à luz, a resplandecer formoso de entre os mortos, ó Pura, boa, imaculada e bela entre as mulheres, alegrando-Te hoje com os Apóstolos pela salvação de todos, glorifica-O.",
@@ -764,7 +764,7 @@
    "nota": "Theotokion do Pentecostário («поемыя со второго дня Пасхи и до отдания»): ⚠ eslavo transcrito do texto atual em grafia pré-reforma (conferido com o Molitvoslov do azbyka, dec. 2), sem edição sinodal pré-1917 localizada: MS1900, Z1912 e Hapgood dão o cânone do dia de Páscoa, sem theotokia; Цветная Триодь pré-1917 não encontrada no archive.org nem na RSL. RU, UK, EN e PT: traduções próprias."
   },
   {
-   "id": "comunhao_preparacao-cp34",
+   "id": "comunhao_preparacao-cp034",
    "tipo": "oracao",
    "cu": "Катава́сія: На Боже́ственнѣй стра́жи Богоглаго́ливый Авваку́мъ да ста́нетъ съ на́ми и пока́жетъ свѣтоно́сна А́нгела, я́сно глаго́люща: днесь спасе́ніе мі́ру, я́ко воскре́се Христо́съ, я́ко всеси́ленъ.",
    "pt": "Catavásia: Que o divinamente inspirado Habacuc esteja connosco na divina vigília e nos mostre o Anjo portador de luz, que diz claramente: Hoje é a salvação para o mundo, porque Cristo ressuscitou, como Todo-Poderoso.",
@@ -786,7 +786,7 @@
    "nota": "Na catavásia repete-se o hirmos (Molitvoslov atual: «На катавасии снова ирмос»; Hapgood: «the Choirs repeat… the Theme-Song»)."
   },
   {
-   "id": "comunhao_preparacao-cp35",
+   "id": "comunhao_preparacao-cp035",
    "tipo": "oracao",
    "cu": "Христо́съ воскре́се изъ ме́ртвыхъ, сме́ртію смерть попра́въ и су́щимъ во гробѣ́хъ живо́тъ дарова́въ.",
    "pt": "Cristo ressuscitou dos mortos, pela morte calcou a morte e aos que estavam nos sepulcros deu a vida.",
@@ -809,7 +809,7 @@
    "nota": "Texto e traduções idênticos a manha.json (manha-p04). Depois da catavásia de cada ode."
   },
   {
-   "id": "comunhao_preparacao-cp36",
+   "id": "comunhao_preparacao-cp036",
    "tipo": "titulo",
    "cu": "Пѣснь 5",
    "pt": "Ode 5",
@@ -830,7 +830,7 @@
    }
   },
   {
-   "id": "comunhao_preparacao-cp37",
+   "id": "comunhao_preparacao-cp037",
    "tipo": "oracao",
    "cu": "Ирмо́съ: У́треннюемъ у́треннюю глубоку́, и вмѣ́сто мѵ́ра пѣснь принесе́мъ Влады́цѣ, и Христа́ у́зримъ пра́вды Со́лнце, всѣмъ жизнь возсія́юща.",
    "pt": "Hirmos: Madruguemos na alta madrugada e, em vez de mirra, ofereçamos um hino ao Soberano, e veremos Cristo, Sol de justiça, que faz despontar a vida para todos.",
@@ -852,7 +852,7 @@
    "nota": "«мѵ́ра» = mirra (μύρον), com ѵ; não confundir com «мі́ра» (mundo). RU: Z1912 adaptado («льющее всѣмъ лучи жизни» → «всем жизнь воссиявающее»)."
   },
   {
-   "id": "comunhao_preparacao-cp38",
+   "id": "comunhao_preparacao-cp038",
    "tipo": "oracao",
    "cu": "Христо́съ воскре́се изъ ме́ртвыхъ.",
    "pt": "Cristo ressuscitou dos mortos.",
@@ -874,7 +874,7 @@
    "nota": "Refrão (припѣвъ) antes de cada tropário das odes 1–8 (Molitvoslov atual; Hapgood «Refrain»). MS1900 e Z1912 não o imprimem."
   },
   {
-   "id": "comunhao_preparacao-cp39",
+   "id": "comunhao_preparacao-cp039",
    "tipo": "oracao",
    "cu": "Безмѣ́рное Твое́ благоутро́біе, а́довыми у́зами содержи́міи зря́ще, къ свѣ́ту идя́ху, Христе́, весе́лыми нога́ми, Па́сху хва́ляще вѣ́чную.",
    "pt": "Os que estavam presos nas cadeias do inferno, vendo a Tua compaixão sem medida, ó Cristo, caminhavam para a luz com pés alegres, louvando a Páscoa eterna.",
@@ -895,7 +895,7 @@
    }
   },
   {
-   "id": "comunhao_preparacao-cp40",
+   "id": "comunhao_preparacao-cp040",
    "tipo": "oracao",
    "cu": "Христо́съ воскре́се изъ ме́ртвыхъ.",
    "pt": "Cristo ressuscitou dos mortos.",
@@ -917,7 +917,7 @@
    "nota": "Refrão (припѣвъ) antes de cada tropário das odes 1–8 (Molitvoslov atual; Hapgood «Refrain»). MS1900 e Z1912 não o imprimem."
   },
   {
-   "id": "comunhao_preparacao-cp41",
+   "id": "comunhao_preparacao-cp041",
    "tipo": "oracao",
    "cu": "Присту́пимъ, свѣщено́сніи, исходя́щу Христу́ изъ гро́ба я́ко жениху́, и спра́зднуимъ любопра́зднственными чи́нми Па́сху Бо́жію спаси́тельную.",
    "pt": "Vamos, levando lâmpadas, ao encontro de Cristo que sai do sepulcro como um esposo, e celebremos com as ordens amantes da festa a Páscoa salvadora de Deus.",
@@ -939,7 +939,7 @@
    "nota": "RU: Z1912 adaptado: suprimido o acrescento «Ангельскими» (o eslavo diz só «любопра́зднственными чи́нми»). EN: Hapgood «with the hierarchy of Angels» corrigido pelo mesmo motivo."
   },
   {
-   "id": "comunhao_preparacao-cp42",
+   "id": "comunhao_preparacao-cp042",
    "tipo": "oracao",
    "cu": "Сла́ва: Просвѣща́ется Боже́ственными луча́ми и живоно́сными воскресе́нія Сы́на Твоего́, Богома́ти Пречи́стая, и ра́дости исполня́ется благочести́выхъ собра́ніе.",
    "pt": "Glória…: É iluminada pelos raios divinos e vivificantes da ressurreição do Teu Filho, ó puríssima Mãe de Deus, e enche-se de alegria, a assembleia dos piedosos.",
@@ -961,7 +961,7 @@
    "nota": "Theotokion do Pentecostário («поемыя со второго дня Пасхи и до отдания»): ⚠ eslavo transcrito do texto atual em grafia pré-reforma (conferido com o Molitvoslov do azbyka, dec. 2), sem edição sinodal pré-1917 localizada: MS1900, Z1912 e Hapgood dão o cânone do dia de Páscoa, sem theotokia; Цветная Триодь pré-1917 não encontrada no archive.org nem na RSL. RU, UK, EN e PT: traduções próprias."
   },
   {
-   "id": "comunhao_preparacao-cp43",
+   "id": "comunhao_preparacao-cp043",
    "tipo": "oracao",
    "cu": "И ны́нѣ: Не разве́рзлъ еси́ вра́та дѣ́вства въ воплоще́ніи, гро́ба не разруши́лъ еси́ печа́тей, Царю́ созда́нія: отню́дуже воскре́сшаго Тя зря́щи, Ма́ти ра́довашеся.",
    "pt": "E agora…: Não abriste as portas da virgindade na encarnação, nem rompeste os selos do sepulcro, ó Rei da criação; por isso a Mãe, vendo-Te ressuscitado, alegrava-Se.",
@@ -983,7 +983,7 @@
    "nota": "Theotokion do Pentecostário («поемыя со второго дня Пасхи и до отдания»): ⚠ eslavo transcrito do texto atual em grafia pré-reforma (conferido com o Molitvoslov do azbyka, dec. 2), sem edição sinodal pré-1917 localizada: MS1900, Z1912 e Hapgood dão o cânone do dia de Páscoa, sem theotokia; Цветная Триодь pré-1917 não encontrada no archive.org nem na RSL. RU, UK, EN e PT: traduções próprias."
   },
   {
-   "id": "comunhao_preparacao-cp44",
+   "id": "comunhao_preparacao-cp044",
    "tipo": "oracao",
    "cu": "Катава́сія: У́треннюемъ у́треннюю глубоку́, и вмѣ́сто мѵ́ра пѣснь принесе́мъ Влады́цѣ, и Христа́ у́зримъ пра́вды Со́лнце, всѣмъ жизнь возсія́юща.",
    "pt": "Catavásia: Madruguemos na alta madrugada e, em vez de mirra, ofereçamos um hino ao Soberano, e veremos Cristo, Sol de justiça, que faz despontar a vida para todos.",
@@ -1005,7 +1005,7 @@
    "nota": "Na catavásia repete-se o hirmos (Molitvoslov atual: «На катавасии снова ирмос»; Hapgood: «the Choirs repeat… the Theme-Song»)."
   },
   {
-   "id": "comunhao_preparacao-cp45",
+   "id": "comunhao_preparacao-cp045",
    "tipo": "oracao",
    "cu": "Христо́съ воскре́се изъ ме́ртвыхъ, сме́ртію смерть попра́въ и су́щимъ во гробѣ́хъ живо́тъ дарова́въ.",
    "pt": "Cristo ressuscitou dos mortos, pela morte calcou a morte e aos que estavam nos sepulcros deu a vida.",
@@ -1028,7 +1028,7 @@
    "nota": "Texto e traduções idênticos a manha.json (manha-p04). Depois da catavásia de cada ode."
   },
   {
-   "id": "comunhao_preparacao-cp46",
+   "id": "comunhao_preparacao-cp046",
    "tipo": "titulo",
    "cu": "Пѣснь 6",
    "pt": "Ode 6",
@@ -1049,7 +1049,7 @@
    }
   },
   {
-   "id": "comunhao_preparacao-cp47",
+   "id": "comunhao_preparacao-cp047",
    "tipo": "oracao",
    "cu": "Ирмо́съ: Снизше́лъ еси́ въ преиспо́дняя земли́ и сокруши́лъ еси́ вереи́ вѣ́чныя, содержа́щыя свя́занныя, Христе́, и тридне́венъ, я́ко отъ ки́та Іо́на, воскре́слъ еси́ отъ гро́ба.",
    "pt": "Hirmos: Desceste às profundezas da terra e despedaçaste os ferrolhos eternos que retinham os cativos, ó Cristo; e ao terceiro dia, como Jonas da baleia, ressuscitaste do sepulcro.",
@@ -1071,7 +1071,7 @@
    "nota": "Jn 2. PT/UK: nome tradicional «Jonas»/«Іона». RU: Z1912 adaptado («въ самую глубину подземную» → «в преисподние места земли»; «вышелъ» → «воскрес»)."
   },
   {
-   "id": "comunhao_preparacao-cp48",
+   "id": "comunhao_preparacao-cp048",
    "tipo": "oracao",
    "cu": "Христо́съ воскре́се изъ ме́ртвыхъ.",
    "pt": "Cristo ressuscitou dos mortos.",
@@ -1093,7 +1093,7 @@
    "nota": "Refrão (припѣвъ) antes de cada tropário das odes 1–8 (Molitvoslov atual; Hapgood «Refrain»). MS1900 e Z1912 não o imprimem."
   },
   {
-   "id": "comunhao_preparacao-cp49",
+   "id": "comunhao_preparacao-cp049",
    "tipo": "oracao",
    "cu": "Сохрани́въ цѣ́ла зна́менія, Христе́, воскре́слъ еси́ отъ гро́ба, ключи́ Дѣ́вы невреди́вый въ рождествѣ́ Твое́мъ, и отве́рзлъ еси́ намъ ра́йскія две́ри.",
    "pt": "Guardando intactos os selos, ó Cristo, ressuscitaste do sepulcro, Tu que não violaste as chaves da Virgem no Teu nascimento; e abriste-nos as portas do paraíso.",
@@ -1114,7 +1114,7 @@
    }
   },
   {
-   "id": "comunhao_preparacao-cp50",
+   "id": "comunhao_preparacao-cp050",
    "tipo": "oracao",
    "cu": "Христо́съ воскре́се изъ ме́ртвыхъ.",
    "pt": "Cristo ressuscitou dos mortos.",
@@ -1136,7 +1136,7 @@
    "nota": "Refrão (припѣвъ) antes de cada tropário das odes 1–8 (Molitvoslov atual; Hapgood «Refrain»). MS1900 e Z1912 não o imprimem."
   },
   {
-   "id": "comunhao_preparacao-cp51",
+   "id": "comunhao_preparacao-cp051",
    "tipo": "oracao",
    "cu": "Спа́се мой, живо́е же и неже́ртвенное заколе́ніе, я́ко Богъ, Самъ Себе́ во́лею приве́дъ Отцу́, совоскреси́лъ еси́ всеро́днаго Ада́ма, воскре́съ отъ гро́ба.",
    "pt": "Ó meu Salvador, vítima viva e não imolada, oferecendo-Te Tu mesmo voluntariamente ao Pai, como Deus, ressuscitaste contigo Adão, pai de todo o género humano, ao ressuscitar do sepulcro.",
@@ -1157,7 +1157,7 @@
    }
   },
   {
-   "id": "comunhao_preparacao-cp52",
+   "id": "comunhao_preparacao-cp052",
    "tipo": "oracao",
    "cu": "Сла́ва: Возведе́ся дре́вле держи́мое сме́ртію и тлѣ́ніемъ, воплоти́вшимся отъ Твоего́ пречи́стаго чре́ва, къ нетлѣ́ннѣй и присносу́щнѣй жи́зни, Богоро́дице Дѣ́во.",
    "pt": "Glória…: Aquilo que outrora era retido pela morte e pela corrupção foi elevado à vida incorruptível e eterna por Aquele que encarnou do Teu seio puríssimo, ó Virgem Mãe de Deus.",
@@ -1179,7 +1179,7 @@
    "nota": "Theotokion do Pentecostário («поемыя со второго дня Пасхи и до отдания»): ⚠ eslavo transcrito do texto atual em grafia pré-reforma (conferido com o Molitvoslov do azbyka, dec. 2), sem edição sinodal pré-1917 localizada: MS1900, Z1912 e Hapgood dão o cânone do dia de Páscoa, sem theotokia; Цветная Триодь pré-1917 não encontrada no archive.org nem na RSL. RU, UK, EN e PT: traduções próprias."
   },
   {
-   "id": "comunhao_preparacao-cp53",
+   "id": "comunhao_preparacao-cp053",
    "tipo": "oracao",
    "cu": "И ны́нѣ: Сни́де въ преиспо́дняя земли́, въ ложесна́ Твоя́, Чи́стая, сше́дый и всели́выйся, и воплоти́выйся па́че ума́, и воздви́же съ Собо́ю Ада́ма, воскре́съ отъ гро́ба.",
    "pt": "E agora…: Aquele que desceu ao Teu seio, ó Pura, e nele habitou e Se encarnou acima de todo o entendimento, desceu às profundezas da terra e, ressuscitando do sepulcro, levantou consigo Adão.",
@@ -1201,7 +1201,7 @@
    "nota": "Theotokion do Pentecostário («поемыя со второго дня Пасхи и до отдания»): ⚠ eslavo transcrito do texto atual em grafia pré-reforma (conferido com o Molitvoslov do azbyka, dec. 2), sem edição sinodal pré-1917 localizada: MS1900, Z1912 e Hapgood dão o cânone do dia de Páscoa, sem theotokia; Цветная Триодь pré-1917 não encontrada no archive.org nem na RSL. RU, UK, EN e PT: traduções próprias."
   },
   {
-   "id": "comunhao_preparacao-cp54",
+   "id": "comunhao_preparacao-cp054",
    "tipo": "oracao",
    "cu": "Катава́сія: Снизше́лъ еси́ въ преиспо́дняя земли́ и сокруши́лъ еси́ вереи́ вѣ́чныя, содержа́щыя свя́занныя, Христе́, и тридне́венъ, я́ко отъ ки́та Іо́на, воскре́слъ еси́ отъ гро́ба.",
    "pt": "Catavásia: Desceste às profundezas da terra e despedaçaste os ferrolhos eternos que retinham os cativos, ó Cristo; e ao terceiro dia, como Jonas da baleia, ressuscitaste do sepulcro.",
@@ -1223,7 +1223,7 @@
    "nota": "Na catavásia repete-se o hirmos (Molitvoslov atual: «На катавасии снова ирмос»; Hapgood: «the Choirs repeat… the Theme-Song»)."
   },
   {
-   "id": "comunhao_preparacao-cp55",
+   "id": "comunhao_preparacao-cp055",
    "tipo": "oracao",
    "cu": "Христо́съ воскре́се изъ ме́ртвыхъ, сме́ртію смерть попра́въ и су́щимъ во гробѣ́хъ живо́тъ дарова́въ.",
    "pt": "Cristo ressuscitou dos mortos, pela morte calcou a morte e aos que estavam nos sepulcros deu a vida.",
@@ -1246,7 +1246,7 @@
    "nota": "Texto e traduções idênticos a manha.json (manha-p04). Depois da catavásia de cada ode."
   },
   {
-   "id": "comunhao_preparacao-cp56",
+   "id": "comunhao_preparacao-cp056",
    "tipo": "oracao",
    "cu": "Конда́къ, гласъ 8: А́ще и во гробъ снизше́лъ еси́, Безсме́ртне, но а́дову разруши́лъ еси́ си́лу, и воскре́слъ еси́ я́ко побѣди́тель, Христе́ Бо́же, жена́мъ мѵроно́сицамъ вѣща́вый: ра́дуйтеся! и Твои́мъ апо́столомъ миръ да́руяй, па́дшимъ пода́яй воскресе́ніе.",
    "pt": "Condácio, tom 8: Embora tenhas descido ao sepulcro, ó Imortal, destruíste o poder do inferno e ressuscitaste como vencedor, ó Cristo Deus, dizendo às mulheres miróforas: Alegrai-vos! e dando a paz aos Teus apóstolos, Tu que concedes a ressurreição aos caídos.",
@@ -1268,7 +1268,7 @@
    "nota": "Texto e traduções idênticos a manha.json (manha-p07). Condácio depois da 6.ª ode (MS1900 p. 175; Z1912 pp. 109–110; Hapgood p. 230)."
   },
   {
-   "id": "comunhao_preparacao-cp57",
+   "id": "comunhao_preparacao-cp057",
    "tipo": "oracao",
    "cu": "И́косъ: Е́же пре́жде со́лнца Со́лнце, заше́дшее иногда́ во гробъ, предвари́ша ко у́тру, и́щущія я́ко дне, мѵроно́сицы дѣ́вы, и друга́ ко друзѣ́й вопія́ху: о, други́ни, пріиди́те, воня́ми пома́жемъ тѣ́ло живоно́сное и погребе́нное, плоть воскреси́вшаго па́дшаго Ада́ма, лежа́щую во гро́бѣ. И́демъ, потщи́мся я́коже волсви́, и поклони́мся, и принесе́мъ мѵ́ра я́ко да́ры, не въ пелена́хъ, но въ плащани́цѣ обви́тому, и пла́чемъ, и возопі́имъ: о, Влады́ко, воста́ни, па́дшимъ подая́й воскресе́ніе.",
    "pt": "Ikos: O Sol que existia antes do sol e que outrora se pôs no sepulcro, as virgens miróforas foram procurá-l’O de madrugada, como quem procura o dia, e diziam umas às outras: Ó amigas, vinde, unjamos com aromas o corpo vivificante e sepultado, a carne d’Aquele que levanta o Adão caído, a qual jaz no sepulcro. Vamos, apressemo-nos como os Magos, adoremos e ofereçamos mirra como dom Àquele que está envolto, não em faixas, mas num sudário; e choremos e clamemos: Ó Soberano, levanta-Te, Tu que concedes a ressurreição aos caídos.",
@@ -1290,7 +1290,7 @@
    "nota": "MS1900 p. 176 («И́косъ, гласъ 8»). «воскреси́вшаго» (aoristo com valor intemporal) = Aquele que levanta. RU: Z1912 adaptado («поднимаетъ» → «Воскрешающего»; «источающее жизнь» → «живоносное»). EN: Hapgood adaptado."
   },
   {
-   "id": "comunhao_preparacao-cp58",
+   "id": "comunhao_preparacao-cp058",
    "tipo": "oracao",
    "cu": "Воскресе́ніе Христо́во ви́дѣвше, поклони́мся Свято́му Го́споду Іису́су, еди́ному безгрѣ́шному. Кре́сту Твоему́ покланя́емся, Христе́, и свято́е воскресе́ніе Твое́ пое́мъ и сла́вимъ; Ты бо еси́ Богъ нашъ, ра́звѣ Тебе́ ино́го не зна́емъ, и́мя Твое́ имену́емъ. Пріиди́те, вси вѣ́рніи, поклони́мся свято́му Христо́ву воскресе́нію: се бо пріи́де Кресто́мъ ра́дость всему́ мі́ру. Всегда́ благословя́ще Го́спода, пое́мъ воскресе́ніе Его́; распя́тіе бо претерпѣ́въ, сме́ртію смерть разруши́.",
    "pt": "Tendo contemplado a ressurreição de Cristo, adoremos o santo Senhor Jesus, o único sem pecado. Adoramos a Tua Cruz, ó Cristo, e cantamos e glorificamos a Tua santa ressurreição; porque Tu és o nosso Deus, fora de Ti não conhecemos outro, invocamos o Teu nome. Vinde, fiéis todos, adoremos a santa ressurreição de Cristo: porque eis que, pela Cruz, veio a alegria ao mundo inteiro. Bendizendo sempre o Senhor, cantamos a Sua ressurreição; porque, tendo suportado a crucifixão, pela morte destruiu a morte.",
@@ -1313,7 +1313,7 @@
    "nota": "Texto e traduções idênticos a manha.json (manha-p05), incluindo «трижды». MS1900 p. 176 remete para o texto («Воскресеніе Христово видѣвше: смотри выше, стран. 71»); Hapgood p. 230 não indica a repetição ⚠."
   },
   {
-   "id": "comunhao_preparacao-cp59",
+   "id": "comunhao_preparacao-cp059",
    "tipo": "oracao",
    "cu": "Воскре́съ Іису́съ отъ гро́ба, я́коже прорече́, даде́ намъ живо́тъ вѣ́чный и ве́лію ми́лость.",
    "pt": "Jesus, ressuscitado do sepulcro, como tinha predito, deu-nos a vida eterna e grande misericórdia.",
@@ -1336,7 +1336,7 @@
    "nota": "MS1900 p. 176 remete para p. 72; «трижды» segundo Hapgood p. 231 e o Molitvoslov atual. Acentuação segundo a prática corrente ⚠."
   },
   {
-   "id": "comunhao_preparacao-cp60",
+   "id": "comunhao_preparacao-cp060",
    "tipo": "titulo",
    "cu": "Пѣснь 7",
    "pt": "Ode 7",
@@ -1357,7 +1357,7 @@
    }
   },
   {
-   "id": "comunhao_preparacao-cp61",
+   "id": "comunhao_preparacao-cp061",
    "tipo": "oracao",
    "cu": "Ирмо́съ: О́троки отъ пе́щи изба́вивый, бывъ человѣ́къ, стра́ждетъ я́ко сме́ртенъ, и стра́стію сме́ртное въ нетлѣ́нія облачи́тъ благолѣ́піе, еди́нъ благослове́нъ отце́въ Богъ и препросла́вленъ.",
    "pt": "Hirmos: Aquele que livrou os jovens da fornalha, tendo-Se feito homem, sofre como mortal e, pela Sua paixão, reveste o que é mortal com o esplendor da incorrupção, o único Deus dos pais, bendito e sobremaneira glorificado.",
@@ -1379,7 +1379,7 @@
    "nota": "Dn 3. RU: Z1912 adaptado («въ красоту безсмертія» → «в благолепие нетления»)."
   },
   {
-   "id": "comunhao_preparacao-cp62",
+   "id": "comunhao_preparacao-cp062",
    "tipo": "oracao",
    "cu": "Христо́съ воскре́се изъ ме́ртвыхъ.",
    "pt": "Cristo ressuscitou dos mortos.",
@@ -1401,7 +1401,7 @@
    "nota": "Refrão (припѣвъ) antes de cada tropário das odes 1–8 (Molitvoslov atual; Hapgood «Refrain»). MS1900 e Z1912 não o imprimem."
   },
   {
-   "id": "comunhao_preparacao-cp63",
+   "id": "comunhao_preparacao-cp063",
    "tipo": "oracao",
    "cu": "Же́ны съ мѵ́ры богому́дрыя вслѣ́дъ Тебе́ теча́ху; Его́же я́ко ме́ртва со слеза́ми иска́ху, поклони́шася ра́дующіяся живо́му Бо́гу, и Па́сху та́йную Твои́мъ, Христе́, ученико́мъ благовѣсти́ша.",
    "pt": "As mulheres sábias em Deus corriam atrás de Ti com unguentos; Aquele que procuravam com lágrimas como morto, adoraram-n’O com alegria como Deus vivo, e anunciaram aos Teus discípulos, ó Cristo, a Páscoa mística.",
@@ -1422,7 +1422,7 @@
    }
   },
   {
-   "id": "comunhao_preparacao-cp64",
+   "id": "comunhao_preparacao-cp064",
    "tipo": "oracao",
    "cu": "Христо́съ воскре́се изъ ме́ртвыхъ.",
    "pt": "Cristo ressuscitou dos mortos.",
@@ -1444,7 +1444,7 @@
    "nota": "Refrão (припѣвъ) antes de cada tropário das odes 1–8 (Molitvoslov atual; Hapgood «Refrain»). MS1900 e Z1912 não o imprimem."
   },
   {
-   "id": "comunhao_preparacao-cp65",
+   "id": "comunhao_preparacao-cp065",
    "tipo": "oracao",
    "cu": "Сме́рти пра́зднуемъ умерщвле́ніе, а́дово разруше́ніе, ино́го житія́ вѣ́чнаго нача́ло, и игра́юще пое́мъ Вино́внаго, еди́наго благослове́ннаго отце́въ Бо́га и препросла́вленнаго.",
    "pt": "Celebramos a morte da morte, a destruição do inferno, o início de uma outra vida, eterna; e, saltando de alegria, cantamos o Seu Autor, o único bendito Deus dos pais e sobremaneira glorificado.",
@@ -1465,7 +1465,7 @@
    }
   },
   {
-   "id": "comunhao_preparacao-cp66",
+   "id": "comunhao_preparacao-cp066",
    "tipo": "oracao",
    "cu": "Христо́съ воскре́се изъ ме́ртвыхъ.",
    "pt": "Cristo ressuscitou dos mortos.",
@@ -1487,7 +1487,7 @@
    "nota": "Refrão (припѣвъ) antes de cada tropário das odes 1–8 (Molitvoslov atual; Hapgood «Refrain»). MS1900 e Z1912 não o imprimem."
   },
   {
-   "id": "comunhao_preparacao-cp67",
+   "id": "comunhao_preparacao-cp067",
    "tipo": "oracao",
    "cu": "Я́ко вои́стинну свяще́нная и всепра́зднственная сія́ спаси́тельная нощь и свѣтоза́рная, свѣтоно́снаго дне воста́нія су́щи провозвѣ́стница: въ не́йже безлѣ́тный Свѣтъ изъ гро́ба пло́тски всѣмъ возсія́.",
    "pt": "Verdadeiramente sagrada e toda festiva é esta noite salvadora e radiante, anunciadora do dia luminoso da ressurreição, na qual a Luz intemporal resplandeceu corporalmente do sepulcro para todos.",
@@ -1508,7 +1508,7 @@
    }
   },
   {
-   "id": "comunhao_preparacao-cp68",
+   "id": "comunhao_preparacao-cp068",
    "tipo": "oracao",
    "cu": "Сла́ва: Умертви́въ Сынъ Твой смерть, Всенепоро́чная, днесь всѣмъ сме́ртнымъ пребыва́ющій живо́тъ во вѣ́ки вѣко́въ дарова́, еди́нъ благослове́нный отце́въ Богъ и препросла́вленный.",
    "pt": "Glória…: O Teu Filho, ó Toda Imaculada, tendo dado morte à morte, concedeu hoje a todos os mortais a vida que permanece pelos séculos dos séculos, Ele, o único Deus dos pais, bendito e sobremaneira glorificado.",
@@ -1530,7 +1530,7 @@
    "nota": "Theotokion do Pentecostário («поемыя со второго дня Пасхи и до отдания»): ⚠ eslavo transcrito do texto atual em grafia pré-reforma (conferido com o Molitvoslov do azbyka, dec. 2), sem edição sinodal pré-1917 localizada: MS1900, Z1912 e Hapgood dão o cânone do dia de Páscoa, sem theotokia; Цветная Триодь pré-1917 não encontrada no archive.org nem na RSL. RU, UK, EN e PT: traduções próprias."
   },
   {
-   "id": "comunhao_preparacao-cp69",
+   "id": "comunhao_preparacao-cp069",
    "tipo": "oracao",
    "cu": "И ны́нѣ: Всѣмъ ца́рствуяй созда́ніемъ, бывъ человѣ́къ, всели́ся въ Твою́, Богоблагода́тная, утро́бу, и распя́тіе претерпѣ́въ и смерть, воскре́се боголѣ́пно, совозста́вивъ насъ, я́ко всеси́ленъ.",
    "pt": "E agora…: Aquele que reina sobre toda a criação, tendo-Se feito homem, habitou no Teu seio, ó Cheia da graça de Deus; e, tendo suportado a crucifixão e a morte, ressuscitou como convém a Deus, levantando-nos consigo, como Todo-Poderoso.",
@@ -1552,7 +1552,7 @@
    "nota": "Theotokion do Pentecostário («поемыя со второго дня Пасхи и до отдания»): ⚠ eslavo transcrito do texto atual em grafia pré-reforma (conferido com o Molitvoslov do azbyka, dec. 2), sem edição sinodal pré-1917 localizada: MS1900, Z1912 e Hapgood dão o cânone do dia de Páscoa, sem theotokia; Цветная Триодь pré-1917 não encontrada no archive.org nem na RSL. RU, UK, EN e PT: traduções próprias."
   },
   {
-   "id": "comunhao_preparacao-cp70",
+   "id": "comunhao_preparacao-cp070",
    "tipo": "oracao",
    "cu": "Катава́сія: О́троки отъ пе́щи изба́вивый, бывъ человѣ́къ, стра́ждетъ я́ко сме́ртенъ, и стра́стію сме́ртное въ нетлѣ́нія облачи́тъ благолѣ́піе, еди́нъ благослове́нъ отце́въ Богъ и препросла́вленъ.",
    "pt": "Catavásia: Aquele que livrou os jovens da fornalha, tendo-Se feito homem, sofre como mortal e, pela Sua paixão, reveste o que é mortal com o esplendor da incorrupção, o único Deus dos pais, bendito e sobremaneira glorificado.",
@@ -1574,7 +1574,7 @@
    "nota": "Na catavásia repete-se o hirmos (Molitvoslov atual: «На катавасии снова ирмос»; Hapgood: «the Choirs repeat… the Theme-Song»)."
   },
   {
-   "id": "comunhao_preparacao-cp71",
+   "id": "comunhao_preparacao-cp071",
    "tipo": "oracao",
    "cu": "Христо́съ воскре́се изъ ме́ртвыхъ, сме́ртію смерть попра́въ и су́щимъ во гробѣ́хъ живо́тъ дарова́въ.",
    "pt": "Cristo ressuscitou dos mortos, pela morte calcou a morte e aos que estavam nos sepulcros deu a vida.",
@@ -1597,7 +1597,7 @@
    "nota": "Texto e traduções idênticos a manha.json (manha-p04). Depois da catavásia de cada ode."
   },
   {
-   "id": "comunhao_preparacao-cp72",
+   "id": "comunhao_preparacao-cp072",
    "tipo": "titulo",
    "cu": "Пѣснь 8",
    "pt": "Ode 8",
@@ -1618,7 +1618,7 @@
    }
   },
   {
-   "id": "comunhao_preparacao-cp73",
+   "id": "comunhao_preparacao-cp073",
    "tipo": "oracao",
    "cu": "Ирмо́съ: Сей нарече́нный и святы́й день, еди́нъ суббо́тъ царь и госпо́дь, пра́здниковъ пра́здникъ и торжество́ есть торже́ствъ, во́ньже благослови́мъ Христа́ во вѣ́ки.",
    "pt": "Hirmos: Este é o dia designado e santo, o primeiro da semana, rei e senhor, festa das festas e solenidade das solenidades, no qual bendizemos Cristo pelos séculos.",
@@ -1640,7 +1640,7 @@
    "nota": "«еди́нъ суббо́тъ» = μία τῶν σαββάτων (Mt 28,1), o primeiro dia da semana (domingo): PT «o primeiro da semana», RU/UK «первый после субботы». RU: Z1912 adaptado («желанный», «царственно главный» → «нареченный», «царь и господь»)."
   },
   {
-   "id": "comunhao_preparacao-cp74",
+   "id": "comunhao_preparacao-cp074",
    "tipo": "oracao",
    "cu": "Христо́съ воскре́се изъ ме́ртвыхъ.",
    "pt": "Cristo ressuscitou dos mortos.",
@@ -1662,7 +1662,7 @@
    "nota": "Refrão (припѣвъ) antes de cada tropário das odes 1–8 (Molitvoslov atual; Hapgood «Refrain»). MS1900 e Z1912 não o imprimem."
   },
   {
-   "id": "comunhao_preparacao-cp75",
+   "id": "comunhao_preparacao-cp075",
    "tipo": "oracao",
    "cu": "Пріиди́те, но́ваго виногра́да рожде́нія, Боже́ственнаго весе́лія, въ наро́читомъ дни воскресе́нія, Ца́рствія Христо́ва пріобщи́мся, пою́ще Его́ я́ко Бо́га во вѣ́ки.",
    "pt": "Vinde, no dia insigne da ressurreição, participemos do fruto da nova videira, da alegria divina, do Reino de Cristo, cantando-O como Deus pelos séculos.",
@@ -1684,7 +1684,7 @@
    "nota": "Mt 26,29."
   },
   {
-   "id": "comunhao_preparacao-cp76",
+   "id": "comunhao_preparacao-cp076",
    "tipo": "oracao",
    "cu": "Христо́съ воскре́се изъ ме́ртвыхъ.",
    "pt": "Cristo ressuscitou dos mortos.",
@@ -1706,7 +1706,7 @@
    "nota": "Refrão (припѣвъ) antes de cada tropário das odes 1–8 (Molitvoslov atual; Hapgood «Refrain»). MS1900 e Z1912 não o imprimem."
   },
   {
-   "id": "comunhao_preparacao-cp77",
+   "id": "comunhao_preparacao-cp077",
    "tipo": "oracao",
    "cu": "Возведи́ о́крестъ о́чи твои́, Сіо́не, и виждь: се бо пріидо́ша къ тебѣ́, я́ко богосвѣ́тлая свѣти́ла, отъ за́пада и сѣ́вера, и мо́ря и восто́ка, ча́да твоя́, въ тебѣ́ благословя́щая Христа́ во вѣ́ки.",
    "pt": "Ergue em redor os teus olhos, ó Sião, e vê: eis que vieram a ti, como astros iluminados por Deus, do ocidente e do norte, do mar e do oriente, os teus filhos, que em ti bendizem Cristo pelos séculos.",
@@ -1728,7 +1728,7 @@
    "nota": "Is 60,4. «мо́ре» = o sul (no eslavo/grego, «o mar»); Z1912 traduzia «юга» ⚠; mantém-se «o mar» em todas as línguas."
   },
   {
-   "id": "comunhao_preparacao-cp78",
+   "id": "comunhao_preparacao-cp078",
    "tipo": "oracao",
    "cu": "Пресвята́я Тро́ице, Бо́же нашъ, сла́ва Тебѣ́.",
    "pt": "Santíssima Trindade, nosso Deus, glória a Ti.",
@@ -1750,7 +1750,7 @@
    "nota": "Refrão do tropário trinitário (MS1900 p. 179: «Троиченъ»)."
   },
   {
-   "id": "comunhao_preparacao-cp79",
+   "id": "comunhao_preparacao-cp079",
    "tipo": "oracao",
    "cu": "О́тче Вседержи́телю, и Сло́ве, и Ду́ше, треми́ соединя́емое во ипоста́сѣхъ естество́, Пресу́щественне и Пребоже́ственне, въ Тя крести́хомся и Тя благослови́мъ во вся вѣ́ки.",
    "pt": "Pai Todo-Poderoso, e Verbo, e Espírito, natureza unida em três hipóstases, supraessencial e sobredivina, em Ti fomos batizados e a Ti bendiremos por todos os séculos.",
@@ -1771,7 +1771,7 @@
    }
   },
   {
-   "id": "comunhao_preparacao-cp80",
+   "id": "comunhao_preparacao-cp080",
    "tipo": "oracao",
    "cu": "Сла́ва: Пріи́де Тобо́ю въ міръ Госпо́дь, Дѣ́во Богоро́дице, и чре́во а́дово расто́ргъ, сме́ртнымъ намъ воскресе́ніе дарова́: тѣ́мже благослови́мъ Его́ во вѣ́ки.",
    "pt": "Glória…: Por Ti veio ao mundo o Senhor, ó Virgem Mãe de Deus, e, rasgando o ventre do inferno, deu-nos a nós, mortais, a ressurreição: por isso O bendizemos pelos séculos.",
@@ -1793,7 +1793,7 @@
    "nota": "Theotokion do Pentecostário («поемыя со второго дня Пасхи и до отдания»): ⚠ eslavo transcrito do texto atual em grafia pré-reforma (conferido com o Molitvoslov do azbyka, dec. 2), sem edição sinodal pré-1917 localizada: MS1900, Z1912 e Hapgood dão o cânone do dia de Páscoa, sem theotokia; Цветная Триодь pré-1917 não encontrada no archive.org nem na RSL. RU, UK, EN e PT: traduções próprias."
   },
   {
-   "id": "comunhao_preparacao-cp81",
+   "id": "comunhao_preparacao-cp081",
    "tipo": "oracao",
    "cu": "И ны́нѣ: Всю низложи́въ сме́рти держа́ву Сынъ Твой, Дѣ́во, Свои́мъ воскресе́ніемъ, я́ко Богъ крѣ́пкій, совознесе́ насъ и обожи́: тѣ́мже воспѣва́емъ Его́ во вѣ́ки.",
    "pt": "E agora…: O Teu Filho, ó Virgem, tendo derrubado pela Sua ressurreição todo o poder da morte, como Deus forte, elevou-nos consigo e divinizou-nos: por isso O cantamos pelos séculos.",
@@ -1815,7 +1815,7 @@
    "nota": "Theotokion do Pentecostário («поемыя со второго дня Пасхи и до отдания»): ⚠ eslavo transcrito do texto atual em grafia pré-reforma (conferido com o Molitvoslov do azbyka, dec. 2), sem edição sinodal pré-1917 localizada: MS1900, Z1912 e Hapgood dão o cânone do dia de Páscoa, sem theotokia; Цветная Триодь pré-1917 não encontrada no archive.org nem na RSL. RU, UK, EN e PT: traduções próprias."
   },
   {
-   "id": "comunhao_preparacao-cp82",
+   "id": "comunhao_preparacao-cp082",
    "tipo": "oracao",
    "cu": "Катава́сія: Сей нарече́нный и святы́й день, еди́нъ суббо́тъ царь и госпо́дь, пра́здниковъ пра́здникъ и торжество́ есть торже́ствъ, во́ньже благослови́мъ Христа́ во вѣ́ки.",
    "pt": "Catavásia: Este é o dia designado e santo, o primeiro da semana, rei e senhor, festa das festas e solenidade das solenidades, no qual bendizemos Cristo pelos séculos.",
@@ -1837,7 +1837,7 @@
    "nota": "Na catavásia repete-se o hirmos (Molitvoslov atual: «На катавасии снова ирмос»; Hapgood: «the Choirs repeat… the Theme-Song»)."
   },
   {
-   "id": "comunhao_preparacao-cp83",
+   "id": "comunhao_preparacao-cp083",
    "tipo": "oracao",
    "cu": "Христо́съ воскре́се изъ ме́ртвыхъ, сме́ртію смерть попра́въ и су́щимъ во гробѣ́хъ живо́тъ дарова́въ.",
    "pt": "Cristo ressuscitou dos mortos, pela morte calcou a morte e aos que estavam nos sepulcros deu a vida.",
@@ -1860,7 +1860,7 @@
    "nota": "Texto e traduções idênticos a manha.json (manha-p04). Depois da catavásia de cada ode."
   },
   {
-   "id": "comunhao_preparacao-cp84",
+   "id": "comunhao_preparacao-cp084",
    "tipo": "titulo",
    "cu": "Пѣснь 9",
    "pt": "Ode 9",
@@ -1881,7 +1881,7 @@
    }
   },
   {
-   "id": "comunhao_preparacao-cp85",
+   "id": "comunhao_preparacao-cp085",
    "tipo": "oracao",
    "cu": "Припѣ́въ: Вели́читъ душа́ моя́ воскре́сшаго тридне́вно отъ гро́ба Христа́ Жизнода́вца.",
    "pt": "Refrão: A minha alma engrandece Cristo, Dador da vida, que ao terceiro dia ressuscitou do sepulcro.",
@@ -1903,7 +1903,7 @@
    "nota": "Припѣвы 9.ª ode segundo Z1912 pp. 112–113 e Hapgood pp. 232–233 (MS1900 só traz «А́нгелъ вопія́ше»); ordem do Molitvoslov atual (dec. 2). Acentuação segundo Z1912."
   },
   {
-   "id": "comunhao_preparacao-cp86",
+   "id": "comunhao_preparacao-cp086",
    "tipo": "oracao",
    "cu": "Свѣти́ся, свѣти́ся, но́вый Іерусали́ме, сла́ва бо Госпо́дня на тебѣ́ возсія́; лику́й ны́нѣ и весели́ся, Сіо́не! Ты же, Чи́стая, красу́йся, Богоро́дице, о воста́ніи Рождества́ Твоего́.",
    "pt": "Resplandece, resplandece, ó nova Jerusalém, porque a glória do Senhor brilhou sobre ti; exulta agora e alegra-te, ó Sião! E Tu, ó Pura, rejubila, Mãe de Deus, com a ressurreição d'Aquele que deste à luz.",
@@ -1925,7 +1925,7 @@
    "nota": "Hirmos da 9.ª ode: texto e traduções idênticos a manha.json (manha-84). MS1900 p. 180; Z1912 p. 113."
   },
   {
-   "id": "comunhao_preparacao-cp87",
+   "id": "comunhao_preparacao-cp087",
    "tipo": "oracao",
    "cu": "Припѣ́въ: Вели́читъ душа́ моя́ во́лею страда́вша и погребе́на, и воскре́сшаго тридне́вно отъ гро́ба.",
    "pt": "Refrão: A minha alma engrandece Aquele que voluntariamente padeceu e foi sepultado, e ao terceiro dia ressuscitou do sepulcro.",
@@ -1947,7 +1947,7 @@
    "nota": "Припѣвы 9.ª ode segundo Z1912 pp. 112–113 e Hapgood pp. 232–233 (MS1900 só traz «А́нгелъ вопія́ше»); ordem do Molitvoslov atual (dec. 2). Acentuação segundo Z1912."
   },
   {
-   "id": "comunhao_preparacao-cp88",
+   "id": "comunhao_preparacao-cp088",
    "tipo": "oracao",
    "cu": "Свѣти́ся, свѣти́ся, но́вый Іерусали́ме, сла́ва бо Госпо́дня на тебѣ́ возсія́; лику́й ны́нѣ и весели́ся, Сіо́не! Ты же, Чи́стая, красу́йся, Богоро́дице, о воста́ніи Рождества́ Твоего́.",
    "pt": "Resplandece, resplandece, ó nova Jerusalém, porque a glória do Senhor brilhou sobre ti; exulta agora e alegra-te, ó Sião! E Tu, ó Pura, rejubila, Mãe de Deus, com a ressurreição d'Aquele que deste à luz.",
@@ -1969,7 +1969,7 @@
    "nota": "Hirmos da 9.ª ode: texto e traduções idênticos a manha.json (manha-84). Repete-se depois do 2.º refrão."
   },
   {
-   "id": "comunhao_preparacao-cp89",
+   "id": "comunhao_preparacao-cp089",
    "tipo": "oracao",
    "cu": "Припѣ́въ: Христо́съ но́вая Па́сха, же́ртва жива́я, А́гнецъ Бо́жій, взе́мляй грѣхи́ мі́ра.",
    "pt": "Refrão: Cristo é a nova Páscoa, a vítima viva, o Cordeiro de Deus, que tira os pecados do mundo.",
@@ -1991,7 +1991,7 @@
    "nota": "Припѣвы 9.ª ode segundo Z1912 pp. 112–113 e Hapgood pp. 232–233 (MS1900 só traz «А́нгелъ вопія́ше»); ordem do Molitvoslov atual (dec. 2). Acentuação segundo Z1912. Jo 1,29."
   },
   {
-   "id": "comunhao_preparacao-cp90",
+   "id": "comunhao_preparacao-cp090",
    "tipo": "oracao",
    "cu": "О Боже́ственнаго, о любе́знаго, о сладча́йшаго Твоего́ гла́са! Съ на́ми бо нело́жно обѣща́лся еси́ бы́ти до сконча́нія вѣ́ка, Христе́: Его́же вѣ́рніи, утвержде́ніе наде́жды иму́ще, ра́дуемся.",
    "pt": "Ó divina, ó amada, ó dulcíssima voz Tua! Porque prometeste sem mentira estar connosco até ao fim dos séculos, ó Cristo; e nós, os fiéis, tendo-a por firme alicerce da esperança, alegramo-nos.",
@@ -2013,7 +2013,7 @@
    "nota": "Mt 28,20. RU: Z1912 adaptado (dec. 57): Z1912 parafraseava («какъ дорого», «радостно основываемъ на немъ свою надежду»). EN: «firm foundation of hope», como Hapgood."
   },
   {
-   "id": "comunhao_preparacao-cp91",
+   "id": "comunhao_preparacao-cp091",
    "tipo": "oracao",
    "cu": "Припѣ́въ: А́нгелъ вопія́ше Благода́тнѣй: Чи́стая Дѣ́во, ра́дуйся! И па́ки реку́: ра́дуйся! Твой Сынъ воскре́се тридне́венъ отъ гро́ба, и ме́ртвыя воздви́гнувый; лю́діе, весели́теся!",
    "pt": "Refrão: O Anjo clamou à Cheia de Graça: Virgem pura, alegra-Te! E de novo digo: alegra-Te! O Teu Filho ressuscitou ao terceiro dia do sepulcro e levantou os mortos. Povos, regozijai-vos!",
@@ -2035,7 +2035,7 @@
    "nota": "Refrão: texto e traduções idênticos a manha.json (manha-83), com o rótulo «Припѣвъ». MS1900 p. 179 imprime-o como «Припѣвъ» antes da 9.ª ode."
   },
   {
-   "id": "comunhao_preparacao-cp92",
+   "id": "comunhao_preparacao-cp092",
    "tipo": "oracao",
    "cu": "О Боже́ственнаго, о любе́знаго, о сладча́йшаго Твоего́ гла́са! Съ на́ми бо нело́жно обѣща́лся еси́ бы́ти до сконча́нія вѣ́ка, Христе́: Его́же вѣ́рніи, утвержде́ніе наде́жды иму́ще, ра́дуемся.",
    "pt": "Ó divina, ó amada, ó dulcíssima voz Tua! Porque prometeste sem mentira estar connosco até ao fim dos séculos, ó Cristo; e nós, os fiéis, tendo-a por firme alicerce da esperança, alegramo-nos.",
@@ -2057,7 +2057,7 @@
    "nota": "Mt 28,20. RU: Z1912 adaptado (dec. 57): Z1912 parafraseava («какъ дорого», «радостно основываемъ на немъ свою надежду»). EN: «firm foundation of hope», como Hapgood."
   },
   {
-   "id": "comunhao_preparacao-cp93",
+   "id": "comunhao_preparacao-cp093",
    "tipo": "oracao",
    "cu": "Припѣ́въ: Возбуди́лъ еси́, усну́въ, ме́ртвыя отъ вѣ́ка, ца́рски рыка́вый, я́ко отъ Іу́ды левъ.",
    "pt": "Refrão: Tendo adormecido, despertaste os mortos de todos os séculos, rugindo regiamente como o leão de Judá.",
@@ -2079,7 +2079,7 @@
    "nota": "Припѣвы 9.ª ode segundo Z1912 pp. 112–113 e Hapgood pp. 232–233 (MS1900 só traz «А́нгелъ вопія́ше»); ordem do Molitvoslov atual (dec. 2). Acentuação segundo Z1912. Gn 49,9."
   },
   {
-   "id": "comunhao_preparacao-cp94",
+   "id": "comunhao_preparacao-cp094",
    "tipo": "oracao",
    "cu": "О Боже́ственнаго, о любе́знаго, о сладча́йшаго Твоего́ гла́са! Съ на́ми бо нело́жно обѣща́лся еси́ бы́ти до сконча́нія вѣ́ка, Христе́: Его́же вѣ́рніи, утвержде́ніе наде́жды иму́ще, ра́дуемся.",
    "pt": "Ó divina, ó amada, ó dulcíssima voz Tua! Porque prometeste sem mentira estar connosco até ao fim dos séculos, ó Cristo; e nós, os fiéis, tendo-a por firme alicerce da esperança, alegramo-nos.",
@@ -2101,7 +2101,7 @@
    "nota": "Mt 28,20. RU: Z1912 adaptado (dec. 57): Z1912 parafraseava («какъ дорого», «радостно основываемъ на немъ свою надежду»). EN: «firm foundation of hope», como Hapgood."
   },
   {
-   "id": "comunhao_preparacao-cp95",
+   "id": "comunhao_preparacao-cp095",
    "tipo": "oracao",
    "cu": "Припѣ́въ: Магдали́на Марі́я притече́ ко гро́бу, и Христа́ ви́дѣвши, я́ко вертогра́даря вопроша́ше.",
    "pt": "Refrão: Maria Madalena correu ao sepulcro e, vendo Cristo, interrogava-O como ao jardineiro.",
@@ -2123,7 +2123,7 @@
    "nota": "Припѣвы 9.ª ode segundo Z1912 pp. 112–113 e Hapgood pp. 232–233 (MS1900 só traz «А́нгелъ вопія́ше»); ordem do Molitvoslov atual (dec. 2). Acentuação segundo Z1912. Jo 20,15."
   },
   {
-   "id": "comunhao_preparacao-cp96",
+   "id": "comunhao_preparacao-cp096",
    "tipo": "oracao",
    "cu": "О Боже́ственнаго, о любе́знаго, о сладча́йшаго Твоего́ гла́са! Съ на́ми бо нело́жно обѣща́лся еси́ бы́ти до сконча́нія вѣ́ка, Христе́: Его́же вѣ́рніи, утвержде́ніе наде́жды иму́ще, ра́дуемся.",
    "pt": "Ó divina, ó amada, ó dulcíssima voz Tua! Porque prometeste sem mentira estar connosco até ao fim dos séculos, ó Cristo; e nós, os fiéis, tendo-a por firme alicerce da esperança, alegramo-nos.",
@@ -2145,7 +2145,7 @@
    "nota": "Mt 28,20. RU: Z1912 adaptado (dec. 57): Z1912 parafraseava («какъ дорого», «радостно основываемъ на немъ свою надежду»). EN: «firm foundation of hope», como Hapgood."
   },
   {
-   "id": "comunhao_preparacao-cp97",
+   "id": "comunhao_preparacao-cp097",
    "tipo": "oracao",
    "cu": "Припѣ́въ: А́нгелъ облиста́яй жена́мъ вопія́ше: преста́ните отъ слезъ, я́ко Христо́съ воскре́се.",
    "pt": "Refrão: O Anjo resplandecente clamava às mulheres: Cessai as lágrimas, porque Cristo ressuscitou.",
@@ -2167,7 +2167,7 @@
    "nota": "Припѣвы 9.ª ode segundo Z1912 pp. 112–113 e Hapgood pp. 232–233 (MS1900 só traz «А́нгелъ вопія́ше»); ordem do Molitvoslov atual (dec. 2). Acentuação segundo Z1912."
   },
   {
-   "id": "comunhao_preparacao-cp98",
+   "id": "comunhao_preparacao-cp098",
    "tipo": "oracao",
    "cu": "О Боже́ственнаго, о любе́знаго, о сладча́йшаго Твоего́ гла́са! Съ на́ми бо нело́жно обѣща́лся еси́ бы́ти до сконча́нія вѣ́ка, Христе́: Его́же вѣ́рніи, утвержде́ніе наде́жды иму́ще, ра́дуемся.",
    "pt": "Ó divina, ó amada, ó dulcíssima voz Tua! Porque prometeste sem mentira estar connosco até ao fim dos séculos, ó Cristo; e nós, os fiéis, tendo-a por firme alicerce da esperança, alegramo-nos.",
@@ -2189,7 +2189,7 @@
    "nota": "Mt 28,20. RU: Z1912 adaptado (dec. 57): Z1912 parafraseava («какъ дорого», «радостно основываемъ на немъ свою надежду»). EN: «firm foundation of hope», como Hapgood."
   },
   {
-   "id": "comunhao_preparacao-cp99",
+   "id": "comunhao_preparacao-cp099",
    "tipo": "oracao",
    "cu": "Припѣ́въ: Христо́съ воскре́се, смерть попра́вый и ме́ртвыя воздви́гнувый: лю́діе, весели́теся.",
    "pt": "Refrão: Cristo ressuscitou, calcou a morte e levantou os mortos: povos, regozijai-vos!",

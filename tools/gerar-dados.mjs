@@ -20,7 +20,7 @@ fs.rmSync(dirO, { recursive: true, force: true });
 fs.mkdirSync(dirO, { recursive: true });
 const indice = [];
 if (fs.existsSync('data/oracoes')) for (const f of fs.readdirSync('data/oracoes').sort()) {
-  if (!f.endsWith('.json')) continue;
+  if (!f.endsWith('.json') || f.startsWith('_')) continue;   // _parte-*.json: partes ainda por juntar
   const o = JSON.parse(fs.readFileSync(`data/oracoes/${f}`, 'utf8'));
   indice.push(o.id);
   for (const l of ['pt', 'ru', 'uk', 'en']) {
