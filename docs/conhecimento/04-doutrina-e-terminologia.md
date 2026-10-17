@@ -509,7 +509,7 @@ Notas:
 | Jejum | пост (*post*) | νηστεία | Abstinência ascética de certos alimentos | [12][38] | |
 | Juízo Final | Страшный суд (*Stráshny sud*) | Δευτέρα Παρουσία / Κρίσις | Juízo universal na Segunda Vinda | [5] | |
 | Segunda Vinda / Parusia | Второе пришествие | παρουσία | Vinda gloriosa de Cristo | [5][38] | |
-| Inferno / Hades | ад (*ad*) | ᾅδης | Estado de separação de Deus | [2][38] | |
+| **Hades** (dec. 71; não «inferno») | ад (*ad*) | ᾅδης | Morada dos mortos; distinto da геенна (castigo final) | [2][38] | |
 | Reino dos Céus / Paraíso | Царство Небесное / рай | Βασιλεία τῶν Οὐρανῶν | Comunhão eterna com Deus | [5] | |
 | Purgatório | чистилище (*tchistílische*) | — | Doutrina católica; **rejeitada** | [42][45] | [CAT] apenas |
 | Anjo da Guarda | Ангел-хранитель | φύλαξ ἄγγελος | Anjo protetor de cada fiel | [38][36] | |
