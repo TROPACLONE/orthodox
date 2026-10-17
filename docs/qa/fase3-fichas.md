@@ -1,7 +1,7 @@
 # QA fase 3 — fichas dos santos (`data/santos/fichas.json`)
 
 > Verificação (dec. 49) das **128 fichas** (nome, título, vida, festas, resumo ×4, tropário eslavo + 4 traduções). **Os dados não foram editados.** Todas as correções propostas estão em [`fase3-fichas-patch.json`](fase3-fichas-patch.json): **180 entradas** `{ficheiro,id,campo,de,para,motivo,prioridade}`, uma por campo (várias correções no mesmo campo vêm fundidas), geradas a partir dos valores atuais e testadas (aplicam-se todas; depois delas o *lint* eslavo fica limpo, salvo a exceção «Влади́міръ», grafia pré-reforma legítima).
-> Prioridade: **A** erro de conteúdo/fidelidade (46), **B** erro de ortografia/terminologia/precisão (30), **C** uniformização ou opcional (104, das quais 95 são só apóstrofos UK).
+> Prioridade: **A** erro de conteúdo/fidelidade (46), **B** erro de ortografia/terminologia/precisão (30), **C** uniformização ou opcional (104, das quais 65 são só apóstrofos UK).
 
 ## 0. Método (por *script*, leitura humana só onde indicado)
 
@@ -16,7 +16,7 @@
 | Tom e texto × texto atual | 91 páginas `azbyka.ru/days/<data>` (as de `fonte.conferido`) descarregadas; melhor tropário por `difflib` sobre texto normalizado | **91/100 idênticos** (razão ≥ 0,97, mesmo tom). 9 diferentes: 6 variantes documentadas (FONTES §5), Filipe (não documentado), **Marcos e Tiago Zebedeu (tropário errado)** (§2.2) |
 | Traduções dos tropários | Leitura integral eslavo + PT + RU + UK + EN dos 100 tropários | 12 problemas de fidelidade/omissão (§2.3) |
 | Paridade dos resumos | Números ×4 línguas, estrutura RU↔UK (pontuação), razão de comprimento; leitura PT+EN integral | 3 omissões em RU/UK/EN, 1 nome trocado (Bárbara) (§3) |
-| Ortografia/registo | RU sem acentos nem letras antigas ✔; UK sem ы/э/ъ/ё ✔; PT pré-AO, «você/Vós», «inferno»; EN -ize/-or, «you» em tropários | PT AO 1990 ✔, «Tu» ✔ (1 maiúscula), EN en-GB ✔, Thee/Thou ✔ («ye/you/your» só no plural, correto); UK apóstrofo reto ' em vez de ’ (115 ocorrências, 95 campos) |
+| Ortografia/registo | RU sem acentos nem letras antigas ✔; UK sem ы/э/ъ/ё ✔; PT pré-AO, «você/Vós», «inferno»; EN -ize/-or, «you» em tropários | PT AO 1990 ✔, «Tu» ✔ (1 maiúscula), EN en-GB ✔, Thee/Thou ✔ («ye/you/your» só no plural, correto); UK apóstrofo reto ' em vez de ’ (115 ocorrências, 79 campos) |
 
 ## 1. Factos e festas
 
@@ -75,7 +75,7 @@ Datas, lugares, títulos e anos de canonização dos outros resumos conferem com
 Verificado sem problemas: PT «Tu» e maiúsculas divinas (salvo o caso acima), «Soberano», «Amigo dos homens», sem «inferno» nos tropários; RU moderno sem acentos; EN Thee/Thou com pronomes divinos em maiúscula, en-GB; Crisóstomo e Basílio em Hapgood. UK IOU: «Ісус» ×6 (1 tropário + 5 resumos) → «Іісус» e «Юда/Юдо/Юди» → «Іуда…» (dec. 30, como nas orações e em `dia.json`) — patch B/C.
 
 ## 3. Paridade das 4 línguas, nomes e títulos
-- RU e UK são paralelos (estrutura idêntica em 127/128 resumos). Números iguais nas 4 línguas em todas as fichas (as diferenças são numerais por extenso em EN).
+- RU e UK são paralelos (estrutura idêntica em 126/128 resumos). Números iguais nas 4 línguas em todas as fichas (as diferenças são numerais por extenso em EN).
 - **Omissões em RU/UK/EN** da última oração do PT: `parasceva-sexta-feira` («muito venerada na Rússia como protetora da família e do trabalho»), `jorge-grande-martir` («padroeiro de Moscovo»), `joao-o-guerreiro` («invocado pelos que sofrem injustiça»). Patch A acrescenta-as; nenhuma das três está no doc. 05 — alternativa: retirá-las do PT (§5).
 - `barbara`: PT/doc. 05/azbyka «Maximino (305–311)»; RU/UK/EN «Максимиан/Maximian» → patch A.
 - Nomes PT tradicionais (dec. 19) ✔ em todos os nomes e resumos. Títulos: coerentes com os nomes e com o glossário (dec. 20 C5); `basilio-bem-aventurado` tem «Louco por Cristo»/«Fool-for-Christ» onde RU/UK têm «Блаженный, Христа ради юродивый» (Xénia: «Bem-aventurada, louca por Cristo») → patch C.

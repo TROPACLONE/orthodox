@@ -431,7 +431,7 @@ Nome PT-PT · eslavo/russo (cirílico + transliteração) · grego (quando relev
 - **Categoria:** santo hierarca
 - **Memórias:** 19.11 OS = 02.12 NS — azbyka polieleo [3] · 05.10 OS (Hierarcas de Moscovo) [30].
 - **Vida:** 1782–1867 [30].
-- **Biografia:** Formado na Lavra da Trindade, pregador e teólogo, reitor da Academia Teológica de S. Petersburgo [30]. Metropolita de Moscovo desde 1821 [30]. Teve papel central na tradução da Bíblia para russo, compôs o *Catecismo Cristão* e redigiu o Manifesto de 1861 de emancipação dos servos [30].
+- **Biografia:** Formado na Lavra da Trindade, pregador e teólogo, reitor da Academia Teológica de S. Petersburgo [30]. Arcebispo de Moscovo desde 1821 e metropolita desde 1826 [30] (corrigido na QA da fase 3). Teve papel central na tradução da Bíblia para russo, compôs o *Catecismo Cristão* e redigiu o Manifesto de 1861 de emancipação dos servos [30].
 - **Canonização:** Concílio dos Bispos de 29.11–04.12.1994 [4].
 - **Relíquias:** n/d.
 - **Critério:** B.
@@ -1199,7 +1199,7 @@ Nome PT-PT · eslavo/russo (cirílico + transliteração) · grego (quando relev
 - **Categoria:** santo hierarca
 - **Memórias:** 13.08 OS = 26.08 NS (repouso, 1783; 2.ª invenção das relíquias, 1991) — Typikon 🕂 [2]; azbyka polieleo [3] · sinaxes regionais [114].
 - **Vida:** 1724–1783 [114].
-- **Biografia:** Nascido Timóteo Sokolov, de família pobre; estudou no seminário de Novgorod, foi professor e depois monge [114]. Aos 37 anos foi eleito bispo de Voronej [114]. Doente, retirou-se para o mosteiro de Zadonsk, onde passou 16 anos em oração, caridade e escrita espiritual [114].
+- **Biografia:** Nascido Timóteo Sokolov, de família pobre; estudou no seminário de Novgorod, foi professor e depois monge [114]. Aos 37 anos (1761) foi sagrado bispo vigário (de Kexholm e Ladoga) e em 1763 tornou-se bispo de Voronej [114] (corrigido na QA da fase 3). Doente, retirou-se para o mosteiro de Zadonsk, onde passou 16 anos em oração, caridade e escrita espiritual [114].
 - **Canonização:** 1861 (a fonte indica «12 de agosto de 1861», sem precisar o estilo) [114].
 - **Relíquias:** catedral de Vladimir do mosteiro de Zadonsk, desde o regresso em 1991 [114].
 - **Critério:** A.
