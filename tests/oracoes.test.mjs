@@ -42,8 +42,9 @@ if (fs.existsSync('data/oracoes')) for (const f of fs.readdirSync('data/oracoes'
     assert.ok(!ids.has(b.id), `${f}: id repetido ${b.id}`); ids.add(b.id);
     assert.ok(['rubrica', 'oracao', 'titulo', 'verso'].includes(b.tipo), `${f} ${b.id}: tipo`);
     if (b.tipo === 'verso') {
-      assert.ok(Number.isInteger(b.sl) && Number.isInteger(b.v), `${f} ${b.id}: sl/v`);
-      assert.ok(!versos.has(b.sl + '.' + b.v), `${f} ${b.id}: versículo repetido`); versos.set(b.sl + '.' + b.v, o.id);
+      assert.ok(Number.isInteger(b.sl) && Number.isInteger(b.v) && b.v >= 0, `${f} ${b.id}: sl/v`);
+      // v = 0: sobrescrito sem número na Bíblia eslava (fora da grelha)
+      if (b.v) { assert.ok(!versos.has(b.sl + '.' + b.v), `${f} ${b.id}: versículo repetido`); versos.set(b.sl + '.' + b.v, o.id); }
     }
     for (const l of ['pt', 'ru', 'uk', 'en']) assert.ok(b[l] && b[l].trim(), `${f} ${b.id}: falta ${l}`);
     if (b.tipo !== 'rubrica') assert.ok(b.cu && b.cu.trim(), `${f} ${b.id}: falta o eslavo`);

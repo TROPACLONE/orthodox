@@ -32,7 +32,7 @@ if (fs.existsSync('data/oracoes')) for (const f of fs.readdirSync('data/oracoes'
     const blocos = o.blocos.map(b => {
       const x = { id: b.id, tipo: b.tipo, cu: b.cu || '', t: b[l] || '' };
       if (b.repetir) x.repetir = b.repetir;
-      if (b.sl) { x.sl = b.sl; if (b.v) x.v = b.v; }   // salmo e versículo (Saltério)
+      if (b.sl) { x.sl = b.sl; if (b.v) x.v = b.v; if (b.sobrescrito) x.sob = 1; }   // salmo, versículo, sobrescrito (Saltério, dec. 69)
       if (b.quando) x.quando = b.quando;
       return x;
     });

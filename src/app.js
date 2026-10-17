@@ -304,7 +304,7 @@ function ecraOracao() {
     const rep = b.repetir ? ` (${T.ui.vezes(b.repetir)})` : '';
     if (b.tipo === 'rubrica') { s.append(h('p', { class: 'rubrica', text: b.t + rep })); continue; }
     if (b.tipo === 'titulo') { if (b.t !== dados.titulo) s.append(h('h2', { class: 'titulo-oracao', text: b.t })); continue; }   // o 1.º título repete o h1
-    const par = h('div', { class: 'par' }), v = () => b.v && h('sup', { class: 'v', text: b.v });   // n.º do versículo
+    const par = h('div', { class: b.sob ? 'par sobrescrito' : 'par' }), v = () => b.v && h('sup', { class: 'v', text: b.v });   // n.º do versículo
     // «(3 vezes)» está na língua da interface, não em eslavo
     if (eslavo && b.cu) par.append(h('p', { class: 'slav', lang: 'cu' }, v(), eslavo(b.cu), rep && h('span', { lang: T.lang, text: rep })));
     par.append(h('p', { class: 'trad' }, v(), b.t + (eslavo && b.cu ? '' : rep)));
