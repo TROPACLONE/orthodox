@@ -1,0 +1,618 @@
+[
+ {
+  "ficheiro": "acatistos-jesus.json",
+  "id": "acj-024",
+  "campo": "uk",
+  "de": "Бачачи вдову, що гірко плакала, Господи, як тоді змилосердився Ти і воскресив її сина, якого несли на поховання, так і наді мною змилосердься, Чоловіколюбче, і воскреси мою душу, грíхами умертвлену, що взиває: Алилуя.",
+  "para": "Бачачи вдову, що гірко плакала, Господи, як тоді змилосердився Ти і воскресив її сина, якого несли на поховання, так і наді мною змилосердься, Чоловіколюбче, і воскреси мою душу, гріхами умертвлену, що взиває: Алилуя.",
+  "motivo": "Ortografia: «í» latino (U+00ED) em palavra ucraniana; deve ser «і» cirílico (U+0456)."
+ },
+ {
+  "ficheiro": "acatistos-theotokos.json",
+  "id": "act-034",
+  "campo": "pt",
+  "de": "Os pastores ouviram os anjos a cantar a vinda de Cristo na carne e, correndo como para um Pastor, veem-no como um Cordeiro imaculado, apascentado no seio de Maria, e, cantando-A, disseram: Alegra-Te, Mãe do Cordeiro e do Pastor; alegra-Te, redil das ovelhas espirituais. Alegra-Te, tormento dos inimigos invisíveis; alegra-Te, abertura das portas do paraíso. Alegra-Te, porque as coisas do céu se alegram com a terra; alegra-Te, porque as coisas da terra dançam em coro com o céu. Alegra-Te, boca nunca silenciosa dos apóstolos; alegra-Te, ousadia invencível dos mártires. Alegra-Te, firme alicerce da fé; alegra-Te, conhecimento luminoso da graça. Alegra-Te, Tu por quem o Hades foi despojado; alegra-Te, Tu por quem fomos revestidos de glória. Alegra-Te, Noiva não desposada!",
+  "para": "Os pastores ouviram os anjos a cantar a vinda de Cristo na carne e, correndo como para um Pastor, veem-n'O como um Cordeiro imaculado, apascentado no seio de Maria, e, cantando-A, disseram: Alegra-Te, Mãe do Cordeiro e do Pastor; alegra-Te, redil das ovelhas espirituais. Alegra-Te, tormento dos inimigos invisíveis; alegra-Te, abertura das portas do paraíso. Alegra-Te, porque as coisas do céu se alegram com a terra; alegra-Te, porque as coisas da terra dançam em coro com o céu. Alegra-Te, boca nunca silenciosa dos apóstolos; alegra-Te, ousadia invencível dos mártires. Alegra-Te, firme alicerce da fé; alegra-Te, conhecimento luminoso da graça. Alegra-Te, Tu por quem o Hades foi despojado; alegra-Te, Tu por quem fomos revestidos de glória. Alegra-Te, Noiva não desposada!",
+  "motivo": "Pronome divino com maiúscula, como no resto dos dados PT («servi-Lo», «procurá-l'O»): refere-se a Cristo."
+ },
+ {
+  "ficheiro": "acatistos-theotokos.json",
+  "id": "act-038",
+  "campo": "pt",
+  "de": "Os filhos dos caldeus viram nos braços da Virgem Aquele que com as Suas mãos formou os homens e, reconhecendo-O como Soberano, ainda que tivesse tomado a forma de servo, apressaram-se a servi-Lo com dons e a clamar à Bendita: Alegra-Te, Mãe da estrela sem ocaso; alegra-Te, aurora do dia místico. Alegra-Te, que extinguiste a fornalha do engano; alegra-Te, que iluminas os iniciados na Trindade. Alegra-Te, que expulsas do poder o tirano desumano; alegra-Te, que mostraste Cristo, o Senhor amigo dos homens. Alegra-Te, que livras do culto bárbaro; alegra-Te, que arrancas do lodo das obras. Alegra-Te, que fizeste cessar a adoração do fogo; alegra-Te, que transformas a chama das paixões. Alegra-Te, guia dos fiéis para a castidade; alegra-Te, alegria de todas as gerações. Alegra-Te, Noiva não desposada!",
+  "para": "Os filhos dos caldeus viram nos braços da Virgem Aquele que com as Suas mãos formou os homens e, reconhecendo-O como Soberano, ainda que tivesse tomado a forma de servo, apressaram-se a servi-Lo com dons e a clamar à Bendita: Alegra-Te, Mãe da estrela sem ocaso; alegra-Te, aurora do dia místico. Alegra-Te, que extinguiste a fornalha do engano; alegra-Te, que iluminas os iniciados na Trindade. Alegra-Te, que expulsas do poder o tirano desumano; alegra-Te, que mostraste Cristo, o Senhor amigo dos homens. Alegra-Te, que livras do culto bárbaro; alegra-Te, que arrancas do lodo das obras. Alegra-Te, que fizeste cessar a adoração do fogo; alegra-Te, que livras da chama das paixões. Alegra-Te, guia dos fiéis para a castidade; alegra-Te, alegria de todas as gerações. Alegra-Te, Noiva não desposada!",
+  "motivo": "Sentido: «пла́мене страсте́й измѣня́ющая» rege genitivo; em eslavo eclesiástico «измѣня́ти» = «livrar, resgatar» (cf. grego ἀπαλλάττουσα), como já faz a coluna RU («избавляющая от пламени страстей»). «Transformas a chama» inverte o sentido. Ajustar também a nota."
+ },
+ {
+  "ficheiro": "acatistos-theotokos.json",
+  "id": "act-038",
+  "campo": "en",
+  "de": "The children of the Chaldees saw in the arms of the Virgin Him Who with His hands fashioned mankind; and knowing Him to be the Master, though He had taken the form of a servant, they hastened to serve Him with gifts, and to cry unto her who is blessed: Rejoice, Mother of the Star that never setteth; rejoice, dawn of the mystic day. Rejoice, thou who didst quench the furnace of error; rejoice, thou who enlightenest the initiates of the Trinity. Rejoice, thou who castest out from power the inhuman tyrant; rejoice, thou who didst show forth Christ the Lord, the Lover of mankind. Rejoice, thou who deliverest from barbarous worship; rejoice, thou who drawest us out of the mire of works. Rejoice, thou who didst quench the worship of fire; rejoice, thou who changest the flame of the passions. Rejoice, guide of the faithful unto chastity; rejoice, gladness of all generations. Rejoice, O Bride unwedded!",
+  "para": "The children of the Chaldees saw in the arms of the Virgin Him Who with His hands fashioned mankind; and knowing Him to be the Master, though He had taken the form of a servant, they hastened to serve Him with gifts, and to cry unto her who is blessed: Rejoice, Mother of the Star that never setteth; rejoice, dawn of the mystic day. Rejoice, thou who didst quench the furnace of error; rejoice, thou who enlightenest the initiates of the Trinity. Rejoice, thou who castest out from power the inhuman tyrant; rejoice, thou who didst show forth Christ the Lord, the Lover of mankind. Rejoice, thou who deliverest from barbarous worship; rejoice, thou who drawest us out of the mire of works. Rejoice, thou who didst quench the worship of fire; rejoice, thou who deliverest from the flame of the passions. Rejoice, guide of the faithful unto chastity; rejoice, gladness of all generations. Rejoice, O Bride unwedded!",
+  "motivo": "Idem PT: «измѣня́ющая» + genitivo = «livrar de» (ἀπαλλάττουσα), não «mudar»."
+ },
+ {
+  "ficheiro": "acatistos-theotokos.json",
+  "id": "act-038",
+  "campo": "uk",
+  "de": "Побачили отроки халдейські на руках Діви Того, Хто руками створив людей, і, розпізнавши в Ньому Владику, хоч і прийняв Він образ раба, поспішили дарами послужити Йому і заволати до Благословенної: Радуйся, Зорі незахідної Мати; радуйся, світанку таємничого дня. Радуйся, що загасила піч омани; радуйся, що просвіщаєш таємників Трійці. Радуйся, що скидаєш з влади нелюдського мучителя; радуйся, що явила Господа Чоловіколюбця — Христа. Радуйся, що визволяєш від варварського служіння; радуйся, що витягаєш із багна діл. Радуйся, що загасила поклоніння вогню; радуйся, що змінюєш полум'я пристрастей. Радуйся, вірних наставнице цнотливості; радуйся, всіх родів веселощі. Радуйся, Невісто Неневісна!",
+  "para": "Побачили отроки халдейські на руках Діви Того, Хто руками створив людей, і, розпізнавши в Ньому Владику, хоч і прийняв Він образ раба, поспішили дарами послужити Йому і заволати до Благословенної: Радуйся, Зорі незахідної Мати; радуйся, світанку таємничого дня. Радуйся, що загасила піч омани; радуйся, що просвіщаєш таємників Трійці. Радуйся, що скидаєш з влади нелюдського мучителя; радуйся, що явила Господа Чоловіколюбця — Христа. Радуйся, що визволяєш від варварського служіння; радуйся, що витягаєш із багна діл. Радуйся, що загасила поклоніння вогню; радуйся, що визволяєш від полум'я пристрастей. Радуйся, вірних наставнице цнотливості; радуйся, всіх родів веселощі. Радуйся, Невісто Неневісна!",
+  "motivo": "Idem PT: «измѣня́ющая» + genitivo = «визволяти від» (ἀπαλλάττουσα), não «змінювати»."
+ },
+ {
+  "ficheiro": "acatistos-theotokos.json",
+  "id": "act-054",
+  "campo": "uk",
+  "de": "Красномовців багатослівних бачимо, мов риб безголосих, щодо Тебе, Богородице: бо не знають, як сказати, як Ти і Дівою перебуваєш, і змогла народити. Ми ж, дивуючись таїнству, вірно взиваємо: Радуйся, вмістилище премудрості Божої; радуйся, скарбнице Його промислу. Радуйся, що любомудрих показуєш немудрими; радуйся, що хитрословесних викриваєш безсловесними. Радуйся, бо знавіснілі стали люті шукачі; радуйся, бо зів'яли байкотворці. Радуйся, що розриваєш афінські плетива; радуйся, що наповнюєш рибальські сіті. Радуйся, що витягаєш із глибини незнання; радуйся, що многих просвіщаєш у розумінні. Радуйся, кораблю тих, хто хоче спастися; радуйся, пристане житейських плавань. Радуйся, Невісто Неневісна!",
+  "para": "Красномовців багатослівних бачимо, мов риб безголосих, щодо Тебе, Богородице: бо не знають, як сказати, як Ти і Дівою перебуваєш, і змогла народити. Ми ж, дивуючись таїнству, вірно взиваємо: Радуйся, вмістилище премудрості Божої; радуйся, скарбнице Його промислу. Радуйся, що любомудрих показуєш немудрими; радуйся, що хитрословесних викриваєш безсловесними. Радуйся, бо безумними стали люті шукачі; радуйся, бо зів'яли байкотворці. Радуйся, що розриваєш афінські плетива; радуйся, що наповнюєш рибальські сіті. Радуйся, що витягаєш із глибини незнання; радуйся, що многих просвіщаєш у розумінні. Радуйся, кораблю тих, хто хоче спастися; радуйся, пристане житейських плавань. Радуйся, Невісто Неневісна!",
+  "motivo": "Sentido: «обуя́ша» = «tornaram-se insensatos» (ἐμωράνθησαν; PT «se tornaram insensatos», EN «have become fools»); «знавісніти» significa «enfurecer-se»."
+ },
+ {
+  "ficheiro": "acatistos-theotokos.json",
+  "id": "act-062",
+  "campo": "uk",
+  "de": "Світлоприйнятну свічу, що явилася сущим у темряві, бачимо — Святу Діву; бо, запалюючи нематеріальний вогонь, Вона веде всіх до Божественного розуміння, зорею розум просвіщаючи, і шанується таким покликом: Радуйся, променю мисленного Сонця; радуйся, світило незахідного Світла. Радуйся, блискавко, що душі просвіщаєш; радуйся, бо, як грім, ворогів страхаєш. Радуйся, бо многосвітле просвітлення сяєш; радуйся, бо многоводну ріку виточуєш. Радуйся, що образ купелі вимальовуєш; радуйся, що гріховну скверну знімаєш. Радуйся, купелю, що омиваєш совість; радуйся, чаше, що черпаєш радість. Радуйся, пахощі Христового благоухання; радуйся, життя таємничого веселощів. Радуйся, Невісто Неневісна!",
+  "para": "Світлоприйнятну свічу, що явилася сущим у темряві, бачимо — Святу Діву; бо, запалюючи нематеріальний вогонь, Вона веде всіх до Божественного розуміння, зорею розум просвіщаючи, і шанується таким покликом: Радуйся, променю мисленного Сонця; радуйся, світило незахідного Світла. Радуйся, блискавко, що душі просвіщаєш; радуйся, бо, як грім, ворогів страхаєш. Радуйся, бо многосвітле просвітлення сяєш; радуйся, бо многоводну ріку виточуєш. Радуйся, що образ купелі вимальовуєш; радуйся, що гріховну скверну знімаєш. Радуйся, купелю, що омиваєш совість; радуйся, чаше, що черпаєш радість. Радуйся, пахощі Христового благоухання; радуйся, життя таємничих веселощів. Радуйся, Невісто Неневісна!",
+  "motivo": "Gramática: concordância («веселощі» é plural: «таємничих веселощів»)."
+ },
+ {
+  "ficheiro": "acatistos-theotokos.json",
+  "id": "act-062",
+  "campo": "pt",
+  "de": "Vemos a santa Virgem como lâmpada portadora de luz, aparecida aos que estão nas trevas; pois, acendendo o fogo imaterial, guia todos ao conhecimento divino, iluminando o espírito com o seu clarão, e é honrada com esta saudação: Alegra-Te, raio do Sol espiritual; alegra-Te, astro da Luz sem ocaso. Alegra-Te, relâmpago que iluminas as almas; alegra-Te, que como trovão aterras os inimigos. Alegra-Te, porque fazes brilhar uma iluminação de muitas luzes; alegra-Te, porque fazes brotar um rio de muitas correntes. Alegra-Te, que prefiguras a piscina; alegra-Te, que tiras a mancha do pecado. Alegra-Te, banho que lavas a consciência; alegra-Te, taça que tiras alegria. Alegra-Te, perfume da fragrância de Cristo; alegra-Te, vida do banquete místico. Alegra-Te, Noiva não desposada!",
+  "para": "Vemos a santa Virgem como lâmpada portadora de luz, aparecida aos que estão nas trevas; pois, acendendo o fogo imaterial, guia todos ao conhecimento divino, iluminando o espírito com o seu clarão, e é honrada com esta saudação: Alegra-Te, raio do Sol espiritual; alegra-Te, astro da Luz sem ocaso. Alegra-Te, relâmpago que iluminas as almas; alegra-Te, que como trovão aterras os inimigos. Alegra-Te, porque fazes brilhar uma iluminação de muitas luzes; alegra-Te, porque fazes brotar um rio de muitas correntes. Alegra-Te, que prefiguras a piscina; alegra-Te, que tiras a mancha do pecado. Alegra-Te, banho que lavas a consciência; alegra-Te, taça que hauris a alegria. Alegra-Te, perfume da fragrância de Cristo; alegra-Te, vida do banquete místico. Alegra-Te, Noiva não desposada!",
+  "motivo": "Clareza: «tiras» lê-se como «retiras»; «чаша, черплющая радость» = taça que haure (recolhe) a alegria (EN «cup that drawest up joy»)."
+ },
+ {
+  "ficheiro": "acatistos-theotokos.json",
+  "id": "act-075",
+  "campo": "ru",
+  "de": "Прими, Всеблагомощная, Пречистая Госпожа Владычица Богородительница, эти честные дары, Тебе единой приносимые от нас, недостойных рабов Твоих, избранная из всех родов, явившаяся превыше всех тварей небесных и земных. Ибо через Тебя был с нами Господь сил, и через Тебя мы познали Сына Божия и сподобились Святого Тела Его и Пречистой Крови Его. Поэтому блаженна Ты в родах родов, Богоблаженная, светлейшая Херувимов и честнейшая Серафимов. И ныне, всепетая Пресвятая Богородица, не переставай молиться о нас, недостойных рабах Твоих, чтобы нам избавиться от всякого лукавого совета и от всякой беды и сохраниться невредимыми от всякого ядовитого нападения диавольского; но до конца молитвами Твоими соблюди нас неосужденными, чтобы, спасаемые Твоим заступлением и помощью, мы за всё возсылали славу, хвалу, благодарение и поклонение единому в Троице Богу и Создателю всех, ныне и присно и во веки веков. Аминь.",
+  "para": "Прими, Всеблагомощная, Пречистая Госпожа Владычица Богородительница, эти честные дары, Тебе единой приносимые от нас, недостойных рабов Твоих, избранная из всех родов, явившаяся превыше всех тварей небесных и земных. Ибо через Тебя был с нами Господь сил, и через Тебя мы познали Сына Божия и сподобились Святого Тела Его и Пречистой Крови Его. Поэтому блаженна Ты в родах родов, Богоблаженная, светлейшая Херувимов и честнейшая Серафимов. И ныне, всепетая Пресвятая Богородица, не переставай молиться о нас, недостойных рабах Твоих, чтобы нам избавиться от всякого лукавого совета и от всякой беды и сохраниться невредимыми от всякого ядовитого нападения диавольского; но до конца молитвами Твоими соблюди нас неосужденными, чтобы, спасаемые Твоим заступлением и помощью, мы за всё воссылали славу, хвалу, благодарение и поклонение единому в Троице Богу и Создателю всех, ныне и присно и во веки веков. Аминь.",
+  "motivo": "Ortografia russa moderna: «воссылать» (como «воссылаем» em noite-045, oficio-129); «возс-» é grafia pré-reforma."
+ },
+ {
+  "ficheiro": "acatistos-jesus.json",
+  "id": "acj-022",
+  "campo": "pt",
+  "de": "Criador dos anjos e Senhor das potestades, abre o meu entendimento perplexo e a minha língua para o louvor do Teu nome puríssimo, como outrora abriste o ouvido e a língua do surdo-gago, que clamava assim: Jesus admirabilíssimo, assombro dos anjos; Jesus poderosíssimo, libertação dos primeiros pais. Jesus dulcíssimo, exaltação dos patriarcas; Jesus gloriosíssimo, fortaleza dos fiéis. Jesus amabilíssimo, cumprimento dos profetas; Jesus maravilhosíssimo, fortaleza dos mártires. Jesus mansíssimo, alegria dos monges; Jesus misericordiosíssimo, doçura dos presbíteros. Jesus compassivíssimo, continência dos que jejuam; Jesus suavíssimo, alegria dos justos. Jesus puríssimo, castidade dos virgens; Jesus pré-eterno, salvação dos pecadores. Jesus, Filho de Deus, tem piedade de mim.",
+  "para": "Criador dos anjos e Senhor das potestades, abre o meu entendimento perplexo e a minha língua para o louvor do Teu nome puríssimo, como outrora abriste o ouvido e a língua do surdo-gago, que clamava assim: Jesus admirabilíssimo, assombro dos anjos; Jesus poderosíssimo, libertação dos primeiros pais. Jesus dulcíssimo, exaltação dos patriarcas; Jesus gloriosíssimo, fortaleza dos fiéis. Jesus amabilíssimo, cumprimento dos profetas; Jesus maravilhosíssimo, fortaleza dos mártires. Jesus mansíssimo, alegria dos monges; Jesus misericordiosíssimo, doçura dos presbíteros. Jesus compassivíssimo, continência dos que jejuam; Jesus suavíssimo, alegria dos justos. Jesus venerabilíssimo, castidade dos virgens; Jesus pré-eterno, salvação dos pecadores. Jesus, Filho de Deus, tem piedade de mim.",
+  "motivo": "Sentido: «пречестны́й» = «honradíssimo, venerabilíssimo» (EN «most honourable», RU «пречестный»), não «puríssimo» (= пречи́стый)."
+ },
+ {
+  "ficheiro": "acatistos-jesus.json",
+  "id": "acj-071",
+  "campo": "pt",
+  "de": "Criador dos anjos e Senhor das potestades, abre o meu entendimento perplexo e a minha língua para o louvor do Teu nome puríssimo, como outrora abriste o ouvido e a língua do surdo-gago, que clamava assim: Jesus admirabilíssimo, assombro dos anjos; Jesus poderosíssimo, libertação dos primeiros pais. Jesus dulcíssimo, exaltação dos patriarcas; Jesus gloriosíssimo, fortaleza dos fiéis. Jesus amabilíssimo, cumprimento dos profetas; Jesus maravilhosíssimo, fortaleza dos mártires. Jesus mansíssimo, alegria dos monges; Jesus misericordiosíssimo, doçura dos presbíteros. Jesus compassivíssimo, continência dos que jejuam; Jesus suavíssimo, alegria dos justos. Jesus puríssimo, castidade dos virgens; Jesus pré-eterno, salvação dos pecadores. Jesus, Filho de Deus, tem piedade de mim.",
+  "para": "Criador dos anjos e Senhor das potestades, abre o meu entendimento perplexo e a minha língua para o louvor do Teu nome puríssimo, como outrora abriste o ouvido e a língua do surdo-gago, que clamava assim: Jesus admirabilíssimo, assombro dos anjos; Jesus poderosíssimo, libertação dos primeiros pais. Jesus dulcíssimo, exaltação dos patriarcas; Jesus gloriosíssimo, fortaleza dos fiéis. Jesus amabilíssimo, cumprimento dos profetas; Jesus maravilhosíssimo, fortaleza dos mártires. Jesus mansíssimo, alegria dos monges; Jesus misericordiosíssimo, doçura dos presbíteros. Jesus compassivíssimo, continência dos que jejuam; Jesus suavíssimo, alegria dos justos. Jesus venerabilíssimo, castidade dos virgens; Jesus pré-eterno, salvação dos pecadores. Jesus, Filho de Deus, tem piedade de mim.",
+  "motivo": "Sentido: «пречестны́й» = «honradíssimo, venerabilíssimo» (EN «most honourable», RU «пречестный»), não «puríssimo» (= пречи́стый). [mesmo texto que acj-022]"
+ },
+ {
+  "ficheiro": "acatistos-jesus.json",
+  "id": "acj-044",
+  "campo": "pt",
+  "de": "Querendo revelar o mistério escondido desde os séculos, foste levado como ovelha ao matadouro, ó Jesus, e como cordeiro mudo diante do que o tosquia; e como Deus ressuscitaste dos mortos e com glória subiste aos céus, e connosco elevaste os que clamam: Aleluia.",
+  "para": "Querendo revelar o mistério escondido desde os séculos, foste levado como ovelha ao matadouro, ó Jesus, e como cordeiro mudo diante do que o tosquia; e como Deus ressuscitaste dos mortos e com glória subiste aos céus, e elevaste-nos contigo, a nós que clamamos: Aleluia.",
+  "motivo": "Sentido: «насъ совоздви́глъ еси́, зову́щихъ» = «elevaste-nos contigo (a nós), que clamamos» (Ef 2,6; RU «нас совоздвиг», EN «didst raise us up with Thee»); «connosco elevaste os que clamam» muda o sujeito."
+ },
+ {
+  "ficheiro": "acatistos-jesus.json",
+  "id": "acj-042",
+  "campo": "uk",
+  "de": "Засяяло у всесвіті просвітлення істини Твоєї, і прогнана бісівська омана; бо ідоли, Спасе наш, не стерпівши сили Твоєї, впали. Ми ж, спасіння одержавши, взиваємо до Тебе: Іісусе, істино, що проганяєш оману; Іісусе, світло, вище за всі сяйва. Іісусе, Царю, що перевершуєш усяку силу; Іісусе, Боже, що перебуваєш у милості. Іісусе, Хлібе Животворчий, насити мене, голодного; Іісусе, джерело розуму, напій мене, спраглого. Іісусе, одежо веселощів, зодягни мене, тлінного; Іісусе, покрове радості, покрий мене, недостойного. Іісусе, що даєш тим, хто просить, дай мені плач за гріхи мої; Іісусе, знахідко тих, хто шукає, знайди душу мою. Іісусе, що відчиняєш тим, хто стукає, відкрий серце моє окаянне; Іісусе, Викупителю грішних, очисти беззаконня мої. Іісусе, Сину Божий, помилуй мене.",
+  "para": "Засяяло у всесвіті просвітлення істини Твоєї, і прогнана бісівська омана; бо ідоли, Спасе наш, не стерпівши сили Твоєї, впали. Ми ж, спасіння одержавши, взиваємо до Тебе: Іісусе, істино, що проганяєш оману; Іісусе, світло, вище за всі сяйва. Іісусе, Царю, що перевершуєш усяку силу; Іісусе, Боже, що перебуваєш у милості. Іісусе, Хлібе життя, насити мене, голодного; Іісусе, джерело розуму, напій мене, спраглого. Іісусе, одежо веселощів, зодягни мене, тлінного; Іісусе, покрове радості, покрий мене, недостойного. Іісусе, що даєш тим, хто просить, дай мені плач за гріхи мої; Іісусе, знахідко тих, хто шукає, знайди душу мою. Іісусе, що відчиняєш тим, хто стукає, відкрий серце моє окаянне; Іісусе, Викупителю грішних, очисти беззаконня мої. Іісусе, Сину Божий, помилуй мене.",
+  "motivo": "Sentido: «Хлѣ́бе Живо́тный» = «pão da vida» (Jo 6,35; PT «pão da vida», RU «хлеб жизни»); «Животворчий» = «vivificante»."
+ },
+ {
+  "ficheiro": "acatistos-jesus.json",
+  "id": "acj-036",
+  "campo": "uk",
+  "de": "Як Ти колись викупив нас Боготочною Кров'ю від клятви закону, Іісусе, так вирви нас і з сітей, якими змій сплутав нас пристрастями тілесними, і блудними навіюваннями, і лихим унинням, нас, що взиваємо до Тебе: Алилуя.",
+  "para": "Як Ти колись викупив нас Боготочною Кров'ю від клятви закону, Іісусе, так вирви нас і з сітей, якими змій сплутав нас пристрастями тілесними, і блудними навіюваннями, і лихою зневірою, нас, що взиваємо до Тебе: Алилуя.",
+  "motivo": "Coerência terminológica: «уны́ніе» é «зневіра» em todos os outros blocos UK (manha-46/52, noite-041/043, acj-054, acj-064)."
+ },
+ {
+  "ficheiro": "acatistos-jesus.json",
+  "id": "acj-062",
+  "campo": "ru",
+  "de": "Светоподательного Светильника для сущих во тьме неведения — Тебя, прежде гнавший Тебя Павел услышал в силе богопросвещающего гласа и прояснил быстроту души; так и мои темные очи душевные просвети, взывающего: Иисусе, Царь мой прекрепкий; Иисусе, Боже мой пресильный. Иисусе, Господи мой пребессмертный; Иисусе, Создатель мой преславный. Иисусе, Наставник мой преблагий; Иисусе, Пастырь мой прещедрый. Иисусе, Владыко мой премилостивый; Иисусе, Спасе мой премилосердый. Иисусе, просвети мои чувства, помраченные страстями; Иисусе, исцели мое тело, покрытое струпьями грехов. Иисусе, очисти мой ум от помыслов суетных; Иисусе, сохрани мое сердце от похотей лукавых. Иисусе, Сыне Божий, помилуй меня.",
+  "para": "Светоподательного Светильника для сущих во тьме неведения — Тебя, прежде гнавший Тебя Павел услышал в силе богопросвещающего гласа и прояснил быстроту души; так и мне, взывающему, темные очи душевные просвети: Иисусе, Царь мой прекрепкий; Иисусе, Боже мой пресильный. Иисусе, Господи мой пребессмертный; Иисусе, Создатель мой преславный. Иисусе, Наставник мой преблагий; Иисусе, Пастырь мой прещедрый. Иисусе, Владыко мой премилостивый; Иисусе, Спасе мой премилосердый. Иисусе, просвети мои чувства, помраченные страстями; Иисусе, исцели мое тело, покрытое струпьями грехов. Иисусе, очисти мой ум от помыслов суетных; Иисусе, сохрани мое сердце от похотей лукавых. Иисусе, Сыне Божий, помилуй меня.",
+  "motivo": "Gramática: «взывающего» fica sem antecedente («мои … очи … взывающего»); cu «мене́ … просвѣти́, зову́ща» = «a mim, que clamo». UK já tem «мене, що взиваю»."
+ },
+ {
+  "ficheiro": "acatistos-nicolau.json",
+  "id": "acn-036",
+  "campo": "pt",
+  "de": "Mostraste-te estrela que corre segundo Deus, guiando os que navegavam cruelmente pelo mar, a quem a morte por vezes estava iminente, se não tivesses acudido aos que te chamavam em seu auxílio, ó santo Taumaturgo Nicolau; pois, tendo repreendido os demónios que voavam desavergonhadamente e queriam afundar os navios, expulsaste-os, e ensinaste os fiéis a clamar ao Deus que por ti os salva: Aleluia.",
+  "para": "Mostraste-te estrela que corre segundo Deus, guiando os que navegavam em grande perigo pelo mar, a quem a morte por vezes estava iminente, se não tivesses acudido aos que te chamavam em seu auxílio, ó santo Taumaturgo Nicolau; pois, tendo repreendido os demónios que voavam desavergonhadamente e queriam afundar os navios, expulsaste-os, e ensinaste os fiéis a clamar ao Deus que por ti os salva: Aleluia.",
+  "motivo": "Sentido: «пла́вающихъ лю́тѣ» = «que navegavam em aflição/perigo» (EN «sailed in peril», RU «в бурю», UK «тяжко»); «cruelmente» atribui crueldade aos navegantes."
+ },
+ {
+  "ficheiro": "acatistos-theotokos.json",
+  "id": "act-036",
+  "campo": "pt",
+  "de": "Tendo visto a estrela que corre para Deus, os Magos seguiram o seu fulgor e, tendo-a como lâmpada, por ela procuraram o Rei poderoso; e, tendo alcançado o Inalcançável, alegraram-se, clamando-Lhe: Aleluia.",
+  "para": "Tendo visto a estrela que corre segundo Deus, os Magos seguiram o seu fulgor e, tendo-a como lâmpada, por ela procuraram o Rei poderoso; e, tendo alcançado o Inalcançável, alegraram-se, clamando-Lhe: Aleluia.",
+  "motivo": "Coerência e sentido: «Боготе́чную» (θεόδρομον) é traduzido «que corre segundo Deus» em acn-036 e na nota deste bloco («que corre segundo Deus / conduzida por Deus»); EN «God-directed» nos dois."
+ },
+ {
+  "ficheiro": "acatistos-nicolau.json",
+  "id": "acn-075",
+  "campo": "pt",
+  "de": "Ó pastor bom, mestre e guia nosso, santo hierarca pai Nicolau! Tendo vivido na terra como um anjo, tu, como anjo bom, te manifestaste também na tua admirável glorificação. Cremos de toda a alma e de todo o pensamento que tu, nosso auxílio e intercessor compassivo, pelas tuas intercessões verdadeiras e pela graça abundantemente dada a ti pelo Senhor nosso Salvador, ajudas sempre a nossa salvação. Recebe, pois, ó servo de Cristo que bendizemos, também nesta hora as nossas indignas súplicas: livra-nos, pela tua proteção, da vã palavra e da vã sabedoria que nos rodeiam, da heterodoxia e da má-fé dos homens; roga Àquele que dá a paz a todos que conceda a paz às Igrejas, reunindo num só o que está disperso, e que guarde o Estado russo em paz e tranquilidade; roga à misericórdia do Senhor que nos salve dos nossos pecados pelos caminhos que Ele conhece; roga à Sua bondade que nos dê misericordiosamente, a nós e a todo o mundo, o que é necessário, para que sempre glorifiquemos, louvemos, cantemos e engrandeçamos o nome venerabilíssimo e magnífico do Pai e do Filho e do Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+  "para": "Ó pastor bom, mestre e guia nosso, santo hierarca pai Nicolau! Tendo vivido na terra como um anjo, tu, como anjo bom, te manifestaste também na tua admirável glorificação. Cremos de toda a alma e de todo o pensamento que tu, nosso auxílio e intercessor compassivo, pelas tuas intercessões verdadeiras e pela graça abundantemente dada a ti pelo Senhor nosso Salvador, ajudas sempre a nossa salvação. Recebe, pois, ó servo de Cristo que bendizemos, também nesta hora as nossas indignas súplicas: livra-nos, pela tua proteção, da vã palavra e da vã sabedoria que nos rodeiam, da heterodoxia e da falsa crença dos homens; roga Àquele que dá a paz a todos que conceda a paz às Igrejas, reunindo num só o que está disperso, e que guarde o Estado russo em paz e tranquilidade; roga à misericórdia do Senhor que nos salve dos nossos pecados pelos caminhos que Ele conhece; roga à Sua bondade que nos dê misericordiosamente, a nós e a todo o mundo, o que é necessário, para que sempre glorifiquemos, louvemos, cantemos e engrandeçamos o nome venerabilíssimo e magnífico do Pai e do Filho e do Espírito Santo, agora e sempre e pelos séculos dos séculos. Ámen.",
+  "motivo": "Sentido: «зловѣ́рія» = «crença errada/má crença» (EN «false belief»); «má-fé» em português significa desonestidade."
+ },
+ {
+  "ficheiro": "acatistos-nicolau.json",
+  "id": "acn-068",
+  "campo": "uk",
+  "de": "О пресвятий і предивний отче Миколаю, утіхо всіх скорботних, прийми нинішнє наше приношення і умоли Господа, щоб ми визволилися від геєни богоприємним твоїм заступництвом, і разом з тобою співали: Алилуя.",
+  "para": "О пресвятий і предивний отче Миколаю, утіхо всіх скорботних, прийми нинішнє наше приношення і умоли Господа, щоб ми визволилися від геєни богоугодним твоїм заступництвом, і разом з тобою співали: Алилуя.",
+  "motivo": "Sentido: «богопрія́тнымъ» = «agradável a Deus» (RU «богоугодным», EN «God-pleasing», PT «agradável a Deus»); «богоприємний» sugere «que recebe Deus»."
+ },
+ {
+  "ficheiro": "acatistos-nicolau.json",
+  "id": "acn-022",
+  "campo": "pt",
+  "de": "O Criador de toda a criação mostrou-te anjo na forma, embora fosses terreno por natureza; pois, prevendo a fecunda beleza da tua alma, ó bem-aventurado Nicolau, ensinou todos a clamar-te assim: Alegra-te, purificado desde o seio materno; alegra-te, santificado até ao fim. Alegra-te, que com o teu nascimento maravilhaste os teus pais; alegra-te, que logo depois de nascer mostraste a força da alma. Alegra-te, jardim da terra prometida; alegra-te, flor da plantação divina. Alegra-te, videira virtuosa da vinha de Cristo; alegra-te, árvore taumaturga do paraíso de Jesus. Alegra-te, lírio de rebento celeste; alegra-te, mirra da fragrância de Cristo. Alegra-te, porque por ti é afugentado o pranto; alegra-te, porque por ti é trazida a alegria. Alegra-te, Nicolau, grande Taumaturgo!",
+  "para": "O Criador de toda a criação mostrou-te anjo na forma, embora fosses terreno por natureza; pois, prevendo a fecunda beleza da tua alma, ó bem-aventurado Nicolau, ensinou todos a clamar-te assim: Alegra-te, purificado desde o seio materno; alegra-te, santificado até ao fim. Alegra-te, que com o teu nascimento maravilhaste os teus pais; alegra-te, que logo depois de nascer mostraste a força da alma. Alegra-te, jardim da terra prometida; alegra-te, flor da plantação divina. Alegra-te, videira virtuosa da vinha de Cristo; alegra-te, árvore taumaturga do paraíso de Jesus. Alegra-te, lírio de rebento do paraíso; alegra-te, mirra da fragrância de Cristo. Alegra-te, porque por ti é afugentado o pranto; alegra-te, porque por ti é trazida a alegria. Alegra-te, Nicolau, grande Taumaturgo!",
+  "motivo": "Fidelidade: «кри́не ра́йскаго прозябе́нія» = «do paraíso» (RU/UK «райского/райського»); «celeste» = небе́сный."
+ },
+ {
+  "ficheiro": "acatistos-nicolau.json",
+  "id": "acn-071",
+  "campo": "pt",
+  "de": "O Criador de toda a criação mostrou-te anjo na forma, embora fosses terreno por natureza; pois, prevendo a fecunda beleza da tua alma, ó bem-aventurado Nicolau, ensinou todos a clamar-te assim: Alegra-te, purificado desde o seio materno; alegra-te, santificado até ao fim. Alegra-te, que com o teu nascimento maravilhaste os teus pais; alegra-te, que logo depois de nascer mostraste a força da alma. Alegra-te, jardim da terra prometida; alegra-te, flor da plantação divina. Alegra-te, videira virtuosa da vinha de Cristo; alegra-te, árvore taumaturga do paraíso de Jesus. Alegra-te, lírio de rebento celeste; alegra-te, mirra da fragrância de Cristo. Alegra-te, porque por ti é afugentado o pranto; alegra-te, porque por ti é trazida a alegria. Alegra-te, Nicolau, grande Taumaturgo!",
+  "para": "O Criador de toda a criação mostrou-te anjo na forma, embora fosses terreno por natureza; pois, prevendo a fecunda beleza da tua alma, ó bem-aventurado Nicolau, ensinou todos a clamar-te assim: Alegra-te, purificado desde o seio materno; alegra-te, santificado até ao fim. Alegra-te, que com o teu nascimento maravilhaste os teus pais; alegra-te, que logo depois de nascer mostraste a força da alma. Alegra-te, jardim da terra prometida; alegra-te, flor da plantação divina. Alegra-te, videira virtuosa da vinha de Cristo; alegra-te, árvore taumaturga do paraíso de Jesus. Alegra-te, lírio de rebento do paraíso; alegra-te, mirra da fragrância de Cristo. Alegra-te, porque por ti é afugentado o pranto; alegra-te, porque por ti é trazida a alegria. Alegra-te, Nicolau, grande Taumaturgo!",
+  "motivo": "Fidelidade: «кри́не ра́йскаго прозябе́нія» = «do paraíso» (RU/UK «райского/райського»); «celeste» = небе́сный. [mesmo texto que acn-022]"
+ },
+ {
+  "ficheiro": "acatistos-nicolau.json",
+  "id": "acn-022",
+  "campo": "en",
+  "de": "The Creator of all creation showed thee forth as an Angel in form, though thou wast earthly by nature; for foreseeing the fruitful beauty of thy soul, O most blessed Nicholas, He taught all to cry unto thee thus: Rejoice, thou who wast purified from thy mother's womb; rejoice, thou who wast sanctified even unto the end. Rejoice, thou who by thy birth didst astonish thy parents; rejoice, thou who straightway after thy birth didst show forth the strength of thy soul. Rejoice, garden of the land of promise; rejoice, flower of divine planting. Rejoice, virtuous vine of Christ's vineyard; rejoice, wonder-working tree of the paradise of Jesus. Rejoice, lily of heavenly growth; rejoice, myrrh of the fragrance of Christ. Rejoice, for through thee lamentation is driven away; rejoice, for through thee joy is brought. Rejoice, O Nicholas, great Wonderworker!",
+  "para": "The Creator of all creation showed thee forth as an Angel in form, though thou wast earthly by nature; for foreseeing the fruitful beauty of thy soul, O most blessed Nicholas, He taught all to cry unto thee thus: Rejoice, thou who wast purified from thy mother's womb; rejoice, thou who wast sanctified even unto the end. Rejoice, thou who by thy birth didst astonish thy parents; rejoice, thou who straightway after thy birth didst show forth the strength of thy soul. Rejoice, garden of the land of promise; rejoice, flower of divine planting. Rejoice, virtuous vine of Christ's vineyard; rejoice, wonder-working tree of the paradise of Jesus. Rejoice, lily of the growth of paradise; rejoice, myrrh of the fragrance of Christ. Rejoice, for through thee lamentation is driven away; rejoice, for through thee joy is brought. Rejoice, O Nicholas, great Wonderworker!",
+  "motivo": "Fidelidade: «ра́йскаго» = «of paradise», não «heavenly»."
+ },
+ {
+  "ficheiro": "acatistos-nicolau.json",
+  "id": "acn-071",
+  "campo": "en",
+  "de": "The Creator of all creation showed thee forth as an Angel in form, though thou wast earthly by nature; for foreseeing the fruitful beauty of thy soul, O most blessed Nicholas, He taught all to cry unto thee thus: Rejoice, thou who wast purified from thy mother's womb; rejoice, thou who wast sanctified even unto the end. Rejoice, thou who by thy birth didst astonish thy parents; rejoice, thou who straightway after thy birth didst show forth the strength of thy soul. Rejoice, garden of the land of promise; rejoice, flower of divine planting. Rejoice, virtuous vine of Christ's vineyard; rejoice, wonder-working tree of the paradise of Jesus. Rejoice, lily of heavenly growth; rejoice, myrrh of the fragrance of Christ. Rejoice, for through thee lamentation is driven away; rejoice, for through thee joy is brought. Rejoice, O Nicholas, great Wonderworker!",
+  "para": "The Creator of all creation showed thee forth as an Angel in form, though thou wast earthly by nature; for foreseeing the fruitful beauty of thy soul, O most blessed Nicholas, He taught all to cry unto thee thus: Rejoice, thou who wast purified from thy mother's womb; rejoice, thou who wast sanctified even unto the end. Rejoice, thou who by thy birth didst astonish thy parents; rejoice, thou who straightway after thy birth didst show forth the strength of thy soul. Rejoice, garden of the land of promise; rejoice, flower of divine planting. Rejoice, virtuous vine of Christ's vineyard; rejoice, wonder-working tree of the paradise of Jesus. Rejoice, lily of the growth of paradise; rejoice, myrrh of the fragrance of Christ. Rejoice, for through thee lamentation is driven away; rejoice, for through thee joy is brought. Rejoice, O Nicholas, great Wonderworker!",
+  "motivo": "Fidelidade: «ра́йскаго» = «of paradise», não «heavenly». [mesmo texto que acn-022]"
+ },
+ {
+  "ficheiro": "defuntos-canone.json",
+  "id": "defuntos-canone-07",
+  "campo": "uk",
+  "de": "У пасхальний період (до навечір’я Вознесіння) цей чин читають із пасхальними змінами (тут їх внесено автоматично): на початку і в кінці тричі «Христос воскрес», а замість «Достойно є» співається «Ангел вопіяше». У парафіях практика різна (дехто додає й інші пасхальні піснеспіви); див. «Поминання спочилих у пасхальні дні».",
+  "para": "У пасхальний період (до навечір’я Вознесіння) цей чин читають із пасхальними змінами (тут їх внесено автоматично): на початку і в кінці тричі «Христос воскрес», а замість «Достойно є» співається «Ангел взивав». У парафіях практика різна (дехто додає й інші пасхальні піснеспіви); див. «Поминання спочилих у пасхальні дні».",
+  "motivo": "Coerência: o bloco citado (cópia de manha-83) começa em UK por «Ангел взивав Благодатній», e as rubricas dos acatistos (act/acj/acn-004) citam «Ангел взивав»."
+ },
+ {
+  "ficheiro": "defuntos-litia.json",
+  "id": "defuntos-litia-07",
+  "campo": "uk",
+  "de": "У пасхальний період (до навечір’я Вознесіння) цей чин читають із пасхальними змінами (тут їх внесено автоматично): на початку і в кінці тричі «Христос воскрес», а замість «Достойно є» співається «Ангел вопіяше». У парафіях практика різна (дехто додає й інші пасхальні піснеспіви); див. «Поминання спочилих у пасхальні дні».",
+  "para": "У пасхальний період (до навечір’я Вознесіння) цей чин читають із пасхальними змінами (тут їх внесено автоматично): на початку і в кінці тричі «Христос воскрес», а замість «Достойно є» співається «Ангел взивав». У парафіях практика різна (дехто додає й інші пасхальні піснеспіви); див. «Поминання спочилих у пасхальні дні».",
+  "motivo": "Coerência: o bloco citado (cópia de manha-83) começa em UK por «Ангел взивав Благодатній», e as rubricas dos acatistos (act/acj/acn-004) citam «Ангел взивав»."
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-07",
+  "campo": "uk",
+  "de": "У пасхальний період (до навечір’я Вознесіння) цей чин читають із пасхальними змінами (тут їх внесено автоматично): на початку і в кінці тричі «Христос воскрес», а замість «Достойно є» співається «Ангел вопіяше». У парафіях практика різна (дехто додає й інші пасхальні піснеспіви); див. «Поминання спочилих у пасхальні дні».",
+  "para": "У пасхальний період (до навечір’я Вознесіння) цей чин читають із пасхальними змінами (тут їх внесено автоматично): на початку і в кінці тричі «Христос воскрес», а замість «Достойно є» співається «Ангел взивав». У парафіях практика різна (дехто додає й інші пасхальні піснеспіви); див. «Поминання спочилих у пасхальні дні».",
+  "motivo": "Coerência: o bloco citado (cópia de manha-83) começa em UK por «Ангел взивав Благодатній», e as rubricas dos acatistos (act/acj/acn-004) citam «Ангел взивав»."
+ },
+ {
+  "ficheiro": "defuntos-pascoa.json",
+  "id": "defuntos-pascoa-04",
+  "campo": "uk",
+  "de": "У панахиді, літії і каноні за спочилого ця програма автоматично застосовує пасхальні зміни за правилами келійної молитви: від Томиної неділі до кануну Вознесіння — «Христос воскрес» тричі на початку і в кінці та «Ангел вопіяше» замість «Достойно є»; від Вознесіння до П’ятидесятниці «Слава Тобі, Боже наш» і «Царю Небесний» опускаються.",
+  "para": "У панахиді, літії і каноні за спочилого ця програма автоматично застосовує пасхальні зміни за правилами келійної молитви: від Томиної неділі до кануну Вознесіння — «Христос воскрес» тричі на початку і в кінці та «Ангел взивав» замість «Достойно є»; від Вознесіння до П’ятидесятниці «Слава Тобі, Боже наш» і «Царю Небесний» опускаються.",
+  "motivo": "Coerência: o bloco citado (cópia de manha-83) começa em UK por «Ангел взивав Благодатній», e as rubricas dos acatistos (act/acj/acn-004) citam «Ангел взивав»."
+ },
+ {
+  "ficheiro": "defuntos-canone.json",
+  "id": "defuntos-canone-02",
+  "campo": "pt",
+  "de": "Cânone pelo defunto, do ofício «depois da saída da alma do corpo» da Псалтирь следованная. Pode ler-se só, como aqui (com o início habitual, o salmo 90 e o fecho do ofício), ou dentro da panikhida. Lê-se sobretudo nos primeiros dias depois da morte e nas comemorações.",
+  "para": "Cânone pelo defunto, do ofício «depois da saída da alma do corpo» do Saltério com Seguimento («Следованная Псалтирь»). Pode ler-se só, como aqui (com o início habitual, o salmo 90 e o fecho do ofício), ou dentro da panikhida. Lê-se sobretudo nos primeiros dias depois da morte e nas comemorações.",
+  "motivo": "PT: o nome do livro aparece só em cirílico no texto visível ao leitor; EN já traduz («Sequential Psalter»). Traduzir como em docs/conhecimento («Saltério com Seguimento») e manter o título eslavo entre aspas."
+ },
+ {
+  "ficheiro": "defuntos-canone.json",
+  "id": "defuntos-canone-50",
+  "campo": "uk",
+  "de": "Зійшовши в пекельні глибини, Христе, Ти воскресив з Собою всіх померлих; і преставленого від нас упокой, Спасе, як Щедрий.",
+  "para": "Зійшовши в підземні глибини, Христе, Ти воскресив з Собою всіх померлих; і преставленого від нас упокой, Спасе, як Щедрий.",
+  "motivo": "Terminologia (dec. 71, «ад» ≠ геєна): «преиспо́дняя» é a morada dos mortos; «пекельні» evoca o inferno-castigo. Nos outros blocos UK: «підземне», «найглибші» (cp016, cp047, acj-034)."
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-80",
+  "campo": "uk",
+  "de": "Зійшовши в пекельні глибини, Христе, Ти воскресив з Собою всіх померлих; і преставленого від нас упокой, Спасе, як Щедрий.",
+  "para": "Зійшовши в підземні глибини, Христе, Ти воскресив з Собою всіх померлих; і преставленого від нас упокой, Спасе, як Щедрий.",
+  "motivo": "Terminologia (dec. 71, «ад» ≠ геєна): «преиспо́дняя» é a morada dos mortos; «пекельні» evoca o inferno-castigo. Nos outros blocos UK: «підземне», «найглибші» (cp016, cp047, acj-034). [mesmo texto que defuntos-canone-50]"
+ },
+ {
+  "ficheiro": "acatistos-jesus.json",
+  "id": "acj-034",
+  "campo": "pt",
+  "de": "Ouvindo o cego que passavas, Senhor, pelo caminho, clamava: Jesus, Filho de David, tem piedade de mim! E, chamando-o, abriste-lhe os olhos. Ilumina, pois, com a Tua misericórdia os olhos espirituais do coração também de mim, que Te clamo e digo: Jesus, Criador dos que estão no alto; Jesus, Redentor dos que estão em baixo. Jesus, destruidor dos poderes infernais; Jesus, adornador de toda a criação. Jesus, consolador da minha alma; Jesus, iluminador do meu entendimento. Jesus, alegria do meu coração; Jesus, saúde do meu corpo. Jesus, meu Salvador, salva-me; Jesus, minha luz, ilumina-me. Jesus, livra-me de todo o tormento; Jesus, salva-me, a mim, indigno. Jesus, Filho de Deus, tem piedade de mim.",
+  "para": "Ouvindo o cego que passavas, Senhor, pelo caminho, clamava: Jesus, Filho de David, tem piedade de mim! E, chamando-o, abriste-lhe os olhos. Ilumina, pois, com a Tua misericórdia os olhos espirituais do coração também de mim, que Te clamo e digo: Jesus, Criador dos que estão no alto; Jesus, Redentor dos que estão em baixo. Jesus, destruidor dos poderes das profundezas; Jesus, adornador de toda a criação. Jesus, consolador da minha alma; Jesus, iluminador do meu entendimento. Jesus, alegria do meu coração; Jesus, saúde do meu corpo. Jesus, meu Salvador, salva-me; Jesus, minha luz, ilumina-me. Jesus, livra-me de todo o tormento; Jesus, salva-me, a mim, indigno. Jesus, Filho de Deus, tem piedade de mim.",
+  "motivo": "Terminologia (dec. 71): «преиспо́днихъ» = os das profundezas/regiões inferiores (EN «nether world», UK «підземних»); «infernais» remete para o inferno-castigo. Noutros blocos PT «преисподняя» = «profundezas»."
+ },
+ {
+  "ficheiro": "defuntos-canone.json",
+  "id": "defuntos-canone-54",
+  "campo": "ru",
+  "de": "И ныне, и всегда, и во веки веков. Аминь. Ты родила, Пречистая, без мужского семени совершенного Бога и совершенного Человека, взявшего грехи наши, Дева; Его моли, Госпожа, подать покой преставившемуся рабу Твоему.",
+  "para": "И ныне, и всегда, и во веки веков. Аминь. Ты родила, Пречистая, без мужского семени совершенного Бога и совершенного Человека, берущего грехи наши, Дева; Его моли, Госпожа, подать покой преставившемуся рабу Твоему.",
+  "motivo": "Fidelidade (tempo verbal): «взе́млющаго» é presente («que tira», Jo 1,29); PT «que tira», UK «Який бере», EN «who taketh away»."
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-84",
+  "campo": "ru",
+  "de": "И ныне, и всегда, и во веки веков. Аминь. Ты родила, Пречистая, без мужского семени совершенного Бога и совершенного Человека, взявшего грехи наши, Дева; Его моли, Госпожа, подать покой преставившемуся рабу Твоему.",
+  "para": "И ныне, и всегда, и во веки веков. Аминь. Ты родила, Пречистая, без мужского семени совершенного Бога и совершенного Человека, берущего грехи наши, Дева; Его моли, Госпожа, подать покой преставившемуся рабу Твоему.",
+  "motivo": "Fidelidade (tempo verbal): «взе́млющаго» é presente («que tira», Jo 1,29); PT «que tira», UK «Який бере», EN «who taketh away». [mesmo texto que defuntos-canone-54]"
+ },
+ {
+  "ficheiro": "defuntos-canone.json",
+  "id": "defuntos-canone-94",
+  "campo": "en",
+  "de": "There is none among men, O Merciful One, who hath not sinned, save Thee alone, O Jesus Christ, who takest away the sins of the whole world. Wherefore, cleansing Thy servant from his transgressions, set him in the holy courts of Thy Saints: for Thou art the life and the rest, the light and the gladness of all who have been well-pleasing unto Thee.",
+  "para": "There is none among men, O Merciful One, who hath not sinned, save Thee alone, O Jesus Christ, who takest away the sins of the whole world. Wherefore, cleansing Thy servant from his transgressions, set him in Thy holy courts: for Thou art the life and the rest, the light and the gladness of all who have been well-pleasing unto Thee.",
+  "motivo": "Fidelidade: «во святы́хъ Твои́хъ дворѣ́хъ» (adjetivo antes do nome) = «nos Teus santos átrios»; a tradução junta «holy» e «Saints» (duplica). Cf. canone-92 «во дворѣ́хъ святы́хъ Твои́хъ» («courts of Thy Saints»)."
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-126",
+  "campo": "en",
+  "de": "There is none among men, O Merciful One, who hath not sinned, save Thee alone, O Jesus Christ, who takest away the sins of the whole world. Wherefore, cleansing Thy servant from his transgressions, set him in the holy courts of Thy Saints: for Thou art the life and the rest, the light and the gladness of all who have been well-pleasing unto Thee.",
+  "para": "There is none among men, O Merciful One, who hath not sinned, save Thee alone, O Jesus Christ, who takest away the sins of the whole world. Wherefore, cleansing Thy servant from his transgressions, set him in Thy holy courts: for Thou art the life and the rest, the light and the gladness of all who have been well-pleasing unto Thee.",
+  "motivo": "Fidelidade: «во святы́хъ Твои́хъ дворѣ́хъ» (adjetivo antes do nome) = «nos Teus santos átrios»; a tradução junta «holy» e «Saints» (duplica). Cf. canone-92 «во дворѣ́хъ святы́хъ Твои́хъ» («courts of Thy Saints»). [mesmo texto que defuntos-canone-94]"
+ },
+ {
+  "ficheiro": "defuntos-canone.json",
+  "id": "defuntos-canone-94",
+  "campo": "pt",
+  "de": "Não há ninguém entre os homens, ó Misericordioso, que não tenha pecado, senão Tu só, Jesus Cristo, que tiras os pecados do mundo inteiro. Por isso, purificando o Teu servo dos pecados, coloca-o nos átrios dos Teus santos, porque Tu és a vida e o repouso, a luz e a alegria de todos os que Te agradaram.",
+  "para": "Não há ninguém entre os homens, ó Misericordioso, que não tenha pecado, senão Tu só, Jesus Cristo, que tiras os pecados do mundo inteiro. Por isso, purificando o Teu servo dos pecados, coloca-o nos Teus santos átrios, porque Tu és a vida e o repouso, a luz e a alegria de todos os que Te agradaram.",
+  "motivo": "Idem EN: «во святы́хъ Твои́хъ дворѣ́хъ» = «nos Teus santos átrios» (RU/UK literais «во святых Твоих дворах»)."
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-126",
+  "campo": "pt",
+  "de": "Não há ninguém entre os homens, ó Misericordioso, que não tenha pecado, senão Tu só, Jesus Cristo, que tiras os pecados do mundo inteiro. Por isso, purificando o Teu servo dos pecados, coloca-o nos átrios dos Teus santos, porque Tu és a vida e o repouso, a luz e a alegria de todos os que Te agradaram.",
+  "para": "Não há ninguém entre os homens, ó Misericordioso, que não tenha pecado, senão Tu só, Jesus Cristo, que tiras os pecados do mundo inteiro. Por isso, purificando o Teu servo dos pecados, coloca-o nos Teus santos átrios, porque Tu és a vida e o repouso, a luz e a alegria de todos os que Te agradaram.",
+  "motivo": "Idem EN: «во святы́хъ Твои́хъ дворѣ́хъ» = «nos Teus santos átrios» (RU/UK literais «во святых Твоих дворах»). [mesmo texto que defuntos-canone-94]"
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-02",
+  "campo": "pt",
+  "de": "Forma da panikhida para ser lida por leigos, sem sacerdote. Em lugar de «Bendito é o nosso Deus», diz-se «Pelas orações dos nossos santos pais…»; as litanias, as orações secretas e as exclamações do sacerdote omitem-se e, no seu lugar, diz-se «Senhor, tem piedade», como se indica. Segue-se a ordem da panikhida (salmo 90, «Aleluia», tropários, salmo 50, cânone, Triságio, tropários «Com os espíritos dos justos», oração e «Memória eterna»), com o cânone pelo defunto da Псалтирь следованная.",
+  "para": "Forma da panikhida para ser lida por leigos, sem sacerdote. Em lugar de «Bendito é o nosso Deus», diz-se «Pelas orações dos nossos santos Padres…»; as litanias, as orações secretas e as exclamações do sacerdote omitem-se e, no seu lugar, diz-se «Senhor, tem piedade», como se indica. Segue-se a ordem da panikhida (salmo 90, «Aleluia», tropários, salmo 50, cânone, Triságio, tropários «Com os espíritos dos justos», oração e «Memória eterna»), com o cânone pelo defunto do Saltério com Seguimento («Следованная Псалтирь»).",
+  "motivo": "PT: nome do livro só em cirílico no texto visível ao leitor (EN «Sequential Psalter», RU/UK no próprio alfabeto). Igual a defuntos-canone-02. | Coerência: a citação deve reproduzir o íncipit do bloco citado (cópia de noite-019/manha-p03: «Pelas orações dos nossos santos Padres»), como em defuntos-litia-02."
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-32",
+  "campo": "pt",
+  "de": "Bendito és Tu, Senhor; ensina-me os Teus mandamentos.",
+  "para": "Bendito és Tu, Senhor; ensina-me as Tuas justificações.",
+  "motivo": "Coerência com o Saltério (esquema-oracoes: «o texto do Saltério é a referência»): Sl 118,12 em salterio-17 PT = «ensina-me as Tuas justificações» («оправда́нія» = δικαιώματα)."
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-34",
+  "campo": "pt",
+  "de": "Bendito és Tu, Senhor; ensina-me os Teus mandamentos.",
+  "para": "Bendito és Tu, Senhor; ensina-me as Tuas justificações.",
+  "motivo": "Coerência com o Saltério (esquema-oracoes: «o texto do Saltério é a referência»): Sl 118,12 em salterio-17 PT = «ensina-me as Tuas justificações» («оправда́нія» = δικαιώματα). [mesmo texto que defuntos-panikhida-32]"
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-36",
+  "campo": "pt",
+  "de": "Bendito és Tu, Senhor; ensina-me os Teus mandamentos.",
+  "para": "Bendito és Tu, Senhor; ensina-me as Tuas justificações.",
+  "motivo": "Coerência com o Saltério (esquema-oracoes: «o texto do Saltério é a referência»): Sl 118,12 em salterio-17 PT = «ensina-me as Tuas justificações» («оправда́нія» = δικαιώματα). [mesmo texto que defuntos-panikhida-32]"
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-38",
+  "campo": "pt",
+  "de": "Bendito és Tu, Senhor; ensina-me os Teus mandamentos.",
+  "para": "Bendito és Tu, Senhor; ensina-me as Tuas justificações.",
+  "motivo": "Coerência com o Saltério (esquema-oracoes: «o texto do Saltério é a referência»): Sl 118,12 em salterio-17 PT = «ensina-me as Tuas justificações» («оправда́нія» = δικαιώματα). [mesmo texto que defuntos-panikhida-32]"
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-40",
+  "campo": "pt",
+  "de": "Bendito és Tu, Senhor; ensina-me os Teus mandamentos.",
+  "para": "Bendito és Tu, Senhor; ensina-me as Tuas justificações.",
+  "motivo": "Coerência com o Saltério (esquema-oracoes: «o texto do Saltério é a referência»): Sl 118,12 em salterio-17 PT = «ensina-me as Tuas justificações» («оправда́нія» = δικαιώματα). [mesmo texto que defuntos-panikhida-32]"
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-42",
+  "campo": "pt",
+  "de": "Bendito és Tu, Senhor; ensina-me os Teus mandamentos.",
+  "para": "Bendito és Tu, Senhor; ensina-me as Tuas justificações.",
+  "motivo": "Coerência com o Saltério (esquema-oracoes: «o texto do Saltério é a referência»): Sl 118,12 em salterio-17 PT = «ensina-me as Tuas justificações» («оправда́нія» = δικαιώματα). [mesmo texto que defuntos-panikhida-32]"
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-32",
+  "campo": "uk",
+  "de": "Благословен єси, Господи, навчи мене повелінь Твоїх.",
+  "para": "Благословен єси, Господи, навчи мене оправдань Твоїх.",
+  "motivo": "Coerência com o Saltério: Sl 118,12 UK = «навчи мене оправдань Твоїх»."
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-34",
+  "campo": "uk",
+  "de": "Благословен єси, Господи, навчи мене повелінь Твоїх.",
+  "para": "Благословен єси, Господи, навчи мене оправдань Твоїх.",
+  "motivo": "Coerência com o Saltério: Sl 118,12 UK = «навчи мене оправдань Твоїх». [mesmo texto que defuntos-panikhida-32]"
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-36",
+  "campo": "uk",
+  "de": "Благословен єси, Господи, навчи мене повелінь Твоїх.",
+  "para": "Благословен єси, Господи, навчи мене оправдань Твоїх.",
+  "motivo": "Coerência com o Saltério: Sl 118,12 UK = «навчи мене оправдань Твоїх». [mesmo texto que defuntos-panikhida-32]"
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-38",
+  "campo": "uk",
+  "de": "Благословен єси, Господи, навчи мене повелінь Твоїх.",
+  "para": "Благословен єси, Господи, навчи мене оправдань Твоїх.",
+  "motivo": "Coerência com o Saltério: Sl 118,12 UK = «навчи мене оправдань Твоїх». [mesmo texto que defuntos-panikhida-32]"
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-40",
+  "campo": "uk",
+  "de": "Благословен єси, Господи, навчи мене повелінь Твоїх.",
+  "para": "Благословен єси, Господи, навчи мене оправдань Твоїх.",
+  "motivo": "Coerência com o Saltério: Sl 118,12 UK = «навчи мене оправдань Твоїх». [mesmo texto que defuntos-panikhida-32]"
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-42",
+  "campo": "uk",
+  "de": "Благословен єси, Господи, навчи мене повелінь Твоїх.",
+  "para": "Благословен єси, Господи, навчи мене оправдань Твоїх.",
+  "motivo": "Coerência com o Saltério: Sl 118,12 UK = «навчи мене оправдань Твоїх». [mesmo texto que defuntos-panikhida-32]"
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-32",
+  "campo": "en",
+  "de": "Blessed art Thou, O Lord; teach me Thy statutes.",
+  "para": "Blessed art Thou, O Lord; teach me Thine ordinances.",
+  "motivo": "Coerência com o Saltério (Brenton, Sl 118,12: «teach me Thine ordinances»); H1906 dá «statutes». Opcional se se preferir manter Hapgood neste refrão."
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-34",
+  "campo": "en",
+  "de": "Blessed art Thou, O Lord; teach me Thy statutes.",
+  "para": "Blessed art Thou, O Lord; teach me Thine ordinances.",
+  "motivo": "Coerência com o Saltério (Brenton, Sl 118,12: «teach me Thine ordinances»); H1906 dá «statutes». Opcional se se preferir manter Hapgood neste refrão. [mesmo texto que defuntos-panikhida-32]"
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-36",
+  "campo": "en",
+  "de": "Blessed art Thou, O Lord; teach me Thy statutes.",
+  "para": "Blessed art Thou, O Lord; teach me Thine ordinances.",
+  "motivo": "Coerência com o Saltério (Brenton, Sl 118,12: «teach me Thine ordinances»); H1906 dá «statutes». Opcional se se preferir manter Hapgood neste refrão. [mesmo texto que defuntos-panikhida-32]"
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-38",
+  "campo": "en",
+  "de": "Blessed art Thou, O Lord; teach me Thy statutes.",
+  "para": "Blessed art Thou, O Lord; teach me Thine ordinances.",
+  "motivo": "Coerência com o Saltério (Brenton, Sl 118,12: «teach me Thine ordinances»); H1906 dá «statutes». Opcional se se preferir manter Hapgood neste refrão. [mesmo texto que defuntos-panikhida-32]"
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-40",
+  "campo": "en",
+  "de": "Blessed art Thou, O Lord; teach me Thy statutes.",
+  "para": "Blessed art Thou, O Lord; teach me Thine ordinances.",
+  "motivo": "Coerência com o Saltério (Brenton, Sl 118,12: «teach me Thine ordinances»); H1906 dá «statutes». Opcional se se preferir manter Hapgood neste refrão. [mesmo texto que defuntos-panikhida-32]"
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-42",
+  "campo": "en",
+  "de": "Blessed art Thou, O Lord; teach me Thy statutes.",
+  "para": "Blessed art Thou, O Lord; teach me Thine ordinances.",
+  "motivo": "Coerência com o Saltério (Brenton, Sl 118,12: «teach me Thine ordinances»); H1906 dá «statutes». Opcional se se preferir manter Hapgood neste refrão. [mesmo texto que defuntos-panikhida-32]"
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-29",
+  "campo": "uk",
+  "de": "Богородичний: Тебе маємо і стіною, і пристановищем, і молитвеницею, благоприємною до Бога, Якого Ти породила, Богородице Неневісная, вірних спасіння.",
+  "para": "Богородичний: Тебе маємо і стіною, і пристановищем, і молитвеницею, благоприємною до Бога, Якого Ти породила, Богородице Неневісна, вірних спасіння.",
+  "motivo": "Forma UK moderna, como no refrão do acatisto («Невісто Неневісна»); «-ная» é forma eslava."
+ },
+ {
+  "ficheiro": "defuntos-litia.json",
+  "id": "defuntos-litia-02",
+  "campo": "en",
+  "de": "The Litiya for the departed is a short form of the Panikhida, said when the body is carried out of the house, at the grave, and generally at any commemoration. This is the form for laypeople, at home or at the cemetery: instead of «Blessed is our God» one says «Through the prayers of our holy Fathers…»; the litanies and the priest's prayer are omitted, and the dismissal is that used by laypeople.",
+  "para": "The Litiya for the departed is a short form of the Panikhida, said when the body is carried out of the house, at the grave, and generally at any commemoration. This is the form for laypeople, at home or at the cemetery: instead of «Blessed is our God» one says «Through the prayers of our holy fathers…»; the litanies and the priest's prayer are omitted, and the dismissal is that used by laypeople.",
+  "motivo": "Coerência: o bloco citado (manha-p03/noite-019) diz «our holy fathers» (minúscula), como em defuntos-panikhida-02."
+ },
+ {
+  "ficheiro": "defuntos-circunstancias.json",
+  "id": "defuntos-circunstancias-11",
+  "campo": "pt",
+  "de": "Pelo filho falecido rezam-se a Litia, a Panikhida ou o Cânone pelo defunto, dizendo o seu nome; a oração geral «Lembra-Te, Senhor nosso Deus…» (acima) pode dizer-se substituindo «o nosso irmão» por «o meu filho» / «a minha filha». Pelas crianças batizadas que morrem antes dos sete anos a Igreja tem um ofício fúnebre próprio (Требникъ, «Чинъ погребенія младенческаго»), celebrado pelo sacerdote. As edições atuais trazem uma «Oração dos pais pelos filhos falecidos», que começa «Senhor Jesus Cristo, nosso Deus, Senhor da vida e da morte, Consolador dos aflitos!…» (texto não incluído: sem edição de domínio público localizada).",
+  "para": "Pelo filho falecido rezam-se a Litia, a Panikhida ou o Cânone pelo defunto, dizendo o seu nome; a oração geral «Lembra-Te, Senhor nosso Deus…» (acima) pode dizer-se substituindo «o nosso irmão» por «o meu filho» / «a minha filha». Pelas crianças batizadas que morrem antes dos sete anos a Igreja tem um ofício fúnebre próprio (Trebnik, «Ofício do funeral das crianças»), celebrado pelo sacerdote. As edições atuais trazem uma «Oração dos pais pelos filhos falecidos», que começa «Senhor Jesus Cristo, nosso Deus, Senhor da vida e da morte, Consolador dos aflitos!…» (texto não incluído: sem edição de domínio público localizada).",
+  "motivo": "PT: referência só em cirílico pré-reforma no texto visível; EN já traduz («Book of Needs, «Order for the Burial of an Infant»»). Glossário 04 §7.4: «Trebnik»."
+ },
+ {
+  "ficheiro": "defuntos-circunstancias.json",
+  "id": "defuntos-circunstancias-18",
+  "campo": "pt",
+  "de": "Outras circunstâncias",
+  "para": "Outras orações",
+  "motivo": "Fidelidade do título: «Ины́я моли́твы» = «Outras orações» (RU «Иные молитвы», UK «Інші молитви»)."
+ },
+ {
+  "ficheiro": "defuntos-circunstancias.json",
+  "id": "defuntos-circunstancias-18",
+  "campo": "en",
+  "de": "Other Circumstances",
+  "para": "Other Prayers",
+  "motivo": "Fidelidade do título: «Ины́я моли́твы» = «Other Prayers»."
+ },
+ {
+  "ficheiro": "defuntos-circunstancias.json",
+  "id": "defuntos-circunstancias-05",
+  "campo": "pt",
+  "de": "Por qualquer defunto",
+  "para": "Oração por qualquer defunto",
+  "motivo": "Fidelidade/coerência do título: «Моли́тва за вся́каго усо́пшаго» (RU/UK «Молитва…»); os outros títulos PT da secção começam por «Oração»."
+ },
+ {
+  "ficheiro": "defuntos-circunstancias.json",
+  "id": "defuntos-circunstancias-05",
+  "campo": "en",
+  "de": "For Any Departed",
+  "para": "Prayer for Any Departed",
+  "motivo": "Idem PT («Моли́тва…»); os outros títulos EN começam por «Prayer»."
+ },
+ {
+  "ficheiro": "defuntos-circunstancias.json",
+  "id": "defuntos-circunstancias-16",
+  "campo": "pt",
+  "de": "Por quem morreu de morte súbita",
+  "para": "Oração por quem morreu de morte súbita",
+  "motivo": "Idem: «Моли́тва о сконча́вшихся…»."
+ },
+ {
+  "ficheiro": "defuntos-circunstancias.json",
+  "id": "defuntos-circunstancias-16",
+  "campo": "en",
+  "de": "For Those Who Died a Sudden Death",
+  "para": "Prayer for Those Who Died a Sudden Death",
+  "motivo": "Idem: «Моли́тва о сконча́вшихся…»."
+ },
+ {
+  "ficheiro": "defuntos-circunstancias.json",
+  "id": "defuntos-circunstancias-17",
+  "campo": "uk",
+  "de": "У сучасних виданнях є молитва «за тих, хто помер наглою смертю», що починається словами «Невідомі суди Твої, Господи! Недослідимі путі Твої!…» (текст не подається: видання в суспільному надбанні не знайдено). Читаються літія, панахида або канон за спочилого і загальна молитва «Пом’яни, Господи Боже наш…» (вище).",
+  "para": "У сучасних виданнях є молитва «за тих, хто помер наглою смертю», що починається словами «Незбагненні суди Твої, Господи! Недослідимі путі Твої!…» (текст не подається: видання в суспільному надбанні не знайдено). Читаються літія, панахида або канон за спочилого і загальна молитва «Пом’яни, Господи Боже наш…» (вище).",
+  "motivo": "Sentido: «Неисповедимы» = «insondáveis, inescrutáveis» (PT «Insondáveis», EN «Unsearchable»); «невідомі» = «desconhecidos». Cf. Rm 11,33 UK «незбагненні»."
+ },
+ {
+  "ficheiro": "defuntos-circunstancias.json",
+  "id": "defuntos-circunstancias-22",
+  "campo": "uk",
+  "de": "Знайди, Господи, загиблу душу батька мого (ім’я): якщо можливо, помилуй. Недослідимі суди Твої. Не постав мені в гріх цієї моєї молитви. Але нехай буде свята воля Твоя.",
+  "para": "Розшукай, Господи, загиблу душу батька мого (ім’я): якщо можливо, помилуй. Недослідимі суди Твої. Не постав мені в гріх цієї моєї молитви. Але нехай буде свята воля Твоя.",
+  "motivo": "Sentido: «Взыщи́» = «procura» (PT «Procura», EN «Seek out»); «знайди» = «encontra»."
+ },
+ {
+  "ficheiro": "defuntos-pascoa.json",
+  "id": "defuntos-pascoa-03",
+  "campo": "pt",
+  "de": "Prática atual da Igreja Ortodoxa Russa: na Páscoa e em toda a Semana Luminosa não se celebram panikhidas nem a comemoração pública dos defuntos (os defuntos são comemorados sempre na proscomédia). Da Quinta-feira Santa ao Domingo de Tomé não se fazem litias pelos defuntos (Typikon, cap. 49). Para partilhar com os defuntos a alegria da Ressurreição, a Igreja Russa estabeleceu a Radonitsa, na terça-feira da 2.ª semana depois da Páscoa: celebra-se a panikhida, com cânticos pascais, e visitam-se os cemitérios, onde se saúdam os defuntos com «Cristo ressuscitou» e se pode cantar o tropário e o cânone da Páscoa. Não é costume da Igreja ir ao cemitério no próprio dia de Páscoa. Até à despedida da Páscoa as panikhidas incluem cânticos pascais; o Typikon não tem um rito próprio para isso e as paróquias seguem práticas diferentes.",
+  "para": "Prática atual da Igreja Ortodoxa Russa: na Páscoa e em toda a Semana Luminosa não se celebram panikhidas nem a comemoração pública dos defuntos (os defuntos são comemorados sempre na proscomídia). Da Quinta-feira Santa ao Domingo de Tomé não se fazem litias pelos defuntos (Typikon, cap. 49). Para partilhar com os defuntos a alegria da Ressurreição, a Igreja Russa estabeleceu a Radonitsa, na terça-feira da 2.ª semana depois da Páscoa: celebra-se a panikhida, com cânticos pascais, e visitam-se os cemitérios, onde se saúdam os defuntos com «Cristo ressuscitou» e se pode cantar o tropário e o cânone da Páscoa. Não é costume da Igreja ir ao cemitério no próprio dia de Páscoa. Até à despedida da Páscoa as panikhidas incluem cânticos pascais; o Typikon não tem um rito próprio para isso e as paróquias seguem práticas diferentes.",
+  "motivo": "Glossário (doc. 04 §7.3): «Proscomídia»."
+ },
+ {
+  "ficheiro": "defuntos-pascoa.json",
+  "id": "defuntos-pascoa-02",
+  "campo": "ru",
+  "de": "Следует знать, что если кто преставится на святую Пасху или в какой-либо день Светлой седмицы, до Фомина воскресенья, то из обычного пения по усопшим поется немногое, ради величия и чести радостного праздника Воскресения, ибо это праздник веселия и радости, а не печали: воскресным пением над усопшим Церковь возвещает, что все, умирающие о воскресшем Христе в надежде воскресения и вечной жизни, Христовым воскресением переходят от печального мира сего к веселому и радостному.",
+  "para": "Следует знать, что если кто преставится на святую Пасху или в какой-либо день Светлой седмицы, до Фомина воскресенья, то из обычного пения по усопшим поется немногое, ради величия и чести радостного праздника Воскресения, ибо это праздник веселия и радости, а не печали: воскресным пением над усопшим Церковь возвещает, что все, умирающие во Христе воскресшем в надежде воскресения и вечной жизни, Христовым воскресением переходят от печального мира сего к веселому и радостному.",
+  "motivo": "RU moderno: «о Христѣ» (eslavo, «em Cristo») lê-se em russo atual como «acerca de Cristo»; PT «em Cristo», EN «in the risen Christ», UK «в воскреслому Христі»."
+ },
+ {
+  "ficheiro": "defuntos-pascoa.json",
+  "id": "defuntos-pascoa-04",
+  "campo": "pt",
+  "de": "Na Panikhida, na Litia e no Cânone pelo defunto, esta aplicação aplica as mudanças pascais automaticamente, segundo as regras das orações privadas: do Domingo de Tomé até à véspera da Ascensão, «Cristo ressuscitou» três vezes no princípio e no fim e «O Anjo clamou» em lugar de «É verdadeiramente digno»; da Ascensão ao Pentecostes omitem-se «Glória a Ti, ó nosso Deus» e «Rei Celeste».",
+  "para": "Na Panikhida, na Litia e no Cânone pelo defunto, a aplicação introduz automaticamente as mudanças pascais, segundo as regras das orações privadas: do Domingo de Tomé até à véspera da Ascensão, «Cristo ressuscitou» três vezes no princípio e no fim e «O Anjo clamou» em lugar de «É verdadeiramente digno»; da Ascensão ao Pentecostes omitem-se «Glória a Ti, ó nosso Deus» e «Rei Celeste».",
+  "motivo": "Estilo: repetição «aplicação aplica»."
+ },
+ {
+  "ficheiro": "acatistos-jesus.json",
+  "id": "acj-075",
+  "campo": "en",
+  "de": "O Master, Lord Jesus Christ my God, Who for Thine ineffable love for mankind didst at the end of the ages clothe Thyself in flesh from the Ever-virgin Mary: I, Thy servant, O Master, glorify Thy saving providence toward me; I hymn Thee, for through Thee I have known the Father; I bless Thee, for through Thee the Holy Spirit also came into the world; I bow down before Thy most pure Mother according to the flesh, who served so awesome a mystery; I praise the choirs of Thine Angels, as the singers and servants of Thy majesty; I call blessed the Forerunner John, who baptized Thee, O Lord; I honour also the Prophets who proclaimed Thee; I glorify Thy holy Apostles; I celebrate also the Martyrs, and glorify Thy Priests; I bow down before Thy venerable ones, and hymn all Thy righteous. So great, so numerous and ineffable a divine choir do I, Thy servant, bring in prayer unto Thee, the all-bountiful God; and therefore I ask forgiveness of my sins, which do Thou grant me for the sake of all Thy saints, and above all for the sake of Thy holy compassions; for blessed art Thou unto the ages. Amen.",
+  "para": "O Master, Lord Jesus Christ my God, Who for Thine ineffable love for mankind didst at the end of the ages clothe Thyself in flesh from the Ever-virgin Mary: I, Thy servant, O Master, glorify Thy saving providence toward me; I hymn Thee, for through Thee I have known the Father; I bless Thee, for through Thee the Holy Spirit also came into the world; I bow down before Thy most pure Mother according to the flesh, who served so awesome a mystery; I praise the choirs of Thine Angels, as the singers and servants of Thy majesty; I call blessed the Forerunner John, who baptised Thee, O Lord; I honour also the Prophets who proclaimed Thee; I glorify Thy holy Apostles; I celebrate also the Martyrs, and glorify Thy Priests; I bow down before Thy venerable ones, and hymn all Thy righteous. So great, so numerous and ineffable a divine choir do I, Thy servant, bring in prayer unto Thee, the all-bountiful God; and therefore I ask forgiveness of my sins, which do Thou grant me for the sake of all Thy saints, and above all for the sake of Thy holy compassions; for blessed art Thou unto the ages. Amen.",
+  "motivo": "Coerência ortográfica en-GB nos ficheiros 2d («baptised», «unbaptised» em defuntos-*-05)."
+ },
+ {
+  "ficheiro": "acatistos-theotokos.json",
+  "id": "act-022",
+  "campo": "pt",
+  "de": "Um Anjo, o primeiro entre eles, foi enviado do céu a dizer à Mãe de Deus: Alegra-Te! E, vendo-Te, Senhor, encarnar-Te à sua voz incorpórea, ficou extasiado e de pé, clamando-lhe assim: Alegra-Te, Tu por quem a alegria resplandecerá; alegra-Te, Tu por quem a maldição se extinguirá. Alegra-Te, chamamento de Adão caído; alegra-Te, libertação das lágrimas de Eva. Alegra-Te, altura inacessível aos pensamentos humanos; alegra-Te, profundidade insondável até para os olhos dos anjos. Alegra-Te, porque és o trono do Rei; alegra-Te, porque trazes Aquele que tudo sustenta. Alegra-Te, estrela que manifesta o Sol; alegra-Te, seio da divina encarnação. Alegra-Te, Tu por quem a criação se renova; alegra-Te, Tu por quem adoramos o Criador. Alegra-Te, Noiva não desposada!",
+  "para": "Um Anjo, o primeiro entre eles, foi enviado do céu a dizer à Mãe de Deus: Alegra-Te! E, vendo-Te, Senhor, encarnar-Te à sua voz incorpórea, ficou extasiado e de pé, clamando-Lhe assim: Alegra-Te, Tu por quem a alegria resplandecerá; alegra-Te, Tu por quem a maldição se extinguirá. Alegra-Te, chamamento de Adão caído; alegra-Te, libertação das lágrimas de Eva. Alegra-Te, altura inacessível aos pensamentos humanos; alegra-Te, profundidade insondável até para os olhos dos anjos. Alegra-Te, porque és o trono do Rei; alegra-Te, porque trazes Aquele que tudo sustenta. Alegra-Te, estrela que manifesta o Sol; alegra-Te, seio da divina encarnação. Alegra-Te, Tu por quem a criação se renova; alegra-Te, Tu por quem adoramos o Criador. Alegra-Te, Noiva não desposada!",
+  "motivo": "Convenção PT dos acatistos: pronomes da Mãe de Deus com maiúscula («disse-Lhe», «cantando-A», «a Sua saudação»); eslavo «къ Ней»."
+ },
+ {
+  "ficheiro": "acatistos-theotokos.json",
+  "id": "act-071",
+  "campo": "pt",
+  "de": "Um Anjo, o primeiro entre eles, foi enviado do céu a dizer à Mãe de Deus: Alegra-Te! E, vendo-Te, Senhor, encarnar-Te à sua voz incorpórea, ficou extasiado e de pé, clamando-lhe assim: Alegra-Te, Tu por quem a alegria resplandecerá; alegra-Te, Tu por quem a maldição se extinguirá. Alegra-Te, chamamento de Adão caído; alegra-Te, libertação das lágrimas de Eva. Alegra-Te, altura inacessível aos pensamentos humanos; alegra-Te, profundidade insondável até para os olhos dos anjos. Alegra-Te, porque és o trono do Rei; alegra-Te, porque trazes Aquele que tudo sustenta. Alegra-Te, estrela que manifesta o Sol; alegra-Te, seio da divina encarnação. Alegra-Te, Tu por quem a criação se renova; alegra-Te, Tu por quem adoramos o Criador. Alegra-Te, Noiva não desposada!",
+  "para": "Um Anjo, o primeiro entre eles, foi enviado do céu a dizer à Mãe de Deus: Alegra-Te! E, vendo-Te, Senhor, encarnar-Te à sua voz incorpórea, ficou extasiado e de pé, clamando-Lhe assim: Alegra-Te, Tu por quem a alegria resplandecerá; alegra-Te, Tu por quem a maldição se extinguirá. Alegra-Te, chamamento de Adão caído; alegra-Te, libertação das lágrimas de Eva. Alegra-Te, altura inacessível aos pensamentos humanos; alegra-Te, profundidade insondável até para os olhos dos anjos. Alegra-Te, porque és o trono do Rei; alegra-Te, porque trazes Aquele que tudo sustenta. Alegra-Te, estrela que manifesta o Sol; alegra-Te, seio da divina encarnação. Alegra-Te, Tu por quem a criação se renova; alegra-Te, Tu por quem adoramos o Criador. Alegra-Te, Noiva não desposada!",
+  "motivo": "Convenção PT dos acatistos: pronomes da Mãe de Deus com maiúscula («disse-Lhe», «cantando-A», «a Sua saudação»); eslavo «къ Ней». [mesmo texto que act-022]"
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-52",
+  "campo": "pt",
+  "de": "Theotokion: Ó Cristo Deus, que resplandeceste para o mundo a partir da Virgem e por ela nos fizeste filhos da luz, tem piedade de nós.",
+  "para": "Theotokion: Ó Cristo Deus, que resplandeceste para o mundo a partir da Virgem e por Ela nos fizeste filhos da luz, tem piedade de nós.",
+  "motivo": "Convenção PT: pronome da Mãe de Deus com maiúscula (eslavo «То́ю», RU «через Нее», UK «через Неї»)."
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-76",
+  "campo": "pt",
+  "de": "Theotokion: Ó Cristo Deus, que resplandeceste para o mundo a partir da Virgem e por ela nos fizeste filhos da luz, tem piedade de nós.",
+  "para": "Theotokion: Ó Cristo Deus, que resplandeceste para o mundo a partir da Virgem e por Ela nos fizeste filhos da luz, tem piedade de nós.",
+  "motivo": "Convenção PT: pronome da Mãe de Deus com maiúscula (eslavo «То́ю», RU «через Нее», UK «через Неї»). [mesmo texto que defuntos-panikhida-52]"
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-31",
+  "campo": "pt",
+  "de": "Tropários dos Imaculados (Evlogitária), tom 5",
+  "para": "Tropários depois dos «Imaculados» (Evlogitária), tom 5",
+  "motivo": "Fidelidade do título: «по непоро́чнахъ» = «depois dos Imaculados» (o Sl 118, «Bem-aventurados os imaculados…», que estes tropários seguem na parastás); «dos Imaculados» sugere que os tropários são deles."
+ },
+ {
+  "ficheiro": "defuntos-panikhida.json",
+  "id": "defuntos-panikhida-31",
+  "campo": "en",
+  "de": "Troparia for the Departed (Evlogitaria), Tone 5",
+  "para": "Troparia after the «Blameless» (Evlogitaria), Tone 5",
+  "motivo": "Fidelidade do título: «по непоро́чнахъ» = «after the Blameless» (Sl 118); «for the Departed» não está no eslavo."
+ }
+]
