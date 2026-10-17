@@ -65,6 +65,17 @@ if (fs.existsSync('data/santos/dia.json')) {
   // Ligação comemoração → ficha (data/santos/fichas-ligacoes.json: id da lista diária → id da ficha; inclui as trasladações).
   const lig = fs.existsSync('data/santos/fichas-ligacoes.json') ? JSON.parse(fs.readFileSync('data/santos/fichas-ligacoes.json', 'utf8')) : {};
   const linha = (c, l) => [c[l], GRAU[c.grau] || '', lig[c.id] || (fichas[c.id] ? c.id : 0)];
+  const festasMoveis = fs.existsSync('data/santos/festas-moveis.json') ? JSON.parse(fs.readFileSync('data/santos/festas-moveis.json', 'utf8')) : {};
+  // Grandes festas de santos (Natividade e Degolação do Precursor, Pedro e Paulo): o motor mostra a festa; a ficha liga-se
+  // pela data (fg: MM-DD → id da ficha).
+  const fg = {};
+  // Grande festa do Senhor partilhada com um santo (01.01: Circuncisão e S. Basílio): o santo entra na lista pelo nome da ficha.
+  const partilhada = {};
+  for (const [md, cs] of Object.entries(dia.fixos)) for (const c of cs) {
+    const fi = lig[c.id] || (fichas[c.id] && c.id);
+    if (c.grau !== 'grande' || !fi) continue;
+    if (doMotor(c)) partilhada[md] = fi; else fg[md] = fi;
+  }
   // Nomes dos santos com leituras próprias (data/lecionario/santos.json: id de graus.json ou «pon-<id Ponomar>»), para o
   // rótulo do grupo de leituras no ecrã Hoje.
   const lec = fs.existsSync('data/lecionario/santos.json') ? JSON.parse(fs.readFileSync('data/lecionario/santos.json', 'utf8')) : {};
@@ -72,12 +83,13 @@ if (fs.existsSync('data/santos/dia.json')) {
   for (const c of todos) { porId.set(c.id, c); if (c.ponomar_id) porId.set('pon-' + c.ponomar_id, c); }
   const idsLec = new Set(Object.entries(lec).filter(([k]) => !k.startsWith('_')).flatMap(([, v]) => v.map(x => x.id)));
   for (const l of ['pt', 'ru', 'uk', 'en']) {
-    const f = Object.fromEntries(Object.entries(dia.fixos).map(([md, cs]) => [md, cs.filter(c => !doMotor(c)).map(c => linha(c, l))]));
+    const f = Object.fromEntries(Object.entries(dia.fixos).map(([md, cs]) => [md,
+      [...(partilhada[md] ? [[fichas[partilhada[md]].nome[l], '', partilhada[md]]] : []), ...cs.filter(c => !doMotor(c)).map(c => linha(c, l))]]));
     const m = dia.moveis.filter(c => !doMotor(c)).map(c => { const { nota, ...regra } = c.regra; return [regra, ...linha(c, l)]; });
     const n = Object.fromEntries([...idsLec].filter(id => porId.has(id)).map(id => [id, porId.get(id)[l]]));
-    fs.writeFileSync(`${dirO}/santos-${l}.json`, JSON.stringify({ f, m, n }));
+    fs.writeFileSync(`${dirO}/santos-${l}.json`, JSON.stringify({ f, m, n, fg }));
     if (Object.keys(fichas).length) fs.writeFileSync(`${dirO}/fichas-${l}.json`, JSON.stringify(Object.fromEntries(Object.entries(fichas).map(([id, x]) =>
-      [id, { n: x.nome[l], ti: x.titulo[l], v: x.vida[l], fe: x.festas, r: x.resumo[l], tr: x.tropario && { tom: x.tropario.tom, t: x.tropario[l], ...(x.tropario.fonte && x.tropario.fonte.estado === 'a confirmar' ? { ac: 1 } : {}) } }]))));
+      [id, { n: x.nome[l], ti: x.titulo[l], v: x.vida[l], fe: x.festas.map(f => (/^\d\d-\d\d$/.test(f) ? f : (festasMoveis[f] || {})[l] || f)), r: x.resumo[l], tr: x.tropario && { tom: x.tropario.tom, t: x.tropario[l], ...(x.tropario.fonte && x.tropario.fonte.estado === 'a confirmar' ? { ac: 1 } : {}) } }]))));
   }
   if (Object.keys(fichas).length) fs.writeFileSync(`${dirO}/fichas-cu.json`, JSON.stringify(Object.fromEntries(Object.entries(fichas).map(([id, x]) =>
     [id, { n: x.nome.cu, tr: x.tropario ? x.tropario.cu : '' }]))));

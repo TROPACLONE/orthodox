@@ -1,0 +1,13 @@
+{
+ "_nota": "Traduções das datas móveis das fichas (campo festas de fichas.json que não é MM-DD); o gerador usa-as por língua.",
+ "domingo mais próximo de 25.01 (Sinaxe dos Novos Mártires)": {"pt": "domingo mais próximo de 25 de janeiro, calendário juliano (Sinaxe dos Novos Mártires)", "ru": "воскресенье, ближайшее к 25 января по ст. ст. (Собор новомучеников и исповедников Церкви Русской)", "uk": "неділя, найближча до 25 січня за ст. ст. (Собор новомучеників і сповідників Церкви Руської)", "en": "Sunday nearest 25 January, Julian calendar (Synaxis of the New Martyrs and Confessors of the Russian Church)"},
+ "domingo mais próximo de 25.01 (OS)": {"pt": "domingo mais próximo de 25 de janeiro, calendário juliano", "ru": "воскресенье, ближайшее к 25 января по ст. ст.", "uk": "неділя, найближча до 25 січня за ст. ст.", "en": "Sunday nearest 25 January, Julian calendar"},
+ "Domingo de S. Tomé (2.º domingo da Páscoa)": {"pt": "Domingo de S. Tomé (2.º domingo da Páscoa)", "ru": "Неделя 2-я по Пасхе, апостола Фомы (Антипасха)", "uk": "Неділя 2-га після Пасхи, апостола Фоми (Антипасха)", "en": "Thomas Sunday (2nd Sunday of Pascha)"},
+ "Sábado de S. Demétrio (sábado anterior, defuntos)": {"pt": "Sábado de S. Demétrio (sábado anterior, pelos defuntos)", "ru": "Димитриевская родительская суббота (суббота перед днём памяти)", "uk": "Димитріївська батьківська субота (субота перед днем пам’яті)", "en": "Demetrius Saturday (the Saturday before, for the departed)"},
+ "2.º domingo da Grande Quaresma": {"pt": "2.º domingo da Grande Quaresma", "ru": "Неделя 2-я Великого поста", "uk": "Неділя 2-га Великого посту", "en": "2nd Sunday of Great Lent"},
+ "4.º domingo da Grande Quaresma": {"pt": "4.º domingo da Grande Quaresma", "ru": "Неделя 4-я Великого поста", "uk": "Неділя 4-та Великого посту", "en": "4th Sunday of Great Lent"},
+ "5.º domingo da Grande Quaresma": {"pt": "5.º domingo da Grande Quaresma", "ru": "Неделя 5-я Великого поста", "uk": "Неділя 5-та Великого посту", "en": "5th Sunday of Great Lent"},
+ "1.ª sexta-feira do Jejum dos Apóstolos": {"pt": "1.ª sexta-feira do Jejum dos Apóstolos", "ru": "первая пятница Петрова поста", "uk": "перша п’ятниця Петрового посту", "en": "1st Friday of the Apostles' Fast"},
+ "Domingo das Miróforas (3.º domingo da Páscoa)": {"pt": "Domingo das Miróforas (3.º domingo da Páscoa)", "ru": "Неделя 3-я по Пасхе, святых жен-мироносиц", "uk": "Неділя 3-тя після Пасхи, святих жінок-мироносиць", "en": "Sunday of the Myrrh-bearing Women (3rd Sunday of Pascha)"},
+ "1.º sábado da Grande Quaresma": {"pt": "1.º sábado da Grande Quaresma", "ru": "суббота 1-й седмицы Великого поста", "uk": "субота 1-ї седмиці Великого посту", "en": "Saturday of the 1st week of Great Lent"}
+}

@@ -145,8 +145,12 @@ function ecraHoje() {
   const festa = id => T.festa[id] || T.movel[id];
   // Festa fixa que coincide com uma festa móvel das Doze (p. ex. Anunciação na Páscoa ou nos Ramos): mostram-se as duas.
   const fixa = FIXAS[chaveMD(d.juliano.m, d.juliano.d)];
-  if (d.festa) { bloco.append(h('div', { class: 'festa-principal', text: festa(d.festa.id) })); vistos.add(d.festa.id); }
-  if (fixa && !vistos.has(fixa.id)) { lista.append(h('li', { class: 'festa-principal', text: T.festa[fixa.id] })); vistos.add(fixa.id); }
+  // Grande festa de um santo (Precursor, Pedro e Paulo): o nome da festa abre a ficha.
+  const fichaFesta = st.santos && st.santos.fg && st.santos.fg[chaveMD(d.juliano.m, d.juliano.d)];
+  const nomeFesta = (texto, id) => (fichaFesta && fixa && id === fixa.id
+    ? h('button', { class: 'santo', type: 'button', 'data-acao': 'ficha', 'data-id': fichaFesta, text: texto }) : texto);
+  if (d.festa) { bloco.append(h('div', { class: 'festa-principal' }, nomeFesta(festa(d.festa.id), d.festa.id))); vistos.add(d.festa.id); }
+  if (fixa && !vistos.has(fixa.id)) { lista.append(h('li', { class: 'festa-principal' }, nomeFesta(T.festa[fixa.id], fixa.id))); vistos.add(fixa.id); }
   for (const id of d.moveis) if (!vistos.has(id)) { lista.append(h('li', { text: T.movel[id] })); vistos.add(id); }
   for (const id of d.semimoveis) lista.append(h('li', { text: T.semimovel[id] }));
   if (d.prefesta) lista.append(h('li', { class: 'fase', text: `${T.ui[d.prefesta.fase]}: ${festa(d.prefesta.id)}` }));
@@ -156,7 +160,7 @@ function ecraHoje() {
   if (st.santos) {
     const ss = santosDoDia(st.santos, d).filter(x => x[1] !== 'G'), poucos = ss.filter((x, i) => x[1] || i < 3);
     const ver = st.todosSantos ? ss : poucos;
-    for (const [nome, g, ficha] of ver) lista.append(h('li', { class: g ? 'g-' + g : null },
+    for (const [nome, g, ficha] of ver) lista.append(h('li', { class: g ? 'g-' + g : null }, g && h('span', { class: 'sr', text: T.ui.grau[g] + ': ' }),
       ficha ? h('button', { class: 'santo', type: 'button', 'data-acao': 'ficha', 'data-id': ficha, text: nome }) : nome));
     // «Mostrar menos» só onde há o que esconder (st.todosSantos mantém-se ao mudar de dia)
     if (ss.length > poucos.length) todos = h('button', { class: 'link', type: 'button', 'data-acao': 'santos-todos',
@@ -370,7 +374,9 @@ function ecraConhecer() {
     return s;
   }
   const ul = h('ul', { class: 'menu' });
-  const lista = Object.entries(st.fichas).sort((a, b) => a[1].n.localeCompare(b[1].n, T.intl));
+  // Ordem pelo nome sem o título (S., Ss., Преподобный…): o título vem à parte, em x.ti.
+  const chave = x => x.n.replace(/^(?:\S+\.\s+)+/, '').replace(new RegExp('^' + (x.ti || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\s+', 'i'), '');
+  const lista = Object.entries(st.fichas).sort((a, b) => chave(a[1]).localeCompare(chave(b[1]), T.intl));
   for (const [id, x] of lista) ul.append(h('li', {}, h('button', { class: 'item', type: 'button', 'data-acao': 'ficha', 'data-id': id },
     h('span', {}, x.n, x.ti && h('small', { class: 'sub', text: x.ti })), icone('i-seguinte', 18, 18))));
   s.append(ul);
@@ -513,9 +519,9 @@ function mudarLingua(l) {
   const pedido = ++ultimoPedido;
   const p = filaLingua.then(async () => {
     if (pedido !== ultimoPedido) return false;
-    // Santos do dia: sem rede, a língua muda na mesma (a lista volta a pedir-se ao mostrar o dia).
-    const [t, santos] = await Promise.all([import(`./i18n/${l}.js`), dados('santos', l).catch(() => null)]);
-    st.t = t.default; st.santos = santos;
+        // A lista anual de santos (~45 KB) não atrasa o arranque nem a troca de língua: pede-se ao mostrar o dia.
+    const t = await import(`./i18n/${l}.js`);
+    st.t = t.default; st.santos = null;
     st.lingua = l; fmtCache.clear();
     guardarLingua(l);
     return true;

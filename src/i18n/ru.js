@@ -6,7 +6,7 @@ export default {
     pesquisar: 'Поиск', definicoes: 'Настройки', voltar: 'Назад', hojeBtn: 'К сегодняшнему дню',
     dataJuliana: (dm, y) => `${dm} ${y} г.`,
     calJuliano: 'по старому стилю', semana: 'седмица', tom: n => `Глас ${n}`,
-    leiturasSanto: 'Святому дня', troparioAConferir: 'Древний текст; ещё не сверен с печатным изданием.', santosTodos: n => `Показать всех (${n})`, santosMenos: 'Свернуть', festas: 'Дни памяти', tropario: tom => (tom ? `Тропарь, глас ${tom}` : 'Тропарь'), dataFesta: (civil, juliana) => `${civil} (${juliana} по юлианскому календарю)`, santosFichas: 'Святые', jejum: 'Пост', santos: 'Святые и праздники', leituras: 'Чтения', semJejum: 'Поста нет',
+    leiturasSanto: 'Святому дня', troparioAConferir: 'Древний текст; ещё не сверен с печатным изданием.', grau: { V: 'всенощное бдение', P: 'полиелей', D: 'славословие', S: 'шестиричная служба' }, santosTodos: n => `Показать всех (${n})`, santosMenos: 'Свернуть', festas: 'Дни памяти', tropario: tom => (tom ? `Тропарь, глас ${tom}` : 'Тропарь'), dataFesta: (civil, juliana) => `${civil} (${juliana} по юлианскому календарю)`, santosFichas: 'Святые', jejum: 'Пост', santos: 'Святые и праздники', leituras: 'Чтения', semJejum: 'Поста нет',
     diaJejum: 'Постный день', camadaParoquial: 'Приходской календарь (по «Азбуке веры»)', camadaTypikon: 'Типикон',
     verTypikon: 'Показать устав Типикона', verParoquial: 'Показать приходской календарь',
     notaJejum: 'Церковь не публикует официальной таблицы пищи. Личную меру поста определяет духовник.',

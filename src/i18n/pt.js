@@ -6,7 +6,7 @@ export default {
     pesquisar: 'Pesquisar', definicoes: 'Definições', voltar: 'Voltar', hojeBtn: 'Ir para hoje',
     dataJuliana: (dm, y) => `${dm} de ${y}`,
     calJuliano: 'calendário juliano', semana: 'semana', tom: n => `Tom ${n}`,
-    leiturasSanto: 'Do santo do dia', troparioAConferir: 'Texto antigo, ainda a conferir com uma edição impressa.', santosTodos: n => `Mostrar todos (${n})`, santosMenos: 'Mostrar menos', festas: 'Festas', tropario: tom => (tom ? `Tropário, tom ${tom}` : 'Tropário'), dataFesta: (civil, juliana) => `${civil} (${juliana}, calendário juliano)`, santosFichas: 'Santos', jejum: 'Jejum', santos: 'Santos e festas', leituras: 'Leituras', semJejum: 'Sem jejum',
+    leiturasSanto: 'Do santo do dia', troparioAConferir: 'Texto antigo, ainda a conferir com uma edição impressa.', grau: { V: 'vigília', P: 'polieleo', D: 'doxologia', S: 'seis estiqueras' }, santosTodos: n => `Mostrar todos (${n})`, santosMenos: 'Mostrar menos', festas: 'Festas', tropario: tom => (tom ? `Tropário, tom ${tom}` : 'Tropário'), dataFesta: (civil, juliana) => `${civil} (${juliana}, calendário juliano)`, santosFichas: 'Santos', jejum: 'Jejum', santos: 'Santos e festas', leituras: 'Leituras', semJejum: 'Sem jejum',
     diaJejum: 'Dia de jejum', camadaParoquial: 'Calendário paroquial (segundo Azbuka Very)', camadaTypikon: 'Typikon',
     verTypikon: 'Ver a regra do Typikon', verParoquial: 'Ver o calendário paroquial',
     notaJejum: 'A Igreja não publica uma tabela oficial de alimentos. A medida pessoal do jejum cabe ao pai espiritual.',
