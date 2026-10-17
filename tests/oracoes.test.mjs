@@ -29,6 +29,7 @@ assert.deepEqual(planoSalterio(0, 0, 100, false), { n: 1, lida: false });
 assert.deepEqual(planoSalterio(20, 99, 100, true), { n: 1, lida: false });
 assert.deepEqual(planoSalterio(7, 100, 100, true), { n: 7, lida: true });
 assert.deepEqual(planoSalterio(7, 100, 100, false), { n: 8, lida: false });
+for (const x of [-3, 2.5, 21, NaN]) assert.deepEqual(planoSalterio(x, 100, 100, true), { n: 1, lida: false }, `valor guardado ${x}`);
 assert.equal(CATISMAS.length, 20); assert.equal(CATISMAS[19][1], 151);
 for (let k = 1; k < 20; k++) assert.equal(CATISMAS[k][0], CATISMAS[k - 1][1] + 1);
 let n = 0;

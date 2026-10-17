@@ -32,6 +32,7 @@ export const CATISMAS = [[1, 8], [9, 16], [17, 23], [24, 31], [32, 36], [37, 45]
 /** Plano pessoal do Saltério (dec. 65): a catisma a seguir à última marcada como lida, em ciclo 1–20. Com «1 por dia»,
  *  se já se marcou uma hoje, devolve essa, como lida. */
 export function planoSalterio(ultima, dataUltima, hoje, umPorDia) {
+  if (!(Number.isInteger(ultima) && ultima >= 1 && ultima <= 20)) ultima = 0;   // valor guardado inválido: recomeça na 1
   if (umPorDia && ultima && dataUltima === hoje) return { n: ultima, lida: true };
   return { n: ultima ? ultima % 20 + 1 : 1, lida: false };
 }

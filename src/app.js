@@ -27,6 +27,9 @@ function progresso(p) {
   if (p >= 1) { a.classList.add('fim'); setTimeout(() => a.remove(), 320); }
 }
 progresso(.45);
+// Novo ecrã no topo, sem animação de scroll: o CSS pede scroll-behavior: smooth no #main e um «scrollTop = 0» deslizaria
+// o texto novo desde a posição antiga (p. ex. a meio do Sl 118 ao abrir a catisma 17 de uma lista deslocada).
+const topo = (y = 0) => $('main').scrollTo({ top: y, behavior: 'instant' });
 /** Troca de ecrã com fade (View Transitions nativas; sem suporte: só fade-in). Resolve quando o novo ecrã está no DOM. */
 function transicao(fn) {
   if (document.visibilityState !== 'visible') { fn(); return Promise.resolve(); }
@@ -267,28 +270,31 @@ function ecraGrupo() {
   s.append(ul);
   return s;
 }
+// Devolve false se entretanto mudou a língua (dois toques seguidos na língua, ou a língua mudada nas Definições durante o
+// carregamento): a lista que chega tarde não substitui a da língua atual.
 async function carregarGrupos() {
-  const m = await import(`./dados/gerado/oracoes/grupos-${st.lingua}.json`, { with: { type: 'json' } });
+  const lingua = st.lingua, m = await import(`./dados/gerado/oracoes/grupos-${lingua}.json`, { with: { type: 'json' } });
+  if (lingua !== st.lingua) return false;
   st.grupos = m.default;
+  return true;
 }
 async function abrirGrupo(g) {
   const pedido = ++pedidoOracao;
-  await carregarGrupos();
-  if (pedido !== pedidoOracao) return;
+  if (!(await carregarGrupos()) || pedido !== pedidoOracao) return;
   st.grupo = g;
-  await transicao(() => { render(); $('main').scrollTop = 0; });
-  if (!st.definicoes) $('main').querySelector('h1').focus({ preventScroll: true });
+  await transicao(() => { render(); topo(); });
+  if (!st.definicoes) $('main').querySelector('h1')?.focus({ preventScroll: true });
 }
 
 let pedidoOracao = 0;
 async function abrirOracao(id) {
-  const pedido = ++pedidoOracao, lingua = st.lingua;
+  const pedido = ++pedidoOracao, lingua = st.lingua, y = $('main').scrollTop;   // posição na lista, retomada ao voltar
   const [dados, conv] = await Promise.all([import(`./dados/gerado/oracoes/${id}-${lingua}.json`, { with: { type: 'json' } }), import('./engine/eslavo.js')]);
   if (pedido !== pedidoOracao || lingua !== st.lingua) return;   // entretanto abriu-se outra oração ou mudou a língua
-  st.oracao = { id, dados: dados.default, conv };
-  await transicao(() => { render(); $('main').scrollTop = 0; });
+  st.oracao = { id, dados: dados.default, conv, y };
+  await transicao(() => { render(); topo(); });
   // O botão tocado desapareceu: o foco passa ao título da oração (leitores de ecrã anunciam o novo ecrã).
-  if (!st.definicoes) $('main').querySelector('h1').focus({ preventScroll: true });
+  if (!st.definicoes) $('main').querySelector('h1')?.focus({ preventScroll: true });
 }
 // Os avisos de período descrevem as orações da manhã e da noite. O ofício da Comunhão começa da mesma maneira,
 // mas na Semana Luminosa lê-se o Cânone Pascal (não as Horas Pascais); as outras orações não têm aviso.
@@ -388,7 +394,8 @@ function guardarLingua(l) {
   guardadas.add(l);
   const ok = r => { if (!r.ok) throw new Error(r.status); return r; };
   const pedir = () => fetch('idiomas.json').then(r => ok(r).json())
-    .then(m => Promise.all((m[l] || []).map(f => fetch(f).then(r => ok(r).blob()))))
+    // Só os que faltam: sem isto, cada arranque relia da cache os ~2 MB da língua (39 pedidos ao service worker).
+    .then(m => Promise.all((m[l] || []).map(f => caches.match(f).then(c => c || fetch(f).then(r => ok(r).blob())))))
     .catch(() => guardadas.delete(l));
   'requestIdleCallback' in window ? requestIdleCallback(pedir, { timeout: 5000 }) : setTimeout(pedir, 2000);
 }
@@ -418,7 +425,7 @@ $('main').addEventListener('click', async e => {
     // Bloco da língua indisponível (sem rede e ainda não guardado): fica a língua atual.
     try { if (!(await mudarLingua(b.dataset.valor))) return; } catch { return; }
     gravar('lingua', st.lingua); st.oracao = null;   // o texto aberto estava noutra língua
-    if (st.grupo) try { await carregarGrupos(); } catch { st.grupo = null; }   // a lista do grupo também
+    if (st.grupo) try { if (!(await carregarGrupos())) return; } catch { st.grupo = null; }   // a lista do grupo também (um pedido ultrapassado não renderiza)
   }
   else if (a === 'camada-defeito') { st.camada = b.dataset.valor; gravar('camada', st.camada); }
   else if (a === 'escala') { st.escala = b.dataset.valor; gravar('escala', st.escala); }
@@ -427,20 +434,23 @@ $('main').addEventListener('click', async e => {
   else if (a === 'sal-modo') { st.modoSalterio = b.dataset.valor; gravar('salterio.modo', b.dataset.valor); }
   else if (a === 'sal-lida') {                         // sem reconstruir o ecrã: a posição de leitura fica
     gravar('salterio.ultima', b.dataset.n); gravar('salterio.data', jdnHoje());
-    b.replaceWith(h('p', { class: 'txt', role: 'status', text: st.t.salterio.lida }));
+    const comFoco = document.activeElement === b, aviso = h('p', { class: 'txt', role: 'status', tabindex: '-1', text: st.t.salterio.lida });
+    b.replaceWith(aviso);
+    if (comFoco) aviso.focus({ preventScroll: true });   // o botão desapareceu: o foco não cai no <body>
     return;
   }
   else if (a === 'oracao' || a === 'grupo') {
     (a === 'grupo' ? abrirGrupo : abrirOracao)(b.dataset.id).catch(() => {   // sem rede e ainda não guardada: avisa em vez de não fazer nada
-      const aviso = h('p', { class: 'nota', role: 'status', text: st.t.ui.erroCarregar });
-      $('main').querySelector('.screen')?.prepend(aviso);
+      const aviso = h('p', { class: 'nota', role: 'status', text: st.t.ui.erroCarregar }), ecra = $('main').querySelector('.screen');
+      ecra?.querySelector(':scope > .nota[role="status"]')?.remove();   // toques repetidos: um só aviso
+      ecra?.prepend(aviso);
     });
     return;
   }
   else return;
   // O ecrã é reconstruído: o foco do teclado volta ao botão equivalente (ou ao conteúdo, se o botão desapareceu).
   const comFoco = document.activeElement === b;
-  const fazer = () => { render(); if (a === 'abrir' || a === 'dia-1' || a === 'dia+1' || a === 'hoje') $('main').scrollTop = 0; };
+  const fazer = () => { render(); if (a === 'abrir' || a === 'dia-1' || a === 'dia+1' || a === 'hoje') topo(); };
   if (['abrir', 'dia-1', 'dia+1', 'hoje', 'mes-1', 'mes+1'].includes(a)) await transicao(fazer); else fazer();
   if (comFoco) {
     const sel = `[data-acao="${a}"]` + (b.dataset.valor ? `[data-valor="${b.dataset.valor}"]` : '');
@@ -453,13 +463,13 @@ $('tabs').addEventListener('click', e => {
   if (!b) return;
   if (b.dataset.vista === 'hoje' && st.vista === 'hoje' && !st.definicoes) st.jdn = jdnHoje();
   st.vista = b.dataset.vista; st.definicoes = false; st.outraCamada = false; st.oracao = null; st.grupo = null; pedidoOracao++;
-  transicao(() => { render(); $('main').scrollTop = 0; });
+  transicao(() => { render(); topo(); });
 });
 // Definições abertas a meio de uma oração longa: ao voltar ao mesmo ecrã, retoma-se a posição de leitura.
 let antesDefinicoes = null;
 $('btn-dir').addEventListener('click', () => {
   antesDefinicoes = { vista: st.vista, oracao: st.oracao, y: $('main').scrollTop };
-  st.definicoes = true; transicao(() => { render(); $('main').scrollTop = 0; });
+  st.definicoes = true; transicao(() => { render(); topo(); });
 });
 $('btn-esq').addEventListener('click', async () => {
   // O «Voltar» fica desativado no ecrã de destino: o foco do teclado passa ao elemento equivalente (e não ao <body>).
@@ -468,11 +478,13 @@ $('btn-esq').addEventListener('click', async () => {
     st.definicoes = false; alvo = 'btn-dir';
     const a = antesDefinicoes;
     if (a && a.vista === st.vista && a.oracao === st.oracao) y = a.y;
-  } else if (st.oracao) { alvo = st.oracao.id; st.oracao = null; pedidoOracao++; }
+  } else if (st.oracao) { alvo = st.oracao.id; y = st.oracao.y || 0; st.oracao = null; pedidoOracao++; }
   else if (st.grupo) { alvo = st.grupo; st.grupo = null; pedidoOracao++; }
   else return;
-  await transicao(() => { render(); $('main').scrollTo({ top: y, behavior: 'instant' }); });   // sem scroll-behavior: smooth
+  await transicao(() => { render(); topo(y); });   // sem scroll-behavior: smooth
   const el = alvo === 'btn-dir' ? $('btn-dir') : $('main').querySelector(`.menu [data-id="${alvo}"]`);
+  // Aberta pelo «Continuar» (fora da lista) ou lista mais alta do que o ecrã: o item fica à vista antes de receber o foco.
+  if (el && alvo !== 'btn-dir') el.scrollIntoView({ block: 'nearest', behavior: 'instant' });
   (el || $('main')).focus({ preventScroll: true });
 });
 // Mudança de dia com a app aberta: se o ecrã mostrava «hoje», passa para o novo dia.
