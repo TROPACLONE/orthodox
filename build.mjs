@@ -44,13 +44,11 @@ for (const f of ['manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-5
 for (const f of fs.readdirSync('src/fonts')) fs.copyFileSync(`src/fonts/${f}`, `dist/fonts/${f}`);
 // Blocos próprios de cada língua (decisão 45): só a língua escolhida fica garantida offline; o service worker pré-guarda
 // o núcleo, e a app pede os ficheiros da língua ativa (dist/idiomas.json) logo que a escolhe. O eslavo das orações
-// (d/*-cu.*.json) pertence às 4 línguas, como nomes-cu.json às línguas que o usam.
+// (d/*-cu.*.json) pertence às 4 línguas.
 const LINGUAS = ['pt', 'uk', 'ru', 'en'];
 const linguasDe = entrada => {
   const m = entrada.match(/src\/i18n\/(pt|uk|ru|en)\.js$/);
   if (m) return [m[1]];
-  if (/nomes-pt\.json$/.test(entrada)) return ['pt'];
-  if (/nomes-cu\.json$/.test(entrada)) return ['uk', 'ru', 'en'];
   return null;
 };
 const idiomas = Object.fromEntries(LINGUAS.map(l => [l, []]));

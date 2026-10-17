@@ -48,7 +48,13 @@ for (const id of indice) {
   for (const l of ['pt', 'uk', 'ru', 'en']) assert.equal(JSON.parse(fs.readFileSync(`${dirO}/${id}-${l}.json`, 'utf8')).blocos.length, n, `${id}-${l}: blocos ≠ eslavo`);
 }
 for (const l of ['pt', 'uk', 'ru', 'en']) verificar(`grupos-${l}`, [l]);
-assert.equal(emD.size, indice.length * 5 + 4, 'ficheiros a mais em dist/d');
+// Santos (fase 3): a lista do dia por língua; as fichas por língua e o seu eslavo (pré-carga das 4 línguas).
+let extra = 4;
+if (fs.existsSync(`${dirO}/santos-pt.json`)) { for (const l of ['pt', 'uk', 'ru', 'en']) verificar(`santos-${l}`, [l]); extra += 4; }
+if (fs.existsSync(`${dirO}/fichas-cu.json`)) {
+  verificar('fichas-cu', ['pt', 'uk', 'ru', 'en']); for (const l of ['pt', 'uk', 'ru', 'en']) verificar(`fichas-${l}`, [l]); extra += 5;
+}
+assert.equal(emD.size, indice.length * 5 + extra, 'ficheiros a mais em dist/d');
 // O mapa dos hashes, no núcleo (__DADOS__), aponta para estes ficheiros.
 const nucleoJs = lista.filter(f => f.endsWith('.js') && f !== './sw.js').map(f => fs.readFileSync('dist/' + f.slice(2), 'utf8')).join('\n');
 for (const [nome, f] of emD) assert.ok(nucleoJs.includes(f.slice(-13, -5)), `hash de ${nome} fora do núcleo`);

@@ -7,7 +7,7 @@ import semanas from '../../data/lecionario/semanas.json' with { type: 'json' };
 import triodio from '../../data/lecionario/triodio.json' with { type: 'json' };
 import especiais from '../../data/lecionario/especiais.json' with { type: 'json' };
 import festas from '../../data/lecionario/festas.json' with { type: 'json' };
-import santos from '../../data/lecionario/santos.json' with { type: 'json' };
+import santos from '../dados/gerado/lecionario-santos.json' with { type: 'json' };   // data/lecionario/santos.json, compacto (gerar-dados)
 import { dia } from './calendario.js';
 
 const DIAS = ['dom', 'seg', 'ter', 'qua', 'qui', 'sex', 'sab'];

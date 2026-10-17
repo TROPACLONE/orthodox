@@ -4,10 +4,11 @@
  no armazenamento local; nenhum dado pessoal sai do aparelho.
  Eventos: um único ouvinte por região (delegação), para não acumular ouvintes a cada nova renderização.
 */
-import { hoje as jdnHoje, jdnGregoriano, gregoriano, chaveMD } from './engine/datas.js';
+import { hoje as jdnHoje, jdnGregoriano, jdnJuliano, gregoriano, chaveMD } from './engine/datas.js';
 import { dia, FIXAS } from './engine/calendario.js';
 import { jejum, N } from './engine/jejum.js';
-import { grausDoDia, comemoracoesDoDia, carregarNomes } from './dados/graus.js';
+import { grausDoDia } from './dados/graus.js';
+import { santosDoDia } from './engine/santos.js';
 import { leituras, eothinon } from './engine/leituras.js';
 import { formatarRef } from './engine/referencias.js';
 import { periodoOracao, blocosDoPeriodo, eNoite, CATISMAS, planoSalterio } from './engine/oracoes.js';
@@ -62,6 +63,7 @@ const st = {
   escala: ESCALAS.some(e => e[0] === ler('escala')) ? ler('escala') : 'normal',
   vista: 'hoje', definicoes: false,
   eslavo: ler('eslavo') !== 'nao', oracao: null,   // oracao: { id, dados, conv, y } quando há uma oração aberta (3.º nível)
+  santos: null, todosSantos: false, ficha: null, fichas: null,   // santos do dia (língua), ficha aberta, lista das fichas
   grupo: null, grupos: null,                        // grupo aberto (Saltério, acatistos, defuntos) e as listas na língua
   modoSalterio: ler('salterio.modo') === 'defuntos' ? 'defuntos' : 'habitual', umPorDia: ler('salterio.diario') === 'sim',
   // Plano do Saltério (dec. 65) também em memória: sem armazenamento, vale até fechar a app.
@@ -148,8 +150,19 @@ function ecraHoje() {
   for (const id of d.moveis) if (!vistos.has(id)) { lista.append(h('li', { text: T.movel[id] })); vistos.add(id); }
   for (const id of d.semimoveis) lista.append(h('li', { text: T.semimovel[id] }));
   if (d.prefesta) lista.append(h('li', { class: 'fase', text: `${T.ui[d.prefesta.fase]}: ${festa(d.prefesta.id)}` }));
-  for (const c of comemoracoesDoDia(d)) lista.append(h('li', { text: c }));
+  // Comemorações do Menaion (fase 3): as de maior grau e, sem sinal, as 3 primeiras; «Mostrar todos» abre o resto.
+  // As grandes festas («G») já vêm do motor. Um nome com ficha abre-a.
+  let todos = null;
+  if (st.santos) {
+    const ss = santosDoDia(st.santos, d).filter(x => x[1] !== 'G');
+    const ver = st.todosSantos ? ss : ss.filter((x, i) => x[1] || i < 3);
+    for (const [nome, g, ficha] of ver) lista.append(h('li', { class: g ? 'g-' + g : null },
+      ficha ? h('button', { class: 'santo', type: 'button', 'data-acao': 'ficha', 'data-id': ficha, text: nome }) : nome));
+    if (ss.length > ver.length || st.todosSantos) todos = h('button', { class: 'link', type: 'button', 'data-acao': 'santos-todos',
+      'aria-expanded': String(st.todosSantos), text: st.todosSantos ? T.ui.santosMenos : T.ui.santosTodos(ss.length) });
+  } else carregarSantos().then(ok => { if (ok && !st.definicoes && !st.ficha && st.vista === 'hoje') render(); }).catch(() => {});   // sem rede no arranque
   if (lista.childElementCount) bloco.append(lista);
+  if (todos) bloco.append(todos);
   if (bloco.childElementCount > 1) s.append(bloco);
 
   // Jejum
@@ -199,6 +212,10 @@ function blocoLeituras(d) {
   for (const e of L.extra) {
     if (e.rotulo === 'horas_reais') { sub(T.ui.horasReais);
       for (const [hora, x] of Object.entries(e.horas)) linha(T.ui.servico[hora] || hora, [...(x.vt || []), ...(x.ap || []), ...(x.ev || [])]); }
+    else if (e.rotulo === 'santo') {   // santo do Menaion (fase 3): Vésperas (AT), Matinas (Evangelho), Liturgia
+      sub((st.santos && st.santos.n[e.id]) || T.ui.leiturasSanto);
+      linha(`${T.ui.servico.vesperas}: ${T.ui.antigoTestamento}`, e.vt); linha(`${T.ui.servico.matinas}: ${T.ui.evangelho}`, e.matinas_ev);
+      linha(T.ui.apostolo, e.ap); linha(T.ui.evangelho, e.ev); }
     else { sub({ bencao_aguas: T.ui.bencaoAguas, vesperas: T.ui.servico.vesperas, ordinario: T.ui.ordinario }[e.rotulo] || T.ui.festaLeituras);
       linha(T.ui.antigoTestamento, e.vt); linha(T.ui.apostolo, e.ap); linha(T.ui.evangelho, e.ev); }
   }
@@ -288,6 +305,71 @@ async function dados(id, l) {
   if (!r.ok) throw new Error(r.status);
   return r.json();
 }
+// ── Santos (fase 3): a lista do dia carrega-se com a língua; as fichas só quando se abre uma (ou a lista de Conhecer).
+async function carregarSantos() {
+  const lingua = st.lingua, x = await dados('santos', lingua);
+  if (lingua !== st.lingua) return false;
+  st.santos = x; return true;
+}
+let fichasDe = null;
+async function carregarFichas() {
+  const lingua = st.lingua;
+  if (fichasDe === lingua) return true;
+  const x = await dados('fichas', lingua);
+  if (lingua !== st.lingua) return false;
+  st.fichas = x; fichasDe = lingua; return true;
+}
+async function abrirFicha(id) {
+  const pedido = ++pedidoOracao;
+  // Eslavo (nome e tropário) só com «Mostrar o eslavo»; sem rede, a ficha abre na mesma, sem ele.
+  const [ok, cu] = await Promise.all([carregarFichas(), st.eslavo ? dados('fichas', 'cu').catch(() => null) : null]);
+  if (!ok || pedido !== pedidoOracao || !st.fichas[id]) return;
+  st.ficha = { id, x: st.fichas[id], cu: cu && cu[id], y: $('main').scrollTop };
+  await transicao(() => { render(); topo(); });
+  if (!st.definicoes) $('main').querySelector('h1')?.focus({ preventScroll: true });
+}
+// Data de uma festa: a civil do ano corrente e a juliana (o calendário da Igreja, dec. 2).
+function dataFesta(f) {
+  const m = /^(\d\d)-(\d\d)$/.exec(f);
+  if (!m) return f;
+  const j = { m: +m[1], d: +m[2] }, c = gregoriano(jdnJuliano(gregoriano(jdnHoje()).y, j.m, j.d));
+  return st.t.ui.dataFesta(fmt({ day: 'numeric', month: 'long' }).format(utc(c.y, c.m, c.d)), diaMesJuliano(j));
+}
+function ecraFicha() {
+  const T = st.t, { x, cu } = st.ficha, s = h('section', { class: 'screen oracao' });
+  const eslavo = st.eslavo && cu ? (st.lingua === 'uk' ? conversor.izvod : conversor.civil) : null;
+  s.append(h('h1', { class: 'data-civil', tabindex: '-1', text: x.n }));
+  if (eslavo && cu.n) s.append(h('p', { class: 'slav', lang: 'cu', text: eslavo(cu.n) }));
+  const sub = [x.ti, x.v].filter(Boolean).join(' · ');
+  if (sub) s.append(h('p', { class: 'desc', text: sub }));
+  if (x.fe && x.fe.length) s.append(h('p', { class: 'desc', text: `${T.ui.festas}: ${x.fe.map(dataFesta).join('; ')}` }));
+  if (x.r) s.append(h('p', { class: 'txt', text: x.r }));
+  if (x.tr && x.tr.t) {
+    s.append(h('h2', { class: 'titulo-oracao', text: T.ui.tropario(x.tr.tom) }));
+    const par = h('div', { class: 'par' });
+    if (eslavo && cu.tr) par.append(h('p', { class: 'slav', lang: 'cu', text: eslavo(cu.tr) }));
+    par.append(h('p', { class: 'trad', text: x.tr.t }));
+    s.append(par);
+  }
+  return s;
+}
+// Conhecer (fase 4 por fazer): por agora, a lista dos santos com ficha, por ordem alfabética.
+function ecraConhecer() {
+  const T = st.t, s = h('section', { class: 'screen' });
+  s.append(h('h1', { class: 'data-civil', tabindex: '-1', text: T.ui.santosFichas }));
+  if (!st.fichas || fichasDe !== st.lingua) {
+    carregarFichas().then(ok => { if (ok && st.vista === 'conhecer' && !st.ficha && !st.definicoes) render(); })
+      .catch(() => s.append(h('p', { class: 'nota', role: 'status', text: T.ui.erroCarregar })));
+    return s;
+  }
+  const ul = h('ul', { class: 'menu' });
+  const lista = Object.entries(st.fichas).sort((a, b) => a[1].n.localeCompare(b[1].n, T.intl));
+  for (const [id, x] of lista) ul.append(h('li', {}, h('button', { class: 'item', type: 'button', 'data-acao': 'ficha', 'data-id': id },
+    h('span', {}, x.n, x.ti && h('small', { class: 'sub', text: x.ti })), icone('i-seguinte', 18, 18))));
+  s.append(ul);
+  return s;
+}
+
 let gruposDe = null;   // língua de st.grupos (a lista não se volta a pedir a cada abertura)
 // Devolve false se entretanto mudou a língua (dois toques seguidos na língua, ou a língua mudada nas Definições durante o
 // carregamento): a lista que chega tarde não substitui a da língua atual.
@@ -387,15 +469,16 @@ function render() {
   document.documentElement.lang = T.lang;
   document.documentElement.style.setProperty('--scale', ESCALAS.find(e => e[0] === st.escala)[1]);
   const esq = $('btn-esq'), dir = $('btn-dir');
-  const voltar = st.definicoes || !!st.oracao || !!st.grupo;
+  const voltar = st.definicoes || !!st.oracao || !!st.grupo || !!st.ficha;
   esq.replaceChildren(icone(voltar ? 'i-voltar' : 'i-pesquisa'));
   esq.setAttribute('aria-label', voltar ? T.ui.voltar : T.ui.pesquisar);
   esq.disabled = !voltar;                        // a pesquisa chega com o conteúdo pesquisável (fases 2–4)
   dir.replaceChildren(icone('i-definicoes')); dir.setAttribute('aria-label', T.ui.definicoes); dir.hidden = st.definicoes;
   $('titulo').textContent = st.definicoes ? T.ui.definicoes : (st.vista === 'hoje' ? 'Orthodox Helper' : T.nav[st.vista]);
 
-  const ecra = st.definicoes ? ecraDefinicoes() : st.vista === 'hoje' ? ecraHoje() : st.vista === 'calendario' ? ecraCalendario()
-    : st.vista === 'oracoes' ? (st.oracao ? ecraOracao() : st.grupo ? ecraGrupo() : ecraOracoes()) : ecraEmPreparacao();
+  const ecra = st.definicoes ? ecraDefinicoes() : st.ficha ? ecraFicha() : st.vista === 'hoje' ? ecraHoje() : st.vista === 'calendario' ? ecraCalendario()
+    : st.vista === 'oracoes' ? (st.oracao ? ecraOracao() : st.grupo ? ecraGrupo() : ecraOracoes())
+    : st.vista === 'conhecer' ? ecraConhecer() : ecraEmPreparacao();
   main.replaceChildren(ecra);
 
   const tabs = $('tabs');
@@ -406,15 +489,16 @@ function render() {
   for (const b of tabs.children) b.setAttribute('aria-current', !st.definicoes && b.dataset.vista === st.vista ? 'page' : 'false');
 }
 
-// Pedidos em fila: dois toques seguidos não podem terminar fora de ordem (carregarNomes também guarda estado), e um pedido
+// Pedidos em fila: dois toques seguidos não podem terminar fora de ordem (os santos do dia também ficam no estado), e um pedido
 // ultrapassado por outro mais recente já não se aplica. Devolve true se a língua ficou ativa.
 let filaLingua = Promise.resolve(), ultimoPedido = 0;
 function mudarLingua(l) {
   const pedido = ++ultimoPedido;
   const p = filaLingua.then(async () => {
     if (pedido !== ultimoPedido) return false;
-    const [t] = await Promise.all([import(`./i18n/${l}.js`), carregarNomes(l)]);
-    st.t = t.default;
+    // Santos do dia: sem rede, a língua muda na mesma (a lista volta a pedir-se ao mostrar o dia).
+    const [t, santos] = await Promise.all([import(`./i18n/${l}.js`), dados('santos', l).catch(() => null)]);
+    st.t = t.default; st.santos = santos;
     st.lingua = l; fmtCache.clear();
     guardarLingua(l);
     return true;
@@ -461,12 +545,13 @@ $('main').addEventListener('click', async e => {
   else if (a === 'lingua') {
     // Bloco da língua indisponível (sem rede e ainda não guardado): fica a língua atual.
     try { if (!(await mudarLingua(b.dataset.valor))) return; } catch { return; }
-    gravar('lingua', st.lingua); st.oracao = null;   // o texto aberto estava noutra língua
+    gravar('lingua', st.lingua); st.oracao = null; st.ficha = null;   // o texto aberto estava noutra língua
     if (st.grupo) try { if (!(await carregarGrupos())) return; } catch { st.grupo = null; }   // a lista do grupo também (um pedido ultrapassado não renderiza)
   }
   else if (a === 'camada-defeito') { st.camada = b.dataset.valor; gravar('camada', st.camada); }
   else if (a === 'escala') { st.escala = b.dataset.valor; gravar('escala', st.escala); }
   else if (a === 'eslavo') { st.eslavo = b.dataset.valor === 'sim'; gravar('eslavo', b.dataset.valor); if (st.eslavo) await completarEslavo(); }
+  else if (a === 'santos-todos') st.todosSantos = !st.todosSantos;
   else if (a === 'sal-diario') { st.umPorDia = b.dataset.valor === 'sim'; gravar('salterio.diario', b.dataset.valor); }
   else if (a === 'sal-modo') { st.modoSalterio = b.dataset.valor; gravar('salterio.modo', b.dataset.valor); }
   else if (a === 'sal-lida') {                         // sem reconstruir o ecrã: a posição de leitura fica
@@ -477,8 +562,8 @@ $('main').addEventListener('click', async e => {
     if (comFoco) aviso.focus({ preventScroll: true });   // o botão desapareceu: o foco não cai no <body>
     return;
   }
-  else if (a === 'oracao' || a === 'grupo') {
-    (a === 'grupo' ? abrirGrupo : abrirOracao)(b.dataset.id).catch(() => {   // sem rede e ainda não guardada: avisa em vez de não fazer nada
+  else if (a === 'oracao' || a === 'grupo' || a === 'ficha') {
+    ({ grupo: abrirGrupo, oracao: abrirOracao, ficha: abrirFicha })[a](b.dataset.id).catch(() => {   // sem rede e ainda não guardada: avisa em vez de não fazer nada
       const aviso = h('p', { class: 'nota', role: 'status', text: st.t.ui.erroCarregar }), ecra = $('main').querySelector('.screen');
       ecra?.querySelector(':scope > .nota[role="status"]')?.remove();   // toques repetidos: um só aviso
       ecra?.prepend(aviso);
@@ -500,7 +585,7 @@ $('tabs').addEventListener('click', e => {
   const b = e.target.closest('[data-vista]');
   if (!b) return;
   if (b.dataset.vista === 'hoje' && st.vista === 'hoje' && !st.definicoes) st.jdn = jdnHoje();
-  st.vista = b.dataset.vista; st.definicoes = false; st.outraCamada = false; st.oracao = null; st.grupo = null; pedidoOracao++;
+  st.vista = b.dataset.vista; st.definicoes = false; st.outraCamada = false; st.oracao = null; st.grupo = null; st.ficha = null; st.todosSantos = false; pedidoOracao++;
   transicao(() => { render(); topo(); });
 });
 // Definições abertas a meio de uma oração longa: ao voltar ao mesmo ecrã, retoma-se a posição de leitura. A posição é o
@@ -534,11 +619,12 @@ $('btn-esq').addEventListener('click', async () => {
     st.definicoes = false; alvo = 'btn-dir';
     const a = antesDefinicoes;
     if (a && a.vista === st.vista && a.oracao === st.oracao) pos = a.pos;
-  } else if (st.oracao) { alvo = st.oracao.id; y = st.oracao.y || 0; st.oracao = null; pedidoOracao++; }
+  } else if (st.ficha) { alvo = st.ficha.id; y = st.ficha.y || 0; st.ficha = null; pedidoOracao++; }
+  else if (st.oracao) { alvo = st.oracao.id; y = st.oracao.y || 0; st.oracao = null; pedidoOracao++; }
   else if (st.grupo) { alvo = st.grupo; st.grupo = null; pedidoOracao++; }
   else return;
   await transicao(() => { render(); if (pos) retomarLeitura(pos); else topo(y); });   // sem scroll-behavior: smooth
-  const el = alvo === 'btn-dir' ? $('btn-dir') : $('main').querySelector(`.menu [data-id="${alvo}"]`);
+  const el = alvo === 'btn-dir' ? $('btn-dir') : $('main').querySelector(`.menu [data-id="${alvo}"], [data-acao="ficha"][data-id="${alvo}"]`);
   // Aberta pelo «Continuar» (fora da lista) ou lista mais alta do que o ecrã: o item fica à vista antes de receber o foco.
   if (el && alvo !== 'btn-dir') el.scrollIntoView({ block: 'nearest', behavior: 'instant' });
   (el || $('main')).focus({ preventScroll: true });

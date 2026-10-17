@@ -5,13 +5,11 @@ const dir = 'src/dados/gerado';
 fs.mkdirSync(dir, { recursive: true });
 const G = { grande: 'G', vigilia: 'V', polieleo: 'P', doxologia: 'D' };
 const fonte = fs.existsSync('data/menaion/graus.json') ? JSON.parse(fs.readFileSync('data/menaion/graus.json', 'utf8')) : {};
-const graus = {}, nomes = { pt: {}, cu: {} };
+const graus = {};
 for (const [md, l] of Object.entries(fonte)) {
   graus[md] = l.map(c => (G[c.grau_typikon] || '-') + (G['grau_atual' in c ? c.grau_atual : c.grau_typikon] || '-')).join(',');
-  nomes.pt[md] = l.map(c => c.pt || c.cu || ''); nomes.cu[md] = l.map(c => c.cu || c.pt || '');
 }
 fs.writeFileSync(`${dir}/graus.json`, JSON.stringify(graus));
-for (const [l, n] of Object.entries(nomes)) fs.writeFileSync(`${dir}/nomes-${l}.json`, JSON.stringify(n));
 
 // Orações: o eslavo uma só vez por oração ({id}-cu.json, partilhado pelas 4 línguas) e um ficheiro por língua só com a
 // tradução ({id}-xx.json); mais um índice (só os ids: vai no núcleo, e os títulos da lista vêm do i18n). No build, estes
@@ -46,6 +44,42 @@ if (fs.existsSync('data/oracoes')) for (const f of fs.readdirSync('data/oracoes'
   }
 }
 fs.writeFileSync(`${dirO}/indice.json`, JSON.stringify(indice));
+// Leituras próprias dos santos para o motor (núcleo): só os campos usados (sem fonte, conferência, notas, nome eslavo).
+if (fs.existsSync('data/lecionario/santos.json')) {
+  const lec = JSON.parse(fs.readFileSync('data/lecionario/santos.json', 'utf8')), CAMPOS = ['id', 'grau', 'ap', 'ev', 'vt', 'matinas_ev'];
+  fs.writeFileSync(`${dir}/lecionario-santos.json`, JSON.stringify(Object.fromEntries(Object.entries(lec).filter(([k]) => !k.startsWith('_'))
+    .map(([k, v]) => [k, v.map(x => Object.fromEntries(CAMPOS.filter(c => x[c] != null).map(c => [c, x[c]])))]))));
+}
+
+// Santos (fase 3, dec. 76–77): a lista diária por língua e as fichas por língua (o eslavo das fichas — nome e tropário — à
+// parte, como nas orações); vão para dist/d/ e para a pré-carga da língua como as orações. As grandes festas do Senhor e
+// da Mãe de Deus, as pré-festas, as pós-festas e as despedidas já vêm do motor do calendário: não se repetem.
+const GRAU = { grande: 'G', vigilia: 'V', polieleo: 'P', doxologia: 'D', seis: 'S' };
+// Comemorações móveis que o motor já mostra (calendario.js: MOVEIS e semimoveis).
+const MOVEIS_DO_MOTOR = new Set(['sinaxe-novos-martires-russia', 'pais-primeiro-concilio', 'todos-os-santos', 'todos-os-santos-da-russia',
+  'pais-seis-concilios', 'pais-setimo-concilio', 'sabado-de-demetrio', 'domingo-antepassados', 'domingo-santos-pais', 'domingo-depois-natal']);
+const doMotor = c => MOVEIS_DO_MOTOR.has(c.id) || ((c.tipo === 'senhor' || c.tipo === 'theotokos') && (c.grau === 'grande' || /^(pre|pos)-festa|^despedida/.test(c.id)));
+if (fs.existsSync('data/santos/dia.json')) {
+  const dia = JSON.parse(fs.readFileSync('data/santos/dia.json', 'utf8'));
+  const fichas = fs.existsSync('data/santos/fichas.json') ? JSON.parse(fs.readFileSync('data/santos/fichas.json', 'utf8')) : {};
+  const linha = (c, l) => [c[l], GRAU[c.grau] || '', fichas[c.id] ? c.id : 0];
+  // Nomes dos santos com leituras próprias (data/lecionario/santos.json: id de graus.json ou «pon-<id Ponomar>»), para o
+  // rótulo do grupo de leituras no ecrã Hoje.
+  const lec = fs.existsSync('data/lecionario/santos.json') ? JSON.parse(fs.readFileSync('data/lecionario/santos.json', 'utf8')) : {};
+  const porId = new Map(), todos = [...Object.values(dia.fixos).flat(), ...dia.moveis];
+  for (const c of todos) { porId.set(c.id, c); if (c.ponomar_id) porId.set('pon-' + c.ponomar_id, c); }
+  const idsLec = new Set(Object.entries(lec).filter(([k]) => !k.startsWith('_')).flatMap(([, v]) => v.map(x => x.id)));
+  for (const l of ['pt', 'ru', 'uk', 'en']) {
+    const f = Object.fromEntries(Object.entries(dia.fixos).map(([md, cs]) => [md, cs.filter(c => !doMotor(c)).map(c => linha(c, l))]));
+    const m = dia.moveis.filter(c => !doMotor(c)).map(c => { const { nota, ...regra } = c.regra; return [regra, ...linha(c, l)]; });
+    const n = Object.fromEntries([...idsLec].filter(id => porId.has(id)).map(id => [id, porId.get(id)[l]]));
+    fs.writeFileSync(`${dirO}/santos-${l}.json`, JSON.stringify({ f, m, n }));
+    if (Object.keys(fichas).length) fs.writeFileSync(`${dirO}/fichas-${l}.json`, JSON.stringify(Object.fromEntries(Object.entries(fichas).map(([id, x]) =>
+      [id, { n: x.nome[l], ti: x.titulo[l], v: x.vida[l], fe: x.festas, r: x.resumo[l], tr: x.tropario && { tom: x.tropario.tom, t: x.tropario[l] } }]))));
+  }
+  if (Object.keys(fichas).length) fs.writeFileSync(`${dirO}/fichas-cu.json`, JSON.stringify(Object.fromEntries(Object.entries(fichas).map(([id, x]) =>
+    [id, { n: x.nome.cu, tr: x.tropario ? x.tropario.cu : '' }]))));
+}
 for (const [l, gs] of Object.entries(grupos)) {
   for (const m of Object.values(gs)) { m.sort((a, b) => a.ordem - b.ordem); for (const x of m) delete x.ordem; }   // sort estável
   fs.writeFileSync(`${dirO}/grupos-${l}.json`, JSON.stringify(gs));

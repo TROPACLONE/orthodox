@@ -15,20 +15,3 @@ export function grausDoDia(d) {
   for (const [t, a] of doDia(d)) { typikon = maior(typikon, t); atual = maior(atual, a); }
   return { typikon, atual };
 }
-
-// Nomes: PT em português; nas outras línguas, por agora, a forma eslava/russa (a base de santos completa é a fase 3).
-let nomes = null, nomesDe = null;
-export async function carregarNomes(lingua) {
-  const l = lingua === 'pt' ? 'pt' : 'cu';
-  if (nomesDe === l) return;
-  nomes = (await import(`./gerado/nomes-${l}.json`, { with: { type: 'json' } })).default; nomesDe = l;
-}
-
-/** Nomes das comemorações com grau, do maior para o menor (as grandes festas vêm do motor e não se repetem). */
-export function comemoracoesDoDia(d) {
-  if (!nomes) return [];
-  const md = chaveMD(d.juliano.m, d.juliano.d), n = nomes[md] || [];
-  return doDia(d).map(([t, a], i) => ({ t, a, nome: n[i] }))
-    .filter(c => c.a !== 'grande' && c.t !== 'grande' && c.nome)
-    .sort((x, y) => (ORDEM[y.a] || 0) - (ORDEM[x.a] || 0)).map(c => c.nome);
-}
